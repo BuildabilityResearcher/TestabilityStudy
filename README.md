@@ -18,19 +18,6 @@ Reproduction package for the paper "Testing the past: can we still run tests in 
 └── README.md 
 ```
 
-In addition, the rest of this file describe methodological details of the studies presented in the paper, and provides an introduction to the data:
-
-- [Original Study](#original-study) -> Summary of the previous experiment leading to ours and its results
-- [Set Up](#set-up) -> Technical requirements to reproduce the experiments
-- [Replication Study](#replication-study)
-    - [Step 1: Project Mining](#step-1-project-mining-replication-study)
-    - [Step 2. Buildability experiment](#step-2-buildability-experiment-replication-study)
-    - [Step 3. Results analysis](#step-3-results-analysis-replication-study)
-- [Reproduction Study](#reproduction-study)
-    - [Step 1: Project Mining](#step-1-project-mining-reproduction-study)
-    - [Step 2. Buildability experiment](#step-2-buildability-experiment-reproduction-study)
-    - [Step 3. Results analysis](#step-3-results-analysis-reproduction-study)
-
 Some data needed to correctly reproduce the experiment is hosted in Zenodo (https://zenodo.org/record/5425240), due to the limitations of the GitHub file size (the size of the dataset >1TB decompressed). The dataset hosted in Zenodo contains the following files:
 
 ```bash
