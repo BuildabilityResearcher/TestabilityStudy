@@ -1,0 +1,301 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,01ec141,FAIL,0,NO,0,NO,0,2012-06-19 15:52:21 +0800,包含下拉刷新listView、可以响应各个方向CompoundDrawables点击操作的TextView、图片缓存,0,0
+1,53622b7,FAIL,0,NO,0,NO,0,2012-06-19 16:15:52 +0800,修改gitignore,0,0
+2,645344d,FAIL,0,NO,0,NO,0,2012-06-19 16:18:19 +0800,修改gitignore,0,0
+3,3db7269,FAIL,0,NO,0,NO,0,2012-06-20 11:26:14 +0800,1、ImageCache增加另外的接口loadDrawable，无需设置默认资源id,0,0
+4,2bcc3b6,FAIL,0,NO,0,NO,0,2012-07-11 23:11:51 +0800,2.0,0,0
+5,22e2b60,FAIL,0,NO,0,NO,0,2012-07-16 11:28:56 +0800,2.1版本,0,0
+6,c0474fd,FAIL,0,NO,0,NO,0,2012-10-29 17:49:07 +0800,增加线程池,0,0
+7,8b00180,FAIL,0,NO,0,NO,0,2012-10-29 17:54:47 +0800,增加线程池,0,0
+8,7fae4d4,FAIL,0,NO,0,NO,0,2013-06-25 21:45:31 +0800,"1 Android common libs include ImageCache, ImageSDCardCache, PreloadDataCache, DropDownListView, SlideOnePageGallery, DownloadManagerPro, PackageUtils(installSilent), ShellUtils and other common utils 2 Uniform code Specification, Comments changed to English",44,2672
+9,349deb9,FAIL,0,NO,0,NO,0,2013-06-25 21:50:46 +0800,"1 Android common libs include ImageCache, ImageSDCardCache, PreloadDataCache, DropDownListView, SlideOnePageGallery, DownloadManagerPro, PackageUtils(installSilent), ShellUtils and other common utils 2 Uniform code Specification, Comments changed to English",44,2672
+10,af1929b,FAIL,0,NO,0,NO,0,2013-06-25 21:52:05 +0800,detele gen folder,44,2672
+11,d97c184,FAIL,0,NO,0,NO,0,2013-07-11 19:58:33 +0800,Create README.md,44,2672
+12,a7afd39,FAIL,0,NO,0,NO,0,2013-07-11 20:22:30 +0800,Update README.md,44,2672
+13,da485c7,FAIL,0,NO,0,NO,0,2013-07-11 20:33:24 +0800,Update README.md,44,2672
+14,9f9b3ee,FAIL,0,NO,0,NO,0,2013-07-11 20:35:57 +0800,Update README.md,44,2672
+15,5c398e8,FAIL,0,NO,0,NO,0,2013-07-11 20:37:02 +0800,Update README.md,44,2672
+16,d5e7cd7,FAIL,0,NO,0,NO,0,2013-07-11 20:38:00 +0800,Update README.md,44,2672
+17,7742c56,FAIL,0,NO,0,NO,0,2013-07-11 20:43:31 +0800,Update README.md,44,2672
+18,1546265,FAIL,0,NO,0,NO,0,2013-07-11 20:50:31 +0800,Update README.md,44,2672
+19,798ed32,FAIL,0,NO,0,NO,0,2013-07-11 20:54:55 +0800,Update README.md,44,2672
+20,3509405,FAIL,0,NO,0,NO,0,2013-07-11 20:57:47 +0800,Update README.md,44,2672
+21,235ce8d,FAIL,0,NO,0,NO,0,2013-07-11 20:58:30 +0800,Update README.md,44,2672
+22,d15880f,FAIL,0,NO,0,NO,0,2013-07-11 20:59:17 +0800,Update README.md,44,2672
+23,26cac56,FAIL,0,NO,0,NO,0,2013-07-11 21:00:14 +0800,Update README.md,44,2672
+24,307ecf2,FAIL,0,NO,0,NO,0,2013-07-11 21:01:09 +0800,Update README.md,44,2672
+25,fb092d5,FAIL,0,NO,0,NO,0,2013-07-11 21:07:44 +0800,Update README.md,44,2672
+26,9cee736,FAIL,0,NO,0,NO,0,2013-07-11 21:08:34 +0800,Update README.md,44,2672
+27,cbe2678,FAIL,0,NO,0,NO,0,2013-07-11 21:09:36 +0800,Update README.md,44,2672
+28,671e415,FAIL,0,NO,0,NO,0,2013-07-11 21:10:31 +0800,Update README.md,44,2672
+29,59fd831,FAIL,0,NO,0,NO,0,2013-07-11 21:11:41 +0800,Update README.md,44,2672
+30,74f1fbf,FAIL,0,NO,0,NO,0,2013-07-11 21:13:14 +0800,Update README.md,44,2672
+31,4eae81f,FAIL,0,NO,0,NO,0,2013-07-11 21:14:10 +0800,Update README.md,44,2672
+32,11a5b21,FAIL,0,NO,0,NO,0,2013-07-11 21:15:19 +0800,Update README.md,44,2672
+33,c415ded,FAIL,0,NO,0,NO,0,2013-07-11 21:16:45 +0800,Update README.md,44,2672
+34,f7c5ee6,FAIL,0,NO,0,NO,0,2013-07-11 21:17:30 +0800,Update README.md,44,2672
+35,2a08d5e,FAIL,0,NO,0,NO,0,2013-07-15 22:09:41 +0800,Update README.md,44,2672
+36,9bc984a,FAIL,0,NO,0,NO,0,2013-07-15 22:11:28 +0800,Update README.md,44,2672
+37,3249a88,FAIL,0,NO,0,NO,0,2013-07-15 22:12:21 +0800,Update README.md,44,2672
+38,060b181,FAIL,0,NO,0,NO,0,2013-07-18 21:57:53 +0800,Update README.md,44,2672
+39,dfbcb3d,FAIL,0,NO,0,NO,0,2013-08-01 18:58:15 +0800,1 modify onBottom mutli called bug DropDownListView 2 modify FileNameRuleCurrentTime bug 3 PackageUtils installSilent add more result,44,2711
+40,b24a385,FAIL,0,NO,0,NO,0,2013-08-02 09:36:24 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,44,2711
+41,97505aa,FAIL,0,NO,0,NO,0,2013-08-07 22:57:28 +0800,Update README.md,44,2711
+42,2279a10,FAIL,0,NO,0,NO,0,2013-08-07 22:59:18 +0800,Update README.md,44,2711
+43,3f589a7,FAIL,0,NO,0,NO,0,2013-08-07 23:00:42 +0800,Update README.md,44,2711
+44,e3c00d8,FAIL,0,NO,0,NO,0,2013-08-07 23:02:04 +0800,Update README.md,44,2711
+45,abbccae,FAIL,0,NO,0,NO,0,2013-08-07 23:04:40 +0800,Update README.md,44,2711
+46,b252b61,FAIL,0,NO,0,NO,0,2013-08-21 22:16:34 +0800,1 fix install silent fail bug on android 4.2 2 reconstruction of a conditional statement,44,2708
+47,c1a97e3,FAIL,0,NO,0,NO,0,2013-08-21 22:18:49 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,44,2708
+48,b33ba0a,FAIL,0,NO,0,NO,0,2013-08-24 21:37:25 +0800,1 add uninstall silent and normal in PackageUtils.java 2 add TimeUtils.java,45,2762
+49,743983b,FAIL,0,NO,0,NO,0,2013-09-23 10:56:05 +0800,update readme,45,2762
+50,de0379c,FAIL,0,NO,0,NO,0,2013-09-23 10:58:40 +0800,update readme,45,2762
+51,93ee2a3,FAIL,0,NO,0,NO,0,2013-09-23 10:59:56 +0800,update readme,45,2762
+52,69e5113,FAIL,0,NO,0,NO,0,2013-09-23 11:01:20 +0800,update readme,45,2762
+53,43cd99c,FAIL,0,NO,0,NO,0,2013-09-24 10:29:31 +0800,update demo apk url,45,2762
+54,8b95238,FAIL,0,NO,0,NO,0,2013-09-24 12:22:15 +0800,add PreferencesUtils.java,46,2821
+55,f8aa908,FAIL,0,NO,0,NO,0,2013-09-24 12:22:55 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,46,2821
+56,9e63be7,FAIL,0,NO,0,NO,0,2013-09-26 14:46:27 +0800,modify javadoc,46,2821
+57,6b207eb,FAIL,0,NO,0,NO,0,2013-09-26 14:52:04 +0800,fix DropDownListView#setHeaderReleaseMinDistance not work bug,46,2823
+58,c81c28c,FAIL,0,NO,0,NO,0,2013-09-26 19:53:21 +0800,fix hard to drop down bug on hdpi,46,2826
+59,8467acf,FAIL,0,NO,0,NO,0,2013-09-27 16:21:00 +0800,update readme,46,2826
+60,4c5fb74,FAIL,0,NO,0,NO,0,2013-09-27 16:23:41 +0800,Update README.md,46,2826
+61,5c21660,FAIL,0,NO,0,NO,0,2013-09-28 22:32:22 +0800,Update README.md,46,2826
+62,6d322cb,FAIL,0,NO,0,NO,0,2013-09-28 22:34:22 +0800,Update README.md,46,2826
+63,9666cec,FAIL,0,NO,0,NO,0,2013-09-28 22:34:53 +0800,Update README.md,46,2826
+64,ca7c8ba,FAIL,0,NO,0,NO,0,2013-09-28 22:35:45 +0800,Update README.md,46,2826
+65,8c4775b,FAIL,0,NO,0,NO,0,2013-09-28 22:36:21 +0800,Update README.md,46,2826
+66,69cbbbd,FAIL,0,NO,0,NO,0,2013-09-28 22:37:46 +0800,Update README.md,46,2826
+67,061d80f,FAIL,0,NO,0,NO,0,2013-09-28 22:38:49 +0800,Update README.md,46,2826
+68,6437802,FAIL,0,NO,0,NO,0,2013-09-28 22:39:46 +0800,Update README.md,46,2826
+69,236fc1b,FAIL,0,NO,0,NO,0,2013-09-28 22:41:51 +0800,Update README.md,46,2826
+70,831f101,FAIL,0,NO,0,NO,0,2013-09-28 22:42:57 +0800,Update README.md,46,2826
+71,396a197,FAIL,0,NO,0,NO,0,2013-09-30 15:19:15 +0800,add http common utils,50,3140
+72,6a4aea4,FAIL,0,NO,0,NO,0,2013-09-30 15:20:25 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,50,3140
+73,564347d,FAIL,0,NO,0,NO,0,2013-09-30 19:29:44 +0800,modify java doc,50,3142
+74,006229b,FAIL,0,NO,0,NO,0,2013-10-08 11:21:45 +0800,Update README.md,50,3142
+75,1695b82,FAIL,0,NO,0,NO,0,2013-10-09 21:33:18 +0800,fix max-age should in milliseconds bug,50,3142
+76,d5a82de,FAIL,0,NO,0,NO,0,2013-10-09 21:33:32 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,50,3142
+77,133d2a5,FAIL,0,NO,0,NO,0,2013-10-11 13:37:42 +0800,add api guide url in readme,50,3142
+78,e566465,FAIL,0,NO,0,NO,0,2013-10-12 19:29:39 +0800,Create ImageCacheManager,50,3142
+79,8e9d39a,FAIL,0,NO,0,NO,0,2013-10-12 23:32:33 +0800,Update ImageCacheManager,50,3142
+80,200563e,FAIL,0,NO,0,NO,0,2013-10-12 23:56:28 +0800,更新ImageCacheManager(哈哈，我会用git了！）,50,3142
+81,86d391c,FAIL,0,NO,0,NO,0,2013-10-13 00:14:57 +0800,添加ImageCacheManager使用方法注释,50,3142
+82,71d9d35,FAIL,0,NO,0,NO,0,2013-10-13 00:44:49 +0800,进一步简化代码,50,3142
+83,2e8d858,FAIL,0,NO,0,NO,0,2013-10-13 00:46:30 +0800,change ImageCacheManager.java,50,3142
+84,7415b44,FAIL,0,NO,0,NO,0,2013-10-13 00:48:01 +0800,修正例子的小bug,50,3142
+85,e6ecc14,FAIL,0,NO,0,NO,0,2013-10-16 20:57:01 +0800,fix readFile charset error,50,3145
+86,053a01a,FAIL,0,NO,0,NO,0,2013-10-16 20:57:33 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,50,3145
+87,d52df4e,FAIL,0,NO,0,NO,0,2013-10-22 21:31:12 +0800,add isTopActivity in PackageUtils.java,50,3160
+88,af27124,FAIL,0,NO,0,NO,0,2013-10-23 19:34:30 +0800,update utils,50,3171
+89,3179835,FAIL,0,NO,0,NO,0,2013-10-26 14:56:13 +0800,add secondary cahe,56,3519
+90,618e39d,FAIL,0,NO,0,NO,0,2013-10-26 16:05:42 +0800,add deleteUnusedFiles and initData function in ImageCache.java and ImageSDCardCache.java,56,3545
+91,78ad867,FAIL,0,NO,0,NO,0,2013-10-26 16:26:22 +0800,modify javadoc,56,3545
+92,2429979,FAIL,0,NO,0,NO,0,2013-10-27 11:11:40 +0800,Update README.md,56,3545
+93,2fff5fd,FAIL,0,NO,0,NO,0,2013-10-27 11:14:28 +0800,Update README.md,56,3545
+94,8947d53,FAIL,0,NO,0,NO,0,2013-10-28 14:39:50 +0800,modify javadoc,56,3545
+95,d1d946a,FAIL,0,NO,0,NO,0,2013-10-28 14:40:27 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,56,3545
+96,3c9ea67,FAIL,0,NO,0,NO,0,2013-10-29 17:29:42 +0800,Update README.md,56,3545
+97,0232c18,FAIL,0,NO,0,NO,0,2013-10-31 10:10:52 +0800,Update README.md,56,3545
+98,ac5b65a,FAIL,0,NO,0,NO,0,2013-10-31 14:56:30 +0800,Update README.md,56,3545
+99,495aff6,FAIL,0,NO,0,NO,0,2013-11-01 14:12:01 +0800,begin HttpCache.java,57,3547
+100,03057fe,FAIL,0,NO,0,NO,0,2013-11-01 14:12:16 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,57,3547
+101,100edd4,FAIL,0,NO,0,NO,0,2013-11-02 12:32:35 +0800,Update README.md,57,3547
+102,5565035,FAIL,0,NO,0,NO,0,2013-11-04 21:34:06 +0800,add public static String httpGetString(HttpRequest request),57,3550
+103,04a83b4,FAIL,0,NO,0,NO,0,2013-11-05 17:47:25 +0800,add HttpCacheDao,59,3659
+104,2268546,FAIL,0,NO,0,NO,0,2013-11-06 21:36:49 +0800,deving HttpCache,59,3685
+105,576d480,FAIL,0,NO,0,NO,0,2013-11-08 09:35:01 +0800,HttpCache extends SimpleCache,59,3686
+106,7a9fa91,FAIL,0,NO,0,NO,0,2013-11-08 09:44:02 +0800,Update README.md,59,3686
+107,760a44c,FAIL,0,NO,0,NO,0,2013-11-08 09:44:44 +0800,Update README.md,59,3686
+108,400c47c,FAIL,0,NO,0,NO,0,2013-11-08 09:45:04 +0800,Update README.md,59,3686
+109,6e9a76c,FAIL,0,NO,0,NO,0,2013-11-08 09:47:43 +0800,Update README.md,59,3686
+110,4240671,FAIL,0,NO,0,NO,0,2013-11-08 09:48:37 +0800,Update README.md,59,3686
+111,d8aeef6,FAIL,0,NO,0,NO,0,2013-11-08 09:49:31 +0800,Update README.md,59,3686
+112,004e857,FAIL,0,NO,0,NO,0,2013-11-08 09:50:15 +0800,Update README.md,59,3686
+113,d067b18,FAIL,0,NO,0,NO,0,2013-11-08 21:44:39 +0800,Update README.md,59,3686
+114,2a91043,FAIL,0,NO,0,NO,0,2013-11-12 16:47:20 +0800,shutdown() change public to protected,59,3686
+115,2a9f9e9,FAIL,0,NO,0,NO,0,2013-11-12 16:47:47 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,59,3686
+116,d207658,FAIL,0,NO,0,NO,0,2013-11-15 19:10:22 +0800,modify HttpCache.java,59,3701
+117,5aa4a39,FAIL,0,NO,0,NO,0,2013-11-15 20:04:33 +0800,modify HttpCache.java,59,3738
+118,96f210d,FAIL,0,NO,0,NO,0,2013-11-15 20:42:53 +0800,modify HttpCache.java,59,3752
+119,5dc361f,FAIL,0,NO,0,NO,0,2013-11-15 21:19:57 +0800,modify HttpCache.java,59,3750
+120,ec0b029,FAIL,0,NO,0,NO,0,2013-11-15 21:25:03 +0800,modify javadoc,59,3750
+121,a55f692,FAIL,0,NO,0,NO,0,2013-11-17 00:11:18 +0800,Update README.md,59,3750
+122,f5fc661,FAIL,0,NO,0,NO,0,2013-11-18 09:19:46 +0800,modify HttpCacheListener,59,3761
+123,774433c,FAIL,0,NO,0,NO,0,2013-11-18 09:20:00 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,59,3761
+124,0fa9161,FAIL,0,NO,0,NO,0,2013-11-18 09:58:01 +0800,add containsKey and clear function,59,3770
+125,cf9eaa0,FAIL,0,NO,0,NO,0,2013-11-18 12:01:16 +0800,modify HttpCache,59,3771
+126,9a1b77b,FAIL,0,NO,0,NO,0,2013-11-19 21:48:02 +0800,add isExpired to HttpCache,59,3773
+127,b76b0f9,FAIL,0,NO,0,NO,0,2013-11-22 19:33:51 +0800,add isConnecionKeepAlive,59,3797
+128,36a0329,FAIL,0,NO,0,NO,0,2013-11-25 17:43:37 +0800,OnImageSDCallbackListener add onPreGet onGetSuccess onGetFailed,61,3873
+129,0a977ef,FAIL,0,NO,0,NO,0,2013-11-25 18:13:10 +0800,add setRequestProperties for imagecache,61,3890
+130,db377d4,FAIL,0,NO,0,NO,0,2013-11-25 23:05:06 +0800,add project.properties,61,3890
+131,1f7ef4b,FAIL,0,NO,0,NO,0,2013-11-25 23:10:03 +0800,code format,61,3889
+132,ed57a3f,FAIL,0,NO,0,NO,0,2013-11-26 11:22:57 +0800,code format,61,3888
+133,edd2ee5,FAIL,0,NO,0,NO,0,2013-11-26 16:35:37 +0800,support cache-control is no-cache in http request,61,3891
+134,018fd81,FAIL,0,NO,0,NO,0,2013-11-26 17:08:12 +0800,remove footer view when do not has more,61,3892
+135,6ac76d9,FAIL,0,NO,0,NO,0,2013-11-26 18:02:46 +0800,support cache-control is no-store in http request,61,3909
+136,bea51bf,FAIL,0,NO,0,NO,0,2013-11-27 10:55:43 +0800,Update README.md,61,3909
+137,02c0f08,FAIL,0,NO,0,NO,0,2013-11-27 10:56:21 +0800,Update README.md,61,3909
+138,eb79e22,FAIL,0,NO,0,NO,0,2013-12-05 22:25:02 +0800,modify drop_down_list_footer_button,61,3911
+139,6f7833c,FAIL,0,NO,0,NO,0,2013-12-05 22:28:14 +0800,add getRandom(int max),61,3920
+140,42037e9,FAIL,0,NO,0,NO,0,2013-12-05 22:33:56 +0800,add Shuffling algorithm,61,3940
+141,ab755ff,FAIL,0,NO,0,NO,0,2013-12-05 22:47:00 +0800,modify shuffle int[],61,3942
+142,08609d7,FAIL,0,NO,0,NO,0,2013-12-06 11:39:27 +0800,delete unuse variable name,61,3941
+143,6d2dc8e,FAIL,0,NO,0,NO,0,2013-12-06 11:42:11 +0800,fix file name extesion error some times,61,3941
+144,bf0a6cc,FAIL,0,NO,0,NO,0,2013-12-07 10:13:22 +0800,add AssetDatabaseOpenHelper,62,3985
+145,68acd42,FAIL,0,NO,0,NO,0,2013-12-07 10:16:30 +0800,add HorizontalListView,63,4217
+146,5d0f307,FAIL,0,NO,0,NO,0,2013-12-07 10:16:43 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,63,4216
+147,6be4458,FAIL,0,NO,0,NO,0,2013-12-07 10:33:17 +0800,modify writeFile in FileUtils.java,63,4222
+148,5e0f5de,FAIL,0,NO,0,NO,0,2013-12-07 10:33:36 +0800,add file not null,63,4222
+149,c9c15ef,FAIL,0,NO,0,NO,0,2013-12-07 10:36:19 +0800,add auto makeDirs when writeFile,63,4224
+150,54dba4f,FAIL,0,NO,0,NO,0,2013-12-07 10:40:20 +0800,modify copyFile,63,4216
+151,8126d78,FAIL,0,NO,0,NO,0,2013-12-07 10:43:48 +0800,modify javadoc,63,4216
+152,219143b,FAIL,0,NO,0,NO,0,2013-12-07 10:56:02 +0800,add javadoc,63,4216
+153,f42baa1,FAIL,0,NO,0,NO,0,2013-12-07 11:05:22 +0800,add random shuffle,63,4224
+154,13d3a56,FAIL,0,NO,0,NO,0,2013-12-07 11:13:42 +0800,Update README.md,63,4224
+155,4111842,FAIL,0,NO,0,NO,0,2013-12-07 11:15:13 +0800,Update README.md,63,4224
+156,eb88d11,FAIL,0,NO,0,NO,0,2013-12-07 11:33:43 +0800,"add http get asynchronous in HttpUtils, same to HttpCache",63,4260
+157,8015765,FAIL,0,NO,0,NO,0,2013-12-07 11:34:18 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,63,4260
+158,3f8a2c7,FAIL,0,NO,0,NO,0,2013-12-09 05:37:29 +0800,add ToastUtils.java,64,4280
+159,4b95f77,FAIL,0,NO,0,NO,0,2013-12-12 09:37:34 +0800,add getAppVersionCode,64,4292
+160,423299a,FAIL,0,NO,0,NO,0,2013-12-12 09:38:41 +0800,add copyFile,64,4301
+161,e315a7c,FAIL,0,NO,0,NO,0,2013-12-12 09:39:25 +0800,add app patch update,66,4320
+162,541c1f0,FAIL,0,NO,0,NO,0,2013-12-12 21:10:33 +0800,add installSilent pm install params,66,4323
+163,51bb6c1,FAIL,0,NO,0,NO,0,2013-12-17 14:29:35 +0800,encode http params,66,4323
+164,3e87ae1,FAIL,0,NO,0,NO,0,2013-12-20 19:45:04 +0800,add start InstalledAppDetails Activity,66,4336
+165,d7b029c,FAIL,0,NO,0,NO,0,2013-12-27 20:38:54 +0800,add whether print exception when Json format,66,4355
+166,ddb12e3,FAIL,0,NO,0,NO,0,2013-12-29 07:41:48 +0000,Add a Bitdeli badge to README,66,4355
+167,ba1972a,FAIL,0,NO,0,NO,0,2013-12-28 23:38:54 -0800,Merge pull request #2 from bitdeli-chef/master,66,4355
+168,d5766bf,FAIL,0,NO,0,NO,0,2013-12-31 14:09:04 +0800,add setCompressSize when image load,66,4373
+169,7eba6c5,FAIL,0,NO,0,NO,0,2013-12-31 14:10:37 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,66,4373
+170,2f1c278,FAIL,0,NO,0,NO,0,2013-12-31 14:34:22 +0800,add CompressListener in ImageCache.java,66,4379
+171,91dd4a2,FAIL,0,NO,0,NO,0,2013-12-31 14:34:41 +0800,modify javadoc,66,4379
+172,db8ffbe,FAIL,0,NO,0,NO,0,2013-12-31 18:37:57 +0800,delete unuse code,66,4378
+173,c64fd1a,FAIL,0,NO,0,NO,0,2014-01-03 20:09:08 +0800,add githalytics,66,4378
+174,709bc3a,FAIL,0,NO,0,NO,0,2014-01-03 21:52:27 +0800,add onGetNotInCache in  OnImageCallbackListener,66,4388
+175,a614bc0,FAIL,0,NO,0,NO,0,2014-01-03 21:54:34 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,66,4388
+176,8f2efef,FAIL,0,NO,0,NO,0,2014-01-04 14:35:38 +0800,add zh-rTW,66,4388
+177,9c10b6b,FAIL,0,NO,0,NO,0,2014-01-04 14:36:19 +0800,delete unuse string,66,4388
+178,429fd95,FAIL,0,NO,0,NO,0,2014-01-04 21:06:51 +0800,modify string to stringbuilder,66,4387
+179,035ea6e,FAIL,0,NO,0,NO,0,2014-01-05 10:36:01 +0800,Update README.md,66,4387
+180,02bdd5f,FAIL,0,NO,0,NO,0,2014-01-05 14:38:34 +0800,Update README.md,66,4387
+181,a33058c,FAIL,0,NO,0,NO,0,2014-01-05 14:45:56 +0800,Update README.md,66,4387
+182,e2d67e2,FAIL,0,NO,0,NO,0,2014-01-06 00:26:24 +0800,Update README.md,66,4387
+183,73374e9,FAIL,0,NO,0,NO,0,2014-01-13 21:14:46 +0800,add baidu download url,66,4387
+184,d8d4640,FAIL,0,NO,0,NO,0,2014-01-13 21:16:28 +0800,Update README.md,66,4387
+185,b2b6a56,FAIL,0,NO,0,NO,0,2014-01-17 14:21:56 +0800,add 360 and xiaomi,66,4387
+186,ae9c6a5,FAIL,0,NO,0,NO,0,2014-01-20 14:23:40 +0800,fix map to json bug,66,4387
+187,2d6ec13,FAIL,0,NO,0,NO,0,2014-01-20 17:39:53 +0800,add License,66,4387
+188,c75ee32,FAIL,0,NO,0,NO,0,2014-01-21 21:37:01 +0800,add ViewUtils.java,67,4456
+189,afc5b40,FAIL,0,NO,0,NO,0,2014-01-21 21:38:02 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,67,4456
+190,9be9dd2,FAIL,0,NO,0,NO,0,2014-01-21 21:39:33 +0800,Update README.md,67,4456
+191,cb07285,FAIL,0,NO,0,NO,0,2014-01-26 10:47:42 +0800,fix getFileName error below api 11,67,4458
+192,476cab7,FAIL,0,NO,0,NO,0,2014-01-26 10:48:36 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,67,4458
+193,7547b14,FAIL,0,NO,0,NO,0,2014-02-13 09:38:30 +0800,add  whether show footer when no more data in DropDownListView,67,4465
+194,1ad0fdb,FAIL,0,NO,0,NO,0,2014-02-13 09:40:35 +0800,add CacheManager,68,4478
+195,9afd7f1,FAIL,0,NO,0,NO,0,2014-02-13 10:43:47 +0800,modify javadoc,68,4478
+196,09e0eee,FAIL,0,NO,0,NO,0,2014-02-14 00:00:59 +0800,fix drawable be used common leading to imageView scaleType error bug,68,4481
+197,2b4113b,FAIL,0,NO,0,NO,0,2014-02-14 00:34:22 +0800,add tips to add permissions in manifest for ImageCache,68,4481
+198,42d4b23,FAIL,0,NO,0,NO,0,2014-02-14 00:36:14 +0800,Merge pull request #1 from hackoooo/patch-1,68,4481
+199,d4ebb19,FAIL,0,NO,0,NO,0,2014-02-14 01:04:14 +0800,modify ImageCacheManager,69,4561
+200,bcb6d0c,FAIL,0,NO,0,NO,0,2014-02-14 01:07:26 +0800,add getImageCache and getImageSDCardCache to CacheManager.java,69,4567
+201,bea0b82,FAIL,0,NO,0,NO,0,2014-02-14 10:18:41 +0800,modify version,69,4567
+202,66a04e8,FAIL,0,NO,0,NO,0,2014-02-14 16:39:49 +0800,add ScreenUtils.java,70,4578
+203,78c3604,FAIL,0,NO,0,NO,0,2014-02-17 00:37:00 +0800,update http cache info,70,4578
+204,e2918f3,FAIL,0,NO,0,NO,0,2014-02-19 17:04:33 +0800,add getInstallLocation for PackageUtils.java,70,4608
+205,bc694b7,FAIL,0,NO,0,NO,0,2014-02-19 17:04:54 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,70,4608
+206,e41a447,FAIL,0,NO,0,NO,0,2014-02-19 18:32:42 +0800,add getImagePath for ImageCache,70,4619
+207,ae8dd81,FAIL,0,NO,0,NO,0,2014-02-20 11:41:57 +0800,fix getImagePath bug,70,4620
+208,f51cadf,FAIL,0,NO,0,NO,0,2014-02-20 14:34:56 +0800,modify Drawable to Bitmap in ImageMemoryCache,70,4613
+209,824d714,FAIL,0,NO,0,NO,0,2014-02-20 20:28:32 +0800,modify ImageCache,69,4623
+210,42fce62,FAIL,0,NO,0,NO,0,2014-02-20 20:35:05 +0800,modfiy versionCode,69,4623
+211,3d388d4,FAIL,0,NO,0,NO,0,2014-02-21 18:54:29 +0800,add link,69,4623
+212,09686d1,FAIL,0,NO,0,NO,0,2014-02-22 19:26:17 +0800,modify link,69,4623
+213,7ae006c,FAIL,0,NO,0,NO,0,2014-02-25 19:17:49 +0800,add Proguard,69,4623
+214,36c06ce,FAIL,0,NO,0,NO,0,2014-02-25 20:35:42 +0800,Add proguard.cfg,69,4623
+215,f7af8ca,FAIL,0,NO,0,NO,0,2014-02-25 20:36:33 +0800,Merge branch 'master' of github.com:Trinea/AndroidCommon,69,4623
+216,bc0c89c,FAIL,0,NO,0,NO,0,2014-02-26 00:08:08 +0800,Add Contact Me,69,4623
+217,091e9cc,FAIL,0,NO,0,NO,0,2014-02-26 00:35:37 +0800,Update README.md,69,4623
+218,a6f69b6,FAIL,0,NO,0,NO,0,2014-03-04 18:01:00 +0800,Modify HttpResponse getExpiredTime,69,4629
+219,670a1f4,FAIL,0,NO,0,NO,0,2014-03-11 09:49:46 +0800,Fix OOM bug,69,4637
+220,7013abb,FAIL,0,NO,0,NO,0,2014-03-11 15:01:52 +0800,Add .project,69,4637
+221,78e6634,FAIL,0,NO,0,NO,0,2014-03-24 20:06:40 +0800,Add DigestUtils,70,4657
+222,131dac6,FAIL,0,NO,0,NO,0,2014-04-09 21:34:26 +0800,"Add writeFile(String, List, boolean)",70,4685
+223,3e83088,FAIL,0,NO,0,NO,0,2014-04-11 19:37:45 +0800,HttpCache support thread cache,70,4693
+224,dc8301b,FAIL,0,NO,0,NO,0,2014-04-13 12:18:01 +0800,Update ImageCache.java,70,4711
+225,5e98632,FAIL,0,NO,0,NO,0,2014-04-26 16:38:49 +0800,Code format with new format xml,70,4699
+226,ba5b43f,FAIL,0,NO,0,NO,0,2014-04-26 16:43:09 +0800,Code format with new format xml,70,4699
+227,d265ade,FAIL,0,NO,0,NO,0,2014-04-26 16:44:27 +0800,Code format with new format xml,70,4700
+228,163080a,FAIL,0,NO,0,NO,0,2014-04-26 18:17:57 +0800,Merge pull request #4 from lguipeng/master,70,4718
+229,084c554,FAIL,0,NO,0,NO,0,2014-04-26 18:21:15 +0800,Add getImageFromSdcardListener,70,4720
+230,339959a,FAIL,0,NO,0,NO,0,2014-04-26 18:51:15 +0800,Add two-dimensional code download,70,4720
+231,422ba07,FAIL,0,NO,0,NO,0,2014-04-26 18:56:50 +0800,Add two-dimensional code download,70,4720
+232,04165b2,FAIL,0,NO,0,NO,0,2014-04-27 00:28:31 +0800,Add local download,70,4720
+233,bb1e77b,FAIL,0,NO,0,NO,0,2014-04-27 00:39:18 +0800,Add qrcode,70,4720
+234,ab739cf,FAIL,0,NO,0,NO,0,2014-04-27 11:03:38 +0800,Adapter HttpCache to Android2.3,70,4724
+235,8cf89d6,FAIL,0,NO,0,NO,0,2014-04-27 15:52:07 +0800,Adapter HttpCache to Android2.3,71,4728
+236,6e6fc05,FAIL,21,NO,0,NO,0,2014-04-27 23:38:12 +0800,Add pom.xml,71,4728
+237,9cb3ac9,FAIL,7,NO,0,NO,0,2014-04-27 23:50:54 +0800,Add pom.xml,71,4728
+238,7716826,FAIL,6,NO,0,NO,0,2014-05-07 12:50:44 +0800,Add AppUtils,72,4746
+239,1fe95ca,FAIL,8,NO,0,NO,0,2014-05-11 16:25:45 +0800,Add Sonatype OSS config,72,4746
+240,f09aabe,FAIL,7,NO,0,NO,0,2014-05-11 16:27:18 +0800,[maven-release-plugin] prepare release v4.2.10,72,4746
+241,85e64a8,FAIL,6,NO,0,NO,0,2014-05-11 16:27:30 +0800,[maven-release-plugin] prepare for next development iteration,72,4746
+242,418e31e,FAIL,7,NO,0,NO,0,2014-05-11 16:29:28 +0800,[maven-release-plugin] prepare release v4.2.11,72,4746
+243,b6db32e,FAIL,6,NO,0,NO,0,2014-05-11 16:29:41 +0800,[maven-release-plugin] prepare for next development iteration,72,4746
+244,7b8f51a,FAIL,6,NO,0,NO,0,2014-05-11 19:10:52 +0800,Modify pom.xml,72,4746
+245,ef199be,FAIL,6,NO,0,NO,0,2014-05-11 19:12:36 +0800,[maven-release-plugin] prepare release v4.2.10,72,4746
+246,91830d0,FAIL,6,NO,0,NO,0,2014-05-11 19:17:29 +0800,Modify version,72,4746
+247,e34edcd,FAIL,7,NO,0,NO,0,2014-05-11 19:18:21 +0800,[maven-release-plugin] prepare release v4.2.10,72,4746
+248,57f898c,FAIL,6,NO,0,NO,0,2014-05-11 19:23:49 +0800,Add maven config,72,4746
+249,bd1a8fb,FAIL,6,NO,0,NO,0,2014-05-11 19:25:19 +0800,[maven-release-plugin] prepare release v4.2.13,72,4746
+250,41d83b3,FAIL,7,NO,0,NO,0,2014-05-11 19:25:38 +0800,[maven-release-plugin] prepare for next development iteration,72,4746
+251,8b7b643,FAIL,7,NO,0,NO,0,2014-05-11 19:37:35 +0800,Modify packaging to apklib,72,4746
+252,485a0d5,FAIL,6,NO,0,NO,0,2014-05-11 19:57:08 +0800,Modify packaging to aar,72,4746
+253,f6d68c4,FAIL,6,NO,0,NO,0,2014-05-11 20:00:07 +0800,Modify android-maven-plugin version,72,4746
+254,d0e66df,FAIL,6,NO,0,NO,0,2014-05-11 20:01:37 +0800,Modify maven-compiler-plugin java version,72,4746
+255,5335579,FAIL,7,NO,0,NO,0,2014-05-11 20:03:14 +0800,[maven-release-plugin] prepare release v4.2.14,72,4746
+256,1b3fe85,FAIL,6,NO,0,NO,0,2014-05-11 20:03:29 +0800,[maven-release-plugin] prepare for next development iteration,72,4746
+257,af02f12,FAIL,7,NO,0,NO,0,2014-05-13 23:20:37 +0800,Modify Cache Class Diagram,72,4746
+258,9232dbb,FAIL,6,NO,0,NO,0,2014-05-14 00:04:48 +0800,[maven-release-plugin] prepare release v4.2.15,72,4746
+259,ecf429b,FAIL,6,NO,0,NO,0,2014-05-14 00:08:35 +0800,Merge branch 'master' of github.com:Trinea/android-common,72,4746
+260,57d93f1,FAIL,6,NO,0,NO,0,2014-05-14 00:12:24 +0800,Add SNAPSHOT,72,4746
+261,4b68913,FAIL,7,NO,0,NO,0,2014-05-14 00:13:24 +0800,[maven-release-plugin] prepare release v4.2.15,72,4746
+262,bae6530,FAIL,6,NO,0,NO,0,2014-05-14 00:13:41 +0800,[maven-release-plugin] prepare for next development iteration,72,4746
+263,7917d5c,FAIL,6,NO,0,NO,0,2014-05-28 20:57:48 +0800,Add SingletonUtils,73,4756
+264,2430f0a,FAIL,6,NO,0,NO,0,2014-07-10 09:51:21 +0800,Add read raw or assets file to list,73,4788
+265,a0dfb10,FAIL,7,NO,0,NO,0,2014-07-30 12:58:51 +0800,remove android version digit,72,4789
+266,18e90af,FAIL,6,NO,0,NO,0,2014-08-04 16:21:39 +0900,Add a method to get descended views,72,4802
+267,e3af040,FAIL,7,NO,0,NO,0,2014-08-05 09:35:37 +0800,Merge pull request #8 from arai-wa/master,72,4802
+268,dd1f9e0,FAIL,7,NO,0,NO,0,2014-08-05 10:38:51 +0800,Code format,72,4803
+269,ac78ada,FAIL,6,NO,0,NO,0,2014-08-08 16:53:39 +0800,Add getStringList from JSON,72,4830
+270,31b0e42,FAIL,6,NO,0,NO,0,2014-08-12 15:42:18 +0800,Add getStringCascade getJSONObjectCascade for JSONUtils,72,4867
+271,d7420ee,FAIL,6,NO,0,NO,0,2014-08-18 17:55:15 +0800,Add isApplicationInBackground for AppUtils,72,4877
+272,e6cfb42,FAIL,7,NO,0,NO,0,2014-08-23 15:46:44 +0800,Delete dbHelper.getReadableDatabase,72,4873
+273,27d3416,FAIL,7,NO,0,NO,0,2014-09-09 12:50:32 +0800,Modify javadoc,72,4873
+274,8168b4c,FAIL,7,NO,0,NO,0,2014-09-11 00:29:05 +0800,Add weibo,72,4873
+275,69f2e32,FAIL,6,NO,0,NO,0,2014-09-11 00:30:57 +0800,Add my info,72,4873
+276,60c25d4,FAIL,7,NO,0,NO,0,2014-10-26 11:33:31 +0800,Add Maven,72,4873
+277,da95604,FAIL,7,NO,0,NO,0,2014-11-03 10:18:42 +0800,Modify return type of getCacheControlMaxAge to long,72,4873
+278,9ec8423,FAIL,7,NO,0,NO,0,2014-11-05 17:39:00 +0800,Add private constructor,72,4923
+279,94ebda7,FAIL,7,NO,0,NO,0,2014-11-05 17:41:31 +0800,Add CollectionUtils.java,73,4954
+280,2879671,FAIL,6,NO,0,NO,0,2014-11-05 17:45:48 +0800,Add NetWorkUtils.java,74,5023
+281,47bdbca,FAIL,6,NO,0,NO,0,2014-11-05 17:47:48 +0800,Add NetWorkUtils.java,74,5023
+282,f0b893c,FAIL,7,NO,0,NO,0,2014-11-05 20:42:49 +0800,Modify join function,74,4995
+283,0752572,FAIL,7,NO,0,NO,0,2014-12-03 15:02:23 +0800,Add Gradle Import,74,4995
+284,e1461d7,FAIL,6,NO,0,NO,0,2015-02-13 00:02:59 +0800,Add FileUtils.moveFile,74,5011
+285,d5010b8,FAIL,7,NO,0,NO,0,2015-03-11 00:30:34 +0800,Update README.md,74,5011
+286,4ae3516,FAIL,7,NO,0,NO,0,2015-03-30 10:54:09 +0800,Add judege isDropDownStyle when setOnBottomListener,74,5013
+287,c345339,FAIL,7,NO,0,NO,0,2015-03-30 10:55:27 +0800,Merge branch 'master' of github.com:Trinea/android-common,74,5013
+288,f5822b3,FAIL,6,NO,0,NO,0,2015-07-29 10:32:47 +0800,change return type,74,5013
+289,dc45855,FAIL,7,NO,0,NO,0,2015-07-29 10:44:28 +0800,Merge pull request #21 from ddyos/patch-1,74,5013
+290,eb19d9e,FAIL,7,NO,0,NO,0,2015-08-26 02:32:06 +0600,Add IOUtils,75,4983
+291,a6af46c,FAIL,7,NO,0,NO,0,2015-08-26 09:58:29 +0800,Merge pull request #22 from vbauer/io-utils,75,4983
+292,98d4c7f,FAIL,6,NO,0,NO,0,2015-08-28 00:31:41 +0800,Add annotation for Not Progurad,76,4991
+293,6ada6fe,FAIL,7,NO,0,NO,0,2015-08-28 01:01:09 +0800,Update NotProguard.java,76,4991
+294,d6e1e10,FAIL,6,NO,0,NO,0,2015-08-28 01:02:08 +0800,Update NotProguard.java,76,4991
+295,1bb2876,FAIL,6,NO,0,NO,0,2015-08-28 01:15:06 +0800,Text format,76,4991
+296,81cfc7c,FAIL,7,NO,0,NO,0,2015-08-28 01:18:19 +0800,Merge branch 'master' of github.com:Trinea/android-common,76,4991
+297,a3b6ec3,FAIL,7,NO,0,NO,0,2016-10-25 21:47:11 +0800,修复部分手机静默卸载安装不生效的问题,76,4991
+298,43ebcee,FAIL,7,NO,0,NO,0,2016-10-31 20:30:28 +0800,Merge pull request #30 from zhangsl/master,76,4991
+299,84350f7,FAIL,6,NO,0,NO,0,2020-02-16 21:44:41 +0800,Add Dev Tools App info,76,4991

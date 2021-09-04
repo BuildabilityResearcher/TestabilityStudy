@@ -1,0 +1,6 @@
+exception,count
+java.lang.AssertionError,265
+java.lang.NullPointerException:,11
+java.lang.NullPointerException,2
+com.fasterxml.jackson.databind.JsonMappingException,1
+java.lang.IllegalArgumentException,3

@@ -1,0 +1,1196 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,6594b2a,FAIL,0,NO,0,NO,0,2011-05-25 05:18:01 +0000,Initial directory structure.,0,0
+1,a5391b2,FAIL,0,NO,0,NO,0,2012-07-23 06:42:55 -0700,Initial commit,0,0
+2,c465c1d,FAIL,0,NO,0,NO,0,2013-08-04 09:03:29 -0400,Merge branch 'mockwebserver' into jwilson/import_mockwebserver,0,0
+3,d2bf883,FAIL,0,NO,0,NO,0,2013-08-05 15:05:17 -0700,Merge pull request #263 from square/jwilson/import_mockwebserver,0,0
+4,2d3cdc9,FAIL,0,NO,0,NO,0,2014-01-26 11:31:23 -0500,OkBuffer API sketch.,8,260
+5,254bb05,FAIL,0,NO,0,NO,0,2014-01-26 16:07:35 -0800,Merge pull request #485 from square/okbuffer,8,260
+6,f121c2a,FAIL,0,NO,0,NO,0,2014-01-26 23:46:30 -0500,Implement moving bytes between OkBuffers.,8,392
+7,891bd7a,FAIL,0,NO,0,NO,0,2014-01-26 21:49:04 -0800,Merge pull request #487 from square/jwilson_0126_buffer_to_buffer,8,392
+8,0ae4952,FAIL,0,NO,0,NO,0,2014-01-27 06:27:21 -0800,Merge pull request #486 from adriancole/window-update,8,392
+9,54aa769,FAIL,0,NO,0,NO,0,2014-01-27 06:27:45 -0800,Merge pull request #488 from jgilfelt/patch-1,8,392
+10,b36fc99,FAIL,0,NO,0,NO,0,2014-01-27 21:38:55 -0500,"More buffer stuff: deadlines, indexOf and read.",8,464
+11,c01603c,FAIL,0,NO,0,NO,0,2014-01-27 20:00:24 -0800,Merge pull request #492 from square/jwilson_0127_indexof,8,464
+12,bece94f,FAIL,0,NO,0,NO,0,2014-01-28 22:56:24 -0500,Adapters for sources and sinks.,9,542
+13,afe1f1f,FAIL,0,NO,0,NO,0,2014-01-28 21:04:23 -0800,Merge pull request #493 from square/jwilson_0128_okbuffers,9,542
+14,10d0fae,FAIL,0,NO,0,NO,0,2014-01-29 00:08:27 -0500,"Read/write access for byte, short and int.",9,699
+15,29aec9b,FAIL,0,NO,0,NO,0,2014-01-28 21:52:01 -0800,Merge pull request #494 from square/jwilson_0128_data_in_buffers,9,699
+16,e8cbadb,FAIL,0,NO,0,NO,0,2014-01-30 22:20:55 -0500,"Adapters that go the other way, to java.io.",9,802
+17,bb4c290,FAIL,0,NO,0,NO,0,2014-01-30 22:30:10 -0800,Merge pull request #496 from square/jwilson_0130_adapters,9,802
+18,88b2592,FAIL,0,NO,0,NO,0,2014-02-02 17:53:43 -0500,InflaterSource. Like InflaterInputStream.,11,937
+19,cf9e8fd,FAIL,0,NO,0,NO,0,2014-02-02 22:21:26 -0800,Merge pull request #508 from square/jwilson_0202_inflater_source,11,937
+20,323f0c6,FAIL,0,NO,0,NO,0,2014-02-05 11:49:21 +0100,FindBugs sweep.,11,937
+21,949e687,FAIL,0,NO,0,NO,0,2014-02-05 12:49:22 -0500,Merge pull request #512 from square/adriancole_02_05_findbugs,11,937
+22,8efe816,FAIL,0,NO,0,NO,0,2014-02-03 01:24:59 -0500,GzipSource beginnings.,13,1227
+23,871da2a,FAIL,0,NO,0,NO,0,2014-02-07 21:28:14 -0500,Merge pull request #510 from square/jwilson_0203_gzip_beginnings,13,1227
+24,b102c6d,FAIL,0,NO,0,NO,0,2014-02-08 07:44:47 -0500,Rename byteAt to getByte.,13,1227
+25,fdb1c59,FAIL,0,NO,0,NO,0,2014-02-08 08:22:22 -0500,Fix some OkBuffer bugs.,13,1256
+26,eb08be8,FAIL,0,NO,0,NO,0,2014-02-08 10:17:00 -0500,Merge pull request #516 from square/jwilson_0208_byte_at_to_get_byte,13,1227
+27,dde8e53,FAIL,0,NO,0,NO,0,2014-02-08 10:20:34 -0500,Merge pull request #517 from square/jwilson_0208_buffer_fixes,13,1256
+28,dc3b81b,FAIL,0,NO,0,NO,0,2014-02-09 14:59:00 -0500,Use OkBuffer in spdy/3 source stream.,13,1338
+29,bd48e78,FAIL,0,NO,0,NO,0,2014-02-11 15:54:55 -0500,Merge pull request #519 from square/jwilson_0209_okbuffer_in_spdy3_source,13,1338
+30,962d1fa,FAIL,0,NO,0,NO,0,2014-02-11 20:48:38 -0500,BufferedSource.,14,1377
+31,a8d3ad4,FAIL,0,NO,0,NO,0,2014-02-12 08:58:32 -0800,Merge pull request #524 from square/jwilson_0211_buffered_source,14,1377
+32,f6a4569,FAIL,0,NO,0,NO,0,2014-02-12 12:35:18 -0500,Use OkBuffer in SpdyStream.,14,1371
+33,d72d4e6,FAIL,0,NO,0,NO,0,2014-02-12 17:20:53 -0500,Merge pull request #526 from square/jwilson_0212_okbuffer_in_spdystream,14,1371
+34,d1dcbcf,FAIL,0,NO,0,NO,0,2014-02-17 09:17:32 -0500,BufferedSink.,15,1442
+35,81a09a8,FAIL,0,NO,0,NO,0,2014-02-17 13:41:11 -0500,Give Base64 lots of love.,15,1451
+36,6b5845c,FAIL,0,NO,0,NO,0,2014-02-17 18:33:09 -0500,Merge pull request #535 from square/jwilson_0217_base64,15,1451
+37,446baa5,FAIL,0,NO,0,NO,0,2014-02-17 15:37:05 -0800,Merge pull request #534 from square/jwilson_0217_buffered_sink,16,1522
+38,c0c5730,FAIL,0,NO,0,NO,0,2014-02-17 17:13:53 -0800,Merge pull request #533 from square/jwilson_0215_rethink_recycle,16,1522
+39,1cf8293,FAIL,0,NO,0,NO,0,2014-02-17 20:36:59 -0500,Use OkBuffer+Source in HttpEngine.,16,1537
+40,b563e5d,FAIL,0,NO,0,NO,0,2014-02-18 08:27:20 -0800,Merge pull request #536 from square/jwilson_0217_source_in_engine,16,1537
+41,2fcbac7,FAIL,0,NO,0,NO,0,2014-02-19 00:27:32 -0500,DeflaterSink.,18,1648
+42,ca7247d,FAIL,0,NO,0,NO,0,2014-02-18 22:04:35 -0800,Animal Sniffer,18,1650
+43,a9f699a,FAIL,0,NO,0,NO,0,2014-02-19 08:16:47 -0500,Merge pull request #538 from square/jwilson_0219_deflatersink,18,1650
+44,f23f23d,FAIL,0,NO,0,NO,0,2014-02-19 23:49:30 -0500,Merge pull request #539 from square/adrian.unthrottle-client-reads,18,1650
+45,dad305d,FAIL,0,NO,0,NO,0,2014-02-22 00:17:26 -0500,Small OkBuffer API changes.,19,1740
+46,049d5f9,FAIL,0,NO,0,NO,0,2014-02-21 21:39:30 -0800,Merge pull request #544 from square/jwilson_0221_okbuffer_refactor,19,1740
+47,6637357,FAIL,0,NO,0,NO,0,2014-02-22 00:45:10 -0500,"Deadlines are per-stream, not per-operation.",19,1772
+48,9de3030,FAIL,0,NO,0,NO,0,2014-02-22 08:51:52 -0500,Drop readLowerCase.,19,1734
+49,c8a36a6,FAIL,0,NO,0,NO,0,2014-02-22 10:49:49 -0500,Make GzipSource exhaust its input.,19,1789
+50,3f40a65,FAIL,0,NO,0,NO,0,2014-02-22 08:06:44 -0800,Merge pull request #545 from square/jwilson_0221_move_deadlines,19,1772
+51,ad6030a,FAIL,0,NO,0,NO,0,2014-02-22 08:12:20 -0800,Merge pull request #546 from square/jwilson_0224_drop_readlowercase,19,1766
+52,89e1341,FAIL,0,NO,0,NO,0,2014-02-22 08:13:00 -0800,Merge pull request #547 from square/jwilson_0222_invalid_host,19,1766
+53,438f0cb,FAIL,0,NO,0,NO,0,2014-02-22 08:14:28 -0800,Merge pull request #548 from square/jwilson_0222_self_terminating_gzips,19,1815
+54,3223e5d,FAIL,0,NO,0,NO,0,2014-02-22 08:58:54 -0800,Fix the build wrt deadline.,19,1817
+55,fe6b7aa,FAIL,0,NO,0,NO,0,2014-02-22 13:03:09 -0500,Merge pull request #549 from square/adrian.whoops-deadline,19,1817
+56,c287d63,FAIL,0,NO,0,NO,0,2014-02-22 13:16:36 -0500,Interfaces for BufferedSource and BufferedSink.,22,1911
+57,c9c802b,FAIL,0,NO,0,NO,0,2014-02-22 13:57:39 -0500,Merge pull request #550 from square/jwilson_0222_buffer_interfaces,22,1911
+58,97df46e,FAIL,0,NO,0,NO,0,2014-02-22 14:23:52 -0500,Okio module.,23,1947
+59,405856a,FAIL,0,NO,0,NO,0,2014-02-22 14:38:05 -0500,Merge pull request #551 from square/jwilson_0222_okio,23,1947
+60,0b06448,FAIL,0,NO,0,NO,0,2014-02-22 16:08:25 -0500,OkBuffer toString and hex.,24,1979
+61,4c957f0,FAIL,0,NO,0,NO,0,2014-02-22 13:17:34 -0800,Merge pull request #553 from square/jwilson_0222_hex,24,1979
+62,a23ac58,FAIL,0,NO,0,NO,0,2014-02-23 10:01:51 -0500,"More equals, hashCode and toString.",24,2043
+63,73a01c3,FAIL,0,NO,0,NO,0,2014-02-23 08:35:45 -0800,Merge pull request #554 from square/jwilson_0223_equals_hashcode,24,2043
+64,a7a42f2,FAIL,0,NO,0,NO,0,2014-02-23 11:42:59 -0500,Use BufferedSink in SPDY and HTTP/2.,24,2045
+65,a87bc76,FAIL,0,NO,0,NO,0,2014-02-23 09:00:12 -0800,Merge pull request #555 from square/jwison_0223_buffered_sink_in_spdy,24,2045
+66,93803e2,FAIL,0,NO,0,NO,0,2014-02-23 15:11:18 -0500,Use Sink in HttpEngine.,24,2057
+67,1c926e8,FAIL,0,NO,0,NO,0,2014-02-23 18:19:33 -0500,Merge pull request #557 from square/jwilson_0223_httpconnection_sink_ii,24,2057
+68,a0846a9,FAIL,0,NO,0,NO,0,2014-02-23 19:35:13 -0500,Promote line reading to BufferedSource.,27,2142
+69,8838bf1,FAIL,0,NO,0,NO,0,2014-02-23 16:55:05 -0800,Merge pull request #562 from square/jwilson_0223_readUtf8_line,27,2142
+70,ca787e8,FAIL,0,NO,0,NO,0,2014-02-23 17:26:59 -0800,Merge pull request #563 from square/adrian.http2-push,27,2142
+71,88806fd,FAIL,0,NO,0,NO,0,2014-02-23 17:27:39 -0800,Merge pull request #564 from square/jwilson_0223_kill_strictlinereader,27,2142
+72,ca92b73,FAIL,0,NO,0,NO,0,2014-02-25 21:19:08 -0500,Rename OkBuffer.byteCount() to size().,27,2142
+73,e4f2ce1,FAIL,0,NO,0,NO,0,2014-02-25 19:34:25 -0800,Merge pull request #571 from square/jwilson_0225_size,27,2142
+74,a06fb5e,FAIL,0,NO,0,NO,0,2014-03-01 09:34:26 -0500,Don't require OkBuffer callers to cast.,27,2145
+75,55fb114,FAIL,0,NO,0,NO,0,2014-03-01 10:10:17 -0500,Merge pull request #582 from square/jwilson_0301_readlongs,27,2145
+76,24d26dd,FAIL,0,NO,0,NO,0,2014-03-01 11:04:19 -0500,Use a sneaky throw when RealBufferedSink.close() fails.,27,2210
+77,f8e7175,FAIL,0,NO,0,NO,0,2014-03-01 11:08:43 -0500,Merge pull request #583 from square/jwilson_0301_method,27,2145
+78,2529060,FAIL,0,NO,0,NO,0,2014-03-01 08:23:40 -0800,Merge pull request #584 from square/jwilson_0301_sneakythrow,27,2213
+79,3d715c2,FAIL,0,NO,0,NO,0,2014-03-03 02:16:53 -0500,Use Okio in DiskLruCache.,27,2212
+80,b4664f9,FAIL,0,NO,0,NO,0,2014-03-02 23:50:07 -0800,Merge pull request #589 from square/jwilson_disklrucache_okio,27,2212
+81,2740b1f,FAIL,0,NO,0,NO,0,2014-03-03 08:58:48 -0800,Merge pull request #587 from square/jwilson_spdy_sink_buffer,27,2212
+82,3056332,FAIL,0,NO,0,NO,0,2014-03-03 09:03:59 -0800,Merge pull request #586 from square/jwilson_tls_fallback,27,2212
+83,05559a0,FAIL,0,NO,0,NO,0,2014-03-03 02:16:05 -0500,Docs for Source and Sink.,27,2213
+84,acc9936,FAIL,0,NO,0,NO,0,2014-03-03 13:12:46 -0800,Merge pull request #588 from square/jwilson_okio_docs,27,2212
+85,39a19fd,FAIL,0,NO,0,NO,0,2014-03-03 13:14:22 -0800,Merge pull request #590 from square/jwilson_chunk_buffering,27,2212
+86,e7fffb7,FAIL,0,NO,0,NO,0,2014-02-20 14:36:49 +0000,Prefer org.junit over junit.framework for OkHttp code.,27,2212
+87,aec6f12,FAIL,0,NO,0,NO,0,2014-03-04 08:02:59 -0800,Merge pull request #593 from nfuller/FixImports,27,2212
+88,c4f998f,FAIL,0,NO,0,NO,0,2014-03-04 08:07:46 -0800,Merge pull request #574 from nfuller/ResponseCacheAdapter,27,2212
+89,73b351a,FAIL,0,NO,0,NO,0,2014-03-06 10:29:30 +0000,Make HttpURLConnection streams throw IOException after close(),27,2297
+90,ffbb659,FAIL,0,NO,0,NO,0,2014-03-06 08:24:30 -0800,Merge pull request #609 from nfuller/IOExceptionOnClose2,27,2297
+91,1b653ab,FAIL,0,NO,0,NO,0,2014-03-06 09:00:53 -0800,Merge pull request #601 from square/jwilson_0305_cache_access,27,2297
+92,4a47640,FAIL,0,NO,0,NO,0,2014-03-08 13:08:14 -0600,API tweaks to Okio.,27,2416
+93,3f6c71a,FAIL,0,NO,0,NO,0,2014-03-08 16:31:27 -0600,Merge pull request #619 from square/jwilson_0308_okio,27,2416
+94,0e301e3,FAIL,0,NO,0,NO,0,2014-03-09 10:39:29 -0700,Merge pull request #625 from square/jwilson_0309_peersettings,27,2416
+95,5174dca,FAIL,0,NO,0,NO,0,2014-03-10 21:46:47 -0400,Fix problems with DeflaterSink.,28,2346
+96,e3f2fc4,FAIL,0,NO,0,NO,0,2014-03-10 19:53:57 -0700,Merge pull request #629 from square/jwilson_0310_deflatersink_close,28,2465
+97,e0961bd,FAIL,0,NO,0,NO,0,2014-03-16 22:09:57 -0400,Merge remote-tracking branch 'okhttp/master',28,2465
+98,ef9b8fe,SUCCESS,18,SUCCESS,4,SUCCESS,7,2014-03-16 22:17:38 -0400,Okio project.,28,2465
+99,3a8f505,SUCCESS,5,SUCCESS,5,SUCCESS,4,2014-03-17 00:20:54 -0400,BufferedSource.readFully(). And example that motivated it.,28,2477
+100,7a34c4c,SUCCESS,5,SUCCESS,5,SUCCESS,4,2014-03-17 10:52:31 -0400,Merge pull request #1 from square/jwilson_0317_readfully,28,2477
+101,c52f6d2,SUCCESS,6,SUCCESS,5,SUCCESS,5,2014-03-17 15:41:19 -0700,Add Travis CI build fluff.,28,2477
+102,d2bbf85,SUCCESS,6,SUCCESS,5,SUCCESS,5,2014-03-17 15:41:47 -0700,Not released yet.,28,2477
+103,5132ed5,SUCCESS,5,SUCCESS,5,SUCCESS,5,2014-03-17 15:42:03 -0700,Bump version back to 1.0.0.,28,2477
+104,938db04,SUCCESS,6,SUCCESS,6,SUCCESS,5,2014-03-17 18:42:59 -0400,Merge pull request #2 from square/jw/things,28,2477
+105,bf015ad,SUCCESS,5,SUCCESS,6,SUCCESS,6,2014-03-17 15:45:50 -0700,Add Javadoc deployment script.,28,2477
+106,dd8ac5e,SUCCESS,6,SUCCESS,5,SUCCESS,6,2014-03-17 18:47:54 -0400,Merge pull request #3 from square/jw/things,28,2477
+107,1528ba4,SUCCESS,6,SUCCESS,7,SUCCESS,6,2014-03-17 16:57:23 -0700,OkHttp --> Okio,28,2477
+108,b4f699f,SUCCESS,6,SUCCESS,6,SUCCESS,6,2014-03-17 22:51:28 -0400,Rename OkBuffer to Buffer.,28,2477
+109,00d654d,SUCCESS,5,SUCCESS,6,SUCCESS,6,2014-03-17 20:00:02 -0700,Merge pull request #6 from square/jwilson_0317_rename_okbuffer_to_buffer,28,2477
+110,c8a914e,SUCCESS,7,SUCCESS,5,SUCCESS,5,2014-03-17 23:09:24 -0400,Fix docs. Drop Okio.copy().,28,2464
+111,0f14ac3,SUCCESS,7,SUCCESS,6,SUCCESS,4,2014-03-17 20:10:50 -0700,Merge pull request #7 from square/jwilson_0317_docs,28,2464
+112,d9752de,SUCCESS,6,SUCCESS,5,SUCCESS,5,2014-03-17 22:46:02 -0700,Fix link to Netty.,28,2464
+113,40bda4f,SUCCESS,6,SUCCESS,5,SUCCESS,5,2014-03-18 10:42:33 -0700,Gzip constructor doesn't throw.,28,2464
+114,3ff705e,SUCCESS,6,SUCCESS,6,SUCCESS,5,2014-03-18 13:49:03 -0400,Merge pull request #8 from square/jw/gzip-dont-throw-no-mo,28,2464
+115,1bf114d,SUCCESS,6,SUCCESS,6,SUCCESS,5,2014-03-18 12:28:58 -0700,Upfront null argument checks.,28,2467
+116,2632f62,SUCCESS,6,SUCCESS,6,SUCCESS,5,2014-03-18 19:02:26 -0400,Merge pull request #9 from square/jw/upfont-checks,28,2467
+117,d0a461f,SUCCESS,5,SUCCESS,5,SUCCESS,5,2014-03-18 10:57:57 -0700,Add GzipSink for writing Gzip data.,30,2569
+118,0a652c3,SUCCESS,6,SUCCESS,5,SUCCESS,6,2014-03-20 15:09:58 -0400,Merge pull request #10 from square/jw/gzip-sink,30,2569
+119,a167ff7,SUCCESS,7,SUCCESS,6,SUCCESS,17,2014-03-20 16:00:18 -0700,Move Okio into a child module of the same name.,30,2569
+120,3c7ad0e,SUCCESS,6,SUCCESS,6,SUCCESS,8,2014-03-21 00:52:20 -0400,Merge pull request #11 from square/jw/child-module,30,2569
+121,f7284ff,SUCCESS,5,SUCCESS,6,SUCCESS,8,2014-03-20 22:50:21 -0700,Refactor tests to DRY up utility methods.,31,2548
+122,cdb67aa,SUCCESS,5,SUCCESS,7,SUCCESS,9,2014-03-21 15:23:17 -0700,Merge pull request #12 from square/jw/dry,31,2548
+123,3653a38,SUCCESS,5,SUCCESS,6,SUCCESS,7,2014-03-24 07:48:57 -0700,Remove indent from README example.,31,2548
+124,14080b5,SUCCESS,6,SUCCESS,5,SUCCESS,8,2014-03-24 19:28:36 -0400,Merge pull request #13 from square/jw/indent,31,2548
+125,4d19a4e,SUCCESS,5,SUCCESS,6,SUCCESS,8,2014-03-25 18:36:24 -0700,Correct javadoc wording.,31,2548
+126,10e1414,SUCCESS,6,SUCCESS,6,SUCCESS,7,2014-03-25 21:55:35 -0400,Merge pull request #14 from square/jw/javadoc-tweak,31,2548
+127,404fe3a,SUCCESS,5,SUCCESS,6,SUCCESS,8,2014-04-05 16:23:44 -0400,New Timeout API.,31,2555
+128,d3ddbbf,SUCCESS,5,SUCCESS,7,SUCCESS,8,2014-04-05 13:36:11 -0700,Merge pull request #15 from square/jwilson_0405_timeout,31,2555
+129,8a8869b,SUCCESS,5,SUCCESS,5,SUCCESS,8,2014-04-07 00:21:37 -0700,Fix problems with code that skips segments.,31,2557
+130,22d4a4c,SUCCESS,6,SUCCESS,6,SUCCESS,9,2014-04-07 00:25:17 -0700,Expose read/write for non-UTF-8 charsets.,31,2583
+131,5880e89,SUCCESS,5,SUCCESS,7,FAIL,11,2014-04-06 09:23:42 -0400,New AsyncTimeout class.,34,2859
+132,72f8fcb,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-07 00:40:39 -0700,Merge pull request #16 from square/jwilson_0406_AsyncTimeout,34,2859
+133,1045908,SUCCESS,5,SUCCESS,6,FAIL,12,2014-04-07 09:04:40 -0700,Merge pull request #18 from square/jwilson_0406_charsets,34,2887
+134,1fd3cda,SUCCESS,7,SUCCESS,6,FAIL,12,2014-04-07 11:50:19 -0700,Merge pull request #17 from square/jwilson_0406_skips,34,2889
+135,0f6f4a2,SUCCESS,5,SUCCESS,6,SUCCESS,7,2014-04-07 23:03:27 -0700,Implement toAsciiUppercase for foolish symmetry.,31,2567
+136,86390d3,SUCCESS,5,SUCCESS,7,FAIL,11,2014-04-08 09:36:59 -0700,Merge pull request #20 from square/jwilson_0407_toAsciiUppercase,34,2901
+137,2dc5681,SUCCESS,6,SUCCESS,7,SUCCESS,8,2014-04-08 09:35:33 -0700,Rewrite README to focus on Okio.,31,2555
+138,f3d5f15,SUCCESS,5,SUCCESS,7,FAIL,12,2014-04-08 11:08:03 -0700,Merge pull request #21 from square/jwilson_0408_readme,34,2901
+139,21362a2,SUCCESS,7,SUCCESS,7,FAIL,11,2014-04-08 11:12:02 -0700,[maven-release-plugin] prepare release okio-parent-0.5.0,34,2901
+140,944b7a3,SUCCESS,7,SUCCESS,8,FAIL,12,2014-04-08 11:12:04 -0700,[maven-release-plugin] prepare for next development iteration,34,2901
+141,13a901b,SUCCESS,6,SUCCESS,7,FAIL,13,2014-04-08 12:58:14 -0700,Link types in README to hosted Javadoc.,34,2901
+142,4d50d01,SUCCESS,6,SUCCESS,6,FAIL,12,2014-04-08 13:30:50 -0700,Add package summary for Javadoc.,35,2902
+143,ee0c117,SUCCESS,6,SUCCESS,5,FAIL,12,2014-04-08 13:35:16 -0700,Merge pull request #24 from square/jw/package-summary,35,2902
+144,6f068a5,SUCCESS,5,SUCCESS,7,FAIL,13,2014-04-08 14:56:29 -0700,Merge pull request #23 from square/jw/chain-link-fence,35,2902
+145,cac5042,SUCCESS,5,SUCCESS,6,FAIL,12,2014-04-09 11:14:03 -0700,Comma.,35,2902
+146,bb3a2d1,SUCCESS,5,SUCCESS,5,FAIL,11,2014-04-09 23:11:04 -0700,Javadoc tweaks.,35,2902
+147,872eeb8,SUCCESS,6,SUCCESS,7,FAIL,11,2014-04-10 08:30:04 -0700,Merge pull request #25 from square/jw/javadoc-tweaks,35,2902
+148,e44729d,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-12 15:36:56 +0300,Remove duplicates in docs :),35,2902
+149,cc23ae5,SUCCESS,6,SUCCESS,6,FAIL,12,2014-04-12 17:37:06 -0700,Merge pull request #28 from roman-mazur/patch-1,35,2902
+150,f09c1be,SUCCESS,6,SUCCESS,7,FAIL,12,2014-04-12 22:41:51 -0400,Java serialization for ByteString,35,2922
+151,8436bd6,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-12 22:57:21 -0400,Move serialVersionUID to the class actually serialized,35,2922
+152,95fe8cf,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-13 14:21:19 -0400,Implement copying a buffer to an output stream.,35,2926
+153,c82c8e6,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-13 11:28:42 -0700,Merge pull request #29 from square/jwilson_0413_copy,35,2926
+154,ea2e709,SUCCESS,5,SUCCESS,5,FAIL,14,2014-04-13 15:43:05 -0400,"Polish Serialization implementation as per Effective Java, 2nd ed.",35,2926
+155,f3b777a,SUCCESS,5,SUCCESS,6,FAIL,11,2014-04-14 13:16:18 -0400,Provide more context when a bounds check fails.,35,2927
+156,11b5bad,SUCCESS,6,SUCCESS,5,FAIL,11,2014-04-14 10:30:28 -0700,Merge pull request #31 from square/jwilson_0414_more_context,35,2927
+157,507eb4f,SUCCESS,6,SUCCESS,6,FAIL,10,2014-04-13 21:45:53 -0700,"Add stream-based copy, write, and read helpers.",35,3007
+158,987ccb1,SUCCESS,5,SUCCESS,6,FAIL,13,2014-04-14 16:07:00 -0400,Merge pull request #30 from square/jw/copy-helpers,35,3008
+159,990c48c,SUCCESS,6,SUCCESS,6,FAIL,13,2014-04-14 13:12:45 -0700,Add ByteString.of variant which copies a subset of data.,35,2930
+160,adae0cc,SUCCESS,5,SUCCESS,7,FAIL,12,2014-04-14 18:09:59 -0400,Merge pull request #32 from square/jw/byte-string-from-bytes,35,3012
+161,c8decc0,SUCCESS,6,SUCCESS,6,FAIL,13,2014-04-15 10:56:34 -0400,Merge pull request #27 from fizbin/master,35,3036
+162,a6ace31,SUCCESS,6,SUCCESS,6,FAIL,13,2014-04-15 11:49:13 -0400,Flatten serialization.,35,3031
+163,61de843,SUCCESS,7,SUCCESS,6,FAIL,11,2014-04-15 09:07:35 -0700,Merge pull request #33 from square/jwilson_0415_flatten_serialization,35,3031
+164,b369d52,SUCCESS,5,SUCCESS,6,FAIL,12,2014-04-15 17:17:25 -0400,Changelog updates for 0.6.0.,35,3031
+165,24a4fee,SUCCESS,7,SUCCESS,6,FAIL,11,2014-04-15 17:25:48 -0400,[maven-release-plugin] prepare release okio-parent-0.6.0,35,3031
+166,40e734c,SUCCESS,6,SUCCESS,6,FAIL,12,2014-04-15 17:25:50 -0400,[maven-release-plugin] prepare for next development iteration,35,3031
+167,46007a3,SUCCESS,5,SUCCESS,5,FAIL,12,2014-04-17 13:56:36 -0400,Fix a bug on input stream exhaustion.,35,3054
+168,0cf1bfa,SUCCESS,6,SUCCESS,5,FAIL,12,2014-04-17 11:00:45 -0700,Merge pull request #34 from square/jwilson_0417_input_stream_exhausted,35,3054
+169,824aa64,SUCCESS,6,SUCCESS,6,FAIL,13,2014-04-17 17:06:39 -0400,New methods to move all data from a source to a sink.,35,3186
+170,567a6f2,SUCCESS,6,SUCCESS,7,FAIL,12,2014-04-17 17:20:44 -0400,Merge pull request #35 from square/jwilson_0417_readAll_writeAll,35,3186
+171,4a3425c,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-17 18:20:31 -0400,API to read a byte[] directly.,35,3200
+172,b4a303a,SUCCESS,6,SUCCESS,5,FAIL,12,2014-04-17 15:24:53 -0700,Merge pull request #36 from square/jwilson_0417_read_byte_array,35,3200
+173,9718653,SUCCESS,6,SUCCESS,6,FAIL,12,2014-04-17 16:31:56 -0700,Methods to read a buffered source fully in UTF-8 or supplied charset.,35,3225
+174,6033ad6,SUCCESS,6,SUCCESS,6,FAIL,11,2014-04-17 19:54:19 -0400,Merge pull request #37 from square/jw/utf8-the-whole-thing,35,3225
+175,3de62ba,SUCCESS,7,SUCCESS,6,FAIL,11,2014-04-17 20:13:11 -0400,[maven-release-plugin] prepare release okio-parent-0.6.1,35,3225
+176,68c7e4a,SUCCESS,5,SUCCESS,5,FAIL,12,2014-04-17 20:14:54 -0400,[maven-release-plugin] prepare for next development iteration,35,3225
+177,ecda469,SUCCESS,4,SUCCESS,6,FAIL,11,2014-04-17 20:18:14 -0400,Changelog for 0.6.1.,35,3225
+178,561fbe7,SUCCESS,5,SUCCESS,6,FAIL,11,2014-04-18 01:28:31 -0700,Add java.io and java.nio file source/sink helpers.,35,3270
+179,77ce46b,SUCCESS,6,SUCCESS,7,FAIL,11,2014-04-18 14:46:25 -0400,Merge pull request #38 from square/jw/file,35,3270
+180,be3fbe2,SUCCESS,6,SUCCESS,6,FAIL,14,2014-04-18 15:48:59 -0400,Use the watchdog to interrupt sockets that have reached deadlines.,35,3261
+181,34ff743,SUCCESS,7,SUCCESS,7,FAIL,14,2014-04-18 13:02:43 -0700,Merge pull request #39 from square/jwilson_0418_deadlines_on_watchdog,35,3306
+182,9f126f1,SUCCESS,7,SUCCESS,6,FAIL,15,2014-04-18 16:17:05 -0400,Don't use getters in timeout.,35,3314
+183,2841fcb,SUCCESS,6,SUCCESS,8,FAIL,16,2014-04-18 16:21:30 -0400,Merge pull request #40 from square/jwilson_0418_nogetter,35,3314
+184,74ac67a,SUCCESS,6,SUCCESS,8,FAIL,16,2014-04-18 16:32:41 -0400,[maven-release-plugin] prepare release okio-parent-0.7.0,35,3314
+185,3e6d85a,SUCCESS,5,SUCCESS,6,FAIL,14,2014-04-18 16:32:43 -0400,[maven-release-plugin] prepare for next development iteration,35,3314
+186,7e4be74,SUCCESS,5,SUCCESS,6,FAIL,13,2014-04-18 17:08:16 -0400,Changelog for 0.7.0.,35,3314
+187,7ab3116,SUCCESS,6,SUCCESS,5,FAIL,14,2014-04-19 03:13:16 -0700,Methods to exhaust BufferedSource to byte[] and ByteString.,35,3358
+188,6382353,SUCCESS,6,SUCCESS,6,FAIL,14,2014-04-19 09:07:34 -0400,Merge pull request #41 from square/jw/all-the-bytes,35,3358
+189,f828119,SUCCESS,6,SUCCESS,5,FAIL,14,2014-04-20 01:51:06 -0700,Add append variant of Okio.sink for File.,35,3330
+190,482dc9f,SUCCESS,5,SUCCESS,7,FAIL,14,2014-04-20 09:20:20 -0400,Merge pull request #44 from square/jw/appending,35,3374
+191,f0bd138,SUCCESS,6,SUCCESS,6,FAIL,14,2014-04-20 14:38:38 -0400,Small changes to the way deadlines are managed.,35,3385
+192,486a8d7,SUCCESS,5,SUCCESS,6,FAIL,15,2014-04-20 12:42:22 -0700,Merge pull request #45 from square/jwilson_0420_more_deadline_apis,35,3385
+193,df43061,SUCCESS,5,SUCCESS,6,FAIL,14,2014-04-20 01:34:59 -0700,Add delegate types for Sink and Source.,37,3348
+194,ba6776d,SUCCESS,5,SUCCESS,6,FAIL,13,2014-04-20 20:12:29 -0400,Merge pull request #43 from square/jw/delegate,37,3419
+195,9d355c0,SUCCESS,5,SUCCESS,6,FAIL,13,2014-04-22 01:00:13 -0700,Quick return on instance equivalence.,37,3420
+196,b5f80e8,SUCCESS,6,SUCCESS,6,FAIL,14,2014-04-22 07:47:32 -0700,Merge pull request #46 from square/jw/quickie,37,3420
+197,cbccf98,SUCCESS,6,SUCCESS,6,FAIL,15,2014-04-23 22:07:29 -0700,Eagerly verify preconditions on public APIs.,37,3469
+198,95c627b,SUCCESS,5,SUCCESS,7,FAIL,13,2014-04-24 01:22:05 -0400,Merge pull request #49 from square/jw/preconditions,37,3469
+199,450bdaf,SUCCESS,6,SUCCESS,6,FAIL,14,2014-04-24 22:37:58 -0400,Changelog for 0.8.0,37,3469
+200,d10cf0a,SUCCESS,5,SUCCESS,6,FAIL,15,2014-04-24 22:39:41 -0400,[maven-release-plugin] prepare release okio-parent-0.8.0,37,3469
+201,5fe7efa,SUCCESS,6,SUCCESS,6,FAIL,15,2014-04-24 22:39:44 -0400,[maven-release-plugin] prepare for next development iteration,37,3469
+202,98e8121,SUCCESS,5,SUCCESS,7,FAIL,17,2014-04-24 22:44:30 -0400,Fix version in changelog.,37,3469
+203,676e296,SUCCESS,5,SUCCESS,6,FAIL,15,2014-04-25 09:06:49 -0700,Remove checked exception from Buffer.readByteArray.,37,3469
+204,d9ab9bb,SUCCESS,5,SUCCESS,5,FAIL,14,2014-04-25 09:18:30 -0700,Merge pull request #50 from square/jw/throw-away-the-throw,37,3469
+205,0548eb8,SUCCESS,5,SUCCESS,5,FAIL,16,2014-04-27 15:27:02 -0400,Make AsyncTimeout public.,37,3550
+206,2f8dd5c,SUCCESS,5,SUCCESS,7,FAIL,17,2014-04-27 18:12:55 -0400,Merge pull request #51 from square/jwilson_0427_asynctimeout_public,37,3550
+207,a2c6051,SUCCESS,6,SUCCESS,6,FAIL,17,2014-04-27 22:31:02 -0400,Use 0 as a sentinel for no timeout.,37,3557
+208,bf0ba17,SUCCESS,5,SUCCESS,6,FAIL,17,2014-04-27 22:42:16 -0400,Merge pull request #52 from square/jwilson_0427_zero_timeout,37,3557
+209,74e3ead,SUCCESS,5,SUCCESS,7,FAIL,17,2014-04-28 12:11:23 +0100,Javadoc fix,37,3557
+210,e462d43,SUCCESS,6,SUCCESS,6,FAIL,16,2014-04-28 11:19:05 -0400,Merge pull request #53 from jgilfelt/patch-1,37,3557
+211,521fec4,SUCCESS,5,SUCCESS,8,FAIL,16,2014-04-28 22:04:08 -0700,Fixed Typo in GzipSourceTest.java,37,3557
+212,0cde088,SUCCESS,5,SUCCESS,5,FAIL,15,2014-04-29 20:42:17 -0400,Merge pull request #55 from kageiit/master,37,3557
+213,7870d2e,SUCCESS,5,SUCCESS,7,FAIL,16,2014-05-03 10:40:06 -0400,Update changelog for 0.9.0.,37,3557
+214,fa4f6cd,SUCCESS,5,SUCCESS,6,FAIL,17,2014-05-03 10:40:53 -0400,[maven-release-plugin] prepare release okio-parent-0.9.0,37,3557
+215,bcdf9ba,SUCCESS,6,SUCCESS,6,FAIL,17,2014-05-03 10:40:55 -0400,[maven-release-plugin] prepare for next development iteration,37,3557
+216,10a6752,SUCCESS,7,SUCCESS,6,FAIL,17,2014-05-24 00:24:52 -0400,Update changelog for 1.0.0.,37,3557
+217,34810db,SUCCESS,5,SUCCESS,6,FAIL,16,2014-05-24 00:25:38 -0400,[maven-release-plugin] prepare release okio-parent-1.0.0,37,3557
+218,bbe184e,SUCCESS,5,SUCCESS,6,FAIL,16,2014-05-24 00:25:40 -0400,[maven-release-plugin] prepare for next development iteration,37,3557
+219,05ad765,SUCCESS,6,SUCCESS,6,FAIL,18,2014-06-12 11:50:25 -0400,bump java version to 1.7,37,3557
+220,239c488,SUCCESS,7,SUCCESS,7,FAIL,18,2014-06-12 20:46:50 -0700,Read methods to copy data into external byte[] sinks.,37,3608
+221,1a80a4f,SUCCESS,6,SUCCESS,6,FAIL,18,2014-06-12 22:33:06 -0700,Merge pull request #63 from square/jw/read-to-byte-array,37,3608
+222,2ddb732,SUCCESS,7,SUCCESS,7,FAIL,16,2014-06-13 11:10:09 -0700,Remove the length-only byte array read variant for parity with buffered sink's writes.,37,3595
+223,b08d0f5,SUCCESS,7,SUCCESS,7,FAIL,17,2014-06-13 14:08:05 -0700,Merge pull request #64 from square/jw/remove-length-only-variant-of-byte-array-read,37,3595
+224,5c59d98,SUCCESS,6,SUCCESS,8,FAIL,16,2014-06-15 21:28:04 -0700,Use int byte counts for array-based read.,37,3595
+225,12494ea,SUCCESS,6,SUCCESS,7,FAIL,16,2014-06-16 10:26:44 -0400,Merge pull request #65 from square/jw/integer,37,3595
+226,475b724,SUCCESS,6,SUCCESS,7,FAIL,16,2014-06-16 11:22:45 -0700,Buffer should EOF if it cannot fulfill readFully.,37,3607
+227,f32af10,SUCCESS,6,SUCCESS,7,FAIL,16,2014-06-16 15:17:56 -0400,Merge pull request #66 from square/jw/buffer-read-fully-eof,37,3607
+228,c71c72f,SUCCESS,5,SUCCESS,7,FAIL,16,2014-06-17 10:06:22 -0700,Merge pull request #61 from matasaru/patch-1,37,3607
+229,081659a,SUCCESS,5,SUCCESS,5,FAIL,15,2014-06-21 01:54:02 -0700,Add readFully for byte[].,37,3638
+230,c07dd96,SUCCESS,5,SUCCESS,5,FAIL,16,2014-06-21 08:20:22 -0400,Merge pull request #67 from square/jw/read-fully-byte-array,37,3638
+231,1c4d377,SUCCESS,5,SUCCESS,5,FAIL,16,2014-06-22 01:56:24 -0700,Test Buffer and 'Real' versions of buffered wrappers together.,39,3647
+232,30d8c3e,SUCCESS,6,SUCCESS,6,FAIL,16,2014-06-24 09:31:52 -0400,Merge pull request #68 from square/jw/test-improvements,39,3647
+233,faaf6ec,SUCCESS,6,SUCCESS,7,FAIL,16,2014-06-24 09:10:12 -0700,Use fully-reading helper APIs in tests.,39,3645
+234,c200cb6,SUCCESS,6,SUCCESS,6,FAIL,17,2014-06-24 12:59:49 -0400,Merge pull request #69 from square/jw/use-helper-apis,39,3645
+235,7ef51c0,SUCCESS,5,SUCCESS,6,FAIL,15,2014-08-08 16:15:28 -0700,Prepare version 1.0.1.,39,3645
+236,0ba8263,SUCCESS,6,SUCCESS,6,FAIL,18,2014-08-08 16:16:30 -0700,[maven-release-plugin] prepare release okio-parent-1.0.1,39,3645
+237,fd7b560,SUCCESS,6,SUCCESS,6,FAIL,16,2014-08-08 16:16:33 -0700,[maven-release-plugin] prepare for next development iteration,39,3645
+238,2196742,SUCCESS,5,SUCCESS,6,FAIL,17,2014-08-09 21:02:32 -0400,Fix a bug in indexOf(). Add indexOfElement() and request().,39,3719
+239,b2af925,SUCCESS,6,SUCCESS,7,FAIL,17,2014-08-10 00:05:17 -0400,Merge pull request #72 from square/jwilson_0809_request_require,39,3719
+240,383e5c6,SUCCESS,6,SUCCESS,7,FAIL,17,2014-10-05 00:46:39 -0700,Do not re-buffer sources and sinks.,39,3733
+241,35bbfb7,SUCCESS,7,SUCCESS,7,FAIL,17,2014-10-05 15:41:03 -0400,Merge pull request #75 from square/jw/no-buffer-layers,39,3733
+242,1cbc146,SUCCESS,6,SUCCESS,6,FAIL,17,2014-11-19 14:06:38 -0800,Use new central artifact redirect link.,39,3733
+243,03341ed,SUCCESS,5,SUCCESS,7,FAIL,16,2014-11-19 17:47:42 -0500,Merge pull request #84 from square/jw/new-redirect-link,39,3733
+244,53507af,SUCCESS,5,SUCCESS,6,FAIL,18,2014-11-26 09:34:58 +0000,Stabilize test so it passes on Android too,39,3733
+245,e332533,SUCCESS,6,SUCCESS,6,SUCCESS,18,2014-11-26 10:52:39 +0000,Make tests pass on Android and other platforms,39,3739
+246,47bcc87,SUCCESS,6,SUCCESS,6,SUCCESS,18,2014-11-26 07:05:57 -0500,Merge pull request #86 from nfuller/FixTestOnAndroid2.1,39,3739
+247,126258a,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-11-26 07:14:30 -0500,Merge pull request #85 from nfuller/FixTestOnAndroid1,39,3739
+248,b2d19a9,SUCCESS,6,SUCCESS,5,FAIL,18,2014-11-30 18:54:05 -0500,Do UTF-8 encoding natively.,40,3827
+249,222411e,SUCCESS,5,SUCCESS,7,SUCCESS,17,2014-11-30 18:11:19 -0800,Merge pull request #87 from square/jwilson_1130_utf8_transcoder,40,3833
+250,5ee380e,SUCCESS,7,SUCCESS,8,FAIL,16,2014-12-01 13:40:18 -0800,Add length write overload for a Source.,39,3746
+251,0bcd09e,SUCCESS,6,SUCCESS,6,SUCCESS,18,2014-12-03 22:13:23 -0800,Merge pull request #88 from square/jw/write-source-to-buffered-sink,40,3846
+252,571d9b0,SUCCESS,5,SUCCESS,6,FAIL,15,2014-12-08 17:11:16 -0800,New API: BufferedSink.emit().,39,3751
+253,aef952e,SUCCESS,6,SUCCESS,6,SUCCESS,16,2014-12-08 17:14:10 -0800,Merge pull request #90 from square/jwilson_1208_emit,40,3864
+254,760559d,SUCCESS,6,SUCCESS,7,SUCCESS,16,2014-12-10 23:50:58 -0800,Implement buffer-to-buffer copying.,40,3926
+255,138c3f8,SUCCESS,7,SUCCESS,6,SUCCESS,19,2014-12-11 10:23:09 -0800,[maven-release-plugin] prepare release okio-parent-1.1.0,40,3926
+256,8cc731c,SUCCESS,6,SUCCESS,7,SUCCESS,19,2014-12-11 10:23:12 -0800,[maven-release-plugin] prepare for next development iteration,40,3926
+257,47070e2,SUCCESS,6,SUCCESS,6,SUCCESS,17,2014-12-11 16:06:50 -0800,Update README.md,40,3864
+258,4427e00,SUCCESS,6,SUCCESS,8,SUCCESS,17,2014-12-11 16:15:04 -0800,Update CHANGELOG.md,40,3864
+259,3bfc0b5,SUCCESS,5,SUCCESS,6,SUCCESS,16,2014-12-16 15:56:39 -0600,missed gradle reference to 1.0.1,40,3864
+260,d7cc5ce,SUCCESS,7,SUCCESS,6,SUCCESS,19,2014-12-16 20:50:34 -0500,Merge pull request #92 from tbsandee/master,40,3864
+261,6387824,SUCCESS,5,SUCCESS,7,SUCCESS,18,2014-12-19 22:21:29 -0800,Auto-deploy snapshots from Travis CI to Sonatype.,40,3864
+262,fd48600,SUCCESS,6,SUCCESS,6,SUCCESS,19,2014-12-19 22:26:16 -0800,Merge pull request #93 from square/jw/auto-deploy,40,3864
+263,c3e876a,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-12-19 23:12:06 -0800,Post-deploy echo.,40,3864
+264,222f2b3,SUCCESS,5,SUCCESS,6,SUCCESS,16,2014-12-20 02:13:57 -0800,Errors fail the deploy script.,40,3864
+265,a5bb6b9,SUCCESS,6,SUCCESS,6,SUCCESS,16,2014-12-23 13:26:09 -0800,"Revert ""Do not re-buffer sources and sinks.""",40,3850
+266,9e738c8,SUCCESS,6,SUCCESS,7,SUCCESS,16,2014-12-23 18:03:52 -0500,Merge pull request #96 from square/jw/revert,40,3850
+267,415ee84,SUCCESS,5,SUCCESS,6,SUCCESS,16,2014-12-26 00:01:23 -0800,Normalize naming and reference conventions.,40,3850
+268,4257901,SUCCESS,6,SUCCESS,5,SUCCESS,17,2014-12-26 03:00:59 -0800,Do not call through to Source on zero byte count write.,40,3858
+269,40fbc22,SUCCESS,5,SUCCESS,6,SUCCESS,16,2014-12-26 08:54:28 -0500,Merge pull request #99 from square/jw/convention-normalization,40,3850
+270,8cb58f3,SUCCESS,5,SUCCESS,6,SUCCESS,17,2014-12-26 08:55:51 -0500,Merge pull request #100 from square/jw/no-read-on-zero-bytes,40,3858
+271,0083141,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-12-27 01:46:30 -0800,Use parameterized runner to test multiple implementation's behavior.,38,3875
+272,a16df2b,SUCCESS,6,SUCCESS,5,SUCCESS,17,2014-12-27 02:19:42 -0800,Move more RealBuffered* tests to Buffered*.,40,3906
+273,72a0e8c,SUCCESS,5,SUCCESS,6,SUCCESS,17,2014-12-27 02:33:01 -0800,Merge pull request #91 from square/jwilson_1210_copyto,40,3920
+274,9da34ca,SUCCESS,7,SUCCESS,8,SUCCESS,17,2014-12-27 10:42:45 -0500,Merge pull request #101 from square/jw/use-parameterization,38,3937
+275,492904d,SUCCESS,6,SUCCESS,8,SUCCESS,18,2014-12-27 10:44:21 -0500,Merge pull request #102 from square/jw/common-tests,38,3985
+276,0ebea21,SUCCESS,7,SUCCESS,6,SUCCESS,17,2014-12-27 20:27:20 -0500,Provide context when readUtf8LineStrict throws.,38,4002
+277,10c22c8,SUCCESS,6,SUCCESS,6,SUCCESS,18,2014-12-27 17:44:10 -0800,Merge pull request #104 from square/jwilson_1227_eof,38,4002
+278,d212170,SUCCESS,6,SUCCESS,7,SUCCESS,19,2014-12-30 21:37:35 -0500,1.2.0 changelog.,38,4002
+279,ee51e40,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-12-30 21:39:06 -0500,[maven-release-plugin] prepare release okio-parent-1.2.0,38,4002
+280,62f462d,SUCCESS,5,SUCCESS,5,SUCCESS,17,2014-12-30 21:39:08 -0500,[maven-release-plugin] prepare for next development iteration,38,4002
+281,cded2c7,SUCCESS,10,SUCCESS,7,SUCCESS,16,2015-01-06 14:02:42 -0500,Add JMH benchmarks for measuring buffer performance.,39,4166
+282,82358df,SUCCESS,6,SUCCESS,7,SUCCESS,17,2015-01-06 14:48:49 -0500,Merge pull request #106 from tinkerware/benchmarks-pr,39,4166
+283,020e02b,SUCCESS,5,SUCCESS,6,SUCCESS,17,2015-01-12 14:33:14 -0500,Make a Sink also a Flushable.,38,4003
+284,fbf5256,SUCCESS,7,SUCCESS,8,SUCCESS,17,2015-01-13 01:03:37 -0500,Merge pull request #108 from square/jw/flushable,39,4167
+285,e2f0a5f,SUCCESS,5,SUCCESS,6,SUCCESS,18,2015-02-02 13:39:18 -0700,Add ByteString#substring methods,40,3846
+286,654ddf5,SUCCESS,7,SUCCESS,8,SUCCESS,17,2015-02-02 19:15:03 -0500,Merge pull request #113 from f2prateek/substring,39,4180
+287,7a9dd8c,SUCCESS,8,SUCCESS,7,SUCCESS,19,2015-02-13 23:06:58 -0500,Segment sharing.,41,4544
+288,d99e542,SUCCESS,7,SUCCESS,8,SUCCESS,18,2014-12-24 01:02:18 -0800,Add support for reading and writing longs as stringy values.,39,4457
+289,acb2ce3,SUCCESS,5,SUCCESS,6,SUCCESS,17,2015-02-22 15:35:25 -0500,Merge pull request #98 from square/jw/primitive-string,39,4457
+290,624ad67,SUCCESS,6,SUCCESS,7,SUCCESS,17,2015-02-22 15:56:20 -0500,Kill digit counts.,39,4468
+291,5b49191,SUCCESS,6,SUCCESS,7,SUCCESS,19,2015-02-22 17:11:57 -0800,Merge pull request #118 from square/jwilson_0222_digit_counts,39,4468
+292,df3de28,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-03-07 01:37:12 -0500,Add convenience methods for MD5 and SHA-256 hashes.,39,4473
+293,723a595,SUCCESS,7,SUCCESS,8,SUCCESS,18,2015-03-07 02:31:19 -0500,Add support for URL-safe base64 encoding.,39,4475
+294,7fe058d,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-03-07 08:28:47 -0500,Merge pull request #122 from square/jw/base-64-url-safe,39,4475
+295,798bd83,SUCCESS,8,SUCCESS,8,SUCCESS,17,2015-03-07 10:16:25 -0500,Merge pull request #121 from square/jw/readers-digest,39,4480
+296,ed00344,SUCCESS,8,SUCCESS,6,SUCCESS,17,2015-03-07 13:11:00 -0500,Return a ByteString for MD5 and SHA hashes.,39,4480
+297,9f2c6e3,SUCCESS,6,SUCCESS,7,SUCCESS,18,2015-03-07 15:07:25 -0500,Merge pull request #123 from square/jw/digest-byte-string,39,4480
+298,8283845,SUCCESS,6,SUCCESS,7,SUCCESS,17,2015-03-07 18:29:45 -0500,"Force write(Source, long) to write fully.",39,4503
+299,755bde6,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-03-07 22:33:40 -0500,Merge pull request #124 from square/jw/write-source-fully,39,4503
+300,ffc28d6,FAIL,6,NO,0,NO,0,2015-03-08 19:57:03 -0400,Merge pull request #116 from square/jwilson_0228_segment_sharing,41,4867
+301,a462d11,SUCCESS,7,SUCCESS,8,SUCCESS,18,2015-03-11 22:24:37 -0400,Update SegmentPool references to the latest.,41,4867
+302,d07412c,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-03-12 01:20:40 -0400,Merge pull request #127 from square/jw/fix-build,41,4867
+303,2526e76,SUCCESS,6,SUCCESS,6,SUCCESS,17,2015-03-15 23:09:56 -0400,Make sure every writableSegment() call writes or recycles.,41,4895
+304,6417286,SUCCESS,6,SUCCESS,5,SUCCESS,16,2015-03-15 22:21:30 -0500,Merge pull request #130 from square/jwilson_0315_dangling_tails,41,4895
+305,fae4b5e,SUCCESS,6,SUCCESS,5,SUCCESS,17,2015-03-16 00:22:09 -0400,Handle new ByteString APIs in SegmentedByteString.,41,4905
+306,df5ef5a,SUCCESS,6,SUCCESS,6,SUCCESS,17,2015-03-15 23:39:07 -0500,Merge pull request #131 from square/jwilson_0316_override_bytestring_apis,41,4905
+307,1f38546,SUCCESS,6,SUCCESS,7,SUCCESS,19,2015-03-16 00:40:21 -0400,Update changelog for 1.3.0.,41,4905
+308,310bf6b,SUCCESS,7,SUCCESS,8,SUCCESS,18,2015-03-16 00:43:06 -0400,[maven-release-plugin] prepare release okio-parent-1.3.0,41,4905
+309,ea3e0d5,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-03-16 00:43:08 -0400,[maven-release-plugin] prepare for next development iteration,41,4905
+310,229bead,SUCCESS,7,SUCCESS,8,SUCCESS,19,2015-03-16 23:37:11 -0400,Update readme for 1.3.0.,41,4905
+311,2f4a48d,SUCCESS,8,SUCCESS,6,SUCCESS,18,2015-04-12 15:25:18 -0400,Add native substring writing to BufferedSink.,41,4947
+312,b581171,SUCCESS,7,SUCCESS,9,SUCCESS,19,2015-04-12 15:30:42 -0400,Merge pull request #138 from square/jw/substring,41,4947
+313,3e25d85,SUCCESS,7,SUCCESS,8,SUCCESS,18,2015-04-18 22:53:51 -0400,Throw EOFException reading digits from an empty source.,41,4911
+314,d1c8310,SUCCESS,7,SUCCESS,8,SUCCESS,19,2015-04-18 23:23:45 -0400,Merge pull request #142 from square/jwilson_0418_throw_eof,41,4953
+315,85e9f94,SUCCESS,6,SUCCESS,6,SUCCESS,18,2015-04-25 11:54:05 -0400,APIs to read and write code points.,41,5188
+316,3c61fdb,SUCCESS,6,SUCCESS,7,SUCCESS,17,2015-04-26 08:33:39 -0400,Merge pull request #145 from square/jwilson_0425_utf8_code_points,41,5188
+317,aa4d51d,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-05-11 10:43:48 -0700,Includes this repo in our open source bug bounty program.,41,5188
+318,3d7752f,SUCCESS,5,SUCCESS,6,SUCCESS,17,2015-05-11 13:58:21 -0400,Merge pull request #147 from alokmenghrajani/alok/bugbounty,41,5188
+319,a4aee7d,SUCCESS,6,SUCCESS,7,SUCCESS,18,2015-05-16 08:19:39 -0400,Change Timeout.throwIfReached() to throw InterruptedIOException,42,5218
+320,859e834,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-05-16 10:34:57 -0400,Merge pull request #148 from square/jwilson_0516_timeout_tweaks,42,5218
+321,20ea40e,SUCCESS,6,SUCCESS,9,SUCCESS,19,2015-05-16 12:00:35 -0400,[maven-release-plugin] prepare release okio-parent-1.4.0,42,5218
+322,85f92d6,SUCCESS,7,SUCCESS,9,SUCCESS,19,2015-05-16 12:00:37 -0400,[maven-release-plugin] prepare for next development iteration,42,5218
+323,c0b847f,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-05-16 12:13:54 -0400,Update changelog for 1.4.0.,42,5218
+324,0404989,SUCCESS,8,SUCCESS,9,SUCCESS,16,2015-05-17 12:45:41 +0200,Removed duplicated 'would',42,5218
+325,4023ed0,SUCCESS,6,SUCCESS,6,SUCCESS,18,2015-05-17 09:15:52 -0400,Merge pull request #149 from ChristianBecker/patch-1,42,5218
+326,e9b9f37,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-06-02 10:58:30 -0400,Implement comparable in ByteString.,42,5228
+327,e4621f1,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-06-02 13:24:19 -0400,Merge pull request #151 from square/jwilson_0602_compareto,42,5228
+328,c898426,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-06-08 12:39:42 +0100,Make Okio Socket-related methods throw SocketTimeoutException,42,5238
+329,9a15468,SUCCESS,8,SUCCESS,6,SUCCESS,18,2015-06-08 17:14:11 -0400,Merge pull request #154 from nfuller/AddTimeoutExceptionApi,42,5238
+330,0d53e34,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-06-19 13:27:30 -0400,Update changelog for 1.5.0.,42,5238
+331,9797cea,SUCCESS,7,SUCCESS,8,SUCCESS,20,2015-06-19 13:28:34 -0400,[maven-release-plugin] prepare release okio-parent-1.5.0,42,5238
+332,3bc2d26,SUCCESS,6,SUCCESS,7,SUCCESS,18,2015-06-19 13:28:36 -0400,[maven-release-plugin] prepare for next development iteration,42,5238
+333,2b97479,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-06-30 21:53:42 +0700,Update README.md for 1.5.0.,42,5238
+334,c5d3891,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-06-30 11:01:14 -0400,Merge pull request #157 from amincheloh/patch-1,42,5238
+335,2b52926,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-07-29 23:32:00 -0400,indexOf overloads for matching a series of bytes.,42,5297
+336,e0429cf,SUCCESS,7,SUCCESS,7,SUCCESS,16,2015-07-30 23:48:21 -0700,Move a cast in Buffer.indexOf().,42,5238
+337,a044ec2,SUCCESS,6,SUCCESS,11,SUCCESS,17,2015-07-31 00:15:12 -0700,Merge pull request #162 from square/jw/index-of-byte-string,42,5297
+338,8b3b622,SUCCESS,6,SUCCESS,8,SUCCESS,22,2015-07-31 09:52:24 -0400,Merge branch 'master' into jwilson_0730_girate,42,5297
+339,4c9c51b,SUCCESS,6,SUCCESS,6,SUCCESS,17,2015-07-31 09:54:34 -0400,Merge pull request #164 from square/jwilson_0730_girate,42,5297
+340,b67d194,SUCCESS,7,SUCCESS,6,SUCCESS,17,2015-08-11 12:06:23 -0400,Work around an unexpected AssertionError in Android 4.2.2.,42,5302
+341,0082f5b,SUCCESS,7,SUCCESS,8,SUCCESS,22,2015-08-12 18:28:25 -0400,Merge branch 'pguilbot-pguilbot_catch_exception',42,5302
+342,10b644c,SUCCESS,8,SUCCESS,10,SUCCESS,22,2015-08-13 15:55:21 -0400,Actually ignore expected AssertionError.,42,5303
+343,b26a2a0,SUCCESS,10,SUCCESS,10,SUCCESS,21,2015-08-13 16:03:49 -0400,Merge pull request #167 from square/jwilson_0813_actually_ignore,42,5303
+344,7099a21,SUCCESS,9,SUCCESS,10,SUCCESS,21,2015-08-25 19:58:17 -0400,Update changelog for 1.6.0.,42,5303
+345,c8ee50f,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-08-25 19:59:14 -0400,[maven-release-plugin] prepare release okio-parent-1.6.0,42,5303
+346,6e586c8,SUCCESS,6,SUCCESS,7,SUCCESS,16,2015-08-25 19:59:17 -0400,[maven-release-plugin] prepare for next development iteration,42,5303
+347,4257ccb,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-08-25 21:23:25 -0400,1.6.0 is latest.,42,5303
+348,d4661f9,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-09-14 21:45:34 -0400,Recover from more EBADF failures.,42,5309
+349,3134367,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-09-14 21:51:12 -0400,Merge pull request #170 from square/jwilson_0914_more_sadness,42,5309
+350,f30955c,SUCCESS,7,SUCCESS,8,SUCCESS,20,2015-09-22 19:06:05 -0400,Try 8 KiB segments.,42,5303
+351,02481cc,SUCCESS,7,SUCCESS,8,SUCCESS,21,2015-09-22 19:09:08 -0400,Merge pull request #173 from square/jwilson_0922_8k_segments,42,5309
+352,464633b,SUCCESS,8,SUCCESS,7,SUCCESS,22,2015-10-27 23:49:09 +0100,Fix some lexical errors in Sink/Source javadocs.,42,5309
+353,8ab97da,SUCCESS,8,SUCCESS,8,SUCCESS,22,2015-10-27 20:39:25 -0400,Merge pull request #174 from serj-lotutovici/sl/fix_some_javadocs,42,5309
+354,a672381,SUCCESS,8,SUCCESS,8,SUCCESS,20,2015-12-21 16:29:08 -0500,Remove two unused constructor overloads.,42,5303
+355,124218c,SUCCESS,6,SUCCESS,8,SUCCESS,20,2015-12-21 16:42:43 -0500,Remove synthetic accessors for private members in different scopes.,42,5309
+356,f54af37,SUCCESS,8,SUCCESS,7,SUCCESS,20,2015-12-21 17:15:52 -0500,Merge pull request #177 from square/jw/nothing,42,5303
+357,2225cb1,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-12-21 17:56:09 -0500,Merge pull request #178 from square/jw/remove-synthetic-accessors,42,5303
+358,d4da5cc,SUCCESS,21,SUCCESS,12,SUCCESS,30,2015-12-29 16:10:28 +0100,Add OSGi metadata to Okio,42,5303
+359,06ad482,SUCCESS,10,SUCCESS,10,SUCCESS,26,2015-12-30 13:27:14 -0500,Merge branch 'lburgazzoli-okio-osgi',42,5303
+360,0233b70,SUCCESS,9,SUCCESS,11,SUCCESS,25,2016-01-05 17:57:01 -0500,Point README to the latest Javadoc.,42,5303
+361,ff59fa6,SUCCESS,9,SUCCESS,8,SUCCESS,22,2016-01-14 16:02:34 -0800,"Revert ""Add OSGi metadata to Okio""",42,5303
+362,cd08e23,SUCCESS,8,SUCCESS,9,SUCCESS,21,2016-01-14 16:11:08 -0800,Merge pull request #183 from square/jwilson_0114_nosgi,42,5303
+363,aac467d,SUCCESS,9,SUCCESS,9,SUCCESS,22,2016-01-16 09:41:22 -0800,Added ByteString.asByteBuffer().,42,5306
+364,58f4b95,SUCCESS,8,SUCCESS,9,SUCCESS,21,2016-01-16 10:02:16 -0800,Fixed SegmentedByteString and made byte buffers read-only.,42,5309
+365,5adfaf8,SUCCESS,8,SUCCESS,10,SUCCESS,21,2016-01-16 13:10:44 -0500,Merge pull request #184 from crazybob/master,42,5309
+366,a5c2782,SUCCESS,7,SUCCESS,8,SUCCESS,20,2016-02-17 14:08:23 +1300,Test for Buffer.snapshot(int),42,5314
+367,6ddf980,SUCCESS,6,SUCCESS,7,SUCCESS,20,2016-02-16 22:42:08 -0500,Limit snapshot byte strings to requested size.,42,5314
+368,003d519,SUCCESS,9,SUCCESS,9,SUCCESS,20,2016-02-19 05:12:15 -0800,Merge pull request #194 from square/ksperling-buffer-snapshot,42,5314
+369,c8ca861,SUCCESS,7,SUCCESS,9,SUCCESS,23,2016-02-23 23:23:14 -0500,Change write timeouts to have a maximum write size.,42,5351
+370,c48cef1,SUCCESS,9,SUCCESS,9,SUCCESS,25,2016-02-24 09:58:55 -0500,Merge pull request #196 from square/jwilson_0223_throttle_writes,42,5351
+371,f49174c,SUCCESS,11,SUCCESS,12,SUCCESS,36,2016-03-30 23:27:52 -0400,Don't share segments if doing so only saves a small copy.,42,5377
+372,e0765ed,SUCCESS,9,SUCCESS,8,SUCCESS,34,2016-03-31 00:18:35 -0400,Merge pull request #201 from square/jwilson_0330_sharing_policy,42,5377
+373,650dc47,SUCCESS,9,SUCCESS,10,SUCCESS,38,2016-04-03 14:33:34 -0400,Make Source.indexOf(ByteString) significantly faster.,42,5429
+374,8b2b40c,SUCCESS,9,SUCCESS,8,SUCCESS,36,2016-04-04 22:56:43 -0400,Merge pull request #203 from square/jwilson_0403_fast_indexof,42,5429
+375,e1bea30,SUCCESS,8,SUCCESS,8,SUCCESS,37,2016-04-03 21:07:04 -0400,HashingSource and HashingSink.,46,5568
+376,dc7a143,SUCCESS,7,SUCCESS,8,SUCCESS,36,2016-04-04 23:57:28 -0400,Merge pull request #204 from square/jwilson_0403_digester,46,5620
+377,6d405fa,SUCCESS,11,SUCCESS,10,SUCCESS,27,2016-04-05 22:46:35 -0400,Optimize indexOfElement.,47,5700
+378,2eb54a7,SUCCESS,9,SUCCESS,8,SUCCESS,28,2016-04-05 23:11:14 -0400,Merge pull request #205 from square/jwilson_0405_faster_indexof,47,5700
+379,8d738c5,SUCCESS,8,SUCCESS,10,SUCCESS,30,2016-04-10 22:06:56 -0400,Add some examples to buffered source read methods.,47,5700
+380,30bdcf7,SUCCESS,9,SUCCESS,10,SUCCESS,39,2016-04-10 20:51:58 -0400,"Add md5(), sha1(), and sha256() methods to Buffer.",47,5650
+381,5416bbb,SUCCESS,10,SUCCESS,11,SUCCESS,27,2016-04-10 22:11:15 -0400,Merge pull request #207 from square/jwilson_0410_buffer_hashes,48,5730
+382,cadf98b,SUCCESS,9,SUCCESS,9,SUCCESS,27,2016-04-10 22:24:50 -0400,Merge pull request #208 from square/jwilson_0410_examples,48,5730
+383,0b3635a,SUCCESS,9,SUCCESS,11,SUCCESS,29,2016-04-10 22:32:59 -0400,Update changelog for 1.7.0.,48,5730
+384,7228174,SUCCESS,12,SUCCESS,10,SUCCESS,34,2016-04-10 23:00:04 -0400,[maven-release-plugin] prepare release okio-parent-1.7.0,48,5730
+385,ea84efc,SUCCESS,12,SUCCESS,12,SUCCESS,31,2016-04-10 23:00:11 -0400,[maven-release-plugin] prepare for next development iteration,48,5730
+386,10fbd8d,SUCCESS,9,SUCCESS,10,SUCCESS,28,2016-04-10 23:18:55 -0400,Update readme to v1.7.0.,48,5730
+387,52dd9f5,SUCCESS,9,SUCCESS,10,SUCCESS,28,2016-04-11 07:15:07 +0200,fix wrong date for Version 1.7.0,48,5730
+388,33cb196,SUCCESS,9,SUCCESS,9,SUCCESS,29,2016-04-11 01:19:36 -0400,Merge pull request #209 from chrisdoc/master,48,5730
+389,f3e3dfa,SUCCESS,9,SUCCESS,9,SUCCESS,28,2016-04-11 18:31:49 +0200,Fix typo in changelog,48,5730
+390,2c92d82,SUCCESS,9,SUCCESS,9,SUCCESS,27,2016-04-11 12:45:29 -0400,Merge pull request #210 from aried3r/patch-1,48,5730
+391,7cfd024,SUCCESS,11,SUCCESS,11,SUCCESS,38,2016-04-16 01:32:59 -0400,Implement BufferedSource.select(List<ByteString>).,48,5841
+392,5d3ce78,SUCCESS,11,SUCCESS,10,SUCCESS,38,2016-04-16 17:19:15 -1000,Merge pull request #211 from square/jwilson_0416_selector,48,5841
+393,94782eb,SUCCESS,10,SUCCESS,12,SUCCESS,36,2016-04-18 16:51:37 -1000,"Implement indexOf(), startsWith(), and endsWith().",48,5879
+394,ea63d46,SUCCESS,10,SUCCESS,10,SUCCESS,35,2016-04-19 11:44:07 -0400,Merge pull request #213 from square/jwilson_0418_indexof,48,5879
+395,c57b44d,SUCCESS,8,SUCCESS,9,SUCCESS,37,2016-04-21 08:57:02 -1000,Change BufferedSource.select to take an Options type.,49,5892
+396,a9f444a,SUCCESS,10,SUCCESS,10,SUCCESS,37,2016-04-23 23:12:10 -0400,Merge pull request #215 from square/jwilson_0421_options,49,5892
+397,4b1ed52,SUCCESS,9,SUCCESS,9,SUCCESS,38,2016-04-24 16:24:54 -0400,Use JUnit parameterized tests for ByteStringTest,49,5893
+398,a618447,SUCCESS,11,SUCCESS,9,SUCCESS,37,2016-04-24 17:23:00 -0400,Examples in the BufferedSink documentation.,49,5895
+399,c1d2a59,SUCCESS,10,SUCCESS,12,SUCCESS,40,2016-04-24 17:34:47 -0400,Merge pull request #216 from square/jwilson_0424_segmented_tests,49,5893
+400,330ec98,SUCCESS,8,SUCCESS,8,SUCCESS,35,2016-04-24 20:09:58 -0400,Merge pull request #217 from square/jwilson_0424_buffered_sink_docs,49,5896
+401,8f0e38b,SUCCESS,8,SUCCESS,9,SUCCESS,36,2016-05-01 15:54:25 -0400,Friendlier toString for ByteStrings and Buffers.,49,5908
+402,e9a57b7,SUCCESS,9,SUCCESS,9,SUCCESS,36,2016-05-01 23:41:43 -0400,Merge pull request #219 from square/jwilson_0501_tostrings,49,5908
+403,f00b79e,SUCCESS,9,SUCCESS,9,SUCCESS,39,2016-05-02 00:14:39 -0400,Update changelog for 1.8.0.,49,5908
+404,ade1056,SUCCESS,11,SUCCESS,11,SUCCESS,35,2016-05-02 00:15:42 -0400,[maven-release-plugin] prepare release okio-parent-1.8.0,49,5908
+405,81721fa,SUCCESS,10,SUCCESS,11,SUCCESS,39,2016-05-02 00:15:45 -0400,[maven-release-plugin] prepare for next development iteration,49,5908
+406,8f96010,SUCCESS,10,SUCCESS,12,SUCCESS,41,2016-05-03 13:34:11 -0700,Fix changelog typo,49,5908
+407,207a49e,SUCCESS,9,SUCCESS,9,SUCCESS,34,2016-05-03 19:30:12 -0400,Merge pull request #220 from NightlyNexus/master,49,5908
+408,657278f,SUCCESS,8,SUCCESS,9,SUCCESS,35,2016-06-18 18:04:20 -0400,Fix a major bug where HashingSource is incorrect for large writes.,49,5909
+409,2244048,SUCCESS,9,SUCCESS,9,SUCCESS,33,2016-06-18 21:58:13 -0400,Merge pull request #227 from square/jwilson.0618.hashfail,49,5909
+410,a1a8f4a,SUCCESS,9,SUCCESS,11,SUCCESS,37,2016-06-26 22:38:20 -0400,Add rangeEquals to BufferedSource.,49,5939
+411,b2174a2,SUCCESS,8,SUCCESS,9,SUCCESS,36,2016-06-26 23:21:22 -0400,Merge pull request #231 from square/jw/range-equals,49,5939
+412,d1f92a2,SUCCESS,10,SUCCESS,10,SUCCESS,38,2016-06-26 23:59:18 -0400,Add argument validation to rangeEquals.,49,5988
+413,615f84e,SUCCESS,10,SUCCESS,11,SUCCESS,35,2016-06-27 01:08:10 -0400,Merge pull request #232 from square/jw/range-equals,49,5988
+414,f1e0c2d,SUCCESS,9,SUCCESS,9,SUCCESS,32,2016-06-27 01:22:17 -0400,Be forgiving in rangeEquals arguments.,49,5957
+415,c398fe9,SUCCESS,8,SUCCESS,10,SUCCESS,33,2016-06-27 06:49:23 -0400,Merge pull request #233 from square/jw/range-equals,49,5957
+416,a1aa94d,SUCCESS,10,SUCCESS,12,SUCCESS,42,2016-06-27 13:22:38 -0400,Remove redundant null check.,49,5967
+417,6fbc283,SUCCESS,12,SUCCESS,13,SUCCESS,38,2016-06-27 17:27:41 -0400,Merge pull request #234 from square/jw/superfluous-null-check,49,5967
+418,a9bcb50,SUCCESS,12,SUCCESS,10,SUCCESS,37,2016-06-28 11:12:13 -0400,Correct enclsoing toString reference.,49,5967
+419,6a25fe0,SUCCESS,10,SUCCESS,12,SUCCESS,37,2016-06-28 11:10:21 -0400,Add more test coverage to InputStream.skip.,49,5970
+420,5cb29e9,SUCCESS,10,SUCCESS,10,SUCCESS,33,2016-06-28 16:47:50 -0400,Merge pull request #235 from square/jw/skip,49,5970
+421,1acd36f,SUCCESS,9,SUCCESS,9,SUCCESS,59,2016-06-26 12:42:51 -0400,Promote OkHttp's Pipe into Okio.,52,6347
+422,6d58dd5,SUCCESS,9,SUCCESS,11,SUCCESS,36,2016-06-28 18:15:29 -0400,Merge pull request #236 from square/jw/to-string,49,5970
+423,c57b5ae,SUCCESS,10,SUCCESS,9,SUCCESS,60,2016-06-28 18:24:17 -0400,Merge pull request #230 from square/jwilson.0626.okhttps_pipe,52,6409
+424,744f8cf,SUCCESS,10,SUCCESS,10,SUCCESS,60,2016-07-01 14:16:03 -0400,Update changelog for 1.9.0.,52,6409
+425,3e201fe,SUCCESS,11,SUCCESS,11,SUCCESS,61,2016-07-01 14:17:35 -0400,[maven-release-plugin] prepare release okio-parent-1.9.0,52,6409
+426,bcd77af,SUCCESS,10,SUCCESS,11,SUCCESS,61,2016-07-01 14:17:38 -0400,[maven-release-plugin] prepare for next development iteration,52,6409
+427,8c7c9e4,SUCCESS,10,SUCCESS,10,SUCCESS,59,2016-07-08 05:34:36 +0200,Add blackhole Sink.,52,6423
+428,d5d5bea,SUCCESS,8,SUCCESS,8,SUCCESS,61,2016-07-08 00:51:14 -0400,Merge pull request #240 from cketti/blackhole,52,6423
+429,2f6e778,SUCCESS,10,SUCCESS,10,SUCCESS,59,2016-07-28 13:32:38 +0100,Import org.junit.Assert.fail instead of junit.framework.TestCase.fail,52,6423
+430,c772eb3,SUCCESS,9,SUCCESS,9,SUCCESS,58,2016-07-28 17:11:02 -0400,Merge pull request #245 from 15characterlimi/import-junit4-assert-fail,52,6423
+431,486f752,SUCCESS,9,SUCCESS,8,SUCCESS,57,2016-07-28 10:28:20 +0430,Expose Deflater in gzip sink,52,6425
+432,6b72ffd,SUCCESS,9,SUCCESS,10,SUCCESS,61,2016-07-28 23:49:36 -0400,Merge pull request #244 from mblcdr/hm/gzip-compression,52,6425
+433,398822b,SUCCESS,12,SUCCESS,13,SUCCESS,63,2016-08-05 00:17:51 -0400,Document the length of our built-in hashes.,52,6409
+434,8ea3df9,SUCCESS,10,SUCCESS,10,SUCCESS,58,2016-08-05 10:15:30 -0400,Merge pull request #246 from square/jwilson.0805.hash_length,52,6425
+435,9e7d6b3,SUCCESS,9,SUCCESS,9,SUCCESS,59,2016-08-06 23:52:55 +0200,Don't overallocate when base64-encoding.,52,6425
+436,834a35c,SUCCESS,9,SUCCESS,10,SUCCESS,60,2016-08-06 20:11:57 -0400,Merge pull request #247 from cketti/base64_encode_buffer_size_fix,52,6425
+437,ea82663,SUCCESS,8,SUCCESS,10,SUCCESS,205,2016-08-13 08:46:49 -0700,Add some tests for reading very large streams.,53,6511
+438,1ccc68e,SUCCESS,11,SUCCESS,11,SUCCESS,203,2016-08-13 18:59:33 -0400,Merge pull request #251 from square/jwilson.0813.gzip_tests,53,6511
+439,f82f934,SUCCESS,9,SUCCESS,11,SUCCESS,207,2016-08-13 19:09:22 -0700,Fix GzipSource to handle large files on AOSP.,53,6511
+440,4934879,SUCCESS,8,SUCCESS,10,SUCCESS,206,2016-08-13 21:32:14 -0700,Merge pull request #252 from square/jwilson.0813.gzip_fix,53,6511
+441,21faa41,SUCCESS,12,SUCCESS,13,SUCCESS,205,2016-08-14 08:58:10 -0700,Fix GzipSink for symmetry.,53,6511
+442,838a215,SUCCESS,9,SUCCESS,11,SUCCESS,205,2016-08-14 12:17:04 -0400,Merge pull request #253 from square/jwilson.0814.fix_gzip_sink,53,6511
+443,9e99b2d,SUCCESS,10,SUCCESS,8,SUCCESS,210,2016-08-21 19:58:13 -0400,Exit the watchdog thread after being idle for 60 seconds.,53,6522
+444,dc3ab2a,SUCCESS,10,SUCCESS,9,SUCCESS,205,2016-08-21 20:09:52 -0400,Merge pull request #256 from square/jwilson.0821.unload,53,6522
+445,6ce4fb7,SUCCESS,9,SUCCESS,9,FAIL,201,2016-08-28 13:37:11 -0400,APIs on ByteString to encode and decode any charset.,53,6535
+446,b5f9429,SUCCESS,12,SUCCESS,13,SUCCESS,206,2016-08-28 13:45:57 -0400,Merge pull request #257 from square/jwilson.0828.charsets,53,6535
+447,caf4457,SUCCESS,9,SUCCESS,11,SUCCESS,201,2016-08-28 15:55:14 -0400,Update changelog to 1.10.0.,53,6535
+448,cacc740,SUCCESS,9,SUCCESS,9,SUCCESS,208,2016-08-28 15:58:01 -0400,[maven-release-plugin] prepare release okio-parent-1.10.0,53,6535
+449,b82d5d7,SUCCESS,11,SUCCESS,12,SUCCESS,207,2016-08-28 15:58:04 -0400,[maven-release-plugin] prepare for next development iteration,53,6535
+450,8f5ae73,SUCCESS,9,SUCCESS,10,SUCCESS,203,2016-08-29 08:16:03 -0400,Fix a major bug where writeString() didn't always respect offsets.,53,6539
+451,927902b,SUCCESS,10,SUCCESS,12,SUCCESS,207,2016-08-29 08:54:40 -0400,Merge pull request #259 from square/jwilson.0829.substring,53,6539
+452,83a0a23,SUCCESS,8,SUCCESS,9,SUCCESS,206,2016-09-14 14:33:47 -0500,ByteString: support creating from NIO ByteBuffers,53,6544
+453,4ae65b8,SUCCESS,12,SUCCESS,11,SUCCESS,208,2016-09-14 18:07:56 -0400,Merge pull request #261 from sl4mmy/bytestring-from-bytebuffer,53,6544
+454,60c767d,SUCCESS,12,SUCCESS,10,SUCCESS,203,2016-09-16 01:10:52 -0400,Add an extreme SegmentedByteString variant for testing.,53,6539
+455,d532c85,SUCCESS,9,SUCCESS,10,SUCCESS,198,2016-09-19 22:09:16 +0800,Correct test comment.,53,6544
+456,20e3411,SUCCESS,9,SUCCESS,11,SUCCESS,209,2016-10-03 19:57:34 -0400,Merge pull request #263 from square/jw/one-byte-segments,53,6544
+457,f47ffeb,SUCCESS,10,SUCCESS,11,SUCCESS,208,2016-10-07 18:55:45 -0400,Implement HMAC SHA-1 and HMAC-SHA-256 throughout Okio.,53,6678
+458,d51aaa0,SUCCESS,10,SUCCESS,11,SUCCESS,209,2016-10-10 21:14:36 -0400,Merge pull request #266 from square/jwilson.1007.hmac,53,6678
+459,9821625,SUCCESS,12,SUCCESS,12,SUCCESS,209,2016-10-11 20:31:25 -0400,Update the changelog for 1.11.,53,6678
+460,d00d95a,SUCCESS,11,SUCCESS,10,SUCCESS,207,2016-10-11 20:34:11 -0400,[maven-release-plugin] prepare release okio-parent-1.11.0,53,6678
+461,8422323,SUCCESS,10,SUCCESS,12,SUCCESS,209,2016-10-11 20:34:14 -0400,[maven-release-plugin] prepare for next development iteration,53,6678
+462,4ef6c1f,SUCCESS,9,SUCCESS,11,SUCCESS,204,2016-10-17 15:57:48 +0200,Remove creation of synthetic accessor method.,53,6678
+463,a99faff,SUCCESS,9,SUCCESS,10,SUCCESS,211,2016-10-17 10:10:14 -0400,Merge pull request #267 from vanniktech/synthetic,53,6678
+464,032ad99,SUCCESS,11,SUCCESS,12,SUCCESS,210,2016-12-07 23:54:57 +0100,endsWith -> suffix,53,6678
+465,d412a4a,SUCCESS,10,SUCCESS,12,SUCCESS,205,2016-12-07 17:57:38 -0500,Merge pull request #274 from larsgrefer/patch-1,53,6678
+466,021b610,SUCCESS,9,SUCCESS,10,SUCCESS,213,2016-12-08 08:40:12 -0600,Add pro guard rules to readme,53,6678
+467,7c2f08b,SUCCESS,10,SUCCESS,10,SUCCESS,204,2016-12-08 11:36:49 -0500,Merge pull request #275 from Jawnnypoo/proguard-rules,53,6678
+468,ef6d1e0,SUCCESS,10,SUCCESS,10,SUCCESS,206,2016-12-23 11:10:59 -0500,Add sha-512 hash and hmac support,53,6718
+469,c18de71,SUCCESS,10,SUCCESS,11,SUCCESS,208,2016-12-23 11:51:32 -0500,Merge pull request #277 from rockaport/sha512-support,53,6718
+470,d1d1c7b,SUCCESS,11,SUCCESS,10,SUCCESS,209,2017-01-08 19:08:20 -0800,Allow length of readUtf8LineStrict to be limited.,53,6798
+471,e8d6172,SUCCESS,9,SUCCESS,10,SUCCESS,211,2017-01-16 12:46:50 -0500,Merge branch 'ericedens-master',53,6798
+472,0376007,SUCCESS,12,SUCCESS,13,SUCCESS,206,2017-01-16 23:20:47 -0800,"limit in readUtf8LineStrict should specify maximum return length, not scan length",53,6846
+473,11ad43e,SUCCESS,11,SUCCESS,10,SUCCESS,207,2017-02-02 22:00:46 -0500,Merge branch 'ericedens-master',53,6846
+474,44170a2,SUCCESS,8,SUCCESS,11,SUCCESS,208,2017-02-07 23:55:57 -0800,Close BufferedSource in README sample,53,6846
+475,0980a8d,SUCCESS,10,SUCCESS,9,SUCCESS,206,2017-02-08 21:52:38 -0500,Merge pull request #285 from NightlyNexus/eric/0207-readme,53,6846
+476,c8f79c8,SUCCESS,25,SUCCESS,13,SUCCESS,211,2017-02-13 22:19:20 -0500,Add error-prone compiler.,53,6680
+477,5049e1c,SUCCESS,16,SUCCESS,17,SUCCESS,206,2017-02-14 22:54:08 -0500,Merge pull request #287 from square/jw/2017-02-13/error-prone,53,6848
+478,bb034bb,SUCCESS,9,SUCCESS,10,SUCCESS,207,2017-04-01 17:11:16 -0400,Write '?' for a partial surrogate rather than throwing.,53,6845
+479,441d16b,SUCCESS,15,SUCCESS,15,SUCCESS,213,2017-04-01 17:25:51 -0400,Merge pull request #297 from square/jwilson.0401.replacement_chars,53,6847
+480,ead8d33,SUCCESS,16,SUCCESS,16,SUCCESS,203,2017-04-01 22:07:08 -0400,Change Pipe's sink.flush() to not block.,53,6815
+481,18dab90,SUCCESS,15,SUCCESS,16,SUCCESS,206,2017-04-09 21:53:23 -0400,Merge pull request #298 from square/jwilson.0401.pipe_sink_flush,53,6815
+482,b0145fd,SUCCESS,17,SUCCESS,17,SUCCESS,209,2017-04-09 22:29:53 -0400,New Utf8.size() method to get a string's UTF-8 length.,54,6886
+483,5196d18,SUCCESS,18,SUCCESS,17,SUCCESS,205,2017-04-11 22:31:22 -0400,Merge pull request #300 from square/jwilson.0409.utf8size,54,6886
+484,822262f,SUCCESS,16,SUCCESS,15,SUCCESS,207,2017-04-11 22:48:50 -0400,Update README for Okio 1.12.,54,6886
+485,ba501f0,SUCCESS,15,SUCCESS,17,SUCCESS,204,2017-04-11 23:12:50 -0400,Fix HTML tables for strict Javadoc checks.,54,6886
+486,17dfa83,SUCCESS,16,SUCCESS,15,SUCCESS,204,2017-04-11 23:16:03 -0400,[maven-release-plugin] prepare release okio-parent-1.12.0,54,6886
+487,04657ac,SUCCESS,15,SUCCESS,17,SUCCESS,207,2017-04-11 23:16:09 -0400,[maven-release-plugin] prepare for next development iteration,54,6886
+488,2320c7f,SUCCESS,16,SUCCESS,13,SUCCESS,196,2017-05-01 22:39:52 -0400,Import jsr305 and use it to mark @Nullable stuff.,54,6896
+489,319c7f3,SUCCESS,16,SUCCESS,11,SUCCESS,199,2017-05-03 00:16:22 -0400,Merge pull request #307 from square/jwilson.0501.nullable,54,6896
+490,872e397,SUCCESS,18,SUCCESS,16,SUCCESS,197,2017-05-06 14:35:04 -0400,Enable Checkstyle 7.7.,54,6896
+491,fe9abc5,SUCCESS,14,SUCCESS,12,SUCCESS,195,2017-05-06 12:12:14 -0700,Merge pull request #308 from square/jwilson.0506.checkstyle_77,54,6896
+492,7ce2bfb,SUCCESS,15,SUCCESS,13,SUCCESS,199,2017-05-12 12:18:00 -0400,Update Changelog for Okio 1.13,54,6896
+493,895452f,SUCCESS,17,SUCCESS,12,SUCCESS,196,2017-05-12 12:21:17 -0400,[maven-release-plugin] prepare release okio-parent-1.13.0,54,6896
+494,e7e35e2,SUCCESS,17,SUCCESS,12,SUCCESS,194,2017-05-12 12:21:21 -0400,[maven-release-plugin] prepare for next development iteration,54,6896
+495,821912a,SUCCESS,18,SUCCESS,14,SUCCESS,198,2017-05-12 11:12:19 -0700,"Update the README - this is longer a ""new"" library",54,6896
+496,c0529a9,SUCCESS,16,SUCCESS,14,SUCCESS,195,2017-05-12 15:31:11 -0400,Merge pull request #309 from SalvatoreT/sal/okio-is-no-longer-new,54,6896
+497,80f3aa2,SUCCESS,15,SUCCESS,13,SUCCESS,202,2017-05-22 08:14:32 -0400,Fix a performance bug in AsyncTimeout.sink().write().,54,6896
+498,20e259c,SUCCESS,17,SUCCESS,13,SUCCESS,194,2017-05-22 10:42:26 -0400,Merge pull request #312 from square/jwilson.0522.actually_split,54,6896
+499,64a00ce,SUCCESS,17,SUCCESS,13,SUCCESS,196,2018-01-22 09:47:20 -0500,Add an initial Okio code sample.,55,6937
+500,38adfbd,SUCCESS,17,SUCCESS,13,SUCCESS,202,2018-01-24 09:01:04 -0500,Merge pull request #336 from square/jwilson.0122.random_sample,55,6937
+501,d6bccc8,SUCCESS,15,SUCCESS,14,SUCCESS,194,2018-01-06 01:08:42 -0500,Unsafe access to segment byte arrays.,55,7339
+502,c393250,SUCCESS,15,SUCCESS,13,SUCCESS,203,2018-01-28 12:22:36 -0500,Merge pull request #331 from square/jwilson.0106.buffer_cursor,56,7380
+503,56a165b,SUCCESS,18,SUCCESS,16,SUCCESS,201,2018-01-31 12:43:03 -0600,throwing IOExceptions if input stream or output stream is null (#337),56,7382
+504,7d04628,SUCCESS,19,SUCCESS,16,SUCCESS,197,2018-02-03 09:44:39 -0600,Buffer cursor seek performance (#338),57,7465
+505,d9c671c,SUCCESS,16,SUCCESS,11,SUCCESS,197,2018-02-03 09:57:14 -0600,Allow Buffer.getByte() to search backwards for the desired segment (#333),58,7515
+506,53975f8,SUCCESS,18,SUCCESS,14,SUCCESS,189,2018-02-03 23:59:43 -0800,Add 'Automatic-Module-Name' entry to manifest (#340),58,7515
+507,2f65947,SUCCESS,20,SUCCESS,15,SUCCESS,197,2018-02-05 16:29:28 -0500,Just use 'okio' for the automatic module name. (#343),58,7515
+508,f9e27b0,SUCCESS,17,SUCCESS,14,SUCCESS,196,2018-02-05 17:10:48 -0600,InflaterSource needs to honor read byte count (#344),58,7531
+509,ccee866,SUCCESS,14,SUCCESS,13,SUCCESS,191,2018-02-09 08:28:23 -0500,"New API, UnsafeCursor.expandBuffer(). (#342)",58,7606
+510,a7a4923,SUCCESS,16,SUCCESS,13,SUCCESS,192,2018-02-11 21:04:45 -0500,Implement ReadableByteChannel and WritableByteChannel. (#346),59,7787
+511,5acee30,SUCCESS,18,SUCCESS,13,SUCCESS,195,2018-02-11 21:04:56 -0500,Change resizeBuffer() and expandBuffer() to seek. (#347),59,7802
+512,06f40f3,SUCCESS,16,SUCCESS,14,SUCCESS,193,2018-02-11 21:05:41 -0500,Update changelog for 1.14.0.,59,7802
+513,9d69b0e,SUCCESS,16,SUCCESS,15,SUCCESS,195,2018-02-11 21:17:18 -0500,[maven-release-plugin] prepare release okio-parent-1.14.0,59,7802
+514,dbee1c4,SUCCESS,21,SUCCESS,16,FAIL,194,2018-02-11 21:17:24 -0500,[maven-release-plugin] prepare for next development iteration,59,7802
+515,4253045,SUCCESS,18,SUCCESS,14,SUCCESS,194,2018-02-12 19:53:41 -0600,Sample to show intercepting of source/sink Buffer via UnsafeCursor (#349),60,7881
+516,24c4054,SUCCESS,17,SUCCESS,14,SUCCESS,198,2018-02-23 16:57:09 +0100,Remove redundant toString() call. (#350),60,7881
+517,5d43eea,SUCCESS,17,SUCCESS,14,SUCCESS,196,2018-02-23 16:58:03 +0100,Documentation improvement for Sink and Source. (#351),60,7881
+518,a71c015,SUCCESS,17,SUCCESS,13,SUCCESS,193,2018-02-25 22:08:15 -0500,Use HTTPS links in documentation where possible.,59,7802
+519,edac79d,SUCCESS,19,SUCCESS,16,SUCCESS,197,2018-02-25 22:18:25 -0500,Merge pull request #354 from square/jwilson.0225.https_links,60,7881
+520,91bca7d,SUCCESS,19,SUCCESS,15,SUCCESS,198,2018-03-06 07:11:39 -0500,New sample: SourceMarker. (#360),62,8130
+521,01e5104,SUCCESS,37,FAIL,27,NO,0,2018-03-28 12:35:36 -0400,"Add Kotlin extensions for ByteString, Okio, and Utf8.",62,8130
+522,5a638d0,SUCCESS,25,FAIL,26,NO,0,2018-03-28 20:36:17 -0400,Merge pull request #365 from square/jakew/ktx/2018-03-27,62,8130
+523,e5cc37b,SUCCESS,30,FAIL,30,NO,0,2018-03-29 00:03:30 -0400,Add 512-bit variants of HashingSource factories.,62,8146
+524,046bde0,SUCCESS,30,FAIL,29,NO,0,2018-03-28 23:22:05 -0400,Add gzip and deflate extensions.,62,8130
+525,4f34670,SUCCESS,30,FAIL,30,NO,0,2018-03-30 09:36:17 -0400,Merge pull request #366 from square/jakew/ktx/2018-03-27,62,8130
+526,5f09744,SUCCESS,28,FAIL,27,NO,0,2018-03-30 09:47:42 -0400,Merge commit 'e5cc37be3911bd11baaf0e7b5e517b425f16f1ac',62,8146
+527,8fda82f,SUCCESS,26,SUCCESS,31,SUCCESS,210,2018-04-16 15:29:11 -0400,Build Okio with Gradle,62,8146
+528,abcd495,SUCCESS,25,SUCCESS,32,SUCCESS,214,2018-04-21 11:36:56 -0400,Merge pull request #369 from square/jwilson.0416.build_with_gradle,62,8146
+529,f790abf,SUCCESS,27,SUCCESS,33,SUCCESS,211,2018-04-21 12:00:54 -0400,Configure 'gradle-mvn-push',62,8146
+530,76b1a73,SUCCESS,23,SUCCESS,27,SUCCESS,214,2018-04-21 12:32:11 -0400,Merge pull request #372 from square/egorand/gradle-mvn-push,62,8146
+531,ceb52cb,SUCCESS,25,SUCCESS,34,SUCCESS,214,2018-04-21 12:56:04 -0400,Add JApicmp to validate public API compatibility.,62,8146
+532,c1a74c0,SUCCESS,26,SUCCESS,32,SUCCESS,214,2018-04-21 13:26:55 -0400,Merge pull request #373 from square/jakew/japicmp/2018-04-21,62,8146
+533,b9786a0,FAIL,11,NO,0,NO,0,2018-04-21 13:57:41 -0400,Port Okio type's public API to Kotlin.,62,8108
+534,332f4fe,SUCCESS,24,FAIL,14,NO,0,2018-04-21 15:02:33 -0400,Port Utf8 type's public API to Kotlin.,61,8112
+535,45bea58,SUCCESS,26,SUCCESS,32,SUCCESS,212,2018-04-21 15:28:12 -0400,Remove osgi plugin,62,8146
+536,3de0229,SUCCESS,21,SUCCESS,29,SUCCESS,214,2018-04-21 15:38:02 -0400,Merge pull request #377 from square/egorand/remove-osgi,62,8146
+537,985c152,FAIL,9,NO,0,NO,0,2018-04-21 15:59:11 -0400,Port ForwardingSource/Sink to Kotlin.,60,8110
+538,f4e9d8b,FAIL,13,NO,0,NO,0,2018-04-21 16:41:24 -0400,Merge pull request #375 from square/jakew/okio-to-kotlin/2018-04-21,62,8108
+539,1603fe8,FAIL,11,NO,0,NO,0,2018-04-21 16:43:40 -0400,Merge pull request #376 from square/jakew/utf8-to-kotlin/2018-04-21,61,8074
+540,d8124ab,FAIL,8,NO,0,NO,0,2018-04-21 16:45:39 -0400,Merge pull request #379 from square/jakew/forwarding-to-kotlin/2018-04-21,59,8038
+541,1a0371b,FAIL,10,NO,0,NO,0,2018-04-21 16:49:19 -0400,Re-use Kotlin's UTF-8 Charset constant.,59,8041
+542,f60e79e,FAIL,9,NO,0,NO,0,2018-04-21 17:00:25 -0400,Merge pull request #381 from square/jakew/charset/2018-04-21,59,8041
+543,8cb44c4,FAIL,8,NO,0,NO,0,2018-04-21 16:41:49 -0400,Port GzipSource/Sink to Kotlin.,57,7887
+544,ac29135,FAIL,4,NO,0,NO,0,2018-04-21 17:13:59 -0400,Move benchmarks under the main module,59,8041
+545,66f44ce,FAIL,9,NO,0,NO,0,2018-04-21 17:27:06 -0400,Merge pull request #380 from square/jakew/gzip-to-kotlin/2018-04-21,57,7887
+546,71265f6,FAIL,8,NO,0,NO,0,2018-04-21 17:30:08 -0400,Port InflateSource/DeflateSink to Kotlin.,55,7752
+547,8d32111,FAIL,3,NO,0,NO,0,2018-04-21 17:58:18 -0400,Make 'assemble' depend on 'jmhJar',59,8041
+548,4410ae6,FAIL,8,NO,0,NO,0,2018-04-21 18:03:10 -0400,Convert Sink and Source interfaces to Kotlin.,55,7871
+549,05883ff,SUCCESS,26,SUCCESS,34,SUCCESS,213,2018-04-21 18:32:26 -0400,Add Okio recipes to the readme,63,8165
+550,34eb46c,FAIL,8,NO,0,NO,0,2018-04-21 20:30:20 -0400,Merge pull request #385 from square/jwilson.0421.examples,58,7906
+551,a95161e,FAIL,9,NO,0,NO,0,2018-04-21 20:41:54 -0400,Merge pull request #384 from square/jakew/source-and-sink/2018-04-21,56,7890
+552,d2477be,FAIL,8,NO,0,NO,0,2018-04-21 20:44:48 -0400,Merge pull request #383 from square/jakew/deflate/2018-04-21,54,7755
+553,901c630,FAIL,3,NO,0,NO,0,2018-04-21 20:56:47 -0400,Merge pull request #382 from square/egorand/benchmarks,54,7755
+554,25910d6,FAIL,10,NO,0,NO,0,2018-04-21 23:16:36 -0400,File writing and UTF-8 sections in the readme.,55,7775
+555,7d685c4,FAIL,4,NO,0,NO,0,2018-04-22 10:47:31 -0400,Merge pull request #386 from square/jwilson.0421.write_file_utf8,55,7775
+556,c456fbf,FAIL,3,NO,0,NO,0,2018-04-22 22:01:05 -0400,Recipe for golden values,56,7814
+557,1afc444,FAIL,4,NO,0,NO,0,2018-04-22 22:27:45 -0400,Merge pull request #387 from square/jwilson.0422.golden_value,56,7814
+558,99a18cd,FAIL,3,NO,0,NO,0,2018-04-23 10:19:36 -0400,Convert BufferedSink and BufferedSource interfaces to Kotlin.,54,7733
+559,5d8b156,FAIL,3,NO,0,NO,0,2018-04-23 15:24:43 -0400,Merge pull request #389 from square/jakew/buffered-source-and-sink/2018-04-23,54,7733
+560,66339ab,FAIL,3,NO,0,NO,0,2018-04-22 22:24:21 -0400,Migrate Pipe to Kotlin.,54,7714
+561,f3c9dc8,FAIL,3,NO,0,NO,0,2018-04-23 16:24:35 -0400,Merge pull request #388 from square/jwilson.0422.pipe_kt,53,7672
+562,f04ebe4,FAIL,3,NO,0,NO,0,2018-04-23 16:37:43 -0400,Port Timeout to Kotlin.,52,7601
+563,73cd57b,FAIL,4,NO,0,NO,0,2018-04-23 20:02:04 -0400,Merge pull request #390 from square/jakew/timeout/2018-04-23,52,7601
+564,2143a93,FAIL,4,NO,0,NO,0,2018-04-23 20:15:00 -0400,Port AsyncTimeout to Kotlin.,51,7427
+565,9002c9e,FAIL,4,NO,0,NO,0,2018-04-23 23:25:00 -0400,Recipe for encoding a binary file,55,7801
+566,5c95e52,FAIL,3,NO,0,NO,0,2018-04-23 23:30:13 -0400,Merge pull request #391 from square/jakew/timeout/2018-04-23,51,7427
+567,d04d30d,FAIL,3,NO,0,NO,0,2018-04-24 11:17:17 -0400,Port HashingSink/Source to Kotlin,49,7307
+568,679d03a,FAIL,5,NO,0,NO,0,2018-04-24 12:16:23 -0400,Finish porting Okio type helpers to Kotlin.,50,7330
+569,486fc42,FAIL,4,NO,0,NO,0,2018-04-24 12:51:43 -0400,Merge pull request #394 from square/jakew/hashing/2018-04-24,49,7307
+570,2a5e5dd,FAIL,3,NO,0,NO,0,2018-04-24 12:56:22 -0400,Merge pull request #395 from square/jakew/old-okio/2018-04-24,48,7210
+571,e6dcf68,FAIL,3,NO,0,NO,0,2018-04-24 21:19:33 -0400,Print JApicmp output on build failure,48,7210
+572,e04c36f,FAIL,4,NO,0,NO,0,2018-04-24 22:17:59 -0400,Remove 'benchmarks' from settings.gradle,48,7210
+573,f63e2ce,FAIL,3,NO,0,NO,0,2018-04-24 22:32:54 -0400,Merge pull request #398 from square/egorand/0424/benchmarks-settings,48,7210
+574,690a9c9,FAIL,3,NO,0,NO,0,2018-04-24 22:33:09 -0400,Merge pull request #397 from square/egorand/0424/print-japicmp,48,7210
+575,fcb52ad,FAIL,3,NO,0,NO,0,2018-04-24 22:34:04 -0400,Merge pull request #393 from square/jwilson.0423.encode_bitmap,49,7278
+576,e91921a,FAIL,3,NO,0,NO,0,2018-04-24 17:10:35 -0400,Migrate ByteString to Kotlin,46,6772
+577,898bc97,FAIL,4,NO,0,NO,0,2018-04-25 10:45:19 -0400,Merge pull request #396 from square/jwilson.0424.bytestring_k,47,6840
+578,42b1af1,FAIL,4,NO,0,NO,0,2018-04-25 11:10:46 -0400,Convert Base64 to Kotlin,46,6757
+579,7be9d2f,FAIL,4,NO,0,NO,0,2018-04-25 23:10:50 -0400,Merge pull request #399 from square/jwilson.0425.base64_,46,6757
+580,fab9b10,FAIL,3,NO,0,NO,0,2018-04-25 23:41:14 -0400,Migrate ForwardingTimeout to Kotlin,46,6751
+581,5ccb9da,FAIL,4,NO,0,NO,0,2018-04-26 00:04:13 -0400,Merge pull request #402 from square/jwilson.0425.forwarding_timeout_k,46,6751
+582,a030c01,FAIL,4,NO,0,NO,0,2018-04-25 23:20:48 -0400,Multiplatform setup POC,46,6751
+583,875bd16,FAIL,3,NO,0,NO,0,2018-04-27 01:00:26 -0400,Networking recipe. (#400),47,6879
+584,729830e,FAIL,4,NO,0,NO,0,2018-04-27 11:33:50 -0400,Merge pull request #401 from square/egorand/multiplatform-setup,47,6879
+585,17a0469,FAIL,3,NO,0,NO,0,2018-04-26 14:34:41 -0400,"Convert RealBufferedSource, RealBufferedSink to Kotlin",45,6443
+586,6fa2cc2,FAIL,4,NO,0,NO,0,2018-04-27 11:49:10 -0400,Merge pull request #403 from square/jwilson.0426.real_buffered_sink_k,45,6443
+587,2ff88fb,FAIL,0,NO,0,NO,0,2018-04-27 11:51:01 -0400,Drop obsolete pom.xml files,45,6443
+588,56b50f1,FAIL,0,NO,0,NO,0,2018-04-27 12:00:55 -0400,Merge pull request #404 from square/jwilson.0427.nomaven,45,6443
+589,2d55014,FAIL,0,NO,0,NO,0,2018-04-27 13:24:04 -0400,Build samples module with Java 8,45,6435
+590,3eb48e8,FAIL,0,NO,0,NO,0,2018-04-27 17:32:53 -0400,Merge pull request #405 from square/egorand/samples-java-8,45,6435
+591,e8cf137,FAIL,0,NO,0,NO,0,2018-04-27 15:22:01 -0400,Merge okio-kotlin into okio-jvm,45,6435
+592,01046e7,FAIL,0,NO,0,NO,0,2018-04-27 21:52:38 -0400,Merge pull request #406 from square/egorand/kill-okio-kotlin,45,6435
+593,b24ceed,FAIL,0,NO,0,NO,0,2018-04-28 00:18:37 -0400,Move Utf8 and its Kotlin test to common.,45,6435
+594,8f224b4,FAIL,0,NO,0,NO,0,2018-04-28 00:32:23 -0400,Port SegmentSharingTest to Kotlin.,44,6324
+595,780965c,FAIL,0,NO,0,NO,0,2018-04-28 00:45:10 -0400,Port SegmentPool to Kotlin.,43,6299
+596,4c6bbf6,FAIL,0,NO,0,NO,0,2018-04-28 00:56:29 -0400,Remove unused sneakyThrow.,45,6430
+597,13b4a1b,FAIL,0,NO,0,NO,0,2018-04-28 01:30:38 -0400,Merge pull request #409 from square/jakew/segment-test/2018-04-28,43,6299
+598,8e8fcc3,FAIL,0,NO,0,NO,0,2018-04-28 01:39:19 -0400,Merge pull request #410 from square/jakew/sneaky-throw/2018-04-28,43,6294
+599,a445c0c,FAIL,0,NO,0,NO,0,2018-04-28 04:59:45 -0400,Merge pull request #408 from square/jakew/common/2018-04-28,43,6294
+600,232096e,FAIL,0,NO,0,NO,0,2018-04-27 17:11:38 -0400,Prepare tests to move Buffer to Kotlin,42,6117
+601,00c424f,FAIL,0,NO,0,NO,0,2018-04-28 11:44:19 -0400,Merge pull request #407 from square/jwilson.0427.tests_k,42,6117
+602,522f5a0,FAIL,0,NO,0,NO,0,2018-04-28 12:52:05 -0400,Migrate Buffer to Kotlin,40,4876
+603,b13c180,FAIL,0,NO,0,NO,0,2018-04-29 00:31:42 -0400,Merge pull request #412 from square/jwilson.0428.buffer_k,40,4876
+604,3629bfb,FAIL,0,NO,0,NO,0,2018-04-29 00:41:01 -0400,Move Segment and SegmentPool to common.,40,4876
+605,04236a8,FAIL,0,NO,0,NO,0,2018-04-29 01:18:39 -0400,Move null checks to be more eager on their source.,40,4876
+606,bf58ed4,FAIL,0,NO,0,NO,0,2018-04-29 06:03:24 -0400,Merge pull request #413 from square/jakew/segments/2018-04-29,40,4876
+607,8c2b309,FAIL,0,NO,0,NO,0,2018-04-29 06:08:28 -0400,Merge pull request #414 from square/jakew/buffer-tweaks/2018-04-29,40,4876
+608,d14cbfb,FAIL,0,NO,0,NO,0,2018-04-29 09:52:18 -0400,Remove usages of java.lang.Math,40,4876
+609,dc98489,FAIL,0,NO,0,NO,0,2018-04-29 11:47:09 -0400,Merge pull request #415 from square/egorand/math,40,4876
+610,4bfee9c,FAIL,0,NO,0,NO,0,2018-04-29 22:51:06 -0400,Configure Dokka,40,4876
+611,6fac252,FAIL,0,NO,0,NO,0,2018-04-29 23:13:53 -0400,Merge pull request #420 from square/egorand/0429/dokka,40,4876
+612,bea9887,FAIL,0,NO,0,NO,0,2018-04-29 22:02:38 -0400,Add syntactic sugar for bitwise operations,40,4876
+613,1f15d11,FAIL,0,NO,0,NO,0,2018-04-30 09:11:27 -0400,Merge pull request #419 from square/jwilson.0429.syntactic_sugar_bitwise,40,4876
+614,e43e63e,FAIL,0,NO,0,NO,0,2018-04-30 09:51:56 -0400,Share code when seeking to a specific segment,40,4876
+615,e1d2703,FAIL,0,NO,0,NO,0,2018-04-29 21:34:43 -0400,Migrate Options to Kotlin,39,4863
+616,da0bfa4,FAIL,0,NO,0,NO,0,2018-04-30 11:10:30 -0400,Merge pull request #421 from square/jwilson.0430.seek,40,4876
+617,a3b8893,FAIL,0,NO,0,NO,0,2018-04-30 13:19:22 -0400,Merge pull request #418 from square/jwilson.0429.japicmp_okio_114,39,4863
+618,c2b251c,FAIL,0,NO,0,NO,0,2018-04-30 23:53:32 -0400,Add a test for the off-by-one bug in Buffer.seek().,39,4881
+619,bf4ae6c,FAIL,0,NO,0,NO,0,2018-05-02 09:03:23 -0400,Merge pull request #424 from square/jwilson.0430.no_performance_bug,39,4881
+620,28851f4,FAIL,0,NO,0,NO,0,2018-04-30 23:28:43 -0400,Improve usability from Kotlin,39,4863
+621,31d2568,FAIL,0,NO,0,NO,0,2018-05-02 09:21:46 -0400,Merge pull request #423 from square/jwilson.0430.kotlin_ergonomics,39,4881
+622,f17b90d,FAIL,0,NO,0,NO,0,2018-04-28 10:39:08 -0400,Move Util into the common module,38,4850
+623,88d8430,FAIL,0,NO,0,NO,0,2018-05-02 14:55:01 -0400,Merge pull request #411 from square/egorand/util-common,38,4850
+624,aed5b56,FAIL,0,NO,0,NO,0,2018-05-04 21:55:05 -0400,Move helpers from Okio to Util,38,4850
+625,3833a49,FAIL,0,NO,0,NO,0,2018-05-04 22:06:05 -0400,Merge pull request #425 from square/egorand/0504/helpers,38,4850
+626,fee1081,FAIL,0,NO,0,NO,0,2018-05-07 23:30:27 -0400,SelectBenchmark measures select(Options),39,4907
+627,495f1f9,FAIL,0,NO,0,NO,0,2018-05-08 21:54:35 -0400,Merge pull request #427 from square/jwilson.0507.selectbenchmark,39,4907
+628,b35ff25,FAIL,0,NO,0,NO,0,2018-05-09 12:52:08 -0500,Remove test-only method `segmentSizes` from Buffer,39,4907
+629,9eb5e93,FAIL,0,NO,0,NO,0,2018-05-09 15:43:54 -0400,Merge pull request #433 from bnorm/bnorm.0509.buffer_segment_sizes,39,4907
+630,20b73d6,FAIL,0,NO,0,NO,0,2018-05-07 21:40:48 -0400,Implement select() with a trie,39,4892
+631,fac3fd4,FAIL,0,NO,0,NO,0,2018-05-09 20:38:14 -0400,Merge pull request #432 from square/jwilson.0507.trieselect,39,4892
+632,de3f233,FAIL,0,NO,0,NO,0,2018-05-10 11:08:46 -0400,Change ByteString.size from fun to val (#437),39,4892
+633,d9e39b9,FAIL,0,NO,0,NO,0,2018-05-09 21:52:11 -0400,Avoid O(N*N) loops constructing Options,39,4892
+634,56d45b8,FAIL,0,NO,0,NO,0,2018-05-10 16:37:29 -0400,Enforce UTF-8 file encoding,39,4892
+635,865ab0c,FAIL,0,NO,0,NO,0,2018-05-10 16:44:33 -0400,Merge pull request #436 from square/jwilson.0509.n_2_loops,39,4892
+636,5091630,FAIL,0,NO,0,NO,0,2018-05-10 16:58:40 -0400,Merge pull request #438 from square/egorand/0510/utf8-file-encoding,39,4892
+637,8572d1a,FAIL,0,NO,0,NO,0,2018-05-10 16:57:22 -0400,"Use JvmName with ByteString.get, hide ByteString.getByte",39,4892
+638,7f3823f,FAIL,0,NO,0,NO,0,2018-05-10 17:26:30 -0400,Merge pull request #439 from square/egorand/0510/get-byte,39,4892
+639,55dbe35,FAIL,0,NO,0,NO,0,2018-05-10 22:50:29 -0400,Do coverage-driven testing of Buffer.select().,39,4892
+640,a9ba3b1,FAIL,0,NO,0,NO,0,2018-05-11 14:40:10 -0500,Samples which show integration with Java NIO channels,44,5097
+641,05a8356,FAIL,0,NO,0,NO,0,2018-05-11 22:26:17 -0400,Crossplatform ByteString implementation (#441),39,4892
+642,ccadc83,FAIL,0,NO,0,NO,0,2018-05-12 09:11:46 -0400,Crossplatform Base64 (#443),39,4892
+643,7028afa,FAIL,0,NO,0,NO,0,2018-05-12 12:54:03 -0400,Merge pull request #440 from square/jwilson.0510.more_select_tests,39,4892
+644,533ab86,FAIL,0,NO,0,NO,0,2018-05-12 21:53:27 -0400,Merge pull request #442 from bnorm/bnorm.0511.nio_channels,44,5097
+645,cb4b697,FAIL,0,NO,0,NO,0,2018-05-12 22:10:11 -0400,We're working towards 2.0.,44,5097
+646,fe99e77,FAIL,0,NO,0,NO,0,2018-05-12 22:36:41 -0400,Fix some formatting and style problems.,43,5095
+647,ec95b85,FAIL,0,NO,0,NO,0,2018-05-12 22:37:37 -0400,Merge pull request #447 from square/jwilson.0512.2x,44,5097
+648,8a97299,FAIL,0,NO,0,NO,0,2018-05-12 22:51:22 -0400,Create js module and implement ByteString for JavaScript (#444),44,5097
+649,4b22e7f,FAIL,0,NO,0,NO,0,2018-05-12 23:04:13 -0400,Merge pull request #448 from square/jwilson.0512.whitespace,43,5095
+650,8acd547,FAIL,0,NO,0,NO,0,2018-05-13 22:32:45 +0800,Update README.md,43,5095
+651,4b567e1,FAIL,0,NO,0,NO,0,2018-05-13 11:11:04 -0400,Merge pull request #449 from yinyinnie/patch-1,43,5095
+652,c0a841f,FAIL,0,NO,0,NO,0,2018-05-13 14:05:46 -0400,Move ByteString JS tests into common module,43,5095
+653,24d34db,FAIL,0,NO,0,NO,0,2018-05-13 14:40:40 -0400,Merge pull request #450 from square/egorand/0513/byte-string-common-tests,43,5095
+654,abfa6a8,FAIL,0,NO,0,NO,0,2018-05-13 14:57:02 -0400,Move benchmark docs out of the main README.,43,5095
+655,ec4709f,FAIL,0,NO,0,NO,0,2018-05-13 15:42:55 -0400,Merge pull request #451 from square/jwilson.0513.move_benchmarks_docs,43,5095
+656,144bea9,FAIL,0,NO,0,NO,0,2018-05-13 16:20:00 -0400,Add default parametes to ByteString.substring,43,5095
+657,d85a734,FAIL,0,NO,0,NO,0,2018-05-13 17:03:40 -0400,Merge pull request #454 from square/jwilson.0513.substring,43,5095
+658,17e9eec,FAIL,0,NO,0,NO,0,2018-05-15 13:37:28 -0400,Update sonatype user/pass environment variables for Gradle. (#456),43,5095
+659,d17e735,FAIL,0,NO,0,NO,0,2018-05-15 13:41:10 -0400,Remove old deployment helper from Maven build.,43,5095
+660,f1646f0,FAIL,0,NO,0,NO,0,2018-05-15 14:23:17 -0400,Merge pull request #457 from square/jakew/old-things/2018-05-15,43,5095
+661,eba8f79,FAIL,0,NO,0,NO,0,2018-05-17 16:43:52 -0400,Use Mocha for JS unit tests,43,5095
+662,5fbafba,FAIL,0,NO,0,NO,0,2018-05-17 17:04:54 -0400,Merge pull request #460 from square/egorand/0517/mocha-js-test,43,5095
+663,4662729,FAIL,0,NO,0,NO,0,2018-05-29 21:57:19 +0700,Update README.md,43,5095
+664,105c241,FAIL,0,NO,0,NO,0,2018-05-29 13:14:54 -0400,Merge pull request #462 from hendrawd/patch-1,43,5095
+665,b5b1b9b,FAIL,0,NO,0,NO,0,2018-06-04 13:28:54 -0500,Update README.md,43,5095
+666,fffc9d4,FAIL,0,NO,0,NO,0,2018-06-04 16:06:26 -0400,Merge pull request #463 from GianfrancoMS/patch-1,43,5095
+667,5b689e2,FAIL,0,NO,0,NO,0,2018-06-14 14:28:36 -0400,Kotlin 1.2.50 (#464),43,5095
+668,264829d,FAIL,0,NO,0,NO,0,2018-07-05 22:35:23 -0400,Retain interrupted state when throwing InterruptedIOException (Okio 2.x),43,5095
+669,8dab5e8,FAIL,0,NO,0,NO,0,2018-07-05 22:58:55 -0400,Merge pull request #468 from square/jwilson.0705.koio_retain_interrupted,43,5095
+670,80bcd29,FAIL,0,NO,0,NO,0,2018-07-11 09:23:07 -0500,Avoid excess ByteArray copies when creating ByteStrings,43,5099
+671,a2184ae,FAIL,0,NO,0,NO,0,2018-07-11 14:52:36 -0400,Update blocking issue link for platform-specific annotations,43,5095
+672,9530adb,FAIL,0,NO,0,NO,0,2018-07-11 16:54:07 -0400,Merge pull request #471 from bnorm/bnorm.0711.excess_array_copy,43,5099
+673,ab640be,FAIL,0,NO,0,NO,0,2018-07-11 16:59:25 -0400,Merge pull request #472 from square/jakew/new-links/2018-07-11,43,5099
+674,abc054b,FAIL,0,NO,0,NO,0,2018-07-16 14:30:15 -0400,Gradle 4.9,43,5099
+675,ca63c68,FAIL,0,NO,0,NO,0,2018-07-16 15:23:21 -0400,Merge pull request #474 from square/egorand/0716/gradle-4.9,43,5099
+676,c1380ec,FAIL,0,NO,0,NO,0,2018-07-18 21:25:58 -0400,Retain interrupted state in Timeout.throwIfReached() (Okio 2x),43,5108
+677,0a05a3c,FAIL,0,NO,0,NO,0,2018-07-18 21:47:44 -0400,Remove some unreachable code building the Options trie (Okio 2x),43,5099
+678,813dce9,FAIL,0,NO,0,NO,0,2018-07-18 22:15:41 -0400,Merge pull request #477 from square/jwilson.0718.throw_if_reached_ii,43,5108
+679,380c9ba,FAIL,0,NO,0,NO,0,2018-07-18 22:16:02 -0400,Merge pull request #479 from square/jwilson.0718.dead_code_ii,43,5108
+680,07dda3f,FAIL,0,NO,0,NO,0,2018-07-18 22:12:50 -0400,Restore support for the empty set of options. (Okio 2x),43,5111
+681,40a9010,FAIL,0,NO,0,NO,0,2018-07-18 23:01:03 -0400,Update changelog and readme for 1.15,43,5108
+682,6757708,FAIL,0,NO,0,NO,0,2018-07-19 00:37:08 -0400,Merge pull request #481 from square/jwilson.0718.restore_empty,43,5111
+683,8803975,FAIL,0,NO,0,NO,0,2018-07-22 20:34:36 -0400,Don't use equals() on Segments,43,5111
+684,d5b7cbb,FAIL,0,NO,0,NO,0,2018-07-22 21:47:00 -0400,Merge pull request #484 from square/jwilson.0722.eq,43,5111
+685,21c4ad0,FAIL,0,NO,0,NO,0,2018-07-23 05:59:49 -0500,Implement ByteString for Kotlin/Native (#469),43,5111
+686,487a1f2,FAIL,0,NO,0,NO,0,2018-07-24 16:55:10 -0400,Make Buffer exceptions consistent with RealBufferedSource,43,5188
+687,cb98972,FAIL,0,NO,0,NO,0,2018-07-26 12:25:32 -0400,Merge pull request #486 from square/jwilson.0724.change_eof_exceptions,43,5188
+688,c6ecec2,FAIL,0,NO,0,NO,0,2018-07-26 13:21:46 -0400,Add a BufferedSourceTest that uses small segments.,43,5313
+689,4da4d9e,FAIL,0,NO,0,NO,0,2018-07-26 17:17:28 -0400,Update changelog for 2.0.0-RC1,43,5188
+690,27ea9ab,FAIL,0,NO,0,NO,0,2018-07-26 17:31:31 -0400,Fix some class names in the changelog,43,5188
+691,df857be,FAIL,0,NO,0,NO,0,2018-07-29 23:22:26 -0400,Fix small mistakes in the changelog's Okio 1.x to 2.x API comparison,43,5188
+692,d45e59c,FAIL,0,NO,0,NO,0,2018-07-31 16:37:26 -0400,Remove a couple of incorrect usages of JvmStatic,43,5188
+693,3acd481,FAIL,0,NO,0,NO,0,2018-08-02 23:04:27 -0400,Merge pull request #488 from square/egorand/0731/incorrect-jvm-static,43,5188
+694,bf62453,FAIL,0,NO,0,NO,0,2018-07-31 16:56:31 -0400,Kotlinize Buffer's docs,43,5188
+695,e812647,FAIL,0,NO,0,NO,0,2018-08-09 15:19:55 -0400,Kotlin 1.2.60,43,5188
+696,8d57451,FAIL,0,NO,0,NO,0,2018-08-11 19:49:46 -0400,Switch to gradle-maven-publish-plugin,43,5188
+697,e433777,FAIL,0,NO,0,NO,0,2018-08-11 21:06:02 -0400,Merge pull request #494 from square/egorand/0811/maven-publish-plugin,43,5188
+698,04d6200,FAIL,0,NO,0,NO,0,2018-08-12 22:10:54 -0400,Merge pull request #493 from square/egorand/0809/kotlin-1.2.60,43,5188
+699,7483d92,FAIL,0,NO,0,NO,0,2018-08-17 10:54:03 -0400,Remove invalid operator modifier,43,5188
+700,02ac416,FAIL,0,NO,0,NO,0,2018-08-17 11:14:43 -0400,Merge pull request #495 from square/egorand/0817/no-next-operator,43,5188
+701,b4c38d8,FAIL,0,NO,0,NO,0,2018-08-25 14:06:05 -0400,Merge pull request #489 from square/egorand/0731/buffer-docs-in-kotlin,43,5188
+702,ada3265,FAIL,0,NO,0,NO,0,2018-08-25 15:56:31 -0400,Don't include benchmarks in Dokka documentation,43,5188
+703,d861c38,FAIL,0,NO,0,NO,0,2018-08-25 16:45:33 -0400,Merge pull request #497 from square/jwilson.0825.benchmarks,43,5188
+704,d656fb6,FAIL,0,NO,0,NO,0,2018-08-25 15:27:26 -0400,Add deprecated methods to ease migration for Kotlin callers,43,5188
+705,a5e3ca3,FAIL,0,NO,0,NO,0,2018-08-25 19:42:21 -0400,Merge pull request #487 from square/jwilson.0726.segment_sizes,43,5313
+706,05233e2,FAIL,0,NO,0,NO,0,2018-08-26 09:17:53 -0400,Merge pull request #496 from square/jwilson.0825.deprecated_bridge,43,5313
+707,b518b5b,FAIL,0,NO,0,NO,0,2018-08-26 09:45:15 -0400,"Hide Base64, ByteStringKt, Platform, and Util code from Java",43,5313
+708,a98b4e6,FAIL,0,NO,0,NO,0,2018-08-26 21:23:41 -0400,Update changelog for 2.0.0,43,5313
+709,2fcb42e,FAIL,0,NO,0,NO,0,2018-08-26 21:27:03 -0400,Merge pull request #498 from square/jwilson.0826.hide_from_java,43,5313
+710,8098eb9,FAIL,0,NO,0,NO,0,2018-08-26 21:36:13 -0400,"Prepare for the next release, Okio 2.1.0",43,5313
+711,bcbe0f0,FAIL,0,NO,0,NO,0,2018-08-28 14:26:39 -0400,Update README to point to 2.x Dokka instead of 1.x Javadoc,43,5313
+712,a0ea7f2,FAIL,0,NO,0,NO,0,2018-08-28 14:27:26 -0400,Fix the Javadoc link to be HTTPS,43,5313
+713,17ff20a,FAIL,0,NO,0,NO,0,2018-08-29 08:47:59 -0400,Fix CONTRIBUTING.md to mention Gradle instead of Maven,43,5313
+714,e9c49fa,FAIL,0,NO,0,NO,0,2018-08-29 13:16:52 -0400,Merge pull request #500 from square/egorand/0829/contributing-gradle,43,5313
+715,a90c70f,FAIL,0,NO,0,NO,0,2018-08-30 22:42:32 -0400,Set up ktlint plugin,43,5313
+716,36a07a7,FAIL,0,NO,0,NO,0,2018-08-30 23:18:53 -0400,Merge pull request #502 from square/egorand/0830/ktlint-setup,43,5313
+717,38c43cd,FAIL,0,NO,0,NO,0,2018-08-30 22:58:54 -0400,Fix ktlint issues in common module,43,5313
+718,6b74d43,FAIL,0,NO,0,NO,0,2018-08-30 23:37:57 -0400,Merge pull request #503 from square/egorand/0830/ktlint-okio,43,5313
+719,6f3863d,FAIL,0,NO,0,NO,0,2018-08-30 23:41:12 -0400,Fix ktlint issues in platform modules,43,5313
+720,ea0dd56,FAIL,0,NO,0,NO,0,2018-08-31 23:43:34 -0400,Merge pull request #504 from square/egorand/0830/ktlint-fixes,43,5313
+721,cc1f561,FAIL,0,NO,0,NO,0,2018-09-03 13:32:05 -0500,Implement UTF-8 encode and decode for JS (#491),43,5313
+722,bbb29c4,FAIL,0,NO,0,NO,0,2018-09-06 15:22:15 -0400,Upgrade to Ktlint Gradle 5.1.0 that adds support for Kotlin Native modules,43,5313
+723,e9e75fe,FAIL,0,NO,0,NO,0,2018-09-06 19:50:05 -0400,Merge pull request #507 from square/egorand/0906/ktlint-5.1.0,43,5313
+724,b080ca7,FAIL,0,NO,0,NO,0,2018-09-07 19:52:06 +0200,Embed ProGuard rules in the jar (#508),43,5313
+725,eafa930,FAIL,0,NO,0,NO,0,2018-09-08 17:42:24 -0400,Change BufferedSource.buffer() to be a val in Kotlin.,43,5313
+726,6ec1bd1,FAIL,0,NO,0,NO,0,2018-09-10 09:25:59 -0400,Merge pull request #509 from square/jwilson.0908.buffer_should_be_val,43,5313
+727,c925938,FAIL,0,NO,0,NO,0,2018-09-13 22:28:12 -0500,Add a method to BufferedSource for peeking at buffered data,43,5401
+728,6d6b515,FAIL,0,NO,0,NO,0,2018-09-20 21:26:23 -0400,Merge pull request #511 from bnorm/bnorm.0913.peek,43,5401
+729,6e5da14,FAIL,0,NO,0,NO,0,2018-09-22 21:29:37 -0400,Update changelog for 2.1.0.,43,5401
+730,c37afc5,FAIL,0,NO,0,NO,0,2018-09-22 21:41:40 -0400,Prepare for 2.2.0-SNAPSHOT development,43,5401
+731,d0511e2,FAIL,0,NO,0,NO,0,2018-09-30 18:32:30 -0500,AsyncTimeout wrapped Source needs to timeout on long close,43,5443
+732,deca1c2,FAIL,0,NO,0,NO,0,2018-10-01 20:42:51 -0400,Merge pull request #517 from bnorm/bnorm.0930.source_close_timeout,43,5443
+733,7c95285,FAIL,0,NO,0,NO,0,2018-10-08 10:42:06 -0400,Gradle 4.10.2,43,5443
+734,714ddcf,FAIL,0,NO,0,NO,0,2018-10-08 16:59:30 +0200,Merge pull request #521 from square/egorand/1008/gradle-4.10.2,43,5443
+735,c28109e,FAIL,0,NO,0,NO,0,2018-10-08 11:41:15 -0400,Update changelog for Okio 1.16 (on the okio_1x branch),43,5443
+736,3ee8bd0,FAIL,0,NO,0,NO,0,2018-10-08 11:42:17 -0400,Update changelog datestamp for Okio 1.16 (on the okio_1x branch),43,5443
+737,1fc489a,FAIL,0,NO,0,NO,0,2018-09-26 15:22:47 -0500,Create a Source and Sink throughput Throttler,43,5401
+738,2b65a6c,FAIL,0,NO,0,NO,0,2018-10-15 08:32:44 -0500,Various SegmentedByteString improvements (#524),44,5506
+739,178779e,FAIL,0,NO,0,NO,0,2018-10-17 22:56:49 -0400,Merge pull request #515 from bnorm/bnorm.0926.throttler_sample,44,5506
+740,b3ad0d8,FAIL,0,NO,0,NO,0,2018-10-19 23:03:45 -0400,New test for Throttler that isn't racy.,44,5506
+741,7d2c138,FAIL,0,NO,0,NO,0,2018-10-22 22:09:06 -0400,Merge pull request #527 from square/jwilson.1019.thottler_testing,44,5506
+742,ab26312,FAIL,0,NO,0,NO,0,2018-10-18 21:42:10 -0400,Don't wait 0 nanoseconds,44,5506
+743,d8acaa0,FAIL,0,NO,0,NO,0,2018-10-23 20:13:11 -0400,Merge pull request #526 from square/jwilson.1018.dont_wait_forever,44,5506
+744,6508774,FAIL,0,NO,0,NO,0,2018-11-18 23:42:33 -0500,Document Okio hashing,45,5562
+745,8b8a7b3,FAIL,0,NO,0,NO,0,2018-11-18 23:57:04 -0500,Merge pull request #538 from square/jwilson.1118.hashing_docs,45,5562
+746,2ab9665,FAIL,0,NO,0,NO,0,2018-11-19 12:24:52 -0500,Remove the timestamp from the talk link,45,5562
+747,f2da94b,FAIL,0,NO,0,NO,0,2018-11-30 16:12:46 -0800,Fix some indices in Buffer.UnsafeCursor docs.,45,5562
+748,4b68384,FAIL,0,NO,0,NO,0,2019-01-11 13:05:52 -0500,Adds support for Folding Pipes,45,5562
+749,0f8cd00,FAIL,0,NO,0,NO,0,2019-01-11 13:28:41 -0500,Merge pull request #546 from square/bquenaudon/2019-01-07/pipe,45,5562
+750,49b0e56,FAIL,0,NO,0,NO,0,2019-01-14 18:08:15 -0500,Add some more Pipe tests.,45,5562
+751,b10019f,FAIL,0,NO,0,NO,0,2019-01-14 20:21:36 -0500,Merge pull request #547 from square/jwilson.0114.more_pipe_tests,45,5562
+752,7dd5bde,FAIL,0,NO,0,NO,0,2019-01-15 22:02:01 -0500,Merge pull request #542 from NightlyNexus/patch-1,45,5562
+753,9d46820,FAIL,0,NO,0,NO,0,2019-01-16 07:29:17 -0500,Update changelog for 2.2.0,45,5562
+754,8a96e04,FAIL,0,NO,0,NO,0,2019-01-16 07:30:57 -0500,Prepare for release 2.2.0.,45,5562
+755,a21fae2,FAIL,0,NO,0,NO,0,2019-01-16 07:38:11 -0500,Prepare next development version.,45,5562
+756,84fedfe,FAIL,0,NO,0,NO,0,2019-01-16 14:24:33 -0500,Update changelog for 1.17.1.,45,5562
+757,3c1c55b,FAIL,0,NO,0,NO,0,2019-01-16 14:25:22 -0500,Sort today's releases with 2.x at the top.,45,5562
+758,ff7adb9,FAIL,0,NO,0,NO,0,2019-01-17 09:42:13 -0500,Fix pipes to flush when data is folded,45,5562
+759,84ecafb,FAIL,0,NO,0,NO,0,2019-01-17 10:30:14 -0500,Merge pull request #554 from square/jwilson.0117.flush_pipes,45,5562
+760,512100d,FAIL,0,NO,0,NO,0,2019-01-17 11:29:03 -0500,Prepare for release 2.2.1.,45,5562
+761,6fb49b6,FAIL,0,NO,0,NO,0,2019-01-17 14:19:33 -0500,Prepare next development version.,45,5562
+762,cb334ba,FAIL,0,NO,0,NO,0,2019-01-17 16:02:56 -0500,Fix a typo: today we cut Okio 1.17.2,45,5562
+763,4f715f5,FAIL,0,NO,0,NO,0,2019-01-21 20:50:53 -0500,Folding closes Underlying Sink when PipeSink is already closed,45,5562
+764,d5eefa4,FAIL,0,NO,0,NO,0,2019-01-21 22:36:41 -0500,Merge pull request #557 from square/bquenaudon/2019-01-21/pipeclose,45,5562
+765,e906faf,FAIL,0,NO,0,NO,0,2019-01-28 09:37:40 -0500,Prepare for release 2.2.2.,45,5562
+766,d1bc009,FAIL,0,NO,0,NO,0,2019-01-28 10:39:53 -0500,Prepare next development version.,45,5562
+767,0078fca,FAIL,0,NO,0,NO,0,2019-01-30 07:50:19 -0500,Kotlin Gradle MPP 1.3 (#544),45,5536
+768,426e0b3,FAIL,0,NO,0,NO,0,2019-03-11 12:47:43 -0400,Use api instead of implementation for the kotlin-stdlib dependency,45,5536
+769,21ac4b6,FAIL,0,NO,0,NO,0,2019-03-11 13:04:06 -0400,Merge pull request #563 from square/egorand/190311/stdlib-api,45,5536
+770,fae38af,FAIL,0,NO,0,NO,0,2019-03-26 14:00:53 -0400,Use stdlib array copy function,45,5536
+771,1b6ce5f,FAIL,0,NO,0,NO,0,2019-03-26 13:31:12 -0500,Merge pull request #565 from square/jakew/array-copy/2019-03-26,45,5536
+772,bfde8c1,FAIL,0,NO,0,NO,0,2019-03-26 15:24:06 -0400,Use stdlib's platform-specific annotations in common,45,5536
+773,409089c,FAIL,0,NO,0,NO,0,2019-03-26 16:00:46 -0400,Merge pull request #566 from square/jakew/annotations/2019-03-26,45,5536
+774,bbc06be,FAIL,0,NO,0,NO,0,2019-03-26 16:12:20 -0400,Move JvmOverloads to common,45,5536
+775,c0454ad,FAIL,0,NO,0,NO,0,2019-03-26 16:30:14 -0400,Merge pull request #567 from square/jakew/annotations/2019-03-26,45,5536
+776,876d9ca,FAIL,0,NO,0,NO,0,2019-03-28 11:44:25 -0400,Dokka 0.9.18,45,5536
+777,d4fe091,FAIL,0,NO,0,NO,0,2019-03-29 07:10:50 -0500,Merge pull request #568 from square/egorand/190328/dokka-0.9.18,45,5536
+778,ddf8023,FAIL,0,NO,0,NO,0,2019-04-04 14:24:00 +0300,"Extract Sink, Source, BufferedSink and BufferedSource into common as marker interfaces",45,5536
+779,23c60d7,FAIL,0,NO,0,NO,0,2019-04-04 14:38:38 +0300,Merge pull request #572 from square/egorand/190404/expect-actual-interfaces,45,5536
+780,1da77f5,FAIL,0,NO,0,NO,0,2019-04-04 15:09:33 +0300,Extract expect classes for Buffer and Timeout,45,5536
+781,9d009c1,FAIL,0,NO,0,NO,0,2019-04-04 19:59:27 +0300,Extract all expect interface methods into common,45,5536
+782,23c67f5,FAIL,0,NO,0,NO,0,2019-04-04 20:47:41 +0300,Merge pull request #574 from square/egorand/190404/expect-buffer-timeout,45,5536
+783,6fe6a01,FAIL,0,NO,0,NO,0,2019-04-04 21:18:28 +0300,Add flush() and close() to Sink and Source,45,5536
+784,258dbf8,FAIL,0,NO,0,NO,0,2019-04-04 14:57:05 -0700,Merge pull request #575 from square/egorand/190404/expect-interface-methods,45,5536
+785,f2ecec3,FAIL,0,NO,0,NO,0,2019-04-04 13:35:18 -0700,"Upgrades to 1.3.30-eap-125, and drops workarounds for KT22818.",45,5538
+786,33fbec0,FAIL,0,NO,0,NO,0,2019-04-04 16:26:44 -0700,Merge pull request #577 from square/ray/1.3.30-eap,45,5538
+787,8cb3b09,FAIL,0,NO,0,NO,0,2019-04-04 21:41:21 -0400,Trivial Buffer implementations,45,5538
+788,51c48a3,FAIL,0,NO,0,NO,0,2019-04-04 23:10:59 -0400,Remove a bunch of redundant expect/actuals,45,5538
+789,a20ce1c,FAIL,0,NO,0,NO,0,2019-04-04 23:51:32 -0500,Replace default Gradle source directories with custom layout,45,5538
+790,a2f60be,FAIL,0,NO,0,NO,0,2019-04-05 12:53:49 +0300,Merge pull request #581 from bnorm/bnorm.0404.multiplatform_intellij,45,5538
+791,dbabbea,FAIL,0,NO,0,NO,0,2019-04-05 12:56:16 +0300,Merge pull request #579 from square/jakew/trivial/2019-04-04,45,5538
+792,8dfa48e,FAIL,0,NO,0,NO,0,2019-04-05 09:45:33 -0400,Merge pull request #582 from square/jakew/noisy-expect-actuals/2019-04-04,45,5538
+793,031ea7a,FAIL,0,NO,0,NO,0,2019-04-05 09:57:48 -0400,Update japicmp plugin,45,5538
+794,41e9e30,FAIL,0,NO,0,NO,0,2019-04-05 10:16:50 -0400,Merge pull request #583 from square/jakew/japicmp-update/2019-04-05,45,5538
+795,9f6f81c,FAIL,0,NO,0,NO,0,2019-04-06 21:49:02 +0300,Inline extension functions in internal/ByteString.kt,45,5538
+796,2c4b898,FAIL,0,NO,0,NO,0,2019-04-07 10:55:08 -0400,Use new Gradle DSL to configure Native outputs,45,5538
+797,94cc905,FAIL,0,NO,0,NO,0,2019-04-07 22:46:58 +0300,Merge pull request #587 from square/egorand/190407/native-binaries,45,5538
+798,0c50193,FAIL,0,NO,0,NO,0,2019-04-07 16:42:41 -0400,Merge pull request #585 from square/egorand/190406/inline-byte-string-extensions,45,5538
+799,5a0b542,FAIL,0,NO,0,NO,0,2019-04-04 13:21:27 -0700,"Multiplat read/write ByteString, ByteArray.",45,5538
+800,ef22f76,FAIL,0,NO,0,NO,0,2019-04-08 09:51:35 -0700,Merge pull request #578 from square/ray/unlikely,45,5538
+801,392d8cc,FAIL,0,NO,0,NO,0,2019-04-11 15:39:22 -0400,Kotlin 1.3.30 final,45,5538
+802,1167315,FAIL,0,NO,0,NO,0,2019-04-11 16:02:53 -0400,Merge pull request #590 from square/jakew/thirty/2019-04-11,45,5538
+803,2a9b205,FAIL,0,NO,0,NO,0,2019-04-19 13:37:20 -0400,Gradle 5.4 + Use MPP for samples,45,5538
+804,fb487d7,FAIL,0,NO,0,NO,0,2019-04-19 14:09:49 -0400,Merge pull request #593 from square/egorand/190419/gradle-5.4,45,5538
+805,86e4795,FAIL,0,NO,0,NO,0,2019-04-28 17:50:51 -0400,Peek the minimum number of bytes to return a result,45,5559
+806,5332973,FAIL,0,NO,0,NO,0,2019-04-28 17:57:53 -0400, Move Options.kt into common (#586),45,5538
+807,298c4f5,FAIL,0,NO,0,NO,0,2019-04-28 18:34:12 -0500,Merge pull request #596 from square/jwilson.0428.read_minimum,45,5559
+808,f906821,FAIL,0,NO,0,NO,0,2019-04-29 09:29:18 -0500,Move source files to confirm to Kotlin Multiplatform Gradle plugin,45,5559
+809,7a4f61c,FAIL,0,NO,0,NO,0,2019-04-29 15:40:43 -0400,Merge pull request #600 from bnorm/bnorm.0428.reorganize,45,5559
+810,dbc7615,FAIL,0,NO,0,NO,0,2019-04-29 22:12:20 -0400,Update changelog for 1.17.4,45,5559
+811,90295b1,FAIL,0,NO,0,NO,0,2019-04-29 21:10:46 -0700,Update README.md - fix broken proguard link,45,5559
+812,cb440ff,FAIL,0,NO,0,NO,0,2019-04-30 08:57:24 -0400,Merge pull request #602 from jaredsburrows/patch-1,45,5559
+813,5bb23ef,FAIL,0,NO,0,NO,0,2019-04-30 11:11:11 -0400,Fix snapshot publishing command,45,5559
+814,bdb1e33,FAIL,0,NO,0,NO,0,2019-04-30 13:03:19 -0400,Merge pull request #603 from square/egorand/190430/fix-snapshot-publishing,45,5559
+815,5d64dd5,FAIL,0,NO,0,NO,0,2019-04-30 13:26:26 -0400,Add RELEASING.md,45,5559
+816,3e58248,FAIL,0,NO,0,NO,0,2019-04-30 14:00:00 -0400,Merge pull request #605 from square/egorand/190430/releasing-md,45,5559
+817,a54054a,FAIL,0,NO,0,NO,0,2019-05-01 11:33:28 -0400,Enable Gradle metadata publishing (#604),45,5559
+818,4f12674,FAIL,0,NO,0,NO,0,2019-05-04 16:50:10 -0400,Fix method links in Throttler KDoc,45,5559
+819,8d27af4,FAIL,0,NO,0,NO,0,2019-05-04 17:05:08 -0400,Merge pull request #606 from square/egorand/190504/throttler-kdoc-links,45,5559
+820,8ace1c4,FAIL,0,NO,0,NO,0,2019-05-09 08:50:33 -0700,@Ignore flaky ThrottlerTest,45,5559
+821,eef3977,FAIL,0,NO,0,NO,0,2019-05-09 12:09:23 -0400,Merge pull request #608 from square/egorand/190509/ignore-flaky-tests,45,5559
+822,e9caf26,FAIL,0,NO,0,NO,0,2019-04-29 16:27:32 -0400,Configure Travis to run builds on OSX and publish artifacts for all platforms,45,5559
+823,b5360cb,FAIL,0,NO,0,NO,0,2019-05-09 11:12:48 -0700,Merge pull request #601 from square/egorand/190429/publish-all-platforms,45,5559
+824,816d780,FAIL,0,NO,0,NO,0,2019-05-09 19:12:46 -0700,Rename common artifact to 'okio-multiplatform' to avoid name clash,45,5559
+825,f67c317,FAIL,0,NO,0,NO,0,2019-05-09 20:23:15 -0700,Merge pull request #609 from square/egorand/190509/rename-common-artifact,45,5559
+826,3ffda03,FAIL,0,NO,0,NO,0,2019-05-15 11:31:30 -0400,Move Buffer's skip() and clear() to common code,45,5559
+827,337720d,FAIL,0,NO,0,NO,0,2019-05-15 21:49:35 -0400,Merge pull request #612 from square/egorand/190515/skip-clear-common,45,5559
+828,218a60d,FAIL,0,NO,0,NO,0,2019-06-06 22:21:54 -0500,Add Buffer implementation to Kotlin/JS and Kotlin/Native,45,5559
+829,10c068e,FAIL,0,NO,0,NO,0,2019-06-19 21:46:05 -0400,Merge pull request #616 from bnorm/bnorm.0606.buffer_common,45,5559
+830,08eac2d,FAIL,0,NO,0,NO,0,2019-06-19 22:52:28 -0400,Gradle 5.4.1,45,5559
+831,f92f112,FAIL,0,NO,0,NO,0,2019-06-20 00:50:32 -0400,Merge pull request #617 from square/egorand/190619/gradle-5.4.1,45,5559
+832,16b8ffa,FAIL,0,NO,0,NO,0,2019-06-19 23:18:13 -0400,Kotlin 1.3.40,45,5559
+833,d7fcee8,FAIL,0,NO,0,NO,0,2019-06-20 10:42:20 -0400,Merge pull request #618 from square/egorand/190619/kotlin-1.3.40,45,5559
+834,4939f56,FAIL,0,NO,0,NO,0,2019-06-20 15:13:30 -0400,Delete custom JS testing setup in favor of built-in test runner,45,5559
+835,c24efc8,FAIL,0,NO,0,NO,0,2019-06-21 14:10:33 -0400,Merge pull request #621 from square/egorand/190620/default-js-test-runner,45,5559
+836,b755304,FAIL,0,NO,0,NO,0,2019-06-21 17:39:23 -0500,Kotlin/Common Buffer implementation cleanup (#619),45,5560
+837,228e7c0,FAIL,0,NO,0,NO,0,2019-06-20 21:57:19 -0500,Move SegmentedByteString implementation to Kotlin/Common,45,5560
+838,d7cbfbf,FAIL,0,NO,0,NO,0,2019-07-03 23:12:38 -0400,Move Buffer.completeSegmentByteCount() to common,45,5549
+839,5882bcd,FAIL,0,NO,0,NO,0,2019-07-03 23:39:04 -0400,Merge pull request #626 from square/jakew/complete-segment-byte-count/2019-07-03,45,5549
+840,20216f1,FAIL,0,NO,0,NO,0,2019-07-04 00:03:00 -0400,Share two copies of hex digits as bytes,45,5549
+841,16fcf1b,FAIL,0,NO,0,NO,0,2019-07-08 21:00:04 -0400,Merge pull request #627 from square/jakew/share/2019-07-04,45,5549
+842,3fb5e4b,FAIL,0,NO,0,NO,0,2019-07-08 22:28:17 -0400,Merge pull request #622 from bnorm/bnorm.0620.segmented_byte_string,45,5549
+843,cb3b81d,FAIL,0,NO,0,NO,0,2019-06-23 18:53:51 -0500,Kotlin/Common Buffer read and write hexadecimal unsigned long,46,5590
+844,4f9cc03,FAIL,0,NO,0,NO,0,2019-07-09 14:25:00 -0500,Relocate samples to align with Kotlin multi-platform plugin,45,5549
+845,0d0d9f7,FAIL,0,NO,0,NO,0,2019-07-09 16:05:52 -0400,Merge pull request #629 from bnorm/bnorm.0709.samples,45,5549
+846,6265cba,FAIL,0,NO,0,NO,0,2019-07-23 20:56:34 -0400,Merge pull request #623 from bnorm/bnorm.0623.buffer_hexadecimal,46,5590
+847,1805f73,FAIL,0,NO,0,NO,0,2019-07-23 21:30:23 -0400,Okio Mkdocs site,46,5590
+848,86126e3,FAIL,0,NO,0,NO,0,2019-07-23 22:24:07 -0400,Merge pull request #630 from square/jwilson.0723.okio_website,46,5590
+849,2afc037,FAIL,0,NO,0,NO,0,2019-07-23 22:44:16 -0400,Fix the deploy script to restore 1.x docs,46,5590
+850,8351509,FAIL,0,NO,0,NO,0,2019-07-23 22:54:02 -0400,Deprecate deprecate things.,46,5590
+851,f88966a,FAIL,0,NO,0,NO,0,2019-07-24 00:07:49 -0400,Merge pull request #632 from square/jwilson.0723.deprecate_deprecated_things,46,5590
+852,3e49391,FAIL,0,NO,0,NO,0,2019-07-24 00:08:14 -0400,Merge pull request #631 from square/jwilson.0723.restore_1x_docs__,46,5590
+853,99dd6bb,FAIL,0,NO,0,NO,0,2019-07-24 00:14:08 -0400,Fix the hash for the 1.x docs,46,5590
+854,b94cec8,FAIL,0,NO,0,NO,0,2019-07-24 21:40:44 -0400,Get rid of checkstyle.xml,46,5590
+855,60d57f2,FAIL,0,NO,0,NO,0,2019-07-24 22:13:23 -0400,Promote docs to commonMain wherever possible,46,5590
+856,ef09a85,FAIL,0,NO,0,NO,0,2019-07-24 23:05:26 -0400,Merge pull request #634 from square/jwilson.0724.checkstyle,46,5590
+857,41231c1,FAIL,0,NO,0,NO,0,2019-07-25 00:12:48 -0400,Merge pull request #635 from square/jwilson.0724.promote_docs,46,5590
+858,4732748,FAIL,0,NO,0,NO,0,2019-07-25 22:30:09 -0400,Merge pull request #633 from square/jwilson.0723.gah_hash,46,5590
+859,4455083,FAIL,0,NO,0,NO,0,2019-07-29 13:25:34 -0400,Switch to UMD for JS target,46,5590
+860,6cc7e32,FAIL,0,NO,0,NO,0,2019-07-29 13:44:01 -0400,"Remove Windows support, change iOS to klib",46,5590
+861,6223aec,FAIL,0,NO,0,NO,0,2019-07-29 13:44:44 -0400,Changelog for 2.3.0.,46,5590
+862,aa4ae8e,FAIL,0,NO,0,NO,0,2019-07-29 14:13:16 -0400,Merge pull request #639 from square/egorand/190729/js-umd,46,5590
+863,ef7132b,FAIL,0,NO,0,NO,0,2019-07-29 14:28:11 -0400,Merge pull request #640 from square/egorand/190729/review-native-platforms,46,5590
+864,dff287f,FAIL,0,NO,0,NO,0,2019-07-29 14:28:23 -0400,Merge pull request #641 from square/jwilson.0729.changelog,46,5590
+865,e5dc632,FAIL,0,NO,0,NO,0,2019-07-29 15:23:13 -0400,Prepare for release 2.3.0.,46,5590
+866,07a3507,FAIL,0,NO,0,NO,0,2019-07-29 15:23:56 -0400,Prepare next development version.,46,5590
+867,ea15f0e,FAIL,0,NO,0,NO,0,2019-07-29 15:27:02 -0400,Fix formatting of backticks in CHANGELOG,46,5590
+868,0a15b69,FAIL,0,NO,0,NO,0,2019-08-04 23:59:54 -0400,Gradle 5.5.1,46,5590
+869,5de9874,FAIL,0,NO,0,NO,0,2019-08-05 00:10:59 -0400,Node plugin is not needed anymore,46,5590
+870,9376cb3,FAIL,0,NO,0,NO,0,2019-08-05 08:38:25 -0400,Merge pull request #643 from square/egorand/190804/gradle-5.5.1,46,5590
+871,16cde1a,FAIL,0,NO,0,NO,0,2019-08-05 08:38:40 -0400,Merge pull request #644 from square/egorand/190805/kill-node,46,5590
+872,a93f96c,FAIL,0,NO,0,NO,0,2019-08-05 23:51:45 +0200,Update ktlint gradle to 8.2.0 version. (#642),46,5590
+873,efaae11,FAIL,0,NO,0,NO,0,2019-08-15 14:49:59 -0400,Kotlin 1.3.50-eap,46,5590
+874,29c16f9,FAIL,0,NO,0,NO,0,2019-08-15 16:07:13 -0400,Merge pull request #648 from square/egorand/190815/kotlin-1.3.50-eap,46,5590
+875,589c56c,FAIL,0,NO,0,NO,0,2019-08-22 20:12:30 -0400,Kotlin 1.3.50 (#649),46,5590
+876,533b7da,FAIL,0,NO,0,NO,0,2019-08-23 11:22:01 -0400,Remove TestUtils.repeat in favor of Kotlin repeat,46,5595
+877,50c666f,FAIL,0,NO,0,NO,0,2019-08-23 12:10:04 -0500,"Add BufferedSink.write(ByteString, offset, byteCount)",46,5598
+878,1ab5136,FAIL,0,NO,0,NO,0,2019-08-24 12:12:33 -0400,Merge pull request #650 from square/jakew/repeat/2019-08-23,46,5595
+879,35a6919,FAIL,0,NO,0,NO,0,2019-08-26 09:30:07 -0400,Prepare for release 2.4.0.,46,5595
+880,f47ceb9,FAIL,0,NO,0,NO,0,2019-08-26 09:30:35 -0400,Prepare next development version.,46,5595
+881,73accf6,FAIL,0,NO,0,NO,0,2019-08-26 09:31:35 -0400,Borrow OkHttp's releasing doc,46,5595
+882,c2375c5,FAIL,0,NO,0,NO,0,2019-08-26 09:32:24 -0400,Merge pull request #652 from square/jwilson.0826.release_guide,46,5595
+883,81ed412,FAIL,0,NO,0,NO,0,2019-08-28 20:23:32 -0400,Merge pull request #651 from bnorm/bnorm.0823.write_sub_bytestring,46,5603
+884,969b443,FAIL,0,NO,0,NO,0,2019-07-27 22:03:29 -0500,Move RealBufferedSink and RealBufferedSource to Kotlin/Common,46,5603
+885,98447fb,FAIL,0,NO,0,NO,0,2019-08-29 23:53:29 -0400,Merge pull request #638 from bnorm/bnorm.0727.realbuffered,46,5603
+886,02c5eb2,FAIL,0,NO,0,NO,0,2019-09-10 18:25:54 +0800,Fix socks url in README,46,5603
+887,273357a,FAIL,0,NO,0,NO,0,2019-09-10 06:59:15 -0400,Merge pull request #655 from emanonwzy/fix_readme,46,5603
+888,f3c4108,FAIL,0,NO,0,NO,0,2019-09-13 10:27:52 -0400,Fix links in README,46,5603
+889,650db25,FAIL,0,NO,0,NO,0,2019-09-13 13:49:24 -0400,Merge pull request #657 from square/egorand/190913/readme-links,46,5603
+890,43c0fe6,FAIL,0,NO,0,NO,0,2019-09-16 14:40:42 -0400,Don't cache hash code and UTF-8 string in ByteString on Native,46,5603
+891,4f8fb63,FAIL,0,NO,0,NO,0,2019-09-16 15:22:45 -0400,Merge pull request #658 from square/egorand/190916/no-caching,46,5603
+892,ef4d28e,FAIL,0,NO,0,NO,0,2019-10-01 14:19:13 -0500,Use inline function to simplify AsyncTimeout enter-exit,46,5603
+893,a404b91,FAIL,0,NO,0,NO,0,2019-10-03 08:57:35 -0400,Merge pull request #661 from bnorm/bn.1101.simplify_async_timeout,46,5603
+894,642b47b,FAIL,0,NO,0,NO,0,2019-10-04 13:46:36 -0400,Update CHANGELOG for 2.4.1 release (#663),46,5603
+895,7663819,FAIL,0,NO,0,NO,0,2019-10-04 13:50:00 -0400,Prepare for release 2.4.1,46,5603
+896,9b107c4,FAIL,0,NO,0,NO,0,2019-10-04 14:00:24 -0400,Prepare next development version.,46,5603
+897,f8f1af7,FAIL,0,NO,0,NO,0,2019-10-07 23:03:01 -0400,Dokka 0.10.0,46,5603
+898,f90a970,FAIL,0,NO,0,NO,0,2019-10-08 08:26:18 -0400,Merge pull request #665 from square/egorand/191007/dokka-0.10.0,46,5603
+899,517621e,FAIL,0,NO,0,NO,0,2019-10-12 10:42:38 -0400,Use Kotlin-isms for converting an array to a string (#667),46,5603
+900,1fa436a,FAIL,0,NO,0,NO,0,2019-12-06 20:27:42 -0600,Make AsyncTimeout.withTimeout public (#662),46,5603
+901,34e5eb0,FAIL,0,NO,0,NO,0,2019-12-07 03:41:48 +0100,Add how to use snapshot section to readme (#664),46,5603
+902,d61cac2,FAIL,0,NO,0,NO,0,2019-10-08 11:46:14 -0500,Use SegmentedByteString when reading a significantly large ByteString,47,5644
+903,b29e83f,FAIL,0,NO,0,NO,0,2019-12-11 15:18:47 +0100,Remove empty tail Segment (#686),46,5616
+904,3b8fb99,FAIL,0,NO,0,NO,0,2019-12-11 09:55:04 -0500,Okio 2.4.2 is released,46,5616
+905,0077fa7,FAIL,0,NO,0,NO,0,2019-12-12 11:16:41 -0500,Merge pull request #666 from bnorm/bnorm.1008.readbytestring,47,5657
+906,0d6af3b,FAIL,0,NO,0,NO,0,2019-12-20 11:18:50 -0500,Kotlin 1.3.61 (#682),47,5657
+907,fd98e27,FAIL,0,NO,0,NO,0,2019-12-20 14:08:26 -0500,Prepare for release 2.4.3.,47,5657
+908,51d2a00,FAIL,0,NO,0,NO,0,2019-12-20 14:09:40 -0500,Prepare next development version.,47,5657
+909,fc8b72b,FAIL,0,NO,0,NO,0,2019-10-16 10:54:31 -0500,JvmMultifileClass annotation removes expect/actual of buffer() extension,47,5657
+910,e060966,FAIL,0,NO,0,NO,0,2020-01-28 13:26:31 -0500,Migrate bug bounty URL to bugcrowd,47,5657
+911,33db3f1,FAIL,0,NO,0,NO,0,2020-01-28 15:31:51 -0500,Merge pull request #695 from square/jwilson.0128.bugcrowd,47,5657
+912,94f1e9d,FAIL,0,NO,0,NO,0,2020-02-15 23:04:43 -0500,Add NSData.toByteString(),47,5657
+913,cedf01b,FAIL,0,NO,0,NO,0,2020-02-16 00:25:55 -0500,Merge pull request #698 from square/egorand/200215/nsdata-to-bytestring,47,5657
+914,390637d,FAIL,0,NO,0,NO,0,2020-02-18 17:07:06 -0500,Gradle 6.2,47,5657
+915,a5d7d76,FAIL,0,NO,0,NO,0,2020-02-18 21:55:51 -0500,Merge pull request #701 from square/egorand/200218/gradle-6.2,47,5657
+916,7f9f8ce,FAIL,0,NO,0,NO,0,2020-02-19 19:16:42 -0500,Merge pull request #670 from bnorm/bnorm.1016.jvm_multifile_class,47,5657
+917,504a3d0,FAIL,0,NO,0,NO,0,2020-03-05 21:49:32 -0500,Delete duplicate Java-based MockSink,46,5623
+918,45ef396,FAIL,0,NO,0,NO,0,2020-03-05 22:09:53 -0500,Use regular JVM plugin for JMH,47,5657
+919,ada7d02,FAIL,0,NO,0,NO,0,2020-03-05 23:49:11 -0500,Merge pull request #704 from square/jakew/duplicate/2020-03-05,46,5623
+920,7120b15,FAIL,0,NO,0,NO,0,2020-03-05 23:49:31 -0500,Merge pull request #705 from square/jakew/jvm-plugin/2020-03-05,46,5623
+921,537da14,FAIL,0,NO,0,NO,0,2020-03-10 16:23:56 -0400,Update the URL for the actual typealias issue,46,5623
+922,fb2e418,FAIL,0,NO,0,NO,0,2020-03-10 16:31:52 -0400,Kotlin 1.3.70,46,5623
+923,6f6ad2b,FAIL,0,NO,0,NO,0,2020-03-11 08:17:51 -1000,Merge pull request #707 from square/egorand/200310/kotlin-1.3.70,46,5623
+924,4e9cf34,FAIL,0,NO,0,NO,0,2020-03-19 20:57:34 -0400,Merge pull request #706 from square/egorand/200310/bug-url,46,5623
+925,c6e748e,FAIL,0,NO,0,NO,0,2020-03-20 10:37:01 -0400,Upgrade to Gradle 6.2.1.,46,5623
+926,89d074a,FAIL,0,NO,0,NO,0,2020-03-20 12:48:29 -0400,Prepare for release 2.5.0.,46,5623
+927,fb7077f,FAIL,0,NO,0,NO,0,2020-03-20 12:48:57 -0400,Prepare next development version.,46,5623
+928,399153e,FAIL,0,NO,0,NO,0,2020-04-22 14:28:52 -0400,"New API, InflaterSource.readOrInflate",46,5670
+929,349809c,FAIL,0,NO,0,NO,0,2020-04-22 19:46:14 -0400,Merge pull request #710 from square/jwilson.0422.inflate_zero,46,5670
+930,9b1e5e4,FAIL,0,NO,0,NO,0,2020-04-22 21:36:40 -0400,Prepare for release 2.6.0.,46,5670
+931,0b5ae6f,FAIL,0,NO,0,NO,0,2020-04-22 21:37:01 -0400,Prepare next development version.,46,5670
+932,601fb8c,FAIL,0,NO,0,NO,0,2020-05-24 12:19:24 -0400,Gradle 6.4.1,46,5670
+933,6333998,FAIL,0,NO,0,NO,0,2020-05-24 23:19:15 -0400,Merge pull request #718 from square/egorand/200524/gradle-6.4.1,46,5670
+934,0d5a2d0,FAIL,0,NO,0,NO,0,2020-05-24 23:19:44 -0400,Switch to Github Actions (#719),46,5670
+935,fae6650,FAIL,0,NO,0,NO,0,2020-05-23 18:55:56 -0400,Make the segment pool lock-free on the JVM,46,5670
+936,2a2d4f8,FAIL,0,NO,0,NO,0,2020-05-25 11:18:51 -0400,Merge pull request #717 from square/jwilson.0523.lock_free,46,5670
+937,3181015,FAIL,0,NO,0,NO,0,2020-05-26 12:19:40 -0400,Set up MkDocs publishing on CI (#721),46,5670
+938,ef98a2d,FAIL,0,NO,0,NO,0,2020-05-31 14:07:21 -0400,Use N segment pools for N processors,46,5670
+939,32b935b,FAIL,0,NO,0,NO,0,2020-05-31 14:51:46 -0400,Overload the Segment.limit field to track the pooled size,46,5670
+940,f390906,FAIL,0,NO,0,NO,0,2020-06-02 04:45:50 +0300,Comment on var limit (#728),46,5670
+941,efe188a,FAIL,0,NO,0,NO,0,2020-06-03 14:50:39 +1000,"Fix ""bytes bytes"" typo",46,5670
+942,98fce03,FAIL,0,NO,0,NO,0,2020-06-03 08:11:32 -0400,Merge pull request #731 from 3flex/patch-1,46,5670
+943,5b99af4,FAIL,0,NO,0,NO,0,2020-06-11 21:58:18 -0400,New API: Pipe.cancel(),46,5670
+944,13ba756,FAIL,0,NO,0,NO,0,2020-06-12 22:01:46 -0400,Merge pull request #732 from square/jwilson.0611.pipe_cancel,46,5670
+945,7378a8e,FAIL,0,NO,0,NO,0,2020-06-21 20:51:26 -0400,Update build scripts to enable publishing docs from CI,46,5670
+946,95399f4,FAIL,0,NO,0,NO,0,2020-06-24 15:34:07 -0400,Merge pull request #734 from square/egorand/200621/publish-website-action,46,5670
+947,e1e0d42,FAIL,0,NO,0,NO,0,2020-06-24 16:44:34 -0400,Update publish-website action to use a different plugin,46,5670
+948,9465c3a,FAIL,0,NO,0,NO,0,2020-06-25 10:18:30 -0400,Merge pull request #735 from square/egorand/200624/publish-website-v2,46,5670
+949,6e9d468,FAIL,0,NO,0,NO,0,2020-07-06 19:40:16 -0400,Merge pull request #727 from square/rewlad-jwilson.0527.segment_pool_buckets,46,5670
+950,e6d606f,FAIL,0,NO,0,NO,0,2020-07-07 10:01:23 -0400,Prepare for release 2.7.0.,46,5670
+951,2260fa2,FAIL,0,NO,0,NO,0,2020-07-07 10:01:46 -0400,Prepare next development version.,46,5670
+952,f3cfd0f,FAIL,0,NO,0,NO,0,2020-08-09 15:44:38 -0400,Make samples runnable again,46,5670
+953,260039b,FAIL,0,NO,0,NO,0,2020-08-09 16:42:10 -0400,Merge pull request #746 from square/egorand/200809/samples,46,5670
+954,8224b9f,FAIL,0,NO,0,NO,0,2020-08-10 10:07:12 -0400,Ignore flaky AsyncTimeoutTest.sinkSplitsLargeWrites test,46,5672
+955,1f84ded,FAIL,0,NO,0,NO,0,2020-08-10 19:13:14 -0400,Merge pull request #749 from square/egorand/200810/flaky-test,46,5672
+956,807d717,FAIL,0,NO,0,NO,0,2020-08-09 15:57:45 -0400,BitmapEncoder sample in Kotlin,46,5672
+957,89880c0,FAIL,0,NO,0,NO,0,2020-08-09 16:40:40 -0400,ReadFileLineByLine example in Kotlin,46,5672
+958,317bafe,FAIL,0,NO,0,NO,0,2020-08-10 21:29:29 -0400,Merge pull request #747 from square/egorand/200809/bitmap-encoder-kt,46,5672
+959,452e73f,FAIL,0,NO,0,NO,0,2020-08-10 21:29:59 -0400,Merge pull request #748 from square/egorand/200809/read-file-lines-kt,46,5672
+960,8008b49,FAIL,0,NO,0,NO,0,2020-08-11 14:54:38 -0400,Don't recompute the logger for every SocketAsyncTimeout,46,5670
+961,82b1c56,FAIL,0,NO,0,NO,0,2020-08-11 17:53:32 -0400,Merge pull request #751 from square/jwilson.0811.logger,46,5672
+962,40b64d8,FAIL,0,NO,0,NO,0,2020-08-11 17:50:28 -0400,WriteFile sample in Kotlin,46,5672
+963,7c2b8f4,FAIL,0,NO,0,NO,0,2020-08-11 18:00:35 -0400,ExploreCharsets sample in Kotlin,46,5672
+964,fff1ef1,FAIL,0,NO,0,NO,0,2020-08-12 13:17:13 -0400,Merge pull request #752 from square/egorand/200811/write-file-kt,46,5672
+965,22e6f7d,FAIL,0,NO,0,NO,0,2020-08-12 15:00:19 -0400,Merge pull request #753 from square/egorand/200811/explore-charsets-kt,46,5672
+966,b7057bc,FAIL,0,NO,0,NO,0,2020-08-12 16:32:49 -0400,GoldenValue sample in Kotlin,46,5672
+967,bde6302,FAIL,0,NO,0,NO,0,2020-08-12 16:57:46 -0400,BitmapEncoderKt snippet in README,46,5672
+968,9e88e7a,FAIL,0,NO,0,NO,0,2020-08-12 16:58:44 -0400,Merge pull request #754 from square/egorand/200812/golden-value-kt,46,5672
+969,daa79c6,FAIL,0,NO,0,NO,0,2020-08-14 10:40:50 -0400,Merge pull request #755 from square/egorand/200812/bitmap-encoder-kt,46,5672
+970,e620db0,FAIL,0,NO,0,NO,0,2020-08-12 17:30:35 -0400,SocksProxyServer sample in Kotlin,46,5672
+971,14b97b7,FAIL,0,NO,0,NO,0,2020-08-14 12:13:57 -0400,Hashing sample in Kotlin,46,5672
+972,028646d,FAIL,0,NO,0,NO,0,2020-08-14 12:40:20 -0400,Merge pull request #756 from square/egorand/200812/socks-proxy-server-kt,46,5672
+973,01be31e,FAIL,0,NO,0,NO,0,2020-08-14 13:05:10 -0400,Merge pull request #757 from square/egorand/200814/hashing-kt,46,5672
+974,fefb89d,FAIL,0,NO,0,NO,0,2020-08-13 16:10:00 -0400,Add internal OkioMessageDigest,46,5672
+975,ed12a3e,FAIL,0,NO,0,NO,0,2020-08-17 15:45:47 -0400,Upgrade to Kotlin 1.4,46,5672
+976,812160d,FAIL,0,NO,0,NO,0,2020-08-17 20:51:27 -0400,Merge pull request #759 from square/jwilson.0817.kt14,46,5672
+977,cbbe2a3,FAIL,0,NO,0,NO,0,2020-08-17 21:13:58 -0400,Prepare for release 2.8.0.,46,5672
+978,1b3c784,FAIL,0,NO,0,NO,0,2020-08-17 21:14:05 -0400,Prepare next development version.,46,5672
+979,92c9c54,FAIL,0,NO,0,NO,0,2020-08-17 21:33:36 -0400,Track a change to the dokka command,46,5672
+980,0ecc623,FAIL,0,NO,0,NO,0,2020-08-17 23:00:44 -0400,Fix rendering of markdown tabs,46,5672
+981,f19596a,FAIL,0,NO,0,NO,0,2020-08-18 21:08:23 -0400,Merge pull request #758 from kevincianfarini/kevincianfarini/common-message-digest,46,5672
+982,9d2cef7,FAIL,0,NO,0,NO,0,2020-09-05 16:54:55 -0400,Add OkioMessageDigest JMH benchmarks,47,5707
+983,04557de,FAIL,0,NO,0,NO,0,2020-09-05 18:12:34 -0400,Merge pull request #761 from kevincianfarini/kc/add-message-digest-benchmarks,47,5707
+984,15be722,FAIL,0,NO,0,NO,0,2020-09-05 22:38:43 -0400,Optimize SHA-1.,47,5717
+985,bf0bae8,FAIL,0,NO,0,NO,0,2020-09-07 00:21:03 -0400,Merge pull request #762 from square/jwilson.0905.optimize_sha1,47,5717
+986,a9b1835,FAIL,0,NO,0,NO,0,2020-09-07 08:40:59 -0400,Take the allocations out of our SHA-256 implementation,47,5717
+987,6b25ce0,FAIL,0,NO,0,NO,0,2020-09-07 15:32:50 -0400,Merge pull request #765 from square/jwilson.0907.sha256,47,5717
+988,8bc54d8,FAIL,0,NO,0,NO,0,2020-09-07 22:06:26 -0400,Optimize MD5,47,5717
+989,9251221,FAIL,0,NO,0,NO,0,2020-09-07 23:07:23 -0400,Merge pull request #766 from square/jwilson.0907.md5,47,5717
+990,393e607,FAIL,0,NO,0,NO,0,2020-09-08 21:45:38 -0400,Optimize SHA-512,47,5717
+991,e1611f4,FAIL,0,NO,0,NO,0,2020-09-08 22:05:14 -0400,Merge pull request #767 from square/jwilson.0908.allocations_sha512,47,5717
+992,b04086c,FAIL,0,NO,0,NO,0,2020-09-08 23:08:54 -0400,Don't use experimental unsigned types,47,5717
+993,82bc27c,FAIL,0,NO,0,NO,0,2020-09-09 08:53:59 -0400,Merge pull request #768 from square/jwilson.0908.unsigned,47,5717
+994,c5cfef2,FAIL,0,NO,0,NO,0,2020-09-09 21:25:22 -0400,Rename OkioMessageDigest to HashFunction,47,5717
+995,28f47d9,FAIL,0,NO,0,NO,0,2020-09-11 11:24:19 -0400,Kotlin 1.4.10.,47,5717
+996,424a81d,FAIL,0,NO,0,NO,0,2020-09-11 11:30:54 -0400,Merge pull request #769 from square/jwilson.0909.rename,47,5717
+997,0f183b7,FAIL,0,NO,0,NO,0,2020-09-11 12:54:17 -0400,Merge pull request #771 from square/jwilson.0911.kt1410,47,5717
+998,71c348f,FAIL,0,NO,0,NO,0,2020-09-15 11:57:12 -0400,Java 15 final,47,5717
+999,0eab62d,FAIL,0,NO,0,NO,0,2020-09-15 12:16:53 -0400,Merge pull request #773 from square/jw/fifteen/2020-09-15,47,5717
+1000,c1427b8,FAIL,0,NO,0,NO,0,2020-09-27 03:40:39 +0200,Added OSGi metadata via build in a non intrusive way (#777),47,5717
+1001,de4cdbb,FAIL,0,NO,0,NO,0,2020-10-03 18:44:56 -0400,Promote ByteString hashing function to common Kotlin,47,5710
+1002,ff616b9,FAIL,0,NO,0,NO,0,2020-10-03 18:45:16 -0400,Merge branch 'kevincianfarini-kc/internal-bytestring-hashing' into master,47,5710
+1003,6344cc1,FAIL,0,NO,0,NO,0,2020-10-04 01:40:46 +0000,Fix SegmentedByteString substring write (#778),47,5718
+1004,da3112e,FAIL,0,NO,0,NO,0,2020-10-04 17:58:30 +0200,CipherSink & CipherSource (#711),47,5718
+1005,7379b1f,FAIL,0,NO,0,NO,0,2020-10-04 20:03:35 -0400,Make CipherSink and CipherSource into public types (#780),47,5718
+1006,c6c6a78,FAIL,0,NO,0,NO,0,2020-10-04 23:29:40 -0400,Don't use hash function names in non-JVM platforms (#779),47,5718
+1007,40c32eb,FAIL,0,NO,0,NO,0,2020-10-04 23:52:51 -0400,Prepare for release 2.9.0.,47,5718
+1008,33f0db5,FAIL,0,NO,0,NO,0,2020-10-04 23:53:05 -0400,Prepare next development version.,47,5718
+1009,eea6800,FAIL,0,NO,0,NO,0,2020-10-16 00:14:31 -0400,Path API for multiplatform (#787),47,5718
+1010,dd2152c,FAIL,0,NO,0,NO,0,2020-10-30 19:31:54 +0800,fix okio.Timeout#throwIfReached() thread's interrupted status check (#790),47,5718
+1011,a05d973,FAIL,0,NO,0,NO,0,2020-11-01 15:37:33 +0100,Extensions for hashing source & sink (#784),47,5718
+1012,aace4d3,FAIL,0,NO,0,NO,0,2020-11-01 15:19:24 -0500,"New API, Path.name (#792)",47,5718
+1013,a104b8e,FAIL,0,NO,0,NO,0,2020-11-01 18:46:31 -0500,JVM implementation of Filesystem (#791),47,5718
+1014,a982234,FAIL,0,NO,0,NO,0,2020-11-01 20:45:17 -0500,Initial native implementation of Filesystem (#793),47,5718
+1015,ea5d198,FAIL,0,NO,0,NO,0,2020-11-02 17:32:46 -0500,Filesystem directory listing (#794),47,5718
+1016,d28dbaa,FAIL,0,NO,0,NO,0,2020-11-02 21:24:53 -0500,Throw on all Filesystem.list() failures. (#795),47,5718
+1017,702489c,FAIL,0,NO,0,NO,0,2020-11-03 00:06:07 -0500,Filesystem.source() (#796),47,5718
+1018,b46f0bb,FAIL,0,NO,0,NO,0,2020-11-03 08:00:44 -0500,Replace instances of try/fail with assertFailsWith,47,5718
+1019,f8e56ea,FAIL,0,NO,0,NO,0,2020-11-03 08:11:11 -0500,Move README.md contents into docs/index.md,47,5718
+1020,793855b,FAIL,0,NO,0,NO,0,2020-11-03 10:39:56 -0500,Merge pull request #799 from square/egorand/201103/readme-to-docs,47,5718
+1021,f9c0e71,FAIL,0,NO,0,NO,0,2020-11-03 10:40:13 -0500,Merge pull request #798 from square/egorand/201103/assert-fails-with,47,5718
+1022,ae04790,FAIL,0,NO,0,NO,0,2020-11-03 20:19:56 -0500,Consolidate native and js into nonJvmMain,47,5718
+1023,dcf6074,FAIL,0,NO,0,NO,0,2020-11-03 21:23:41 -0500,Promote Buffer hashing to common,47,5718
+1024,6ea5f9d,FAIL,0,NO,0,NO,0,2020-11-04 00:38:51 -0500,Filesystem.sink(Path) (#800),47,5718
+1025,1290e1c,FAIL,0,NO,0,NO,0,2020-11-04 09:07:27 -0500,Change the identity relative path from empty string to dot. (#803),47,5718
+1026,1242fb9,FAIL,0,NO,0,NO,0,2020-11-04 20:51:32 -0500,Promote UnsafeCursor to multiplatform (#801),47,5718
+1027,74933bc,FAIL,0,NO,0,NO,0,2020-11-04 23:07:39 -0500,Use object pinning to write buffers without copying (#804),47,5718
+1028,04055b9,FAIL,0,NO,0,NO,0,2020-11-05 07:44:36 -0500,Filesystem.mkdir() (#805),47,5718
+1029,76d5438,FAIL,0,NO,0,NO,0,2020-11-06 09:45:31 -0500,FileSystem.atomicMove() (#806),47,5718
+1030,5ac62ac,FAIL,0,NO,0,NO,0,2020-11-07 07:25:26 -0500,Filesystem.copy() and delete() (#807),47,5718
+1031,50f04b2,FAIL,0,NO,0,NO,0,2020-11-08 15:45:09 -0500,Get tests passing under Linux (#808),47,5718
+1032,0613e03,FAIL,0,NO,0,NO,0,2020-11-11 02:59:34 +0100,Mingw64 support (#809),47,5727
+1033,f92b678,FAIL,0,NO,0,NO,0,2020-11-15 21:59:37 +0100,Common Hmac HashingSource HashingSink (#812),44,5483
+1034,9fa2d96,FAIL,0,NO,0,NO,0,2020-11-16 10:03:50 -0500,Basic Filesystem support for Windows (#813),44,5483
+1035,8ef32ec,FAIL,0,NO,0,NO,0,2020-11-16 15:00:00 -0500,FakeFilesystem (#815),44,5483
+1036,000e2dc,FAIL,0,NO,0,NO,0,2020-11-17 13:12:18 -0500,Move temporaryDirectory() out of Filesystem and into a global val (#816),44,5483
+1037,d256b79,FAIL,0,NO,0,NO,0,2020-11-17 17:17:22 +0100,Prevent calling scheduleTimeout twice on an AsyncTimeout,44,5496
+1038,fe6fddc,FAIL,0,NO,0,NO,0,2020-11-26 09:29:59 -0500,Merge branch 'findepi-findepi/prevent-calling-scheduletimeout-twice-on-an-asynctimeout-234078' into master,44,5496
+1039,fcb460e,FAIL,0,NO,0,NO,0,2020-11-30 15:36:37 +0100,Added the watchos targets (#821),44,5496
+1040,f936da3,FAIL,0,NO,0,NO,0,2020-12-02 16:03:24 +0100,Added the watchosArm32 target. (#824),44,5496
+1041,1c1b05e,FAIL,0,NO,0,NO,0,2020-12-02 16:06:56 +0100,Fix Android cipher issue (#822),44,5496
+1042,6c0936b,FAIL,0,NO,0,NO,0,2020-12-04 14:08:47 -0500,Kotlin 1.4.20 (#826),44,5496
+1043,a7b75fb,FAIL,0,NO,0,NO,0,2020-12-06 15:08:41 -0500,Add an API for file metadata (#827),44,5496
+1044,5a12cb8,FAIL,0,NO,0,NO,0,2020-12-06 16:47:43 -0500,Dokka 1.4.20 & generate docs in HTML,44,5496
+1045,324f1f2,FAIL,0,NO,0,NO,0,2020-12-06 17:10:39 -0500,Update ktlint and use it with spotless,44,5496
+1046,eeacc77,FAIL,0,NO,0,NO,0,2020-12-06 21:47:34 -0500,Merge pull request #829 from square/egorand/201206/spotless,44,5496
+1047,0059976,FAIL,0,NO,0,NO,0,2020-12-06 16:38:40 -0500,Metadata for Kotlin/Native,44,5496
+1048,f2080ee,FAIL,0,NO,0,NO,0,2020-12-07 20:00:51 +0800,Adds notes to SegmentPool (#831),44,5496
+1049,40beccf,FAIL,0,NO,0,NO,0,2020-12-07 10:56:55 -0500,Merge pull request #830 from square/jwilson.1206.metadata_unix,44,5496
+1050,8e1868b,FAIL,0,NO,0,NO,0,2020-12-07 23:14:22 -0500,Windows Paths,44,5496
+1051,4de1d83,FAIL,0,NO,0,NO,0,2020-12-09 10:13:02 -0500,Merge pull request #833 from square/jwilson.1207.windows_paths_,44,5496
+1052,42223ea,FAIL,0,NO,0,NO,0,2020-12-09 22:22:00 -0500,Extract FakeFileSystem into a new okio-testing module,44,5496
+1053,e27d7fc,FAIL,0,NO,0,NO,0,2020-12-09 22:23:53 -0500,Merge pull request #828 from square/egorand/201206/dokka-1.4.20,44,5496
+1054,1ac81ed,FAIL,0,NO,0,NO,0,2020-12-10 14:19:07 -0500,Merge pull request #834 from square/jwilson.1209.time,44,5496
+1055,420ba71,FAIL,0,NO,0,NO,0,2020-12-11 21:39:21 -0500,Support Windows limitations in FakeFileSystem,44,5496
+1056,3fdaa7f,FAIL,0,NO,0,NO,0,2020-12-13 11:31:50 -0500,Merge pull request #835 from square/jwilson.1211.fake_window,44,5496
+1057,a798391,FAIL,0,NO,0,NO,0,2020-12-13 01:02:16 -0500,Fix atomicMove on Windows,44,5496
+1058,152e35d,FAIL,0,NO,0,NO,0,2020-12-14 18:56:53 -0500,Merge pull request #836 from square/jwilson.1212.more_rename,44,5496
+1059,441a13d,FAIL,0,NO,0,NO,0,2020-12-13 22:00:15 -0500,Fix parent paths for Windows paths like C:\Windows,44,5496
+1060,7168692,FAIL,0,NO,0,NO,0,2020-12-14 22:26:06 -0500,Merge pull request #837 from square/jwilson.1213.fix_more_windows_paths,44,5496
+1061,34e4fc1,FAIL,0,NO,0,NO,0,2020-12-14 22:27:11 -0500,Filesystem.appendingSink,44,5496
+1062,b8fe3f6,FAIL,0,NO,0,NO,0,2020-12-15 10:51:52 -0500,Merge pull request #838 from square/jwilson.1214.append,44,5496
+1063,157b5d6,FAIL,0,NO,0,NO,0,2020-12-15 15:39:58 -0800,Use custom wordmark in dokkaHtml,44,5496
+1064,7a6bdbf,FAIL,0,NO,0,NO,0,2020-12-15 19:35:24 -0500,Merge pull request #839 from ajalt/master,44,5496
+1065,a1aa1b6,FAIL,0,NO,0,NO,0,2020-12-16 12:45:01 +0100,publish okio-files,44,5496
+1066,2b321f2,FAIL,0,NO,0,NO,0,2020-12-16 07:35:08 -0500,Merge pull request #840 from martinbonnin/publish-okio-files,44,5496
+1067,7531330,FAIL,0,NO,0,NO,0,2020-12-17 11:14:49 +0100,Fix `okio-multiplatform` publication,44,5496
+1068,95c7ad4,FAIL,0,NO,0,NO,0,2020-12-17 20:00:20 -0500,Merge pull request #842 from martinbonnin/do-not-overwrite-okio-multiplatform,44,5496
+1069,996bef9,FAIL,0,NO,0,NO,0,2020-12-15 22:07:10 -0500,NodeJS filesystem,44,5496
+1070,cc7d672,FAIL,0,NO,0,NO,0,2020-12-17 22:28:47 -0500,Merge pull request #841 from square/jwilson.1215.js,44,5496
+1071,42278bc,FAIL,0,NO,0,NO,0,2020-12-18 00:10:38 -0500,JVM interop functions and documentation,44,5496
+1072,8a00318,FAIL,0,NO,0,NO,0,2020-12-19 12:22:41 -0500,Merge pull request #843 from square/jwilson.1218.java,44,5496
+1073,8966a14,FAIL,0,NO,0,NO,0,2020-12-19 17:14:07 -0500,Fix some bugs in Windows path handling,44,5496
+1074,cc63c53,FAIL,0,NO,0,NO,0,2020-12-20 16:35:58 -0500,Read JVM artifact name from POM instead of hardcoding okio,44,5496
+1075,f6437df,FAIL,0,NO,0,NO,0,2020-12-20 17:03:53 -0500,Merge pull request #847 from russhwolf/jvm-publishing-fix,44,5496
+1076,e21e897,FAIL,0,NO,0,NO,0,2020-12-21 10:45:45 -0500,Merge pull request #845 from square/jwilson.1219.windows_paths,44,5496
+1077,5cbd353,FAIL,0,NO,0,NO,0,2020-12-21 16:12:42 -0500,Fold okio-files into the main okio artifact,44,5496
+1078,a176e8d,FAIL,0,NO,0,NO,0,2020-12-22 11:45:49 -0500,Merge pull request #848 from square/jwilson.1219.fold_okio_files,44,5496
+1079,5fa3ea4,FAIL,0,NO,0,NO,0,2020-12-22 12:30:34 -0500,"Use @ExperimentalFilesystem on Filesystem, Path, and FileMetadata",44,5496
+1080,009b447,FAIL,0,NO,0,NO,0,2020-12-22 13:15:37 -0500,Provide more context when filesystem dates are out of bounds,44,5496
+1081,412c5f8,FAIL,0,NO,0,NO,0,2020-12-22 18:09:57 -0500,Merge pull request #849 from square/jwilson.1222.ExperimentalFilesystem,44,5496
+1082,0a4337e,FAIL,0,NO,0,NO,0,2020-12-23 09:38:27 -0500,Merge pull request #850 from square/jwilson.1222.more_info,44,5496
+1083,94b73fb,FAIL,0,NO,0,NO,0,2020-12-23 18:24:32 -0500,ForwardingFilesystem (#851),44,5496
+1084,2879474,FAIL,0,NO,0,NO,0,2020-12-23 18:06:58 -0500,Filesystem.createDirectories and deleteRecursively,44,5496
+1085,137d44f,FAIL,0,NO,0,NO,0,2020-12-24 11:41:04 -0500,Merge pull request #852 from square/jwilson.1223.recursive,44,5496
+1086,f14edb7,FAIL,0,NO,0,NO,0,2020-12-26 14:02:33 -0500,Run tests on Android,44,5490
+1087,f12403a,FAIL,0,NO,0,NO,0,2020-12-27 14:51:40 -0500,Merge pull request #853 from square/jwilson.1226.androidTest,44,5490
+1088,d7e983d,FAIL,0,NO,0,NO,0,2020-12-27 11:20:03 -0500,Get Filesystem.SYSTEM working on Android 15,44,5490
+1089,8a0a518,FAIL,0,NO,0,NO,0,2020-12-27 15:37:12 -0500,Merge pull request #854 from square/jwilson.1227.android_15,44,5490
+1090,d3f0c32,FAIL,0,NO,0,NO,0,2020-12-27 18:11:51 -0500,Filesystem.exists and Filesystem.metadataOrNull,44,5490
+1091,60c016f,FAIL,0,NO,0,NO,0,2020-12-27 19:24:50 -0500,Merge pull request #855 from square/jwilson.1227.exists,44,5490
+1092,60afd39,FAIL,0,NO,0,NO,0,2020-12-28 08:45:55 -0500,Fix a bug where FakeFilesystem.appendingSink cleared the file,44,5490
+1093,5b6c70c,FAIL,0,NO,0,NO,0,2020-12-28 11:01:15 -0500,Path.isRoot returns true for / and C:\,44,5490
+1094,2d67d0e,FAIL,0,NO,0,NO,0,2020-12-28 14:51:22 -0500,Merge pull request #856 from square/jwilson.1228.fix_appending_bug,44,5490
+1095,4715ea0,FAIL,0,NO,0,NO,0,2020-12-28 17:39:40 -0500,Merge pull request #858 from square/jwilson.1228.isRoot,44,5490
+1096,8a43813,FAIL,0,NO,0,NO,0,2020-12-28 10:29:41 -0500,FakeFilesystem.checkNoOpenFiles() has better information,44,5490
+1097,8a3b84a,FAIL,0,NO,0,NO,0,2020-12-28 18:05:33 -0500,Merge pull request #857 from square/jwilson.1228.checkNoOpenFiles,44,5490
+1098,67d1373,FAIL,0,NO,0,NO,0,2020-12-28 20:33:50 -0500,Improve APIs for Java consumers,45,5529
+1099,ff192b7,FAIL,0,NO,0,NO,0,2020-12-30 10:12:04 -0500,Merge pull request #860 from square/jwilson.1228.java,45,5529
+1100,f21bfc0,FAIL,0,NO,0,NO,0,2020-12-30 13:41:17 -0500,Define our own externals for Node.js fs and os APIs,45,5529
+1101,eb53e5d,FAIL,0,NO,0,NO,0,2020-12-30 14:31:10 -0500,Merge pull request #861 from square/jwilson.1230.our_own_externals,45,5529
+1102,8c82a84,FAIL,0,NO,0,NO,0,2020-12-30 15:22:42 -0500,Use HTML tables until Dokka's tables are fixed,45,5529
+1103,d9d97ad,FAIL,0,NO,0,NO,0,2020-12-30 18:14:12 -0500,Merge pull request #862 from square/jwilson.1230.html_tables,45,5529
+1104,c8e75f5,FAIL,0,NO,0,NO,0,2020-12-30 15:59:18 -0500,Combine Platform.kt and -Platform.kt,45,5529
+1105,7027351,FAIL,0,NO,0,NO,0,2020-12-30 20:56:08 -0500,Merge pull request #863 from square/jwilson.1230.one_platform_file,45,5529
+1106,1381fcc,FAIL,0,NO,0,NO,0,2020-12-30 21:27:17 -0500,Specialize FileNotFoundException,45,5529
+1107,6f98625,FAIL,0,NO,0,NO,0,2021-01-01 19:57:32 -0500,Merge pull request #864 from square/jwilson.1230.fnfe,45,5529
+1108,aa16a71,FAIL,0,NO,0,NO,0,2020-12-31 11:42:15 -0500,Filesystem.list() returns files in sorted order,45,5529
+1109,770b67f,FAIL,0,NO,0,NO,0,2021-01-04 11:36:37 -0500,Merge pull request #865 from square/jwilson.1231.sorted,45,5529
+1110,109d3be,FAIL,0,NO,0,NO,0,2021-01-04 11:44:15 -0500,Rename okio-testing to okio-fakefilesystem and start publishing it,45,5530
+1111,d364ec8,FAIL,0,NO,0,NO,0,2021-01-04 12:04:34 -0500,Merge pull request #867 from square/jwilson.0104.fakefilesystem,45,5530
+1112,2ec05f1,FAIL,0,NO,0,NO,0,2021-01-04 12:27:13 -0500,Rename Filesystem to FileSystem,45,5530
+1113,feacb14,FAIL,0,NO,0,NO,0,2021-01-04 14:41:54 -0500,Merge pull request #868 from square/jwilson.0104.ffs,45,5530
+1114,a34760f,FAIL,0,NO,0,NO,0,2021-01-04 16:57:34 -0500,Split Path into an expect/actual class,45,5530
+1115,adf7a85,FAIL,0,NO,0,NO,0,2021-01-05 15:29:39 -0500,Merge pull request #869 from square/jwilson.0104.expect_path,45,5530
+1116,cc815b8,FAIL,0,NO,0,NO,0,2021-01-05 18:13:05 -0500,Add a multiplatform okio.Closeable interface,45,5530
+1117,61913ce,FAIL,0,NO,0,NO,0,2021-01-05 19:54:44 -0500,Merge pull request #870 from square/jwilson.0105.closeable,45,5530
+1118,c60f820,FAIL,0,NO,0,NO,0,2021-01-05 21:10:53 -0500,Syntactic sugar for writing files,45,5530
+1119,a8ccc12,FAIL,0,NO,0,NO,0,2021-01-06 12:02:40 -0500,Merge pull request #871 from square/jwilson.0105.sugar,45,5530
+1120,701634b,FAIL,0,NO,0,NO,0,2021-01-06 12:29:39 -0500,Make Path.toFile() work for Java callers,45,5549
+1121,1977d3b,FAIL,0,NO,0,NO,0,2021-01-06 20:25:25 -0500,Merge pull request #872 from square/jwilson.0106.java_sugar,45,5549
+1122,2c97351,FAIL,0,NO,0,NO,0,2021-01-07 18:43:46 -0500,Okio 2.10.0 is released.,45,5549
+1123,eda1e47,FAIL,0,NO,0,NO,0,2021-01-07 22:21:20 -0500,Prepare for release 3.0.0-alpha.1.,45,5549
+1124,08af0fa,FAIL,0,NO,0,NO,0,2021-01-07 22:21:30 -0500,Prepare next development version.,45,5549
+1125,0ea0ddb,FAIL,0,NO,0,NO,0,2021-01-07 23:02:11 -0500,Fix broken link in changelog,45,5549
+1126,14542ac,FAIL,0,NO,0,NO,0,2021-01-09 15:09:02 -0500,Redesign FakeFileSystem's Windows limitations,45,5549
+1127,bc4fdff,FAIL,0,NO,0,NO,0,2021-01-09 15:13:24 -0500,Add missing exceptions to FileSystem.write and read,45,5549
+1128,e5bd0ad,FAIL,0,NO,0,NO,0,2021-01-09 21:12:54 -0500,Merge pull request #880 from square/jwilson.0109.windows_limitations,45,5549
+1129,9db4923,FAIL,0,NO,0,NO,0,2021-01-09 21:13:54 -0500,Merge pull request #881 from square/jwilson.0109.read_write,45,5549
+1130,9630b86,FAIL,0,NO,0,NO,0,2021-01-10 11:25:58 -0500,Remove the slash property from Path,45,5549
+1131,cf28008,FAIL,0,NO,0,NO,0,2021-01-11 10:37:48 -0500,Merge pull request #882 from square/jwilson.0110.path_slash,45,5549
+1132,6425f63,FAIL,0,NO,0,NO,0,2021-01-11 17:24:00 -0500,Document that remote file systems are a bad fit,45,5549
+1133,3be678e,FAIL,0,NO,0,NO,0,2021-01-11 18:38:49 -0500,Merge pull request #883 from square/jwilson.0111.remote_no_go,45,5549
+1134,7a5d313,FAIL,0,NO,0,NO,0,2021-01-11 18:34:47 -0500,Forbid dangerous operations in FakeFileSystem by default,45,5549
+1135,01a7059,FAIL,0,NO,0,NO,0,2021-01-12 13:07:37 -0500,Merge pull request #884 from square/jwilson.0111.prevent_concurrent_ops,45,5549
+1136,951a164,FAIL,0,NO,0,NO,0,2021-02-08 22:48:04 -0500,Bump the minimum JDK requirement to Java 8,45,5549
+1137,55df471,FAIL,0,NO,0,NO,0,2021-02-09 20:38:07 -0500,Merge pull request #890 from square/jwilson.0208.cursor,45,5549
+1138,0a800b8,FAIL,0,NO,0,NO,0,2021-02-08 22:52:48 -0500,Cursor API and File implementation,45,5549
+1139,00c7ede,FAIL,0,NO,0,NO,0,2021-02-09 21:53:19 -0500,Merge pull request #891 from square/jwilson.0208.cursor__,45,5549
+1140,57262e0,FAIL,0,NO,0,NO,0,2021-02-09 23:00:42 -0500,Implement Cursor on RealBufferedSource,45,5549
+1141,5b8b30d,FAIL,0,NO,0,NO,0,2021-02-09 23:09:31 -0500,New zipfilesystem module and FixedLengthSource class,45,5549
+1142,3a64da5,FAIL,0,NO,0,NO,0,2021-02-11 13:58:54 -0500,Merge pull request #892 from square/jwilson.0209.bsc,45,5549
+1143,8671252,FAIL,0,NO,0,NO,0,2021-02-11 14:05:00 -0500,Merge pull request #893 from square/jwilson.0209.zipfilesystem,45,5549
+1144,dc5ee8f,FAIL,0,NO,0,NO,0,2021-02-11 15:18:22 -0500,Import ZIP code from AOSP and use it to build a ZipFileSystem,45,5549
+1145,d3ee176,FAIL,0,NO,0,NO,0,2021-02-12 10:55:06 -0500,Merge pull request #895 from square/jwilson.0211.zips,45,5549
+1146,e04d2f3,FAIL,0,NO,0,NO,0,2021-02-15 11:06:15 -0500,Better tests for zip files,45,5549
+1147,14decea,FAIL,0,NO,0,NO,0,2021-02-15 15:11:04 -0500,Implement cursors for native platforms,45,5549
+1148,f66307e,FAIL,0,NO,0,NO,0,2021-02-16 23:14:01 -0500,Merge pull request #899 from square/jwilson.0215.native_cursors,45,5549
+1149,333e09c,FAIL,0,NO,0,NO,0,2021-02-17 16:21:46 -0500,Merge pull request #898 from square/jwilson.0215.zip_tests,45,5549
+1150,56ff56b,FAIL,0,NO,0,NO,0,2021-02-17 17:54:08 -0500,Support cursors in FakeFileSystem sources,45,5549
+1151,3134482,FAIL,0,NO,0,NO,0,2021-02-21 16:46:24 -0500,Merge pull request #900 from square/jwilson.0217.ffs_cursors,45,5549
+1152,377a936,FAIL,0,NO,0,NO,0,2021-02-21 21:40:19 -0500,Redo the zip.kt internals (#903),45,5549
+1153,a847c17,FAIL,0,NO,0,NO,0,2021-02-24 19:56:19 -0500,Add support for extended timestamps (0x5455) (#904),45,5549
+1154,62642ec,FAIL,0,NO,0,NO,0,2021-03-06 20:53:24 -0500,Public API for ZipFileSystem (#908),46,5575
+1155,f041421,FAIL,0,NO,0,NO,0,2021-03-06 20:53:54 -0500,Fix a bug where metadata of '.' was not found (#906),46,5575
+1156,572b152,FAIL,0,NO,0,NO,0,2021-03-07 16:33:30 -0500,Fix FakeFileSystem.list() to return relative paths (#907),46,5575
+1157,d17fb15,FAIL,0,NO,0,NO,0,2021-03-07 23:47:01 -0500,Implement cursoring on JS sources (#909),46,5575
+1158,1aeb586,FAIL,0,NO,0,NO,0,2021-03-24 17:35:14 -0400,Prepare for release 3.0.0-alpha.2.,46,5575
+1159,57cf11c,FAIL,0,NO,0,NO,0,2021-03-24 17:35:14 -0400,Prepare next development version.,46,5575
+1160,039d996,FAIL,0,NO,0,NO,0,2021-03-31 22:27:43 -0400,Move NodeJsFileSystem into its own module (#913),46,5575
+1161,e0031a0,FAIL,0,NO,0,NO,0,2021-04-06 18:45:12 -0400,Prepare for release 3.0.0-alpha.3.,46,5575
+1162,5efe95d,FAIL,0,NO,0,NO,0,2021-04-06 18:45:32 -0400,Prepare next development version.,46,5575
+1163,4ab922e,FAIL,0,NO,0,NO,0,2021-04-07 09:06:02 -0400,"FileHandle, for reading and writing, streaming and random access (#916)",46,5575
+1164,2fb5c71,FAIL,0,NO,0,NO,0,2021-04-09 08:31:03 +0100,Resource FileSystem (#919),46,5575
+1165,2eb5894,FAIL,0,NO,0,NO,0,2021-04-09 15:20:16 +0100,Simplify the path handling logic for resources (#920),46,5575
+1166,038fc19,FAIL,0,NO,0,NO,0,2021-04-12 09:29:50 -0400,Convert Okio build scripts to KTS (#921),46,5575
+1167,b5708e7,FAIL,0,NO,0,NO,0,2021-04-12 20:31:03 -0400,Delete unused file (#922),46,5575
+1168,113b6a0,FAIL,0,NO,0,NO,0,2021-04-13 11:07:57 -0400,Attempt to fix flakes in SocketTimeoutTest (#923),46,5577
+1169,ffbf472,FAIL,0,NO,0,NO,0,2021-04-14 17:55:21 -0400,Rename internal classes to avoid name collisions (#924),46,5577
+1170,bc96401,FAIL,0,NO,0,NO,0,2021-04-14 19:00:58 -0400,Prepare for release 3.0.0-alpha.4.,46,5577
+1171,0101af9,FAIL,0,NO,0,NO,0,2021-04-14 19:00:58 -0400,Prepare next development version.,46,5577
+1172,693f096,FAIL,0,NO,0,NO,0,2021-04-27 15:48:53 -0400,Fold the zipfilesystem and resourcefilesystem into the main okio module (#927),46,5573
+1173,c15e674,FAIL,0,NO,0,NO,0,2021-04-27 18:23:42 -0400,Prepare for release 3.0.0-alpha.5.,46,5573
+1174,1a60637,FAIL,0,NO,0,NO,0,2021-04-27 18:23:42 -0400,Prepare next development version.,46,5573
+1175,d659b30,FAIL,0,NO,0,NO,0,2021-04-28 09:07:34 -0400,Replace Cursor with FileHandle (#926),46,5573
+1176,465c07e,FAIL,0,NO,0,NO,0,2021-05-02 12:19:13 -0400,Split open() into openReadOnly() and openReadWrite(). (#928),46,5573
+1177,6dd0355,FAIL,0,NO,0,NO,0,2021-05-16 22:02:38 -0400,Implement FileHandle for PosixFileSystem (#931),46,5573
+1178,7430e98,FAIL,0,NO,0,NO,0,2021-05-17 17:15:10 -0400,Implement FileHandle on native Windows (#933),46,5573
+1179,17ed276,FAIL,0,NO,0,NO,0,2021-05-18 14:14:00 +0300,Fix using okio from background thread on Kotlin/Native targets (#929),46,5573
+1180,6b77e01,FAIL,0,NO,0,NO,0,2021-05-24 20:42:05 -0400,Filter .class files from the ResourceFileSystem (#939),46,5573
+1181,3e3b82b,FAIL,0,NO,0,NO,0,2021-05-24 21:14:36 -0400,Support Kotlin/JS IR and Legacy JS (#940),46,5573
+1182,f042fa0,FAIL,0,NO,0,NO,0,2021-05-25 03:22:57 +0200,multiplatform: document Gradle configuration (#932),46,5573
+1183,0eeb4b0,FAIL,0,NO,0,NO,0,2021-05-25 08:26:40 -0400,Compile for tvOS (#941),46,5573
+1184,c2d00bb,FAIL,0,NO,0,NO,0,2021-05-25 13:17:41 -0400,Increase test logging (#942),46,5573
+1185,ed9cd0e,FAIL,0,NO,0,NO,0,2021-05-25 13:17:50 -0400,More tests for FileHandle (#938),46,5573
+1186,cc2664d,FAIL,0,NO,0,NO,0,2021-05-26 11:58:24 -0400,Get FileHandle working on NodeJS (#943),46,5573
+1187,b1875dc,FAIL,0,NO,0,NO,0,2021-05-29 23:07:42 -0400,Provide even more information when FileSystem timestamps surprise (#945),46,5573
+1188,423573b,FAIL,0,NO,0,NO,0,2021-05-31 14:24:23 -0400,Split JVM and Native FileSystem declarations (#946),46,5573
+1189,702039a,FAIL,0,NO,0,NO,0,2021-05-31 15:00:10 -0400,Convert gradle-mvn-mpp-push.gradle to KTS (#944),46,5573
+1190,a9d47dc,FAIL,0,NO,0,NO,0,2021-06-01 20:30:52 -0400,Prepare for release 3.0.0-alpha.6.,46,5573
+1191,186760b,FAIL,0,NO,0,NO,0,2021-06-01 20:30:59 -0400,Prepare next development version.,46,5573
+1192,f3ce724,FAIL,0,NO,0,NO,0,2021-06-02 07:09:04 -0400,Fix Javadoc publishing (#949),46,5573
+1193,0c8e9f9,FAIL,0,NO,0,NO,0,2021-06-13 21:00:51 -0400,Change how ResourceFileSystem is exposed (#957),46,5573
+1194,ed6f833,FAIL,0,NO,0,NO,0,2021-06-21 21:41:42 -0400,APIs to seek a FileHandle's source or sink (#959),46,5573

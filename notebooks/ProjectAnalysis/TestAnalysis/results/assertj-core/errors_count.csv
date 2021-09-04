@@ -1,0 +1,18 @@
+error,count
+Unable to create the new file &#x27;/tmp/1622749230338.txt&#x27;: a file was found with the same path,1
+,23
+Unable to create the new file &#x27;/tmp/1622749455520.txt&#x27;: a file was found with the same path,1
+Unable to create the new file &#x27;/tmp/1622749739028.txt&#x27;: a file was found with the same path,1
+Unable to create the new file &#x27;/tmp/1622749923723.txt&#x27;: a file was found with the same path,1
+Unable to create the new file &#x27;/tmp/1622750300861.txt&#x27;: a file was found with the same path,1
+[Ljava.lang.Object; cannot be cast to [Lorg.assertj.core.groups.Tuple;,2
+"
+Can&#x27;t find any field or property with name &#x27;name&#x27;.
+Error when introspecting properties was :
+- Unable to find property &#x27;name&#x27; in org.assertj.core.api.WithAssertions_delegation_Test$TestItem 
+Error when introspecting fields was :
+- Unable to obtain the value of the field &lt;&#x27;name&#x27;&gt; from &lt;org.assertj.core.api.WithAssertions_delegation_Test$TestItem@7f7c420c&gt;, check that field is public.",2
+Unable to find property &#x27;name&#x27; in org.assertj.core.api.WithAssertions_delegation_Test$TestItem,1
+Could not initialize class org.mockito.internal.util.MockUtil,6770
+org/mockito/cglib/proxy/MethodInterceptor,1
+org/mockito/cglib/proxy/Enhancer,1

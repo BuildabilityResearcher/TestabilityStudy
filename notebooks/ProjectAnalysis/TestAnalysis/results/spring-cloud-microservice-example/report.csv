@@ -1,0 +1,32 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,699fec2,FAIL,0,NO,0,NO,0,2015-05-19 19:00:45 -0700,Initial commit,0,0
+1,e3f6290,FAIL,20,NO,0,NO,0,2015-05-19 20:31:46 -0700,Initial commit,14,228
+2,2e39f49,FAIL,22,NO,0,NO,0,2015-05-24 18:04:35 -0700,Microservice cloud examples,24,382
+3,7bdc1b4,FAIL,5,NO,0,NO,0,2015-05-24 18:05:19 -0700,Docker revisions,24,382
+4,140300d,FAIL,5,NO,0,NO,0,2015-05-25 16:49:00 -0700,Fixing configs,24,382
+5,3b7345f,FAIL,6,NO,0,NO,0,2015-05-27 21:21:35 -0700,Docker compose,27,507
+6,45bef67,FAIL,4,NO,0,NO,0,2015-05-29 07:56:05 -0700,Dockerized Spring Cloud Consul,29,585
+7,b1da537,FAIL,4,NO,0,NO,0,2015-06-10 10:43:59 -0700,Update docker-compose.yml,29,585
+8,16ddbd8,FAIL,3,NO,0,NO,0,2015-07-09 21:27:13 -0700,Adding Spring Boot Vaadin UI,43,938
+9,c22b1d7,FAIL,4,NO,0,NO,0,2015-07-09 21:27:36 -0700,Merge remote-tracking branch 'origin/master',43,938
+10,7c4e0c6,FAIL,3,NO,0,NO,0,2015-07-09 21:54:05 -0700,Updating readme,43,938
+11,d20c1c1,FAIL,3,NO,0,NO,0,2015-07-09 22:01:08 -0700,Update docker-compose.yml,43,938
+12,7a34523,FAIL,3,NO,0,NO,0,2015-07-10 00:01:22 -0700,Fixing typo on project name,43,938
+13,c8805df,FAIL,3,NO,0,NO,0,2015-07-12 20:27:42 -0700,Updating parent project reference,43,938
+14,3a63326,FAIL,4,NO,0,NO,0,2015-07-14 16:14:07 +0300,Dependency org.springframework.data:spring-data-neo4j:3.4.0.BUILD_SNAPSHOT is not located in libs-snapshot-local but can be found in  libs-snapshot-continuous-local,43,938
+15,955714b,FAIL,4,NO,0,NO,0,2015-07-14 12:14:52 -0700,Merge pull request #2 from geoand/dependency-issue,43,938
+16,20be611,FAIL,3,NO,0,NO,0,2015-08-04 08:59:03 -0700,Updated README with diagrams,43,938
+17,9a7d42c,FAIL,4,NO,0,NO,0,2015-09-08 20:01:57 -0700,"Issue #10, #9",43,938
+18,32f6555,FAIL,3,NO,0,NO,0,2016-01-06 21:59:42 -0500,#17,43,938
+19,87ec814,FAIL,4,NO,0,NO,0,2016-01-25 08:43:45 -0800,Updated Docker Maven Plugin Version,43,938
+20,16db677,FAIL,5,NO,0,NO,0,2016-01-25 18:54:23 -0800,Merge pull request #20 from kanderson450/master,43,938
+21,3b11a4b,FAIL,3,NO,0,NO,0,2016-03-11 15:25:18 +0800,change source version to 1.8,43,938
+22,0dd9483,FAIL,4,NO,0,NO,0,2016-03-15 15:05:12 +0800,Fix gateway startup issue: Add sidecar port,43,938
+23,a5e9b41,FAIL,3,NO,0,NO,0,2016-03-16 18:22:50 -0400,Merge pull request #22 from anewstar/master,43,938
+24,b89fb26,FAIL,4,NO,0,NO,0,2016-03-16 18:23:13 -0400,Merge pull request #24 from derekhe/master,43,938
+25,761a7c5,FAIL,3,NO,0,NO,0,2016-04-03 23:40:18 +0200,Remove getProp(),43,936
+26,af9ab84,FAIL,4,NO,0,NO,0,2016-04-04 15:34:55 -0700,Merge pull request #28 from oterrien/patch-1,43,936
+27,f5c403f,FAIL,4,NO,0,NO,0,2016-10-19 18:03:14 +0200,Updated docker plugin version to 0.4.13. Fixes #35.,43,936
+28,5e8dfa1,FAIL,3,NO,0,NO,0,2016-11-10 16:58:19 -0500,Merge pull request #39 from mavogel/fix_docker_plugin_version,43,936
+29,1ef7c66,FAIL,4,NO,0,NO,0,2019-03-07 16:45:13 -0800,Update README.md,43,936
+30,212d0fa,FAIL,3,NO,0,NO,0,2019-03-07 17:02:53 -0800,Update LICENSE,43,936

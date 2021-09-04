@@ -1,0 +1,704 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,70eee483,FAIL,0,NO,0,NO,0,2012-06-25 12:29:15 -0700,first commit,0,0
+1,04892c03,SUCCESS,12,SUCCESS,5,SUCCESS,7,2012-06-25 13:14:31 -0700,"First draft of a new, fast dependency JSR-330 injector.",10,487
+2,42be55b7,SUCCESS,5,SUCCESS,6,SUCCESS,6,2012-06-25 13:44:39 -0700,Address pom.xml problems,10,487
+3,7a2cbad9,SUCCESS,6,SUCCESS,6,SUCCESS,6,2012-06-26 09:49:29 -0700,Address code review comments from bob@ and edenman@,11,613
+4,249a8666,SUCCESS,8,SUCCESS,6,SUCCESS,7,2012-06-26 09:51:43 -0700,Rename Linker.getBinding() to Linker.requestBinding().,11,613
+5,b24e44ab,SUCCESS,8,SUCCESS,6,SUCCESS,7,2012-06-26 10:47:18 -0700,More code review comments addressed.,11,614
+6,a11eb4ac,SUCCESS,7,SUCCESS,7,SUCCESS,7,2012-06-26 17:53:50 +0000,Merge pull request #1 from square/firstdraft,11,614
+7,576136ba,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-06-26 00:44:59 -0700,"New, very basic Java code generator.",13,946
+8,7bfacddc,SUCCESS,9,SUCCESS,6,SUCCESS,6,2012-06-26 13:45:20 -0700,Fix tpyo in 'trailing'.,13,946
+9,ee7805fb,SUCCESS,7,SUCCESS,6,SUCCESS,7,2012-06-26 20:45:50 +0000,Merge pull request #2 from square/codegen,13,946
+10,2ecf2ed1,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-06-26 17:05:21 -0700,Add Modules.override().,14,984
+11,4b36a047,SUCCESS,6,SUCCESS,8,SUCCESS,6,2012-06-26 17:08:19 -0700,Suppress Modules' default constructor.,14,985
+12,5482a558,SUCCESS,7,SUCCESS,8,SUCCESS,6,2012-06-26 17:28:27 -0700,Fix some checkstyle issues.,14,984
+13,93bc9710,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-06-27 15:29:03 +0000,Merge pull request #3 from square/jwilson/modulesoverride,14,984
+14,733a7f64,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-06-27 12:09:06 -0700,Use Strings for Keys.,16,1123
+15,f6a84e62,SUCCESS,7,SUCCESS,7,SUCCESS,7,2012-06-27 19:17:36 +0000,Merge pull request #4 from square/jwilson/apt,16,1123
+16,2a5de416,FAIL,6,NO,0,NO,0,2012-06-27 17:32:13 -0700,First draft of the @Provides processor.,20,1459
+17,5ad73c0d,FAIL,7,NO,0,NO,0,2012-06-28 09:56:55 -0700,Fix some string format foolishness.,21,1463
+18,17c357a1,FAIL,6,NO,0,NO,0,2012-06-28 10:04:26 -0700,Fix GeneratorKeys visibility.,21,1467
+19,546c7066,FAIL,7,NO,0,NO,0,2012-06-28 17:50:51 +0000,Merge pull request #5 from square/jwilson/providesprocessor,21,1467
+20,6fd3de37,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-06-28 11:04:42 -0700,First draft of the @Inject processor.,21,1587
+21,a256d00a,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-06-28 20:10:49 +0000,Merge pull request #6 from square/jwilson/injectprocessor,21,1587
+22,0e512fe4,SUCCESS,7,SUCCESS,6,SUCCESS,5,2012-06-28 14:22:07 -0700,Address checkstyle warnings.,21,1577
+23,e2110fb8,SUCCESS,7,SUCCESS,6,SUCCESS,5,2012-06-28 14:26:59 -0700,Centralize naming of fields and parameters.,21,1583
+24,5c3e419a,SUCCESS,6,SUCCESS,6,SUCCESS,6,2012-06-28 21:35:06 +0000,Merge pull request #7 from square/jwilson/checkstyle,21,1583
+25,4890139a,SUCCESS,7,SUCCESS,7,SUCCESS,6,2012-07-02 11:50:40 -0400,New annotation-driven API that uses entry points.,21,1637
+26,3186090a,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-07-02 12:58:14 -0400,Style fixes.,21,1634
+27,8f566573,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-07-02 17:31:18 +0000,Merge pull request #8 from square/jwilson/entrypointinjector,21,1634
+28,dcc81900,SUCCESS,7,SUCCESS,7,SUCCESS,5,2012-07-02 14:38:48 -0400,Fix names of generated classes.,21,1664
+29,34e2a25c,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-07-02 15:51:57 -0400,Support static injection.,23,1735
+30,45c60473,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-07-02 20:02:35 +0000,Merge pull request #10 from square/jwilson/statics,23,1735
+31,d81ef972,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-07-02 20:17:11 +0000,Merge pull request #9 from square/jwilson/codegen0702,23,1765
+32,16e6c5b4,SUCCESS,7,SUCCESS,6,SUCCESS,6,2012-07-03 16:00:09 -0400,Fix bugs that were breaking the injector's first client.,23,1797
+33,d8b9bf76,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-07-03 20:11:54 +0000,Merge pull request #11 from square/jwilson/firstclient,23,1797
+34,63a7e1ce,SUCCESS,10,SUCCESS,9,SUCCESS,6,2012-07-09 18:05:36 -0400,Minimal support for Guice annotations to ease migration and A/B testing.,24,1842
+35,30fdc638,SUCCESS,7,SUCCESS,8,SUCCESS,7,2012-07-09 23:36:04 +0000,Merge pull request #13 from square/jwilson/guicesupport,24,1842
+36,d2d80a5e,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-07-09 11:17:29 -0400,Fix several problems with MembersInjectors.,25,1966
+37,eb0f774e,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-10 00:53:38 +0000,Merge pull request #12 from square/jwilson/membersinjector,25,1966
+38,52a260e8,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-10 12:40:55 -0400,Replace @Injector with @Module.,25,2023
+39,fc1db117,SUCCESS,7,SUCCESS,8,SUCCESS,6,2012-07-10 22:45:22 +0000,Merge pull request #14 from square/jwilson/atmodule,25,2023
+40,3f013f16,SUCCESS,7,SUCCESS,7,SUCCESS,7,2012-07-10 21:16:40 -0400,Detect problems at runtime.,27,2124
+41,58e9880d,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-07-11 15:03:24 +0000,Merge pull request #15 from square/jwilson/problemdetector,27,2124
+42,31ad32fd,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-07-11 20:41:15 -0400,Support lazy object graphs.,28,2210
+43,e9c8e9a1,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-07-12 01:05:45 +0000,Merge pull request #16 from square/jwilson/lazy,28,2210
+44,bffc9213,SUCCESS,7,SUCCESS,7,SUCCESS,6,2012-07-13 14:29:14 -0400,Fix many injector bugs to run Square apps.,28,2316
+45,db20def1,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-07-13 19:46:22 +0000,Merge pull request #17 from square/jwilson/bugs,28,2316
+46,c3b97b66,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-07-13 15:58:32 -0400,Use raw types for supertype bindings.,28,2342
+47,f554e50f,SUCCESS,7,SUCCESS,7,SUCCESS,6,2012-07-13 16:01:50 -0400,Use raw types for supertype bindings.,28,2342
+48,76d41bad,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-13 20:11:10 +0000,Merge pull request #18 from square/jwilson/raw,28,2342
+49,1b095113,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-07-13 17:14:42 -0400,Throw AssertionErrors from unreachable methods.,28,2342
+50,53e11e69,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-07-13 21:37:57 +0000,Merge pull request #19 from square/jwilson/unreachable,28,2342
+51,4d6f44d8,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-07-16 15:06:02 -0400,Better failures on duplicate bindings.,28,2344
+52,f147c74c,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-16 19:09:36 +0000,Merge pull request #20 from square/jwilson/doubleinstall,28,2344
+53,70955010,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-16 17:43:01 -0400,Address some todos.,28,2423
+54,97a54f2b,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-07-16 21:53:42 +0000,Merge pull request #21 from square/jwilson/todos2,28,2423
+55,48b6329a,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-17 11:58:57 -0400,Stop requiring that all modules have at least one @Provides method.,28,2401
+56,c1c7d6ba,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-07-17 16:36:29 +0000,Merge pull request #22 from square/jwilson/emptymodule,28,2401
+57,b5d5fc19,SUCCESS,9,SUCCESS,7,SUCCESS,6,2012-07-17 19:21:36 -0400,Optimize ObjectGraph.,28,2489
+58,a081fb09,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-07-18 13:31:48 +0000,Merge pull request #23 from square/jwilson/moduleadapter,28,2489
+59,d2858b56,SUCCESS,8,SUCCESS,8,SUCCESS,7,2012-07-31 00:39:36 -0700,Logging cleanup. Add .gitignore,28,2488
+60,19613794,SUCCESS,9,SUCCESS,7,SUCCESS,8,2012-07-31 16:26:42 +0000,Merge pull request #24 from square/jw/logging-cleanup,28,2488
+61,2542f7ef,SUCCESS,9,SUCCESS,8,SUCCESS,8,2012-08-01 14:54:32 -0400,Drop support for Guice annotations.,27,2446
+62,4a889556,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-08-01 19:11:28 +0000,Merge pull request #25 from square/jwilson/noguice,27,2445
+63,3c16de2b,FAIL,0,NO,0,NO,0,2012-08-06 16:45:32 -0400,first commit,0,0
+64,97a20f2b,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-08-06 17:46:28 -0400,Merge branch 'master' of ../injector-backup into jwilson/history,27,2445
+65,cd37edbc,SUCCESS,9,SUCCESS,7,SUCCESS,8,2012-08-06 14:53:09 -0700,Merge pull request #2 from square/jwilson/history,27,2445
+66,bcc571d7,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-08-06 17:59:43 -0400,Repackage ObjectGraph as com.squareup.objectgraph.,27,2445
+67,78609d16,SUCCESS,7,SUCCESS,8,SUCCESS,7,2012-08-06 15:13:35 -0700,Merge pull request #3 from square/jwilson/repackage,27,2445
+68,979df316,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-08-07 10:23:15 -0400,Break ObjectGraph up into modules.,27,2445
+69,87ccc75b,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-08-07 07:35:38 -0700,Merge pull request #4 from square/jwilson/multimodule,27,2445
+70,4136fd15,SUCCESS,9,SUCCESS,9,SUCCESS,7,2012-08-07 14:23:28 -0400,Initial infrastructure to generate modules from AndroidManifest.xml.,29,2684
+71,d1af23df,SUCCESS,9,SUCCESS,7,SUCCESS,9,2012-08-07 11:33:18 -0700,Merge pull request #5 from square/jwilson/androidmanifest,29,2684
+72,7b0c34fe,SUCCESS,9,SUCCESS,9,SUCCESS,8,2012-08-07 17:53:07 -0400,Build time graph construction and validation.,33,2843
+73,37eeac68,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-08-08 09:37:05 -0700,Merge pull request #6 from square/jwilson/wholegraph,33,2843
+74,be6bc216,SUCCESS,9,SUCCESS,8,SUCCESS,8,2012-08-08 17:26:39 -0400,Permit a module to declare child modules.,34,2965
+75,2d40493e,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-08-09 07:18:56 -0700,Merge pull request #7 from square/jwilson/childmodules,34,2965
+76,a2cd8dd5,SUCCESS,8,SUCCESS,9,SUCCESS,7,2012-08-09 14:10:54 -0400,Prefer code gen over annotations for Module.children.,34,3013
+77,f6c861cf,SUCCESS,10,SUCCESS,8,SUCCESS,9,2012-08-09 12:45:58 -0700,Merge pull request #8 from square/jwilson/annotations,34,3013
+78,97db4a6e,SUCCESS,10,SUCCESS,10,SUCCESS,9,2012-08-09 16:10:52 -0400,Fail on duplicate bindings.,34,3029
+79,1f52ee35,SUCCESS,10,SUCCESS,10,SUCCESS,9,2012-08-09 13:17:41 -0700,Merge pull request #9 from square/jwilson/duplicates,34,3029
+80,aadda23f,SUCCESS,11,SUCCESS,10,SUCCESS,10,2012-08-09 19:25:52 -0400,Some docs and an example.,41,3090
+81,38005abf,SUCCESS,11,SUCCESS,8,SUCCESS,8,2012-08-10 12:12:17 -0700,Merge pull request #10 from square/jwilson/docs,41,3090
+82,e092ce73,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-08-10 19:46:31 -0400,Add a main method to generate a module from an AndroidManifest.xml.,41,3121
+83,b79fa7bd,SUCCESS,11,SUCCESS,9,SUCCESS,9,2012-08-10 18:47:43 -0700,Merge pull request #11 from square/jwilson/makemodules,41,3121
+84,f0a81ada,SUCCESS,9,SUCCESS,9,SUCCESS,8,2012-08-13 12:57:40 -0400,Permit fully-qualified package names.,41,3159
+85,d9c261e7,SUCCESS,10,SUCCESS,9,SUCCESS,9,2012-08-13 10:10:56 -0700,Merge pull request #12 from square/jwilson/fqp,41,3159
+86,15df5e35,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-08-13 14:50:36 -0400,Add an option to exclude an activity or service as an entry point.,41,3178
+87,61734b72,SUCCESS,9,SUCCESS,10,SUCCESS,7,2012-08-13 11:53:59 -0700,Merge pull request #13 from square/jwilson/exclude,41,3178
+88,8dfe1952,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-08-20 16:00:43 -0700,Make 'complete=true' the default for modules.,41,3181
+89,59a2a18d,SUCCESS,11,SUCCESS,8,SUCCESS,8,2012-08-20 17:22:19 -0700,Merge pull request #14 from square/jwilson/complete-by-default,41,3181
+90,10196cf6,SUCCESS,9,SUCCESS,9,SUCCESS,8,2012-08-21 09:08:41 -0700,"Revert ""Make 'complete=true' the default for modules.""",41,3178
+91,b4a8f5f8,SUCCESS,10,SUCCESS,8,SUCCESS,8,2012-08-21 09:17:50 -0700,Merge pull request #15 from square/ray/revert-complete-true,41,3178
+92,a2961691,SUCCESS,11,SUCCESS,9,SUCCESS,9,2012-08-28 08:26:39 -0700,Missing 'continue' statement.,41,3179
+93,9964aed0,SUCCESS,11,SUCCESS,9,SUCCESS,8,2012-08-28 08:33:30 -0700,Merge pull request #16 from square/jw/continue,41,3179
+94,69c9daf5,SUCCESS,10,SUCCESS,8,SUCCESS,8,2012-08-28 14:51:16 -0400,"Add a Lazy<T> with a delegate binding, so consumers can @Inject a Lazy<T> if T is bound. Tighten up key mangling code",44,3304
+95,8189e752,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-08-29 14:11:24 -0700,Merge pull request #17 from cgruber/lazy,44,3304
+96,100c67e9,SUCCESS,10,SUCCESS,8,SUCCESS,9,2012-08-29 16:36:02 -0400,Retry making 'complete=true' the default for modules.,41,3183
+97,4fe68cb8,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-08-29 21:15:12 -0700,Merge pull request #18 from square/jwilson/unrevert,44,3309
+98,79f146f8,SUCCESS,11,SUCCESS,9,SUCCESS,9,2012-08-31 11:28:13 -0400,Add an example of injecting Lazy<T> into the CoffeeMaker app.,44,3310
+99,d178d44a,SUCCESS,10,SUCCESS,10,SUCCESS,9,2012-08-31 08:42:37 -0700,Merge pull request #19 from cgruber/addlazyexample,44,3310
+100,9f9d710d,SUCCESS,11,SUCCESS,9,SUCCESS,10,2012-09-05 14:29:47 -0400,Don't spam the logs when a generated class is not found.,44,3307
+101,67e8ec69,SUCCESS,12,SUCCESS,9,SUCCESS,9,2012-09-05 11:30:54 -0700,Merge pull request #20 from square/jwilson/spam,44,3308
+102,acb40989,SUCCESS,11,SUCCESS,10,SUCCESS,9,2012-09-05 18:35:56 -0700,Remove unused import.,44,3307
+103,cf34602a,SUCCESS,11,SUCCESS,8,SUCCESS,9,2012-09-08 01:17:01 -0400,Add some documentation for Lazy<T> and fix Provider<T> docs to make them less preferred.,44,3307
+104,2afb23d8,SUCCESS,10,SUCCESS,10,SUCCESS,8,2012-09-08 23:13:40 -0400,Update the Providers doc section to address review comments.,44,3307
+105,79cf50d4,SUCCESS,11,SUCCESS,8,SUCCESS,9,2012-09-08 23:20:58 -0400,Make Provider<T> documentation even more terse.,44,3307
+106,a11e1cca,SUCCESS,11,SUCCESS,9,SUCCESS,8,2012-09-09 02:11:39 -0400,"Rename Module's property children to includes, and generally rename all internals to reflect this, leaving children in place but deprecated pending conversion of all callers.",46,3367
+107,2517ee7b,SUCCESS,11,SUCCESS,10,SUCCESS,8,2012-09-16 18:12:08 -0700,Merge pull request #23 from cgruber/renamemodulechildren,46,3367
+108,27ce1481,SUCCESS,9,SUCCESS,8,SUCCESS,8,2012-09-17 17:27:34 -0400,Rename ObjectGraph to Dagger.,46,3364
+109,e0d2fb3a,SUCCESS,9,SUCCESS,8,SUCCESS,8,2012-09-17 14:53:48 -0700,Merge pull request #25 from u2020/jwilson/rename,46,3364
+110,85edf3d7,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-09-17 15:40:54 -0700,Add a CONTRIBUTING file.,46,3364
+111,49040ad0,SUCCESS,8,SUCCESS,9,SUCCESS,7,2012-09-17 15:44:16 -0700,Merge pull request #26 from square/jw/contributing,46,3364
+112,4ed556b2,SUCCESS,9,SUCCESS,9,SUCCESS,8,2012-09-17 16:09:38 -0700,Merge branch 'master' into documentlazy,46,3364
+113,0656b1a9,SUCCESS,10,SUCCESS,8,SUCCESS,8,2012-09-17 16:41:58 -0700,"Add support for multi-bindings, such that any method annotated with Provide AND Element contribute that binding to a set-binding, which builds an injectable set at injection time.",49,3566
+114,f04b88cb,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-09-20 16:39:45 -0700,Merge pull request #27 from cgruber/multibindings,49,3566
+115,92172047,SUCCESS,11,SUCCESS,7,SUCCESS,9,2012-09-20 23:29:36 -0700,Merge branch 'master' into documentlazy,49,3566
+116,83347490,SUCCESS,10,SUCCESS,9,SUCCESS,10,2012-09-25 17:37:17 -0400,Be consistent about the project's location.,49,3566
+117,ef57a411,SUCCESS,11,SUCCESS,11,SUCCESS,9,2012-09-25 14:38:25 -0700,Merge pull request #28 from square/jwilson/squareup,49,3566
+118,e77bb8d8,SUCCESS,12,SUCCESS,10,SUCCESS,10,2012-09-26 05:07:53 -0700,Merge pull request #21 from cgruber/documentlazy,49,3566
+119,57a14fa7,SUCCESS,11,SUCCESS,10,SUCCESS,9,2012-09-26 18:19:48 -0400,Use http for the namespace instead of https.,49,3566
+120,67b750ce,SUCCESS,10,SUCCESS,11,SUCCESS,8,2012-09-26 15:20:42 -0700,Merge pull request #29 from square/jwilson/http,49,3566
+121,869fd9ee,SUCCESS,12,SUCCESS,8,SUCCESS,8,2012-09-26 21:16:42 -0400,Use reflection names for annotation inner classes: '$' instead of '.'.,49,3565
+122,625a8e68,SUCCESS,10,SUCCESS,10,SUCCESS,8,2012-09-26 18:18:41 -0700,Merge pull request #30 from square/jwilson/dollars,49,3565
+123,2d207ae5,SUCCESS,14,SUCCESS,8,SUCCESS,9,2012-09-27 23:58:08 -0700,Add parent pom for deployment to central.,49,3565
+124,ddd945cf,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-10-01 15:47:44 +0200,Add support for multi-bindings in code generation.,49,3580
+125,3bec22fc,SUCCESS,10,SUCCESS,9,SUCCESS,7,2012-10-01 07:57:53 -0700,Merge pull request #34 from tbroyer/multibindings-codegen,49,3580
+126,3d0fec00,SUCCESS,11,SUCCESS,10,SUCCESS,8,2012-10-01 17:09:37 +0200,Fix FullGraphProcessor wrt multi-bindings.,49,3583
+127,75bc309d,SUCCESS,11,SUCCESS,10,SUCCESS,7,2012-10-01 15:28:08 -0700,Merge pull request #35 from tbroyer/multibindings-codegen,49,3583
+128,07ba1c91,SUCCESS,11,SUCCESS,10,SUCCESS,8,2012-10-01 15:59:53 -0700,Abstract Android-specific manifest generation to simple static API.,49,3586
+129,6d19aa4c,SUCCESS,12,SUCCESS,9,SUCCESS,9,2012-10-01 17:30:05 -0700,Merge pull request #36 from square/jw/api-abstraction,49,3586
+130,9dea2609,SUCCESS,11,SUCCESS,10,SUCCESS,8,2012-10-01 17:59:36 -0700,Javadoc cleanup.,49,3586
+131,1c7f3291,SUCCESS,14,SUCCESS,9,SUCCESS,9,2012-10-01 19:22:59 -0700,Make the Android manifest module a proper maven plugin.,50,3610
+132,131ef2d8,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-10-01 21:28:56 -0700,Merge pull request #38 from square/jw/maven-plugin,50,3610
+133,50f31349,SUCCESS,11,SUCCESS,9,SUCCESS,8,2012-10-02 15:22:35 -0400,Drop 'children' alias for 'includes'.,49,3566
+134,5c156099,SUCCESS,10,SUCCESS,9,SUCCESS,8,2012-10-02 12:24:01 -0700,Merge pull request #39 from square/jwilson/killchildren,49,3566
+135,4670896e,SUCCESS,11,SUCCESS,10,SUCCESS,9,2012-10-03 09:20:22 -0500,Rename Element to OneOf,49,3568
+136,3945d2d1,SUCCESS,11,SUCCESS,10,SUCCESS,10,2012-10-03 07:43:39 -0700,Merge pull request #41 from square/pforhan/rename-element,49,3568
+137,bb40ad9d,SUCCESS,11,SUCCESS,10,SUCCESS,9,2012-10-03 17:46:45 +0200,Do not generate an $InjectAdapter for classes with only static injections,49,3584
+138,ec170194,SUCCESS,12,SUCCESS,10,SUCCESS,9,2012-10-03 18:16:10 +0200,Code generation for static injection.,49,3646
+139,979c9d34,SUCCESS,11,SUCCESS,10,SUCCESS,9,2012-10-03 12:47:46 -0700,Merge pull request #37 from tbroyer/staticinjection-codegen,49,3631
+140,f51139c9,SUCCESS,10,SUCCESS,10,SUCCESS,9,2012-10-04 14:19:36 -0700,Add Travis configuration.,49,3631
+141,7a66a123,SUCCESS,11,SUCCESS,20,SUCCESS,12,2012-10-07 18:04:44 +0200,Updating dagger-androidmanifest-plugin Maven packaging from jar to maven-plugin,49,3631
+142,284d566a,SUCCESS,10,SUCCESS,10,SUCCESS,8,2012-10-07 18:13:44 +0200,Fixing maven typo in Readme,49,3631
+143,d1a44b7d,SUCCESS,12,SUCCESS,10,SUCCESS,13,2012-10-07 09:21:47 -0700,Merge pull request #42 from pyricau/Manifest_Plugin_packaging,49,3631
+144,127f8f33,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-10-07 09:22:06 -0700,Merge pull request #43 from pyricau/readme_typo,49,3631
+145,fb2c9d36,SUCCESS,11,SUCCESS,12,SUCCESS,10,2012-10-07 22:57:16 +0200,Uppercase for the first letter of the generated module binding inner classes. See #46.,49,3636
+146,e9a7f7a1,SUCCESS,11,SUCCESS,10,SUCCESS,11,2012-10-07 16:40:11 -0700,Merge pull request #47 from pyricau/46_ModuleAdapter_inner_static_uppercase,49,3636
+147,18cdf208,SUCCESS,10,SUCCESS,11,SUCCESS,11,2012-10-09 10:22:32 -0400,Make ObjectGraph.get() lazy and remove getLazy().,49,3636
+148,70fd6c08,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-10-09 07:34:12 -0700,Merge pull request #48 from square/jwilson/getlazy,49,3636
+149,8591e258,SUCCESS,10,SUCCESS,11,SUCCESS,12,2012-10-09 11:36:43 -0400,Use a bitfield for Binding.linked and Binding.singleton.,49,3644
+150,2ec1318d,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-10-09 08:41:45 -0700,Merge pull request #49 from square/jwilson/bits,49,3644
+151,c6805cd5,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-10-09 14:43:40 -0400,Use a real cycle detection algorithm in Dagger.,49,3660
+152,5d786a57,FAIL,11,NO,0,NO,0,2012-10-09 15:02:53 -0400,Print better errors when annotation types mismatch.,49,3652
+153,d933f99e,FAIL,11,NO,0,NO,0,2012-10-09 12:04:25 -0700,Merge pull request #51 from square/jwilson/types,49,3652
+154,6e0a6343,FAIL,12,NO,0,NO,0,2012-10-09 12:05:29 -0700,Merge pull request #50 from square/jwilson/science,49,3668
+155,5c041eae,FAIL,10,NO,0,NO,0,2012-10-09 15:09:16 -0400,Make Lazy work with ObjectGraph.validate().,49,3680
+156,9cd4b571,FAIL,11,NO,0,NO,0,2012-10-09 12:13:20 -0700,Merge pull request #52 from square/jwilson/lazyproblems,49,3680
+157,5d8a2560,SUCCESS,11,SUCCESS,13,SUCCESS,13,2012-10-09 15:22:47 -0400,"Revert ""Print better errors when annotation types mismatch.""",49,3672
+158,57d98a93,SUCCESS,10,SUCCESS,12,SUCCESS,12,2012-10-09 15:43:15 -0400,New failure messages when annotation types mismatch.,49,3690
+159,e7d79d02,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-10-09 13:09:28 -0700,Merge pull request #53 from square/jwilson/newfailuremessage,49,3690
+160,4e33f847,SUCCESS,10,SUCCESS,12,SUCCESS,11,2012-10-09 18:06:15 -0400,Implement ObjectGraph.getInstance().,49,3727
+161,fafc8984,SUCCESS,11,SUCCESS,10,SUCCESS,12,2012-10-09 23:19:28 -0700,New GraphViz output.,53,3995
+162,9a99cd0b,SUCCESS,11,SUCCESS,11,SUCCESS,12,2012-10-11 11:23:48 -0700,Merge pull request #54 from square/jwilson/getinstance,49,3745
+163,e27a178b,SUCCESS,12,SUCCESS,12,SUCCESS,13,2012-10-11 13:27:31 -0700,Don't require entry point classes to have @Inject annotations.,49,3751
+164,72228473,SUCCESS,11,SUCCESS,11,SUCCESS,12,2012-10-11 13:43:06 -0700,Merge pull request #57 from square/jwilson/requireinjections,49,3769
+165,f18e5eed,SUCCESS,11,SUCCESS,12,SUCCESS,11,2012-10-15 02:31:05 -0400,"Clean up the travis config to do a proper deps install, execute a full phase build cycle (up to verify rather than merely test) and ensure that the invoker plugin (which will come later) doesn't execute during dependency installation.",49,3769
+166,21f97a46,SUCCESS,11,SUCCESS,12,SUCCESS,11,2012-10-15 08:55:39 -0700,Merge pull request #59 from cgruber/updatetravisbuild,49,3769
+167,b538d032,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-10-15 11:42:21 -0700,Merge pull request #55 from square/jwilson/graphviz,53,4074
+168,45eb7b8c,SUCCESS,10,SUCCESS,12,SUCCESS,12,2012-10-15 23:06:39 -0400,"Make dot-writer avoid getDependencies() on UNRESOLVED bindings, since not ever wiring fed to the dot-writer will be a valid graph spec.  Also, add a toString() on binding so it shows up in debugging, and ensure that a failed binding write (to a dot file) has a wrapped exception that is clearer.",53,4080
+169,d191d44c,SUCCESS,12,SUCCESS,12,SUCCESS,14,2012-10-15 20:44:54 -0700,Merge pull request #61 from cgruber/hardendotwriter,53,4080
+170,0a3b7f04,SUCCESS,14,SUCCESS,13,SUCCESS,13,2012-10-15 13:28:13 -0400,Add invoker-based integration tests of the build (including code-generation) to allow for expected failing builds to be tested and verified.,56,4142
+171,efdf1728,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-10-16 15:16:31 -0400,Various warnings cleanups.,53,4079
+172,4f758a92,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-10-16 20:40:00 -0700,Merge pull request #62 from cgruber/cleaup,53,4079
+173,043e79be,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-10-16 20:40:21 -0700,Merge pull request #60 from cgruber/integrationtests,56,4141
+174,781f3c15,SUCCESS,11,SUCCESS,13,SUCCESS,13,2012-10-16 20:45:59 -0700,Change all poms to two-space indentation to match code.,56,4141
+175,ea8ac762,SUCCESS,11,SUCCESS,12,SUCCESS,11,2012-10-16 21:03:58 -0700,Merge pull request #63 from square/jw/two-step,56,4141
+176,731ae866,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-10-17 00:12:22 -0400,Add checkstyle errors to console.,56,4141
+177,7e3204e0,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-10-16 21:29:46 -0700,Merge pull request #64 from cgruber/enableconsoleerrors,56,4141
+178,6a4e1a1c,SUCCESS,11,SUCCESS,10,SUCCESS,12,2012-10-17 00:25:47 -0400,"Make UNRESOLVED be effectively a null object, and use it polymorphically.",56,4138
+179,9c7e1af4,SUCCESS,10,SUCCESS,10,SUCCESS,12,2012-10-19 07:21:12 -0700,Merge pull request #66 from cgruber/polymorphism,56,4138
+180,f0de3941,SUCCESS,13,SUCCESS,12,SUCCESS,14,2012-10-17 13:05:41 -0400,"Migrate code-gen processors to their own project, and separate reflection code.",62,4225
+181,cfefb680,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-10-22 11:15:12 -0700,Merge pull request #67 from cgruber/splitbuild,62,4225
+182,0fde2569,SUCCESS,12,SUCCESS,13,SUCCESS,13,2012-10-22 13:59:49 -0400,ObjectGraph.get() -> ObjectGraph.create(),62,4225
+183,0c423be4,SUCCESS,13,SUCCESS,13,SUCCESS,14,2012-10-22 14:46:51 -0400,getInstance() -> get(),62,4225
+184,bbcf3c7f,SUCCESS,13,SUCCESS,13,SUCCESS,13,2012-10-22 12:34:27 -0700,Merge pull request #70 from cgruber/renames,62,4225
+185,c4b7fbe4,SUCCESS,13,SUCCESS,12,SUCCESS,15,2012-10-23 16:12:05 -0300,Minor grammatical and markup fixes,62,4225
+186,d0034d03,SUCCESS,14,SUCCESS,13,SUCCESS,13,2012-10-23 17:47:09 -0300,Make it more clear who is lazy,62,4225
+187,c21a5760,SUCCESS,13,SUCCESS,13,SUCCESS,13,2012-10-23 19:03:30 -0300,Grammar fix,62,4225
+188,8a0620f7,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-10-23 19:17:27 -0300,Fix a fix for a fix,62,4225
+189,570ff1e2,SUCCESS,11,SUCCESS,13,SUCCESS,14,2012-10-23 15:17:58 -0700,Merge pull request #73 from brettcannon/master,62,4225
+190,5ded880f,SUCCESS,12,SUCCESS,13,SUCCESS,15,2012-10-24 15:49:50 -0400,Extension graphs.  Allow a graph to be extended such that extension graph instances will delegate up the chain if they can't satisfy dependencies.  This can be used to implement a 'scope' concept by creating a new extension graph with modules for those appropriately scoped objects being created and collected at the start and end of each scope.,64,4346
+191,efdad40e,SUCCESS,13,SUCCESS,13,SUCCESS,15,2012-10-28 17:55:57 -0700,Merge pull request #72 from cgruber/extensiongraphs,64,4346
+192,daa0f2f7,SUCCESS,13,SUCCESS,13,SUCCESS,14,2012-10-29 11:01:06 -0400,Handle modules with no constructor when passed in as a class and add a test case to ensure that modules included by modules can be instantiated if they're not passed in as instances.,64,4362
+193,1141ed83,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-10-29 09:50:16 -0700,Merge pull request #75 from cgruber/fixnoconstructormodules,64,4362
+194,acd98c5b,SUCCESS,12,SUCCESS,12,SUCCESS,13,2012-10-30 23:19:23 -0600,"Documentation, style and small renaming changes.",64,4382
+195,cf97685c,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-10-31 09:00:28 -0700,Merge pull request #76 from square/jwilson/documentation,64,4382
+196,b08fd491,SUCCESS,12,SUCCESS,18,SUCCESS,11,2012-11-05 10:09:42 -0800,Add goal prefix to Maven plugin for short invocation.,64,4382
+197,a10fe43a,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-11-05 11:22:43 -0800,Merge pull request #80 from square/jw/short-name,64,4382
+198,3fee3fe8,SUCCESS,14,SUCCESS,13,SUCCESS,15,2012-11-06 14:49:57 -0800,Generating unique ClassBinding name per method signature,63,4264
+199,9ff99d56,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-11-06 14:53:17 -0800,Merge pull request #81 from square/kiran/same-providers-unique-name,65,4421
+200,f80e9296,SUCCESS,14,SUCCESS,12,FAIL,9,2012-11-06 15:57:12 -0800,Synchronizing calls to linker.requestBinding so linking happens in an atomic operation,65,4430
+201,4b49b646,SUCCESS,13,SUCCESS,13,FAIL,9,2012-11-06 16:45:03 -0800,Merge pull request #82 from square/kiran/concurrent-linking,65,4430
+202,7bfda9c6,SUCCESS,14,SUCCESS,12,SUCCESS,12,2012-11-06 17:48:05 -0800,Unbreak Graph.plus. We broke it when we added synchronization.,65,4431
+203,6f0d7828,SUCCESS,13,SUCCESS,10,SUCCESS,12,2012-11-06 17:53:12 -0800,Merge pull request #83 from square/jwilson/unbreak-extend,65,4431
+204,8f0d15c7,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-11-06 18:24:27 -0800,Be more careful about mustBeInjectable.,65,4445
+205,9fb5411a,SUCCESS,12,SUCCESS,10,SUCCESS,11,2012-11-06 18:32:00 -0800,Merge pull request #84 from square/jwilson/must-be-injectable,65,4445
+206,1055f451,SUCCESS,12,SUCCESS,9,SUCCESS,11,2012-11-06 19:07:19 -0800,Don't require entry points to have injectable constructors.,65,4446
+207,017ffd50,SUCCESS,11,SUCCESS,12,SUCCESS,11,2012-11-06 19:27:54 -0800,Merge pull request #85 from square/jwilson/entrypointconstructors,65,4446
+208,4b4e2d8b,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-11-06 19:34:25 -0800,Test for exercising an entry point that cannot be created.,65,4462
+209,a733b339,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-11-06 19:39:00 -0800,Merge pull request #86 from square/jwilson/entrypointconstructors,65,4462
+210,e8586ef9,SUCCESS,13,SUCCESS,10,SUCCESS,12,2012-11-07 11:30:43 -0800,Add website.,65,4431
+211,c27bb303,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-11-07 12:50:53 -0800,Merge pull request #87 from square/jw/website,65,4462
+212,f351d67a,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-11-07 13:00:06 -0800,Correct website deployment script errors.,65,4462
+213,3d46feb0,SUCCESS,14,SUCCESS,11,SUCCESS,12,2012-11-07 13:01:00 -0800,Do not attempt to build gh-pages branch.,65,4462
+214,a47f5bbb,SUCCESS,14,SUCCESS,11,SUCCESS,13,2012-11-07 13:47:08 -0800,Switch site to HTML.,65,4462
+215,7f98b593,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-11-07 13:50:17 -0800,Correct commit message for website deploy.,65,4462
+216,7925f5c1,SUCCESS,13,SUCCESS,10,SUCCESS,12,2012-11-07 13:51:19 -0800,Use relative paths to static directory.,65,4462
+217,d064af46,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-11-07 16:05:27 -0800,Switch multi-value @Provides to use Type enum.,64,4474
+218,9a9efd3c,SUCCESS,12,SUCCESS,10,SUCCESS,12,2012-11-07 16:18:46 -0800,Merge pull request #89 from square/jw/provides-type,64,4474
+219,df8b13bf,SUCCESS,13,SUCCESS,12,SUCCESS,11,2012-11-07 17:44:05 -0800,Make inject(foo) return foo.,65,4457
+220,5af54741,SUCCESS,14,SUCCESS,12,SUCCESS,13,2012-11-07 17:46:01 -0800,Merge pull request #90 from square/jw/fluent,64,4469
+221,1af5692e,SUCCESS,13,SUCCESS,10,SUCCESS,11,2012-11-07 18:08:05 -0800,Support relative class name declarations.,64,4488
+222,8968e263,SUCCESS,11,SUCCESS,9,SUCCESS,11,2012-11-07 18:25:25 -0800,Change android manifest plugin default to ManifestModule.,64,4469
+223,1bc615c1,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-11-07 18:32:29 -0800,Merge pull request #92 from square/jw/android-plugin-docs,64,4469
+224,8273c4dd,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-11-07 18:42:52 -0800,Merge pull request #91 from square/jw/manifest-parsing,64,4488
+225,27b146f9,SUCCESS,11,SUCCESS,10,SUCCESS,12,2012-11-07 21:40:34 -0800,Pom tweaks.,64,4488
+226,b439b2ff,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-11-07 21:47:06 -0800,We are actually enforcing 100-character lines.,64,4490
+227,ecfce610,SUCCESS,17,SUCCESS,12,SUCCESS,13,2012-11-07 19:05:24 -0800,Allow manifest module generator invocation as Ant task.,66,4547
+228,1f510c6b,SUCCESS,14,SUCCESS,12,SUCCESS,13,2012-11-07 23:28:12 -0800,Merge pull request #93 from square/jw/ant,66,4547
+229,2555d9fd,SUCCESS,13,SUCCESS,13,SUCCESS,14,2012-11-07 23:34:58 -0800,Auto-version submodules during release.,66,4547
+230,796b091b,SUCCESS,15,SUCCESS,12,SUCCESS,13,2012-11-08 00:07:15 -0800,Website 'Using Dagger' section.,66,4547
+231,34539aa8,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-11-08 00:26:28 -0800,Merge pull request #94 from square/jwilson/website_sentence,66,4547
+232,8bd8015c,SUCCESS,13,SUCCESS,11,SUCCESS,12,2012-11-08 00:39:09 -0800,Need at least one public API for javadoc to run during release.,66,4547
+233,d80a3edd,SUCCESS,12,SUCCESS,10,SUCCESS,12,2012-11-08 00:40:50 -0800,[maven-release-plugin] prepare release 0.9,66,4547
+234,c1926464,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-11-08 00:41:00 -0800,[maven-release-plugin] prepare for next development iteration,66,4547
+235,7a1bf120,SUCCESS,13,SUCCESS,10,SUCCESS,13,2012-11-09 16:08:53 +0300,Fix code block in the readme file.,66,4547
+236,24366ad9,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-11-09 09:05:18 -0800,Merge pull request #98 from ming13/fix-readme,66,4547
+237,ace9e197,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-11-09 11:15:54 -0800,Never say 'null required by' in an error message.,66,4554
+238,aa41df19,SUCCESS,13,SUCCESS,11,SUCCESS,12,2012-11-09 12:18:17 -0800,Don't wrap runtime exceptions thrown by user code.,66,4576
+239,ec78a3f3,SUCCESS,14,SUCCESS,11,SUCCESS,12,2012-11-09 12:28:04 -0800,Merge pull request #99 from square/jwilson/null_required_by,66,4554
+240,b736b24f,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-11-09 12:47:04 -0800,Merge pull request #100 from square/jwilson/provides_failures,66,4583
+241,52478ae9,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-11-11 13:39:01 -0800,Fix a bug where we were requiring injectable supertypes in dagger-compiler.,67,4595
+242,79283c57,SUCCESS,14,SUCCESS,12,SUCCESS,14,2012-11-11 14:26:36 -0800,Merge pull request #102 from square/jwilson/supertype,67,4595
+243,ab015b20,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-11-11 22:51:23 -0500,"Provide special casing for no-package types in the generation of adapters.  Also, add an integration test to prove this case works.",67,4605
+244,d8de3a78,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-11-11 20:32:21 -0800,Merge pull request #103 from cgruber/fixnopackage,68,4617
+245,e5c079cb,SUCCESS,13,SUCCESS,12,SUCCESS,14,2012-11-12 00:17:54 -0800,Fix validation for set bindings.,67,4607
+246,41236081,SUCCESS,12,SUCCESS,11,SUCCESS,14,2012-11-12 03:37:33 -0800,Remove explicit Ant invocation test.,67,4587
+247,91af9964,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-11-12 05:40:28 -0800,Merge pull request #104 from square/jwilson/supertype,68,4629
+248,a17c8e1c,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-11-12 08:19:02 -0800,Merge pull request #105 from square/jw/volatile,67,4599
+249,d29ec5be,SUCCESS,12,SUCCESS,10,SUCCESS,11,2012-11-12 08:38:26 -0800,[maven-release-plugin] prepare release dagger-parent-0.9.1,67,4599
+250,0662a656,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-11-12 08:38:30 -0800,[maven-release-plugin] prepare for next development iteration,67,4599
+251,cdc51e03,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-11-18 07:58:26 +0100,Enable and add more checkstyle rules.,67,4599
+252,1faddd74,SUCCESS,13,SUCCESS,10,SUCCESS,11,2012-11-18 05:36:02 -0800,Merge pull request #115 from square/jw/moar-checkstyle,67,4599
+253,f814cde1,SUCCESS,13,SUCCESS,10,SUCCESS,13,2012-11-16 21:01:47 -0800,Make compiler work with other code generators,67,4654
+254,c2aaa397,SUCCESS,12,SUCCESS,12,SUCCESS,11,2012-11-18 13:52:22 -0800,Removing final noise,67,4650
+255,a9b9eb04,SUCCESS,14,SUCCESS,12,SUCCESS,13,2012-11-25 11:53:40 -0800,Code review comments and refactored type persistance across passes in InjectorProcessor and ProvidesProcessor,67,4640
+256,3e21228f,SUCCESS,13,SUCCESS,14,SUCCESS,15,2012-11-27 10:36:07 -0800,Merge pull request #117 from patrickbaumann/codegen-multipass,67,4640
+257,cafbb09c,SUCCESS,14,SUCCESS,13,SUCCESS,13,2012-11-28 13:34:49 -0800,get is non-static,67,4640
+258,da0675fe,SUCCESS,15,SUCCESS,13,SUCCESS,12,2012-11-28 13:38:34 -0800,Merge pull request #120 from imminent/patch-1,67,4640
+259,da57bb75,SUCCESS,13,SUCCESS,13,SUCCESS,11,2012-12-04 14:48:03 -0800,Update website to refer to 'includes' rather than 'children'.,67,4640
+260,df9814ae,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-12-04 14:49:13 -0800,Merge pull request #122 from square/jw/docs-update,67,4640
+261,93be3618,SUCCESS,12,SUCCESS,10,SUCCESS,12,2013-01-07 11:36:20 -0500,Fix dot-writer from breaking when there are missing bindings.  Display the erroneous binding as unbound instead.,67,4642
+262,34302813,SUCCESS,13,SUCCESS,11,SUCCESS,13,2013-01-07 08:57:25 -0800,Merge pull request #134 from cgruber/fixdotwriternpe,67,4642
+263,49dc8c3c,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-01-07 11:07:09 -0500,Fix Inject processor to treat private and protected no-arg constructors like a missing no-arg constructor.,67,4646
+264,3cb8d382,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-01-07 11:56:54 -0800,Merge pull request #135 from cgruber/fixprivateconstructoronentrypoint,67,4646
+265,09f2c97a,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-01-07 16:35:26 -0500,"Fix all examples and the README doc to use an optional dep on the artifact instead of a plugin dep on the compiler, which doesn't produce the right results.",67,4646
+266,d73b1203,SUCCESS,11,SUCCESS,12,SUCCESS,10,2013-01-07 15:30:22 -0800,Merge pull request #136 from cgruber/fixdeps,67,4646
+267,5dd3f5f6,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-01-08 00:03:50 -0500,Loosen constraints so only private constructors are un-injectable.,67,4645
+268,dc269aed,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-01-07 21:18:38 -0800,Merge pull request #137 from cgruber/fixprotectedinjectconstructor,67,4645
+269,e27690bc,SUCCESS,12,SUCCESS,12,SUCCESS,11,2013-01-08 19:57:19 -0500,"Add test to detect missing provides methods from a bug in the processor, and fix the bug.",68,4660
+270,f66db330,SUCCESS,13,SUCCESS,12,SUCCESS,11,2013-01-08 20:09:12 -0500,Bump and add copyright notices.,68,4660
+271,30b16015,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-01-08 17:18:02 -0800,Merge pull request #138 from cgruber/fixmissingprovidesadapters,68,4660
+272,16b6d62f,SUCCESS,11,SUCCESS,12,SUCCESS,14,2013-01-14 12:16:43 -0500,Add warnings to the maven build. Also add warnings display to the root project so we see our own warnings.,68,4660
+273,4a6ebe31,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-01-14 14:53:08 -0800,Merge pull request #140 from cgruber/addwarnings,68,4660
+274,aa2ae012,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-01-03 10:06:39 -0500,"A re-work of the code-generation system to made generated code that is cleaner, more readble, more documented, with methods clustered together to line up infrastructure methods and methods that might reasonably be stepped-through in a debugger.  Along with this includes quite a few changes, including making generation of methods/fields conditional upon their being used, field names only being disambiguated when actually necessary, etc. Some other issues including bulk organization of imports an infrastructure for emitting javadocs, adding some integration tests to verify some things changed here, etc.",69,4875
+275,d5983059,SUCCESS,12,SUCCESS,13,SUCCESS,12,2013-01-15 08:07:17 -0800,Merge pull request #133 from cgruber/bettercodegen,69,4875
+276,1c7b9ad0,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-01-16 12:16:11 -0500,Add factory path to ignores.,69,4875
+277,3d5a7da5,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-01-16 10:27:42 -0800,Merge pull request #143 from cgruber/ignoremorestuff,69,4875
+278,dc3aa31e,SUCCESS,11,SUCCESS,12,SUCCESS,12,2013-01-15 01:37:09 -0500,"Add a SuppressWarnings annotation to suppress unchecked casts, plus a test.",69,4888
+279,3f834104,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-01-16 14:53:46 -0800,Merge pull request #141 from cgruber/fixWarnings,69,4888
+280,7f953bca,SUCCESS,12,SUCCESS,11,SUCCESS,10,2013-01-17 16:48:15 -0500,Fix a crash in the dagger-compiler on parameterized injected types.,70,4905
+281,b6d2953b,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-01-17 14:24:56 -0800,Merge pull request #144 from square/jwilson/parameterized_injectee,70,4905
+282,08397cf9,SUCCESS,12,SUCCESS,11,SUCCESS,10,2013-01-17 17:58:48 -0500,Fix regression by making Binding default behaviour to do nothing on getDependencies(),70,4900
+283,0c4f3ef7,SUCCESS,11,SUCCESS,9,SUCCESS,12,2013-01-17 15:11:16 -0800,Merge pull request #145 from cgruber/fixgetdependencies,70,4900
+284,40fcf751,SUCCESS,11,SUCCESS,12,SUCCESS,14,2013-01-17 19:08:02 -0500,Switch default of injectMembers() to no-op and fix subclasses.,70,4915
+285,dfbf993b,SUCCESS,15,SUCCESS,13,SUCCESS,12,2013-01-17 19:29:24 -0500,more conversions to AssertionError and move a comment into an exception message.,70,4917
+286,8b3a720a,SUCCESS,12,SUCCESS,13,SUCCESS,14,2013-01-17 16:36:19 -0800,Merge pull request #146 from cgruber/fixinjectmembers,70,4917
+287,0711a448,SUCCESS,13,SUCCESS,12,SUCCESS,12,2013-02-01 16:54:10 +0100,Pass location with errors in codegen to have markers in editors in Eclipse,70,4922
+288,e84b11f3,SUCCESS,11,SUCCESS,12,SUCCESS,13,2013-02-01 09:39:26 -0800,Merge pull request #149 from tbroyer/codegen-error-markers,70,4922
+289,5ac493ee,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-02-02 02:44:45 +0100,"Use getCanonicalName rather than getName when emitting source, by principle.",70,4924
+290,ea784ea0,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-02-02 02:42:36 +0100,Remove redundant code re. finding no-args constructors.,70,4914
+291,e4966595,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-02-02 03:08:51 +0100,Report error at codegen when child module is missing @Module annotation,71,4947
+292,1c553522,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-02-01 18:10:32 -0800,Merge pull request #150 from tbroyer/fix-npe-in-fullgraphprocessor,71,4947
+293,b2b601d2,SUCCESS,11,SUCCESS,10,SUCCESS,12,2013-02-02 12:12:14 +0100,Fix integration test: add missing invoker.properties,71,4947
+294,760f5a89,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-02-02 12:46:35 +0100,"Nit-picking, following IntelliJ IDEA suggestions.",70,4915
+295,b43dd0b0,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-02-02 05:16:47 -0800,Merge pull request #152 from tbroyer/fix-it,71,4947
+296,55b9e30f,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-02-02 05:23:33 -0800,Merge pull request #151 from tbroyer/nitpicking,71,4940
+297,22a38353,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-02-03 14:40:14 -0800,Use standalone version of 'JavaWriter'.,69,4334
+298,c6b4939f,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-02-04 08:50:37 -0800,Merge pull request #153 from square/jw/javawriter,69,4334
+299,c3cf3a4b,SUCCESS,11,SUCCESS,10,SUCCESS,12,2013-02-08 22:17:14 -0800,Add link to QCon talk.,69,4334
+300,60b18986,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-02-08 23:21:50 -0800,Merge pull request #155 from square/jw/qcon,69,4334
+301,4e14c067,SUCCESS,15,SUCCESS,11,SUCCESS,12,2013-02-11 10:10:35 -0800,Upgrade to JavaWriter 1.0.2. Drop now-duplicated method.,69,4324
+302,a061bbd1,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-02-11 18:23:46 -0800,Merge pull request #156 from square/jw/one-dot-oh-dot-two,69,4324
+303,93a7d66f,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-02-16 00:28:34 -0500,"Add cycle detection using the problem detector, plus test.",70,4358
+304,7106dbb1,SUCCESS,12,SUCCESS,13,SUCCESS,11,2013-02-16 09:23:20 -0500,"Return early on a graph validation failure, but continue to process other modules.",70,4359
+305,aadcf07d,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-02-16 09:43:09 -0500,Make the verification test slightly saner.,70,4359
+306,8b8bbfb9,SUCCESS,12,SUCCESS,12,SUCCESS,11,2013-02-16 08:19:03 -0800,Merge pull request #163 from cgruber/compiletimecheckcirculardeps,70,4359
+307,060d31db,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-02-16 19:19:09 +0100,"Reject @Provides methods with 'throws' clause, at compile time.",70,4345
+308,8607c68b,SUCCESS,11,SUCCESS,11,SUCCESS,9,2013-02-16 11:26:21 -0800,Merge pull request #162 from tbroyer/provides-methods-with-throws-clause,71,4380
+309,49e99b55,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-02-18 09:40:51 -0800,Complaining about non-static inner class injection closes #68,72,4400
+310,21be01c1,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-02-18 11:14:26 -0800,Merge pull request #164 from square/kiran/inner-classes,72,4400
+311,a74f9b62,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-02-20 10:00:47 -0500,Add RunWith annotations so Dagger can build from source inside customers' codebases and run in non-maven hosted test runners.,72,4433
+312,ad36309d,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-01-15 20:50:56 -0500,Move example into a sub-folder and create the structure to parent other examples.,72,4400
+313,23b976b4,SUCCESS,10,SUCCESS,13,SUCCESS,10,2013-02-20 10:27:44 -0500,fix copyright.,72,4400
+314,a95ad22e,SUCCESS,11,SUCCESS,11,SUCCESS,14,2013-02-20 10:46:31 -0800,Merge pull request #167 from cgruber/robustexamples,72,4400
+315,63514607,SUCCESS,14,SUCCESS,12,SUCCESS,12,2013-02-21 19:45:48 -0500,Rework providesprocessor to generate ModuleAdapters even when no Provides methods are present.,73,4439
+316,840744a9,SUCCESS,14,SUCCESS,11,SUCCESS,12,2013-02-22 12:03:23 -0500,"Accept dagger.Module in the processor, and don't assert that this processor has completed all processing for dagger.Module.  Also fix some nits.",73,4439
+317,738dc267,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-02-22 13:21:30 -0500,fix checkstyle violation.,73,4439
+318,8cd31c7b,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-02-23 23:16:38 -0500,Demonstrate and fix problem with singletons when force-linked from a plus() operation.,72,4412
+319,d5833081,SUCCESS,11,SUCCESS,11,SUCCESS,14,2013-02-24 13:11:16 -0500,Fix some comments.,72,4412
+320,22928a33,SUCCESS,12,SUCCESS,11,SUCCESS,10,2013-02-24 20:20:57 -0800,Merge pull request #169 from cgruber/fixsingleton,72,4412
+321,35d1c328,SUCCESS,11,SUCCESS,10,SUCCESS,11,2013-02-25 11:45:21 -0500,"Fix some exception text, add a better thrown error for inaccessible no-args constructors on modules, remove a redundant test, and rename a provides method.",73,4435
+322,4812cca9,SUCCESS,11,SUCCESS,10,SUCCESS,12,2013-02-25 13:25:10 -0800,Merge pull request #166 from cgruber/fixjunit4,72,4445
+323,9a9d53e6,SUCCESS,11,SUCCESS,11,FAIL,7,2013-02-26 11:57:01 -0500,add failing tests for validating that SingletonBinding delegates to the wrapped binding for getting/setting state. Signed-off-by: Andy Dennie <github@adennie.e4ward.com>,73,4478
+324,5427bc40,SUCCESS,11,SUCCESS,11,SUCCESS,10,2013-02-26 11:58:16 -0500,"in linkRequested, call scope() to wrap singleton bindings (when appropriate) and then put the scoped binding onto both the toLink and bindings lists.",73,4490
+325,c678e285,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-02-26 14:37:59 -0500,Renamed BindingTest to SingletonBindingTest and... -changed copyright year to 2013 -fixed ordering of imports to comply with Square style guide -added @RunWith -fixed isSingleton assertion,73,4493
+326,5af9e05b,SUCCESS,12,SUCCESS,11,SUCCESS,13,2013-02-26 15:46:32 -0500,Capitalize comment and end with period.,73,4493
+327,482d473c,SUCCESS,13,SUCCESS,12,SUCCESS,11,2013-02-26 15:04:42 -0800,Switch to .dagger groupId.,72,4445
+328,38ee3bf0,SUCCESS,11,SUCCESS,10,SUCCESS,12,2013-02-26 15:36:27 -0800,Merge pull request #170 from adennie/delegating-singletonbinding,73,4493
+329,91e85644,SUCCESS,10,SUCCESS,11,SUCCESS,10,2013-02-26 16:09:19 -0800,Merge pull request #171 from square/jw/group-id,73,4493
+330,3e1f6b56,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-02-27 12:22:18 -0500,Revert from throwing a friendlier error in a case that should never occur outside of an applet.,73,4433
+331,7d887b50,SUCCESS,12,SUCCESS,12,SUCCESS,11,2013-02-27 11:13:07 -0800,Merge pull request #168 from cgruber/supportstatefulrootmodules,74,4526
+332,c3c99b1d,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-02-27 14:19:47 -0500,add RunWith annotation.,74,4529
+333,a4add3fc,SUCCESS,11,SUCCESS,13,SUCCESS,12,2013-02-27 11:26:40 -0800,Merge pull request #172 from cgruber/supportstatefulrootmodules,74,4529
+334,c19d3828,SUCCESS,12,SUCCESS,13,SUCCESS,11,2013-02-27 14:49:44 -0500,"Make ObjectGraph itself an abstract type with five abstract contract methods (plus the static create()), moving the implementation into a static inner class.",74,4532
+335,6b75b8af,SUCCESS,13,SUCCESS,10,SUCCESS,12,2013-02-27 12:21:54 -0800,Merge pull request #173 from cgruber/abstractgraph,74,4535
+336,6024e62a,SUCCESS,11,SUCCESS,12,SUCCESS,10,2013-03-01 18:07:39 +0100,Use SourceVersion.latestSupported() to avoid warning with JDK 7.,74,4535
+337,8ca183a4,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-03-01 21:49:23 -0800,Merge pull request #175 from tbroyer/supportedsourceversion,74,4535
+338,0d76bebd,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-03-11 11:26:27 -0400,"When flagging an override of an override, clarify that this is intentionally not support.",74,4536
+339,84d7a38f,SUCCESS,12,SUCCESS,12,SUCCESS,11,2013-03-11 12:02:17 -0400,Fixed to use original message for non-override scenario.,74,4537
+340,23d70f22,SUCCESS,10,SUCCESS,9,SUCCESS,9,2013-03-19 10:46:12 -0700,"Throw an error on a module inclusion cycle, and add a test.",75,4577
+341,1dcbd3df,SUCCESS,11,SUCCESS,9,SUCCESS,10,2013-03-19 11:17:44 -0700,eliminate an unnecessary method.,75,4575
+342,dddb939a,SUCCESS,10,SUCCESS,11,SUCCESS,10,2013-03-19 11:19:15 -0700,Rename exception.,75,4575
+343,32e25640,SUCCESS,12,SUCCESS,9,SUCCESS,13,2013-03-20 13:45:31 -0700,"Protect singleton and lazy bindings against concurrent access, and test that this works.",75,4608
+344,2014bce8,SUCCESS,16,SUCCESS,15,SUCCESS,18,2013-03-23 10:57:07 +0100,Move dagger-compiler as a m-compiler-p dependency.,74,4535
+345,1a5d9095,SUCCESS,12,SUCCESS,12,SUCCESS,16,2013-03-23 18:05:42 -0700,Fix some style and naming issues from code-review.,75,4608
+346,3b8ce02e,SUCCESS,14,SUCCESS,14,SUCCESS,20,2013-03-24 16:33:30 -0700,Merge pull request #190 from tbroyer/doc-usage,74,4535
+347,f784b965,SUCCESS,14,SUCCESS,15,SUCCESS,19,2013-03-24 16:39:45 -0700,Update README. Fix XML comment syntax.,74,4535
+348,11b7685a,SUCCESS,14,SUCCESS,17,SUCCESS,17,2013-03-24 16:42:58 -0700,Merge pull request #192 from square/jw/dash-dash,74,4535
+349,87eabc9e,SUCCESS,12,SUCCESS,10,SUCCESS,12,2013-03-24 18:12:41 -0700,Remove extra lock object per @swankjesse's concerns about object allocation on android.,75,4606
+350,c5949f34,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-03-24 19:29:48 -0700,"Re-work a loop to better use the stack of path elements, and fix error messaging.",75,4578
+351,598ccad3,SUCCESS,12,SUCCESS,14,SUCCESS,19,2013-03-25 16:22:39 -0700,Merge pull request #189 from cgruber/locking,75,4606
+352,cdb58e65,SUCCESS,13,SUCCESS,16,SUCCESS,21,2013-03-25 16:29:49 -0700,Merge pull request #180 from adennie/better-override-error,75,4608
+353,b6197880,SUCCESS,12,SUCCESS,14,SUCCESS,19,2013-03-26 17:41:29 -0400,Add restrictions around injectable targets.,78,4647
+354,ce4ae1a1,SUCCESS,13,SUCCESS,15,SUCCESS,21,2013-03-26 21:35:47 -0700,Merge pull request #193 from square/jw/privates,78,4647
+355,93a0dbb6,SUCCESS,13,SUCCESS,14,SUCCESS,19,2013-03-27 01:00:08 -0400,Test for erroneous message more explicitly.,78,4653
+356,6f2413a4,SUCCESS,12,SUCCESS,15,SUCCESS,19,2013-03-26 22:21:22 -0700,Merge pull request #195 from square/jw/privates,78,4653
+357,54079aeb,SUCCESS,13,SUCCESS,16,SUCCESS,21,2013-03-27 00:47:56 -0400,Forbid modules who extend from non-Object class types.,79,4674
+358,2d31f835,SUCCESS,13,SUCCESS,11,SUCCESS,13,2013-03-27 15:50:21 +0100,Move back to optional dependency for the dagger-compiler.,78,4653
+359,c153d5c7,SUCCESS,14,SUCCESS,15,SUCCESS,20,2013-03-27 02:37:30 -0400,Do not fail builds due to unforseen problems in GraphVizualizer.,78,4653
+360,079a3dc5,SUCCESS,15,SUCCESS,16,SUCCESS,20,2013-03-27 08:26:53 -0700,Merge pull request #196 from square/jw/composition,79,4680
+361,f8c433bc,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-03-27 08:27:39 -0700,Merge pull request #198 from tbroyer/dagger-compiler-optional,79,4680
+362,5b9d3b2e,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-03-27 09:27:11 -0700,Merge pull request #197 from square/jw/graph-generic-fix,79,4686
+363,035f0b8d,SUCCESS,13,SUCCESS,12,SUCCESS,11,2013-03-27 12:22:05 -0700,Merge pull request #187 from cgruber/catchmoduleincludecycles,80,4729
+364,95981477,SUCCESS,10,SUCCESS,11,SUCCESS,9,2013-03-28 15:31:55 -0400,Point download links at Maven Central.,74,4535
+365,4913124f,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-03-28 12:33:19 -0700,Merge pull request #199 from square/jwilson/downloadlinks,80,4729
+366,54dd5fb2,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-03-28 16:26:34 -0700,Revert missed integration test to old dagger-compiler inclusion strategy.,80,4729
+367,3396d645,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-03-28 16:39:53 -0700,Merge pull request #201 from square/jw/fix-it-test,80,4729
+368,8a7d9dbe,SUCCESS,11,SUCCESS,9,SUCCESS,9,2013-04-11 14:40:05 -0700,Remove Android manifest plugin.,76,4398
+369,db1f5b14,SUCCESS,10,SUCCESS,10,SUCCESS,9,2013-04-11 18:00:08 -0700,Merge pull request #204 from square/jw/a-swift-clean-death,76,4398
+370,7ec4442c,SUCCESS,12,SUCCESS,10,SUCCESS,10,2013-04-16 15:52:21 +0200,Update coffee example URL,76,4398
+371,83dca9eb,SUCCESS,11,SUCCESS,10,SUCCESS,10,2013-04-16 07:08:30 -0700,Merge pull request #208 from Nilhcem/master,76,4398
+372,96f9f799,SUCCESS,11,SUCCESS,9,SUCCESS,10,2013-04-22 23:12:56 -0700,Forbid Provider and Lazy as provides return type.,77,4496
+373,bbec16a6,SUCCESS,11,SUCCESS,9,SUCCESS,9,2013-04-23 12:34:40 -0700,Merge pull request #212 from square/jw/you-shall-not-pass,77,4496
+374,6ae3bbbf,SUCCESS,11,SUCCESS,9,SUCCESS,7,2013-04-17 09:23:37 -0700,Unused @Provide methods cause compiler failures unless @Module(library=true),81,4631
+375,42bd35ff,SUCCESS,9,SUCCESS,8,SUCCESS,11,2013-04-26 13:13:56 -0700,Merge pull request #205 from square/kiran/LEVEL-UP,81,4631
+376,c11f6485,SUCCESS,10,SUCCESS,9,SUCCESS,10,2013-04-30 00:01:52 +0200,Use maven-compiler-plugin 3.1 in compiler IT tests to fix platform-dependent issues,81,4631
+377,190c97be,SUCCESS,11,SUCCESS,9,SUCCESS,8,2013-04-29 15:23:15 -0700,Merge pull request #218 from tbroyer/fix-platform-dependent-it-failures,81,4631
+378,cee648fb,SUCCESS,11,SUCCESS,9,SUCCESS,9,2013-04-30 21:53:45 -0400,Fix some issues with multibindings.,80,4634
+379,db94c28e,SUCCESS,9,SUCCESS,9,SUCCESS,9,2013-04-30 20:58:31 -0700,Merge pull request #219 from square/jwilson/multibindings_fails,80,4634
+380,5418dc37,SUCCESS,11,SUCCESS,8,SUCCESS,9,2013-04-30 23:21:20 -0400,Rename entryPoints to injects.,80,4633
+381,5a506f15,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-04-30 22:20:04 -0700,Merge pull request #221 from square/jwilson/rename_entry_point,80,4633
+382,5b43b4ab,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-04-30 14:27:50 -0700,Remove the need for jekyll.,80,4633
+383,d6f0620e,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-04-30 22:13:52 -0700,Migrate website to the new hotness.,80,4633
+384,a99c67fa,SUCCESS,13,SUCCESS,9,SUCCESS,11,2013-05-01 09:46:42 -0400,Fix validation when passing an interface to the injects list.,80,4654
+385,e164faf9,SUCCESS,11,SUCCESS,9,SUCCESS,9,2013-05-01 08:36:49 -0700,Merge pull request #222 from square/jwilson/inject_interface,80,4654
+386,d45582b8,FAIL,23,NO,0,NO,0,2013-05-02 11:41:46 -0700,Add two Android examples.,96,4826
+387,3e08b069,FAIL,12,NO,0,NO,0,2013-05-02 14:48:00 -0700,Merge pull request #223 from square/jw/android,96,4847
+388,1a317848,SUCCESS,10,SUCCESS,9,SUCCESS,8,2013-05-02 22:09:16 +0000,Merge pull request #1 from io2013/jw/website,80,4633
+389,b7559d29,FAIL,11,NO,0,NO,0,2013-05-02 15:09:24 -0700,Merge branch 'master' of https://git.squareup.com/io2013/dagger,96,4847
+390,aac66a2f,FAIL,12,NO,0,NO,0,2013-05-02 22:19:46 -0700,Use two dollar signs between class name and dagger-generated suffix.,96,4847
+391,9e1f1481,FAIL,12,NO,0,NO,0,2013-05-03 07:27:15 -0700,Merge pull request #224 from square/jw/dolla-dolla-bill,96,4847
+392,8facd028,FAIL,14,NO,0,NO,0,2013-05-03 09:42:52 -0700,Merge branch 'master' of https://github.com/square/dagger,96,4847
+393,ea2b460f,FAIL,11,NO,0,NO,0,2013-04-26 18:05:26 -0700,Fixing case where StaticInjections were incorrectly failing unused provider check Closes #216,98,4890
+394,e4001619,FAIL,14,NO,0,NO,0,2013-05-03 13:43:20 -0700,Merge pull request #226 from square/kiran/bad-branch-names,98,4890
+395,613cafa5,FAIL,13,NO,0,NO,0,2013-05-03 10:52:55 -0700,Document static injection behavior.,96,4847
+396,61671400,FAIL,13,NO,0,NO,0,2013-05-04 00:47:42 +0000,Merge pull request #2 from io2013/jw/static-injection-docs,96,4847
+397,08d6f451,FAIL,12,NO,0,NO,0,2013-05-04 01:51:37 -0700,Fix XML markup.,96,4847
+398,6ac65baf,FAIL,13,NO,0,NO,0,2013-05-04 01:51:57 -0700,Merge branch 'master' of https://git.squareup.com/io2013/dagger,96,4847
+399,b53c7a99,FAIL,13,NO,0,NO,0,2013-05-05 16:20:58 -0700,Merge branch 'master' of https://github.com/square/dagger,98,4890
+400,70a96dd0,FAIL,13,NO,0,NO,0,2013-05-05 16:23:19 -0700,Correct some problems with the Activity graph example.,96,4848
+401,9621542e,FAIL,12,NO,0,NO,0,2013-05-05 19:25:24 -0700,Merge pull request #229 from square/jw/activity-sample-tweaks,98,4891
+402,c23cdff2,FAIL,13,NO,0,NO,0,2013-05-05 19:35:27 -0700,Merge branch 'master' of https://github.com/square/dagger,98,4891
+403,f478f405,FAIL,12,NO,0,NO,0,2013-05-05 23:52:58 -0400,Fix issues with problem detector when used at runtime.,96,4857
+404,085054e4,FAIL,13,NO,0,NO,0,2013-05-05 21:22:17 -0700,Merge pull request #230 from square/jwilson/library_runtime,98,4901
+405,7ce02c23,FAIL,13,NO,0,NO,0,2013-05-06 15:28:42 -0700,Add website analytics.,98,4891
+406,b6999cf8,FAIL,13,NO,0,NO,0,2013-05-06 18:21:30 -0700,Call it a community.,98,4891
+407,b96585a3,FAIL,12,NO,0,NO,0,2013-05-06 22:04:12 -0400,Don't create objects unless there's an @Inject annotation.,98,4914
+408,1c950f47,FAIL,12,NO,0,NO,0,2013-05-06 19:35:13 -0700,Merge pull request #232 from square/jwilson/entrypoint_constructor,98,4914
+409,f7bb6718,FAIL,12,NO,0,NO,0,2013-05-06 20:28:26 -0700,Merge remote-tracking branch 'origin/master',98,4914
+410,6ed2e68b,FAIL,13,NO,0,NO,0,2013-05-07 11:10:08 -0400,Exclude 'internal' from Javadoc,98,4901
+411,85551e1d,FAIL,11,NO,0,NO,0,2013-05-07 08:12:24 -0700,Merge pull request #233 from square/jwilson/javadoc,98,4914
+412,1bbfb114,FAIL,12,NO,0,NO,0,2013-05-07 11:13:21 -0400,Hide ObjectGraph's constructor,98,4902
+413,e5ad033a,FAIL,13,NO,0,NO,0,2013-05-07 08:14:10 -0700,Merge branch 'master' of https://github.com/square/dagger,98,4914
+414,b18716fa,FAIL,13,NO,0,NO,0,2013-05-03 14:30:03 -0700,Add documentation for library feature.,96,4847
+415,c62da857,FAIL,14,NO,0,NO,0,2013-05-07 15:19:51 +0000,Merge pull request #3 from io2013/jw/document-library,98,4914
+416,56b81e4a,FAIL,14,NO,0,NO,0,2013-05-07 08:20:08 -0700,Merge branch 'master' of https://git.squareup.com/io2013/dagger,98,4914
+417,d7d0b70d,FAIL,14,NO,0,NO,0,2013-05-07 08:23:15 -0700,Merge pull request #234 from square/jwilson/default_constructor,98,4915
+418,58be9cd8,FAIL,13,NO,0,NO,0,2013-05-07 08:23:27 -0700,Merge branch 'master' of https://github.com/square/dagger,98,4915
+419,21bdcdd0,FAIL,14,NO,0,NO,0,2013-05-07 08:29:02 -0700,[maven-release-plugin] prepare release dagger-parent-1.0.0,98,4915
+420,654625a1,FAIL,14,NO,0,NO,0,2013-05-07 08:29:09 -0700,[maven-release-plugin] prepare for next development iteration,98,4915
+421,7498e27b,FAIL,14,NO,0,NO,0,2013-05-07 12:34:55 -0300,fix simple typo,98,4915
+422,e8d9f1da,FAIL,13,NO,0,NO,0,2013-05-07 08:47:19 -0700,Merge pull request #235 from sheng168/master,98,4915
+423,f8309ee7,FAIL,13,NO,0,NO,0,2013-05-07 09:14:24 -0700,Only hide internal javadocs from core.,98,4915
+424,05b55696,FAIL,13,NO,0,NO,0,2013-05-07 10:26:02 -0700,Update deploy script to include javadocs.,98,4915
+425,2fb12a89,FAIL,15,NO,0,NO,0,2013-05-07 11:54:15 -0700,It's not dagger-core. I am an idiot.,98,4915
+426,5acfc8be,FAIL,11,NO,0,NO,0,2013-05-07 12:29:50 -0700,Ensure the correct groupId and artifactId are being used.,98,4915
+427,7f17dcfa,FAIL,13,NO,0,NO,0,2013-05-07 12:40:42 -0700,Merge pull request #236 from square/jw/javadoc-hiding-fix,98,4915
+428,b7eb59e5,FAIL,12,NO,0,NO,0,2013-05-07 15:48:24 -0400,Fix a broken link on the dagger site.,98,4915
+429,9ad3843d,FAIL,12,NO,0,NO,0,2013-05-07 12:49:19 -0700,Merge pull request #237 from square/jwilson/okhttp,98,4915
+430,30f044a7,FAIL,13,NO,0,NO,0,2013-05-07 12:55:02 -0700,Fix website maven config.,98,4915
+431,69192e5f,FAIL,14,NO,0,NO,0,2013-05-08 11:36:14 -0700,Copy the note from the simple Android example into the scope example.,98,4915
+432,d29843d5,FAIL,13,NO,0,NO,0,2013-05-08 11:39:18 -0700,Merge pull request #241 from square/jw/notes,98,4915
+433,37befacc,FAIL,12,NO,0,NO,0,2013-05-10 13:25:07 -0700,Add a RunsWith(JUnit4.clss) annotation to allow test to run inside google. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=46244288,98,4918
+434,a0e40f0b,FAIL,15,NO,0,NO,0,2013-05-10 15:31:02 -0700,Merge pull request #242 from cgruber/runswith,98,4918
+435,d92a2d9d,FAIL,13,NO,0,NO,0,2013-05-11 19:58:25 -0700,Ensure the manifest points to the correct application.,98,4918
+436,d5f6a4ed,FAIL,13,NO,0,NO,0,2013-05-11 20:49:55 -0700,Merge pull request #244 from square/jw/fix-manifest,98,4918
+437,0e82556b,FAIL,13,NO,0,NO,0,2013-05-11 21:42:44 -0700,Bump JavaWriter to v1.0.5.,98,4918
+438,bb7abd90,FAIL,12,NO,0,NO,0,2013-05-12 06:19:09 -0700,Merge pull request #245 from square/jw/update-javawriter,98,4918
+439,ff5c19a1,FAIL,8,NO,0,NO,0,2013-05-21 10:06:55 -0700,Could not find tool 'aapt' error after updating android sdk,98,4918
+440,f4329c7e,FAIL,3,NO,0,NO,0,2013-05-21 10:26:23 -0700,Merge pull request #250 from adriancole/latest-aapt-not-found,98,4918
+441,17f6d815,FAIL,4,NO,0,NO,0,2013-05-23 19:32:31 +0100,"Helpful error message if someone puts @Inject on a class, rather than a NPE with no info",99,4925
+442,7df4759b,FAIL,4,NO,0,NO,0,2013-05-23 15:39:15 -0700,Merge pull request #255 from jonreeve/report-inject-annotation-on-class,99,4925
+443,0713811c,FAIL,13,NO,0,NO,0,2013-05-24 17:48:01 -0700,"Handle the failure of compilation better, so we don't find out because of a ClassCastException on a TypeElement.",98,4921
+444,92d18c1e,FAIL,13,NO,0,NO,0,2013-05-28 15:50:50 -0700,fix some line formatting.,98,4921
+445,c1a80cd4,FAIL,4,NO,0,NO,0,2013-05-28 16:04:50 -0700,Merge pull request #258 from cgruber/handlecompilationfailure,99,4928
+446,45fff791,FAIL,10,NO,0,NO,0,2013-05-30 13:13:58 -0700,Rename the plugins to Loaders and re-work the packages a bit.,98,4918
+447,c3d0abf7,FAIL,16,NO,0,NO,0,2013-06-03 16:53:15 -0700,Update android-maven-plugin to 3.6.0.,99,4928
+448,72dc6f84,FAIL,13,NO,0,NO,0,2013-06-03 16:57:54 -0700,Include javax.inject in Readme when using jars.,99,4928
+449,c5223960,FAIL,12,NO,0,NO,0,2013-06-03 16:58:04 -0700,Prepare for 1.0.1.,99,4928
+450,293d4793,FAIL,10,NO,0,NO,0,2013-06-03 17:04:40 -0700,[maven-release-plugin] prepare release dagger-parent-1.0.1,99,4928
+451,7d70d6ad,FAIL,12,NO,0,NO,0,2013-06-03 17:04:46 -0700,[maven-release-plugin] prepare for next development iteration,99,4928
+452,2cacf639,FAIL,12,NO,0,NO,0,2013-06-04 09:34:18 -0700,Merge pull request #268 from cgruber/renameplugintoloader,99,4928
+453,d4155a1d,FAIL,14,NO,0,NO,0,2013-06-05 00:06:59 -0700,"Request classloading from the classloader of the requesting object, not Class.forName().",99,4967
+454,5b4ba943,FAIL,15,NO,0,NO,0,2013-06-06 15:42:14 -0700,typo.,99,4967
+455,08fd7086,FAIL,14,NO,0,NO,0,2013-06-06 15:42:40 -0700,Merge pull request #271 from cgruber/loadfromentrypoints,99,4967
+456,768c7316,FAIL,15,NO,0,NO,0,2013-06-05 12:05:52 -0700,"Re-name and slightly restructure much of the processor code, so that it is more obious what the pieces are. This is intended to improve future maintenance.",99,4977
+457,24772119,FAIL,15,NO,0,NO,0,2013-06-06 17:04:39 -0700,Merge pull request #272 from cgruber/renameanalysisbindings,99,4977
+458,980e72a7,FAIL,14,NO,0,NO,0,2013-06-06 12:52:31 -0700,Add a check for Singleton on constructors.,99,4983
+459,fb0ae127,FAIL,13,NO,0,NO,0,2013-06-06 12:55:19 -0700,Fix checkstyle violation.,99,4983
+460,886ce2b9,FAIL,14,NO,0,NO,0,2013-06-06 13:52:16 -0700,add an integration test to prove the singleton on constructor check is failing builds as it should.,100,4993
+461,39eef5ad,FAIL,13,NO,0,NO,0,2013-06-11 19:09:55 -0700,Merge pull request #273 from cgruber/prohibitsingletononconstructor,100,4993
+462,5a15b9ef,FAIL,14,NO,0,NO,0,2013-06-12 11:40:34 -0700,A configuration to permit travis to install the android SDK before running continuous build.,100,4993
+463,d6ab94a8,FAIL,14,NO,0,NO,0,2013-06-12 12:55:50 -0700,Reduce the set of things needed for building the android examples.,100,4993
+464,a8c471f1,FAIL,15,NO,0,NO,0,2013-06-12 21:58:43 -0700,Merge pull request #276 from cgruber/androidontravis,100,4993
+465,1e042165,FAIL,15,NO,0,NO,0,2013-06-13 15:12:09 -0700,"   Rework the default loader into a cleaner, more explicit FallbackLoader, and turn the previously chained loaders into ingredients that could be used in this or other loaders.",100,4989
+466,dbfa84f0,FAIL,15,NO,0,NO,0,2013-06-13 15:13:01 -0700,"Various fixes from review, including style fixes for square's codebase, typos, clean up some extra logging, etc.",100,4972
+467,f3b5d761,FAIL,14,NO,0,NO,0,2013-06-13 17:22:19 -0700,"Support all annotations, since some JVMs will only cause the module processor to run if that compilation job includes classes that have both @dagger.Provides and @dagger.Module.",100,4985
+468,b8927658,FAIL,13,NO,0,NO,0,2013-06-13 17:24:22 -0700,Merge pull request #279 from cgruber/speeduploader,100,4972
+469,ddaf6ac2,FAIL,12,NO,0,NO,0,2013-06-14 06:47:35 -0700,Merge pull request #280 from cgruber/handlenoprovidesmodulesonalljvms,100,4964
+470,ec9c6be9,FAIL,12,NO,0,NO,0,2013-06-14 18:15:54 -0700,"Remove reflective fallback for modules (and provides methods), and clean up the attendant code.",101,4996
+471,052d406b,FAIL,12,NO,0,NO,0,2013-06-17 08:21:09 -0700,Include DemoModule in module list for simple Android example.,100,4965
+472,f69d687d,FAIL,11,NO,0,NO,0,2013-06-17 12:17:47 -0700,Merge pull request #284 from square/jw/module,100,4965
+473,9f411af7,FAIL,14,NO,0,NO,0,2013-06-17 20:59:51 -0700,Update JavaWriter to v2.0.1.,100,4965
+474,cb950920,FAIL,11,NO,0,NO,0,2013-06-18 07:56:07 -0700,Merge pull request #285 from square/jw/java-writer-number-two,100,4965
+475,525cb97d,FAIL,12,NO,0,NO,0,2013-06-28 09:33:41 -0700,"Add some javadocs, plus more precisely narrow where an exception is caught.",101,4997
+476,f457d87c,FAIL,12,NO,0,NO,0,2013-06-28 09:35:37 -0700,Mark a fail-over case as such.,101,4997
+477,2fa92e61,FAIL,12,NO,0,NO,0,2013-06-28 09:41:07 -0700,fix some javadoc links.,101,4997
+478,e3a26c8b,FAIL,13,NO,0,NO,0,2013-06-29 19:43:34 -0700,"Fix (irrelevant) error in test, and strengthen it to ensure the right failure is being caught.",101,5001
+479,6682d768,FAIL,13,NO,0,NO,0,2013-06-29 22:32:49 -0700,Merge pull request #281 from cgruber/turnoffreflectioninmodules,101,5002
+480,2a9203f8,FAIL,13,NO,0,NO,0,2013-07-09 19:06:34 -0700,Fix an inverted conditional that was mistakenly inverted in the move to FailoverLoader and no reflection.,101,5002
+481,c3d7c1b6,FAIL,14,NO,0,NO,0,2013-07-09 23:37:24 -0700,Add a proper test for FailoverLoader.,102,5025
+482,799a404f,FAIL,13,NO,0,NO,0,2013-07-09 23:52:26 -0700,Rename TestOnlyModuleAdapter -> TestingModuleAdapter to line it up with TestingLoader.,102,5024
+483,66cae0f7,FAIL,11,NO,0,NO,0,2013-07-10 13:00:18 -0700,Merge pull request #290 from cgruber/handleabstractparents,102,5024
+484,0403d77e,FAIL,13,NO,0,NO,0,2013-07-03 10:14:41 -0700,"Create a cache for class loading that both successfully loaded classes, as well as class lookup failures (using Void.class as a null object).",102,5022
+485,b72d31cb,FAIL,14,NO,0,NO,0,2013-07-22 09:25:38 -0700,Make cache private - no access needed for testing.,102,5022
+486,ed48d585,FAIL,15,NO,0,NO,0,2013-07-22 15:52:15 -0700,Merge pull request #292 from cgruber/cacheclassloading,102,5022
+487,2a77e876,FAIL,14,NO,0,NO,0,2013-07-13 14:23:20 -0700,closes issue #261: add Provides.Type.SET_VALUES,104,5199
+488,6ad67283,FAIL,14,NO,0,NO,0,2013-07-23 16:07:48 -0700,"Add a test for primitive injection in the code-gen, plus enough maven config to permit the annotations to run on the test sources (won't work in Eclipse, mind...)",103,5057
+489,55bf51fa,FAIL,11,NO,0,NO,0,2013-07-23 16:16:30 -0700,"Fix array handling so we don't attempt to box the primitive type the array is composed of.  It's not necessary, it's incorrect in the type-system, and it's not horrible to fix.",103,5061
+490,736c652b,FAIL,11,NO,0,NO,0,2013-07-23 16:21:44 -0700,Fix some copyrights.,103,5061
+491,5476c251,FAIL,12,NO,0,NO,0,2013-07-24 04:55:13 -0700,Merge pull request #291 from adriancole/provides-setvalues,104,5199
+492,ff95341c,FAIL,10,NO,0,NO,0,2013-07-24 08:46:36 -0700,Some minor naming and spacing fixes.,103,5062
+493,135dcc4b,FAIL,11,NO,0,NO,0,2013-07-24 09:03:53 -0700,Merge pull request #293 from cgruber/typecoercionbug,105,5239
+494,50c527b5,FAIL,11,NO,0,NO,0,2013-07-26 09:15:20 -0700,Bump JavaWriter to the latest.,105,5239
+495,199fc131,FAIL,9,NO,0,NO,0,2013-07-25 19:09:12 -0700,Add JUnit runner.,105,5242
+496,40107b0d,FAIL,11,NO,0,NO,0,2013-07-25 19:11:17 -0700,Pass through prior errors so as to not hide real errors from the compilation job.,105,5246
+497,804f1ace,FAIL,11,NO,0,NO,0,2013-07-25 19:12:27 -0700,Provides methods should not be on classes unless they also are annotated as a Module.,105,5249
+498,96206987,FAIL,11,NO,0,NO,0,2013-07-26 12:04:12 -0700,Merge pull request #298 from cgruber/changesfromgoogle3,105,5249
+499,2af1c5a2,FAIL,13,NO,0,NO,0,2013-07-26 12:31:12 -0700,Merge pull request #295 from square/jw/two-one-one,105,5249
+500,91a77d14,FAIL,10,NO,0,NO,0,2013-07-26 09:48:57 -0700,Prepare for 1.1.0.,105,5239
+501,2695218d,FAIL,12,NO,0,NO,0,2013-07-26 09:33:12 -0700,Address comments from #280 on f3b5d76.,105,5242
+502,3ff48e14,FAIL,12,NO,0,NO,0,2013-07-26 14:39:33 -0700,Merge pull request #296 from square/jw/module-adapter-tweaks,105,5252
+503,82cdccf3,FAIL,12,NO,0,NO,0,2013-07-26 15:26:15 -0700,Merge pull request #297 from square/jw/changelog,105,5252
+504,3f73d38c,FAIL,20,NO,0,NO,0,2013-07-30 16:44:26 -0700,Moved checkstyle to run before integration tests.,105,5239
+505,305fa138,FAIL,14,NO,0,NO,0,2013-07-31 08:41:16 -0700,Merge pull request #300 from sgoldfed/movecheckstyle,105,5252
+506,7b40f781,FAIL,15,NO,0,NO,0,2013-07-24 02:12:34 -0700,"Added static checks for injected final fields, @Provides methods outside of modules, and validating the use of scoping and qualifier annotations.",117,5615
+507,17a62894,FAIL,15,NO,0,NO,0,2013-08-01 15:21:19 -0700,Merge pull request #299 from sgoldfed/newchecks,117,5615
+508,081ec51e,FAIL,15,NO,0,NO,0,2013-08-05 18:12:04 +0100,Fix typo in AndroidModule.java in example,117,5615
+509,5ffef968,FAIL,15,NO,0,NO,0,2013-08-05 12:24:36 -0700,Merge pull request #301 from hugecannon/master,117,5615
+510,646e82e6,FAIL,15,NO,0,NO,0,2013-08-05 12:27:40 -0700,Update the change log for the new release date.,117,5615
+511,7e97819c,FAIL,20,NO,0,NO,0,2013-08-05 16:35:47 -0700,[maven-release-plugin] prepare release dagger-parent-1.1.0,117,5615
+512,dfc012f2,FAIL,18,NO,0,NO,0,2013-08-05 16:35:50 -0700,[maven-release-plugin] prepare for next development iteration,117,5615
+513,d843cb92,FAIL,13,NO,0,NO,0,2013-08-11 18:33:27 -0700,minor fixes: (1)removed extra blank line in generated adapters (2)changed binder-> binding in generated javadoc and method name,117,5612
+514,728a41cb,FAIL,12,NO,0,NO,0,2013-08-11 18:46:22 -0700,refactoring,117,5638
+515,fcbc4ce0,FAIL,14,NO,0,NO,0,2013-08-12 12:16:03 -0700,Merge pull request #306 from sgoldfed/refactor,117,5638
+516,cab08af5,FAIL,13,NO,0,NO,0,2013-08-12 13:43:21 -0700,switch to non-deprecated JavaWriter methods,117,5645
+517,81e5d6e6,FAIL,14,NO,0,NO,0,2013-08-12 14:42:21 -0700,inlined,117,5646
+518,5155910f,FAIL,13,NO,0,NO,0,2013-08-12 14:50:51 -0700,Merge pull request #307 from sgoldfed/eliminatewarnings,117,5646
+519,4f868168,FAIL,16,NO,0,NO,0,2013-09-10 15:04:15 -0700,"Add in Google's compile testing system, with an initial set of converted tests, and fix an escaped exception in GraphAnalysisProcessor uncovered in the process.",119,5731
+520,b4623512,FAIL,13,NO,0,NO,0,2013-09-11 06:16:20 -0700,"Add tests for @Module(library=true/false), as well as some initial code-gen tests.",118,5748
+521,a416992b,FAIL,13,NO,0,NO,0,2013-09-11 07:44:24 -0700,Merge pull request #311 from cgruber/compiletesting,118,5748
+522,fe316ea5,FAIL,16,NO,0,NO,0,2013-09-11 08:59:25 -0700,Move integration tests into organized folders.,118,5752
+523,8772eac0,FAIL,11,NO,0,NO,0,2013-09-11 13:59:22 -0700,Split the scope-on-abstract tests a bit and rename.,118,5756
+524,454b0751,FAIL,12,NO,0,NO,0,2013-09-11 15:20:38 -0700,Add lots of scope annotation validations to the test and delete invoker tests.,114,5745
+525,d59c6b31,FAIL,13,NO,0,NO,0,2013-09-11 15:21:25 -0700,"Rename test since it is all usages, both good and bad.",114,5745
+526,58123e45,FAIL,13,NO,0,NO,0,2013-09-11 17:50:37 -0700,Move more scope tests into compile-testing style tests.,113,5732
+527,ac838ac2,FAIL,13,NO,0,NO,0,2013-09-12 12:34:58 -0700,"Re-order the tests, and add some links to compile-testing into TODOs.",113,5731
+528,6c978e94,FAIL,15,NO,0,NO,0,2013-09-12 12:53:07 -0700,Merge pull request #313 from cgruber/compiletesting,113,5731
+529,7c13d870,FAIL,14,NO,0,NO,0,2013-09-20 16:42:50 +0200,Convert line endings from `CRLF` to `LF`.,113,5731
+530,b1350115,FAIL,15,NO,0,NO,0,2013-09-28 05:42:16 -0700,Merge pull request #317 from johnjohndoe/fix/line-endings,113,5731
+531,219a420e,FAIL,16,NO,0,NO,0,2013-10-15 19:49:12 -0700,"Fix a test which was not broken, but had misleading text.  Also bump compile_testing and depend on guava explicitly, per maven recommendations.",113,5731
+532,501fa31a,FAIL,16,NO,0,NO,0,2013-10-15 20:25:09 -0700,Merge pull request #327 from cgruber/fixtests,113,5731
+533,2098c7ee,FAIL,14,NO,0,NO,0,2013-10-13 18:34:19 -0700,"Fix issue #322 by deferring the writing of the generated module adapter until all the generation is done in-memory, and interpret Error nodes from the AST more liberally, taking the raw type information from the text of the Error node.",114,5843
+534,bd4c13ec,FAIL,15,NO,0,NO,0,2013-10-15 20:50:34 -0700,Merge pull request #326 from cgruber/issue322_scanforerrorsinprocess,114,5843
+535,b533d152,FAIL,15,NO,0,NO,0,2013-11-06 13:44:43 -0800,Fix up set bindings to handle plus() graphs properly.,115,5914
+536,96670ee2,FAIL,16,NO,0,NO,0,2013-11-06 14:30:14 -0800,Remove now-unnecessary linker parent checking for lookup.,115,5906
+537,9d8aa6d6,FAIL,16,NO,0,NO,0,2013-11-07 06:30:27 -0800,"Narrow test's constraints, and add some spacing to DeferredBinding",115,5906
+538,2246f93c,FAIL,15,NO,0,NO,0,2013-11-07 07:20:57 -0800,Merge pull request #332 from cgruber/fixsetbindings,115,5906
+539,dd8b09b0,FAIL,15,NO,0,NO,0,2013-10-15 13:07:32 -0700,Use String.concat in FailoverLoader for performance-critical concatenations of two Strings. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=54112486,115,5906
+540,5ff03401,FAIL,14,NO,0,NO,0,2013-11-08 17:42:06 -0800,Merge pull request #334 from cgruber/string_concat,115,5906
+541,b59d8647,FAIL,14,NO,0,NO,0,2013-10-15 13:08:07 -0700,Make ModuleAdapters stateless. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=54155756,115,5937
+542,952fe55d,FAIL,15,NO,0,NO,0,2013-10-15 17:39:56 -0700,Fix test to conform with stateless module adapters.,115,5937
+543,3dbb3d02,FAIL,13,NO,0,NO,0,2013-11-10 23:15:08 -0800,Revert a conversion from an array to a list (to avoid the extra unnecessary allocations) and deal with a few code review nits.,115,5934
+544,480df015,FAIL,13,NO,0,NO,0,2013-11-11 09:53:58 -0800,Merge pull request #335 from cgruber/statelessmodules,115,5934
+545,b71236a4,FAIL,14,NO,0,NO,0,2013-10-15 13:08:34 -0700,"Use a ReadWriteLock rather than a single, global lock to memoize in dagger.",115,5857
+546,2701d3cf,FAIL,14,NO,0,NO,0,2013-11-11 10:30:37 -0800,"Prefer LHM over HashMap, and remove a stray synchronized keyword.",115,5857
+547,8d4126b1,FAIL,13,NO,0,NO,0,2013-11-11 11:00:58 -0800,Merge pull request #336 from cgruber/readwritelock,115,5857
+548,c30813c5,FAIL,15,NO,0,NO,0,2013-11-11 11:43:07 -0800,Add two failing tests and a change which causes them to pass for orphan analysis triggering on a provides binding that whose provided object is in the injects= list,115,5876
+549,80daa62d,FAIL,14,NO,0,NO,0,2013-11-11 21:05:54 -0800,Merge pull request #342 from cgruber/orphananalysisovercompensates,115,5876
+550,c28ad5b0,FAIL,13,NO,0,NO,0,2013-11-08 14:40:08 -0800,Normalize builds by forcing deterministic behaviour in GraphVizualizer.  The same graph should result in the same .dot file.,115,5884
+551,b41d6327,FAIL,14,NO,0,NO,0,2013-10-16 15:08:14 -0700,Clean up (and improve performance of) the creation of member injection keys. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=54920552,115,5874
+552,b0a2094e,FAIL,14,NO,0,NO,0,2013-10-16 15:07:47 -0700,"Use Class.newInstance to instantiate Dagger classes.  Class.newInstance caches the constructor, so this should generally be a faster operation. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=54920411",115,5871
+553,f2500a4a,FAIL,14,NO,0,NO,0,2013-11-11 21:58:05 -0800,"Remove unused import constraint when applied to Javadoc, since that's eclipse's behaviour.",115,5876
+554,7f833d06,FAIL,14,NO,0,NO,0,2013-11-11 22:08:05 -0800,Merge pull request #344 from cgruber/string_concat,115,5874
+555,a985ddad,FAIL,15,NO,0,NO,0,2013-11-11 22:11:06 -0800,Merge pull request #345 from cgruber/deterministicgraphgen,115,5882
+556,1e420acf,FAIL,14,NO,0,NO,0,2013-11-12 03:44:18 -0800,Merge pull request #346 from cgruber/loostencheckstyleconstraints,115,5882
+557,5c3bf8fd,FAIL,14,NO,0,NO,0,2013-11-12 03:54:41 -0800,Merge pull request #343 from cgruber/usenewinstance,115,5877
+558,150c7b32,FAIL,13,NO,0,NO,0,2013-11-12 20:29:48 -0800,Propagate SetBindings settings in the copy constructor.,115,5880
+559,16ac8f18,FAIL,15,NO,0,NO,0,2013-10-16 15:09:20 -0700,Make sure that set bindings respect the library setting on their contributing modules. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=54924803,115,5916
+560,d6d3a60d,FAIL,14,NO,0,NO,0,2013-11-12 21:49:48 -0800,Merge pull request #347 from cgruber/fixsetbindings,115,5916
+561,c6ca340b,FAIL,14,NO,0,NO,0,2013-11-12 21:43:17 -0800,Loosen the extent to which we trap and report exceptions.,115,5882
+562,bdcf1338,FAIL,14,NO,0,NO,0,2013-11-12 22:40:24 -0800,Merge pull request #348 from cgruber/javachack,115,5921
+563,a0c15a11,FAIL,16,NO,0,NO,0,2013-11-10 18:25:48 -0500,backfill provides method test for the compiler,115,5887
+564,fe2b6dbf,FAIL,14,NO,0,NO,0,2013-11-13 18:18:25 -0800,Merge pull request #340 from adriancole/provides-test,115,5931
+565,4f8cd0eb,FAIL,12,NO,0,NO,0,2013-11-15 12:40:09 -0800,Fix Provides adapter generation when a provides method has a parameter named 'module',116,5940
+566,133602c4,FAIL,14,NO,0,NO,0,2013-11-15 14:12:12 -0800,Merge pull request #351 from cgruber/modulevariablecollision,116,5950
+567,f39a1944,FAIL,14,NO,0,NO,0,2013-11-19 13:44:35 -0500,Fix JIT binding attempts for generic or annotated keys.,116,5951
+568,3da46098,FAIL,15,NO,0,NO,0,2013-11-19 10:57:47 -0800,Merge pull request #352 from cgruber/errormessage,116,5951
+569,617da5df,FAIL,14,NO,0,NO,0,2013-11-19 11:48:39 -0800,"Avoid duplicate work on .plus() by not re-linking all the bindings (or scanning them to determine if they need re-linking, etc.)",116,5966
+570,0c83fac9,FAIL,15,NO,0,NO,0,2013-11-19 12:19:45 -0800,Fix checkstyle violation - extra import.,116,5965
+571,1e1dac82,FAIL,15,NO,0,NO,0,2013-11-19 16:37:40 -0500,"Revert ""Remove now-unnecessary linker parent checking for lookup.""",116,5973
+572,a2057375,FAIL,14,NO,0,NO,0,2013-11-13 11:59:43 -0800,"Propagate ONLY the SetBindings, not all bindings from the parent into the child, so memoization of linkAll() means anything.",116,5980
+573,67971fe3,FAIL,16,NO,0,NO,0,2013-11-19 15:30:10 -0800,Merge pull request #353 from cgruber/performance_fix_for_plus,116,5980
+574,4f6af8dc,FAIL,18,NO,0,NO,0,2013-11-24 17:00:29 -0800,Bump JavaWriter to track latest release.,116,5980
+575,af6ebcd9,FAIL,14,NO,0,NO,0,2013-11-21 17:02:45 -0500,A few more changes to eliminate reflection.,116,6030
+576,2af57e69,FAIL,22,NO,0,NO,0,2013-11-25 10:08:55 -0800,Update the Maven Android plugin for compatibility with Maven 3.1.,116,5980
+577,bb19a71a,FAIL,14,NO,0,NO,0,2013-11-25 10:36:24 -0800,Merge branch 'jw/bump-java-writer',116,5980
+578,542a59f6,FAIL,14,NO,0,NO,0,2013-11-25 10:38:16 -0800,Merge remote-tracking branch 'cgruber/eliminatemorereflection',116,6030
+579,5e6ef7a6,FAIL,14,NO,0,NO,0,2013-11-25 11:57:59 -0800,Push dependencies into room pom.xml.,116,6030
+580,c5323e29,FAIL,14,NO,0,NO,0,2013-11-25 12:54:34 -0800,Add far JAR for users without a dependency manager.,116,6030
+581,f8eb122c,FAIL,15,NO,0,NO,0,2013-11-25 13:02:07 -0800,Use the same tagline in the pom.,116,6030
+582,a3d39b6b,FAIL,14,NO,0,NO,0,2013-12-02 17:10:17 -0800,Merge pull request #360 from square/jw/fat-jar,116,6030
+583,be9ae346,FAIL,14,NO,0,NO,0,2013-12-03 23:21:19 -0800,"Revert ""A few more changes to eliminate reflection.""",116,5980
+584,9a89fcfc,FAIL,15,NO,0,NO,0,2013-12-03 23:05:02 -0800,Add a regression test.,117,6027
+585,a7584aa5,FAIL,15,NO,0,NO,0,2013-12-03 13:03:09 -0800,Move tests to more appropriate locations.,117,6040
+586,dec60c2b,FAIL,16,NO,0,NO,0,2013-12-04 11:55:59 -0800,Merge pull request #365 from cgruber/lessreflection,117,6040
+587,112518ac,FAIL,14,NO,0,NO,0,2013-11-25 12:56:12 -0800,Prepare for 1.2.0.,117,6040
+588,527b2a1e,FAIL,14,NO,0,NO,0,2013-12-13 15:21:21 -0800,Merge pull request #361 from square/jw/ch-ch-ch-chaaanges,117,6040
+589,b3dd575d,FAIL,12,NO,0,NO,0,2013-12-13 15:47:58 -0800,Prepare 1.2.0.,117,6040
+590,524de6dc,FAIL,15,NO,0,NO,0,2013-12-13 16:00:27 -0800,[maven-release-plugin] prepare release dagger-parent-1.2.0,117,6040
+591,9d6b7524,FAIL,14,NO,0,NO,0,2013-12-13 16:00:29 -0800,[maven-release-plugin] prepare for next development iteration,117,6040
+592,89c834a9,FAIL,15,NO,0,NO,0,2014-01-09 21:03:02 -0800,"Chain (instead of copy-construct) SetBindings.  Also, extract a BindingMap that treats SetBindings as first-class and sets them aside.",118,6110
+593,1ac981cf,FAIL,14,NO,0,NO,0,2014-01-10 11:40:04 -0800,Fixes from pull request review in square/dagger#373.,118,6111
+594,45718048,FAIL,13,NO,0,NO,0,2014-01-10 14:52:06 -0800,Merge pull request #373 from cgruber/fasterplusgraph,118,6111
+595,32c1ca1a,FAIL,15,NO,0,NO,0,2014-01-10 19:25:22 -0800,Switch Queue to better performing Deque.,118,6111
+596,f44a0e10,FAIL,14,NO,0,NO,0,2014-01-10 22:33:42 -0800,Merge pull request #374 from square/jw/deck,118,6111
+597,bc6fcabb,FAIL,15,NO,0,NO,0,2014-01-15 16:58:34 -0800,Switch Android example to use addsTo for a complete module.,118,6111
+598,de8017ff,FAIL,13,NO,0,NO,0,2014-01-15 16:54:23 -0800,Use a simpler means of installing the Android SDK.,118,6111
+599,03bc106f,FAIL,14,NO,0,NO,0,2014-01-15 21:53:37 -0800,Merge pull request #375 from square/jw/complete,118,6111
+600,7bf9796d,FAIL,15,NO,0,NO,0,2014-01-18 02:29:43 -0800,Merge pull request #376 from square/jw/travis,118,6111
+601,721e6b8e,FAIL,15,NO,0,NO,0,2014-01-24 13:24:07 -0800,Do not mask underlying exception message when binding.,118,6123
+602,57b5809d,FAIL,15,NO,0,NO,0,2014-01-24 13:42:27 -0800,Merge pull request #383 from square/jw/surface-message,118,6123
+603,a668c8b2,FAIL,18,NO,0,NO,0,2014-02-12 13:47:33 +0800,fixed compile issue: Caused by: java.lang.ClassNotFoundException: com.android.sdklib.AndroidVersion$AndroidVersionException,118,6123
+604,697ba91e,FAIL,15,NO,0,NO,0,2014-02-11 22:08:09 -0800,Merge pull request #386 from qxo/master,118,6123
+605,dc95c2d1,FAIL,10,NO,0,NO,0,2014-02-14 13:26:45 -0800,Add an ArrayQueue (trimmed ArrayDeque from Android) and use it in Linker to restore Android API 8 (Java5) compatibility. Add animal-sniffer to ensure it.,119,6353
+606,8f2e49e9,FAIL,10,NO,0,NO,0,2014-02-14 13:49:34 -0800,Merge pull request #389 from cgruber/reverttojava5,119,6353
+607,8f923045,FAIL,10,NO,0,NO,0,2014-02-16 21:02:08 -0800,Prepare version 1.2.1.,119,6353
+608,5c866bc2,FAIL,11,NO,0,NO,0,2014-02-16 21:14:31 -0800,Work around a bug in the Maven release plugin.,119,6353
+609,e5619d1d,FAIL,9,NO,0,NO,0,2014-02-16 21:21:12 -0800,[maven-release-plugin] prepare release dagger-parent-1.2.1,119,6353
+610,ce01a75a,FAIL,11,NO,0,NO,0,2014-02-16 21:21:14 -0800,[maven-release-plugin] prepare for next development iteration,119,6353
+611,7dff0973,FAIL,11,NO,0,NO,0,2014-02-21 00:07:13 -0800,Deprecate G+ community in favor of StackOverflow.,119,6353
+612,d36c2af8,FAIL,11,NO,0,NO,0,2014-03-09 01:28:01 +0100,fixed typo in javadoc,119,6353
+613,21a9e0d8,FAIL,10,NO,0,NO,0,2014-03-08 21:34:46 -0500,Merge pull request #393 from rtack/typo,119,6353
+614,1eca6c81,FAIL,9,NO,0,NO,0,2014-06-23 15:57:03 -0700,Make the test for dependency cycles less brittle.,119,6348
+615,078d82d3,FAIL,10,NO,0,NO,0,2014-06-23 16:07:28 -0700,Merge pull request #418 from cgruber/java8,119,6348
+616,115e0389,FAIL,10,NO,0,NO,0,2014-06-30 09:13:25 -0700,Update JavaWriter to the latest.,119,6348
+617,2971b2a1,FAIL,10,NO,0,NO,0,2014-06-30 21:22:47 -0600,Merge pull request #422 from square/jw/update-javawriter,119,6348
+618,116a4037,FAIL,9,NO,0,NO,0,2014-07-21 16:19:05 -0700,Add JDK 8 to Travis build.,119,6348
+619,9b051f97,FAIL,10,NO,0,NO,0,2014-07-21 16:55:56 -0700,Prepare version 1.2.2.,119,6348
+620,2f9579c4,FAIL,10,NO,0,NO,0,2014-07-21 17:01:20 -0700,[maven-release-plugin] prepare release dagger-parent-1.2.2,119,6348
+621,1d46e2fb,FAIL,10,NO,0,NO,0,2014-07-21 17:01:29 -0700,[maven-release-plugin] prepare for next development iteration,119,6348
+622,09b469c2,FAIL,9,NO,0,NO,0,2014-08-01 12:26:35 -0400,"Fix up a case where we report errors poorly when state is wrong, usually becuase of inconsistency in what is passed in to ObjectGraph.create().",120,6386
+623,10d34171,FAIL,9,NO,0,NO,0,2014-08-01 13:00:08 -0400,Make the test a little more explicit.,120,6390
+624,ed5c936e,FAIL,8,NO,0,NO,0,2014-08-01 10:44:57 -0700,Merge pull request #428 from cgruber/improvederror,120,6390
+625,6e51c9f4,FAIL,8,NO,0,NO,0,2014-08-26 00:23:07 -0700,Update to Android worker.,120,6390
+626,b088b28f,FAIL,9,NO,0,NO,0,2014-08-26 00:34:09 -0700,Merge pull request #436 from square/jw/fix-travis-ci,120,6390
+627,61e471df,FAIL,8,NO,0,NO,0,2014-08-22 00:25:10 -0700,Use Types.isSameType for comparing TypeMirrors.,120,6390
+628,65573a56,FAIL,9,NO,0,NO,0,2014-08-26 00:49:57 -0700,Merge pull request #433 from square/jw/types-comparison,120,6390
+629,bde8c75b,FAIL,9,NO,0,NO,0,2014-11-19 14:15:50 -0800,Use new central artifact redirect link.,120,6390
+630,f44b5fc5,FAIL,10,NO,0,NO,0,2014-11-19 17:40:32 -0500,Merge pull request #450 from square/jw/new-redirect-link,120,6390
+631,97662b08,FAIL,10,NO,0,NO,0,2014-12-19 23:42:05 -0800,Auto-deploy snapshots from Travis CI to Sonatype.,120,6390
+632,ef9a2dc3,FAIL,9,NO,0,NO,0,2014-12-20 00:05:37 -0800,Merge pull request #453 from square/jw/auto-deploy,120,6390
+633,3e6872de,FAIL,10,NO,0,NO,0,2014-12-20 02:13:22 -0800,Errors fail the deploy script.,120,6390
+634,ab33f3a8,FAIL,10,NO,0,NO,0,2015-01-24 22:09:06 -0500,Switch Dagger 1.x from JavaWriter to JavaPoet.,120,6383
+635,481c848b,FAIL,10,NO,0,NO,0,2015-01-30 16:52:07 -0800,Merge pull request #458 from square/jwilson_0124_dagger_javapoet,120,6383
+636,6bede9ff,FAIL,9,NO,0,NO,0,2015-02-23 17:32:34 -0800,Improve Module injects documentation,120,6383
+637,27792551,FAIL,10,NO,0,NO,0,2015-02-23 21:40:33 -0500,Merge pull request #478 from niqo01/master,120,6383
+638,80dbcabe,FAIL,8,NO,0,NO,0,2015-02-28 23:05:54 -0700,Fix checkstyle by removing trailing spaces.,120,6383
+639,1b758938,FAIL,10,NO,0,NO,0,2015-03-01 01:23:27 -0500,Merge pull request #479 from chiuki/master,120,6383
+640,c41a3c3a,FAIL,28,NO,0,NO,0,2015-03-03 14:05:44 -0700,Update to the latest Maven Android plugin.,120,6383
+641,b5c65171,FAIL,14,NO,0,NO,0,2015-03-03 17:12:44 -0500,Merge pull request #481 from square/jw/fix-build,120,6383
+642,52277d6b,FAIL,16,NO,0,NO,0,2015-02-28 23:47:29 -0700,Add test to examples/simple (from website),121,6411
+643,618a7d6e,FAIL,14,NO,0,NO,0,2015-03-06 01:50:18 -0500,Merge pull request #480 from chiuki/master,121,6411
+644,1828fb99,FAIL,14,NO,0,NO,0,2015-05-01 17:26:19 +0200,changing JavaWriter to JavaPoet in README.md file,121,6411
+645,dd86611e,FAIL,14,NO,0,NO,0,2015-05-01 11:44:21 -0400,Merge pull request #485 from pwittchen/update_readme,121,6411
+646,744066ad,FAIL,14,NO,0,NO,0,2015-10-26 17:21:51 -0400,Update links to Javadoc.,121,6411
+647,c894b521,FAIL,14,NO,0,NO,0,2015-10-26 17:39:46 -0400,Merge pull request #497 from square/jwilson_1026_update_javadoc_links,121,6411
+648,fa164e97,FAIL,17,NO,0,NO,0,2015-11-16 11:19:59 -0500,Update to JavaPoet 1.4.,121,6411
+649,c4b6b873,FAIL,16,NO,0,NO,0,2015-11-16 14:13:31 -0500,Merge pull request #499 from square/jw/javapoet,121,6411
+650,8f4a753b,FAIL,19,NO,0,NO,0,2015-12-10 00:25:47 -0500,allow use of dollar signs in processed class names,122,6523
+651,3f0db825,FAIL,14,NO,0,NO,0,2015-12-10 15:28:35 -0500,work-around bug in javac in Java 7,122,6528
+652,7e58110c,FAIL,15,NO,0,NO,0,2015-12-10 18:09:44 -0500,Merge pull request #501 from jhump/jh/fix-dollar-signs,122,6528
+653,4f49dd5d,FAIL,15,NO,0,NO,0,2015-12-24 23:26:08 -0500,Remove synthetic accessor method generation by incresing visibility.,121,6411
+654,547203e1,FAIL,15,NO,0,NO,0,2015-12-25 13:04:00 -0500,Merge pull request #504 from square/jw/nuke-synthetics,122,6528
+655,1a0662d8,FAIL,15,NO,0,NO,0,2015-12-25 19:02:51 -0500,Remove redundant interface declarations.,122,6519
+656,bc1227c4,FAIL,18,NO,0,NO,0,2015-12-25 19:25:49 -0500,Merge pull request #506 from square/jw/redundant,122,6519
+657,3e4632b6,FAIL,16,NO,0,NO,0,2015-12-25 19:37:14 -0500,Remove static injection.,120,6352
+658,e4fd3867,FAIL,17,NO,0,NO,0,2015-12-25 21:35:39 -0500,Merge pull request #507 from square/jw/remove-static-injection,120,6352
+659,3c7a5aaa,FAIL,15,NO,0,NO,0,2015-12-26 00:42:27 -0500,Remove runtime static injector.,117,6273
+660,461dc69c,FAIL,19,NO,0,NO,0,2015-12-26 01:36:46 -0500,Next version is 1.3.0.,120,6352
+661,c7f1d6ec,FAIL,15,NO,0,NO,0,2015-12-26 13:28:41 -0500,Merge pull request #509 from square/jw/remove-runtime-static-injection,117,6273
+662,4b21ed07,FAIL,16,NO,0,NO,0,2015-12-26 13:29:21 -0500,Merge pull request #510 from square/jw/next-version,117,6273
+663,10e24e7d,FAIL,15,NO,0,NO,0,2015-12-26 22:43:13 -0500,Remove Java 5 compatibility.,116,6043
+664,ee2b469a,FAIL,15,NO,0,NO,0,2015-12-26 22:51:34 -0500,Merge pull request #511 from square/jw/remove-java-five,116,6043
+665,2fb7a02a,FAIL,14,NO,0,NO,0,2015-12-26 23:37:16 -0500,Remove unused constructor overload,116,6040
+666,9f9db79c,FAIL,15,NO,0,NO,0,2015-12-27 00:21:53 -0500,"Fail on duplicate injects, includes.",116,6071
+667,0494268e,FAIL,14,NO,0,NO,0,2015-12-27 11:32:54 -0500,Merge pull request #512 from square/jw/unused,116,6040
+668,1d72d65b,FAIL,15,NO,0,NO,0,2015-12-27 11:34:11 -0500,Merge pull request #514 from square/jw/fail-on-dups,116,6068
+669,3394840d,FAIL,16,NO,0,NO,0,2015-12-27 19:14:28 -0500,"Upgrade test code to latest versions, standards.",116,6647
+670,d3a8c587,FAIL,13,NO,0,NO,0,2015-12-28 02:19:26 -0500,Merge pull request #515 from square/jw/mindless-refactoring,116,6647
+671,9a4f0f92,FAIL,14,NO,0,NO,0,2016-01-25 13:17:15 -0800,Fix typo,116,6647
+672,3cd51bba,FAIL,13,NO,0,NO,0,2016-01-25 16:24:36 -0500,Merge pull request #516 from NightlyNexus/master,116,6647
+673,ac9e61a6,FAIL,13,NO,0,NO,0,2016-01-30 04:58:47 -0500,Fixed niggling typo,116,6647
+674,51456445,FAIL,13,NO,0,NO,0,2016-01-30 07:11:38 -0500,Merge pull request #517 from Saisi/niggling_typos,116,6647
+675,ee1cfa9b,FAIL,12,NO,0,NO,0,2016-03-21 23:06:26 -0400,Skip integration tests on snapshot deploy.,116,6647
+676,1a5b3623,FAIL,13,NO,0,NO,0,2016-03-22 00:04:16 -0400,Merge pull request #524 from square/jw/skip-it-tests-on-deploy,116,6647
+677,cb3fa609,FAIL,16,NO,0,NO,0,2016-05-02 18:57:38 -0400,"Revert ""Remove Java 5 compatibility.""",117,6877
+678,eefb3e47,FAIL,15,NO,0,NO,0,2016-05-02 18:58:13 -0400,"Revert ""Next version is 1.3.0.""",117,6877
+679,7fd458a3,FAIL,16,NO,0,NO,0,2016-05-02 18:58:27 -0400,"Revert ""Remove runtime static injector.""",120,6956
+680,aa273810,FAIL,16,NO,0,NO,0,2016-05-02 19:47:58 -0400,Update to latest JavaPoet.,116,6647
+681,267e19f5,FAIL,16,NO,0,NO,0,2016-05-02 20:11:20 -0400,Merge pull request #528 from square/jw/revert-api-changes,120,6956
+682,f6f3ef98,FAIL,17,NO,0,NO,0,2016-05-02 20:12:24 -0400,Merge pull request #529 from square/jw/latest-javapoet,120,6956
+683,2e4b076e,FAIL,16,NO,0,NO,0,2016-05-02 21:19:24 -0400,Prepare version 1.2.3.,120,6956
+684,2c292770,FAIL,24,NO,0,NO,0,2016-05-02 21:25:55 -0400,[maven-release-plugin] prepare release dagger-parent-1.2.3,120,6956
+685,c8fdb3d5,FAIL,19,NO,0,NO,0,2016-05-02 21:25:59 -0400,[maven-release-plugin] prepare for next development iteration,120,6956
+686,473529aa,FAIL,18,NO,0,NO,0,2016-05-03 11:51:00 -0400,"Revert ""Remove static injection.""",122,7117
+687,a5a1eeb0,FAIL,19,NO,0,NO,0,2016-05-03 11:55:08 -0400,Prepare version 1.2.4.,122,7117
+688,62df753d,FAIL,25,NO,0,NO,0,2016-05-03 12:06:23 -0400,[maven-release-plugin] prepare release dagger-parent-1.2.4,122,7117
+689,c13f4b12,FAIL,20,NO,0,NO,0,2016-05-03 12:06:26 -0400,[maven-release-plugin] prepare for next development iteration,122,7117
+690,e17bca77,FAIL,17,NO,0,NO,0,2016-05-03 15:13:35 -0300,Fixed changelog date for version 1.2.4,122,7117
+691,290187a5,FAIL,15,NO,0,NO,0,2016-05-03 14:15:13 -0400,Merge pull request #530 from rafaeltoledo/rt/changelog-date,122,7117
+692,91e6c1b5,FAIL,16,NO,0,NO,0,2016-05-07 13:40:27 -0500,Remove generics for the superclass when generating inject adapters,123,7190
+693,e5453726,FAIL,15,NO,0,NO,0,2016-05-09 17:40:09 -0400,Merge pull request #532 from JayNewstrom/remove-generics,123,7190
+694,f32c1531,FAIL,14,NO,0,NO,0,2016-05-09 23:54:39 -0400,Prepare version 1.2.5.,123,7190
+695,e56b39bd,FAIL,22,NO,0,NO,0,2016-05-10 00:00:51 -0400,[maven-release-plugin] prepare release dagger-parent-1.2.5,123,7190
+696,2913739a,FAIL,18,NO,0,NO,0,2016-05-10 00:00:53 -0400,[maven-release-plugin] prepare for next development iteration,123,7190
+697,a0f269af,FAIL,16,NO,0,NO,0,2016-09-15 15:51:49 -0400,Point Dagger users at Dagger 2.,123,7190
+698,9888337e,FAIL,18,NO,0,NO,0,2016-09-15 15:52:44 -0400,Merge pull request #546 from square/jwilson.0915.dagger_1,123,7190
+699,e85f260d,FAIL,16,NO,0,NO,0,2018-01-09 22:38:13 -0500,Add a deprecation note to the website.,123,7190
+700,572cdd2f,FAIL,16,NO,0,NO,0,2018-01-10 10:24:29 -0500,Fix deprecation typos.,123,7190
+701,2db08993,FAIL,19,NO,0,NO,0,2020-12-15 17:07:06 +0000,Bump junit from 4.12 to 4.13.1,123,7190
+702,0fa73e0e,FAIL,13,NO,0,NO,0,2020-12-15 16:55:04 -0500,Merge pull request #571 from square/dependabot/maven/junit-junit-4.13.1,123,7190

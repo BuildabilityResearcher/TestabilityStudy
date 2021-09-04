@@ -1,0 +1,20 @@
+error,count
+DeploymentScenario contains a target (_DEFAULT_) not matching any defined Container in the registry. Please include at least 1 Deployable Container on your Classpath.,97
+Could not connect to DAS on: http://localhost:4848 | Connection refused (Connection refused),121
+Cannot deploy: 7c6cb7ea-b309-4c86-a685-ded675633c24.war,1
+Cannot deploy: f473a2b6-0415-4c17-97af-653db605b5ab.war,1
+Cannot deploy: c421b1ea-979e-4725-8d7c-ce1784608f07.war,1
+Cannot deploy: 726e871c-ad57-4541-9f32-41103953ac68.war,1
+Cannot deploy: c792cf61-3a72-4cd0-b67f-8f394e748d28.war,1
+Cannot deploy: 9003b5f7-21a4-4ad7-9f24-fea6ef4e1001.war,1
+Cannot deploy: f76a80b1-ea57-4e49-be18-483cfb566737.war,1
+Cannot deploy: 7f6b8fd7-4a9f-4eb7-a4eb-55ba58414709.war,1
+Cannot deploy: ba818494-5a5e-4da3-846c-9747b9ecf85e.war,1
+Cannot deploy: cc52f122-b0e4-4c72-b433-2a774f28cef6.war,1
+Cannot deploy: 0fd97988-9c93-454e-9681-acbded474cbd.war,1
+Cannot deploy: d1460391-f821-42f9-abab-9e784e9f1ccb.war,1
+Cannot deploy: 54faf262-cc46-4402-b283-cca112824a85.war,1
+Cannot deploy: b0e25c8e-3464-472c-a606-44f67796ddd6.war,1
+Cannot deploy: c11cb0cc-0973-48d4-8494-f3cab493bef3.war,1
+Cannot deploy: 211f1dfd-7fda-46e5-9b2f-6fcdff71ac6a.war,1
+Cannot deploy: f1223b02-4232-4d80-84ba-8c8562868296.war,1

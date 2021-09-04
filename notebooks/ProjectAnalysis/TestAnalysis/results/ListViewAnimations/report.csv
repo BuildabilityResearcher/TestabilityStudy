@@ -1,0 +1,610 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,5d11119,FAIL,0,NO,0,NO,0,2013-02-19 22:41:56 +0100,Initial commit,9,284
+1,1b5f3a6,FAIL,0,NO,0,NO,0,2013-02-19 22:49:55 +0100,Added example .apk,9,284
+2,cc522d2,FAIL,0,NO,0,NO,0,2013-02-19 23:09:18 +0100,Added app icon,9,284
+3,e21637d,FAIL,0,NO,0,NO,0,2013-02-20 00:14:32 +0100,Reusing Handler instance,9,286
+4,2b8e79d,FAIL,0,NO,0,NO,0,2013-02-20 00:16:29 +0100,Added Play Store link to README,9,286
+5,c0eaa35,FAIL,0,NO,0,NO,0,2013-02-20 00:19:26 +0100,Reuse of endAnimationRunnable,9,286
+6,9c15e16,FAIL,0,NO,0,NO,0,2013-02-20 21:33:33 +0100,Added lint ignore,9,286
+7,c23eee7,FAIL,0,NO,0,NO,0,2013-02-20 21:36:38 +0100,Fixed divider height when removing divider drawable,9,289
+8,ee8011e,FAIL,0,NO,0,NO,0,2013-02-20 21:36:59 +0100,Added Google Cards example,10,354
+9,54db43c,FAIL,0,NO,0,NO,0,2013-02-20 21:38:46 +0100,Proper scrollbarStyle in Google Card example,10,354
+10,25fabdd,FAIL,0,NO,0,NO,0,2013-02-20 22:49:14 +0100,Bump to version 1.1,10,354
+11,e6a9067,FAIL,0,NO,0,NO,0,2013-02-20 22:51:05 +0100,Update .apk to 1.1,10,354
+12,636ae56,FAIL,0,NO,0,NO,0,2013-02-21 22:09:28 +0100,Use of PropertyAnimations,10,365
+13,f76ea0e,FAIL,0,NO,0,NO,0,2013-02-21 22:11:04 +0100,Removed unused files,10,365
+14,6c60e3b,FAIL,0,NO,0,NO,0,2013-02-21 22:12:57 +0100,Use of PropertyAnimations,10,362
+15,cbba3ed,FAIL,0,NO,0,NO,0,2013-02-21 22:27:19 +0100,Added license,10,362
+16,2f773df,FAIL,0,NO,0,NO,0,2013-02-21 22:29:35 +0100,Use of NineOldAndroids library to keep support from API lvl 1,10,359
+17,efe6051,FAIL,0,NO,0,NO,0,2013-02-21 22:33:17 +0100,Fixed minSdkVersion in Manifest,10,359
+18,27d64dc,FAIL,0,NO,0,NO,0,2013-02-21 22:33:53 +0100,Updated README,10,359
+19,a3f08f2,FAIL,0,NO,0,NO,0,2013-02-21 23:14:52 +0100,Removed setAlpha() method that requires API 11.,10,373
+20,53e543c,FAIL,0,NO,0,NO,0,2013-02-21 23:39:12 +0100,Created option to choose between PropertyValues or animation resources,12,404
+21,8d49fc7,FAIL,0,NO,0,NO,0,2013-02-21 23:49:21 +0100,Fixed ready made adapters,12,404
+22,605c866,FAIL,0,NO,0,NO,0,2013-02-21 23:59:26 +0100,minSdkVersion = 4,12,404
+23,3ac77ac,FAIL,0,NO,0,NO,0,2013-02-22 20:57:10 +0100,Fixed negative delay,12,407
+24,5f46b4d,FAIL,0,NO,0,NO,0,2013-02-22 20:59:24 +0100,Bump to version 1.2,12,407
+25,3f7b459,FAIL,0,NO,0,NO,0,2013-02-22 21:01:43 +0100,Removed logs,12,405
+26,69e1fc2,FAIL,0,NO,0,NO,0,2013-02-22 21:02:38 +0100,Update .apk to 1.2,12,405
+27,07ab0fa,FAIL,0,NO,0,NO,0,2013-02-22 21:11:15 +0100,Updated README,12,405
+28,30ac4a9,FAIL,0,NO,0,NO,0,2013-02-22 21:25:19 +0100,Package refactoring,9,357
+29,dc02a5c,FAIL,0,NO,0,NO,0,2013-02-22 21:32:21 +0100,Updated README,12,413
+30,6faea0e,FAIL,0,NO,0,NO,0,2013-02-22 21:33:30 +0100,Updated README,12,413
+31,f1115e4,FAIL,0,NO,0,NO,0,2013-02-22 21:33:59 +0100,Updated README,12,413
+32,3a19ecc,FAIL,0,NO,0,NO,0,2013-02-22 21:34:38 +0100,Updated README,12,413
+33,80ef609,FAIL,0,NO,0,NO,0,2013-02-22 22:09:46 +0100,Fixed <3.0 animations,12,421
+34,e157fdc,FAIL,0,NO,0,NO,0,2013-02-22 22:11:05 +0100,"Removed NineOldAndroids library dependency, added as jar",12,421
+35,35de054,FAIL,0,NO,0,NO,0,2013-02-22 22:14:42 +0100,Fixed hiding of views before animation start,12,412
+36,b6cd645,FAIL,0,NO,0,NO,0,2013-02-22 22:29:48 +0100,Javadoc,12,416
+37,b607d18,FAIL,0,NO,0,NO,0,2013-02-22 22:31:44 +0100,Updated README,12,416
+38,ef2ad0b,FAIL,0,NO,0,NO,0,2013-02-22 22:32:58 +0100,Bump version to 1.3,12,416
+39,a105f0c,FAIL,0,NO,0,NO,0,2013-02-22 22:34:10 +0100,Updated .apk to 1.3,12,416
+40,3ccb467,FAIL,0,NO,0,NO,0,2013-02-22 23:10:10 +0100,Removed unused code,12,412
+41,2e467d1,FAIL,0,NO,0,NO,0,2013-02-23 00:10:15 +0100,AnimationAdapter now follows Decorator pattern,13,461
+42,2025c2a,FAIL,0,NO,0,NO,0,2013-02-23 00:21:18 +0100,Added SwingBottomRightInActivity,14,502
+43,d3a45e7,FAIL,0,NO,0,NO,0,2013-02-23 00:43:25 +0100,Fixed delay when stacking multiple AnimationAdapters on top of eachother,14,517
+44,3b3dbdb,FAIL,0,NO,0,NO,0,2013-02-23 01:03:57 +0100,Removed Context from AnimationAdapter,14,512
+45,aa541c4,FAIL,0,NO,0,NO,0,2013-02-23 01:04:49 +0100,Added short example to SwingBottomRightInActivity,14,515
+46,a91f98f,FAIL,0,NO,0,NO,0,2013-02-23 01:12:58 +0100,Updated README,14,515
+47,b6f7ee5,FAIL,0,NO,0,NO,0,2013-02-23 01:16:55 +0100,Removed Context from AnimationAdapters,14,515
+48,302a8a0,FAIL,0,NO,0,NO,0,2013-02-23 01:17:54 +0100,Bump to version 1.4,14,515
+49,d25c34e,FAIL,0,NO,0,NO,0,2013-02-23 01:18:31 +0100,Update .apk to 1.4,14,515
+50,ab1ff22,FAIL,0,NO,0,NO,0,2013-02-23 20:47:01 +0100,Added option to set animation duration,14,552
+51,d26cc0f,FAIL,0,NO,0,NO,0,2013-02-24 13:09:04 +0100,Pass listview through to all BaseAdapterDecorators,14,560
+52,ced90ae,FAIL,0,NO,0,NO,0,2013-02-24 13:09:45 +0100,Added SwipeDismissAdapter,15,734
+53,abe902d,FAIL,0,NO,0,NO,0,2013-02-24 13:10:22 +0100,Add SwipeDismiss example,17,690
+54,de4f7a5,FAIL,0,NO,0,NO,0,2013-02-24 13:43:37 +0100,SwipeDismissListViewTouchListener in its own file,18,693
+55,e7c9a59,FAIL,0,NO,0,NO,0,2013-02-24 13:59:49 +0100,Sort Activities into packages,18,707
+56,c80d974,FAIL,0,NO,0,NO,0,2013-02-24 15:12:26 +0100,Added item manipulations examples,20,734
+57,eb6d5d8,FAIL,0,NO,0,NO,0,2013-02-24 15:17:30 +0100,Package rename,20,734
+58,9e6a982,FAIL,0,NO,0,NO,0,2013-02-24 15:18:10 +0100,Bump version to 1.5,20,734
+59,1fdcf83,FAIL,0,NO,0,NO,0,2013-02-24 15:23:56 +0100,Bump .apk to 1.5,20,734
+60,b1ea6f6,FAIL,0,NO,0,NO,0,2013-02-24 15:29:24 +0100,Updated README,20,734
+61,8a4d087,FAIL,0,NO,0,NO,0,2013-02-24 15:33:46 +0100,Updated README,20,734
+62,455e74e,FAIL,0,NO,0,NO,0,2013-02-24 17:49:00 +0100,Fixed SwingBottimInActivity crash,20,734
+63,a328acd,FAIL,0,NO,0,NO,0,2013-02-24 17:49:38 +0100,Bump version to 1.5.1,20,734
+64,f10c9a8,FAIL,0,NO,0,NO,0,2013-02-24 17:50:05 +0100,Bump .apk to 1.5.1,20,734
+65,3db684c,FAIL,0,NO,0,NO,0,2013-02-27 20:09:12 +0100,Not using view.setTag() anymore. Fixes #1,20,733
+66,2c9a156,FAIL,0,NO,0,NO,0,2013-02-27 22:54:51 +0100,Using ViewHolder pattern,20,741
+67,0c92bee,FAIL,0,NO,0,NO,0,2013-02-27 22:59:41 +0100,Reuse of images,20,740
+68,54df5b2,FAIL,0,NO,0,NO,0,2013-02-27 23:19:28 +0100,Added caching of bitmaps,20,773
+69,07546d2,FAIL,0,NO,0,NO,0,2013-02-27 23:39:22 +0100,Set bitmap to imageview,20,771
+70,26afb6a,FAIL,0,NO,0,NO,0,2013-02-27 23:55:10 +0100,Added ScaleInAnimationAdapter,21,792
+71,9ff2c71,FAIL,0,NO,0,NO,0,2013-02-27 23:55:42 +0100,Added scale to GoogleCardsActivity,21,785
+72,73cc3e4,FAIL,0,NO,0,NO,0,2013-02-28 00:02:04 +0100,Added parameters to ScaleInAnimationAdapter,21,796
+73,f0691ad,FAIL,0,NO,0,NO,0,2013-02-28 00:08:11 +0100,Added scale in example,22,812
+74,101d796,FAIL,0,NO,0,NO,0,2013-02-28 00:09:11 +0100,Bumped version to 1.6,22,812
+75,45967c0,FAIL,0,NO,0,NO,0,2013-02-28 00:10:00 +0100,Bump .apk to 1.6,22,812
+76,5ff3035,FAIL,0,NO,0,NO,0,2013-02-28 00:16:12 +0100,Updated README,22,812
+77,5e36a12,FAIL,0,NO,0,NO,0,2013-03-02 11:55:18 +0100,AnimationAdapters now don't hide the dividers anymore.,22,804
+78,7b9fa55,FAIL,0,NO,0,NO,0,2013-03-02 11:57:25 +0100,Removed dividers in examples,22,809
+79,66273ba,FAIL,0,NO,0,NO,0,2013-03-02 12:00:01 +0100,SwipeToDismiss example now works on whole row width.,22,809
+80,1fd7c78,FAIL,0,NO,0,NO,0,2013-03-02 12:26:54 +0100,"Fixed height problems when using list items with different heights in combination with swipe to dismiss, thanks to Tony Owen. Fixes #2",22,809
+81,1d0cbb3,FAIL,0,NO,0,NO,0,2013-03-02 12:34:52 +0100,Added swipe to dismiss to Google cards example,22,815
+82,0038b59,FAIL,0,NO,0,NO,0,2013-03-02 12:37:38 +0100,Bumped to version 1.7,22,815
+83,68ac7a2,FAIL,0,NO,0,NO,0,2013-03-02 12:38:28 +0100,Bump .apk to 1.7,22,815
+84,9ac4a3d,FAIL,0,NO,0,NO,0,2013-03-02 12:40:14 +0100,Updated README,22,815
+85,6aca9d9,FAIL,0,NO,0,NO,0,2013-03-04 10:48:35 +0100,Removed unused javadoc,22,815
+86,c94f30e,FAIL,0,NO,0,NO,0,2013-03-05 18:43:17 +0100,Added indexOf() to ArrayAdapter,22,817
+87,565f721,FAIL,0,NO,0,NO,0,2013-03-05 19:39:04 +0100,Added removePositions() to ArrayAdapter,22,825
+88,f682b47,FAIL,0,NO,0,NO,0,2013-03-05 19:39:32 +0100,Fixed license,22,825
+89,46ba836,FAIL,0,NO,0,NO,0,2013-03-05 19:40:12 +0100,Fixed javadoc,22,825
+90,caf2b0f,FAIL,0,NO,0,NO,0,2013-03-05 19:40:33 +0100,Created AnimateDismissAdapter,24,1015
+91,e596caf,FAIL,0,NO,0,NO,0,2013-03-05 20:10:01 +0100,Removed long duration,24,1014
+92,85a5e7a,FAIL,0,NO,0,NO,0,2013-03-05 20:29:18 +0100,Added animate dismiss example,25,1072
+93,5ab9093,FAIL,0,NO,0,NO,0,2013-03-05 20:29:34 +0100,Use a copy of given positions collection,25,1073
+94,6a57b21,FAIL,0,NO,0,NO,0,2013-03-05 20:32:57 +0100,Removed scalein from google cards due to performance issues on scaling imageview.,25,1070
+95,fad3ce1,FAIL,0,NO,0,NO,0,2013-03-05 21:03:38 +0100,Not requiring ArrayAdapter for AnimateDismiss; Using OnDismissCallback for AnimateDismiss,25,973
+96,b2d6d06,FAIL,0,NO,0,NO,0,2013-03-05 21:09:45 +0100,Renamed method remove to animateDismiss,25,973
+97,ef73641,FAIL,0,NO,0,NO,0,2013-03-05 21:11:46 +0100,Updated README,25,973
+98,8a77d3b,FAIL,0,NO,0,NO,0,2013-03-05 21:26:51 +0100,Bump version to 1.8,25,973
+99,0c5a6b9,FAIL,0,NO,0,NO,0,2013-03-05 21:27:12 +0100,Bump .apk to 1.8,25,973
+100,b741ba8,FAIL,0,NO,0,NO,0,2013-03-06 23:07:51 +0100,Wider text to better show animations.,25,973
+101,10b0921,FAIL,0,NO,0,NO,0,2013-03-07 20:45:11 +0100,Updated javadoc,25,973
+102,ef24944,FAIL,0,NO,0,NO,0,2013-03-19 13:04:46 +0100,Added jar file,25,973
+103,4de493d,FAIL,0,NO,0,NO,0,2013-03-19 13:06:56 +0100,Updated README,25,973
+104,9e7095c,FAIL,0,NO,0,NO,0,2013-03-20 00:12:54 +0000,Working implementation of Contextual Undo pattern,29,1355
+105,8688030,FAIL,0,NO,0,NO,0,2013-03-20 20:21:45 +0000,Remove useless comments,29,1355
+106,7038844,FAIL,0,NO,0,NO,0,2013-03-24 19:31:39 +0100,Fixed license,25,973
+107,c92c47d,FAIL,0,NO,0,NO,0,2013-03-24 19:35:56 +0100,Added licensing,29,1355
+108,bb994dc,FAIL,0,NO,0,NO,0,2013-03-24 19:40:18 +0100,Removed abundant methods,29,1350
+109,fa851d1,FAIL,0,NO,0,NO,0,2013-03-24 19:43:37 +0100,Added modifiers,29,1352
+110,77eff42,FAIL,0,NO,0,NO,0,2013-03-24 19:56:10 +0100,Removed abundant methods,29,1346
+111,7824665,FAIL,0,NO,0,NO,0,2013-03-24 20:22:38 +0100,Renamed variables,29,1347
+112,4732bca,FAIL,0,NO,0,NO,0,2013-03-24 21:47:35 +0100,Moved and renamed some fuctions,29,1355
+113,445dbd6,FAIL,0,NO,0,NO,0,2013-03-24 22:12:14 +0100,Moved contextual undo example activity,29,1359
+114,51c7cb5,FAIL,0,NO,0,NO,0,2013-03-24 22:35:21 +0100,Recreated ContextualUndoActivity,29,1324
+115,2d0fce6,FAIL,0,NO,0,NO,0,2013-03-24 22:46:07 +0100,Use position for callback instead of item,29,1322
+116,1d51f3f,FAIL,0,NO,0,NO,0,2013-03-25 11:36:16 +0100,Prettified undo state,29,1322
+117,c4ae8e5,FAIL,0,NO,0,NO,0,2013-03-25 11:42:30 +0100,Merge branch 'frankiesardo-master' into dev,29,1322
+118,c6b2d8f,FAIL,0,NO,0,NO,0,2013-03-25 11:46:54 +0100,Shortened performDismiss animation time,29,1322
+119,5fbafc0,FAIL,0,NO,0,NO,0,2013-04-08 11:31:30 +0200,"Before canceling current animation, check if new animation would be for current animation. If so, don't cancel. Should fix #5",29,1336
+120,98a3411,FAIL,0,NO,0,NO,0,2013-04-08 12:50:57 +0200,Added reset function to AnimationAdapter.,29,1344
+121,dc1ba41,FAIL,0,NO,0,NO,0,2013-04-08 12:53:29 +0200,Bump version to 1.9,29,1344
+122,2e2b6ff,FAIL,0,NO,0,NO,0,2013-04-08 13:00:44 +0200,Updated files to 1.9,29,1344
+123,d1a11f3,FAIL,23,NO,0,NO,0,2013-04-13 08:04:01 +0200,Mavenized project,29,1343
+124,240b2a7,FAIL,0,NO,0,NO,0,2013-05-23 15:44:54 +0200,Added AlphaAnimationAdapter,30,1362
+125,02d3a37,FAIL,6,NO,0,NO,0,2013-05-29 12:19:09 -0700,Merge pull request #7 from hameno/mavenize,30,1361
+126,2081d3d,FAIL,7,NO,0,NO,0,2013-05-29 22:02:34 +0200,Added AlphaInAnimation example,31,1378
+127,96eb78d,FAIL,6,NO,0,NO,0,2013-05-29 22:09:09 +0200,Removed fading edge on pre-ICS devices in the GoogleCardsActivity. Fixes #8,31,1378
+128,8ce8819,FAIL,6,NO,0,NO,0,2013-05-29 23:06:14 +0200,Updated readme,31,1378
+129,07cc1e9,FAIL,6,NO,0,NO,0,2013-05-30 20:05:53 +0200,Updated README,31,1378
+130,f162d6b,FAIL,6,NO,0,NO,0,2013-06-15 21:07:54 +0200,ArrayAdapter excepts List in constructor,31,1379
+131,61fcbc4,FAIL,6,NO,0,NO,0,2013-06-15 21:36:02 +0200,Accept AbsListView instead of ListView,31,1391
+132,7f41d43,FAIL,7,NO,0,NO,0,2013-06-15 21:59:11 +0200,Take GridView in account when calculating delays,31,1394
+133,154dec9,FAIL,6,NO,0,NO,0,2013-06-15 22:10:37 +0200,Implemented new GridView example,32,1469
+134,98e6400,FAIL,6,NO,0,NO,0,2013-06-16 11:24:00 +0200,Created ExpandableListItemAdapter,33,1611
+135,6081d35,FAIL,6,NO,0,NO,0,2013-06-16 11:30:46 +0200,Created ExpandableListItemActivity,34,1698
+136,59c4ca2,FAIL,6,NO,0,NO,0,2013-06-16 11:36:23 +0200,Added titles to activities,34,1698
+137,765e250,FAIL,7,NO,0,NO,0,2013-06-16 11:36:43 +0200,Bump version,34,1698
+138,dab3374,FAIL,7,NO,0,NO,0,2013-06-16 11:42:00 +0200,Fixed warnings,34,1695
+139,230720c,FAIL,7,NO,0,NO,0,2013-06-16 11:52:17 +0200,Cleanup & Javadoc,34,1688
+140,362047d,FAIL,6,NO,0,NO,0,2013-06-16 11:59:06 +0200,Updated .jar and .apk,34,1688
+141,a47ef22,FAIL,7,NO,0,NO,0,2013-06-16 12:03:30 +0200,Updated ReadMe,34,1688
+142,3785095,FAIL,7,NO,0,NO,0,2013-06-16 12:06:53 +0200,Updated ReadMe,34,1688
+143,1f35043,FAIL,6,NO,0,NO,0,2013-07-02 09:36:10 +0100,Tweaked minFlingVelocity in swipe dismiss listener,34,1688
+144,490f876,FAIL,7,NO,0,NO,0,2013-07-02 14:04:20 -0700,Merge pull request #15 from storkme/master,34,1688
+145,8434adc,FAIL,7,NO,0,NO,0,2013-07-03 00:03:24 +0200,Merge branch 'master' of https://github.com/nhaarman/ListViewAnimations into dev,34,1688
+146,2d2efec,FAIL,7,NO,0,NO,0,2013-07-03 21:09:09 +0200,Fixed GridView crash API<11,34,1689
+147,ee5247a,FAIL,7,NO,0,NO,0,2013-07-11 11:41:16 +0200,Added Javadoc to ContextualUndoAdapter and ContextualUndoListViewTouchListener. #1.,34,1688
+148,c37d236,FAIL,7,NO,0,NO,0,2013-07-11 11:58:00 +0200,Preparations for deploy,34,1689
+149,c69f0c7,FAIL,6,NO,0,NO,0,2013-07-11 12:07:39 +0200,Updated binary files,34,1687
+150,3a48638,FAIL,7,NO,0,NO,0,2013-08-06 21:49:36 +0200,Updated README,34,1687
+151,ce5749c,FAIL,7,NO,0,NO,0,2013-08-08 14:20:17 +0200,Small code improvements,34,1666
+152,a3feea0,FAIL,7,NO,0,NO,0,2013-08-14 19:59:38 -0700,Added a check so only instances of ContextualUndoView are swipeable.  Allowing for mixing of view types with some un-dissmissible,34,1687
+153,f4c50da,FAIL,6,NO,0,NO,0,2013-08-21 22:03:01 -0700,"Added support for auto deletion after a delay when an item is removed by swipe, and two example activities",36,1798
+154,38222d9,FAIL,8,NO,0,NO,0,2013-08-24 16:26:29 +0200,Added shouldAnimate method,34,1672
+155,2747f41,FAIL,7,NO,0,NO,0,2013-08-24 21:10:42 +0200,"Removed TextSwitcher and CountDownTimer, now uses Handler.postDelayed().",36,1792
+156,2693a01,FAIL,7,NO,0,NO,0,2013-08-24 21:20:37 +0200,Merge branch 'dev' into pr/n23_maxjspaulding,36,1776
+157,69f3389,FAIL,7,NO,0,NO,0,2013-08-24 21:20:54 +0200,Merge branch 'pr/n23_maxjspaulding' into dev,36,1776
+158,03f9c49,FAIL,7,NO,0,NO,0,2013-08-24 21:29:56 +0200,Fixed clipToPadding and scrollbar styles.,36,1776
+159,258a517,FAIL,7,NO,0,NO,0,2013-08-24 21:30:46 +0200,Merge branch 'dev',36,1776
+160,6067219,FAIL,7,NO,0,NO,0,2013-08-24 21:37:11 +0200,Updated README,36,1776
+161,75ea7b8,FAIL,8,NO,0,NO,0,2013-08-24 21:37:46 +0200,Bump version,36,1776
+162,2f3c5ac,FAIL,7,NO,0,NO,0,2013-08-24 21:40:13 +0200,Update binary files,36,1776
+163,0e29a2b,FAIL,6,NO,0,NO,0,2013-08-24 22:46:00 +0200,Fixed shouldAnimate,36,1776
+164,a4dd071,FAIL,7,NO,0,NO,0,2013-08-25 12:35:41 +0200,Made BaseAdapterDecorator implement SectionIndexer,36,1792
+165,2730c66,FAIL,7,NO,0,NO,0,2013-08-25 12:35:51 +0200,Merge branch 'master' into dev,36,1792
+166,b4a8d11,FAIL,7,NO,0,NO,0,2013-08-25 13:29:20 +0200,Cleanup,36,1791
+167,fe88f0f,FAIL,7,NO,0,NO,0,2013-08-26 17:23:22 +0200,Update README.md,36,1776
+168,77cbb1b,FAIL,7,NO,0,NO,0,2013-08-26 09:02:43 -0700,Merge pull request #25 from Informaticore/patch-1,36,1776
+169,a6a046d,FAIL,6,NO,0,NO,0,2013-08-26 18:09:47 +0200,Fixed NullPointerException in getView of ContextualUndoAdapter,36,1777
+170,f59dc6a,FAIL,7,NO,0,NO,0,2013-08-26 14:51:37 -0700,Merge pull request #27 from Informaticore/master,36,1777
+171,8ac6105,FAIL,7,NO,0,NO,0,2013-08-27 00:01:01 +0200,Merge branch 'master' of https://github.com/nhaarman/ListViewAnimations into dev,36,1792
+172,371a0f4,FAIL,7,NO,0,NO,0,2013-08-27 00:08:55 +0200,Bump version,36,1792
+173,1a63096,FAIL,7,NO,0,NO,0,2013-08-27 00:10:48 +0200,Update binaries,36,1792
+174,1e75abf,FAIL,7,NO,0,NO,0,2013-08-27 00:11:06 +0200,Merge branch 'dev',36,1792
+175,b2af81d,FAIL,7,NO,0,NO,0,2013-08-27 00:17:51 +0200,Fixed another nullpointer,36,1793
+176,c53241a,FAIL,7,NO,0,NO,0,2013-08-27 00:19:23 +0200,Bump version,36,1793
+177,b32cbc8,FAIL,7,NO,0,NO,0,2013-08-27 00:19:47 +0200,Updated binaries,36,1793
+178,d9535d2,FAIL,7,NO,0,NO,0,2013-08-27 00:19:55 +0200,Merge branch 'dev',36,1793
+179,24d2409,FAIL,8,NO,0,NO,0,2013-08-27 08:55:54 +0200,Restructure SwipeDismissListViewTouchListener,36,1799
+180,b2a858c,FAIL,6,NO,0,NO,0,2013-08-27 12:55:40 +0200,Added option to set initial delay of AnimationAdapter,34,1688
+181,4ce8b39,FAIL,8,NO,0,NO,0,2013-08-27 12:55:44 +0200,Merge branch 'master' into dev,34,1688
+182,2fdc5e1,FAIL,7,NO,0,NO,0,2013-08-27 12:57:17 +0200,Merge branch 'master' into dev,36,1795
+183,84947a4,FAIL,8,NO,0,NO,0,2013-08-27 12:58:13 +0200,Complete merge,36,1795
+184,e977e2f,FAIL,7,NO,0,NO,0,2013-08-27 21:29:16 +0200,Possible fix for double dismissing positions,36,1817
+185,7358977,FAIL,7,NO,0,NO,0,2013-08-27 22:14:32 +0200,Stuff,36,1827
+186,22e4c64,FAIL,8,NO,0,NO,0,2013-08-27 23:58:02 +0200,Possible fix number 2,36,1824
+187,4fe1eaa,FAIL,7,NO,0,NO,0,2013-08-27 23:58:52 +0200,Bump version,36,1824
+188,f174010,FAIL,7,NO,0,NO,0,2013-08-29 22:43:48 +0200,Merge branch 'dev' into dev_test,36,1824
+189,baa8118,FAIL,7,NO,0,NO,0,2013-08-29 22:46:07 +0200,Remove unnecessary code,36,1822
+190,dd127d8,FAIL,6,NO,0,NO,0,2013-08-29 22:46:14 +0200,Merge branch 'dev_test' into dev,36,1822
+191,7a110b1,FAIL,8,NO,0,NO,0,2013-08-29 22:48:44 +0200,Merge branch 'dev' of https://github.com/nhaarman/ListViewAnimations into dev,36,1824
+192,a67e895,FAIL,7,NO,0,NO,0,2013-08-30 18:42:40 +0200,Created menu link to github,36,1840
+193,5124bdf,FAIL,7,NO,0,NO,0,2013-09-03 11:17:43 +0800,add gradle support,36,1824
+194,dc0e34f,FAIL,6,NO,0,NO,0,2013-09-03 01:22:27 -0700,Merge pull request #29 from googolmo/dev,36,1824
+195,f74023b,FAIL,6,NO,0,NO,0,2013-09-04 13:07:50 +0200,Added Github icon in menu,36,1840
+196,0862de7,FAIL,7,NO,0,NO,0,2013-09-04 13:09:20 +0200,Merge branch 'dev' of https://github.com/nhaarman/ListViewAnimations into dev,36,1840
+197,f7166eb,FAIL,7,NO,0,NO,0,2013-09-04 13:23:17 +0200,Fixed fast contextual undo crash,36,1838
+198,7d47cda,FAIL,7,NO,0,NO,0,2013-09-04 13:25:52 +0200,Bump version,36,1838
+199,5102582,FAIL,7,NO,0,NO,0,2013-09-04 13:26:54 +0200,Updated binary files,36,1838
+200,35d5798,FAIL,7,NO,0,NO,0,2013-09-04 13:27:15 +0200,Updated README,36,1838
+201,8b3b33f,FAIL,7,NO,0,NO,0,2013-09-04 13:27:21 +0200,Merge branch 'dev',36,1838
+202,a8fe70a,FAIL,8,NO,0,NO,0,2013-09-05 15:55:22 +0200,Animated StickyListHeadersAdapters.,36,1870
+203,5cb3b6b,FAIL,7,NO,0,NO,0,2013-09-05 16:37:28 +0200,Created StickyListHeaders example,37,1928
+204,7f22b6f,FAIL,6,NO,0,NO,0,2013-09-05 16:55:55 +0200,Bump version,37,1928
+205,b07e978,FAIL,7,NO,0,NO,0,2013-09-05 16:56:40 +0200,Updated binaries,37,1928
+206,79b838f,FAIL,7,NO,0,NO,0,2013-09-05 16:56:50 +0200,Updated README,37,1928
+207,ad74151,FAIL,7,NO,0,NO,0,2013-09-05 16:57:24 +0200,Merge branch 'dev',37,1928
+208,747f880,FAIL,7,NO,0,NO,0,2013-09-05 20:47:23 +0200,Rewritten example application,27,1986
+209,9a8753d,FAIL,7,NO,0,NO,0,2013-09-05 20:49:34 +0200,Bump version,27,1986
+210,4fab887,FAIL,6,NO,0,NO,0,2013-09-05 20:50:56 +0200,Updated binaries,27,1986
+211,9f42e27,FAIL,8,NO,0,NO,0,2013-09-05 20:51:16 +0200,Updated README,27,1986
+212,dd31b8f,FAIL,7,NO,0,NO,0,2013-09-05 20:51:31 +0200,Merge branch 'dev',27,1986
+213,b898569,FAIL,7,NO,0,NO,0,2013-09-11 14:38:01 +0200,Added option to start animations from a certain position. Fixes #31.,27,1998
+214,3caf2e8,FAIL,7,NO,0,NO,0,2013-09-11 15:26:34 +0200,Added option to specify the resource id of a View that will be the expand / collapse animation actuator. Fixes #33.,27,2004
+215,b95a3c8,FAIL,6,NO,0,NO,0,2013-09-11 21:46:18 +0200,Update the virtual list count when the data set is changed. Fixes #30.,27,2011
+216,8ffb5fe,FAIL,6,NO,0,NO,0,2013-09-11 21:50:33 +0200,Update javadoc,27,2011
+217,b452aa8,FAIL,7,NO,0,NO,0,2013-09-11 22:30:02 +0200,Quick fix,27,2012
+218,3cc53a6,FAIL,7,NO,0,NO,0,2013-09-11 22:38:34 +0200,Added option to swipe a view at given position. Fixes #17,27,2033
+219,d4bbf09,FAIL,7,NO,0,NO,0,2013-09-11 22:44:12 +0200,Bump version,27,2033
+220,34c3968,FAIL,7,NO,0,NO,0,2013-09-11 22:45:24 +0200,Update binary files,27,2033
+221,a3e1860,FAIL,7,NO,0,NO,0,2013-09-11 22:55:09 +0200,Updated README,27,2033
+222,e365697,FAIL,7,NO,0,NO,0,2013-09-11 22:57:03 +0200,Updated README,27,2033
+223,b748780,FAIL,7,NO,0,NO,0,2013-09-11 22:58:15 +0200,Updated README,27,2033
+224,7026af7,FAIL,7,NO,0,NO,0,2013-09-11 16:39:42 -0400,Added DynamicListView from DevBytes series.,28,2356
+225,77b378e,FAIL,7,NO,0,NO,0,2013-09-12 18:20:57 +0200,"streetsofboston: ""Added DynamicLlistView for dragging and dropping list-items. ListViews can now be in horizontal scroll containers and still behave as expected.""",29,2414
+226,4cb195f,FAIL,7,NO,0,NO,0,2013-09-12 18:48:44 +0200,Dynamic ListView uses NineOldAndroids,29,2415
+227,60624cb,FAIL,8,NO,0,NO,0,2013-09-12 20:38:15 +0200,Don't call getItemId with impossible values,29,2401
+228,cc35238,FAIL,7,NO,0,NO,0,2013-09-12 20:44:36 +0200,"Added default swapItems(int, int) implementation to ArrayAdapter",29,2407
+229,d337138,FAIL,8,NO,0,NO,0,2013-09-12 20:48:25 +0200,Moved Swappable interface,28,2407
+230,1d29367,FAIL,7,NO,0,NO,0,2013-09-12 20:57:44 +0200,Created Drag and Drop example,29,2467
+231,1e5b804,FAIL,7,NO,0,NO,0,2013-09-12 20:58:05 +0200,Merge branch 'dev_sp' into dev,29,2467
+232,f3459c2,FAIL,7,NO,0,NO,0,2013-09-12 21:33:05 +0200,Abstracted things,30,2385
+233,70aad0d,FAIL,7,NO,0,NO,0,2013-09-12 21:33:20 +0200,Better images,30,2385
+234,a4359b9,FAIL,7,NO,0,NO,0,2013-09-12 21:34:17 +0200,Bump version,30,2387
+235,dbe7d47,FAIL,7,NO,0,NO,0,2013-09-12 21:41:19 +0200,Updated README,30,2387
+236,e8544e3,FAIL,7,NO,0,NO,0,2013-09-12 21:42:29 +0200,Updated binary files,30,2387
+237,32e7463,FAIL,7,NO,0,NO,0,2013-09-12 21:42:41 +0200,Merge branch 'dev',30,2387
+238,38b4364,FAIL,7,NO,0,NO,0,2013-09-12 18:25:51 -0400,Fix build errors.,30,2387
+239,b3a4e29,FAIL,6,NO,0,NO,0,2013-09-12 17:38:38 -0400,Be able to dedicate a child inside a list-item that the user can target to start swiping or dragging.,30,2520
+240,f48519d,FAIL,7,NO,0,NO,0,2013-09-12 20:32:00 -0400,"When the user is swiping and then moving upwards or downwards (vertically), the swipe suddenly changed into a drag&drop. Thiis has sometimes strange consequences. Instead, when the user is swiping, never stop swiping until the user releases his/her finger.",31,2538
+241,95e47f4,FAIL,7,NO,0,NO,0,2013-09-12 21:03:01 -0400,Allow the hover-cell (i.e. the list-item being dragged) to be custom drawn through a callback.,31,2546
+242,2495181,FAIL,6,NO,0,NO,0,2013-09-13 16:21:22 +0200,"Revert ""Fix build errors.""",31,2546
+243,4af89c4,FAIL,6,NO,0,NO,0,2013-09-16 16:15:42 +0200,fix #35,31,2435
+244,da1a004,FAIL,7,NO,0,NO,0,2013-09-16 16:32:29 +0200,add newline for github not to cry,31,2435
+245,363d357,FAIL,6,NO,0,NO,0,2013-09-19 10:07:12 +0200,Project properties,31,2546
+246,969806a,FAIL,7,NO,0,NO,0,2013-09-22 10:24:06 +0200,dispatch code in different functions to help override,31,2443
+247,f39000c,FAIL,7,NO,0,NO,0,2013-09-22 10:25:27 +0200,not much (private -> protected),31,2437
+248,a971c42,FAIL,7,NO,0,NO,0,2013-09-23 13:45:25 +0900,Making ContextualUndoListViewTouchListener less sensitive,30,2396
+249,09877d6,FAIL,6,NO,0,NO,0,2013-10-03 15:02:58 +0200,Project setup fixes,30,2388
+250,004bd24,FAIL,6,NO,0,NO,0,2013-10-03 15:03:07 +0200,Merge branch 'dev',30,2388
+251,b438f79,FAIL,7,NO,0,NO,0,2013-10-07 13:03:04 +0200,Fix contentView parent,30,2388
+252,b2a7d26,FAIL,7,NO,0,NO,0,2013-10-07 06:36:53 -0700,Merge pull request #45 from BraisGabin/patch-1,30,2388
+253,bae10c2,FAIL,6,NO,0,NO,0,2013-10-08 12:37:18 +0200,Fix accidental dismiss onClick,30,2389
+254,e0fe39c,FAIL,6,NO,0,NO,0,2013-10-08 16:49:22 +0200,Fix viewHolder.contentParent & recycle check,30,2388
+255,a6aa8d9,FAIL,7,NO,0,NO,0,2013-10-11 22:57:07 +0200,(Possibly temporarily) Removed StickyListHeaders library support,30,2319
+256,141984a,FAIL,7,NO,0,NO,0,2013-10-12 22:23:56 +0200,Updated readme,30,2319
+257,0b0c394,FAIL,7,NO,0,NO,0,2013-10-12 22:46:48 +0200,Merge branch 'dev' into pr/n36_quazardous,31,2370
+258,40060e7,FAIL,6,NO,0,NO,0,2013-10-12 23:03:14 +0200,Merge branch 'dev' into pr/n34_streetsofboston,31,2478
+259,88db2c1,FAIL,7,NO,0,NO,0,2013-10-12 23:05:10 +0200,Project fixes,31,2478
+260,ba01e86,FAIL,7,NO,0,NO,0,2013-10-12 23:12:11 +0200,Cleanup,31,2478
+261,684fbcf,FAIL,7,NO,0,NO,0,2013-10-12 23:12:24 +0200,Merge branch 'pr/n34_streetsofboston' into dev,31,2478
+262,fc6bac6,FAIL,6,NO,0,NO,0,2013-10-12 23:17:43 +0200,Merge branch 'dev' into pr/n42_inmyth,31,2486
+263,4c023e4,FAIL,6,NO,0,NO,0,2013-10-12 23:18:00 +0200,Merge branch 'pr/n42_inmyth' into dev,31,2486
+264,6dd4adc,FAIL,7,NO,0,NO,0,2013-10-12 23:18:25 +0200,Merge branch 'dev' into pr/n47_BraisGabin,31,2487
+265,f51d070,FAIL,7,NO,0,NO,0,2013-10-12 23:22:40 +0200,Merge branch 'pr/n47_BraisGabin' into dev,31,2487
+266,ee16225,FAIL,7,NO,0,NO,0,2013-10-12 23:23:04 +0200,Merge branch 'dev' into pr/n49_BraisGabin,31,2487
+267,edbbad9,FAIL,6,NO,0,NO,0,2013-10-13 16:53:13 +0200,Proper recycling,31,2487
+268,016f081,FAIL,7,NO,0,NO,0,2013-10-13 16:53:26 +0200,Merge branch 'pr/n49_BraisGabin' into dev,31,2487
+269,f427e4a,FAIL,7,NO,0,NO,0,2013-10-13 16:59:00 +0200,Use AnimatorListenerAdapter instead of AnimatorListener,31,2470
+270,99dfacc,FAIL,7,NO,0,NO,0,2013-10-13 17:15:51 +0200,Added option to limit the number of expanded items to 1.,31,2489
+271,364c407,FAIL,7,NO,0,NO,0,2013-10-13 17:36:58 +0200,Extended limit to an arbitrary value. Fixes #52.,31,2491
+272,e38e97d,FAIL,7,NO,0,NO,0,2013-10-13 18:09:28 +0200,Added limit to example app,31,2508
+273,71ac2b8,FAIL,6,NO,0,NO,0,2013-10-13 19:44:03 +0200,Added buy me a beer,31,2592
+274,95a2bff,FAIL,7,NO,0,NO,0,2013-10-13 19:49:14 +0200,Merge branch 'dev' into pr/n36_quazardous,32,2643
+275,c1468da,FAIL,6,NO,0,NO,0,2013-10-13 19:57:12 +0200,Cleanup,32,2642
+276,005f0d2,FAIL,7,NO,0,NO,0,2013-10-13 19:57:22 +0200,Merge branch 'pr/n36_quazardous' into dev,32,2642
+277,e0aa541,FAIL,7,NO,0,NO,0,2013-10-13 19:59:23 +0200,Merge branch 'dev',32,2642
+278,9fe7b58,FAIL,6,NO,0,NO,0,2013-10-13 20:09:41 +0200,Bump version,32,2642
+279,748f54a,FAIL,7,NO,0,NO,0,2013-10-13 20:23:06 +0200,Update binaries,32,2643
+280,1d06cd8,FAIL,6,NO,0,NO,0,2013-10-13 20:23:58 +0200,Update README,32,2643
+281,5e260f5,FAIL,8,NO,0,NO,0,2013-10-13 20:24:04 +0200,Merge branch 'dev',32,2643
+282,3351aa8,FAIL,7,NO,0,NO,0,2013-10-14 20:29:30 +0200,Crashfix when limited,32,2651
+283,fedb6ff,FAIL,6,NO,0,NO,0,2013-10-14 20:30:01 +0200,Bump version,32,2651
+284,6ef89dc,FAIL,6,NO,0,NO,0,2013-10-14 20:31:50 +0200,Updated binaries,32,2651
+285,e73f7dd,FAIL,6,NO,0,NO,0,2013-10-14 20:32:00 +0200,Merge branch 'dev',32,2651
+286,7f5dbd8,FAIL,7,NO,0,NO,0,2013-10-14 20:33:19 +0200,Updated README,32,2651
+287,ffbabc8,FAIL,6,NO,0,NO,0,2013-10-25 13:32:20 -0700,update project so it can be build with latest android studio,32,2651
+288,54693cb,FAIL,7,NO,0,NO,0,2013-10-27 01:26:43 -0700,Merge pull request #57 from yangcheng/master,32,2651
+289,065ab19,FAIL,6,NO,0,NO,0,2013-10-29 07:57:38 +0630,Fixed link for StickyListHeader as the github page doesn't exist,32,2651
+290,3070372,FAIL,6,NO,0,NO,0,2013-11-06 20:23:09 +0100,Updated target SDK to 19,32,2651
+291,e83679e,FAIL,7,NO,0,NO,0,2013-11-06 20:23:19 +0100,Merge branch 'master' into dev,32,2651
+292,30b18c6,FAIL,6,NO,0,NO,0,2013-11-06 20:56:52 +0100,Removed StickyListHeaders references - it is not used anymore,32,2651
+293,6d649e1,FAIL,8,NO,0,NO,0,2013-11-06 20:57:01 +0100,Merge branch 'pr/n60_yelinaung' into dev,32,2651
+294,5889b11,FAIL,6,NO,0,NO,0,2013-11-06 22:12:04 +0100,Removed leftover stickylistheaders code,32,2651
+295,c2f396b,FAIL,6,NO,0,NO,0,2013-11-06 23:00:50 +0100,Re-introduced issue #5 to fix a more serious bug where items would disappear when recycling a view for the same position. Fixes #51,32,2638
+296,509d5ab,FAIL,6,NO,0,NO,0,2013-11-06 23:18:04 +0100,Fix expanded items not expanded after recycle. Fixes #50.,32,2642
+297,17d824d,FAIL,6,NO,0,NO,0,2013-11-06 23:34:10 +0100,Fixed positions callback on swipe to dismiss and animate dismiss. Fixes #54,32,2644
+298,2bacc88,FAIL,6,NO,0,NO,0,2013-11-06 23:53:37 +0100,Fixed drag&drop with headers in the listview. Fixes #43.,32,2658
+299,a30fa7b,FAIL,7,NO,0,NO,0,2013-11-07 00:00:59 +0100,Added methods to provide animation timings. Fixes #59,32,2670
+300,530590b,FAIL,6,NO,0,NO,0,2013-11-07 01:08:51 +0100,Started ui change,32,2673
+301,ac212cd,FAIL,7,NO,0,NO,0,2013-11-07 01:26:18 +0100,Fixed gridview animation,32,2669
+302,1172a83,FAIL,6,NO,0,NO,0,2013-11-07 01:26:24 +0100,Merge branch 'dev' into dev_ui,32,2672
+303,e77cdef,FAIL,6,NO,0,NO,0,2013-11-07 02:20:38 +0100,KitKatified,32,2679
+304,0815d75,FAIL,7,NO,0,NO,0,2013-11-07 02:20:46 +0100,Merge branch 'dev_ui' into dev,32,2679
+305,a23e55e,FAIL,6,NO,0,NO,0,2013-11-07 02:26:23 +0100,Fix GridView first item,32,2673
+306,7e17b26,FAIL,6,NO,0,NO,0,2013-11-07 02:27:10 +0100,Bump version,32,2673
+307,9d7d51e,FAIL,7,NO,0,NO,0,2013-11-07 02:30:15 +0100,Update binaries,32,2673
+308,d062713,FAIL,6,NO,0,NO,0,2013-11-07 02:32:12 +0100,Updated README,32,2673
+309,d28fc41,FAIL,7,NO,0,NO,0,2013-11-07 02:35:14 +0100,Merge branch 'dev',32,2673
+310,4785930,FAIL,6,NO,0,NO,0,2013-11-10 22:58:25 +0100,Update support library,32,2673
+311,5367c27,FAIL,6,NO,0,NO,0,2013-11-10 23:35:22 +0100,Fix for not initializing mExpandedViews. Fixes #69,32,2674
+312,1d4b9b2,FAIL,6,NO,0,NO,0,2013-11-13 19:47:57 +0100,Add method to let to know if a position is expanded,32,2675
+313,2227010,FAIL,5,NO,0,NO,0,2013-11-14 13:43:20 +0100,Fix accidental calls to setAdapter(ListAdapter),32,2675
+314,457db2c,FAIL,6,NO,0,NO,0,2013-11-14 19:10:56 +0100,Update ExpandableListItemAdapter.java,32,2680
+315,6961a7a,FAIL,6,NO,0,NO,0,2013-11-15 17:52:02 +0100,Reference to ListView in ExpandableListItemAdapter,33,2684
+316,6fa3b20,FAIL,7,NO,0,NO,0,2013-11-15 18:32:05 +0100,Scroll when the expand view isn't visible,33,2700
+317,cbf21e2,FAIL,6,NO,0,NO,0,2013-11-16 19:58:23 +0100,Merge branch 'dev' into pr/n73_BraisGabin,32,2676
+318,299f5f3,FAIL,7,NO,0,NO,0,2013-11-16 19:58:36 +0100,Merge branch 'pr/n73_BraisGabin' into dev,32,2676
+319,1f09a64,FAIL,6,NO,0,NO,0,2013-11-16 20:04:29 +0100,Merge branch 'dev' into pr/n74_BraisGabin,32,2678
+320,186bdf9,FAIL,6,NO,0,NO,0,2013-11-16 20:04:56 +0100,Merge branch 'pr/n74_BraisGabin' into dev,32,2678
+321,a4e3c5f,FAIL,6,NO,0,NO,0,2013-11-16 20:18:36 +0100,Merge branch 'dev' into pr/n75_belandsoft,32,2687
+322,5b9ca44,FAIL,6,NO,0,NO,0,2013-11-16 20:18:59 +0100,Merge branch 'pr/n75_belandsoft' into dev,32,2687
+323,bf51260,FAIL,5,NO,0,NO,0,2013-11-20 20:16:54 -0500,Touch Child was never 'activated'. (cherry picked from commit 91b0ce2) (cherry picked from commit e7c4550),32,2690
+324,10ce909,FAIL,6,NO,0,NO,0,2013-11-21 10:55:14 -0500,The 'Current Removed View' was never permanently removed (Android 4.3),32,2714
+325,d440145,FAIL,6,NO,0,NO,0,2013-11-20 20:16:54 -0500,Making the content and undo views INVISIBLE instead of GONE prevents some strange layout issues.,32,2714
+326,fdec7b0,FAIL,6,NO,0,NO,0,2013-11-20 20:16:54 -0500,Allow users of ContextualUndoAdapters to forcefully remove any pending item. (cherry picked from commit e17bb2a),32,2720
+327,3a6a8a1,FAIL,7,NO,0,NO,0,2013-11-20 20:16:54 -0500,Fix issues related to recycling ContextualUndoViews as list-items related to animations. (cherry picked from commit ff921c2),32,2762
+328,08daed8,FAIL,6,NO,0,NO,0,2013-11-20 20:16:54 -0500,Fix issues related to recycling ContextualUndoViews as list-items related to animations. (cherry picked from commit f93da8a),32,2762
+329,4108917,FAIL,6,NO,0,NO,0,2013-11-27 19:49:26 -0200,Added ItemMovedListener. Listener to get noticed after item is completely moved by drag and drop.,33,2689
+330,908225c,FAIL,6,NO,0,NO,0,2013-12-08 15:22:25 +0100,Updated sdk/tools version,32,2687
+331,4a1c175,FAIL,6,NO,0,NO,0,2013-12-08 16:07:46 +0100,Maven preparations,32,2687
+332,c401f89,FAIL,6,NO,0,NO,0,2013-12-08 16:33:08 +0100,maven stuff,32,2673
+333,a6e64d1,FAIL,6,NO,0,NO,0,2013-12-08 16:35:13 +0100,Merge branch 'dev' into pr/n76_BraisGabin,33,2714
+334,5b0f210,FAIL,6,NO,0,NO,0,2013-12-08 16:35:38 +0100,Merge branch 'pr/n76_BraisGabin' into dev,33,2714
+335,797dc37,FAIL,7,NO,0,NO,0,2013-12-08 17:32:49 +0100,"Added methods for programmatically expand / collapse items: expand(int), collapse(int), toggle(int). Fixes #77.",33,2746
+336,5a3f31d,FAIL,6,NO,0,NO,0,2013-12-08 17:35:07 +0100,Merge branch 'dev' into pr/n80_streetsofboston,33,2821
+337,e6fb482,FAIL,6,NO,0,NO,0,2013-12-08 17:32:49 +0100,"Added methods for programmatically expand / collapse items: expand(int), collapse(int), toggle(int). Fixes #77.",33,2740
+338,d5c7c11,FAIL,7,NO,0,NO,0,2013-12-08 17:39:31 +0100,Merge branch 'pr/n80_streetsofboston' into dev,33,2816
+339,d3e9397,FAIL,7,NO,0,NO,0,2013-12-08 18:07:29 +0100,"Moved interface, renamed stuff, javadoc",32,2686
+340,8566db7,FAIL,7,NO,0,NO,0,2013-12-08 18:08:28 +0100,Merge branch 'dev' into pr/n83_sambarboza,33,2829
+341,e4ec837,FAIL,7,NO,0,NO,0,2013-12-08 18:10:09 +0100,Finishing touches,33,2829
+342,ae39b91,FAIL,7,NO,0,NO,0,2013-12-08 18:10:19 +0100,Merge branch 'pr/n83_sambarboza' into dev,33,2829
+343,76f3b90,FAIL,7,NO,0,NO,0,2013-12-08 18:56:13 +0100,Renamed package com.haarman to com.nhaarman to reflect maven hosting,33,2829
+344,4dc20bd,FAIL,6,NO,0,NO,0,2013-12-08 18:56:55 +0100,Merge branch 'dev_restructure' into dev_tmp,33,2829
+345,37becac,FAIL,6,NO,0,NO,0,2013-12-08 19:07:09 +0100,Fixed imports,33,2831
+346,08fe2d1,FAIL,6,NO,0,NO,0,2013-12-08 19:26:56 +0100,Version bumps,33,2831
+347,1c40189,FAIL,7,NO,0,NO,0,2013-12-08 19:27:11 +0100,Merge branch 'dev_tmp' into dev,33,2831
+348,b084ebf,FAIL,6,NO,0,NO,0,2013-12-08 20:05:45 +0100,Clarified the use of SwipeOnScrollListener,33,2831
+349,51126d4,FAIL,7,NO,0,NO,0,2013-12-08 22:40:55 +0100,Updated README,32,2673
+350,a2787c9,FAIL,6,NO,0,NO,0,2013-12-08 22:45:50 +0100,Updated README,32,2673
+351,a2d126d,FAIL,6,NO,0,NO,0,2013-12-08 23:36:36 +0100,Modified maven_push to publish jar file,33,2831
+352,73bd877,FAIL,6,NO,0,NO,0,2013-12-09 00:12:54 +0100,Removed gradle binaries,33,2831
+353,97aba62,FAIL,6,NO,0,NO,0,2013-12-09 23:11:50 +0100,Updated README - added pom.xml dependency,32,2673
+354,d992605,FAIL,7,NO,0,NO,0,2013-12-09 23:26:35 +0100,Fixed bug where a header view's tag would be wrongly cast to ViewHolder,33,2831
+355,fe5b089,FAIL,5,NO,0,NO,0,2013-12-09 23:26:43 +0100,Merge branch 'master' into dev,33,2831
+356,b9d25bc,FAIL,6,NO,0,NO,0,2013-12-10 01:12:15 +0100,Created version update scripts,33,2831
+357,373de9c,FAIL,6,NO,0,NO,0,2013-12-10 01:21:06 +0100,Fixed version update script bug,33,2831
+358,6d3a79d,FAIL,6,NO,0,NO,0,2013-12-26 16:12:56 +0100,Updated gradle from 0.6 to 0.7,33,2831
+359,f5be50d,FAIL,7,NO,0,NO,0,2013-12-26 17:47:33 +0100,Removed saving references to views -- possible leak. Fix #96,33,2838
+360,db1a832,FAIL,5,NO,0,NO,0,2013-12-26 17:55:20 +0100,Package rename,33,2838
+361,5921451,FAIL,6,NO,0,NO,0,2013-12-26 18:26:03 +0100,Package restructures,33,2840
+362,0cc4b70,FAIL,6,NO,0,NO,0,2013-12-26 18:39:22 +0100,Added ExpandCollapseListener. Fixes #99,34,2855
+363,c9c13d8,FAIL,6,NO,0,NO,0,2013-12-29 17:39:33 +0100,Hard 2.4.0 NineOldAndroids dependency,34,2855
+364,28e3822,FAIL,6,NO,0,NO,0,2013-12-30 00:46:56 +0100,Fix ExpandableListItemAdapter with header views,34,2869
+365,1457da4,FAIL,7,NO,0,NO,0,2013-12-30 10:56:54 +0100,Using space indentation,34,2869
+366,cb5ca53,FAIL,6,NO,0,NO,0,2014-01-04 16:16:02 +0100,Updated gradle files,34,2855
+367,3eff29c,FAIL,6,NO,0,NO,0,2014-01-04 16:17:28 +0100,Created AnimateAdditionAdapter,35,2910
+368,15b4ace,FAIL,7,NO,0,NO,0,2014-01-04 16:39:50 +0100,Created Animate Addition example,36,2961
+369,b7c3fd3,FAIL,5,NO,0,NO,0,2014-01-05 14:47:56 +0100,Merge branch 'dev' into pr/n104_WonderCsabo,36,2975
+370,739f9b7,FAIL,5,NO,0,NO,0,2014-01-05 14:53:58 +0100,Merge branch 'pr/n104_WonderCsabo' into dev,36,2975
+371,c795e72,FAIL,7,NO,0,NO,0,2014-01-05 15:01:44 +0100,Check a DeleteItemCallback is set before accessing it. Fixes #105,36,2979
+372,aff44f6,FAIL,6,NO,0,NO,0,2014-01-05 15:59:57 +0100,Enforce providing a DeleteItemCallback when creating a new ContextualUndoAdapter. Fixes #111,36,2972
+373,bd1c04e,FAIL,6,NO,0,NO,0,2014-01-05 16:18:30 +0100,Use consistent indentation (4 spaces instead of tabs). Fix 106.,36,2965
+374,8ec2777,FAIL,7,NO,0,NO,0,2014-01-05 17:03:19 +0100,"Created AdapterViewUtil#getPositionForView(AdapterView, View) which should be used instead of directly calling AdapterView#getPositionForView to take headerviews into account.  (Note: DynamicListView does not use this method). Fixes #105",37,2983
+375,f9f0d6d,FAIL,7,NO,0,NO,0,2014-01-05 17:37:34 +0100,We're only measuring GridView items if we're actually showing a GridView. Possible fix for #112.,37,2983
+376,a71cdb6,FAIL,6,NO,0,NO,0,2014-01-05 17:45:06 +0100,SwipeDismissAdapter should not count header view into removed positions,37,2973
+377,64a6a1a,FAIL,6,NO,0,NO,0,2014-02-05 23:07:50 +0100,Consider padding when scrolling ListView in ExpandableListItemAdapter,37,2984
+378,1527401,FAIL,5,NO,0,NO,0,2014-02-09 23:04:22 +0100,Merge pull request #126 from WonderCsabo/expandableListPadding,37,2984
+379,7415886,FAIL,6,NO,0,NO,0,2014-02-09 23:11:45 +0100,Merge branch 'dev' into pr/n113_WonderCsabo,37,2974
+380,f4d7b73,FAIL,6,NO,0,NO,0,2014-02-09 23:12:04 +0100,Merge branch 'pr/n113_WonderCsabo' into dev,37,2974
+381,cb9b979,FAIL,6,NO,0,NO,0,2014-02-10 20:53:56 +0100,Added wdullaer's ACTION_CANCEL,37,2993
+382,55e6dca,FAIL,6,NO,0,NO,0,2014-02-10 20:54:37 +0100,SavedInstanceState might be null.,37,2994
+383,32a2715,FAIL,5,NO,0,NO,0,2014-02-10 21:41:57 +0100,Updated gradle version,37,2994
+384,3b9ef99,FAIL,5,NO,0,NO,0,2014-02-10 22:15:37 +0100,Added methods to cancel and remove pending items,37,3002
+385,8a94e4f,FAIL,6,NO,0,NO,0,2014-02-10 23:26:56 +0100,Fixed crash when transcript mode was enabled. Fixes #98.,37,3006
+386,f890c2c,FAIL,6,NO,0,NO,0,2014-02-10 23:27:10 +0100,Merge branch 'feature_issue98' into dev,37,3006
+387,c31929c,FAIL,5,NO,0,NO,0,2014-02-11 21:17:46 +0100,"Made ArrayAdapter implement List, use the given list reference as default.",37,3069
+388,edb618a,FAIL,6,NO,0,NO,0,2014-02-14 12:10:33 +0100,"Created InsertQueue, AnimateAddition uses this queue",40,3276
+389,f5d7a4d,FAIL,6,NO,0,NO,0,2014-02-14 13:05:57 +0100,Don't snap when inserting items that aren't visible,40,3293
+390,80e33d0,FAIL,5,NO,0,NO,0,2014-02-14 16:35:47 +0100,Handle multiple insertions at once,40,3354
+391,158f443,FAIL,6,NO,0,NO,0,2014-02-14 16:48:30 +0100,Merge branch 'feature_animateaddition' into dev. Fixes #103.,40,3354
+392,98010f5,FAIL,6,NO,0,NO,0,2014-02-14 22:17:09 +0100,Check animation duration type based on number of animated items instead of last animated item. Fixes #129.,40,3360
+393,e89322b,FAIL,6,NO,0,NO,0,2014-02-14 23:57:55 +0100,Cleanup,40,3387
+394,a8d5fdd,FAIL,6,NO,0,NO,0,2014-02-14 23:58:15 +0100,Merge branch 'feature_maintenance' into dev,40,3387
+395,40ee4c4,FAIL,7,NO,0,NO,0,2014-02-18 21:52:08 +0100,Properly measure a expanding content view. Fixes #61.,40,3388
+396,f4c1db6,FAIL,5,NO,0,NO,0,2014-02-18 22:01:48 +0100,Fix #61 for older devices,40,3388
+397,3b7bdb4,FAIL,6,NO,0,NO,0,2014-02-18 22:10:09 +0100,Fixed small jump in expandable list items example,40,3388
+398,3d228b5,FAIL,6,NO,0,NO,0,2014-02-18 22:15:49 +0100,Merge branch 'dev' into feature_maintenance,40,3388
+399,a5e059d,FAIL,6,NO,0,NO,0,2014-02-19 20:30:24 +0100,Removed unnecessary support library; updated support v7 version,40,3388
+400,b890216,FAIL,6,NO,0,NO,0,2014-02-19 20:49:45 +0100,Cleanup,40,3384
+401,91d4d85,FAIL,7,NO,0,NO,0,2014-02-19 20:53:29 +0100,Merge branch 'feature_maintenance' into dev,40,3384
+402,654c116,FAIL,6,NO,0,NO,0,2014-02-19 21:37:15 +0100,Created DismissableManager. Fixes #92.,41,3405
+403,e1c5cbd,FAIL,6,NO,0,NO,0,2014-02-19 22:28:09 +0100,Prepare release,41,3405
+404,3042756,FAIL,6,NO,0,NO,0,2014-02-22 13:27:21 +0100,Fixed crash when dragging (over) header and footer views,41,3407
+405,bf18398,FAIL,6,NO,0,NO,0,2014-02-22 13:32:24 +0100,Fixed onItemMoved callback with headerviews,41,3407
+406,521159a,FAIL,6,NO,0,NO,0,2014-02-22 14:01:24 +0100,Released 2.6.0,41,3407
+407,a769467,FAIL,6,NO,0,NO,0,2014-02-22 14:32:44 +0100,Merge branch 'dev',41,3407
+408,efbdea6,FAIL,6,NO,0,NO,0,2014-02-22 14:35:12 +0100,Updated readme,41,3407
+409,806b22b,FAIL,6,NO,0,NO,0,2014-02-22 14:36:40 +0100,Updated readme,41,3407
+410,cbc4efd,FAIL,6,NO,0,NO,0,2014-02-22 14:36:47 +0100,Merge branch 'dev',41,3407
+411,eaa17c3,FAIL,6,NO,0,NO,0,2014-02-27 20:08:49 +0100,Use a more robust way of checking if GridView is measuring an item. Fixes #137.,41,3410
+412,bfdccfe,FAIL,6,NO,0,NO,0,2014-02-27 20:17:14 +0100,Updated README,41,3407
+413,d44063b,FAIL,6,NO,0,NO,0,2014-02-27 20:17:30 +0100,Merge branch 'master' into dev,41,3410
+414,543f093,FAIL,6,NO,0,NO,0,2014-02-27 20:43:44 +0100,Prepare 2.6.1-SNAPSHOT release,41,3410
+415,b022f87,FAIL,6,NO,0,NO,0,2014-03-05 15:39:32 +0100,Fixed crash when the listview has footerViews,41,3407
+416,97b7088,FAIL,6,NO,0,NO,0,2014-03-05 16:04:25 +0100,Fixed crash when trying to drag into a footer,41,3407
+417,98a4793,FAIL,6,NO,0,NO,0,2014-03-22 20:29:10 +0100,Updated known apps,41,3407
+418,3c59764,FAIL,6,NO,0,NO,0,2014-03-23 12:03:54 +0100,Adding ArrayAdapter.sort() method,41,3414
+419,83deff1,FAIL,6,NO,0,NO,0,2014-03-23 21:54:14 +0100,Merge pull request #159 from WonderCsabo/adapterSort,41,3414
+420,43ed924,FAIL,6,NO,0,NO,0,2014-03-29 20:19:48 +0100,Merge branch 'master' into dev,41,3414
+421,9231373,FAIL,6,NO,0,NO,0,2014-03-29 21:03:25 +0100,Update version numbers,41,3414
+422,c44ba1a,FAIL,5,NO,0,NO,0,2014-03-29 23:47:35 +0100,Applied Travis CI,41,3414
+423,3c98dc9,FAIL,6,NO,0,NO,0,2014-03-30 21:48:14 +0200,Merge branch 'dev' into pr/n147_christophecommon,41,3414
+424,7f8f36d,FAIL,5,NO,0,NO,0,2014-03-30 21:49:32 +0200,Merge branch 'pr/n147_christophecommon' into dev,41,3414
+425,be445bb,FAIL,6,NO,0,NO,0,2014-03-30 22:12:57 +0200,Restructured folders to fit original gradle structure,41,3414
+426,3a7f7b6,FAIL,6,NO,0,NO,0,2014-03-30 22:28:03 +0200,Merge pull request #163 from nhaarman/feature_restructure,41,3414
+427,4d81509,FAIL,7,NO,0,NO,0,2014-03-31 22:49:19 +0200,Added Travis build badge,41,3414
+428,af03a6e,FAIL,6,NO,0,NO,0,2014-04-11 22:04:36 +0200,Use embarkmobile android-sdk-installer,41,3414
+429,5c01732,FAIL,6,NO,0,NO,0,2014-04-12 22:36:02 +0200,Better OnScrollListener implementation. Fixes #135.,41,3447
+430,0d215dc,FAIL,6,NO,0,NO,0,2014-04-12 22:36:48 +0200,Better OnScrollListener implementation. Fixes #135,41,3447
+431,a1abc3c,FAIL,7,NO,0,NO,0,2014-04-16 21:17:32 +0200,Private decorated baseadapter,41,3447
+432,057e8fd,FAIL,5,NO,0,NO,0,2014-04-16 22:21:47 +0200,"BaseAdapterDecorator cleanup, deprecated methods and added alternates",41,3461
+433,716a2bf,FAIL,6,NO,0,NO,0,2014-04-17 00:45:14 +0200,Rewritten SwipeDismissListViewTouchListener as SwipeDismissTouchListener,42,3737
+434,e28df55,FAIL,6,NO,0,NO,0,2014-04-17 22:40:50 +0200,Extracted base functionality of SwipeDismissTouchListener into SwipeTouchListener,43,3790
+435,a7baa19,FAIL,6,NO,0,NO,0,2014-04-19 21:26:34 +0200,Created SwipeUndoTouchListener,46,3896
+436,d1dcdf6,FAIL,6,NO,0,NO,0,2014-04-19 23:29:05 +0200,Created SwipeUndoAdapter,47,3923
+437,5ae0f7a,FAIL,6,NO,0,NO,0,2014-04-19 23:51:41 +0200,Created SimpleSwipeUndoAdapter,50,4002
+438,c28c1cd,FAIL,6,NO,0,NO,0,2014-04-20 00:00:05 +0200,Updated swipe dismiss example,51,4016
+439,a2e278f,FAIL,5,NO,0,NO,0,2014-04-20 00:23:31 +0200,Moved stuff,51,4015
+440,0e467cb,FAIL,5,NO,0,NO,0,2014-04-20 13:59:39 +0200,Added methods to programmatically initiate a fling or dismiss,51,4034
+441,c7e3393,FAIL,6,NO,0,NO,0,2014-04-20 14:07:45 +0200,Properly recycle undo state,51,4045
+442,98dde9f,FAIL,6,NO,0,NO,0,2014-04-20 14:12:43 +0200,Removed deprecated methods for 3.0.0 release,49,3691
+443,178f19f,FAIL,6,NO,0,NO,0,2014-04-20 16:25:27 +0200,Fixed undo callback notification,50,3752
+444,23fd9f3,FAIL,14,NO,0,NO,0,2014-04-21 15:13:28 +0200,Updated POM,41,3461
+445,137a8f0,FAIL,8,NO,0,NO,0,2014-04-21 15:18:49 +0200,Fixed indentation problems,41,3461
+446,73badb2,FAIL,6,NO,0,NO,0,2014-04-21 17:29:09 +0200,Added TimedUndoAdapter,51,3850
+447,e2cec67,FAIL,6,NO,0,NO,0,2014-04-21 17:32:07 +0200,Moved util,51,3847
+448,a3dd551,FAIL,6,NO,0,NO,0,2014-04-21 17:52:57 +0200,"Removed contextual undo package, fixed copyright statements",45,3293
+449,ab02ae2,FAIL,6,NO,0,NO,0,2014-04-21 17:53:21 +0200,Updated SwipeDismiss example activity,45,3273
+450,0c836e9,FAIL,7,NO,0,NO,0,2014-04-21 18:03:11 +0200,Removed contributing.md (In wiki),41,3461
+451,7438fcf,FAIL,6,NO,0,NO,0,2014-04-21 18:03:38 +0200,Merge branch 'pr/n176_WonderCsabo' into dev,41,3461
+452,29a4bb4,FAIL,6,NO,0,NO,0,2014-04-21 18:04:17 +0200,Merge branch 'dev' into feature_swipedismissrewrite,45,3273
+453,67cc055,FAIL,6,NO,0,NO,0,2014-04-21 19:54:40 +0200,Merge pull request #177 from nhaarman/feature_swipedismissrewrite,45,3273
+454,356de54,FAIL,7,NO,0,NO,0,2014-04-26 18:47:29 +0200,Fixed nullpointerexception when inserting into empty adapter. Fixes #178.,45,3278
+455,6a5a4ae,FAIL,7,NO,0,NO,0,2014-04-26 21:21:08 +0200,Fixed animation if the listview isn't filled completely yet,45,3291
+456,60e3d59,FAIL,6,NO,0,NO,0,2014-04-28 12:05:48 +0200,Added option to save instance state to animationadapter,45,3323
+457,b9cb38b,FAIL,7,NO,0,NO,0,2014-05-05 15:32:09 +0200,Updated maven stuff,45,3323
+458,e505ab2,FAIL,7,NO,0,NO,0,2014-05-05 15:49:59 +0200,Fixed version snapshot,45,3323
+459,cd22f0d,FAIL,7,NO,0,NO,0,2014-05-10 19:10:44 +0200,Use new android build,45,3323
+460,951301a,FAIL,6,NO,0,NO,0,2014-05-10 19:13:01 +0200,Fix,45,3323
+461,a9ce083,FAIL,7,NO,0,NO,0,2014-05-10 19:22:18 +0200,Merge branch 'feature_travis' into dev,45,3323
+462,62c7f82,FAIL,6,NO,0,NO,0,2014-05-26 19:24:05 +0200,Update README.md,41,3407
+463,bd2bc23,FAIL,7,NO,0,NO,0,2014-05-28 22:06:01 +0200,Created some SwipeDismissAdapter tests,47,3449
+464,2d4c41d,FAIL,6,NO,0,NO,0,2014-05-28 22:20:24 +0200,Build tools 19.1.0,47,3449
+465,7f1676c,FAIL,7,NO,0,NO,0,2014-05-28 22:49:25 +0200,Assert reasons,47,3449
+466,4fb5245,FAIL,7,NO,0,NO,0,2014-05-29 10:32:10 +0200,Fixed travis tests,47,3454
+467,8391aea,FAIL,6,NO,0,NO,0,2014-05-29 11:40:26 +0200,Added short swipe tests,47,3469
+468,3a92e8c,FAIL,6,NO,0,NO,0,2014-05-29 12:38:02 +0200,Update README.md - Contributing,41,3407
+469,e2e7ac2,FAIL,7,NO,0,NO,0,2014-05-29 15:13:36 +0200,Added some more SwipeTouchListener tests,48,3512
+470,3c2abd1,FAIL,7,NO,0,NO,0,2014-05-29 15:36:35 +0200,Lint fixes,49,3561
+471,bd06346,FAIL,6,NO,0,NO,0,2014-05-29 15:53:52 +0200,Lint config,49,3561
+472,d6ab5d5,FAIL,6,NO,0,NO,0,2014-05-29 16:10:55 +0200,Tests cleanup,49,3580
+473,4d17ae2,FAIL,7,NO,0,NO,0,2014-05-29 16:44:26 +0200,Created SwipeUndoTouchListenerTest,50,3652
+474,2263deb,FAIL,7,NO,0,NO,0,2014-05-29 20:04:32 +0200,Test fixes,50,3638
+475,01554bc,FAIL,6,NO,0,NO,0,2014-05-29 21:02:56 +0200,Hide some fields and methods,50,3589
+476,41036f8,FAIL,6,NO,0,NO,0,2014-05-29 21:25:21 +0200,Again,50,3589
+477,27bb924,FAIL,6,NO,0,NO,0,2014-05-29 21:50:20 +0200,Added field javadocs,50,3588
+478,bb128a9,FAIL,6,NO,0,NO,0,2014-05-29 22:17:01 +0200,Fix first GridView item animation on KitKat,50,3593
+479,fa4263c,FAIL,6,NO,0,NO,0,2014-05-29 22:23:10 +0200,Some method javadocs,50,3593
+480,bd880a1,FAIL,7,NO,0,NO,0,2014-05-29 22:58:55 +0200,Fixed animation wrapping,50,3598
+481,7cdb52d,FAIL,6,NO,0,NO,0,2014-05-29 23:04:24 +0200,Cleanup,50,3598
+482,0ce4606,FAIL,6,NO,0,NO,0,2014-05-29 23:18:55 +0200,Added javadoc command,50,3598
+483,b978ec2,FAIL,6,NO,0,NO,0,2014-05-29 23:19:08 +0200,Merge branch 'feature_AnimationAdapter-Maintenance' into dev,50,3598
+484,cf6edc5,FAIL,6,NO,0,NO,0,2014-05-30 00:17:31 +0200,Fixed javadoc generation,50,3598
+485,2f1487f,FAIL,7,NO,0,NO,0,2014-05-31 17:01:28 +0200,Moved generateJavadoc,50,3598
+486,10bea7f,FAIL,7,NO,0,NO,0,2014-05-31 23:31:33 +0200,Use gradle-git for automatically pushing javadocs,50,3598
+487,1cea2e8,FAIL,6,NO,0,NO,0,2014-05-31 23:34:10 +0200,Removed unnecessary skip-ci,50,3598
+488,e35abf9,FAIL,6,NO,0,NO,0,2014-06-01 00:49:48 +0200,Fix travis javadoc pushing,50,3598
+489,807177a,FAIL,5,NO,0,NO,0,2014-06-01 00:57:23 +0200,Merge branch 'feature_travis-javadoc' into dev,50,3598
+490,da66024,FAIL,8,NO,0,NO,0,2014-06-01 00:59:19 +0200,Merge branch 'master' into dev,50,3598
+491,7566d4c,FAIL,7,NO,0,NO,0,2014-06-05 15:04:25 +0200,Use version name for docs folder if on master branch,50,3598
+492,b4cd307,FAIL,7,NO,0,NO,0,2014-06-13 23:42:26 +0200,Annotated Nullable / NonNull,50,3789
+493,dd28c03,FAIL,7,NO,0,NO,0,2014-06-13 23:43:09 +0200,Merge remote-tracking branch 'origin/dev' into dev,50,3789
+494,9b1272a,FAIL,7,NO,0,NO,0,2014-06-13 23:49:32 +0200,Only publish if no pull request,50,3789
+495,4597e65,FAIL,2,NO,0,NO,0,2014-06-14 00:46:13 +0200,Split library,51,3791
+496,3fe19cc,FAIL,8,NO,0,NO,0,2014-06-14 11:12:51 +0200,Updated gradle versions,50,3789
+497,83d59e1,FAIL,7,NO,0,NO,0,2014-06-14 11:31:55 +0200,Fixed pushMaven,50,3789
+498,c501a74,FAIL,6,NO,0,NO,0,2014-06-14 11:32:38 +0200,Updated gitignore to ignore hprof files,50,3789
+499,e9d0a90,FAIL,7,NO,0,NO,0,2014-06-14 11:41:17 +0200,Added RELEASING.md,50,3789
+500,a3d16e4,FAIL,7,NO,0,NO,0,2014-06-14 17:35:28 +0200,signing fix,50,3789
+501,a017ba5,FAIL,6,NO,0,NO,0,2014-06-14 17:37:42 +0200,Merge pull request #192 from nhaarman/feature_gradle-update,50,3789
+502,722c42a,FAIL,3,NO,0,NO,0,2014-06-14 17:38:13 +0200,Merge branch 'dev' into feature_split-library,51,3791
+503,ad2ac19,FAIL,3,NO,0,NO,0,2014-06-14 17:54:24 +0200,Stuff,51,3791
+504,dfac934,FAIL,3,NO,0,NO,0,2014-06-14 17:55:51 +0200,Again,51,3791
+505,4857cac,FAIL,3,NO,0,NO,0,2014-06-14 21:26:59 +0200,Javadoc in separate folders per module,51,3791
+506,92107ce,FAIL,3,NO,0,NO,0,2014-06-14 21:39:48 +0200,Moved files between modules,52,3799
+507,07d761f,FAIL,2,NO,0,NO,0,2014-06-14 21:49:52 +0200,Fixed test libs,52,3799
+508,11e3bfd,FAIL,3,NO,0,NO,0,2014-06-14 22:06:19 +0200,Removed unnecessary manifest entry,52,3799
+509,95f2701,FAIL,4,NO,0,NO,0,2014-06-14 23:01:32 +0200,Don't compile core lib,52,3799
+510,fcc9ded,FAIL,3,NO,0,NO,0,2014-06-14 23:03:10 +0200,Apparently not so unnecessary,52,3799
+511,9350f27,FAIL,3,NO,0,NO,0,2014-06-14 23:20:39 +0200,Removed duplicate dependencies,52,3799
+512,fdb48a8,FAIL,3,NO,0,NO,0,2014-06-15 01:02:03 +0200,Use ListViewWrapper to account for arbitrary listviews,54,3871
+513,783723c,FAIL,2,NO,0,NO,0,2014-06-15 01:33:49 +0200,Created SLH module,58,3986
+514,3040c46,FAIL,2,NO,0,NO,0,2014-06-15 17:47:56 +0200,Extracted ViewAnimator out of AnimationAdapter,65,4072
+515,5ca1977,FAIL,3,NO,0,NO,0,2014-06-15 17:58:23 +0200,Implemented SLH adapters,70,4158
+516,7940b88,FAIL,3,NO,0,NO,0,2014-06-15 17:58:44 +0200,Proper artifact id,70,4158
+517,f7e5272,FAIL,3,NO,0,NO,0,2014-06-15 18:02:31 +0200,Don't provide the SLH library,70,4158
+518,cf5ddd1,FAIL,7,NO,0,NO,0,2014-06-15 18:24:25 +0200,Removed Eclipse setup,50,3789
+519,7819fe7,FAIL,7,NO,0,NO,0,2014-06-15 18:27:25 +0200,Updated pom files,52,3799
+520,355e2de,FAIL,6,NO,0,NO,0,2014-06-15 18:34:10 +0200,Merge branch 'feature_split-library' into feature_stickylistheaders,70,4158
+521,34d757e,FAIL,7,NO,0,NO,0,2014-06-15 18:37:17 +0200,Updated pom files,70,4158
+522,8d65ea8,FAIL,6,NO,0,NO,0,2014-06-15 19:02:58 +0200,Added API 16 travis test,52,3799
+523,3f23d43,FAIL,6,NO,0,NO,0,2014-06-15 21:05:34 +0200,Fixed height calculation of newly inserted item. Fixes #166,52,3798
+524,d18f133,FAIL,5,NO,0,NO,0,2014-06-15 21:05:54 +0200,"Revert ""Added API 16 travis test""",52,3798
+525,e589b53,FAIL,7,NO,0,NO,0,2014-06-15 21:33:59 +0200,AnimateAdditionAdapter maintenance,52,3811
+526,06c5f9c,FAIL,16,NO,0,NO,0,2014-06-15 21:47:05 +0200,Updated maven configuration,52,3799
+527,025113b,FAIL,5,NO,0,NO,0,2014-06-15 22:03:10 +0200,Merge pull request #199 from WonderCsabo/feature_split-library,52,3799
+528,885c1a0,FAIL,6,NO,0,NO,0,2014-06-15 22:05:00 +0200,Merge pull request #195 from nhaarman/feature_split-library,52,3799
+529,40fbbb5,FAIL,7,NO,0,NO,0,2014-06-15 22:12:47 +0200,Merge branch 'dev' into feature_stickylistheaders,70,4158
+530,c8a4923,FAIL,7,NO,0,NO,0,2014-06-15 22:14:52 +0200,Updated pom files,70,4158
+531,9e5e2f8,FAIL,6,NO,0,NO,0,2014-06-15 22:15:44 +0200,Merge pull request #196 from nhaarman/feature_stickylistheaders,70,4158
+532,1c85619,FAIL,5,NO,0,NO,0,2014-06-15 22:17:59 +0200,Merge branch 'dev' into feature_maintenance-animateaddition,70,4170
+533,2093801,FAIL,6,NO,0,NO,0,2014-06-15 22:21:23 +0200,Merge pull request #198 from nhaarman/feature_maintenance-animateaddition,70,4170
+534,b452659,FAIL,5,NO,0,NO,0,2014-06-16 01:44:42 +0200,Started example restyle - google io style,70,4171
+535,691adee,FAIL,9,NO,0,NO,0,2014-06-16 17:03:25 +0200,Updated maven configuration for the new lib-core-slh module,70,4170
+536,4aa28b0,FAIL,6,NO,0,NO,0,2014-06-17 19:05:55 +0200,Merge pull request #201 from WonderCsabo/fix_pom-for-lib-core-slh,70,4170
+537,5e5c748,FAIL,6,NO,0,NO,0,2014-06-17 21:11:35 +0200,More restyling,72,3965
+538,20d9f8f,FAIL,5,NO,0,NO,0,2014-06-17 21:16:48 +0200,Fixed string,72,3965
+539,0054af5,FAIL,7,NO,0,NO,0,2014-06-17 21:21:31 +0200,Cleanup,72,3952
+540,d6f10ed,FAIL,5,NO,0,NO,0,2014-06-17 21:22:21 +0200,Merge branch 'feature_example-app' into dev,72,3952
+541,85790ea,FAIL,6,NO,0,NO,0,2014-06-17 21:22:44 +0200,Merge branch 'dev' of github.com:nhaarman/ListViewAnimations into dev,72,3952
+542,cb5cd0b,FAIL,5,NO,0,NO,0,2014-06-17 22:55:44 +0200,Removed generics,61,3857
+543,f1bc47c,FAIL,6,NO,0,NO,0,2014-06-17 23:06:17 +0200,Stuff,61,3857
+544,ad32ea5,FAIL,6,NO,0,NO,0,2014-06-17 23:07:32 +0200,Compile SLH instead of provide,61,3857
+545,de52d00,FAIL,5,NO,0,NO,0,2014-06-17 23:13:16 +0200,Check for ListViewWrapper nullness. Fixes #182,61,3859
+546,1ad9948,FAIL,5,NO,0,NO,0,2014-06-17 23:51:35 +0200,Add SDK versions to AndroidManifest.xml,61,3859
+547,4fd52e6,FAIL,5,NO,0,NO,0,2014-06-18 17:57:20 +0200,Merge pull request #204 from WonderCsabo/fix_manifest-sdk-version,61,3859
+548,ab8bddd,FAIL,5,NO,0,NO,0,2014-06-18 18:07:15 +0200,Fixed tests. Fixes #203,61,3865
+549,699a9f6,FAIL,5,NO,0,NO,0,2014-06-18 18:23:33 +0200,Added a minimum alpha value. Fixes #171,61,3870
+550,021b3a1,FAIL,5,NO,0,NO,0,2014-06-18 18:32:51 +0200,Added an option to disable drag functionality. Fixes #169,61,3874
+551,ebca342,FAIL,5,NO,0,NO,0,2014-06-21 13:12:13 +0200,Removed no-longer used appcompat dependency from POM,61,3874
+552,adb28bb,FAIL,6,NO,0,NO,0,2014-06-21 20:27:05 +0200,Merge pull request #207 from WonderCsabo/fix_pom-remove-appcompat,61,3874
+553,32a6a04,FAIL,5,NO,0,NO,0,2014-06-21 20:32:44 +0200,Fixed issue with header/footerviews. Fixes #189,61,3879
+554,67129c6,FAIL,5,NO,0,NO,0,2014-06-21 20:32:54 +0200,Merge branch 'dev' of github.com:nhaarman/ListViewAnimations into dev,61,3879
+555,3c1dc71,FAIL,6,NO,0,NO,0,2014-06-21 20:45:55 +0200,Added getter for the touch listener,61,3882
+556,6e0260a,FAIL,5,NO,0,NO,0,2014-06-22 23:51:08 +0200,Only pass ontouchevent to view if handling the event ourselves. Fixes #180,61,3882
+557,f5d4a9a,FAIL,6,NO,0,NO,0,2014-06-23 00:32:03 +0200,Added demo gif,41,3407
+558,56cb484,FAIL,5,NO,0,NO,0,2014-06-23 00:34:31 +0200,Smaller gif,41,3407
+559,f7b4fa3,FAIL,6,NO,0,NO,0,2014-06-23 00:42:12 +0200,Updated README,61,3882
+560,513b5b4,FAIL,7,NO,0,NO,0,2014-06-23 00:47:07 +0200,Merge branch 'master' into dev,61,3882
+561,812cbcb,FAIL,6,NO,0,NO,0,2014-08-02 20:52:21 +0200,Rewritten DynamicListView,67,3903
+562,278fbf8,FAIL,6,NO,0,NO,0,2014-08-02 20:54:56 +0200,Tests / Adapted example,71,4169
+563,d29ff25,FAIL,6,NO,0,NO,0,2014-08-02 20:55:41 +0200,Lint fixes / Copyright messages,71,4169
+564,c172d76,FAIL,6,NO,0,NO,0,2014-08-02 22:00:57 +0200,Merge pull request #223 from nhaarman/feature_rewrite-draganddrop,71,4169
+565,22a8d72,FAIL,6,NO,0,NO,0,2014-08-03 14:22:56 +0200,Compensate for header views,71,4181
+566,df5b5e0,FAIL,6,NO,0,NO,0,2014-08-06 16:18:02 +0200,"DynamicListView supports drag and drop, animate addition and swipe dismiss.",76,4850
+567,247fd05,FAIL,5,NO,0,NO,0,2014-08-06 17:55:40 +0200,Updated build.gradle,76,4850
+568,7e54508,FAIL,5,NO,0,NO,0,2014-08-06 18:47:31 +0200,Updated example app,75,4777
+569,6413b18,FAIL,6,NO,0,NO,0,2014-08-07 21:39:56 +0200,Removed old DynamicListView,74,4440
+570,f443437,FAIL,5,NO,0,NO,0,2014-08-07 22:43:43 +0200,Do not allow dragging of items when items are in an undo state.,74,4474
+571,66e0e68,FAIL,5,NO,0,NO,0,2014-08-07 23:03:17 +0200,Added onUndo callback. Fixes #216.,74,4469
+572,38543dd,FAIL,6,NO,0,NO,0,2014-08-10 17:34:50 +0200,BaseAdapterDecorator tests,75,4584
+573,a18626e,FAIL,5,NO,0,NO,0,2014-08-10 18:00:10 +0200,AbsListViewWrapper tests,76,4648
+574,c438fa2,FAIL,5,NO,0,NO,0,2014-08-10 18:10:00 +0200,Renamed `singinadapters` to `appearance`.,74,4469
+575,99e45e7,FAIL,6,NO,0,NO,0,2014-08-11 21:19:11 +0200,Update SLH versions,74,4469
+576,d668cb2,FAIL,5,NO,0,NO,0,2014-08-11 21:36:33 +0200,Merge branch 'dev' into feature_tests,76,4648
+577,d5316e9,FAIL,6,NO,0,NO,0,2014-08-11 22:06:52 +0200,AdapterViewUtil tests,77,4753
+578,4c59e8a,FAIL,6,NO,0,NO,0,2014-08-11 22:50:53 +0200,Animator util tests,78,4798
+579,c91c2ad,FAIL,5,NO,0,NO,0,2014-08-13 15:00:48 +0200,Basic ViewAnimator tests,79,4858
+580,aeda6d6,FAIL,6,NO,0,NO,0,2014-08-13 15:01:23 +0200,Merge branch 'feature_tests' into dev,79,4858
+581,ab5cbe4,FAIL,5,NO,0,NO,0,2014-08-13 15:32:00 +0200,Created contributing,79,4858
+582,e862489,FAIL,5,NO,0,NO,0,2014-08-13 16:20:12 +0200,Update readme,79,4858
+583,d9a0479,FAIL,6,NO,0,NO,0,2014-08-13 18:07:05 +0200,Merge branch 'dev',79,4858
+584,80379b5,FAIL,5,NO,0,NO,0,2014-08-13 18:51:49 +0200,Bumped version number to 3.0.1,79,4858
+585,7811af2,FAIL,6,NO,0,NO,0,2014-08-14 19:21:47 +0200,"Proper support-annotations version, provided. Fixes #231",79,4858
+586,dab3fd4,FAIL,5,NO,0,NO,0,2014-08-15 13:09:31 +0200,Fix Annotation error,79,4858
+587,d908fe5,FAIL,5,NO,0,NO,0,2014-08-15 13:17:51 +0200,Add setDismissableManager at Adapter level,79,4867
+588,14887f9,FAIL,7,NO,0,NO,0,2014-08-15 14:43:57 +0200,Animate the no dismissable items,79,4863
+589,31f7dde,FAIL,5,NO,0,NO,0,2014-08-15 19:00:37 +0200,Merge pull request #232 from BraisGabin/dev,79,4867
+590,bf0afc9,FAIL,5,NO,0,NO,0,2014-08-15 19:11:29 +0200,Merge pull request #233 from BraisGabin/no-dismissable-animation,79,4872
+591,7c97d00,FAIL,6,NO,0,NO,0,2014-08-18 22:39:58 +0200,Added willLeaveDataSetOnFling method to SwipeTouchListener. Fixes #234,79,4910
+592,7ac4b47,FAIL,6,NO,0,NO,0,2014-08-18 23:13:55 +0200,Longer timeout for travis to settle scrolling the listview,79,4910
+593,3bcbf26,FAIL,5,NO,0,NO,0,2014-08-19 15:59:51 +0200,Fixing StickyListHeadersListViewWrapper.getChildAt(),79,4872
+594,a48c169,FAIL,5,NO,0,NO,0,2014-08-19 22:36:56 +0200,Merge pull request #238 from acatinon/bugfix_child_at,79,4872
+595,490406c,FAIL,6,NO,0,NO,0,2014-08-20 16:52:26 +0200,Update README.md,79,4858
+596,0b8777b,FAIL,6,NO,0,NO,0,2014-08-21 19:44:56 +0200,Don't use rawY,79,4908
+597,deb573c,FAIL,5,NO,0,NO,0,2014-08-21 19:45:03 +0200,Fixed tests,79,4934
+598,3bbabac,FAIL,6,NO,0,NO,0,2014-08-21 20:28:33 +0200,Fixed uploadArchives,79,4872
+599,751c3a4,FAIL,5,NO,0,NO,0,2014-08-21 20:40:00 +0200,Merge pull request #241 from nhaarman/bugfix-228,79,4872
+600,bc53c62,FAIL,5,NO,0,NO,0,2014-08-21 20:59:54 +0200,Merge pull request #235 from nhaarman/bugfix_234,79,4934
+601,e7bef03,FAIL,5,NO,0,NO,0,2014-08-21 21:19:41 +0200,Proper module,79,4872
+602,9e54ca2,FAIL,5,NO,0,NO,0,2014-08-21 21:20:00 +0200,Merge branch 'dev' of github.com:nhaarman/ListViewAnimations into dev,79,4934
+603,2dfe85f,FAIL,5,NO,0,NO,0,2014-08-21 21:56:23 +0200,Updated README with workaround for #236,79,4934
+604,7e28252,FAIL,6,NO,0,NO,0,2014-08-21 21:59:36 +0200,Prepare version 3.1.0,79,4934
+605,066a786,FAIL,5,NO,0,NO,0,2014-08-21 21:59:55 +0200,Merge branch 'master' into dev,79,4934
+606,4aa6dd2,FAIL,6,NO,0,NO,0,2014-08-21 22:00:15 +0200,Merge branch 'master' into dev,79,4934
+607,25124c5,FAIL,4,NO,0,NO,0,2015-03-16 19:01:54 +0100,Update CONTRIBUTING.md,79,4934
+608,2361796,FAIL,5,NO,0,NO,0,2016-11-03 14:04:11 +0100,Deprecation notice,79,4934

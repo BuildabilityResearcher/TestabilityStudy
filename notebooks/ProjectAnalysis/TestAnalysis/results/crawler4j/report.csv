@@ -1,0 +1,516 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,8a60ab1,FAIL,0,NO,0,NO,0,2011-12-31 14:53:01 -0800,first commit,0,0
+1,8d76f7d,SUCCESS,13,SUCCESS,5,SUCCESS,7,2011-12-31 15:07:28 -0800,First import to git,42,2139
+2,b861b18,SUCCESS,6,SUCCESS,6,SUCCESS,5,2011-12-31 19:16:33 -0800,Added copyright notice to new classes,42,2139
+3,0bd0bb5,SUCCESS,7,SUCCESS,6,SUCCESS,5,2011-12-31 20:03:50 -0800,Added some more javadocs.,42,2139
+4,1c22101,SUCCESS,8,SUCCESS,7,SUCCESS,5,2011-12-31 21:08:35 -0800,Added more javadocs.,42,2132
+5,e6a6274,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-01-01 14:34:49 -0800,Cleaned tests.,42,2139
+6,52f65cc,SUCCESS,8,SUCCESS,8,SUCCESS,5,2012-01-01 14:50:15 -0800,Update pom.xml to exclude properties files.,42,2139
+7,497d71e,SUCCESS,8,SUCCESS,8,SUCCESS,5,2012-01-01 15:12:42 -0800,Cleaned basic example.,42,2138
+8,5e2eff2,SUCCESS,13,SUCCESS,7,SUCCESS,5,2012-01-01 23:40:03 -0800,Updated pom.xml for submission to Maven repository.,42,2138
+9,144da5e,SUCCESS,9,SUCCESS,7,SUCCESS,6,2012-01-01 23:57:13 -0800,Fixed bug: http://code.google.com/p/crawler4j/issues/detail?id=73,42,2138
+10,82b9319,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-01-02 19:12:43 -0800,[maven-release-plugin] prepare release crawler4j-3.0,42,2138
+11,0644d7b,SUCCESS,9,SUCCESS,7,SUCCESS,6,2012-01-02 19:46:16 -0800,pom version,42,2138
+12,7f248bb,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-01-02 19:47:39 -0800,[maven-release-plugin] prepare release crawler4j-3.0,42,2138
+13,18ef80b,SUCCESS,9,SUCCESS,8,SUCCESS,5,2012-01-03 22:48:50 -0800,Prepare for maven release,42,2138
+14,f30fedf,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-01-03 22:49:59 -0800,[maven-release-plugin] prepare release crawler4j-3.0,42,2138
+15,280fac2,SUCCESS,8,SUCCESS,7,SUCCESS,5,2012-01-03 22:50:08 -0800,[maven-release-plugin] prepare for next development iteration,42,2138
+16,e65c745,SUCCESS,9,SUCCESS,6,SUCCESS,5,2012-01-04 08:49:16 -0800,prepeare for release,42,2138
+17,8c4c6de,SUCCESS,8,SUCCESS,7,SUCCESS,4,2012-01-04 08:50:19 -0800,[maven-release-plugin] prepare release crawler4j-3.0,42,2138
+18,5b49812,SUCCESS,7,SUCCESS,7,SUCCESS,5,2012-01-04 08:52:20 -0800,prepare for release,42,2138
+19,bc227de,SUCCESS,7,SUCCESS,7,SUCCESS,5,2012-01-04 08:53:52 -0800,[maven-release-plugin] prepare release crawler4j-3.0-2,42,2138
+20,f65693c,SUCCESS,7,SUCCESS,7,SUCCESS,4,2012-01-04 08:54:00 -0800,[maven-release-plugin] prepare for next development iteration,42,2138
+21,dbc9d3c,SUCCESS,9,SUCCESS,6,SUCCESS,7,2012-01-05 21:49:52 -0800,Updated URL canonicalizer,43,2236
+22,ab57c9b,SUCCESS,10,SUCCESS,6,SUCCESS,6,2012-01-08 11:38:59 -0800,Update URLCanonicalizer,43,2250
+23,b0fd2cb,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-01-12 23:14:23 -0800,Fixed thread-safety bug in PageFetcher.,44,2293
+24,01d521e,SUCCESS,7,SUCCESS,7,SUCCESS,6,2012-01-12 23:25:38 -0800,[maven-release-plugin] prepare release crawler4j-3.1,44,2293
+25,a74d2c0,SUCCESS,7,SUCCESS,7,SUCCESS,6,2012-01-12 23:25:47 -0800,[maven-release-plugin] prepare for next development iteration,44,2293
+26,0161a71,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-01-22 12:06:30 -0800,Added support for handling http status codes for fetched pages,46,2410
+27,7a7efd2,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-01-22 16:04:01 -0800,Added support for adding seeds with specific docids.,46,2429
+28,9bc8c1b,SUCCESS,8,SUCCESS,6,SUCCESS,7,2012-01-22 17:14:01 -0800,Added support for specifying seen URLs in controller.,46,2438
+29,fdd91b8,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-01-22 17:29:53 -0800,Updated jar version,46,2438
+30,b5b88a4,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-01-29 12:46:48 -0800,Fixed bug in URL canonicalizer,46,2437
+31,e5dcab1,SUCCESS,9,SUCCESS,8,SUCCESS,7,2012-01-29 12:48:06 -0800,Version increase for snapshot,46,2437
+32,6eb2ef8,SUCCESS,9,SUCCESS,8,SUCCESS,6,2012-01-29 19:43:25 -0800,Added support for domain and sub-domain detection.,48,2512
+33,2f6a89c,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-02-04 14:07:55 -0800,Added ParentUrl and Path to WebURL,48,2534
+34,d362515,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-02-04 16:50:34 -0800,Added URL resolver based on RFC1808,49,2696
+35,b22c75d,SUCCESS,9,SUCCESS,6,SUCCESS,8,2012-02-16 21:45:43 -0800,[maven-release-plugin] prepare release crawler4j-3.3,49,2696
+36,29a2daf,SUCCESS,8,SUCCESS,6,SUCCESS,6,2012-02-16 21:45:50 -0800,[maven-release-plugin] prepare for next development iteration,49,2696
+37,1c23e32,SUCCESS,9,SUCCESS,7,SUCCESS,7,2012-03-04 23:12:42 -0800,Added toString for CrawlConfig and removed logger.setLevel from PageFetcher.,49,2716
+38,7b8bf91,SUCCESS,8,SUCCESS,7,SUCCESS,6,2012-03-11 23:35:26 -0700,"New crawling order: priority, depth, docid Extracting anchor texts",50,2764
+39,7fd8392,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-03-11 23:48:24 -0700,[maven-release-plugin] prepare release crawler4j-3.4,50,2764
+40,3ffec15,SUCCESS,8,SUCCESS,8,SUCCESS,6,2012-03-11 23:48:31 -0700,[maven-release-plugin] prepare for next development iteration,50,2764
+41,a9cc8a9,SUCCESS,12,SUCCESS,7,SUCCESS,7,2013-03-02 11:03:23 -0800,Updating dependencies and deprecated references,50,2766
+42,6d41392,SUCCESS,9,SUCCESS,8,SUCCESS,6,2013-03-02 11:29:50 -0800,Fixed issue #127 where the port number was being ignored for robots.txt fetching.,50,2770
+43,c99423e,SUCCESS,10,SUCCESS,8,SUCCESS,6,2013-03-02 11:44:37 -0800,Added generation of source and javadoc jars.,50,2770
+44,839c433,SUCCESS,10,SUCCESS,8,SUCCESS,6,2013-03-02 11:50:50 -0800,Removed some of the dependencies as they are already referenced by httpclient.,50,2770
+45,daf2027,SUCCESS,9,SUCCESS,8,SUCCESS,8,2013-03-02 12:59:58 -0800,Minor code clean ups.,50,2774
+46,3615d8f,SUCCESS,10,SUCCESS,7,SUCCESS,7,2013-03-02 14:13:32 -0800,Fixed issues #156 #191 #192. Thanks to ilovesoup for reporting.,50,2779
+47,870d249,SUCCESS,9,SUCCESS,8,SUCCESS,6,2013-03-02 14:27:50 -0800,Adding meta refresh and location to outgoing links,50,2785
+48,5bb0273,SUCCESS,8,SUCCESS,7,SUCCESS,6,2013-03-02 14:47:34 -0800,Added support for handling content fetch and parsing issues.,50,2793
+49,b86018b,SUCCESS,9,SUCCESS,8,SUCCESS,6,2013-03-02 15:15:26 -0800,Provide access to response headers in the visit method.,50,2812
+50,3df4ae1,SUCCESS,9,SUCCESS,7,SUCCESS,7,2013-03-02 21:52:09 -0800,Fixed issue #169 and issue #136,50,2822
+51,183d98a,SUCCESS,8,SUCCESS,8,SUCCESS,7,2013-03-02 23:07:51 -0800,Fixed issue #101,50,2826
+52,8f3be74,SUCCESS,9,SUCCESS,8,SUCCESS,6,2013-03-02 23:24:33 -0800,Fixed issue #184,50,2829
+53,c697a98,SUCCESS,9,SUCCESS,8,SUCCESS,7,2013-03-03 00:05:38 -0800,Fixed issue #143,50,2837
+54,7a74ac5,FAIL,6,NO,0,NO,0,2013-03-03 09:44:15 -0800,Upgrade to Java 7,50,2837
+55,920f47e,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-03-03 10:24:32 -0800,Upgrade pom.xml to use Java 7,50,2837
+56,a7a5eb0,SUCCESS,9,SUCCESS,8,SUCCESS,8,2013-03-03 10:27:59 -0800,[maven-release-plugin] prepare release crawler4j-3.5,50,2837
+57,bfb7321,SUCCESS,10,SUCCESS,9,SUCCESS,8,2013-03-03 10:28:03 -0800,[maven-release-plugin] prepare for next development iteration,50,2837
+58,e14a296,SUCCESS,10,SUCCESS,8,SUCCESS,7,2013-04-07 21:27:17 -0700,Fix Null pointer exception in Parser,50,2839
+59,d76ea2d,FAIL,0,NO,0,NO,0,2014-08-03 11:03:56 +0300,Initial commit,0,0
+60,ad90400,SUCCESS,10,SUCCESS,8,SUCCESS,7,2014-08-03 13:40:23 +0300,Merge branch 'master' of https://github.com/Chaiavi/Crawler4j,50,2839
+61,21e71a8,SUCCESS,11,SUCCESS,8,SUCCESS,8,2014-08-03 13:58:13 +0300,Update README.md,50,2839
+62,8bb591b,SUCCESS,10,SUCCESS,7,SUCCESS,7,2014-08-03 15:04:59 +0300,Added log messages to PageFetcher,50,2841
+63,89318e2,SUCCESS,14,SUCCESS,8,SUCCESS,6,2014-08-03 22:22:45 +0300,Fixes #21 - Updated pom.xml,50,2841
+64,a0bc137,SUCCESS,10,SUCCESS,9,SUCCESS,7,2014-08-03 22:48:48 +0300,Changed from log4j implementation to slf4j API - Fixes #1,50,2849
+65,ba9745e,SUCCESS,10,SUCCESS,8,SUCCESS,7,2014-08-04 10:38:29 +0300,Added initial guidelines to the work of this prject,50,2849
+66,e2137ab,SUCCESS,9,SUCCESS,8,SUCCESS,8,2014-08-04 12:26:24 +0300,"Added ""How to use"" & ""Code examples"" sections",50,2849
+67,56c9467,SUCCESS,9,SUCCESS,9,SUCCESS,8,2014-08-04 12:36:37 +0300,Upgraded the lists,50,2849
+68,846a979,SUCCESS,9,SUCCESS,8,SUCCESS,7,2014-08-07 07:48:57 +0300,Upgrade all logging statements to use {} of slf4j #25,50,2847
+69,a84382f,SUCCESS,10,SUCCESS,8,SUCCESS,8,2014-08-07 07:49:03 +0300,Merge branch 'master' of https://github.com/Chaiavi/Crawler4j,50,2847
+70,9efaeef,SUCCESS,9,SUCCESS,8,SUCCESS,7,2014-08-07 08:04:08 +0300,Memory leakage in crawler4j caused by database environment #15,50,2850
+71,1e3995c,SUCCESS,15,SUCCESS,9,SUCCESS,7,2014-08-08 09:35:40 +0300,Fixes #28 - Added binary content parsing,50,2907
+72,95c91d8,SUCCESS,10,SUCCESS,9,SUCCESS,8,2014-08-11 11:19:14 +0300,Fixed some github-googlecode changes.,50,2907
+73,091f504,SUCCESS,11,SUCCESS,10,SUCCESS,9,2014-08-11 16:29:28 +0300,Fixed Issue #139,50,2907
+74,384d981,SUCCESS,11,SUCCESS,10,SUCCESS,8,2014-08-13 22:05:49 +0300,Issue 276: Don't let a crawled URL to be dropped without proper logging.,50,2915
+75,6bdccbd,SUCCESS,13,SUCCESS,9,SUCCESS,9,2014-08-17 14:53:36 +0300,Issue 278: Add hooks in the webcrawler for better error handling Issue 239: Add an option to tweak the URL before processing the page,50,2923
+76,9a9b684,SUCCESS,10,SUCCESS,9,SUCCESS,8,2014-08-17 19:10:47 +0300,Issue 279:	TikaException is thrown while crawling several PDFs in a row,50,2922
+77,cc0e9ec,SUCCESS,11,SUCCESS,9,SUCCESS,9,2014-08-17 20:40:02 +0300,Issue 251:	Fix a typo,50,2922
+78,8e0bdb8,SUCCESS,10,SUCCESS,9,SUCCESS,7,2014-08-19 12:26:17 +0300,Issue 284:	Cathing any exception and hidding the log.,50,2924
+79,abf1ded,SUCCESS,11,SUCCESS,9,SUCCESS,8,2014-08-19 13:18:53 +0300, Issue 282:	Add CHANGES.TXT with the changelog to the root,50,2924
+80,b7191f4,SUCCESS,10,SUCCESS,9,SUCCESS,8,2014-08-19 18:24:39 +0300,Issue 288:	Upgrade Unit Tests to v4,50,2928
+81,65954e3,SUCCESS,11,SUCCESS,8,SUCCESS,8,2014-08-19 18:33:15 +0300,Issue 285:	WebURL.java causes IndexOutOfBoundException Issue 206:	StringIndexOutOfBoundsException in WebURL,51,2938
+82,c95f663,SUCCESS,11,SUCCESS,8,SUCCESS,8,2014-08-19 18:41:34 +0300,Issue 289:	Parsing a binary content shouldn't throw a general parsing error,52,2950
+83,a047d66,SUCCESS,11,SUCCESS,9,SUCCESS,8,2014-08-20 11:38:57 +0300,Issue 236:	Please default includeHttpsPages to true,52,2949
+84,c62179b,SUCCESS,10,SUCCESS,8,SUCCESS,8,2014-08-20 14:19:39 +0300,Issue 273:	Tabbing looks messed up in several places,52,2947
+85,bd9de87,SUCCESS,10,SUCCESS,9,SUCCESS,8,2014-08-20 17:24:10 +0300,Issue 290:	We should support all redirect status codes,52,2952
+86,f5ec515,SUCCESS,10,SUCCESS,8,SUCCESS,8,2014-08-21 14:20:58 +0300,Issue 291:	HtmlParseData should hold a unique list of URLs,52,2953
+87,274fa1f,SUCCESS,12,SUCCESS,10,SUCCESS,9,2014-08-21 17:30:57 +0300,Removed unneeded code,52,2949
+88,30133d7,SUCCESS,11,SUCCESS,8,SUCCESS,8,2014-08-22 10:47:26 +0300,"Fixed bad case of lowercasing the URL, which is wrong as URLs are case sensitive",52,2949
+89,c874761,SUCCESS,10,SUCCESS,8,SUCCESS,8,2014-08-22 16:13:52 +0300,Issue 133 & Issue 160,52,2974
+90,f9df699,SUCCESS,11,SUCCESS,8,SUCCESS,8,2014-08-23 21:07:45 +0300,Issue 205:	Removed eclipse generated files from the repository & updated gitignore,52,2974
+91,4124431,SUCCESS,11,SUCCESS,9,SUCCESS,9,2014-08-24 16:51:56 +0300,Issues 293 & 294,52,2993
+92,1e46461,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-08-25 12:23:07 +0300,Issue 295:	Add meta tags into the parsed html object,52,3003
+93,4ed3d4e,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-08-25 17:05:58 +0300,Issue 297:	Add tag name to WebUrl,52,3020
+94,b9a8b5c,SUCCESS,11,SUCCESS,9,SUCCESS,11,2014-09-01 10:29:51 +0300,Issue 225:	Meta refresh does not work correctly ?,52,3022
+95,2264d63,SUCCESS,13,SUCCESS,9,SUCCESS,10,2014-09-01 10:36:10 +0300,Issue 296:	Threads not being killed in graceful shutdown,52,3023
+96,b77ca34,SUCCESS,11,SUCCESS,9,SUCCESS,11,2014-09-01 11:22:49 +0300,Issue 298:	Fatal Transport Error when crawling robots.txt,52,3023
+97,3aa3cd8,SUCCESS,12,SUCCESS,8,SUCCESS,10,2014-09-01 14:57:52 +0300,Issue 299:	NullPointerException when trying to crawl different URLs,52,3025
+98,0d42096,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-09-04 17:03:00 +0300,Issue 303:	Create a log configuration file default,52,3025
+99,a96701f,SUCCESS,11,SUCCESS,9,SUCCESS,9,2014-09-15 17:32:43 +0300,Issue 174:	Is crawler4j support crawling https page,52,3036
+100,22216c5,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-09-17 17:12:54 +0300,Issue 302:	Update deprecated methods/classes in PageFetcher,52,3042
+101,1ac1493,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-09-23 14:13:01 +0300,Issue 311:	Add functionality to retrieve links from binary and text only files Issue 304:	Crawl Site Maps,53,3101
+102,dd9f014,SUCCESS,10,SUCCESS,8,SUCCESS,10,2014-09-23 15:56:17 +0300,Issue 312:	Crawler should follow links in all plain text files,53,3095
+103,0a9abdd,SUCCESS,10,SUCCESS,8,SUCCESS,9,2014-10-02 15:53:09 +0300,Issue 216:	crawl JSON content instead of HTML,53,3095
+104,da006f8,SUCCESS,11,SUCCESS,8,SUCCESS,9,2014-11-23 10:41:19 +0200,Just a small comment added,53,3095
+105,553bd7f,SUCCESS,10,SUCCESS,8,SUCCESS,8,2014-11-23 11:46:45 +0200,Eliminated a potential memory leak,53,3097
+106,bb795ce,SUCCESS,11,SUCCESS,8,SUCCESS,9,2014-11-23 13:55:24 +0200,Removed the unneeded stacktrace when a timeout occurs,53,3102
+107,00a4229,SUCCESS,10,SUCCESS,7,SUCCESS,9,2014-11-23 14:10:13 +0200,Added more granularity to the errors Socket timeout & Unknown host,53,3113
+108,b4e0802,SUCCESS,10,SUCCESS,9,SUCCESS,9,2014-11-23 14:45:24 +0200,Expanded SocketTimeoutException a little,53,3114
+109,4388892,SUCCESS,9,SUCCESS,9,SUCCESS,10,2014-11-26 19:36:35 +0200,Issues: 88 & 171 - Added login authentication,56,3245
+110,ffae456,SUCCESS,11,SUCCESS,9,SUCCESS,12,2014-11-27 17:39:42 +0200,Removed unused code - checked and saw that it never gets result...,56,3237
+111,f811b46,SUCCESS,11,SUCCESS,10,SUCCESS,11,2014-12-02 12:23:55 +0200,Added some clarifying comments,56,3237
+112,b5f97a6,SUCCESS,12,SUCCESS,10,SUCCESS,10,2014-12-03 14:23:33 +0200,Preparing pom.xml for release,56,3237
+113,8a50697,SUCCESS,12,SUCCESS,9,SUCCESS,11,2014-12-03 15:25:07 +0200,Fixed all Maven errors and warning which were basically bad JavaDocs,56,3237
+114,209e0f9,SUCCESS,10,SUCCESS,10,SUCCESS,9,2014-12-03 23:47:23 -0800,Revert back the version,56,3237
+115,70ce84f,SUCCESS,10,SUCCESS,10,SUCCESS,10,2014-12-04 00:05:59 -0800,[maven-release-plugin] prepare release crawler4j-4.0,56,3237
+116,35e76bc,SUCCESS,10,SUCCESS,9,SUCCESS,9,2014-12-04 00:06:02 -0800,[maven-release-plugin] prepare for next development iteration,56,3237
+117,028dd36,SUCCESS,10,SUCCESS,8,SUCCESS,10,2014-12-05 12:18:45 +0200,Issue 301:	Upgrade the Pattern constant on the crawler examples,56,3248
+118,3b29d6f,SUCCESS,10,SUCCESS,9,SUCCESS,9,2014-12-05 14:20:55 +0200,Issue 321:	Change logging from System.out.print to SLF4J,56,3286
+119,511df21,SUCCESS,13,SUCCESS,9,SUCCESS,11,2014-12-09 12:59:49 +0200,Issue 322:	WebCrawler should throw exceptions instead of returning at the middle of the method,60,3311
+120,e7ba2db,SUCCESS,10,SUCCESS,9,SUCCESS,9,2014-12-09 15:19:15 +0200,Issue 175:	Missing IF-Statement causes crawler to throw a NullPointerException while syncing,60,3277
+121,bb4510e,SUCCESS,10,SUCCESS,10,SUCCESS,9,2014-12-09 17:50:40 +0200,Issue 323: Upgrade CustomFetchStatus,60,3236
+122,ddf4e15,SUCCESS,12,SUCCESS,9,SUCCESS,10,2014-12-10 11:43:04 +0200, Issue 149:	Proper compression support in the PageFetcher,60,3218
+123,26b9c66,SUCCESS,11,SUCCESS,8,SUCCESS,10,2014-12-10 13:05:26 +0200,Issue 324:	NullPointerException when crawling links with no HREF,60,3218
+124,fa59ff2,SUCCESS,11,SUCCESS,9,SUCCESS,8,2014-12-11 22:00:56 +0200,"Fixed Issues: 326, 325, 238",59,3129
+125,b393d12,SUCCESS,10,SUCCESS,7,SUCCESS,10,2015-01-19 18:09:41 +0200,Issie329: FileNotFoundException: .m2\repository\edu\uci\ics\crawler4j\4.0\crawler4j-4.0.jar!\tld-names.zip,59,3124
+126,bef3804,SUCCESS,9,SUCCESS,9,SUCCESS,10,2015-01-19 18:14:47 +0200,Issue329: Cleaning leftovers,59,3124
+127,4575702,SUCCESS,9,SUCCESS,9,SUCCESS,10,2015-01-22 13:37:50 +0200,Issue 214:	Always log if exception happens + Code Refactoring,58,3082
+128,4b25e33,SUCCESS,11,SUCCESS,8,SUCCESS,10,2015-01-22 17:00:44 +0200,Issue 334:	Crawling over disallowed paths from robots.txt,58,3085
+129,853afc5,SUCCESS,12,SUCCESS,8,SUCCESS,11,2015-01-22 18:58:16 +0200,Issue 335:	robots.txt isn't crawled,58,3091
+130,ee95ff2,SUCCESS,11,SUCCESS,10,SUCCESS,11,2015-01-25 19:06:47 +0200,"Issue 281:	Upgrade try-catch to java7 ""try with resources""",58,3083
+131,4b2ef3e,SUCCESS,13,SUCCESS,10,SUCCESS,10,2015-02-02 23:22:53 -0800,Create README.md,58,3083
+132,bd26c75,SUCCESS,11,SUCCESS,10,SUCCESS,10,2015-02-02 23:25:03 -0800,Update CHANGES.txt,58,3083
+133,4ac9e6f,SUCCESS,10,SUCCESS,10,SUCCESS,10,2015-02-02 23:43:27 -0800,[maven-release-plugin] prepare release crawler4j-4.1,58,3083
+134,586ea89,SUCCESS,11,SUCCESS,9,SUCCESS,10,2015-02-02 23:53:37 -0800,Update pom.xml for github,58,3083
+135,97ec5eb,SUCCESS,11,SUCCESS,8,SUCCESS,11,2015-02-02 23:55:26 -0800,[maven-release-plugin] prepare release crawler4j-4.1,58,3083
+136,4fad6c0,SUCCESS,10,SUCCESS,9,SUCCESS,9,2015-02-02 23:55:29 -0800,[maven-release-plugin] prepare for next development iteration,58,3083
+137,a166258,SUCCESS,11,SUCCESS,10,SUCCESS,10,2015-02-03 00:31:30 -0800,Update README.md,58,3083
+138,192a481,SUCCESS,10,SUCCESS,8,SUCCESS,10,2015-02-03 00:39:29 -0800,Add maven assembly plugin,58,3083
+139,5f6cf9c,SUCCESS,10,SUCCESS,8,SUCCESS,9,2015-02-03 16:27:24 -0800,Update BasicCrawler.java,58,3083
+140,516799e,SUCCESS,10,SUCCESS,8,SUCCESS,10,2015-02-03 22:19:37 -0800,Merge pull request #23 from smtriplett/master,58,3083
+141,6ffe56b,SUCCESS,11,SUCCESS,8,SUCCESS,10,2015-02-03 22:27:09 -0800,[style] re-format code,58,3125
+142,61de075,SUCCESS,11,SUCCESS,9,SUCCESS,9,2015-02-03 23:17:31 -0800,[style] Code improvements,58,3118
+143,cc99492,SUCCESS,17,SUCCESS,8,SUCCESS,11,2015-02-03 23:36:15 -0800,Update dependencies,58,3118
+144,3319b95,SUCCESS,11,SUCCESS,9,SUCCESS,11,2015-02-03 23:38:29 -0800,Remove emails from javadocs,58,3118
+145,dc207db,SUCCESS,12,SUCCESS,11,SUCCESS,11,2015-02-04 10:20:17 -0800,More comments for changes in the shouldVisit method,58,3118
+146,6270f50,SUCCESS,11,SUCCESS,10,SUCCESS,11,2015-02-04 12:43:46 -0800,Update WebCrawler.java,58,3118
+147,3e50c8b,SUCCESS,12,SUCCESS,9,SUCCESS,11,2015-02-15 13:43:56 -0500,Update README to use Set for getOutgoingURLs(),58,3118
+148,ab22b0a,SUCCESS,12,SUCCESS,10,SUCCESS,12,2015-02-15 11:26:44 -0800,Merge pull request #27 from lutaaya/readme-getOutgoingUrls,58,3118
+149,b7c3b50,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-02-27 06:44:12 +0000,change database name from string literal to a static final variable DATABASE_NAME,58,3122
+150,54db52a,SUCCESS,11,SUCCESS,10,SUCCESS,10,2015-02-26 22:52:13 -0800,Merge pull request #29 from mashuai/master,58,3122
+151,6bd194a,SUCCESS,11,SUCCESS,8,SUCCESS,10,2015-02-04 23:10:24 -0800,Minor refactoring and improving code styles,58,3072
+152,f65b4a2,SUCCESS,11,SUCCESS,9,SUCCESS,9,2015-02-27 08:06:08 +0000,"remove the magic number in Frontier, make it configurable",58,3127
+153,9199a2c,SUCCESS,10,SUCCESS,9,SUCCESS,11,2015-02-28 02:55:33 +0000,Merge remote-tracking branch 'crawler4j/master',58,3077
+154,9ff61ee,SUCCESS,11,SUCCESS,9,SUCCESS,10,2015-02-28 03:28:30 +0000,make the magic number 100 to be a final variable,58,3073
+155,cda9d53,SUCCESS,13,SUCCESS,10,SUCCESS,11,2015-02-28 05:53:43 +0000,rename MAX_IN_PROCESS_PAGES to IN_PROCESS_RESCHEDULE_BATCH_SIZE,58,3073
+156,e01b206,SUCCESS,11,SUCCESS,10,SUCCESS,10,2015-03-04 11:49:51 +0100,"Provide factory method for creating the HttpUriRequest (default: HttpGet), fixes #35",58,3075
+157,70fe6f1,SUCCESS,12,SUCCESS,9,SUCCESS,10,2015-03-04 09:47:08 -0800,Merge pull request #36 from Veritando/master,58,3075
+158,19fa3c2,SUCCESS,12,SUCCESS,9,SUCCESS,10,2015-03-16 21:26:23 +0000,Added default request header configuration.,58,3091
+159,22597ea,SUCCESS,10,SUCCESS,9,SUCCESS,9,2015-04-15 15:33:27 -0700,Added support for NT authentication to support crawling sites protected by active directory,59,3104
+160,960cd36,SUCCESS,10,SUCCESS,9,SUCCESS,11,2015-04-15 16:37:09 -0700,A few style adjustments based on feedback in pull request.,59,3105
+161,9b1ebfd,SUCCESS,11,SUCCESS,10,SUCCESS,11,2015-04-16 10:07:20 -0700,Merge pull request #45 from reidev/master,59,3105
+162,981712c,SUCCESS,12,SUCCESS,10,SUCCESS,11,2015-04-16 10:08:00 -0700,Merge pull request #32 from mashuai/master,59,3106
+163,93d7c29,SUCCESS,12,SUCCESS,10,SUCCESS,12,2015-04-16 10:28:06 -0700,Minor style improvements for default headers,58,3088
+164,bebe4b1,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-04-16 10:30:58 -0700,Merge pull request #46 from yasserg/pr/42,59,3119
+165,50d3cae,SUCCESS,12,SUCCESS,10,SUCCESS,11,2015-04-22 00:20:36 -0400,Change user agent to reflect new hosting location,59,3119
+166,7a7b75f,SUCCESS,12,SUCCESS,11,SUCCESS,12,2015-04-22 00:21:52 -0400,Update README.md,59,3119
+167,ceaeaf1,SUCCESS,12,SUCCESS,10,SUCCESS,12,2015-04-21 21:24:38 -0700,Merge pull request #47 from MasterEjay/patch-1,59,3119
+168,c836dcb,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-04-22 16:39:30 -0400,CrawlController has been refactored to replace hard coded instantiation of WebCrawler subtype with the factory approach. This allows using inner class or configurable implementations of WebCrawler interface.,59,3135
+169,95be562,SUCCESS,10,SUCCESS,10,SUCCESS,10,2015-04-22 13:58:30 -0700,Merge pull request #48 from igor-sokolov/master,59,3135
+170,b5826dc,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-05-16 21:59:18 -0700,Update README.md,59,3135
+171,0907b9a,SUCCESS,11,SUCCESS,9,SUCCESS,10,2014-12-10 23:58:21 +0100,moved logback to test/resources -> a library should not impose a logging framework It should be a test dependency in this case.,59,3135
+172,40f76ce,SUCCESS,10,SUCCESS,9,SUCCESS,9,2015-05-20 19:51:09 -0700,Merge pull request #67 from MadEgg/logback,59,3135
+173,df0214a,SUCCESS,10,SUCCESS,8,FAIL,9,2014-09-24 18:40:22 +0200,"Disable automatic update of TLD-list. Should only do this on request, or at least be configurable.",59,3164
+174,608e5d2,SUCCESS,10,SUCCESS,10,FAIL,9,2015-05-20 22:41:04 -0700,Minor fixes on top of pr/64,59,3161
+175,2096dc3,SUCCESS,11,SUCCESS,10,FAIL,10,2015-05-17 22:35:40 +0200,DB-transaction after removing processed pages is not committed,59,3162
+176,f82a862,SUCCESS,11,SUCCESS,9,FAIL,9,2015-05-20 23:00:19 -0700,Minor fix on top of pr/53,59,3161
+177,c51fa77,SUCCESS,11,SUCCESS,10,FAIL,9,2015-05-20 23:02:15 -0700,Merge pull request #68 from yasserg/pr/53,59,3161
+178,9687c8e,SUCCESS,12,SUCCESS,10,FAIL,9,2014-10-28 19:42:35 +0100,"Add a setting to configure the behavior of the crawler when the queue is empty. When set to true, it will shut down. When set to false, it will keep running. This can be useful when building a daemon, waiting for more work.",59,3172
+179,4f6b7db,SUCCESS,11,SUCCESS,10,FAIL,10,2015-02-17 14:40:06 +0100,"Fix bug where metaRefresh was used instead of metaLocation. Copy/paste problem, and a bug where meta http-equiv=refresh was incorrectly parsed: when no URL was specified a NULL URL would be added.",59,3161
+180,705cac0,SUCCESS,11,SUCCESS,9,FAIL,10,2014-10-27 17:04:34 +0100,Added configuration parameter processBinaryContentInCrawling that determines if binary content must be processed by TIKA in addition to being retrieved at all (which is controlled by includeBinaryContentInCrawling). This is useful if you want to be able to retrieve the binary content but do not care if links inside are processed. This can improve the performance when handling binary documents strongly.,59,3169
+181,5d555f3,SUCCESS,12,SUCCESS,11,SUCCESS,10,2015-05-26 10:46:19 +0200,fix tldlist absolute path,59,3161
+182,fd59541,SUCCESS,12,SUCCESS,10,SUCCESS,9,2015-05-27 22:06:45 -0700,Merge pull request #69 from MadEgg/fix-tld,59,3161
+183,e0422d7,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-05-27 22:07:05 -0700,Add travis config,59,3161
+184,7502a4a,SUCCESS,10,SUCCESS,10,SUCCESS,8,2015-05-27 22:19:58 -0700,Update README.md,59,3161
+185,64915c8,SUCCESS,12,SUCCESS,9,SUCCESS,10,2015-05-27 23:16:48 -0700,Add license notice,59,3161
+186,3d4354a,SUCCESS,11,SUCCESS,10,SUCCESS,9,2015-05-27 23:45:47 -0700,Update README.md,59,3161
+187,be02e29,SUCCESS,11,SUCCESS,9,SUCCESS,9,2015-05-27 23:50:41 -0700,Update README.md,59,3161
+188,2adfeb3,FAIL,12,NO,0,NO,0,2015-06-01 17:18:41 +0200,Update PageFetcher.java,59,3162
+189,4fd9c84,SUCCESS,13,SUCCESS,11,SUCCESS,10,2015-06-01 18:05:40 +0200,Update PageFetcher.java,59,3162
+190,de46d30,SUCCESS,12,SUCCESS,10,SUCCESS,9,2015-06-01 10:03:27 -0700,Merge pull request #74 from albert0815/albert0815-close-entity,59,3162
+191,f79a784,SUCCESS,12,SUCCESS,11,SUCCESS,9,2015-06-29 16:57:10 +0200,2xx status codes,59,3162
+192,ce856f4,SUCCESS,11,SUCCESS,8,SUCCESS,9,2015-06-30 10:28:26 -0700,Merge pull request #75 from MadEgg/accept-2xx,59,3162
+193,7ed6385,SUCCESS,11,SUCCESS,10,SUCCESS,8,2015-07-18 20:01:56 -0700,Merge pull request #65 from MadEgg/shutdown-empty,59,3173
+194,373f09d,SUCCESS,9,SUCCESS,9,SUCCESS,9,2015-07-18 20:05:34 -0700,Merge pull request #55 from MadEgg/bug-html-metarefresh,59,3173
+195,bdbdc3e,SUCCESS,11,SUCCESS,10,SUCCESS,10,2015-07-18 20:07:19 -0700,Merge pull request #54 from MadEgg/binary-content,59,3181
+196,28ca8eb,SUCCESS,11,SUCCESS,10,SUCCESS,9,2015-05-26 12:25:54 +0200,added a callback for unhandled exceptions during fetching,59,3185
+197,f9c82fe,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-07-21 14:22:29 +0200,onUnhandledException - fix duplicate logging issue,59,3183
+198,810f705,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-07-21 09:39:39 -0700,Merge pull request #70 from MadEgg/fetch-errors,59,3183
+199,a8121e3,SUCCESS,11,SUCCESS,10,SUCCESS,9,2015-12-02 23:39:31 -0800,[maven-release-plugin] prepare release crawler4j-4.2,59,3183
+200,48ce714,SUCCESS,12,SUCCESS,10,SUCCESS,10,2015-12-02 23:39:35 -0800,[maven-release-plugin] prepare for next development iteration,59,3183
+201,b52e54c,SUCCESS,13,SUCCESS,10,SUCCESS,9,2015-12-17 20:19:36 -0700,The canonicalization of request URLs alphabetizes the parameters,59,3181
+202,fdb3baa,SUCCESS,13,SUCCESS,10,SUCCESS,10,2015-12-18 12:38:51 -0800,Merge pull request #106 from rdelaoc/UrlRequestParameterOrdering,59,3181
+203,5bdcf4b,SUCCESS,12,SUCCESS,8,SUCCESS,9,2016-01-08 16:39:34 +0100,Attempt to use already closed Environment object when shutting down crawl controller explicitly,59,3181
+204,16a7299,SUCCESS,10,SUCCESS,11,SUCCESS,7,2016-01-08 09:18:04 -0800,Merge pull request #109 from natemago/master,59,3181
+205,2932e72,SUCCESS,11,SUCCESS,9,SUCCESS,8,2016-01-08 09:18:38 -0800,Update README.md,59,3181
+206,9566990,SUCCESS,11,SUCCESS,9,SUCCESS,8,2016-03-21 11:17:49 +0100,Fixed typo at proxy authentication,59,3181
+207,996f6d0,SUCCESS,11,SUCCESS,9,SUCCESS,8,2016-03-21 09:18:59 -0700,Merge pull request #115 from skalca/readme-typo-proxy-password,59,3181
+208,bb6bb78,SUCCESS,11,SUCCESS,8,FAIL,10,2016-04-02 14:01:13 -0400,Added unit test to demonstrate bug when crawler user agent is non-lowercase,60,3196
+209,9076c81,SUCCESS,10,SUCCESS,10,SUCCESS,9,2016-04-02 14:12:50 -0400,Converted crawler user agent string to lowercase to address bug with non-lowercase values,60,3196
+210,4a89f0a,SUCCESS,12,SUCCESS,10,SUCCESS,8,2016-04-04 09:50:39 -0700,Merge pull request #117 from rvenutolo/robotstxtuseragentlowercase,60,3196
+211,9b2b1ea,SUCCESS,11,SUCCESS,10,SUCCESS,8,2016-04-13 17:10:20 +0800,Fixed  HttpException: Unsupported cookie policy [default],60,3196
+212,16c0b74,SUCCESS,11,SUCCESS,9,SUCCESS,9,2016-06-03 16:46:29 -0400,"Add shouldFollowLinksInPage(Page) method, to allow easy configuration for certain crawling policies. Fixes https://github.com/yasserg/crawler4j/issues/129",60,3202
+213,4bff407,SUCCESS,11,SUCCESS,10,SUCCESS,9,2016-06-01 12:00:18 +0100,dont throw NPE if Content-Type is missing,60,3198
+214,096819e,SUCCESS,11,SUCCESS,9,SUCCESS,9,2016-08-09 20:41:08 -0700,Merge pull request #151 from cmacdonald/PR-ContentType,60,3198
+215,58ccfe0,SUCCESS,11,SUCCESS,10,SUCCESS,11,2016-05-20 08:11:41 +0100,Append spaces to textual content parsing of HTML,61,3234
+216,e7444bc,SUCCESS,11,SUCCESS,10,SUCCESS,10,2016-09-27 23:25:13 -0700,Merge pull request #159 from yasserg/pr/152,61,3234
+217,681c7ca,SUCCESS,13,SUCCESS,11,SUCCESS,9,2016-09-27 23:51:18 -0700,Merge pull request #120 from IVANOPT/fix-cookie-default-error,61,3234
+218,870c2e2,SUCCESS,12,SUCCESS,10,SUCCESS,9,2016-09-28 00:04:03 -0700,Add intellij configs,61,3234
+219,3763bb7,SUCCESS,12,SUCCESS,10,SUCCESS,9,2016-09-28 00:27:38 -0700,Reformat all classes,61,3316
+220,e532029,FAIL,43,NO,0,NO,0,2016-09-28 00:37:12 -0700,Add checkstyle configs and fix issues,61,3316
+221,b1bfe50,FAIL,30,NO,0,NO,0,2016-09-28 01:04:05 -0700,Update README.md,61,3316
+222,cdbb729,FAIL,34,NO,0,NO,0,2016-09-28 00:37:12 -0700,Fix dependencies,60,3308
+223,7d65d71,SUCCESS,30,SUCCESS,15,SUCCESS,16,2016-09-28 01:27:22 -0700,Fix checkstyle issue,60,3307
+224,d08bf87,SUCCESS,11,SUCCESS,8,SUCCESS,8,2016-10-27 13:40:49 -0400,"Add shouldFollowLinksInPage(Page) method, to allow easy configuration for certain crawling policies. Fixes https://github.com/yasserg/crawler4j/issues/129",60,3202
+225,8a52224,SUCCESS,29,SUCCESS,14,SUCCESS,15,2016-12-01 23:11:42 -0800,Update frontier - add method to grab number of scheduled pages,60,3309
+226,7e958c2,SUCCESS,28,SUCCESS,14,SUCCESS,15,2016-12-01 23:36:27 -0800,Update travis config,60,3307
+227,0bd8da3,SUCCESS,31,SUCCESS,17,SUCCESS,16,2016-12-01 23:38:56 -0800,Merge pull request #172 from yasserg/travis,60,3307
+228,e44ffe2,SUCCESS,32,SUCCESS,16,SUCCESS,17,2016-12-01 23:40:58 -0800,Merge pull request #171 from JCotton1123/feature/frontier-counters,60,3309
+229,cab9f81,SUCCESS,33,SUCCESS,15,SUCCESS,16,2016-12-02 00:45:19 -0800,Update compile version to 1.8,60,3309
+230,68f00c5,SUCCESS,32,SUCCESS,15,SUCCESS,15,2016-12-02 09:39:07 -0800,Merge pull request #173 from JCotton1123/fix/version,60,3309
+231,17a3b6c,SUCCESS,30,SUCCESS,12,SUCCESS,14,2016-12-05 21:29:06 +0100,Fix deprecation warning in PageFetcher.java,60,3309
+232,324f88d,SUCCESS,31,SUCCESS,15,SUCCESS,14,2016-12-05 12:37:29 -0800,Merge pull request #175 from dariusgm/master,60,3309
+233,7d1585c,SUCCESS,31,SUCCESS,15,SUCCESS,15,2016-12-03 13:19:07 -0800,"Make the following configurable: thread monitoring delay, thread shutdown delay, cleanup delay",60,3331
+234,d6083b3,SUCCESS,32,SUCCESS,15,SUCCESS,15,2016-12-10 16:05:40 +0100,Merge pull request #174 from JCotton1123/feature/shutdown-configurability,60,3331
+235,121abad,SUCCESS,32,SUCCESS,15,SUCCESS,16,2016-12-10 17:30:43 +0100,Merge pull request #58 from MadEgg/download-size,60,3361
+236,756451d,SUCCESS,31,SUCCESS,15,SUCCESS,16,2016-12-10 17:35:46 +0100,Allow to specify RobotstxtServer maxBytes to download.,60,3365
+237,18afc75,SUCCESS,32,SUCCESS,14,SUCCESS,15,2016-12-10 17:43:15 +0100,Update README.md,60,3365
+238,98aaa96,SUCCESS,40,SUCCESS,16,SUCCESS,19,2016-12-12 21:14:53 +0100,"#163, include example and test of custom PagetFetcher, thanks @santiquetzal",62,3454
+239,a6f2bc2,SUCCESS,48,SUCCESS,16,SUCCESS,19,2016-12-13 15:12:52 +0100,"Bump up junit to 4.12, tika to 1.14",62,3454
+240,97109e0,SUCCESS,32,SUCCESS,16,SUCCESS,19,2016-12-15 14:43:47 +0100,"updates .gitignore  by several stuff, which should be excluded updates pom.xml to be easier readable",62,3454
+241,0675b33,SUCCESS,32,SUCCESS,15,SUCCESS,20,2016-12-15 14:51:00 +0100,Merge pull request #177 from rzo1/pom-improvements,62,3454
+242,7df5521,SUCCESS,38,SUCCESS,17,SUCCESS,23,2016-12-15 14:56:38 +0100,adds jacoco coverage analysis,62,3454
+243,b8a58b7,SUCCESS,33,SUCCESS,18,SUCCESS,27,2016-12-15 15:02:00 +0100,exclude exception package,62,3454
+244,9f6ef44,SUCCESS,36,SUCCESS,17,SUCCESS,19,2016-12-15 12:25:46 -0500,Merge remote-tracking branch 'remotes/upstream/master',62,3461
+245,09ed4d7,SUCCESS,35,SUCCESS,16,SUCCESS,20,2016-12-15 12:37:06 -0500,Copy intellij configuration files from upstream so they don't appear as changes.,62,3461
+246,af591e8,SUCCESS,31,SUCCESS,16,SUCCESS,18,2016-12-15 18:49:43 +0100,Merge pull request #139 from bgoldowsky/master,62,3461
+247,579cff0,SUCCESS,38,SUCCESS,16,SUCCESS,19,2016-12-15 20:39:19 +0100,Add Groovy and Spock  in the /src/test/groovy scope.,62,3461
+248,9653c47,SUCCESS,33,SUCCESS,15,SUCCESS,21,2016-12-15 21:14:10 +0100,Merge pull request #87 from MadEgg/sni-unrecognized-name-fix,64,3512
+249,b98028c,SUCCESS,34,SUCCESS,16,SUCCESS,25,2016-12-15 21:53:37 +0100,Merge pull request #178 from rzo1/jaccoco-coverage,64,3512
+250,4680035,SUCCESS,33,SUCCESS,21,SUCCESS,39,2016-12-16 14:59:50 +0100,Added WebCrawlerTest,64,3512
+251,0940b99,SUCCESS,33,SUCCESS,20,SUCCESS,39,2016-12-19 11:50:19 +0100,Update README.md,64,3512
+252,4e6cdaa,SUCCESS,34,SUCCESS,20,SUCCESS,40,2016-12-27 14:46:17 -0500,Create handler for 3xx pages,64,3514
+253,07704c7,FAIL,13,NO,0,NO,0,2016-12-28 12:25:55 +0100,"#78, Resolve conflicts.",66,3714
+254,f41cf19,SUCCESS,33,SUCCESS,20,SUCCESS,38,2016-12-28 12:27:30 +0100,"#78, Resolve conflicts.",66,3741
+255,11f4bd2,SUCCESS,32,SUCCESS,21,SUCCESS,36,2016-12-28 12:27:48 +0100,Merge pull request #78 from MadEgg/robotstxt,66,3741
+256,56e4c95,SUCCESS,34,SUCCESS,19,SUCCESS,36,2016-12-28 14:04:42 +0100,Update README.md,66,3741
+257,bd43fc7,SUCCESS,36,SUCCESS,25,SUCCESS,40,2016-12-30 10:12:24 -0500,Parse script elements as links,65,3538
+258,635a5cf,SUCCESS,37,SUCCESS,21,SUCCESS,38,2017-01-02 16:07:54 +0100,Merge pull request #185 from JCotton1123/scripts-as-links,67,3767
+259,0e6589a,SUCCESS,33,SUCCESS,21,SUCCESS,38,2017-01-05 09:36:14 +0100,Merge branch '3xx-handler' of git://github.com/JCotton1123/crawler4j into JCotton1123-3xx-handler,67,3769
+260,194db8d,SUCCESS,32,SUCCESS,20,SUCCESS,47,2017-01-05 10:22:18 +0100,"#181, add test to show onRedirectedStatusCode.",67,3769
+261,935195c,SUCCESS,34,SUCCESS,20,SUCCESS,48,2017-01-05 10:22:38 +0100,Merge branch 'JCotton1123-3xx-handler',67,3769
+262,582ae14,SUCCESS,34,SUCCESS,20,SUCCESS,45,2017-01-05 10:33:39 +0100,"#170#issuecomment-270418551, added -Xdoclint:none to allow loosy Javadoc syntax.",67,3769
+263,be41378,SUCCESS,36,SUCCESS,22,SUCCESS,53,2017-01-07 11:50:12 +0100,113#issuecomment-271050113 test shows how <script> tags are visited.,67,3769
+264,7fdec39,SUCCESS,36,SUCCESS,22,SUCCESS,50,2017-01-07 12:00:47 +0100,Update README.md,67,3769
+265,c4d3372,SUCCESS,36,SUCCESS,20,SUCCESS,51,2017-01-30 19:29:28 +0100,Update Apache Http Components,67,3769
+266,5f5276e,SUCCESS,33,SUCCESS,19,SUCCESS,52,2017-01-31 08:41:43 +0100,Merge pull request #191 from dariusgm/master,67,3769
+267,386da91,SUCCESS,34,SUCCESS,24,SUCCESS,55,2017-02-17 17:23:08 +0100,Better memory management when reading the data from server and enforcing maxBytes,67,3768
+268,278d121,SUCCESS,34,SUCCESS,22,SUCCESS,53,2017-02-28 14:33:01 +0100,Merge remote-tracking branch 'yasserg/master',67,3769
+269,5328286,FAIL,11,NO,0,NO,0,2017-02-28 14:37:07 +0100,updates slf4j to 1.7.22 (was 1.7.21) updates guava to 21.0 (was 19.0) updates apache http to 4.5.3 (was 4.5.2) updates berkley db to 5.0.84 (was 5.0.73) updates jacoco to 0.7.9 (was 0.7.7.201606060606),67,3769
+270,67f9f91,FAIL,7,NO,0,NO,0,2017-02-28 16:44:32 +0100,Merge pull request #199 from rzo1/dependency-update,67,3769
+271,79b7b8a,FAIL,6,NO,0,NO,0,2017-03-02 23:10:18 +0100,Update README.md,67,3769
+272,fa2453d,FAIL,6,NO,0,NO,0,2017-03-03 10:11:48 +0100,Merge pull request #196 from natemago/master,67,3768
+273,a5ddb37,FAIL,6,NO,0,NO,0,2017-03-24 09:05:05 +0100,Added distributionManagement in pom.xml,67,3768
+274,bfac183,FAIL,6,NO,0,NO,0,2017-03-30 11:48:50 +0200,Maven profile to use when releasing.,67,3768
+275,10670d9,FAIL,6,NO,0,NO,0,2017-03-30 12:07:52 +0200,"Untrack .idea folder, .iml files, updated gitignore",67,3768
+276,77e0f3c,FAIL,7,NO,0,NO,0,2017-03-30 12:21:32 +0200,"Untrack .idea folder, .iml files, updated gitignore",67,3768
+277,0da0901,FAIL,6,NO,0,NO,0,2017-03-30 12:40:35 +0200,[maven-release-plugin] prepare release crawler4j-4.3,67,3768
+278,f76a32a,FAIL,5,NO,0,NO,0,2017-03-30 12:40:43 +0200,[maven-release-plugin] prepare for next development iteration,67,3768
+279,c8400bf,FAIL,5,NO,0,NO,0,2017-03-30 16:17:45 +0200,Updated README for 4.3 release.,67,3768
+280,a7ef28e,FAIL,6,NO,0,NO,0,2017-03-30 17:01:26 +0200,4.4-SNAPSHOT -> 4.4.0-SNAPSHOT,67,3768
+281,d78ccda,FAIL,6,NO,0,NO,0,2017-04-15 18:27:50 -0400,Make the cookie policy configurable,67,3774
+282,469a0aa,FAIL,6,NO,0,NO,0,2017-04-15 16:36:32 -0700,Merge pull request #209 from JCotton1123/configurable-cookie-policy,67,3774
+283,457d922,FAIL,6,NO,0,NO,0,2017-04-16 21:14:05 -0400,"Add processing of meta robots flags and rel=""nofollow""",67,3841
+284,0b7d9f0,FAIL,6,NO,0,NO,0,2017-04-17 23:09:15 +0200,Merge pull request #210 from JCotton1123/meta-robots-processing,67,3841
+285,8444fac,FAIL,6,NO,0,NO,0,2017-06-12 16:55:09 +0800,"fix page parse charset, if parse charset failed then use default utf8;",67,3849
+286,4a0788c,FAIL,6,NO,0,NO,0,2017-06-12 17:13:31 +0800,fix page checkstyle problem;,67,3849
+287,70b53d9,FAIL,6,NO,0,NO,0,2017-07-13 16:19:19 -0700,Update README.md,67,3841
+288,55133d0,FAIL,7,NO,0,NO,0,2017-07-13 16:22:43 -0700,Merge pull request #230 from paramecinm/master,67,3841
+289,e199655,FAIL,6,NO,0,NO,0,2017-07-14 09:07:41 +0200,Merge remote-tracking branch 'yasserg/master',67,3841
+290,af1627c,FAIL,8,NO,0,NO,0,2017-07-14 09:12:38 +0200,"updates groovy from 2.4.7 to 2.4.17 updates tika from 1.14 to 1.16 - as tika-parsers is a huge library and we only need the Web / HTML parts of it, we can exclude several dependencies to lighten external dependencies",67,3841
+291,a746f87,FAIL,4,NO,0,NO,0,2017-07-14 09:16:59 +0200,Merge pull request #1 from rzo1/dependency-reduction,67,3841
+292,eedee50,FAIL,5,NO,0,NO,0,2017-07-14 10:32:57 -0700,Merge pull request #231 from rzo1/master,67,3841
+293,0b52c79,FAIL,6,NO,0,NO,0,2017-07-31 18:09:48 +0200,adding cookiestore to the config,67,3849
+294,098d89b,FAIL,6,NO,0,NO,0,2017-07-31 18:16:40 +0200,fix lint errors,67,3849
+295,e513c60,FAIL,5,NO,0,NO,0,2017-08-02 16:50:39 +0200,Merge branch 'master' of git://github.com/longcang/crawler4j into longcang-master,67,3849
+296,a0361ed,FAIL,6,NO,0,NO,0,2017-08-02 18:09:06 +0200,Merge pull request #223,67,3849
+297,bc69ad8,FAIL,6,NO,0,NO,0,2017-08-02 18:09:52 +0200,Add test for pull request #223,67,3841
+298,fbfa59b,FAIL,5,NO,0,NO,0,2017-08-02 18:10:00 +0200,Merge branch 'longcang-master',67,3849
+299,508e3b9,FAIL,5,NO,0,NO,0,2017-08-02 19:49:59 +0200,"Deprecate CrawlController customData, point to factory.",67,3851
+300,93b32be,FAIL,6,NO,0,NO,0,2017-08-03 09:21:42 +0200,Update README.md,67,3851
+301,97224df,FAIL,6,NO,0,NO,0,2017-08-11 13:08:40 +0200,adding javadoc,67,3849
+302,3ff5e67,FAIL,5,NO,0,NO,0,2017-08-18 15:36:13 +0200,"#221, create parent pom, move current code in submodule.",67,3851
+303,e939976,FAIL,6,NO,0,NO,0,2017-08-18 15:51:00 +0200,"#221, point to local parent pom.",67,3851
+304,6da6629,FAIL,6,NO,0,NO,0,2017-08-18 17:08:58 +0200,"#221, moved examples in crawler4j-examples module.",61,3661
+305,60f800e,FAIL,6,NO,0,NO,0,2017-08-18 17:09:29 +0200,"#221, moved examples in crawler4j-examples module.",61,3661
+306,396021b,FAIL,7,NO,0,NO,0,2017-08-18 17:17:52 +0200,output tests logs to target/test-logs.,61,3661
+307,c47f644,FAIL,6,NO,0,NO,0,2017-08-25 15:26:49 +0200,"Small fix to example. See details,",61,3662
+308,035e61b,FAIL,6,NO,0,NO,0,2017-08-28 11:12:54 -0700,Fix readme example links,67,3851
+309,45eaf4d,FAIL,6,NO,0,NO,0,2017-08-28 11:36:43 -0700,Merge pull request #241 from marshalium/fix_example_links,67,3851
+310,05fd283,FAIL,7,NO,0,NO,0,2017-09-10 11:18:21 -0700,Added installation instructions with gradle,67,3851
+311,db8ab67,FAIL,6,NO,0,NO,0,2017-09-11 15:31:40 +0200,Merge pull request #244 from hkasera/gradle-installation-readme,67,3851
+312,a780fd1,FAIL,5,NO,0,NO,0,2017-09-11 09:24:21 -0700,Fixed broken sleepycat url,67,3851
+313,b380c7c,FAIL,6,NO,0,NO,0,2017-09-12 07:53:24 +0200,Merge pull request #245 from hkasera/gradle-installation-readme,67,3851
+314,951399b,FAIL,5,NO,0,NO,0,2017-09-25 11:13:54 +0200,"Add support for custom dns resolver, test.",67,3863
+315,f31fc56,FAIL,5,NO,0,NO,0,2017-09-25 11:21:37 +0200,Merge pull request #247 from yasserg/custom-dns-resolver,67,3863
+316,10f2e5b,FAIL,6,NO,0,NO,0,2017-10-02 19:28:25 -0700,Update ImageCrawlController.java,67,3863
+317,6a57946,FAIL,5,NO,0,NO,0,2017-10-03 08:56:03 +0200,Merge pull request #248 from Dhirajhr/My-First-Branch,67,3863
+318,d69fd07,FAIL,5,NO,0,NO,0,2017-10-04 17:30:58 -0700,Added binary content crawling config in readme,67,3863
+319,8b61ae0,FAIL,6,NO,0,NO,0,2017-10-04 17:40:28 -0700,Merge pull request #250 from hkasera/binary-content-config,67,3863
+320,b674d9c,FAIL,5,NO,0,NO,0,2017-12-07 11:11:31 -0300,removing password from toString,67,3862
+321,8f16a21,FAIL,5,NO,0,NO,0,2017-12-14 09:36:38 -0800,Merge pull request #265 from rcaa/pr-tostring,67,3862
+322,b7f3582,FAIL,5,NO,0,NO,0,2017-12-02 16:25:45 +0800,Fix href characters encoding issue,67,3875
+323,312408a,FAIL,6,NO,0,NO,0,2017-12-19 22:52:05 -0800,Merge pull request #272 from yasserg/pr/270,67,3874
+324,7ccc35c,FAIL,5,NO,0,NO,0,2018-02-14 17:25:50 +0100,"#257, expose Sleepycat's lock timeout configuration.",61,3669
+325,19f5439,FAIL,5,NO,0,NO,0,2018-02-14 17:45:58 +0100,"#266, fixed.",61,3670
+326,ac0a947,FAIL,6,NO,0,NO,0,2018-02-14 18:05:18 +0100,"#266, fixed.",61,3670
+327,4b2cf7f,FAIL,6,NO,0,NO,0,2018-02-14 18:06:03 +0100,"#262, http -> https",61,3670
+328,d699add,FAIL,5,NO,0,NO,0,2017-06-12 16:55:09 +0800,"fix page parse charset, if parse charset failed then use default utf8;",67,3857
+329,16a7336,FAIL,6,NO,0,NO,0,2017-06-12 17:13:31 +0800,fix page checkstyle problem;,67,3857
+330,639c9f4,FAIL,6,NO,0,NO,0,2017-08-02 18:09:06 +0200,Merge pull request #223,67,3857
+331,495b438,FAIL,5,NO,0,NO,0,2017-08-02 18:09:52 +0200,Add test for pull request #223,67,3857
+332,ff506c0,FAIL,5,NO,0,NO,0,2017-08-02 19:49:59 +0200,"Deprecate CrawlController customData, point to factory.",67,3859
+333,4984945,FAIL,6,NO,0,NO,0,2017-08-03 09:21:42 +0200,Update README.md,67,3859
+334,f013e0a,FAIL,5,NO,0,NO,0,2017-08-18 15:36:13 +0200,"#221, create parent pom, move current code in submodule.",67,3859
+335,b20ad4e,FAIL,6,NO,0,NO,0,2017-08-18 15:51:00 +0200,"#221, point to local parent pom.",67,3859
+336,07b9658,FAIL,5,NO,0,NO,0,2017-08-28 11:12:54 -0700,Fix readme example links,67,3859
+337,07b8007,FAIL,6,NO,0,NO,0,2017-09-10 11:18:21 -0700,Added installation instructions with gradle,67,3859
+338,ff242f5,FAIL,6,NO,0,NO,0,2017-09-11 09:24:21 -0700,Fixed broken sleepycat url,67,3859
+339,b3b0a60,FAIL,5,NO,0,NO,0,2017-09-25 11:13:54 +0200,"Add support for custom dns resolver, test.",67,3871
+340,93aa677,FAIL,6,NO,0,NO,0,2017-10-02 19:28:25 -0700,Update ImageCrawlController.java,67,3871
+341,edc9a5a,FAIL,6,NO,0,NO,0,2017-10-04 17:30:58 -0700,Added binary content crawling config in readme,67,3871
+342,c5e28d5,FAIL,6,NO,0,NO,0,2017-12-07 11:11:31 -0300,removing password from toString,67,3870
+343,f65df03,FAIL,6,NO,0,NO,0,2017-12-02 16:25:45 +0800,Fix href characters encoding issue,67,3882
+344,2c394fa,FAIL,5,NO,0,NO,0,2018-02-14 18:27:36 +0100,Merge branch 'ChinaCompare-support-for-cookies',67,3882
+345,8659649,FAIL,6,NO,0,NO,0,2017-06-12 16:55:09 +0800,"fix page parse charset, if parse charset failed then use default utf8;",67,3857
+346,cbe9d8b,FAIL,7,NO,0,NO,0,2017-06-12 17:13:31 +0800,fix page checkstyle problem;,67,3857
+347,2a372fc,FAIL,6,NO,0,NO,0,2017-08-02 18:09:06 +0200,Merge pull request #223,67,3857
+348,4f34511,FAIL,6,NO,0,NO,0,2017-08-02 18:09:52 +0200,Add test for pull request #223,67,3857
+349,e63fa86,FAIL,6,NO,0,NO,0,2017-08-02 19:49:59 +0200,"Deprecate CrawlController customData, point to factory.",67,3859
+350,4a2f9be,FAIL,6,NO,0,NO,0,2017-08-03 09:21:42 +0200,Update README.md,67,3859
+351,9daed3b,FAIL,5,NO,0,NO,0,2017-08-18 15:36:13 +0200,"#221, create parent pom, move current code in submodule.",67,3859
+352,3ce447c,FAIL,7,NO,0,NO,0,2017-08-18 15:51:00 +0200,"#221, point to local parent pom.",67,3859
+353,171e5f4,FAIL,6,NO,0,NO,0,2017-08-18 17:08:58 +0200,"#221, moved examples in crawler4j-examples module.",61,3669
+354,19e2c2e,FAIL,7,NO,0,NO,0,2017-08-18 17:09:29 +0200,"#221, moved examples in crawler4j-examples module.",61,3669
+355,453433b,FAIL,6,NO,0,NO,0,2017-08-18 17:17:52 +0200,output tests logs to target/test-logs.,61,3669
+356,595af8d,FAIL,5,NO,0,NO,0,2017-08-25 15:26:49 +0200,"Small fix to example. See details,",61,3670
+357,a24bba2,FAIL,7,NO,0,NO,0,2018-02-14 17:25:50 +0100,"#257, expose Sleepycat's lock timeout configuration.",61,3677
+358,238c03b,FAIL,5,NO,0,NO,0,2018-02-14 17:45:58 +0100,"#266, fixed.",61,3678
+359,0838248,FAIL,5,NO,0,NO,0,2018-02-14 18:05:18 +0100,"#266, fixed.",61,3678
+360,698ec73,FAIL,5,NO,0,NO,0,2018-02-14 18:06:03 +0100,"#262, http -> https",61,3678
+361,52061a8,FAIL,6,NO,0,NO,0,2018-02-14 19:03:49 +0100,Merge branch 'ChinaCompare-support-for-cookies' into develop,61,3678
+362,3392e35,FAIL,6,NO,0,NO,0,2018-02-14 19:05:41 +0100,Merge branch 'master' into develop,62,3749
+363,aedf660,FAIL,6,NO,0,NO,0,2018-02-14 20:35:58 +0100,Update README.md,67,3882
+364,d9b2fdf,FAIL,11,NO,0,NO,0,2018-02-15 13:32:46 +0100,"#38, updated wiremock 2.4.1 -> 2.14.0",62,3749
+365,2c21b93,FAIL,6,NO,0,NO,0,2018-02-15 14:53:32 +0100,"#38, see details,",62,3757
+366,bb731ba,FAIL,5,NO,0,NO,0,2018-02-15 14:58:41 +0100,Merge branch 'master' into develop,62,3757
+367,d03cb64,FAIL,4,NO,0,NO,0,2018-02-15 15:07:46 +0100,Merge pull request #287 from yasserg/develop,62,3757
+368,f16e88f,FAIL,6,NO,0,NO,0,2018-02-15 15:10:46 +0100,Fix relative links for example in README.md,62,3757
+369,de47bf8,FAIL,9,NO,0,NO,0,2018-02-17 09:51:33 +0100,"#282, see details",62,3765
+370,4109f09,FAIL,6,NO,0,NO,0,2018-02-20 22:52:58 -0800,Update README.md,62,3757
+371,462c8f1,FAIL,5,NO,0,NO,0,2018-02-22 16:36:10 +0300,Apply politeness delay only if it's set,62,3758
+372,f09da4d,FAIL,6,NO,0,NO,0,2018-02-22 15:00:09 +0100,Merge pull request #289 from valfirst/politeness-delay-optimization,62,3758
+373,86acd3b,FAIL,6,NO,0,NO,0,2018-02-16 11:49:51 +0300,Fix collision when both HTTPS and authentication are enabled (fix #142),62,3757
+374,ecb4eee,FAIL,5,NO,0,NO,0,2018-02-22 15:25:26 +0100,Merge pull request #283 from valfirst/fix-142-ssl-and-auth-collision,62,3757
+375,043900d,FAIL,6,NO,0,NO,0,2018-02-16 11:59:45 +0300,Use dynamic port for WireMock in unit tests,62,3758
+376,901ca94,FAIL,5,NO,0,NO,0,2018-02-22 17:38:37 +0100,Merge pull request #290 from valfirst/dynamic-wiremock-port,62,3758
+377,4436313,FAIL,6,NO,0,NO,0,2018-02-22 17:43:55 +0100,Merge pull request #288 from yasserg/develop,62,3766
+378,6831751,FAIL,6,NO,0,NO,0,2018-02-27 07:23:19 +0100,"#142, basic auth works again, tests.",62,3782
+379,af71c3e,FAIL,5,NO,0,NO,0,2018-02-27 07:23:31 +0100,"#142, basic auth works again, tests.",63,3790
+380,c7811d7,FAIL,6,NO,0,NO,0,2018-02-27 07:28:24 +0100,Merge pull request #292 from s17t/basic-auth-tests,63,3790
+381,349a42d,FAIL,6,NO,0,NO,0,2018-03-01 11:45:02 +0100,Integrate rzo1's postgres example.,69,3983
+382,756e717,FAIL,6,NO,0,NO,0,2018-03-01 11:52:52 +0100,Added docker in .travis.yml,69,3983
+383,a47b315,FAIL,5,NO,0,NO,0,2018-03-01 12:02:37 +0100,Merge pull request #294 from s17t/integrate-pgsql-example,69,3983
+384,9282cbf,FAIL,5,NO,0,NO,0,2018-03-01 13:34:26 +0100,"#26, fixed, test.",69,3992
+385,57ee403,FAIL,5,NO,0,NO,0,2018-03-01 13:36:21 +0100,"#26, fixed, test.",69,3989
+386,ab9fe4e,FAIL,5,NO,0,NO,0,2018-03-01 13:46:09 +0100,Merge pull request #295 from s17t/encode_halfwidth_and_fullwidth_space_before_URI_create._#44,69,3989
+387,684381f,FAIL,5,NO,0,NO,0,2018-03-01 15:20:40 +0100,"#274, fix",69,3991
+388,81fad5b,FAIL,4,NO,0,NO,0,2018-03-01 15:32:37 +0100,Merge pull request #296 from s17t/Nullpointer_Exception_occurs_while_fetching_the_Robots.txt_of_seed_URL._#274,69,3991
+389,3acdacc,FAIL,4,NO,0,NO,0,2018-03-01 15:49:25 +0100,"#145, see details",69,3992
+390,0ef16b8,FAIL,5,NO,0,NO,0,2018-03-01 16:11:35 +0100,Merge pull request #297 from s17t/ioc_modularization,69,3992
+391,5d383a0,FAIL,5,NO,0,NO,0,2018-03-04 17:12:34 +0900,Fix a link in README,69,3992
+392,1b4c875,FAIL,6,NO,0,NO,0,2018-03-05 07:06:03 +0100,Merge pull request #299 from mikarru/fix-readme,69,3992
+393,4d62255,FAIL,5,NO,0,NO,0,2018-03-12 09:58:55 +0100,it should be possible overriding the parser from crawler controller,69,4000
+394,be4eff3,FAIL,5,NO,0,NO,0,2018-03-12 11:42:59 +0100,the html parsing components can be replaced with custom,71,4039
+395,b14fc47,FAIL,5,NO,0,NO,0,2018-03-12 14:45:04 +0100,fixed style,71,4039
+396,9d968dd,FAIL,5,NO,0,NO,0,2018-03-12 17:11:00 +0100,Merge pull request #302 from raymanrt/master,71,4039
+397,d082e0c,FAIL,5,NO,0,NO,0,2018-03-12 18:37:23 +0100,"#291, change deceptive log line when using FormAuthInfo, test FormAuthInfo.",71,4039
+398,346668a,FAIL,5,NO,0,NO,0,2018-03-12 18:41:57 +0100,Fixed missing version in maven-compiler-plugin.,71,4039
+399,e5f07b9,FAIL,4,NO,0,NO,0,2018-03-19 18:29:46 +0100,Moved release information in parent pom.,71,4039
+400,65fc399,FAIL,5,NO,0,NO,0,2018-03-21 17:53:29 +0100,Maven release information in examples parent POM.,71,4039
+401,dee9e0e,FAIL,6,NO,0,NO,0,2018-03-21 20:32:18 +0100,"See details,",71,4039
+402,85d6c13,FAIL,4,NO,0,NO,0,2018-03-21 20:32:43 +0100,"See details,",71,4039
+403,d4a5a38,FAIL,6,NO,0,NO,0,2018-03-21 21:22:57 +0100,"See details,",71,4039
+404,dd09fde,FAIL,5,NO,0,NO,0,2018-03-21 21:30:06 +0100,[maven-release-plugin] prepare release crawler4j-4.4.0,71,4039
+405,4124cfd,FAIL,4,NO,0,NO,0,2018-03-21 21:30:18 +0100,[maven-release-plugin] prepare for next development iteration,71,4039
+406,836b871,FAIL,5,NO,0,NO,0,2018-03-21 21:50:05 +0100,[maven-release-plugin] roll back,71,4039
+407,920f1ae,FAIL,6,NO,0,NO,0,2018-03-26 16:25:01 +0200,Add some metadata to comply to http://central.sonatype.org/pages/requirements.html#sufficient-metadata,71,4039
+408,1e2b5f9,FAIL,5,NO,0,NO,0,2018-03-26 20:39:01 +0200,[maven-release-plugin] prepare release crawler4j-4.4.0,71,4039
+409,133c1f1,FAIL,5,NO,0,NO,0,2018-03-26 20:39:01 +0200,[maven-release-plugin] prepare for next development iteration,71,4039
+410,ead601b,FAIL,5,NO,0,NO,0,2018-03-26 21:29:37 +0200,Update README.md to point the 4.4.0 version.,71,4039
+411,a5ccbe4,FAIL,9,NO,0,NO,0,2018-03-27 16:18:07 +0200,"#303, merge and fix HTML charset in test.",71,4039
+412,6e59709,FAIL,6,NO,0,NO,0,2018-03-28 07:08:28 +0200,"#303, merge and fix HTML charset in test.",71,4039
+413,f26c807,FAIL,6,NO,0,NO,0,2018-03-28 18:01:34 +0200,"#310, tentative to auto snapshot with travis and sonatype.",71,4039
+414,ab2823c,FAIL,6,NO,0,NO,0,2018-03-30 17:18:09 +0200,"#310, tell travis to build master branch only.",71,4039
+415,0e93a57,FAIL,5,NO,0,NO,0,2018-04-04 00:46:41 +0300,Use pre-defined HTTP header constants,71,4040
+416,4336095,FAIL,9,NO,0,NO,0,2018-04-04 00:48:40 +0300,Upgrade to JaCoCo 0.8.1,71,4039
+417,3cb4c82,FAIL,6,NO,0,NO,0,2018-04-04 00:05:33 +0200,Merge pull request #314 from valfirst/use-pre-defined-http-header-constants,71,4040
+418,3394e93,FAIL,5,NO,0,NO,0,2018-04-04 00:06:17 +0200,Merge pull request #315 from valfirst/upgrade-to-jacoco-0-8-1,71,4040
+419,7f21f91,FAIL,6,NO,0,NO,0,2018-04-05 18:57:50 +0200,Moved guava dependency away from crawler4j module.,71,4044
+420,d7366fa,FAIL,6,NO,0,NO,0,2018-07-02 18:50:55 -0300,Parse css for links matching url(*)in tags @import and @font-face,72,4144
+421,2e26030,FAIL,8,NO,0,NO,0,2018-07-11 15:00:31 +0800,Fix issues of NullPointerException when frontier/ is empty,71,4046
+422,8ee9172,FAIL,5,NO,0,NO,0,2018-07-13 07:04:48 +0200,Merge pull request #330 from abgelehnt/master,71,4046
+423,5333a90,FAIL,6,NO,0,NO,0,2018-09-06 00:04:46 -0400,add missing package spec for RobotstxtParserTest.groovy,71,4046
+424,5ac7740,FAIL,7,NO,0,NO,0,2018-09-06 00:15:06 -0400,make the postgres tests easier to run on Windows,71,4046
+425,b99d5bb,FAIL,5,NO,0,NO,0,2018-09-06 00:25:16 -0400,Harmless workaround for eclipse users that allows the m2e checkstyle plugin to work with maven-checkstyle-plugin 3.0.0.,71,4046
+426,c21594b,FAIL,6,NO,0,NO,0,2018-09-28 22:58:11 -0400,Upgrade Checkstyle to v8.12,71,4046
+427,2ed59ba,FAIL,6,NO,0,NO,0,2018-09-06 00:28:56 -0400,Update example URLs to use https instead of http.,71,4046
+428,648f8b3,FAIL,7,NO,0,NO,0,2018-09-06 00:31:30 -0400,use editor config (https://EditorConfig.org),71,4046
+429,4d1be63,FAIL,6,NO,0,NO,0,2018-09-06 00:33:37 -0400,Update ASF 2.0 license file and use full text per Apache current guidelines:,71,4046
+430,e922e9e,FAIL,6,NO,0,NO,0,2018-09-06 00:36:49 -0400,ignore some eclipse metadata files,71,4046
+431,9cd2ae7,FAIL,6,NO,0,NO,0,2018-09-06 18:56:40 -0400,add maven repo link for readme badge,71,4046
+432,d1dd1da,FAIL,7,NO,0,NO,0,2018-09-13 13:20:03 -0400,"less verbose console output during unit tests, and log to a file",71,4046
+433,8f35958,FAIL,5,NO,0,NO,0,2018-09-28 23:56:19 -0400,logging config for unit tests,71,4046
+434,d20fc31,FAIL,6,NO,0,NO,0,2018-09-13 13:23:31 -0400,"test case demonstrating failure to parse localhost URL, https://github.com/yasserg/crawler4j/issues/348",71,4046
+435,000fb31,FAIL,8,NO,0,NO,0,2018-09-23 17:01:56 -0400,Fix https://github.com/yasserg/crawler4j/issues/348,71,4054
+436,182971b,FAIL,6,NO,0,NO,0,2018-10-02 19:28:42 -0400,"Add ""haltOnError"" config option",71,4182
+437,793d779,FAIL,6,NO,0,NO,0,2018-10-02 19:44:21 -0400,remove unneeded merge artifact,71,4182
+438,a2fd593,FAIL,6,NO,0,NO,0,2018-10-02 22:19:16 -0700,Merge pull request #352 from pgalbraith/PR/RobotstxtParser-package,71,4046
+439,0976bcf,FAIL,6,NO,0,NO,0,2018-10-03 21:27:29 -0700,Merge pull request #353 from pgalbraith/PR/checkstyle-eclipse,71,4046
+440,e4c8940,FAIL,6,NO,0,NO,0,2018-10-03 21:30:25 -0700,Merge pull request #356 from pgalbraith/PR/maven-badge,71,4046
+441,a6c4146,FAIL,5,NO,0,NO,0,2018-10-03 21:32:51 -0700,Merge pull request #360 from pgalbraith/PR/https-urls-for-testing,71,4046
+442,bbb82df,FAIL,6,NO,0,NO,0,2018-10-03 21:38:27 -0700,Merge pull request #359 from pgalbraith/PR/ASF-license-update,71,4046
+443,c7f62d0,FAIL,6,NO,0,NO,0,2018-10-03 21:39:21 -0700,Update LICENSE,71,4046
+444,14f4d37,FAIL,5,NO,0,NO,0,2018-10-04 10:53:45 -0400,Merge branch 'master' into PR/halt-on-error,71,4182
+445,f2f449c,FAIL,6,NO,0,NO,0,2018-10-04 11:38:09 -0400,remove blank line,71,4182
+446,63a6502,FAIL,6,NO,0,NO,0,2018-10-04 16:58:33 -0400,make the batch read transaction size configurable,71,4054
+447,91f1505,FAIL,8,NO,0,NO,0,2018-10-10 10:32:40 -0400,tighten up logging dependencies to use only SLF4J/logback consistently,71,4046
+448,eb8a195,FAIL,5,NO,0,NO,0,2018-10-11 14:18:21 -0400,Use optional profiles to override docker executable locations.,71,4046
+449,617d490,FAIL,6,NO,0,NO,0,2018-10-11 15:07:15 -0400,Make TLDList usage instance-based instead of singleton.,71,4073
+450,bc19f0f,FAIL,6,NO,0,NO,0,2018-10-11 18:48:13 -0400,Unit test for issue https://github.com/yasserg/crawler4j/issues/318,71,4073
+451,90da751,FAIL,5,NO,0,NO,0,2018-10-11 18:51:18 -0400,remove setUseOnline(),71,4070
+452,8c3d20e,FAIL,4,NO,0,NO,0,2018-10-12 00:51:15 -0400,Use Guava and public-suffix-list libs for public suffix lookups.,71,4051
+453,af43d59,FAIL,8,NO,0,NO,0,2018-10-12 00:34:12 -0400,fix bad merge,71,4051
+454,6647422,FAIL,5,NO,0,NO,0,2018-10-12 02:11:29 -0400,Allow user to provide TLDList to controller.,71,4054
+455,de391c2,FAIL,5,NO,0,NO,0,2018-10-12 13:34:27 -0400,examples doesn't need to explicitly bring in guava any more,71,4054
+456,6a5dcd1,FAIL,6,NO,0,NO,0,2018-10-16 15:16:26 -0400,add copyright,71,4054
+457,4683cc7,FAIL,5,NO,0,NO,0,2018-10-11 00:57:01 -0400,test case for issue https://github.com/yasserg/crawler4j/issues/346,71,4054
+458,6a8d22b,FAIL,8,NO,0,NO,0,2018-10-11 01:29:27 -0400,fix for https://github.com/yasserg/crawler4j/issues/346,71,4056
+459,6b32c3d,FAIL,5,NO,0,NO,0,2018-10-25 18:41:59 -0400,lower logging threshold for http events,71,4046
+460,894eaca,FAIL,5,NO,0,NO,0,2018-11-14 19:35:00 -0500,ignore eclipse groovy config,71,4046
+461,78c1d71,FAIL,5,NO,0,NO,0,2018-11-14 19:40:39 -0500,ignore frontier dir in examples,71,4046
+462,95d7136,FAIL,5,NO,0,NO,0,2018-11-28 11:44:21 -0500,reorder new members and add to config logging,71,4183
+463,6ce5f9b,FAIL,6,NO,0,NO,0,2018-11-28 12:05:57 -0500,move new member again,71,4183
+464,797eb22,FAIL,6,NO,0,NO,0,2018-11-28 18:03:06 -0500,prefer tab indents,71,4046
+465,993c33c,FAIL,5,NO,0,NO,0,2018-11-28 20:10:40 -0500,"Revert ""prefer tab indents"" - confuses CheckStyle too much",71,4046
+466,a61de37,FAIL,6,NO,0,NO,0,2018-12-06 16:17:09 +0100,Merge pull request #365 from pgalbraith/PR/config-batch-read-size,71,4054
+467,317e2dd,FAIL,6,NO,0,NO,0,2018-12-06 16:19:33 +0100,Merge pull request #354 from pgalbraith/PR/postgres-windows,71,4054
+468,d925fc2,FAIL,6,NO,0,NO,0,2018-12-06 16:21:21 +0100,Merge pull request #355 from pgalbraith/PR/gitignore,71,4054
+469,f1fb853,FAIL,6,NO,0,NO,0,2018-12-06 16:23:20 +0100,Merge pull request #358 from pgalbraith/PR/editor-config,71,4054
+470,df0d127,FAIL,5,NO,0,NO,0,2018-12-06 16:35:38 +0100,Merge pull request #367 from pgalbraith/PR/public-suffix,71,4062
+471,bf49923,FAIL,6,NO,0,NO,0,2018-12-06 18:05:12 +0100,Merge pull request #368 from pgalbraith/PR/issue-346,71,4064
+472,3106551,FAIL,6,NO,0,NO,0,2018-12-06 18:22:36 +0100,Update .travis.yml,71,4064
+473,78fd0ac,FAIL,14,NO,0,NO,0,2018-12-06 20:15:26 +0100,java 11 compatibility.,71,4064
+474,c4fc5af,SUCCESS,36,SUCCESS,25,FAIL,32,2018-12-06 20:48:32 +0100,Pushed sleepycat version to 18.3.12,71,4064
+475,89704e3,SUCCESS,18,SUCCESS,20,FAIL,247,2018-12-06 22:45:45 +0100,bumped maven.surefire.version to run tests again.,71,4064
+476,59418da,SUCCESS,20,SUCCESS,22,FAIL,244,2018-12-11 16:20:09 +0100,"#343, event when redirect to nothing.",71,4076
+477,7c7870d,SUCCESS,19,SUCCESS,22,FAIL,244,2018-12-11 16:36:04 +0100,Merge pull request #376 from s17t/master,71,4076
+478,4150bb1,SUCCESS,18,SUCCESS,23,FAIL,245,2018-12-11 09:46:46 -0800,"Revert ""#343, event when redirect to nothing.""",71,4064
+479,1a0df4d,SUCCESS,18,SUCCESS,22,FAIL,242,2018-12-11 09:47:37 -0800,Merge pull request #377 from yasserg/revert-376-master,71,4064
+480,f9f2ba2,SUCCESS,18,SUCCESS,23,FAIL,243,2018-12-11 19:09:31 +0100,Fix #343,71,4076
+481,d321979,SUCCESS,18,SUCCESS,21,FAIL,270,2018-12-12 20:56:17 +0100,Fix #343,71,4076
+482,1e97309,SUCCESS,26,SUCCESS,25,FAIL,245,2018-12-12 22:41:22 +0100,Merge branch 'master' into PR/logging-config,71,4064
+483,d2e186c,SUCCESS,22,SUCCESS,23,FAIL,245,2018-12-13 03:41:33 -0500,Merge branch 'master' into PR/issue-348,71,4070
+484,2006e22,SUCCESS,23,SUCCESS,24,FAIL,244,2018-12-13 03:52:29 -0500,align with previous merge to development,71,4070
+485,b1bad18,SUCCESS,18,SUCCESS,22,FAIL,243,2018-12-13 09:19:40 -0500,Merge branch 'master' into PR/halt-on-error,71,4201
+486,b873207,SUCCESS,19,SUCCESS,22,FAIL,271,2018-12-15 09:14:54 +0100,Merge pull request #378 from s17t/master,71,4076
+487,8759723,SUCCESS,22,SUCCESS,23,FAIL,272,2018-12-15 09:39:06 +0100,Merge pull request #357 from pgalbraith/PR/logging-config,71,4076
+488,2bbce3c,SUCCESS,19,SUCCESS,22,FAIL,268,2018-12-15 09:56:34 +0100,Merge pull request #361 from pgalbraith/PR/issue-348,71,4082
+489,bd83e40,FAIL,21,NO,0,NO,0,2018-12-15 10:03:17 +0100,Merge branch 'master' into PR/halt-on-error,71,4219
+490,fbd310c,SUCCESS,20,SUCCESS,23,FAIL,268,2018-12-15 10:17:42 +0100,Fix checkstyle.,71,4219
+491,ef824d9,SUCCESS,18,SUCCESS,22,FAIL,272,2018-12-15 10:30:40 +0100,Merge pull request #364 from pgalbraith/PR/halt-on-error,71,4219
+492,8043a98,FAIL,5,NO,0,NO,0,2018-12-15 15:47:26 +0100,Parse css for links matching url(*)in tags @import and @font-face,72,4143
+493,b60c307,FAIL,6,NO,0,NO,0,2018-12-15 15:54:57 +0100,Parse css for links matching url(*)in tags @import and @font-face,72,4147
+494,bffe1f9,FAIL,6,NO,0,NO,0,2018-12-15 16:04:27 +0100,Parse css for links matching url(*)in tags @import and @font-face,72,4144
+495,6fdb8f2,SUCCESS,19,SUCCESS,23,FAIL,269,2018-12-15 16:18:39 +0100,Merge pull request #326 from juarezr/master,72,4319
+496,8444ec6,SUCCESS,25,SUCCESS,26,FAIL,276,2018-12-17 14:29:40 -0500,#134 prevent NPE in getNumberOfAssignedPages.,72,4322
+497,ffd90ab,SUCCESS,21,SUCCESS,22,FAIL,269,2019-01-18 12:28:14 -0800,Merge pull request #381 from cast-org/bugfix/issue-134,72,4322
+498,dc68f3f,SUCCESS,22,SUCCESS,26,FAIL,269,2019-02-03 22:57:20 -0800,Upgrade c3p0 in examples,72,4322
+499,f5267e3,FAIL,0,NO,0,NO,0,2019-02-18 14:18:22 -0800,Switch to gradle,72,4321
+500,1a3d6cf,FAIL,0,NO,0,NO,0,2019-02-20 22:42:23 -0800,Merge pull request #393 from yasserg/gradle,72,4321
+501,4868e87,FAIL,0,NO,0,NO,0,2019-02-24 08:17:53 -0800,Upgrade dependencies to latest versions,72,4321
+502,8c0fce6,FAIL,0,NO,0,NO,0,2019-02-24 09:20:18 -0800,Cleanup basic example,72,4312
+503,949af32,FAIL,0,NO,0,NO,0,2019-02-24 09:38:13 -0800,Cleanup image crawler example,72,4307
+504,3856181,FAIL,0,NO,0,NO,0,2019-02-24 09:49:58 -0800,Use factory in basic example,72,4315
+505,acee0e7,FAIL,0,NO,0,NO,0,2019-02-24 09:56:47 -0800,Update README.md,72,4315
+506,13afe94,FAIL,0,NO,0,NO,0,2019-02-24 10:06:36 -0800,Use factory in multiple-crawlers example,72,4314
+507,c30dd41,FAIL,0,NO,0,NO,0,2019-02-24 10:12:49 -0800,Update README for usage of factory,72,4314
+508,4fcddc8,FAIL,0,NO,0,NO,0,2019-02-24 10:19:00 -0800,Delete Donwloader example,71,4256
+509,42407db,FAIL,0,NO,0,NO,0,2019-11-01 13:01:33 -0700,Update the maximum size of a robots.txt file,71,4256
+510,d3c1157,FAIL,0,NO,0,NO,0,2019-11-01 13:53:34 -0700,Merge pull request #418 from djp3/patch-1,71,4256
+511,af1f9b4,FAIL,0,NO,0,NO,0,2019-12-06 16:41:43 +0300,Switch Travis builds from oraclejdk8 to openjdk8,71,4256
+512,f81fcc2,FAIL,0,NO,0,NO,0,2020-01-19 11:21:10 -0800,Merge pull request #423 from valfirst/patch-1,71,4256
+513,45d79d3,FAIL,0,NO,0,NO,0,2020-10-03 17:04:46 +0100,Fixed typo,71,4256
+514,68f5c1e,FAIL,0,NO,0,NO,0,2020-10-03 09:40:46 -0700,Merge pull request #454 from teeteejo/patch-1,71,4256

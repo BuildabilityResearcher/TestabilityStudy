@@ -1,0 +1,170 @@
+error,count
+,790
+com.alibaba.druid.sql.dialect.mysql.visitor.MySqlEvalVisitorImpl cannot be cast to com.alibaba.druid.sql.dialect.sqlserver.visitor.SQLServerASTVisitor,2
+TODO ALTER ALTER,1
+error LPAREN,1
+error VIEW,1
+"TODO IDENTIFIER AUTO_INCREMENT, pos 29",2
+"TODO LITERAL_CHARS New York, pos 28",1
+"syntax error, expect LPAREN, actual IDENTIFIER t1, pos 27",2
+"syntax error, expect LPAREN, actual IDENTIFIER t1, pos 45",1
+"syntax error, expect LPAREN, actual IDENTIFIER offer, pos 42",1
+"sql injection violation, create table not allow : CREATE TABLE sequence_seed (value INTEGER, name VARCHAR(50))",4
+Error creating bean with name &#x27;dataSourceExporter&#x27; defined in class path resource [com/alibaba/druid/pool/dataSource.xml]: Invocation of init method failed; nested exception is org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [com.alibaba.druid.wall.WallConfig@c3051ba] with key &#x27;com.alibaba.druid.test:type=WallConfig&#x27;; nested exception is javax.management.InstanceAlreadyExistsException: com.alibaba.druid.test:type=WallConfig,1
+Error creating bean with name &#x27;dataSourceExporter&#x27; defined in class path resource [com/alibaba/druid/pool/dataSource.xml]: Invocation of init method failed; nested exception is org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [com.alibaba.druid.wall.WallConfig@176979b5] with key &#x27;com.alibaba.druid.test:type=WallConfig&#x27;; nested exception is javax.management.InstanceAlreadyExistsException: com.alibaba.druid.test:type=WallConfig,1
+Error creating bean with name &#x27;dataSourceExporter&#x27; defined in class path resource [com/alibaba/druid/pool/dataSource.xml]: Invocation of init method failed; nested exception is org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [com.alibaba.druid.wall.WallConfig@5673b444] with key &#x27;com.alibaba.druid.test:type=WallConfig&#x27;; nested exception is javax.management.InstanceAlreadyExistsException: com.alibaba.druid.test:type=WallConfig,1
+Error creating bean with name &#x27;dataSourceExporter&#x27; defined in class path resource [com/alibaba/druid/pool/dataSource.xml]: Invocation of init method failed; nested exception is org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [com.alibaba.druid.wall.WallConfig@686ee191] with key &#x27;com.alibaba.druid.test:type=WallConfig&#x27;; nested exception is javax.management.InstanceAlreadyExistsException: com.alibaba.druid.test:type=WallConfig,1
+"syntax error, expect RPAREN, actual CHECK CHECK, pos 83",1
+com.alibaba.druid.filter.stat.StatFilter cannot be cast to com.alibaba.druid.filter.Filter,8
+com.alibaba.druid.filter.logging.Log4jFilter cannot be cast to com.alibaba.druid.filter.Filter,7
+TODO FOREIGN foreign,1
+TODO FOREIGN FOREIGN,2
+TODO IDENTIFIER COLUMN,3
+TODO INDEX INDEX,2
+TODO PRIMARY PRIMARY,1
+eval error : ? IS NULL,31
+Error,56
+SqlMapClient operation; uncategorized SQLException for SQL []; SQL state [null]; error code [0];    --- The error occurred in com/alibaba/druid/pool/ibatis/Sequence.xml.   --- The error occurred while executing query.   --- Check the    SELECT value   FROM sequence_seed   WHERE name = ?  .   --- Check the SQL Statement (preparation failed).   --- Cause: java.lang.NullPointerException; nested exception is com.ibatis.common.jdbc.exception.NestedSQLException:    --- The error occurred in com/alibaba/druid/pool/ibatis/Sequence.xml.   --- The error occurred while executing query.   --- Check the    SELECT value   FROM sequence_seed   WHERE name = ?  .   --- Check the SQL Statement (preparation failed).   --- Cause: java.lang.NullPointerException,1
+Error creating bean with name &#x27;dataSourceExporter&#x27; defined in class path resource [com/alibaba/druid/pool/dataSource.xml]: Invocation of init method failed; nested exception is org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [com.alibaba.druid.wall.WallConfig@43437ae] with key &#x27;com.alibaba.druid.test:type=WallConfig&#x27;; nested exception is javax.management.InstanceAlreadyExistsException: com.alibaba.druid.test:type=WallConfig,1
+"ERROR. token : TABLE, pos : 19",1
+EOF,6
+"syntax error, EQ fid, pos 63",1
+"syntax error, IDENTIFIER —, pos 77",1
+"syntax error, expect RPAREN, actual EOF IN",2
+"syntax error, IDENTIFIER or1, pos 44",1
+unclosed str,1
+"syntax error, EQ W, pos 59",1
+"syntax error, IDENTIFIER SSELECT, pos 7",1
+"syntax error, ERROR x, pos 75",1
+"syntax error, COMMA return_goods_money, pos 59",1
+"syntax error, IDENTIFIER LIMIT, pos 95",1
+"syntax error, OVER over, pos 33",1
+"syntax error, IDENTIFIER EXEC, pos 4",4
+com.alibaba.druid.sql.visitor.SQLASTOutputVisitor cannot be cast to com.alibaba.druid.sql.dialect.sqlserver.visitor.SQLServerASTVisitor,6
+com.alibaba.druid.sql.visitor.SQLASTOutputVisitor cannot be cast to com.alibaba.druid.sql.dialect.oracle.visitor.OracleASTVisitor,8
+Failed to decrypt.,10
+TODO : LITERAL_INT MINVALUE,8
+java.lang.String cannot be cast to java.util.List,568
+Communications link failure  The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.,94
+   --- The error occurred in com/alibaba/druid/pool/ibatis/User.xml.   --- The error occurred while applying a parameter map.   --- Check the User.select-InlineParameterMap.   --- Check the results (failed to retrieve results).   --- Cause: java.sql.SQLException: Error,4
+"Index: 0, Size: 0",135
+"syntax error, error in :&#x27;s a( id text,name text,parameters t&#x27;,expect IDENTIFIER, actual IDENTIFIER id",10
+"syntax error, error in :&#x27; as (fromUserId character varying(1&#x27;,expect IDENTIFIER, actual IDENTIFIER fromUserId",10
+"syntax error, error in :&#x27;as a(categoryId numeric,offerIds ch&#x27;,expect IDENTIFIER, actual IDENTIFIER categoryId",10
+"syntax error, error in :&#x27;as a(memberId character varying(20)&#x27;,expect IDENTIFIER, actual IDENTIFIER memberId",20
+"syntax error, error in :&#x27;as a(offerId numeric,offerIds chara&#x27;,expect IDENTIFIER, actual IDENTIFIER offerId",10
+"syntax error, error in :&#x27;(    offerId character varying(256)&#x27;,expect IDENTIFIER, actual IDENTIFIER offerId",10
+"syntax error, error in :&#x27;s a( id text,name text,beanId text,&#x27;,expect IDENTIFIER, actual IDENTIFIER id",10
+"ERROR. token : TYPE, pos : 20",15
+"ERROR. token : TYPE, pos : 11",15
+error COLUMN,2
+"syntax error, error in :&#x27;hile if x then insert into test val&#x27;,expect SEMI, actual IF if",1
+"ERROR. token : REPEAT, pos : 29",10
+"ERROR. token : REPEAT, pos : 13",5
+TODO : OPEN OPEN,6
+TODO OPEN,15
+"syntax error, error in :&#x27;ROWS FETCH NEXT 5 ROWS ONLY;&#x27;,expect FETCH, actual FETCH FETCH",3
+TODO,1
+"ERROR. token : HANDLER, pos : 134",21
+"ERROR. token : FOUND, pos : 127",21
+Unable to find class: com.alibaba.druid.pool.DruidDataSourceConverter,1
+-1,1
+1.1 is not a number!,5
+.5000000000 is not a number!,1
+0.5 is not a number!,2
+0.2 is not a number!,2
+32032.6809e+10 is not a number!,1
+294.42 is not a number!,1
+77.3 is not a number!,1
+12e-2 is not a number!,2
+1.001 is not a number!,7
+1.2E3 is not a number!,1
+1.05 is not a number!,3
+9.99 is not a number!,2
+1.25 is not a number!,2
+250000.00 is not a number!,1
+2.0 is not a number!,1
+1.23 is not a number!,3
+12.0123 is not a number!,1
+1.10 is not a number!,1
+7.77 is not a number!,1
+34.0 is not a number!,2
+9223372036854775808.0 is not a number!,1
+0.1 is not a number!,1
+3.5 is not a number!,1
+34.6426417370 is not a number!,1
+18014398509481984.0 is not a number!,1
+1.02 is not a number!,1
+0.000000000000000000 is not a number!,1
+2.5 is not a number!,1
+1.0001 is not a number!,1
+6.34 is not a number!,1
+12332.123456 is not a number!,1
+111.12 is not a number!,1
+5.8764601401 is not a number!,1
+11.0 is not a number!,2
+.003819444444444444444444444444444444444444 is not a number!,1
+0.01 is not a number!,1
+Invalid IP Address [128.242.127.0],6
+Invalid IP Address [10.16.200.0],3
+Invalid IP Address [0.0.0.0],6
+org.apache.logging.log4j.core.config.ConfigurationFactory.getConfiguration(Lorg/apache/logging/log4j/core/config/ConfigurationSource;)Lorg/apache/logging/log4j/core/config/Configuration;,35
+"syntax error, error in :&#x27;ARE  CURSOR c1 IS    SELECT last_na&#x27;,expect BEGIN, actual CURSOR CURSOR",1
+"syntax error, error in :&#x27;ARE  CURSOR c1 IS    SELECT * FROM &#x27;,expect BEGIN, actual CURSOR CURSOR",1
+"ERROR. token : SEMI, pos : 570",2
+"syntax error, error in :&#x27;/* 72582af814768580067726386d3&#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /* 72582af814768580067726386d39b6/0// */",2
+"syntax error, error in :&#x27;/* cds internal mark */select &#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /* cds internal mark */",2
+"syntax error, error in :&#x27;/* 0a67bca314863468702364451e/&#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /* 0a67bca314863468702364451e/0.3// */",4
+"syntax error, error in :&#x27;/* 0bfacfa414829200086238910e/&#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /* 0bfacfa414829200086238910e/0.3// */",2
+"syntax error, error in :&#x27;/* 0bba613214845441110397435e/&#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /* 0bba613214845441110397435e/0.4.6.25// */",2
+"syntax error, error in :&#x27;_ops`/*20140512152820##%2Fbase.php%&#x27;,expect MULTI_LINE_COMMENT, actual MULTI_LINE_COMMENT /*20140512152820##%2Fbase.php%3Fshopid%3D%26module%3Dpms%26action%3DqualityItem%26op_id%3D756%26params%3Dcase%253Aupdate%252Ctable%253Aquality%252Corder_id%253A201405090006DL%252Creceive_no%253AQCI01201405090006DL%252Creceive_treat%253AALL_DONE%260.5652460628381133*/",2
+syntax error,3
+"Index: 999, Size: 0",2
+0,3
+"syntax error, error in :&#x27;C1M&quot; NOCOM&#x27;,expect RPAREN, actual IDENTIFIER pos 3995, line 63, column 25, token IDENTIFIER NOCOM",7
+"ERROR. pos 102, line 1, column 98, token MERGE",1
+name is null.,1
+"syntax error, error in :&#x27;TURN V_RETURN; &#x27;, expect END, actual EOF pos 2964, line 59, column 22, token EOF",16
+"syntax error, expect LPAREN, actual IDENTIFIER pos 51, line 3, column 30, token IDENTIFIER w",4
+com.alibaba.druid.sql.ast.expr.SQLMethodInvokeExpr cannot be cast to com.alibaba.druid.sql.ast.expr.SQLBinaryOpExpr,2
+"syntax error, error in :&#x27;1e2t as col from t; #end #begin -- &#x27;, expect AS, actual AS pos 1292, line 36, column 13, token AS",11
+"TODO pos 88, line 2, column 59, token IDENTIFIER m",9
+"syntax error, error in :&#x27;EA ) ON COMMIT PRESERVE ROWS&#x27;, expect ON, actual ON pos 150, line 6, column 3, token ON",9
+"syntax error, error in :&#x27;0_ID DESC&#x27;, expect RPAREN, actual EOF pos 8840, line 153, column 69, token EOF",1
+"syntax error, error in :&#x27;E t1 ALGORITHM=INPLACE, CHANGE COLU&#x27;, expect ALGORITHM, actual ALGORITHM pos 24, line 1, column 15, token ALGORITHM",5
+"syntax error, error in :&#x27;n t1 algorithm=default;&#x27;, expect ALGORITHM, actual ALGORITHM pos 33, line 1, column 24, token ALGORITHM",5
+"TODO pos 16, line 1, column 7, token ALGORITHM",10
+"syntax error, error in :&#x27;n t1 algorithm=default; drop index &#x27;, expect ALGORITHM, actual ALGORITHM pos 692, line 24, column 25, token ALGORITHM",5
+"syntax error, error in :&#x27;n t2 algorithm=default lock none;&#x27;, expect ALGORITHM, actual ALGORITHM pos 33, line 1, column 24, token ALGORITHM",5
+"syntax error, error in :&#x27;INT) STORED AS TEXTFILE;&#x27;, expect IDENTIFIER, actual IDENTIFIER pos 71, line 1, column 65, token IDENTIFIER STORED",2
+"error pos 17, line 1, column 13, token WITH",4
+"TODO pos 60, line 1, column 60, token SEMI",16
+"TODO pos 973, line 18, column 54, token SEMI",16
+"syntax error, error in :&#x27;CONNECT to db_2&#x27;, expect IDENTIFIER, actual IDENTIFIER pos 7, line 1, column 1, token IDENTIFIER CONNECT",5
+"syntax error, expect LPAREN, actual IDENTIFIER pos 156, line 5, column 13, token IDENTIFIER CLUSTERED",1
+"syntax error, expect BY, actual WITH pos 49, line 1, column 45, token WITH",1
+"syntax error, error in :&#x27;D BY PASSWORD &#x27;*90E462C37378CED1206&#x27;, expect LITERAL_CHARS, actual LITERAL_CHARS pos 100, line 1, column 57, token LITERAL_CHARS *90E462C37378CED12064BB3388827D2BA3A9B689",1
+"syntax error, error in :&#x27;D BY PASSWORD &#x27;*5E8A11FF574FCBC6440&#x27;, expect LITERAL_CHARS, actual LITERAL_CHARS pos 120, line 1, column 77, token LITERAL_CHARS *5E8A11FF574FCBC6440EB285D490AEE96B16E250",1
+com.alibaba.druid:type=DruidStatService,6
+sun.tools.attach.WindowsVirtualMachine.init()V,171
+Could not initialize class sun.tools.attach.WindowsVirtualMachine,342
+"syntax error, expect RPAREN, actual UNION pos 101, line 6, column 38, token UNION",4
+"TODO : pos 35, line 1, column 31, token JOIN",1
+No space left on device,4
+url not set,2
+"TODO pos 251, line 1, column 243, token PARTITION",5
+"TODO pos 197, line 1, column 189, token PARTITION",5
+"TODO pos 790, line 1, column 782, token PARTITION",5
+"TODO pos 72, line 6, column 2, token PARTITION",5
+"TODO pos 213, line 1, column 205, token PARTITION",5
+"TODO pos 150, line 1, column 142, token PARTITION",5
+"TODO pos 289, line 1, column 281, token PARTITION",5
+"TODO pos 55, line 2, column 2, token PARTITION",5
+"syntax error, expect REF, actual RECORD, pos 650, line 13, column 20, token RECORD",6
+"syntax error, error in :&#x27;ase; end&#x27;, expect IF, actual null, pos 645, line 1, column 646, token EOF",5
+"syntax error, error in :&#x27;date no_wait&#x27;, expect SET, actual null, pos 40, line 1, column 41, token EOF",2
+"ERROR. pos 27, line 1, column 27, token ;",2
+"syntax error, error in :&#x27;date no_wait&#x27;, expect SET, actual null, pos 302, line 1, column 303, token EOF",2
+"syntax error, error in :&#x27;wait 3&#x27;, expect SET, actual null, pos 39, line 1, column 39, token LITERAL_INT",2
+"syntax error, error in :&#x27;SKIP LOCKED&#x27;, expect SET, actual null, pos 82, line 1, column 83, token EOF",2
+"syntax error, expect ), actual IDENTIFIER pos 92, line 3, column 44, token IDENTIFIER RETURNING",6

@@ -1,0 +1,44 @@
+error,count
+/tmp/NanoHTTPD-580686236391361623 (No such file or directory),1
+/tmp/NanoHTTPD-7460525910720119424 (No such file or directory),1
+/tmp/NanoHTTPD-8033978931021456957 (No such file or directory),1
+/tmp/NanoHTTPD-4617998412017315178 (No such file or directory),1
+/tmp/NanoHTTPD-6701230545365107480 (No such file or directory),1
+/tmp/NanoHTTPD-1734966450731565458 (No such file or directory),1
+/tmp/NanoHTTPD-5622568619108400098 (No such file or directory),1
+/tmp/NanoHTTPD-8363309645221178619 (No such file or directory),1
+/tmp/NanoHTTPD-1863159204162904067 (No such file or directory),1
+/tmp/NanoHTTPD-9064563850870882865 (No such file or directory),1
+/tmp/NanoHTTPD-5935271939669364857 (No such file or directory),1
+/tmp/NanoHTTPD-7567421972664790027 (No such file or directory),1
+/tmp/NanoHTTPD-5144614110964696722 (No such file or directory),1
+/tmp/NanoHTTPD-3097447532133764117 (No such file or directory),1
+/tmp/NanoHTTPD-8457560888425929610 (No such file or directory),1
+/tmp/NanoHTTPD-4163416452541189550 (No such file or directory),1
+/tmp/NanoHTTPD-3842061737763421940 (No such file or directory),1
+/tmp/NanoHTTPD-5865122291946920608 (No such file or directory),1
+/tmp/NanoHTTPD-6595077145186886524 (No such file or directory),1
+/tmp/NanoHTTPD-5220935358131613593 (No such file or directory),1
+/tmp/NanoHTTPD-7152262833487047935 (No such file or directory),1
+/tmp/NanoHTTPD-1885754653859352719 (No such file or directory),1
+/tmp/NanoHTTPD-3792308761855254602 (No such file or directory),1
+/tmp/NanoHTTPD-615423156848431744 (No such file or directory),1
+/tmp/NanoHTTPD-7881296770790761971 (No such file or directory),1
+/tmp/NanoHTTPD-7913593927508340265 (No such file or directory),1
+/tmp/NanoHTTPD-8054847900829764292 (No such file or directory),1
+/tmp/NanoHTTPD-6856096676442287616 (No such file or directory),1
+/tmp/NanoHTTPD-1092293187358346560 (No such file or directory),1
+/tmp/NanoHTTPD-576298931520062158 (No such file or directory),1
+/tmp/NanoHTTPD-1473136593301154807 (No such file or directory),1
+/tmp/NanoHTTPD-5628337413500328308 (No such file or directory),1
+/tmp/NanoHTTPD-2964267596372725874 (No such file or directory),1
+/tmp/NanoHTTPD-4322111832383781760 (No such file or directory),1
+/tmp/NanoHTTPD-1401360657132178904 (No such file or directory),1
+/tmp/NanoHTTPD-973286490534787237 (No such file or directory),1
+/tmp/NanoHTTPD-2261595852198203308 (No such file or directory),1
+/tmp/NanoHTTPD-6109199752823148963 (No such file or directory),1
+,10
+peer not authenticated,1
+fi.iki.elonen.NanoWebSocketServer.openWebSocket(Lfi/iki/elonen/NanoHTTPD$IHTTPSession;)Lfi/iki/elonen/NanoWebSocketServer$WebSocket;,2
+"Unexpected exception, expected&lt;org.apache.http.client.ClientProtocolException&gt; but was&lt;java.net.SocketException&gt;",121
+Internal Server Error,1

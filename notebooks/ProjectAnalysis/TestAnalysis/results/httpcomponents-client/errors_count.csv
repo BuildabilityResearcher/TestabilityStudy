@@ -1,0 +1,14 @@
+error,count
+peer not authenticated,14
+Connection or outbound has closed,273
+,132
+Connect to www.complete.garbage:80 timed out,18
+Connect to localhost/localhost/127.0.0.1 timed out,3
+Connection reset,219
+Remote host terminated the handshake,84
+"Unexpected exception, expected&lt;java.util.concurrent.CancellationException&gt; but was&lt;java.util.concurrent.ExecutionException&gt;",1
+"Unexpected exception, expected&lt;java.util.concurrent.ExecutionException&gt; but was&lt;java.lang.InterruptedException&gt;",1
+java.io.InterruptedIOException,1
+HTTP/2 message exchange cancelled,1
+java.io.IOException: Connection reset by peer,1
+java.net.SocketTimeoutException: 30 SECONDS,1

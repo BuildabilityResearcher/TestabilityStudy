@@ -1,0 +1,847 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,b7a5826,FAIL,0,NO,0,NO,0,2012-06-25 12:29:15 -0700,first commit,0,0
+1,6e273e7,FAIL,0,NO,0,NO,0,2012-08-06 16:45:32 -0400,first commit,0,0
+2,68abe86,FAIL,0,NO,0,NO,0,2012-12-10 21:39:03 +0000,Initial commit,0,0
+3,34550b1,FAIL,0,NO,0,NO,0,2012-12-10 20:56:01 -0500,Generate Java class for message with native types,1,292
+4,3f224dd,FAIL,0,NO,0,NO,0,2012-12-11 01:59:03 +0000,Merge pull request #5 from android/alexander/command-line-tool,1,292
+5,e20c87d,FAIL,0,NO,0,NO,0,2012-12-11 12:58:33 -0500,Process multiple .proto files in a round.,1,296
+6,1158267,FAIL,0,NO,0,NO,0,2012-12-11 18:04:13 +0000,Merge pull request #6 from android/jwilson/directories,1,296
+7,b1c51f1,FAIL,0,NO,0,NO,0,2012-12-11 13:41:23 -0500,Support nested types.,1,296
+8,4d8567c,FAIL,0,NO,0,NO,0,2012-12-11 19:25:01 +0000,Merge pull request #7 from android/jwilson/directories,1,296
+9,c6683d8,FAIL,0,NO,0,NO,0,2012-12-11 15:17:11 -0500,Use `@SerializedName` when a Java keyword is used for a field name.,1,302
+10,f591e73,FAIL,0,NO,0,NO,0,2012-12-11 20:20:29 +0000,Merge pull request #8 from android/jwilson/directories,1,302
+11,b0029de,FAIL,0,NO,0,NO,0,2012-12-11 16:13:21 -0500,Emit comments extracted from the source .proto.,1,318
+12,ec4abe3,FAIL,0,NO,0,NO,0,2012-12-11 21:16:38 +0000,Merge pull request #9 from android/jwilson/directories,1,318
+13,50b2ef1,FAIL,0,NO,0,NO,0,2012-12-17 19:08:23 -0500,"Generate builders, equals(), hashCode() and toString().",1,327
+14,74f970d,FAIL,0,NO,0,NO,0,2012-12-18 00:26:15 +0000,Merge pull request #13 from android/jwilson/builders,1,327
+15,9b4d2d8,SUCCESS,25,SUCCESS,6,SUCCESS,7,2013-01-31 10:40:35 -0800,"Re-add README, pom, etc.",1,327
+16,9384024,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-01-31 11:06:40 -0800,Merge in Dagger's changes. Add test class.,3,612
+17,d5fad96,SUCCESS,5,SUCCESS,6,SUCCESS,6,2013-01-31 21:57:37 +0000,Merge pull request #1 from jw/jw/dagger-merge,3,612
+18,316a6ce,SUCCESS,5,SUCCESS,6,SUCCESS,8,2013-01-31 14:01:36 -0800,Package name change. Tiny test tweak.,3,611
+19,c5b6b36,SUCCESS,5,SUCCESS,6,SUCCESS,10,2013-01-31 14:02:50 -0800,License tweaks.,3,611
+20,e8cd8f4,SUCCESS,5,SUCCESS,6,SUCCESS,6,2013-01-31 14:06:17 -0800,Rename to JavaSourceWriter.,3,612
+21,aed50f7,SUCCESS,6,SUCCESS,5,SUCCESS,7,2013-01-31 15:00:52 -0800,Make all methods fluent. Add simple example in README.,3,631
+22,d228e89,SUCCESS,5,SUCCESS,6,SUCCESS,6,2013-01-31 23:50:04 +0000,Merge pull request #2 from jw/jw/fluent-and-docs,3,631
+23,6ec8762,SUCCESS,6,SUCCESS,5,SUCCESS,6,2013-01-31 16:56:19 -0800,Allow end-of-line comments to take format args.,3,631
+24,734c93e,SUCCESS,6,SUCCESS,7,SUCCESS,7,2013-01-31 18:22:46 -0800,A few changes:,3,700
+25,1b5bd19,SUCCESS,6,SUCCESS,6,SUCCESS,7,2013-02-01 09:20:56 -0800,Package adds a newline now.,3,631
+26,cab48e3,SUCCESS,7,SUCCESS,7,SUCCESS,6,2013-02-01 09:32:24 -0800,Merge branch 'jw/enums',3,700
+27,fc8f965,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-02-01 09:34:23 -0800,Bump to v1.0.0.,3,700
+28,5659e78,SUCCESS,6,SUCCESS,7,SUCCESS,9,2013-02-02 17:18:31 -0500,[maven-release-plugin] prepare release javawriter-1.0.0,3,700
+29,1f713bf,SUCCESS,8,SUCCESS,7,SUCCESS,9,2013-02-02 17:18:36 -0500,[maven-release-plugin] prepare for next development iteration,3,700
+30,a8dc7c6,SUCCESS,8,SUCCESS,7,SUCCESS,9,2013-02-03 11:48:57 -0800,Expose 'compressType' API. Track Dagger changes.,3,700
+31,db7bf90,SUCCESS,9,SUCCESS,7,SUCCESS,7,2013-02-03 13:53:01 -0800,Merge pull request #1 from square/jw/compress,3,700
+32,bdd604b,SUCCESS,6,SUCCESS,7,SUCCESS,8,2013-02-03 14:27:53 -0800,Bump version to 1.0.1,3,700
+33,979eb1c,SUCCESS,7,SUCCESS,7,SUCCESS,8,2013-02-03 14:30:29 -0800,[maven-release-plugin] prepare release javawriter-1.0.1,3,700
+34,cc394b4,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-02-03 14:30:35 -0800,[maven-release-plugin] prepare for next development iteration,3,700
+35,d8cf5d4,SUCCESS,7,SUCCESS,7,SUCCESS,8,2013-02-04 12:25:47 -0800,StringBuffer -> StringBuilder.,3,700
+36,05345aa,SUCCESS,8,SUCCESS,7,SUCCESS,7,2013-02-04 12:30:58 -0800,Merge pull request #2 from square/jw/builder,3,700
+37,07bf461,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-02-10 16:55:49 +0100,"Add JavaWriter.type(Class,String...) helper method to build generic types.",3,737
+38,28ebd9f,SUCCESS,8,SUCCESS,8,SUCCESS,8,2013-02-10 16:57:01 +0100,"Rewrite emitAnnotation(Class,...) to use JavaWriter#type()",3,737
+39,fd7fad7,SUCCESS,8,SUCCESS,7,SUCCESS,10,2013-02-10 16:57:41 +0100,Add test for compressType with bounded-wildcard generic arguments,3,742
+40,a7fcb69,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-02-10 12:57:25 -0800,Merge pull request #3 from tbroyer/type-helper,3,742
+41,f5b3a22,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-02-10 22:36:08 -0800,Fix double semi.,3,742
+42,edf8453,SUCCESS,8,SUCCESS,7,SUCCESS,9,2013-02-11 09:00:32 -0800,Update for v1.0.2.,3,742
+43,016e6be,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-02-11 09:01:33 -0800,[maven-release-plugin] prepare release javawriter-1.0.2,3,742
+44,032c5bd,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-02-11 09:01:41 -0800,[maven-release-plugin] prepare for next development iteration,3,742
+45,bb5f018,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-02-11 23:28:23 -0800,Fix backwards dates.,3,742
+46,0a6b21a,SUCCESS,7,SUCCESS,8,SUCCESS,10,2013-02-21 17:49:07 -0500,adds support for static imports,3,778
+47,88fc37c,SUCCESS,7,SUCCESS,8,SUCCESS,9,2013-02-21 15:12:17 -0800,Merge pull request #4 from digitalsanctum/support-static-imports,3,778
+48,3ca81d8,SUCCESS,8,SUCCESS,9,SUCCESS,8,2013-02-21 15:16:59 -0800,Update for v1.0.3.,3,778
+49,620fdd0,SUCCESS,7,SUCCESS,8,SUCCESS,8,2013-02-21 15:21:20 -0800,[maven-release-plugin] prepare release javawriter-1.0.3,3,778
+50,5fd4670,SUCCESS,7,SUCCESS,8,SUCCESS,8,2013-02-21 15:21:26 -0800,[maven-release-plugin] prepare for next development iteration,3,778
+51,b8de08c,SUCCESS,8,SUCCESS,8,SUCCESS,11,2013-02-22 10:33:21 -0500,"adds support for wildcard static imports, fixed up invalid code",3,791
+52,5a34049,SUCCESS,7,SUCCESS,8,SUCCESS,14,2013-02-22 07:51:14 -0800,Merge pull request #5 from digitalsanctum/support-static-imports,3,791
+53,45c9425,SUCCESS,9,SUCCESS,10,SUCCESS,9,2013-03-15 19:20:35 -0700,Update change log for 1.0.4.,3,791
+54,7c4b556,SUCCESS,9,SUCCESS,9,SUCCESS,9,2013-03-15 19:21:19 -0700,[maven-release-plugin] prepare release javawriter-1.0.4,3,791
+55,737879f,SUCCESS,8,SUCCESS,10,SUCCESS,10,2013-03-15 19:21:25 -0700,[maven-release-plugin] prepare for next development iteration,3,791
+56,a5554a5,SUCCESS,9,SUCCESS,8,SUCCESS,10,2013-04-19 14:09:01 +0200,Add support for initializers,3,804
+57,a79ded5,SUCCESS,9,SUCCESS,9,SUCCESS,11,2013-04-19 14:44:40 +0200,Neaten up the Javadoc a bit,3,804
+58,6934302,SUCCESS,9,SUCCESS,8,SUCCESS,9,2013-04-19 14:57:12 +0200,Use a boolean for indicating whether the initializer is static or not,3,807
+59,5f4072b,SUCCESS,7,SUCCESS,8,SUCCESS,10,2013-04-22 18:57:26 +0200,Use primitive boolean type,3,807
+60,17605c5,SUCCESS,7,SUCCESS,8,SUCCESS,9,2013-05-08 13:11:24 -0700,fix issue #8: retain package when simple name ambiguous in compressType,3,802
+61,834f118,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-05-08 13:21:37 -0700,Merge pull request #9 from adriancole/compressType-collision,3,802
+62,7992297,SUCCESS,6,SUCCESS,8,SUCCESS,8,2013-05-08 13:25:17 -0700,Update change log.,3,802
+63,fee0bc4,SUCCESS,8,SUCCESS,7,SUCCESS,9,2013-05-08 13:25:47 -0700,[maven-release-plugin] prepare release javawriter-1.0.5,3,802
+64,9593030,SUCCESS,7,SUCCESS,9,SUCCESS,9,2013-05-08 13:25:57 -0700,[maven-release-plugin] prepare for next development iteration,3,802
+65,2eee6c2,SUCCESS,9,SUCCESS,8,SUCCESS,9,2013-05-08 21:07:27 -0400,Merge branch 'master' of github.com:JimiSmith/javawriter into jwilson/jimismith,3,818
+66,087d2d7,SUCCESS,7,SUCCESS,9,SUCCESS,9,2013-05-08 18:10:21 -0700,Merge pull request #11 from square/jwilson/jimismith,3,818
+67,7d57a59,SUCCESS,9,SUCCESS,7,SUCCESS,8,2013-05-16 07:27:26 -0400,fixed #6,3,836
+68,d60e0e4,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-05-16 14:58:22 -0400,updated test,3,836
+69,6ecfcee,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-06-05 22:57:00 -0700,Add support for declaring 'throws' clauses.,3,876
+70,2fc51db,SUCCESS,7,SUCCESS,8,SUCCESS,9,2013-06-05 23:02:23 -0700,Add deploy javadoc script.,3,818
+71,5b49428,SUCCESS,9,SUCCESS,9,SUCCESS,10,2013-06-05 23:45:16 -0700,Merge branch 'issue-6' of https://github.com/digitalsanctum/javawriter into digitalsanctum-issue-6,3,836
+72,e4928d7,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-06-05 23:46:47 -0700,Rename comment method for clarity.,3,835
+73,4d9da05,SUCCESS,9,SUCCESS,9,SUCCESS,9,2013-06-05 23:52:08 -0700,Merge pull request #14 from square/jw/throws,3,893
+74,dacb4ce,SUCCESS,8,SUCCESS,9,SUCCESS,10,2013-06-05 23:54:21 -0700,"Change package to 'javawriter',",3,893
+75,31f8526,SUCCESS,8,SUCCESS,10,SUCCESS,9,2013-06-06 18:12:04 -0700,Merge pull request #15 from square/jw/package,3,893
+76,28a626d,SUCCESS,10,SUCCESS,10,SUCCESS,13,2013-06-06 18:16:16 -0700,Use FQCN in test code.,3,893
+77,33475bc,SUCCESS,9,SUCCESS,9,SUCCESS,13,2013-06-06 18:19:10 -0700,Prepare for 2.0.0.,3,893
+78,269e7e1,SUCCESS,9,SUCCESS,9,SUCCESS,10,2013-06-06 18:19:56 -0700,[maven-release-plugin] prepare release javawriter-2.0.0,3,893
+79,c22ec02,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-06-06 18:20:02 -0700,[maven-release-plugin] prepare for next development iteration,3,893
+80,f8efee1,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-06-16 18:58:57 -0700,"Modify emitAnnotation to elide the ""value"" key in annotation declarations for annotations with a single value attribute.",3,934
+81,3deba86,SUCCESS,8,SUCCESS,9,SUCCESS,8,2013-06-17 19:35:28 -0700,Fix casing of 'Comment'.,3,893
+82,89ed905,SUCCESS,8,SUCCESS,10,SUCCESS,9,2013-06-17 20:31:03 -0700,Merge pull request #17 from square/jw/lol,3,893
+83,422922f,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-06-17 20:36:03 -0700,Prepare for 2.0.1.,3,893
+84,ba6054b,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-06-17 20:36:44 -0700,[maven-release-plugin] prepare release javawriter-2.0.1,3,893
+85,8131bca,SUCCESS,8,SUCCESS,7,SUCCESS,9,2013-06-17 20:36:50 -0700,[maven-release-plugin] prepare for next development iteration,3,893
+86,1249d23,SUCCESS,9,SUCCESS,11,SUCCESS,10,2013-07-08 11:51:30 -0700,Merge pull request #16 from gk5885/annotation-value,3,934
+87,98ed954,SUCCESS,8,SUCCESS,10,SUCCESS,12,2013-07-09 14:56:47 -0500,Use the javax.lang.model.element.Modifier enum instead of ints in the JavaWriter API.,3,980
+88,721d8ac,SUCCESS,10,SUCCESS,10,SUCCESS,12,2013-07-09 14:59:28 -0500,Add some overloads to avoid calls to EnumSet.noneOf(),3,985
+89,a203a77,SUCCESS,8,SUCCESS,10,SUCCESS,10,2013-07-10 13:21:12 -0500,Remove an extra null check.,3,985
+90,abf8024,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-07-10 13:46:08 -0500,lint,3,986
+91,e873ce7,SUCCESS,9,SUCCESS,9,SUCCESS,8,2013-07-10 12:27:34 -0700,Merge pull request #19 from gk5885/modifiers,3,986
+92,161ae95,SUCCESS,8,SUCCESS,9,SUCCESS,8,2013-07-15 14:06:06 -0700,Prepare v2.1.0.,3,986
+93,7325bef,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-07-15 14:15:35 -0700,[maven-release-plugin] prepare release javawriter-2.1.0,3,986
+94,c4f1b01,SUCCESS,8,SUCCESS,10,SUCCESS,10,2013-07-15 14:15:38 -0700,[maven-release-plugin] prepare for next development iteration,3,986
+95,c567dc6,SUCCESS,8,SUCCESS,10,SUCCESS,9,2013-07-15 18:50:29 -0700,Update example for 2.1.0.,3,986
+96,5f4068a,SUCCESS,9,SUCCESS,9,SUCCESS,10,2013-07-23 11:56:57 -0400,Fix JavaWriter.stringLiteral,3,1007
+97,c37943b,SUCCESS,8,SUCCESS,9,SUCCESS,10,2013-07-23 09:16:51 -0700,Merge pull request #20 from square/rice/string_literal,3,1007
+98,34f722f,SUCCESS,7,SUCCESS,9,SUCCESS,10,2013-07-23 23:19:17 -0700,Prepare 2.1.1.,3,1007
+99,84fd31c,SUCCESS,10,SUCCESS,10,SUCCESS,12,2013-07-23 23:22:45 -0700,[maven-release-plugin] prepare release javawriter-2.1.1,3,1007
+100,bb64e88,SUCCESS,10,SUCCESS,11,SUCCESS,11,2013-07-23 23:22:47 -0700,[maven-release-plugin] prepare for next development iteration,3,1007
+101,3627ded,SUCCESS,9,SUCCESS,10,SUCCESS,12,2013-08-21 18:54:29 -0400,Try to keep annotations on a single line,3,1043
+102,9d72297,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-08-21 19:22:08 -0700,Merge pull request #21 from square/rice/single_line_annotations,3,1043
+103,2ca0bef,SUCCESS,10,SUCCESS,8,SUCCESS,10,2013-08-23 09:29:08 -0700,Prepare 2.1.2.,3,1043
+104,1746b5c,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-08-23 09:31:46 -0700,[maven-release-plugin] prepare release javawriter-2.1.2,3,1043
+105,2a693db,SUCCESS,8,SUCCESS,9,SUCCESS,9,2013-08-23 09:31:49 -0700,[maven-release-plugin] prepare for next development iteration,3,1043
+106,1f074c7,SUCCESS,8,SUCCESS,9,SUCCESS,9,2013-09-08 07:42:14 +0200,Fix Example Code,3,1043
+107,bfcf4f6,SUCCESS,9,SUCCESS,9,SUCCESS,11,2013-09-07 22:46:15 -0700,Merge pull request #23 from dodgex/patch-1,3,1043
+108,f325443,SUCCESS,9,SUCCESS,8,SUCCESS,10,2013-09-24 10:28:21 +0200,"Make type compression optional. By default, type compression should be active. Otherwise it breaks tests.",3,1051
+109,7076421,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-09-25 19:31:19 -0700,Merge pull request #25 from stephanenicolas/master,3,1051
+110,fc70ff2,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-09-25 22:55:35 -0700,Prepare version 2.3.0.,3,1051
+111,e377980,SUCCESS,8,SUCCESS,8,SUCCESS,9,2013-09-25 22:58:34 -0700,[maven-release-plugin] prepare release javawriter-2.2.0,3,1051
+112,75ffaba,SUCCESS,7,SUCCESS,10,SUCCESS,9,2013-09-25 22:58:37 -0700,[maven-release-plugin] prepare for next development iteration,3,1051
+113,557953e,SUCCESS,8,SUCCESS,9,SUCCESS,10,2013-10-05 12:21:36 +0200,Made the indent configurable,3,1068
+114,ad20665,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-10-07 08:52:35 +0200,Changed indent to take a String instead of an int,3,1068
+115,84b7298,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-10-09 23:32:03 +0200,Added new method to add last enum constant.,3,1073
+116,1cd91ed,SUCCESS,9,SUCCESS,10,SUCCESS,11,2013-10-22 22:54:44 -0700,Fix import order.,3,1051
+117,4847848,SUCCESS,10,SUCCESS,10,SUCCESS,12,2013-10-22 22:56:31 -0700,Do not emit trailing white-space for empty javadoc lines.,3,1061
+118,01b4370,SUCCESS,9,SUCCESS,10,SUCCESS,11,2013-10-23 10:21:33 -0700,Merge pull request #30 from square/jw/trailing,3,1061
+119,d7fb416,SUCCESS,10,SUCCESS,9,SUCCESS,11,2013-10-23 17:52:58 -0700,Prepare version 2.2.1.,3,1061
+120,645210f,SUCCESS,9,SUCCESS,9,SUCCESS,12,2013-10-23 17:54:24 -0700,Merge branch 'jw/trailing',3,1061
+121,d909895,SUCCESS,8,SUCCESS,10,SUCCESS,10,2013-10-23 17:56:28 -0700,[maven-release-plugin] prepare release javawriter-2.2.1,3,1061
+122,496986a,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-10-23 17:56:30 -0700,[maven-release-plugin] prepare for next development iteration,3,1061
+123,041d3f9,SUCCESS,10,SUCCESS,9,SUCCESS,10,2013-11-04 08:52:48 -0800,Merge pull request #26 from whiskeysierra/master,3,1078
+124,253f563,SUCCESS,9,SUCCESS,10,SUCCESS,12,2013-11-21 18:30:43 -0500,Remove deprecated methods.,3,1026
+125,71e6bc2,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-11-21 15:55:50 -0800,Merge pull request #33 from gk5885/deprecated,3,1026
+126,4c31ac8,SUCCESS,9,SUCCESS,10,SUCCESS,10,2013-11-22 11:12:11 -0500,Add beginConstructor,3,1060
+127,e72e57d,SUCCESS,9,SUCCESS,9,SUCCESS,10,2013-11-22 08:26:33 -0800,Merge pull request #34 from gk5885/constructor,3,1060
+128,fd7f36f,SUCCESS,9,SUCCESS,11,SUCCESS,11,2013-11-22 15:21:05 -0500,Add an overload to emitImports to let you import from class literals,3,1045
+129,d019b6f,FAIL,10,NO,0,NO,0,2013-11-22 12:24:19 -0800,Merge pull request #35 from gk5885/imports,3,1079
+130,388d8e5,SUCCESS,11,SUCCESS,11,SUCCESS,10,2013-11-22 15:14:42 -0500,Fix an issue in which nested types were not being correctly identified unless they happened to be in a package without a dot.,3,1084
+131,ad9cbcd,SUCCESS,9,SUCCESS,10,SUCCESS,11,2013-11-22 14:06:31 -0800,Merge pull request #36 from gk5885/compress-types,3,1084
+132,4bbfab0,SUCCESS,8,SUCCESS,10,SUCCESS,11,2013-11-22 17:22:53 -0500,Fix an issue introduced when adding constructor scope.,3,1099
+133,98f792d,SUCCESS,8,SUCCESS,8,SUCCESS,10,2013-11-22 14:27:06 -0800,Merge pull request #38 from gk5885/check-in-method,3,1099
+134,321828a,SUCCESS,10,SUCCESS,9,SUCCESS,10,2013-11-24 13:22:08 +0100,PR/28 Added emitEnumValues method in addition to emitLastEnumValue,3,1095
+135,35c59c5,SUCCESS,8,SUCCESS,9,SUCCESS,9,2013-11-24 16:25:29 +0100,PR/28 made emitLastEnumValue private,3,1082
+136,c0f4a89,SUCCESS,9,SUCCESS,10,SUCCESS,12,2013-11-24 16:40:20 -0800,Merge pull request #28 from whiskeysierra/last-enum-constant,3,1130
+137,9de3e87,SUCCESS,9,SUCCESS,10,SUCCESS,11,2013-11-24 16:43:36 -0800,Add documentation to emitEnumValues.,3,1130
+138,f11602c,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-11-24 16:43:44 -0800,Prepare 2.3.0.,3,1130
+139,ddb0a43,SUCCESS,9,SUCCESS,9,SUCCESS,12,2013-11-24 16:45:28 -0800,[maven-release-plugin] prepare release javawriter-2.3.0,3,1130
+140,9f64847,SUCCESS,10,SUCCESS,11,SUCCESS,11,2013-11-24 16:45:30 -0800,[maven-release-plugin] prepare for next development iteration,3,1130
+141,30f5cf5,SUCCESS,10,SUCCESS,11,SUCCESS,12,2013-12-14 17:03:37 -0800,Properly handle subpackages of java.lang in compressType.,3,1138
+142,7cf6e17,SUCCESS,10,SUCCESS,11,SUCCESS,12,2013-12-16 15:14:23 -0800,Merge pull request #40 from lukesandberg/annotations,3,1138
+143,c887337,SUCCESS,10,SUCCESS,9,SUCCESS,12,2013-12-16 22:31:50 -0800,Prepare 2.3.1.,3,1138
+144,9a3c603,SUCCESS,9,SUCCESS,10,SUCCESS,10,2013-12-16 22:33:28 -0800,[maven-release-plugin] prepare release javawriter-2.3.1,3,1138
+145,38d0135,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-12-16 22:33:30 -0800,[maven-release-plugin] prepare for next development iteration,3,1138
+146,84da756,SUCCESS,7,SUCCESS,10,SUCCESS,9,2013-12-24 14:37:05 -0800,Properly indent newlines in fields.,3,1156
+147,e66d8ba,SUCCESS,8,SUCCESS,8,SUCCESS,11,2013-12-24 17:47:43 -0800,Fix imports to match our style.,3,1138
+148,2705708,SUCCESS,8,SUCCESS,10,SUCCESS,12,2013-12-25 11:28:36 -0800,Merge pull request #41 from square/jw/wrap-fields-with-newlines,3,1156
+149,658e10a,SUCCESS,10,SUCCESS,10,SUCCESS,10,2013-12-25 13:30:44 -0800,Remove javadoc statement that makes no sense for fields.,3,1156
+150,d115786,SUCCESS,9,SUCCESS,9,SUCCESS,11,2014-01-06 01:07:37 +0800,Added  a new method for the switch between printing a semi colon for the last enum value,3,1175
+151,b05b7fd,SUCCESS,7,SUCCESS,9,SUCCESS,11,2014-01-05 10:19:53 -0800,Merge pull request #42 from garena/master,3,1175
+152,4a31189,SUCCESS,8,SUCCESS,8,SUCCESS,10,2014-01-06 21:54:24 +0800,Take care of some formatting issues.,3,1183
+153,614f7cd,SUCCESS,9,SUCCESS,9,SUCCESS,11,2014-01-06 08:30:36 -0800,Merge pull request #43 from garena/master,3,1183
+154,763621d,SUCCESS,9,SUCCESS,10,SUCCESS,11,2014-01-10 23:31:38 -0800,CRLF -> LF. Fix indent level.,3,1183
+155,25472fd,SUCCESS,9,SUCCESS,8,SUCCESS,10,2014-01-10 23:38:05 -0800,Prepare version 2.4.0.,3,1183
+156,5eeae81,SUCCESS,9,SUCCESS,9,SUCCESS,11,2014-01-10 23:39:35 -0800,[maven-release-plugin] prepare release javawriter-2.4.0,3,1183
+157,f6a479c,SUCCESS,8,SUCCESS,10,SUCCESS,9,2014-01-10 23:39:37 -0800,[maven-release-plugin] prepare for next development iteration,3,1183
+158,c268516,SUCCESS,8,SUCCESS,9,SUCCESS,11,2014-01-26 03:40:33 -0800,Add args to control flow methods.,3,1183
+159,50579db,SUCCESS,9,SUCCESS,10,SUCCESS,10,2014-01-26 14:51:48 -0800,Merge pull request #46 from square/jw/control-flow-args,3,1183
+160,1378c01,SUCCESS,10,SUCCESS,10,SUCCESS,12,2014-02-28 00:53:19 +0530,Support interface method declarations.,3,1215
+161,7e55824,SUCCESS,10,SUCCESS,10,SUCCESS,11,2014-02-28 05:57:20 +0530,Removed extra spaces.,3,1215
+162,329663e,SUCCESS,10,SUCCESS,10,SUCCESS,12,2014-02-28 21:04:05 +0530,Refactor popScope() to accept varargs.,3,1211
+163,917a794,SUCCESS,10,SUCCESS,9,SUCCESS,13,2014-03-09 23:50:06 -0700,Add test for emitting modifier order in compliance with JLS.,3,1194
+164,c5de70d,SUCCESS,11,SUCCESS,10,SUCCESS,11,2014-03-09 23:57:31 -0700,Merge pull request #53 from square/jw/modifier-order-test,3,1194
+165,46154db,SUCCESS,10,SUCCESS,10,SUCCESS,11,2014-04-04 12:53:30 +0200,Support generic types when emitting constructors,3,1233
+166,181c7ca,SUCCESS,10,SUCCESS,10,SUCCESS,13,2014-04-17 12:45:46 -0700,Merge pull request #49 from ragunathjawahar/rj/interface-method-declaration,3,1222
+167,fced314,SUCCESS,8,SUCCESS,9,SUCCESS,12,2014-04-17 12:59:14 -0700,Skip work when modifier set is empty.,3,1233
+168,2dccc71,SUCCESS,8,SUCCESS,9,SUCCESS,11,2014-04-17 13:04:19 -0700,Merge pull request #54 from auke-/master,3,1261
+169,cb24911,SUCCESS,8,SUCCESS,8,SUCCESS,9,2014-04-17 13:04:25 -0700,Merge pull request #55 from square/jw/empty-non-enum-sets,3,1272
+170,541accb,SUCCESS,8,SUCCESS,9,SUCCESS,10,2014-04-18 14:40:36 -0400,Don't emit a trailing space after '=' at end-of-line,3,1288
+171,93ddadf,SUCCESS,9,SUCCESS,10,SUCCESS,10,2014-04-18 11:44:58 -0700,Merge pull request #56 from square/rice/avoid_trailing_space,3,1288
+172,048d1fc,SUCCESS,8,SUCCESS,10,SUCCESS,10,2014-04-18 12:21:37 -0700,Prepare version 2.5.0.,3,1288
+173,ace739d,SUCCESS,8,SUCCESS,9,SUCCESS,10,2014-04-18 12:22:27 -0700,[maven-release-plugin] prepare release javawriter-2.5.0,3,1288
+174,edb9565,SUCCESS,8,SUCCESS,7,SUCCESS,10,2014-04-18 12:22:31 -0700,[maven-release-plugin] prepare for next development iteration,3,1288
+175,105d4b2,SUCCESS,7,SUCCESS,8,SUCCESS,9,2014-05-20 14:45:56 +0300,Use canonical class name when importing as class.,3,1304
+176,6fff17a,SUCCESS,8,SUCCESS,9,SUCCESS,9,2014-05-20 07:51:51 -0700,Merge pull request #60 from jonas-l/master,3,1304
+177,3bb28b3,SUCCESS,7,SUCCESS,10,SUCCESS,12,2014-06-12 13:09:13 -0500,"Add a StringLiteral class as a replacement for JavaWriter.StringLiteral.  Advantages include:   * References differentiate between String and StringLiteral   * StringLiteral.toString() still allows to be directly passed to String.format, et. al.   * You can get the value back after the literal has been passed around.",5,1341
+178,66c9095,SUCCESS,11,SUCCESS,10,SUCCESS,11,2014-06-12 13:14:43 -0700,Merge pull request #61 from gk5885/string-literal,5,1341
+179,731b6fc,FAIL,0,NO,0,NO,0,2014-07-01 22:28:26 -0700,"Add a new version of JavaWriter that allows for writing to different parts of the compilation unit simultaneously.  Then, use it in code generation in Dagger 2 code. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70279532",25,1206
+180,0043406,FAIL,0,NO,0,NO,0,2014-07-18 18:04:09 -0700,Fix an issue in which wildcards weren't actually getting written. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70434398,25,1213
+181,7cde262,FAIL,0,NO,0,NO,0,2014-07-18 18:05:09 -0700,Fix the code generation to properly handle some missing types like arrays and void. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70660936,28,1347
+182,aedf7cb,FAIL,0,NO,0,NO,0,2014-07-18 18:05:44 -0700,Add a builder-based API for instantiating components. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70739659,29,1386
+183,e4b6b6c,FAIL,0,NO,0,NO,0,2014-07-18 18:09:15 -0700,Fix a bug in which imports were not being handled properly for collisions. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70914122,29,1387
+184,b1e0d9e,FAIL,0,NO,0,NO,0,2014-07-18 18:09:49 -0700,Fix an issue in which collisions between imports and types in the same package were not being handled correctly. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=70968955,29,1397
+185,ad2f5ce,FAIL,0,NO,0,NO,0,2014-07-18 18:15:30 -0700,"Add an annotation processor that generates simple (, ugly) interface that can be used for migrating from ObjectGraph to @Component.  This is @GoogleInternal and shouldn't ever see the light of day. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71156786",29,1418
+186,8483d5f,FAIL,0,NO,0,NO,0,2014-07-18 18:16:07 -0700,Address field naming collisions in JavaWriter and Dagger. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71157169,29,1422
+187,a4b5551,SUCCESS,9,SUCCESS,11,SUCCESS,11,2014-08-12 19:03:01 -0700,Automatically compress varargs and array types.,5,1359
+188,d39761f,SUCCESS,9,SUCCESS,9,SUCCESS,10,2014-08-13 19:23:32 -0400,Merge pull request #64 from square/jw/compress-varargs-and-arrays,5,1359
+189,4969b4a,FAIL,0,NO,0,NO,0,2014-07-22 13:56:33 -0700,Add closing h2 tag ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=71691383,29,1422
+190,084e7cc,FAIL,0,NO,0,NO,0,2014-07-31 11:02:39 -0700,Create package proxies for references to types that aren't visibile to the component (but the factories and members injectors are). ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72334409,29,1424
+191,3fbe8c8,FAIL,0,NO,0,NO,0,2014-07-31 12:27:10 -0700,Update Truth package name to the new location.,29,1424
+192,fc73740,FAIL,0,NO,0,NO,0,2014-08-04 21:49:00 -0700,Change import handling to only consider snippet arguments that were specified using type names.  No more cleanups for things that happened to look like type names. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72608266,29,1412
+193,ac78f10,FAIL,0,NO,0,NO,0,2014-08-06 08:41:42 -0700,Use Truth.assert_() instead of ASSERT ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=72726400,29,1412
+194,67bd94d,FAIL,0,NO,0,NO,0,2014-08-13 09:42:28 -0700,An initial cut of better error messages at compile time.  Initially includes missing bindings and cycle detection. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73222696,29,1412
+195,cb4224b,FAIL,0,NO,0,NO,0,2014-08-22 16:00:08 -0700,Ensure that JavaWriter does not attempt to import a class whose simple name is the same as any type declared in the file. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73930340,30,1433
+196,76c7100,FAIL,0,NO,0,NO,0,2014-08-22 16:04:57 -0700,Switch back to eager init. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=73930760,30,1435
+197,7d8bc45,FAIL,0,NO,0,NO,0,2014-09-18 07:45:48 -0700,Change the implementation of factories with no deps to be enums rather than types to be instantiated. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=75809623,31,1563
+198,d256511,FAIL,0,NO,0,NO,0,2014-09-18 09:24:04 -0700,Add BindingGraph as a single canonical implementation of the resolve binding graph. ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=75816059,31,1564
+199,b4a4db4,FAIL,0,NO,0,NO,0,2014-10-28 10:59:26 -0700,Add intra-component scope validation (within all modules included in a component). ------------- Created by MOE: http://code.google.com/p/moe-java MOE_MIGRATED_REVID=78682699,32,1639
+200,c474b69,FAIL,0,NO,0,NO,0,2014-10-28 12:00:50 -0700,"Fix up a stray test whose expected text changed when it was moved, and make another test less brittle.",32,1639
+201,5bcd829,SUCCESS,8,SUCCESS,8,SUCCESS,10,2014-11-17 10:17:18 -0500,Merge branch 'import-google-dagger' into jwilson_1117_new_javawriter,37,2998
+202,8a0fcc1,FAIL,10,NO,0,NO,0,2014-11-17 10:23:09 -0500,Rename package from dagger.internal.codegen.writer.,32,1639
+203,ec00e06,FAIL,3,NO,0,NO,0,2014-11-17 13:29:49 -0800,Merge pull request #69 from square/jwilson_1117_new_javawriter,32,1639
+204,271af10,SUCCESS,8,SUCCESS,8,SUCCESS,10,2014-11-19 14:20:44 -0800,Use new central artifact redirect link.,5,1359
+205,dc7714e,SUCCESS,7,SUCCESS,9,SUCCESS,11,2014-11-19 17:45:50 -0500,Merge pull request #70 from square/jw/new-redirect-link,5,1359
+206,274bb39,FAIL,5,NO,0,NO,0,2014-11-24 10:47:27 -0800,Next version is 3.0.,32,1639
+207,232ec3e,FAIL,4,NO,0,NO,0,2014-11-24 10:56:37 -0800,Merge pull request #71 from square/jw/and-then-there-was-3,32,1639
+208,183ef67,FAIL,5,NO,0,NO,0,2014-11-25 10:46:59 -0800,Add factories for wildcard type names.,32,1645
+209,6554225,FAIL,5,NO,0,NO,0,2014-11-25 10:47:45 -0800,Merge pull request #72 from square/jw/wildcard-factories,32,1645
+210,b734b83,FAIL,6,NO,0,NO,0,2014-11-30 02:35:35 +0100,Fix TypeVariableName wrt bounds and creation from TypeMirror,32,1708
+211,f431a38,FAIL,5,NO,0,NO,0,2014-11-30 02:30:53 +0100,Add support for generic type arguments where it's missing,32,1747
+212,b24ebf2,FAIL,5,NO,0,NO,0,2014-11-30 13:03:59 -0500,Merge pull request #88 from tbroyer/typevariables,32,1747
+213,4654a8b,FAIL,5,NO,0,NO,0,2014-12-01 14:00:23 -0800,Eliminate extra newlines.,32,1785
+214,1bf20dd,FAIL,5,NO,0,NO,0,2014-12-01 13:56:24 -0800,Support multi-member annotations.,33,1783
+215,dcd2c68,FAIL,5,NO,0,NO,0,2014-12-01 18:47:28 -0500,Merge pull request #90 from square/jw/kill-extraneous-newlines,32,1785
+216,79db4aa,FAIL,5,NO,0,NO,0,2014-12-01 16:04:00 -0800,Clean up some warnings.,32,1785
+217,b0e92a0,FAIL,5,NO,0,NO,0,2014-12-01 16:07:57 -0800,Fix conditional.,32,1785
+218,f4e3bba,FAIL,5,NO,0,NO,0,2014-12-01 23:28:26 -0500,Merge pull request #92 from square/jw/clean-up-warnings,32,1785
+219,c4bc7c3,FAIL,6,NO,0,NO,0,2014-12-01 23:29:25 -0500,Merge pull request #89 from square/jw/multimember-annotation,33,1821
+220,f1385e9,FAIL,4,NO,0,NO,0,2014-12-01 16:43:51 -0800,Add intersection type handling for Java 8 and up.,34,1852
+221,75a9dad,FAIL,5,NO,0,NO,0,2014-12-02 13:43:11 -0500,Merge pull request #93 from square/jw/intersection-type,35,1888
+222,feef1fe,FAIL,4,NO,0,NO,0,2014-12-02 17:41:56 -0800,"Move supertype into class, expose setter, fix interface implements.",35,1892
+223,c812663,FAIL,5,NO,0,NO,0,2014-12-02 18:06:05 -0800,Prefer TypeNames.forClass for input of potentially primitive or array types.,35,1888
+224,5d80ff3,FAIL,5,NO,0,NO,0,2014-12-02 18:22:19 -0800,Eagerly reject invalid values to ClassName.fromClass.,35,1904
+225,3386cd7,FAIL,5,NO,0,NO,0,2014-12-03 09:29:19 -0500,Merge pull request #95 from square/jw/prefer-type-names,35,1888
+226,2bdbd1d,FAIL,4,NO,0,NO,0,2014-12-03 09:31:25 -0500,Merge pull request #97 from square/jw/eager-rejection,35,1904
+227,18ff238,FAIL,4,NO,0,NO,0,2014-12-03 09:38:20 -0500,Merge pull request #94 from square/jw/move-supertype-into-class,35,1908
+228,c81cbb1,SUCCESS,9,SUCCESS,9,SUCCESS,10,2014-12-03 11:32:17 -0800,Restore binary compatibility with previous versions.,5,1365
+229,b34b67c,SUCCESS,8,SUCCESS,9,SUCCESS,12,2014-12-03 16:48:42 -0500,Merge pull request #98 from square/jw/binary-compatibility,5,1365
+230,4e958e1,SUCCESS,8,SUCCESS,10,SUCCESS,10,2014-12-03 14:13:13 -0800,Prepare version 2.5.1.,5,1365
+231,ffe1e0d,SUCCESS,8,SUCCESS,9,SUCCESS,11,2014-12-03 14:14:23 -0800,[maven-release-plugin] prepare release javawriter-2.5.1,5,1365
+232,e5cc083,SUCCESS,10,SUCCESS,9,SUCCESS,12,2014-12-03 14:14:29 -0800,[maven-release-plugin] prepare for next development iteration,5,1365
+233,3c3d614,FAIL,4,NO,0,NO,0,2014-12-03 14:20:49 -0800,Merge branch 'javawriter_3',35,1908
+234,c76913f,FAIL,5,NO,0,NO,0,2014-12-04 10:07:39 -0800,Build with and target Java 7.,35,1908
+235,3fc1be2,FAIL,5,NO,0,NO,0,2014-12-04 13:19:59 -0500,Merge pull request #102 from square/jw/lucky-number-seven,35,1908
+236,d8fc3fa,FAIL,8,NO,0,NO,0,2014-12-04 14:06:59 -0800,Update JUnit.,35,1908
+237,c716d5c,FAIL,7,NO,0,NO,0,2014-12-03 18:01:56 -0800,Type writer subclasses are now top level. JavaWriter is for multiple types.,39,2032
+238,75772de,FAIL,4,NO,0,NO,0,2014-12-04 20:56:42 -0500,Merge pull request #103 from square/jw/update-junit,35,1908
+239,a3c879b,FAIL,4,NO,0,NO,0,2014-12-04 18:31:55 -0800,Expose enum argument method.,35,1908
+240,b3d4c60,FAIL,4,NO,0,NO,0,2014-12-04 22:43:29 -0500,Merge pull request #104 from square/jw/expose-enum-arguments,35,1908
+241,14937ce,FAIL,3,NO,0,NO,0,2014-12-04 22:53:38 -0500,Merge pull request #101 from square/jw/top-level,39,2032
+242,db00b95,FAIL,4,NO,0,NO,0,2014-12-05 22:34:02 -0800,Don't blow-up on existing directories.,39,2053
+243,29eb542,FAIL,4,NO,0,NO,0,2014-12-06 02:18:16 -0800,Switch conditional order since 'void' is a primitive class.,39,2040
+244,74b96b2,FAIL,3,NO,0,NO,0,2014-12-06 04:43:30 -0800,Restore explicit import support.,39,2050
+245,834825a,FAIL,5,NO,0,NO,0,2014-12-06 17:32:33 +0100,Introduce Writeables.Joiner to simplify writing lists of Writeable objects,39,1993
+246,0572bbf,FAIL,4,NO,0,NO,0,2014-12-06 15:26:05 -0800,Merge pull request #109 from square/jw/check-void-first,39,2001
+247,002d2e7,FAIL,5,NO,0,NO,0,2014-12-06 17:02:26 -0800,Add throws declaration support to method signature.,40,2038
+248,ed4da02,FAIL,4,NO,0,NO,0,2014-12-07 02:38:18 +0100,Factorize createSubcontext in TypeWriter to avoid code duplication,39,1995
+249,a13c633,FAIL,4,NO,0,NO,0,2014-12-06 17:46:09 -0800,Merge pull request #119 from tbroyer/create-subcontext,39,1995
+250,468ddf4,FAIL,4,NO,0,NO,0,2014-12-07 03:06:11 +0100,Factorize function to extract referencedClasses out of HasClassReferences,39,1967
+251,a7bacc4,FAIL,4,NO,0,NO,0,2014-12-06 21:45:46 -0800,Merge branch 'referencedclasses' of https://github.com/tbroyer/javawriter into tbroyer-referencedclasses,39,1958
+252,1741f87,FAIL,4,NO,0,NO,0,2014-12-06 22:02:38 -0800,Merge pull request #117 from square/jw/method-throws,40,1995
+253,fc6679c,FAIL,6,NO,0,NO,0,2014-12-08 11:01:08 +0100,Expose/add factory methods for all TypeName implementations.,40,2003
+254,8fd4f58,FAIL,4,NO,0,NO,0,2014-12-08 09:22:49 -0800,Merge pull request #107 from square/jw/existing-folder,40,2016
+255,859f8be,FAIL,4,NO,0,NO,0,2014-12-08 09:28:11 -0800,Merge pull request #114 from square/jw/explicit-imports,40,2034
+256,e5ec435,FAIL,4,NO,0,NO,0,2014-12-06 01:49:10 -0800,Do not apply indent on empty lines.,42,2047
+257,1746b21,FAIL,4,NO,0,NO,0,2014-12-08 09:55:46 -0800,Merge pull request #121 from tbroyer/expose-typenames-factory,40,2042
+258,35c756f,FAIL,4,NO,0,NO,0,2014-12-08 10:02:32 -0800,Merge pull request #108 from square/jw/no-indent-on-newlines,42,2094
+259,5825acc,FAIL,4,NO,0,NO,0,2014-12-08 15:22:08 -0800,Always newline after opening method block.,42,2090
+260,5020835,FAIL,5,NO,0,NO,0,2014-12-08 15:42:40 -0800,Merge pull request #124 from square/jw/empty-method-block,42,2090
+261,9c56397,FAIL,4,NO,0,NO,0,2014-12-09 11:48:15 +0100,Refactor TypeVariableName to use a single upper bound,41,2079
+262,c1965e5,FAIL,4,NO,0,NO,0,2014-12-09 08:43:14 -0800,Merge pull request #127 from tbroyer/typevariablename-refactor,41,2079
+263,38bc01f,FAIL,4,NO,0,NO,0,2014-12-09 09:17:05 -0800,Indent enum constants.,41,2095
+264,62ab3c4,FAIL,4,NO,0,NO,0,2014-12-09 09:50:37 -0800,Support annotating with a ClassName.,41,2081
+265,b93e8cb,FAIL,4,NO,0,NO,0,2014-12-09 15:45:26 -0800,Merge pull request #129 from square/jw/annotation-class-name,41,2081
+266,7f0a332,FAIL,5,NO,0,NO,0,2014-12-09 15:50:08 -0800,Merge pull request #128 from square/jw/indent-enum-constants,41,2097
+267,e7e2057,FAIL,4,NO,0,NO,0,2014-12-09 16:06:20 -0800,Rely on inheritance for building referenced classes.,41,2115
+268,aa28d0e,FAIL,6,NO,0,NO,0,2014-12-09 16:51:42 -0800,Merge pull request #130 from square/jw/super-referenced-classes,41,2115
+269,251130c,FAIL,5,NO,0,NO,0,2014-12-10 10:48:55 -0800,Adding support for inner anonymous classes,43,2304
+270,7737c50,FAIL,4,NO,0,NO,0,2014-12-10 16:09:41 -0800,Merge pull request #132 from AlecStrong/master,43,2304
+271,37ce822,FAIL,5,NO,0,NO,0,2014-12-12 15:57:01 +0100,"Revert ""Adding support for inner anonymous classes""",41,2115
+272,548dab4,FAIL,4,NO,0,NO,0,2014-12-12 17:26:12 +0100,Adding support for anonymous classes,43,2323
+273,61d1bac,FAIL,4,NO,0,NO,0,2014-12-12 09:37:11 -0800,Merge branch 'tbroyer-anonymousclasswriter',43,2323
+274,6a3595c,FAIL,4,NO,0,NO,0,2014-12-13 23:45:12 +0100,Introduce ClassBodyWriter to avoid code duplication between type writers,44,2325
+275,4ff9adf,FAIL,5,NO,0,NO,0,2014-12-14 00:05:16 +0100,Move more things to ClassBodyWriter,44,2331
+276,1c4d9fc,FAIL,5,NO,0,NO,0,2014-12-14 00:43:29 +0100,Add support for enum constants with class body,44,2386
+277,77c1d72,FAIL,4,NO,0,NO,0,2014-12-15 09:38:57 -0800,Hide ClassBodyWriter from the public API.,44,2386
+278,22e515d,FAIL,5,NO,0,NO,0,2014-12-15 09:39:04 -0800,Merge branch 'tbroyer-classbodywriter',44,2386
+279,3bef5b6,FAIL,4,NO,0,NO,0,2014-12-15 16:14:20 -0800,Test Filer interaction.,45,2474
+280,7c174e7,FAIL,5,NO,0,NO,0,2014-12-15 21:14:47 -0500,Merge pull request #141 from square/jw/filer-tests,45,2474
+281,acb2d7f,FAIL,8,NO,0,NO,0,2014-12-15 18:35:43 -0800,Add support for per-type originating elements.,45,2508
+282,ddb04c3,FAIL,4,NO,0,NO,0,2014-12-15 19:28:37 -0800,Merge pull request #142 from square/jw/filer-tests,45,2508
+283,d2ce287,FAIL,5,NO,0,NO,0,2014-12-16 00:10:55 -0800,Use varargs for adding types to JavaWriter.,45,2513
+284,e1f9e71,FAIL,4,NO,0,NO,0,2014-12-17 13:00:32 -0800,Auto-deploy snapshots to Sonatype.,45,2508
+285,5cace3b,FAIL,4,NO,0,NO,0,2014-12-19 11:09:17 +0100,Merge pull request #143 from square/jw/first-rest,45,2513
+286,670e428,FAIL,4,NO,0,NO,0,2014-12-19 14:14:14 -0500,Merge pull request #146 from square/test,45,2513
+287,34a98e0,FAIL,4,NO,0,NO,0,2014-12-15 22:38:47 -0800,Create ParameterWriter to enable their annotations.,47,2543
+288,422f4ef,FAIL,4,NO,0,NO,0,2014-12-19 11:22:32 -0800,Merge pull request #144 from square/jw/parameter-annotations,47,2543
+289,6084001,FAIL,5,NO,0,NO,0,2014-12-19 13:31:01 -0800,Cache the contents of .m2 on Travis CI.,47,2543
+290,fae2776,FAIL,5,NO,0,NO,0,2014-12-19 22:21:57 -0800,Merge pull request #147 from square/jw/travis-cache,47,2543
+291,d50ee86,FAIL,5,NO,0,NO,0,2014-12-19 23:11:32 -0800,Post-deploy echo.,47,2543
+292,0e9f07e,FAIL,4,NO,0,NO,0,2014-12-20 02:13:33 -0800,Errors fail the deploy script.,47,2543
+293,a1a9eec,FAIL,4,NO,0,NO,0,2014-12-23 10:32:00 -0800,Fix infinite loop in ClassName.fromClass(),47,2548
+294,12b3d2a,FAIL,4,NO,0,NO,0,2014-12-29 01:02:35 -0800,Merge branch 'DarickTong-patch-1',47,2548
+295,d7b2189,FAIL,6,NO,0,NO,0,2015-01-05 23:10:08 -0500,"First, rough draft of immutable builders.",56,2914
+296,21a955d,FAIL,5,NO,0,NO,0,2015-01-07 11:21:31 -0800,Merge pull request #152 from square/jwilson_0105_violence,56,2914
+297,25f6c00,FAIL,6,NO,0,NO,0,2015-01-07 16:23:39 -0500,Varargs support for parameters,47,2559
+298,781a745,FAIL,5,NO,0,NO,0,2015-01-07 16:21:50 -0800,Merge pull request #153 from AlecStrong/master,47,2559
+299,f9948ba,FAIL,5,NO,0,NO,0,2015-01-08 10:41:33 -0500,Support anonymous inner classes in builders.,57,3267
+300,7005ef4,FAIL,5,NO,0,NO,0,2015-01-08 15:15:36 -0500,Merge pull request #154 from square/jwilson_0108_anonymous_inner_classes,57,3267
+301,d88f2b6,FAIL,4,NO,0,NO,0,2015-01-08 19:24:10 -0500,Constructors and abstract methods.,57,3508
+302,ecfff1f,FAIL,6,NO,0,NO,0,2015-01-08 21:56:33 -0500,Merge pull request #155 from square/jwilson_0108_constructors_abstract_methods,57,3508
+303,4963ae4,FAIL,5,NO,0,NO,0,2015-01-08 23:15:41 -0500,Enums and exceptions.,50,3409
+304,8d31c0a,FAIL,5,NO,0,NO,0,2015-01-08 21:12:38 -0800,Merge pull request #156 from square/jwilson_0108_enums_exceptions,50,3409
+305,e2e90c1,FAIL,5,NO,0,NO,0,2015-01-09 23:11:43 -0500,"Type variables, implements and extends.",50,3611
+306,bd1db39,FAIL,4,NO,0,NO,0,2015-01-10 08:46:42 -0500,Merge pull request #157 from square/jwilson_0109_type_variables_implements,50,3611
+307,5b4f979,FAIL,5,NO,0,NO,0,2015-01-10 10:19:32 -0500,Nested classes and imports.,50,3726
+308,d141cfb,FAIL,5,NO,0,NO,0,2015-01-10 12:57:28 -0800,Merge pull request #158 from square/jwilson_0110_nested_classes_imports,50,3726
+309,8c0ca23,FAIL,5,NO,0,NO,0,2015-01-10 18:34:01 -0500,Close remaining gaps between builders and writers.,28,2619
+310,cd75215,FAIL,6,NO,0,NO,0,2015-01-10 16:52:39 -0800,Merge pull request #159 from square/jwilson_0110_the_great_deleting,28,2619
+311,598b446,FAIL,5,NO,0,NO,0,2015-01-11 01:20:03 -0500,Use java.lang.reflect.Type instead of TypeName.,20,2492
+312,8fba60b,FAIL,5,NO,0,NO,0,2015-01-11 02:50:22 -0500,Merge pull request #160 from square/jwilson_0111_types,20,2492
+313,a6a446c,FAIL,5,NO,0,NO,0,2015-01-11 03:27:15 -0500,Factories for TypeSpec.Builder and other builders.,20,2370
+314,dd567a4,FAIL,6,NO,0,NO,0,2015-01-11 01:01:36 -0800,Merge pull request #161 from square/jwilson_0111_factories,20,2370
+315,51191c9,FAIL,5,NO,0,NO,0,2015-01-11 10:16:04 -0500,Javadoc.,20,2432
+316,02b9a9f,FAIL,6,NO,0,NO,0,2015-01-11 12:51:35 -0800,Merge pull request #162 from square/jwilson_0111_javadoc,20,2432
+317,d5dd1fd,FAIL,7,NO,0,NO,0,2015-01-12 00:09:27 +0100,Run tests with OpenJDK 7 to verify runtime compatibility,20,2432
+318,4e18f7f,FAIL,5,NO,0,NO,0,2015-01-11 19:59:54 -0500,Merge pull request #163 from tbroyer/travis-tests-java7,20,2432
+319,4b10b20,FAIL,5,NO,0,NO,0,2015-01-11 18:21:19 -0500,Drop name collision avoidance. Tweak ClassName API.,18,2361
+320,ca528b7,FAIL,6,NO,0,NO,0,2015-01-12 17:57:35 -0500,Merge pull request #164 from square/jwilson_0111_classname,18,2361
+321,bd4099d,FAIL,5,NO,0,NO,0,2015-01-12 18:11:45 -0500,Merge branch 'master' into builders,18,2361
+322,147eb5a,FAIL,5,NO,0,NO,0,2015-01-12 18:24:04 -0500,Merge pull request #165 from square/builders,18,2361
+323,96e3851,FAIL,4,NO,0,NO,0,2015-01-12 19:37:27 -0500,Support nested annotations and multiple annotation values.,18,2421
+324,a6404cc,FAIL,5,NO,0,NO,0,2015-01-12 22:09:33 -0500,Merge pull request #166 from square/jwilson_0112_nested_annotations,18,2421
+325,9f83e8e,FAIL,5,NO,0,NO,0,2015-01-12 23:12:04 -0500,Address feedback on pull request #160.,18,2420
+326,3adcc4a,FAIL,4,NO,0,NO,0,2015-01-13 00:54:34 -0500,Test that the default package works.,18,2442
+327,b514e04,FAIL,5,NO,0,NO,0,2015-01-13 08:48:25 -0500,Merge pull request #170 from square/jwilson_0112_default_package,18,2442
+328,497561f,FAIL,4,NO,0,NO,0,2015-01-13 08:52:59 -0500,Merge pull request #167 from square/jwilson_0112_address_gaks_feedback,18,2441
+329,eefa91d,FAIL,4,NO,0,NO,0,2015-01-13 00:10:00 -0500,Fix varargs for builders.,18,2461
+330,aa0e662,FAIL,5,NO,0,NO,0,2015-01-13 10:38:53 -0500,Merge pull request #168 from square/jwilson_0112_fix_varargs,18,2481
+331,02bd3a1,FAIL,4,NO,0,NO,0,2015-01-13 00:46:07 -0500,Top of file comments. Stream to the filesystem.,18,2557
+332,33ce3e1,FAIL,4,NO,0,NO,0,2015-01-13 10:50:31 -0500,Merge pull request #169 from square/jwilson_0112_3221225472,18,2557
+333,baffcde,FAIL,6,NO,0,NO,0,2015-01-13 12:32:44 -0500,Restore snapshot deployment from master.,18,2557
+334,5bbf088,FAIL,4,NO,0,NO,0,2015-01-13 17:34:27 -0500,Switch to better 'assertThat' method.,18,2557
+335,b85a6bb,FAIL,4,NO,0,NO,0,2015-01-13 18:00:07 -0500,Merge pull request #172 from square/jw/better-assert-that,18,2557
+336,111a082,FAIL,4,NO,0,NO,0,2015-01-13 18:03:19 -0500,Preconditions messages. Normalize list creation.,18,2560
+337,460baa9,FAIL,4,NO,0,NO,0,2015-01-13 18:46:44 -0500,Merge pull request #173 from square/jw/messages,18,2560
+338,1b7d009,FAIL,4,NO,0,NO,0,2015-01-13 18:54:57 -0500,JavaPoet.,18,2557
+339,29e2cdd,FAIL,5,NO,0,NO,0,2015-01-13 19:08:35 -0500,Merge pull request #174 from square/jwilson_0113_poet,18,2560
+340,3b302bd,FAIL,5,NO,0,NO,0,2015-01-14 11:09:17 -0500,Fix up example code.,18,2560
+341,4f6c366,FAIL,5,NO,0,NO,0,2015-01-14 11:03:39 -0500,Rename package to 'javapoet'.,18,2560
+342,7b4e56e,FAIL,4,NO,0,NO,0,2015-01-14 17:24:37 +0100,Merge pull request #176 from square/jw/fix-example-code,18,2560
+343,dac757a,FAIL,4,NO,0,NO,0,2015-01-14 13:40:26 -0500,Merge pull request #177 from square/jw/didnt-even-know-it,18,2560
+344,5adcb3a,FAIL,5,NO,0,NO,0,2015-01-14 15:16:44 -0500,Code blocks.,18,2703
+345,0773de9,FAIL,4,NO,0,NO,0,2015-01-14 15:22:13 -0500,Primitive class to string is easy.,18,2552
+346,3dfd58c,FAIL,4,NO,0,NO,0,2015-01-14 15:25:30 -0500,Merge pull request #179 from square/jwilson_0114_fewer_primitives,18,2552
+347,e5e163f,FAIL,4,NO,0,NO,0,2015-01-14 15:46:08 -0500,Merge pull request #178 from square/jwilson_0114_codeblock,18,2695
+348,1d0a114,FAIL,5,NO,0,NO,0,2015-01-14 17:49:27 -0500,Update CodeBlock documentation.,18,2715
+349,7d7c0c6,FAIL,5,NO,0,NO,0,2015-01-14 18:02:30 -0500,Merge pull request #180 from square/jwilson_0114_codeblock_javadoc,18,2715
+350,0d8505d,FAIL,4,NO,0,NO,0,2015-01-15 10:53:30 +0100,Make ClassName#simpleNames public.,18,2715
+351,0b8051a,FAIL,4,NO,0,NO,0,2015-01-15 07:09:06 -0500,Merge pull request #181 from tbroyer/make-classname-simplenames-public,18,2715
+352,cc215da,FAIL,4,NO,0,NO,0,2015-01-15 13:47:09 +0100,"Support TypeMirror and Element for $T, and any CharSequence for $N",18,2719
+353,7fa20ef,FAIL,4,NO,0,NO,0,2015-01-15 09:40:02 -0500,Merge pull request #182 from tbroyer/type-placeholder,18,2719
+354,dc9a067,FAIL,5,NO,0,NO,0,2015-01-15 09:56:03 -0500,Restore simple nested class creation method.,18,2731
+355,1c01bb7,FAIL,5,NO,0,NO,0,2015-01-15 17:54:37 -0500,Merge pull request #183 from square/jw/nested-class-named,18,2731
+356,0f0f80c,FAIL,4,NO,0,NO,0,2015-01-16 12:22:03 -0500,API ergonomics redux.,18,2740
+357,e5b66b0,FAIL,4,NO,0,NO,0,2015-01-17 11:44:42 -0500,Merge pull request #185 from square/jwilson_0115_ergonomics,18,2740
+358,57498ca,FAIL,5,NO,0,NO,0,2015-01-18 12:54:35 -0500,Default modifiers.,18,2820
+359,b5d43c8,FAIL,4,NO,0,NO,0,2015-01-18 11:39:23 -0800,Merge pull request #187 from square/jwilson_0118_interface_modifiers,18,2820
+360,eb43c67,FAIL,5,NO,0,NO,0,2015-01-18 15:10:09 -0500,Members ordering.,18,2887
+361,ecd44b3,FAIL,5,NO,0,NO,0,2015-01-18 12:56:19 -0800,Merge pull request #188 from square/jwilson_0118_members_ordering,18,2887
+362,58713e4,FAIL,5,NO,0,NO,0,2015-01-18 17:46:11 -0500,Link to JavaWriter.,18,2887
+363,d9ec76d,FAIL,4,NO,0,NO,0,2015-01-18 23:32:19 -0500,Update README with an introduction.,18,2887
+364,4d301bc,FAIL,6,NO,0,NO,0,2015-01-20 00:05:07 -0500,More documentation.,18,2887
+365,82d0b01,FAIL,4,NO,0,NO,0,2015-01-20 22:39:19 +0100,README highlighting and indentation fixes,18,2887
+366,3eeaa64,FAIL,5,NO,0,NO,0,2015-01-20 13:49:23 -0800,Merge pull request #191 from tomxor/readme-syntax,18,2887
+367,2915976,FAIL,4,NO,0,NO,0,2015-01-21 01:06:07 +0100,Native methods and GWT JSNI,18,2933
+368,0015140,FAIL,5,NO,0,NO,0,2015-01-20 19:41:31 -0500,Merge pull request #192 from nmorel/native_and_jsni_methods,18,2933
+369,173eaff,FAIL,4,NO,0,NO,0,2015-01-21 20:13:48 -0500,Don't forbid abstract methods on enums.,18,2913
+370,3542eba,FAIL,4,NO,0,NO,0,2015-01-21 19:55:18 -0800,Merge pull request #194 from square/jwilson_0121_enums_are_abstract,18,2959
+371,7e28c6f,FAIL,6,NO,0,NO,0,2015-01-24 15:43:09 -0500,Double indent wrapped lines.,18,3071
+372,4d69659,FAIL,4,NO,0,NO,0,2015-01-24 20:51:58 -0500,Small features for Dagger.,18,2978
+373,b8a225e,FAIL,5,NO,0,NO,0,2015-01-24 18:08:30 -0800,Merge pull request #200 from square/jwilson_0124_dagger_features,18,2978
+374,75725cd,FAIL,4,NO,0,NO,0,2015-01-24 22:29:28 -0800,Merge pull request #199 from square/jwilson_0124_wrapped_lines,18,3090
+375,e8c123d,FAIL,4,NO,0,NO,0,2015-01-25 10:05:47 -0500,Implement toString in JavaPoet types.,18,3215
+376,18c8153,FAIL,5,NO,0,NO,0,2015-01-25 16:14:01 +0100,adding configurable indent,18,3124
+377,0272b4b,FAIL,5,NO,0,NO,0,2015-01-25 11:31:03 -0500,Merge pull request #198 from pwittchen/configurable_indent,18,3124
+378,1d7e42e,FAIL,4,NO,0,NO,0,2015-01-25 13:28:19 -0500,Document annotations and Javadoc.,18,3124
+379,90b3f1a,FAIL,5,NO,0,NO,0,2015-01-25 12:54:46 -0800,Merge pull request #201 from square/jwilson_0125_tostring,18,3249
+380,ad6d011,FAIL,4,NO,0,NO,0,2015-01-18 10:37:25 -0500,Support building and running on Java 7.,17,3052
+381,f3859b0,FAIL,4,NO,0,NO,0,2015-01-26 14:21:30 -0800,Merge pull request #202 from square/jwilson_0125_java7,17,3211
+382,6db81d3,FAIL,5,NO,0,NO,0,2015-01-26 14:28:47 -0800,Drop 'multiple'.,17,3211
+383,d63c516,FAIL,4,NO,0,NO,0,2015-01-26 14:38:27 -0800,Add missing indent.,17,3213
+384,7490705,FAIL,4,NO,0,NO,0,2015-01-26 19:05:16 -0500,Merge pull request #203 from square/jw/build-failure,17,3213
+385,46f6439,FAIL,4,NO,0,NO,0,2015-01-26 14:39:52 -0800,Add messages to state and argument validation.,17,3213
+386,104f20f,FAIL,4,NO,0,NO,0,2015-01-26 16:09:40 -0800,Merge pull request #204 from square/jw/messages,17,3213
+387,34bde0e,FAIL,7,NO,0,NO,0,2015-01-26 22:48:19 -0500,Don't require any dependencies in JavaPoet.,18,3222
+388,a8d7572,FAIL,5,NO,0,NO,0,2015-01-26 23:17:52 -0500,Option to skip java.lang imports.,17,3258
+389,302a5e0,FAIL,5,NO,0,NO,0,2015-01-26 20:53:50 -0800,Merge pull request #206 from square/jwilson_0126_java_lang,17,3258
+390,991c92e,FAIL,4,NO,0,NO,0,2015-01-27 02:41:31 -0500,Wrap multiline strings.,17,3277
+391,ea2ef34,FAIL,5,NO,0,NO,0,2015-01-26 23:46:29 -0800,Merge pull request #207 from square/jwilson_0127_wrap,17,3277
+392,04746e0,FAIL,5,NO,0,NO,0,2015-01-27 00:00:04 -0800,Merge pull request #205 from square/jwilson_0126_no_deps,18,3286
+393,dfdc30b,FAIL,4,NO,0,NO,0,2015-01-27 08:25:21 -0500,Character.isUpperCase follow up.,18,3287
+394,f1740bc,FAIL,5,NO,0,NO,0,2015-01-27 22:59:04 -0500,Don't use java.lang.reflect.Type internally.,22,3363
+395,223b112,FAIL,5,NO,0,NO,0,2015-01-28 09:56:02 -0800,Merge pull request #209 from square/jwilson_0127_typename,22,3363
+396,7896b18,FAIL,6,NO,0,NO,0,2015-01-28 09:56:47 -0800,Merge pull request #208 from square/jwilson_0127_followup,22,3364
+397,7571d75,FAIL,5,NO,0,NO,0,2015-01-28 18:13:41 -0500,Move file writing methods to JavaFile.,21,3327
+398,2bbcf96,FAIL,5,NO,0,NO,0,2015-01-28 15:23:49 -0800,Merge pull request #210 from square/jwilson_0128_javafile_writeto,21,3327
+399,a82dc1e,FAIL,5,NO,0,NO,0,2015-01-28 18:38:03 -0500,Update changelog for 1.0.0.,21,3327
+400,5aaa112,SUCCESS,12,SUCCESS,10,SUCCESS,14,2015-01-28 18:54:38 -0500,[maven-release-plugin] prepare release javapoet-1.0.0,21,3327
+401,23be296,FAIL,5,NO,0,NO,0,2015-01-28 18:54:40 -0500,[maven-release-plugin] prepare for next development iteration,21,3327
+402,14eb7c6,FAIL,4,NO,0,NO,0,2015-01-31 05:40:56 -0800,Don't allow double field initialization.,21,3376
+403,18af022,FAIL,5,NO,0,NO,0,2015-01-31 10:16:52 -0500,Merge pull request #213 from ben-manes/field_initializer,21,3376
+404,a62798e,FAIL,5,NO,0,NO,0,2015-01-31 09:26:52 -0800,Fixed typo in Constructors section.,21,3376
+405,d746405,FAIL,5,NO,0,NO,0,2015-01-31 14:39:18 -0500,Merge pull request #214 from zach-klippenstein/patch-1,21,3376
+406,65c00fc,FAIL,5,NO,0,NO,0,2015-01-28 12:02:49 -0800,Add @RunWith boilerplate to tests - lets alternative test runners in other build systems pick the correct runner.,21,3391
+407,aee5f12,FAIL,4,NO,0,NO,0,2015-02-02 19:16:58 -0500,Merge pull request #216 from cgruber/runwith,21,3391
+408,b507426,FAIL,4,NO,0,NO,0,2015-02-02 11:13:44 +0100,Add Collection utilities on *Spec builders.,24,3652
+409,70b38e5,FAIL,5,NO,0,NO,0,2015-02-05 14:40:01 -0800,"Fix WildcardTypeName.get(WildcardType), which would always fail with NullPointerException since either the extends bound or the super bound or both will be null.",21,3419
+410,cb212e7,FAIL,5,NO,0,NO,0,2015-02-05 18:16:04 -0500,Merge pull request #218 from eamonnmcmanus/master,21,3419
+411,8ea1ac7,FAIL,4,NO,0,NO,0,2015-02-06 00:06:47 -0500,Merge pull request #215 from fbiville/issue_211,24,3680
+412,92207e4,FAIL,5,NO,0,NO,0,2015-02-10 17:51:21 -0800,"Change CodeBlock.nextControlFlow so that it includes a space before the {, consistently with CodeBlock.beginControlFlow.",24,3680
+413,31c2055,FAIL,5,NO,0,NO,0,2015-02-10 21:08:47 -0500,Merge pull request #224 from eamonnmcmanus/master,24,3680
+414,cbe76bb,FAIL,4,NO,0,NO,0,2015-02-11 15:52:46 -0500,Fix nextControlFlow not accepting arguments,24,3701
+415,eb77760,FAIL,5,NO,0,NO,0,2015-02-11 17:49:31 -0500,Switch to non-snapshot dependencies.,24,3680
+416,4168fb7,FAIL,5,NO,0,NO,0,2015-02-08 23:45:44 -0500,Box and unbox APIs.,21,3380
+417,0330a95,FAIL,6,NO,0,NO,0,2015-02-11 18:42:47 -0500,Merge pull request #220 from square/jwilson_0208_box,24,3733
+418,a8b85d1,FAIL,4,NO,0,NO,0,2015-02-11 18:42:53 -0500,Merge pull request #226 from square/jw/non-snapshots,24,3733
+419,33bb07e,FAIL,4,NO,0,NO,0,2015-02-11 18:45:13 -0500,Merge pull request #225 from dhleong/master,24,3754
+420,cb2a6f4,FAIL,5,NO,0,NO,0,2015-02-16 00:39:05 -0800,MethodSpec factory for overriding an ExecutableElement.,24,3850
+421,395a2bc,FAIL,5,NO,0,NO,0,2015-02-18 16:17:49 -0800,Merge pull request #229 from square/jw/override,24,3850
+422,233bc15,FAIL,5,NO,0,NO,0,2015-02-19 12:46:53 -0800,Correct method reference for writing.,24,3850
+423,817d1dd,FAIL,4,NO,0,NO,0,2015-02-22 18:43:59 -0500,Eager validation of argument types.,24,3939
+424,20e17fd,FAIL,5,NO,0,NO,0,2015-02-22 16:59:42 -0800,Merge pull request #231 from square/jwilson_0222_eager_validation,24,3939
+425,266e413,FAIL,5,NO,0,NO,0,2015-02-23 19:02:45 -0500,Deploy javapoet javadoc.,24,3939
+426,2afa46c,FAIL,5,NO,0,NO,0,2015-02-23 19:13:44 -0500,Add links to Javadoc,24,3939
+427,4e9ad1e,FAIL,4,NO,0,NO,0,2015-02-23 19:14:12 -0500,Update README.md,24,3939
+428,8107e2f,FAIL,5,NO,0,NO,0,2015-02-24 15:43:05 +0100,Creates annotation type from TypeSpec.,24,4012
+429,2191f1c,FAIL,5,NO,0,NO,0,2015-02-24 19:17:48 -0500,Merge pull request #233 from GerardPaligot/fix_232,24,4012
+430,8a96c5d,FAIL,5,NO,0,NO,0,2015-02-25 22:50:00 -0800,Add test for simple if/else statement.,24,4037
+431,a167b3a,FAIL,4,NO,0,NO,0,2015-02-26 01:15:48 -0800,Add precondition check when specifying the superclass,24,4027
+432,cb18b85,FAIL,5,NO,0,NO,0,2015-02-26 08:49:29 -0500,Merge pull request #235 from square/jw/simple-if-else,24,4037
+433,317a01a,FAIL,5,NO,0,NO,0,2015-02-26 10:04:57 -0500,Merge pull request #236 from ben-manes/superclass,24,4052
+434,e2e94bf,FAIL,6,NO,0,NO,0,2015-03-05 07:38:34 -0800,Add missing Override annotation,24,4052
+435,0b21077,FAIL,5,NO,0,NO,0,2015-03-05 11:08:14 -0500,Merge pull request #241 from kenzierocks/fix/override,24,4052
+436,9afa9fd,FAIL,5,NO,0,NO,0,2015-03-05 11:51:11 -0800,Add toBuilder() methods,24,4105
+437,3611177,FAIL,5,NO,0,NO,0,2015-03-06 08:07:24 -0500,Merge pull request #242 from kenzierocks/feature/reversebuild,24,4105
+438,34961b1,FAIL,5,NO,0,NO,0,2015-03-16 15:45:24 -0400,Force fake filesystem to behave like Unix.,24,4106
+439,f70f871,FAIL,5,NO,0,NO,0,2015-03-16 21:57:32 -0400,Use the system-specific file path in asserion.,24,4107
+440,acc4915,FAIL,6,NO,0,NO,0,2015-03-16 21:12:20 -0500,Merge pull request #249 from square/jw/force-unixy-tests,24,4107
+441,723a03d,FAIL,5,NO,0,NO,0,2015-03-06 19:14:00 -0800,Add support for default methods on interfaces,24,4201
+442,14216e0,FAIL,5,NO,0,NO,0,2015-03-17 14:30:20 -0400,Merge pull request #244 from kenzierocks/feature/defaults,24,4203
+443,40cd658,FAIL,6,NO,0,NO,0,2015-03-17 14:48:43 -0400,Java style followups to Java 8 modifier changes.,24,4170
+444,50e568d,FAIL,5,NO,0,NO,0,2015-03-17 14:57:21 -0400,Merge pull request #251 from square/jwilson_0317_default_modifier_tweaks,24,4170
+445,cb9c84b,FAIL,5,NO,0,NO,0,2015-03-30 22:42:36 -0500,Fix import error.,24,4191
+446,bc3c8ca,FAIL,5,NO,0,NO,0,2015-03-31 01:05:32 -0400,Merge pull request #259 from jbeder/master,24,4191
+447,8d7e0a0,FAIL,5,NO,0,NO,0,2015-04-09 06:06:16 +0900,Add missing $ in javadoc,24,4191
+448,975ff09,FAIL,5,NO,0,NO,0,2015-04-08 18:46:17 -0400,Merge pull request #261 from kenzierocks/fix/javadoc,24,4191
+449,83e5d0c,FAIL,4,NO,0,NO,0,2015-04-09 06:37:15 +0900,Fix Util error message,24,4193
+450,28a40bb,FAIL,6,NO,0,NO,0,2015-04-08 19:32:14 -0400,Merge pull request #262 from kenzierocks/fix/error-messages,24,4193
+451,2288620,FAIL,4,NO,0,NO,0,2015-04-29 09:12:20 +0200,Prevent potential NPE when getting package reference.,24,4194
+452,84e27b9,FAIL,4,NO,0,NO,0,2015-04-29 09:33:06 -0400,Merge pull request #265 from sormuras/master,24,4194
+453,2ae53e3,FAIL,4,NO,0,NO,0,2015-04-29 09:36:28 -0400,Add missing braces.,24,4194
+454,937b404,FAIL,3,NO,0,NO,0,2015-05-07 20:48:01 +0200,AnnotationSpec.get(AnnotationMirror) added w/ unit test.,25,4321
+455,70a777f,FAIL,4,NO,0,NO,0,2015-05-08 01:08:49 -0400,Merge pull request #268 from sormuras/master,25,4321
+456,da9e893,FAIL,5,NO,0,NO,0,2015-05-12 21:37:36 -0400,Add JavaFile.toJavaFileObject,25,4297
+457,5f619e3,FAIL,4,NO,0,NO,0,2015-05-12 23:58:50 -0400,Merge pull request #276 from jgustie/master,26,4424
+458,f06f90e,FAIL,4,NO,0,NO,0,2015-05-14 21:38:12 -0400,Clean up FileReadingTest,26,4421
+459,2e3af69,FAIL,4,NO,0,NO,0,2015-05-14 22:28:38 -0400,Merge pull request #278 from jgustie/master,26,4421
+460,1e0eee1,FAIL,5,NO,0,NO,0,2015-05-15 15:23:09 +0200,AnnotationSpec fixes.   toBuilder() did return an immutable collection   AnnotationMirror visitor now visits arrays as well,26,4498
+461,9e31383,FAIL,5,NO,0,NO,0,2015-05-15 21:23:13 -0400,Merge pull request #279 from sormuras/AnnotationSpecFixes,26,4498
+462,bedeff3,FAIL,5,NO,0,NO,0,2015-05-16 18:18:19 +0200,MethodSpec.varargs(boolean) added,26,4500
+463,9e5558c,FAIL,5,NO,0,NO,0,2015-05-16 16:53:28 -0400,Merge pull request #280 from sormuras/chainable,26,4500
+464,cc27567,FAIL,4,NO,0,NO,0,2015-05-25 15:59:34 -0700,Small fixes for 1.1.0.,26,4517
+465,deb5519,FAIL,5,NO,0,NO,0,2015-05-25 16:17:53 -0700,Merge pull request #286 from square/jwilson_0525_prep_release,26,4517
+466,8280752,SUCCESS,9,SUCCESS,13,SUCCESS,20,2015-05-25 22:27:46 -0700,[maven-release-plugin] prepare release javapoet-1.1.0,26,4517
+467,2ddbb90,FAIL,4,NO,0,NO,0,2015-05-25 22:27:56 -0700,[maven-release-plugin] prepare for next development iteration,26,4517
+468,869f9dd,FAIL,5,NO,0,NO,0,2015-05-26 07:55:36 -0700,Bump README.md to 1.1.0.,26,4517
+469,2143e2c,FAIL,5,NO,0,NO,0,2015-06-02 09:54:47 -0400,Added support of static code block in the TypeSpec,26,4558
+470,d38648e,FAIL,5,NO,0,NO,0,2015-06-02 09:58:14 -0400,Merge branch 'DanielSerdyukov-master',26,4558
+471,6d8573c,FAIL,5,NO,0,NO,0,2015-06-02 20:44:49 +0200,Overriding-only w/o poet support and pointing to the actual snapshot path.,26,4623
+472,e5532b4,FAIL,5,NO,0,NO,0,2015-06-02 23:47:11 -0400,Merge pull request #287 from sormuras/overriding,26,4623
+473,0cece47,FAIL,4,NO,0,NO,0,2015-06-10 18:06:22 +0200,Add missing word.,26,4623
+474,eeff85d,FAIL,5,NO,0,NO,0,2015-06-10 12:09:33 -0400,Merge pull request #289 from johnjohndoe/patch-1,26,4623
+475,a89eed0,FAIL,5,NO,0,NO,0,2015-06-11 17:15:37 -0400,Use the initialCapacity when creating an ArrayList,26,4623
+476,c0413f5,FAIL,4,NO,0,NO,0,2015-06-11 22:18:20 -0400,Merge pull request #290 from shalecraig/patch-1,26,4623
+477,8774c6d,FAIL,6,NO,0,NO,0,2015-06-11 22:26:05 -0400,Javadoc on enum constants.,26,4628
+478,9c15424,FAIL,6,NO,0,NO,0,2015-06-11 22:28:22 -0400,Merge pull request #292 from square/jwilson_0611_javadocs,26,4628
+479,5963d9f,FAIL,5,NO,0,NO,0,2015-06-15 21:58:03 -0400,Added the ability to use indexes in format arguments,27,4782
+480,553fe8a,FAIL,4,NO,0,NO,0,2015-07-04 10:39:34 -0400,Merge pull request #293 from APaloski/master,27,4782
+481,aa8980f,FAIL,5,NO,0,NO,0,2015-07-04 11:27:51 -0400,Restore the deleted MethodSpec.overriding() overload.,27,4784
+482,49d1d83,FAIL,5,NO,0,NO,0,2015-07-04 11:34:50 -0400,Update Changelog.,27,4782
+483,8694525,FAIL,4,NO,0,NO,0,2015-07-04 15:04:52 -0400,Merge pull request #297 from square/jwilson_0704_restore_api_compatibility,27,4784
+484,fe9cc5f,FAIL,3,NO,0,NO,0,2015-07-04 16:31:48 -0400,Update changelog for 1.2.0.,27,4784
+485,639f406,SUCCESS,10,SUCCESS,10,SUCCESS,19,2015-07-04 16:33:42 -0400,[maven-release-plugin] prepare release javapoet-1.2.0,27,4784
+486,b099108,FAIL,5,NO,0,NO,0,2015-07-04 16:33:44 -0400,[maven-release-plugin] prepare for next development iteration,27,4784
+487,12ffaab,FAIL,4,NO,0,NO,0,2015-07-05 10:20:55 -0400,Test conflicting simple names in the same file.,27,4820
+488,dfa195e,FAIL,5,NO,0,NO,0,2015-07-05 10:24:11 -0400,Merge pull request #299 from square/jwilson_0705_imports_bug,27,4820
+489,5a37c2a,FAIL,7,NO,0,NO,0,2015-07-10 16:56:40 +0200,Workaround for Eclipse JDT/APT bug around intersection types,29,4931
+490,ff68284,FAIL,5,NO,0,NO,0,2015-07-11 16:17:01 +0200,Simplify TypeVariableName.get(TypeVariable),29,4905
+491,b716399,FAIL,4,NO,0,NO,0,2015-07-12 11:12:14 -0400,Merge pull request #305 from tbroyer/intersectiontypes-in-ecj,29,4905
+492,55ef172,FAIL,5,NO,0,NO,0,2015-07-12 20:55:43 +0200,Bump version to 1.2.0 in README.md file.,29,4905
+493,a0f783c,FAIL,5,NO,0,NO,0,2015-07-12 14:57:53 -0400,Merge pull request #306 from tomxor/readme-version,29,4905
+494,fbfc47a,FAIL,4,NO,0,NO,0,2015-07-12 15:19:43 +0200,Use correct return type in inner class example,29,4905
+495,8a17f0a,FAIL,4,NO,0,NO,0,2015-07-13 17:38:03 -0400,Merge pull request #307 from auke-/master,29,4905
+496,262a3e2,FAIL,5,NO,0,NO,0,2015-07-20 22:25:45 -0700,Create better messages for auto-indexing,29,4978
+497,8d27eca,FAIL,5,NO,0,NO,0,2015-07-21 23:01:46 -0700,Merge pull request #310 from kenzierocks/fix/index-error-message,29,4978
+498,cf6ac80,FAIL,5,NO,0,NO,0,2015-07-22 00:17:29 -0700,Shorten parameter validation.,29,4911
+499,66b156f,FAIL,4,NO,0,NO,0,2015-07-22 09:46:25 -0400,Merge pull request #312 from square/jwilson_0722_parameter_validation,29,4911
+500,a5f49c2,FAIL,5,NO,0,NO,0,2015-07-22 09:34:23 -0700,NameAllocator.,31,5000
+501,c2a686d,FAIL,5,NO,0,NO,0,2015-07-22 21:27:52 -0400,Merge pull request #313 from square/jwilson_0722_name_allocator,31,5000
+502,ee9e4da,FAIL,4,NO,0,NO,0,2015-08-03 16:51:07 -0700,Squashed commit of the following:,31,5021
+503,0b0e5d8,FAIL,4,NO,0,NO,0,2015-08-03 19:55:24 -0400,Merge pull request #314 from cutsnake-net/annotated_enums,31,5021
+504,5dff6c5,FAIL,4,NO,0,NO,0,2015-08-05 11:16:49 +0200,Removed unused import statements.,31,5016
+505,beebe46,FAIL,4,NO,0,NO,0,2015-08-05 11:13:00 -0400,Merge pull request #318 from sormuras/master,31,5016
+506,dc836e4,FAIL,4,NO,0,NO,0,2015-08-07 22:39:35 +0200,Use a more qualified name for conflicting simple names in the same file,31,5099
+507,9973945,FAIL,4,NO,0,NO,0,2015-08-19 23:06:39 -0400,Merge pull request #320 from auke-/master,31,5099
+508,6551850,FAIL,4,NO,0,NO,0,2015-09-14 15:41:43 -0700,Add logic to avoid infinite recursion in TypeName.get(TypeMirror) when the TypeMirror includes a recursive type bound.,31,5151
+509,ec8c5d5,FAIL,5,NO,0,NO,0,2015-09-14 21:12:39 -0400,t push origin masterMerge branch 'eamonnmcmanus-recursion',31,5151
+510,62a8b20,FAIL,3,NO,0,NO,0,2015-09-15 20:02:15 +0200,Removed not need import statements.,31,5149
+511,6a07eec,FAIL,5,NO,0,NO,0,2015-09-15 14:27:32 -0400,Merge pull request #325 from sormuras/master,31,5149
+512,38abbc1,FAIL,4,NO,0,NO,0,2015-09-20 10:00:38 -0400,Try to improve the errors on statement enter/exit matching.,31,5148
+513,f6ad309,FAIL,4,NO,0,NO,0,2015-09-20 10:43:02 -0400,Avoid Class.getPackage().,31,5152
+514,ebcbf38,FAIL,4,NO,0,NO,0,2015-09-20 10:44:07 -0400,"Revert ""Avoid Class.getPackage().""",31,5149
+515,c115519,FAIL,3,NO,0,NO,0,2015-09-20 10:43:02 -0400,Avoid Class.getPackage().,31,5152
+516,d597130,FAIL,4,NO,0,NO,0,2015-09-20 10:51:53 -0400,Update changelog for JavaPoet 1.3.0.,31,5149
+517,c8d5666,FAIL,4,NO,0,NO,0,2015-09-20 10:53:40 -0400,Merge pull request #326 from square/jwilson_0920_enter_enter_and_exit,31,5146
+518,5f349c8,FAIL,4,NO,0,NO,0,2015-09-20 10:53:47 -0400,Merge pull request #327 from square/jwilson_0920_avoid_get_package,31,5149
+519,725eed1,SUCCESS,12,SUCCESS,12,SUCCESS,25,2015-09-20 11:01:25 -0400,[maven-release-plugin] prepare release javapoet-1.3.0,31,5149
+520,b71a8d6,FAIL,4,NO,0,NO,0,2015-09-20 11:01:28 -0400,[maven-release-plugin] prepare for next development iteration,31,5149
+521,aecf1d5,FAIL,5,NO,0,NO,0,2015-09-20 15:49:52 -0400,Javadoc can't handle annotations in code samples.,31,5149
+522,74ed324,FAIL,5,NO,0,NO,0,2015-09-20 15:52:34 -0400,Merge pull request #328 from square/jwilson_0920_sigh_javadoc,31,5149
+523,a18a39e,FAIL,5,NO,0,NO,0,2015-09-21 05:54:46 +0200,Update README.md,31,5149
+524,ebde08a,FAIL,6,NO,0,NO,0,2015-09-21 00:40:54 -0400,Merge pull request #330 from a11n/master,31,5149
+525,f96704d,FAIL,5,NO,0,NO,0,2015-09-29 00:52:39 -0400,Resolve-based import resolution.,31,5156
+526,4ee84e2,FAIL,5,NO,0,NO,0,2015-09-29 01:09:00 -0400,Merge pull request #331 from square/jwilson_0929_resolve_based_imports,31,5156
+527,4dbeee0,FAIL,6,NO,0,NO,0,2015-10-07 06:22:23 +0200,Added test for static methods in an interface.,31,5173
+528,a81264c,FAIL,5,NO,0,NO,0,2015-10-07 16:17:51 -0400,Merge pull request #335 from sormuras/master,31,5173
+529,00e7258,FAIL,6,NO,0,NO,0,2015-10-11 14:33:58 +0200,Add clone() method on NameAllocator Useful to refine a NameAllocator for use in an inner scope code block.,31,5193
+530,150b196,FAIL,5,NO,0,NO,0,2015-10-11 11:21:19 -0400,Merge pull request #338 from jbgi/nameallocator-clone,31,5193
+531,5588188,FAIL,6,NO,0,NO,0,2015-10-12 19:52:28 +0200,AnnotationSpec.get(Annotation) added.,31,5309
+532,72c7414,FAIL,5,NO,0,NO,0,2015-10-13 12:15:25 -0400,Merge pull request #340 from sormuras/master,31,5309
+533,4d23554,FAIL,5,NO,0,NO,0,2015-10-14 17:49:21 +0200,Enum::name() usage forced.,31,5311
+534,50e0cbb,FAIL,6,NO,0,NO,0,2015-10-14 23:27:45 -0400,Merge pull request #346 from sormuras/master,31,5311
+535,9dd1e4c,FAIL,5,NO,0,NO,0,2015-10-15 10:24:08 +0200,equals() and hashCode() implemented.,32,5475
+536,44c2788,FAIL,6,NO,0,NO,0,2015-10-16 18:28:18 -0400,Merge pull request #349 from sormuras/spec,32,5475
+537,55f8bb8,FAIL,6,NO,0,NO,0,2015-10-16 18:42:54 -0400,Change around how we handle null package names.,32,5474
+538,c8b9d01,FAIL,5,NO,0,NO,0,2015-10-16 19:32:34 -0400,Merge pull request #351 from square/jwilson_1016_safe,32,5474
+539,a671668,FAIL,5,NO,0,NO,0,2015-10-22 15:23:56 +0200,AnnotationTypeName added.,33,5537
+540,852b1bb,FAIL,5,NO,0,NO,0,2015-10-22 11:45:42 -0400,Merge pull request #354 from sormuras/anno,33,5537
+541,43db567,FAIL,6,NO,0,NO,0,2015-10-23 20:18:17 -0400,"Revert ""AnnotationTypeName added.""",32,5474
+542,3bdc6b5,FAIL,5,NO,0,NO,0,2015-10-23 20:19:24 -0400,Merge pull request #358 from square/jwilson_1023_rollback,32,5474
+543,9d49d10,FAIL,5,NO,0,NO,0,2015-10-24 04:17:02 +0200,Enhanced TypeName(s) with List<AnnotationSpec> #136,33,5589
+544,e7534b9,FAIL,5,NO,0,NO,0,2015-10-24 17:33:25 -0400,Merge pull request #359 from sormuras/annotype,33,5589
+545,969d639,FAIL,4,NO,0,NO,0,2015-10-24 03:20:47 +0200,StackOverflowError fixed in TypeName.get(Type),33,5636
+546,74e7ea9,FAIL,5,NO,0,NO,0,2015-10-26 22:42:27 -0400,Delete the deploy_javadoc script.,33,5537
+547,942a04f,FAIL,5,NO,0,NO,0,2015-10-26 22:43:49 -0400,Merge pull request #360 from square/jwilson_1026_delete_deploy_javadoc,33,5589
+548,c5109fa,FAIL,5,NO,0,NO,0,2015-10-26 22:45:37 -0400,Merge pull request #357 from sormuras/master,33,5636
+549,77e89f0,FAIL,5,NO,0,NO,0,2015-10-26 22:46:33 -0400,Update Javadoc link.,33,5636
+550,bb8e4fc,FAIL,4,NO,0,NO,0,2015-10-27 21:15:43 -0400,Fix a bug when a nested class and sibling class have the same name.,33,5655
+551,b59cde5,FAIL,5,NO,0,NO,0,2015-10-27 21:18:55 -0400,Merge pull request #361 from square/jwilson_1027_handle_package_conflict,33,5655
+552,006a54b,FAIL,5,NO,0,NO,0,2015-11-13 20:02:14 -0800,Test to confirm nested annotation imports work.,33,5676
+553,1f07dd4,FAIL,4,NO,0,NO,0,2015-11-13 23:09:25 -0500,Merge pull request #367 from square/jwilson_1113_imports_test,33,5676
+554,f70958f,FAIL,5,NO,0,NO,0,2015-11-13 20:27:12 -0800,Changelog for 1.4.0.,33,5676
+555,27ddf37,SUCCESS,10,SUCCESS,12,SUCCESS,24,2015-11-13 20:31:05 -0800,[maven-release-plugin] prepare release javapoet-1.4.0,33,5676
+556,cf4b9a0,FAIL,4,NO,0,NO,0,2015-11-13 20:31:08 -0800,[maven-release-plugin] prepare for next development iteration,33,5676
+557,e51d394,FAIL,4,NO,0,NO,0,2015-11-14 12:08:29 +0100,Updated download section to 1.4.0,33,5676
+558,29727b0,FAIL,4,NO,0,NO,0,2015-11-14 06:49:49 -0800,Merge pull request #368 from sormuras/patch-1,33,5676
+559,6980db0,FAIL,5,NO,0,NO,0,2015-12-02 18:27:30 +0100,Prevent import of types located in the default package. #369,33,5688
+560,4522c42,FAIL,5,NO,0,NO,0,2015-12-02 15:41:16 -0500,Merge pull request #370 from sormuras/master,33,5688
+561,4ce8e42,FAIL,5,NO,0,NO,0,2015-12-09 20:37:21 +0100,Too many indexed arguments does fail now.,33,5708
+562,251cb9a,FAIL,4,NO,0,NO,0,2015-12-09 19:37:48 -0500,Merge pull request #375 from sormuras/master,33,5708
+563,633e4ac,FAIL,5,NO,0,NO,0,2015-12-14 18:07:09 -0500,Overload for creating a one-off name without a tag.,33,5716
+564,c635835,FAIL,4,NO,0,NO,0,2015-12-14 20:24:02 -0500,Merge pull request #379 from square/jw/new-name-no-tag,33,5716
+565,408388c,FAIL,5,NO,0,NO,0,2015-12-17 07:01:07 +0100,TypeName#annotated clean up.,33,5703
+566,3471d03,FAIL,5,NO,0,NO,0,2015-12-17 14:40:08 -0500,Merge pull request #383 from sormuras/master,33,5703
+567,5141a94,FAIL,5,NO,0,NO,0,2015-12-21 11:01:25 +0100,Internal AnnotationSpec clean up.,33,5706
+568,0a08c07,FAIL,4,NO,0,NO,0,2015-12-21 09:00:18 -0500,Merge pull request #385 from sormuras/master,33,5706
+569,97f4044,FAIL,5,NO,0,NO,0,2016-01-07 12:41:19 +0100,Upgrade Maven Checkstyle Plugin to 2.17 using Checkstyle 6.11.2,33,5706
+570,19b8ecd,FAIL,5,NO,0,NO,0,2016-01-07 08:28:28 -0500,Merge pull request #392 from sormuras/sor_checkstyle_upgrade,33,5706
+571,b162ce2,FAIL,5,NO,0,NO,0,2016-01-07 23:48:15 +0100,"Private source file object used, instead of com.sun.tools.javac types",33,5714
+572,6e8b62a,FAIL,5,NO,0,NO,0,2016-01-07 21:54:46 -0500,Merge pull request #393 from sormuras/sor_using_public_api,33,5714
+573,9eec3e9,FAIL,5,NO,0,NO,0,2016-01-08 18:09:04 +0100,Added char/Character to AnnotationSpec.Builder.addValue logic,33,5716
+574,8a7842b,FAIL,4,NO,0,NO,0,2016-01-08 12:22:53 -0500,Merge pull request #395 from sormuras/annotation_character_fix,33,5716
+575,757e123,FAIL,4,NO,0,NO,0,2016-01-08 20:15:18 +0100,Escape special char values.,33,5731
+576,512e216,FAIL,5,NO,0,NO,0,2016-01-08 16:10:09 -0500,Merge pull request #397 from sormuras/annotation_character_fix,33,5731
+577,caabf2c,FAIL,4,NO,0,NO,0,2016-01-09 01:27:38 +0100,Static import support added.,33,5924
+578,b07f520,FAIL,5,NO,0,NO,0,2016-01-10 01:04:21 -0500,Merge pull request #398 from sormuras/static_import,33,5924
+579,e28883e,FAIL,4,NO,0,NO,0,2016-01-10 08:04:42 +0100,Static import corner case tests and README/CHANGELOG updates.,33,5980
+580,7d22a5c,FAIL,4,NO,0,NO,0,2016-01-10 09:46:09 -0500,Merge pull request #399 from sormuras/static_polish,33,5980
+581,5f68b2c,FAIL,4,NO,0,NO,0,2016-01-10 14:04:48 -0500,Prepare for 1.5.0 release.,33,5980
+582,d04195e,SUCCESS,12,SUCCESS,13,SUCCESS,24,2016-01-10 14:07:57 -0500,[maven-release-plugin] prepare release javapoet-1.5.0,33,5980
+583,7035337,FAIL,5,NO,0,NO,0,2016-01-10 14:08:01 -0500,[maven-release-plugin] prepare for next development iteration,33,5980
+584,fcdb088,FAIL,4,NO,0,NO,0,2016-01-10 14:14:24 -0500,JavaPoet 1.5.0 is out.,33,5980
+585,9ffa01c,FAIL,4,NO,0,NO,0,2016-01-10 23:50:48 +0100,TypeName.equals() and .hashCode() now respect attached annotations.,33,5957
+586,1488b84,FAIL,5,NO,0,NO,0,2016-01-10 19:42:09 -0500,Merge pull request #401 from sormuras/typename_equality,33,5957
+587,62764fa,FAIL,5,NO,0,NO,0,2016-01-10 19:44:14 -0500,Update changelog for 1.5.1.,33,5957
+588,830751c,FAIL,4,NO,0,NO,0,2016-01-10 19:50:26 -0500,1.5.1 is the latest release.,33,5957
+589,c810627,FAIL,5,NO,0,NO,0,2016-01-14 08:16:20 +0100,Literal conversion clean up.,33,5939
+590,fc9d2ec,FAIL,3,NO,0,NO,0,2016-01-16 20:23:56 -0500,Merge pull request #403 from sormuras/escape_character,33,5939
+591,4dd5349,FAIL,4,NO,0,NO,0,2016-01-17 14:42:59 -0500,Add a test to show a limitation of static imports.,33,5978
+592,e3e7652,FAIL,4,NO,0,NO,0,2016-01-17 14:52:25 -0500,Merge pull request #405 from square/jwilson_0117_statics_fail,33,5960
+593,191787d,FAIL,5,NO,0,NO,0,2016-01-19 11:57:13 +0100,Added support for initializer blocks; Bugfix in TypeSpec.toBuilder() for static initializer block,33,6101
+594,bbdaa34,FAIL,4,NO,0,NO,0,2016-01-19 12:25:57 -0500,Merge branch 'sockeqwe-master',33,6101
+595,d19fee4,FAIL,5,NO,0,NO,0,2016-01-22 11:27:39 -0500,make TypeSpec.Kind enum public,33,6101
+596,e66ed45,FAIL,5,NO,0,NO,0,2016-01-22 19:28:19 -0500,Merge pull request #414 from caplan/master,33,6101
+597,2d21ad7,FAIL,5,NO,0,NO,0,2016-02-06 20:44:02 -0500,Allow TypeNames to be annotated twice,33,6112
+598,ae48652,FAIL,5,NO,0,NO,0,2016-02-07 08:36:43 -0500,Merge pull request #417 from ronshapiro/annotated_twice,33,6112
+599,023d256,FAIL,4,NO,0,NO,0,2016-02-07 09:34:16 -0500,Append annotations from multiple calls to TypeName#annotated,33,6112
+600,0ee1480,FAIL,5,NO,0,NO,0,2016-02-09 09:44:37 -0500,Merge pull request #418 from ronshapiro/annotated_twice,33,6112
+601,c759d9a,FAIL,4,NO,0,NO,0,2016-02-09 19:35:59 -0500,Fix a bug where annotations broke import resolution.,33,6144
+602,19fe0a4,FAIL,4,NO,0,NO,0,2016-02-09 19:40:01 -0500,Merge pull request #423 from square/jwilson_0209_imports_annotations,33,6144
+603,944a070,FAIL,4,NO,0,NO,0,2016-02-10 00:37:04 -0500,Add TypeSpec factories for when a ClassName already exists.,33,6158
+604,f1bf546,FAIL,5,NO,0,NO,0,2016-02-10 01:36:06 -0500,Merge pull request #426 from square/jw/class-name-factories,33,6158
+605,b42c938,FAIL,4,NO,0,NO,0,2016-02-10 10:15:31 -0500,Revive CodeBlock.of(),33,6159
+606,97c7581,FAIL,4,NO,0,NO,0,2016-02-10 10:50:44 -0500,Merge pull request #427 from ronshapiro/codeblock_of,33,6159
+607,98c8b72,FAIL,5,NO,0,NO,0,2016-02-16 13:17:47 +0100,Use util.UUID instead of rmi.UID.,33,6112
+608,1a16944,FAIL,4,NO,0,NO,0,2016-02-16 20:48:20 -0800,Merge pull request #429 from sormuras/better_import,33,6159
+609,34cfcdf,FAIL,4,NO,0,NO,0,2016-02-23 11:04:01 -0500,Treat ErrorType like a regular DeclaredType in TypeName.get(),33,6196
+610,f80f107,FAIL,4,NO,0,NO,0,2016-03-03 10:28:40 +0100,Added tests for https://github.com/square/javapoet/issues/431,33,6176
+611,1d763c4,FAIL,5,NO,0,NO,0,2016-03-03 21:43:23 -0500,Merge pull request #433 from sormuras/annotations_on_qualified_names_tests,33,6176
+612,4b0bd36,FAIL,4,NO,0,NO,0,2016-03-13 16:25:03 -0400,Merge pull request #430 from ronshapiro/typename_get_errortype,33,6214
+613,3e10db6,FAIL,5,NO,0,NO,0,2016-03-13 23:53:18 -0400,Ignore duplicate exceptions in MethodSpec.Builder,33,6228
+614,9006408,FAIL,4,NO,0,NO,0,2016-03-14 01:45:35 -0400,Merge pull request #439 from ronshapiro/duplicate_exceptions,33,6228
+615,4ec5922,FAIL,5,NO,0,NO,0,2016-03-17 08:59:23 +0100,TypeVariableName.withBounds added.,33,6257
+616,859e789,FAIL,5,NO,0,NO,0,2016-03-18 18:58:29 +0100,"Annotation methods to be public, abstract and nothing else",33,6228
+617,8e8b6ee,FAIL,5,NO,0,NO,0,2016-03-19 01:07:07 -0400,Merge pull request #442 from Skelehog/master,33,6228
+618,b99e692,FAIL,4,NO,0,NO,0,2016-03-19 01:10:42 -0400,Merge pull request #441 from sormuras/typevar_withbounds,33,6257
+619,9dee15b,FAIL,5,NO,0,NO,0,2016-03-19 01:35:29 -0400,Update README for JavaPoet 1.6.0.,33,6257
+620,3b92413,SUCCESS,14,SUCCESS,13,SUCCESS,28,2016-03-19 01:36:55 -0400,[maven-release-plugin] prepare release javapoet-1.6.0,33,6257
+621,4fd7569,FAIL,5,NO,0,NO,0,2016-03-19 01:36:58 -0400,[maven-release-plugin] prepare for next development iteration,33,6257
+622,a8b274e,FAIL,5,NO,0,NO,0,2016-03-22 09:33:51 +1100,Fix string literal and backslashes.,33,6260
+623,4de4f0e,FAIL,5,NO,0,NO,0,2016-03-21 19:53:07 -0400,Merge branch 'Wyverald-string-literal',33,6260
+624,30455b1,SUCCESS,12,SUCCESS,13,SUCCESS,24,2016-03-21 19:55:58 -0400,[maven-release-plugin] prepare release javapoet-1.6.1,33,6260
+625,dfcf55e,FAIL,4,NO,0,NO,0,2016-03-21 19:56:05 -0400,[maven-release-plugin] prepare for next development iteration,33,6260
+626,9718d39,FAIL,5,NO,0,NO,0,2016-03-21 20:00:31 -0400,Update changelog for 1.6.1.,33,6260
+627,747b88b,FAIL,6,NO,0,NO,0,2016-03-22 22:44:30 -0400,TypeName.isBoxedPrimitive().,33,6281
+628,495d958,FAIL,5,NO,0,NO,0,2016-03-22 23:13:42 -0400,Merge pull request #449 from square/jwilson_0322_box,33,6281
+629,3604f52,SUCCESS,11,SUCCESS,13,SUCCESS,26,2016-03-24 11:51:53 +0900,fix dependency versions to test,33,6281
+630,373ac2d,SUCCESS,10,SUCCESS,13,SUCCESS,24,2016-03-23 22:57:46 -0400,Merge pull request #450 from gfx/fix_dependency_versions,33,6281
+631,cdc51fd,SUCCESS,10,SUCCESS,13,SUCCESS,24,2016-03-24 23:10:22 +0900,specialize CodeWriter#emit(String) for optimization,33,6283
+632,2e61386,SUCCESS,11,SUCCESS,12,SUCCESS,26,2016-03-24 23:11:01 +0900,optimize TypeName#toString() with cache,33,6288
+633,b8d1957,SUCCESS,11,SUCCESS,14,SUCCESS,27,2016-03-24 20:38:00 -0400,Merge branch 'gfx-optimize',33,6288
+634,186ccd8,SUCCESS,10,SUCCESS,13,SUCCESS,24,2016-04-20 12:00:50 -0600,Avoid using raw types for SomeGeneric<T>.Inner,33,6364
+635,a4bb248,SUCCESS,10,SUCCESS,11,SUCCESS,25,2016-04-23 23:03:53 -0400,Merge branch 'marcosb-master',33,6364
+636,e2313a4,SUCCESS,11,SUCCESS,12,SUCCESS,26,2016-04-26 22:37:48 -0400,Changelog for JavaPoet 1.7.0.,33,6364
+637,79d83b2,SUCCESS,11,SUCCESS,14,SUCCESS,25,2016-04-26 22:38:37 -0400,[maven-release-plugin] prepare release javapoet-1.7.0,33,6364
+638,0e00d87,SUCCESS,12,SUCCESS,15,SUCCESS,27,2016-04-26 22:38:40 -0400,[maven-release-plugin] prepare for next development iteration,33,6364
+639,8613629,SUCCESS,11,SUCCESS,12,SUCCESS,28,2016-05-06 13:41:45 -0400,allow TypeName subclasses in withBounds() input list,33,6364
+640,93a496c,SUCCESS,14,SUCCESS,15,SUCCESS,30,2016-05-06 22:32:41 -0400,Merge pull request #464 from caplan/master,33,6364
+641,05f74da,SUCCESS,14,SUCCESS,14,SUCCESS,27,2016-05-29 17:22:21 +0200,Added missing variable in import static example.,33,6364
+642,d06b2fe,SUCCESS,11,SUCCESS,14,SUCCESS,27,2016-05-29 12:45:41 -0400,Merge pull request #468 from sormuras/master,33,6364
+643,1efac98,SUCCESS,13,SUCCESS,13,SUCCESS,30,2016-05-29 21:57:27 -0400,Allow fields in annotations,33,6377
+644,3d54bd9,SUCCESS,12,SUCCESS,13,SUCCESS,25,2016-05-30 10:17:12 -0400,Merge pull request #469 from benjamin-bader/bb/fields-in-annotations,33,6377
+645,a136eaa,SUCCESS,12,SUCCESS,13,SUCCESS,25,2016-06-07 13:37:09 -0500,Fixed the name clash when implementing/extending classes of the same name,33,6394
+646,338abf7,SUCCESS,10,SUCCESS,12,SUCCESS,24,2016-06-07 23:50:15 -0500,Removed the unnecessary comments,33,6394
+647,19e1b4e,SUCCESS,11,SUCCESS,13,SUCCESS,25,2016-06-13 01:34:03 -0400,Add convenience method builder.addComment,33,6380
+648,932695e,SUCCESS,10,SUCCESS,13,SUCCESS,27,2016-07-06 14:39:08 -0400,Merge pull request #471 from christianbreynolds/bugfix/nameClash,33,6394
+649,fdaefdb,SUCCESS,12,SUCCESS,14,SUCCESS,27,2016-07-24 11:53:53 +0200,Remove DEFAULT modifier from overridden method. #480,33,6409
+650,7bbcb1f,SUCCESS,11,SUCCESS,13,SUCCESS,29,2016-07-24 13:11:54 -0400,Merge pull request #481 from sormuras/master,33,6409
+651,73c6bd3,SUCCESS,11,SUCCESS,15,SUCCESS,26,2016-08-04 12:03:55 +0200,ClassName.getReflectionName() added. #485,33,6428
+652,325ebb4,SUCCESS,12,SUCCESS,14,SUCCESS,26,2016-08-04 08:11:22 -0400,Merge pull request #486 from sormuras/master,33,6428
+653,a6c9a7d,SUCCESS,12,SUCCESS,14,SUCCESS,26,2016-08-06 16:59:23 -0400,Merge pull request #472 from buckbaskin/master,33,6431
+654,9505ad0,SUCCESS,10,SUCCESS,13,SUCCESS,28,2016-08-05 12:42:09 -0700,Change MethodSpec.overriding to not copy annotations.,33,6422
+655,40e4c3a,SUCCESS,12,SUCCESS,13,SUCCESS,28,2016-08-06 17:10:07 -0400,Merge branch 'gk5885-method-spec-overriding',33,6422
+656,242beb3,SUCCESS,12,SUCCESS,12,SUCCESS,34,2016-09-02 21:36:42 +0200,Check kind state when adding super class.,33,6436
+657,1e70284,SUCCESS,10,SUCCESS,13,SUCCESS,27,2016-09-20 12:56:14 -0400,"`addJavadoc(CodeBlock)` overloads for TypeSpec, MethodSpec, and FieldSpec",33,6447
+658,84c0f15,SUCCESS,12,SUCCESS,13,SUCCESS,26,2016-10-27 16:07:48 -0400,Fix indentation directives in CodeBlock javadoc,33,6447
+659,d84dcff,SUCCESS,12,SUCCESS,12,SUCCESS,24,2016-10-27 14:13:40 -0700,Merge pull request #515 from ronshapiro/codeblock_jd,33,6447
+660,d2f829f,SUCCESS,10,SUCCESS,13,SUCCESS,25,2016-10-28 15:22:14 -0700,Guard for null in TypeSpec.Builder#addSuperinterface(TypeName),33,6455
+661,dc40fbe,SUCCESS,12,SUCCESS,11,SUCCESS,24,2016-10-28 18:39:16 -0400,Merge pull request #517 from benjamin-bader/no-null-superinterfaces,33,6455
+662,e3baf6b,SUCCESS,11,SUCCESS,14,SUCCESS,31,2016-08-29 18:09:16 +0000,Make MethodSpec.overriding include parameter annotations.,33,6473
+663,4cc7b23,SUCCESS,12,SUCCESS,15,SUCCESS,28,2016-11-08 21:24:19 -0500,Merge branch 'perezd-issue-499',33,6473
+664,59ba433,SUCCESS,11,SUCCESS,14,SUCCESS,26,2016-11-08 22:31:19 -0500,Always write UTF-8.,33,6486
+665,89179ea,SUCCESS,11,SUCCESS,14,SUCCESS,28,2016-11-08 22:43:11 -0500,Merge pull request #522 from square/jwilson.1108.force_utf8,33,6486
+666,16cd72b,SUCCESS,12,SUCCESS,15,SUCCESS,28,2016-11-08 22:20:16 -0800,Disallow nulls in TypeSpec#addSuperinterfaces,33,6497
+667,4eda8d4,SUCCESS,12,SUCCESS,14,SUCCESS,28,2016-11-09 01:26:40 -0500,Merge pull request #524 from benjamin-bader/null-in-superinterface-list,33,6497
+668,8685247,SUCCESS,11,SUCCESS,13,SUCCESS,27,2016-11-07 19:36:20 -0500,Add support for named arguments to CodeBlock,33,6592
+669,3bef689,SUCCESS,12,SUCCESS,14,SUCCESS,29,2016-11-09 19:16:48 -0500,Merge branch 'cconroy-named-arguments',33,6592
+670,61b0faf,SUCCESS,11,SUCCESS,13,SUCCESS,27,2016-11-09 01:50:51 -0500,Implement line wrapping.,35,6777
+671,bd78680,SUCCESS,10,SUCCESS,14,SUCCESS,25,2016-11-09 19:24:00 -0500,Merge pull request #525 from square/jwilson.1109.wrapping_space,35,6777
+672,bc65a0b,SUCCESS,11,SUCCESS,12,SUCCESS,25,2016-11-09 20:53:03 -0500,Fix imports of nested types.,35,6798
+673,8e35831,SUCCESS,12,SUCCESS,12,SUCCESS,25,2016-11-09 21:08:51 -0500,Merge pull request #527 from square/jwilson.1108.fix_nested_imports,35,6798
+674,19b9d73,SUCCESS,12,SUCCESS,13,SUCCESS,26,2016-11-09 21:33:37 -0500,Rollback support for retaining parameter annotations.,35,6791
+675,a1db459,SUCCESS,11,SUCCESS,13,SUCCESS,30,2016-11-09 21:37:05 -0500,Merge pull request #528 from square/jwilson.1109.nobody_wants_annotations,35,6791
+676,70cbbc9,SUCCESS,12,SUCCESS,15,SUCCESS,32,2016-11-09 21:41:24 -0500,Update readme for 1.8.0.,35,6791
+677,46913cd,SUCCESS,12,SUCCESS,18,SUCCESS,27,2016-11-09 21:43:04 -0500,[maven-release-plugin] prepare release javapoet-1.8.0,35,6791
+678,8ec1afa,SUCCESS,11,SUCCESS,11,SUCCESS,27,2016-11-09 21:43:08 -0500,[maven-release-plugin] prepare for next development iteration,35,6791
+679,01f7076,SUCCESS,11,SUCCESS,12,SUCCESS,26,2016-11-10 12:30:30 -0500,Only send the relevant characters into the matcher,35,6795
+680,fa5c190,SUCCESS,10,SUCCESS,13,SUCCESS,25,2016-11-10 18:49:52 -0500,Add MethodSpec.Builder addNamedCode convenience method,35,6795
+681,c248d40,SUCCESS,12,SUCCESS,13,SUCCESS,25,2016-11-14 21:20:59 -0500,Merge pull request #529 from cconroy/named-faster,35,6795
+682,73214de,SUCCESS,11,SUCCESS,11,SUCCESS,26,2016-11-14 21:21:15 -0500,Merge pull request #530 from cconroy/methodspec-named,35,6799
+683,ff50d7b,SUCCESS,10,SUCCESS,15,SUCCESS,28,2017-01-18 23:41:20 +0800,"There is a missing symbol ""?"" in [$T for Types] - [Import static] (#537)",35,6799
+684,b66d3d5,SUCCESS,12,SUCCESS,14,SUCCESS,28,2017-01-21 20:08:59 -0800,Fix division by zero in CodeBlock arg formatting (#542),35,6806
+685,414da30,SUCCESS,11,SUCCESS,13,SUCCESS,26,2017-02-01 18:15:52 +0100,test: assert that TypeName are not null (#544),35,6808
+686,89263f0,SUCCESS,27,SUCCESS,19,SUCCESS,22,2017-02-14 10:14:37 -0500,Add error-prone compiler.,33,6447
+687,0d6bdeb,SUCCESS,18,SUCCESS,17,SUCCESS,21,2017-02-14 22:54:29 -0500,Merge pull request #547 from square/jw/2017-02-14/error-prone,35,6808
+688,647b93b,SUCCESS,16,SUCCESS,18,SUCCESS,24,2017-03-15 23:02:14 +0000,Adds messaging to NPEs thrown in MethodSpec.methodBuilder() and MethodSpec.addModifiers() (#550),35,6823
+689,e112795,SUCCESS,17,SUCCESS,20,SUCCESS,23,2017-03-21 13:10:55 +0100,Verify that null is not passed as vararg parameter (#551),35,6832
+690,48378f7,SUCCESS,18,SUCCESS,19,SUCCESS,22,2017-05-06 15:59:35 -0400,Upgrade to Checkstyle 7.7. (#556),35,6832
+691,40dfa0c,SUCCESS,16,SUCCESS,17,SUCCESS,21,2017-05-12 20:45:25 -0700,Add convenience anonymousClassBuilder(CodeBlock) (#560),35,6834
+692,4cd975b,SUCCESS,16,SUCCESS,16,SUCCESS,19,2017-05-13 14:52:51 +0200,Fix conflicts with types with same name as type being declared  (#559),35,6919
+693,ca12c7b,SUCCESS,16,SUCCESS,17,SUCCESS,21,2017-05-13 15:06:53 +0200,Support anonymous inner classes in ClassName#get (#526),35,6928
+694,7931dbd,SUCCESS,15,SUCCESS,15,SUCCESS,18,2017-05-13 09:08:22 -0400,Update changelog for 1.9.,35,6928
+695,dfba6d7,SUCCESS,15,SUCCESS,16,SUCCESS,22,2017-05-13 09:09:14 -0400,[maven-release-plugin] prepare release javapoet-1.9.0,35,6928
+696,5f3b345,SUCCESS,19,SUCCESS,18,SUCCESS,22,2017-05-13 09:09:25 -0400,[maven-release-plugin] prepare for next development iteration,35,6928
+697,08c7148,SUCCESS,18,SUCCESS,16,SUCCESS,23,2017-05-23 22:43:13 +0100,Fix ClassName regression for class names starting with a $ (#562),35,6938
+698,a5694ac,SUCCESS,17,SUCCESS,19,SUCCESS,21,2017-06-23 10:26:32 -0400,addStatement(CodeBlock) overloads for CodeBlock and MethodSpec (#567),35,6947
+699,384395d,SUCCESS,17,SUCCESS,18,SUCCESS,22,2017-06-30 17:41:13 -0400,Switch from StringWriter to StringBuilder. (#568),35,6941
+700,f5b1b62,SUCCESS,16,SUCCESS,16,SUCCESS,22,2017-08-13 09:28:17 -0700,Include annotations when emitting type variables. (#574),35,6942
+701,03f3a27,SUCCESS,16,SUCCESS,17,SUCCESS,21,2017-12-07 20:47:48 +0100,Set com.squareup.javapoet as automatic module name,35,6942
+702,b5cc9f4,SUCCESS,19,SUCCESS,19,SUCCESS,23,2017-12-07 22:27:51 -0500,Merge pull request #590 from sormuras/patch-1,35,6942
+703,6810608,SUCCESS,29,SUCCESS,21,SUCCESS,22,2018-01-21 22:15:02 +0100,Updated various versions of 3rd-party libraries and tools (#602),35,6945
+704,ca0e12e,SUCCESS,20,SUCCESS,20,SUCCESS,23,2018-01-26 22:16:20 -0500,Adds `$B` as an optional newline if a line will exceed 100 chars (#598),35,7047
+705,563cf74,SUCCESS,22,SUCCESS,25,SUCCESS,25,2018-01-26 22:20:23 -0500,Implement CodeBlock.join() and CodeBlock.joining() (#599),35,7115
+706,6865d07,SUCCESS,19,SUCCESS,18,SUCCESS,23,2018-01-26 22:20:51 -0500,Add isEmpty to CodeBlock.Builder. (#596),35,7123
+707,870ece8,SUCCESS,19,SUCCESS,24,SUCCESS,31,2017-12-27 22:49:44 +0300,Fix search of annotated type parameters in imports,35,7143
+708,da2859b,SUCCESS,22,SUCCESS,25,SUCCESS,25,2018-01-26 22:33:45 -0500,Merge branch 'zhurs-master',35,7143
+709,9e62955,SUCCESS,21,SUCCESS,26,SUCCESS,23,2018-01-26 23:01:55 -0500,Update Changelog for 1.10.0.,35,7143
+710,c6dd69c,SUCCESS,21,SUCCESS,24,SUCCESS,24,2018-01-26 23:28:30 -0500,Use $Z in method parameter lists. (#605),35,7143
+711,a2f21df,SUCCESS,21,SUCCESS,24,SUCCESS,23,2018-01-26 23:32:23 -0500,[maven-release-plugin] prepare release javapoet-1.10.0,35,7143
+712,29f38bf,SUCCESS,22,SUCCESS,23,SUCCESS,23,2018-01-26 23:32:28 -0500,[maven-release-plugin] prepare for next development iteration,35,7143
+713,1ea76b4,SUCCESS,21,SUCCESS,22,SUCCESS,24,2018-01-27 10:07:43 +0100,Update README.md to version 1.10.0,35,7143
+714,b68e867,SUCCESS,20,SUCCESS,24,SUCCESS,22,2018-01-27 04:11:23 -0500,Merge pull request #607 from sormuras/version-1.10.0,35,7143
+715,5dafdcb,SUCCESS,23,SUCCESS,23,SUCCESS,26,2018-01-28 03:13:43 -0500,"Fix ""Do not submit"" from https://github.com/square/javapoet/pull/598 😬😬😬 (#608)",35,7143
+716,abaa7f0,SUCCESS,19,SUCCESS,23,SUCCESS,23,2018-01-28 18:33:03 -0500,Fix checkState message in CodeWriter (#609),35,7143
+717,d509342,SUCCESS,21,SUCCESS,22,SUCCESS,23,2018-02-01 14:53:13 +0100,Introduce JDK build matrix on Travis CI (#606),35,7143
+718,a4966ff,SUCCESS,22,SUCCESS,25,SUCCESS,24,2018-02-06 13:09:17 -0600,Correct usage of toString(),35,7143
+719,b7176d0,SUCCESS,22,SUCCESS,24,SUCCESS,25,2018-02-06 14:29:49 -0500,Merge pull request #611 from evonsdesigns/patch-1,35,7143
+720,e6bc3b1,SUCCESS,20,SUCCESS,24,SUCCESS,24,2018-02-18 21:41:04 -0500,Add a note about requiring Java 8 to the changelog.,35,7143
+721,0091cc5,SUCCESS,21,SUCCESS,22,SUCCESS,22,2018-02-19 10:19:04 +0100,Drop `-ea` as JDK 10 is now a release candidate,35,7143
+722,62d7826,SUCCESS,20,SUCCESS,21,SUCCESS,21,2018-02-19 08:19:14 -0500,Merge pull request #616 from sormuras/patch-1,35,7143
+723,1e70bf3,SUCCESS,21,SUCCESS,22,SUCCESS,24,2018-02-23 18:52:47 -0800,Require valid annotation member names. (#620),35,7163
+724,28fdcfb,SUCCESS,20,SUCCESS,23,SUCCESS,23,2018-02-25 22:18:41 -0500,Use HTTPS links in documentation where possible.,35,7163
+725,82e20e0,SUCCESS,22,SUCCESS,26,SUCCESS,27,2018-02-25 22:36:34 -0500,Merge pull request #621 from square/jwilson.0225.https_links,35,7163
+726,b314337,SUCCESS,23,SUCCESS,23,SUCCESS,24,2018-03-03 18:03:40 +0100,Update the codebase now that we require Java 8 (#617),35,7133
+727,ee82208,SUCCESS,21,SUCCESS,26,SUCCESS,25,2018-03-04 04:22:03 -0800,Disable overriding methods in final classes. (#626),35,7147
+728,adced31,SUCCESS,23,SUCCESS,25,SUCCESS,22,2018-03-04 04:25:01 -0800,Use contextual type parameters for throws types. (#625),35,7160
+729,d108052,SUCCESS,20,SUCCESS,22,SUCCESS,22,2018-03-02 13:14:49 -0800,Add another test for direct generics usage.,35,7168
+730,d91f8e1,SUCCESS,21,SUCCESS,23,SUCCESS,25,2018-03-10 09:35:51 -0800,Add tests for Java 8 TYPE_USE annotations on arrays (#614). (#618),35,7298
+731,f24801f,SUCCESS,24,SUCCESS,25,SUCCESS,24,2018-03-12 00:42:35 -0700,Fail fast with null AnnotationSpec on type.,35,7315
+732,8ab7616,SUCCESS,21,SUCCESS,26,SUCCESS,24,2018-03-12 08:51:00 -0400,Merge pull request #631 from NightlyNexus/eric.annotationSpec,35,7315
+733,24c88ec,SUCCESS,24,SUCCESS,27,SUCCESS,23,2018-04-11 19:18:26 +0200,Fix type typo in README,35,7315
+734,8e9b2ec,SUCCESS,20,SUCCESS,21,SUCCESS,23,2018-04-11 11:28:44 -0700,Merge pull request #638 from sherter/sherter-patch-1,35,7315
+735,9ea843d,SUCCESS,20,SUCCESS,24,SUCCESS,23,2018-04-23 14:22:09 -0400,Initialize multiplication result to 1.,35,7315
+736,bc7f6dc,SUCCESS,22,SUCCESS,25,SUCCESS,24,2018-04-23 14:24:21 -0400,Remove unused list,35,7314
+737,d6a0097,SUCCESS,22,SUCCESS,25,SUCCESS,23,2018-04-23 14:33:51 -0400,Merge pull request #627 from NightlyNexus/eric.nomockito,35,7323
+738,8dea2cb,SUCCESS,23,SUCCESS,26,SUCCESS,24,2018-04-23 15:28:08 -0400,Merge pull request #641 from square/JakeWharton-patch-2,35,7322
+739,034f0b6,SUCCESS,20,SUCCESS,22,SUCCESS,23,2018-04-23 15:29:26 -0400,Merge pull request #640 from square/JakeWharton-patch-1,35,7322
+740,3c68a05,SUCCESS,19,SUCCESS,22,SUCCESS,23,2018-03-04 13:30:17 +0100,Load install-jdk.sh on-the-fly,35,7160
+741,491ff3c,SUCCESS,24,SUCCESS,23,SUCCESS,23,2018-04-23 22:14:06 +0200,Upgrade errorprone to 2.3.1,35,7322
+742,b1e1a08,SUCCESS,19,SUCCESS,22,SUCCESS,24,2018-04-28 01:20:21 -0400,Tighten up the code that handles emitting type annotations.,35,7277
+743,371b82e,SUCCESS,19,SUCCESS,26,SUCCESS,28,2018-04-28 10:30:05 -0400,Merge pull request #643 from square/jwilson.0428.type_annotations,35,7277
+744,c8b9bc8,SUCCESS,22,SUCCESS,24,SUCCESS,25,2018-04-28 10:56:08 -0400,Merge pull request #629 from sormuras/load-install-jdk-on-the-fly,35,7277
+745,3f4d5c2,SUCCESS,23,SUCCESS,24,SUCCESS,26,2018-04-28 10:57:31 -0400,Merge pull request #642 from sormuras/upgrade-errorprone,35,7277
+746,1c897e4,SUCCESS,22,SUCCESS,25,SUCCESS,26,2018-04-28 20:18:33 -0400,Avoid TypeElement.getKind() in ClassName.get().,35,7294
+747,30ff8ce,SUCCESS,19,SUCCESS,23,SUCCESS,25,2018-04-29 00:08:57 -0400,Merge pull request #644 from square/jwilson.0428.avoid_typeelement_getkind,35,7294
+748,5d6ff03,SUCCESS,20,SUCCESS,25,SUCCESS,24,2018-04-29 17:08:15 -0400,Update changelog for 1.11,35,7294
+749,b09d944,SUCCESS,22,SUCCESS,23,SUCCESS,27,2018-04-29 17:10:21 -0400,[maven-release-plugin] prepare release javapoet-1.11.0,35,7294
+750,3ddde8f,SUCCESS,21,SUCCESS,23,SUCCESS,24,2018-04-29 17:10:29 -0400,[maven-release-plugin] prepare for next development iteration,35,7294
+751,5584016,SUCCESS,21,SUCCESS,21,SUCCESS,24,2018-05-16 11:14:47 -0400,Fix TypeName.get() on top-level error types (#646),35,7296
+752,5ff40a9,SUCCESS,21,SUCCESS,23,SUCCESS,24,2018-05-16 11:18:32 -0400,Update changelog for 1.11.1.,35,7296
+753,a5db06d,SUCCESS,22,SUCCESS,25,SUCCESS,26,2018-05-16 11:19:28 -0400,[maven-release-plugin] prepare release javapoet-1.11.1,35,7296
+754,564f37f,SUCCESS,20,SUCCESS,24,SUCCESS,27,2018-05-16 11:19:49 -0400,[maven-release-plugin] prepare for next development iteration,35,7296
+755,46a6a6e,SUCCESS,22,SUCCESS,22,SUCCESS,24,2018-07-11 13:19:09 +1000,Replace incorrect usage of anonymousInnerClass,35,7296
+756,1469cfa,SUCCESS,20,SUCCESS,22,SUCCESS,23,2018-07-11 03:35:51 -0400,Merge pull request #655 from realityforge/patch-1,35,7296
+757,4a7857e,SUCCESS,18,SUCCESS,22,SUCCESS,25,2018-08-01 16:21:44 -0400,`java.lang.List` has no `size()` method,35,7296
+758,37ccc0b,SUCCESS,21,SUCCESS,26,SUCCESS,27,2018-08-01 16:37:33 -0400,Merge pull request #661 from ronshapiro/patch-2,35,7296
+759,dfb5bc6,SUCCESS,22,SUCCESS,20,SUCCESS,24,2018-08-19 23:10:39 +0200,"Switch back to Travis CI managed ""jdk"" installations (#672)",35,7296
+760,077bd8c,SUCCESS,20,SUCCESS,20,SUCCESS,24,2018-08-10 09:47:04 +0200,test: specify more toJavaIdentifier,35,7298
+761,f1600e5,SUCCESS,18,SUCCESS,23,SUCCESS,24,2018-08-10 10:25:36 +0200,test: improve test by checking the toString() of ParameterSpec implementation,35,7298
+762,0cbc16d,SUCCESS,20,SUCCESS,23,SUCCESS,27,2018-08-10 10:18:28 +0200,test: improve test by checking the toString() of FieldSpec implementation,35,7298
+763,b879b58,SUCCESS,21,SUCCESS,26,SUCCESS,28,2018-08-21 21:12:33 -0400,Qualify types masked by type variables (#657),35,7382
+764,c1b5aaf,SUCCESS,21,SUCCESS,23,SUCCESS,24,2018-08-21 21:12:52 -0400,Merge pull request #667 from danglotb/improve-test-on-field-spec,35,7384
+765,3bf548d,SUCCESS,22,SUCCESS,22,SUCCESS,24,2018-08-21 21:13:05 -0400,Merge pull request #668 from danglotb/improve-test-on-parameter-spec,35,7386
+766,527c397,SUCCESS,19,SUCCESS,23,SUCCESS,24,2018-08-21 21:13:24 -0400,Merge pull request #669 from danglotb/improve-name-allocator-test,35,7388
+767,c93bfa8,SUCCESS,20,SUCCESS,23,SUCCESS,25,2018-10-03 19:57:36 -0700,Check parameter Modifiers (#678),35,7402
+768,ea7a02e,SUCCESS,21,SUCCESS,22,SUCCESS,27,2018-10-03 19:59:30 -0700,Add Javadoc to ParameterSpec (#676),35,7467
+769,30a8bda,SUCCESS,21,SUCCESS,20,SUCCESS,22,2018-11-12 07:32:46 +0300,Public getter for canonical name of ClassName (#687),35,7477
+770,274bb56,SUCCESS,19,SUCCESS,23,SUCCESS,28,2018-11-27 20:14:23 -0800,Remove sudo:false from travis config,35,7388
+771,791cb96,SUCCESS,23,SUCCESS,26,SUCCESS,26,2018-11-27 23:19:51 -0500,Merge pull request #695 from shaishavgandhi05/sg/sudo-false,35,7477
+772,53cfc84,SUCCESS,21,SUCCESS,23,SUCCESS,24,2019-02-04 07:06:39 -0800,Allow setting method name on MethodSpec.Builder (#702),35,7490
+773,dc30890,SUCCESS,19,SUCCESS,28,SUCCESS,27,2019-02-05 16:47:03 -0500,Remove n^2 algorithm in CodeWriter.resolve() by precomputing all of the nested simple names of a TypeSpec,35,7494
+774,c054ce9,SUCCESS,20,SUCCESS,20,SUCCESS,21,2019-01-30 17:11:41 +0100,Add documentation on nextControlFlow to README #693,35,7477
+775,d00c786,SUCCESS,18,SUCCESS,21,SUCCESS,26,2019-02-06 11:11:46 -0500,Merge pull request #703 from galderz/t_nextcontrolflow_693,35,7490
+776,218e4ad,SUCCESS,19,SUCCESS,25,SUCCESS,28,2019-02-07 16:12:39 -0500,Merge pull request #705 from ronshapiro/CodeWriter_resolve,35,7494
+777,a481d9d,SUCCESS,21,SUCCESS,24,SUCCESS,22,2019-03-14 12:40:44 -0400,Checkstyle 8.18,35,7494
+778,1676ff4,SUCCESS,19,SUCCESS,22,SUCCESS,25,2019-03-16 09:01:08 -0400,Merge pull request #714 from square/egorand/190313/checkstyle-8.18,35,7494
+779,e79bb2f,SUCCESS,20,SUCCESS,22,SUCCESS,25,2019-03-25 11:03:39 -0400,Remove argument whose value isn't needed,35,7494
+780,c4ac60e,SUCCESS,19,SUCCESS,25,SUCCESS,25,2019-03-25 11:09:39 -0400,Merge pull request #719 from square/jakew/unused/2019-03-25,35,7494
+781,02ece26,SUCCESS,22,SUCCESS,24,SUCCESS,29,2019-04-16 15:30:11 -0400,Memoize ClassName.simpleNames(),35,7500
+782,0f93da9,SUCCESS,22,SUCCESS,22,SUCCESS,27,2019-04-16 16:03:09 -0400,Merge pull request #720 from ronshapiro/ClassName_simpleNames,35,7500
+783,3829f2c,SUCCESS,19,SUCCESS,25,SUCCESS,23,2019-04-26 16:15:29 -0700,Fix an issue where ClassName could not handle classes in the default (empty) package,36,7511
+784,8bc9071,SUCCESS,21,SUCCESS,23,SUCCESS,25,2019-05-03 14:58:24 -0400,Nit: Simplify a CodeBlock,36,7509
+785,c1f97f4,SUCCESS,20,SUCCESS,20,SUCCESS,23,2019-05-03 15:20:45 -0400,Merge pull request #724 from ronshapiro/codeblock_simple,36,7509
+786,a03c978,SUCCESS,17,SUCCESS,21,SUCCESS,21,2019-06-04 19:07:29 +0200,easier_way_provide_encoding (#712),36,7512
+787,d13cf25,SUCCESS,19,SUCCESS,22,SUCCESS,23,2019-08-07 23:00:45 -0400,Switch to openjdk8 for CI,36,7512
+788,d70a303,SUCCESS,21,SUCCESS,25,SUCCESS,25,2019-08-10 15:32:17 -0400,Merge pull request #733 from ZacSweers/z/openjdk8,36,7512
+789,4e8f72f,SUCCESS,22,SUCCESS,26,SUCCESS,28,2019-08-10 22:37:45 -0400,Add CodeBlock.Builder#clear() method,36,7522
+790,e9460b8,SUCCESS,21,SUCCESS,24,SUCCESS,25,2019-08-11 13:29:49 -0400,Merge pull request #735 from ZacSweers/z/codeblockClear,36,7522
+791,a0eadbb,SUCCESS,20,FAIL,9,NO,0,2019-12-21 05:39:33 -0800,Add checks to ParameterSpec with VariableElement + copy over annotations (#681),37,7575
+792,e6993cc,SUCCESS,20,SUCCESS,22,SUCCESS,26,2019-12-22 09:45:11 -0500,Fix broken merge,37,7574
+793,2d6680b,SUCCESS,21,SUCCESS,21,SUCCESS,25,2019-12-22 09:47:09 -0500,Remove non-LTS JDK versions from Travis config,37,7574
+794,e19762a,SUCCESS,21,SUCCESS,24,SUCCESS,28,2019-12-22 11:35:23 -0500,Merge pull request #747 from square/egorand/191222/fix-master,37,7574
+795,3f53862,SUCCESS,20,SUCCESS,23,SUCCESS,24,2019-12-22 11:37:56 -0500,Merge pull request #748 from square/egorand/191222/travis-cleanup,37,7574
+796,4272265,SUCCESS,20,SUCCESS,20,SUCCESS,24,2020-01-01 08:37:31 -0500,Mutable builder list fields (#650),37,7714
+797,e2ed025,SUCCESS,18,SUCCESS,21,SUCCESS,23,2020-01-01 08:40:39 -0500,Ensure trailing newlines in javadocs and method bodies (#732),37,7777
+798,1225800,SUCCESS,19,SUCCESS,21,SUCCESS,24,2020-01-01 17:31:32 -0500,Copy originating elements in toBuilder() as well (#750),37,7782
+799,3d65852,SUCCESS,18,SUCCESS,23,SUCCESS,29,2020-01-02 15:18:32 +0200,Hardcoded line separator bug (#684),38,7797
+800,25d1984,SUCCESS,22,SUCCESS,33,SUCCESS,24,2020-01-04 18:10:32 +0100,added convenience overloads for code blocks in control flow (#752),38,7835
+801,80ddc99,SUCCESS,21,SUCCESS,23,SUCCESS,26,2020-01-06 14:01:52 -0500,Add alwaysQualify() API to avoid collisions with known colliding types (#734),38,8189
+802,dc64ed1,SUCCESS,20,SUCCESS,23,SUCCESS,26,2019-01-29 08:44:01 +0100,Add writeTo methods returning Path/File written to #691,38,8197
+803,74a0f27,SUCCESS,20,SUCCESS,22,SUCCESS,23,2020-01-06 14:29:28 -0500,Merge branch 'galderz-t_javafile_writeto_691',38,8197
+804,eff1ee4,SUCCESS,19,SUCCESS,26,SUCCESS,29,2020-01-06 14:42:40 -0500,Test for JavaFile.writeToPath,38,8201
+805,aba9810,SUCCESS,21,SUCCESS,21,SUCCESS,27,2020-01-06 15:57:47 -0500,Merge pull request #753 from square/egorand/200106/write-to-path-test,38,8201
+806,8b5db1a,SUCCESS,19,SUCCESS,21,SUCCESS,26,2020-01-09 11:27:58 -0500,[maven-release-plugin] prepare release javapoet-1.12.0,38,8201
+807,1ef324c,SUCCESS,20,SUCCESS,22,SUCCESS,30,2020-01-09 11:28:05 -0500,[maven-release-plugin] prepare for next development iteration,38,8201
+808,0d25ea1,SUCCESS,22,SUCCESS,23,SUCCESS,26,2020-01-09 11:32:42 -0500,Changelog for 1.12.0,38,8201
+809,d3eef47,SUCCESS,22,SUCCESS,23,SUCCESS,28,2020-01-09 13:10:00 -0500,Fix changelog for 1.12.0,38,8201
+810,5a6c842,SUCCESS,21,SUCCESS,25,SUCCESS,26,2020-01-13 07:41:01 -0600,Remove parameter annotations in MethodSpec.overriding,38,8208
+811,8ce7d75,SUCCESS,20,SUCCESS,22,SUCCESS,25,2020-01-13 11:30:30 -0600,Merge pull request #755 from square/egorand/200113/method-override-remove-param-annotations,38,8208
+812,ecfcfca,SUCCESS,19,SUCCESS,21,SUCCESS,26,2020-01-14 07:25:08 -0600,Add a comment about dropping parameter annotations in MethodSpec.overriding,38,8208
+813,2b7adc7,SUCCESS,22,SUCCESS,24,SUCCESS,25,2020-01-14 14:08:36 -0600,Merge pull request #756 from square/egorand/200114/overriding-note,38,8208
+814,9451a36,SUCCESS,18,SUCCESS,22,SUCCESS,27,2020-01-20 08:53:47 -0600,[maven-release-plugin] prepare release javapoet-1.12.1,38,8208
+815,2063666,SUCCESS,22,SUCCESS,22,SUCCESS,28,2020-01-20 08:53:53 -0600,[maven-release-plugin] prepare for next development iteration,38,8208
+816,4462270,SUCCESS,21,SUCCESS,26,SUCCESS,27,2020-01-20 08:58:04 -0600,Update changelog for 1.12.1,38,8208
+817,622e07e,SUCCESS,21,SUCCESS,24,SUCCESS,25,2020-04-20 08:53:48 -0700,Don't copy parameter annotations when creating a ParameterSpec. (#770),38,8214
+818,4135ccb,SUCCESS,21,SUCCESS,26,SUCCESS,26,2020-04-20 11:56:24 -0400,Static import CompilationSubject.assertThat,38,8213
+819,304176e,SUCCESS,21,SUCCESS,24,SUCCESS,27,2020-04-20 12:13:55 -0400,Merge pull request #772 from square/jakew/static-import/2020-04-20,38,8213
+820,a5f4f0f,SUCCESS,19,SUCCESS,21,SUCCESS,28,2020-06-03 20:23:44 -0500,Add support for explicit receiver parameters,38,8229
+821,e77793b,SUCCESS,22,SUCCESS,26,SUCCESS,26,2020-06-04 20:51:43 -0400,Merge pull request #789 from jasonobrien/master,38,8229
+822,8705e5c,SUCCESS,22,SUCCESS,21,SUCCESS,24,2020-06-18 10:45:40 -0400,Update changelog for 1.13.0.,38,8229
+823,714e05c,SUCCESS,18,SUCCESS,22,SUCCESS,27,2020-06-18 11:11:11 -0400,[maven-release-plugin] prepare release javapoet-1.13.0,38,8229
+824,081d839,SUCCESS,19,SUCCESS,25,SUCCESS,28,2020-06-18 11:11:19 -0400,[maven-release-plugin] prepare for next development iteration,38,8229
+825,8e02981,SUCCESS,21,SUCCESS,23,SUCCESS,29,2020-06-18 11:22:38 -0400,[maven-release-plugin] prepare release javapoet-1.13.0,38,8229
+826,d9fc2a8,SUCCESS,24,SUCCESS,28,SUCCESS,31,2020-06-18 11:42:01 -0400,"Revert to previous SNAPSHOT version to retry release, update version in README",38,8229
+827,5ca6d5b,SUCCESS,24,SUCCESS,23,SUCCESS,26,2020-06-18 11:43:13 -0400,[maven-release-plugin] prepare release javapoet-1.13.0-1,38,8229
+828,b190e63,SUCCESS,18,SUCCESS,23,SUCCESS,26,2020-06-18 11:43:20 -0400,[maven-release-plugin] prepare for next development iteration,38,8229
+829,f5eb996,SUCCESS,23,SUCCESS,27,SUCCESS,27,2020-06-18 14:11:49 -0400,Revert version change to retry the release,38,8229
+830,ebb7d3c,SUCCESS,20,SUCCESS,23,SUCCESS,24,2020-06-18 15:21:06 -0400,[maven-release-plugin] prepare release javapoet-1.13.0-2,38,8229
+831,5e5a9c5,SUCCESS,19,SUCCESS,24,SUCCESS,27,2020-06-18 15:21:13 -0400,[maven-release-plugin] prepare for next development iteration,38,8229
+832,24bf1f0,SUCCESS,22,SUCCESS,24,SUCCESS,26,2020-06-18 12:08:15 -0400,Add RELEASING.md,38,8229
+833,0a6ee12,SUCCESS,18,SUCCESS,22,SUCCESS,26,2020-06-19 12:38:34 -0400,Merge pull request #792 from square/egorand/200618/releasing,38,8229
+834,7c8595c,SUCCESS,23,SUCCESS,27,SUCCESS,28,2020-12-15 17:07:14 +0000,Bump junit from 4.12 to 4.13.1,38,8229
+835,8ebce31,SUCCESS,22,SUCCESS,24,SUCCESS,25,2020-12-15 16:55:58 -0500,Merge pull request #817 from square/dependabot/maven/junit-junit-4.13.1,38,8229
+836,52c72c0,SUCCESS,19,SUCCESS,18,SUCCESS,26,2021-03-01 17:41:16 +0200,Precompile the pattern used for splitting at possible line-breaks,38,8231
+837,8d7a39b,SUCCESS,20,SUCCESS,26,SUCCESS,29,2021-03-01 22:40:55 -0500,Merge pull request #828 from ronshapiro/string_split,38,8231
+838,6f3d36c,SUCCESS,21,SUCCESS,25,SUCCESS,26,2020-09-28 14:49:04 -0500,Allow private interface methods from Java 9,38,8300
+839,d59c752,SUCCESS,22,SUCCESS,24,SUCCESS,28,2021-03-18 14:04:16 -0400,Merge pull request #806 from Randgalt/allow-private-interface-methods,38,8300
+840,8d619f1,SUCCESS,20,SUCCESS,22,SUCCESS,26,2021-03-18 14:00:34 -0400,Use GitHub Actions for CI,38,8231
+841,742af18,SUCCESS,19,SUCCESS,22,SUCCESS,27,2021-03-18 21:50:21 -0400,Merge pull request #830 from square/jw/gh-actions/2021-03-18,38,8300
+842,ed181db,SUCCESS,21,SUCCESS,26,SUCCESS,28,2021-04-15 17:42:30 +0200,Support enums without any enum constants,38,8306
+843,3956097,SUCCESS,19,SUCCESS,24,SUCCESS,29,2021-04-16 11:25:20 -0400,Merge pull request #833 from veselov/832,38,8306
+844,34bbe74,SUCCESS,23,SUCCESS,26,SUCCESS,25,2021-05-08 20:03:10 -0700,upgrade to GitHub Actions setup-java v2,38,8306
+845,8851788,SUCCESS,19,SUCCESS,20,SUCCESS,27,2021-05-09 09:34:27 -0400,Merge pull request #839 from sullis/gha-java-v2,38,8306

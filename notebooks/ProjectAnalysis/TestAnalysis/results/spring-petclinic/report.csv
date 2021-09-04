@@ -1,0 +1,740 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,349fdef,FAIL,0,NO,0,NO,0,2013-01-09 01:05:18 -0800,Initial commit,0,0
+1,f09d67c,FAIL,0,NO,0,NO,0,2009-05-05 17:22:49 +0000,petclinic 3 initial commit - wip,12,131
+2,7ff5e85,FAIL,0,NO,0,NO,0,2009-05-05 17:30:38 +0000,app deploys and runs - initial commit,14,149
+3,556824d,FAIL,0,NO,0,NO,0,2009-05-05 22:00:59 +0000,styles,14,149
+4,d5cf151,FAIL,0,NO,0,NO,0,2009-05-05 22:12:23 +0000,will add css later,14,151
+5,e7a6c22,FAIL,0,NO,0,NO,0,2009-05-05 22:14:54 +0000,logging,14,151
+6,d8014ae,FAIL,0,NO,0,NO,0,2009-05-06 16:37:16 +0000,petclinic tiles,14,151
+7,098cfb6,FAIL,0,NO,0,NO,0,2009-05-06 17:50:03 +0000,upgrade to spring 3.0.0.m3,14,151
+8,24ea3e9,FAIL,0,NO,0,NO,0,2009-05-06 17:55:57 +0000,artifact id update,14,151
+9,775e85d,FAIL,0,NO,0,NO,0,2009-05-06 18:02:27 +0000,polish,14,151
+10,cc199a7,FAIL,0,NO,0,NO,0,2009-05-06 18:06:20 +0000,polish,14,151
+11,2742ccb,FAIL,0,NO,0,NO,0,2009-05-06 18:18:31 +0000,moved pets under owners,14,151
+12,9106b83,FAIL,0,NO,0,NO,0,2009-05-06 18:22:37 +0000,polish,14,151
+13,75504b8,FAIL,0,NO,0,NO,0,2009-05-06 19:28:19 +0000,polish,14,151
+14,d4fc5b0,FAIL,0,NO,0,NO,0,2009-05-06 19:28:33 +0000,polish,15,160
+15,0901364,FAIL,0,NO,0,NO,0,2009-05-06 21:43:08 +0000,owner pages,16,198
+16,2781809,FAIL,0,NO,0,NO,0,2009-05-07 20:39:59 +0000,appointments,21,292
+17,9dd07f0,FAIL,0,NO,0,NO,0,2009-11-25 16:53:14 +0000,SPR-6447 + added basic files,21,292
+18,521d01d,FAIL,9,NO,0,NO,0,2009-11-25 18:45:52 +0000,SPR-6447 SPR-6448 + commit the gross of the files + added maven pom,73,1798
+19,c0b90bf,FAIL,3,NO,0,NO,0,2009-11-25 19:27:08 +0000,SPR-6447 + move jdbc scripts from META-INF into /resources,73,1798
+20,d109fdd,FAIL,4,NO,0,NO,0,2009-11-25 19:37:20 +0000,SPR-6447 SPR-6449 + fix the packaging of some libraries to prevent weird class loading problems from occuring,73,1798
+21,50b87ef,FAIL,4,NO,0,NO,0,2009-11-26 16:46:54 +0000,SPR-6447 + moved db files around + moved JPA/AOP META-INF/ files into the webapp classpath,73,1798
+22,8291c80,FAIL,4,NO,0,NO,0,2009-11-26 16:47:32 +0000,SPR-6447 + added on the fly db configuration to all contexts + removed schema numbers to always pick the latest version,73,1798
+23,d077058,FAIL,3,NO,0,NO,0,2009-11-26 16:51:12 +0000,SPR-6447 + moved JPA/AOP META-INF/ files into the webapp classpath,73,1798
+24,c9c939d,FAIL,5,NO,0,NO,0,2009-11-26 16:53:18 +0000,SPR-6447 + add more clarifications,73,1798
+25,19173a0,FAIL,4,NO,0,NO,0,2009-11-26 17:40:44 +0000,SPR-6447 + improve DataSource setup,73,1798
+26,9617efe,FAIL,6,NO,0,NO,0,2009-11-26 18:30:49 +0000,SPR-6447 + improve DataSource setup,73,1798
+27,a36bc3c,FAIL,4,NO,0,NO,0,2009-11-26 19:34:40 +0000,SPR-6447 SPR-6448 + add JSTL libraries to the war for portability,73,1798
+28,5db88f4,FAIL,3,NO,0,NO,0,2009-11-26 20:03:27 +0000,SPR-6447 SPR-6448 + add JSTL libraries to the war for portability,73,1798
+29,a8cc006,FAIL,3,NO,0,NO,0,2009-11-26 20:04:27 +0000,SPR-6447 + extracted datasource definition into a separate file to eliminate redundancy + introduce jdbc: namespace,72,1689
+30,d6b57ac,FAIL,5,NO,0,NO,0,2009-11-26 20:50:10 +0000,SPR-6447 + improve mysql script to prevent data from being added if it's already present,72,1689
+31,6f056b5,FAIL,4,NO,0,NO,0,2009-11-26 20:51:48 +0000,SPR-6447 + removed unused script,72,1689
+32,93a378a,FAIL,4,NO,0,NO,0,2009-11-26 20:56:30 +0000,SPR-6447 + fixed tab/spaces consistency,72,1689
+33,d8b7615,FAIL,3,NO,0,NO,0,2009-11-27 16:48:35 +0000,SPR-6447 + add missing datasource import to hibernate config,72,1689
+34,fe63e9c,FAIL,7,NO,0,NO,0,2009-12-10 20:49:35 +0000,+ add default servlet definition (for containers that do not declare it - such as GlassFish) + increase Spring version to RC3 (it works with trunk just fine),72,1689
+35,6116d12,FAIL,3,NO,0,NO,0,2009-12-10 21:08:19 +0000,SPR-6447 SPR-6449,72,1689
+36,dd521eb,FAIL,4,NO,0,NO,0,2009-12-14 19:06:58 +0000,SAMPLESPET-3 + renamed META-INF/persistence.xml to META-INF/jpa-persistence.xml since JBoss will scan it automatically and complain about non-jta-resources declared.,72,1689
+37,fa6fd10,FAIL,3,NO,0,NO,0,2009-12-14 19:47:46 +0000,SAMPLESPET-3 + move spring application context files under a dedicated folder (to prevent JBoss XML parser from choking) http://forum.springsource.org/showthread.php?t=68949,72,1689
+38,66dff75,FAIL,3,NO,0,NO,0,2009-12-14 22:13:04 +0000,added some extra space to avoid sponsored by SpringSource message being covered by the picture of the pets,72,1689
+39,4b68a74,FAIL,6,NO,0,NO,0,2009-12-16 15:47:24 +0000,update to 3.0.0.RELEASE,72,1689
+40,3dc88e0,FAIL,3,NO,0,NO,0,2009-12-16 16:44:43 +0000,polish,72,1689
+41,737d478,FAIL,4,NO,0,NO,0,2009-12-16 16:54:41 +0000,polish,72,1689
+42,ef838ad,FAIL,3,NO,0,NO,0,2009-12-16 16:59:09 +0000,Switched to embedded db,72,1689
+43,1b48694,FAIL,3,NO,0,NO,0,2009-12-16 17:16:10 +0000,removed test suite class,71,1669
+44,31733db,FAIL,3,NO,0,NO,0,2009-12-16 17:25:22 +0000,fixed test suite failing,71,1673
+45,bd07ffc,FAIL,5,NO,0,NO,0,2009-12-16 20:22:37 +0000,polish,71,1673
+46,c0a9be9,FAIL,4,NO,0,NO,0,2009-12-17 17:12:21 +0000,commons logging exclusion for openjpa,71,1673
+47,905d982,FAIL,3,NO,0,NO,0,2009-12-17 17:34:12 +0000,+ improved war structure,71,1673
+48,57e17d3,FAIL,4,NO,0,NO,0,2009-12-17 18:51:44 +0000,finally got rid of commons logging,71,1673
+49,bcda93f,FAIL,4,NO,0,NO,0,2009-12-19 21:37:18 +0000,Slf4j update,71,1673
+50,d7f75cf,FAIL,4,NO,0,NO,0,2009-12-19 21:49:29 +0000,Fixed pom optional bugs,71,1673
+51,33a5c87,FAIL,3,NO,0,NO,0,2009-12-19 21:55:55 +0000,tweaks,71,1673
+52,58fe477,FAIL,3,NO,0,NO,0,2009-12-19 22:12:52 +0000,correct commons logging exclude,71,1673
+53,9ef38c5,FAIL,3,NO,0,NO,0,2009-12-19 22:14:21 +0000,polish,71,1673
+54,dee6a35,FAIL,3,NO,0,NO,0,2009-12-19 22:16:35 +0000,aspectj is required,71,1673
+55,6d0d36f,FAIL,3,NO,0,NO,0,2009-12-19 22:21:35 +0000,polish,71,1673
+56,6f1ca5d,FAIL,4,NO,0,NO,0,2009-12-19 22:29:37 +0000,format,71,1673
+57,6f6d950,FAIL,5,NO,0,NO,0,2009-12-19 22:36:19 +0000,jdom needed for rome,71,1673
+58,1f59a26,FAIL,4,NO,0,NO,0,2010-01-25 17:11:59 +0000,+ add comment about Tomcat 6,71,1673
+59,84455ff,FAIL,6,NO,0,NO,0,2010-02-03 22:15:30 +0000,+ update commons-pool to 1.5.3 to avoid some memory leaks,71,1673
+60,a7ae7df,FAIL,6,NO,0,NO,0,2010-02-04 17:48:51 +0000,+ upgrade to AJ 1.6.8 + add dedicated section for Tomcat 5.5 and Tomcat 6 LTW setup (so it's clearer),71,1673
+61,ffd7a46,FAIL,4,NO,0,NO,0,2010-02-04 19:07:55 +0000,+ removed optional marker on some dependencies so they get included in the final war,71,1673
+62,4bf4f8e,FAIL,4,NO,0,NO,0,2010-02-04 19:40:47 +0000,+ add aspects jar back to the war,71,1673
+63,973c45b,FAIL,6,NO,0,NO,0,2010-02-18 22:11:04 +0000,date picker,71,1673
+64,0b9d98b,FAIL,3,NO,0,NO,0,2010-07-19 14:20:39 +0000,disable welcome files (for Servlet 3 compatibility),71,1673
+65,7cbfaf1,FAIL,4,NO,0,NO,0,2010-09-02 07:51:24 +0000,Fix Petclinic case-sensitivity problems against MySQL (SPR-7512),71,1673
+66,52d4b20,FAIL,4,NO,0,NO,0,2012-03-19 16:32:05 +0000,Apply patch from SPR-7894,71,1673
+67,b586740,FAIL,4,NO,0,NO,0,2013-01-09 17:12:37 +0800,removing authors,71,1673
+68,5f25d74,FAIL,4,NO,0,NO,0,2013-01-09 17:12:47 +0800,removing authors,71,1673
+69,87ccf9f,FAIL,22,NO,0,NO,0,2013-01-09 17:24:48 +0800,first step of migration to Spring 3.2 (still in process),47,1369
+70,6dd1acd,FAIL,8,NO,0,NO,0,2013-01-09 17:28:20 +0800,adding gitignore file,47,1369
+71,c690c9d,FAIL,7,NO,0,NO,0,2013-01-09 21:23:44 +0800,removed static inclusion of jsp,47,1369
+72,aeeeace,FAIL,7,NO,0,NO,0,2013-01-09 21:37:28 +0800,renaming controllers so they all have 'Controller' suffix,47,1369
+73,58d82e4,FAIL,7,NO,0,NO,0,2013-01-10 16:12:50 +0800,handled all exception messages inside Spring config,47,1371
+74,5139c8d,FAIL,6,NO,0,NO,0,2013-01-14 00:08:37 +0800,added header to all JSPs,47,1371
+75,9a77b56,FAIL,10,NO,0,NO,0,2013-01-14 11:02:08 +0800,cleaned up CSS and migrated to Bootstrap,47,1371
+76,099847c,FAIL,6,NO,0,NO,0,2013-01-14 11:32:32 +0800,Spring MVC config and layout in 'vets' section,47,1371
+77,9f8acc0,FAIL,7,NO,0,NO,0,2013-01-14 16:12:05 +0800,migration to JPA annotations,43,1369
+78,4e35adb,FAIL,8,NO,0,NO,0,2013-01-14 16:55:09 +0800,migrated to hsql 2.2.8 and fixed a couple of JPA issues,43,1369
+79,608c42f,FAIL,7,NO,0,NO,0,2013-01-14 22:13:04 +0800,migrated from SimpleJdbcTemplate to JdbcTemplate,43,1287
+80,b459ca3,FAIL,8,NO,0,NO,0,2013-01-14 23:23:07 +0800,added aspectj decaration. All JUnit tests are now successful,43,1287
+81,0c2665f,FAIL,7,NO,0,NO,0,2013-01-14 23:36:06 +0800,added bean profiles for jdbc/jpa,43,1282
+82,5c25ef9,FAIL,7,NO,0,NO,0,2013-01-14 23:40:25 +0800,removed former Hibernate xml configuration,43,1282
+83,09c92b3,FAIL,7,NO,0,NO,0,2013-01-14 23:43:13 +0800,general cleanup,43,1282
+84,bfa4f85,FAIL,7,NO,0,NO,0,2013-01-14 23:44:06 +0800,removed source folder (not used anymore),43,1282
+85,05c1110,FAIL,5,NO,0,NO,0,2013-01-15 09:29:01 +0800,fixed content negotiation configuration,43,1282
+86,6f7b422,FAIL,6,NO,0,NO,0,2013-01-15 09:42:45 +0800,added .html extension for all JSP/html content,43,1282
+87,ffa0a6a,FAIL,7,NO,0,NO,0,2013-01-15 10:38:24 +0800,improved alignment in forms,43,1282
+88,df5c5ca,FAIL,8,NO,0,NO,0,2013-01-15 10:57:36 +0800,gave more explicit names to JSPs,43,1282
+89,5432a19,FAIL,20,NO,0,NO,0,2013-01-15 17:31:01 +0800,started adding support for Spring Data,44,1305
+90,0fe4793,FAIL,8,NO,0,NO,0,2013-01-16 10:30:20 +0800,improvements to Owner Controller,42,1252
+91,e9b6aff,FAIL,8,NO,0,NO,0,2013-01-16 10:57:50 +0800,Merged Pet Controllers into a single one,41,1220
+92,ece1a7a,FAIL,8,NO,0,NO,0,2013-01-16 11:02:37 +0800,fixing a RequestMapping issue,41,1220
+93,3d22e37,FAIL,10,NO,0,NO,0,2013-01-16 11:07:39 +0800,improvements to Visit controller,40,1212
+94,16b1476,FAIL,9,NO,0,NO,0,2013-01-16 12:46:23 +0800,Simplified exception page handling,40,1219
+95,c9c8c4e,FAIL,9,NO,0,NO,0,2013-01-17 15:27:27 +0800,moved the ClinicRepository into some separate repos,60,1575
+96,97aba3f,FAIL,8,NO,0,NO,0,2013-01-18 16:56:01 +0800,added a Spring Data implementation,66,1518
+97,f06cf8c,FAIL,8,NO,0,NO,0,2013-01-18 17:17:40 +0800,Improvements to layout,66,1518
+98,c4b5a98,FAIL,8,NO,0,NO,0,2013-01-18 18:32:23 +0800,"navbar, reorganized JSP folders",66,1518
+99,d88b565,FAIL,9,NO,0,NO,0,2013-01-19 02:53:27 +0800,migrated all dates to joda time,66,1523
+100,95cb32d,FAIL,9,NO,0,NO,0,2013-01-19 03:02:12 +0800,used tag c:out for EL to prevent HTML injection,66,1523
+101,feca50d,FAIL,9,NO,0,NO,0,2013-01-22 09:29:49 +0100,added jQueryUI,66,1523
+102,0c24083,FAIL,9,NO,0,NO,0,2013-01-28 17:01:30 +0400,removed appserver-specific files,66,1523
+103,4cd6979,FAIL,9,NO,0,NO,0,2013-01-28 17:50:47 +0400,removed unneeded declarations inside web.xml,66,1523
+104,87e08f7,FAIL,8,NO,0,NO,0,2013-01-29 13:08:48 +0800,misc updates to tutorial page,66,1523
+105,3482d54,FAIL,8,NO,0,NO,0,2013-01-29 17:47:45 +0800,renamed profiles and removed unnecessary@DirtiesContext annotation so the Test suite now runs in 40% less time,66,1503
+106,e93f0f6,FAIL,8,NO,0,NO,0,2013-01-30 09:04:48 +0800,removing xml OR mapping so we only use annotations,66,1503
+107,8b6cfab,FAIL,8,NO,0,NO,0,2013-01-30 09:05:17 +0800,removing datasource declaration so we only rely on an internal database connection pool,66,1503
+108,56c7671,FAIL,10,NO,0,NO,0,2013-01-30 11:19:48 +0800,webapp now using JPA by default,66,1503
+109,f44e383,FAIL,8,NO,0,NO,0,2013-01-30 11:20:22 +0800,fixed lazy loading issues,66,1507
+110,74eb3e7,FAIL,9,NO,0,NO,0,2013-01-31 21:57:19 +0800,removing JdbcTemplate so we use NamedParameterJdbcTemplate solely when possible,66,1514
+111,e97c9a4,FAIL,9,NO,0,NO,0,2013-02-01 09:28:58 +0800,removed Autowiring at the field level,66,1521
+112,2ebf756,FAIL,10,NO,0,NO,0,2013-02-01 09:29:20 +0800,packagesToScan doesn't need a list of values,66,1521
+113,be84882,FAIL,10,NO,0,NO,0,2013-02-01 09:35:49 +0800,removed Eclipse/IntelliJ files,66,1521
+114,2df7267,FAIL,8,NO,0,NO,0,2013-02-01 09:40:23 +0800,updated a broken link and renamed script files for mysql,66,1521
+115,ae9085d,FAIL,9,NO,0,NO,0,2013-02-05 09:49:33 +0800,added CrashController to showcase behaviour when exception occurs,67,1531
+116,60cfb7f,FAIL,8,NO,0,NO,0,2013-02-05 09:50:01 +0800,fixed JDBC bug,67,1531
+117,ab5a3e2,FAIL,8,NO,0,NO,0,2013-02-05 09:58:42 +0800,improve look and feel of the menu bar,67,1531
+118,6eae697,FAIL,7,NO,0,NO,0,2013-02-05 12:21:51 +0800,improved pet creation form,67,1530
+119,57c9043,FAIL,8,NO,0,NO,0,2013-02-06 17:33:11 +0800,fixed issues in the Pet creation form,66,1528
+120,07e535a,FAIL,8,NO,0,NO,0,2013-02-06 17:41:38 +0800,fixed issue in the 'createVisit' form,66,1530
+121,8f531f3,FAIL,9,NO,0,NO,0,2013-02-06 21:31:07 +0800,added custom tag,66,1529
+122,5b8ef8e,FAIL,8,NO,0,NO,0,2013-02-07 09:25:30 +0800,replacing one Spring Data Repo with native JPA,66,1544
+123,97e1890,FAIL,8,NO,0,NO,0,2013-02-07 10:01:53 +0800,web config enhancements,66,1544
+124,47ddd6f,FAIL,9,NO,0,NO,0,2013-02-07 10:08:53 +0800,Fixed issue with Atom export,66,1544
+125,0e60b03,FAIL,7,NO,0,NO,0,2013-02-07 10:31:18 +0800,fixed naming issue in vet list,66,1546
+126,5699bf8,FAIL,8,NO,0,NO,0,2013-02-08 12:46:00 +0800,cleaned up AOP usage,64,1500
+127,572ef6e,FAIL,8,NO,0,NO,0,2013-02-08 14:26:00 +0800,moved pointcut to @Repository instead of @Service,64,1500
+128,3e66379,FAIL,7,NO,0,NO,0,2013-02-10 18:16:18 -0500,Polish,64,1500
+129,4d6496e,FAIL,10,NO,0,NO,0,2013-02-11 07:43:37 -0800,Merge pull request #1 from rstoyanchev/polish,64,1500
+130,a994785,FAIL,9,NO,0,NO,0,2013-02-12 08:22:39 +0800,made sure the ClinicService facade is used by all Controllers,64,1510
+131,ed3df00,FAIL,9,NO,0,NO,0,2013-02-12 08:29:13 +0800,Pets were getting old,64,1510
+132,cd88b8c,FAIL,8,NO,0,NO,0,2013-02-12 09:12:51 +0800,Javadoc and xml documentation improvements,64,1508
+133,539f763,FAIL,9,NO,0,NO,0,2013-02-12 22:51:51 +0800,adding licence information to all files in the web layer,64,1508
+134,e924e87,FAIL,8,NO,0,NO,0,2013-02-13 07:55:12 +0800,moved Validator to the web package,63,1506
+135,0a5ea0b,FAIL,8,NO,0,NO,0,2013-02-13 07:57:51 +0800,moved aspect to util package,63,1506
+136,23314c5,FAIL,8,NO,0,NO,0,2013-02-13 08:06:37 +0800,moved all model classes to a dedicated 'model' package,63,1515
+137,4e91b44,FAIL,10,NO,0,NO,0,2013-02-13 09:29:18 +0800,removed TopLink-specific and Hibernate-specific properties,63,1515
+138,c5ca72e,FAIL,8,NO,0,NO,0,2013-02-13 09:37:42 +0800,made sure @Transactional is not set on the Repository layer,63,1507
+139,4ccf1ea,FAIL,9,NO,0,NO,0,2013-02-13 11:22:41 +0800,did some clean up for ViewResolvers configuration,63,1507
+140,0c09ec3,FAIL,23,NO,0,NO,0,2013-02-14 11:12:36 +0800,added @Cacheable support with ehcache,63,1499
+141,ebe7551,FAIL,4,NO,0,NO,0,2013-02-14 11:18:30 +0800,added exception stacktrace into an html comment,63,1499
+142,254d05a,FAIL,5,NO,0,NO,0,2013-02-14 11:45:14 +0800,minor issue in javadoc comment,63,1499
+143,7a5af7a,FAIL,6,NO,0,NO,0,2013-02-14 11:56:45 +0800,improved Javadoc comments and added licence info,63,1499
+144,d9cce68,FAIL,4,NO,0,NO,0,2013-02-14 22:34:35 +0800,javadoc cleanup for repository interfaces,63,1499
+145,a81b333,FAIL,5,NO,0,NO,0,2013-02-14 22:48:07 +0800,added Javadoc comments for Spring Data JPA,63,1499
+146,790ebb5,FAIL,6,NO,0,NO,0,2013-02-14 22:53:50 +0800,improved javadoc for jpa implementation,63,1495
+147,54a0186,FAIL,5,NO,0,NO,0,2013-02-14 23:00:10 +0800,added Javadoc and licence info for jdbc implementation,63,1493
+148,b2626bd,FAIL,5,NO,0,NO,0,2013-02-15 09:53:47 +0800,reviewed Javadoc for abstract test classes,63,1485
+149,6a8edd9,FAIL,4,NO,0,NO,0,2013-02-15 09:54:15 +0800,removed unused AOP config,63,1485
+150,ddbe4b5,FAIL,5,NO,0,NO,0,2013-02-15 09:58:19 +0800,renamed test packages so they are aligned with main packages,63,1485
+151,e36bff7,FAIL,4,NO,0,NO,0,2013-02-15 10:01:26 +0800,removed unusued jpa configuration file (because Spring configuration doesn't rely on it),63,1485
+152,057015c,FAIL,7,NO,0,NO,0,2013-02-15 15:31:04 +0800,Spring MVC Test Framework and migration to Spring 3.2.1,63,1516
+153,d92d531,FAIL,5,NO,0,NO,0,2013-02-16 03:27:43 +0100,"test doesn't run for now, disabling it until bug is solved",63,1515
+154,cec8110,FAIL,6,NO,0,NO,0,2013-02-19 16:36:23 +0800,moved Spring config files and changed AtomView example so it is based on Vets instead of Visits,64,1514
+155,2c8f035,FAIL,16,NO,0,NO,0,2013-02-19 10:00:14 -0500,Updated Project configuration for best practices,64,1514
+156,cf9a540,FAIL,8,NO,0,NO,0,2013-02-19 10:20:11 -0500,more comments,64,1514
+157,4626001,FAIL,8,NO,0,NO,0,2013-02-19 10:44:33 -0500,"switched to modern logback for logging, see logback.xml and logback-test.xml for configuration",64,1514
+158,14f8822,FAIL,5,NO,0,NO,0,2013-02-19 10:56:21 -0500,file formatting and missing @Override on Java classes,64,1501
+159,2ab9422,FAIL,6,NO,0,NO,0,2013-02-19 11:10:37 -0500,updated runtime & provided dependencies,64,1501
+160,ed116de,FAIL,6,NO,0,NO,0,2013-02-19 16:59:04 -0800,Merge pull request #2 from gordonad/master,64,1501
+161,9ba5811,FAIL,6,NO,0,NO,0,2013-02-20 09:40:48 +0800,Integrating Gordon's work,64,1501
+162,9cd3c9e,FAIL,6,NO,0,NO,0,2013-02-21 09:44:38 +0800,embedded server: moved from Jetty to Tomcat,64,1501
+163,447adf8,FAIL,5,NO,0,NO,0,2013-02-21 10:10:41 +0800,described install process in readme file,64,1501
+164,222f1d1,FAIL,6,NO,0,NO,0,2013-02-21 10:11:51 +0800,minor edits to readme file,64,1501
+165,70c046a,FAIL,6,NO,0,NO,0,2013-02-21 14:27:13 +0800,Fixed test using Spring MVC Test framework,63,1449
+166,fde14be,FAIL,7,NO,0,NO,0,2013-02-21 14:46:43 +0800,improved layout,63,1449
+167,9ee5e6f,FAIL,5,NO,0,NO,0,2013-02-21 14:50:00 +0800,visit dates were not consistent,63,1449
+168,223ca19,FAIL,7,NO,0,NO,0,2013-02-22 10:18:10 +0800,adding a text file in case some people are confused about not finding Spring config files inside WEB-INF,63,1449
+169,e44552e,FAIL,12,NO,0,NO,0,2013-02-24 20:36:09 +0100,Added Dandelion-Datatables,63,1449
+170,65065a8,FAIL,8,NO,0,NO,0,2013-02-24 21:36:36 +0100,Added compatibility with Servlet2.x containers,63,1449
+171,b3b5361,FAIL,6,NO,0,NO,0,2013-02-25 22:33:08 +0100,Transactions should be on the root application context (or Hibernate will not be able to persist entities),63,1449
+172,d28f4e5,FAIL,7,NO,0,NO,0,2013-02-25 22:40:24 +0100,Adding a DISTINCT clause so we only have users once,63,1449
+173,18aa56c,FAIL,6,NO,0,NO,0,2013-02-25 14:48:06 -0800,Merge pull request #4 from jdubois/master,63,1449
+174,82d6f5e,FAIL,5,NO,0,NO,0,2013-02-26 08:39:00 +0800,Merge branch 'master' of https://github.com/SpringSource/spring-petclinic,63,1449
+175,3d9a37f,FAIL,6,NO,0,NO,0,2013-02-25 18:42:58 -0800,Merge pull request #3 from tduchateau/master,63,1449
+176,be403a3,FAIL,5,NO,0,NO,0,2013-02-26 17:20:55 +0800,migrate all JUnit Integration tests from the repo layer to the service layer (step 1),63,1444
+177,d7f5cd1,FAIL,6,NO,0,NO,0,2013-02-26 17:25:31 +0800,renaming dao-config.xml -> business-config.xml,63,1444
+178,ebfa300,FAIL,6,NO,0,NO,0,2013-02-26 17:27:29 +0800,fixed issue with jqueryui path,63,1444
+179,faca0eb,FAIL,6,NO,0,NO,0,2013-02-26 17:38:06 +0800,moved to tests to service level package,50,1309
+180,95e8b64,FAIL,5,NO,0,NO,0,2013-02-26 17:39:26 +0800,merged pull request to integrate dandelion,50,1309
+181,bf41a4b,FAIL,5,NO,0,NO,0,2013-02-26 17:41:47 +0800,integrate dandelion config for Servlet 2 compatibility,50,1309
+182,46fa288,FAIL,5,NO,0,NO,0,2013-03-01 06:40:05 +0800,fixing Spring config file naming issue in web.xml,50,1309
+183,dd0eb5a,FAIL,5,NO,0,NO,0,2013-03-04 12:15:20 +0800,improved/updated Javadoc in JUnit tests,50,1309
+184,51d4fd8,FAIL,13,NO,0,NO,0,2013-03-05 22:25:05 +0100,Updated Dandelion version,50,1309
+185,9591555,FAIL,5,NO,0,NO,0,2013-03-05 14:55:33 -0800,Merge pull request #7 from tduchateau/master,50,1309
+186,842f9ac,FAIL,6,NO,0,NO,0,2013-03-11 09:22:01 +0800,added comments about OSIV,50,1309
+187,e0ba8bf,FAIL,6,NO,0,NO,0,2013-03-11 09:22:58 +0800,organized imports,50,1362
+188,3fe122d,FAIL,7,NO,0,NO,0,2013-03-11 11:04:51 +0800,moved caching to the Service layer,50,1363
+189,96cd34d,FAIL,7,NO,0,NO,0,2013-03-11 11:07:39 +0800,renamed jdbc.properties -> data-access.properties,50,1363
+190,c4dbb1f,FAIL,7,NO,0,NO,0,2013-03-11 11:24:18 +0800,added comment,50,1363
+191,024811d,FAIL,6,NO,0,NO,0,2013-03-14 18:04:36 +0800,simplifying access to Integer,50,1363
+192,06a48e4,SUCCESS,12,SUCCESS,10,SUCCESS,17,2013-03-14 18:04:55 +0800,migrate to Spring 3.2.2,50,1363
+193,85e5f63,SUCCESS,11,SUCCESS,9,SUCCESS,17,2013-03-15 10:03:04 +0800,simplified the POM,50,1363
+194,2671d7c,SUCCESS,7,SUCCESS,8,SUCCESS,15,2013-03-15 10:09:33 +0800,removed unused dependency JBoss logging,50,1363
+195,c5bb1e3,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-03-15 10:11:29 +0800,removed unused dependency javassist,50,1363
+196,c49b0ae,SUCCESS,7,SUCCESS,8,SUCCESS,15,2013-03-15 10:13:57 +0800,removed unused dependency commons-lang3,50,1363
+197,28b3b29,SUCCESS,7,SUCCESS,9,SUCCESS,17,2013-03-15 10:15:50 +0800,removing unused dependency commons-pool,50,1363
+198,d08173d,SUCCESS,7,SUCCESS,9,SUCCESS,16,2013-03-15 10:18:24 +0800,removed unused dependency jDom,50,1363
+199,7c2e6de,SUCCESS,8,SUCCESS,8,SUCCESS,16,2013-03-15 10:24:07 +0800,removed direct dependency to spring-bean because it's already there as a transitive dependency,50,1363
+200,c0d183c,SUCCESS,9,SUCCESS,7,SUCCESS,16,2013-03-15 10:34:09 +0800,removed lots of unused dependencies,50,1362
+201,3b922a1,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-03-15 10:54:51 +0800,added jsp-api dependency back,50,1362
+202,8e59a81,SUCCESS,8,SUCCESS,8,SUCCESS,18,2013-03-15 16:11:38 +0800,Integer Instantiation,50,1362
+203,d58d617,SUCCESS,12,SUCCESS,8,SUCCESS,19,2013-03-15 16:22:15 +0800,upgraded to dandelion 0.8.7,50,1362
+204,fa1e1a8,SUCCESS,7,SUCCESS,7,SUCCESS,17,2013-03-15 16:36:26 +0800,isEnabled -> enabled,50,1362
+205,e2d80d3,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-03-15 22:14:33 +0800,removing duplicate,50,1362
+206,f160322,SUCCESS,8,SUCCESS,7,SUCCESS,17,2013-03-18 14:14:24 +0800,Added comment because https://jira.springsource.org/browse/DATAJPA-292 has been resolved,50,1362
+207,bb32cd8,SUCCESS,7,SUCCESS,8,SUCCESS,15,2013-03-18 21:37:01 +0800,adding HTML 5 doctype header,50,1362
+208,6086dec,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-03-20 15:33:29 +0800,updated copyright information,50,1362
+209,df0d048,SUCCESS,8,SUCCESS,7,SUCCESS,19,2013-03-20 16:13:31 +0800,various updates to the documentation file,50,1362
+210,0cb2b68,SUCCESS,12,SUCCESS,8,SUCCESS,18,2013-03-20 17:57:07 +0800,clarified links for dandelion-datatables and migrated to dandelion 0.8.8,50,1362
+211,ed226f7,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-03-25 22:39:14 +1100,fixing typo,50,1362
+212,1a42038,SUCCESS,13,SUCCESS,6,SUCCESS,18,2013-03-27 12:31:34 +1100,migrated to Dandelion 0.8.9,50,1362
+213,357ee0b,SUCCESS,11,SUCCESS,8,SUCCESS,16,2013-04-04 15:11:07 +0800,did some cleaning on logging dependencies,50,1362
+214,628e142,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-04-05 10:01:47 +0800,fixing URL pattern issue,50,1362
+215,14d1b4d,SUCCESS,8,SUCCESS,10,SUCCESS,16,2013-04-15 17:17:45 +0800,simplifying logging dependencies,50,1362
+216,16e3e4b,SUCCESS,10,SUCCESS,10,SUCCESS,17,2013-04-18 10:09:28 +0800,version updates and simplification on some dependencies,50,1362
+217,993257f,SUCCESS,8,SUCCESS,8,SUCCESS,15,2013-04-18 10:10:16 +0800,We're now able to use Spring Data there,50,1350
+218,bd0ffc1,SUCCESS,13,SUCCESS,8,SUCCESS,17,2013-04-22 11:45:02 +0800,migrated to latest version of dandelion and jadira-usertype,50,1350
+219,9410901,SUCCESS,11,SUCCESS,9,SUCCESS,17,2013-04-22 12:48:12 +0800,upgrading version of HIbernate Validator,50,1350
+220,1741e85,SUCCESS,11,SUCCESS,9,SUCCESS,20,2013-04-25 09:00:20 +0800,migrated to Hibernate-Validator 5.0.0.Final and solved EL issue,50,1350
+221,74045b9,SUCCESS,9,SUCCESS,8,SUCCESS,17,2013-04-26 15:50:04 +0800,added link to Spring Data GemFire branch,50,1350
+222,753e8ea,SUCCESS,11,SUCCESS,10,SUCCESS,16,2013-05-01 07:43:16 +0800,"upgraded to latest versions of Logback, jaxb and Joda Time taglibs",50,1350
+223,a485521,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-05-02 11:32:03 +0800,changed file path. Thanks to @cmourouvin for letting me know.,50,1350
+224,2b98dcd,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-05-02 12:28:43 +0800,migrated to Hibernate Validator 5.0.1 (see https://hibernate.atlassian.net/browse/HV-790),50,1350
+225,9489b92,SUCCESS,8,SUCCESS,7,SUCCESS,16,2013-05-02 18:03:32 +0800,currently reverting to hibernate validator 4.3.1.Final as there seems to be some issues with EL lib,50,1350
+226,193e758,SUCCESS,7,SUCCESS,6,SUCCESS,17,2013-05-02 18:33:24 +0800,added encoding configuration so people can enter Chinese characters inside all the forms.,50,1350
+227,c88e3d4,SUCCESS,7,SUCCESS,9,SUCCESS,17,2013-05-03 10:36:54 +0800,added a JUnit test for Bean Validation,51,1375
+228,297e98f,SUCCESS,14,SUCCESS,8,SUCCESS,17,2013-05-06 09:39:41 +0800,"version upgrades on Hibernate, Dandelion, jadira-usertype",51,1375
+229,8890b3b,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-05-06 10:57:17 +0800,added a table in the ref doc,51,1375
+230,a9b0b47,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-05-06 11:00:13 +0800,ref doc,51,1375
+231,80159fa,SUCCESS,9,SUCCESS,10,SUCCESS,18,2013-05-07 10:54:35 +0800,"fixed bug in JPA implementation: ""save"" methods were implemented using ""merge"" instead of ""persist""",51,1380
+232,e308871,SUCCESS,7,SUCCESS,7,SUCCESS,18,2013-05-07 10:58:21 +0800,added a link to issue tracker,51,1380
+233,5bf31db,SUCCESS,8,SUCCESS,9,SUCCESS,17,2013-05-09 01:09:21 +0800,fixed JPA issue when updating existing owners/pets,51,1389
+234,840c0a4,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-05-09 01:26:48 +0800,fixing JPA query for Vets,51,1389
+235,4620119,SUCCESS,14,SUCCESS,8,SUCCESS,18,2013-05-19 22:46:14 +0800,"upgraded version numbers for ehcache, logback, jadira-usertype, dandelion",51,1389
+236,6a1b4dd,SUCCESS,12,SUCCESS,10,SUCCESS,16,2013-05-24 10:31:42 +0800,updated version of spring data and removed unused dependencies,51,1389
+237,bd9446e,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-05-24 18:02:50 +0800,removed unneeded dependencies,51,1389
+238,2b0d07b,SUCCESS,8,SUCCESS,8,SUCCESS,16,2013-05-25 06:20:44 +0800,moved from Model to Map so we do not use a Spring-specific class,51,1393
+239,bca9c48,SUCCESS,6,SUCCESS,8,SUCCESS,15,2013-05-25 06:24:19 +0800,unused imports,51,1390
+240,f0b00da,SUCCESS,7,SUCCESS,8,SUCCESS,16,2013-05-27 14:28:24 -0400,Select Tag to validate pet type,51,1392
+241,b8b8e5a,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-05-28 18:28:26 -0700,Merge pull request #17 from TejasM/master,51,1392
+242,d1cc655,SUCCESS,10,SUCCESS,11,SUCCESS,17,2013-06-05 08:59:59 +0800,migrated from commons-dbcp to tomcat-jdbc,51,1392
+243,eb8ba79,SUCCESS,7,SUCCESS,9,SUCCESS,19,2013-06-05 09:04:41 +0800,moved cache config files to dedicated folder,51,1392
+244,4f8063e,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-06-08 21:15:34 +0800,#18 fixing 2 errors related to ValidatorTests,51,1392
+245,7b8a9ec,SUCCESS,8,SUCCESS,9,SUCCESS,21,2013-06-08 21:17:35 +0800,#18 fixing error related to VisitsViewTests,51,1392
+246,754e27c,SUCCESS,8,SUCCESS,9,SUCCESS,19,2013-06-12 11:34:05 +0800,removing unneeded attribute name,51,1392
+247,a2a12c4,SUCCESS,8,SUCCESS,9,SUCCESS,20,2013-06-14 09:39:46 +0800,#18 Simplified Validator test so it doesn't have to use Spring config anymore,51,1394
+248,f0f8997,SUCCESS,8,SUCCESS,8,SUCCESS,19,2013-06-14 07:18:33 +0300,Add intellj project files to .gitignore,51,1392
+249,adb702f,SUCCESS,6,SUCCESS,8,SUCCESS,18,2013-06-13 21:40:45 -0700,Merge pull request #19 from CloudBees-community/gitignore-for-intellij,51,1394
+250,d279d45,SUCCESS,12,SUCCESS,10,SUCCESS,19,2013-06-28 10:10:12 +0800,version upgrade,51,1394
+251,c13f141,SUCCESS,7,SUCCESS,7,SUCCESS,19,2013-06-28 12:00:29 +0800,"introducing a ""default"" profile so default configuration is simpler",51,1392
+252,8c5bbed,SUCCESS,8,SUCCESS,9,SUCCESS,19,2013-06-28 11:32:04 +0200,Allow to override data-access.properties with System Properties,51,1392
+253,3904bee,SUCCESS,7,SUCCESS,8,SUCCESS,20,2013-06-30 20:15:59 -0700,Merge pull request #22 from cyrille-leclerc/system-property-placeholders,51,1392
+254,2eaf498,SUCCESS,8,SUCCESS,8,SUCCESS,18,2013-07-01 12:13:29 +0200,"Introduce a ""jee"" Spring profile to retrieve the datasource with a JNDI lookup.",51,1392
+255,6942397,SUCCESS,8,SUCCESS,7,SUCCESS,18,2013-07-11 10:12:34 +0800,removing reference to Cloudfoundry instance until petclinic is migrated to CloudFoundry v2,51,1392
+256,e50583f,FAIL,7,NO,0,NO,0,2013-07-12 10:22:38 +0200,Update BaseEntity.java,51,1392
+257,7b16cb8,SUCCESS,8,SUCCESS,7,SUCCESS,20,2013-07-17 01:33:34 -0700,Merge pull request #23 from cyrille-leclerc/master,51,1392
+258,6412e48,FAIL,7,NO,0,NO,0,2013-07-20 14:04:13 -0700,Merge pull request #25 from boly38/patch-1,51,1392
+259,4c01d60,SUCCESS,9,SUCCESS,7,SUCCESS,20,2013-07-25 16:35:37 +0200,removing Serializable because it creates a lot of warnings,51,1393
+260,6902cb8,SUCCESS,10,SUCCESS,10,SUCCESS,19,2013-08-01 09:50:56 +0200,"migrated to latest version of Spring Data, tomcat-jdbc and hsqldb",51,1393
+261,657b868,SUCCESS,11,SUCCESS,10,SUCCESS,20,2013-08-09 08:05:16 +0200,migrated to Spring 3.2.4,51,1393
+262,706b139,SUCCESS,7,SUCCESS,8,SUCCESS,17,2013-08-10 19:39:59 +0200,"pom:xml: use <dependencyManagement> to force versions of spring-core, spring-context and spring-beans to 3.2.x. instead of exclusions on spring-data-jpa dependency because Maven sometimes pulls both versions 3.2.x and 3.1.x versions of coring-core, spring-beans and spring-context.",51,1393
+263,e15e45b,SUCCESS,8,SUCCESS,8,SUCCESS,19,2013-08-10 19:49:01 +0200,"Spring MVC should server static resources (*.html, ...) located in src/main/webapp instead of returning ""404 Not Found""",51,1393
+264,1aa9360,SUCCESS,7,SUCCESS,8,SUCCESS,18,2013-08-25 08:13:40 +0800,fixed a broken link,51,1393
+265,9a75b8c,SUCCESS,7,SUCCESS,7,SUCCESS,19,2013-08-25 08:17:02 +0800,fixed broken links in readme,51,1393
+266,46a0b72,SUCCESS,9,SUCCESS,8,SUCCESS,17,2013-08-25 08:26:33 +0800,fixed one more broken link,51,1393
+267,91b61f4,SUCCESS,9,SUCCESS,8,SUCCESS,21,2013-08-25 17:05:24 +0800,migrated to joda-time 2.3,51,1393
+268,5797f0b,SUCCESS,8,SUCCESS,8,SUCCESS,20,2013-08-25 02:54:59 -0700,Merge pull request #29 from cyrille-leclerc/fix-spring-version,51,1393
+269,0cac939,SUCCESS,8,SUCCESS,7,SUCCESS,20,2013-08-25 02:55:40 -0700,Merge pull request #30 from cyrille-leclerc/server-static-resources,51,1393
+270,729275b,SUCCESS,10,SUCCESS,8,SUCCESS,20,2013-09-25 08:47:06 +0800,migrating to Spring  Data 1.4.1,51,1393
+271,f653895,SUCCESS,12,SUCCESS,8,SUCCESS,17,2013-09-25 08:50:22 +0800,migrating to Dandelion 0.9.1,51,1393
+272,b7764e3,SUCCESS,7,SUCCESS,7,SUCCESS,18,2013-09-27 09:33:09 +0800,Added comments to explain how database dialect is configured #33,51,1393
+273,31df5eb,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-09-27 11:19:25 +0800,Petclinic is now deployed to Cloudfoundry v2. Adding a link to it: http://gopetclinic.cfapps.io/,51,1393
+274,8b7714c,SUCCESS,8,SUCCESS,8,SUCCESS,20,2013-09-27 11:25:39 +0800,fixed typo,51,1393
+275,b32cb10,SUCCESS,9,SUCCESS,8,SUCCESS,20,2013-09-27 11:30:29 +0800,adding more info about Eclipse validation issue,51,1393
+276,8d78f3a,SUCCESS,8,SUCCESS,9,SUCCESS,18,2013-09-27 11:31:36 +0800,typo,51,1393
+277,18c3dac,SUCCESS,10,SUCCESS,9,SUCCESS,19,2013-11-06 08:29:27 +0800,updated to latest version of AspectJ and Dandelion datatables,51,1393
+278,31b6022,SUCCESS,9,SUCCESS,10,SUCCESS,17,2013-11-06 08:33:31 +0800,migrated to latest version of Spring Data and HSQLDB,51,1393
+279,c4b9b0b,SUCCESS,9,SUCCESS,7,SUCCESS,19,2013-11-06 08:58:15 +0800,migrated to the latest version of jquery and jquery-ui,51,1393
+280,34d8ca4,SUCCESS,7,SUCCESS,8,SUCCESS,19,2013-11-06 09:18:33 +0800,chaining validation so we can see multiple error messages when there are multiple validation errors,51,1395
+281,c193916,SUCCESS,10,SUCCESS,7,SUCCESS,20,2013-11-24 06:46:02 +0530,started changes to migrate to Bootstrap 3 (work in progress),51,1395
+282,74abfb1,SUCCESS,10,SUCCESS,10,SUCCESS,18,2013-11-24 17:16:55 +0530,migrated to Spring 3.2.5,51,1395
+283,3e8829f,SUCCESS,8,SUCCESS,8,SUCCESS,18,2013-12-13 08:15:10 +0800,adding explicit reference to default profile because it doesn't seem to work on on some environments,51,1395
+284,8a67145,SUCCESS,11,SUCCESS,8,SUCCESS,19,2013-12-13 08:15:24 +0800,migrated to dandelion 0.9.3,51,1395
+285,377bc63,SUCCESS,13,SUCCESS,9,SUCCESS,21,2013-12-13 10:31:31 +0800,migrated pom to Spring 4 and Servlet 3,51,1395
+286,8e268b7,SUCCESS,7,SUCCESS,8,SUCCESS,22,2013-12-16 20:26:20 +0900,Merge branch 'migration-to-Spring-4.0.0',51,1395
+287,ea81fe0,SUCCESS,9,SUCCESS,8,SUCCESS,20,2013-12-16 20:43:21 +0900,Spring Data JPA: migrated to 1.4.3.RELEASE,51,1395
+288,5cfd482,SUCCESS,8,SUCCESS,8,SUCCESS,23,2013-12-16 20:58:15 +0900,"removed default profile and replaced with ""jpa""",51,1397
+289,08d84ed,SUCCESS,9,SUCCESS,8,SUCCESS,22,2013-12-16 21:00:51 +0900,added comment for welcome file,51,1397
+290,053c84e,SUCCESS,13,SUCCESS,10,SUCCESS,20,2014-02-03 09:31:44 +0800,migrated to Spring 4.0.1,51,1397
+291,43216fb,SUCCESS,11,SUCCESS,8,SUCCESS,19,2014-02-03 09:48:51 +0800,migrated to Hibernate 4.3.1,51,1397
+292,50f0bc9,SUCCESS,10,SUCCESS,8,SUCCESS,19,2014-02-03 09:50:56 +0800,migrated to LogBack 1.1.0,51,1397
+293,1e1a149,SUCCESS,9,SUCCESS,6,SUCCESS,19,2014-02-03 09:56:07 +0800,migrated to ehcache 2.6.8,51,1397
+294,53abaf5,SUCCESS,10,SUCCESS,8,SUCCESS,21,2014-02-03 09:59:48 +0800,upgrading jadira-usertype,51,1397
+295,076a124,SUCCESS,8,SUCCESS,7,SUCCESS,21,2014-02-24 14:05:02 +0100,Fixes #37 with other default locale than english,51,1400
+296,35a94ea,SUCCESS,13,SUCCESS,8,SUCCESS,18,2014-03-03 21:24:29 +0800,migrating to Spring 4.0.2,51,1397
+297,a4f18cb,SUCCESS,10,SUCCESS,8,SUCCESS,18,2014-03-03 21:26:12 +0800,migrating to Hibernate 4.3.3.Final,51,1397
+298,c8759c4,SUCCESS,9,SUCCESS,10,SUCCESS,19,2014-03-03 21:32:35 +0800,upgraded version of SLF4J,51,1397
+299,67ae72f,SUCCESS,7,SUCCESS,8,SUCCESS,21,2014-03-23 17:43:58 +0100,Remove public to methods from the ClinicService,51,1397
+300,4a47731,SUCCESS,8,SUCCESS,7,SUCCESS,20,2014-04-11 21:24:26 +0800,Merge pull request #38 from arey/master,51,1400
+301,5e329e1,SUCCESS,8,SUCCESS,8,SUCCESS,21,2014-04-11 21:28:09 +0800,Merge branch 'master' of https://github.com/SpringSource/spring-petclinic,51,1400
+302,7dc6da2,SUCCESS,8,SUCCESS,9,SUCCESS,20,2014-04-12 11:27:32 +0800,Merge pull request #39 from arey/patch-1,51,1400
+303,622291a,SUCCESS,8,SUCCESS,8,SUCCESS,20,2014-04-12 11:27:53 +0800,Merge branch 'master' of https://github.com/SpringSource/spring-petclinic,51,1400
+304,3f0bfbb,SUCCESS,9,SUCCESS,8,SUCCESS,20,2014-04-12 23:28:53 +0800,updates logo,51,1400
+305,8ee6c79,SUCCESS,14,SUCCESS,10,SUCCESS,21,2014-04-12 23:29:02 +0800,updated lib versions,51,1400
+306,ce7e6e8,SUCCESS,8,SUCCESS,8,SUCCESS,19,2014-04-12 23:54:45 +0800,updated URL on cloud foundry,51,1400
+307,1341c12,SUCCESS,7,SUCCESS,7,SUCCESS,20,2014-05-11 18:37:42 +0200,update db_readme.txt to reflect properties rename,51,1400
+308,e99c67a,SUCCESS,12,SUCCESS,7,SUCCESS,20,2014-05-31 11:02:32 +0200,Upgraded Dandelion-Datatables to the latest release (v0.10.0),51,1400
+309,5c4aaa6,SUCCESS,7,SUCCESS,9,SUCCESS,23,2014-06-01 18:28:01 +0800,Merge pull request #43 from tduchateau/master,51,1400
+310,fba9e78,SUCCESS,9,SUCCESS,9,SUCCESS,21,2014-06-01 12:50:08 +0200,Updated README with the Dandelion-Datatables configuration file,51,1400
+311,45fb0c4,SUCCESS,8,SUCCESS,7,SUCCESS,22,2014-06-01 21:05:21 +0800,Merge pull request #44 from tduchateau/master,51,1400
+312,ce50e80,SUCCESS,7,SUCCESS,8,SUCCESS,20,2014-06-02 08:41:51 +0800,Merge pull request #42 from bram-atmire/documentation-fix,51,1400
+313,a04d789,SUCCESS,13,SUCCESS,9,SUCCESS,18,2014-06-05 00:00:29 +0800,versions upgrade.,51,1400
+314,9f6814d,SUCCESS,10,SUCCESS,9,SUCCESS,21,2014-07-02 05:55:16 +0800,updated versions of Spring Data and AspectJ,51,1400
+315,de73bdc,SUCCESS,9,SUCCESS,8,SUCCESS,21,2014-07-07 21:19:40 -0700,Fixed some typos in comments,51,1400
+316,df1596b,SUCCESS,13,SUCCESS,9,SUCCESS,20,2014-08-08 13:55:01 +0800,"using latest versions of hibernate, spring-data, joda...",51,1400
+317,0a03a05,SUCCESS,11,SUCCESS,11,SUCCESS,19,2014-08-26 10:51:01 +0800,moved to AspectJ 1.8.2 and Dandelion 0.10.1,51,1400
+318,74f683a,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-10-18 22:13:01 +0800,Fixed typo,51,1400
+319,f5cf426,SUCCESS,9,SUCCESS,9,SUCCESS,21,2014-10-18 22:28:30 +0800,upgraded to Joda Time 2.5,51,1400
+320,475f5f5,SUCCESS,12,SUCCESS,10,SUCCESS,22,2014-10-18 23:36:15 +0800,migrated to Spring 4.1.1.RELEASE,51,1400
+321,8929d37,SUCCESS,10,SUCCESS,9,SUCCESS,19,2014-10-18 23:39:29 +0800,upgraded to Spring Data 1.7.0,51,1400
+322,92e7ab4,SUCCESS,8,SUCCESS,8,FAIL,20,2014-11-28 12:45:57 +0900,Simplified ContentNegoViewResolver config,51,1400
+323,f0bf692,SUCCESS,8,SUCCESS,8,FAIL,19,2014-11-28 13:19:25 +0900,"Moving ""visit"" object to request scope",51,1397
+324,6e079b2,SUCCESS,8,SUCCESS,8,FAIL,22,2014-11-28 13:25:17 +0900,Error control on description was missing,51,1397
+325,85c8237,SUCCESS,9,SUCCESS,7,FAIL,22,2014-11-28 13:40:46 +0900,added comment on <mvc:default-servlet-handler />,51,1397
+326,49c39b6,SUCCESS,7,SUCCESS,8,FAIL,20,2014-11-28 13:52:09 +0900,renamed headTag.jsp -> staticFiles.jsp,51,1397
+327,d7b100f,SUCCESS,7,SUCCESS,8,FAIL,19,2014-11-28 13:54:31 +0900,Removed 'Help' from menu,51,1397
+328,ecefae2,SUCCESS,9,SUCCESS,10,FAIL,21,2014-12-05 13:40:07 +0800,Upgraded to latest Spring Data and AspectJ,51,1397
+329,7080682,SUCCESS,8,SUCCESS,10,SUCCESS,21,2014-12-05 13:41:55 +0800,workaround because there seems to be a conflict,51,1394
+330,5c9ab6b,SUCCESS,8,SUCCESS,10,SUCCESS,23,2015-01-16 09:08:22 +0800,test methods:used should/shouldNot,50,1377
+331,1c9b401,SUCCESS,9,SUCCESS,9,SUCCESS,20,2015-01-16 09:22:40 +0800,cleaned up if statement in controller,50,1377
+332,3e45127,SUCCESS,8,SUCCESS,7,SUCCESS,21,2015-01-16 09:25:36 +0800,Sonar review: made code more readable,50,1380
+333,35a179f,SUCCESS,12,SUCCESS,9,SUCCESS,19,2015-01-20 21:21:27 +0800,latest versions and imports cleanup,50,1374
+334,1dfc3b7,SUCCESS,9,SUCCESS,10,SUCCESS,19,2015-01-20 22:02:34 +0800,Migrated test assertions to AssertJ,50,1372
+335,d8a2b5c,SUCCESS,9,SUCCESS,7,SUCCESS,20,2015-01-20 22:25:24 +0800,cleanup on tests,50,1362
+336,cc4ae96,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-01-21 18:22:46 +0800,removed deprecated Mapper in Jdbc,50,1361
+337,74d61b3,SUCCESS,12,SUCCESS,10,SUCCESS,19,2015-03-26 17:04:22 +0800,update libraries,50,1361
+338,3f2d3ba,SUCCESS,7,SUCCESS,8,SUCCESS,20,2015-04-01 16:39:51 +0200,fix typo,50,1361
+339,aeec710,SUCCESS,18,SUCCESS,7,SUCCESS,21,2015-04-14 09:27:25 +0800,Adding Maven config for Cobertura,50,1361
+340,38a5b28,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-04-14 09:27:41 +0800,Improving/fixing comments,50,1361
+341,099b848,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-04-23 15:43:48 +0300,Update JDBC file naming in MySQL steup instruction,50,1361
+342,694390d,SUCCESS,8,SUCCESS,10,SUCCESS,20,2015-05-10 06:33:10 +0800,migrated assertion to assertJ,50,1359
+343,b20ba1a,SUCCESS,8,SUCCESS,9,SUCCESS,20,2015-05-10 06:35:43 +0800,Merge branch 'Cobertura',50,1359
+344,f760aaf,SUCCESS,10,SUCCESS,8,FAIL,20,2015-05-10 06:44:17 +0800,removing unneeded dependency-management block,50,1359
+345,9914056,SUCCESS,10,SUCCESS,9,SUCCESS,19,2015-05-10 06:45:39 +0800,removing test that causes lots if issues,49,1325
+346,f958964,SUCCESS,9,SUCCESS,8,SUCCESS,18,2015-05-11 08:39:59 +0800,moving to Java 1.8 by default,49,1325
+347,ecd9ccb,SUCCESS,10,SUCCESS,8,SUCCESS,18,2015-05-11 09:44:33 +0800,fixed POM configuration issue for Spring Data,49,1325
+348,c2c404b,SUCCESS,11,SUCCESS,10,SUCCESS,19,2015-05-12 18:55:24 +0800,JSon support,49,1325
+349,80c1d24,SUCCESS,8,SUCCESS,9,SUCCESS,19,2015-05-12 19:07:35 +0800,Removed RSS/rome and added JSon,49,1335
+350,a595058,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-05-12 19:11:11 +0800,removed unused dependency to spring-jms,49,1335
+351,4c859ed,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-05-12 19:52:00 +0800,minor update on comment,49,1335
+352,91ed548,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-05-12 19:55:15 +0800,removing xdd version number,49,1335
+353,c8e3602,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-05-13 01:07:46 +0900,fixed bug: vets.html did not display properly,49,1335
+354,271225c,SUCCESS,10,SUCCESS,10,SUCCESS,23,2015-05-13 01:07:57 +0900,libs upgrade,49,1335
+355,3945cba,SUCCESS,10,SUCCESS,9,SUCCESS,23,2015-05-20 21:43:19 +0800,Fixing #54,49,1335
+356,c553d39,SUCCESS,10,SUCCESS,8,SUCCESS,21,2015-05-20 23:13:04 +0800,Merge pull request #67 from mklose/patch-1,49,1335
+357,c00d1ab,SUCCESS,9,SUCCESS,8,SUCCESS,21,2015-05-20 23:14:45 +0800,Merge pull request #72 from ka2m/master,49,1335
+358,54b7d87,SUCCESS,8,SUCCESS,9,SUCCESS,23,2015-05-20 23:18:19 +0800,Fixing log back warning per #59,49,1335
+359,83301cb,SUCCESS,8,SUCCESS,9,SUCCESS,25,2015-05-20 23:21:37 +0800,Centering content,49,1335
+360,72dc0c8,SUCCESS,9,SUCCESS,7,SUCCESS,22,2015-05-20 23:28:00 +0800,Merge pull request #48 from 7footmoustache/patch-1,49,1335
+361,19ef3be,SUCCESS,9,SUCCESS,8,SUCCESS,24,2015-05-23 09:31:57 +0800,adding Java Config to links on github homepage,49,1335
+362,546ba6b,SUCCESS,8,SUCCESS,9,SUCCESS,23,2015-05-23 09:34:03 +0800,minor presentation fix,49,1335
+363,e8ba735,SUCCESS,7,SUCCESS,8,SUCCESS,21,2015-05-23 09:41:21 +0800,updates on links,49,1335
+364,ad423f5,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-05-29 08:07:39 +0200,Change javaconfig branch URL to spring-projects,49,1335
+365,b265fc8,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-05-29 15:16:12 +0800,Adding instruction to fix build on Maven 3.2.x,49,1335
+366,cb6bd87,SUCCESS,8,SUCCESS,9,SUCCESS,22,2015-05-29 15:20:10 +0800,Putting encoding filter first per #80,49,1335
+367,ae15df1,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-06-05 12:37:46 +0200,Update readme.md,49,1335
+368,08d55c9,SUCCESS,8,SUCCESS,8,SUCCESS,24,2015-06-06 07:36:31 +0800,Merge pull request #81 from srenkens/patch-1,49,1335
+369,818529b,SUCCESS,12,SUCCESS,9,SUCCESS,23,2015-06-09 08:37:20 +0200,#64 Remove N+1 select by using the OneToManyResultSetExtractor of Spring Data Core JDBC Extensions,51,1353
+370,fb64465,SUCCESS,9,SUCCESS,8,SUCCESS,21,2015-06-09 08:40:49 +0200,Add some javadoc,51,1354
+371,8965499,SUCCESS,8,SUCCESS,8,SUCCESS,22,2015-06-09 15:13:32 +0800,Merge pull request #82 from arey/#64-optim1,51,1354
+372,8d20340,SUCCESS,9,SUCCESS,8,SUCCESS,22,2015-06-09 17:14:53 +0800,removed unused attribute #64,51,1351
+373,5570366,SUCCESS,8,SUCCESS,8,SUCCESS,20,2015-06-17 08:30:26 +0200,Use a simple RowMapper instead of a BeanPropertyRowMapper,51,1351
+374,dc0fb9a,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-06-17 13:10:00 -0500,removing unused method #85,51,1349
+375,735fb11,SUCCESS,9,SUCCESS,7,SUCCESS,21,2015-06-17 18:54:26 +0200,Remove explicit unboxing,51,1349
+376,1b4d425,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-06-18 18:28:31 +0200,Fix typo into javadoc,51,1349
+377,ca3bb07,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-06-18 18:29:49 +0200,Remove unused WebApplicationContext property,51,1347
+378,6f6fa64,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-06-24 08:11:09 +0200,Remove unused VisitRepository from constructor,51,1345
+379,71f2424,SUCCESS,8,SUCCESS,8,SUCCESS,22,2015-06-24 08:12:43 +0200,Remove explicit unboxing,51,1345
+380,98d9bbb,SUCCESS,10,SUCCESS,8,SUCCESS,24,2015-06-24 18:43:45 +0200,Removing reference to the unknown UserResource class,51,1345
+381,5e56bc2,SUCCESS,9,SUCCESS,7,SUCCESS,23,2015-06-24 21:15:29 +0200,Using JSP and JSTL version from the <properties> section,51,1345
+382,a07cf69,SUCCESS,11,SUCCESS,9,SUCCESS,20,2015-06-25 08:33:25 +0200,Fix #88 upgrading to Hibernate Validator 5.1.3,51,1345
+383,80ff54a,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-06-29 08:37:29 +0200,Fix #89 Web layer: use @Valid whenever possible,51,1351
+384,8b62561,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-06-29 08:50:04 +0200,#87 Petclinic should be compatible with Java 7 for the time being,51,1351
+385,7fe5184,SUCCESS,8,SUCCESS,9,SUCCESS,23,2015-06-29 09:01:08 +0200,"Servlet 3.0, JSP 2.2 and EL 2.2 are the minimum required to deploy Petclinic",51,1351
+386,0fdd150,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-06-29 09:03:58 +0200,Removing deprecated javadoc,51,1351
+387,11af3ae,SUCCESS,13,SUCCESS,9,SUCCESS,23,2015-07-02 08:11:02 +0200,#90 Reduce the POM size by inheriting from the spring.io BOM,51,1351
+388,bc9682c,SUCCESS,10,SUCCESS,9,SUCCESS,22,2015-07-02 18:15:25 +0200,#87 Downgrade to AssertJ 2.1.0 in order to build Petclinic with the JDK 7,51,1351
+389,7326267,SUCCESS,8,SUCCESS,8,SUCCESS,22,2015-07-02 18:20:17 +0200,#90 Remove the json-path version which be inherited from the spring.io BOM,51,1351
+390,122c8a7,SUCCESS,13,SUCCESS,8,SUCCESS,22,2015-07-15 21:53:05 +0200,Upgrade to Spring IO platform v1.1.3.,51,1351
+391,8e3848f,SUCCESS,13,SUCCESS,7,SUCCESS,21,2015-07-25 19:30:23 +0800,upgraded to latest version of Dandelion,51,1351
+392,85a2be1,SUCCESS,11,SUCCESS,9,SUCCESS,22,2015-07-25 19:38:02 +0800,adding spring boot starter and removing spring-aop,51,1351
+393,39ab836,SUCCESS,12,SUCCESS,8,SUCCESS,23,2015-07-25 19:44:53 +0800,moved spring-data dependency to boot-starter,51,1351
+394,91d19d1,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-08-19 18:44:14 +0200,#92 Fix column 'visits.id' not found on MySql,51,1351
+395,06be7eb,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-08-20 08:13:03 +0200,#92 Use column alias,51,1351
+396,c18c845,SUCCESS,10,SUCCESS,7,SUCCESS,21,2015-09-28 23:04:10 -0400,Add missing json-simple dependency,51,1351
+397,e8c944f,SUCCESS,10,SUCCESS,10,SUCCESS,22,2015-09-28 23:45:26 -0400,remove version number,51,1351
+398,5a6c108,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-09-30 21:20:34 -0400,Added comments when CallMonitoringAspect called,51,1351
+399,e0be3a3,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-10-02 15:51:56 +0800,added temporary fix for json-simple,51,1351
+400,f7498c7,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-10-02 11:33:57 +0200,Removed HTTP PUT method - it is not supported in JSP 2.3,51,1351
+401,cb0504e,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-10-13 08:32:15 +0200,#92 add some comments to switch from HSQLDB to MySQL,51,1351
+402,4bb829c,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-10-13 18:41:18 +0200,Fix #101 display the pet type when using the JDBC profile,51,1356
+403,77bd960,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-10-14 05:17:54 +0800,Merge pull request #98 from freemansoft/master,51,1356
+404,8b5d980,SUCCESS,10,SUCCESS,10,SUCCESS,24,2015-10-14 08:29:28 +0200,Fix #95 migrate to AssertJ 3.2.0,51,1356
+405,566fdac,SUCCESS,10,SUCCESS,7,SUCCESS,23,2015-10-14 08:30:22 +0200,Merge pull request #99 from trepel/removalofputmethod,51,1356
+406,1aef94d,SUCCESS,10,SUCCESS,11,SUCCESS,21,2015-10-16 08:03:19 +0200,#95 Downgrade to AssertJ 2.2.0 to be compatible with Java 7,51,1356
+407,09ed33a,SUCCESS,8,SUCCESS,9,SUCCESS,24,2015-10-16 09:33:06 +0200,#96 Reformat code with EditorConfig,51,1358
+408,2270e24,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-10-16 15:04:17 +0200,Removal of redundant comments,51,1358
+409,295574f,SUCCESS,8,SUCCESS,8,SUCCESS,20,2015-10-16 18:17:08 +0200,Merge pull request #104 from trepel/minorcommentsfixes,51,1358
+410,81fac33,SUCCESS,9,SUCCESS,8,SUCCESS,22,2015-10-16 18:20:57 +0200,#96 change EditorConfig in order to  impact other files than Java and XML (i.e.. jsp and html pages),51,1358
+411,63d8f12,SUCCESS,13,SUCCESS,7,SUCCESS,20,2015-10-19 10:53:10 +0200,Update of Dandelion to 1.1.1,51,1358
+412,5e11b4b,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-10-20 18:59:10 +0200,JMeter script from Julien Dubois,51,1358
+413,4c0d311,SUCCESS,9,SUCCESS,8,SUCCESS,24,2015-10-20 19:35:20 +0200,Merge pull request #106 from trepel/dandelionupdate,51,1358
+414,6a94d7e,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-10-21 08:25:07 +0200,"Remove uncessary _method=put parameter and enable the ""POST new visit"" HTTP request",51,1358
+415,3bcf845,SUCCESS,8,SUCCESS,9,SUCCESS,22,2015-10-22 08:36:29 +0200, #77 move Session scope attributes to the request scope instead,51,1355
+416,dd552f4,SUCCESS,8,SUCCESS,8,SUCCESS,26,2015-10-26 18:35:40 +0100,Fix #108 owner update,51,1356
+417,4aa89ae,SUCCESS,9,SUCCESS,8,SUCCESS,22,2015-10-28 08:30:44 +0100,Fix #110 owner and pet validators failed,51,1356
+418,92de655,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-10-28 08:57:42 +0100,Fix #111 For pet's birthday we are now using jodatime LocalDate instead of DateTime,51,1359
+419,19d7767,SUCCESS,7,SUCCESS,8,SUCCESS,22,2015-10-28 18:39:02 +0100,#98 Add a contributing section,51,1359
+420,e00dfb3,SUCCESS,8,SUCCESS,8,SUCCESS,23,2015-11-02 10:51:04 +0100,Using jodatime LocalDate instead of DateTime for visits,51,1359
+421,288548c,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-11-02 18:42:26 +0100,Merge pull request #113 from trepel/visitdatefix,51,1359
+422,845d31e,SUCCESS,10,SUCCESS,10,SUCCESS,26,2015-11-20 13:56:44 +0000,Added test class for Controllers plus a test for PetTypeFormatter,56,1703
+423,71fa089,SUCCESS,17,SUCCESS,10,SUCCESS,22,2015-12-22 17:12:49 +0100,Spring IO platform 2.0.1,51,1359
+424,a768e87,SUCCESS,10,SUCCESS,9,SUCCESS,24,2015-12-22 17:19:34 +0100,fixed ehcache dependency,51,1359
+425,540d31e,SUCCESS,9,SUCCESS,8,SUCCESS,24,2016-01-25 17:21:19 +0000,moving from Webjars to Bower #83,51,1359
+426,4803b71,SUCCESS,9,SUCCESS,8,SUCCESS,22,2016-01-30 12:31:39 +0100,Merge pull request #125 from faissalwise/bower,51,1359
+427,c65cfb6,SUCCESS,8,SUCCESS,8,SUCCESS,23,2016-01-30 14:00:12 +0100,"moving from Webjars to Bower #83: renaming bower_components to vendor, update readme.md",51,1359
+428,2398c4d,SUCCESS,8,SUCCESS,9,SUCCESS,24,2016-01-30 14:26:26 +0100,Merge pull request #119 from colinbut/master,56,1703
+429,95de1d9,SUCCESS,9,SUCCESS,10,SUCCESS,26,2016-01-30 14:30:19 +0100,Using Mockito and Hamcrest version from the Spring.IO Platform,56,1703
+430,3a9e0f3,SUCCESS,10,SUCCESS,8,SUCCESS,27,2016-01-30 14:32:27 +0100,Align petclinic version to the Spring Framework one,56,1703
+431,d6697d8,SUCCESS,8,SUCCESS,10,SUCCESS,26,2016-01-31 12:41:36 +0100,Add Maven Wrapper with mvn -N io.takari:maven:wrapper,56,1703
+432,0504ec9,SUCCESS,9,SUCCESS,9,SUCCESS,26,2016-02-03 23:19:46 -0500,Update petclinic_db_setup_mysql.txt,56,1703
+433,3623eab,SUCCESS,9,SUCCESS,9,SUCCESS,25,2016-02-04 08:11:39 +0100,Merge pull request #127 from thinkshihang/patch-1,56,1703
+434,843ce28,SUCCESS,11,SUCCESS,10,SUCCESS,25,2016-02-05 20:21:48 +0100,Upgrade to Spring IO Platform 2.0.2,56,1703
+435,216db91,SUCCESS,10,SUCCESS,8,SUCCESS,25,2016-02-06 14:58:31 +0800,Adding Travis configuration file,56,1703
+436,cc53f63,SUCCESS,7,SUCCESS,8,SUCCESS,27,2016-02-06 15:02:14 +0800,travis.ml -> .travis.yml,56,1703
+437,ca8781b,SUCCESS,8,SUCCESS,8,SUCCESS,25,2016-02-06 18:55:52 +0100,"#129 add travis-ci ""build status"" badge",56,1703
+438,6f349ec,SUCCESS,9,SUCCESS,8,SUCCESS,27,2016-02-07 18:31:11 -0500,Update link navigation title to make it consistent,56,1703
+439,3185ed4,SUCCESS,11,SUCCESS,10,SUCCESS,27,2016-02-19 14:49:30 -0600,added missing .mvn folder needed for maven wrapper,56,1703
+440,df4e3a5,SUCCESS,10,SUCCESS,8,SUCCESS,26,2016-02-20 11:29:14 +0100,Merge pull request #132 from patrickcrocker/mvnwrapper,56,1703
+441,e7f6899,SUCCESS,9,SUCCESS,8,SUCCESS,24,2016-02-25 09:36:20 +1000,owners search has been case insensitive,56,1703
+442,87d025f,SUCCESS,9,SUCCESS,8,SUCCESS,27,2016-03-05 18:50:45 +0100,"fixed url for jquery-ui. There was typo ""query"" instaed of ""jquery"" and file cannot be loaded",56,1703
+443,9ad12d3,SUCCESS,10,SUCCESS,9,SUCCESS,26,2016-03-06 13:53:19 +0100,Merge pull request #134 from broccolinisoup/master,56,1703
+444,78a2532,SUCCESS,10,SUCCESS,8,SUCCESS,26,2016-03-08 18:23:41 +0100,Merge pull request #136 from lukasz-szewc/staticFiles-jquery-url-fix,56,1703
+445,203d20e,SUCCESS,14,SUCCESS,9,SUCCESS,24,2016-03-09 08:40:57 +0100,Upgrade to Spring IO Platform 2.0.3,56,1703
+446,4b1f7a7,SUCCESS,9,SUCCESS,8,FAIL,22,2016-03-13 10:10:30 +0100,Jetty 9.3 support,56,1703
+447,482eeb1,SUCCESS,10,SUCCESS,9,SUCCESS,26,2016-03-13 10:14:05 +0100,"Revert ""Jetty 9.3 support""",56,1703
+448,7dcf82a,SUCCESS,10,SUCCESS,9,SUCCESS,28,2016-04-04 08:06:27 +0200,Fix #78 Migrate to Bootstrap 3.x,56,1703
+449,9a150fc,SUCCESS,10,SUCCESS,9,SUCCESS,25,2016-04-04 08:36:55 +0200,Merge pull request #131 from ameya-pandilwar/update-link-title,56,1703
+450,ea8ab07,SUCCESS,9,SUCCESS,9,SUCCESS,25,2016-04-05 06:33:11 +0800,Merge branch 'bootstrap-3' of https://github.com/liouxiao/spring-petclinic into bootstrap-3,56,1703
+451,e6ca8a3,SUCCESS,10,SUCCESS,7,SUCCESS,26,2016-04-05 07:04:33 +0800,fix issue #144: remove redundant less-than sign,56,1703
+452,597d29c,SUCCESS,8,SUCCESS,8,SUCCESS,25,2016-04-05 09:01:37 +0200,Fix of how to run Petclinic in readme,56,1703
+453,fa8bb74,SUCCESS,9,SUCCESS,8,SUCCESS,25,2016-04-05 09:51:32 +0200,Merge pull request #145 from liouxiao/fix-for-issue-144,56,1703
+454,b68d7fc,SUCCESS,9,SUCCESS,8,SUCCESS,24,2016-04-05 09:52:09 +0200,Merge pull request #146 from trepel/mvnwrunreadmefix,56,1703
+455,e74b1bc,SUCCESS,8,SUCCESS,9,SUCCESS,26,2016-04-05 22:05:25 +0200,#141 Configure Unicode and UTF-8 MySQL database for Chinese language,56,1703
+456,44b591f,SUCCESS,10,SUCCESS,9,SUCCESS,25,2016-04-08 18:23:18 +0200,Using Spring Boot Dataflow UI graphic theme,56,1703
+457,ad3d322,SUCCESS,9,SUCCESS,8,SUCCESS,25,2016-04-23 23:31:51 +0500,"Fising squid:S2970, squid:S1192, squid:S1488, squid:UselessParenthesesCheck",56,1705
+458,05f7cf4,SUCCESS,8,SUCCESS,8,SUCCESS,21,2016-05-13 19:49:46 +0200,Merge pull request #152 from DevFactory/release/general-code-quality-fix-1,56,1705
+459,817fabd,SUCCESS,8,SUCCESS,8,SUCCESS,24,2016-06-06 18:36:59 +0200,Fix #155 Fix logback + JMX memory leak on web application reload,56,1705
+460,ca755be,SUCCESS,8,SUCCESS,8,SUCCESS,24,2016-06-15 22:46:47 +0200,Improvements in VisitRepository.findByPetId implementation.,56,1728
+461,76a4ca3,SUCCESS,9,SUCCESS,7,SUCCESS,23,2016-06-16 18:59:29 +0200,Merge pull request #159 from attil-io/visit-repository-fix,56,1728
+462,be7acc5,SUCCESS,14,SUCCESS,10,SUCCESS,21,2016-06-19 02:23:53 -0400,Upgrade Spring IO Platform to 2.0.5,56,1728
+463,a6e81a5,SUCCESS,12,SUCCESS,9,FAIL,30,2016-06-17 18:38:24 +0200,#164 Spring Boot version of Petclinic ready to deploy to an external web container (ie Tomcat),40,1319
+464,e9f5f7b,SUCCESS,8,SUCCESS,7,FAIL,30,2016-06-23 19:46:56 +0200,#164 Add main class required by the spring-boot-maven-plugin,40,1321
+465,4da41db,SUCCESS,9,SUCCESS,9,SUCCESS,30,2016-06-24 21:18:38 +0200,#164 Disable cache configuration for unit tests,41,1335
+466,50f46fd,SUCCESS,10,SUCCESS,7,SUCCESS,24,2016-06-24 21:22:15 +0200,Remove outdated HTML files,56,1728
+467,1f42b76,SUCCESS,9,SUCCESS,8,SUCCESS,26,2016-06-25 15:27:37 +0200,"#164 Set Dandelion active profile to ""prod"" when Spring production profile is enabled",41,1345
+468,beb46b2,SUCCESS,8,SUCCESS,7,SUCCESS,27,2016-06-27 12:35:37 +0800,support switching db init script at deployment,41,1345
+469,805cadc,SUCCESS,8,SUCCESS,8,SUCCESS,24,2016-06-27 08:17:15 +0200,Merge pull request #165 from verydapeng/spring-projects/springboot,41,1345
+470,415d78b,SUCCESS,8,SUCCESS,7,SUCCESS,28,2016-06-27 08:45:14 +0200,#164 Update readme.md with Spring Boot configuration,41,1345
+471,aa8cc43,SUCCESS,9,SUCCESS,9,SUCCESS,27,2016-06-27 17:06:47 +0800,simplify jsp layout management,41,1345
+472,52ea744,SUCCESS,9,SUCCESS,8,SUCCESS,29,2016-06-27 17:19:34 +0200,Merge pull request #166 from verydapeng/spring-projects/springboot,41,1345
+473,a2849f7,SUCCESS,9,SUCCESS,8,SUCCESS,23,2016-06-27 17:06:47 +0800,Simplify jsp layout management abstract the page layout into “layout.tag”,56,1728
+474,647985c,SUCCESS,9,SUCCESS,9,SUCCESS,26,2016-06-27 17:57:03 +0200,Add a reference to the Spring Boot branch,56,1728
+475,077f4eb,SUCCESS,9,SUCCESS,8,SUCCESS,23,2016-06-28 11:05:42 +0800,simplify content negotiation setup,40,1315
+476,62e4e56,SUCCESS,7,SUCCESS,8,SUCCESS,26,2016-06-28 08:01:46 +0200,Merge pull request #167 from verydapeng/spring-projects/springboot,40,1315
+477,4c72246,SUCCESS,10,SUCCESS,8,SUCCESS,25,2016-06-28 08:11:40 +0200,Update vetsXml test using xpath,56,1730
+478,eb6f934,SUCCESS,25,SUCCESS,9,SUCCESS,31,2016-06-28 18:02:53 +0800,migrate to webjars for frontend resource management,40,1315
+479,9a1298b,SUCCESS,16,SUCCESS,8,SUCCESS,28,2016-06-28 18:17:51 +0200,Merge pull request #168 from verydapeng/spring-projects/springboot,40,1315
+480,078bdc6,SUCCESS,10,SUCCESS,9,SUCCESS,25,2016-06-28 18:47:51 +0200,#149 JdbcPetRepositoryImpl:: findById() simplification,56,1723
+481,6be7ec5,SUCCESS,8,SUCCESS,8,SUCCESS,24,2016-06-28 19:41:53 +0200,Add the generated/ directory for easier switching between master and develop branches,56,1723
+482,7b488c6,SUCCESS,8,SUCCESS,8,SUCCESS,27,2016-06-28 19:44:07 +0200,Merge pull request #163 from ameya-pandilwar/fix-157,56,1723
+483,fd524d0,SUCCESS,18,SUCCESS,9,SUCCESS,27,2016-06-28 19:52:59 +0200,Centralized framework versions to the properties section,40,1315
+484,be048ae,SUCCESS,19,SUCCESS,10,SUCCESS,29,2016-06-28 20:01:32 +0200,Make jar not war,40,1312
+485,6163868,SUCCESS,17,SUCCESS,9,SUCCESS,27,2016-06-28 20:08:26 +0200,"Revert ""Make jar not war""",40,1315
+486,1e412c6,SUCCESS,9,SUCCESS,7,SUCCESS,26,2016-06-29 08:46:56 +0200,Add some missing trimDirectiveWhitespaces on JSPs,56,1723
+487,c39ed81,SUCCESS,16,SUCCESS,9,SUCCESS,30,2016-06-29 09:39:56 +0200,Fixed typo,40,1315
+488,b3080cc,SUCCESS,17,SUCCESS,10,SUCCESS,28,2016-06-29 09:42:21 +0200,Updated instructions to switch into springboot branch,40,1315
+489,30fbe76,SUCCESS,17,SUCCESS,10,SUCCESS,27,2016-06-29 18:13:06 +0200,A few fixes to the readme.md for Spring-Boot branch,40,1315
+490,bbc1c8b,SUCCESS,17,SUCCESS,10,SUCCESS,27,2016-06-29 08:46:56 +0200,Add some missing trimDirectiveWhitespaces on JSPs,40,1315
+491,515f8d9,SUCCESS,15,SUCCESS,10,SUCCESS,30,2016-06-30 20:02:53 +0200,Fix jQuery version,40,1315
+492,835f53d,SUCCESS,9,SUCCESS,7,SUCCESS,23,2016-07-05 18:28:09 +0200,Remove spring-boot dependencies,56,1723
+493,1a6572d,SUCCESS,8,SUCCESS,8,SUCCESS,24,2016-07-05 18:31:47 +0200,Replace web.xml by PetclinicInitializer,57,1773
+494,2f3e035,SUCCESS,9,SUCCESS,9,SUCCESS,26,2016-07-06 18:18:40 +0200,The maven-war-plugin does not failed on missing web.xml,57,1773
+495,d77f31c,SUCCESS,9,SUCCESS,7,SUCCESS,24,2016-07-06 19:00:32 +0200,Fix Jetty 9 startup,57,1773
+496,eddc72c,SUCCESS,14,SUCCESS,10,SUCCESS,26,2016-07-09 12:06:26 +0200,Upgrade Spring IO Platform to 2.0.6,57,1773
+497,ed0ab2a,SUCCESS,9,SUCCESS,8,SUCCESS,23,2016-07-22 11:31:12 -0400,Use build finalName instead of warName in pom.xml,57,1773
+498,fa46685,SUCCESS,8,SUCCESS,8,SUCCESS,23,2016-07-28 13:50:07 +0200,responsive menu fix,57,1773
+499,eac4366,SUCCESS,8,SUCCESS,8,SUCCESS,27,2016-08-09 15:50:22 +0200,Merge pull request #175 from meltsufin/master,57,1773
+500,ef4a808,SUCCESS,9,SUCCESS,8,SUCCESS,23,2016-08-10 18:08:06 +0200,Fix #172 'mvn site' fails with cobertura-maven-plugin version 2.7,57,1773
+501,84d5e82,SUCCESS,8,SUCCESS,8,SUCCESS,22,2016-08-10 18:15:40 +0200,Merge pull request #177 from AndrejGajdos/master,57,1773
+502,0adaea9,SUCCESS,9,SUCCESS,8,SUCCESS,25,2016-08-16 19:09:09 +0200,Upgrade to Spring IO Platform to 2.0.7,57,1773
+503,dbd1e54,SUCCESS,18,SUCCESS,9,SUCCESS,28,2016-07-28 13:50:07 +0200,responsive menu fix,40,1315
+504,2637f65,SUCCESS,26,SUCCESS,11,SUCCESS,33,2016-08-17 18:31:38 +0200,Upgrade to Spring Boot 1.4.0,40,1306
+505,1080006,SUCCESS,17,SUCCESS,9,SUCCESS,27,2016-08-17 18:43:41 +0200,Merging AbstractClinicServiceTests and ClinicServiceSpringDataJpaTests then using the Spring Boot @DataJpaTest annotation,39,1299
+506,620141d,SUCCESS,16,SUCCESS,11,SUCCESS,24,2016-08-19 18:29:53 +0200,Convert Controler's integration test to unit test,39,1333
+507,e525415,SUCCESS,8,SUCCESS,7,SUCCESS,21,2016-08-19 18:54:56 +0200,Convert Controler's integration test to unit test,57,1815
+508,89d0e24,SUCCESS,14,SUCCESS,10,SUCCESS,26,2016-08-19 18:57:51 +0200,Merge branch 'master' into springboot,39,1333
+509,8645807,SUCCESS,15,SUCCESS,10,SUCCESS,26,2016-08-23 19:45:00 +0200,Remove unused properties,39,1325
+510,b96e109,SUCCESS,18,SUCCESS,9,SUCCESS,25,2016-08-29 18:47:47 +0200,Add a Dockefile and configure the  docker-maven-plugin,39,1325
+511,a41b83a,SUCCESS,22,SUCCESS,9,SUCCESS,28,2016-08-29 18:48:12 +0200,Upgrade to Ehcache 3,39,1348
+512,d189dbf,SUCCESS,16,SUCCESS,10,SUCCESS,26,2016-08-29 22:18:22 +0200,Merge pull request #182 from snicoll/ehcache3,39,1348
+513,4d90e7e,SUCCESS,27,SUCCESS,11,SUCCESS,25,2016-09-15 20:28:57 +0200,Display build-related information into the /manage/info endpoint,39,1348
+514,a9b6565,SUCCESS,17,SUCCESS,10,SUCCESS,28,2016-09-19 15:03:53 +0800,Remove dependency with joda time to simplify the project dependencies,39,1349
+515,c0ac1ff,SUCCESS,25,SUCCESS,11,SUCCESS,26,2016-09-25 18:33:13 +0200,Upgrade to Spring Boot 1.4.1,39,1349
+516,b889abb,SUCCESS,19,SUCCESS,10,SUCCESS,24,2016-10-01 13:00:25 +0200,Replace SpringJUnit4ClassRunner by SpringRunner,39,1349
+517,6ff35b6,SUCCESS,16,SUCCESS,10,SUCCESS,26,2016-10-01 13:00:46 +0200,Update Springboot Petclinic version to 1.4.1,39,1349
+518,f78ee5d,SUCCESS,17,SUCCESS,10,SUCCESS,23,2016-10-06 20:01:05 +0200,Using the @CacheResult JSR-107 JCache annotation,39,1345
+519,d69b896,SUCCESS,17,SUCCESS,11,SUCCESS,26,2016-10-07 18:21:09 +0200,Fix #171 Jetty 9 support by removing Dandelion,38,1306
+520,3450c3d,SUCCESS,22,SUCCESS,11,SUCCESS,25,2016-10-17 08:23:28 +0200,Add Git commit information to the /manage/info endpoint,38,1306
+521,e38a9fe,SUCCESS,22,SUCCESS,19,SUCCESS,39,2016-11-10 16:51:14 +0000,Convert to jar with thymeleaf,37,1275
+522,095b1a3,SUCCESS,17,SUCCESS,18,SUCCESS,37,2016-11-10 17:45:54 +0000,Move util class to test code,37,1275
+523,9c11c70,SUCCESS,15,SUCCESS,16,SUCCESS,37,2016-11-11 09:29:01 +0000,Update readme for Spring Boot fetaures,37,1275
+524,0c0da7a,SUCCESS,20,SUCCESS,18,SUCCESS,39,2016-11-11 22:30:22 +0100,Fixing markdown table layout,37,1275
+525,97f6d4c,SUCCESS,21,SUCCESS,21,SUCCESS,35,2016-11-12 12:13:29 +0100,#192 Adding screenshot,37,1275
+526,2052b0c,SUCCESS,18,SUCCESS,21,SUCCESS,35,2016-11-12 12:13:44 +0100,"Adding ""Interesting Spring Petclinic branches and forks"" section",37,1275
+527,adc92a4,SUCCESS,20,SUCCESS,19,SUCCESS,37,2016-11-12 12:15:19 +0100,Using absolute URL,37,1275
+528,8c85992,SUCCESS,18,SUCCESS,17,SUCCESS,39,2016-11-13 19:37:45 +0100,Add reference to the spring-petclinic-microservices fork,37,1275
+529,83ff9a5,SUCCESS,18,SUCCESS,18,SUCCESS,37,2016-11-10 22:10:56 +0000,Modularize and migrate to aggregate-oriented domain,34,1239
+530,e20b96a,SUCCESS,19,SUCCESS,19,SUCCESS,35,2016-11-17 08:34:11 +0100,Reference spring-petclinic/spring-framework-petclinic project instead of the legacy branch,34,1239
+531,131a588,SUCCESS,33,SUCCESS,21,SUCCESS,35,2016-11-17 10:51:33 +0000,Use wro4j instead of lesscss plugin,34,1239
+532,195903b,SUCCESS,19,SUCCESS,20,SUCCESS,36,2016-11-17 10:58:51 +0000,Clarify nature of GitHub org split,34,1239
+533,cb3156e,SUCCESS,20,SUCCESS,19,SUCCESS,36,2016-11-22 11:12:07 +0000,Add ignores,34,1239
+534,87ee7ca,SUCCESS,22,SUCCESS,20,SUCCESS,37,2016-12-02 12:57:29 +0000,Exclude groovy because it isn't used,34,1239
+535,706c6fc,SUCCESS,17,SUCCESS,17,SUCCESS,37,2016-11-30 20:56:03 +0100,Replace anonymous class with lambda,34,1237
+536,7dcae7c,SUCCESS,17,SUCCESS,16,SUCCESS,36,2016-11-30 20:43:32 +0100,Fix Javadoc error,34,1237
+537,ca2a665,SUCCESS,20,SUCCESS,19,SUCCESS,33,2016-11-29 22:36:52 +0100,Correct view as xml url,34,1237
+538,61be1ba,SUCCESS,18,SUCCESS,19,SUCCESS,35,2016-12-01 19:28:47 +0100,Fix #207 set pet owner when for has an error,34,1238
+539,837483f,SUCCESS,19,SUCCESS,20,SUCCESS,36,2016-12-03 13:05:08 +0100,Fix incorrect glyphicon name,34,1238
+540,8b76a54,SUCCESS,17,SUCCESS,17,SUCCESS,34,2016-12-05 12:04:53 +0000,Update mysql readme,34,1238
+541,0c7db64,SUCCESS,21,SUCCESS,19,SUCCESS,35,2016-12-05 21:50:29 +0000,Make mysql configuration more first class,34,1238
+542,6da37c3,SUCCESS,20,SUCCESS,19,SUCCESS,37,2016-12-06 12:04:23 +0000,Use default cache configuration,34,1217
+543,0f840cd,SUCCESS,16,SUCCESS,18,SUCCESS,37,2016-12-20 10:47:45 +0000,Change artifactId to 'spring-petclinic',34,1217
+544,8026953,SUCCESS,20,SUCCESS,18,SUCCESS,45,2017-01-08 15:45:20 +0000,Configure caching properly to avoid error in vets,35,1224
+545,90b8df9,SUCCESS,33,SUCCESS,19,SUCCESS,39,2017-01-31 15:51:55 +0000,Update to 1.5.1,35,1224
+546,e8882e8,SUCCESS,18,SUCCESS,20,SUCCESS,38,2016-12-18 10:51:17 +0800,Update CacheConfig link,35,1224
+547,c7657df,SUCCESS,19,SUCCESS,21,SUCCESS,42,2017-02-02 16:04:52 +0000,Remove ehcache (at least temporarily),35,1224
+548,126bd97,SUCCESS,18,SUCCESS,19,SUCCESS,45,2017-02-03 08:36:08 +0100,Polish,35,1224
+549,d2ec371,SUCCESS,18,SUCCESS,18,SUCCESS,39,2017-02-03 08:36:48 +0100,Restore actuator access with Spring Boot 1.5,35,1224
+550,be13722,SUCCESS,19,SUCCESS,17,SUCCESS,43,2017-02-03 08:37:02 +0100,Polish,35,1224
+551,0a51540,SUCCESS,18,SUCCESS,19,SUCCESS,42,2017-02-03 10:02:07 +0000,Fix serializability of Vet,36,1240
+552,63dadcc,SUCCESS,17,SUCCESS,19,SUCCESS,44,2017-02-03 10:04:34 +0000,Make all entity fields private,36,1241
+553,443d35e,SUCCESS,19,SUCCESS,19,SUCCESS,44,2017-02-16 15:08:30 -0500,Put Ehcache back,36,1250
+554,75912a0,SUCCESS,18,SUCCESS,15,SUCCESS,39,2017-02-17 12:30:57 +0100,Polish contribution,36,1251
+555,f792522,SUCCESS,19,SUCCESS,19,SUCCESS,44,2017-02-17 12:32:01 +0100,Merge pull request #229 from henri-tremblay:ehcacheback,36,1251
+556,fd1c742,SUCCESS,18,SUCCESS,18,SUCCESS,42,2017-03-06 08:19:28 +0100,Do not fail maven build when git directing is missing,36,1251
+557,ffa967c,SUCCESS,22,SUCCESS,21,SUCCESS,44,2017-04-12 21:41:00 +0200,spring-petclinic-angular1 repo renamed to spring-petclinic-angularjs,36,1251
+558,101c9dc,SUCCESS,27,SUCCESS,19,SUCCESS,42,2017-06-30 11:07:07 +0100,Update Spring Boot and Thymeleaf versions,36,1251
+559,cdbfafe,SUCCESS,18,SUCCESS,19,SUCCESS,42,2017-06-09 12:01:37 +0800,set pet to owner to avoid null owner when user gets an error on new pet page,36,1251
+560,162d8d8,SUCCESS,21,SUCCESS,19,SUCCESS,39,2017-08-24 18:26:45 +0200,Add Apache 2.0 license #260,36,1251
+561,fa3b7f9,SUCCESS,21,SUCCESS,18,SUCCESS,44,2017-11-03 11:18:15 +0000,Add CLA link to readme,36,1251
+562,05e891c,SUCCESS,21,SUCCESS,20,SUCCESS,42,2017-10-29 19:02:39 +0530,Removed redundant javadoc comments,36,1251
+563,4b3d6ab,SUCCESS,21,SUCCESS,19,SUCCESS,38,2017-09-02 11:17:02 +0200,"Reference new forks: spring-petclinic-kotlin, spring-petclinic-graphql and spring-petclinic-rest",36,1251
+564,4be8ba2,SUCCESS,22,SUCCESS,20,SUCCESS,40,2017-08-23 18:38:39 +0200,Replace @RequestMapping by their corresponding shortcut @GetMapping and @PostMapping,36,1244
+565,4ab6a80,SUCCESS,18,SUCCESS,19,SUCCESS,43,2017-08-23 18:17:57 +0200,Removing .springBeans,36,1244
+566,3e65dee,SUCCESS,21,SUCCESS,21,SUCCESS,45,2017-07-09 23:45:42 +0300,fix button text in createOrUpdatePetForm.html in case of new pet (issue #252),36,1244
+567,5b0f037,SUCCESS,22,SUCCESS,20,SUCCESS,40,2017-05-19 12:16:02 +0200,fix: make id 'lastName' in findOwners.html unique,36,1244
+568,45da5a4,SUCCESS,20,SUCCESS,18,FAIL,43,2016-12-05 21:32:44 +0100,Fix date formatting,36,1244
+569,23f65ba,SUCCESS,21,SUCCESS,20,SUCCESS,39,2016-12-05 22:18:58 +0100,Fix broken tests,36,1244
+570,e20b43b,SUCCESS,19,SUCCESS,20,SUCCESS,43,2017-10-15 16:08:44 +0800,Update PetControllerTests.java,36,1246
+571,c36452a,SUCCESS,21,SUCCESS,22,SUCCESS,41,2017-11-03 14:17:04 +0000,Use leading / in app URL,36,1246
+572,14ef611,FAIL,2,NO,0,NO,0,2018-01-09 17:50:14 +0000,Update to Spring Boot 2.0 snapshots,36,1246
+573,cf35266,FAIL,2,NO,0,NO,0,2018-01-11 09:15:18 +0000,Tidy up compiler warnings,36,1239
+574,c91b73e,FAIL,3,NO,0,NO,0,2018-01-11 09:16:04 +0000,Update version of Petclinic,36,1239
+575,6730a22,FAIL,2,NO,0,NO,0,2018-01-20 09:38:36 +0000,Add repository declarations for snapshots,36,1239
+576,cdd802e,SUCCESS,187,SUCCESS,24,SUCCESS,57,2018-02-21 10:48:01 +0100,Update webjars-locator dependency,36,1239
+577,a52cbe9,SUCCESS,22,SUCCESS,20,SUCCESS,47,2018-02-21 09:09:48 +0000,Add ignores for vscode,36,1239
+578,c5abf45,SUCCESS,17,SUCCESS,19,SUCCESS,46,2018-02-05 19:19:38 +0100,Fix datasource initialization property,36,1239
+579,34545e7,SUCCESS,21,SUCCESS,18,SUCCESS,46,2018-02-22 10:36:13 +0100,Merge pull request #301 from saturnism:patch-1,36,1239
+580,dfcd30b,SUCCESS,21,SUCCESS,19,SUCCESS,45,2018-02-22 10:46:09 +0100,Fix project's version,36,1239
+581,1062269,SUCCESS,19,SUCCESS,21,SUCCESS,47,2018-02-22 10:57:12 +0100,Fix actuator exposure,36,1239
+582,0d847ed,SUCCESS,19,SUCCESS,17,SUCCESS,44,2017-11-04 11:59:48 +0100,Add spring-petclinic-rest URL,36,1239
+583,fadf7f4,SUCCESS,20,SUCCESS,19,SUCCESS,46,2018-02-22 10:57:34 +0100,Merge pull request #278 from arey:feature/rest,36,1239
+584,d92a421,SUCCESS,21,SUCCESS,19,SUCCESS,46,2018-02-15 17:44:48 +0100,Add placeholder YYYY-MM-DD for date input field,36,1239
+585,ce26296,SUCCESS,20,SUCCESS,20,SUCCESS,48,2018-02-22 11:03:26 +0100,Merge pull request #303 from arey:feature/date,36,1239
+586,b527de5,SUCCESS,51,SUCCESS,21,SUCCESS,47,2018-03-14 16:32:27 -0400,Upgrade to Spring Boot 2.0.0.RELEASE,36,1239
+587,932f17d,SUCCESS,22,SUCCESS,19,SUCCESS,44,2018-03-26 14:00:56 +0200,Fix dead links,36,1239
+588,d568bca,SUCCESS,22,SUCCESS,19,SUCCESS,42,2018-04-10 21:15:07 +0200,Fix including template in layout fragment,36,1239
+589,dd5b080,SUCCESS,21,SUCCESS,22,SUCCESS,46,2018-05-13 11:09:05 +0200,Merge pull request #319 from Nalad:master,36,1239
+590,6905e38,SUCCESS,20,SUCCESS,18,SUCCESS,44,2018-05-12 12:28:44 -0400,Make MySQL configuration files/docs consistent,36,1239
+591,8eb5074,SUCCESS,20,SUCCESS,19,SUCCESS,46,2018-05-27 01:40:43 -0400,Fix content negotiation for /vets,36,1239
+592,eebca43,SUCCESS,18,SUCCESS,21,SUCCESS,46,2018-06-04 10:48:39 +0200,"Polish ""Fix content negotiation for /vets""",36,1235
+593,4406031,SUCCESS,21,SUCCESS,20,SUCCESS,51,2018-06-04 10:48:54 +0200,Merge pull request #326 from aidenchiavatti:json-fix,36,1235
+594,4d6ee84,SUCCESS,27,SUCCESS,21,SUCCESS,46,2018-06-04 10:49:45 +0200,Upgrade to Spring Boot 2.0.2.RELEASE,36,1235
+595,5270246,SUCCESS,19,SUCCESS,20,SUCCESS,44,2018-06-04 10:54:27 +0200,Polish,36,1227
+596,38bd328,SUCCESS,27,SUCCESS,20,SUCCESS,40,2018-06-20 13:58:30 +0100,Update to Boot 2.0.3,36,1227
+597,c0748e3,SUCCESS,19,SUCCESS,20,SUCCESS,47,2018-06-27 18:34:37 +0200,Use Java 8 LocalDate instead of java.util.Date,36,1221
+598,4c22d01,SUCCESS,21,SUCCESS,19,SUCCESS,40,2018-07-09 16:47:34 +0200,"Polish ""Use Java 8 LocalDate instead of java.util.Date""",36,1221
+599,bcce267,SUCCESS,21,SUCCESS,19,SUCCESS,46,2018-07-09 16:49:15 +0200,Merge pull request #328 from arey:feature/LocalDate,36,1221
+600,e7eabca,SUCCESS,20,SUCCESS,21,SUCCESS,47,2018-07-05 17:05:41 +0200,Adapt JMeter script to recent changes,36,1221
+601,492b485,SUCCESS,20,SUCCESS,19,SUCCESS,51,2018-07-09 17:53:28 +0200,Merge pull request #330 from arey:bugfix/jmeter,36,1221
+602,415bd73,SUCCESS,21,SUCCESS,21,SUCCESS,46,2018-07-10 08:43:13 +0200,Fix devtools module declaration,36,1221
+603,5ff057d,SUCCESS,22,SUCCESS,19,SUCCESS,43,2018-07-10 08:50:58 +0200,Remove misleading production profile,36,1219
+604,3c9afdc,SUCCESS,21,SUCCESS,22,SUCCESS,44,2018-07-10 08:55:27 +0200,Polish,36,1218
+605,46babda,SUCCESS,20,SUCCESS,18,SUCCESS,49,2018-07-10 08:32:03 +0200,Enable caching of static resources,36,1218
+606,895422b,SUCCESS,21,SUCCESS,21,SUCCESS,47,2018-07-10 09:10:03 +0200,"Polish ""Enable caching of static resources""",36,1218
+607,1a317e6,SUCCESS,22,SUCCESS,18,SUCCESS,44,2018-07-10 09:10:30 +0200,Merge pull request #332 from arey:feature/browserCache,36,1218
+608,02ef593,SUCCESS,20,SUCCESS,21,SUCCESS,48,2018-07-12 14:02:22 +0200,Fix wrong link for CacheConfiguration,36,1218
+609,645ebc4,SUCCESS,20,SUCCESS,18,SUCCESS,43,2018-07-12 14:51:45 +0200,Merge pull request #334 from cruftex:fix-link,36,1218
+610,22ff398,SUCCESS,20,SUCCESS,19,SUCCESS,47,2018-07-12 14:14:28 +0200,Clarify cache configuration,36,1218
+611,893a18f,SUCCESS,21,SUCCESS,20,SUCCESS,44,2018-07-13 16:57:48 +0200,"Polish ""Clarify cache configuration""",36,1218
+612,5f75745,SUCCESS,22,SUCCESS,20,SUCCESS,43,2018-07-13 16:58:28 +0200,Merge pull request #335 from cruftex:fix-cache-comment,36,1218
+613,73c9ac5,SUCCESS,27,SUCCESS,21,SUCCESS,46,2018-08-09 10:12:57 +0200,Upgrade to Spring Boot 2.0.4.RELEASE,36,1218
+614,60105d5,SUCCESS,25,SUCCESS,21,SUCCESS,54,2018-08-09 10:47:13 +0200,Use Jacoco rather than cobertura,36,1218
+615,e823df3,FAIL,3,NO,0,NO,0,2018-10-05 11:36:56 +0100,Update to Spring Boot 2.1,36,1218
+616,b982e66,FAIL,3,NO,0,NO,0,2018-10-05 15:38:11 +0100,Clarify docs on MySql and STS,36,1218
+617,1feea1f,FAIL,3,NO,0,NO,0,2018-10-06 16:37:33 +0200,Polish,36,1218
+618,d49cc42,SUCCESS,227,SUCCESS,22,SUCCESS,60,2018-10-06 16:40:10 +0200,Add missing repository definition,36,1218
+619,895730c,SUCCESS,21,SUCCESS,20,SUCCESS,54,2018-10-07 13:40:45 +0200,Simplify build definition,36,1211
+620,f31ead5,SUCCESS,18,SUCCESS,19,SUCCESS,56,2018-10-08 09:05:39 +0100,Add notes on building a jar,36,1211
+621,e0684bf,SUCCESS,22,SUCCESS,20,SUCCESS,54,2018-10-08 21:50:50 +0200,Fix indent in readme.md,36,1211
+622,71cfa2b,SUCCESS,18,SUCCESS,21,SUCCESS,55,2018-10-09 08:32:09 +0200,Merge pull request #359 from oltruong,36,1211
+623,6de9562,SUCCESS,20,SUCCESS,21,SUCCESS,56,2018-10-08 10:10:41 +0200,Add documentation for IntelliJ IDEA,36,1211
+624,8bee2f8,SUCCESS,21,SUCCESS,19,SUCCESS,54,2018-10-09 08:44:25 +0200,"Polish ""Add documentation for IntelliJ IDEA""",36,1211
+625,1ada9ba,SUCCESS,20,SUCCESS,19,SUCCESS,53,2018-10-09 08:44:41 +0200,Merge pull request #358 from arey,36,1211
+626,3b36b80,SUCCESS,21,SUCCESS,20,SUCCESS,51,2018-10-22 14:59:52 +0200,Add reference to Spring Petclinic Forks,36,1211
+627,8869750,SUCCESS,18,SUCCESS,20,SUCCESS,55,2018-11-07 11:37:14 -0600,Fix links,36,1211
+628,85aab20,SUCCESS,21,SUCCESS,21,SUCCESS,57,2018-11-11 11:19:25 +0100,Merge pull request #369 from figueroaRicardo,36,1211
+629,13f1bfb,SUCCESS,53,SUCCESS,22,SUCCESS,52,2018-11-15 04:24:58 +0800,Update to Boot 2.1.0,36,1211
+630,df359ab,SUCCESS,108,SUCCESS,22,SUCCESS,53,2018-12-04 13:53:23 +0000,Update to Boot 2.1.1,36,1211
+631,ab56724,SUCCESS,19,SUCCESS,19,SUCCESS,56,2018-12-17 16:41:44 +0000,Remove redundant component scan filter,36,1209
+632,dbbd3ea,SUCCESS,18,SUCCESS,18,SUCCESS,55,2019-01-13 11:03:02 +0300,Remove SonarQube configuration file,36,1209
+633,5808126,SUCCESS,21,SUCCESS,19,SUCCESS,49,2019-01-15 13:30:16 -0500,Merge pull request #383 from mustafau,36,1209
+634,8472aa0,SUCCESS,107,SUCCESS,21,SUCCESS,54,2019-01-31 11:30:16 +0100,Upgrade to Spring Boot 2.1.2.RELEASE,36,1209
+635,827dc12,SUCCESS,18,SUCCESS,19,SUCCESS,58,2019-02-11 08:07:52 +0000,"Revert ""Remove redundant component scan filter""",36,1211
+636,91fa971,SUCCESS,100,SUCCESS,22,SUCCESS,55,2019-03-11 10:16:57 +0000,Update to latest Boot and add some gitignores,36,1211
+637,eef57ab,SUCCESS,21,SUCCESS,21,SUCCESS,52,2019-03-19 22:47:49 -0500,URL Cleanup,36,1211
+638,be60080,SUCCESS,20,SUCCESS,18,SUCCESS,54,2019-03-20 11:07:38 +0100,Merge pull request #396 from spring-operator,36,1211
+639,0c59090,SUCCESS,18,SUCCESS,18,SUCCESS,57,2019-03-20 11:13:21 +0100,Polish,36,1211
+640,f4bed3c,SUCCESS,20,SUCCESS,19,SUCCESS,57,2019-03-20 22:15:09 -0500,URL Cleanup,36,1211
+641,765680c,SUCCESS,19,SUCCESS,21,SUCCESS,52,2019-03-21 11:05:45 +0100,"Polish ""URL Cleanup""",36,1211
+642,7855425,SUCCESS,18,SUCCESS,20,SUCCESS,58,2019-03-21 11:05:53 +0100,Merge pull request #397 from spring-operator,36,1211
+643,be24e0c,SUCCESS,19,SUCCESS,19,SUCCESS,58,2019-03-21 11:08:00 +0100,Fix Apache license headers,36,1211
+644,5d73726,SUCCESS,22,SUCCESS,18,SUCCESS,55,2019-03-28 10:56:33 +0800,Upgrade maven wrapper,37,1272
+645,d2831f9,SUCCESS,20,SUCCESS,19,SUCCESS,51,2019-03-28 09:46:57 +0100,Merge pull request #405 from Eskibear,37,1272
+646,6e24f5d,SUCCESS,142,SUCCESS,24,SUCCESS,55,2019-05-11 16:06:25 +0200,Upgrade to Spring Boot 2.1.4,37,1272
+647,3f838c2,SUCCESS,21,SUCCESS,20,SUCCESS,52,2019-05-31 23:08:22 +0200,Cleanup tests by using more idiomatic assertj assertions,37,1272
+648,8919c73,SUCCESS,19,SUCCESS,22,SUCCESS,54,2019-06-01 18:09:33 +0200,"Polish ""Cleanup tests by using more idiomatic assertj assertions""",37,1272
+649,bebe9e5,SUCCESS,21,SUCCESS,21,SUCCESS,56,2019-06-01 18:10:20 +0200,Merge pull request #418 from wengertj,37,1272
+650,39897cc,SUCCESS,22,SUCCESS,19,SUCCESS,56,2019-05-27 14:17:52 -0400,Push-to-PWS integration,37,1272
+651,dc337f5,SUCCESS,20,SUCCESS,21,SUCCESS,53,2019-06-01 18:14:23 +0200,"Polish ""Push-to-PWS integration""",37,1272
+652,8394b7d,SUCCESS,20,SUCCESS,17,SUCCESS,51,2019-06-01 18:14:35 +0200,Merge pull request #417 from BoykoAlex,37,1272
+653,11d0ed4,SUCCESS,21,SUCCESS,20,SUCCESS,54,2019-05-18 10:24:08 +0900,update table id attribute in ownersList.html,37,1272
+654,7481e88,SUCCESS,110,SUCCESS,22,SUCCESS,59,2019-06-19 15:11:54 +0200,Upgrade to Spring Boot 2.1.6.RELEASE,37,1272
+655,912d2ad,SUCCESS,21,SUCCESS,18,SUCCESS,56,2019-06-20 14:14:53 +0100,Add VS Code to list of IDEs,37,1272
+656,02adb1d,SUCCESS,20,SUCCESS,21,SUCCESS,53,2019-06-21 12:27:16 +0100,Attempt to fix travis build by hardcoding Ubuntu dist,37,1272
+657,e157f20,SUCCESS,21,SUCCESS,19,SUCCESS,60,2019-06-21 14:45:39 +0100,Clarify the docs on mysql,37,1272
+658,b6a619c,SUCCESS,19,SUCCESS,21,SUCCESS,56,2019-08-22 12:39:14 -0400,Update Push-to-PWS button image,37,1272
+659,d6bdc13,SUCCESS,20,SUCCESS,17,SUCCESS,56,2019-08-27 09:28:19 -0400,Move Push-to-PWSX button on the next line,37,1272
+660,7ef045d,SUCCESS,19,SUCCESS,20,SUCCESS,53,2019-09-06 09:13:41 +0100,Make Pet.visits @Transient,37,1314
+661,e280d12,SUCCESS,18,SUCCESS,18,SUCCESS,57,2019-09-23 15:53:00 -0400,"Fix docs on mysql, use initialization-mode",37,1314
+662,ecae6d7,SUCCESS,21,SUCCESS,21,SUCCESS,52,2019-10-03 13:38:42 +0200,Upgrade to Maven 3.6.2 and Maven Wrapper 0.5.5,37,1314
+663,bb7e847,SUCCESS,19,SUCCESS,18,SUCCESS,56,2019-10-03 13:59:17 +0200,Merge pull request #457 from cordin,37,1314
+664,f284b29,SUCCESS,119,SUCCESS,21,SUCCESS,58,2019-10-03 13:59:27 +0200,Upgrade to Spring Boot 2.1.9.RELEASE,37,1314
+665,ce7c3f9,SUCCESS,206,SUCCESS,24,SUCCESS,72,2019-10-20 16:40:04 +0200,Upgrade to Spring Boot 2.2.0.RELEASE,37,1314
+666,ac69dbb,SUCCESS,23,SUCCESS,22,SUCCESS,82,2018-10-10 18:41:57 +0200,Migrate tests to JUnit 5,37,1286
+667,253e6fd,SUCCESS,21,SUCCESS,19,SUCCESS,77,2019-10-20 16:49:17 +0200,"Polish ""Migrate tests to JUnit 5""",37,1285
+668,6e4c31c,SUCCESS,21,SUCCESS,22,SUCCESS,70,2019-10-20 16:49:46 +0200,Merge pull request #360 from arey,37,1285
+669,32301ed,SUCCESS,36,SUCCESS,23,SUCCESS,73,2019-10-31 10:36:32 +0100,Fix compatibility with Java 13,37,1285
+670,d47820b,SUCCESS,110,SUCCESS,24,SUCCESS,71,2019-11-20 09:55:36 +0000,Update to Spring Boot 2.2.1,37,1285
+671,2c98a68,SUCCESS,22,SUCCESS,22,SUCCESS,82,2019-11-20 09:56:32 +0000,Uncomment sql initialization for mysql,37,1285
+672,1561eb5,SUCCESS,23,SUCCESS,20,SUCCESS,70,2019-11-20 10:21:30 +0000,Add proxyBeanMethods = false,37,1285
+673,f9424b5,SUCCESS,108,SUCCESS,24,SUCCESS,71,2019-12-10 11:21:41 -0500,Spring Boot 2.2.2,37,1285
+674,5d57e0d,SUCCESS,23,SUCCESS,23,SUCCESS,75,2020-01-03 05:29:11 -0500,Re-organise mysql scripts so the app runs without root access,37,1285
+675,82cb521,SUCCESS,23,SUCCESS,24,SUCCESS,77,2020-01-03 05:59:32 -0500,Fix MySQL docker command line in readme,37,1285
+676,4e1f874,SUCCESS,47,SUCCESS,24,SUCCESS,80,2020-01-03 11:22:05 +0000,Apply spring-format plugin,37,1230
+677,108a81b,SUCCESS,115,SUCCESS,26,SUCCESS,79,2020-01-25 20:30:18 +0100,Upgrade to Spring Boot 2.2.4,37,1230
+678,9387366,SUCCESS,36,SUCCESS,24,SUCCESS,76,2020-01-25 20:31:07 +0100,Upgrade to spring javaformat 0.0.19,37,1230
+679,5742ecd,SUCCESS,24,SUCCESS,26,SUCCESS,80,2020-01-31 06:30:24 -0500,Use https for Maven XSD,37,1230
+680,400e302,SUCCESS,23,SUCCESS,27,SUCCESS,76,2020-01-31 16:53:53 +0100,"Polish ""Use https for Maven XSD""",37,1230
+681,7e64f55,SUCCESS,24,SUCCESS,26,SUCCESS,76,2020-01-31 16:54:28 +0100,Merge pull request #522 from vbadipat,37,1230
+682,1cc942a,SUCCESS,65,SUCCESS,26,SUCCESS,78,2020-01-31 17:31:19 +0100,Add nohttp check,37,1230
+683,ac3e642,SUCCESS,39,SUCCESS,26,SUCCESS,73,2020-02-03 09:20:37 +0000,Update checkstyle plugin for security scan warning,37,1230
+684,5c35771,SUCCESS,23,SUCCESS,27,SUCCESS,81,2020-03-10 08:29:36 +0000,Wrong name for user.sql  script,37,1230
+685,e0eec8e,SUCCESS,26,SUCCESS,26,SUCCESS,82,2020-03-20 18:17:34 +0100,Add m2e profile for well-known plugins,37,1230
+686,a79cb9a,SUCCESS,119,SUCCESS,27,SUCCESS,80,2020-03-20 18:17:58 +0100,Upgrade to Spring Boot 2.2.5,37,1230
+687,e624588,SUCCESS,40,SUCCESS,26,SUCCESS,77,2020-03-20 18:18:28 +0100,Upgrade to spring javaformat 0.0.20,37,1230
+688,c0847b7,SUCCESS,30,SUCCESS,24,SUCCESS,70,2020-03-20 18:24:24 +0100,Add support for H2,37,1230
+689,8805eaa,SUCCESS,26,SUCCESS,27,SUCCESS,82,2020-03-20 18:26:24 +0100,Disable open-in-view explicitly to remove warning on startup,37,1230
+690,8db8c27,SUCCESS,26,SUCCESS,24,SUCCESS,75,2020-03-29 16:12:22 -0500,Fix typo in readme,37,1230
+691,56f0933,SUCCESS,28,SUCCESS,25,SUCCESS,78,2020-03-30 08:53:42 +0200,Merge pull request #586 from jelliotartz,37,1230
+692,d9f37ec,SUCCESS,188,SUCCESS,28,SUCCESS,76,2020-05-02 07:51:21 +0200,Upgrade to Spring Boot 2.3.0.RC1,37,1230
+693,6288622,SUCCESS,25,SUCCESS,25,SUCCESS,74,2020-05-02 08:02:49 +0200,Switch actuator to standard path,37,1230
+694,6a18eec,SUCCESS,40,SUCCESS,28,SUCCESS,80,2020-05-03 08:55:22 +0200,Upgrade to spring javaformat 0.0.21,37,1230
+695,adab01e,SUCCESS,32,SUCCESS,25,SUCCESS,79,2020-05-03 08:55:49 +0200,Upgrade to maven checkstyle plugin 3.1.1,37,1230
+696,c9230c3,SUCCESS,102,SUCCESS,26,SUCCESS,76,2020-05-27 13:40:44 +0000,Bump to Spring Boot 2.3.0,37,1230
+697,907eea3,SUCCESS,27,SUCCESS,24,SUCCESS,83,2020-05-16 16:32:48 +0200,Upgrade to Maven 3.6.3 and Maven Wrapper 0.5.6,37,1230
+698,d94b995,SUCCESS,24,SUCCESS,22,SUCCESS,80,2020-05-21 14:51:47 +0200,Change EditorConfig to be consistent with spring-javaformat,37,1230
+699,9873188,SUCCESS,26,SUCCESS,25,SUCCESS,77,2020-05-23 12:38:08 +0200,Change EditorConfig to reflect some files are indented with 2 spaces,37,1230
+700,410abc2,SUCCESS,23,SUCCESS,27,SUCCESS,75,2020-04-19 21:56:57 +0900,remove trailing slash,37,1230
+701,d173555,SUCCESS,103,SUCCESS,28,SUCCESS,74,2020-06-13 14:09:36 +0100,Update to Boot 2.3.1,37,1230
+702,07b9d5a,SUCCESS,24,SUCCESS,25,SUCCESS,81,2020-06-13 14:56:10 +0100,Ensure fragment for menu items is not itself rendered,37,1230
+703,73ede82,SUCCESS,23,SUCCESS,25,SUCCESS,81,2020-06-13 15:16:31 +0100,Replace references to main branch,37,1230
+704,d367e2b,SUCCESS,27,SUCCESS,29,SUCCESS,79,2020-03-30 09:11:48 -0500,Updating spacing on step list,37,1230
+705,0390e85,SUCCESS,26,SUCCESS,25,SUCCESS,82,2020-06-01 16:45:57 -0400,adding new message in Spanish,37,1230
+706,4953f87,SUCCESS,24,SUCCESS,24,SUCCESS,80,2019-11-21 16:39:14 +0100,Update application-mysql.properties,37,1230
+707,5ad6bc3,SUCCESS,38,SUCCESS,24,SUCCESS,77,2020-07-11 08:56:32 +0200,Upgrade to spring javaformat 0.0.22,37,1230
+708,02cc842,SUCCESS,26,SUCCESS,24,SUCCESS,81,2020-07-11 08:57:33 +0200,Polish,37,1230
+709,c42f959,SUCCESS,24,SUCCESS,23,SUCCESS,79,2020-07-29 16:43:31 +0200,"remove push-to-pws button from guide, since pws free trials end",37,1230
+710,d19963e,SUCCESS,108,SUCCESS,28,SUCCESS,78,2020-08-27 15:03:32 +0200,Upgrade to Spring Boot 2.3.3,37,1230
+711,2e5be53,SUCCESS,34,SUCCESS,24,SUCCESS,79,2020-08-27 15:03:51 +0200,Upgrade to spring javaformat 0.0.25,37,1230
+712,be0f161,SUCCESS,33,SUCCESS,26,SUCCESS,73,2020-08-27 15:04:12 +0200,Upgrade to Checkstyle 8.32,37,1230
+713,2710901,SUCCESS,24,SUCCESS,27,SUCCESS,73,2020-08-27 15:05:30 +0200,Restore version to 2.3.0.BUILD-SNAPSHOT,37,1230
+714,e5ef4d3,SUCCESS,26,SUCCESS,25,SUCCESS,77,2020-09-02 16:57:51 +0530,Remove redundant junits dependencies,37,1230
+715,f6c1a69,SUCCESS,30,SUCCESS,26,SUCCESS,74,2020-11-06 07:48:31 +0100,Merge pull request #670 from akashsolanki,37,1230
+716,a1eaaa6,FAIL,14,NO,0,NO,0,2020-07-22 18:24:23 +0530,Upgrade to wro4j 1.9.0,37,1230
+717,656b7c8,FAIL,12,NO,0,NO,0,2020-11-06 07:55:44 +0100,Merge pull request #650 from piyush-garg,37,1230
+718,7615395,FAIL,14,NO,0,NO,0,2020-11-06 08:30:48 +0100,Upgrade to Spring Boot 2.3.5,37,1230
+719,8b1ac67,FAIL,14,NO,0,NO,0,2020-08-19 23:00:24 +0300,Updated user for mysql,37,1230
+720,ab9135a,FAIL,13,NO,0,NO,0,2020-11-24 10:44:41 +0000,Upgrade to Spring Boot 2.4.0,37,1230
+721,949278c,FAIL,14,NO,0,NO,0,2020-11-29 14:21:33 +0530,remove .vscode folder from project repository,37,1230
+722,502870d,FAIL,16,NO,0,NO,0,2020-11-29 11:38:26 +0100,Remove IDE specific configuration files,37,1230
+723,0573cda,SUCCESS,47,SUCCESS,27,SUCCESS,76,2020-11-29 15:47:35 +0530,Downgrade to wro4j 1.8.0,37,1230
+724,8065ad0,SUCCESS,27,SUCCESS,27,SUCCESS,72,2020-11-29 11:44:14 +0100,Merge pull request #707 from Arka-Bandyopadhyay,37,1230
+725,02babdd,SUCCESS,100,SUCCESS,26,SUCCESS,80,2020-12-25 13:02:48 +0100,Upgrade to Spring Boot 2.4.1,37,1230
+726,04471ae,SUCCESS,109,SUCCESS,27,SUCCESS,74,2021-01-28 09:55:39 +0000,Update to Boot 2.4.2,37,1230
+727,3a04088,SUCCESS,24,SUCCESS,25,SUCCESS,80,2021-01-28 09:57:17 +0000,Add docker push to CI,37,1230
+728,a0d743c,SUCCESS,27,SUCCESS,27,SUCCESS,77,2021-01-07 15:28:46 +0000,Do not fail packaging if repo info is absent,37,1230
+729,e2fbc56,SUCCESS,27,SUCCESS,24,SUCCESS,78,2021-01-28 12:01:44 +0000,Only publish docker image from main branch,37,1230
+730,09e0786,SUCCESS,130,SUCCESS,28,SUCCESS,82,2021-04-29 07:11:20 +0100,Update Spring Boot to 2.4.5,37,1230
+731,39d60e2,SUCCESS,26,SUCCESS,23,SUCCESS,80,2021-04-27 10:46:28 +0800,Configure an inline m2e lifecycle mapping for wro4j-maven-plugin,37,1230
+732,af1857c,SUCCESS,24,SUCCESS,23,SUCCESS,83,2021-05-04 11:37:26 +0100,Add javaformat plugin to Eclipse workaround,37,1230
+733,d0e4e77,SUCCESS,24,SUCCESS,25,SUCCESS,80,2021-05-10 17:45:23 +0100,Only attempt to login to docker on main,37,1230
+734,525dc6a,SUCCESS,24,SUCCESS,25,SUCCESS,80,2021-05-10 17:45:23 +0100,Only attempt to login to docker on main,37,1230
+735,0d8a80d,SUCCESS,25,SUCCESS,25,SUCCESS,82,2021-05-12 10:41:09 +0100,Clarify that a JDK is needed,37,1230
+736,8954fa9,SUCCESS,24,SUCCESS,24,SUCCESS,83,2021-05-12 10:45:14 +0100,Add note about autocrlf on windows,37,1230
+737,b91e213,SUCCESS,26,SUCCESS,25,SUCCESS,80,2019-09-24 10:15:18 -0400,Fix docs for setting profiles,37,1230
+738,e7c879e,SUCCESS,25,SUCCESS,26,SUCCESS,83,2021-05-14 17:00:22 +0300,Update petclinic_db_setup_mysql.txt,37,1230

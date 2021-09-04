@@ -1,0 +1,7 @@
+error,count
+,5
+org.apache.storm.flux.bolts.GenericShellBolt,1
+Couldn&#x27;t find a suitable Spout constructor.,5
+"Cannot run program &quot;python&quot;: error=2, No such file or directory",117
+"Cannot run program &quot;node&quot;: error=2, No such file or directory",117
+Couldn&#x27;t find a suitable TopologySource constructor.,2

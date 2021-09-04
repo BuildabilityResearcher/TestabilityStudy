@@ -1,0 +1,3 @@
+exception,count
+junit.framework.ComparisonFailure,16
+junit.framework.AssertionFailedError,36

@@ -1,0 +1,183 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,86d1ed3,FAIL,0,NO,0,NO,0,2014-11-27 14:10:50 +0800,reimport,27,1551
+1,646be49,FAIL,0,NO,0,NO,0,2014-11-27 14:11:04 +0800,reimport,27,1551
+2,61ba447,FAIL,0,NO,0,NO,0,2014-11-27 23:49:36 +0800,update for adding array list,30,1727
+3,2b46e45,FAIL,0,NO,0,NO,0,2014-11-28 14:47:06 +0800,"archive autofresh, fix #4",31,1736
+4,f4169ae,FAIL,0,NO,0,NO,0,2014-11-28 15:15:27 +0800,update for commit,30,1700
+5,97805ca,FAIL,0,NO,0,NO,0,2014-11-29 11:13:04 +0800,make auto refresh more beautiful,29,1726
+6,6b70da4,FAIL,0,NO,0,NO,0,2014-11-29 17:16:58 +0800,commit for adding chinese string,29,1786
+7,c44be74,FAIL,0,NO,0,NO,0,2014-11-29 20:45:06 +0800,change setPtrUIHandler to addPtrUIHandler,30,1903
+8,e3eac3f,FAIL,0,NO,0,NO,0,2014-11-30 11:10:02 +0800,update demo,29,1952
+9,f4e8b11,FAIL,0,NO,0,NO,0,2014-11-30 11:25:32 +0800,update demo,29,1960
+10,5cb936e,FAIL,0,NO,0,NO,0,2014-11-30 11:42:35 +0800,enhance last update time,29,1983
+11,ccbd83f,FAIL,0,NO,0,NO,0,2014-11-30 14:35:59 +0800,update for snapshot,29,1983
+12,91cbafc,FAIL,0,NO,0,NO,0,2014-11-30 15:09:53 +0800,update readme,29,1983
+13,3daa689,FAIL,0,NO,0,NO,0,2014-11-30 15:19:02 +0800,update readme,29,1983
+14,73bb357,FAIL,0,NO,0,NO,0,2014-11-30 15:22:24 +0800,update readme,29,1983
+15,db6367d,FAIL,0,NO,0,NO,0,2014-11-30 15:24:52 +0800,update readme,29,1983
+16,dfb0b14,FAIL,0,NO,0,NO,0,2014-11-30 15:31:03 +0800,Update README.md,29,1983
+17,43c7648,FAIL,0,NO,0,NO,0,2014-11-30 15:34:00 +0800,update readme,29,1983
+18,8173612,FAIL,0,NO,0,NO,0,2014-11-30 15:35:35 +0800,update readme,29,1983
+19,4faf923,FAIL,0,NO,0,NO,0,2014-11-30 15:39:29 +0800,update readme,29,1983
+20,b282d26,FAIL,0,NO,0,NO,0,2014-11-30 15:44:42 +0800,update readme,29,1983
+21,e90899d,FAIL,0,NO,0,NO,0,2014-11-30 15:50:16 +0800,update readme,29,1983
+22,6d71f50,FAIL,0,NO,0,NO,0,2014-11-30 15:51:56 +0800,update readme,29,1983
+23,2bce078,FAIL,0,NO,0,NO,0,2014-11-30 15:52:31 +0800,update readme,29,1983
+24,723b20f,FAIL,0,NO,0,NO,0,2014-11-30 15:58:50 +0800,update readme,29,1983
+25,b55524d,FAIL,0,NO,0,NO,0,2014-11-30 15:59:48 +0800,update readme,29,1983
+26,7120a7c,FAIL,0,NO,0,NO,0,2014-11-30 16:04:20 +0800,update readme,29,1983
+27,a32a502,FAIL,0,NO,0,NO,0,2014-11-30 16:17:48 +0800,update readme,29,1983
+28,c2d841d,FAIL,0,NO,0,NO,0,2014-11-30 16:19:43 +0800,update readme,29,1983
+29,5a60247,FAIL,0,NO,0,NO,0,2014-11-30 16:52:42 +0800,update for add apk,29,1983
+30,4a9e424,FAIL,0,NO,0,NO,0,2014-11-30 16:56:01 +0800,update for add apk,29,1983
+31,fbf4879,FAIL,0,NO,0,NO,0,2014-11-30 17:24:23 +0800,update for add apk,29,1983
+32,29e0887,FAIL,0,NO,0,NO,0,2014-11-30 17:27:17 +0800,update for add apk,29,1983
+33,da30d95,FAIL,0,NO,0,NO,0,2014-12-03 08:40:05 +0800,make gradle happy,29,1989
+34,b817ea6,FAIL,0,NO,0,NO,0,2014-12-03 08:40:19 +0800,make gradle happy,29,1989
+35,4e194f7,FAIL,0,NO,0,NO,0,2014-12-03 14:42:14 +0800,make gradle happy,29,1989
+36,d94b131,FAIL,0,NO,0,NO,0,2014-12-03 15:26:23 +0800,update for release,29,1989
+37,60ca45c,FAIL,0,NO,0,NO,0,2014-12-03 16:50:00 +0800,update for release,29,1989
+38,7b8f4a2,FAIL,0,NO,0,NO,0,2014-12-06 00:38:50 +0800,update pom,29,1987
+39,5c74d2f,FAIL,0,NO,0,NO,0,2014-12-06 00:48:59 +0800,update version to 1.0.3,29,1987
+40,1cb2c48,FAIL,0,NO,0,NO,0,2014-12-06 01:33:54 +0800,add libs,29,1987
+41,37ddcdf,FAIL,0,NO,0,NO,0,2014-12-06 01:36:43 +0800,update readme,29,1987
+42,623216e,FAIL,0,NO,0,NO,0,2014-12-09 16:54:50 +0800,update for materail style,32,2598
+43,75b7bc8,FAIL,0,NO,0,NO,0,2014-12-09 17:37:21 +0800,update for make api level < 11 happy,32,2600
+44,9025ec7,FAIL,0,NO,0,NO,0,2014-12-09 18:57:26 +0800,add materail style,32,2642
+45,75f3145,FAIL,0,NO,0,NO,0,2014-12-09 19:15:33 +0800,update version,32,2650
+46,ec6f101,FAIL,0,NO,0,NO,0,2014-12-09 23:48:46 +0800,1.0.4 released,32,2647
+47,55682b0,FAIL,0,NO,0,NO,0,2014-12-09 23:57:35 +0800,Merge pull request #15 from liaohuqiu/dev,32,2647
+48,adf0484,FAIL,0,NO,0,NO,0,2014-12-10 00:05:37 +0800,update readme,32,2647
+49,7523e75,FAIL,0,NO,0,NO,0,2014-12-10 00:06:24 +0800,Merge branch 'dev',32,2647
+50,dd72c2d,FAIL,0,NO,0,NO,0,2014-12-10 19:07:05 +0800,try to add a hook for UIRefreshComplete,33,2728
+51,e95e8c8,FAIL,0,NO,0,NO,0,2014-12-10 23:22:16 +0800,"add hook, fix #19; add minimum loading time, fix #18",33,2730
+52,ca4b3d4,FAIL,0,NO,0,NO,0,2014-12-10 23:29:49 +0800,"update version, release 1.0.5",33,2730
+53,d514e71,FAIL,0,NO,0,NO,0,2014-12-12 14:59:06 +0800,"add listview, add webview",35,2875
+54,f52be96,FAIL,0,NO,0,NO,0,2014-12-13 20:56:33 -0800,Add Travis config.,35,2875
+55,5741b51,FAIL,0,NO,0,NO,0,2014-12-14 13:30:06 +0800,Merge pull request #20 from ndahlquist/travis,35,2875
+56,a3126e7,FAIL,0,NO,0,NO,0,2014-12-17 10:56:03 +0800,add longpress / add another style,36,2997
+57,016904a,FAIL,0,NO,0,NO,0,2014-12-17 11:02:53 +0800,update readme,36,2997
+58,11e260d,FAIL,0,NO,0,NO,0,2014-12-17 11:06:08 +0800,update readme,36,2997
+59,e4b9421,FAIL,0,NO,0,NO,0,2014-12-19 17:32:54 +0800,fix bug for setMinLoadingTime,33,2731
+60,80329ac,FAIL,0,NO,0,NO,0,2014-12-20 00:45:20 +0800,update for making hook work right,33,2733
+61,d99fd17,FAIL,0,NO,0,NO,0,2014-12-10 23:29:49 +0800,"update version, release 1.0.5",33,2733
+62,8797724,FAIL,0,NO,0,NO,0,2014-12-12 14:59:06 +0800,"add listview, add webview",35,2878
+63,65260ec,FAIL,0,NO,0,NO,0,2014-12-13 20:56:33 -0800,Add Travis config.,35,2878
+64,000ec20,FAIL,0,NO,0,NO,0,2014-12-17 10:56:03 +0800,add longpress / add another style,36,3000
+65,72db9a1,FAIL,0,NO,0,NO,0,2014-12-17 11:02:53 +0800,update readme,36,3000
+66,6ee3d4a,FAIL,0,NO,0,NO,0,2014-12-17 11:06:08 +0800,update readme,36,3000
+67,0052b20,FAIL,0,NO,0,NO,0,2014-12-22 17:04:45 +0800,merge from dev,36,3000
+68,19b2b88,FAIL,0,NO,0,NO,0,2014-12-29 23:18:35 +0800,fix can not children while loading temporarily,36,3004
+69,a1e5c3d,FAIL,0,NO,0,NO,0,2015-01-07 23:10:01 +0800,udpate for template,36,3004
+70,2d72f89,FAIL,22,NO,0,NO,0,2015-01-08 10:29:51 +0800,update for cube-sdk,36,3005
+71,8165cee,FAIL,6,NO,0,NO,0,2015-01-11 08:13:41 +0800,update build.gradle,36,3005
+72,e38f1a7,FAIL,6,NO,0,NO,0,2015-01-12 14:15:41 +0800,remove mvn repostory,36,3005
+73,92db763,FAIL,6,NO,0,NO,0,2015-01-12 14:22:24 +0800,update repository,36,3005
+74,b41e613,FAIL,6,NO,0,NO,0,2015-01-12 14:26:07 +0800,update repository,36,3005
+75,49e0a54,FAIL,6,NO,0,NO,0,2015-01-12 14:36:27 +0800,update version,36,3005
+76,48a8f5b,FAIL,7,NO,0,NO,0,2015-01-12 14:49:20 +0800,update version,36,3005
+77,2257a3a,FAIL,6,NO,0,NO,0,2015-01-12 14:53:29 +0800,update build.gradle,36,3005
+78,3e961cf,FAIL,6,NO,0,NO,0,2015-01-12 15:00:48 +0800,Merge pull request #26 from liaohuqiu/dev,36,3005
+79,bd95584,FAIL,5,NO,0,NO,0,2015-01-12 15:02:27 +0800,update version,36,3005
+80,340a74b,FAIL,6,NO,0,NO,0,2015-01-12 15:06:38 +0800,Merge pull request #31 from liaohuqiu/dev,36,3005
+81,82574ee,FAIL,6,NO,0,NO,0,2015-01-13 03:14:50 -0500,"fix #33, send cancle event to children when release",36,3006
+82,edba6fc,FAIL,6,NO,0,NO,0,2015-01-13 03:18:37 -0500,update readme,36,3006
+83,ae9a2e2,FAIL,7,NO,0,NO,0,2015-01-15 00:24:57 +0800,add ViewPager,39,3213
+84,4142d08,FAIL,7,NO,0,NO,0,2015-01-16 22:44:17 +0800,add viewpager,39,3211
+85,0deae99,FAIL,6,NO,0,NO,0,2015-01-16 23:04:03 +0800,release 1.0.7,39,3211
+86,93e9fc1,FAIL,7,NO,0,NO,0,2015-01-16 23:05:48 +0800,Merge pull request #37 from liaohuqiu/dev,39,3211
+87,508c632,FAIL,6,NO,0,NO,0,2015-01-19 03:13:23 -0500,keep going with cube-sdk,39,3211
+88,e704cb0,FAIL,6,NO,0,NO,0,2015-01-19 16:19:32 +0800,try to add rental style,44,3636
+89,9bd60db,FAIL,6,NO,0,NO,0,2015-01-19 04:11:38 -0500,"add demo for listview and empty view, fix #38",40,3307
+90,dd0971f,FAIL,7,NO,0,NO,0,2015-01-20 16:54:00 +0800,commit for tower,45,3645
+91,bb8d9be,FAIL,6,NO,0,NO,0,2015-01-21 06:07:59 -0500,refactor PtrIndicator,44,3697
+92,678e5ba,FAIL,7,NO,0,NO,0,2015-01-22 06:19:48 -0500,update,44,3713
+93,7fcc42e,FAIL,7,NO,0,NO,0,2015-01-26 06:22:54 -0500,a lot of test,44,3722
+94,e50ab1c,FAIL,6,NO,0,NO,0,2015-01-27 14:17:58 +0800,update,44,3720
+95,a7bdbe8,FAIL,7,NO,0,NO,0,2015-01-27 06:19:39 -0500,update for style,44,3722
+96,7e3cf4c,FAIL,6,NO,0,NO,0,2015-01-28 06:22:55 -0500,another little step,44,3754
+97,36d4b44,FAIL,7,NO,0,NO,0,2015-01-29 06:18:37 -0500,"It's done, will be merge into dev tomorrow",44,3742
+98,3b80cdd,FAIL,7,NO,0,NO,0,2015-01-30 01:06:54 -0500,update name,44,3742
+99,bb6100e,FAIL,6,NO,0,NO,0,2015-01-30 01:29:11 -0500,Merge branch 'f-rentals' into dev,45,3838
+100,f38201c,FAIL,7,NO,0,NO,0,2015-01-30 05:19:41 -0500,update time,45,3838
+101,69027a0,FAIL,7,NO,0,NO,0,2015-02-05 23:46:21 -0800,Add header retain height on refresh,39,3217
+102,7c98864,FAIL,7,NO,0,NO,0,2015-02-06 16:56:30 +0800,Merge pull request #49 from jw2013/refresh-retain,39,3217
+103,3f0e2f7,FAIL,7,NO,0,NO,0,2015-02-06 05:08:57 -0500,process event more gracefully,45,3847
+104,c5d1c84,FAIL,6,NO,0,NO,0,2015-02-06 23:13:05 -0800,should check against scrollHeight on deciding scrollback,39,3217
+105,965f153,FAIL,7,NO,0,NO,0,2015-02-07 17:29:49 +0800,Merge pull request #50 from jw2013/fix-bug,39,3217
+106,4edeb5f,FAIL,6,NO,0,NO,0,2015-02-12 05:17:09 -0500,merge from master,46,3875
+107,903517b,FAIL,6,NO,0,NO,0,2015-02-13 00:40:06 +0800,snapshot 1.0.8.1-SNAPSHOT,46,3870
+108,e971e48,FAIL,6,NO,0,NO,0,2015-02-13 00:45:07 +0800,Merge pull request #53 from liaohuqiu/dev,46,3870
+109,f3b685e,FAIL,7,NO,0,NO,0,2015-02-17 23:37:06 +0800,add ptr-demo-debug.apk,46,3870
+110,53847b5,FAIL,6,NO,0,NO,0,2015-02-18 00:26:20 +0800,update apk link,46,3870
+111,a550d3c,FAIL,7,NO,0,NO,0,2015-02-18 00:28:27 +0800,fix #52,46,3870
+112,937857c,FAIL,7,NO,0,NO,0,2015-02-27 11:02:07 +0800,update for source code dependecy for eclipse,46,3869
+113,528a49b,FAIL,7,NO,0,NO,0,2015-02-27 11:02:15 +0800,update for source code dependecy for eclipse,46,3869
+114,3bc5d0c,FAIL,6,NO,0,NO,0,2015-03-06 19:54:49 +0800,update for cube,46,3886
+115,9040bf4,FAIL,6,NO,0,NO,0,2015-03-06 19:54:59 +0800,update for cube,46,3886
+116,c8965d5,FAIL,7,NO,0,NO,0,2015-03-11 21:46:24 +0800,fix #29,46,3894
+117,54c1642,FAIL,6,NO,0,NO,0,2015-03-11 22:42:08 +0800,update for 1.0.8.2-SNAPSHOT,46,3894
+118,7999189,FAIL,7,NO,0,NO,0,2015-03-12 08:02:26 +0800,"fix #59, add <applaction/> tag in AndroidManifest.xml",46,3894
+119,9fb344f,FAIL,7,NO,0,NO,0,2015-03-13 14:48:52 +0800,release 1.0.8,46,3894
+120,58cf089,FAIL,7,NO,0,NO,0,2015-03-13 03:31:58 -0400,update demo build.gradle,46,3894
+121,501b09d,FAIL,7,NO,0,NO,0,2015-03-13 05:13:51 -0400,update read me,46,3894
+122,b7c76e0,FAIL,7,NO,0,NO,0,2015-03-20 11:50:01 +0800,update readme,46,3894
+123,6578358,FAIL,7,NO,0,NO,0,2015-03-28 14:15:12 +0800,remove clog,47,3978
+124,8c0405f,FAIL,5,NO,0,NO,0,2015-03-28 14:31:00 +0800,fix #66,47,3978
+125,3371cbc,FAIL,6,NO,0,NO,0,2015-04-02 14:14:51 +0800,"update for add android-cube-app in Chinese README, thank you @红博-android",47,3978
+126,21a9a42,FAIL,7,NO,0,NO,0,2015-04-06 18:08:31 +0800,"fix #72, fix #69",47,4017
+127,8fd6907,FAIL,7,NO,0,NO,0,2015-04-06 18:08:36 +0800,"fix #72, fix #69",49,4038
+128,dc814c3,FAIL,7,NO,0,NO,0,2015-04-06 22:30:47 +0800,update for isEnabledNextPtrAtOnce,49,4039
+129,6f2009b,FAIL,7,NO,0,NO,0,2015-04-06 22:38:59 +0800,update for fix materail style,49,4039
+130,41a857d,FAIL,6,NO,0,NO,0,2015-04-06 22:45:08 +0800,release 1.0.9,49,4039
+131,e161dfa,FAIL,7,NO,0,NO,0,2015-04-08 14:27:30 +0800,fix typo,47,3978
+132,af76d20,FAIL,6,NO,0,NO,0,2015-04-08 14:30:32 +0800,remove dirty file,47,3978
+133,1517651,FAIL,7,NO,0,NO,0,2015-04-08 14:54:15 +0800,merge for #74,49,4039
+134,c00913e,FAIL,6,NO,0,NO,0,2015-04-08 14:54:32 +0800,Merge branch 'edwardaa-master',49,4039
+135,ca0b113,FAIL,7,NO,0,NO,0,2015-04-08 15:29:02 +0800,fix #73,49,4039
+136,45c64ff,FAIL,7,NO,0,NO,0,2015-04-14 14:11:26 +0800,update readme,49,4039
+137,2048dab,FAIL,7,NO,0,NO,0,2015-04-14 14:12:53 +0800,update readme,49,4039
+138,7f1e26b,FAIL,6,NO,0,NO,0,2015-04-17 07:06:09 +0800,keep update with cube,49,4039
+139,40af70c,FAIL,6,NO,0,NO,0,2015-04-28 11:54:13 +0800,update for update cube,49,4033
+140,1d5817e,FAIL,8,NO,0,NO,0,2015-05-05 14:36:20 +0800,update for reqesting following,49,4033
+141,3a34b2e,FAIL,6,NO,0,NO,0,2015-05-05 15:28:54 +0800,update cube version for demo,49,4033
+142,c0b5a70,FAIL,7,NO,0,NO,0,2015-05-12 10:30:22 +0800,update README,49,4033
+143,2b14a88,FAIL,7,NO,0,NO,0,2015-05-14 20:49:58 +0800,Fix A problem with  disableWhenHorizontalMove(),49,4033
+144,b37a527,FAIL,6,NO,0,NO,0,2015-05-15 10:02:44 +0800,Merge pull request #85 from AckywOw/master,49,4033
+145,6c99b6e,FAIL,7,NO,0,NO,0,2015-06-02 19:48:38 +0800,setOffsetToRefresh float div bug,49,4033
+146,fe85a85,FAIL,6,NO,0,NO,0,2015-06-02 20:10:50 +0800,Merge pull request #89 from funorpain/master,49,4033
+147,2b75300,FAIL,7,NO,0,NO,0,2015-06-06 18:48:48 +0800,Fix #96,49,4033
+148,20d961e,FAIL,6,NO,0,NO,0,2015-06-06 18:49:05 +0800,Merge pull request #96 from android-gems/master,49,4033
+149,18a47d5,FAIL,7,NO,0,NO,0,2015-06-06 18:59:41 +0800,"Revert ""Add badge for android-gems.com""",49,4033
+150,344b619,FAIL,6,NO,0,NO,0,2015-06-06 19:04:56 +0800,Merge pull request #97 from liaohuqiu/revert-96-master,49,4033
+151,28ea57e,FAIL,8,NO,0,NO,0,2015-06-06 19:09:04 +0800,Fix #100,49,4033
+152,33a612a,FAIL,6,NO,0,NO,0,2015-06-06 19:09:33 +0800,Merge pull request #100 from android-gems/master,49,4033
+153,781a10b,FAIL,7,NO,0,NO,0,2015-06-09 21:41:21 +0800,fix #102,49,4035
+154,dc40950,FAIL,6,NO,0,NO,0,2015-06-09 22:03:49 +0800,"The cancel event will be send once the position is moved, so pass the event to children when press down, fix #93, fix #102; Also fix #63",49,4032
+155,1b93f30,FAIL,7,NO,0,NO,0,2015-05-05 14:36:20 +0800,update for reqesting following,49,4033
+156,553f398,FAIL,7,NO,0,NO,0,2015-05-05 15:28:54 +0800,update cube version for demo,49,4033
+157,5533e82,FAIL,7,NO,0,NO,0,2015-05-12 10:30:22 +0800,update README,49,4033
+158,df9420f,FAIL,6,NO,0,NO,0,2015-05-14 20:49:58 +0800,Fix A problem with  disableWhenHorizontalMove(),49,4033
+159,eb5bc8b,FAIL,7,NO,0,NO,0,2015-06-02 19:48:38 +0800,setOffsetToRefresh float div bug,49,4033
+160,c980d84,FAIL,7,NO,0,NO,0,2015-06-06 18:48:48 +0800,Fix #96,49,4033
+161,8064bc8,FAIL,7,NO,0,NO,0,2015-06-06 18:59:41 +0800,"Revert ""Add badge for android-gems.com""",49,4033
+162,584561d,FAIL,7,NO,0,NO,0,2015-06-06 19:09:04 +0800,Fix #100,49,4033
+163,b7a1367,FAIL,7,NO,0,NO,0,2015-06-09 21:41:21 +0800,fix #102,49,4035
+164,376addd,FAIL,7,NO,0,NO,0,2015-06-09 22:03:49 +0800,"The cancel event will be send once the position is moved, so pass the event to children when press down, fix #93, fix #102; Also fix #63",49,4032
+165,9a6b4c9,FAIL,7,NO,0,NO,0,2015-06-09 22:28:10 +0800,"The ScrollChecker will update position and lead to send cancel event when mLastMoveEvent is null. fix #104, #80, #92",49,4031
+166,370c6f0,FAIL,6,NO,0,NO,0,2015-06-09 23:10:49 +0800,fix #90,50,4084
+167,7628ae3,FAIL,8,NO,0,NO,0,2015-06-09 23:16:11 +0800,update version,50,4084
+168,3cdc3ad,FAIL,6,NO,0,NO,0,2015-06-09 23:18:01 +0800,"merge from dev, for 1.0.9.2-SNAPSHOT",50,4084
+169,8420b6d,FAIL,7,NO,0,NO,0,2015-06-10 10:18:50 +0800,release 1.0.10,50,4084
+170,13b6e23,FAIL,8,NO,0,NO,0,2015-06-10 10:19:18 +0800,Merge branch 'dev' for release 1.0.10,50,4084
+171,03809a7,FAIL,6,NO,0,NO,0,2015-08-28 17:55:04 +0800,bug NullPointerException,50,4085
+172,9be3c43,FAIL,7,NO,0,NO,0,2015-08-28 06:24:08 -0400,Merge pull request #142 from comtu/master,50,4085
+173,25d2c0d,FAIL,8,NO,0,NO,0,2015-07-29 13:25:10 +0800,update for gradle version,50,4085
+174,ab9b4fc,FAIL,6,NO,0,NO,0,2015-07-29 13:50:16 +0800,"fix memory leak, fix #88, fix #103, fix #130",50,4101
+175,f543f0b,FAIL,7,NO,0,NO,0,2015-09-19 17:11:20 +0800,"fix #148, release 1.0.11",50,4101
+176,91e2379,FAIL,7,NO,0,NO,0,2015-11-27 23:47:24 -0800,remove cube-sdk-adv qq tribe number from readme,50,4101
+177,8ce3750,FAIL,7,NO,0,NO,0,2015-11-28 00:20:32 -0800,remove cube-sdk-adv qq tribe number from readme,50,4101
+178,695b7eb,FAIL,7,NO,0,NO,0,2016-01-12 15:44:14 +0800,fix typo,50,4101
+179,f5f838f,FAIL,7,NO,0,NO,0,2016-01-13 15:01:17 +0800,Merge pull request #187 from liaohuqiu/bruce_fix_typo,50,4101
+180,1efa3da,FAIL,6,NO,0,NO,0,2016-04-20 11:25:47 +0800,1.消除flag常量警告；2.调整offset歧义；3.header layout计算top可读性,50,4104
+181,46fdc86,FAIL,7,NO,0,NO,0,2016-05-03 22:01:31 -0500,Merge pull request #222 from avenwu/master,50,4104

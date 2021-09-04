@@ -1,0 +1,1189 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,2b2b9cf5,SUCCESS,30,SUCCESS,18,SUCCESS,11,2010-12-10 12:04:35 +0000,"initial import of jsonschema2pojo core, cli, maven",25,1018
+1,d3ef9e67,SUCCESS,5,SUCCESS,8,SUCCESS,9,2010-12-10 12:33:12 +0000,renamed maven plugin project (convention),25,1018
+2,069b5449,SUCCESS,7,SUCCESS,8,SUCCESS,12,2010-12-10 13:59:42 +0000,added javadoc & sources plugins,25,1018
+3,dfec3ef9,SUCCESS,6,SUCCESS,7,SUCCESS,9,2010-12-10 14:47:44 +0000,added javadocs,25,1018
+4,2562c7e5,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-12-12 22:26:30 +0000,added source path changes during plugin execution,25,1021
+5,67e0b811,SUCCESS,7,SUCCESS,8,SUCCESS,8,2010-12-12 22:55:09 +0000,added targetPackage configuration property to plugin,25,1022
+6,532e4fcf,SUCCESS,8,SUCCESS,9,SUCCESS,9,2010-12-12 23:16:30 +0000,added gpg plugin for artifact signing,25,1022
+7,df232e70,SUCCESS,8,SUCCESS,10,SUCCESS,10,2010-12-13 10:49:08 +0000,fixed maven plugin failure message,25,1023
+8,f8f72534,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-12-13 19:44:39 +0000,added sonatype parent to pom,25,1023
+9,13fdbafa,SUCCESS,8,SUCCESS,10,SUCCESS,12,2010-12-13 19:50:42 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.0,25,1023
+10,050aabfd,SUCCESS,9,SUCCESS,11,SUCCESS,12,2010-12-13 19:50:45 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.0,25,1023
+11,9a080756,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-12-13 19:50:47 +0000,[maven-release-plugin] prepare for next development iteration,25,1023
+12,93001559,SUCCESS,8,SUCCESS,10,SUCCESS,11,2010-12-14 13:03:22 +0000,"updated scripts to remove reference to target/, it's only useful/relevant in dev",25,1028
+13,36fd1794,SUCCESS,9,SUCCESS,10,SUCCESS,11,2010-12-14 14:56:23 +0000,removed submodule apidocs from source control and added aggregate javadocs,25,1028
+14,55541938,SUCCESS,10,SUCCESS,11,SUCCESS,10,2010-12-14 15:32:23 +0000,merge release changes,25,1028
+15,d520e3c6,SUCCESS,8,SUCCESS,11,SUCCESS,10,2010-12-15 13:36:04 +0000,fixed javadoc generation applying workaround for MNG-2184 and renamed scripts,25,1028
+16,fc7b1408,SUCCESS,9,SUCCESS,12,SUCCESS,13,2010-12-15 22:05:00 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.1,25,1028
+17,a017de47,SUCCESS,9,SUCCESS,11,SUCCESS,13,2010-12-15 22:05:02 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.1,25,1028
+18,413a9545,SUCCESS,10,SUCCESS,12,SUCCESS,12,2010-12-15 22:05:03 +0000,[maven-release-plugin] prepare for next development iteration,25,1028
+19,2e9dd454,SUCCESS,9,SUCCESS,11,SUCCESS,12,2010-12-19 19:14:26 +0000,Added always-on builders without breaking code conventions,25,1046
+20,3bc0994e,SUCCESS,10,SUCCESS,11,SUCCESS,12,2010-12-19 20:43:26 +0000,Added cli and maven parameter to control the use of builder-methods,25,1126
+21,6822eb00,SUCCESS,10,SUCCESS,11,SUCCESS,13,2010-12-19 20:43:42 +0000,apidocs to support the previous commit,25,1126
+22,6d2573c0,SUCCESS,9,SUCCESS,11,SUCCESS,13,2010-12-19 20:47:40 +0000,removed left-over debugging code,25,1125
+23,97f6eded,SUCCESS,10,SUCCESS,10,SUCCESS,14,2010-12-20 22:17:50 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.2,25,1125
+24,e539d2d5,SUCCESS,10,SUCCESS,11,SUCCESS,12,2010-12-20 22:17:53 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.2,25,1125
+25,db260224,SUCCESS,10,SUCCESS,10,SUCCESS,13,2010-12-20 22:17:55 +0000,[maven-release-plugin] prepare for next development iteration,25,1125
+26,e3ed6785,SUCCESS,10,SUCCESS,13,FAIL,9,2010-12-22 23:18:08 +0000,"added support for additionalProperties rule, added java.io.Serializable to generated types",27,1283
+27,b6411cbb,SUCCESS,15,SUCCESS,12,SUCCESS,14,2010-12-23 00:02:45 +0000,"added support for additionalProperties rule, added java.io.Serializable to generated types",27,1284
+28,40f65f70,SUCCESS,10,SUCCESS,13,SUCCESS,13,2010-12-23 00:04:07 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.3,27,1284
+29,6b7420d7,SUCCESS,11,SUCCESS,13,SUCCESS,13,2010-12-23 00:04:09 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.3,27,1284
+30,dc7b51c4,SUCCESS,12,SUCCESS,14,SUCCESS,15,2010-12-23 00:04:11 +0000,[maven-release-plugin] prepare for next development iteration,27,1284
+31,b80e8db6,SUCCESS,23,SUCCESS,14,SUCCESS,15,2011-01-07 11:13:40 +0000,[issue 8] added support for non-complex type as schema root element,27,1395
+32,55d396a8,SUCCESS,12,SUCCESS,12,SUCCESS,12,2011-01-07 11:15:36 +0000,adding copies of LICENSE to indididual modules - allows maven-license-plugin configuration to work for both parent builds and module builds,27,1395
+33,1107bd68,SUCCESS,9,SUCCESS,11,SUCCESS,13,2011-01-07 17:47:40 +0000,added support for utc-millisec format,29,1448
+34,59df1bc1,SUCCESS,13,SUCCESS,13,SUCCESS,13,2011-01-08 17:22:26 +0000,switched back to explicit jackson version due to mvn assembly bug,29,1448
+35,0c9ebe54,SUCCESS,13,SUCCESS,11,SUCCESS,13,2011-01-08 17:25:58 +0000,switched back to explicit junit version due to mvn assembly bug,29,1448
+36,91b1d619,SUCCESS,9,SUCCESS,11,SUCCESS,14,2011-01-08 17:27:55 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.4,29,1448
+37,00a5b5a5,SUCCESS,8,SUCCESS,11,SUCCESS,12,2011-01-08 17:27:56 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.4,29,1448
+38,215bf7a8,SUCCESS,9,SUCCESS,11,SUCCESS,13,2011-01-08 17:27:58 +0000,[maven-release-plugin] prepare for next development iteration,29,1448
+39,6e8fd478,SUCCESS,10,SUCCESS,12,SUCCESS,14,2011-01-10 09:53:14 +0000,added license headers for FormatRule source files,29,1448
+40,f295c72a,SUCCESS,11,SUCCESS,13,SUCCESS,13,2011-01-10 09:55:35 +0000,[issue 6] removing head apidocs from source control,29,1448
+41,6814e8c6,SUCCESS,12,SUCCESS,13,SUCCESS,13,2011-01-12 15:19:02 +0000,[issue 9] fixed jackson annotation usage for correct enum deserialization,29,1506
+42,17289d7a,SUCCESS,11,SUCCESS,13,SUCCESS,15,2011-01-13 17:04:26 +0000,[issue 7] switched from using 'id' to 'javaType' when specifying target class name,29,1506
+43,7b2cde58,SUCCESS,10,SUCCESS,14,SUCCESS,18,2011-01-17 13:54:42 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.5,29,1506
+44,3d640455,SUCCESS,13,SUCCESS,15,SUCCESS,14,2011-01-17 13:54:45 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.5,29,1506
+45,769809b7,SUCCESS,12,SUCCESS,15,SUCCESS,15,2011-01-17 13:54:47 +0000,[maven-release-plugin] prepare for next development iteration,29,1506
+46,23767a0a,SUCCESS,13,SUCCESS,14,SUCCESS,16,2011-01-26 21:03:21 +0000,[doc] expanding all javadocs,33,1509
+47,69a6aeee,SUCCESS,10,SUCCESS,13,FAIL,13,2011-01-28 00:24:20 +0000,[docs] docfest 2011,33,1506
+48,864bb0c0,SUCCESS,10,SUCCESS,13,SUCCESS,14,2011-01-29 21:47:19 +0000,added support for 'title' and 'required',37,1606
+49,80eec853,FAIL,13,NO,0,NO,0,2011-02-13 21:22:27 +0000,"[issue 10] added new integration test framework, with tests for array and enum",42,1866
+50,f4180f96,FAIL,12,NO,0,NO,0,2011-02-14 00:11:19 +0000,[issue 10] fixed findbugs warnings,42,1878
+51,690196a6,SUCCESS,10,SUCCESS,14,SUCCESS,19,2011-02-15 10:06:16 +0000,"[issue 7] added support for absolute refs, relative refs and self refs",44,1829
+52,e87817e3,SUCCESS,12,SUCCESS,16,SUCCESS,19,2011-02-15 17:55:48 +0000,[issue 7] added support for ref fragment resolution,47,1934
+53,a442e841,FAIL,14,NO,0,NO,0,2011-02-17 22:18:30 +0000,[issue 10] merged changes from trunk,52,2206
+54,da685582,FAIL,12,NO,0,NO,0,2011-02-19 16:26:58 +0000,[issue 7] added ref test schemas,52,2268
+55,5e41ca02,FAIL,12,NO,0,NO,0,2011-02-21 17:16:03 +0000,[issue 7] expanded integration tests for,57,2383
+56,1a6a9b71,FAIL,13,NO,0,NO,0,2011-02-22 12:11:21 +0000,[issue 7] added integration tests for title and description,60,2515
+57,7a444c5f,FAIL,11,NO,0,NO,0,2011-02-22 12:31:31 +0000,[issue 11] fixed handling of empty or unrecognised value for type nodes,60,2526
+58,c5a1817d,FAIL,10,NO,0,NO,0,2011-02-22 14:41:06 +0000,[issue 12] changed format rule to allow format for types other than string,60,2554
+59,caadcecf,FAIL,11,NO,0,NO,0,2011-02-22 15:34:38 +0000,[issue 13] fixed marshal/unmarshal for properties with special characters in the name,60,2601
+60,8cf5087e,FAIL,11,NO,0,NO,0,2011-02-22 22:33:27 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.6,60,2601
+61,6a9a59a8,FAIL,10,NO,0,NO,0,2011-02-22 22:33:29 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.6,60,2601
+62,47706ea8,FAIL,12,NO,0,NO,0,2011-02-22 22:33:31 +0000,[maven-release-plugin] prepare for next development iteration,60,2601
+63,673b3463,FAIL,11,NO,0,NO,0,2011-02-23 18:05:20 +0000,[issue 15] added integration tests and implementation for 'default' schema rule,62,2787
+64,c55e06d1,FAIL,11,NO,0,NO,0,2011-02-24 09:50:48 +0000,[issue 15] added integration tests and implementation for 'default' schema rule,62,2802
+65,a310d803,FAIL,11,NO,0,NO,0,2011-02-24 11:16:56 +0000,[issue 7] added integration tests for optional and required,64,2903
+66,8f152151,FAIL,11,NO,0,NO,0,2011-02-24 12:00:56 +0000,"[issue 7] fixed absoluteRef test to generate a local absolute URL, proxy details no longer required to run integration suite",64,2924
+67,18361f76,FAIL,12,NO,0,NO,0,2011-02-24 14:21:42 +0000,[issue 19] fix copyright notices to include range of dates (2010-2011),64,2924
+68,85f422be,FAIL,15,NO,0,NO,0,2011-02-27 22:36:36 +0000,[issue 10] adding commons-jci snapshot built from r1070117 into a temporary repo hosted by the jsonschema2pojo googlecode site,64,2924
+69,74b47960,FAIL,13,NO,0,NO,0,2011-02-27 22:38:02 +0000,[issue 10] hosting maven repo in wiki repository instead,64,2924
+70,571901ac,FAIL,13,NO,0,NO,0,2011-02-27 22:52:30 +0000,[issue 10] fixed comment,64,2924
+71,ac2727d0,FAIL,11,NO,0,NO,0,2011-02-28 16:16:50 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.1.7,64,2924
+72,1980ab6c,FAIL,12,NO,0,NO,0,2011-02-28 16:16:52 +0000,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.7,64,2924
+73,aeebc56b,FAIL,12,NO,0,NO,0,2011-02-28 16:16:55 +0000,[maven-release-plugin] prepare for next development iteration,64,2924
+74,8d0128f6,FAIL,17,NO,0,NO,0,2011-03-16 11:37:16 +0000,[issue 20] added plugin version information to poms to ensure a stable build (and fix warnings in maven3),64,2924
+75,a39b7eb4,FAIL,14,NO,0,NO,0,2011-03-20 22:49:46 +0000,[issue 14] added support for 'extends' schema rule,65,2950
+76,b368e6d9,FAIL,15,NO,0,NO,0,2011-04-27 18:09:09 +0100,[issue 21] added better support for regex and URI type properties,66,3067
+77,f967b79b,FAIL,16,NO,0,NO,0,2011-04-28 17:43:34 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.1.8,66,3067
+78,f840b385,FAIL,16,NO,0,NO,0,2011-04-28 17:43:36 +0100,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.8,66,3067
+79,1edb8717,FAIL,18,NO,0,NO,0,2011-04-28 17:43:38 +0100,[maven-release-plugin] prepare for next development iteration,66,3067
+80,a85489cf,FAIL,16,NO,0,NO,0,2011-05-03 15:35:22 +0100,[issue 21] fixed javadocs,66,3067
+81,8a6a9a74,FAIL,17,NO,0,NO,0,2011-05-17 11:58:32 +0100,[doc] added info for forked-path workaround,66,3067
+82,a31cc691,FAIL,16,NO,0,NO,0,2011-05-17 12:03:25 +0100,[issue 20] added Intellij IDEA ignores into .hgignore,66,3067
+83,aa20cfa8,FAIL,16,NO,0,NO,0,2011-06-05 22:28:58 +0100,[issue 24] improve support for reusing existing types by added project dependencies onto plugin classpath,68,3148
+84,989ba055,FAIL,15,NO,0,NO,0,2011-06-05 22:32:26 +0100,[issue 25] make the addition of the output dir as a source root optional,68,3150
+85,a2faeaed,FAIL,14,NO,0,NO,0,2011-06-05 23:48:09 +0100,"[issue 26] added site plugin & plugin plugin to generate plugin documentation (minimal site, couple of reports)",68,3150
+86,c9b67fbd,FAIL,13,NO,0,NO,0,2011-06-07 22:44:07 +0100,[issue 24] switch to @requiresDependencyResolution and remove manual dependency resolution,68,3127
+87,52e9a6cb,FAIL,13,NO,0,NO,0,2011-06-07 22:57:04 +0100,[issue 26] fixing up docs,68,3127
+88,35b35480,FAIL,13,NO,0,NO,0,2011-06-09 22:41:31 +0100,[issue 29] omit null valued properties when deserializing pojos,68,3062
+89,c8df8184,FAIL,13,NO,0,NO,0,2011-06-09 23:00:11 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.1.9,68,3062
+90,31827cc8,FAIL,14,NO,0,NO,0,2011-06-09 23:00:12 +0100,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.9,68,3062
+91,80d54c33,FAIL,13,NO,0,NO,0,2011-06-09 23:00:15 +0100,[maven-release-plugin] prepare for next development iteration,68,3062
+92,873cb868,FAIL,14,NO,0,NO,0,2011-06-09 23:20:32 +0100,[issue 26] included site as attached artifact for jsonschema2pojo-maven-plugin,68,3062
+93,897013fa,FAIL,16,NO,0,NO,0,2011-06-09 23:32:33 +0100,[doc] improving generate goal docs,68,3062
+94,35e25111,FAIL,15,NO,0,NO,0,2011-06-12 17:51:38 +0100,[issue 30] fixed nullpointerexception on missing targetPackage,68,3062
+95,85d4d470,FAIL,14,NO,0,NO,0,2011-07-06 10:03:16 +0100,[issue 27] fix serialization order for properties based on order of appearance in the schema,68,3085
+96,39e65406,FAIL,14,NO,0,NO,0,2011-07-06 23:28:38 +0100,[doc] improve/fix javadocs,68,3085
+97,a247e81d,FAIL,14,NO,0,NO,0,2011-07-10 23:16:51 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.1.10,68,3085
+98,b4b2e669,FAIL,14,NO,0,NO,0,2011-07-10 23:16:53 +0100,[maven-release-plugin]  copy for tag jsonschema2pojo-0.1.10,68,3085
+99,041cc356,FAIL,14,NO,0,NO,0,2011-07-10 23:16:55 +0100,[maven-release-plugin] prepare for next development iteration,68,3085
+100,74db6fa0,FAIL,14,NO,0,NO,0,2011-09-25 22:31:38 +0100,[issue 31] move from commons-cli to JCommander in readiness for adding new behavioural property (for generating primitives vs wrapper types),69,3080
+101,246abf77,FAIL,12,NO,0,NO,0,2011-09-25 22:48:28 +0100,[issue 31] fixed findbugs warning re creating classloader outside privileged block,69,3085
+102,1910b96a,FAIL,16,NO,0,NO,0,2011-09-25 23:27:15 +0100,[issue 31] switch from primitive to wrapper types to support nullable properties (as per json input),69,3085
+103,d9821bfa,FAIL,14,NO,0,NO,0,2011-09-26 21:47:00 +0100,"[issue 31] added usePrimitives behavioural property, allowing users to enable old behaviour and use primitives",68,2953
+104,ce63942a,FAIL,14,NO,0,NO,0,2011-09-26 21:57:33 +0100,[issue 32] remove deprecated optional rule,65,2850
+105,f34e6e9e,FAIL,14,NO,0,NO,0,2011-10-29 20:56:59 +0100,[issue 33] rename ignore file from hg to git,65,2850
+106,dcaf54b7,FAIL,15,NO,0,NO,0,2011-10-29 21:07:42 +0100,[issue 33] update scm info and snapshots repo to at git,65,2850
+107,83033383,FAIL,15,NO,0,NO,0,2011-11-17 23:57:47 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.2.0,65,2850
+108,dda64595,FAIL,14,NO,0,NO,0,2011-11-17 23:57:53 +0000,[maven-release-plugin] prepare for next development iteration,65,2850
+109,e7ff994c,FAIL,16,NO,0,NO,0,2011-11-18 15:53:23 +0000,[issue 20] maven 3 compatibility for site plugin,65,2850
+110,b3ed4366,FAIL,16,NO,0,NO,0,2011-11-20 22:00:59 +0000,[issue 35] simplified API with some default constructors,66,2874
+111,858dddc3,FAIL,17,NO,0,NO,0,2011-11-20 22:01:33 +0000,[issue 35] add example source to repo so that it is kept up-to-date,67,2888
+112,9a9aa474,FAIL,16,NO,0,NO,0,2011-11-20 23:05:07 +0000,[issue 35] added the release script i've been using for the last year\!,67,2888
+113,0fa3fdc8,FAIL,16,NO,0,NO,0,2011-12-01 21:04:10 +0000,[issue 34] add lifecycle mapping to make jsonschema2pojo m2e compatible,67,2888
+114,5706c0f8,FAIL,16,NO,0,NO,0,2012-01-16 22:46:08 +0000,[issue 37] Add jsonschema2pojo.skip plugin param to skip execution,67,2895
+115,02722539,FAIL,16,NO,0,NO,0,2012-01-16 22:47:13 +0000,Merge branch 'issue37/skipparam',67,2895
+116,3cef2cfa,FAIL,15,NO,0,NO,0,2012-01-16 23:32:29 +0000,[issue 23] Parameterise dependency version,67,2895
+117,45075b5c,FAIL,17,NO,0,NO,0,2012-01-16 23:33:09 +0000,[issue 23] Add new module for ant task(s),67,2895
+118,d4dadc6e,FAIL,16,NO,0,NO,0,2012-01-16 23:34:27 +0000,[issue 23] Add ant task (wrapper around cli implementation),68,2945
+119,09f2b992,FAIL,16,NO,0,NO,0,2012-01-17 22:56:17 +0000,[issue 23] Complete ant task & add integration test,69,2986
+120,d237c9eb,FAIL,16,NO,0,NO,0,2012-01-17 23:07:23 +0000,Merge branch 'issue23/ant',69,2986
+121,85bde263,FAIL,16,NO,0,NO,0,2012-01-18 00:16:05 +0000,[issue 23] Add ant task documentation,69,2982
+122,4f23c0ed,FAIL,16,NO,0,NO,0,2012-01-18 00:16:33 +0000,Merge branch 'issue23/ant',69,2982
+123,f13adf21,FAIL,17,NO,0,NO,0,2012-01-18 00:22:52 +0000,[issue 23] Add stylesheet to improve styles for task documentation,69,2982
+124,11b7c4ec,FAIL,17,NO,0,NO,0,2012-01-18 00:23:08 +0000,Merge branch 'issue23/ant',69,2982
+125,b2c0a709,FAIL,18,NO,0,NO,0,2012-01-18 22:15:40 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.2.1,69,2982
+126,a6d83a1b,FAIL,17,NO,0,NO,0,2012-01-18 22:15:46 +0000,[maven-release-plugin] prepare for next development iteration,69,2982
+127,1df0e4f4,FAIL,16,NO,0,NO,0,2012-01-19 20:30:42 +0000,[issue 35] fix version replacement when new release is cut,69,2982
+128,c5f39aa7,FAIL,17,NO,0,NO,0,2012-01-19 20:37:24 +0000,[issue 35] add check for googlecode_upload (to guard against missing downloads),69,2982
+129,dfb6a76f,FAIL,16,NO,0,NO,0,2012-01-26 00:19:22 +0000,[issue 39] Add support for word delimiters when creating Java Bean properties,69,3012
+130,e6f8c904,FAIL,16,NO,0,NO,0,2012-01-30 23:13:17 +0000,"[issue 39] Add integration test using underscore, hyphen and space delimiters",69,3028
+131,6774a642,FAIL,19,NO,0,NO,0,2012-01-30 23:18:17 +0000,Merge branch 'issue39/camelcasewords',69,3028
+132,04ba4688,FAIL,18,NO,0,NO,0,2012-01-30 23:42:29 +0000,[issue 39] Add delimiters property to Ant task integration test,69,3028
+133,a13796a1,FAIL,19,NO,0,NO,0,2012-01-30 23:51:57 +0000,[issue 39] Fix mojo parameter annotations and type (for propertyWordDelimiters),69,3028
+134,d547bd00,FAIL,16,NO,0,NO,0,2012-01-30 23:52:21 +0000,Merge branch 'issue39/camelcasewords',69,3028
+135,11ee3eda,FAIL,18,NO,0,NO,0,2012-02-03 23:02:35 +0000,"[doc] add missing javadocs, fix documentation errors",70,3028
+136,cde24708,FAIL,16,NO,0,NO,0,2012-02-03 23:03:21 +0000,[issue 35] Simplify example,70,3026
+137,360ca173,FAIL,16,NO,0,NO,0,2012-02-25 22:26:47 +0000,[issue 40] Sort incoming files for predictable output,70,3031
+138,cd225332,FAIL,15,NO,0,NO,0,2012-04-18 22:34:11 +0100,[issue 41] add support for primitive types when using javaType,71,3057
+139,0685bcf9,FAIL,16,NO,0,NO,0,2012-04-18 23:23:43 +0100,[issue 41] add support for config property useLongIntegers,71,3106
+140,cd3e5b63,FAIL,17,NO,0,NO,0,2012-04-18 23:27:23 +0100,[issue 45] remove java.io.Serializable,71,3102
+141,3a97cccc,FAIL,18,NO,0,NO,0,2012-04-18 23:54:20 +0100,[issue 44] switch to jackson 2.0,71,3102
+142,5e66379c,FAIL,17,NO,0,NO,0,2012-04-18 23:57:08 +0100,[issue 44] upgrade to latest 1.x jackson before moving to 2.x in 0.3.0,71,3106
+143,2d1d23ce,FAIL,15,NO,0,NO,0,2012-04-19 23:33:34 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.2.2,71,3106
+144,6c590482,FAIL,18,NO,0,NO,0,2012-04-19 23:33:47 +0100,[maven-release-plugin] prepare for next development iteration,71,3106
+145,949b76bf,FAIL,17,NO,0,NO,0,2012-04-20 23:17:30 +0100,[issue 45] remove java.io.Serializable,71,3102
+146,efa32768,FAIL,17,NO,0,NO,0,2012-04-20 23:18:30 +0100,[issue 44] switch to jackson 2.0,71,3102
+147,cea24bb0,FAIL,17,NO,0,NO,0,2012-04-22 23:40:20 +0100,[issue 35] add dependencies to download archives,71,3102
+148,6961e11b,FAIL,16,NO,0,NO,0,2012-04-25 22:11:21 +0100,[issue 46] Fixed NullPointerException when propertyWordDelimiters is not specified,71,3106
+149,4499f93a,FAIL,18,NO,0,NO,0,2012-04-25 22:21:13 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.2.3,71,3106
+150,4703f413,FAIL,19,NO,0,NO,0,2012-04-25 22:21:19 +0100,[maven-release-plugin] prepare for next development iteration,71,3106
+151,f4f85c48,FAIL,18,NO,0,NO,0,2012-04-25 22:25:55 +0100,Merge commit '6961e11ba289',71,3102
+152,88842f7e,FAIL,19,NO,0,NO,0,2012-05-07 17:23:02 -0700,[issue 47] Fix IllegalArgumentException when using hyphen delimiter,71,3106
+153,3dd8a913,FAIL,19,NO,0,NO,0,2012-05-08 13:23:43 +0100,Merge commit '88842f7ec5ed85123258b64a231b7f912017e9e4' into release/0.2.x,71,3106
+154,4a2ca7be,FAIL,21,NO,0,NO,0,2012-05-08 22:46:59 +0100,"[issue 17] add naïve support for union types, using first type found",71,3122
+155,dbefd2b0,FAIL,18,NO,0,NO,0,2012-05-09 21:42:02 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.2.4,71,3122
+156,49924741,FAIL,18,NO,0,NO,0,2012-05-09 21:42:07 +0100,[maven-release-plugin] prepare for next development iteration,71,3122
+157,aff26432,FAIL,18,NO,0,NO,0,2012-05-11 22:58:54 +0100,[issue 48] add parent directory to archives (more polite when extracting),71,3122
+158,9cd3fbbf,FAIL,15,NO,0,NO,0,2012-05-12 19:28:06 +0100,Merge branch 'release/0.2.x',71,3122
+159,2dad6c07,FAIL,18,NO,0,NO,0,2012-05-12 19:35:58 +0100,[issue 49] move dependency versions and scopes into parent,71,3122
+160,a079d09b,FAIL,15,NO,0,NO,0,2012-05-12 20:10:42 +0100,Avoid creating ObjectMapper for every schema encountered (they're threadsafe),71,3123
+161,104770c5,FAIL,16,NO,0,NO,0,2012-05-12 22:16:04 +0100,[issue 49] EasyMock -> Mockito,71,3107
+162,4623db3b,FAIL,13,NO,0,NO,0,2012-05-30 22:58:13 +0100,Moved LICENSE and NOTICE to their preferred location,71,3107
+163,cc0adb39,FAIL,16,NO,0,NO,0,2012-06-02 19:34:56 +0100,mb:464dbed9-4dbe-4649-8661-7006a7d05238,71,3107
+164,000a3060,FAIL,17,NO,0,NO,0,2012-07-02 23:42:06 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.3.0,71,3107
+165,a45520ec,FAIL,18,NO,0,NO,0,2012-07-02 23:42:11 +0100,[maven-release-plugin] prepare for next development iteration,71,3107
+166,1c5551b6,FAIL,17,NO,0,NO,0,2012-07-04 21:45:03 +0100,Expand docs on how to release,71,3107
+167,2e4f611c,FAIL,15,NO,0,NO,0,2012-07-04 21:45:40 +0100,Continue to upload archives when code example has no changes,71,3107
+168,062f584a,FAIL,17,NO,0,NO,0,2012-07-04 23:27:15 +0100,[issue 53] refactor test helpers to support config params more easily,71,3123
+169,a9fb73f1,FAIL,16,NO,0,NO,0,2012-07-05 20:01:12 +0100,Formatting: tabs -> spaces,71,3123
+170,8fc5ef78,FAIL,17,NO,0,NO,0,2012-07-05 20:34:05 +0100,[issue 53] refactor test helpers to support config params more easily,71,3124
+171,b964985a,FAIL,16,NO,0,NO,0,2012-07-05 20:45:17 +0100,"Modified GenerationConfig.getSource() to return an Iterator<File> instead of File, to support multiple source files/folders. Added more explicit error handling to Schema.create(URI), that provides the Schema id in the error.",72,3162
+172,56ac089c,FAIL,16,NO,0,NO,0,2012-07-06 11:19:01 +0100,"Removed @required annotation from sourceDirectories. It is not required by itself, but one property from sourceDirectories and sourceDirectory *is* required.",72,3162
+173,bbb75977,FAIL,16,NO,0,NO,0,2012-07-06 16:26:07 +0100,[issue 53] add 'includeHashcodeAndEquals' config property,72,3179
+174,28eb245d,FAIL,16,NO,0,NO,0,2012-07-06 17:31:28 +0100,[issue 53] add 'includeToString' config property,73,3223
+175,8d861dfb,FAIL,16,NO,0,NO,0,2012-07-06 18:13:35 +0100,Allow for multiple -s or --source parameters to be passed on the command line.,72,3164
+176,0a740ac4,FAIL,17,NO,0,NO,0,2012-07-06 20:48:58 +0100,Add an example pom.xml for exploratory testing,73,3223
+177,bbf0b41c,FAIL,16,NO,0,NO,0,2012-07-06 21:26:52 +0100,[issue 53] reverse polarity of cli arguments (works better there),73,3227
+178,1fab56b6,FAIL,16,NO,0,NO,0,2012-07-06 22:00:09 +0100,[issue 58] improve handling of empty/null values in enums,73,3242
+179,2e4bd579,FAIL,13,NO,0,NO,0,2012-07-06 23:44:22 +0100,Merge branch 'master' into multiple-source-directories,74,3286
+180,1f1c18b3,FAIL,17,NO,0,NO,0,2012-07-07 00:05:05 +0100,Fixed UTF-8 header.,74,3286
+181,cefb7160,FAIL,16,NO,0,NO,0,2012-07-09 20:13:49 +0100,Updated from suggestions in Joe Littlejohn's email of 09/07/2012.,73,3267
+182,82afed4c,FAIL,16,NO,0,NO,0,2012-07-09 20:47:01 +0100,[issue 59] fix handling of empty array as default,73,3251
+183,809713dd,FAIL,18,NO,0,NO,0,2012-07-09 21:28:40 +0100,Merge remote-tracking branch 'paulgrime/multiple-source-directories',73,3276
+184,486b62da,FAIL,18,NO,0,NO,0,2012-07-09 21:48:39 +0100,Formatting: tabs -> spaces,73,3276
+185,4bc3e2e9,FAIL,18,NO,0,NO,0,2012-07-09 22:24:41 +0100,[doc] fix bad javadoc links,73,3276
+186,4008e437,FAIL,19,NO,0,NO,0,2012-07-09 22:41:21 +0100,[issue 61] fix default of null for simple properties,73,3281
+187,870915c5,FAIL,17,NO,0,NO,0,2012-07-11 00:38:25 +0100,[issue 52] remove pointless abstractions,71,3234
+188,2f82543c,FAIL,19,NO,0,NO,0,2012-07-16 23:29:27 +0100,[issue 52] add support for 'annotationStyle' JACKSON and NONE,75,3229
+189,24e3a106,FAIL,18,NO,0,NO,0,2012-07-17 00:09:47 +0100,[doc] update _all_ javadoc links to point to draft-03,75,3229
+190,8466709f,FAIL,18,NO,0,NO,0,2012-07-18 21:52:23 +0100,[issue 52] switch annotationStyle to String type for Maven 2 support,75,3241
+191,ec120725,FAIL,18,NO,0,NO,0,2012-07-19 21:25:04 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.3.1,75,3241
+192,70c49d27,FAIL,20,NO,0,NO,0,2012-07-19 21:25:10 +0100,[maven-release-plugin] prepare for next development iteration,75,3241
+193,7c8c74a7,FAIL,19,NO,0,NO,0,2012-07-19 21:38:45 +0100,[doc] fix javadoc links,75,3241
+194,b37b1248,FAIL,18,NO,0,NO,0,2012-07-24 23:07:03 +0100,"[issue 56] replace fragile, platform specific unit test with integration test",75,3233
+195,ca6a28a8,FAIL,18,NO,0,NO,0,2012-07-24 23:48:47 +0100,[issue 63] add support for property names that are keywords,75,3247
+196,100d34d6,FAIL,21,NO,0,NO,0,2012-07-30 21:39:06 +0100,[issue 18] add javax.validation dependency,75,3247
+197,b49ac78e,FAIL,18,NO,0,NO,0,2012-08-03 20:31:40 +0100,[issue 64] add support for jackson 1.x annotator,76,3301
+198,fd914bb6,FAIL,19,NO,0,NO,0,2012-08-03 23:23:08 +0100,[issue 64] add integration test that generates jackson1 types,77,3370
+199,f27c4577,FAIL,16,NO,0,NO,0,2012-08-05 20:36:17 +0100,Merge branch 'issue64/jackson1',77,3370
+200,81cebef1,FAIL,16,NO,0,NO,0,2012-08-07 22:55:08 +0100,[issue 18] add integration tests for all expected jsr-303 annotations,76,3347
+201,f10c7a30,FAIL,14,NO,0,NO,0,2012-08-07 23:02:14 +0100,[issue 18] add includeJsr303Annotations config property,76,3365
+202,57148aed,FAIL,16,NO,0,NO,0,2012-08-08 22:16:57 +0100,[issue 18] add support for jsr-303 to new schema rules,79,3439
+203,06d19cd2,FAIL,17,NO,0,NO,0,2012-08-08 23:00:56 +0100,Merge branch 'issue18/jsr303',81,3562
+204,396004ef,FAIL,17,NO,0,NO,0,2012-08-08 23:13:04 +0100,[issue 18] enable tests where jsr-303 annotations are disabled,81,3570
+205,cfa0889a,SUCCESS,17,SUCCESS,21,SUCCESS,19,2012-08-08 23:15:05 +0100,[issue 68] switch from commons-jci to jsr-199 compilation for ITs,81,3562
+206,0b700445,SUCCESS,17,FAIL,9,NO,0,2012-07-26 11:02:54 +0100,[issue 56] Use org.hamcrest.hamcrest:all:1.3 as that version has Maven sources and 1.1 doesn't.,81,3562
+207,807aa686,SUCCESS,15,FAIL,9,NO,0,2012-07-26 11:05:08 +0100,[issue 56] Changed the tests to compare Files rather than Strings.,81,3565
+208,b2ece53b,SUCCESS,14,SUCCESS,19,SUCCESS,17,2012-07-26 11:07:13 +0100,[issue 56] Explicitly use org.mockito.Mockito.isA(),81,3565
+209,1c3462c8,SUCCESS,18,SUCCESS,23,SUCCESS,20,2012-08-08 23:32:22 +0100,[issue 56] minor tidying after code review,81,3567
+210,ede9d502,SUCCESS,16,SUCCESS,21,SUCCESS,18,2012-08-11 23:46:39 +0100,"[issue 64] remove description, options for enum are printed instead",81,3567
+211,4e015395,SUCCESS,15,SUCCESS,18,SUCCESS,19,2012-08-14 10:39:22 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.3.2,81,3567
+212,9bcf2bc0,SUCCESS,14,SUCCESS,20,SUCCESS,19,2012-08-14 10:39:26 +0100,[maven-release-plugin] prepare for next development iteration,81,3567
+213,5664bc7e,SUCCESS,17,SUCCESS,22,SUCCESS,19,2012-08-14 19:21:43 +0100,[issue 48] move release script to a more convenient location,81,3567
+214,cf885064,SUCCESS,17,SUCCESS,19,SUCCESS,19,2012-08-20 21:03:27 +0100,[issue 71] make maven mojo @threadSafe,81,3529
+215,38746d37,SUCCESS,14,SUCCESS,21,SUCCESS,19,2012-08-21 22:12:31 +0100,Tabs -> spaces,81,3529
+216,d163d55b,SUCCESS,16,SUCCESS,20,SUCCESS,21,2012-08-22 19:53:31 +0100,Fix whitespace & indentation,81,3529
+217,c4e251c3,SUCCESS,16,SUCCESS,20,SUCCESS,17,2012-08-22 20:01:00 +0100,Fix some minor checkstyle violations,81,3529
+218,511af2a0,SUCCESS,14,SUCCESS,19,SUCCESS,17,2012-08-20 22:05:09 +0100,[issue 42] add a new sourceType config option,82,3555
+219,4cf90864,SUCCESS,15,SUCCESS,19,SUCCESS,17,2012-08-26 22:15:24 +0100,[issue 42] add json->jsonschema SchemaGenerator and integration tests,84,3726
+220,9f6457fc,SUCCESS,15,SUCCESS,20,SUCCESS,19,2012-08-26 22:28:29 +0100,[issue 44] use JsonInclude instead of deprecated JsonSerialize,81,3522
+221,1aa3713f,SUCCESS,15,SUCCESS,20,SUCCESS,17,2012-08-26 22:39:00 +0100,"Tidying poms, removing some redundancy",81,3522
+222,2fe5e8dd,SUCCESS,16,SUCCESS,20,SUCCESS,21,2012-08-26 23:09:05 +0100,[issue 42] add integration test for example schemas from issue tracker,85,3758
+223,5e253efc,SUCCESS,16,SUCCESS,21,SUCCESS,20,2012-08-27 21:52:33 +0100,[issue 72] add 'abstract' to reserved words test,81,3523
+224,e24d361e,SUCCESS,15,SUCCESS,23,SUCCESS,22,2012-08-27 21:54:58 +0100,Merge branch 'issue42/pojobyexample',85,3752
+225,04e36177,SUCCESS,17,SUCCESS,22,SUCCESS,18,2012-08-28 23:35:01 +0100,[issue 72] fix java keyword escape when using propertyWordDelimiters,85,3753
+226,9bab2e8b,SUCCESS,15,SUCCESS,19,SUCCESS,17,2012-08-29 21:39:02 +0100,[issue 73] apply patch from @gertzen for better naming,86,3768
+227,d0fa7b9b,SUCCESS,14,SUCCESS,20,SUCCESS,18,2012-08-29 21:40:07 +0100,[issue 73] improved Enum naming patch from @gertzen,86,3769
+228,15ad823d,SUCCESS,14,SUCCESS,20,SUCCESS,19,2012-08-29 21:42:55 +0100,Merge branch 'issue73/usedelimitersinallnames',86,3772
+229,c2dcd910,SUCCESS,15,SUCCESS,21,SUCCESS,16,2012-08-29 21:46:56 +0100,Add Eclipse code formatter config to help contributors,86,3772
+230,ffcb02e0,SUCCESS,15,SUCCESS,19,SUCCESS,18,2012-08-29 21:50:22 +0100,Tabs -> spaces,86,3772
+231,3879275c,SUCCESS,16,SUCCESS,22,SUCCESS,19,2012-08-29 22:14:20 +0100,[issue 73] moved all illegal character replacement into NameHelper,86,3770
+232,9b7e122f,SUCCESS,16,SUCCESS,20,SUCCESS,18,2012-08-29 22:26:07 +0100,[issue 73] expanded EnumIT to test propertyWordDelimiter support,86,3771
+233,9098d382,SUCCESS,16,SUCCESS,20,SUCCESS,20,2012-09-02 22:09:50 +0100,Reinstate javadoc & sources for parent to get aggregated artifacts,86,3771
+234,376d4e99,SUCCESS,16,SUCCESS,21,SUCCESS,20,2012-09-02 22:40:47 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.3.3,86,3771
+235,dcd3cc2b,SUCCESS,17,SUCCESS,24,SUCCESS,20,2012-09-02 22:40:54 +0100,[maven-release-plugin] prepare for next development iteration,86,3771
+236,6158cef4,SUCCESS,18,SUCCESS,23,SUCCESS,18,2012-10-21 21:17:29 +0100,[issue 75] make better singular names for 'ies' suffix plurals,86,3784
+237,ed977223,SUCCESS,14,SUCCESS,21,SUCCESS,19,2012-10-30 10:59:52 +0000,Add JSR-303 Size annotations for schema rules minLength and maxLength,87,3826
+238,2bacf797,SUCCESS,13,SUCCESS,23,SUCCESS,20,2012-11-01 10:42:37 +0000,[issue 76] fix repeated refs to an array schema causing collection type to be lost,87,3839
+239,e6415a09,SUCCESS,18,SUCCESS,20,SUCCESS,20,2012-11-29 10:46:57 +0000,"Add @Valid annotations to objects and arrays of objects if JSR 303 is enabled, to allow validation of whole object graphs",88,3894
+240,cf76f696,SUCCESS,18,SUCCESS,20,SUCCESS,18,2012-11-29 12:13:06 +0000,Remove unnecessary imports,88,3892
+241,debcbfab,SUCCESS,14,SUCCESS,21,SUCCESS,18,2012-12-05 22:49:59 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.3.4,88,3892
+242,a0c9f992,SUCCESS,16,SUCCESS,21,SUCCESS,18,2012-12-05 22:50:04 +0000,[maven-release-plugin] prepare for next development iteration,88,3892
+243,6a89e199,SUCCESS,15,SUCCESS,17,SUCCESS,17,2013-02-05 20:49:50 +0000,Updating dependency versions,88,3892
+244,c4085ee4,SUCCESS,16,SUCCESS,23,FAIL,14,2013-02-06 23:54:14 +0000,[issue 85] [issue 87] Add support for http:// and resource: refs,92,4044
+245,0202966a,SUCCESS,17,SUCCESS,24,FAIL,15,2013-02-09 18:19:51 +0000,[issue 87] switch to self-hosted schemas as official ones contain broken links,92,4041
+246,65032769,SUCCESS,18,SUCCESS,24,FAIL,13,2013-02-09 20:00:25 +0000,[issue 84] avoid creating 'getClass' for properties called 'class',92,4053
+247,f318e05a,SUCCESS,16,SUCCESS,22,FAIL,12,2013-02-09 20:01:36 +0000,[issue 84] avoid creating 'getClass' for properties called 'class',92,4053
+248,215d1555,SUCCESS,15,SUCCESS,21,FAIL,14,2013-02-10 22:42:40 +0000,Update copyright notice for 2013,92,4053
+249,6fe7a1f9,SUCCESS,16,SUCCESS,20,FAIL,12,2013-02-10 22:43:35 +0000,Tabs -> spaces,92,4053
+250,c45cb264,SUCCESS,17,SUCCESS,19,FAIL,13,2013-02-11 21:00:13 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.3.5,92,4053
+251,42079c00,SUCCESS,16,SUCCESS,21,FAIL,12,2013-02-11 21:00:19 +0000,[maven-release-plugin] prepare for next development iteration,92,4053
+252,e9cd6fb0,SUCCESS,17,SUCCESS,21,FAIL,14,2013-02-26 22:39:33 +0100,"SchemaGenerator, ContentResolver: read floats as BigDecimals",92,4057
+253,a8d4c340,SUCCESS,15,SUCCESS,20,FAIL,12,2013-02-26 22:41:14 +0100,SchemaMapper: use a JsonNodeFactory to create ObjectNodes,92,4058
+254,5937b2c3,SUCCESS,15,SUCCESS,20,FAIL,12,2013-02-27 09:08:51 -0800,Merge pull request #1 from fge/master,92,4058
+255,5f9ad2cc,SUCCESS,14,FAIL,23,NO,0,2013-03-12 23:08:25 +0000,Add customAnnotator configuration property,97,4297
+256,5d78ec2a,SUCCESS,17,SUCCESS,23,FAIL,14,2013-03-12 23:34:02 +0000,Pass more contextual information to annotators,97,4297
+257,b5095190,SUCCESS,17,SUCCESS,25,FAIL,14,2013-03-12 23:50:11 +0000,Merge branch 'issue86/customannotator',97,4302
+258,737c941a,SUCCESS,17,SUCCESS,23,FAIL,14,2013-03-12 23:42:17 +0000,Rename SchemaRule -> Rule,97,4302
+259,0516c599,SUCCESS,17,SUCCESS,24,FAIL,13,2013-03-12 23:46:45 +0000,Rename JsonSchemaRule -> SchemaRule,97,4302
+260,66526174,SUCCESS,17,SUCCESS,20,FAIL,12,2013-03-12 23:59:03 +0000,Fix reading property attributes from ref schema,97,4310
+261,2b985c7d,SUCCESS,17,SUCCESS,21,FAIL,14,2013-03-15 21:36:50 +0000,[issue 93] Improved handling of class name conflicts,97,4323
+262,da76222d,SUCCESS,17,SUCCESS,23,FAIL,14,2013-03-17 08:12:06 +0000,[issue 75] Improve inflection when making array names singular,98,4437
+263,62da917c,SUCCESS,19,SUCCESS,21,FAIL,14,2013-03-24 21:33:59 +0000,[issue 95] added 'quick lookup' map to enums to optimize fromValue method,98,4450
+264,4d2d0915,SUCCESS,17,SUCCESS,20,FAIL,13,2013-03-25 00:02:18 +0000,[issue 89] add classpath/classpathRef options to ant task,98,4498
+265,b2a2fc2c,SUCCESS,17,SUCCESS,20,FAIL,14,2013-03-27 22:29:57 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.3.6,98,4498
+266,7aba7abc,SUCCESS,17,SUCCESS,24,FAIL,13,2013-03-27 22:30:03 +0000,[maven-release-plugin] prepare for next development iteration,98,4498
+267,a9996ee2,SUCCESS,18,SUCCESS,26,FAIL,12,2013-04-15 22:30:21 +0100,[issue 101] Remove type names printed to stdout,99,4506
+268,70936bda,SUCCESS,21,SUCCESS,22,FAIL,14,2013-04-27 14:02:40 +0100,[issue 94] Upgrade to jackson 2.2.0 to fix paths with spaces,99,4507
+269,47f1bb35,SUCCESS,20,SUCCESS,26,FAIL,17,2013-04-27 14:03:26 +0100,"[issue 89] use a different example jar, Clojure is nearly 4Mb",99,4507
+270,df8ef019,SUCCESS,19,SUCCESS,23,FAIL,14,2013-04-10 21:35:17 +0100,[issue 92] Add removeOldOutput config option to delete old sources,98,4528
+271,2e1d6844,SUCCESS,17,SUCCESS,24,FAIL,14,2013-05-04 21:06:52 +0100,Merge remote-tracking branch 'origin/issue92/removeoldoutput',99,4537
+272,3fc4c5e8,SUCCESS,19,SUCCESS,26,FAIL,14,2013-05-22 23:11:24 +0100,Add CONTRIBUTORS.md,99,4537
+273,7343f372,SUCCESS,18,SUCCESS,23,FAIL,15,2013-06-13 15:00:05 -0600,added .metadata to .gitignore,99,4537
+274,7009207a,SUCCESS,17,SUCCESS,23,FAIL,12,2013-06-13 17:12:45 -0600,minor fixes to a few project warnings,99,4540
+275,d9fe0a4c,SUCCESS,17,SUCCESS,21,FAIL,14,2013-06-17 21:27:08 +0100,Add README.md for people that find the mirror on GitHub,99,4537
+276,4baab11c,SUCCESS,17,SUCCESS,23,FAIL,12,2013-06-19 23:58:40 +0100,[issue 103] suppot javaType for enums,99,4556
+277,0647acf8,SUCCESS,17,SUCCESS,24,FAIL,15,2013-06-19 23:59:01 +0100,[issue 94] add integration test for spaces in path name,100,4600
+278,cf287735,SUCCESS,20,SUCCESS,23,FAIL,13,2013-06-20 00:33:10 +0100,[issue 97] resolve refs before checking whether to add @Valid to array properties,100,4616
+279,f10f92c6,SUCCESS,20,SUCCESS,25,FAIL,14,2013-06-20 00:50:50 +0100,[issue 60] Add new 'javaInterfaces' extension property,100,4630
+280,9015419c,SUCCESS,19,SUCCESS,23,FAIL,15,2013-06-20 23:34:23 +0100,[issue 92] add integration tests for new removeOldOutput config option,101,4627
+281,96f3c51e,SUCCESS,20,SUCCESS,24,FAIL,14,2013-06-13 17:09:05 -0600,[issue 70] Added support for generating Gson compatible types. Changes include: Added Gson dependency. Minor refactor of Annotator interface in order to add GsonAnnotator. Extending an AbstractAnnotator makes creating implementations a tad easier. GsonAnnotator logic only adds SerializedName annotation to fields when it's necessary.,110,5073
+282,7841ddcb,SUCCESS,16,SUCCESS,24,FAIL,14,2013-06-22 01:07:30 -0700,Merge pull request #4 from gmale/issue70/addgsonsupport,112,5163
+283,76a79184,SUCCESS,19,SUCCESS,25,FAIL,18,2013-06-22 19:18:16 +0100,Add Eclipse Java style preferences to help contributors,112,5163
+284,08749cd8,SUCCESS,19,SUCCESS,29,FAIL,12,2013-06-22 21:14:04 +0100,[issue 70] Some reformatting & code style/convention changes,112,5130
+285,bd08271c,SUCCESS,18,SUCCESS,24,FAIL,14,2013-06-22 21:22:41 +0100,[issue 70] Add @Expose to json properties,112,5123
+286,5c58c17e,SUCCESS,18,SUCCESS,24,FAIL,12,2013-06-22 21:35:09 +0100,[issue 70] Turn off additionalProperties support if annotator can't support it,112,5147
+287,c61f3650,SUCCESS,16,SUCCESS,23,FAIL,14,2013-06-24 21:15:05 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.3.7,112,5147
+288,2346f0f1,SUCCESS,17,SUCCESS,24,FAIL,13,2013-06-24 21:15:14 +0100,[maven-release-plugin] prepare for next development iteration,112,5147
+289,8d9937a1,SUCCESS,17,SUCCESS,26,FAIL,16,2013-06-26 23:49:51 +0100,Expand README.md for GitHub homepage,112,5147
+290,3ee616b3,SUCCESS,21,SUCCESS,26,FAIL,14,2013-06-26 23:58:42 +0100,[release] updating wiki links and examples to 0.3.7,112,5147
+291,aeb8de71,SUCCESS,18,SUCCESS,23,FAIL,14,2013-06-27 00:20:53 +0100,Expand README.md for GitHub homepage,112,5147
+292,5aa43932,SUCCESS,18,SUCCESS,26,FAIL,14,2013-06-27 23:09:32 +0100,Update links to issue tracker,112,5147
+293,7a61ebfd,SUCCESS,19,SUCCESS,24,FAIL,15,2013-06-18 07:45:08 +0100,[issue #114] recurse subdirectories to identify schemas for code generation,112,5149
+294,7b14c9b0,SUCCESS,21,SUCCESS,26,FAIL,14,2013-06-27 23:23:12 +0100,Add mailing list link,112,5149
+295,7e54bb5b,SUCCESS,17,SUCCESS,27,FAIL,18,2013-06-27 23:36:09 +0100,Update CONTRIBUTORS.md,112,5149
+296,bc9a66aa,SUCCESS,21,SUCCESS,23,FAIL,14,2013-07-01 23:30:27 +0100,Add travis-ci configuration,112,5149
+297,2a097576,SUCCESS,18,SUCCESS,22,FAIL,13,2013-07-01 23:31:23 +0100,Remove unnecessary links from README.md,112,5149
+298,afb4b5a8,SUCCESS,16,SUCCESS,23,FAIL,13,2013-07-02 00:00:53 +0100,Add travis-ci build status link,112,5149
+299,64a112dd,SUCCESS,18,SUCCESS,23,FAIL,13,2013-07-02 00:03:30 +0100,Add githalytics link,112,5149
+300,93f50660,SUCCESS,18,SUCCESS,23,FAIL,15,2013-07-02 00:13:06 +0100,Improved formatting,112,5149
+301,fd19ebb3,SUCCESS,17,SUCCESS,24,FAIL,15,2013-07-02 00:32:38 +0100,Link directly to generate goal docs,112,5149
+302,490d24e2,SUCCESS,19,SUCCESS,30,FAIL,15,2013-07-04 13:29:24 +0100,Add downloads link (still currently at googlecode),112,5149
+303,88f7c111,SUCCESS,22,SUCCESS,24,FAIL,13,2013-07-04 21:32:10 +0100,[issue 70] Add Gson to readme,112,5149
+304,e4b29651,SUCCESS,17,SUCCESS,23,FAIL,13,2013-07-05 22:37:13 +0100,Add changelog to replace googlecode issue list,112,5149
+305,916431c1,SUCCESS,19,SUCCESS,23,FAIL,13,2013-07-05 23:40:19 +0100,[issue #113] Add outputEncoding config property,112,5186
+306,0081034c,SUCCESS,18,SUCCESS,24,FAIL,15,2013-07-06 20:08:13 +0100,[issue #116] Update to new groupId org.jsonschema2pojo,112,5186
+307,5b1f4ab4,SUCCESS,17,SUCCESS,23,FAIL,12,2013-07-06 20:31:38 +0100,[issue #115] Update to new package org.jsonschema2pojo,112,5186
+308,d15259ad,SUCCESS,16,SUCCESS,25,FAIL,14,2013-07-07 22:38:44 +0100,"[issue #109] Add default property word delimiters hyphen, space, underscore",112,5186
+309,7289cda9,SUCCESS,22,SUCCESS,25,FAIL,15,2013-07-11 22:13:23 +0100,[issue #110] Add support for Joda dates,113,5250
+310,25786b67,SUCCESS,18,SUCCESS,23,FAIL,14,2013-07-17 14:21:12 -0700,Add a Bitdeli badge to README,113,5250
+311,a7a82cd1,SUCCESS,18,SUCCESS,24,FAIL,15,2013-07-17 14:21:42 -0700,Merge pull request #120 from bitdeli-chef/master,113,5250
+312,274632a2,SUCCESS,19,SUCCESS,24,FAIL,13,2013-08-22 14:18:25 -0400,Corrected default annotationStyle to be jackson2,113,5250
+313,01a506e5,SUCCESS,19,SUCCESS,23,FAIL,13,2013-08-22 12:06:22 -0700,Merge pull request #122 from andrew-todd/patch-1,113,5250
+314,a9d697e0,FAIL,21,NO,0,NO,0,2013-08-26 01:52:52 -0700,Contribute Gradle plugin,113,5250
+315,87b66ea3,FAIL,16,NO,0,NO,0,2013-09-18 09:47:12 -0700,Merge pull request #123 from ben-manes/master,113,5250
+316,d60b9065,FAIL,16,NO,0,NO,0,2013-09-26 17:12:35 +0100,Update the Downloads link (binaries at GitHub),113,5250
+317,93e50daa,FAIL,17,NO,0,NO,0,2013-10-21 21:48:11 +0100,Replace Gson integration test that used stale types,106,4845
+318,a473700d,FAIL,15,NO,0,NO,0,2013-10-21 21:57:41 +0100,Add more complex Gson test and fix long integers,106,4853
+319,c262bb71,FAIL,15,NO,0,NO,0,2013-10-22 13:37:00 +0300,Fix name normalization (issue #126),106,4861
+320,4d2db2d1,FAIL,16,NO,0,NO,0,2013-10-22 11:41:36 -0700,Merge pull request #132 from khitrenovich/issue126normalization,106,4861
+321,3f07d8a0,FAIL,16,NO,0,NO,0,2013-10-22 21:28:10 +0100,Ensure outputEncoding is honoured,107,4895
+322,ca547b11,FAIL,15,NO,0,NO,0,2013-10-23 22:03:04 +0100,Update development version for 0.4.0 as the next release,107,4895
+323,18483c37,FAIL,16,NO,0,NO,0,2013-11-22 10:31:18 +0100,"Added 'useDoubleNumbers' configuration parameter Added 'useDoubleNumbers' to select the type (float or double) for schema type 'number'. Essentially, replicates the same behavior as 'useLongIntegers' but for 'number' type",107,4926
+324,9da6b0ad,FAIL,15,NO,0,NO,0,2013-11-22 17:38:46 +0100,Added tests for 'useDoubleNumbers' and other minor changes,107,4939
+325,b9897153,FAIL,15,NO,0,NO,0,2013-11-23 19:53:11 +0000,Upgrade maven-site-plugin to fix error when using Maven 3.1.0,107,4895
+326,c73c775d,FAIL,16,NO,0,NO,0,2013-11-23 11:53:35 -0800,Merge pull request #135 from anserran/master,107,4939
+327,7814f7a6,FAIL,14,NO,0,NO,0,2013-11-25 00:13:40 +0000,Reverse polarity of useDoubleNumbers test to prove property changes the default,107,4939
+328,f7d8f26b,FAIL,14,NO,0,NO,0,2013-11-26 23:07:08 +0000,Remove unused import,107,4938
+329,47916c33,FAIL,14,NO,0,NO,0,2013-11-28 23:03:58 +0000,"Remove ignoreSnapshots, we no longer use snapshot of Commons JCI",107,4938
+330,a2dfbcf0,FAIL,17,NO,0,NO,0,2013-11-30 21:46:03 +0000,Rename setAdditionalProperties to setAdditionalProperty,107,4935
+331,ab05c8e0,FAIL,14,NO,0,NO,0,2013-12-01 21:50:12 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.0,107,4935
+332,503eafae,FAIL,14,NO,0,NO,0,2013-12-01 21:50:17 +0000,[maven-release-plugin] prepare for next development iteration,107,4935
+333,ed5878ca,FAIL,17,NO,0,NO,0,2013-12-02 23:47:04 +0000,Add javadoc artifact to gradle plugin releases,107,4935
+334,3b9691d7,FAIL,13,NO,0,NO,0,2013-12-02 23:58:43 +0000,Remove references to googlecode groupid,107,4935
+335,83ddf674,FAIL,13,NO,0,NO,0,2013-12-03 00:21:46 +0000,Update project docs for 0.4.0,107,4935
+336,97225cfa,FAIL,15,NO,0,NO,0,2013-12-03 00:41:16 +0000,Update Ant task doc link to gh-pages,107,4935
+337,f522ea5e,FAIL,14,NO,0,NO,0,2013-12-03 00:47:47 +0000,Update issue links from json API to HTML,107,4935
+338,7a9adc8b,FAIL,15,NO,0,NO,0,2013-12-10 00:19:32 +0000,Move Maven docs from googlecode to github,107,4935
+339,caaa0004,FAIL,18,NO,0,NO,0,2014-01-31 11:55:04 +0000,Fix bad singularization of words that include 'man',107,4936
+340,0cb00dcb,FAIL,16,NO,0,NO,0,2014-01-31 12:04:58 +0000,Update gradle docs to include useDoubleNumbers,107,4936
+341,2a8d8c09,FAIL,15,NO,0,NO,0,2014-02-02 16:01:54 +0000,Fix default useDoubleNumbers for Gradle plugin,107,4936
+342,c9028b4a,FAIL,16,NO,0,NO,0,2014-02-02 16:10:36 +0000,Move attach-javadocs & attach-sources into release profile,107,4936
+343,b284b82d,FAIL,16,NO,0,NO,0,2014-02-02 16:15:00 +0000,Return the top-most generated JType from SchemaMapper#generate,107,4937
+344,12b66c47,FAIL,19,NO,0,NO,0,2014-02-05 22:53:39 +0000,Move from commons-lang to commons-lang3,107,4935
+345,57195b8e,FAIL,14,NO,0,NO,0,2014-02-05 23:31:11 +0000,Add useCommonsLang3 config option,108,4979
+346,da4c9afc,FAIL,16,NO,0,NO,0,2014-02-05 23:36:43 +0000,Fix sourceType setting in Gradle plugin,108,4979
+347,3651acde,FAIL,15,NO,0,NO,0,2014-02-14 21:28:34 +0000,Add support for generic type arguments in javaType,108,5001
+348,e07fe9f9,FAIL,16,NO,0,NO,0,2014-02-22 00:14:00 +0000,Add some more irregular cases to the Inflector,109,5031
+349,b87e3eb9,FAIL,16,NO,0,NO,0,2014-02-22 00:33:02 +0000,Rename FileCodeWriter to avoid shadowing parent,109,5031
+350,f67628c2,FAIL,15,NO,0,NO,0,2014-02-22 00:33:54 +0000,Add findbugs ignore for exceptional return value of File#delete(),109,5032
+351,4daed6cb,FAIL,15,NO,0,NO,0,2014-02-22 00:34:32 +0000,Fix classpath null check in the Ant task,109,5032
+352,e1e3ab76,FAIL,16,NO,0,NO,0,2014-02-22 00:40:44 +0000,"Fix or supress some PMD warnings (Useless parens, unused params, etc)",109,5033
+353,b92b3369,FAIL,15,NO,0,NO,0,2014-03-05 22:49:26 +0000,Allow array properties to have a null default value,109,5038
+354,8a5e5666,FAIL,15,NO,0,NO,0,2014-03-05 23:04:16 +0000,"Add @Valid on all collections, not just those with items type ""object""",109,5037
+355,df2cc666,FAIL,15,NO,0,NO,0,2014-03-05 18:08:36 -0500,Use a LinkedHashSet rather than a HashSet for uniqe lists to preserve order,109,5038
+356,6b413ea8,FAIL,15,NO,0,NO,0,2014-03-05 23:17:59 +0000,Merge pull request #160 from cmaron/master,109,5037
+357,e2df6a0c,FAIL,16,NO,0,NO,0,2014-03-13 21:09:07 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.1,109,5037
+358,c6dcf7bc,FAIL,14,NO,0,NO,0,2014-03-13 21:09:31 +0000,[maven-release-plugin] prepare for next development iteration,109,5037
+359,83107795,FAIL,16,NO,0,NO,0,2014-03-14 21:53:06 +0000,Fix aggregated javadoc missing from mvn central,109,5037
+360,639f7082,FAIL,15,NO,0,NO,0,2014-03-14 23:17:29 +0000,[release] updating README.md for 0.4.1,109,5037
+361,61cf01eb,FAIL,15,NO,0,NO,0,2014-03-14 23:54:18 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.1,109,5037
+362,33d84a44,FAIL,17,NO,0,NO,0,2014-03-15 00:28:32 +0000,Change javadocs link from google code to github,109,5037
+363,61437393,FAIL,18,NO,0,NO,0,2014-03-15 00:36:06 +0000,Rewrite release script for GitHub support,109,5037
+364,94dbaab9,FAIL,16,NO,0,NO,0,2014-03-15 00:38:26 +0000,Sort config parameters in Ant doc,109,5037
+365,ccbf8aac,FAIL,17,NO,0,NO,0,2014-03-15 00:42:17 +0000,Update contact organisation,109,5037
+366,44ab2124,FAIL,16,NO,0,NO,0,2014-03-27 20:38:43 +0000,Update README.md,109,5037
+367,9c93f12e,FAIL,16,NO,0,NO,0,2014-04-14 09:00:26 -0700,added annotator method for additionalProperties field.,109,5053
+368,c87e58db,FAIL,16,NO,0,NO,0,2014-04-14 11:51:25 -0700,added new additional properties annotator method to existing integration tests.,109,5057
+369,6bb492c6,FAIL,14,NO,0,NO,0,2014-04-14 12:00:09 -0700,added integration test for annotating additionalProperties field.,109,5073
+370,55a5f0f7,FAIL,17,NO,0,NO,0,2014-04-14 20:52:35 +0100,Merge pull request #170 from ctrimble/feature_properties-field-annotation,109,5073
+371,7262646d,FAIL,15,NO,0,NO,0,2014-04-14 21:04:36 +0100,Tabs -> spaces,109,5073
+372,48a04e66,FAIL,15,NO,0,NO,0,2014-04-17 17:05:07 +0200,javaInterfaces extension property is ignored for Enum types #172,109,5078
+373,935b5a4e,FAIL,17,NO,0,NO,0,2014-04-17 16:43:22 +0100,Merge pull request #173 from Ghorric/issue172EnumInterface,109,5078
+374,e1e91009,FAIL,16,NO,0,NO,0,2014-04-21 23:29:42 +0100,Fix various javadoc errors and warnings,109,5078
+375,0e5c1c68,FAIL,18,NO,0,NO,0,2014-04-21 23:30:23 +0100,Disable strict javadoc linting on JDK 8 and later,109,5078
+376,71cffaf0,FAIL,17,NO,0,NO,0,2014-04-21 23:45:12 +0100,Update groovy-eclipse-batch to fix java.util.Map error with JDK 8,109,5078
+377,633f82d3,FAIL,16,NO,0,NO,0,2014-04-21 23:58:23 +0100,Improve Travis CI build to include integration tests and multiple JDKs,109,5078
+378,5ceee94c,FAIL,15,NO,0,NO,0,2014-04-15 13:32:30 -0700,added binary property support,110,5097
+379,b16da4c6,FAIL,13,NO,0,NO,0,2014-04-22 14:41:46 +0100,Merge pull request #171 from ctrimble/feature_binary-fields,110,5097
+380,26bf0e0d,FAIL,15,NO,0,NO,0,2014-04-24 09:10:45 -0700,added additionalProperties builder method,110,5142
+381,ea4b21fd,FAIL,14,NO,0,NO,0,2014-04-24 23:51:44 +0100,Merge pull request #175 from ctrimble/feature_with-additional-property,110,5142
+382,a0a3a90e,FAIL,15,NO,0,NO,0,2014-05-03 21:12:03 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.2,110,5142
+383,f67e40d1,FAIL,17,NO,0,NO,0,2014-05-03 21:12:07 +0100,[maven-release-plugin] prepare for next development iteration,110,5142
+384,f3c441bc,FAIL,18,NO,0,NO,0,2014-05-04 18:15:05 +0100,[release] updating README.md for 0.4.2,110,5142
+385,4e7bfc2a,FAIL,21,NO,0,NO,0,2014-05-04 18:22:50 +0100,Update changelog and contributors for 0.4.2,110,5142
+386,20c42f26,FAIL,18,NO,0,NO,0,2014-05-04 18:23:59 +0100,"Make README.md update mandatory, fix 'next steps' for github",110,5142
+387,a41e2055,FAIL,18,NO,0,NO,0,2014-05-19 23:38:37 +0100,Fix bad assignment causing sourceType to fail,110,5142
+388,06d8df22,FAIL,17,NO,0,NO,0,2014-05-25 23:23:46 +0100,Remove unused import,110,5141
+389,9ee51078,FAIL,19,NO,0,NO,0,2014-05-25 23:24:20 +0100,Support local refs for jsonschema2pojo.org,110,5159
+390,1b1c4de6,FAIL,16,NO,0,NO,0,2014-05-27 21:03:31 +0100,Add integration test for enum using extended characters,110,5165
+391,b388df5c,FAIL,16,NO,0,NO,0,2014-05-08 01:48:03 -0700,added m2e mappings.,110,5165
+392,6b55bd1d,FAIL,17,NO,0,NO,0,2014-05-08 02:39:16 -0700,"Moved generation code from CLI package to core. Updated module dependencies, so that core is the entry point, instead of the CLI.",111,5165
+393,d42f8c87,FAIL,16,NO,0,NO,0,2014-05-31 23:46:00 +0100,Merge pull request #198 from ctrimble/feature_module-dependencies,111,5165
+394,a6c8f29d,FAIL,17,NO,0,NO,0,2014-05-13 22:09:40 -0700,moved composite annotator creation to the annotator factory.,111,5177
+395,26c39078,FAIL,16,NO,0,NO,0,2014-06-01 08:39:22 +0100,Merge pull request #199 from ctrimble/feature_composite_annotator_factory,111,5177
+396,19659efd,FAIL,16,NO,0,NO,0,2014-06-01 19:22:21 +0100,Allow presence of 'properties' to imply type 'object',111,5181
+397,fbb3f9b3,FAIL,17,NO,0,NO,0,2014-05-31 12:08:30 -0700,added maven file filtering.,115,5399
+398,48c7c614,FAIL,17,NO,0,NO,0,2014-06-02 23:14:46 +0100,Merge pull request #200 from ctrimble/feature_file-filter,115,5399
+399,f8a8dfe9,FAIL,16,NO,0,NO,0,2014-06-09 21:39:05 +0100,Leave field name casing alone.,115,5396
+400,c7f5b38e,FAIL,16,NO,0,NO,0,2014-06-09 23:00:26 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.3,115,5396
+401,a2019365,FAIL,15,NO,0,NO,0,2014-06-09 23:00:37 +0100,[maven-release-plugin] prepare for next development iteration,115,5396
+402,3de24d3f,FAIL,15,NO,0,NO,0,2014-06-10 17:29:34 +0300,Introduce new option to init all collections with null,115,5419
+403,1aa0c283,FAIL,17,NO,0,NO,0,2014-06-10 17:08:24 +0100,Merge pull request #203 from Illapikov/master,115,5419
+404,30d7f9de,FAIL,17,NO,0,NO,0,2014-06-10 22:33:40 +0100,[release] updating README.md for 0.4.3,115,5419
+405,81647e91,FAIL,16,NO,0,NO,0,2014-06-10 22:52:48 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.3,115,5419
+406,80d55e11,FAIL,16,NO,0,NO,0,2014-06-10 22:39:51 +0100,Provide a link to the release page at the end of the upload,115,5419
+407,77dd6fb8,FAIL,16,NO,0,NO,0,2014-06-11 20:26:59 +0100,Rename initializeEmptyCollections -> initializeCollections (#126),116,5465
+408,2521e6a3,FAIL,16,NO,0,NO,0,2014-06-20 15:23:28 +0530,Added ')' to jdk unbounded range for Maven 2.X,116,5465
+409,e5eb32f8,FAIL,15,NO,0,NO,0,2014-06-21 19:41:23 +0100,Merge pull request #205 from varuag/master,116,5465
+410,0e5508e3,FAIL,16,NO,0,NO,0,2014-06-24 22:47:20 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.4,116,5465
+411,a0b6b642,FAIL,16,NO,0,NO,0,2014-06-24 22:47:25 +0100,[maven-release-plugin] prepare for next development iteration,116,5465
+412,9fc63ed5,FAIL,16,NO,0,NO,0,2014-06-25 21:41:38 +0100,[release] updating README.md for 0.4.4,116,5465
+413,47db8e40,FAIL,16,NO,0,NO,0,2014-06-25 21:45:47 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.4,116,5465
+414,d52492bc,FAIL,17,NO,0,NO,0,2014-07-07 11:30:55 +0100,Update copyright notice for 2014,116,5465
+415,0112beda,FAIL,17,NO,0,NO,0,2014-07-07 17:41:28 +0100,Remove githalytics,116,5465
+416,526d108b,FAIL,17,NO,0,NO,0,2014-07-09 23:57:25 +0100,Add 's' as inflector special case,116,5466
+417,6e5ace79,FAIL,17,NO,0,NO,0,2014-07-14 15:43:56 +0200,Since Java8 is much more strict on JavaDoc: added generation of @Param for property setter and @Returns for propery getter.,116,5468
+418,d42a184e,FAIL,17,NO,0,NO,0,2014-07-14 16:01:03 +0100,Merge pull request #219 from diversit/feature/javadoc-param-and-returns,116,5468
+419,4fcae18a,FAIL,17,NO,0,NO,0,2014-07-14 16:23:52 -0400,Adding method to generate from string,116,5476
+420,ac99e91c,FAIL,15,NO,0,NO,0,2014-07-15 09:00:14 -0400,Fixing formatting,116,5476
+421,8ac4b151,FAIL,16,NO,0,NO,0,2014-07-15 15:23:25 +0100,Merge pull request #221 from jgashe/master,116,5476
+422,3e132192,FAIL,15,NO,0,NO,0,2014-07-21 12:58:10 -0400,Creating pojos from string schemas that have file  to other schemas,116,5478
+423,249c873d,FAIL,17,NO,0,NO,0,2014-07-25 01:32:45 -0700,configured jackson1 and jackson2 to use LinkedHashSet when deserializing sets.,116,5528
+424,c1ca17de,FAIL,14,NO,0,NO,0,2014-07-25 11:43:30 +0100,Merge pull request #227 from ctrimble/feature_unique-items-order,116,5528
+425,5d0e0b78,FAIL,15,NO,0,NO,0,2014-07-25 11:06:06 -0400,Fixing build from example issues,116,5485
+426,fee86328,FAIL,16,NO,0,NO,0,2014-07-28 19:28:18 +0100,Merge pull request #225 from jgashe/master,116,5537
+427,64e23b64,FAIL,15,NO,0,NO,0,2014-07-28 11:22:12 -0700,Corrected path separators in default include pattern. Fixes #226,116,5530
+428,3042a22a,FAIL,17,NO,0,NO,0,2014-07-29 09:24:23 +0100,Merge pull request #228 from ctrimble/feature_windows-file-patterns,116,5539
+429,b4b21d39,FAIL,17,NO,0,NO,0,2014-07-31 23:18:29 -0400,allow sets to have an [] (empty) default value,116,5539
+430,3634c602,FAIL,18,NO,0,NO,0,2014-08-03 17:56:28 -0400,Adding custom rules factory config parameter,117,5628
+431,53cb9227,FAIL,16,NO,0,NO,0,2014-08-04 11:06:47 +0100,Merge pull request #211 from davidpadbury/master,117,5628
+432,ae0bd0e5,FAIL,17,NO,0,NO,0,2014-08-04 17:05:33 +0100,Merge pull request #232 from bitfrost/master,117,5628
+433,7e8aa7ac,FAIL,17,NO,0,NO,0,2014-08-04 23:05:47 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.5,117,5628
+434,b4bed8c3,FAIL,17,NO,0,NO,0,2014-08-04 23:05:52 +0100,[maven-release-plugin] prepare for next development iteration,117,5628
+435,7f88a3a7,FAIL,16,NO,0,NO,0,2014-08-05 21:05:26 +0100,Fix release usage message,117,5628
+436,d9c19e05,FAIL,15,NO,0,NO,0,2014-08-05 21:07:01 +0100,[release] updating README.md for 0.4.5,117,5628
+437,2752f0f0,FAIL,16,NO,0,NO,0,2014-08-05 21:11:12 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.5,117,5628
+438,072895d1,FAIL,16,NO,0,NO,0,2014-08-12 15:03:17 -0400,Forcing UTF 8 encoding during compilation of generated IT test files,117,5634
+439,1783c6d2,FAIL,17,NO,0,NO,0,2014-08-12 20:50:22 +0100,Merge pull request #238 from jgashe/IT-fix,117,5634
+440,f80db925,FAIL,16,NO,0,NO,0,2014-08-07 15:21:32 -0400,Added support for @JsonTypeInfo and Integration Test,118,5671
+441,62f63650,FAIL,17,NO,0,NO,0,2014-08-23 23:04:35 +0100,Merge pull request #235 from cvent/master,118,5671
+442,cac4fb4d,FAIL,15,NO,0,NO,0,2014-09-02 13:21:51 +0200,Replaced hashCode and equals generation using reflection by the commons lang reference implementation.,118,5679
+443,701ea900,FAIL,16,NO,0,NO,0,2014-09-02 15:16:48 +0200,Used equals generation as Effective Java describes Moved hashCode and equals generation steps after additional properties generation so the additional properties will be used in the hashCode and equals generation,118,5676
+444,358ab1fe,FAIL,15,NO,0,NO,0,2014-09-28 21:40:31 +0100,Fix propertyWordDelimiters being ignored,118,5684
+445,dd45e0ff,FAIL,15,NO,0,NO,0,2014-09-28 22:13:10 +0100,Fix 'address' being singularized to 'addres',118,5691
+446,56c2351d,FAIL,15,NO,0,NO,0,2014-10-16 22:58:03 +0100,Build classpath before creating custom annotator,118,5691
+447,69ecb914,FAIL,15,NO,0,NO,0,2014-10-30 21:25:34 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.6,118,5691
+448,56a67a4e,FAIL,16,NO,0,NO,0,2014-10-30 21:25:43 +0000,[maven-release-plugin] prepare for next development iteration,118,5691
+449,aa0439cc,FAIL,18,NO,0,NO,0,2014-10-31 23:25:24 +0000,[release] updating README.md for 0.4.6,118,5691
+450,a8e51207,FAIL,15,NO,0,NO,0,2014-10-31 23:31:30 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.6,118,5691
+451,81d9118b,FAIL,16,NO,0,NO,0,2014-11-04 22:59:34 +0000,Add Gson @SerializedName on enum constants,118,5728
+452,ab07c439,FAIL,15,NO,0,NO,0,2014-11-04 23:03:43 +0000,Add initializeCollections to Gradle example,118,5728
+453,db847d6a,FAIL,16,NO,0,NO,0,2014-11-04 23:10:36 +0000,Mention JSR-349 (as well as 303) in docs for bean validation,118,5729
+454,14a1ad63,FAIL,16,NO,0,NO,0,2014-10-17 15:25:27 +0200,Adding prefix and suffix functionality to the library,119,5814
+455,8c857a6a,FAIL,15,NO,0,NO,0,2014-11-11 14:50:20 +0000,Merge pull request #269 from eimarfandino/master_upstream,119,5814
+456,69700392,FAIL,16,NO,0,NO,0,2014-11-13 13:56:31 -0500,Adding UUID support to FormatRule,119,5821
+457,3f3064a7,FAIL,17,NO,0,NO,0,2014-11-13 15:36:49 -0500,Fixed missing comma issue,119,5821
+458,a0797e08,FAIL,17,NO,0,NO,0,2014-11-13 21:19:04 +0000,Merge pull request #270 from argo4242/master,119,5821
+459,18ef05e8,FAIL,18,NO,0,NO,0,2014-11-28 23:24:51 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.7,119,5821
+460,eda91ca3,FAIL,19,NO,0,NO,0,2014-11-28 23:24:55 +0000,[maven-release-plugin] prepare for next development iteration,119,5821
+461,da553885,FAIL,17,NO,0,NO,0,2014-11-29 18:46:40 +0000,[release] updating README.md for 0.4.7,119,5821
+462,22bee22e,FAIL,17,NO,0,NO,0,2014-11-29 21:19:12 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.7,119,5821
+463,600e38e0,FAIL,18,NO,0,NO,0,2015-01-11 20:40:51 +0000,Fix package name of NoopAnnotator,119,5821
+464,24e41d3b,FAIL,15,NO,0,NO,0,2015-02-02 18:19:15 -0800,Add the ability to autogenerate constructors for required fields,119,5871
+465,9be6d8c9,FAIL,17,NO,0,NO,0,2015-02-02 22:23:40 -0800,Added tests for constructor generation,120,5936
+466,50191279,FAIL,17,NO,0,NO,0,2015-02-04 19:13:24 -0800,"Made constructors include all parameters by default, and only required if constructorsRequiredPropertiesOnly is true",120,5980
+467,f754a8eb,FAIL,18,NO,0,NO,0,2015-02-05 11:04:23 -0800,Add documentation to Jsonschema2PojoTask.html for constructorsRequiredPropertiesOnly,120,5980
+468,e52982ac,FAIL,17,NO,0,NO,0,2015-02-07 00:07:13 +0000,Merge pull request #283 from andrewmains12/issue231/constructors,120,5980
+469,179616fe,FAIL,16,NO,0,NO,0,2015-02-07 22:33:29 +0000,Removed commented out code,120,5980
+470,72055d84,FAIL,22,NO,0,NO,0,2015-02-09 22:36:09 +0000,Support nested generics in javaType,121,6032
+471,16182738,FAIL,19,NO,0,NO,0,2015-02-16 12:51:52 -0700,Upgraded Javadoc Plugin to 2.10.1. Resolves warnings for 'cannot find symbol' in CLI package.,121,6032
+472,09a7b3f5,FAIL,16,NO,0,NO,0,2015-02-16 22:56:12 +0000,Merge pull request #286 from ctrimble/feature_javadoc-warnings,121,6032
+473,ad1f56ba,FAIL,15,NO,0,NO,0,2015-02-16 13:45:10 -0700,added support for javaType on integer and number fields.,121,6134
+474,598ed31e,FAIL,15,NO,0,NO,0,2015-02-17 14:48:34 +0000,Merge pull request #287 from ctrimble/feature_java-type-primatives,121,6134
+475,ce2b69f8,FAIL,16,NO,0,NO,0,2015-02-19 15:24:09 -0500,add support for jackson's JsonView,123,6193
+476,9b607db5,FAIL,15,NO,0,NO,0,2015-02-19 16:18:03 -0800,Android support in gradle plugin (fix issue #266),123,6160
+477,fae9a486,FAIL,16,NO,0,NO,0,2015-02-22 15:59:34 +0000,Merge pull request #291 from jjjhhhlll/jsonview-support,125,6219
+478,59df4fb9,FAIL,17,NO,0,NO,0,2015-02-22 16:52:04 +0000,Refactor/simplify JsonView test,125,6197
+479,6c11a55b,FAIL,17,NO,0,NO,0,2015-02-22 16:55:07 +0000,Tabs -> spaces,125,6197
+480,e7733e98,FAIL,21,NO,0,NO,0,2015-02-22 17:23:31 +0000,Add parcelable support (for Android development),128,6313
+481,501c3a19,FAIL,17,NO,0,NO,0,2015-02-24 23:10:37 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.8,125,6197
+482,75152596,FAIL,18,NO,0,NO,0,2015-02-24 23:10:40 +0000,[maven-release-plugin] prepare for next development iteration,125,6197
+483,cb90a587,FAIL,18,NO,0,NO,0,2015-02-26 22:46:36 +0000,[release] updating README.md for 0.4.8,125,6197
+484,3ada162f,FAIL,16,NO,0,NO,0,2015-02-26 22:56:44 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.8,125,6197
+485,37b1c721,FAIL,18,NO,0,NO,0,2015-02-25 09:05:32 -0600,Initial updates to support a wider range of source inputs,129,6324
+486,56569403,FAIL,15,NO,0,NO,0,2015-03-05 22:10:46 +0000,Create array types inside generic args in javaType,126,6225
+487,7f0eaee9,FAIL,18,NO,0,NO,0,2015-03-05 22:38:49 +0000,Merge pull request #294 from jvasiljevich/accept-url-sources,130,6352
+488,e203c26a,FAIL,17,NO,0,NO,0,2015-03-06 15:18:57 -0500,Added options to generate Joda LocalDate and LocalTime for date and time formatted strings,126,6357
+489,ada1fbe5,FAIL,17,NO,0,NO,0,2015-03-06 23:35:22 +0000,Merge pull request #300 from brentsowers1/master,131,6512
+490,22da114c,FAIL,19,NO,0,NO,0,2015-03-10 21:28:44 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.9,131,6512
+491,0fc60963,FAIL,19,NO,0,NO,0,2015-03-10 21:28:48 +0000,[maven-release-plugin] prepare for next development iteration,131,6512
+492,00dbab9e,FAIL,18,NO,0,NO,0,2015-03-10 22:16:50 +0000,Support javaType for any schema type,131,6511
+493,47f1101d,FAIL,15,NO,0,NO,0,2015-03-13 19:11:31 +0900,Added Android library sample module (Issue #305),132,6513
+494,0107b937,FAIL,16,NO,0,NO,0,2015-03-16 18:12:45 +0900,Added support for Android library plugin  (Issue #305),132,6513
+495,9586ac6d,FAIL,14,NO,0,NO,0,2015-03-16 10:55:56 +0000,Merge pull request #311 from yomik/add_android_lib_sample,132,6513
+496,f56280a7,FAIL,15,NO,0,NO,0,2015-03-16 19:41:45 -0500,Patching node name resolution,132,6517
+497,59b7a4bc,FAIL,17,NO,0,NO,0,2015-03-18 08:22:07 +0000,Merge pull request #316 from jvasiljevich/patch-basename-resolution,132,6517
+498,f28fc681,FAIL,15,NO,0,NO,0,2015-03-18 21:09:18 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.10,132,6517
+499,a421e75d,FAIL,17,NO,0,NO,0,2015-03-18 21:09:22 +0000,[maven-release-plugin] prepare for next development iteration,132,6517
+500,e13ceee7,FAIL,17,NO,0,NO,0,2015-03-19 15:19:29 +0000,[release] updating README.md for 0.4.9,132,6517
+501,1aeaf3d2,FAIL,17,NO,0,NO,0,2015-03-19 15:23:20 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.9,132,6517
+502,f0f6fe68,FAIL,18,NO,0,NO,0,2015-03-19 15:25:07 +0000,[release] updating README.md for 0.4.10,132,6517
+503,fd6b5f10,FAIL,18,NO,0,NO,0,2015-03-19 15:27:11 +0000,[release] updating CHANGELOG.md for 0.4.10,132,6517
+504,42eb673f,FAIL,18,NO,0,NO,0,2015-03-23 13:53:07 +0800,Issue #320 Added support for empty default string,132,6524
+505,28bc0e15,FAIL,16,NO,0,NO,0,2015-03-23 09:13:04 +0000,Merge pull request #324 from jakubwierzbowski/master,132,6524
+506,cb24ef5f,FAIL,17,NO,0,NO,0,2015-03-23 15:19:01 +0000,Adding support for required array from http://tools.ietf.org/html/draft-fge-json-schema-validation-00#section-5.4.3,134,6623
+507,48b734c9,FAIL,17,NO,0,NO,0,2015-03-23 22:19:16 +0000,Adding integration test for required array.,135,6673
+508,02c8a848,FAIL,19,NO,0,NO,0,2015-03-25 21:36:32 +0000,Merge pull request #325 from dmcfarland/master,135,6673
+509,ba8dc736,FAIL,17,NO,0,NO,0,2015-04-08 15:56:29 -0400,Add super() to the equals/hashcode impl,135,6678
+510,0c9f8d03,FAIL,18,NO,0,NO,0,2015-04-08 23:24:03 -0400,Add a unit test that demonstrates the problem and then fix a bug found with the unit test,135,6692
+511,54833f32,FAIL,17,NO,0,NO,0,2015-04-14 21:55:54 +0100,Merge pull request #333 from cvent/master,135,6692
+512,9ebaa46e,FAIL,18,NO,0,NO,0,2015-04-15 22:05:39 +0100,Fix scoping bug in the example,135,6692
+513,8aac3399,FAIL,17,NO,0,NO,0,2015-04-15 22:13:51 +0100,Set @SerializedName even when JSON and Java names match,135,6690
+514,947cbc8e,FAIL,15,NO,0,NO,0,2015-04-15 22:16:23 +0100,Merge branch 'parcelable',138,6806
+515,4d9732d7,FAIL,17,NO,0,NO,0,2015-04-15 22:20:01 +0100,Mark parcelable support as 'experimental',138,6806
+516,02d0e86c,FAIL,18,NO,0,NO,0,2015-04-15 22:23:48 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.11,138,6806
+517,6caf3cab,FAIL,17,NO,0,NO,0,2015-04-15 22:23:52 +0100,[maven-release-plugin] prepare for next development iteration,138,6806
+518,5c2a8130,FAIL,16,NO,0,NO,0,2015-04-16 18:05:11 +0100,Add 'parcelable' doc,138,6806
+519,2ff4fd9a,FAIL,17,NO,0,NO,0,2015-04-16 21:42:31 +0100,[release] updating README.md for 0.4.11,138,6806
+520,b9302f2b,FAIL,17,NO,0,NO,0,2015-04-16 21:48:34 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.11,138,6806
+521,81adfe76,FAIL,19,NO,0,NO,0,2015-04-17 23:38:41 -0700,Add Gradle test example & fix source file directory handling,138,6806
+522,bee35eb4,FAIL,17,NO,0,NO,0,2015-04-27 12:37:42 -0700,corrected problem with directory excludes excluding all directories.,138,6878
+523,f3c8dedc,FAIL,17,NO,0,NO,0,2015-04-28 00:36:42 -0700,apply default excludes anytime a maven plugin is configured with sourceDirectory and not sourcePaths.,138,6888
+524,aa643cf8,FAIL,16,NO,0,NO,0,2015-04-29 14:46:12 +0100,Merge pull request #340 from ctrimble/feature_recursive-include-patterns,138,6888
+525,d62d2b21,FAIL,16,NO,0,NO,0,2015-04-30 21:28:52 +0100,Reminder to check doc links after release,138,6888
+526,01823864,FAIL,15,NO,0,NO,0,2015-05-07 00:30:15 -0700,added a test case for generating schemas with an empty package name.,139,6900
+527,ecfdeb5f,FAIL,18,NO,0,NO,0,2015-05-07 10:00:00 -0700,fixed handling of empty targetPackage in configuration.,139,6904
+528,2c62afcd,FAIL,16,NO,0,NO,0,2015-05-07 21:30:22 +0100,Merge pull request #348 from ctrimble/feature_empty-package-name,139,6904
+529,5d3b9039,FAIL,16,NO,0,NO,0,2015-05-08 12:49:49 +0530,"If multiple enum properties with same name exist, JClassAlreadyExistsException was thrown. Fixed this by generating a unique Enum name.",138,6884
+530,3a56220a,FAIL,16,NO,0,NO,0,2015-05-11 16:23:51 +0800,Fix parameter description of --class-prefix and --class-suffix.,139,6904
+531,2f8a82cf,FAIL,18,NO,0,NO,0,2015-05-11 16:26:00 +0800,[cli] Fix when jsonschema2pojo is not running in script folder.,139,6904
+532,cd0a9d9c,FAIL,18,NO,0,NO,0,2015-05-11 09:28:13 +0100,Merge pull request #350 from entertainyou/parameter,139,6904
+533,6f04e540,FAIL,18,NO,0,NO,0,2015-05-13 00:58:04 +0100,Mark getConstantName as protected #347,139,6904
+534,c0488100,FAIL,19,NO,0,NO,0,2015-05-13 01:06:42 +0100,Merge pull request #351 from entertainyou/cli2,139,6904
+535,a9846c42,FAIL,18,NO,0,NO,0,2015-05-16 02:21:33 +0800,FIX #354  `android.os.BadParcelableException: ClassNotFoundException when unmarshalling` Error Parcelable codes,139,6917
+536,f062aefd,FAIL,18,NO,0,NO,0,2015-05-15 21:49:39 +0100,Merge pull request #356 from simpleton/bug/array_in_parcelable,139,6917
+537,04d24a7e,FAIL,17,NO,0,NO,0,2015-05-28 22:08:54 +0800,fix use the wrong class loader in unmarshal parcelable,139,6926
+538,b0344fb2,FAIL,18,NO,0,NO,0,2015-05-28 22:13:31 +0800,add testcase for testing unmarshal array in parcelable,139,6926
+539,37a98588,FAIL,17,NO,0,NO,0,2015-05-28 20:32:51 +0100,Merge pull request #364 from simpleton/bug/unmarshal_array,139,6926
+540,32eec7dc,FAIL,19,NO,0,NO,0,2015-06-03 09:29:31 -0700,Made members protected to provide a way to write a custom schema source to perform custom resolution.,139,6926
+541,83664d1d,FAIL,17,NO,0,NO,0,2015-06-04 13:10:24 +0530,Merge branch 'master' into fix-multiple-enums-with-same-name,139,6922
+542,4a7fd1ae,FAIL,18,NO,0,NO,0,2015-06-04 09:39:03 +0100,Merge pull request #367 from srikalyan/master,139,6926
+543,c6f792ef,FAIL,18,NO,0,NO,0,2015-06-04 15:27:58 +0530,Test added for verifying unique enum name generation on multiple enum nodes with same name.,140,6973
+544,a958bea6,FAIL,19,NO,0,NO,0,2015-06-04 15:48:15 +0530,Integration test for verifying duplicate enum name handling.,140,6979
+545,813ebf9d,FAIL,19,NO,0,NO,0,2015-06-07 10:49:16 -0700,Fix bad type signature for android gradle plugin (fixes #370),139,6926
+546,a9b9e108,FAIL,16,NO,0,NO,0,2015-06-07 23:54:06 +0100,Merge pull request #349 from tmkarthi/fix-multiple-enums-with-same-name,140,6979
+547,6875e545,FAIL,16,NO,0,NO,0,2015-06-12 23:43:08 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.12,140,6979
+548,6198495c,FAIL,17,NO,0,NO,0,2015-06-12 23:43:12 +0100,[maven-release-plugin] prepare for next development iteration,140,6979
+549,de0e09a3,FAIL,15,NO,0,NO,0,2015-06-16 10:11:39 -0700,Corrected issue with filtering and sourcePaths not being defined. Fixes #374,140,6981
+550,640747f3,FAIL,16,NO,0,NO,0,2015-06-16 21:59:29 +0100,[release] updating README.md for 0.4.12,140,6981
+551,26058749,FAIL,17,NO,0,NO,0,2015-06-16 22:02:47 +0100,Suppress printing release response,140,6981
+552,61ce3bfd,FAIL,18,NO,0,NO,0,2015-06-16 22:11:20 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.12,140,6981
+553,68619294,FAIL,17,NO,0,NO,0,2015-06-22 15:30:55 -0400,fix for properties with underscore not having @NotNull applied if property is listed in required array,140,6982
+554,338475a5,FAIL,18,NO,0,NO,0,2015-06-22 15:52:59 -0400,added unit test for fix,140,6983
+555,2870c8fa,FAIL,17,NO,0,NO,0,2015-06-22 22:01:53 +0100,Merge pull request #378 from nstoddar/master,140,6983
+556,e429941c,FAIL,18,NO,0,NO,0,2015-06-22 23:11:40 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.13,140,6983
+557,e11de884,FAIL,18,NO,0,NO,0,2015-06-22 23:11:43 +0100,[maven-release-plugin] prepare for next development iteration,140,6983
+558,29448b8e,FAIL,17,NO,0,NO,0,2015-06-23 16:13:20 +0100,[release] updating README.md for 0.4.13,140,6983
+559,6b5da375,FAIL,17,NO,0,NO,0,2015-07-15 12:04:02 -0700,Gets build working for samples.,140,6983
+560,26c96c01,FAIL,17,NO,0,NO,0,2015-07-15 13:06:00 -0700,Makes plugin handle libraryVaraints for library projects.,140,6983
+561,4fa6132a,FAIL,15,NO,0,NO,0,2015-07-16 23:01:09 +0100,Merge pull request #391 from optimizely/jophde-fix-lib-projects,140,6983
+562,15bb26bf,FAIL,18,NO,0,NO,0,2015-08-03 23:02:25 +0100,Add javaEnumNames to allow custom names for enum constants,140,7020
+563,eca441d9,FAIL,16,NO,0,NO,0,2015-08-03 23:33:43 +0100,"Allow nullable types by ignoring ""null"" in union",140,7023
+564,e697dd84,FAIL,15,NO,0,NO,0,2015-08-04 00:02:38 +0100,Allow additional properties to be disabled globablly,140,7034
+565,4cd8a353,FAIL,16,NO,0,NO,0,2015-08-04 17:15:56 +0900,issue 363 - fix error:Unable to load class 'org.jsonschema2pojo.NoopAnnotator',140,7034
+566,ab280bfd,FAIL,17,NO,0,NO,0,2015-08-04 12:15:52 +0100,Merge pull request #395 from jsuksl/issue/363-unable-to-load-class,140,7034
+567,5e25256a,FAIL,18,NO,0,NO,0,2015-08-04 20:46:49 +0100,Allow generic type args to be used in javaInterfaces property,140,7033
+568,12e3e8a7,FAIL,16,NO,0,NO,0,2015-08-06 00:39:02 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.14,140,7033
+569,a43dc08a,FAIL,16,NO,0,NO,0,2015-08-06 00:39:05 +0100,[maven-release-plugin] prepare for next development iteration,140,7033
+570,dd576af3,FAIL,19,NO,0,NO,0,2015-08-07 22:33:43 +0100,[release] updating README.md for 0.4.14,140,7033
+571,9202d978,FAIL,18,NO,0,NO,0,2015-08-07 22:39:27 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.13/0.4.14,140,7033
+572,f1f44464,FAIL,18,NO,0,NO,0,2015-08-16 20:14:33 +0100,Ensure additional properties are on by default,140,7033
+573,a49cb838,FAIL,18,NO,0,NO,0,2015-08-20 15:41:02 +0200,#402 support of existing java class inheritance,140,7054
+574,b5d9ea67,FAIL,17,NO,0,NO,0,2015-08-21 20:22:10 +0100,Merge pull request #403 from ahanin/feature/402-extendsJavaClass,140,7054
+575,5f29610c,FAIL,16,NO,0,NO,0,2015-08-30 21:47:10 +0100,Avoid illegal chars in dir names when creating package names,140,7047
+576,cf5af33b,FAIL,19,NO,0,NO,0,2015-08-30 22:17:52 +0100,Avoid caching schema type as schema supertype,140,7060
+577,aacb4f00,FAIL,18,NO,0,NO,0,2015-08-30 23:25:35 +0100,Add includeAccessors to disable accessors and use public fields,141,7121
+578,fd6e1b62,FAIL,19,NO,0,NO,0,2015-08-31 23:43:55 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.15,141,7121
+579,05c91328,FAIL,17,NO,0,NO,0,2015-08-31 23:43:59 +0100,[maven-release-plugin] prepare for next development iteration,141,7121
+580,12870980,FAIL,16,NO,0,NO,0,2015-09-01 20:09:55 +0100,[release] updating README.md for 0.4.15,141,7121
+581,c52b88bb,FAIL,17,NO,0,NO,0,2015-09-01 20:21:49 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.15,141,7121
+582,f42723de,FAIL,17,NO,0,NO,0,2015-09-28 15:50:13 +0100,"""extends"" schema resolution now handles extending a type that isn't at the root of the schema file",141,7135
+583,6eb236f9,FAIL,15,NO,0,NO,0,2015-09-28 20:53:38 +0100,Merge pull request #426 from markdingram/master,141,7135
+584,b658ff88,FAIL,15,NO,0,NO,0,2015-09-28 22:25:10 +0100,Allow inner fragment to refer to outer fragment,141,7165
+585,ad3ea140,FAIL,14,NO,0,NO,0,2015-10-07 15:36:23 +0200,Make the quick lookup map 'final',141,7165
+586,4eb7bb9f,FAIL,15,NO,0,NO,0,2015-10-07 15:08:48 +0100,Merge pull request #428 from Collaborne/enum-constants-final,141,7165
+587,07523475,FAIL,16,NO,0,NO,0,2015-10-13 22:01:09 +0100,Update Example to use generation config,141,7176
+588,9b010acd,FAIL,17,NO,0,NO,0,2015-10-19 18:29:18 +0600,Fix path to jar in windows script for the case it is run not from jsonschema2pojo home,141,7176
+589,bb73d527,FAIL,16,NO,0,NO,0,2015-10-19 20:32:10 +0100,Add brew to README.md,141,7176
+590,76310e0e,FAIL,16,NO,0,NO,0,2015-10-19 20:33:15 +0100,Update README.md,141,7176
+591,0eda7596,FAIL,18,NO,0,NO,0,2015-10-20 11:13:47 +0100,Merge pull request #432 from redreev/master,141,7176
+592,e52fd00a,FAIL,19,NO,0,NO,0,2015-10-22 22:37:29 +0100,Use minimum and maximum value property to determine java type long. resolves #375,141,7274
+593,bf60a8b2,FAIL,18,NO,0,NO,0,2015-10-23 20:34:23 +0100,Merge pull request #434 from benjefferies/master,141,7274
+594,2f26d133,FAIL,17,NO,0,NO,0,2015-10-23 21:50:46 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.16,141,7274
+595,d12d1209,FAIL,16,NO,0,NO,0,2015-10-23 21:50:52 +0100,[maven-release-plugin] prepare for next development iteration,141,7274
+596,42fb41d4,FAIL,14,NO,0,NO,0,2015-10-24 23:55:00 +0100,[release] updating README.md for 0.4.16,141,7274
+597,b3980f47,FAIL,16,NO,0,NO,0,2015-10-25 00:03:26 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.16,141,7274
+598,af457dad,FAIL,15,NO,0,NO,0,2015-10-26 09:40:58 +0000,Make Inflector more amenable to thread safety.,141,7297
+599,f399f9cc,FAIL,18,NO,0,NO,0,2015-10-26 10:14:14 +0000,Merge pull request #435 from markdingram/master,141,7297
+600,d90d94f0,FAIL,16,NO,0,NO,0,2015-10-26 11:13:44 +0000,Made Inflector clearly immutable by introducing a builder.,141,7288
+601,2cb0c145,FAIL,15,NO,0,NO,0,2015-10-26 21:16:02 +0000,Merge pull request #436 from markdingram/master,141,7288
+602,7c910673,FAIL,15,NO,0,NO,0,2015-11-19 00:28:01 -0700,updated additional properties rule to respect includeAccessors flag,142,7363
+603,6b157e50,FAIL,17,NO,0,NO,0,2015-11-24 20:35:34 -0700,added test for using additional properties when includeAccessors is false,142,7384
+604,97f01ca1,FAIL,14,NO,0,NO,0,2015-11-24 20:40:54 -0700,"Revert ""updated additional properties rule to respect includeAccessors flag""",142,7409
+605,749b10b7,FAIL,17,NO,0,NO,0,2015-11-28 13:50:57 -0700,improve ant documentation test,142,7409
+606,c509beb8,FAIL,16,NO,0,NO,0,2015-11-22 22:46:09 -0700,added config option for target Java version,144,7509
+607,233418e1,FAIL,17,NO,0,NO,0,2015-11-26 21:39:41 -0700,suppressed unchecked cast warnings in parcel code,145,7521
+608,a552d36b,FAIL,18,NO,0,NO,0,2015-11-29 23:59:00 +0000,Resolve nested refs when there is no parent file,142,7419
+609,005161ab,FAIL,18,NO,0,NO,0,2015-11-30 00:02:57 +0000,Merge pull request #454 from ctrimble/feature_target-version,145,7531
+610,9480a769,FAIL,19,NO,0,NO,0,2015-07-05 08:58:17 -0700,corrected issue where code looking for instance fields was also getting static fields.,145,7539
+611,37a60ec6,FAIL,17,NO,0,NO,0,2015-07-01 00:47:15 -0700,"add support for dynamic getters, setters, and builders",148,8024
+612,49643032,FAIL,20,NO,0,NO,0,2015-12-02 23:10:43 +0000,Merge pull request #386 from ctrimble/feature_get-set-by-name,148,8024
+613,a54409ea,FAIL,19,NO,0,NO,0,2015-12-03 11:21:44 +0200,#455 Override builder methods from parent class,145,7561
+614,1338fee6,FAIL,18,NO,0,NO,0,2015-12-03 13:52:02 +0000,Merge pull request #458 from blizznets/master,148,8054
+615,36d9365f,FAIL,16,NO,0,NO,0,2015-12-04 13:44:58 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.17,148,8054
+616,8e4bf17a,FAIL,17,NO,0,NO,0,2015-12-04 13:45:03 +0000,[maven-release-plugin] prepare for next development iteration,148,8054
+617,db6a77ff,FAIL,17,NO,0,NO,0,2015-12-09 22:53:52 +0000,[release] updating README.md for 0.4.17,148,8054
+618,b2a05343,FAIL,18,NO,0,NO,0,2015-12-09 22:57:50 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.17,148,8054
+619,b86761fc,FAIL,16,NO,0,NO,0,2015-12-10 20:51:15 -0600,#461 - fixing the singular form of databases to be database,148,8055
+620,07fdf8e4,FAIL,17,NO,0,NO,0,2015-12-11 21:56:31 +0000,Merge pull request #462 from rpatrick00/master,148,8055
+621,15626802,FAIL,16,NO,0,NO,0,2015-12-11 22:01:32 +0000,Update README.md,148,8055
+622,7d8de573,FAIL,16,NO,0,NO,0,2015-12-18 17:18:04 +0000,"Added support for custom date-time, date, time classes.",149,8198
+623,508f07e6,FAIL,17,NO,0,NO,0,2015-12-18 17:49:24 +0000,Merge pull request #469 from joelittlejohn/custom-date-time,149,8198
+624,d590ca39,FAIL,17,NO,0,NO,0,2015-12-19 00:01:12 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.18,149,8198
+625,d8fd4d4b,FAIL,17,NO,0,NO,0,2015-12-19 00:01:16 +0000,[maven-release-plugin] prepare for next development iteration,149,8198
+626,7cf6812b,FAIL,16,NO,0,NO,0,2015-12-19 00:14:57 +0000,Add maven central badge,149,8198
+627,ece4f245,FAIL,18,NO,0,NO,0,2015-12-19 15:40:02 -0700,"made unknown dateTime, date, and time types fail with a GenerationException",149,8207
+628,0b064a7e,FAIL,19,NO,0,NO,0,2015-12-19 11:22:46 -0700,"aligned getDateTime, getDate, and getTime javadocs with existing options",149,8207
+629,65e3559d,FAIL,18,NO,0,NO,0,2015-12-20 13:33:04 +0000,Merge pull request #470 from ctrimble/feature_date-time-cleanup,149,8207
+630,d2e93a46,FAIL,18,NO,0,NO,0,2015-12-24 22:36:14 +0000,[release] updating README.md for 0.4.18,149,8207
+631,5ee19f49,FAIL,17,NO,0,NO,0,2015-12-13 11:35:01 -0500,Prefix / Suffix support when javaType is not specified,149,8251
+632,d105a787,FAIL,16,NO,0,NO,0,2015-12-29 19:56:40 +0000,Merge pull request #465 from pwilder/master,149,8251
+633,42357468,FAIL,19,NO,0,NO,0,2015-12-29 20:04:24 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.18,149,8251
+634,27f2b1ee,FAIL,18,NO,0,NO,0,2015-12-28 23:18:58 +0530,Allow JSON to be passed as a String to SchemaMapper,149,8244
+635,c777b38f,FAIL,16,NO,0,NO,0,2015-12-30 09:01:40 -0500,Unique class name,151,8232
+636,f00d4bac,FAIL,16,NO,0,NO,0,2015-12-30 16:09:32 -0700,added .DS_Store to ignored files,149,8251
+637,4f25e54f,FAIL,15,NO,0,NO,0,2016-01-06 11:33:04 +0100,Resolved #479.,149,8257
+638,37d124e6,FAIL,14,NO,0,NO,0,2016-01-06 11:08:01 +0000,Merge pull request #480 from tarfaa/features/479-specimen,149,8257
+639,66642bd7,FAIL,17,NO,0,NO,0,2016-01-06 16:54:09 +0000,Merge pull request #475 from raks81/json-to-schema,149,8294
+640,01520b9e,FAIL,18,NO,0,NO,0,2015-12-16 01:45:52 -0700,added JUnit rule for generating and compiling sources with JsonSchema2Pojo,151,8474
+641,c3688c24,FAIL,19,NO,0,NO,0,2015-12-16 01:53:38 -0700,applied generation rule to integration tests,151,8574
+642,d6fffa62,FAIL,21,NO,0,NO,0,2016-01-06 18:37:06 +0000,Merge pull request #468 from ctrimble/feature_generate-compile-rule,151,8574
+643,b629c61c,FAIL,19,NO,0,NO,0,2016-01-07 18:28:18 -0700,fixed default values in maven mojo annotations,151,8574
+644,f0eec859,FAIL,20,NO,0,NO,0,2016-01-07 19:18:55 -0700,changed default value of includeDynamicAccessors to false,151,8574
+645,ff0ad464,FAIL,18,NO,0,NO,0,2016-01-08 09:02:47 +0000,Merge pull request #482 from ctrimble/feature_dynamic-accessors-default-off,151,8574
+646,1061d681,FAIL,18,NO,0,NO,0,2016-01-08 09:26:20 -0700,changed includeDynamicAccessors to false by default from the CLI,151,8574
+647,714b9616,FAIL,17,NO,0,NO,0,2016-01-08 17:09:54 +0000,Merge pull request #483 from ctrimble/feature_dynamic-accessor-cli,151,8574
+648,5e32c794,FAIL,17,NO,0,NO,0,2016-01-10 00:18:26 +0200,"Added Support for code generation for different build variants of Android project. Fixed : adding the generated code to each build variant source set correctly, so it can be picked up by the compiler. Added example usage of a generated class into the Android app and library classes. Added correct compile time dependencies to the projects such that the generated code could compile successfully. Updated Android SDK and gradle versions.",151,8588
+649,cfd2205f,FAIL,17,NO,0,NO,0,2016-01-10 16:05:23 +0100,Path separator is now properly escaped in the regular expression used in Jsonschema2PojoRule. This solves the #486 issue.,151,8574
+650,92cedca9,FAIL,16,NO,0,NO,0,2016-01-10 16:58:30 +0100,"UrlConverterTest.urlIsCreatedFromFilePath uses an absolute *ux stype path. On Windows the Java FileSystem implementation converts it to a valid Windows path, that is, a C: is prepended to it. If instead a relative path is used by the test, the returned URL will contain the path to the project as well. This way in both cases we have to check whether the returned URL ends with the expected path, which is done by this commit. It fixes the #485 issue",151,8573
+651,6ec42666,FAIL,17,NO,0,NO,0,2016-01-10 17:30:23 +0100,"ArgumentsTest test use an absolute *ux stype path. On Windows the Java FileSystem implementation converts it to a valid Windows path, that is, a C: is prepended to it. If instead a relative path is used by the test, the returned URL will contain the path to the project as well. This way in both cases we have to check whether the returned URL ends with the expected path, which is done by this commit. It fixes the #484 issue",151,8574
+652,615135aa,FAIL,19,NO,0,NO,0,2016-01-10 22:23:41 +0000,Merge pull request #490 from dadrus/issue-484-fix,151,8574
+653,4552a763,FAIL,19,NO,0,NO,0,2016-01-10 22:24:36 +0000,Merge pull request #489 from dadrus/issue-485-fix,151,8573
+654,ae97d0cc,FAIL,18,NO,0,NO,0,2016-01-10 22:26:13 +0000,Merge pull request #488 from dadrus/issue-486-fix,151,8573
+655,53163a1f,FAIL,14,NO,0,NO,0,2016-01-24 23:50:00 +0200,Merge branch 'master' into android_gradle_plugin_fixes,151,8587
+656,093764b9,FAIL,17,NO,0,NO,0,2016-01-24 14:01:27 -0800,Fix typo,151,8573
+657,80adc69d,FAIL,15,NO,0,NO,0,2016-01-24 22:11:22 +0000,Merge pull request #494 from apuder/master,151,8573
+658,9924f74c,FAIL,15,NO,0,NO,0,2016-01-31 20:09:36 +0000,Remove redundant 'static' modifier on enums,151,8573
+659,e03f4e61,FAIL,15,NO,0,NO,0,2016-02-01 19:41:34 +0100,add javaName schema property,153,8678
+660,56bb14e8,FAIL,16,NO,0,NO,0,2016-02-02 22:49:20 +0000,Merge pull request #499 from SpaceBison/feature-javaname,153,8678
+661,db9447e9,FAIL,17,NO,0,NO,0,2016-02-02 22:52:35 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.19,153,8678
+662,d49f8739,FAIL,17,NO,0,NO,0,2016-02-02 22:52:39 +0000,[maven-release-plugin] prepare for next development iteration,153,8678
+663,487631fd,FAIL,17,NO,0,NO,0,2016-02-03 12:18:17 +0000,[release] updating README.md for 0.4.19,153,8678
+664,ac19a90e,FAIL,20,NO,0,NO,0,2016-02-03 12:21:45 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.19,153,8678
+665,491485a4,FAIL,16,NO,0,NO,0,2016-02-03 12:33:31 +0000,"Fix upload URL, GitHub has changed the template",153,8678
+666,2143d382,FAIL,19,NO,0,NO,0,2016-02-03 11:54:33 -0700,cleaned up assert message,153,8678
+667,cc322000,FAIL,18,NO,0,NO,0,2016-02-03 15:18:52 -0700,removed unneeded suppress warnings annotations,154,8773
+668,6948350f,FAIL,17,NO,0,NO,0,2016-02-05 22:21:57 +0000,Merge pull request #501 from ctrimble/feature_dynamic-accessor-warnings,154,8773
+669,86f3f44d,FAIL,15,NO,0,NO,0,2016-02-10 23:46:31 +0000,Merge pull request #495 from ramib85/android_gradle_plugin_fixes,154,8787
+670,73052784,FAIL,16,NO,0,NO,0,2016-02-21 20:56:40 +0000,Only add override builder if the class does not already define one,154,8787
+671,69bcbdb0,FAIL,16,NO,0,NO,0,2016-02-21 21:16:56 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.20,154,8787
+672,5f73f3d5,FAIL,16,NO,0,NO,0,2016-02-21 21:17:00 +0000,[maven-release-plugin] prepare for next development iteration,154,8787
+673,f69ee6d6,FAIL,17,NO,0,NO,0,2016-02-22 10:04:22 +0000,[release] updating README.md for 0.4.20,154,8787
+674,d7a20c4b,FAIL,18,NO,0,NO,0,2016-02-22 10:09:44 +0000,[release] updating CHANGELOG.md for 0.4.20,154,8787
+675,357dd9f9,FAIL,18,NO,0,NO,0,2016-02-22 22:41:32 +0200,"fix gradle plugin for Java projects. Previous code change has caused a bug in the creation of the java task, The task was not able to access gradle extension which contains the JsonSchema2Pojo configuration. The missing configuration resulted in a NullPointerException when calling JsonSchema2Pojo.generate on a null configuration.",154,8787
+676,0c55a6f2,FAIL,17,NO,0,NO,0,2016-02-23 09:53:55 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.21-beta-1,154,8787
+677,de57cc68,FAIL,17,NO,0,NO,0,2016-02-23 09:53:59 +0000,[maven-release-plugin] prepare for next development iteration,154,8787
+678,2c67ed19,FAIL,16,NO,0,NO,0,2016-02-23 10:20:07 -0700,specify when to capture diagnostics in test rule,154,8831
+679,5daa9608,FAIL,18,NO,0,NO,0,2016-02-24 14:40:09 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.21,154,8787
+680,0f054a80,FAIL,17,NO,0,NO,0,2016-02-24 14:40:15 +0000,[maven-release-plugin] prepare for next development iteration,154,8787
+681,a7b7b63f,FAIL,18,NO,0,NO,0,2016-02-24 14:53:20 +0000,Merge pull request #513 from ctrimble/feature_build-stderr,154,8831
+682,bb34a896,FAIL,19,NO,0,NO,0,2016-02-26 11:49:00 +0000,[release] updating README.md for 0.4.21,154,8831
+683,d0560464,FAIL,18,NO,0,NO,0,2016-02-26 11:50:31 +0000,[release] updating CHANGELOG.md for 0.4.21,154,8831
+684,8407ce36,FAIL,19,NO,0,NO,0,2016-02-26 12:48:56 +0100,Adds support for mapping BigDecimal as mentioned in issues #161,154,8882
+685,f289d5c5,FAIL,18,NO,0,NO,0,2016-02-26 20:22:34 +0000,Merge pull request #517 from mikewoudenberg/master,,
+686,51c64844,FAIL,18,NO,0,NO,0,2016-03-10 02:00:19 +0100,Fix minor typos.,,
+687,76bc09a4,FAIL,19,NO,0,NO,0,2016-03-10 01:37:38 +0000,Merge pull request #525 from johnjohndoe/minor-typos,,
+688,66ab825c,FAIL,20,NO,0,NO,0,2016-03-11 14:52:17 +0000,Synchonize Gson versions,,
+689,2cc9a45c,FAIL,17,NO,0,NO,0,2016-03-12 16:32:13 +0100,fixed javaName breaking required properties,,
+690,a2c538dc,FAIL,16,NO,0,NO,0,2016-03-13 23:53:32 +0000,Merge pull request #528 from SpaceBison/feature-javaname,,
+691,2aa7a349,FAIL,20,NO,0,NO,0,2016-03-13 21:41:36 +0100,Add Moshi 1.x.,,
+692,296b83cc,FAIL,17,NO,0,NO,0,2016-03-17 12:05:02 -0700,Adding date-time types to Maven plugin mojo configuration,,
+693,f8ec43a5,FAIL,15,NO,0,NO,0,2016-03-17 19:47:55 +0000,Merge pull request #531 from mmyslyvtsev/mojo-datetime-types,,
+694,83048327,FAIL,19,NO,0,NO,0,2016-03-17 20:03:44 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.22,,
+695,f23641fb,FAIL,16,NO,0,NO,0,2016-03-17 20:03:48 +0000,[maven-release-plugin] prepare for next development iteration,,
+696,1a967506,FAIL,16,NO,0,NO,0,2016-03-20 19:52:43 +0000,[release] updating README.md for 0.4.22,,
+697,f11fc1fd,FAIL,18,NO,0,NO,0,2016-03-20 20:01:47 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.22,,
+698,5d054628,FAIL,16,NO,0,NO,0,2016-03-20 22:01:58 +0000,Merge commit '2aa7a3495a27670b87adfc492c338c64dd230750',,
+699,d9d52a95,FAIL,16,NO,0,NO,0,2016-03-20 22:20:58 +0000,Add zip distribution,,
+700,31a56939,FAIL,16,NO,0,NO,0,2016-03-26 16:41:38 -0400,Override parent builders even if the child schema has no properties,,
+701,002acbb3,FAIL,14,NO,0,NO,0,2016-03-28 20:29:15 +0100,Merge pull request #539 from thachhoang/bugfix/538-overridden-builders,,
+702,6de8bfc4,FAIL,14,NO,0,NO,0,2016-03-28 19:10:42 -0400,Fix javadoc link to Moshi,,
+703,0bb4ebe8,FAIL,16,NO,0,NO,0,2016-03-28 19:13:25 -0400,Use correct default value type for BigDecimal fields,,
+704,017166b6,FAIL,15,NO,0,NO,0,2016-03-29 22:36:10 +0100,Merge pull request #540 from thachhoang/bugfix/535-bigdecimal-default,,
+705,0672ac0b,FAIL,16,NO,0,NO,0,2016-04-09 13:24:41 +0100,added some instructions to help contributors,,
+706,70dc028a,FAIL,15,NO,0,NO,0,2016-04-11 11:08:24 +0100,Merge pull request #544 from samskiter/dev-instructions,,
+707,f90201cc,FAIL,16,NO,0,NO,0,2016-04-11 11:09:08 +0100,Fix name casing,,
+708,f63374c5,FAIL,15,NO,0,NO,0,2016-04-11 22:55:52 +0100,Added missing methods and documentation for prefix/suffix stuff,,
+709,35d41b20,FAIL,17,NO,0,NO,0,2016-04-12 16:10:04 -0400,Merge remote-tracking branch 'GitHubOrigin/master' into feature/UniqueClassName,,
+710,4db63afa,FAIL,17,NO,0,NO,0,2016-04-12 23:16:27 +0100,Merge pull request #547 from samskiter/missing-prefix-suffix,,
+711,4fafda99,FAIL,18,NO,0,NO,0,2015-08-20 16:23:21 +0100,"Added serializable support Squashed commits: Tweaks following PR. inline method, change exception and add message (+24 squashed commits) [d9ef5ae] Move serialisable support out to a utility class. [30e6eae] Fix null pointer exception when reading constructors, add test for it. [e5b1fac] Fix missing declared exceptions [eafc434] Fix types and iterators [58c23a3] More imports and correct types [602bf66] more imports, fix iterable [f143a87] fix imports and indents [b076cbc] correct method name [cf87113] don't use keyword as variable name [0223643] remove diamond operators [eeefbc8] Fix up syntax errors and since version [3b09b3b] First cut of serialversionUID support [67fcb37] add missing semicolon [875f59f] Added serializable integration test [a077b01] updated since in maven docs [3d7977d] added serializable to ant docs [4f1f860] added serializable to maven [029525b] added serializable to gradle plugin readme [37bac06] add serializable option to CLI [7014164] Add serializable to ant task [3ad23e4] Added serializable to gradle config [59e29ae] add serializable=false to default config [7a37755] Added serializable to config [6f2d9de] Add basic serializable support to core object rule",,
+712,0b634003,FAIL,18,NO,0,NO,0,2016-04-14 06:43:00 +0100,Merge pull request #549 from samskiter/serializable-support,,
+713,a3988a16,FAIL,18,NO,0,NO,0,2016-04-11 22:54:37 +0100,Added file extensions config parameter,,
+714,0be62d73,FAIL,19,NO,0,NO,0,2016-04-15 13:24:54 +0100,Updated fileExtensions to use removeEnd,,
+715,1bc33bb7,FAIL,18,NO,0,NO,0,2016-04-28 23:57:18 +0100,Restrict build badge in the README.md to master,,
+716,3fc7e921,FAIL,19,NO,0,NO,0,2016-04-29 13:12:30 +0100,Merge pull request #548 from samskiter/add-fileExtensions,,
+717,e782e6a5,FAIL,18,NO,0,NO,0,2016-05-11 00:09:07 +0100,Fix broken embedded refs (#560),,
+718,54248ac9,FAIL,18,NO,0,NO,0,2016-05-11 19:54:10 +0100,Fixed created property names being upper camel case. Added integration test with schema in propertiesIT.,,
+719,4a8a5044,FAIL,18,NO,0,NO,0,2016-05-11 23:19:48 +0100,Merge pull request #565 from MungoRae/fix-lower-camel-case,,
+720,ce2ea855,FAIL,17,NO,0,NO,0,2016-05-11 23:43:12 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.23,,
+721,164594df,FAIL,17,NO,0,NO,0,2016-05-11 23:43:17 +0100,[maven-release-plugin] prepare for next development iteration,,
+722,c4eaecb5,FAIL,17,NO,0,NO,0,2016-05-12 10:02:03 +0100,[release] updating README.md for 0.4.23,,
+723,b7d47220,FAIL,16,NO,0,NO,0,2016-05-12 10:03:25 +0100,Replace GitHub username/password with access token,,
+724,c8046cea,FAIL,17,NO,0,NO,0,2016-05-13 01:10:25 +0200,Fix for extends with constructor (#558),,
+725,f4021b71,FAIL,18,NO,0,NO,0,2016-04-29 08:43:03 +0100,Switch to new way of using schemas. Start using more of a context object in ObjectRule.,,
+726,d6e4cfc0,FAIL,17,NO,0,NO,0,2016-04-28 15:21:46 +0100,Change to property rule related to schema expectations (correct ID),,
+727,8e97ddb0,FAIL,17,NO,0,NO,0,2016-04-29 08:12:08 +0100,Arrayrule tweak for new schema expectations,,
+728,dd289991,FAIL,20,NO,0,NO,0,2016-05-17 16:06:11 +0200,"Add @JsonPropertyDescription when ""description"" property present (#571)",,
+729,cb052c8d,FAIL,17,NO,0,NO,0,2016-05-17 08:38:23 -0700,updated documentation for excludes parameter in mojo,,
+730,90d905e3,FAIL,17,NO,0,NO,0,2016-05-18 23:25:13 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.23,,
+731,873890e9,FAIL,18,NO,0,NO,0,2016-05-23 21:09:26 +0100,Fix DefaultGenerationConfig to have dynamic accessors off,,
+732,5cdcaa20,FAIL,19,NO,0,NO,0,2016-06-08 19:57:48 +0100,Update README.md github.io links to https,,
+733,cfa4f241,FAIL,19,NO,0,NO,0,2016-07-16 16:10:56 +0200,Fix @since for useBigDecimals (TODO -> 0.4.22) (#591),,
+734,f13a5af4,FAIL,18,NO,0,NO,0,2016-07-16 20:00:51 +0100,Minor indentation and style fixes,,
+735,ed5b90f3,FAIL,17,NO,0,NO,0,2016-07-16 20:04:48 +0100,"Fix javaType with generics when ""type"":""object"" is omitted",,
+736,820ebeb9,FAIL,18,NO,0,NO,0,2016-07-16 20:31:34 +0100,Allow comments in input JSON/JSON Schema files,,
+737,fd2445c1,FAIL,17,NO,0,NO,0,2016-07-28 01:14:22 +0100,Add integration tests for comments in input,,
+738,93f868c7,FAIL,20,NO,0,NO,0,2016-07-28 01:14:36 +0100,Upgrade oss-parent,,
+739,1c1789e5,FAIL,17,NO,0,NO,0,2016-07-29 11:04:21 -0400,"support ""required"" keyword draft4 array-style when generating constru… (#599)",,
+740,dd787591,FAIL,15,NO,0,NO,0,2016-07-30 23:14:12 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.24,,
+741,de4a874c,FAIL,16,NO,0,NO,0,2016-07-30 23:14:17 +0100,[maven-release-plugin] prepare for next development iteration,,
+742,f8818768,FAIL,16,NO,0,NO,0,2016-07-30 23:32:04 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.24,,
+743,e6085085,FAIL,16,NO,0,NO,0,2016-08-02 17:51:37 +0100,[release] updating README.md for 0.4.24,,
+744,d64c873a,FAIL,16,NO,0,NO,0,2016-08-05 10:24:24 +0100,"Add #235 to 0.4.6, as it was missed",,
+745,47ba591d,FAIL,16,NO,0,NO,0,2016-08-14 15:55:24 -0400,Use unique enum constant names (#609),,
+746,0c2de264,FAIL,15,NO,0,NO,0,2016-08-22 11:16:44 -0400,Generate hashCode and equals even without declared fields (#611),,
+747,528eb22d,FAIL,15,NO,0,NO,0,2016-08-26 11:57:10 -0400,Supporting other primitives as backing types for enums (#612),,
+748,895906df,FAIL,16,NO,0,NO,0,2016-08-29 17:13:08 -0400,Add option to use BigInteger for JSON integer type (#614),,
+749,8d8528ee,FAIL,16,NO,0,NO,0,2016-08-29 23:12:59 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.25,,
+750,8302d36d,FAIL,17,NO,0,NO,0,2016-08-29 23:13:06 +0100,[maven-release-plugin] prepare for next development iteration,,
+751,73e3db78,FAIL,16,NO,0,NO,0,2016-08-30 00:53:30 +0100,[release] updating README.md for 0.4.25,,
+752,3f4f1948,FAIL,19,NO,0,NO,0,2016-08-30 01:00:42 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.25,,
+753,db7a4bf3,FAIL,21,NO,0,NO,0,2016-08-31 19:36:59 +0100,Remove javax.annotation.Generated from generated sources,,
+754,9e775e47,FAIL,20,NO,0,NO,0,2016-09-01 20:00:16 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.26,,
+755,6d172acb,FAIL,23,NO,0,NO,0,2016-09-01 20:00:22 +0100,[maven-release-plugin] prepare for next development iteration,,
+756,eb756ddc,FAIL,21,NO,0,NO,0,2016-09-02 09:15:35 +0100,[release] updating README.md for 0.4.26,,
+757,25c9e497,FAIL,17,NO,0,NO,0,2016-09-02 09:18:46 +0100,[release] updating README.md for 0.4.26,,
+758,e83a8d40,FAIL,16,NO,0,NO,0,2016-09-02 21:39:22 -0400,Merge array items in source JSONs before generating schemas,,
+759,59602f7a,FAIL,19,NO,0,NO,0,2016-09-03 22:27:12 +0100,Merge pull request #615 from thachhoang/bugfix/423,,
+760,bd023f6d,FAIL,17,NO,0,NO,0,2016-09-08 15:26:10 +1200,Allow setting class fields directly in gradle,,
+761,0c5f7f6d,FAIL,18,NO,0,NO,0,2016-09-08 13:50:44 +0100,Merge pull request #617 from bgorven/master,,
+762,3c6dd6ce,FAIL,17,NO,0,NO,0,2016-09-19 22:28:42 -0700,"Issue #624: Default value of propertyWordDelimiters is empty in gradle vs ""- _"" for maven",,
+763,d74cac23,FAIL,16,NO,0,NO,0,2016-09-24 09:57:54 +0100,Merge pull request #625 from scr/patch-1,,
+764,6d771f1e,FAIL,19,NO,0,NO,0,2016-09-26 20:05:34 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.27,,
+765,62fc79f6,FAIL,17,NO,0,NO,0,2016-09-26 20:05:40 +0100,[maven-release-plugin] prepare for next development iteration,,
+766,f4ce1d24,FAIL,15,NO,0,NO,0,2016-09-26 21:52:32 +0100,[release] updating README.md for 0.4.27,,
+767,3d8c325a,FAIL,17,NO,0,NO,0,2016-09-26 21:58:12 +0100,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.27,,
+768,c5cd6af4,FAIL,19,NO,0,NO,0,2016-11-07 16:14:31 +0000,Upgrade Jackson to support JDK6 users,,
+769,b3db933b,FAIL,17,NO,0,NO,0,2016-11-12 23:28:28 +0530,Adding JSR-305 annotations,,
+770,77845302,FAIL,18,NO,0,NO,0,2016-11-12 23:37:32 +0530,removing pom changes,,
+771,7f118908,FAIL,19,NO,0,NO,0,2016-11-16 10:11:55 +0100,Add plugin java to usage section,,
+772,46106b11,FAIL,19,NO,0,NO,0,2016-11-16 10:14:41 +0100,Add android plugin description,,
+773,634cf0af,FAIL,17,NO,0,NO,0,2016-11-16 12:09:24 +0000,Merge pull request #647 from StefMa/master,,
+774,bbb76841,FAIL,17,NO,0,NO,0,2016-11-20 01:40:56 +0530,Support for RequiredArray and Integration Tests,,
+775,9ce569aa,FAIL,17,NO,0,NO,0,2016-12-04 09:22:07 +0000,Merge pull request #645 from shrey-garg/jsr-305,,
+776,da7d3da5,FAIL,16,NO,0,NO,0,2016-12-05 22:36:23 +0000,Allow annotators to use the generation config,,
+777,344baf45,FAIL,18,NO,0,NO,0,2016-12-05 23:02:11 +0000,Ensure additional properties are validated when using JSR-303,,
+778,385191de,FAIL,16,NO,0,NO,0,2016-12-05 23:24:02 +0000,Add /bin to release packages for sdkman,,
+779,94610f5f,FAIL,18,NO,0,NO,0,2016-12-05 23:38:23 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.28,,
+780,e3288b4e,FAIL,16,NO,0,NO,0,2016-12-05 23:38:33 +0000,[maven-release-plugin] prepare for next development iteration,,
+781,a07e1f63,FAIL,16,NO,0,NO,0,2016-12-06 00:01:32 +0000,[release] updating README.md for 0.4.28,,
+782,8e7c7035,FAIL,16,NO,0,NO,0,2016-12-06 00:14:00 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.28,,
+783,07476abf,FAIL,17,NO,0,NO,0,2016-12-06 00:14:30 +0000,Move CLI jar to /lib inside release archives,,
+784,6a673c67,FAIL,17,NO,0,NO,0,2016-12-06 14:14:15 +1100,fixes joelittlejohn/jsonschema2pojo#655,,
+785,370d838e,FAIL,19,NO,0,NO,0,2016-12-06 07:25:51 +0000,Merge pull request #656 from bhaesler/issue-655,,
+786,2617a458,FAIL,19,NO,0,NO,0,2016-12-06 20:15:26 -0500,Add tests for JsonPropertyDescription value,,
+787,18a319d4,FAIL,17,NO,0,NO,0,2016-12-06 20:26:20 -0500,Add gradle documentation for includeAccessors,,
+788,b354cd4e,FAIL,17,NO,0,NO,0,2016-12-07 08:43:14 +0000,Merge pull request #657 from thachhoang/test-655,,
+789,4685a252,FAIL,18,NO,0,NO,0,2016-12-12 18:47:50 +0200,Set include additional properties correctly,,
+790,9c451f2f,FAIL,19,NO,0,NO,0,2016-12-12 17:04:08 +0000,Merge pull request #660 from ytanay/patch-1,,
+791,9f5ca13b,FAIL,18,NO,0,NO,0,2016-12-13 08:40:26 -0700,Support for @JsonFormat annotation (#643),,
+792,c8ae4439,FAIL,17,NO,0,NO,0,2016-12-13 15:45:05 +0000,Replace tabs with spaces,,
+793,52ca7aa0,FAIL,17,NO,0,NO,0,2016-12-13 22:30:18 +0000,Remove unnecessary/empty Javadocs,,
+794,18965c8c,FAIL,19,NO,0,NO,0,2016-12-13 23:00:26 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.29,,
+795,94abf344,FAIL,17,NO,0,NO,0,2016-12-13 23:00:40 +0000,[maven-release-plugin] prepare for next development iteration,,
+796,187c51f5,FAIL,20,NO,0,NO,0,2016-12-14 23:27:48 +0000,[release] updating README.md for 0.4.29,,
+797,7b6deb4c,FAIL,18,NO,0,NO,0,2016-12-14 23:30:54 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.29,,
+798,78d7a228,FAIL,18,NO,0,NO,0,2016-12-16 21:54:51 -0500,Support URI format properties with a default value using URI.create,,
+799,ecec5c03,FAIL,17,NO,0,NO,0,2016-12-17 08:48:55 +0000,Merge pull request #665 from thachhoang/664-uri-default,,
+800,b5b5efb6,FAIL,17,NO,0,NO,0,2017-01-06 11:35:03 -0600,Use current thread's context loader to potentially pick up dependencies from maven and ant plugins.  Fixes #673,,
+801,b3fc01b5,FAIL,15,NO,0,NO,0,2017-01-06 13:20:13 -0600,Fix newlines,,
+802,d2430c30,FAIL,17,NO,0,NO,0,2017-01-07 17:21:56 +0000,Merge pull request #674 from bbohl/fix-customtypes-classloader,,
+803,ad0c83d8,FAIL,15,NO,0,NO,0,2017-02-06 01:08:12 +0300,Jackson inclusion option (#671),,
+804,c51df3a0,FAIL,16,NO,0,NO,0,2017-02-05 22:26:05 +0000,Minor style and typo fixes for inclusionLevel PR,,
+805,e8bf1c97,FAIL,17,NO,0,NO,0,2017-02-05 22:32:33 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.30,,
+806,4f661c5e,FAIL,20,NO,0,NO,0,2017-02-05 22:32:43 +0000,[maven-release-plugin] prepare for next development iteration,,
+807,369fe1e4,FAIL,18,NO,0,NO,0,2017-02-05 22:52:12 +0000,[release] updating README.md for 0.4.30,,
+808,6d6d7658,FAIL,17,NO,0,NO,0,2017-02-05 22:58:38 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.30,,
+809,bcc5666d,FAIL,17,NO,0,NO,0,2017-02-05 23:50:23 +0000,Fix a variety of source warnings,,
+810,debdfcfd,FAIL,16,NO,0,NO,0,2017-02-06 00:33:45 +0000,Clean up a load of PMD & Findbugs warnings,,
+811,507d275b,FAIL,16,NO,0,NO,0,2017-03-01 17:07:01 +0000,Avoid 'status' being singularized to 'statu',,
+812,739d320c,FAIL,17,NO,0,NO,0,2017-03-01 18:24:51 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.31,,
+813,9061e136,FAIL,19,NO,0,NO,0,2017-03-01 18:25:09 +0000,[maven-release-plugin] prepare for next development iteration,,
+814,2736b8cf,FAIL,20,NO,0,NO,0,2017-03-02 10:46:48 +0100,Add option to specify custom fragment separator characters (#697),,
+815,323a8a73,FAIL,16,NO,0,NO,0,2017-03-02 11:36:04 +0000,[release] updating README.md for 0.4.31,,
+816,8c508329,FAIL,17,NO,0,NO,0,2017-03-02 11:52:43 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.31,,
+817,3af46079,FAIL,20,NO,0,NO,0,2017-03-06 12:53:53 -0700,Don't prefix a class if it already exists without the prefix. Fixes #650,,
+818,9f1688e2,FAIL,19,NO,0,NO,0,2017-03-06 20:16:32 +0000,Merge pull request #700 from DavidTanner/javaType-prefix,,
+819,1ccc2115,FAIL,27,NO,0,NO,0,2017-03-17 15:32:54 +0200,Allow ContentResolverTest to run without an internet connection (#705),,
+820,c4eb4b32,FAIL,19,NO,0,NO,0,2017-03-18 17:15:52 +0000,[maven-release-plugin] prepare release jsonschema2pojo-0.4.32,,
+821,848bdad4,FAIL,18,NO,0,NO,0,2017-03-18 17:16:02 +0000,[maven-release-plugin] prepare for next development iteration,,
+822,89fc05da,FAIL,18,NO,0,NO,0,2017-03-21 20:05:23 +0000,[release] updating README.md for 0.4.32,,
+823,186e3877,FAIL,19,NO,0,NO,0,2017-03-21 20:12:57 +0000,[release] updating CONTRIBUTORS.md & CHANGELOG.md for 0.4.32,,
+824,5e024e2d,FAIL,18,NO,0,NO,0,2017-03-26 13:34:44 -0400,Fix Eclipse error for ambiguous any method,,
+825,c86fac4e,FAIL,18,NO,0,NO,0,2017-03-26 13:34:53 -0400,Fix compilation errors for non-string enums,,
+826,7b973cf1,FAIL,20,NO,0,NO,0,2017-03-26 21:49:08 +0100,Merge pull request #713 from thachhoang/776-enum-default,,
+827,acd5c092,FAIL,19,NO,0,NO,0,2017-03-27 22:09:21 +0100,Add 'formatDates' option to add JsonFormat to date fields,,
+828,b5d3822a,FAIL,18,NO,0,NO,0,2017-03-27 22:57:46 +0100,Include timezone in default formatDateTimes pattern,,
+829,1b6414be,FAIL,18,NO,0,NO,0,2017-03-27 22:58:51 +0100,Support 'customPattern' as an alias of customDateTimePattern and customDatePattern,,
+830,528ce3ce,FAIL,19,NO,0,NO,0,2017-03-27 23:50:10 +0100,Add customDatePattern/customDateTimePattern config options,,
+831,dd7228e1,FAIL,18,NO,0,NO,0,2017-03-28 19:48:51 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.33,,
+832,b6393cf5,FAIL,17,NO,0,NO,0,2017-03-28 19:49:02 +0100,[maven-release-plugin] prepare for next development iteration,,
+833,468fd522,FAIL,17,NO,0,NO,0,2017-03-28 21:47:17 +0100,[release] updating README.md for 0.4.33,,
+834,5c9b2911,FAIL,16,NO,0,NO,0,2017-03-28 21:59:35 +0100,[release] Update CHANGELOG.md for 0.4.33,,
+835,e7758277,FAIL,18,NO,0,NO,0,2017-03-29 22:00:27 +0100,Add survey link,,
+836,2660aa8d,FAIL,18,NO,0,NO,0,2017-04-13 17:35:24 +0100,Add support for excluding fields from generated toString methods,,
+837,609b5db9,FAIL,19,NO,0,NO,0,2017-04-22 10:28:34 +0100,Add 'sourceSortOrder' to decide how source files are iterated (#719),,
+838,930f6403,FAIL,21,NO,0,NO,0,2017-04-23 16:39:29 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.34,,
+839,9acc36ed,FAIL,17,NO,0,NO,0,2017-04-23 16:39:40 +0100,[maven-release-plugin] prepare for next development iteration,,
+840,4e36ea6e,FAIL,18,NO,0,NO,0,2017-04-23 21:45:27 +0100,[release] updating README.md for 0.4.34,,
+841,77b49fd4,FAIL,21,NO,0,NO,0,2017-04-23 21:49:50 +0100,[release] Update CHANGELOG.md & CONTRIBUTORS.md for 0.4.34,,
+842,fe018d49,FAIL,16,NO,0,NO,0,2017-04-26 23:22:32 +0100,Merge pull request #720 from driseley/to-string-exclude,,
+843,c8fd45a5,FAIL,18,NO,0,NO,0,2017-04-27 09:45:21 +0100,Since @since for toStringExcludes,,
+844,9106b38e,FAIL,14,NO,0,NO,0,2017-05-22 17:28:11 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.35,,
+845,5adebc7c,FAIL,18,NO,0,NO,0,2017-05-22 17:28:23 +0100,[maven-release-plugin] prepare for next development iteration,,
+846,0690921d,FAIL,17,NO,0,NO,0,2017-05-22 21:51:10 +0100,[release] updating README.md for 0.4.35,,
+847,45c7728f,FAIL,19,NO,0,NO,0,2017-05-22 22:00:06 +0100,[release] Update CHANGELOG.md & CONTRIBUTORS.md for 0.4.35,,
+848,26f1272b,FAIL,17,NO,0,NO,0,2017-05-25 21:52:55 +0200,skip empty element of RequiredArray in schema [#725],,
+849,4e92dc5e,FAIL,17,NO,0,NO,0,2017-05-25 21:53:55 +0200,changed test schema for [#725],,
+850,02fd8e23,FAIL,17,NO,0,NO,0,2017-05-27 08:14:12 +0100,Merge pull request #733 from michalkolodziejski/fix-for-725,,
+851,86c3fab8,FAIL,19,NO,0,NO,0,2017-06-01 20:57:43 +0900,Fix for #602 : Writing to /Reading from Parcelable ignores superclass,,
+852,fe67d935,FAIL,20,NO,0,NO,0,2017-06-01 14:35:28 +0100,Add dateType/dataTimeType to gradle plugin readme,,
+853,5b21c62e,FAIL,18,NO,0,NO,0,2017-06-01 15:20:38 -0400,Update recommended jackson version gradle plugin,,
+854,069cb756,FAIL,19,NO,0,NO,0,2017-06-01 22:48:13 +0100,Merge pull request #739 from JLLeitschuh/patch-1,,
+855,4a0c20f4,FAIL,19,NO,0,NO,0,2017-06-04 11:43:20 -0400,Added support for formatting times,,
+856,53f8f48e,FAIL,19,NO,0,NO,0,2017-06-05 00:04:14 +0100,Merge pull request #740 from sbyron15/support_formating_times,,
+857,dcaa7d72,FAIL,23,NO,0,NO,0,2017-06-05 00:06:34 +0100,Fix @since version of formatTimes and customTimePattern,,
+858,70468314,FAIL,22,NO,0,NO,0,2017-06-05 15:41:32 +0900,Added integration test for #602 : parcelable superclass,,
+859,bc40c402,FAIL,20,NO,0,NO,0,2017-06-06 09:45:19 +0900,Fixed json filename in extends reference (#602),,
+860,f8da2ee4,FAIL,21,NO,0,NO,0,2017-06-06 12:18:50 +0100,Merge pull request #737 from yomik/fix/android-parcelable-superclass-602,,
+861,7221d5b2,FAIL,20,NO,0,NO,0,2017-06-11 20:36:57 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.36,,
+862,e9219bd5,FAIL,18,NO,0,NO,0,2017-06-11 20:37:09 +0100,[maven-release-plugin] prepare for next development iteration,,
+863,70ac7ae3,FAIL,16,NO,0,NO,0,2017-06-11 23:13:11 +0100,Remove survey link,,
+864,66e11cad,FAIL,15,NO,0,NO,0,2017-06-11 20:48:28 +0100,License date update,,
+865,1e0ef46c,FAIL,16,NO,0,NO,0,2017-06-11 23:13:32 +0100,[release] Update CHANGELOG.md & CONTRIBUTORS.md for 0.4.36,,
+866,9d51e8c7,FAIL,18,NO,0,NO,0,2017-06-12 17:32:38 +0100,[release] updating README.md for 0.4.36,,
+867,9056d5ab,FAIL,19,NO,0,NO,0,2017-06-13 11:15:14 +0900,Fix for #742 : Generating 2 constructors,,
+868,ae1ba5a7,FAIL,20,NO,0,NO,0,2017-06-13 07:57:33 +0100,Merge pull request #743 from yomik/fix/duplicate_ctor_742,,
+869,f14995cb,FAIL,19,NO,0,NO,0,2017-06-13 10:46:46 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.4.37,,
+870,f0822230,FAIL,20,NO,0,NO,0,2017-06-13 10:47:00 +0100,[maven-release-plugin] prepare for next development iteration,,
+871,774ed7d6,FAIL,19,NO,0,NO,0,2017-06-13 12:12:28 +0100,[release] updating README.md for 0.4.37,,
+872,b15e5f13,FAIL,18,NO,0,NO,0,2017-06-13 14:14:26 +0100,[release] Update CHANGELOG.md 0.4.37,,
+873,d20452b0,FAIL,21,NO,0,NO,0,2017-06-16 15:35:27 -0700,Update Moshi references to 1.5.0.,,
+874,c5bc514d,FAIL,16,NO,0,NO,0,2017-06-18 17:58:18 +0100,Merge pull request #746 from NightlyNexus/master,,
+875,d1e09325,FAIL,17,NO,0,NO,0,2017-06-22 21:43:45 +0200,Gradle plugin up to date check,,
+876,1504e1f2,FAIL,17,NO,0,NO,0,2017-06-21 11:30:54 +0100,Add toString() method after additional properties,,
+877,6409569d,FAIL,17,NO,0,NO,0,2017-06-26 14:19:48 +0100,Generate toString() without reflection,,
+878,c15b4dbc,FAIL,18,NO,0,NO,0,2017-06-27 08:55:09 +0200,detect configuration changes: issue #744,,
+879,f255879e,FAIL,20,NO,0,NO,0,2017-06-27 08:30:56 +0100,Merge pull request #752 from Slady32/gradlePlugin_upToDateCheck,,
+880,f15a37cc,FAIL,20,NO,0,NO,0,2017-06-27 14:19:07 +0100,Merge pull request #753 from johnkeeping/tostring-from-attributes,,
+881,97e6271e,FAIL,18,NO,0,NO,0,2017-07-24 10:47:05 -0400,Getters and Setters can now be activated independently (#759),,
+882,bcd879c1,FAIL,22,NO,0,NO,0,2017-09-10 22:46:17 +0100,Add support for Scala output,,
+883,0ba4b457,FAIL,17,NO,0,NO,0,2017-09-10 23:02:55 +0100,Use OpenJDK for CI,,
+884,69934ee9,FAIL,17,NO,0,NO,0,2017-09-11 22:32:44 +0100,Create CONTRIBUTING.md,,
+885,b7fd9506,FAIL,20,NO,0,NO,0,2017-09-11 22:34:29 +0100,Update link to 'contributing' help,,
+886,6c18161a,FAIL,18,NO,0,NO,0,2017-09-11 23:19:13 +0100,Fix Scala version to 2.10.1 to avoid confusing Gradle when it reads scalagen,,
+887,0d28dc01,FAIL,19,NO,0,NO,0,2017-09-12 00:02:26 +0100,Bump to 0.5.0 in next release,,
+888,5eeb01e1,FAIL,83,NO,0,NO,0,2017-09-12 01:08:24 +0100,Add fork of scalagen that suffer artifact resolution problems,,
+889,8b8806da,FAIL,62,NO,0,NO,0,2017-09-12 09:45:08 +0200,Allow fields to be excluded from hashCode() and equals() generation (#530),,
+890,eb507b28,FAIL,59,NO,0,NO,0,2017-09-15 12:19:53 +0100,Add includeAdditionalProperties,,
+891,9137a6d0,FAIL,77,NO,0,NO,0,2017-09-18 21:28:19 +0100,Add support for yaml and yamlschema source types,,
+892,92d6af1c,FAIL,70,NO,0,NO,0,2017-09-18 21:39:41 +0100,Fix Taxes -> Tax in Inflector,,
+893,a7610713,FAIL,68,NO,0,NO,0,2017-09-18 21:55:09 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.5.0,,
+894,9beef781,FAIL,66,NO,0,NO,0,2017-09-18 21:55:20 +0100,[maven-release-plugin] prepare for next development iteration,,
+895,cfe68203,FAIL,66,NO,0,NO,0,2017-09-18 22:14:38 +0100,Use more useful Maven Central link in README.md,,
+896,1af5be97,FAIL,72,NO,0,NO,0,2017-09-20 21:43:05 +0100,[release] updating README.md for 0.5.0,,
+897,8ec691a4,FAIL,71,NO,0,NO,0,2017-09-20 21:48:46 +0100,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 0.5.0,,
+898,855b5bbc,FAIL,71,NO,0,NO,0,2017-09-20 21:32:42 +0100,Add Scala Zip and SingleStream code writers for website,,
+899,d9327cb1,FAIL,63,NO,0,NO,0,2017-09-20 21:53:10 +0100,[maven-release-plugin] prepare release jsonschema2pojo-0.5.1,,
+900,36d32f5d,FAIL,63,NO,0,NO,0,2017-09-20 21:53:18 +0100,[maven-release-plugin] prepare for next development iteration,,
+901,dfc193d8,FAIL,67,NO,0,NO,0,2017-09-23 07:47:19 +0100,[release] updating README.md for 0.5.1,,
+902,bff2eb59,FAIL,61,NO,0,NO,0,2017-09-23 07:59:29 +0100,[release] Update CHANGELOG.md for 0.5.1,,
+903,99e06caa,FAIL,66,NO,0,NO,0,2017-09-26 21:29:25 +0100,Add docs for sourceType YAMLSCHEMA & YAML,,
+904,0490970b,FAIL,65,NO,0,NO,0,2017-10-10 17:05:44 -0700,"Use FilenameUtils to fix relative source paths.  This in turn fixes the extra ""underscore"" classes that get generated with a relative source path.",,
+905,53d0f4c2,FAIL,66,NO,0,NO,0,2017-10-11 11:13:32 +0100,Merge pull request #792 from dhalbrook/master,,
+906,be3d35c9,FAIL,76,NO,0,NO,0,2017-10-19 22:25:39 +0200,add option to use Optional for getters of non-required attributes,,
+907,d67efc2a,FAIL,69,NO,0,NO,0,2017-11-26 13:03:49 +0000,"add partial support of wildcards in ""javaType"" declarations",,
+908,7eb22713,FAIL,66,NO,0,NO,0,2017-11-26 13:58:41 +0000,Merge pull request #810 from wigbam/wigbam/wildcard-java-type,,
+909,285c64aa,FAIL,60,NO,0,NO,0,2017-12-11 15:55:05 -0800,Add toString integration tests,,
+910,111cc9d2,FAIL,60,NO,0,NO,0,2017-12-07 23:20:33 -0800,"Replace commons-lang equals, hashCode, and toString with generated code",,
+911,1a7d3141,FAIL,62,NO,0,NO,0,2017-12-25 20:28:04 +0000,Fix failing tests,,
+912,fb34a85e,FAIL,66,NO,0,NO,0,2017-12-26 04:30:57 +0000,Resolve Maven POM warnings,,
+913,1ce441a4,FAIL,68,NO,0,NO,0,2017-12-26 04:32:25 +0000,Minor tweaks to POM to use consistent versions of libraries,,
+914,f84d765e,FAIL,64,NO,0,NO,0,2017-12-26 10:01:45 +0000,Merge pull request #821 from aldaris/pomfix,,
+915,31b98ac2,FAIL,60,NO,0,NO,0,2017-12-26 10:02:24 +0000,Merge pull request #820 from aldaris/test-fixes,,
+916,248a1c69,FAIL,5,NO,0,NO,0,2018-01-01 17:39:48 +0000,Merge pull request #812 from ehrmann/remove-commons-lang-from-pojos,,
+917,1911aa37,FAIL,67,NO,0,NO,0,2018-01-02 17:10:34 +0100,Add commons-lang3 version that used to be defined in parent pom.,,
+918,648cd449,FAIL,73,NO,0,NO,0,2018-01-02 18:24:45 +0000,Merge pull request #822 from metacosm/fix-missing-version,,
+919,75edb2e5,FAIL,70,NO,0,NO,0,2018-01-03 12:38:41 +0100,Improve error message.,,
+920,b9b733ae,FAIL,67,NO,0,NO,0,2018-01-03 15:52:49 +0000,Merge pull request #823 from metacosm/improve-error-message,,
+921,0103c0ff,FAIL,60,NO,0,NO,0,2018-01-21 21:36:09 +0000,Merge pull request #344 from holsky/use-java8-optional,,
+922,1590df3a,FAIL,68,NO,0,NO,0,2018-01-31 21:18:40 +0000,Derive class name from $ref value,,
+923,41551ae4,FAIL,67,NO,0,NO,0,2018-01-31 21:26:49 +0000,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0-alpha1,,
+924,d1b5507d,FAIL,67,NO,0,NO,0,2018-01-31 21:27:02 +0000,[maven-release-plugin] prepare for next development iteration,,
+925,7551757c,FAIL,73,NO,0,NO,0,2018-02-01 23:28:25 +0000,Allow releases to be uploaded without changing current version in docs,,
+926,c8981dfd,FAIL,70,NO,0,NO,0,2018-02-01 23:29:57 +0000,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 1.0.0-alpha1,,
+927,50911bda,FAIL,66,NO,0,NO,0,2018-02-01 23:32:58 +0000,Add note to README.md about stable/unstable versions,,
+928,003ef3e1,FAIL,70,NO,0,NO,0,2018-02-01 23:33:36 +0000,Update README.md,,
+929,2c628d18,FAIL,64,NO,0,NO,0,2018-02-04 20:35:35 +0000,Merge pull request #476 from ModulusData/feature/UniqueClassName,,
+930,101d7a4e,FAIL,71,NO,0,NO,0,2018-02-04 20:49:34 +0000,Tighten rules for class name matching in #476,,
+931,e7de4674,FAIL,68,NO,0,NO,0,2018-02-04 21:24:15 +0000,Add link to changes in next unstable,,
+932,da3e8e27,FAIL,61,NO,0,NO,0,2018-02-04 21:24:39 +0000,Update README.md,,
+933,e86db101,FAIL,68,NO,0,NO,0,2018-02-04 22:34:01 +0000,Fix edge case of getter/setter naming when second char is uppercase,,
+934,f2a1db28,FAIL,71,NO,0,NO,0,2018-02-08 14:31:48 +0100,#832 Changed maven central repo listing id key to default,,
+935,2df30a5b,FAIL,76,NO,0,NO,0,2018-02-08 16:29:48 +0000,Merge pull request #833 from DennisRippinger/832,,
+936,f19633d1,FAIL,69,NO,0,NO,0,2018-02-09 12:21:36 +0000,Remove erroneous dependency on google-cloud,,
+937,24e1ab86,FAIL,63,NO,0,NO,0,2018-02-18 21:44:50 +0000,"Improve interaction between -da, -dg and -ds flags",,
+938,665a00e7,FAIL,63,NO,0,NO,0,2018-03-05 23:20:37 +0000,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0-alpha2,,
+939,0955640d,FAIL,71,NO,0,NO,0,2018-03-05 23:20:49 +0000,[maven-release-plugin] prepare for next development iteration,,
+940,c4adf136,FAIL,70,NO,0,NO,0,2018-03-07 21:39:40 +0000,[release] updating README.md for 1.0.0-alpha2,,
+941,a2e7e37a,FAIL,63,NO,0,NO,0,2018-04-16 18:01:56 +0200,Generate Camel Case from underscore style names (#850),,
+942,1c4abc3e,FAIL,61,NO,0,NO,0,2018-04-30 18:31:50 +0100,Add caching of .m2 for Travis,,
+943,e40e63c5,FAIL,72,NO,0,NO,0,2018-06-05 00:04:45 +0100,Move to Java 8,,
+944,83573130,FAIL,71,NO,0,NO,0,2018-06-05 17:13:01 +0100,Use maven-plugin-plugin version that can handle Java 8,,
+945,73dd260e,FAIL,71,NO,0,NO,0,2018-06-05 17:21:28 +0100,Fix robolectric/ParcelableIT and remove runtime dep on Android,,
+946,5dbb4600,FAIL,62,NO,0,NO,0,2018-06-05 22:30:29 +0100,Drop Maven 2.x support by removing deprecated 'expression' syntax,,
+947,1ab0f67e,FAIL,59,NO,0,NO,0,2018-06-05 22:46:00 +0100,Use <> where possible,,
+948,df27d660,FAIL,62,NO,0,NO,0,2018-06-05 22:47:10 +0100,Use multi-catch where possible,,
+949,c0b6272a,FAIL,60,NO,0,NO,0,2018-06-08 18:42:14 +0100,"Remove redundant throws, and a few other minor code fixes",,
+950,2f205906,FAIL,65,NO,0,NO,0,2018-06-08 22:16:48 +0100,Remove runtime dependency on Moshi,,
+951,03d374d4,FAIL,67,NO,0,NO,0,2018-06-08 22:54:49 +0100,Add 1.0.0-alpha2 to CHANGELOG.md,,
+952,fbf456f9,FAIL,64,NO,0,NO,0,2018-06-09 22:16:43 +0100,Separate javaType into 'existingJavaType' and 'javaType',,
+953,05cd43cc,FAIL,71,NO,0,NO,0,2018-06-11 21:47:10 +0100,Replace default Maven output dir 'java-gen' with generated-sources/jsonschema2pojo,,
+954,2add8f67,FAIL,64,NO,0,NO,0,2018-06-11 21:52:48 +0100,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0-alpha3,,
+955,255c1a48,FAIL,61,NO,0,NO,0,2018-06-11 21:53:01 +0100,[maven-release-plugin] prepare for next development iteration,,
+956,6cff4a66,FAIL,71,NO,0,NO,0,2018-06-12 20:03:55 +0100,[release] updating README.md for 1.0.0-alpha3,,
+957,dad7e89c,FAIL,66,NO,0,NO,0,2018-06-12 20:07:15 +0100,Update unstable versions mentioned in README.md,,
+958,a6754b9d,FAIL,65,NO,0,NO,0,2018-06-12 20:11:00 +0100,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 1.0.0-alpha3,,
+959,a7ea76c2,FAIL,59,NO,0,NO,0,2018-06-13 10:53:18 +0100,Fix errors with Maven property annotations,,
+960,e18bc183,FAIL,58,NO,0,NO,0,2018-06-13 14:03:26 +0100,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0-alpha4,,
+961,c00f4535,FAIL,64,NO,0,NO,0,2018-06-13 14:03:35 +0100,[maven-release-plugin] prepare for next development iteration,,
+962,f576a47e,FAIL,68,NO,0,NO,0,2018-06-13 20:43:13 +0100,[release] Update CHANGELOG.md 1.0.0-alpha4,,
+963,688ffd7a,FAIL,73,NO,0,NO,0,2018-06-13 20:44:09 +0100,Remove useless file,,
+964,84733412,FAIL,67,NO,0,NO,0,2018-06-13 20:45:49 +0100,Update unstable version mentioned in README.md,,
+965,8314f972,FAIL,62,NO,0,NO,0,2018-06-13 22:30:41 +0100,"Remove includeAccessors, use only includeGetters/includeSetters",,
+966,3b80b345,FAIL,66,NO,0,NO,0,2018-06-14 10:05:55 +0100,Update README.md,,
+967,c08fabb9,FAIL,65,NO,0,NO,0,2018-07-18 16:18:33 +0100,Add YourKit link to README.md,,
+968,d7ead7b0,FAIL,63,NO,0,NO,0,2018-07-18 16:19:13 +0100,Update README.md,,
+969,0b488d6a,FAIL,64,NO,0,NO,0,2018-08-07 13:11:50 +0100,"Added the parameter tags to the useOptional and Jsr305 options, means it can now be configured",,
+970,cdb311be,FAIL,67,NO,0,NO,0,2018-08-07 13:14:50 +0100,Added to CONTRIBUTORS,,
+971,9de4ad5d,FAIL,64,NO,0,NO,0,2018-08-07 14:47:52 +0100,Merge pull request #895 from mbramwell1/feature/fix-for-optionals-for-getters,,
+972,1d052f1a,FAIL,69,NO,0,NO,0,2018-09-12 11:17:30 +0100,Change the Use Optionals for Getters functionality to allow for specifying to use optionals on a field level aswell as for the whole schema.,,
+973,d6767c85,FAIL,67,NO,0,NO,0,2018-09-12 15:49:29 +0100,Review comments,,
+974,2424bcdd,FAIL,58,NO,0,NO,0,2018-09-12 17:54:46 +0100,Merge pull request #913 from mbramwell1/feature/improve-optionals-for-getters,,
+975,4462e604,FAIL,69,NO,0,NO,0,2018-09-14 12:37:12 +0200,Allow to resolve type names from `title` attribute in schema. Each word in a title is capitalized and whitespaces stripped.,,
+976,65ddb5e1,FAIL,68,NO,0,NO,0,2018-09-17 10:09:48 +0200,Change config to `useTitleAsClassname: false` Refine logic to keep accessor/property as in schema and only change type name Add integration test,,
+977,cbe61c67,FAIL,65,NO,0,NO,0,2018-09-17 12:21:39 +0200,Fix test and `javaName` override behaviour,,
+978,9e1de34a,FAIL,67,NO,0,NO,0,2018-09-17 11:48:10 +0200,Add JsonNode `parent` to rules.,,
+979,ffd7945a,FAIL,65,NO,0,NO,0,2018-09-17 13:22:44 +0100,Merge pull request #916 from jrehwaldt/type-name-strategy,,
+980,02c6d4b2,FAIL,68,NO,0,NO,0,2018-09-17 22:38:22 +0100,Merge pull request #917 from jrehwaldt/add-parent-node-to-rules-apply,,
+981,d5b754d2,FAIL,67,NO,0,NO,0,2018-09-18 09:13:11 +0200,Add integration tests failing due to incorrect JSR305 annotations,,
+982,59d48bf2,FAIL,66,NO,0,NO,0,2018-09-18 14:54:58 +0200,Derive child schemas for objects and arrays (as the JavaDoc of SchemaRule already suggests).,,
+983,7b79fb8c,FAIL,71,NO,0,NO,0,2018-09-18 22:17:42 +0200,Implement configuration to override types for formats.,,
+984,784ee5c2,FAIL,67,NO,0,NO,0,2018-09-19 10:01:13 +0200,Rename `Schema#derive` to `#deriveChildSchema` and add JavaDoc.,,
+985,2811e480,FAIL,63,NO,0,NO,0,2018-09-19 10:20:50 +0100,Merge pull request #922 from jrehwaldt/pass-down-child-schema-fixes-gh-906,,
+986,df0cbad2,FAIL,63,NO,0,NO,0,2018-09-20 09:09:22 +0200,Fix handling of primitives and add test ensuring all primitives are correctly unboxed,,
+987,8dc5c731,FAIL,61,NO,0,NO,0,2018-09-20 09:11:07 +0200,Fix test name,,
+988,44c41e23,FAIL,65,NO,0,NO,0,2018-09-20 16:05:26 +0200,Describe ant format of `formatTypeMapping`,,
+989,0952b411,FAIL,69,NO,0,NO,0,2018-09-21 19:08:17 +0100,Merge pull request #923 from jrehwaldt/format-to-type-using-map,,
+990,8f296c80,FAIL,69,NO,0,NO,0,2018-09-21 20:45:10 +0100,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0-beta1,,
+991,03339bf7,FAIL,67,NO,0,NO,0,2018-09-21 20:45:26 +0100,[maven-release-plugin] prepare for next development iteration,,
+992,6307b4fb,FAIL,67,NO,0,NO,0,2018-09-22 20:50:17 +0100,[release] updating README.md for 1.0.0-beta1,,
+993,179eee00,FAIL,70,NO,0,NO,0,2018-09-22 20:59:56 +0100,"[release] Update README.md, CHANGELOG.md and CONTRIBUTORS.md for 1.0.0-beta1",,
+994,aa19056e,FAIL,60,NO,0,NO,0,2018-09-23 22:19:36 +0100,Ensure 'with' builder method is always named consistently,,
+995,e2de5388,FAIL,66,NO,0,NO,0,2018-10-09 00:02:10 +0100,"Singularize array names ending in ""List""",,
+996,bab8aae3,FAIL,69,NO,0,NO,0,2018-10-18 22:12:01 +0100,Update Jackson 2.x versions throughout project,,
+997,8eba3a66,FAIL,63,NO,0,NO,0,2018-11-22 18:15:53 +0100,don't register output directory as a set of files,,
+998,2a4b29ea,FAIL,66,NO,0,NO,0,2018-11-22 18:16:44 +0000,Merge pull request #940 from lared/issue-809-invalidGradleTaskOutputs,,
+999,5d94cf7e,FAIL,65,NO,0,NO,0,2018-12-02 13:19:44 -0500,Added new rule for creating the inner class of XYZBuilder on generated classes Added new configuration properties for controling how the Builder methods are created Moved some of the naming production methods from ObjectRule to NameHelper,,
+1000,d4a1b139,FAIL,69,NO,0,NO,0,2018-12-13 19:04:17 +0000,[maven-release-plugin] prepare release jsonschema2pojo-1.0.0,,
+1001,fb12b980,FAIL,68,NO,0,NO,0,2018-12-13 19:04:27 +0000,[maven-release-plugin] prepare for next development iteration,,
+1002,bbc96b97,FAIL,66,NO,0,NO,0,2018-12-14 22:47:51 +0000,[release] updating README.md for 1.0.0,,
+1003,8a06edfd,FAIL,69,NO,0,NO,0,2018-12-14 22:53:11 +0000,"[release] Update README.md, CHANGELOG.md and CONTRIBUTORS.md for 1.0.0",,
+1004,f14ffbbe,FAIL,67,NO,0,NO,0,2019-01-21 12:02:49 -0500,Added inheritance support to the InnerBuilder implementation,,
+1005,cc4b9788,FAIL,64,NO,0,NO,0,2019-01-23 20:22:51 -0500,"Updated configurations to remove 'chainable setters' as a property Updated previously neglected gradle, cli, and ant configurations to include the configuration for innerClassBuilders",,
+1006,797dad0c,FAIL,67,NO,0,NO,0,2019-01-24 07:59:28 -0500,Added code to invoke non-standard consturctors from the InnerClassBuilder implementation,,
+1007,feee8ab6,FAIL,59,NO,0,NO,0,2019-01-24 08:03:08 -0500,Removed duplicate copyright notices,,
+1008,eeb11ae0,FAIL,64,NO,0,NO,0,2019-01-24 08:19:01 -0500,Added additional documentation to the ant tasks,,
+1009,32df8867,FAIL,69,NO,0,NO,0,2019-01-28 08:14:50 -0500,Fixed an issue with the ConstructorRule that caused the Builder constructors to invoke with the parameter name instead of the parameter value,,
+1010,3361f449,FAIL,66,NO,0,NO,0,2019-02-02 20:11:22 -0500,Added integration tests for the inner builder classes,,
+1011,0b5b0e1a,FAIL,69,NO,0,NO,0,2019-02-05 16:49:20 +0000,Merge pull request #953 from dewthefifth/features/builders-as-inner-classes,,
+1012,73f09005,FAIL,64,NO,0,NO,0,2019-03-26 11:14:42 +0300,check schema required array before is required flag,,
+1013,3eaf980a,FAIL,61,NO,0,NO,0,2019-03-26 16:15:14 +0300,add tests to check required/optional getters,,
+1014,64b9e5cd,FAIL,69,NO,0,NO,0,2019-03-26 16:20:49 +0300,fix mistake of attribute name,,
+1015,82070530,FAIL,62,NO,0,NO,0,2019-03-27 23:41:37 +0000,Merge pull request #964 from newmen/fix-required-or-optional,,
+1016,f3ce5046,FAIL,61,NO,0,NO,0,2019-04-01 21:50:08 +0100,[maven-release-plugin] prepare release jsonschema2pojo-1.0.1,,
+1017,5e22b74c,FAIL,68,NO,0,NO,0,2019-04-01 21:50:21 +0100,[maven-release-plugin] prepare for next development iteration,,
+1018,8c628ac6,FAIL,66,NO,0,NO,0,2019-04-13 20:51:11 +0100,[release] updating README.md for 1.0.1,,
+1019,23ace8f9,FAIL,68,NO,0,NO,0,2019-04-13 20:55:04 +0100,[release] CHANGELOG.md and CONTRIBUTORS.md for 1.0.1,,
+1020,709c95b8,FAIL,72,NO,0,NO,0,2019-04-13 21:13:06 +0100,Update README.md,,
+1021,343939b9,FAIL,65,NO,0,NO,0,2019-04-14 12:14:18 +0100,Dependency upgrade,,
+1022,67ccf832,FAIL,68,NO,0,NO,0,2019-04-14 12:16:28 +0100,Dependency upgrade,,
+1023,0552b80d,FAIL,75,NO,0,NO,0,2019-04-23 14:56:34 -0400,Add support for including JsonTypeInfo Annotation (#967),,
+1024,91230194,FAIL,62,NO,0,NO,0,2019-05-01 16:17:47 +0100,Fix #975: Add support for root level enum titles and descriptions. (#976),,
+1025,9f60132a,FAIL,61,NO,0,NO,0,2019-05-13 23:24:34 +0100,977 add digits rule (#978),,
+1026,09cd6a93,FAIL,63,NO,0,NO,0,2019-07-07 07:47:20 -0400,Merge pull request #1 from joelittlejohn/master,,
+1027,591d102f,FAIL,63,NO,0,NO,0,2019-07-07 08:23:33 -0400,Added documentation to the userInnerClassBuilder maven plugin documentation,,
+1028,90cbd9a9,FAIL,72,NO,0,NO,0,2019-07-09 21:41:18 -0400,Added new properties to control which constructors are actually generated and updated the Constructor rules to take those properties into consideration.,,
+1029,f80feda5,FAIL,69,NO,0,NO,0,2019-07-09 21:45:43 -0400,Fixed inaccuracy in the ant documentation,,
+1030,aef50e84,FAIL,71,NO,0,NO,0,2019-07-12 12:05:35 -0400,Addedunit tests for the copy constructors,,
+1031,daf761c7,FAIL,65,NO,0,NO,0,2019-08-09 08:14:17 -0400,Added an override for build that performs the necessary casting for the user of inheritted builders,,
+1032,ac0663b3,FAIL,65,NO,0,NO,0,2019-08-09 13:54:38 +0100,Merge pull request #1014 from dewthefifth/feature/no-more-casting-for-builders,,
+1033,445e6b95,FAIL,69,NO,0,NO,0,2019-09-24 10:23:55 -0400,#1025 Implement optional generation of the JDK ConstructorProperties annotation on constructors to aide in serialization wherever supported.  Jackson/Spring Framework support it for various things whereas Android omits the actual @ConstructorProperties class.,,
+1034,53ed84ff,FAIL,63,NO,0,NO,0,2019-09-30 11:10:31 -0400,#1026 Renaming property based on joelittlejohn pull request comments.,,
+1035,b273c99d,FAIL,70,NO,0,NO,0,2019-10-03 22:05:19 +0100,Merge pull request #1026 from ddcruver/feature/jdk-constructor-properties,,
+1036,a4871154,FAIL,65,NO,0,NO,0,2019-10-15 22:41:02 -0400,Merge pull request #2 from joelittlejohn/master,,
+1037,6379260b,FAIL,62,NO,0,NO,0,2019-10-16 01:05:58 -0400,Merge remote-tracking branch 'origin/master' into features/copy-constructor,,
+1038,56f1e9ff,FAIL,64,NO,0,NO,0,2019-10-16 20:54:38 -0400,Changed property names,,
+1039,01348364,FAIL,70,NO,0,NO,0,2019-10-16 21:31:46 -0400,"Fixed typo that snuck in during last commit, causing imports to fail",,
+1040,dff3d406,FAIL,69,NO,0,NO,0,2019-10-18 12:15:44 +0100,Merge pull request #1005 from dewthefifth/features/copy-constructor,,
+1041,63db1db0,FAIL,67,NO,0,NO,0,2019-10-19 10:01:28 +0100,Upgrade jackson 2.x version throughout,,
+1042,e86a29cf,FAIL,68,NO,0,NO,0,2019-11-06 13:40:57 -0500,#1035 Implement javaEnums extension to extend on what javaEnumNames provided.,,
+1043,836a5eab,FAIL,62,NO,0,NO,0,2019-11-06 14:31:03 -0500,#1035 Force gradle to use https to download gradle distribution.,,
+1044,70f2d61d,FAIL,64,NO,0,NO,0,2019-11-07 10:35:04 -0500,#1035 Make it easier for custom rule factories to provide custom EnumRule (by extending instead of replacing).,,
+1045,bd7c73df,FAIL,65,NO,0,NO,0,2019-11-08 15:40:23 -0500,#1035 Add additional documentation and made it easier for custom enum rules.,,
+1046,82490282,FAIL,64,NO,0,NO,0,2019-11-08 16:09:02 -0500,#1035 Make enum constructor and acessors overridable.,,
+1047,a3c6082b,FAIL,62,NO,0,NO,0,2019-11-18 19:49:12 +0300,fix for #1043: formatTypeMapping error on array classes,,
+1048,d36aefcf,FAIL,66,NO,0,NO,0,2019-11-18 20:02:49 +0300,change gradle distrubiton url to https since build server fails to download when http is used,,
+1049,753ddda8,FAIL,71,NO,0,NO,0,2019-11-18 15:23:10 -0500,#1035 Needed isString to also be protected. Made remaining functions protected as well.,,
+1050,4fa79b58,FAIL,74,NO,0,NO,0,2019-11-19 09:16:19 -0500,Add Rule Logger (#1040),,
+1051,17ff1be6,FAIL,64,NO,0,NO,0,2019-11-20 14:19:00 +0000,Merge pull request #1044 from kullanici0606/feature/format-type-mapping-for-array-types,,
+1052,ce502ddc,FAIL,59,NO,0,NO,0,2019-12-05 23:13:54 +0100,Allow no fqn javatypes,,
+1053,6454f94b,FAIL,67,NO,0,NO,0,2019-12-10 22:58:56 +0100,Some integration tests,,
+1054,634de995,FAIL,69,NO,0,NO,0,2019-12-12 08:28:15 +0000,Merge pull request #1054 from eltabo/master,,
+1055,cd51f3dd,FAIL,67,NO,0,NO,0,2019-12-19 10:51:40 +0100,"Fix singularization for ""slaves""",,
+1056,9fc41c9c,FAIL,70,NO,0,NO,0,2019-12-19 12:19:07 +0000,Merge pull request #1062 from sonOfRa/slaves-singular,,
+1057,0b92d2b1,FAIL,60,NO,0,NO,0,2019-12-20 11:16:15 -0600,Restrict JSR-303 annotations application to field types that are actually supported by those annotations.,,
+1058,dd7d06cf,FAIL,72,NO,0,NO,0,2019-12-20 11:23:42 -0600,Add Unit tests for the JSR-303 rules. This requires upgrading Mockito and applying the config file to allow this.,,
+1059,6f643a17,FAIL,72,NO,0,NO,0,2019-12-31 10:37:17 -0600,Apply Updates to integration tests to check that JSR303 annotations are not applied and interfering with validation for field types not supported.,,
+1060,9a2e6446,FAIL,67,NO,0,NO,0,2020-01-08 11:33:14 +0000,Merge pull request #1063 from rajpaulbagga/feature/jsr-type-restrictions,,
+1061,81f900a8,FAIL,66,NO,0,NO,0,2020-01-10 18:36:15 +0000,Merge pull request #1041 from ddcruver/feature/add-java-enums-extension-without-logging,,
+1062,39b8f571,FAIL,73,NO,0,NO,0,2020-01-17 18:54:39 +0000,Use https for Maven repos,,
+1063,306e88d0,FAIL,63,NO,0,NO,0,2020-01-17 18:58:17 +0000,[maven-release-plugin] prepare release jsonschema2pojo-1.0.2,,
+1064,dc576961,FAIL,63,NO,0,NO,0,2020-01-17 18:58:28 +0000,[maven-release-plugin] prepare for next development iteration,,
+1065,d9c18466,FAIL,68,NO,0,NO,0,2020-01-22 10:37:51 -0500,Added a unit test to show how URIs with relative path segments will cause a recursive schema modeel to generate two classes with a difference in name only. Also added a fix for the code as well,,
+1066,19b28db4,FAIL,67,NO,0,NO,0,2020-01-22 17:44:31 +0000,Merge pull request #1077 from TeleTrackingTechnologies/issue-1075,,
+1067,45caa28a,FAIL,73,NO,0,NO,0,2020-01-22 17:26:59 -0500,Fix a bug explosed by a missing test case,,
+1068,fc0e56a0,FAIL,72,NO,0,NO,0,2020-01-23 21:54:59 +0000,Merge pull request #1078 from TeleTrackingTechnologies/issue-1075,,
+1069,47456b34,FAIL,72,NO,0,NO,0,2020-01-17 19:20:30 +0000,Header update,,
+1070,09940617,FAIL,64,NO,0,NO,0,2020-01-27 21:23:14 +0000,[release] updating README.md for 1.0.2,,
+1071,5b2d3f36,FAIL,69,NO,0,NO,0,2020-01-27 21:33:44 +0000,Use https only for downloads during release tasks,,
+1072,b8bd1a33,FAIL,72,NO,0,NO,0,2020-01-27 21:34:13 +0000,Update release script with new lib path used by dependency plugin,,
+1073,9e508ac1,FAIL,67,NO,0,NO,0,2020-01-27 21:35:42 +0000,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 1.0.2,,
+1074,abf4d9a2,FAIL,64,NO,0,NO,0,2020-02-19 10:03:13 -0500,Add throwable arguments to warn and error functions of RuleLogger.,,
+1075,c8796d13,FAIL,67,NO,0,NO,0,2020-02-19 14:34:11 -0500,Add check for null before printing exceptions Standard.ERR writing loggers.,,
+1076,41183ce9,FAIL,69,NO,0,NO,0,2020-02-20 13:59:13 +0000,Merge pull request #1092 from ddcruver/feature/add-throwables-to-loggers-for-warn-and-error,,
+1077,d9178b7f,FAIL,75,NO,0,NO,0,2020-02-20 10:22:52 -0500,Cleanup EnumRule imports and buildEnumDefinition function before adding loggers.,,
+1078,07076aa5,FAIL,70,NO,0,NO,0,2020-02-20 10:27:18 -0500,Add loggers instead of printing directly to sytsem out/err in EnumRule,,
+1079,4613a4a3,FAIL,68,NO,0,NO,0,2020-02-20 10:38:21 -0500,Add copy constructors and enum extension type for help custom EnumRule implementations.  Custom EnumRules could extend EnumDefinition/EnumValueDefinition for storing additional metadata they require.,,
+1080,90c2ec08,FAIL,72,NO,0,NO,0,2020-02-20 10:45:16 -0500,Use standard constructor in enumValues overridden copy constructor.,,
+1081,61ac7d46,FAIL,80,NO,0,NO,0,2020-02-20 14:04:06 -0500,Update licensce plugin to resolve issue where it was placing a Â character (Windows) before copyright sign. i.e. Copyright Â© 2010-2020 Nokia.,,
+1082,33fee696,FAIL,80,NO,0,NO,0,2020-02-20 14:05:11 -0500,Add licensce plugin header definition to minimize code changes on upgraded license plugin.  It was removing the newline after copyright block.,,
+1083,7a96bc50,FAIL,66,NO,0,NO,0,2020-02-20 15:08:58 -0500,Fix some missing parameter properties for maven plugin.  They were showing up as invalid in IDE and the maven plugin seemed to ignore them.,,
+1084,08d9bf9b,FAIL,73,NO,0,NO,0,2020-02-20 16:49:57 -0500,Merge pull request #1096 from ddcruver/bugfix/add-required-configuration-code-to-expose-new-functionality,,
+1085,1b0ee47e,FAIL,72,NO,0,NO,0,2020-02-24 18:01:28 -0500,"Fix raw type builders. Create a concrete and an abract ""base"" builder.  The ""base"" builder is used for inheritence whereas the concrete builder is used for everyday usage.",,
+1086,e5850b9c,FAIL,72,NO,0,NO,0,2020-02-25 14:27:40 +0000,Merge pull request #1101 from ddcruver/bugfix/fix-raw-type-builders,,
+1087,68313335,FAIL,81,NO,0,NO,0,2020-02-25 14:28:40 +0000,Merge pull request #1094 from ddcruver/feature/add-loggers-to-enum-rule,,
+1088,5d33bbc3,FAIL,73,NO,0,NO,0,2020-04-06 14:23:00 +0100,Merge pull request #1095 from ddcruver/feature/update-license-plugin-to-fix-corrupted-character-before-copyright-symbol,,
+1089,c70debad,FAIL,72,NO,0,NO,0,2020-04-07 18:45:20 +0200,added private modifier to configuration options where missing,,
+1090,b00b4968,FAIL,71,NO,0,NO,0,2020-04-09 16:58:23 -0400,Merge pull request #1118 from MCSafety/mvn-plugin-copyconstructor-support,,
+1091,5efa15ff,FAIL,77,NO,0,NO,0,2020-06-27 13:06:08 +0200,Deprecate gradle plugin and add the link to the new actively maintained gradle plugin,,
+1092,b79f69f6,FAIL,78,NO,0,NO,0,2020-07-09 17:00:21 +0100,Merge pull request #1141 from AlexTrotsenko/master,,
+1093,22ade3ab,FAIL,70,NO,0,NO,0,2020-07-09 20:36:35 +0100,Update README.md,,
+1094,98d1e6ab,FAIL,75,NO,0,NO,0,2020-07-09 20:38:16 +0100,Update README.md,,
+1095,50239191,FAIL,72,NO,0,NO,0,2020-11-11 17:25:07 +0100,Added github action to run mvn verify on each push,,
+1096,228c2c49,FAIL,78,NO,0,NO,0,2020-11-11 17:30:23 +0100,Only use jdk 8,,
+1097,206d627d,FAIL,84,NO,0,NO,0,2021-02-25 19:05:34 +0000,Merge pull request #1173 from HanSolo/github_actions,,
+1098,50c00650,FAIL,71,NO,0,NO,0,2021-02-25 19:22:31 +0000,Remove Travis CI,,
+1099,06347829,SUCCESS,97,SUCCESS,68,SUCCESS,110,2021-02-25 20:43:53 +0000,Upgrade Gradle version to fix the build,,
+1100,27ad1697,SUCCESS,81,SUCCESS,65,SUCCESS,69,2021-02-25 20:57:56 +0000,Library updates,,
+1101,a6eb2fe4,SUCCESS,82,SUCCESS,60,SUCCESS,62,2021-02-25 20:58:31 +0000,Use GitHub action for badge and build link,,
+1102,a3d39346,SUCCESS,33,SUCCESS,40,SUCCESS,58,2021-02-25 21:53:16 +0000,Remove jsonschema2pojo-scalagen and remove targetLanguage support,,
+1103,5b15a1ff,SUCCESS,29,SUCCESS,44,SUCCESS,56,2021-02-26 00:05:05 +0000,Remove Jackson 1.x support,,
+1104,1caca354,SUCCESS,28,SUCCESS,39,SUCCESS,64,2021-02-26 00:07:50 +0000,Upgrade jackson-databind version in examples,,
+1105,b700a766,SUCCESS,28,SUCCESS,39,SUCCESS,64,2021-02-26 01:04:17 +0000,Upgrade jackson-databind version in examples,,
+1106,235aa141,SUCCESS,31,SUCCESS,42,SUCCESS,53,2021-02-28 00:06:03 +0000,Allow formatTypeMapping to include primitive types,,
+1107,dd269c92,SUCCESS,28,SUCCESS,38,SUCCESS,58,2021-02-28 00:45:44 +0000,Allow existingJavaType when type is an enum,,
+1108,cbfc0c5a,SUCCESS,26,SUCCESS,37,SUCCESS,53,2021-02-28 01:02:58 +0000,Add package when javaType is not qualified in enum properties,,
+1109,e7754e1b,SUCCESS,31,SUCCESS,43,SUCCESS,59,2021-02-28 12:53:54 +0000,Organize imports,,
+1110,cab73e72,SUCCESS,29,SUCCESS,43,SUCCESS,60,2021-02-28 12:55:24 +0000,Remove tabs,,
+1111,e0228321,SUCCESS,36,SUCCESS,47,SUCCESS,70,2021-02-28 15:52:13 +0000,Upgrade various build plugins,,
+1112,315a2b43,SUCCESS,36,SUCCESS,44,SUCCESS,67,2021-03-01 22:08:03 +0000,Update Gradle plugin to get compiler plugin in sync & remove Gradle 7.0 warnings,,
+1113,beaf1e72,SUCCESS,31,SUCCESS,37,SUCCESS,69,2021-03-02 00:31:01 +0000,Remove Gradle 7.0 warnings that relate to task input annotations,,
+1114,73fceb2f,SUCCESS,28,SUCCESS,42,SUCCESS,73,2021-03-02 11:20:02 +0100,Add Generated annotation to classes and includeGeneratedAnnotation config option,,
+1115,9361e40c,SUCCESS,33,SUCCESS,45,SUCCESS,71,2021-03-02 11:44:42 +0100,Modernize Android sample (#1203),,
+1116,3ccf3b74,SUCCESS,28,SUCCESS,46,SUCCESS,70,2021-03-02 13:28:23 +0100,Fix dependabot,,
+1117,8bb3e22a,SUCCESS,28,SUCCESS,43,SUCCESS,70,2021-03-02 12:31:17 +0000,Merge pull request #1205 from hannesa2/FixDependabot,,
+1118,3dc41da7,SUCCESS,29,SUCCESS,39,SUCCESS,69,2021-03-02 12:31:36 +0000,Bump jackson-databind in /jsonschema2pojo-gradle-plugin/example/android,,
+1119,7525426d,SUCCESS,35,SUCCESS,44,SUCCESS,75,2021-03-02 12:31:40 +0000,Bump moshi in /jsonschema2pojo-gradle-plugin/example/android,,
+1120,35005740,SUCCESS,32,SUCCESS,44,SUCCESS,67,2021-03-02 12:33:56 +0100,Cleanup Android sample,,
+1121,fe0da556,SUCCESS,29,SUCCESS,49,SUCCESS,71,2021-03-02 20:08:55 +0000,Merge pull request #1209 from joelittlejohn/dependabot/gradle/jsonschema2pojo-gradle-plugin/example/android/com.squareup.moshi-moshi-1.11.0,,
+1122,0d480f0e,SUCCESS,31,SUCCESS,42,SUCCESS,71,2021-03-02 20:15:05 +0000,Merge pull request #1202 from cyclotomic18/mark-generated,,
+1123,2a75cec5,SUCCESS,28,SUCCESS,44,SUCCESS,73,2021-03-02 20:18:57 +0000,Merge pull request #1206 from joelittlejohn/dependabot/gradle/jsonschema2pojo-gradle-plugin/example/android/com.fasterxml.jackson.core-jackson-databind-2.12.1,,
+1124,99643f96,SUCCESS,32,SUCCESS,43,SUCCESS,76,2021-03-02 20:20:21 +0000,Reduce the frequency of dependabot,,
+1125,3484af4b,SUCCESS,34,SUCCESS,46,SUCCESS,72,2021-03-02 21:58:24 +0000,Ensure Gradle android example use latest snapshot,,
+1126,1bedd4e8,SUCCESS,29,SUCCESS,43,SUCCESS,71,2021-03-02 22:05:03 +0000,Update gradle example minSdkVersion,,
+1127,7fce022d,SUCCESS,30,SUCCESS,44,SUCCESS,73,2021-03-02 22:11:00 +0000,Bump validation-api in /jsonschema2pojo-gradle-plugin/example/android,,
+1128,abb5eba5,SUCCESS,33,SUCCESS,46,SUCCESS,72,2021-03-02 22:16:56 +0000,Merge pull request #1207 from joelittlejohn/dependabot/gradle/jsonschema2pojo-gradle-plugin/example/android/javax.validation-validation-api-2.0.1.Final,,
+1129,d13f9e72,SUCCESS,28,SUCCESS,41,SUCCESS,77,2021-03-02 23:33:36 +0000,Attempt to use Java 9+ Generated annotation and fall back to Java 8,,
+1130,a5a54662,SUCCESS,32,SUCCESS,46,SUCCESS,75,2021-03-02 23:34:35 +0000,Update Gradle README.md to use 'implementation' rather than 'compile',,
+1131,07146b49,SUCCESS,27,SUCCESS,46,SUCCESS,67,2021-03-03 22:11:34 +0000,[maven-release-plugin] prepare release jsonschema2pojo-1.1.0,,
+1132,d18d04ff,SUCCESS,29,SUCCESS,43,SUCCESS,73,2021-03-03 22:11:41 +0000,[maven-release-plugin] prepare for next development iteration,,
+1133,c13ac366,SUCCESS,29,SUCCESS,42,SUCCESS,71,2021-03-04 10:07:40 +0000,[release] updating README.md for 1.1.0,,
+1134,483fca7c,SUCCESS,33,SUCCESS,48,SUCCESS,73,2021-03-04 18:47:52 +0000,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 1.1.0,,
+1135,d405c6f0,SUCCESS,30,SUCCESS,44,SUCCESS,72,2021-03-04 21:50:37 +0000,Update README.md,,
+1136,28333cb4,SUCCESS,29,SUCCESS,41,SUCCESS,71,2021-03-14 17:32:36 +0000,Update docs related to includeGeneratedAnnotation,,
+1137,d3c1c401,SUCCESS,34,SUCCESS,44,SUCCESS,66,2021-03-19 13:39:44 +0000,Include CI build on PRs,,
+1138,7e4e65ff,SUCCESS,29,SUCCESS,50,SUCCESS,74,2021-03-19 21:32:10 +0000,Turn $comment fields into javadoc,,
+1139,99bfcfa0,SUCCESS,29,SUCCESS,44,SUCCESS,79,2021-03-19 21:57:31 +0000,Add an annotation library for Android users,,
+1140,6d34e4ea,SUCCESS,31,SUCCESS,43,SUCCESS,71,2021-03-19 22:05:00 +0000,[maven-release-plugin] prepare release jsonschema2pojo-jdk-annotation-0.0.1,,
+1141,97f1e9ec,SUCCESS,30,SUCCESS,44,SUCCESS,68,2021-03-19 22:05:08 +0000,[maven-release-plugin] prepare for next development iteration,,
+1142,bc52d5b1,SUCCESS,29,SUCCESS,44,SUCCESS,71,2021-03-19 22:28:48 +0000,Add required release plugins for jsonschema2pojo-jdk-annotation,,
+1143,f66db733,SUCCESS,33,SUCCESS,46,SUCCESS,78,2021-03-19 23:51:42 +0000,Ensure all Gradle plugin properies are documented,,
+1144,a6cf2e7a,SUCCESS,29,SUCCESS,39,SUCCESS,71,2021-03-21 22:52:24 +0000,Add dependabot for 'maven' ecosystem to project root,,
+1145,0105e795,SUCCESS,32,SUCCESS,48,SUCCESS,70,2021-03-21 22:59:54 +0000,Cache Maven repository on CI build,,
+1146,77340ffc,SUCCESS,32,SUCCESS,44,SUCCESS,69,2021-03-21 23:06:56 +0000,Bump maven-jar-plugin from 2.6 to 3.2.0,,
+1147,7dac77bc,SUCCESS,30,SUCCESS,42,SUCCESS,78,2021-03-21 23:06:58 +0000,Bump ecj from 4.4.2 to 4.6.1,,
+1148,30679c85,SUCCESS,34,SUCCESS,48,SUCCESS,71,2021-03-21 23:07:02 +0000,Bump commons-io from 2.4 to 2.8.0,,
+1149,9ab2b5d3,SUCCESS,30,SUCCESS,39,SUCCESS,72,2021-03-21 23:07:12 +0000,Bump slf4j-simple from 1.7.24 to 1.7.30,,
+1150,09be1fe4,SUCCESS,33,SUCCESS,43,SUCCESS,66,2021-03-21 23:09:06 +0000,Bump actions/cache from v2 to v2.1.4,,
+1151,4cec256e,SUCCESS,30,SUCCESS,42,SUCCESS,68,2021-03-21 23:09:36 +0000,Bump jackson-databind in /jsonschema2pojo-gradle-plugin/example/android,,
+1152,5d7e490b,SUCCESS,28,SUCCESS,44,SUCCESS,81,2021-03-21 23:09:40 +0000,Bump gradle in /jsonschema2pojo-gradle-plugin/example/android,,
+1153,75dc28af,SUCCESS,31,SUCCESS,43,SUCCESS,67,2021-03-22 17:16:04 +0000,Merge pull request #1224 from joelittlejohn/dependabot/github_actions/actions/cache-v2.1.4,,
+1154,7fa1a4c2,SUCCESS,30,SUCCESS,39,SUCCESS,72,2021-03-22 17:16:42 +0000,Merge pull request #1221 from joelittlejohn/dependabot/maven/commons-io-commons-io-2.8.0,,
+1155,9991b1d8,SUCCESS,37,SUCCESS,46,SUCCESS,69,2021-03-22 23:34:38 +0000,Merge pull request #1223 from joelittlejohn/dependabot/maven/org.slf4j-slf4j-simple-1.7.30,,
+1156,739d2bde,SUCCESS,30,SUCCESS,42,SUCCESS,65,2021-03-22 23:36:22 +0000,Merge pull request #1225 from joelittlejohn/dependabot/gradle/jsonschema2pojo-gradle-plugin/example/android/com.fasterxml.jackson.core-jackson-databind-2.12.2,,
+1157,5876c866,SUCCESS,31,SUCCESS,50,SUCCESS,81,2021-03-23 19:56:08 +0000,Upgrade jackson databind,,
+1158,d26a5aa2,SUCCESS,31,SUCCESS,42,SUCCESS,72,2021-03-23 19:58:41 +0000,Merge pull request #1226 from joelittlejohn/dependabot/gradle/jsonschema2pojo-gradle-plugin/example/android/com.android.tools.build-gradle-4.1.3,,
+1159,15bae48a,SUCCESS,26,SUCCESS,38,SUCCESS,77,2021-03-23 19:59:34 +0000,Merge pull request #1220 from joelittlejohn/dependabot/maven/org.eclipse.jdt.core.compiler-ecj-4.6.1,,
+1160,0960bd65,SUCCESS,31,SUCCESS,42,SUCCESS,68,2021-03-23 20:09:37 +0000,Merge pull request #1219 from joelittlejohn/dependabot/maven/org.apache.maven.plugins-maven-jar-plugin-3.2.0,,
+1161,d4aa6d2c,SUCCESS,32,SUCCESS,43,SUCCESS,76,2021-04-01 05:45:15 +0000,Bump maven-shared-utils from 0.6 to 3.3.3,,
+1162,3a370646,SUCCESS,30,SUCCESS,43,SUCCESS,81,2021-04-01 05:45:20 +0000,Bump gson from 2.5 to 2.8.6,,
+1163,24300951,SUCCESS,30,SUCCESS,38,SUCCESS,66,2021-04-01 05:45:22 +0000,Bump groovydoc-maven-plugin from 1.2 to 2.1,,
+1164,a4e7624e,SUCCESS,36,SUCCESS,48,SUCCESS,66,2021-04-01 05:45:29 +0000,Bump wiremock from 2.5.1 to 2.27.2,,
+1165,784d062d,SUCCESS,30,SUCCESS,43,SUCCESS,69,2021-04-01 05:45:33 +0000,Bump httpclient from 4.5.3 to 4.5.13,,
+1166,d0cb99c3,SUCCESS,31,SUCCESS,44,SUCCESS,80,2021-04-01 19:30:47 +0100,Merge pull request #1234 from joelittlejohn/dependabot/maven/com.github.tomakehurst-wiremock-2.27.2,,
+1167,1613af7c,SUCCESS,36,SUCCESS,39,SUCCESS,74,2021-04-01 19:31:43 +0100,Merge pull request #1231 from joelittlejohn/dependabot/maven/org.apache.maven.shared-maven-shared-utils-3.3.3,,
+1168,04863c2f,SUCCESS,33,SUCCESS,43,SUCCESS,69,2021-04-01 19:32:06 +0100,Merge pull request #1232 from joelittlejohn/dependabot/maven/com.google.code.gson-gson-2.8.6,,
+1169,6e56afa2,SUCCESS,30,SUCCESS,42,SUCCESS,67,2021-04-01 19:32:23 +0100,Merge pull request #1233 from joelittlejohn/dependabot/maven/com.bluetrainsoftware.maven-groovydoc-maven-plugin-2.1,,
+1170,d437f2fd,SUCCESS,29,SUCCESS,42,SUCCESS,72,2021-04-01 19:36:14 +0100,Merge pull request #1235 from joelittlejohn/dependabot/maven/org.apache.httpcomponents-httpclient-4.5.13,,
+1171,f878c67e,SUCCESS,31,SUCCESS,46,SUCCESS,70,2021-04-02 00:59:10 +0100,Remove unnecessary 'private' modifier on enum constructors,,
+1172,c90da8c5,SUCCESS,26,SUCCESS,38,SUCCESS,73,2021-04-02 01:25:54 +0100,Use long type when example JSON has value greater than Integer/MAX_VALUE,,
+1173,e4842049,SUCCESS,31,SUCCESS,41,SUCCESS,66,2021-04-02 21:00:29 +0100,Ensure  to  uses the correct document to resolve,,
+1174,a10a93ad,SUCCESS,28,SUCCESS,37,SUCCESS,63,2021-04-12 16:30:29 +0100,Ensure outermost document is used when resolving refs within a string (no file),,
+1175,9d9ae44b,SUCCESS,26,SUCCESS,38,SUCCESS,78,2021-04-18 21:29:00 +0100,[maven-release-plugin] prepare release jsonschema2pojo-1.1.1,,
+1176,43d266f4,SUCCESS,33,SUCCESS,43,SUCCESS,74,2021-04-18 21:29:06 +0100,[maven-release-plugin] prepare for next development iteration,,
+1177,0e78ab21,SUCCESS,28,SUCCESS,35,SUCCESS,65,2021-04-19 20:20:02 +0100,[release] updating README.md for 1.1.1,,
+1178,78ec2954,SUCCESS,28,SUCCESS,43,SUCCESS,64,2021-04-19 20:22:54 +0100,[release] Update CHANGELOG.md and CONTRIBUTORS.md for 1.1.1,,
+1179,7b249863,SUCCESS,28,SUCCESS,45,SUCCESS,69,2021-04-24 10:20:00 +0100,Avoid duplicate import of Creator in Parcelable types,,
+1180,2c2cbf60,SUCCESS,26,SUCCESS,40,SUCCESS,72,2021-04-26 20:47:10 +0100,Fix recursive self ref when there is no parent file (e.g. from the website),,
+1181,78e6b642,FAIL,19,NO,0,NO,0,2021-04-26 21:50:17 +0100,Merge branch 'schema-contract-changes',,
+1182,a0bf7f57,SUCCESS,31,SUCCESS,41,SUCCESS,73,2021-04-26 23:00:10 +0100,"Support cyclic ref to any node in any schema, without extra class being generated",,
+1183,5736ec74,SUCCESS,26,SUCCESS,39,SUCCESS,64,2021-05-01 18:01:16 +0100,Add Combine PRs workflow,,
+1184,bec248b5,SUCCESS,34,SUCCESS,45,SUCCESS,65,2021-05-01 18:36:19 +0100,Use /check-runs instead of /status,,
+1185,00e1713b,SUCCESS,29,SUCCESS,43,SUCCESS,63,2021-05-01 21:40:16 +0100,Allow CI workflow to be invoked manually,,
+1186,baee2cd1,SUCCESS,31,SUCCESS,45,SUCCESS,78,2021-05-01 21:46:59 +0100,"Dependabot updates, combined PR (#1254)",,
+1187,9a4d90c4,SUCCESS,31,SUCCESS,41,SUCCESS,66,2021-05-01 21:51:52 +0100,Update setup-java GitHub action,212,14450

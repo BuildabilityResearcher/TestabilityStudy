@@ -1,0 +1,6 @@
+exception,count
+java.lang.UnsupportedOperationException,12
+java.lang.AssertionError,13
+java.lang.IllegalStateException,1
+com.facebook.presto.server.FailedQueryException,116
+java.lang.RuntimeException,58

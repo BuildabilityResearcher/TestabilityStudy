@@ -1,0 +1,152 @@
+error,count
+resource &#x27;org/activiti/engine/test/el/ELTest.testResolveUserUsingMethodExpressionOnValueExpressionField.bpmn20.xml&#x27; not found,1
+resource &#x27;org/activiti/engine/test/el/ELTest.testMethodExpressions.bpmn20.xml&#x27; not found,1
+,2805
+couldn&#x27;t create or drop db schema,6
+/usr/local/openjdk-8/jre/lib/amd64/libfontmanager.so: libfreetype.so.6: cannot open shared object file: No such file or directory,3846
+Query return 2 results instead of max 1,71
+Query return 13 results instead of max 1,1
+Query return 48 results instead of max 1,1
+Query return 6 results instead of max 1,2
+Query return 74 results instead of max 1,2
+Could not initialize class sun.font.SunFontManager,6575
+Query return 82 results instead of max 1,3
+Query return 8 results instead of max 1,2
+Query return 22 results instead of max 1,3
+Query return 17 results instead of max 1,1
+Query return 24 results instead of max 1,3
+Query return 3 results instead of max 1,6
+Query return 7 results instead of max 1,8
+Query return 5 results instead of max 1,6
+Query return 9 results instead of max 1,7
+Query return 32 results instead of max 1,3
+Query return 25 results instead of max 1,1
+Query return 34 results instead of max 1,3
+Query return 26 results instead of max 1,1
+Query return 127 results instead of max 1,1
+Query return 42 results instead of max 1,3
+Query return 173 results instead of max 1,2
+Query return 185 results instead of max 1,3
+Query return 10 results instead of max 1,3
+Query return 47 results instead of max 1,1
+Query return 33 results instead of max 1,1
+Query return 49 results instead of max 1,3
+Query return 11 results instead of max 1,3
+wrong class format,793
+no existing history activity entity found for execution 504 in activity start,1
+no existing history activity entity found for execution 511 in activity theStart,1
+no existing history activity entity found for execution 516 in activity theStart,1
+no existing history activity entity found for execution 523 in activity theStart,1
+no existing history activity entity found for execution 528 in activity theStart,1
+no existing history activity entity found for execution 535 in activity start,1
+no existing history activity entity found for execution 556 in activity theStart,1
+no existing history activity entity found for execution 561 in activity start,1
+no existing history activity entity found for execution 504 in activity theStart,1
+no existing history activity entity found for execution 509 in activity start,1
+no existing history activity entity found for execution 514 in activity start,1
+no existing history activity entity found for execution 521 in activity theStart,1
+no existing history activity entity found for execution 526 in activity theStart,1
+no existing history activity entity found for execution 533 in activity theStart,1
+no existing history activity entity found for execution 538 in activity theStart,1
+no existing history activity entity found for execution 545 in activity start,1
+resource &#x27;org/activiti/standalone/testing/ActivitiRuleJunit4Test.ruleUsageExample.bpmn20.xml&#x27; not found,5
+resource &#x27;org/activiti/standalone/testing/ActivitiTestCaseTest.testSimpleProcess.bpmn20.xml&#x27; not found,5
+no default process engine available,6478
+ ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: &quot;ACT_FK_VAR_EXE: PUBLIC.ACT_RU_VARIABLE FOREIGN KEY(EXECUTION_ID_) REFERENCES PUBLIC.ACT_RU_EXECUTION(ID_)&quot;; SQL statement: delete from ACT_RU_EXECUTION where ID_ = ? [23003-132] ### The error may involve org.activiti.engine.impl.persistence.entity.ExecutionEntity.deleteExecution-Inline ### The error occurred while setting parameters ### Cause: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: &quot;ACT_FK_VAR_EXE: PUBLIC.ACT_RU_VARIABLE FOREIGN KEY(EXECUTION_ID_) REFERENCES PUBLIC.ACT_RU_EXECUTION(ID_)&quot;; SQL statement: delete from ACT_RU_EXECUTION where ID_ = ? [23003-132],18
+resource &#x27;org/activiti/engine/test/bpmn/gateway/InclusiveGatewayTest.testPartialMergingInclusiveGateway.bpmn20.xml&#x27; not found,28
+"version mismatch: activiti library version is &#x27;5.9-SNAPSHOT&#x27;, db version is 5.10-SNAPSHOT Hint: Set &lt;property name=&quot;databaseSchemaUpdate&quot; to value=&quot;true&quot; or value=&quot;create-drop&quot; (use create-drop for testing only!) in bean processEngineConfiguration in activiti.cfg.xml for automatic schema creation",2
+Exception while waiting on condition: Query return 94 results instead of max 1,1
+couldn&#x27;t drop db schema: drop index ACT_IDX_ATHRZ_PROCEDEF,8
+none start event not allowed for event subprocess | org/activiti/engine/test/bpmn/event/message/MessageEventSubprocessTest.testInterruptingUnderProcessDefinition.bpmn20.xml | line 17 | column 61 ,1
+ ### Error querying database.  Cause: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement &quot;SELECT COUNT(*=[*] FROM ACT_RU_EXECUTION &quot;; expected &quot;)&quot;; SQL statement: SELECT count(*= FROM ACT_RU_EXECUTION [42001-168] ### The error may exist in org/activiti/db/mapping/entity/Execution.xml ### The error may involve org.activiti.engine.impl.persistence.entity.ExecutionEntity.selectExecutionCountByNativeQuery ### The error occurred while executing a query ### SQL: SELECT count(*= FROM ACT_RU_EXECUTION ### Cause: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement &quot;SELECT COUNT(*=[*] FROM ACT_RU_EXECUTION &quot;; expected &quot;)&quot;; SQL statement: SELECT count(*= FROM ACT_RU_EXECUTION [42001-168],2
+Error while parsing process: null,15
+deploymentId is null,23
+"Error while parsing process: Error parsing &#x27;${}&#x27;: syntax error at position 2, encountered &#x27;}&#x27;, expected &lt;IDENTIFIER&gt;|&lt;STRING&gt;|&lt;FLOAT&gt;|&lt;INTEGER&gt;|&#x27;true&#x27;|&#x27;false&#x27;|&#x27;null&#x27;|&#x27;-&#x27;|&#x27;!&#x27;|&#x27;not&#x27;|&#x27;empty&#x27;|&#x27;(&#x27;",2
+resource &#x27;org/activiti/engine/test/jobexecutor/JobExecutorTest.testSuspendedProcessTimerExecution.bpmn20.xml&#x27; not found,4
+org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity cannot be cast to org.activiti.engine.impl.pvm.PvmActivity,2
+resource &#x27;org/activiti/engine/test/bpmn/gateway/InclusiveGatewayTest.testJoinAfterCall.bpmn20.xml&#x27; not found,3
+couldn&#x27;t find a variable type that is able to serialize [object global],490
+couldn&#x27;t upgrade db schema: alter table ACT_RU_EXECUTION  add SUSPENSION_STATE_ integer,90
+Error creating Activiti tables,5
+couldn&#x27;t upgrade db schema: alter table ACT_HI_PROCINST  add DELETE_REASON_ varchar(4000),1
+Error parsing XML,12
+resource &#x27;org/activiti/standalone/parsing/BPMNParseHandlerTest.testAlterProcessDefinitionKeyWhenDeploying.bpmn20.xml&#x27; not found,6
+resource &#x27;org/activiti/examples/variables/VariablesTest.testNulLVariable.bpmn20.xml&#x27; not found,3
+Unknown property used in expression: #{address.street},1
+"couldn&#x27;t create db schema: create table ACT_HI_PROCINST (  ID_ varchar(64) not null,  PROC_INST_ID_ varchar(64) not null,  BUSINESS_KEY_ varchar(255),  PROC_DEF_ID_ varchar(64) not null,  START_TIME_ timestamp not null,  END_TIME_ timestamp,  DURATION_ bigint,  START_USER_ID_ varchar(255),  START_ACT_ID_ varchar(255),  END_ACT_ID_ varchar(255),  SUPER_PROCESS_INSTANCE_ID_ varchar(64),  DELETE_REASON_ varchar(4000),  primary key (ID_),  unique (PROC_INST_ID_)  )",44
+couldn&#x27;t drop db schema: drop index if exists ACT_IDX_ATHRZ_PROCEDEF,2
+Model value should be a String,1
+ ### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;involvedUser&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27; ### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;involvedUser&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27;,294
+Exception while invoking TaskListener: Exception while invoking TaskListener: null,3
+"version mismatch: activiti library version is &#x27;5.13-SNAPSHOT&#x27;, db version is 5.12 Hint: Set &lt;property name=&quot;databaseSchemaUpdate&quot; to value=&quot;true&quot; or value=&quot;create-drop&quot; (use create-drop for testing only!) in bean processEngineConfiguration in activiti.cfg.xml for automatic schema creation",12
+Exception while waiting on condition: Query return 360 results instead of max 1,1
+time limit of 10000 was exceeded,35
+couldn&#x27;t check if tables are already present using metadata:  ### Error getting a new connection.  Cause: org.h2.jdbc.JdbcSQLException: Cannot change the setting &quot;MVCC&quot; when the database is already open; SQL statement: SET MVCC TRUE [90133-170] ### Cause: org.h2.jdbc.JdbcSQLException: Cannot change the setting &quot;MVCC&quot; when the database is already open; SQL statement: SET MVCC TRUE [90133-170],1
+Exception while waiting on condition: Query return 389 results instead of max 1,1
+Exception while waiting on condition: Query return 248 results instead of max 1,1
+Exception while waiting on condition: Query return 437 results instead of max 1,1
+Exception while waiting on condition: Query return 377 results instead of max 1,1
+Exception while waiting on condition: Query return 417 results instead of max 1,1
+Error while building ibatis SqlSessionFactory: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 6; The processing instruction target matching &quot;[xX][mM][lL]&quot; is not allowed.,100
+Exception while waiting on condition: Query return 398 results instead of max 1,1
+Exception while waiting on condition: Query return 433 results instead of max 1,1
+Exception while waiting on condition: Query return 411 results instead of max 1,1
+resource &#x27;org/activiti/examples/variables/VariablesTest.testCustomType.bpmn20.xml&#x27; not found,2
+Exception while waiting on condition: Query return 366 results instead of max 1,1
+org.activiti.engine.impl.persistence.entity.MembershipEntityManager cannot be cast to org.activiti.engine.impl.persistence.entity.MembershipIdentityManager,228
+Error while building ibatis SqlSessionFactory: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 175; columnNumber: 48; The content of elements must consist of well-formed character data or markup.,102
+resource &#x27;org/activiti/examples/bpmn/executionlistener/ExecutionListenersOnDelete.bpmn20.xml.bpmn20.xml&#x27; not found,1
+resource &#x27;org/activiti/engine/test/log/mdc/MDCLoggingTest.testLogger.bpmn20.xml&#x27; not found,1
+Exception while waiting on condition: Query return 384 results instead of max 1,1
+Configuration problem: Unexpected failure during bean definition parsing Offending resource: class path resource [activiti.cfg.xml] Bean &#x27;processEngineConfiguration&#x27;; nested exception is org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Multiple &#x27;property&#x27; definitions for property &#x27;jobExecutorActivate&#x27; Offending resource: class path resource [activiti.cfg.xml] Bean &#x27;processEngineConfiguration&#x27;  -&gt; Property &#x27;jobExecutorActivate&#x27;,44
+ ### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;processDefinitionKeyLike&#x27; in &#x27;class org.activiti.engine.impl.HistoricProcessInstanceQueryImpl&#x27; ### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;processDefinitionKeyLike&#x27; in &#x27;class org.activiti.engine.impl.HistoricProcessInstanceQueryImpl&#x27;,1226
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8D ON PUBLIC.ACT_HI_PROCINST(ID_)&quot;; SQL statement: insert into ACT_HI_PROCINST (         ID_,         PROC_INST_ID_,         BUSINESS_KEY_,         PROC_DEF_ID_,         START_TIME_,         END_TIME_,         DURATION_,         START_USER_ID_,         START_ACT_ID_,         END_ACT_ID_,         SUPER_PROCESS_INSTANCE_ID_,         DELETE_REASON_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.HistoricProcessInstanceEntity.insertHistoricProcessInstance-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_HI_PROCINST (         ID_,         PROC_INST_ID_,         BUSINESS_KEY_,         PROC_DEF_ID_,         START_TIME_,         END_TIME_,         DURATION_,         START_USER_ID_,         START_ACT_ID_,         END_ACT_ID_,         SUPER_PROCESS_INSTANCE_ID_,         DELETE_REASON_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8D ON PUBLIC.ACT_HI_PROCINST(ID_)&quot;; SQL statement: insert into ACT_HI_PROCINST (         ID_,         PROC_INST_ID_,         BUSINESS_KEY_,         PROC_DEF_ID_,         START_TIME_,         END_TIME_,         DURATION_,         START_USER_ID_,         START_ACT_ID_,         END_ACT_ID_,         SUPER_PROCESS_INSTANCE_ID_,         DELETE_REASON_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) [23505-170]",4
+&quot;in&quot; is null!,10
+Query return 54 results instead of max 1,2
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_F ON PUBLIC.ACT_HI_ACTINST(ID_)&quot;; SQL statement: insert into ACT_HI_ACTINST (         ID_,         PROC_DEF_ID_,         PROC_INST_ID_,         EXECUTION_ID_,         ACT_ID_,         TASK_ID_,         CALL_PROC_INST_ID_,         ACT_NAME_,         ACT_TYPE_,         ASSIGNEE_,         START_TIME_,         END_TIME_,         DURATION_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.HistoricActivityInstanceEntity.insertHistoricActivityInstance-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_HI_ACTINST (         ID_,         PROC_DEF_ID_,         PROC_INST_ID_,         EXECUTION_ID_,         ACT_ID_,         TASK_ID_,         CALL_PROC_INST_ID_,         ACT_NAME_,         ACT_TYPE_,         ASSIGNEE_,         START_TIME_,         END_TIME_,         DURATION_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_F ON PUBLIC.ACT_HI_ACTINST(ID_)&quot;; SQL statement: insert into ACT_HI_ACTINST (         ID_,         PROC_DEF_ID_,         PROC_INST_ID_,         EXECUTION_ID_,         ACT_ID_,         TASK_ID_,         CALL_PROC_INST_ID_,         ACT_NAME_,         ACT_TYPE_,         ASSIGNEE_,         START_TIME_,         END_TIME_,         DURATION_       ) values (         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?,         ?       ) [23505-170]",12
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8 ON PUBLIC.ACT_GE_BYTEARRAY(ID_)&quot;; SQL statement: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_)     values (       ?,       1,        ?,        ?,        ?     ) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.ByteArrayEntity.insertByteArray-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_)     values (       ?,       1,        ?,        ?,        ?     ) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8 ON PUBLIC.ACT_GE_BYTEARRAY(ID_)&quot;; SQL statement: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_)     values (       ?,       1,        ?,        ?,        ?     ) [23505-170]",2
+Exception while waiting on condition: Query return 2 results instead of max 1,2
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_1 ON PUBLIC.ACT_RE_DEPLOYMENT(ID_)&quot;; SQL statement: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, DEPLOY_TIME_)     values(?, ?, ?, ?) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.DeploymentEntity.insertDeployment-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, DEPLOY_TIME_)     values(?, ?, ?, ?) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_1 ON PUBLIC.ACT_RE_DEPLOYMENT(ID_)&quot;; SQL statement: insert into ACT_RE_DEPLOYMENT(ID_, NAME_, CATEGORY_, DEPLOY_TIME_)     values(?, ?, ?, ?) [23505-170]",12
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_5 ON PUBLIC.ACT_RU_EXECUTION(ID_)&quot;; SQL statement: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_)     values (       ?,       1,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?     ) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.ExecutionEntity.insertExecution-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_)     values (       ?,       1,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?     ) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_5 ON PUBLIC.ACT_RU_EXECUTION(ID_)&quot;; SQL statement: insert into ACT_RU_EXECUTION (ID_, REV_, PROC_INST_ID_, BUSINESS_KEY_, PROC_DEF_ID_, ACT_ID_, IS_ACTIVE_, IS_CONCURRENT_, IS_SCOPE_,IS_EVENT_SCOPE_, PARENT_ID_, SUPER_EXEC_, SUSPENSION_STATE_, CACHED_ENT_STATE_)     values (       ?,       1,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?,       ?     ) [23505-170]",6
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8 ON PUBLIC.ACT_GE_BYTEARRAY(ID_)&quot;; SQL statement: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_)     values (?, 1, ?, ?, ?, ?) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.ResourceEntity.insertResource-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_)     values (?, 1, ?, ?, ?, ?) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_8 ON PUBLIC.ACT_GE_BYTEARRAY(ID_)&quot;; SQL statement: insert into ACT_GE_BYTEARRAY(ID_, REV_, NAME_, BYTES_, DEPLOYMENT_ID_, GENERATED_)     values (?, 1, ?, ?, ?, ?) [23505-170]",8
+Cannot deploy process definition &#x27;org/activiti/engine/test/bpmn/event/message/MessageStartEventTest.testSingleMessageStartEvent.bpmn20.xml&#x27;: there already is a message event subscription for the message with name &#x27;newInvoiceMessage&#x27;.,3
+Exception while waiting on condition: Query return 450 results instead of max 1,1
+Exception while waiting on condition: Query return 399 results instead of max 1,1
+Exception while waiting on condition: Query return 462 results instead of max 1,1
+Exception while waiting on condition: Query return 388 results instead of max 1,1
+can&#x27;t get method by reflection,84
+Error writing BPMN XML,1
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_7F ON PUBLIC.ACT_ID_USER(ID_)&quot;; SQL statement: insert into ACT_ID_USER (ID_, REV_, FIRST_, LAST_, EMAIL_, PWD_)     values (       ?,       1,       ?,       ?,       ?,       ?     ) [23505-170] ### The error may involve org.activiti.engine.impl.persistence.entity.UserEntity.insertUser-Inline ### The error occurred while setting parameters ### SQL: insert into ACT_ID_USER (ID_, REV_, FIRST_, LAST_, EMAIL_, PWD_)     values (       ?,       1,       ?,       ?,       ?,       ?     ) ### Cause: org.h2.jdbc.JdbcSQLException: Unique index or primary key violation: &quot;PRIMARY_KEY_7F ON PUBLIC.ACT_ID_USER(ID_)&quot;; SQL statement: insert into ACT_ID_USER (ID_, REV_, FIRST_, LAST_, EMAIL_, PWD_)     values (       ?,       1,       ?,       ?,       ?,       ?     ) [23505-170]",12
+Exception while waiting on condition: Query return 311 results instead of max 1,1
+Exception while waiting on condition: Query return 424 results instead of max 1,1
+resource &#x27;org/activiti/engine/test/bpmn/event/signal/SignalEventTest.testEarlyFinishedProcess.bpmn20.xml&#x27; not found,1
+resource &#x27;org/activiti/engine/test/bpmn/gateway/InclusiveGatewayTest.testWithSignalBoundaryEvent.bpmn20.xml&#x27; not found,4
+time limit of 2000 was exceeded,65
+Exception while waiting on condition: Query return 207 results instead of max 1,1
+Exception while waiting on condition: Query return 176 results instead of max 1,1
+Exception while waiting on condition: Query return 222 results instead of max 1,1
+Exception while waiting on condition: Query return 143 results instead of max 1,1
+"No catching boundary event found for error with errorCode &#x27;123&#x27;, neither in same process nor in parent process (errorCode=&#x27;123&#x27;)",1
+"No catching boundary event found for error with errorCode &#x27;23&#x27;, neither in same process nor in parent process (errorCode=&#x27;23&#x27;)",1
+time limit of 1000 was exceeded,2
+Exception while waiting on condition: Query return 186 results instead of max 1,1
+Exception while waiting on condition: Query return 200 results instead of max 1,1
+Exception while waiting on condition: Query return 274 results instead of max 1,1
+Could not update Activiti database schema: unknown version from database: &#x27;5.15.1&#x27;,49
+"version mismatch: activiti library version is &#x27;5.16-SNAPSHOT&#x27;, db version is 5.15.1 Hint: Set &lt;property name=&quot;databaseSchemaUpdate&quot; to value=&quot;true&quot; or value=&quot;create-drop&quot; (use create-drop for testing only!) in bean processEngineConfiguration in activiti.cfg.xml for automatic schema creation",2
+ ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: &quot;ACT_FK_EXE_PROCDEF: PUBLIC.ACT_RU_EXECUTION FOREIGN KEY(PROC_DEF_ID_) REFERENCES PUBLIC.ACT_RE_PROCDEF(ID_) (&#x27;forkJoinNested:1:22890&#x27;)&quot;; SQL statement: delete from ACT_RE_PROCDEF where DEPLOYMENT_ID_ = ? [23503-170] ### The error may involve org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity.deleteProcessDefinitionsByDeploymentId-Inline ### The error occurred while setting parameters ### SQL: delete from ACT_RE_PROCDEF where DEPLOYMENT_ID_ = ? ### Cause: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: &quot;ACT_FK_EXE_PROCDEF: PUBLIC.ACT_RU_EXECUTION FOREIGN KEY(PROC_DEF_ID_) REFERENCES PUBLIC.ACT_RE_PROCDEF(ID_) (&#x27;forkJoinNested:1:22890&#x27;)&quot;; SQL statement: delete from ACT_RE_PROCDEF where DEPLOYMENT_ID_ = ? [23503-170],1
+" ### Error updating database.  Cause: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement &quot;UPDATE ACT_RU_EXECUTION SET       REV_ = ?,       BUSINESS_KEY_ = ?,       PROC_DEF_ID_ = ?,       ACT_ID_ = ?,       IS_ACTIVE_ = ?,       IS_CONCURRENT_ = ?,       IS_SCOPE_ = ?,       IS_EVENT_SCOPE_ = ?,       PARENT_ID_ = ?,       SUPER_EXEC_ = ?,       SUSPENSION_STATE_ = ?,       CACHED_ENT_STATE_ = ?,       NAME_ = ?,     WHERE[*] ID_ = ?       AND REV_ = ? &quot;; expected &quot;identifier&quot;; SQL statement: update ACT_RU_EXECUTION set       REV_ = ?,       BUSINESS_KEY_ = ?,       PROC_DEF_ID_ = ?,       ACT_ID_ = ?,       IS_ACTIVE_ = ?,       IS_CONCURRENT_ = ?,       IS_SCOPE_ = ?,       IS_EVENT_SCOPE_ = ?,       PARENT_ID_ = ?,       SUPER_EXEC_ = ?,       SUSPENSION_STATE_ = ?,       CACHED_ENT_STATE_ = ?,       NAME_ = ?,     where ID_ = ?       and REV_ = ? [42001-170] ### SQL: update ACT_RU_EXECUTION set       REV_ = ?,       BUSINESS_KEY_ = ?,       PROC_DEF_ID_ = ?,       ACT_ID_ = ?,       IS_ACTIVE_ = ?,       IS_CONCURRENT_ = ?,       IS_SCOPE_ = ?,       IS_EVENT_SCOPE_ = ?,       PARENT_ID_ = ?,       SUPER_EXEC_ = ?,       SUSPENSION_STATE_ = ?,       CACHED_ENT_STATE_ = ?,       NAME_ = ?,     where ID_ = ?       and REV_ = ? ### Cause: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement &quot;UPDATE ACT_RU_EXECUTION SET       REV_ = ?,       BUSINESS_KEY_ = ?,       PROC_DEF_ID_ = ?,       ACT_ID_ = ?,       IS_ACTIVE_ = ?,       IS_CONCURRENT_ = ?,       IS_SCOPE_ = ?,       IS_EVENT_SCOPE_ = ?,       PARENT_ID_ = ?,       SUPER_EXEC_ = ?,       SUSPENSION_STATE_ = ?,       CACHED_ENT_STATE_ = ?,       NAME_ = ?,     WHERE[*] ID_ = ?       AND REV_ = ? &quot;; expected &quot;identifier&quot;; SQL statement: update ACT_RU_EXECUTION set       REV_ = ?,       BUSINESS_KEY_ = ?,       PROC_DEF_ID_ = ?,       ACT_ID_ = ?,       IS_ACTIVE_ = ?,       IS_CONCURRENT_ = ?,       IS_SCOPE_ = ?,       IS_EVENT_SCOPE_ = ?,       PARENT_ID_ = ?,       SUPER_EXEC_ = ?,       SUSPENSION_STATE_ = ?,       CACHED_ENT_STATE_ = ?,       NAME_ = ?,     where ID_ = ?       and REV_ = ? [42001-170]",204
+time limit of 5000 was exceeded,8
+ ### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;name&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27; ### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;name&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27;,331
+time limit of 3000 was exceeded,6
+time limit of 6000 was exceeded,1
+Exception while waiting on condition: Query return 278 results instead of max 1,1
+Exception while waiting on condition: Query return 219 results instead of max 1,1
+Exception while waiting on condition: Query return 132 results instead of max 1,1
+resource &#x27;org/activiti/engine/test/api/event/JobEventsTest.testJobCanceledEventOnBoundaryEvent.bpmn20.xml&#x27; not found,1
+Exception while waiting on condition: Query return 268 results instead of max 1,1
+obj must not be null,4
+ ### Error querying database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;deploymentIds&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27; ### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named &#x27;deploymentIds&#x27; in &#x27;class org.activiti.engine.impl.ExecutionQueryImpl&#x27;,119
+Error processing BPMN document,440
+no deployed process definition found with id &#x27;categorizeProcess&#x27;,3
+Could not load CacheAwareContextLoaderDelegate [class org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate],2

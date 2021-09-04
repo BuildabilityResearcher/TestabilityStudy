@@ -1,0 +1,1407 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,c131aab1,FAIL,0,NO,0,NO,0,2010-07-08 23:28:19 +0100,Added .gitignore,0,0
+1,03d924d8,FAIL,17,NO,0,NO,0,2010-07-08 01:15:21 -0600,initial commit from HEAD of codehaus,195,8071
+2,c44c59a4,FAIL,5,NO,0,NO,0,2010-07-14 16:14:56 -0600,"changing of groupid, version",195,8071
+3,46da5c5a,FAIL,7,NO,0,NO,0,2010-07-15 11:54:16 -0600,"distribution management, extentions for deploy to s3",195,8071
+4,1eef88ab,FAIL,8,NO,0,NO,0,2010-08-16 15:45:36 -0600,removing OAuthTokenLifecycleRegistryPostProcessor,194,8053
+5,fc1aa2c2,FAIL,4,NO,0,NO,0,2010-09-06 22:02:40 -0600,initial take on oauth2 consumer-side logic.,216,8216
+6,a434e02b,FAIL,5,NO,0,NO,0,2010-09-06 22:08:30 -0600,modified files to support initial oauth consumer flow,216,8668
+7,00bf52a0,FAIL,4,NO,0,NO,0,2010-09-07 13:50:05 -0600,"final touch-ups, security config, and tonr2",224,9033
+8,0938d496,FAIL,4,NO,0,NO,0,2010-09-07 13:52:31 -0600,tonr2 example,229,9148
+9,63e936b6,FAIL,4,NO,0,NO,0,2010-09-07 14:10:20 -0600,adding an example facebook resource,229,9148
+10,3e48e529,FAIL,4,NO,0,NO,0,2010-09-09 15:14:51 -0600,treating empty realm the same as missing realm,229,9149
+11,561d8cf1,FAIL,3,NO,0,NO,0,2010-09-10 12:10:28 -0600,usability cleanup and bug fixes submitted by Ken Dombeck,229,9153
+12,18077688,FAIL,4,NO,0,NO,0,2010-09-22 17:31:35 -0600,splitting out the oauth 1 logic into a context filter and an access filter,235,9308
+13,a8ff2aac,FAIL,4,NO,0,NO,0,2010-09-22 18:42:43 -0600,"creating an OAuthRestTemplate, and updating the tonr code to support it",238,9361
+14,b912853c,FAIL,4,NO,0,NO,0,2010-09-23 18:33:33 -0600,updating some docs on the new OAuth1 context.,238,9361
+15,1c9f0bab,FAIL,4,NO,0,NO,0,2010-09-24 16:50:34 -0600,applying some suggestions by David Lewis for simplifying the token services for database storage,238,9358
+16,5a8489b6,FAIL,6,NO,0,NO,0,2010-09-25 20:18:12 +0100,Update code to compile with Spring Security 3.0.3 and Spring 3.0.4.,238,9312
+17,6b360480,FAIL,7,NO,0,NO,0,2010-10-01 14:01:09 -0600,big refactor to support latest oauth2 changes,247,9504
+18,95d67fb4,FAIL,6,NO,0,NO,0,2010-10-08 14:55:25 -0600,"SECOAUTH-4, jdbc support for token services",256,9957
+19,7de8495b,FAIL,5,NO,0,NO,0,2010-10-08 14:58:44 -0600,"SECOAUTH-5, javadoc cleanup",256,9957
+20,32f5e61a,FAIL,4,NO,0,NO,0,2010-10-08 16:48:04 -0600,OAUTHSS-68 integer overflow calculation,256,9957
+21,231fb4ba,FAIL,5,NO,0,NO,0,2010-10-12 19:21:58 -0600,fixing the build for java 5,256,9957
+22,3e4b15a2,FAIL,4,NO,0,NO,0,2010-10-14 22:03:38 -0600,updating documentation for oauth2 support,256,9957
+23,a50627c0,FAIL,6,NO,0,NO,0,2010-10-15 13:41:34 -0600,SECOAUTH-6: support for creating client details from a property file,257,10023
+24,84d4efe1,FAIL,4,NO,0,NO,0,2010-10-15 14:13:48 -0600,SECOAUTH-13: security vulnerability fix,257,10032
+25,8f1f2353,FAIL,4,NO,0,NO,0,2010-10-16 21:52:45 -0600,"SECOAUTH-1, consumer-side exceptions shouldn't extend AuthenticationException so users don't get logged out.",257,10048
+26,f4fc0b37,FAIL,4,NO,0,NO,0,2010-10-18 11:51:01 -0600,"refresh token support for oauth2 provider, client",261,10167
+27,6892c1f8,FAIL,3,NO,0,NO,0,2010-10-19 13:03:56 -0600,example code for facebook integration for oauth2,262,10233
+28,406ffde5,FAIL,3,NO,0,NO,0,2010-10-20 10:02:54 -0600,removing the version from the reference to the schema,262,10233
+29,8f5f2cf7,FAIL,8,NO,0,NO,0,2010-11-08 13:30:07 -0700,SECOAUTH-16,262,10233
+30,6714c81c,FAIL,4,NO,0,NO,0,2010-11-16 09:55:47 -0700,adding an example picasa tab to tonr example,265,10304
+31,1ffd25fa,FAIL,4,NO,0,NO,0,2010-11-23 15:05:00 -0700,"SECOAUTH-18, SECOAUTH-19",265,10308
+32,e9e06556,FAIL,5,NO,0,NO,0,2010-11-23 15:20:09 -0700,SECOAUTH-15,265,10308
+33,5d730aa3,FAIL,5,NO,0,NO,0,2010-11-24 14:20:03 -0700,SECOAUTH-24,265,10338
+34,fbf76f75,FAIL,4,NO,0,NO,0,2010-11-24 14:24:39 -0700,SECOAUTH-25,265,10344
+35,dc37caf9,FAIL,5,NO,0,NO,0,2010-12-13 09:24:31 -0700,configuration option to set the user authorization url,265,10347
+36,1b9f0fb1,FAIL,4,NO,0,NO,0,2011-01-12 12:14:25 -0700,updating code to draft 11 spec,264,10339
+37,0da337ae,FAIL,4,NO,0,NO,0,2011-01-12 13:14:54 -0700,SECOAUTH-33,264,10340
+38,e703d747,FAIL,5,NO,0,NO,0,2011-01-12 13:35:08 -0700,SECOAUTH-36: providing support for a password encoder for plaintext signatures,265,10361
+39,b13750a9,FAIL,4,NO,0,NO,0,2011-01-12 13:55:50 -0700,SECOAUTH-29: incomplete parsing of verification-code element,265,10364
+40,33047e37,FAIL,5,NO,0,NO,0,2011-01-12 14:42:26 -0700,SECOAUTH-27: invalid error handling in oauth2errorhandler,266,10392
+41,31bbe7a7,FAIL,3,NO,0,NO,0,2011-01-12 15:16:07 -0700,"fixing repositories on sparklr, tonr poms",266,10392
+42,7cd62fc4,FAIL,4,NO,0,NO,0,2011-01-12 15:16:31 -0700,"SECOAUTH-21, broken links in docs",266,10392
+43,3a7af198,FAIL,3,NO,0,NO,0,2011-01-12 15:31:30 -0700,SECOAUTH-31: NPE on second request to protected resource,266,10393
+44,37573807,FAIL,4,NO,0,NO,0,2011-01-12 15:48:49 -0700,build fixes,266,10394
+45,0ec2f350,FAIL,4,NO,0,NO,0,2011-01-12 16:36:22 -0700,SECOAUTH-34: superfluous error message on access confirmation page,266,10394
+46,8e934ee5,FAIL,7,NO,0,NO,0,2011-01-13 12:31:33 -0700,fixes for spring sec 3.1,266,10344
+47,16652f23,FAIL,5,NO,0,NO,0,2011-01-13 12:44:29 -0700,jsp compile failure. not sure how that got there.,266,10344
+48,4135da5d,FAIL,5,NO,0,NO,0,2011-01-20 14:15:36 -0700,fix for latest rev of ss 3.1: named filter chains,267,10341
+49,59bca43d,FAIL,4,NO,0,NO,0,2011-01-21 13:25:12 -0600,Minor modifications to CoreOAuthConsumerSupport/OAuthConsumerSupport to be able to ask for a request token without going through the framework configuration.,268,10455
+50,5cc9e16b,FAIL,4,NO,0,NO,0,2011-01-21 13:45:19 -0600,Minor modifications to CoreOAuthConsumerSupport/OAuthConsumerSupport to be able to exchange a request token for an access token without going through the framework configuration.,269,10482
+51,f8b882a7,FAIL,4,NO,0,NO,0,2011-01-21 13:52:25 -0600,Cleaned up temporary code used to drive out changes to OAuthConsumerSupport,266,10418
+52,e52b7c0f,FAIL,5,NO,0,NO,0,2011-03-01 14:14:00 -0700,thread 104042: query fragment not appended unless query string is null,266,10397
+53,c9b0713f,FAIL,4,NO,0,NO,0,2011-03-04 12:58:19 -0700,SECOAUTH-39,266,10397
+54,f64a24dc,FAIL,4,NO,0,NO,0,2011-03-04 13:20:40 -0700,changes to support oauth2 token types. initial support for only the bearer type,266,10405
+55,49fd2c09,FAIL,4,NO,0,NO,0,2011-03-04 13:23:01 -0700,SECOAUTH-45: parsing typo for require-authenticated attribute,266,10405
+56,90d8e899,FAIL,4,NO,0,NO,0,2011-03-04 13:25:10 -0700,SECOAUTH-47: parsing typo for redirect-strategy-ref attribute,266,10405
+57,1ae17498,FAIL,4,NO,0,NO,0,2011-03-04 13:56:56 -0700,SECOAUTH-23,265,10406
+58,92de23fb,FAIL,4,NO,0,NO,0,2011-03-11 11:12:23 -0700,test fixes,265,10407
+59,3955b04e,FAIL,4,NO,0,NO,0,2011-03-11 14:11:34 -0700,Merge commit 'refs/merge-requests/1' of git.springsource.org:spring-security/oauth into consumer-support-decoupled-api,265,10431
+60,c97a8519,FAIL,4,NO,0,NO,0,2011-03-11 14:24:54 -0700,no compile-time dependency on DefaultOAuthURLStreamHandlerFactory,265,10417
+61,667b6068,FAIL,5,NO,0,NO,0,2011-03-11 15:02:56 -0700,adding tests for the client secret,265,10440
+62,6a939e36,FAIL,4,NO,0,NO,0,2011-03-11 15:16:47 -0700,SECOAUTH-38: typo in configuration parsing,265,10440
+63,64fb349a,FAIL,5,NO,0,NO,0,2011-03-11 15:25:25 -0700,SECOAUTH-40: client credentials flow,265,10446
+64,28190f40,FAIL,4,NO,0,NO,0,2011-03-11 15:32:41 -0700,SECOAUTH-44: remember me services configuration option,265,10449
+65,f6b5bdcb,FAIL,4,NO,0,NO,0,2011-03-11 15:50:05 -0700,forgot to add the client credentials provider and token,267,10494
+66,d2eaff18,FAIL,4,NO,0,NO,0,2011-03-14 11:20:00 -0600,getting tonr2/sparklr2 examples working,267,10494
+67,be8bbb38,FAIL,4,NO,0,NO,0,2011-03-14 15:49:00 -0600,provisions for handling expired or lost access tokens,267,10524
+68,aef019af,FAIL,4,NO,0,NO,0,2011-03-15 20:01:15 -0600,"handling of new facebook functionality, adding the handling of a revoked fb token",267,10545
+69,489d5d25,FAIL,4,NO,0,NO,0,2011-03-15 21:14:14 -0600,getting rid of the word 'flow',267,10545
+70,5fda7694,FAIL,5,NO,0,NO,0,2011-03-15 21:23:05 -0600,update to spring security 3.1,268,10492
+71,e4bfabf2,FAIL,4,NO,0,NO,0,2011-03-16 00:03:56 -0600,adding a 'none' option for the filter resources,268,10498
+72,32a44dab,FAIL,6,NO,0,NO,0,2011-03-16 11:27:33 -0600,"update to later spring, spring security versions",268,10498
+73,ba941fa9,FAIL,5,NO,0,NO,0,2011-04-25 14:27:08 +0100,Updates for compatibility with recent changes in Spring Security 3.1 RC2.,268,10490
+74,5b1f8730,FAIL,7,NO,0,NO,0,2011-05-04 16:40:47 -0600,updating to 3.1 RC2,268,10490
+75,85a3ac13,FAIL,4,NO,0,NO,0,2011-06-16 16:17:58 -0600,adding expression support for role-based client security constraints,272,10616
+76,9822745e,FAIL,4,NO,0,NO,0,2011-06-21 10:36:12 -0600,adding a comment about wiring in at the layer of the http filters,272,10616
+77,a76efe24,FAIL,3,NO,0,NO,0,2011-06-23 21:52:24 -0600,SECOAUTH-42: check for presence of oauth_verifier param to indicate oauth 1 request.,272,10616
+78,fc756046,FAIL,4,NO,0,NO,0,2011-06-23 22:08:36 -0600,SECOAUTH-57: apply default processes url,272,10616
+79,5110dab0,FAIL,4,NO,0,NO,0,2011-06-23 22:13:00 -0600,SECOAUTH-58: moving additional validation checks to validateAdditionalParams method,272,10616
+80,a24151c7,FAIL,5,NO,0,NO,0,2011-06-23 22:24:03 -0600,SECOAUTH-59: verifying query param is appended as needed.,273,10628
+81,9fbade98,FAIL,4,NO,0,NO,0,2011-06-23 22:35:37 -0600,adding docs for the expression handler,273,10628
+82,2f25d164,FAIL,4,NO,0,NO,0,2011-06-23 22:44:47 -0600,SECOAUTH-63: support for client details encoder injection,275,10701
+83,d3eebb32,FAIL,4,NO,0,NO,0,2011-06-23 22:47:15 -0600,SECOAUTH-64: Remove scope parsing logic in VerificationCodeFilter,275,10696
+84,295e0f9d,FAIL,4,NO,0,NO,0,2011-06-23 22:50:42 -0600,SECOAUTH-65: bad cast in error pages,275,10696
+85,d38483e4,FAIL,5,NO,0,NO,0,2011-06-23 23:06:49 -0600,SECOAUTH-66: use tomcat instead of jetty for tests,275,10696
+86,c01d4958,FAIL,5,NO,0,NO,0,2011-06-23 23:09:05 -0600,SECOAUTH-67: fix for broken source repo link,275,10696
+87,56685ea6,FAIL,4,NO,0,NO,0,2011-06-23 23:12:10 -0600,SECOAUTH-69: client details should be serializable,275,10697
+88,9e7d01bd,FAIL,5,NO,0,NO,0,2011-06-23 23:19:45 -0600,SECOAUTH-70: invalid user creds should throw appropriate oauth exception,275,10703
+89,f7beffca,FAIL,4,NO,0,NO,0,2011-06-24 09:58:15 -0600,null check on security context authentication,275,10703
+90,a9fb3945,FAIL,10,NO,0,NO,0,2011-06-24 12:01:05 -0600,"SECOAUTH-72, support for maven 3 stuff",275,10703
+91,ec32d063,FAIL,3,NO,0,NO,0,2011-06-24 14:21:40 -0600,SECOAUTH-61: allow for client details to be stored in db,275,10695
+92,d720578f,FAIL,4,NO,0,NO,0,2011-06-24 14:21:40 -0600,SECOAUTH-61: allow for client details to be stored in db,277,10799
+93,63a9688d,FAIL,4,NO,0,NO,0,2011-06-24 15:24:57 -0600,Merge branch 'master' of git.springsource.org:spring-security/oauth,277,10799
+94,fa7a2062,FAIL,4,NO,0,NO,0,2011-07-01 09:04:01 +0100,Add ignores,277,10799
+95,7975075b,FAIL,4,NO,0,NO,0,2011-07-01 09:04:15 +0100,Fix various pom and XML issues,277,10799
+96,6dce73d6,FAIL,3,NO,0,NO,0,2011-07-26 21:35:42 +0100,Add some tests and fix bug with double & in query string,278,10822
+97,ca8a6145,FAIL,3,NO,0,NO,0,2011-07-26 21:36:06 +0100,tidy up some dependencies,278,10822
+98,b7c87aeb,FAIL,4,NO,0,NO,0,2011-07-26 21:36:40 +0100,externalize some URL config in sample,278,10822
+99,b976b43c,FAIL,4,NO,0,NO,0,2011-07-27 08:25:38 +0100,Add README,278,10822
+100,6cdaf4a9,FAIL,3,NO,0,NO,0,2011-06-24 11:48:51 -0600,SECOAUTH-68: use @MVC features in sparklr2,275,10787
+101,f32631fe,FAIL,4,NO,0,NO,0,2011-07-28 13:09:58 +0100,SECOAUTH-68: switch tonr2 to @MVC,274,10787
+102,64fc7d35,FAIL,4,NO,0,NO,0,2011-07-28 13:33:28 +0100,Fix schema locations for Eclipse and controller name in sparklr,274,10787
+103,865a209a,FAIL,4,NO,0,NO,0,2011-07-28 14:24:35 +0100,SECOAUTH-68: switch sparklr to @MVC,273,10779
+104,bc21ab79,FAIL,5,NO,0,NO,0,2011-07-28 14:34:02 +0100,SECOAUTH-68: switch tonr to @MVC,272,10773
+105,a2426010,FAIL,3,NO,0,NO,0,2011-07-28 14:47:24 +0100,SECOAUTH-86: change servlet mappings,271,10765
+106,fc4f0744,FAIL,5,NO,0,NO,0,2011-07-28 15:50:17 +0100,SECOAUTH-86: change sparklr endpoint URLs,271,10765
+107,689456b8,FAIL,4,NO,0,NO,0,2011-07-28 16:04:59 +0100,SECOAUTH-86: change tonr and tonr2,271,10765
+108,5b917442,FAIL,6,NO,0,NO,0,2011-07-28 17:15:14 +0100,SECOAUTH-84 fix tests in sparklr2 and upgrade to JUnit 4.8,272,10843
+109,bdd9f9c1,FAIL,4,NO,0,NO,0,2011-07-28 17:42:44 +0100,SECOAUTH-84 upgrade main project to JUnit 4.8,272,11064
+110,f9015efa,FAIL,4,NO,0,NO,0,2011-07-28 18:21:43 +0100,SECOAUTH-85: use rest template in server running rule,272,11060
+111,07e1bf5c,FAIL,4,NO,0,NO,0,2011-07-28 22:40:13 -0600,cleaning up the readme a bit,272,11064
+112,6cb1b3d7,FAIL,4,NO,0,NO,0,2011-07-28 22:49:57 -0600,fix the hanging server issue when running the build,272,11064
+113,b6738e82,FAIL,4,NO,0,NO,0,2011-07-28 23:34:19 -0600,renaming 'verification code' to 'authorization code' to align with oauth spec terminology,272,11066
+114,3ec65156,FAIL,3,NO,0,NO,0,2011-07-28 23:38:14 -0600,renaming 'verification code' to 'authorization code' on the client-side to align with oauth spec terminology,272,11065
+115,223b2933,FAIL,4,NO,0,NO,0,2011-07-29 08:27:59 +0100,SECOAUTH-85: use rest template in tests,272,11123
+116,4b55a607,FAIL,4,NO,0,NO,0,2011-07-29 14:05:41 +0100,"SECAOUTH-89: made 'Bearer' the header prefix for providers, and support it as the default for consumers with a fallback to 'OAuth2' as before",272,11126
+117,154bde5f,FAIL,4,NO,0,NO,0,2011-07-29 14:56:30 +0100,Fix tonr2 so it serves static resources properly,272,11126
+118,dc58c313,FAIL,4,NO,0,NO,0,2011-07-28 22:40:13 -0600,cleaning up the readme a bit,272,11126
+119,53203458,FAIL,4,NO,0,NO,0,2011-07-29 15:19:11 +0100,From Ryan: fix hanging server issue when running the build,272,11126
+120,2e8b590c,FAIL,4,NO,0,NO,0,2011-07-29 15:22:07 +0100,"SECOAUTH-85, SECOAUTH-89: tricky merge into Ryan's work.  Tests passing, so hopefully OK.",272,11126
+121,7db00020,FAIL,4,NO,0,NO,0,2011-07-29 16:00:08 +0100,SECOAUTH-76: check for null before deserializing exception,272,11149
+122,bdb3ce2d,FAIL,4,NO,0,NO,0,2011-07-29 16:08:33 +0100,re-apply Ryan's changes for ver->auth,272,11151
+123,6c6947fe,FAIL,4,NO,0,NO,0,2011-07-28 23:38:14 -0600,renaming 'verification code' to 'authorization code' on the client-side to align with oauth spec terminology,272,11150
+124,f63fc976,FAIL,4,NO,0,NO,0,2011-07-30 11:03:06 +0100,SECOAUTH-90: fix double encoding problem,272,11197
+125,59b206fe,FAIL,6,NO,0,NO,0,2011-07-31 08:36:59 +0100,SECOAUTH-92: rename paackage to 'code',272,11203
+126,1a7de3b8,FAIL,5,NO,0,NO,0,2011-07-31 12:32:13 +0100,SECOAUTH-89: fix error handler to also use Bearer type,272,11208
+127,bc2f60c8,FAIL,5,NO,0,NO,0,2011-08-01 08:37:34 +0100,Fix compiler warnings,272,11193
+128,ee40822c,FAIL,4,NO,0,NO,0,2011-08-01 12:56:44 +0100,SECOAUTH-94: check for *no* requested scopes where at least one is required,272,11228
+129,c86f7794,FAIL,4,NO,0,NO,0,2011-08-01 17:07:23 +0100,SECOAUTH-94: fix receiver of web server profile authorization code,273,11271
+130,691d5704,FAIL,3,NO,0,NO,0,2011-08-02 09:48:21 +0100,finish renaming of verification->authorization,273,11271
+131,18ba7fe5,FAIL,4,NO,0,NO,0,2011-08-02 09:49:06 +0100,SECOAUTH-86: Fix sparklr2 home page,273,11271
+132,76530476,FAIL,4,NO,0,NO,0,2011-08-02 11:27:00 +0100,Remove unused namespace,273,11271
+133,dda8a1f8,FAIL,4,NO,0,NO,0,2011-08-02 22:49:48 -0600,adding IntelliJ code style settings,273,11271
+134,9b3123df,FAIL,4,NO,0,NO,0,2011-08-05 09:06:17 +0100,SECOAUTH-98: split expression handlers,274,11355
+135,0cde4115,FAIL,4,NO,0,NO,0,2011-08-05 09:32:59 +0100,SECOAUTH-98: add test case and remove oauth2 methods from oauth handler and vice versa,275,11368
+136,e2f5f02d,FAIL,3,NO,0,NO,0,2011-08-05 10:35:51 +0100,SECOAUTH-88: add ScopeVoter,277,11441
+137,9930d077,FAIL,4,NO,0,NO,0,2011-08-05 11:05:37 +0100,SECOAUTH-88: add DENY_OAUTH to ScopeVoter,277,11451
+138,d5d08662,FAIL,4,NO,0,NO,0,2011-08-05 11:27:55 +0100,SECOAUTH-100: check for refresh_token request before looking into scopes,277,11451
+139,1051e9d6,FAIL,3,NO,0,NO,0,2011-08-05 11:29:24 +0100,SECOAUTH-88: add ScopeVoter to sparklr2,277,11455
+140,08030043,FAIL,4,NO,0,NO,0,2011-08-05 12:35:42 +0100,SECOAUTH-100: check for restored scopes after refresh,277,11472
+141,44547434,FAIL,4,NO,0,NO,0,2011-08-09 10:49:39 +0100,Factor out some convenience methods and add logging to WebServerProfile,277,11499
+142,5e4bffb4,FAIL,4,NO,0,NO,0,2011-08-10 09:17:34 +0100,SECOAUTH-9: enable placeholders in namespace for <oauth:resource/>,278,11543
+143,58f9e599,FAIL,9,NO,0,NO,0,2011-08-10 09:34:53 +0100,SECOAUTH-7: Add OSGi manifest,278,11543
+144,31051241,FAIL,5,NO,0,NO,0,2011-08-11 11:37:58 +0100,SECOAUTH-101: change request parameter name,278,11544
+145,42daa9c9,FAIL,5,NO,0,NO,0,2011-08-11 14:16:00 +0100,SECOAUTH-101: change request parameter name across the board,278,11546
+146,5d08ef3e,FAIL,4,NO,0,NO,0,2011-08-18 11:05:07 -0700,SECOAUTH-104: added flag to suppress session creation optionally,279,11568
+147,d5cd9098,FAIL,5,NO,0,NO,0,2011-08-19 07:37:43 -0700,SECOAUTH-103: split out oauth2,281,11700
+148,7b7c425b,FAIL,5,NO,0,NO,0,2011-08-22 08:46:52 +0100,SECOAUTH-105: remove cycles in oauth - first pass,281,11784
+149,aefa04e5,FAIL,5,NO,0,NO,0,2011-08-22 09:31:09 +0100,SECOAUTH-105: remove cycles in oauth2 - first pass,281,11818
+150,5465fabb,FAIL,4,NO,0,NO,0,2011-08-22 09:56:39 +0100,SECOAUTH-105: remove cycles in oauth2 - consolidate client-related code (as in oauth),281,11825
+151,28d8b235,FAIL,5,NO,0,NO,0,2011-08-22 10:03:45 +0100,SECOAUTH-106: suppress some compiler warnings,278,11812
+152,b31d1047,FAIL,4,NO,0,NO,0,2011-08-22 10:14:34 +0100,Add test case for error handler,279,11845
+153,08e9af07,FAIL,5,NO,0,NO,0,2011-08-22 10:40:05 +0100,SECOAUTH-105: fix broken config file,279,11845
+154,df7e245d,FAIL,5,NO,0,NO,0,2011-08-22 12:59:26 +0100,SECOAUTH-82: Add <oauth:client resource-ids=.../> and <oauth:provider resource-id=.../>,281,11983
+155,1d5b4c05,FAIL,4,NO,0,NO,0,2011-08-22 16:25:25 +0100,Tweak test case: fail if redirect is wrong,281,11984
+156,433f2acc,FAIL,6,NO,0,NO,0,2011-08-23 11:59:24 +0100,Upgrade to Spring Security 3.1.0.RC3,281,11984
+157,6a731de7,FAIL,5,NO,0,NO,0,2011-08-24 10:31:41 +0100,SECOAUTH-109: default token type to bearer,282,12008
+158,eaee6532,FAIL,5,NO,0,NO,0,2011-08-24 12:35:06 +0100,Small Javadoc clarification,282,12009
+159,2af0484d,FAIL,5,NO,0,NO,0,2011-08-24 13:47:35 +0100,SECOAUTH-111: First step in de-parameterisation,282,12040
+160,cf7ae262,FAIL,5,NO,0,NO,0,2011-08-24 13:59:05 +0100,Make error message clearer for NPE loading certificate for oauth:consumer,282,12042
+161,21e0ebff,FAIL,5,NO,0,NO,0,2011-08-24 14:00:12 +0100,Unignore .springBeans for Eclipse users,282,12042
+162,515b1d42,FAIL,5,NO,0,NO,0,2011-08-24 14:20:48 +0100,SECOAUTH-111: Remove parameters from OAuth2Authentication,283,12072
+163,584cc856,FAIL,5,NO,0,NO,0,2011-08-25 13:08:13 +0100,SECOAUTH-105: locate StringSplitUtils in same package as its caller,283,12071
+164,9f391f06,FAIL,5,NO,0,NO,0,2011-08-25 16:45:16 +0100,SECOAUTH-112: make token endpoint more liberal about client id,283,12103
+165,b3a3ec77,FAIL,5,NO,0,NO,0,2011-08-26 09:05:35 +0100,Consolidate Spring config into single file for OAuth2 samples,283,12103
+166,b1d5a4bb,FAIL,5,NO,0,NO,0,2011-08-26 09:43:26 +0100,Switch location of config files so jsps can be loaded,283,12080
+167,cef4514c,FAIL,5,NO,0,NO,0,2011-08-26 10:05:05 +0100,Switch location of config files back and add init directive,283,12080
+168,100f1e60,FAIL,4,NO,0,NO,0,2011-08-26 11:19:42 +0100,SECOAUTH-113: add separate DefaultUserApprovalHandler,284,12082
+169,5bf8e279,FAIL,4,NO,0,NO,0,2011-08-26 14:16:10 +0100,remove unnecessary useFullPath flag in sparklr2,284,12082
+170,a41433a0,FAIL,5,NO,0,NO,0,2011-09-06 10:59:24 -0400,SECOAUTH-118: Split samples into subdirectory,284,12082
+171,5e5a61d8,FAIL,5,NO,0,NO,0,2011-09-06 16:54:23 -0400,SECOAUTH-118: fix context roots and add comment in README,284,12082
+172,336c4cef,FAIL,4,NO,0,NO,0,2011-09-06 16:30:51 -0600,removing 'profile' from the provider-side docs,284,12082
+173,5c2d80e5,FAIL,5,NO,0,NO,0,2011-09-06 16:52:57 -0600,cleaning up references to 'profile' per SECOAUTH-51,284,12072
+174,ff1128de,FAIL,4,NO,0,NO,0,2011-09-06 16:55:12 -0600,"updating test, sample code to reflect new terminology per SECOAUTH-51",284,12072
+175,80f26b75,FAIL,5,NO,0,NO,0,2011-09-06 16:57:10 -0600,updating the name of ssoauth2,284,12072
+176,a509c3b2,FAIL,4,NO,0,NO,0,2011-09-06 17:02:17 -0600,"renaming packaging for rest template, httpClient* to conform better to established convention",284,12069
+177,9e9c67ae,FAIL,5,NO,0,NO,0,2011-09-06 17:07:02 -0600,renaming 'consumer' to 'client' to conform to established convention per SECOAUTH-51,284,12068
+178,28965a42,FAIL,4,NO,0,NO,0,2011-09-06 17:10:31 -0600,"removing remaining references to 'verification', changing to 'authorization' to conform to convention per SECOAUTH-51",284,12064
+179,cfdcf505,FAIL,4,NO,0,NO,0,2011-09-07 13:49:48 -0400,SECOAUTH-107: added test case with header authentication for resource owner password token request,284,12085
+180,3348e521,FAIL,4,NO,0,NO,0,2011-09-07 14:50:20 -0400,SECOAUTH-70: tweak error responses to fit spec as best we can,284,12094
+181,03acafcf,FAIL,4,NO,0,NO,0,2011-09-07 16:13:39 -0400,SECOAUTH-96: add registered redirect to resource configuration,284,12238
+182,dab2d7b4,FAIL,4,NO,0,NO,0,2011-09-07 14:33:31 -0600,SECOAUTH-54: default serialization service for client-side,284,12068
+183,20365189,FAIL,5,NO,0,NO,0,2011-09-07 14:35:51 -0600,SECOAUTH-102: allow for token='' in oauth header,284,12069
+184,4e0ff5fa,FAIL,4,NO,0,NO,0,2011-09-07 14:47:16 -0600,SECOAUTH-55: configuration element for the user authorization path,284,12070
+185,68aa752c,FAIL,4,NO,0,NO,0,2011-09-07 14:58:31 -0600,SECOAUTH-74: support for legacy 1.0; no verifier is needed,284,12070
+186,870d3655,FAIL,4,NO,0,NO,0,2011-09-07 15:37:59 -0600,SECOAUTH-73: allow for scope narrowing during issuance of refresh token.,285,12104
+187,3a4a1372,FAIL,4,NO,0,NO,0,2011-09-07 15:39:21 -0600,Merge branch 'master' of github.com:SpringSource/spring-security-oauth,285,12278
+188,094440a3,FAIL,5,NO,0,NO,0,2011-09-08 12:11:25 -0400,SECOAUTH-96: check state matches original unconfirmed request,289,12610
+189,e3f68ba1,FAIL,4,NO,0,NO,0,2011-09-08 12:58:29 -0400,SECOAUTH-122: add client secret to unconfirmed token request,289,12640
+190,f4ba81bd,FAIL,5,NO,0,NO,0,2011-09-08 16:04:44 -0400,SECOAUTH-96: Add integration tests and fiddle order of state/redirectUri extraction,289,12750
+191,4907f918,FAIL,4,NO,0,NO,0,2011-09-08 16:16:32 -0400,SECOAUTH-121: added integration test,289,12751
+192,da07014e,FAIL,4,NO,0,NO,0,2011-09-08 16:33:19 -0400,SECOAUTH-114: added boolean flag to client context filter for redirect instead of panic,289,12771
+193,9ef939ca,FAIL,4,NO,0,NO,0,2011-09-08 20:01:32 -0600,"docs moving to wiki, SECOAUTH-73",285,12278
+194,b0423e2f,FAIL,4,NO,0,NO,0,2011-09-08 20:01:37 -0600,Merge branch 'master' of github.com:SpringSource/spring-security-oauth,289,12771
+195,183fdd2b,FAIL,6,NO,0,NO,0,2011-09-09 11:37:48 -0400,SECOAUTH-122: different approach to client secret - complies with spec,289,12739
+196,083649fa,FAIL,4,NO,0,NO,0,2011-09-09 15:13:53 -0400,Modify site and pom ready for release,289,12739
+197,e1a3bc6c,FAIL,5,NO,0,NO,0,2011-09-09 17:45:01 -0400,Fix site deployment,289,12739
+198,6bb73b52,FAIL,5,NO,0,NO,0,2011-09-16 15:16:07 -0400,SECOAUTH-123: fix null check for redirect URL,289,12739
+199,030a4728,FAIL,4,NO,0,NO,0,2011-09-16 15:26:28 -0600,invalid refresh token should be invalid_grant instead of invalid_token error,289,12740
+200,c74a622e,FAIL,4,NO,0,NO,0,2011-08-23 12:02:33 +0100,SECOAUTH-97: use standard <custom-filter/> to configure provider and client,291,12800
+201,ce41579e,FAIL,5,NO,0,NO,0,2011-09-23 11:05:33 -0400,SECOAUTH-97: Tweak after merge because *Profile is now *AccessTokenProvider,291,12800
+202,c81605cb,FAIL,5,NO,0,NO,0,2011-09-26 10:57:47 -0400,split test case,291,12807
+203,5cb243f7,FAIL,5,NO,0,NO,0,2011-08-26 15:58:12 +0100,SECOAUTH-110: add @FrameworkEndpoint as a @Component that can be used to house a non-user defined endpoint,296,12965
+204,ccdd1f5b,FAIL,4,NO,0,NO,0,2011-09-23 12:23:55 -0400,SECOAUTH-110: Switch to explicit filter config while endpoints are being developed,296,12965
+205,27dad92b,FAIL,4,NO,0,NO,0,2011-09-23 13:11:02 -0400,SECOAUTH-110: Add auth endpoint. * Add EndpointValidationFilter in place of @FrameworkEndpoint * Invalid client is 400 * Tidy up validation and tests compared to spec,294,13115
+206,d33d1cee,FAIL,5,NO,0,NO,0,2011-09-26 11:56:01 -0400,SECOAUTH-110: First step to move bean parser away from filters,290,12741
+207,1c12caf1,FAIL,4,NO,0,NO,0,2011-09-26 13:33:37 -0400,SECOAUTH-110: refactor bean definition parser and XSD,290,12735
+208,3ffb0fc2,FAIL,5,NO,0,NO,0,2011-09-26 13:53:28 -0400,SECOAUTH-127: change endpoint URLs,290,12735
+209,bdec5861,FAIL,5,NO,0,NO,0,2011-09-27 09:46:09 -0400,Update OSGi template,290,12735
+210,5c6e1fa8,FAIL,5,NO,0,NO,0,2011-09-27 10:37:29 -0400,SECOAUTH-110: split provider into auth and resource servers,292,12779
+211,513e1ef9,FAIL,4,NO,0,NO,0,2011-10-12 14:28:50 +0100,Remove orphan tonr2 project,291,12747
+212,b03f92eb,FAIL,4,NO,0,NO,0,2011-10-12 14:29:20 +0100,SECOAUTH-132: add clearContext() tocontext holder,291,12752
+213,c4ad5ac4,FAIL,5,NO,0,NO,0,2011-10-12 15:41:18 +0100,SECOAUTH-135: remove cycles and rename *SecurityContext* to *ClientContext*,291,12768
+214,2c2a707d,FAIL,5,NO,0,NO,0,2011-10-12 16:41:07 +0100,SECOAUTH-127: fix integration test,291,12768
+215,ab4c798e,FAIL,5,NO,0,NO,0,2011-10-12 16:37:50 +0100,SECOAUTH-135: re-organize packages and consolidate provider/manager in client,290,12769
+216,fe2c082f,FAIL,5,NO,0,NO,0,2011-10-12 17:11:18 +0100,SECOAUTH-135: fix inheritance for provider impls,290,12771
+217,1d0f9a23,FAIL,5,NO,0,NO,0,2011-10-13 08:08:20 +0100,SECOAUTH-136: fix namespace declarations,290,12771
+218,db85bd21,FAIL,5,NO,0,NO,0,2011-10-13 13:43:55 +0100,SECOAUTH-135: re-align resource implememantation and auth scheme to remove cycle,290,12771
+219,a62c40da,FAIL,5,NO,0,NO,0,2011-10-13 14:17:13 +0100,SECOAUTH-135: package consolidation to show dependencies more clearly,292,12789
+220,1a6e2a94,FAIL,5,NO,0,NO,0,2011-10-13 16:21:34 +0100,"SECOAUTH-75, SECOAUTH-135: validate refactoring by adding support for client credentials",294,12856
+221,4462d420,FAIL,4,NO,0,NO,0,2011-10-13 17:17:51 +0100,SECOAUTH-75: no need for redirect URI in client credentials grant,294,12844
+222,82dd66b3,FAIL,4,NO,0,NO,0,2011-10-13 17:31:33 +0100,SECOAUTH-75: client credentials handled by auth handler,294,12840
+223,12da9148,FAIL,5,NO,0,NO,0,2011-10-13 17:40:21 +0100,SECOAUTH-75: client credentials form handling fix,294,12842
+224,c5116883,FAIL,5,NO,0,NO,0,2011-10-14 12:42:01 -0500,JdbcClientDetailsService: Retrieve data from result set by column location instead of column name to allow for more flexibility in defining custom query SQL in the selectClientDetailsSql property.,294,12863
+225,f7416ff8,FAIL,6,NO,0,NO,0,2011-10-14 12:48:54 -0500,JdbcOAuth2ProviderTokenServices: Retrieve data from result set by column location instead of column name to allow for more flexibility in defining custom query SQL,294,12863
+226,df71a5ee,FAIL,4,NO,0,NO,0,2011-10-15 05:08:29 -0700,Merge pull request #1 from habuma/master,294,12863
+227,a7812e8f,FAIL,5,NO,0,NO,0,2011-10-17 11:52:36 +0100,SECOAUTH-133: Add Serializable to RefreshTokenDetails,294,12864
+228,2e0ad1b1,FAIL,4,NO,0,NO,0,2011-10-17 12:07:43 +0100,SECOAUTH-108: removed constructor,294,12844
+229,b0d5afaa,FAIL,4,NO,0,NO,0,2011-10-17 12:53:37 +0100,SECOAUTH-81: move security check to Spring Security filter,294,12834
+230,0c818450,FAIL,4,NO,0,NO,0,2011-10-17 13:08:56 +0100,SECOAUTH-134: add pattern matcher in endpoint validator,294,12836
+231,93985891,FAIL,4,NO,0,NO,0,2011-10-17 16:58:15 +0100,SECOAUTH-139: Refactor TokenEndpoint and related XML features - New strategy TokenGranter is easy to implement and inject - All AuthenticationTokens not used by the token services or auth endpoint removed - Namespace explicitly lists grant types that are supported,288,12658
+232,b33e53a0,FAIL,5,NO,0,NO,0,2011-10-18 12:06:46 +0100,SECOAUTH-139: start to refactor AuthorizationEndpoint - remove unused token type - remove cycle - remove RefreshTokenDetails - rename AuthenticationCache,285,12675
+233,f12478ad,FAIL,5,NO,0,NO,0,2011-10-18 14:02:22 +0100,SECOAUTH-139: Use forward:... for /authorize,285,12643
+234,226353ac,FAIL,4,NO,0,NO,0,2011-10-18 15:19:22 +0100,SECOAUTH-139: Blast Http references away from AuthorizeEndpoint,283,12570
+235,93e7f198,FAIL,4,NO,0,NO,0,2011-10-18 15:22:21 +0100,SECOAUTH-139: Remove unused throws clauses,283,12568
+236,fc399afb,FAIL,4,NO,0,NO,0,2011-10-18 16:03:40 +0100,SECOAUTH-12: add implicit grant,285,12727
+237,64ded154,FAIL,4,NO,0,NO,0,2011-10-18 17:20:19 +0100,SECOAUTH-140: Extracted TokenStore strategy from RandomValueOAuth2ProviderTokenServices.,284,12557
+238,eab3d6ed,FAIL,5,NO,0,NO,0,2011-10-18 17:20:28 +0100,Merge branch 'master' of git://github.com/SpringSource/spring-security-oauth,286,12716
+239,48faa9fe,FAIL,4,NO,0,NO,0,2011-10-18 17:53:58 +0100,SECOAUTH-12: prefer explicit View to String return in AuthorizeEndpoint to avoid view resolver,286,12718
+240,391b05aa,FAIL,4,NO,0,NO,0,2011-10-24 11:32:30 -0500,SECOAUTH-143: added client secret to stored auth,286,12719
+241,883a781b,FAIL,4,NO,0,NO,0,2011-10-25 17:27:19 +0100,Update to spring 3.0.6,286,12719
+242,7e752d93,FAIL,4,NO,0,NO,0,2011-10-27 23:28:45 +0800,Added expires_in and token_type to response for implicit grant,286,12740
+243,8eb5094c,FAIL,5,NO,0,NO,0,2011-10-27 09:15:19 -0700,Merge pull request #2 from woltere/master,286,12740
+244,6b539993,FAIL,4,NO,0,NO,0,2011-10-25 10:33:51 -0500,"SECOAUTH-144, SECOAUTH-145: Split TokenServices interfaces",290,12851
+245,a02b2d4d,FAIL,5,NO,0,NO,0,2011-10-29 17:10:30 -0500,SECOAUTH-145: authorization server does not need to create a filter,290,12842
+246,3b90b0a1,FAIL,5,NO,0,NO,0,2011-11-07 11:52:39 +0000,SECOAUTH-153: renamed 'flow' package,290,12844
+247,177545cd,FAIL,5,NO,0,NO,0,2011-11-07 15:55:44 +0000,SECOAUTH-154: added rough draft of implicit token provider on client,292,12997
+248,6f976884,FAIL,5,NO,0,NO,0,2011-11-08 11:34:44 +0000,SECOAUTH-154: tidy up client TokenProvider implementations,291,12960
+249,72def4d5,FAIL,5,NO,0,NO,0,2011-11-08 11:38:14 +0000,SECOAUTH-154: revert local test change,291,12959
+250,b21c7b42,FAIL,5,NO,0,NO,0,2011-11-10 09:36:06 +0000,Tweak maven dependencies,291,12959
+251,90c11a75,FAIL,5,NO,0,NO,0,2011-11-10 15:01:31 +0000,Fix OAuth samples,291,12959
+252,56e70f02,FAIL,4,NO,0,NO,0,2011-11-11 11:13:03 +0000,Add request params to auth endpoint model when forwarding to confirmation page,291,12959
+253,2a7db25c,FAIL,5,NO,0,NO,0,2011-11-15 09:40:48 +0000,Change integration tests to be run from sparklr2 directly with tomcat:run,291,12959
+254,e8062b25,FAIL,5,NO,0,NO,0,2011-11-15 10:54:22 +0000,SECOAUTH-150: added try/catch and a test for bad credentials in resource owner password grant,292,13016
+255,b111ad1f,FAIL,4,NO,0,NO,0,2011-11-15 11:16:23 +0000,Add tomcat config and README for running from command line,292,13016
+256,57cdd661,FAIL,5,NO,0,NO,0,2011-11-15 11:27:40 +0000,SECOAUTH-159: store tokens by resource if no authentication,293,13049
+257,4b4be941,FAIL,4,NO,0,NO,0,2011-11-15 11:38:12 +0000,SECOAUTH-125: not expecting state parameter in code grant request,293,13042
+258,e056404b,FAIL,4,NO,0,NO,0,2011-11-15 11:59:51 +0000,SECOAUTH-157: switch to access_token by default if using request to authenticate,293,13037
+259,ced50708,FAIL,4,NO,0,NO,0,2011-11-15 12:31:33 +0000,SECOAUTH-138: remove explicit OAuth2 references from controllers and services,293,13002
+260,d2adc694,FAIL,4,NO,0,NO,0,2011-11-15 13:48:32 +0000,SECOAUTH-155: extract client auth from header if it is present,293,13027
+261,277a5088,FAIL,4,NO,0,NO,0,2011-11-15 15:03:37 +0000,SECOAUTH-161: allow POST for implicit flow (and test it),293,13059
+262,ec5f6efd,FAIL,5,NO,0,NO,0,2011-11-15 18:20:27 +0000,SECOAUTH-162: change logic in access token granter a bit (not quite fixed),294,13116
+263,a0053fa6,FAIL,4,NO,0,NO,0,2011-11-16 08:45:59 +0000,SECOAUTH-162: exclude anonymous authentications (not happy with it yet),294,13129
+264,7b950465,FAIL,5,NO,0,NO,0,2011-11-16 09:38:00 +0000,SECOAUTH-162: better approach maybe - don't throw exception if token can't be stored,294,13135
+265,08745662,FAIL,4,NO,0,NO,0,2011-11-17 09:29:31 +0000,SECOAUTH-163: add access token required for expired token,294,13110
+266,c5b9016c,FAIL,5,NO,0,NO,0,2011-11-17 11:47:53 +0000,Sync wiki to docs subdir,294,13110
+267,8b9978ab,FAIL,4,NO,0,NO,0,2011-11-17 13:30:47 +0000,SECOAUTH-148: add docs for endpoint url customization,294,13110
+268,3952c950,FAIL,4,NO,0,NO,0,2011-11-17 13:45:16 +0000,SECOAUTH-148: Fix page links,294,13110
+269,b62695d2,FAIL,4,NO,0,NO,0,2011-11-17 14:54:50 +0000,SECOAUTH-120: add factory bean for OAuth consumer so that externalization works,296,13179
+270,dfc14ee9,FAIL,6,NO,0,NO,0,2011-11-17 15:52:43 +0000,[maven-release-plugin] prepare release 1.0.0.M5,296,13179
+271,67285fbd,FAIL,4,NO,0,NO,0,2011-11-17 15:52:57 +0000,[maven-release-plugin] prepare for next development iteration,296,13179
+272,ecdc6ee1,FAIL,4,NO,0,NO,0,2011-11-17 16:13:57 +0000,Add deploy skip to samples,296,13179
+273,049f7f9d,FAIL,4,NO,0,NO,0,2011-11-22 14:52:51 +0000,Simplify integration test configuration,296,13176
+274,17cc5163,FAIL,4,NO,0,NO,0,2011-11-23 09:58:21 +0000,SECOAUTH-96: some re-orgs and re-naming without changing anything functionally (yet),299,13227
+275,bd69420d,FAIL,4,NO,0,NO,0,2011-11-23 11:12:42 +0000,SECOAUTH-164: consolidate to single cache and fix redirects on refresh not supported to not require re-authentication,296,13179
+276,b2ab06aa,FAIL,4,NO,0,NO,0,2011-11-23 11:55:36 +0000,SECOAUTH-126: remove prefix from bean definition parsers,296,13179
+277,70c50647,FAIL,4,NO,0,NO,0,2011-11-23 14:36:31 +0000,SECOAUTH-164: caching behaviour depends on resource type * move some responsibilities to OAuth2ClientContext * change internals of client context to accommodate resource details * add flag to protected resource deatils to determine if global storage is appropriate,296,13192
+278,f3bd211a,FAIL,4,NO,0,NO,0,2011-11-24 12:24:15 +0000,Switch context paths to defaults in samples to simplify build,297,13211
+279,465306e6,FAIL,4,NO,0,NO,0,2011-11-28 08:56:22 +0000,SECOAUTH-96: make default state key a random value,298,13219
+280,43f15946,FAIL,4,NO,0,NO,0,2011-11-28 10:35:18 +0000,SECOAUTH-96: add state if none is provided so that CSRF protection works,298,13224
+281,51474c4e,FAIL,4,NO,0,NO,0,2011-11-28 17:40:01 +0000,Resolve cycle,298,13223
+282,4eab1b7a,FAIL,5,NO,0,NO,0,2011-11-29 11:22:23 +0000,Add m2e incantations,298,13223
+283,e5f4db35,FAIL,4,NO,0,NO,0,2011-11-29 11:41:23 +0000,Put integration test in a profile to avoid stupid error (classpath mixup?) when running oauth and oauth2 tests in same mvn execution,298,13223
+284,eef4c5e7,FAIL,4,NO,0,NO,0,2011-11-30 12:19:43 +0000,SECOAUTH-168: change default matching rule for registered uri,301,13282
+285,8fa54619,FAIL,4,NO,0,NO,0,2011-11-30 12:42:43 +0000,SECOAUTH-156: consolidate to use AuthenticationScheme enum,301,13282
+286,d342f4fb,FAIL,4,NO,0,NO,0,2011-11-30 13:27:29 +0000,SECOAUTH-96: tighten up tests for state parameter on client,301,13302
+287,9047b611,FAIL,3,NO,0,NO,0,2011-11-30 17:00:16 +0000,SECOAUTH-96: some name rationalization,301,13300
+288,69564050,FAIL,3,NO,0,NO,0,2011-12-02 17:30:40 +0000,Add client side support for resource owner password (mainly useful for testing),303,13360
+289,aa1d9532,FAIL,4,NO,0,NO,0,2011-11-30 01:36:27 -0500,SECOAUTH-167: Token Service defaulting in authorization-server definition possibly incorrect,303,13363
+290,674ebf1f,FAIL,4,NO,0,NO,0,2011-12-12 18:15:55 +0000,SECOAUTH-170: Upgrade to Spring Security 3.1.0.RELEASE.,303,13363
+291,414f9324,FAIL,5,NO,0,NO,0,2011-12-15 08:37:11 +0000,Upgrade Spring and Spring Security dependencies,304,13385
+292,07326821,FAIL,4,NO,0,NO,0,2011-12-15 15:06:57 +0000,SECOAUTH-171: Consolidate TokenGranter logic,306,13277
+293,5784e6bf,FAIL,5,NO,0,NO,0,2011-12-15 15:40:49 +0000,SECOAUTH-171: add parser code and XSD,308,13309
+294,544eebec,FAIL,5,NO,0,NO,0,2011-12-15 15:40:49 +0000,SECOAUTH-171: add parser code and XSD,308,13309
+295,a096558b,FAIL,4,NO,0,NO,0,2011-12-20 12:02:53 +0000,SECOAUTH-172: Move client credential checking to a filter,311,13364
+296,b3d9557b,FAIL,5,NO,0,NO,0,2011-12-20 15:55:47 +0000,Resolve cycle,311,13368
+297,7f152e3b,FAIL,4,NO,0,NO,0,2011-12-20 16:47:09 +0000,SECOAUTH-106: dealt with compiler warnings,311,13342
+298,f3c69d19,FAIL,5,NO,0,NO,0,2011-12-21 16:16:25 +0000,SECOAUTH-52: eliminate custom serializers in favour of standard HttpMessageConverter,317,12738
+299,0699894c,FAIL,5,NO,0,NO,0,2011-12-21 16:37:53 +0000,SECOAUTH-52: fix build issues from new dependencies,317,12738
+300,8c7d0044,FAIL,5,NO,0,NO,0,2011-12-21 17:55:07 +0000,SECOAUTH-152: add special setter for error handler,316,12756
+301,49bc5c83,FAIL,4,NO,0,NO,0,2011-12-21 19:21:53 -0600,SECOAUTH-174: Changed form@method=POST to form@method=post,316,12756
+302,1db8c1f7,FAIL,5,NO,0,NO,0,2011-12-22 22:41:13 -0600,SECOAUTH-177: Switch to Mockito,316,12621
+303,32ecbcce,FAIL,4,NO,0,NO,0,2011-12-22 08:51:57 -0600,SECOAUTH-175: Introduced OAuth2AuthenticationFailureHandler,318,12711
+304,644fc64b,FAIL,4,NO,0,NO,0,2011-12-24 10:12:37 +0000,SECOAUTH-177: update test from patch applied out of order,318,12714
+305,a1f270ef,FAIL,4,NO,0,NO,0,2011-12-23 17:06:22 -0600,SECOAUTH-178: Added unit tests for JaxbOAuth2Exception/JaxbOAuth2AccessToken MessageConverter,321,12987
+306,e5551c60,FAIL,5,NO,0,NO,0,2011-12-24 22:53:09 -0600,SECOAUTH-178: Added unit tests for OAuth2AccessToken Serializer/Deserializer,324,13154
+307,63d24637,FAIL,4,NO,0,NO,0,2011-12-24 22:54:47 -0600,SECOAUTH-178: Refined OAuth2Exception Serialize/Deserialize tests,324,13193
+308,7a55ca54,FAIL,5,NO,0,NO,0,2012-01-01 14:49:28 +0000,SECOAUTH-179: move token storage call up stack,324,13194
+309,ef697d8f,FAIL,4,NO,0,NO,0,2011-12-27 00:05:58 -0600,SECOAUTH-176: Corrected InvalidClientException to use 401 status,324,13195
+310,a5315341,FAIL,5,NO,0,NO,0,2012-01-06 11:51:56 +0000,SECOAUTH-160: allow multiple response types (but don't process them yet),325,13275
+311,74e92056,FAIL,4,NO,0,NO,0,2012-01-06 13:51:31 +0000,SECOAUTH-160: rationalize AuthorizationRequest,325,13272
+312,1a6475d5,FAIL,5,NO,0,NO,0,2012-01-06 15:12:26 +0000,SECOAUTH-160: re-organize ClientDetails and AuthenticationRequest,324,13289
+313,8305fdf8,FAIL,5,NO,0,NO,0,2012-01-06 15:55:36 +0000,SECOAUTH-160: more renaming with AuthenticationRequest,324,13291
+314,0d016955,FAIL,5,NO,0,NO,0,2012-01-06 16:10:12 +0000,SECOAUTH-182: remove client secret where it isn't needed,324,13277
+315,d8ac98c8,FAIL,4,NO,0,NO,0,2012-01-08 12:52:10 +0100,SECOAUTH-180: Rewrite InMemoryNonceServices to use less memory and cleanup more efficiently. Expand unit tests to cover more edge cases.,324,13295
+316,939c8958,FAIL,4,NO,0,NO,0,2012-01-09 11:30:01 +0000,SECOAUTH-99: add basic web security expression handler,327,13357
+317,324fb78c,FAIL,4,NO,0,NO,0,2012-01-09 16:35:47 +0000,SECOAUTH-99: extract web expression root into top level class,328,13358
+318,f292cd8c,FAIL,4,NO,0,NO,0,2012-01-10 13:02:23 +0000,SECOAUTH-184: add client_id to implicit token request,329,13395
+319,92f3ec73,FAIL,4,NO,0,NO,0,2012-01-10 13:03:19 +0000,SECOAUTH-99: add scope expressions as well,329,13439
+320,936af567,FAIL,5,NO,0,NO,0,2012-01-12 13:27:34 +0000,SECOAUTH-186: Add convenience methods for determining what kind of actor is authenticated,330,13506
+321,ad31f6b5,FAIL,4,NO,0,NO,0,2012-01-13 08:44:32 +0000,SECOAUTH-188: Issue auth code directly if possible,330,13572
+322,4b636f99,FAIL,4,NO,0,NO,0,2012-01-13 12:20:10 +0000,SECOAUTH-187: make SignatureSecret Serializable,330,13573
+323,cd8442da,FAIL,3,NO,0,NO,0,2012-01-13 12:10:22 +0000,SECOAUTH-160: Refactoring auth endpoint and integration tests (not using httpunit),330,13285
+324,f63cd144,FAIL,4,NO,0,NO,0,2012-01-13 16:09:07 +0000,Fix unit test,330,13295
+325,670fb368,FAIL,4,NO,0,NO,0,2012-01-16 14:59:25 +0000,SECOAUTH-129: Clean up token services to prevent leaks where possible,334,13496
+326,88a5eb70,FAIL,5,NO,0,NO,0,2012-01-30 11:51:09 -0500,Fix SECOAUTH-191 - Remove approve parameter - Make sure that AuthorizationRequest can only be retrieved from the session,334,13501
+327,3f15d32e,FAIL,5,NO,0,NO,0,2012-02-01 15:02:01 -0500,"SECOAUTH-191: Added @RequestParam to authorize handler, which fixed all the tests Disabled testApprovalAndCodeInSameRequest test",334,13498
+328,8d4b75c6,FAIL,4,NO,0,NO,0,2012-02-02 08:45:19 +0000,SECOAUTH-191: Add javadocs,334,13482
+329,1769be12,FAIL,5,NO,0,NO,0,2012-02-02 08:54:37 +0000,SECOAUTH-129: improve repeatability of authentication key generation,334,13483
+330,0648802d,FAIL,4,NO,0,NO,0,2012-02-02 13:28:06 +0000,SECOAUTH-93: chenge behaviour of ScopeVoter and provide custom auth entry point to send response,336,13622
+331,55528610,FAIL,5,NO,0,NO,0,2012-02-02 15:09:59 +0000,SECOAUTH-129: Add flushing to in memory token store,336,13687
+332,9ad12699,FAIL,6,NO,0,NO,0,2012-02-02 15:53:17 +0000,Whitespace,336,13687
+333,40d1b749,FAIL,4,NO,0,NO,0,2012-02-03 14:41:47 +0000,SECOAUTH-165: add token validity seconds to client details,336,13745
+334,13f03552,FAIL,4,NO,0,NO,0,2012-02-03 15:51:53 +0000,SECOAUTH-183: added additionalInformation for token extensions,336,13787
+335,93afbe9c,FAIL,5,NO,0,NO,0,2012-02-06 16:29:55 +0000,SECOAUTH-195: make token store state consistent,336,13802
+336,eed3fd8c,FAIL,4,NO,0,NO,0,2012-02-06 16:31:30 +0000,SECOAUTH-196: add TestMediaTypeAwareAccessDeniedHandler,338,13885
+337,ef6bd8e1,FAIL,4,NO,0,NO,0,2012-02-06 17:19:10 +0000,SECOAUTH-195: similar changes for Jdbc store,338,13888
+338,713cb7d7,FAIL,5,NO,0,NO,0,2012-02-06 17:58:15 +0000,SECOAUTH-197: add AUthenticationScheme.none,338,13889
+339,29a6f1de,FAIL,5,NO,0,NO,0,2012-02-15 13:02:58 -0500,SECOAUTH-201: switch package name for XSD,338,13889
+340,cb709958,FAIL,5,NO,0,NO,0,2012-02-15 13:06:13 -0500,SECOAUTH-202: add password encoder to ClientDetailsUserDetailsService,338,13895
+341,da339d1e,FAIL,5,NO,0,NO,0,2012-02-15 16:27:27 -0500,SECOAUTH-203: Fix bug in MediaTypeAwareAuthenticationEntryPoint.selectMediaType,338,13899
+342,ae10d851,FAIL,4,NO,0,NO,0,2012-02-16 10:37:05 -0500,SECOAUTH-203: Fix the tests,338,13914
+343,35114247,FAIL,4,NO,0,NO,0,2012-02-17 20:36:06 -0500,SECOAUTH-194: added tests and refined existing ones,338,13929
+344,267a9345,FAIL,5,NO,0,NO,0,2012-02-09 10:59:39 +0000,SECOAUTH-198: changed exception filter to handle ServletException better,339,13952
+345,d317d99d,FAIL,4,NO,0,NO,0,2012-02-20 16:43:24 +0000,SECOAUTH-205: consolidate approval logic in one place - DefaultUserApprovalHandler implements new behaviour (no automatic approval for implicit grant) - Sparklr2 has an implementation that allows old behaviour for particular clients,340,14028
+346,fa1e65e3,FAIL,4,NO,0,NO,0,2012-02-21 11:14:23 +0000,SECOAUTH-129: add new UserApprovalHandler and integration tests,343,14099
+347,cbb3cded,FAIL,4,NO,0,NO,0,2012-02-21 17:44:00 +0000,SECOAUTH-199: add schemaLocation for beans import,343,14099
+348,b81d6c19,FAIL,5,NO,0,NO,0,2012-02-22 14:31:17 +0000,[maven-release-plugin] prepare release 1.0.0.M6,343,14099
+349,2e7150fc,FAIL,4,NO,0,NO,0,2012-02-22 14:31:32 +0000,[maven-release-plugin] prepare for next development iteration,343,14099
+350,8ba4bb3d,FAIL,5,NO,0,NO,0,2012-02-24 09:48:41 +0000,Add JWT module as a standalone,362,14996
+351,99099a14,FAIL,4,NO,0,NO,0,2012-02-22 21:54:34 +0000,SECOAUTH-189: add ConsumerTokenServices,365,15263
+352,e43b8219,FAIL,5,NO,0,NO,0,2012-02-27 08:51:32 +0000,SECOAUTH-208: fix login.jsp pages to work better when things go wrong,365,15263
+353,ac987485,FAIL,4,NO,0,NO,0,2012-02-27 09:02:38 +0000,SECOAUTH-209: fix facebook token decoding (they started sending test/plain_,365,15263
+354,981733d1,FAIL,5,NO,0,NO,0,2012-02-27 09:02:38 +0000,SECOAUTH-210: Consolidated all error handling,366,15167
+355,6d8d44a1,FAIL,4,NO,0,NO,0,2012-02-27 15:27:08 +0000,SECOAUTH-211: access denied exception treated as OAuth2Exception,366,15164
+356,d631b4fa,FAIL,5,NO,0,NO,0,2012-02-28 08:56:52 +0000,SECOAUTH-189: switch order of filters,366,15164
+357,65045d9d,FAIL,4,NO,0,NO,0,2012-02-28 15:37:43 +0000,SECOAUTH-213: fix XML rendering,364,15076
+358,cc98e64d,FAIL,5,NO,0,NO,0,2012-02-29 09:29:03 +0000,SECOAUTH-189: fix bug in refresh token management InMemoryTokenStore,364,15088
+359,cad240aa,FAIL,4,NO,0,NO,0,2012-03-01 11:29:45 +0000,Add utility constructor to RandomValueStringGenerator,364,15092
+360,762f9a2c,FAIL,5,NO,0,NO,0,2012-03-09 07:35:27 +0000,SECOAUTH-219: update mvc config,364,15092
+361,e2301661,FAIL,4,NO,0,NO,0,2012-03-09 11:47:55 +0000,SECOAUTH-219: add integration test,364,15070
+362,d708c1ea,FAIL,4,NO,0,NO,0,2012-03-09 12:06:23 +0000,SECOAUTH-220: upgrade to Spring 3.1.1,364,15070
+363,426b38ac,FAIL,4,NO,0,NO,0,2012-03-13 11:49:37 +0000,SECOAUTH-224: add state to implicit grant response,364,15075
+364,dae9ff1c,FAIL,4,NO,0,NO,0,2012-03-14 12:57:34 +0000,SECOAUTH-205: add demo.html in tonr2 using jso for script client,364,15075
+365,5a784a9f,FAIL,4,NO,0,NO,0,2012-03-15 10:26:07 +0000,SECOAUTH-225: fix XML attribute name mismatch,364,15075
+366,6080ba0d,FAIL,12,NO,0,NO,0,2012-03-15 15:07:15 +0000,Add travis,364,15075
+367,ce53f7a6,FAIL,5,NO,0,NO,0,2012-03-02 10:24:36 +0100,SECOAUTH-214: Fixed token-id name in authentication successful,364,15076
+368,ba495631,FAIL,5,NO,0,NO,0,2012-03-12 12:00:17 +0000,SECOAUTH-221 - Support for registering multiple redirect_uri Change to the ClientDetails to allow for a Set<String> of redirect URIs. This is as per OAuth2 v2-23.,364,15098
+369,8c0d431c,FAIL,5,NO,0,NO,0,2012-03-20 11:09:49 +0000,SECOAUTH-221: restore default behaviour if only one registered redirect and fix XSD,364,15115
+370,5e0400ba,FAIL,5,NO,0,NO,0,2012-03-12 14:41:55 +0000,SECOAUTH-222: refactor OAuth2ClientContextFilter to push responsibilities down the stack,364,15106
+371,958a42f3,FAIL,5,NO,0,NO,0,2012-03-19 16:50:48 +0000,SECOAUTH-222: extract some redirect and state logic from the client filter,365,15112
+372,9ec3c6bb,FAIL,6,NO,0,NO,0,2012-03-20 08:09:59 +0000,SECOAUTH-227: add query string to client and test,365,15124
+373,57296f1a,FAIL,6,NO,0,NO,0,2012-03-20 13:54:51 +0000,SECOAUTH-223: remove OAuth2ClientProcessingFilter,363,14992
+374,b7bce32e,FAIL,5,NO,0,NO,0,2012-03-21 15:15:47 +0000,SECOAUTH-228: no refresh token for client credentials grant,364,15040
+375,eed96ad8,FAIL,5,NO,0,NO,0,2012-03-22 09:51:36 +0000,SECOAUTH-206: add ClientRegistrationService and JDBC implementation,368,15146
+376,3262e952,FAIL,5,NO,0,NO,0,2012-03-23 13:57:48 +0000,SECOAUTH-206: add Json config for BaseClientDetails,368,15246
+377,fee0d9b0,FAIL,5,NO,0,NO,0,2012-03-25 14:51:43 +0100,"SECOAUTH-216: add integration tests for refresh token client support, and ensure refresh works with password grants",370,15350
+378,c67db680,FAIL,7,NO,0,NO,0,2012-03-27 12:54:12 +0100,SECOAUTH-28: radical re-org of client context - move client request factory stuff into rest template - add test utilities for OAuth2 client apps - use client context directly in OAuth2RestTemplate - add rest-template to oauth namespace with session scope context,376,15584
+379,6f69d0cc,FAIL,5,NO,0,NO,0,2012-04-02 09:31:14 +0100,SECOAUTH-28: remove unused strategies in client support,370,15476
+380,907f6c57,FAIL,6,NO,0,NO,0,2012-04-02 11:01:42 +0100,SECOAUTH-28: show implicit provider being used from unit test,370,15431
+381,453c1961,FAIL,5,NO,0,NO,0,2012-04-03 11:24:25 +0100,CFID-28: Add browser-like features to AuthorizationCodeAccessTokenProvider,371,15647
+382,58bc828f,FAIL,5,NO,0,NO,0,2012-04-05 11:34:53 +0100,Javadoc tweak,371,15647
+383,608dff59,FAIL,5,NO,0,NO,0,2012-04-04 16:08:17 +0200,SECOAUTH-234: register failure handler with authorization filter.,372,15689
+384,0881e963,FAIL,5,NO,0,NO,0,2012-03-01 16:15:11 +0100,SECOAUTH-179 Optimize TokenStore usage,372,15716
+385,702bcf08,FAIL,5,NO,0,NO,0,2012-04-05 13:24:21 +0100,SECOAUTH-217: remove unused XSD attribute,372,15717
+386,33acf01d,FAIL,6,NO,0,NO,0,2012-04-05 14:50:22 +0100,SECOAUTH-212: fix exception rendering,372,15740
+387,42e1ae8e,FAIL,5,NO,0,NO,0,2012-04-11 08:33:05 +0100,SECOAUTH-236: send clear 401 message on auth failure,372,15746
+388,c13b9ede,FAIL,6,NO,0,NO,0,2012-04-11 08:59:38 +0100,SECOAUTH-236: extract OAuth2Exception first,372,15756
+389,da6b36f5,FAIL,5,NO,0,NO,0,2012-04-12 10:32:51 +0100,SECOAUTH-236: re-implement OAuth2AuthenticationProcessingFilter as a plain Filter,372,15816
+390,1a6c8939,FAIL,5,NO,0,NO,0,2012-04-12 22:08:13 +0100,SECOAUTH-236: add entry point to xsd!,372,15816
+391,e394fa37,FAIL,5,NO,0,NO,0,2012-04-16 09:05:23 +0200,Renamed authentication-failed-url to user-approval-url,372,15816
+392,d16f2036,FAIL,5,NO,0,NO,0,2012-04-16 09:24:35 +0200,Fall through failing Authorization-parsing to give other Authorization-header-filters a chance.,372,15817
+393,bb1e723d,FAIL,5,NO,0,NO,0,2012-04-17 17:49:42 +0100,Add integration test for bad client credentials,372,15853
+394,5524720d,FAIL,6,NO,0,NO,0,2012-04-18 12:56:54 +0100,SECOAUTH-238: fix problem with duplicate refresh token,372,15902
+395,658b1321,FAIL,5,NO,0,NO,0,2012-04-18 14:45:50 +0100,SECOAUTH-230: extract token interfaces,375,15958
+396,e68b1e4c,FAIL,5,NO,0,NO,0,2012-04-20 14:47:10 +0100,SECOAUTH-244: fix spelling error in client_secret,375,15962
+397,fdf373ab,FAIL,5,NO,0,NO,0,2012-04-20 15:00:49 +0100,SECOAUTH-243: fix duplicate save of refresh token,377,16010
+398,43bd44a6,FAIL,6,NO,0,NO,0,2012-04-23 07:35:27 +0100,SECOAUTH-231: add TokenEnhancer strategy and abstract common code to base class,378,16032
+399,3e964c2a,FAIL,5,NO,0,NO,0,2012-04-23 11:31:38 +0100,SECOAUTH-241: added InsufficientScopeException,380,16059
+400,8f495151,FAIL,5,NO,0,NO,0,2012-04-24 10:50:44 +0100,SECOAUTH-245: fix expired token message in DefaultTokenServices,380,16074
+401,c12b89d2,FAIL,5,NO,0,NO,0,2012-04-24 15:35:21 +0100,Fix broken test.,380,16074
+402,50236063,FAIL,5,NO,0,NO,0,2012-04-24 16:42:21 +0100,Remove unnecessary JWT deps and tidy pom.,380,16074
+403,537e6398,FAIL,5,NO,0,NO,0,2012-04-25 19:27:17 +0100,Add support for RSA keys as SSH format strings.,381,16181
+404,5a6bad08,FAIL,5,NO,0,NO,0,2012-04-25 20:36:23 +0100,JWT m2 version,381,16181
+405,ea3498f5,FAIL,5,NO,0,NO,0,2012-04-25 20:36:48 +0100,Reset JWT to snapshot version,381,16181
+406,e9b34f0a,FAIL,5,NO,0,NO,0,2012-04-25 09:32:43 +0100,SECOAUTH-246: fix typo in XSD parser,381,16181
+407,dbde1a4d,FAIL,5,NO,0,NO,0,2012-04-25 17:01:01 +0100,SECOAUTH-242: add state to token response in implicit grant,381,16248
+408,e0695755,FAIL,5,NO,0,NO,0,2012-04-26 09:14:12 +0100,Spelling error,380,16242
+409,6bca73b4,FAIL,4,NO,0,NO,0,2012-04-26 09:58:47 +0100,Spelling error,381,16248
+410,795b28e7,FAIL,5,NO,0,NO,0,2012-04-26 14:32:56 +0100,Add copy constructor and ignore resource ids if not set,381,16257
+411,57456de2,FAIL,6,NO,0,NO,0,2012-04-28 14:24:38 -0700,Add method expression support for OauthIsUser and OauthIsClient to match web expression handler,381,16323
+412,35ebccbd,FAIL,5,NO,0,NO,0,2012-04-28 17:58:03 -0700,Add support for client specific refresh token expiration,381,16362
+413,90bfbff9,FAIL,5,NO,0,NO,0,2012-04-29 14:35:05 +0100,SECOUATH-248: fix SQL,381,16362
+414,4504bae1,FAIL,5,NO,0,NO,0,2012-05-08 09:57:37 +0100,Fix format of debug log,381,16362
+415,12973324,FAIL,6,NO,0,NO,0,2012-05-08 10:22:04 +0100,[maven-release-plugin] prepare release 1.0.0.M6a,381,16362
+416,4c309f4c,FAIL,5,NO,0,NO,0,2012-05-08 10:22:12 +0100,[maven-release-plugin] prepare for next development iteration,381,16362
+417,e51758a9,FAIL,6,NO,0,NO,0,2012-05-09 14:15:04 +0100,SECOAUTH-237: be defensive in request wrapper in case of forwards,381,16371
+418,7d7f990e,FAIL,5,NO,0,NO,0,2012-05-09 14:21:11 +0100,SECOAUTH-250: remember to save refresh token after it is used if discarded,381,16386
+419,36186319,FAIL,4,NO,0,NO,0,2012-05-09 14:54:25 +0100,SECOAUTH-252: only register auth endpoint if it is needed,381,16391
+420,b89c79b0,FAIL,4,NO,0,NO,0,2012-05-11 14:53:12 +0100,Remove the use of Bouncy Castle as a provider.,382,16418
+421,5b6e5061,FAIL,5,NO,0,NO,0,2012-05-11 14:54:15 +0100,Reset JWT to snapshot version.,382,16418
+422,e6ff23db,FAIL,5,NO,0,NO,0,2012-05-11 16:51:01 -0700,An update to a client should not update it's secret.,382,16455
+423,b7a928a8,FAIL,5,NO,0,NO,0,2012-05-14 09:52:04 +0100,SECOAUTH-253: add use-current-uri flag to client-side resource config,383,16507
+424,512c02b0,FAIL,5,NO,0,NO,0,2012-05-14 11:57:57 +0100,SECOAUTH-254: add list clients to regsitration service,385,16559
+425,8bd2ec40,FAIL,5,NO,0,NO,0,2012-05-15 16:59:49 +0100,SECOAUTH-257: prevent build up of token expiries,385,16573
+426,900fb6b7,FAIL,5,NO,0,NO,0,2012-05-15 17:48:26 +0100,SECOAUTH-256: keep order of scopes consistent in AuthorizationRequest,386,16606
+427,baae7bdd,FAIL,6,NO,0,NO,0,2012-05-16 10:49:16 +0100,Change developer connection to read-write git url,386,16606
+428,55aa840b,FAIL,5,NO,0,NO,0,2012-05-16 10:54:42 +0100,[maven-release-plugin] prepare release 1.0.0.M6b,386,16606
+429,46b86cfe,FAIL,5,NO,0,NO,0,2012-05-16 10:54:49 +0100,[maven-release-plugin] prepare for next development iteration,386,16606
+430,975aec83,FAIL,4,NO,0,NO,0,2012-05-16 14:17:53 +0100,SECOAUTH-258: add factory bean for rest template,387,16647
+431,f2266f4c,FAIL,5,NO,0,NO,0,2012-05-18 19:08:09 +0100,SECOAUTH-256: Fix bug in AuthorizationRequest,387,16659
+432,e5563831,FAIL,5,NO,0,NO,0,2012-05-22 05:30:37 -0700,SECOAUTH-261: add retry for oauth2 client requests,387,16747
+433,93caa866,FAIL,4,NO,0,NO,0,2012-05-23 04:55:23 -0700,SECOAUTH-260: fix reversion in rest template config,387,16749
+434,4b874242,FAIL,5,NO,0,NO,0,2012-05-24 05:27:30 -0700,SECOAUTH-240: added extra test,387,16770
+435,065e68a1,FAIL,5,NO,0,NO,0,2012-05-24 05:32:06 -0700,SECOAUTH-264: use encoder when client secret is changed,387,16776
+436,d876a66a,FAIL,5,NO,0,NO,0,2012-05-18 18:56:26 +0100,SECOAUTH-259: default to scopes registered with client,389,16821
+437,49ddddb4,FAIL,5,NO,0,NO,0,2012-05-25 05:39:21 -0700,SECOAUTH-259: tidy up constructors of AuthorizationRequest,389,16820
+438,71575ac2,FAIL,6,NO,0,NO,0,2012-05-24 08:41:03 -0700,SECOAUTH-262: error rendering in auth endpoint,389,16852
+439,977d8c98,FAIL,5,NO,0,NO,0,2012-05-30 17:07:50 +0100,SECOAUTH-266: add encoding for fragments,389,16855
+440,22aa7077,FAIL,5,NO,0,NO,0,2012-05-30 17:08:43 +0100,SECOAUTH-267: improve error message and ignore scope in ScopeVoter,389,16869
+441,effe789a,FAIL,5,NO,0,NO,0,2012-05-31 15:33:25 +0100,SECOAUTH-269: OAuth2Exception extends RuntimeException,389,16887
+442,24adf5e7,FAIL,5,NO,0,NO,0,2012-05-31 15:53:53 +0100,"SCOAUTH-270: register beans that are scoped proxied, so they do not clash in a session",389,16896
+443,c032c0a6,FAIL,6,NO,0,NO,0,2012-05-31 19:07:14 +0100,SECOAUTH-269: fix bug in test case,389,16896
+444,68f1446e,FAIL,5,NO,0,NO,0,2012-06-01 09:55:41 +0100,SECOAUTH-271: add custom deserializer for collection properties in BaseClientDetails,389,16940
+445,dc42911e,FAIL,5,NO,0,NO,0,2012-06-01 10:24:05 +0100,[maven-release-plugin] prepare release 1.0.0.M6d,389,16940
+446,4852b088,FAIL,5,NO,0,NO,0,2012-06-01 10:28:32 +0100,[maven-release-plugin] prepare for next development iteration,389,16940
+447,64f8ea24,FAIL,5,NO,0,NO,0,2012-06-07 12:11:35 +0100,SECOAUTH-273: add Whitelabel endpoints and @FrameworkEndpoint,393,17053
+448,a33a19cc,FAIL,6,NO,0,NO,0,2012-06-07 12:12:00 +0100,Add cllient id to constructor of BaseClientDetails,393,17064
+449,43c8d158,FAIL,5,NO,0,NO,0,2012-06-08 10:51:30 +0100,SECOAUTH-280: add additional information to BaseClientDetails,393,17101
+450,6f4d5ed6,FAIL,6,NO,0,NO,0,2012-06-08 10:58:24 +0100,SECOAUTH-280: add additional test case,393,17106
+451,b8b65993,FAIL,6,NO,0,NO,0,2012-06-08 11:25:51 +0100,SECOAUTH-278: fail authorization flow if wrong grant type in client,393,17149
+452,00899995,FAIL,6,NO,0,NO,0,2012-06-08 12:30:07 +0100,SECOAUTH-279: reset access token in OAuth2RestTemplate if it fails to obtain a new one,393,17237
+453,8764b8fa,FAIL,6,NO,0,NO,0,2012-06-08 13:17:34 +0100,SECOAUTH-277: changed constructor signature of Default AccessTokenRequest,393,17239
+454,2696e18d,FAIL,6,NO,0,NO,0,2012-06-08 15:39:26 +0100,SCEOAUTH-277: more constructor simplifications,393,17237
+455,2e520e29,FAIL,5,NO,0,NO,0,2012-05-30 16:17:41 -0400,"SECOAUTH-274: Split AuthorizationRequest's parameters map into two maps, authorizationParameters and userConsentParameters.",393,17254
+456,2af2fa7c,FAIL,5,NO,0,NO,0,2012-06-08 17:35:11 +0100,SECOAUTH-274: tidy up (renaming and method signature changes),393,17257
+457,0a50874b,FAIL,6,NO,0,NO,0,2012-06-09 14:36:30 +0100,SECOAUTH-272: extracted approval logic and simplified AuthorizationEndpoint,393,17269
+458,faeef84f,FAIL,5,NO,0,NO,0,2012-06-11 18:01:58 +0100,SECOAUTH-283: allow incoming oauth2 exceptions to contain complex content,393,17280
+459,f70368e3,FAIL,5,NO,0,NO,0,2012-06-11 19:39:44 +0100,SECOAUTH-284: fixed problem with registered redirect URI,393,17277
+460,be0f0768,FAIL,5,NO,0,NO,0,2012-06-12 12:58:48 +0100,SECOAUTH-285: revise exception handling in expression handlers,394,17281
+461,ba634c42,FAIL,5,NO,0,NO,0,2012-06-12 17:24:18 +0100,SECOAUTH-284: fix broken test making wrong assumption about state parameter,394,17281
+462,7c0dcf3c,FAIL,5,NO,0,NO,0,2012-06-12 17:24:41 +0100,SECOAUTH-273: make sure handler mapping is regsistered for token endpoint,394,17281
+463,80de3d1d,FAIL,5,NO,0,NO,0,2012-06-14 12:23:18 +0100,SECOAUTH-277: add workaround to tonr2 for SPR-9498,395,17297
+464,ed129204,FAIL,5,NO,0,NO,0,2012-06-14 14:33:53 +0100,SECOAUTH-282: added token value to OAuth2Authentication details in a resource server,399,17399
+465,5f47eb7b,FAIL,5,NO,0,NO,0,2012-06-14 14:44:21 +0100,SECOAUTH-286: add specific exception message for missing grant type,399,17407
+466,b396b0af,FAIL,5,NO,0,NO,0,2012-06-15 09:23:05 +0100,SECOAUTH-288: ensure auth request stays approved when it goes through the grant process,400,17472
+467,a02ea2aa,FAIL,4,NO,0,NO,0,2012-06-15 10:19:31 +0100,SECOAUTH-288: refactor AuthorizationRequest to reflect authentication process better,400,17441
+468,2cb85b44,FAIL,5,NO,0,NO,0,2012-06-15 16:38:50 +0100,SECOAUTH-290: add back ClientTokenServices,405,17624
+469,cd10fa7b,FAIL,4,NO,0,NO,0,2012-06-14 19:20:41 -0500,SECOAUTH-291: Remove OAuth2MethodResolver in favor of setting a variable on the StandardEvaluationContext,404,17565
+470,74fb525c,FAIL,5,NO,0,NO,0,2012-06-15 17:24:14 +0100,SECOAUTH-281: removed protected resource details service,401,17532
+471,8d90b512,FAIL,5,NO,0,NO,0,2012-06-21 11:07:26 +0100,SECOAUTH-294: merge stored auth parameters with new ones in token granter,401,17557
+472,7207813a,FAIL,5,NO,0,NO,0,2012-06-21 11:30:22 +0100,Upgrade tonr2 to servlet 2.5,401,17557
+473,5e6f2c9b,FAIL,5,NO,0,NO,0,2012-06-21 11:31:36 +0100,SECOAUTH-295: include implicit grant in final approval check inside endpoint,401,17557
+474,cf1bf334,FAIL,6,NO,0,NO,0,2012-06-21 11:39:03 +0100,Upgrade sparklr2 to servlet 2.5 and remove gae artifacts,401,17557
+475,35f28083,FAIL,4,NO,0,NO,0,2012-06-21 14:54:12 +0100,Remove gae artifacts,401,17557
+476,90b223a4,FAIL,5,NO,0,NO,0,2012-06-21 14:56:37 +0100,SECOAUTH-295: send redirect on error in implicit grant,401,17560
+477,f24e5e52,FAIL,5,NO,0,NO,0,2012-06-22 14:02:02 +0100,SECOAUTH-295: send redirect on error in auth code as well,401,17569
+478,2a3e2636,FAIL,5,NO,0,NO,0,2012-06-26 10:07:59 +0100,SECOAUTH-275: switch to null as default for validity seconds,401,17576
+479,bfd494b8,FAIL,5,NO,0,NO,0,2012-06-26 18:28:51 +0100,Null redirect uris stay null,401,17578
+480,7a0d0968,FAIL,5,NO,0,NO,0,2012-06-28 08:30:39 +0100,SECOAUTH-297: fix optional resolution in OSGi bundle,401,17578
+481,9570ba5e,FAIL,5,NO,0,NO,0,2012-06-28 10:12:01 +0100,Add missing setter to copy constructor of BaseClientDetails,401,17579
+482,0465c6eb,FAIL,5,NO,0,NO,0,2012-06-28 16:44:32 +0100,Use UnsupportedResponseTypeException in AuthorizationEnpoint,401,17579
+483,505102e1,FAIL,6,NO,0,NO,0,2012-07-05 10:03:21 +0100,SECOAUTH-185: Remove unnecessary filter declaration,401,17588
+484,b83bd4ef,FAIL,4,NO,0,NO,0,2012-07-06 11:15:54 +0100,Change test to explicitly load pre-registered redirect from resource details,401,17588
+485,ac9dc637,FAIL,5,NO,0,NO,0,2012-07-06 15:23:34 +0100,SECOAUTH-300: make OAuth2AuthenticationDetails Serializable,401,17590
+486,7dd7424a,FAIL,5,NO,0,NO,0,2012-07-16 10:29:43 +0100,SECOAUTH-302: Re-order auth request factory and token granter calls,401,17577
+487,bf369ca6,FAIL,5,NO,0,NO,0,2012-07-16 14:24:55 +0100,SECOAUTH-302: validate scopes in AuthorizationRequestFactory,401,17519
+488,6de2d85f,FAIL,5,NO,0,NO,0,2012-07-18 12:43:54 +0100,SECOAUTH-303: consolidate validation,402,17595
+489,fd5ad487,FAIL,4,NO,0,NO,0,2012-07-18 15:33:51 +0100,SECOAUTH-303: extract into ParametersValidator,404,17621
+490,ecad9cc3,FAIL,5,NO,0,NO,0,2012-07-18 16:01:50 +0100,Remove wrong copyright headers,404,17621
+491,cd401236,FAIL,4,NO,0,NO,0,2012-07-19 10:16:59 +0100,SECOAUTH-131: add property editor,405,17626
+492,f549a00d,FAIL,4,NO,0,NO,0,2012-07-23 13:55:48 +0100,SECOAUTH-304: add public setter for RestTemplate in OAuth2AccessTokenSupport,405,17629
+493,a7f3c71d,FAIL,6,NO,0,NO,0,2012-07-24 17:09:54 +0100,SECOAUTH-301: Tidy javadocs,405,17630
+494,10669ff9,FAIL,5,NO,0,NO,0,2012-07-24 17:24:48 +0100,[maven-release-plugin] prepare release 1.0.0.RC1,405,17630
+495,f2305241,FAIL,5,NO,0,NO,0,2012-07-24 17:24:49 +0100,[maven-release-plugin] prepare for next development iteration,405,17630
+496,ea303945,FAIL,6,NO,0,NO,0,2012-07-25 13:49:18 +0100,Update wiki for RC1,405,17630
+497,2930e478,FAIL,5,NO,0,NO,0,2012-07-25 13:49:42 +0100,Fix site builder poms,405,17630
+498,8f7a5ff1,FAIL,6,NO,0,NO,0,2012-07-25 13:50:10 +0100,Add test for client-specific token expiry,405,17632
+499,95698c13,FAIL,5,NO,0,NO,0,2012-07-25 14:45:59 +0100,Fix site builder some more,405,17632
+500,d5ef6680,FAIL,5,NO,0,NO,0,2012-07-27 13:13:31 +0100,SECOAUTH-310: prevent encoding errors in previously encoded query,405,17640
+501,d66b4467,FAIL,5,NO,0,NO,0,2012-08-09 17:04:18 +0100,SECOAUTH-313: Ensure refresh token is enhanced,405,17634
+502,0cab5c5e,FAIL,5,NO,0,NO,0,2012-08-14 12:00:24 +0100,SECOAUTH-315: copy all properties from auth request during auth code grant,405,17654
+503,ac0725da,FAIL,6,NO,0,NO,0,2012-08-14 13:44:04 +0100,SECOAUTH-316: check for auth code grant in token endpoint,405,17690
+504,de0b3daf,FAIL,5,NO,0,NO,0,2012-08-14 13:47:02 +0100,SECOAUTH-317: add new BadClientCredentialsException,406,17701
+505,51f129d4,FAIL,5,NO,0,NO,0,2012-08-14 16:18:42 +0100,SECOAUTH-308: re-order validation and auto-approval,406,17715
+506,1de9e4f2,FAIL,4,NO,0,NO,0,2012-08-14 10:17:17 -0500,SECOAUTH-311: AbstractJaxbMessageConverter creates new Marshaller and Unmarshaller each read/write,406,17765
+507,4c31e16b,FAIL,5,NO,0,NO,0,2012-08-14 10:22:38 -0500,Add javadoc to AbstractJaxbMessageConverter,406,17765
+508,3a730de9,FAIL,7,NO,0,NO,0,2012-08-14 18:48:52 +0100,SECOAUTH-319: Upgrade to Spring Security 3.1.2,406,17765
+509,529f0fc6,FAIL,5,NO,0,NO,0,2012-08-16 09:20:40 +0100,SECOAUTH-320: change exception to AccessDeniedException,406,17767
+510,8f31d8f4,FAIL,5,NO,0,NO,0,2012-08-16 11:37:42 +0100,Omit duplicate check for client id,406,17763
+511,15b7e9cd,FAIL,6,NO,0,NO,0,2012-08-16 13:40:30 +0100,SECOAUTH-309: Fix AuthorizationEndpoint error responses so they are 302 if possible,406,17808
+512,e31b0fd1,FAIL,5,NO,0,NO,0,2012-08-16 14:03:54 +0100,[maven-release-plugin] prepare release 1.0.0.RC2,406,17808
+513,8b024c32,FAIL,5,NO,0,NO,0,2012-08-16 14:03:54 +0100,[maven-release-plugin] prepare for next development iteration,406,17808
+514,fe12db9c,FAIL,5,NO,0,NO,0,2012-08-24 09:09:50 +0100,Make test context use standard HttpMessageConverters,406,17800
+515,236e6b9f,FAIL,5,NO,0,NO,0,2012-08-24 13:42:34 +0100,SECOAUTH-325: better accounting in memory token store,406,17807
+516,b0f85b7c,FAIL,5,NO,0,NO,0,2012-08-28 15:18:02 +0100,SECOAUTH-321: override framework endpoint paths in handler mapping not in filter,404,17754
+517,06c8e8dc,FAIL,5,NO,0,NO,0,2012-08-28 15:55:23 +0100,SECOAUTH-321: Allow customization of user approval parameter as well,404,17782
+518,fba4fcee,FAIL,5,NO,0,NO,0,2012-08-29 08:56:59 +0100,SECOAUTH-317: move handling of BadClientCredentialsException to endpoints,404,17791
+519,697c29a2,FAIL,5,NO,0,NO,0,2012-08-29 09:23:36 +0100,SECOAUTH-314: ensure /authorize with no params returns error page,404,17797
+520,81232b74,FAIL,5,NO,0,NO,0,2012-08-29 12:04:35 +0100,SECOAUTH-306: Use RestOperations where possible,405,17891
+521,71a205f2,FAIL,6,NO,0,NO,0,2012-08-29 16:58:53 +0100,SECOAUTH-306: Removed setter for RestTemplate,405,17908
+522,0211ef4c,FAIL,8,NO,0,NO,0,2012-08-31 08:50:25 +0100,Upgrade to Spring 3.1.2,405,17908
+523,388da2c1,FAIL,5,NO,0,NO,0,2012-07-05 14:59:14 -0400,SECOAUTH-329: turned off unnecessary datatype check,405,17908
+524,a564842b,FAIL,6,NO,0,NO,0,2012-08-31 17:37:59 +0100,Fix bug in unit test tickled by Spring 3.1.2,405,17911
+525,964186d2,FAIL,6,NO,0,NO,0,2012-08-14 21:28:16 +0200,SECOAUTH-330: Refactor SharedConsumerSecret into interface and implementation,406,17915
+526,370241c1,FAIL,5,NO,0,NO,0,2012-09-07 10:47:24 +0100,SECOAUTH-329: fix compiler warnings,406,17914
+527,6856265d,FAIL,5,NO,0,NO,0,2012-09-07 11:13:02 +0100,SECOAUTH-334: extracted OAuth2RestOperations,407,17921
+528,165529e4,FAIL,5,NO,0,NO,0,2012-09-04 16:29:58 -0700,SECOAUTH-332 Add a client filter that can proactively acquire an access token.,409,18045
+529,9615bd9a,FAIL,5,NO,0,NO,0,2012-09-07 11:25:50 +0100,SECOAUTH-332: simplify filter a bit more and add test case,409,18004
+530,4c97ae1d,FAIL,5,NO,0,NO,0,2012-09-10 14:40:58 +0100,Fix integration test broken with Spring 3.1.2,409,18003
+531,f6957f15,FAIL,5,NO,0,NO,0,2012-09-10 15:14:48 +0200,https://jira.springsource.org/browse/SECOAUTH-333,409,18073
+532,81a173cd,FAIL,5,NO,0,NO,0,2012-09-11 13:44:34 +0100,SCEOAUTH-335: more robust retry in OAuth2RestTemplate,409,18084
+533,1a60f8f6,FAIL,6,NO,0,NO,0,2012-09-26 18:49:44 +0100,[maven-release-plugin] prepare release 1.0.0.RC2a,409,18084
+534,7019b759,FAIL,6,NO,0,NO,0,2012-09-26 18:49:44 +0100,[maven-release-plugin] rollback changes from release preparation of 1.0.0.RC2a,409,18084
+535,0db9a0b9,FAIL,5,NO,0,NO,0,2012-09-27 08:59:34 +0100,Remove unused imports,409,18083
+536,373fbb64,FAIL,5,NO,0,NO,0,2012-10-01 15:06:50 +0100,SECOAUTH-337: do not issue refresh token if client not authorized,409,18108
+537,afdfd5cc,FAIL,5,NO,0,NO,0,2012-03-02 10:24:36 +0100,SECOAUTH-214: merged change from Alberto Gonzalez,409,18112
+538,2143f09d,FAIL,5,NO,0,NO,0,2012-10-05 09:39:10 +0100,SECOAUTH-328: consolidate AuthorizationRequestManager features,407,18094
+539,40481dab,FAIL,5,NO,0,NO,0,2012-10-05 11:06:07 +0100,SECOAUTH-323: extract serialization into protected methods,407,18101
+540,126679d5,FAIL,4,NO,0,NO,0,2012-10-05 13:27:46 +0100,SECOAUTH-312: remove null checks for OAuth context where they are unnecessary,407,18102
+541,430f20ad,FAIL,4,NO,0,NO,0,2012-10-05 13:38:52 +0100,SECOAUTH-142: add javadocs to NoOpOAuthRememberMeServices,407,18103
+542,2c0e6cf7,FAIL,5,NO,0,NO,0,2012-10-05 17:04:04 +0100,SECOAUTH-149: add more unit tests for XSD parsers,408,18174
+543,c2d8a012,FAIL,5,NO,0,NO,0,2012-10-08 13:41:37 +0100,SECOAUTH-328: move pre approval features to UserApprovalHandler,408,18196
+544,6298bb50,FAIL,5,NO,0,NO,0,2012-10-09 08:25:10 +0100,SECOAUTH-328: added user Authentication to pre approval handler,408,18196
+545,d2d3a175,FAIL,5,NO,0,NO,0,2012-10-09 14:39:26 +0100,SECOAUTH-339: extend try block to cover redirect resolver,408,18196
+546,00c1679b,FAIL,5,NO,0,NO,0,2012-10-10 14:38:02 +0100,SECOAUTH-340: change in TokenServices interface to allow checking of client id,408,18209
+547,87fa0528,FAIL,5,NO,0,NO,0,2012-10-11 07:02:23 +0100,[maven-release-plugin] prepare release 1.0.0.RC3,408,18209
+548,71c5651e,FAIL,5,NO,0,NO,0,2012-10-11 07:02:37 +0100,[maven-release-plugin] prepare for next development iteration,408,18209
+549,02901317,FAIL,6,NO,0,NO,0,2012-10-11 16:22:16 +0100,SECOAUTH-342: Update to Spring Security 3.1.3,408,18209
+550,1b29d19c,FAIL,6,NO,0,NO,0,2012-10-16 05:30:10 -0400,Removed unnecessary @SuppressWarnings,408,18207
+551,fa034ca6,FAIL,5,NO,0,NO,0,2012-10-17 07:09:48 -0400,Release spring-security-jwt 1.0.0,408,18207
+552,45f513e6,FAIL,5,NO,0,NO,0,2012-10-17 07:11:38 -0400,Update pom for spring-security-jwt,408,18207
+553,d76bb39f,FAIL,5,NO,0,NO,0,2012-10-18 06:53:31 -0400,Spelling mistake in comment,408,18207
+554,04c6c5df,FAIL,6,NO,0,NO,0,2012-10-14 02:51:13 -0700,SECOAUTH-56: Fixed the issue that oauth parameters are not URL encoded,408,18207
+555,66b61a53,FAIL,5,NO,0,NO,0,2012-10-23 13:26:04 +0100,Fix test to run in Java 7,408,18210
+556,74b27eb6,FAIL,5,NO,0,NO,0,2012-10-23 13:29:25 +0100,Remove redundant code in AuthorizationCodeResourceDetails,408,18205
+557,3b7a5d50,FAIL,5,NO,0,NO,0,2012-10-23 17:48:09 +0100,Hack around Java 7,408,18205
+558,880ba284,FAIL,5,NO,0,NO,0,2012-10-26 09:27:31 +0100,SECOAUTH-346: check for badly formatted scope in DefaultAuthorizationRequest,408,18215
+559,4d488524,FAIL,6,NO,0,NO,0,2012-10-26 09:41:39 +0100,SECOAUTH-3456: add Serializable to DefaultOAuth2ClientContext,408,18216
+560,ef43a70f,FAIL,5,NO,0,NO,0,2012-10-26 12:41:54 +0100,Fix broken version label,408,18216
+561,dd13da2f,FAIL,5,NO,0,NO,0,2012-10-26 12:42:46 +0100,SECOAUTH-346: Additional protection against inadvertent re-binding of authorization request,408,18229
+562,c0c1b39c,FAIL,5,NO,0,NO,0,2012-10-26 16:15:29 +0200,SECOAUTH-279: DefaultTokenServices detect when a refresh token is expired,408,18250
+563,2112c4ea,FAIL,5,NO,0,NO,0,2012-10-30 17:39:13 +0000,SECOAUTH-349: add explicit catch blocks for deserialization problems,408,18281
+564,0d3ed667,FAIL,5,NO,0,NO,0,2012-10-30 22:18:16 +0000,SECOAUTH-349: add safe handling for access token collection finders,408,18292
+565,31132e18,FAIL,6,NO,0,NO,0,2012-10-25 16:45:42 -0400,SECOAUTH-347 Allow custom token granters in authorization-server namespace configuration,409,18329
+566,696e924e,FAIL,5,NO,0,NO,0,2012-10-31 11:47:50 +0000,SECOAUTH-350: add public constructors to ClientCredentialsTokenEndpointFilter,409,18331
+567,f7a3d3c2,SUCCESS,62,FAIL,6,NO,0,2012-10-31 12:22:05 +0000,[maven-release-plugin] prepare release 1.0.0.RELEASE,409,18331
+568,324a3f70,SUCCESS,17,FAIL,5,NO,0,2012-10-31 12:22:06 +0000,[maven-release-plugin] rollback changes from release preparation of 1.0.0.RELEASE,409,18331
+569,99aa0027,SUCCESS,19,FAIL,5,NO,0,2012-11-07 15:27:45 +0000,Resolve package cycles in OAuth2 client,409,18331
+570,26bb82b4,SUCCESS,21,FAIL,5,NO,0,2012-11-15 11:56:06 +0000,Remove unused protected method,409,18309
+571,fa7f4c93,SUCCESS,21,FAIL,4,NO,0,2012-11-03 01:26:01 -0700,SECOAUTH-351: remove possible NPE in BaseClientDetails,409,18309
+572,5ce24c47,SUCCESS,22,FAIL,5,NO,0,2012-11-14 19:50:48 +0000,SECOAUTH-352 Adding /me endpoint to allow integration with Spring Social,411,18339
+573,69a39f33,SUCCESS,20,FAIL,4,NO,0,2012-11-19 09:42:45 +0000,SECOAUTH-353: add Serializable to DefaultAccessTokenRequest,411,18342
+574,16a40ae9,SUCCESS,19,FAIL,5,NO,0,2012-11-19 09:43:14 +0000,Add test for JDBC and additional information in client,411,18350
+575,4c75f704,SUCCESS,20,FAIL,6,NO,0,2012-11-21 09:15:03 +0000,SECOAUTH-357: allow default MVC rendering to set Content-Type),411,18352
+576,cf3e51e7,SUCCESS,21,FAIL,5,NO,0,2012-11-21 16:05:48 +0000,SECOAUTH-354: add basic auth entry point to sample,411,18351
+577,393e7e68,SUCCESS,19,FAIL,5,NO,0,2012-11-21 16:06:10 +0000,SECOAUTH-355: add serialization test,412,18365
+578,421338ec,SUCCESS,20,FAIL,5,NO,0,2012-11-22 09:14:27 +0000,SECOAUTH-359: check for missing grant type in TokenEndpoint,412,18379
+579,ea2203d2,SUCCESS,20,FAIL,5,NO,0,2012-11-22 18:14:41 +0000,SECOAUTH-362: add toSTring() to auth details,412,18395
+580,77502bcc,SUCCESS,18,FAIL,5,NO,0,2012-11-23 10:44:19 +0100,SECOAUTH-358: Provide support for Jackson 2,418,18740
+581,11162d43,SUCCESS,18,FAIL,5,NO,0,2012-12-10 15:19:29 +0000,SECOAUTH-365: Fix ordering issue in current uri calculation,418,18747
+582,b9974875,SUCCESS,21,FAIL,5,NO,0,2012-12-10 15:20:18 +0000,Javadocs corrections,418,18746
+583,5161576a,SUCCESS,18,FAIL,5,NO,0,2012-12-12 11:35:44 +0000,SECOAUTH-372: use authentication key for comparison instead of complete authentication,418,18765
+584,d907622f,SUCCESS,19,FAIL,4,NO,0,2012-12-05 11:06:17 +0100,changed calculateCurrentUri to use ServleturiComponentsBuilder to keep parameters in order,418,18744
+585,0e729754,SUCCESS,21,FAIL,5,NO,0,2012-12-02 22:47:33 -0500,"Add support for handling AccountStatus exceptions (expired, locked).",418,18755
+586,12585c26,SUCCESS,18,FAIL,5,NO,0,2012-12-13 10:07:49 +0000,SECOAUTH-371: handle all client registration exceptions the same way,418,18756
+587,f4842d95,SUCCESS,19,FAIL,5,NO,0,2012-12-14 16:33:07 +0000,SECOAUTH-363: add old-style Pragma: no-cache to error responses,418,18757
+588,23dfbfde,SUCCESS,21,FAIL,4,NO,0,2012-12-14 16:47:37 +0000,SECOAUTH-360: Add Basic prefix to auth errors from token endpoint,418,18757
+589,a6febe6c,SUCCESS,19,FAIL,4,NO,0,2012-12-21 17:41:46 -0800,SECOAUTH-361: Allow user to inject AuthenticationDetailsSource into <oauth:resource-server/>,418,18760
+590,2e1eb036,SUCCESS,19,FAIL,4,NO,0,2012-12-24 08:39:26 +0000,SECOAUTH-318: Add denyAll() catch all to token admin endpoints,418,18760
+591,19ed2323,SUCCESS,18,FAIL,5,NO,0,2012-12-24 18:36:16 +0100,SECOAUTH-142: make session peristed tokens optional,419,18832
+592,11a214eb,SUCCESS,20,FAIL,5,NO,0,2013-01-10 16:31:32 +0000,SECOAUTH-383: fix iterator logic for multi-valued parameters,419,18851
+593,cc3d28c1,SUCCESS,20,FAIL,5,NO,0,2013-01-10 17:08:08 +0000,[maven-release-plugin] prepare release 1.0.1.RELEASE,419,18851
+594,b93364a3,SUCCESS,25,FAIL,5,NO,0,2013-01-11 10:12:59 +0000,Add javadocs for central release,419,18851
+595,f50bf5cf,SUCCESS,21,FAIL,5,NO,0,2013-01-10 17:08:08 +0000,[maven-release-plugin] prepare for next development iteration,419,18851
+596,59a6eae6,SUCCESS,22,FAIL,4,NO,0,2013-01-14 09:33:26 +0000,SECOAUTH-385: fix broken URI query string parsing,419,18861
+597,61767570,SUCCESS,18,FAIL,5,NO,0,2013-01-14 09:33:26 +0000,SECOAUTH-385: add null check for safety,419,18873
+598,41be0b69,SUCCESS,19,FAIL,5,NO,0,2013-01-31 07:19:34 -0500,SECOAUTH-388: apply ClientCredentialsTokenEndpointFilter only if not already authenticated,419,18877
+599,bd402e78,SUCCESS,20,FAIL,5,NO,0,2013-02-09 14:47:56 +0000,Allow whitespace padding in private keys,419,18907
+600,7c059043,SUCCESS,19,FAIL,4,NO,0,2013-02-13 11:09:00 +0000,Fix broken integration test,419,18907
+601,6004abc9,SUCCESS,18,FAIL,4,NO,0,2013-02-13 11:06:36 +0000,SECOAUTH-366: add optional filter for token endpoint,421,19072
+602,0b36aefa,SUCCESS,20,FAIL,5,NO,0,2013-02-13 19:08:37 -0800,SECOAUTH-366: don't clobber client_id by resetting authorizationParameters,421,19084
+603,b3da6d2f,SUCCESS,19,FAIL,4,NO,0,2013-02-22 16:57:10 +0000,Tidy imports,421,19076
+604,cdf933e8,SUCCESS,19,FAIL,5,NO,0,2013-02-13 17:04:07 +0000,[maven-release-plugin] prepare release 1.0.2.RELEASE,421,19076
+605,02d76dd3,SUCCESS,21,FAIL,5,NO,0,2013-02-13 17:04:07 +0000,[maven-release-plugin] prepare for next development iteration,421,19076
+606,e84c5083,SUCCESS,20,FAIL,5,NO,0,2013-03-01 19:54:38 +0000,Add JWT support for RSA public key PEM formats.,421,19100
+607,d648f056,SUCCESS,19,FAIL,5,NO,0,2013-03-05 12:05:03 +0000,JWT release 1.0.1,421,19100
+608,2e9815d0,SUCCESS,20,FAIL,5,NO,0,2013-03-05 12:56:59 +0000,Update JWT pom to snapshot version,421,19100
+609,22bdd96b,SUCCESS,21,FAIL,4,NO,0,2013-04-01 13:30:09 -0700,"SECOAUTH-395, SECOAUTH-396: change OSGi metadata for Jackson",421,19100
+610,0bc26bcf,SUCCESS,19,FAIL,5,NO,0,2012-12-26 18:30:47 -0800,SECOAUTH-381: remove password from authorization request,421,19122
+611,0e3b045c,SUCCESS,18,FAIL,5,NO,0,2013-04-02 11:08:45 -0700,Merge branch 'release/1.0.2',421,19122
+612,b208346d,SUCCESS,18,FAIL,5,NO,0,2013-04-11 11:00:39 +0100,Fix typo in javadocs,421,19122
+613,b6749cbc,SUCCESS,20,FAIL,4,NO,0,2013-04-08 17:34:03 +0100,Stricter checking for requested redirect_uri.,421,19130
+614,99ba2672,SUCCESS,19,FAIL,5,NO,0,2013-04-11 16:41:51 +0200,SECOAUTH-386: OAuthProviderProcessingFilter should delegate its error handling to an AuthenticationEntryPoint,421,19131
+615,ad93c441,SUCCESS,23,FAIL,5,NO,0,2013-03-18 15:23:16 +0100,[gh-68] Allow custom granter to be resolved by XML namespace parser,421,19131
+616,f781368b,SUCCESS,20,FAIL,5,NO,0,2013-04-12 09:49:58 +0100,SECOAUTH-394: Append scope to implicit response if different than requested,421,19178
+617,88dea7e2,SUCCESS,20,FAIL,4,NO,0,2013-04-12 10:05:12 +0100,[gh-51]: added flag to DefaultAuthorizationEquestManager to hide valid scopes by default from client,421,19186
+618,2e55ee47,SUCCESS,18,FAIL,5,NO,0,2013-04-12 13:05:35 +0100,SECOAUTH-366: Change default type of authentication in 401 response,421,19187
+619,7838c880,SUCCESS,20,FAIL,5,NO,0,2013-04-17 08:39:29 +0100,[maven-release-plugin] prepare release 1.0.3.RELEASE,421,19187
+620,f7e2fae4,SUCCESS,20,FAIL,5,NO,0,2013-04-17 08:39:35 +0100,[maven-release-plugin] prepare for next development iteration,421,19187
+621,85dbf825,SUCCESS,18,FAIL,4,NO,0,2013-04-23 12:02:36 +0100,SECOAUTH-400: ensure implicit response is encoded,421,19197
+622,3c062206,SUCCESS,19,FAIL,5,NO,0,2013-04-23 13:19:19 +0100,SECOAUTH-400: add integration test for scope in implicit grant,421,19221
+623,bbe9c54e,SUCCESS,20,FAIL,5,NO,0,2013-04-23 13:26:16 +0100,[maven-release-plugin] prepare release 1.0.4.RELEASE,421,19221
+624,0cdf48b8,SUCCESS,19,FAIL,5,NO,0,2013-04-23 13:26:24 +0100,[maven-release-plugin] prepare for next development iteration,421,19221
+625,fcb470f7,SUCCESS,21,FAIL,4,NO,0,2013-04-23 21:47:48 +0100,Fix key error in implicit grant response (for additional info),421,19224
+626,be52453f,SUCCESS,20,FAIL,5,NO,0,2013-04-23 21:49:21 +0100,[maven-release-plugin] prepare release 1.0.5.RELEASE,421,19224
+627,cfc84bca,SUCCESS,20,FAIL,5,NO,0,2013-04-23 21:49:27 +0100,[maven-release-plugin] prepare for next development iteration,421,19224
+628,1ec9aa7f,SUCCESS,19,FAIL,5,NO,0,2013-05-17 10:29:32 -0300,"Grammar nazi - it's vs its, etc.",421,19224
+629,bc4b1d26,SUCCESS,19,FAIL,5,NO,0,2013-04-24 19:28:33 -0700,"SECOAUTH-401 Add support for ""password"" grant type",421,19246
+630,ea0aa347,SUCCESS,20,FAIL,5,NO,0,2013-04-25 09:56:13 -0700,SECOAUTH-401 Require the username and password attributes,421,19259
+631,9d9768ec,SUCCESS,20,FAIL,5,NO,0,2013-06-05 08:42:15 +0100,Update versions to 1.1.0,421,19259
+632,4f577389,FAIL,19,NO,0,NO,0,2013-04-05 13:31:22 -0400,Major refactor or authorization and token requests,423,19451
+633,e9018360,SUCCESS,19,FAIL,5,NO,0,2013-06-05 13:25:25 -0400,Updated samples to reflect auth request changes.,423,19448
+634,8bc1a43e,SUCCESS,19,FAIL,4,NO,0,2013-05-24 15:13:32 +0300,Log IllegalArgumentException when failing to deserialize token,421,19259
+635,38c4f41a,SUCCESS,20,FAIL,5,NO,0,2013-06-10 13:53:46 -0500,fixes SECOAUTH-409,421,19269
+636,53c40954,SUCCESS,21,FAIL,5,NO,0,2013-07-08 14:31:25 +0100,Refactored request lifecycle,424,19599
+637,da4269eb,SUCCESS,21,FAIL,5,NO,0,2013-07-08 14:49:03 +0100,StoredOAuth2Request -> OAuth2Request,426,19538
+638,d6c87049,SUCCESS,22,FAIL,5,NO,0,2013-07-09 06:52:02 +0100,Tidy names and interfaces,426,19539
+639,374a907e,SUCCESS,20,FAIL,5,NO,0,2013-07-10 09:55:44 +0100,Tidy up a few things related to *Request,425,19557
+640,d89d1d25,SUCCESS,20,FAIL,5,NO,0,2013-07-10 10:27:52 +0100,Add ClientDetails to some method signatures where it is clearly always available,425,19564
+641,9704cf66,SUCCESS,19,FAIL,4,NO,0,2013-07-10 11:59:05 -0400,"Refactored OAuth2Request, AuthorizationRequest, and TokenRequest",425,19607
+642,bd290276,SUCCESS,18,FAIL,5,NO,0,2013-07-12 07:13:57 +0100,Merge feature authrequest: major overhaul of AuthorizationRequest,425,19617
+643,590f7c2c,SUCCESS,18,FAIL,5,NO,0,2013-07-12 08:56:08 +0100,Remove broken links from docs and pull in some changes from wiki,425,19617
+644,15b3d3b1,SUCCESS,18,FAIL,5,NO,0,2013-07-24 13:27:59 +0100,Fix milestone profile,425,19617
+645,323c95f0,SUCCESS,20,FAIL,6,NO,0,2013-07-24 13:32:45 +0100,[maven-release-plugin] prepare release 1.1.0.M1,425,19617
+646,d3a1a312,SUCCESS,20,FAIL,5,NO,0,2013-07-24 13:32:46 +0100,[maven-release-plugin] prepare for next development iteration,425,19617
+647,09dfebd0,SUCCESS,22,FAIL,5,NO,0,2013-07-24 13:32:47 +0100,Sync docs from master branch to docs gh-pages directory,425,19617
+648,4087fe68,FAIL,12,NO,0,NO,0,2013-08-15 21:36:25 +0300,Create SubdomainRedirectResolver,427,19660
+649,e16f5586,SUCCESS,18,FAIL,4,NO,0,2013-08-21 10:09:15 +0100,Merge SubdomainRedirectResolver into DefaultRedirectResolver,426,19650
+650,53491e83,SUCCESS,19,FAIL,5,NO,0,2013-08-15 10:35:20 -0400,Added responseTypes parameter to OAuth2Request,426,19666
+651,7f05a320,SUCCESS,20,FAIL,5,NO,0,2013-08-15 10:40:17 -0400,AuthorizationRequest.createOAuth2Request mistakenly populated the requestParameters map with the approvalParameters map. Fixed method to use correct map.,426,19666
+652,f4740bfb,SUCCESS,19,FAIL,5,NO,0,2013-08-16 08:57:16 -0400,"Added ImplicitGrantService, mimics the AuthorizationCodeService pattern",428,19706
+653,c4641bc8,SUCCESS,19,FAIL,6,NO,0,2013-08-28 09:07:57 +0100,Compiler warnings,428,19708
+654,3d25e8ce,SUCCESS,20,FAIL,4,NO,0,2013-08-23 17:31:09 +0200,Updated OAuth2 client documentation,428,19708
+655,b4ebc595,SUCCESS,20,FAIL,4,NO,0,2013-08-28 09:15:25 +0100,Polish oauth2 docs,428,19708
+656,ceff3dcf,SUCCESS,21,FAIL,5,NO,0,2013-09-05 17:33:41 +0100,Bump README to maven 3,428,19708
+657,033aa948,SUCCESS,21,FAIL,6,NO,0,2013-09-18 15:04:43 +0100,Remove remnants of gh-pages on master,428,19708
+658,1fa0d37e,FAIL,15,NO,0,NO,0,2012-12-12 12:21:41 +0000,SECOAUTH-370: Add JwtTokenServices (no ConsumerTokenServices so no revokes),436,20309
+659,f7501c26,SUCCESS,20,FAIL,5,NO,0,2013-08-23 14:16:28 +0100,Adapt JWT tokens to 1.1 codebase,436,20321
+660,5347c1e0,SUCCESS,21,FAIL,5,NO,0,2013-08-28 13:46:59 +0100,Extract token query methods from ConsumerTokenServices,436,20321
+661,a90b9dfc,SUCCESS,21,FAIL,4,NO,0,2013-08-28 15:52:42 +0100,TokenServicesUserApprovalHandler -> TokenStoreUserApprovalHandler,436,20332
+662,c1df944d,SUCCESS,20,FAIL,5,NO,0,2013-08-29 10:09:45 +0100,First draft of approvals and store,447,20832
+663,796bc2ff,SUCCESS,21,FAIL,5,NO,0,2013-09-05 17:24:21 +0100,Add ApprovalStoreUserApprovalHandler,449,20983
+664,8c16b309,SUCCESS,20,FAIL,5,NO,0,2013-09-06 14:01:08 +0100,Remove another method from ConsumerTokenServices,450,20979
+665,d421b58e,SUCCESS,19,FAIL,5,NO,0,2013-09-06 17:46:40 +0100,User approvals UI for sprarkl2,450,21001
+666,f14be2d0,SUCCESS,20,FAIL,5,NO,0,2013-09-09 08:11:53 -0700,Update sparklr approvals UI,450,21001
+667,9daec97c,SUCCESS,20,FAIL,4,NO,0,2013-09-09 08:12:18 -0700,Add autoapprove to client details,450,21023
+668,e171dad8,SUCCESS,21,FAIL,6,NO,0,2013-09-09 08:41:58 -0700,Add autoapproval to approval handlers,450,21084
+669,35cc087f,SUCCESS,24,FAIL,5,NO,0,2013-09-09 09:20:22 -0700,Add autoapprove to sparklr2 and XSD,450,21096
+670,1abadf9c,SUCCESS,22,FAIL,5,NO,0,2013-09-18 15:33:17 +0100,Fix tests after approval reorg,450,21100
+671,71e21dc7,SUCCESS,20,FAIL,5,NO,0,2013-08-01 16:29:11 +0200,Extended the expression methods to allow testing for existing scope by specifying a regex expression,450,21138
+672,ed338de3,SUCCESS,19,FAIL,5,NO,0,2013-09-18 15:29:20 +0100,Fix tests affected by patch,450,21138
+673,6a0a58db,SUCCESS,21,FAIL,5,NO,0,2013-09-18 15:58:33 +0100,Tweak auto approval,450,21173
+674,d38adc59,SUCCESS,19,FAIL,5,NO,0,2013-08-31 18:01:54 +0300,Bugfix for handling non-standard comma-separated scopes,450,21186
+675,4fd85560,SUCCESS,18,FAIL,5,NO,0,2013-09-03 17:04:48 -0400,Added extra parameter to RedirectView constructor calls to set exposeModel to false,450,21186
+676,ae967cbd,SUCCESS,20,FAIL,5,NO,0,2013-10-07 12:42:15 -0400,SECOAUTH-423: Add Serializable to support session scoped attributes,450,21196
+677,fc91516b,SUCCESS,25,FAIL,6,NO,0,2013-10-07 14:54:17 -0400,SECOAUTH-427: ensure redirect_uri is optional (if registered),451,21334
+678,1fbd8f8d,SUCCESS,21,FAIL,5,NO,0,2013-10-07 15:08:27 -0400,Add test for fixed registered redirect,451,21363
+679,f5122ec0,SUCCESS,20,FAIL,6,NO,0,2013-10-07 15:23:29 -0400,SECOAUTH-404: remove @Autowired,451,21365
+680,6b305baf,SUCCESS,22,FAIL,4,NO,0,2013-10-09 12:38:27 -0400,Removed readObject and writeObject from OAuth2Request (which no longer needs them),451,21341
+681,081be230,SUCCESS,18,FAIL,4,NO,0,2013-10-09 17:13:04 -0400,Make shared fields private with protected setter,451,21345
+682,fd18647d,SUCCESS,18,FAIL,4,NO,0,2013-10-29 08:00:13 -0400,Add boolean flag to allow client authentication in request params,451,21364
+683,09c63f39,SUCCESS,24,FAIL,5,NO,0,2013-10-31 16:23:40 +0000,Small changes to support Spring 4,451,21370
+684,1ce7aeff,SUCCESS,21,FAIL,5,NO,0,2013-09-03 13:12:15 -0400,Made OAuth2RequestValidator pluggable through the xml authorization-server configuration.,451,21380
+685,aa00c3a0,SUCCESS,22,FAIL,6,NO,0,2013-11-05 09:53:24 +0000,Move new features to 1.1 xsd,451,21380
+686,30b4e7b0,SUCCESS,22,FAIL,4,NO,0,2013-09-19 14:53:53 -0500,Fix for client_id in req parm and auth header,451,21379
+687,0d142e54,SUCCESS,19,FAIL,5,NO,0,2013-08-21 17:40:23 -0500,Handle non-oauth2 errors similar to RestTemplate,451,21426
+688,b3d55e44,SUCCESS,21,FAIL,5,NO,0,2013-08-21 19:13:33 -0500,Fix code that wasn't using buffered response.,451,21455
+689,e76aa5d1,SUCCESS,19,FAIL,4,NO,0,2013-09-20 20:44:34 -0500,change test cases to match updated error handling,451,21473
+690,10205068,SUCCESS,19,FAIL,5,NO,0,2013-11-05 17:16:19 +0000,Revert Spring 4 change to RestTemplate,451,21467
+691,f3ebc49f,SUCCESS,22,FAIL,6,NO,0,2013-09-03 16:31:19 -0400,"Changed signature of request validator validateScope() method - now takes in two sets, one of the request scope and one of the client scope",451,21463
+692,ed5a49b8,SUCCESS,20,FAIL,5,NO,0,2013-09-24 15:25:02 -0400,"Made two validateScope() methods, one for the AuthorzationEndpoint and one for the TokenEndpoint.",451,21468
+693,aa1c5aa4,SUCCESS,22,FAIL,5,NO,0,2013-10-09 13:24:35 -0400,"set the client ID on the token request from the principal, if needed",451,21471
+694,4f5bf941,SUCCESS,20,FAIL,4,NO,0,2013-11-05 17:35:21 -0800,added in ClientDetails reference to createTokenRequest to allow loading of client_id parameter from authenticated client in addition to or in lieu of parameter request,451,21475
+695,37f2db09,SUCCESS,20,FAIL,4,NO,0,2013-11-05 18:18:54 -0800,moved double check inside null safe test,451,21475
+696,76b6b288,SUCCESS,20,FAIL,4,NO,0,2013-11-06 07:33:58 -0800,Fixed unit tests and changed how the clientId tests are performed in token endpoint,451,21479
+697,4e5e9e71,SUCCESS,21,FAIL,6,NO,0,2013-11-07 08:54:39 +0000,Remove unused imports,451,21478
+698,52421af2,SUCCESS,22,FAIL,5,NO,0,2013-11-07 09:24:31 +0000,Bump version 1.1 => 2.0,451,21478
+699,afbd2630,SUCCESS,22,FAIL,6,NO,0,2013-11-18 08:39:19 +0000,SECOAUTH-414: metion error handling options in docs,451,21478
+700,cdd0e38d,SUCCESS,23,FAIL,6,NO,0,2013-11-18 09:06:19 +0000,SECOAUTH-408: deny /token requests with grant_type=implicit,451,21499
+701,8c3a3083,SUCCESS,20,FAIL,4,NO,0,2013-11-18 09:26:43 +0000,"SECOAUTH-403, SECOAUTH-415 Fix some error responses",451,21508
+702,58e67f7c,SUCCESS,20,FAIL,4,NO,0,2013-11-18 09:46:23 +0000,Fix some links in docs,451,21508
+703,26f5204d,SUCCESS,20,FAIL,4,NO,0,2013-11-18 15:46:18 +0000,[maven-release-plugin] prepare release 2.0.0.M2,451,21508
+704,7df0165d,SUCCESS,20,FAIL,5,NO,0,2013-11-18 15:46:29 +0000,[maven-release-plugin] prepare for next development iteration,451,21508
+705,bebf1276,SUCCESS,23,FAIL,4,NO,0,2013-12-11 15:57:27 +0000,SECOAUTH-429: be more liberal in deserializing expires_in,451,21527
+706,0316fa4c,SUCCESS,23,FAIL,5,NO,0,2013-12-30 09:13:45 +0000,Upgrade Spring and Spring Security,451,21527
+707,95bb899d,SUCCESS,20,FAIL,5,NO,0,2013-12-09 12:08:04 +0000,SECOAUTH-431: Set content-type in WhitelabelApprovalEndpoint responses.,451,21528
+708,96c2f202,SUCCESS,21,FAIL,4,NO,0,2013-12-09 15:56:52 +0100,Added setter for selectAccessTokenFromUserNameSql and selectAccessTokenFromClientIdSql,451,21532
+709,205b677c,SUCCESS,19,FAIL,5,NO,0,2014-01-08 15:00:21 +0000,Fix test (wrong schema in config file),451,21532
+710,f2cfb8ca,SUCCESS,19,FAIL,4,NO,0,2014-01-08 15:00:37 +0000,Fix deprecation,451,21527
+711,dde92484,SUCCESS,18,FAIL,6,NO,0,2014-01-08 15:27:13 +0000,SECOAUTH-192: add ClientScopeVoter,453,21637
+712,e7b151ab,SUCCESS,22,FAIL,5,NO,0,2014-01-09 11:44:53 +0000,Add javadocs,453,21637
+713,5ff774ae,SUCCESS,22,FAIL,5,NO,0,2014-01-09 11:45:34 +0000,Switch to github issues in docs,453,21637
+714,9cbe4ca5,SUCCESS,21,FAIL,5,NO,0,2014-01-13 15:17:34 +0000,Add test case for CCTF,454,21674
+715,cfb87556,SUCCESS,22,FAIL,4,NO,0,2014-01-13 15:17:53 +0000,Fix namespace errors in IDE,454,21674
+716,e60a95e8,SUCCESS,21,FAIL,4,NO,0,2014-01-13 16:02:49 +0000,Ensure AbstractTokenGranter throws correct exception,455,21711
+717,13e968c1,SUCCESS,22,FAIL,5,NO,0,2014-01-13 16:28:59 +0000,Allow refresh tokens in client credentials grant,455,21715
+718,28882aaa,SUCCESS,20,FAIL,5,NO,0,2014-01-13 16:45:13 +0000,Use enhanced token to obtain refresh token,455,21719
+719,1a90daf9,SUCCESS,20,FAIL,5,NO,0,2014-01-13 17:19:07 +0000,Ensure scope is narrowed on refresh,455,21828
+720,c7d36f8a,SUCCESS,20,FAIL,4,NO,0,2014-01-13 17:55:29 +0000,Allow scopes to contain non-whitespace (per spec),455,21830
+721,76f4e118,SUCCESS,22,FAIL,6,NO,0,2014-01-15 11:50:50 +0000,Move test into src/test/java,455,21830
+722,0d92bafb,SUCCESS,22,FAIL,5,NO,0,2014-01-16 14:18:04 +0000,Fix more XSD declarations,455,21830
+723,df0d04dc,SUCCESS,20,FAIL,4,NO,0,2014-01-17 11:13:28 +0000,Add RequestEnhancer as customization point for token and auth requests,457,21882
+724,fc231ab9,SUCCESS,20,FAIL,5,NO,0,2014-01-17 12:32:21 +0000,Add OAuth2RequestAuthenticator strategy for authenticating client HTTP requests,459,21914
+725,b3b761fe,SUCCESS,21,FAIL,4,NO,0,2014-01-17 13:53:54 +0000,Add TokenExtractor strategy to OAuth2AuthenticationProcessingFilter,461,21957
+726,4bd544b8,SUCCESS,22,FAIL,5,NO,0,2014-01-17 15:03:22 +0000,Fix a couple of integration tests,461,21957
+727,d585f701,SUCCESS,21,FAIL,5,NO,0,2014-01-20 16:04:56 +0000,Fix typos in Javadocs,461,21957
+728,d5e0af59,SUCCESS,22,SUCCESS,20,FAIL,96,2014-01-21 12:36:28 +0000,Update Google oauth dependency,461,21962
+729,11ddb176,SUCCESS,22,SUCCESS,17,FAIL,31,2014-02-12 12:51:38 +0000,Upgrade Spring,461,21962
+730,e30ce744,SUCCESS,22,SUCCESS,17,FAIL,31,2014-02-13 08:18:53 +0000,Fix name of TokenServices implementation,461,21962
+731,55ff8dd4,SUCCESS,20,SUCCESS,17,FAIL,31,2014-02-13 08:20:00 +0000,Fix format of toString() when sessionId is null,461,21962
+732,5b8be803,SUCCESS,19,SUCCESS,17,FAIL,32,2014-02-13 09:24:04 +0000,Ensure even if token request asks for more scopes they are not granted,461,21958
+733,a9a53aa7,SUCCESS,19,SUCCESS,17,FAIL,33,2014-02-13 10:24:13 +0000,Add default ImplicitGrantService to ImplicitTokenGranter,462,21982
+734,114fbd44,SUCCESS,22,SUCCESS,18,SUCCESS,79,2014-02-14 12:30:46 +0000,Add @Configuration support,470,22676
+735,9e408e99,FAIL,19,NO,0,NO,0,2014-02-14 14:00:21 +0000,Convert oauth2 samples to Java config,475,23312
+736,e1587bdb,SUCCESS,25,SUCCESS,17,SUCCESS,79,2014-02-14 15:07:24 +0000,Ignore missing web.xml,475,23312
+737,91490523,SUCCESS,28,SUCCESS,17,FAIL,69,2014-02-14 15:13:51 +0000,Rename Test* to *Tests,465,22762
+738,a82c645b,SUCCESS,21,SUCCESS,16,FAIL,71,2014-02-14 17:13:23 +0000,More care with proxies in @Configuration,465,22765
+739,b6d1a602,SUCCESS,21,SUCCESS,17,FAIL,68,2014-02-14 17:37:44 +0000,Fix typo in login.jsp,465,22765
+740,602e4e3b,SUCCESS,21,SUCCESS,18,FAIL,74,2014-02-14 17:38:43 +0000,Extract /token security into base class,465,22741
+741,bfd50b81,SUCCESS,22,SUCCESS,18,FAIL,71,2014-02-14 17:45:42 +0000,Fix integration test from command line,465,22741
+742,34c814d6,SUCCESS,19,SUCCESS,18,FAIL,71,2014-03-07 09:36:40 +0000,Remove parent directory path traversals in DefaultRedirectResolver,475,23297
+743,e8b45d7e,SUCCESS,23,SUCCESS,17,FAIL,75,2014-02-14 19:11:10 +0000,Add @EnableAuthorizationServer,481,23413
+744,792988d2,SUCCESS,22,SUCCESS,16,SUCCESS,82,2014-02-27 15:43:16 +0000,Add @EnableResourceServer,487,23515
+745,dcc65b2d,SUCCESS,20,SUCCESS,16,SUCCESS,82,2014-03-06 18:02:53 +0000,Add @EnableOAuth2Client,486,23529
+746,37fe453d,SUCCESS,23,SUCCESS,19,SUCCESS,78,2014-03-06 18:17:17 +0000,Add JDBC support to @Enabled auth server,487,23585
+747,7e387268,SUCCESS,23,SUCCESS,17,SUCCESS,81,2014-01-23 08:54:56 +0100,Logout link added to tonr's main page,487,23585
+748,c5632b34,SUCCESS,21,SUCCESS,16,SUCCESS,82,2014-01-22 17:53:38 +0100,Fix broken link to OAuth 2.0 section,487,23585
+749,cbd1c65a,SUCCESS,22,SUCCESS,17,SUCCESS,83,2014-03-07 10:17:31 +0000,[maven-release-plugin] prepare release 2.0.0.M3,487,23585
+750,753e6ad7,SUCCESS,21,SUCCESS,17,SUCCESS,82,2014-03-07 10:17:36 +0000,[maven-release-plugin] prepare for next development iteration,487,23585
+751,4b250330,SUCCESS,21,SUCCESS,16,SUCCESS,77,2014-03-10 11:16:56 +0000,Add test for redirect with query params,487,23601
+752,1c0c6a15,SUCCESS,21,SUCCESS,18,SUCCESS,85,2014-03-10 12:43:25 +0000,Add user approval handler to default configuration,487,23605
+753,872a7a5c,SUCCESS,22,SUCCESS,15,SUCCESS,84,2014-03-10 14:25:52 +0000,Add query and fragment encoding to redirect URIs,487,23631
+754,32fb5d8d,SUCCESS,22,SUCCESS,17,SUCCESS,79,2014-03-10 14:54:41 +0000,Rename frameworkEndpointMapping,487,23631
+755,0918c904,SUCCESS,22,SUCCESS,18,SUCCESS,84,2014-03-11 18:00:13 +0000,Support for custom headers in AccessTokenRequest,487,23661
+756,0ecba434,SUCCESS,21,SUCCESS,16,SUCCESS,83,2014-03-12 14:40:16 +0000,Delegate to DefaultResponseErrorHandler in OAuth2ContextSetup,487,23660
+757,35e9dc28,SUCCESS,20,SUCCESS,16,SUCCESS,79,2014-03-12 16:52:18 +0000,Add default request matcher to ResourceServerConfiguration,487,23680
+758,a68fda38,SUCCESS,22,SUCCESS,18,SUCCESS,86,2014-03-13 14:26:07 +0000,Add tokenServices() to OAuth2*Configurers,487,23707
+759,797bedcb,SUCCESS,22,SUCCESS,19,SUCCESS,77,2014-03-13 14:47:44 +0000,Support refresh token by default,487,23706
+760,f78c87ea,SUCCESS,21,SUCCESS,17,SUCCESS,81,2014-03-14 11:49:35 +0000,Integrate endpoint mappings with @Configuration helpers,487,23742
+761,c824b9fa,SUCCESS,23,SUCCESS,17,SUCCESS,85,2014-03-14 14:27:38 +0000,Make form authentication for clients optional,487,23735
+762,a1a10205,SUCCESS,22,SUCCESS,18,SUCCESS,83,2014-03-14 17:33:56 +0000,Fix forward: prefix on custom approval endpoints,487,23735
+763,9bb1e12f,SUCCESS,25,SUCCESS,18,SUCCESS,80,2014-03-14 18:24:14 +0000,Fix integration tests (not working in mvn yet),487,23735
+764,c837bdaa,SUCCESS,19,SUCCESS,16,SUCCESS,85,2014-03-15 12:08:14 +0000,Fix tonr integration test in Maven,487,23735
+765,2717e7fa,SUCCESS,23,SUCCESS,18,SUCCESS,84,2014-03-15 12:32:13 +0000,Change logic of resource server fallback access rule,487,23738
+766,769d6143,SUCCESS,22,SUCCESS,18,SUCCESS,83,2014-03-15 12:45:37 +0000,Updgrade Jackson to 2.3.1,487,23738
+767,f8691a9c,SUCCESS,19,SUCCESS,17,SUCCESS,85,2014-03-15 12:49:26 +0000,[maven-release-plugin] prepare release 2.0.0.M4,487,23738
+768,cdf91fe0,SUCCESS,21,SUCCESS,16,SUCCESS,76,2014-03-15 12:49:31 +0000,[maven-release-plugin] prepare for next development iteration,487,23738
+769,22b4be81,SUCCESS,20,SUCCESS,16,SUCCESS,79,2014-03-17 11:24:20 +0000,Allow additional customizations of authentication and request processing,488,23858
+770,47f75525,SUCCESS,18,SUCCESS,17,SUCCESS,80,2014-03-24 11:38:16 +0000,Ensure tonr samples work from command line,488,23858
+771,77790a48,SUCCESS,28,SUCCESS,16,SUCCESS,82,2014-03-25 13:16:57 +0000,"Tidy up build, removing unnecessary plugins",488,23858
+772,19b5d664,SUCCESS,18,SUCCESS,15,SUCCESS,82,2014-03-27 15:55:15 +0000,Ignore .springBeans,488,23858
+773,55e7b540,SUCCESS,17,SUCCESS,16,SUCCESS,86,2014-03-28 11:58:20 +0000,Java 1.6 for JWT,488,23858
+774,ef8bf80d,SUCCESS,19,SUCCESS,17,SUCCESS,79,2014-03-28 12:34:36 +0000,Fix XML validation,490,23916
+775,3fefee41,SUCCESS,19,SUCCESS,16,SUCCESS,82,2014-03-28 12:35:12 +0000,Remove unused @Suppress annotations,490,23914
+776,56457735,SUCCESS,18,SUCCESS,12,SUCCESS,86,2014-03-28 12:35:35 +0000,Add Jackson2 support for BaseClientDetails,490,23943
+777,5819960a,SUCCESS,22,SUCCESS,15,SUCCESS,89,2014-03-28 14:32:50 +0000,Updgrade to Spring 4.0.3,490,23942
+778,ef27402b,SUCCESS,20,SUCCESS,15,SUCCESS,82,2012-06-14 18:00:30 -0500,Created OAuth2ExpressionParser that automatically wraps a Spring Expression,492,24045
+779,36370442,SUCCESS,18,SUCCESS,15,SUCCESS,85,2014-04-01 11:12:13 +0100,Disable anonymous auth for resource server,492,24046
+780,45a0964c,SUCCESS,18,SUCCESS,14,SUCCESS,85,2014-04-01 11:40:51 +0100,Ensure AccessDeniedException is thrown from expression handler,492,24047
+781,3e4e134b,SUCCESS,17,SUCCESS,14,SUCCESS,86,2014-04-01 12:13:36 +0100,Support for Jackson2 in JdbcClientDetailsService,492,24076
+782,d89e94a2,SUCCESS,16,SUCCESS,15,SUCCESS,87,2014-04-01 13:20:49 +0100,Fix potential duplicate token problem in JdbcTokenStore,492,24090
+783,bcdedc41,SUCCESS,17,SUCCESS,16,SUCCESS,84,2014-04-02 10:55:26 +0100,Add support for authorization code services in @Configuration,492,24093
+784,787c9b47,SUCCESS,18,SUCCESS,15,SUCCESS,84,2014-03-17 16:14:03 +0000,Add support for ApprovalStore in @EnableAuthorizationServer,495,24213
+785,77897067,SUCCESS,16,SUCCESS,12,SUCCESS,87,2014-03-17 16:23:17 +0000,Remove bundlor plugin,495,24213
+786,9aae6506,SUCCESS,18,SUCCESS,13,SUCCESS,86,2014-03-17 18:08:16 +0000,Refine ApprovalStore configuration a bit,495,24271
+787,f9c35a17,SUCCESS,18,SUCCESS,16,SUCCESS,81,2014-04-02 10:33:34 +0100,Update spring-security-jwt's dependencies,495,24268
+788,50a7956d,FAIL,11,NO,0,NO,0,2014-04-02 11:25:07 +0100,Update oauth modules' dependencies,495,24275
+789,23eee7be,FAIL,8,NO,0,NO,0,2014-04-04 16:05:27 +0100,Fix some broken tests,495,24280
+790,ad859587,FAIL,8,NO,0,NO,0,2014-04-04 16:26:19 +0100,Adding /me endpoint to support Spring Social clients,497,24311
+791,7c24bacd,FAIL,8,NO,0,NO,0,2014-04-04 17:41:54 +0100,Make access token setter for value more conventional,498,24380
+792,16d633aa,FAIL,7,NO,0,NO,0,2014-04-04 17:59:21 +0100,Open up token and JSON converters in JwtTokenServices,498,24397
+793,633e5ec8,FAIL,8,NO,0,NO,0,2014-04-07 10:12:03 +0100,Updates docs with @Configuration features,498,24397
+794,55a40b93,FAIL,9,NO,0,NO,0,2014-04-08 11:13:43 +0100,Add some javadocs clarifying throwOnError,498,24397
+795,a83aa0f5,FAIL,9,NO,0,NO,0,2014-04-08 11:14:02 +0100,Add support for TokenGranter in AuthorizationServerSecurityConfigurer,498,24400
+796,0830da23,FAIL,9,NO,0,NO,0,2014-04-08 14:13:25 +0100,Add docs for configuration of grant types,498,24400
+797,8e9a4590,FAIL,9,NO,0,NO,0,2014-04-08 12:29:35 +0100,Ensure AuthorizationEndpoint has an ApprovalStore by default,498,24425
+798,dbfbbe19,FAIL,8,NO,0,NO,0,2014-04-08 16:09:41 +0100,Re-order auth server docs,498,24425
+799,2cd02fff,FAIL,8,NO,0,NO,0,2014-04-08 17:31:22 +0100,Extract ApprovalStore from AuthorizationEndpoint into UserApprovalHandler,498,24492
+800,b24d6f81,FAIL,9,NO,0,NO,0,2014-04-08 18:01:17 +0100,Re-instate automatic @Bean for InMemoryTokenStore,498,24500
+801,3e01fa0f,FAIL,10,NO,0,NO,0,2014-04-08 18:16:29 +0100,Move setter for AccessTokenConverter down in to JwtTokenEnhancer,498,24512
+802,27279348,FAIL,10,NO,0,NO,0,2014-04-09 10:39:15 +0100,Add JwtTokenStore,499,24581
+803,c0961fd8,FAIL,9,NO,0,NO,0,2014-04-09 17:01:11 +0100,Integrate ApprovalStore with JwtTokenStore,500,24707
+804,0aef0a7a,FAIL,9,NO,0,NO,0,2014-04-09 17:16:09 +0100,Check for approvals in JwtTokenStore before reading refresh token,500,24729
+805,c13ef0ce,FAIL,9,NO,0,NO,0,2014-04-10 11:20:12 +0100,OAuth2ResourceServerConfigurer -> ResourceServerSecurityConfigurer,500,24731
+806,cca365ff,FAIL,9,NO,0,NO,0,2014-04-10 11:20:19 +0100,Remove some features from JwtTokenStore,500,24727
+807,01ab27ef,FAIL,10,NO,0,NO,0,2014-04-10 14:00:28 +0100,Ensure framework mappings work with forward and redirect,501,24764
+808,28aec63a,FAIL,9,NO,0,NO,0,2014-04-10 15:05:17 +0100,Add tests deomstrating use of TokenConverter,502,24851
+809,592c00c6,FAIL,8,NO,0,NO,0,2014-04-10 17:08:03 +0100,Fix null bug in RequestTokenFactory,502,24851
+810,75f0d1c0,FAIL,8,NO,0,NO,0,2014-04-11 17:26:40 +0100,Switch server IDs for AWS credentials,502,24851
+811,156e1f11,FAIL,9,NO,0,NO,0,2014-04-14 19:33:00 -0700,Update repository metadata,502,24851
+812,16bee361,FAIL,9,NO,0,NO,0,2014-04-10 17:12:03 +0100,Remove JwtTokenServices,500,24528
+813,bf1e2bdf,FAIL,9,NO,0,NO,0,2014-04-10 17:36:26 +0100,Add AuthorizationServerTokenServices bean,500,24534
+814,092dabbf,FAIL,10,NO,0,NO,0,2014-04-10 18:12:28 +0100,Add TokenEnhancer to AuthorizationServerSecurityConfigurer,500,24542
+815,d58d5032,FAIL,9,NO,0,NO,0,2014-04-11 09:54:37 +0100,Trap infinite loop in lazy proxies,500,24568
+816,e634d1d9,FAIL,9,NO,0,NO,0,2014-04-11 17:10:49 +0100,Consolidate some @Autowiring,500,24568
+817,06d140cf,FAIL,9,NO,0,NO,0,2014-04-11 17:25:32 +0100,Factor out @Bean FrameworkEndpointHandlerMapping,500,24569
+818,d85528de,FAIL,8,NO,0,NO,0,2014-04-12 07:22:29 +0100,Factor out non-filter concerns into *Endpoints*,502,24556
+819,cbd0f2e7,FAIL,7,NO,0,NO,0,2014-04-14 10:19:25 +0100,Remove some more @Beans from endpoints config,502,24555
+820,ef1662b9,FAIL,8,NO,0,NO,0,2014-04-14 10:29:45 +0100,Always register a TokenStore if there is none,502,24551
+821,5dcaab98,FAIL,9,NO,0,NO,0,2014-04-14 10:49:47 +0100,Use convenience methods in OAuth2RequestFactory where possible,502,24557
+822,697e8d00,FAIL,8,NO,0,NO,0,2014-04-14 19:32:46 -0700,JwtTokenEnhancer -> JwtAccessTokenConverter,502,24557
+823,117ff232,FAIL,9,NO,0,NO,0,2014-04-14 20:14:24 -0700,Raw S3 access to get JWT dependency,502,24557
+824,c2e3f17b,FAIL,9,NO,0,NO,0,2014-04-14 20:18:32 -0700,Release JWT 1.0.2,502,24557
+825,579ea265,FAIL,10,NO,0,NO,0,2014-04-14 20:18:56 -0700,Update to snapshot,502,24557
+826,8d1e9475,FAIL,9,NO,0,NO,0,2014-04-15 05:21:03 -0700,Add permitAll() to OPTIONS on token endpoint,502,24561
+827,61e77208,FAIL,8,NO,0,NO,0,2014-04-17 10:02:17 -0700,Refactor TokenServices tests so JWT fits in better,504,24588
+828,ae6aa8ac,FAIL,8,NO,0,NO,0,2014-04-18 04:51:43 -0700,Use artifactory repos directly,504,24588
+829,46017b2e,SUCCESS,19,SUCCESS,17,SUCCESS,93,2014-04-18 04:54:43 -0700,[maven-release-plugin] prepare release 2.0.0.RC1,504,24588
+830,aceebeb0,SUCCESS,19,SUCCESS,16,SUCCESS,93,2014-04-18 04:54:47 -0700,[maven-release-plugin] prepare for next development iteration,504,24588
+831,97e2df11,SUCCESS,20,SUCCESS,15,SUCCESS,91,2014-04-18 06:15:16 -0700,Validate client details in DefaultTokenServices.loadAuthentication(token),504,24615
+832,80520be2,SUCCESS,17,SUCCESS,14,SUCCESS,88,2014-04-18 07:46:05 -0700,Fix wrong version id in poms,504,24615
+833,d3819e2e,SUCCESS,16,SUCCESS,17,SUCCESS,99,2014-04-18 15:57:58 -0700,Add utility endpoints for token consumers (resource servers),507,24822
+834,15dc701c,SUCCESS,20,SUCCESS,15,SUCCESS,93,2014-04-19 06:18:30 -0700,Remove cycle in common util,507,24821
+835,af59af9f,SUCCESS,19,SUCCESS,14,SUCCESS,96,2014-04-19 06:30:08 -0700,Extract TokenStore implementations into a sub-package (anti-cycle),507,24842
+836,4f321e1a,SUCCESS,21,SUCCESS,14,SUCCESS,97,2014-04-24 15:02:34 +0100,Update commons-codec dependency to 1.6,507,24842
+837,b46e96ca,SUCCESS,18,SUCCESS,14,SUCCESS,91,2014-04-21 12:00:37 -0700,ClientBuilder should forward configured auto-approve scopes,507,24844
+838,c9baf342,SUCCESS,18,SUCCESS,15,SUCCESS,98,2014-04-25 13:58:47 +0100,[maven-release-plugin] prepare release 2.0.0.RC2,507,24844
+839,b704faa8,SUCCESS,18,SUCCESS,17,SUCCESS,97,2014-04-25 13:58:54 +0100,[maven-release-plugin] prepare for next development iteration,507,24844
+840,9e3da75a,SUCCESS,18,SUCCESS,16,SUCCESS,93,2014-05-02 18:23:35 +0100,Use resource id for realm in resource server by default,507,24855
+841,75296b8d,SUCCESS,18,SUCCESS,13,SUCCESS,93,2014-05-12 12:20:29 +0100,Remove unneeded Boot dependency,507,24855
+842,e5f9ff3b,SUCCESS,17,SUCCESS,15,SUCCESS,87,2014-05-13 10:09:14 +0100,Update to 2.0.0.RELEASE,507,24855
+843,93e849ff,SUCCESS,18,SUCCESS,15,SUCCESS,89,2014-05-13 10:11:22 +0100,Update to new SNAPSHOT version,507,24855
+844,51eb6d8f,SUCCESS,19,SUCCESS,14,SUCCESS,89,2014-05-16 15:03:06 +0100,Copy refresh token value correctly in JwtAccessTokenConverter,507,24859
+845,81615a0b,SUCCESS,18,SUCCESS,16,SUCCESS,94,2014-05-16 15:41:34 +0100,Add additional details to ClientDetailsServiceConfigurer,507,24880
+846,0c4b5057,SUCCESS,16,SUCCESS,15,SUCCESS,89,2014-05-16 15:51:02 +0100,Change throws clause of InMemoryClientDetailsService,507,24880
+847,15ae2a0a,SUCCESS,17,SUCCESS,15,SUCCESS,91,2014-05-19 12:17:19 +0100,Update to 2.0.1.RELEASE,507,24880
+848,42802632,SUCCESS,20,SUCCESS,16,SUCCESS,88,2014-05-19 12:18:50 +0100,Update to next dev version,507,24880
+849,f22332dd,SUCCESS,19,SUCCESS,13,SUCCESS,94,2014-05-24 12:32:17 +0100,Fix repository ids,507,24880
+850,20903ff5,SUCCESS,19,SUCCESS,14,SUCCESS,93,2014-06-10 10:07:44 +0100,Deprecate ImplicitGrantService and add new ImplicitTokenRequest,508,24886
+851,41456683,SUCCESS,18,SUCCESS,17,SUCCESS,88,2014-06-10 12:55:13 +0100,Add interceptors to AuthorizationServerEndpointsConfigurer,508,24899
+852,3249391c,SUCCESS,39,SUCCESS,21,FAIL,301,2014-06-11 09:04:07 +0100,2.0.2.RELEASE updates,646,29430
+853,5a6a0681,SUCCESS,26,SUCCESS,20,FAIL,301,2014-06-11 09:20:02 +0100,Update to new dev version,646,29430
+854,c439a431,SUCCESS,24,SUCCESS,20,FAIL,301,2014-06-12 11:05:53 +0100,Added prefix() to AuthorizationServerEndpointsConfigurer,647,29461
+855,650c7563,SUCCESS,31,SUCCESS,21,FAIL,301,2014-06-18 10:42:49 +0100,Fix JDBC samples to ensure DataSource is initialized,647,29483
+856,5f4b2a3d,SUCCESS,24,SUCCESS,18,FAIL,301,2014-06-18 10:50:17 +0100,Change throws in declaration of *TokenServices,647,29484
+857,03b488bb,SUCCESS,26,SUCCESS,22,FAIL,301,2014-06-18 10:59:47 +0100,Check that client-details-services-ref is provided in parser,648,29509
+858,3e6621c6,SUCCESS,28,SUCCESS,19,FAIL,301,2014-06-17 21:32:02 -0300,Add OAuth2RequestValidator reference to TokenEndpoint when parsing AuthorizationServer bean,648,29511
+859,6d9de667,SUCCESS,28,SUCCESS,20,FAIL,300,2014-06-22 09:47:23 +0100,Fix link in README (fixes gh-225),648,29511
+860,4e42df86,SUCCESS,28,SUCCESS,21,FAIL,301,2014-08-22 16:10:45 +0100,Fix typo (fixes gh-242),648,29511
+861,22634032,SUCCESS,29,SUCCESS,21,FAIL,301,2014-08-22 16:31:50 +0100,Fix validation of JwtAccessTokenConverter,648,29519
+862,83028e7a,SUCCESS,26,SUCCESS,22,FAIL,301,2014-08-22 16:52:09 +0100,Ensure EXP claim is stored as a Long in JWT token,648,29529
+863,c0d83536,SUCCESS,28,SUCCESS,23,FAIL,300,2014-08-22 16:55:03 +0100,Don't declare checked exception with @PostConstruct,648,29532
+864,66fa4bc5,SUCCESS,26,SUCCESS,22,FAIL,301,2014-06-26 10:10:55 +0100,Fixes gh-225 (broken links),648,29532
+865,8c1e281a,SUCCESS,25,SUCCESS,18,FAIL,302,2014-07-28 00:07:32 +0200,"FIx naming, match constructor args to fields",648,29532
+866,e31ff96c,SUCCESS,25,SUCCESS,20,FAIL,301,2014-08-23 06:57:23 +0100,Modernize tests,647,29527
+867,0b2e90a6,SUCCESS,31,SUCCESS,21,SUCCESS,295,2014-08-23 12:06:28 +0100,Update XML tests and upgrade Spring Boot,646,29504
+868,c7561fb9,SUCCESS,26,SUCCESS,20,FAIL,40,2014-08-27 18:57:59 +0100,Make OAuth2ClientAuthenticationProcessingFilter behave more like a resource server,646,29517
+869,75d63559,SUCCESS,26,SUCCESS,20,FAIL,43,2014-08-27 19:06:02 +0100,Add additional null check,646,29517
+870,b847c8f1,SUCCESS,26,SUCCESS,21,FAIL,44,2014-08-08 17:13:03 +0200,Fix wrong LOG.isInfoEnabled in JdbcTokenStore,646,29517
+871,8323fe77,SUCCESS,25,SUCCESS,22,FAIL,42,2014-07-16 16:24:18 -0400,Update UserApprovalHandler documentation.,646,29518
+872,f042fadb,SUCCESS,26,SUCCESS,20,FAIL,40,2014-07-07 10:27:23 +0200,Provide a getter for autoApproveScopes,646,29522
+873,05842932,SUCCESS,25,SUCCESS,22,FAIL,42,2014-08-28 09:41:11 +0100,Don't use session scope for RestTemplate,646,29529
+874,81f10bc7,SUCCESS,24,SUCCESS,21,FAIL,44,2014-08-28 10:01:36 +0100,Add test for AUD claim in DefaultAccessTokenConverter,647,29560
+875,e6266ef8,SUCCESS,27,SUCCESS,20,SUCCESS,297,2014-08-28 10:33:31 +0100,Fix NPE in test,647,29561
+876,ea77e4ca,SUCCESS,27,SUCCESS,21,SUCCESS,291,2014-08-28 11:01:28 +0100,Fix integration test with /server prefix,647,29565
+877,766b2d59,SUCCESS,27,SUCCESS,20,FAIL,301,2014-08-28 11:14:06 +0100,Add client details check to OAuth2AuthenticationManager,647,29586
+878,9f618402,SUCCESS,29,SUCCESS,20,SUCCESS,292,2014-08-28 11:29:04 +0100,Fix grammar in README,647,29586
+879,4e6db697,SUCCESS,27,SUCCESS,23,FAIL,301,2014-08-28 11:37:02 +0100,Remove dead code branch in InMemoryTokenStore,647,29584
+880,effa7e1e,SUCCESS,25,SUCCESS,22,SUCCESS,297,2014-08-28 11:41:22 +0100,Fix index out of bounds for key-value with no value,647,29584
+881,45b51c65,SUCCESS,24,SUCCESS,19,FAIL,301,2014-08-28 11:46:41 +0100,Upgrade release plugin,647,29584
+882,5eddb76b,SUCCESS,28,SUCCESS,22,SUCCESS,296,2014-08-28 11:53:45 +0100,[maven-release-plugin] prepare release 2.0.3.RELEASE,647,29584
+883,691ffb19,SUCCESS,26,SUCCESS,20,FAIL,301,2014-08-28 11:57:52 +0100,Remove references to wrong snapshots,647,29584
+884,79ff91f2,SUCCESS,25,SUCCESS,22,FAIL,301,2014-08-28 11:53:52 +0100,[maven-release-plugin] prepare for next development iteration,647,29584
+885,190fbbb2,SUCCESS,26,SUCCESS,16,FAIL,301,2014-09-11 07:22:42 -0500,Correct sample snippet for @EnableOAuth2Client,647,29584
+886,2f3dece9,SUCCESS,24,SUCCESS,20,SUCCESS,291,2014-09-18 11:37:50 +0100,Add setter for SQL statememt (fixes gh-254),647,29586
+887,371aad08,SUCCESS,22,SUCCESS,19,SUCCESS,292,2014-09-18 11:38:51 +0100,Ensure token is stored in ClientTokenServices if provided (fixes gh-259),647,29603
+888,bfdf8837,SUCCESS,32,SUCCESS,23,FAIL,300,2014-09-18 13:04:05 +0100,Add getGrantType() to OAuth2Request,648,29657
+889,e1d203a3,SUCCESS,30,SUCCESS,20,FAIL,300,2014-09-24 15:14:58 +0100,Remove .gitignores,648,29657
+890,464e38eb,SUCCESS,28,SUCCESS,22,FAIL,301,2014-09-24 15:15:07 +0100,Nail Maven javadoc plugin version,648,29657
+891,aae09e0c,SUCCESS,26,SUCCESS,22,FAIL,301,2014-09-30 12:34:08 +0100,Remove .gitignores again,648,29657
+892,1e0725fd,SUCCESS,27,SUCCESS,22,FAIL,301,2014-09-30 12:34:29 +0100,Add tests for invalid client id in /authorize,648,29664
+893,10acf7fb,SUCCESS,26,SUCCESS,22,FAIL,300,2014-09-29 17:04:22 +0100,Fix IllegalArgumentException when scope is a String instead of a collection,649,29693
+894,dabcae6e,SUCCESS,28,SUCCESS,21,FAIL,301,2014-10-03 13:58:31 +0100,Add another integration test for /authorize endpoint,649,29716
+895,055a99ee,SUCCESS,27,SUCCESS,21,FAIL,301,2014-08-28 21:37:46 +0200,Additional fix for additionInformation bug and tests,649,29718
+896,4ab43f06,SUCCESS,27,SUCCESS,19,FAIL,300,2014-10-11 16:41:58 +0100,Expose client authorities in /check_token,649,29736
+897,2981cd74,SUCCESS,25,SUCCESS,22,FAIL,175,2014-10-11 16:47:18 +0100,Pass resource ids through to OAuth2Request from TokenRequest,649,29737
+898,76839fc3,SUCCESS,38,SUCCESS,21,FAIL,160,2014-10-11 16:43:03 +0100,Add specific user (not default) for testing authentication in password flow,649,29759
+899,baf89900,SUCCESS,27,SUCCESS,19,SUCCESS,293,2014-10-15 11:28:02 +0100,Fix JDBC sample tests so they authenticate properly,649,29806
+900,40f8073c,SUCCESS,25,SUCCESS,21,FAIL,301,2014-10-15 16:52:22 +0100,Update README.md,649,29806
+901,589dd042,SUCCESS,29,SUCCESS,22,FAIL,300,2014-10-19 11:28:39 +0100,Upgrade Spring and Spring Security,649,29806
+902,45505c6a,SUCCESS,29,SUCCESS,22,FAIL,301,2014-10-19 16:34:17 +0100,Make DefaultTokenServices a @Bean,649,29897
+903,177305dd,SUCCESS,28,SUCCESS,22,FAIL,301,2014-10-19 16:40:59 +0100,"Update context path for tonr2 (fixes gh-250, fixes gh-280)",649,29897
+904,9d21b2aa,SUCCESS,28,SUCCESS,21,FAIL,300,2014-11-03 15:18:06 +0000,Revert change to work around issue in Spring Boot,649,29895
+905,178f3c5d,SUCCESS,28,SUCCESS,20,FAIL,301,2014-11-04 11:09:41 +0000,Enhance OAuth2AuthenticationToken details with upstream details,649,29918
+906,b31ab531,SUCCESS,28,SUCCESS,21,FAIL,301,2014-11-04 11:31:04 +0000,"Add request parameters as ""details"" in password grant",649,29934
+907,e526ddb9,SUCCESS,25,SUCCESS,18,FAIL,301,2014-11-04 22:00:33 +0000,Protect password from leaking downstream,649,29938
+908,21d59959,SUCCESS,28,SUCCESS,22,FAIL,301,2014-11-05 13:14:36 +0000,Save Authentication in case of changes after checking existing token,650,30000
+909,e31781dc,SUCCESS,32,SUCCESS,22,SUCCESS,293,2014-11-05 17:11:14 +0100,Added findTokensByUserName method to JdbcTokenStore,650,30027
+910,a3e32bf1,SUCCESS,26,SUCCESS,22,FAIL,301,2014-11-10 06:07:08 +0000,Add support for dynamic credentials in password grant clients,651,30077
+911,081830f2,SUCCESS,28,SUCCESS,22,SUCCESS,299,2014-11-09 14:59:42 +0100,Error on json callback and ResourceServerConfiguration in sparklr2,651,30078
+912,f6e0acf9,SUCCESS,29,SUCCESS,20,FAIL,300,2014-11-07 23:06:59 +0800,Add @Qualifier for ConsumerTokenServices.,651,30080
+913,79dd8cb1,SUCCESS,27,SUCCESS,23,FAIL,300,2014-11-02 11:59:44 +0200,Custom token name in RemoteTokenServices,651,30083
+914,17babbe2,SUCCESS,28,SUCCESS,19,FAIL,301,2014-11-10 06:24:20 +0000,Provide default token name to restore default behaviour,651,30083
+915,a8f66793,SUCCESS,26,SUCCESS,23,FAIL,300,2014-11-11 10:37:01 +0000,Add KeyStoreKeyFactory for loading RSA keys from a file,652,30133
+916,593bb78d,SUCCESS,26,SUCCESS,22,FAIL,300,2014-11-11 10:50:44 +0000,Allow TokenExtractor to be injected in ResourceServerSecurityConfigurer,652,30180
+917,369973e5,SUCCESS,26,SUCCESS,21,FAIL,301,2014-11-11 11:12:50 +0000,[maven-release-plugin] prepare release 2.0.4.RELEASE,652,30180
+918,f58d804d,SUCCESS,26,SUCCESS,20,SUCCESS,292,2014-11-11 11:13:00 +0000,[maven-release-plugin] prepare for next development iteration,652,30180
+919,2ed83119,SUCCESS,26,SUCCESS,20,SUCCESS,296,2014-11-12 07:19:59 +0000,Remove snapshot repos from tests,652,30180
+920,54632798,SUCCESS,31,SUCCESS,21,SUCCESS,288,2014-11-11 11:18:04 +0000,Upgrade to Spring 4.0.8,652,30180
+921,59c13e40,SUCCESS,26,SUCCESS,20,SUCCESS,274,2014-11-15 11:31:10 +0000,Use full constructor for PatternsRequestCondition,652,30182
+922,fbb13cdb,SUCCESS,26,SUCCESS,18,SUCCESS,277,2014-11-15 11:35:27 +0000,Add expressionHandler() to ResourceServerSecurityConfigurer,652,30186
+923,ce2bc899,SUCCESS,25,SUCCESS,21,SUCCESS,277,2014-11-19 10:27:30 +0000,Add sample app for JAXB configuration (XML tokens),661,30471
+924,21d82ff0,SUCCESS,24,SUCCESS,20,SUCCESS,285,2014-11-19 10:43:50 +0000,Add support for custom exception handling in ResourceServerSecurityConfigurer,661,30505
+925,7c3eafb5,SUCCESS,23,SUCCESS,19,SUCCESS,289,2014-11-19 12:12:45 +0000,Add support for PasswordEncoder explicitly in AuthorizationServerSecurityConfigurer,661,30552
+926,1396bfc4,SUCCESS,25,SUCCESS,18,SUCCESS,284,2014-11-19 13:49:21 +0000,Fix documentation in XSD,661,30552
+927,c6153a20,SUCCESS,28,SUCCESS,20,SUCCESS,283,2014-11-21 12:04:44 +0000,Ensure client secret is erased from OAuth2Authentication,661,30570
+928,2f69d29d,SUCCESS,24,SUCCESS,19,SUCCESS,286,2014-11-15 18:16:59 -0800,first commit,661,30570
+929,dd1ba7cb,SUCCESS,29,SUCCESS,20,SUCCESS,291,2014-12-01 15:59:45 +0000,Remove unecessary GlobalAuthenticationConfigurer,661,30577
+930,793ebe0a,SUCCESS,24,SUCCESS,19,SUCCESS,287,2014-12-16 11:55:29 +0000,Add convenience method for reuseRefreshToken(),661,30582
+931,b86edc8c,SUCCESS,29,SUCCESS,21,FAIL,98,2014-12-17 09:35:28 +0000,Remove the @Bean TokenStore from default configuration,661,30593
+932,fad4785a,SUCCESS,26,SUCCESS,18,FAIL,82,2014-12-17 14:25:14 +0000,Remove builder convenience method for ClientDetailsService,661,30609
+933,605049bf,SUCCESS,23,SUCCESS,18,FAIL,86,2015-01-08 09:38:26 +0000,Add primary key in SQL for testing (as hint),661,30609
+934,abcdebf9,SUCCESS,24,SUCCESS,20,FAIL,91,2015-01-08 09:40:47 +0000,Switch to 2.0.6 snapshots,661,30609
+935,7043cd70,SUCCESS,26,SUCCESS,19,FAIL,94,2015-01-23 14:01:55 +0000,Remove unused security filter chain,661,30593
+936,d8bcdb4e,SUCCESS,26,SUCCESS,18,FAIL,92,2014-12-18 18:23:14 +0000,Fix customization of expression handler,661,30640
+937,1a04ec98,SUCCESS,28,SUCCESS,21,FAIL,93,2015-01-23 14:02:02 +0000,Register AccessDeniedHandler earlier so that it gets used,661,30644
+938,c5d6f1f6,SUCCESS,25,SUCCESS,20,FAIL,91,2015-01-23 15:02:19 +0000,"Add ""stateless"" flag to resource server configuration",661,30676
+939,395f2636,SUCCESS,25,SUCCESS,19,FAIL,92,2015-01-23 15:11:19 +0000,Add integration test for /oauth/token_key,661,30693
+940,bdb3390b,SUCCESS,26,SUCCESS,20,FAIL,92,2015-01-23 15:14:20 +0000,Make it possible to change value of reuseRefreshToken,661,30693
+941,138e8b66,SUCCESS,27,SUCCESS,21,FAIL,86,2015-01-23 16:01:05 +0000,Make exception translator pluggable in @Configuration,661,30736
+942,5d07955c,SUCCESS,28,SUCCESS,21,FAIL,92,2015-01-25 16:11:17 +0000,Add catchall @ExceptionHandler to TokenEndpoint,661,30740
+943,03b0ccc7,SUCCESS,25,SUCCESS,18,FAIL,93,2015-01-26 09:09:02 +0000,Add token type to OAuth2AuthenticationDetails,662,30804
+944,b0bb5d3d,SUCCESS,25,SUCCESS,20,FAIL,96,2015-01-26 09:43:16 +0000,Add optional UserDetailsService to DefaultUserAuthenticationConverter,662,30826
+945,2dc744bf,SUCCESS,29,SUCCESS,21,SUCCESS,291,2015-01-27 08:58:25 +0000,Clarify CSRF and session creation policy for resource server,665,30938
+946,d3eea9ee,SUCCESS,29,SUCCESS,21,SUCCESS,287,2015-01-27 11:18:20 +0000,Add some more docs for @EnableResourceServer,665,30938
+947,d8cb5c4d,SUCCESS,27,SUCCESS,22,SUCCESS,299,2015-01-27 12:06:18 +0000,Optionally create refresh tokens with infinite lifetime,665,30964
+948,4be7f8d6,SUCCESS,27,SUCCESS,21,SUCCESS,286,2015-01-27 13:15:57 +0000,Ensure JWT refresh tokens cannot be used as access tokens,665,31020
+949,684387b4,SUCCESS,23,SUCCESS,18,SUCCESS,300,2015-01-27 16:08:53 +0000,Rationalize redirect rendering in AuthorizationEndpoint,665,31065
+950,2ceebcdd,SUCCESS,26,SUCCESS,17,SUCCESS,287,2015-01-27 16:24:07 +0000,Fix test (fails on command line not IDE),665,31065
+951,3c089c59,SUCCESS,23,SUCCESS,19,SUCCESS,281,2015-01-27 16:31:59 +0000,Make sure fragment params are ordered in implicit response,665,31065
+952,f764279d,SUCCESS,23,SUCCESS,17,SUCCESS,280,2015-01-26 15:25:54 +0900,Modify minor misspellings and link,665,31065
+953,4f066601,SUCCESS,24,SUCCESS,18,SUCCESS,275,2015-01-27 16:50:09 +0000,Make OAuth2ExpressionParser public so it can be instantiated,665,31065
+954,04f7b1a3,SUCCESS,28,SUCCESS,20,SUCCESS,260,2014-12-11 12:22:37 -0500,Restricted token endpoint to HTTP POST by default.,665,31066
+955,6dfee442,SUCCESS,26,SUCCESS,19,SUCCESS,283,2014-12-16 17:31:18 -0500,Added ability to restrict token endpoint HTTP request methods,665,31155
+956,c784a64d,SUCCESS,25,SUCCESS,17,SUCCESS,282,2015-01-11 23:33:13 +0100,Convert client authorities to a set of strings.,665,31161
+957,3e015a9b,SUCCESS,23,SUCCESS,18,FAIL,38,2015-01-28 17:10:45 +0000,Allow anonymous access to oauth2 resources by default,665,31166
+958,53500f3e,SUCCESS,23,SUCCESS,18,FAIL,38,2015-01-28 17:12:35 +0000,Improve tests (anticipating Spring 4),665,31168
+959,3c18f074,SUCCESS,25,SUCCESS,19,FAIL,40,2015-01-29 09:30:57 +0000,Fix sparklr2 to show photos in UI,665,31171
+960,b681a9ed,SUCCESS,28,SUCCESS,19,SUCCESS,267,2015-01-29 10:19:31 +0000,Fix test for anonymous token,665,31177
+961,be1a91f9,SUCCESS,26,SUCCESS,17,SUCCESS,265,2015-01-29 11:06:06 +0000,Update to 2.0.7.BUILD-SNAPSHOT,665,31177
+962,5ffe668a,SUCCESS,23,SUCCESS,20,SUCCESS,261,2015-02-06 09:15:44 +0000,Fix tonr2 sample,665,31167
+963,616b989e,SUCCESS,21,SUCCESS,16,FAIL,40,2015-02-09 10:05:44 +0000,Add authentication event publisher to OAuth2AuthenticationProcessingFilter,665,31221
+964,4c4fdc3e,SUCCESS,23,SUCCESS,19,SUCCESS,258,2015-02-10 08:58:05 +0000,Comment out failing test,665,31223
+965,8a68cf24,SUCCESS,23,SUCCESS,19,SUCCESS,251,2015-02-03 16:23:37 +0100,UserDetailsService to throw UsernameNotFoundException,666,31255
+966,ec907a1a,SUCCESS,22,SUCCESS,18,SUCCESS,270,2015-02-13 12:18:21 +0000,Parse JSON manually (avoid dependency on Jackson),666,31243
+967,cc47a488,SUCCESS,24,SUCCESS,17,SUCCESS,262,2015-02-13 12:23:52 +0000,Bump JWT to snapshot,666,31243
+968,befb023a,SUCCESS,22,SUCCESS,15,SUCCESS,270,2015-02-16 16:43:56 +0000,Add includeGrantType flag in DefaultAccessTokenConverter,666,31261
+969,27a2b251,SUCCESS,26,SUCCESS,17,SUCCESS,255,2015-02-16 17:22:38 +0000,New public methods in OAuth2Request identify a refresh token request,666,31288
+970,2d9e43e2,SUCCESS,24,SUCCESS,19,SUCCESS,262,2015-02-17 08:48:58 +0000,Use seconds internally instead of milliseconds,666,31293
+971,d2097aae,SUCCESS,32,SUCCESS,21,SUCCESS,263,2015-02-18 10:25:02 +0000,Update tests to Spring Boot 1.2.1,666,31293
+972,82ca381d,SUCCESS,23,SUCCESS,18,SUCCESS,267,2015-02-11 09:32:23 +0100,Use less aggressive check for existing beans,666,31293
+973,c1b5aff6,SUCCESS,23,SUCCESS,15,SUCCESS,270,2015-02-16 12:26:48 +0800,Duplicated query parameters cause invalid signature,666,31293
+974,e2149951,SUCCESS,21,SUCCESS,16,SUCCESS,266,2015-02-18 11:43:50 +0000,Suppress compiler warnings,666,31295
+975,e303652a,FAIL,3,NO,0,NO,0,2015-02-19 10:51:25 +0000,Add AuthenticationManager to default token services,666,31385
+976,6620619b,FAIL,4,NO,0,NO,0,2015-02-19 13:22:07 +0000,Add JsonParser utility interface so that JWT can choose one,670,31435
+977,02c8afd6,FAIL,3,NO,0,NO,0,2015-02-19 14:13:28 +0000,Move @Transactional down to method level in DefaultTokenServices,670,31436
+978,b6e90124,FAIL,3,NO,0,NO,0,2015-02-10 15:53:13 +0100,Tutorial fixes in README,670,31436
+979,05192c2d,FAIL,3,NO,0,NO,0,2015-02-23 12:03:00 +0000,More tinkering with encoded query in redirect URI,670,31452
+980,26826540,FAIL,3,NO,0,NO,0,2015-02-23 12:40:32 +0000,Clarify a few things in the auth server configuration,670,31452
+981,0f2b6b61,FAIL,3,NO,0,NO,0,2015-02-25 15:33:50 +0000,Can't use application.xml in Spring Boot 1.2,670,31452
+982,6ae6b0f6,SUCCESS,34,SUCCESS,17,FAIL,146,2015-02-25 17:16:30 +0000,Use custom error handler if status doesn't match,671,31466
+983,33197606,SUCCESS,20,SUCCESS,16,FAIL,150,2015-03-12 12:16:38 +0000,Add test for custom TokenGranter,671,31483
+984,39f60559,SUCCESS,22,SUCCESS,18,FAIL,138,2015-03-12 12:58:59 +0000,Explicit handler methods for POST and GET,671,31494
+985,e6841d23,SUCCESS,22,SUCCESS,15,FAIL,142,2015-03-12 14:21:46 +0000,Fix client app integration test (Boot regression),671,31520
+986,4697d771,SUCCESS,26,SUCCESS,19,FAIL,143,2015-03-12 15:42:18 +0000,Compare AOP targets instead of proxy to resolve token services,672,31629
+987,f51e5a02,SUCCESS,22,SUCCESS,16,SUCCESS,265,2015-03-12 16:18:12 +0000,Switch off Boot default authentication manager,672,31637
+988,04bf544d,SUCCESS,24,SUCCESS,19,SUCCESS,270,2015-03-12 17:13:22 +0000,Neater solution to the JDBC authentication problem,672,31632
+989,cbe00d25,SUCCESS,24,SUCCESS,17,SUCCESS,266,2015-03-13 13:51:25 +0000,Add more comments about Boot 1.2.3,672,31632
+990,847e6ffd,SUCCESS,22,SUCCESS,18,SUCCESS,273,2015-03-13 17:50:17 +0000,Add explicit handler for HttpRequestMethodNotSupportedException,672,31636
+991,10e2c915,SUCCESS,23,SUCCESS,17,SUCCESS,268,2015-03-16 13:28:09 +0000,Us UriComponentsBuilder instead of UrlEncoder,672,31680
+992,59f4c1ac,SUCCESS,27,SUCCESS,19,SUCCESS,269,2015-03-16 13:57:20 +0000,Bump Spring and Security patch versions,672,31680
+993,4ef028fe,SUCCESS,22,SUCCESS,15,SUCCESS,268,2015-03-16 13:57:48 +0000,Add @EnableAuthorizationServer to tests that required them,672,31683
+994,8a1fb134,SUCCESS,24,SUCCESS,18,SUCCESS,270,2015-03-17 11:29:44 +0000,Use existing JTI if there is one as ATI in a refresh token,672,31793
+995,9823898f,SUCCESS,21,SUCCESS,17,SUCCESS,266,2015-03-17 11:56:18 +0000,Pass authorities through from claims in client credentials token,672,31801
+996,ebddd5bc,SUCCESS,21,SUCCESS,17,SUCCESS,276,2015-03-18 11:27:44 +0000,Make samples work with Spring 4.2,672,31801
+997,80e6711c,SUCCESS,23,SUCCESS,18,SUCCESS,272,2015-03-18 11:57:49 +0000,Ensure client credentials grants work with ClientTokenServices,672,31822
+998,59f0dcae,SUCCESS,24,SUCCESS,19,SUCCESS,265,2015-03-19 10:54:15 +0000,Bump versions for 2.0.8,672,31822
+999,3a767155,SUCCESS,25,SUCCESS,20,SUCCESS,264,2015-04-13 16:36:43 +0100,A bunch of tidying and tweaking mainly in tests,672,31917
+1000,bbd7b705,SUCCESS,24,SUCCESS,19,SUCCESS,274,2015-04-14 11:38:08 +0100,Fix WWW-Authenticate challenge for form-based client authentication,672,31929
+1001,eb9b5cc1,SUCCESS,22,SUCCESS,18,SUCCESS,268,2015-04-14 11:40:01 +0100,Add flag to auth code client to make state key mandatory by default,672,31945
+1002,5beebfd3,SUCCESS,21,SUCCESS,16,SUCCESS,271,2015-04-06 19:57:52 -0700,Docs: Update many links,672,31945
+1003,10c6c4e5,SUCCESS,23,SUCCESS,18,SUCCESS,268,2015-04-16 11:51:20 +0100,Defensive coding against race condition / bug in TokenStore,673,31969
+1004,f25592e6,SUCCESS,24,SUCCESS,17,SUCCESS,268,2015-04-17 13:04:03 +0100,Update oauth2 docs to clarify usage of checkUserScopes flag,673,31969
+1005,0c0888ff,SUCCESS,22,SUCCESS,17,SUCCESS,289,2015-05-14 15:31:52 +0100,Simplify addition of custom token granter,685,32294
+1006,efaf1d61,SUCCESS,22,SUCCESS,18,SUCCESS,295,2015-05-14 17:27:49 +0100,Fix key error in InMemoryTokenServices,685,32328
+1007,9c06d8a5,SUCCESS,22,SUCCESS,16,SUCCESS,289,2015-05-14 17:43:21 +0100,Ensure OAuth2Auth*Details has equals() and hashCode(),686,32388
+1008,b2a527a4,SUCCESS,27,SUCCESS,18,SUCCESS,287,2015-05-15 11:05:04 +0100,Add some docs on schema.sql (still only for test),686,32388
+1009,2bf4b758,SUCCESS,23,SUCCESS,17,SUCCESS,287,2015-05-15 11:39:56 +0100,Add flag for requiresSecure() in the security endpoint configurer,686,32394
+1010,36deb5e1,SUCCESS,24,SUCCESS,17,SUCCESS,284,2015-05-15 11:55:41 +0100,Expose stateless flag in resource-server XML config,686,32397
+1011,3bceb922,SUCCESS,22,SUCCESS,17,SUCCESS,289,2015-05-15 12:07:21 +0100,Add build status,686,32397
+1012,816be673,SUCCESS,24,SUCCESS,17,SUCCESS,282,2015-05-15 13:06:44 +0100,Tone down logs for CI,686,32397
+1013,b5194b43,SUCCESS,21,SUCCESS,17,SUCCESS,284,2015-05-19 16:32:44 +0100,Fix client app jar file so it is executable,686,32397
+1014,e66d0682,SUCCESS,23,SUCCESS,17,SUCCESS,292,2015-06-08 13:36:11 +0100,Upgrade to Spring Security 3.2.7,686,32397
+1015,5df63d40,SUCCESS,23,SUCCESS,17,SUCCESS,279,2015-04-30 10:44:53 -0700,Adding support for properly handling the HttpMethodNotSupported error,686,32410
+1016,4a0574fd,SUCCESS,24,SUCCESS,18,SUCCESS,279,2015-05-14 11:06:17 -0700,Changing method error to 405 Method Not Allowed,686,32410
+1017,19c33f22,SUCCESS,27,SUCCESS,22,SUCCESS,294,2015-02-02 15:54:50 -0500,Add redis token store and tests,692,32789
+1018,045c16b1,SUCCESS,26,SUCCESS,19,SUCCESS,288,2015-06-09 16:05:19 -0400,Fixed typos in docs,692,32789
+1019,4faa1812,SUCCESS,22,SUCCESS,18,SUCCESS,295,2015-06-10 09:57:21 +0100,Fix more typos,692,32789
+1020,21c1584b,SUCCESS,24,SUCCESS,17,SUCCESS,285,2015-05-15 13:09:00 +0200,Fix for inconsistency in the auto approval of scopes,692,32793
+1021,b42a51f1,SUCCESS,23,SUCCESS,17,SUCCESS,287,2015-06-11 08:36:33 +0200,Fixed build status tag,692,32793
+1022,1b2ae987,SUCCESS,21,SUCCESS,18,SUCCESS,282,2015-08-24 15:25:28 +0200,Make sure scope parameter in redirect url is encoded,692,32800
+1023,d3c09cb5,SUCCESS,22,SUCCESS,16,SUCCESS,290,2015-10-06 11:12:14 +0100,Fix BaseClientDetails.equals() so it uses Integer wrappers,692,32813
+1024,27f16e57,SUCCESS,21,SUCCESS,15,SUCCESS,286,2015-09-01 22:29:47 +0200,Fixed javadoc problems that prevented javadoc generation,692,32813
+1025,7f2fc9fc,SUCCESS,20,SUCCESS,19,SUCCESS,284,2015-09-02 21:09:46 +0200,Fixed pom warnings; -Replaced use of deprecated property pom.groupId -> project.groupId -Added <relativePath/> when referencing parent pom that was not available at parent directory level -Removed duplicate dependency to org.springframework:spring-aop with scope compile,692,32813
+1026,8e5a483f,SUCCESS,32,SUCCESS,24,SUCCESS,282,2015-09-12 08:14:23 +0200,Removed optional from spring aop dependency in parent pom dependencymanagement,692,32813
+1027,c6ae35d5,SUCCESS,26,SUCCESS,20,SUCCESS,282,2015-08-29 16:10:24 +0200,Made the redis client dependencies optional,692,32813
+1028,4fdd0704,SUCCESS,25,SUCCESS,20,SUCCESS,280,2015-09-25 01:36:06 +0530,Fixed Url,692,32813
+1029,747a0df9,SUCCESS,25,SUCCESS,21,FAIL,138,2015-10-06 11:45:39 +0100,Add support for x-forwarded-prefix to SpelView,692,32815
+1030,7466dbdb,SUCCESS,25,SUCCESS,19,FAIL,138,2015-10-06 12:04:28 +0100,Add test suite for ordering tests,693,32826
+1031,6a436db6,SUCCESS,24,SUCCESS,21,FAIL,126,2015-09-17 12:21:19 +0200,Allow creating custom grant types based on existing ones,693,32845
+1032,234ec98f,SUCCESS,24,SUCCESS,19,SUCCESS,291,2015-10-06 13:45:55 +0100,Fix SpelView for Spring 4.2 and empty context path,693,32846
+1033,fa967f01,SUCCESS,27,SUCCESS,20,SUCCESS,286,2015-10-22 13:20:14 +0100,Be more defensive in whitelabel error view,693,32858
+1034,500856e1,SUCCESS,28,SUCCESS,19,SUCCESS,292,2015-10-22 15:04:35 +0100,Allow single-valued AUD claim in JWT token,693,32880
+1035,2e091f8f,SUCCESS,27,SUCCESS,19,SUCCESS,280,2015-10-22 15:22:18 +0100,Add support for check-token-endpoint-url in XML parser,693,32932
+1036,fe645eb1,SUCCESS,31,SUCCESS,19,SUCCESS,289,2015-10-22 15:57:56 +0100,Update samples to  Boot 1.2.7,693,32894
+1037,b8603c0e,SUCCESS,22,SUCCESS,19,SUCCESS,281,2015-10-22 16:24:08 +0100,Update to 2.0.8,693,32894
+1038,37ed413a,SUCCESS,21,SUCCESS,16,SUCCESS,291,2015-10-21 16:31:00 +0200,Allow custom authentication filters for the TokenEndpoint.,697,33069
+1039,00afb535,SUCCESS,22,SUCCESS,18,SUCCESS,289,2015-10-22 17:08:17 +0100,Switch back to snapshots for 2.0.9,697,33069
+1040,3425e1d5,SUCCESS,26,SUCCESS,19,SUCCESS,284,2015-11-19 10:43:43 +0100,WhiteLabelErrorEndpoint XSS vulnerability fix,697,33082
+1041,26049618,SUCCESS,33,SUCCESS,18,FAIL,110,2015-11-26 17:46:27 +0000,Update Spring Boot samples to 1.3,697,33086
+1042,5505f6ed,SUCCESS,21,SUCCESS,18,FAIL,102,2015-12-07 10:03:39 +0000,Ensure default refresh token is non-expiring in Jwt,697,33142
+1043,e30aefd0,SUCCESS,21,SUCCESS,17,FAIL,109,2015-12-07 10:56:09 +0000,Add sentence on port matching for redirects,697,33142
+1044,22298e19,SUCCESS,23,SUCCESS,17,FAIL,104,2015-12-07 10:56:30 +0000,Change default order in FrameworkEndpointHandlerMapping,697,33142
+1045,7bcf6ec2,SUCCESS,23,SUCCESS,16,FAIL,104,2015-12-07 11:57:58 +0000,Polish indents for readability,697,33142
+1046,720899ad,SUCCESS,24,SUCCESS,17,FAIL,108,2015-12-06 07:38:02 +0000,Fix minor typo,697,33142
+1047,21fce68a,FAIL,4,NO,0,NO,0,2015-11-30 12:30:20 +0000,Upgrade Spring Boot to 1.3 and make sure tests pass,697,33131
+1048,cd932370,FAIL,3,NO,0,NO,0,2015-12-07 12:07:39 +0000,Remove .springBeans,697,33131
+1049,a9da8700,FAIL,5,NO,0,NO,0,2015-12-07 12:14:02 +0000,Temporarily add repository declarations for samples,697,33131
+1050,c4efb717,FAIL,5,NO,0,NO,0,2015-12-07 13:58:33 +0000,Add ssl tests,707,33386
+1051,3e1d0e03,FAIL,4,NO,0,NO,0,2015-12-07 15:08:25 +0000,Ensure CheckTokenEndpoint has an AccessTokenCoverter,707,33389
+1052,4ed56514,FAIL,4,NO,0,NO,0,2015-12-08 10:42:20 +0000,Skip tests if embedded redis fails to start,707,33393
+1053,1efcf3b3,FAIL,4,NO,0,NO,0,2015-12-08 10:46:18 +0000,Use expire instead of expireAt for refresh token,707,33395
+1054,e43925a3,FAIL,4,NO,0,NO,0,2015-12-08 11:08:23 +0000,Add optional prefix to RedisTokenStore,708,33469
+1055,b3e3e4a3,FAIL,5,NO,0,NO,0,2016-01-14 13:06:07 +0000,Remove mouldy license files,708,33469
+1056,460e10ff,FAIL,3,NO,0,NO,0,2016-02-02 10:10:16 -0600,Added Code of Conduct,708,33469
+1057,ca1d8608,FAIL,4,NO,0,NO,0,2016-02-10 10:20:25 +0000,Tidy up some compiler warnings,708,33467
+1058,9501b0d6,FAIL,4,NO,0,NO,0,2015-12-03 19:30:15 +0200,Fixed denied access status generating code,708,33474
+1059,13552734,FAIL,4,NO,0,NO,0,2016-02-11 13:49:49 +0000,Fix potential cycle caused by cached details in token services,708,33489
+1060,4572c2a9,SUCCESS,31,SUCCESS,18,FAIL,301,2016-02-20 16:15:10 +0000,Add JPA sample app,718,33832
+1061,a39a0944,SUCCESS,25,SUCCESS,19,FAIL,301,2016-02-20 16:18:10 +0000,Update tests to Boot 1.3.2,718,33832
+1062,8c9e8ec7,SUCCESS,25,SUCCESS,19,FAIL,300,2016-02-20 16:20:29 +0000,Update to 2.0.9 for release,718,33832
+1063,f8c8e66f,SUCCESS,23,SUCCESS,17,FAIL,301,2016-02-20 16:28:33 +0000,Revert to snapshots,718,33832
+1064,3efc6b3b,SUCCESS,25,SUCCESS,16,FAIL,301,2016-02-26 08:56:22 +0000,Add typ to header for new tokens,718,33876
+1065,0d7a4a54,SUCCESS,23,SUCCESS,19,FAIL,301,2016-02-26 09:01:01 +0000,Update to 1.0.4,718,33876
+1066,4f01e4a9,SUCCESS,23,SUCCESS,20,FAIL,301,2016-02-26 09:01:38 +0000,Revert to snapshots,718,33876
+1067,fff77d3f,SUCCESS,22,SUCCESS,17,FAIL,301,2016-03-12 10:07:00 +0000,Prevent recursive placeholders in whitelabel views,719,33910
+1068,ac142a6c,SUCCESS,22,SUCCESS,17,FAIL,301,2016-02-11 11:05:50 +0000,Use thread context class loader to load classes during deserialization,719,33916
+1069,65d5f332,SUCCESS,23,SUCCESS,19,FAIL,301,2016-05-03 15:17:00 +0100,Publish authentication events in OAuth2 client authentication filter,720,33950
+1070,a924e104,SUCCESS,22,SUCCESS,17,FAIL,301,2016-05-03 15:35:00 +0100,Remove global anoymous authenticator from resource server config,720,33911
+1071,1d102f19,SUCCESS,23,SUCCESS,17,FAIL,35,2016-05-05 11:41:03 -0500,Remove Embedded Redis,720,33892
+1072,08d4a0de,SUCCESS,22,SUCCESS,21,FAIL,39,2016-05-05 13:05:31 -0500,Add redis to .travis,720,33892
+1073,24f0e745,SUCCESS,24,SUCCESS,18,FAIL,36,2016-05-05 17:08:05 -0500,Change Log Levels to WARN,720,33892
+1074,3b3a1d6c,SUCCESS,23,SUCCESS,18,FAIL,37,2016-05-05 17:31:08 -0500,Make Javadoc quiet,720,33892
+1075,7ee390a3,SUCCESS,22,SUCCESS,17,FAIL,33,2016-05-05 17:44:32 -0500,Merge pull request #753 from rwinch/gh-752-fix-travis,720,33892
+1076,e30a7af8,SUCCESS,22,SUCCESS,17,FAIL,36,2016-03-31 17:51:10 +0300,"Changing reference to Sparkl OAuth 1 sample app, so that mvn tomcat7:run command would work correctly.",720,33892
+1077,3ba30c7c,SUCCESS,24,SUCCESS,21,FAIL,37,2016-05-12 14:45:41 -0400,Fix link to Java Config Samples,720,33892
+1078,778f7758,SUCCESS,24,SUCCESS,18,FAIL,39,2016-05-12 16:18:28 -0400,Fix subdomain matching in DefaultRedirectResolver,720,33902
+1079,3cc9b24e,SUCCESS,22,SUCCESS,17,FAIL,38,2016-05-12 18:01:10 -0400,Apply port matching in DefaultRedirectResolver,720,33927
+1080,7d0d2bae,SUCCESS,24,SUCCESS,18,FAIL,36,2016-05-13 08:49:10 +0100,Add support for custom headers in JWT,720,33954
+1081,f0cddd90,SUCCESS,22,SUCCESS,18,FAIL,36,2016-05-13 09:18:26 +0100,Remove unused enc and iv fields in header,720,33936
+1082,0e123f3f,SUCCESS,24,SUCCESS,17,FAIL,36,2016-05-13 09:18:36 +0100,Fix ruby integration test,720,33938
+1083,4d30116c,SUCCESS,23,SUCCESS,18,FAIL,34,2016-05-13 09:21:31 +0100,Update for 1.0.5 release,720,33938
+1084,9e18028e,SUCCESS,21,SUCCESS,19,FAIL,37,2016-05-13 09:21:58 +0100,Revert to snapshots,720,33938
+1085,ea335729,SUCCESS,24,SUCCESS,18,FAIL,37,2016-05-13 09:24:32 +0100,Clarify usage of ruby integration test,720,33938
+1086,3b2e2127,SUCCESS,16,SUCCESS,12,FAIL,41,2016-05-13 09:25:23 +0100,Add Maven wrapper for better stability of build,720,33938
+1087,51bde976,SUCCESS,16,SUCCESS,11,FAIL,37,2016-05-13 11:48:05 -0400,Enable/Disable port matching in DefaultRedirectResolver,720,33954
+1088,bbf38c2a,SUCCESS,15,SUCCESS,12,FAIL,36,2016-05-13 14:57:33 -0400,Fix logout link tonr2 sample,720,33954
+1089,3b6a9d00,SUCCESS,15,SUCCESS,12,FAIL,38,2016-05-13 16:12:27 -0400,Fix OAuth2Request.resourceIds constructor assignment,720,33963
+1090,bf485996,SUCCESS,15,SUCCESS,12,FAIL,38,2016-01-23 17:01:19 +0100,Store enhanced refresh token on refreshAccessToken,720,33983
+1091,fcf35c11,SUCCESS,14,SUCCESS,10,FAIL,38,2016-03-27 12:47:02 -0500,Add support for scopes as JSON array,720,33998
+1092,1a10cf28,SUCCESS,15,SUCCESS,12,FAIL,37,2016-05-17 17:37:45 -0400,Add support for single scope String type,720,34030
+1093,b081c601,SUCCESS,14,SUCCESS,11,FAIL,39,2016-05-18 09:16:04 -0400,Fix broken test for DefaultAccessTokenConverter,720,34030
+1094,877d096c,SUCCESS,15,SUCCESS,11,FAIL,41,2016-05-18 12:16:05 -0400,Fix NPE in OAuth2ExceptionJackson2Deserializer,720,34034
+1095,e8a8c46a,SUCCESS,14,SUCCESS,12,FAIL,38,2016-05-18 14:02:46 -0400,Erase credentials for User Authentication,720,34046
+1096,6f0abcf1,SUCCESS,13,SUCCESS,12,FAIL,38,2016-05-19 15:15:43 -0400,Set PasswordEncoder to ClientDetailsUserDetailsService,720,34048
+1097,a0e25911,SUCCESS,15,SUCCESS,12,FAIL,38,2016-05-20 12:42:13 -0400,Remove keys in RedisTokenStore on revoke,721,34121
+1098,78f633f3,SUCCESS,16,SUCCESS,11,FAIL,35,2016-05-24 14:15:45 -0400,Update javadoc ClientDetails.getAuthorities(),721,34121
+1099,af6cab55,SUCCESS,16,SUCCESS,12,FAIL,38,2016-05-25 11:57:41 -0400,Fix deserialization of UnauthorizedClientException,721,34083
+1100,b055772a,SUCCESS,15,SUCCESS,11,FAIL,37,2016-05-26 14:21:34 -0400,Preserve refresh token on access token refresh,721,34129
+1101,dea14c0d,SUCCESS,13,SUCCESS,12,FAIL,38,2016-06-03 07:51:33 +0100,Fix compiler error in Eclipse,721,34130
+1102,85108824,SUCCESS,14,SUCCESS,11,FAIL,37,2016-06-03 07:52:23 +0100,Fix compiler warnings,721,34129
+1103,23ffa985,SUCCESS,14,SUCCESS,12,FAIL,39,2016-06-03 07:54:41 +0100,Fix compiler warnings,721,34128
+1104,ab9afdcc,SUCCESS,15,SUCCESS,11,FAIL,39,2016-06-03 11:27:23 +0100,Match on mapped path instead of raw path,721,34128
+1105,205d0179,SUCCESS,14,SUCCESS,12,FAIL,38,2016-06-03 11:27:58 +0100,Use basic auth entry point as default for token endpoint,721,34133
+1106,61275f4f,SUCCESS,15,SUCCESS,11,FAIL,38,2016-06-03 11:29:02 +0100,Add test for custom mapping of auth server endpoints,721,34178
+1107,68e34250,SUCCESS,72,SUCCESS,11,FAIL,40,2016-06-03 12:00:36 +0100,Upgrade integration tests to latest Boot,721,34178
+1108,e91378b5,SUCCESS,16,SUCCESS,12,FAIL,38,2016-06-03 12:17:47 +0100,Update to 2.0.10,721,34178
+1109,a0352ca3,SUCCESS,14,SUCCESS,11,FAIL,38,2016-06-03 12:51:11 +0100,Revert to snapshots,721,34178
+1110,1ed986a8,SUCCESS,13,SUCCESS,12,FAIL,40,2016-08-18 16:26:43 -0400,Prevent user from obtaining token via client_credentials or password grant,724,34411
+1111,7b4a5a4b,SUCCESS,14,SUCCESS,11,FAIL,35,2016-08-25 16:33:10 +0100,Release 2.0.11,724,34411
+1112,e860129c,SUCCESS,13,SUCCESS,12,FAIL,41,2016-08-25 16:45:05 +0100,Revert to snapshots,724,34411
+1113,ec215f79,SUCCESS,15,SUCCESS,11,FAIL,37,2016-08-24 08:38:18 +0100,Added warning message to the RemoteTokenServices,724,34413
+1114,37f1420e,SUCCESS,14,SUCCESS,12,FAIL,37,2016-09-22 13:08:28 +0100,Switch @Configuration to @Component,724,34414
+1115,3861cb54,SUCCESS,14,SUCCESS,12,FAIL,40,2016-09-22 13:51:42 +0100,Add docker-compose.yml for redis tests,724,34414
+1116,fdb83727,SUCCESS,14,SUCCESS,12,FAIL,37,2016-09-22 13:51:49 +0100,"Use incoming refresh token if it exists, otherwise revert to old one",724,34456
+1117,f165cc6f,SUCCESS,14,SUCCESS,12,FAIL,40,2016-09-23 11:02:22 +0100,Fix repositories in samples,724,34456
+1118,c4c2a80b,SUCCESS,15,SUCCESS,12,FAIL,36,2016-09-25 22:31:42 +0200,Parameter 'scopePrefix' is used in all methods. (#540),724,34456
+1119,f7cef65e,SUCCESS,14,SUCCESS,11,FAIL,40,2016-10-10 14:25:28 -0400,OAuth2ErrorHandler correctly handles 'access_denied',724,34477
+1120,fb1686e1,SUCCESS,15,SUCCESS,11,FAIL,36,2016-10-11 16:19:20 +0100,Verify that public methods can be called,725,34527
+1121,12b8c1c6,SUCCESS,16,SUCCESS,11,FAIL,39,2016-10-11 16:19:27 +0100,Add setters for signer and verifier in JwtAccessTokenConverter,725,34544
+1122,7177f64a,SUCCESS,15,SUCCESS,11,FAIL,39,2016-10-11 15:39:27 -0400,Removing AccessToken should not remove Approvals,725,34530
+1123,165600b2,SUCCESS,14,SUCCESS,11,FAIL,41,2016-10-12 10:26:28 +0100,Fix autoapprovals not being added to approval store,725,34548
+1124,de5f717e,SUCCESS,14,SUCCESS,11,FAIL,42,2016-09-02 10:04:38 -0500,Add support for parsing space-delimited scopes,725,34562
+1125,165fc6a6,SUCCESS,14,SUCCESS,11,FAIL,37,2016-08-05 18:54:47 -0400,BaseRequest.setRequestParameters ensures defensive copy,725,34579
+1126,dd369f2b,SUCCESS,15,SUCCESS,11,FAIL,38,2016-10-07 14:47:49 -0500,Sort scopes before generating key,727,34670
+1127,8330bda7,SUCCESS,16,SUCCESS,11,FAIL,39,2016-10-20 15:22:12 -0400,Polish key generation and test gh-874,726,34654
+1128,0f43bb8c,SUCCESS,15,SUCCESS,11,FAIL,37,2016-10-21 09:39:24 -0400,Html escape error response,726,34662
+1129,6b0a15e1,SUCCESS,13,SUCCESS,11,FAIL,41,2016-11-07 13:15:45 -0500,Update to 2.0.12 for release,726,34662
+1130,55e33eb1,SUCCESS,14,SUCCESS,11,FAIL,36,2016-11-07 15:32:31 -0500,Revert to snapshot for 2.0.13,726,34662
+1131,225cb264,SUCCESS,14,SUCCESS,11,FAIL,39,2016-11-14 13:57:21 +0100,Remove unnessesary try-catch block.,726,34658
+1132,a2275745,SUCCESS,15,SUCCESS,13,FAIL,37,2016-11-16 16:14:22 +0000,Update bouncy castle to 1.55 for 1.0.6,726,34658
+1133,8f037a29,SUCCESS,14,SUCCESS,13,FAIL,37,2016-11-16 16:16:01 +0000,Revert to snapshots,726,34658
+1134,552bac06,SUCCESS,14,SUCCESS,11,FAIL,42,2016-11-17 09:45:59 -0500,Allow independent configuration of check-token-endpoint-url,726,34667
+1135,0c52e75b,SUCCESS,16,SUCCESS,12,FAIL,40,2016-11-28 05:48:20 +0000,Add JwtHelper.header() convenience method to access headers,726,34682
+1136,a8780322,SUCCESS,14,SUCCESS,11,FAIL,40,2016-11-28 05:53:06 +0000,Revert to snapshots in JWT,726,34682
+1137,8d596823,SUCCESS,14,SUCCESS,11,FAIL,36,2016-03-19 23:17:29 -0400,Allow default handling when HttpMessageConversionException occurs.,726,34722
+1138,49bdbab0,SUCCESS,15,SUCCESS,12,FAIL,36,2016-12-21 09:28:34 +0000,Add explicit media type to request attributes,726,34727
+1139,d57ba277,SUCCESS,15,SUCCESS,11,FAIL,37,2016-12-21 10:09:03 +0000,Remove jsonp response from sparklr2,726,34721
+1140,a06049ed,SUCCESS,15,SUCCESS,11,FAIL,39,2017-01-16 12:26:43 -0500,Provide default impl ResourceServerConfigurerAdapter.configure(http),726,34722
+1141,6abfce20,SUCCESS,17,SUCCESS,12,FAIL,40,2017-01-16 15:13:07 -0500,Bump spring-security 3.2.8.RELEASE -> 3.2.10.RELEASE,726,34722
+1142,f66a1658,SUCCESS,15,SUCCESS,12,FAIL,39,2017-02-13 15:16:13 -0500,Add TokenStore supporting Jwk verification,735,35140
+1143,4f65bf48,SUCCESS,14,SUCCESS,11,FAIL,39,2017-02-13 16:08:22 -0500,"Revert ""Add TokenStore supporting Jwk verification""",726,34722
+1144,d15f6f6e,SUCCESS,15,SUCCESS,12,FAIL,40,2017-02-13 16:09:22 -0500,Add TokenStore supporting Jwk verification,735,35140
+1145,5ad17106,SUCCESS,14,SUCCESS,12,FAIL,42,2017-02-20 16:30:22 +0000,Add test for ambiguous token services,736,35167
+1146,df2466a9,SUCCESS,15,SUCCESS,12,FAIL,40,2017-02-21 15:17:31 +0000,Use FactoryBean to expose @Beans of different TokenServices flavours,736,35199
+1147,c9b2bbab,SUCCESS,101,SUCCESS,12,FAIL,41,2017-02-21 17:28:37 +0000,Update to Spring Boot 1.5.1,736,35013
+1148,2bea96bb,SUCCESS,14,SUCCESS,12,FAIL,37,2017-02-22 12:38:04 -0500,Polish TokenStore supporting Jwk verification,742,35417
+1149,44c97375,SUCCESS,16,SUCCESS,11,FAIL,38,2017-03-01 11:44:46 -0500,Polish gh-977,744,35525
+1150,220183d8,SUCCESS,16,SUCCESS,13,FAIL,39,2017-03-01 19:59:41 -0500,Release version 2.1.0.RELEASE,744,35525
+1151,5dbb8a22,SUCCESS,14,SUCCESS,12,FAIL,39,2017-03-02 17:46:55 -0500,Next development version,744,35525
+1152,0651688c,SUCCESS,15,SUCCESS,12,FAIL,38,2017-03-08 08:07:42 +0100,Read RSA PK modulus/exponent as unsigned int from JWK,744,35554
+1153,536de809,SUCCESS,16,SUCCESS,12,FAIL,40,2017-05-08 15:46:13 -0400,Call delegate when JwkTokenStore.removeAccessToken() called,744,35560
+1154,3ae2d7ee,SUCCESS,14,SUCCESS,12,FAIL,36,2016-09-15 20:49:23 -0300,Fix NPE on evicted authentication,744,35561
+1155,1cb6ce40,SUCCESS,15,SUCCESS,12,FAIL,41,2017-05-12 10:29:07 -0400,Upgrade bcpkix-jdk15on to 1.5.6,744,35561
+1156,b418cab1,SUCCESS,15,SUCCESS,11,FAIL,36,2017-05-15 12:02:56 -0400,CheckTokenEndpoint returns 'active' attribute,745,35597
+1157,f1a9b976,SUCCESS,16,SUCCESS,11,FAIL,40,2017-05-12 17:19:50 -0400,RemoteTokenServices validates 'active' attribute,746,35653
+1158,e286111e,SUCCESS,15,SUCCESS,12,FAIL,41,2017-05-09 14:34:43 -0400,Build against Spring Framework 5,746,35673
+1159,f065d8d4,SUCCESS,15,SUCCESS,11,FAIL,43,2017-04-06 16:17:52 +0800,Fix typo,746,35673
+1160,a2ced397,SUCCESS,15,SUCCESS,11,FAIL,40,2017-05-25 16:31:48 +0100,Fix minor typo,746,35673
+1161,8da41157,SUCCESS,15,SUCCESS,12,FAIL,39,2017-05-29 12:48:26 -0400,Revert to snapshots for JWT,746,35673
+1162,d8eb4f4b,SUCCESS,17,SUCCESS,11,FAIL,39,2017-05-29 12:53:07 -0400,Upgrade spring.security.jwt to 1.0.8.RELEASE,746,35673
+1163,0d903607,SUCCESS,15,SUCCESS,12,FAIL,35,2017-05-29 14:28:21 -0400,Release version 2.1.1.RELEASE,746,35673
+1164,064dbfdc,SUCCESS,15,SUCCESS,12,FAIL,38,2017-05-29 15:04:22 -0400,Next development version,746,35673
+1165,65f54ebc,SUCCESS,15,SUCCESS,11,FAIL,39,2017-06-15 09:00:12 +0100,JwkSetConverter should handle arrays,746,35685
+1166,fe5df2f3,SUCCESS,14,SUCCESS,12,FAIL,41,2017-06-26 11:08:40 -0400,Resolve compile error Spring 5 MultiValueMap.addAll(MultiValueMap),746,35684
+1167,a9990f4b,SUCCESS,15,SUCCESS,13,FAIL,38,2017-06-26 11:44:55 -0400,Add build profile against Spring Security 5,746,35684
+1168,f61f19c3,SUCCESS,15,SUCCESS,12,FAIL,39,2017-06-26 13:03:21 -0400,Update travis.yml to use openjdk6,746,35684
+1169,0d38a030,SUCCESS,16,SUCCESS,12,FAIL,39,2017-06-26 13:37:33 -0400,Update travis.yml to use jdk7/jdk8,746,35684
+1170,64d76515,SUCCESS,16,SUCCESS,11,FAIL,40,2017-06-27 16:20:55 -0500,Update to 2.2.0.BUILD-SNAPSHOT,746,35684
+1171,9e3cb1e5,SUCCESS,16,SUCCESS,14,FAIL,42,2017-06-27 16:26:01 -0500,JwkTokenStore Supports Multiple JWK Set URLs,747,35748
+1172,beb0ea6f,SUCCESS,15,SUCCESS,12,FAIL,36,2017-06-28 16:05:19 -0500,Fix race condition in getDefinitionLoadIfNecessary,747,35749
+1173,27f9f1d6,SUCCESS,12,SUCCESS,11,FAIL,37,2017-06-28 16:34:30 -0500,JwkDefinitionSource.getDefinitionLoadIfNecessary return JwkDefinitionHolder,747,35746
+1174,8220da2c,SUCCESS,15,SUCCESS,12,FAIL,35,2017-06-30 10:58:53 -0400,JwkTokenStore accepts custom AccessTokenConverter,747,35786
+1175,9b7d5767,SUCCESS,14,SUCCESS,12,FAIL,37,2017-07-13 11:20:53 -0400,JWK alg parameter should be optional,747,35781
+1176,a0230eec,SUCCESS,16,SUCCESS,11,FAIL,41,2017-07-10 15:12:19 -0400,Add JWT Claims Set verifier,749,35846
+1177,9ef803a6,SUCCESS,17,SUCCESS,12,FAIL,39,2017-07-13 14:06:01 -0400,Add JwtClaimsSetVerifier for Issuer check,751,35887
+1178,b4f791ef,SUCCESS,15,SUCCESS,11,FAIL,36,2017-07-11 16:20:10 -0400,Add client for provider metadata discovery,754,36009
+1179,b8695110,SUCCESS,15,SUCCESS,13,FAIL,39,2017-07-13 15:28:21 -0400,Add integration test for issuer claim verification,755,36084
+1180,01500f22,SUCCESS,14,SUCCESS,11,FAIL,38,2017-07-02 13:38:55 +0200,Use setters in Approval constructor,755,36084
+1181,2b99e652,SUCCESS,14,SUCCESS,12,FAIL,38,2017-07-13 17:04:26 -0400,Release version 2.2.0.RC1,755,36084
+1182,2686a039,SUCCESS,15,SUCCESS,13,FAIL,40,2017-07-14 11:20:04 -0400,Revert to 2.2.0.BUILD-SNAPSHOT,755,36084
+1183,4701c737,SUCCESS,15,SUCCESS,12,FAIL,37,2017-07-28 10:28:11 -0400,Release version 2.2.0.RELEASE,755,36084
+1184,179ec57c,SUCCESS,15,SUCCESS,11,FAIL,39,2017-07-28 12:01:16 -0400,Next development version,755,36084
+1185,1a7cc9d2,SUCCESS,15,SUCCESS,12,FAIL,40,2017-08-02 16:49:32 -0600,Fix NPE when JWK alg missing,755,36104
+1186,97e26561,SUCCESS,16,SUCCESS,13,FAIL,39,2017-08-29 12:47:32 +0200,Fix `IllegalArgumentException` on malformed JOSE header,755,36114
+1187,11f24d64,SUCCESS,15,SUCCESS,12,FAIL,40,2017-09-18 13:04:25 -0400,Update travis.yml to use openjdk7,755,36114
+1188,0f732e48,SUCCESS,14,SUCCESS,12,FAIL,40,2017-08-01 17:20:45 +0200,Avoid refresh token when client credentials flow,755,36131
+1189,e2e2e442,SUCCESS,16,SUCCESS,13,FAIL,37,2017-11-20 07:45:24 +0100,Ignore unsupported JWK types when parsing JWK set,755,36133
+1190,dd9eabd7,SUCCESS,14,SUCCESS,11,FAIL,41,2017-11-20 15:20:37 -0500,Disable spring5 travis build,755,36133
+1191,bfdde455,SUCCESS,15,SUCCESS,11,FAIL,39,2017-11-20 16:46:37 -0500,Return generic message when error code 'server_error',756,36146
+1192,af51eaea,SUCCESS,14,SUCCESS,12,FAIL,35,2017-11-20 17:38:16 -0500,Remove logging of form data in OAuth2AuthTokenCallback,756,36145
+1193,7219ba46,SUCCESS,16,SUCCESS,11,FAIL,41,2017-11-20 21:47:52 -0500,Fix sslOnly in AuthorizationServerSecurityConfigurer,756,36150
+1194,0bc2a67f,SUCCESS,13,SUCCESS,12,FAIL,37,2017-11-21 08:35:54 -0500,Improve logging in TokenEndpoint,756,36154
+1195,ffd9d4b9,SUCCESS,14,SUCCESS,13,FAIL,39,2017-11-21 13:17:10 -0500,Release version 2.2.1.RELEASE,756,36154
+1196,fed554e6,SUCCESS,16,SUCCESS,12,FAIL,38,2017-11-21 14:30:57 -0500,Next development version,756,36154
+1197,af031939,SUCCESS,14,SUCCESS,12,FAIL,40,2017-09-15 14:25:53 +0300,Add Elliptic Curve verification support for spring-security-jwt,759,36293
+1198,8fc19343,SUCCESS,15,SUCCESS,12,FAIL,42,2017-12-19 22:15:48 -0500,Polish #1161 Add Elliptic Curve verification support for spring-security-jwt,760,36366
+1199,095a6499,SUCCESS,15,SUCCESS,12,FAIL,40,2017-12-20 09:56:36 -0500,Release jwt1.0.9.RELEASE,760,36366
+1200,f2592c1e,SUCCESS,15,SUCCESS,13,FAIL,37,2017-12-20 10:28:35 -0500,Revert to snapshots spring-security-jwt,760,36366
+1201,0e7e6ced,SUCCESS,16,SUCCESS,11,FAIL,38,2017-12-20 11:18:47 -0500,Update to 2.3.0.BUILD-SNAPSHOT,760,36366
+1202,181cae9a,FAIL,5,NO,0,NO,0,2017-09-15 14:31:08 +0300,Add support for Elliptic Curve JWK signatures,761,36519
+1203,cc4c0a52,SUCCESS,16,SUCCESS,11,FAIL,38,2017-12-20 12:16:07 -0500,Polish #1162 Add support for Elliptic Curve JWK signatures,761,36558
+1204,3148a7d8,SUCCESS,16,SUCCESS,11,FAIL,41,2018-02-01 10:04:10 -0500,Reduce logging severity in TokenEndpoint,761,36558
+1205,e5dab239,SUCCESS,14,SUCCESS,12,FAIL,39,2017-10-18 15:53:42 +0200,Make RedirectResolver configurable for AuthorizationEndpoint,761,36608
+1206,c7ba7a56,SUCCESS,14,SUCCESS,12,FAIL,40,2018-01-22 16:59:08 +0200,Allow configuring AuthenticationDetailsSource via ResourceServerSecurityConfigurer,761,36652
+1207,a62250bd,SUCCESS,13,SUCCESS,12,FAIL,37,2015-10-19 10:41:36 +0200,Make WebResponseExceptionTranslator generic.,761,36660
+1208,1a3ac6ee,SUCCESS,16,SUCCESS,12,FAIL,39,2018-02-13 15:48:32 -0500,Token response returns application/json Content-Type,761,36679
+1209,4c43f56a,SUCCESS,16,SUCCESS,12,FAIL,40,2018-02-01 11:09:12 -0500,Propagate additional oauth parameters from resource,762,36758
+1210,1ade2cf8,SUCCESS,16,SUCCESS,13,FAIL,40,2018-02-21 10:16:46 +0100,Make client id and scope attribute names of the converted token configurable,762,36824
+1211,f2309089,SUCCESS,16,SUCCESS,13,FAIL,38,2018-02-27 09:14:41 -0500,Release version 2.3.0.RC1,762,36824
+1212,a460ee44,SUCCESS,13,SUCCESS,11,FAIL,39,2018-02-27 09:43:20 -0500,Revert to 2.3.0.BUILD-SNAPSHOT,762,36824
+1213,f0b82d84,SUCCESS,14,SUCCESS,12,FAIL,40,2018-03-15 21:50:43 -0400,Release version 2.3.0.RELEASE,762,36824
+1214,8f45c49f,SUCCESS,15,SUCCESS,12,FAIL,40,2018-03-16 11:35:39 -0400,Revert to 2.3.1.BUILD-SNAPSHOT,762,36824
+1215,7d8fd256,SUCCESS,14,SUCCESS,13,FAIL,42,2018-03-22 16:46:42 -0400,Ensure RedisTokenStore works with spring-data-redis 2.x,762,36861
+1216,92d02af8,SUCCESS,14,SUCCESS,12,FAIL,39,2018-03-22 17:39:58 -0400,Fix tests,762,36874
+1217,c00654c7,SUCCESS,14,SUCCESS,12,FAIL,40,2018-03-22 17:53:39 -0400,Update travis with Spring5 build,762,36874
+1218,3f95635c,SUCCESS,16,SUCCESS,11,FAIL,40,2018-03-26 12:26:27 +0300,Corrected configuration class name in docs,762,36874
+1219,b7cbde93,SUCCESS,16,SUCCESS,11,FAIL,38,2018-03-01 14:59:54 +0300,Replace `database` to `store` in javadoc,762,36874
+1220,630a3a46,SUCCESS,15,SUCCESS,13,FAIL,39,2018-03-15 00:10:41 -0300,Fix typos,762,36874
+1221,a98cc786,SUCCESS,16,SUCCESS,11,FAIL,38,2018-03-15 00:16:59 -0300,Improve code blocks indentation,762,36874
+1222,fd8d7279,SUCCESS,14,SUCCESS,13,FAIL,38,2018-03-12 14:37:24 +0000,Update README.md,762,36874
+1223,d0e76504,SUCCESS,15,SUCCESS,11,FAIL,40,2017-12-20 21:03:27 +0000,Correct OAuth2RestTemplate configuration in docs,762,36874
+1224,39d6504c,SUCCESS,15,SUCCESS,11,FAIL,39,2017-10-17 09:49:47 -0200,Fix typo - he -> the,762,36874
+1225,524a9e98,SUCCESS,14,SUCCESS,12,FAIL,41,2017-10-16 13:30:54 -0400,Update javadoc,762,36874
+1226,c055eb6a,SUCCESS,16,SUCCESS,12,FAIL,42,2018-04-09 12:19:09 -0400,Perform exact matching on path in DefaultRedirectResolver,762,36870
+1227,e45eb1f9,SUCCESS,14,SUCCESS,12,FAIL,38,2017-04-15 12:28:39 +0900,Add isDebugEnabled,762,36881
+1228,3f18057b,SUCCESS,16,SUCCESS,13,FAIL,42,2018-04-10 13:53:11 -0400,Release version 2.3.1.RELEASE,762,36881
+1229,f901cff3,SUCCESS,14,SUCCESS,11,FAIL,36,2018-04-10 14:37:56 -0400,Revert to 2.3.2.BUILD-SNAPSHOT,762,36881
+1230,0c824015,SUCCESS,14,SUCCESS,12,FAIL,37,2018-04-11 20:33:37 -0400,Ensure RedisTokenStore.storeRefreshToken() works with spring-data-redis 2.x,762,36888
+1231,97e39dde,SUCCESS,14,SUCCESS,12,FAIL,40,2018-04-11 20:38:30 -0400,Release version 2.3.2.RELEASE,762,36888
+1232,f9414d54,SUCCESS,16,SUCCESS,13,FAIL,41,2018-04-11 21:17:11 -0400,Revert to 2.3.3.BUILD-SNAPSHOT,762,36888
+1233,70e5ba84,SUCCESS,15,SUCCESS,11,FAIL,41,2018-05-07 16:37:51 -0400,DefaultOAuth2RequestAuthenticator resolves Bearer syntax,762,36927
+1234,adb1e6d1,SUCCESS,15,SUCCESS,12,FAIL,39,2018-04-18 20:05:36 -0400,Remove SpelView in WhitelabelApprovalEndpoint,760,36943
+1235,4d5517c6,SUCCESS,15,SUCCESS,12,FAIL,41,2018-05-08 15:03:26 -0400,Release version 2.3.3.RELEASE,760,36943
+1236,95033777,SUCCESS,17,SUCCESS,12,FAIL,46,2018-05-08 15:17:12 -0400,Revert to 2.3.4.BUILD-SNAPSHOT,760,36943
+1237,8251dfc0,SUCCESS,16,SUCCESS,13,FAIL,38,2018-05-28 10:42:22 -0400,Fix missing redirect-uri for tonr2 client,760,36944
+1238,60f39ce8,SUCCESS,13,SUCCESS,10,FAIL,40,2018-05-11 22:42:30 +0900,move list to set,760,36954
+1239,8eedb354,SUCCESS,14,SUCCESS,13,FAIL,37,2018-06-02 13:25:27 +0200,Fix exposed redirect_uris when redirect uri mismatch,760,36965
+1240,5d806e12,SUCCESS,14,SUCCESS,12,FAIL,36,2018-07-11 22:44:50 +0200,Upgrade bcpkix-jdk15on to 1.60,760,36965
+1241,98e60278,SUCCESS,14,SUCCESS,12,FAIL,40,2018-07-16 10:24:45 -0400,Merge pull request #1425 from signed/upgrade_bcpkix-jdk15on,760,36965
+1242,4082ec7a,SUCCESS,16,SUCCESS,12,FAIL,41,2018-10-05 14:41:26 -0400,Validate authorization request on approval,760,37124
+1243,2b0b8415,SUCCESS,15,SUCCESS,12,FAIL,39,2018-10-15 10:48:38 -0400,Release version 2.3.4.RELEASE,760,37124
+1244,4aa19ade,SUCCESS,14,SUCCESS,12,FAIL,41,2018-10-15 13:37:48 -0400,Revert to 2.3.5.BUILD-SNAPSHOT,760,37124
+1245,8e113095,SUCCESS,15,SUCCESS,12,FAIL,38,2019-01-24 15:24:16 +0000,Update to 1.0.10,760,37124
+1246,cdd0bb9d,SUCCESS,15,SUCCESS,12,FAIL,38,2019-01-24 15:25:08 +0000,Revert to snapshots,760,37124
+1247,9001e403,SUCCESS,14,SUCCESS,13,FAIL,43,2019-01-30 11:08:52 -0600,Create ISSUE_TEMPLATE.md,760,37124
+1248,be7e5c3d,SUCCESS,15,SUCCESS,13,FAIL,37,2019-01-30 11:09:21 -0600,Create PULL_REQUEST_TEMPLATE.md,760,37124
+1249,3927321f,SUCCESS,14,SUCCESS,13,FAIL,42,2018-11-21 17:25:23 +0100,"Allow missing ""active"" field in check_token/introspect response.",760,37135
+1250,ec78c7ba,SUCCESS,15,SUCCESS,12,FAIL,38,2019-01-12 21:11:58 +0100,Log generic Exceptions to ERROR with stack trace,760,37135
+1251,1e5536af,SUCCESS,15,SUCCESS,12,FAIL,40,2018-12-21 11:02:00 +0300,JwkSetConverter excludes enc keys,760,37137
+1252,97e0b4ab,SUCCESS,15,SUCCESS,11,FAIL,40,2019-01-28 23:13:55 -0800,DefaultRedirectResolver matches on userinfo and query,760,37230
+1253,852cec2b,SUCCESS,16,SUCCESS,13,FAIL,41,2018-08-02 15:47:18 +0200,Double-checked locking when loading Jwk definitions,760,37233
+1254,d8a0bb8f,SUCCESS,15,SUCCESS,12,FAIL,38,2019-02-19 13:06:05 -0500,Allow overriding 'active' attribute in CheckTokenEndpoint,760,37253
+1255,a453deac,SUCCESS,16,SUCCESS,12,FAIL,40,2019-02-19 14:47:00 -0500,Release version 2.3.5.RELEASE,760,37253
+1256,05cfb0e0,SUCCESS,15,SUCCESS,12,FAIL,38,2019-02-19 16:03:11 -0500,Next development version,760,37253
+1257,99462727,SUCCESS,14,SUCCESS,12,FAIL,36,2019-02-22 15:31:17 -0500,AuthenticationEntryPoint set on BasicAuthenticationFilter,761,37348
+1258,d2f5401f,SUCCESS,15,SUCCESS,12,FAIL,41,2019-02-25 12:22:49 -0500,Fix test,761,37353
+1259,31377e0c,SUCCESS,15,SUCCESS,12,FAIL,40,2019-03-05 21:00:57 -0600,URL Cleanup,761,37353
+1260,7be5eba6,SUCCESS,19,SUCCESS,13,FAIL,6,2019-03-06 13:09:22 -0500,Update to Spring 4.3.22.RELEASE,761,37353
+1261,36dc5d0c,SUCCESS,19,SUCCESS,11,FAIL,7,2019-03-06 13:12:28 -0500,Update to Spring Security 4.2.11.RELEASE,761,37353
+1262,adc4c90d,SUCCESS,16,SUCCESS,13,FAIL,32,2019-03-06 13:19:03 -0500,Update to JUnit 4.12,761,37353
+1263,29fcbe91,SUCCESS,15,SUCCESS,12,FAIL,31,2019-03-06 13:23:29 -0500,Update to Mockito 1.10.19,761,37353
+1264,c2ce6c5c,SUCCESS,17,SUCCESS,15,FAIL,47,2019-03-06 13:26:11 -0500,Update to Powermock 1.7.4,761,37353
+1265,366f9e0a,SUCCESS,19,SUCCESS,12,FAIL,47,2019-03-06 13:30:12 -0500,Update to Jackson2 2.9.8,761,37353
+1266,558a428d,SUCCESS,15,SUCCESS,11,FAIL,44,2019-03-06 13:34:15 -0500,Update to httpclient 4.5.6,761,37353
+1267,7bfe08d8,SUCCESS,15,SUCCESS,12,FAIL,45,2019-03-14 20:14:55 -0500,URL Cleanup,761,37353
+1268,835919b2,SUCCESS,15,SUCCESS,12,FAIL,50,2019-03-19 22:50:21 -0500,URL Cleanup,761,37353
+1269,6509dbdc,SUCCESS,14,SUCCESS,11,FAIL,10,2019-03-20 22:22:37 -0500,URL Cleanup,761,37353
+1270,ccbf68e0,SUCCESS,15,SUCCESS,13,FAIL,52,2019-03-21 13:36:55 -0400,Fix tests from URL Cleanup,761,37353
+1271,19ac546c,FAIL,3,NO,0,NO,0,2019-03-21 16:40:10 -0400,Update Spring to 4.3.23.BUILD-SNAPSHOT,761,37353
+1272,a7ce253b,FAIL,3,NO,0,NO,0,2019-03-21 16:41:31 -0400,Update Spring to 5.0.12.BUILD-SNAPSHOT in Spring5 profile,761,37354
+1273,bbae0027,FAIL,3,NO,0,NO,0,2019-03-22 13:39:50 -0400,Update Spring to 4.3.23.BUILD-SNAPSHOT in spring-security-oauth-tests,761,37354
+1274,f769ff98,FAIL,3,NO,0,NO,0,2019-05-28 10:36:40 -0600,Simplify Default Configuration,761,37365
+1275,966c91d5,SUCCESS,26,SUCCESS,12,FAIL,46,2019-05-28 10:41:15 -0600,Update to Spring 4.3.24.RELEASE,761,37365
+1276,8974a974,SUCCESS,15,SUCCESS,12,FAIL,46,2019-05-28 10:59:20 -0600,Update to Spring 5.0.14.RELEASE,761,37365
+1277,662390e5,SUCCESS,18,SUCCESS,11,FAIL,48,2019-05-28 12:37:08 -0600,Update to Spring Security 4.2.12.RELEASE,761,37365
+1278,33c0ac32,SUCCESS,16,SUCCESS,12,FAIL,47,2019-05-28 13:04:51 -0600,Release version 2.3.6.RELEASE,761,37365
+1279,3d37444a,SUCCESS,15,SUCCESS,11,FAIL,45,2019-05-28 15:19:25 -0600,Next development version,761,37365
+1280,1b8bbf92,SUCCESS,14,SUCCESS,12,FAIL,45,2019-08-06 14:58:16 -0500,Add maintenance mode disclaimer,761,37365
+1281,5df8fc1e,SUCCESS,16,SUCCESS,12,FAIL,44,2019-08-06 15:00:16 -0500,Update Maintenance Mode Formatting,761,37365
+1282,fccc0e1e,SUCCESS,15,SUCCESS,12,FAIL,45,2019-06-17 16:28:24 +0200,Don't log tokens in JdbcTokenStore,761,37365
+1283,825e763e,SUCCESS,15,SUCCESS,13,FAIL,47,2019-08-03 19:21:22 +0530,Fix typo in JavaDoc,761,37365
+1284,f3027bdd,SUCCESS,16,SUCCESS,12,FAIL,47,2019-10-09 16:37:33 -0400,Update travis.yml to use xenial dist,761,37365
+1285,2a096a0b,SUCCESS,15,SUCCESS,12,FAIL,47,2019-10-09 16:47:18 -0400,Update travis.yml to use trusty dist,761,37365
+1286,824553bb,SUCCESS,19,SUCCESS,12,FAIL,42,2019-07-24 15:05:14 -0400,Update to Spring Security 4.2.13.RELEASE,761,37365
+1287,87f8d8c7,SUCCESS,15,SUCCESS,13,FAIL,46,2019-07-30 17:49:37 +0300,Update to bouncycastle:bcpkix-jdk15on:1.62,761,37365
+1288,f9eb94b7,SUCCESS,14,SUCCESS,13,FAIL,47,2019-03-14 09:12:36 +0100,Fix URI matching if URI has no host,761,37371
+1289,7095b4a8,SUCCESS,17,SUCCESS,13,FAIL,43,2019-06-11 14:25:13 +0200,Safer deserialization in RedisTokenStore,763,37457
+1290,bb4e363b,SUCCESS,14,SUCCESS,12,FAIL,45,2019-07-11 14:03:10 +0200,Set cache control headers for implicit grant response,763,37481
+1291,7f214b7a,SUCCESS,15,SUCCESS,12,FAIL,45,2019-10-11 17:13:11 -0400,Polish gh-1726,763,37485
+1292,a336fc2a,SUCCESS,14,SUCCESS,13,FAIL,42,2019-07-05 15:24:49 +0200,Set to 303 status for authorization response,763,37498
+1293,3b41fe36,SUCCESS,16,SUCCESS,13,FAIL,49,2019-06-24 13:27:18 +0200,Close unreleased/open streams in certain locations,763,37538
+1294,20b0c5ca,SUCCESS,16,SUCCESS,13,FAIL,50,2019-06-26 16:20:40 +0200,Restrict CheckTokenEndpoint to POST method only,763,37571
+1295,947b03ca,SUCCESS,15,SUCCESS,12,FAIL,47,2019-05-10 14:31:45 +0200,Remove use of deprecated APIs in samples,763,37571
+1296,0c8baa28,SUCCESS,14,SUCCESS,12,FAIL,47,2019-10-14 13:58:55 -0600,Update Travis to OpenJDK 8,763,37571
+1297,763af1f4,SUCCESS,16,SUCCESS,12,FAIL,45,2019-10-14 14:25:40 -0600,Update Travis SDK Switch Command to OpenJDK 8,763,37571
+1298,ef28e1e4,SUCCESS,14,SUCCESS,11,FAIL,44,2019-10-14 15:21:24 -0600,Revert 'active' attribute override,763,37551
+1299,9d84370e,SUCCESS,16,SUCCESS,12,FAIL,47,2019-10-14 20:13:01 -0400,"Revert ""Html escape error response""",763,37543
+1300,36de7876,SUCCESS,15,SUCCESS,12,FAIL,45,2019-10-15 07:16:40 -0400,Validate OAuth2Exception error_description,764,37571
+1301,f6be1b0a,SUCCESS,15,SUCCESS,13,FAIL,46,2019-10-15 11:57:04 -0400,Invalid grant_type should not return input,764,37571
+1302,00498c94,SUCCESS,14,SUCCESS,13,FAIL,47,2019-10-15 13:36:16 -0600,URL Cleanup,764,37571
+1303,9da3eb0a,SUCCESS,16,SUCCESS,12,FAIL,42,2019-10-15 13:40:11 -0600,Add nohttp to build,764,37571
+1304,2fec990e,SUCCESS,16,SUCCESS,13,FAIL,48,2019-07-10 09:48:46 +0200,Clear jwk definitions after retrieving the new ones,764,37573
+1305,b214a25f,SUCCESS,15,SUCCESS,11,FAIL,45,2019-10-14 14:15:09 +0200,Safer deserialization in JDBC services,765,37649
+1306,2b1b09f5,SUCCESS,15,SUCCESS,12,FAIL,45,2019-10-16 10:21:46 -0400,Fix JwtTests,765,37649
+1307,47fdb259,SUCCESS,15,SUCCESS,12,FAIL,44,2019-10-16 09:49:19 -0400,Update to bouncycastle:bcpkix-jdk15on:1.64,765,37649
+1308,9ee352e5,SUCCESS,15,SUCCESS,13,FAIL,45,2019-10-16 09:44:38 -0400,Release spring-security-jwt.1.0.11.RELEASE,765,37649
+1309,463ba175,SUCCESS,17,SUCCESS,13,FAIL,49,2019-10-16 12:17:12 -0400,Next development version spring-security-jwt,765,37649
+1310,eaed4549,SUCCESS,26,SUCCESS,12,FAIL,45,2019-10-15 14:31:15 -0600,Update Spring Framework to 4.3.25.RELEASE,765,37649
+1311,eb65ffd4,SUCCESS,17,SUCCESS,13,FAIL,44,2019-10-15 14:34:39 -0600,Update to Spring Data Redis 1.5.2.RELEASE,765,37649
+1312,c31fd4bb,SUCCESS,16,SUCCESS,12,FAIL,41,2019-10-15 14:36:00 -0600,Update to Jackson 2.9.10,765,37649
+1313,e3ae109a,SUCCESS,16,SUCCESS,11,FAIL,45,2019-10-15 14:46:15 -0600,Update to httpclient 4.5.10,765,37649
+1314,f0563e27,SUCCESS,19,SUCCESS,12,FAIL,47,2019-10-15 14:52:56 -0600,Update to Spring Security Jwt 1.0.11.RELEASE,765,37649
+1315,22fcf75a,SUCCESS,14,SUCCESS,13,FAIL,47,2019-10-16 15:24:01 -0600,Next Development Version,765,37649
+1316,bf135e92,SUCCESS,15,SUCCESS,11,FAIL,45,2019-10-17 09:57:55 -0600,"Revert ""Next Development Version""",765,37649
+1317,46bd8f5e,SUCCESS,15,SUCCESS,11,FAIL,48,2019-10-16 15:24:01 -0600,Release 2.3.7.RELEASE,765,37649
+1318,eade3c6b,SUCCESS,15,SUCCESS,12,FAIL,47,2019-10-17 10:11:43 -0600,Next development version,765,37649
+1319,e7c2b970,SUCCESS,16,SUCCESS,13,FAIL,48,2019-10-21 11:51:42 -0400,"Revert ""Safer deserialization in JDBC services""",764,37573
+1320,13b36fbb,SUCCESS,14,SUCCESS,11,FAIL,43,2019-10-21 11:53:42 -0400,"Revert ""Safer deserialization in RedisTokenStore""",762,37487
+1321,329b0ac3,SUCCESS,15,SUCCESS,12,FAIL,48,2019-10-25 12:26:50 -0400,Add test for setReuseRefreshToken() using JwtTokenStore,762,37510
+1322,8ea639f4,SUCCESS,16,SUCCESS,11,FAIL,42,2019-10-30 10:09:51 -0400,Next Minor Version,762,37510
+1323,21d14d9e,SUCCESS,15,SUCCESS,12,FAIL,44,2019-10-15 16:43:46 -0600,Remove Jackson 1 Support,754,37088
+1324,3427991d,SUCCESS,15,SUCCESS,13,FAIL,43,2019-10-30 11:02:43 -0400,Improve docs for client scope(s),754,37088
+1325,a5f67e20,SUCCESS,15,SUCCESS,12,FAIL,42,2019-11-05 15:22:10 -0500,Next minor version spring-security-jwt,754,37088
+1326,788a0846,SUCCESS,15,SUCCESS,12,FAIL,42,2019-11-06 15:55:44 -0500,"Revert ""Validate OAuth2Exception error_description""",753,37060
+1327,9e32274a,SUCCESS,15,SUCCESS,13,FAIL,40,2019-11-07 13:56:05 -0500,Configure maven-site-plugin,753,37060
+1328,33422eef,SUCCESS,14,SUCCESS,13,FAIL,44,2019-11-07 16:59:15 -0500,Update site-url for maven-site-plugin,753,37060
+1329,820aab4b,SUCCESS,14,SUCCESS,12,FAIL,44,2019-11-07 17:17:05 -0500,Add version to site-url for maven-site-plugin,753,37060
+1330,f277db8f,SUCCESS,14,SUCCESS,12,FAIL,39,2019-11-08 13:04:51 -0500,Add maven profile for excluding Redis tests,753,37060
+1331,269bc935,SUCCESS,15,SUCCESS,14,FAIL,39,2019-11-08 15:34:41 -0500,Update maven-surefire-plugin to 2.20,753,37060
+1332,51e69359,SUCCESS,16,SUCCESS,12,FAIL,33,2019-10-21 16:14:59 +0200,Allow specifying allowed classes for deserialization,762,37554
+1333,3e64c4d6,SUCCESS,126,SUCCESS,13,FAIL,37,2019-11-11 20:25:22 -0500,Update to Boot 1.5.22,762,37554
+1334,d81fc294,SUCCESS,19,SUCCESS,13,FAIL,33,2019-11-12 04:55:17 -0500,Update to jackson 2.10.1,762,37554
+1335,62345538,SUCCESS,15,SUCCESS,12,FAIL,33,2019-11-06 19:16:16 -0500,Deprecate classes in spring-security-jwt,762,37569
+1336,11998caa,SUCCESS,15,SUCCESS,13,FAIL,34,2019-11-13 14:20:17 -0500,Release spring-security-jwt.1.1.0.RELEASE,762,37569
+1337,78cfc5e7,SUCCESS,14,SUCCESS,12,FAIL,31,2019-11-13 14:41:21 -0500,Next development version spring-security-jwt,762,37569
+1338,3bdc22d2,SUCCESS,16,SUCCESS,13,FAIL,40,2019-11-13 14:58:16 -0500,Update to spring-security-jwt:1.1.0,762,37569
+1339,0e7baf7e,SUCCESS,16,SUCCESS,12,FAIL,35,2019-11-05 15:44:32 -0500,Deprecate classes in spring-security-oauth,762,37677
+1340,62348266,SUCCESS,15,SUCCESS,12,FAIL,32,2019-11-05 17:09:49 -0500,Deprecate classes in spring-security-oauth2,762,37910
+1341,0f0f2f82,SUCCESS,16,SUCCESS,13,FAIL,37,2019-11-06 20:01:37 -0500,Add deprecation notice,762,37910
+1342,d0e52d26,SUCCESS,14,SUCCESS,12,FAIL,38,2019-11-13 15:08:46 -0500,Release 2.4.0.RELEASE,762,37910
+1343,c2763adb,SUCCESS,15,SUCCESS,13,FAIL,37,2019-11-13 16:19:16 -0500,Next development version,762,37910
+1344,dfb12ead,SUCCESS,15,SUCCESS,12,FAIL,34,2019-11-18 09:41:05 -0500,Remove redundant docs,762,37910
+1345,d72922e3,SUCCESS,26,SUCCESS,13,FAIL,35,2020-03-12 12:16:25 -0400,Update spring.version,762,37910
+1346,5f1ce9d3,SUCCESS,14,SUCCESS,13,FAIL,31,2020-04-08 12:17:15 -0400,Update to com.puppycrawl.tools:checkstyle:8.31,762,37910
+1347,7b786876,SUCCESS,15,SUCCESS,13,FAIL,37,2019-04-05 02:39:57 +0300,Add volatile keyword for double check locking,762,37910
+1348,2dee772c,SUCCESS,14,SUCCESS,13,FAIL,33,2020-04-08 12:48:33 -0400,Update to maven-checkstyle-plugin:3.1.1,762,37910
+1349,8b9f8808,SUCCESS,15,SUCCESS,12,FAIL,35,2018-04-30 00:25:36 +0900,Remove unused variable,762,37909
+1350,32f7cc5e,SUCCESS,16,SUCCESS,12,FAIL,34,2019-03-15 23:52:35 -0500,Address Bias in RandomValueStringGenerator,763,37949
+1351,d93722ad,SUCCESS,16,SUCCESS,12,FAIL,32,2020-04-01 17:40:48 +0800,Fix check token NPE,763,37962
+1352,9c09209f,SUCCESS,16,SUCCESS,13,FAIL,40,2019-09-02 17:19:50 -0300,Improves comparison of strings in DefaultRedirectResolver,763,37960
+1353,bff72a9b,SUCCESS,15,SUCCESS,12,FAIL,33,2020-04-03 11:50:56 -0700,Fix NPE when refresh_token is not provided,763,37987
+1354,ff555251,SUCCESS,14,SUCCESS,13,FAIL,40,2019-07-05 18:03:25 +0300,Replace UUID with SecureRandom in DefaultTokenServices.createAccessToken,763,37993
+1355,6e062cbd,SUCCESS,16,SUCCESS,11,FAIL,30,2020-04-08 15:37:24 -0400,Polish gh-1720,763,37993
+1356,3dc144cb,SUCCESS,15,SUCCESS,13,FAIL,34,2018-06-22 18:16:48 -0700,ResourceOwnerPasswordTokenGranter handles UsernameNotFoundException,763,38005
+1357,a99f2e7c,SUCCESS,15,SUCCESS,12,FAIL,35,2018-06-22 18:37:20 -0700,RefreshTokenGranter handles AuthenticationException,764,38100
+1358,d41b5a11,SUCCESS,15,SUCCESS,12,FAIL,33,2019-03-18 15:48:27 +0100,Support x5t JWK header in JwkTokenStore,764,38176
+1359,24d6dcb3,SUCCESS,15,SUCCESS,13,FAIL,39,2018-11-04 22:04:39 +0900,Polish,764,38178
+1360,57a02917,SUCCESS,15,SUCCESS,13,FAIL,36,2020-04-14 21:04:33 -0400,Improve handling of invalid tokens,764,38193
+1361,711761b1,SUCCESS,14,SUCCESS,13,FAIL,40,2019-11-26 11:34:05 +0100,Updated javadoc links to point to correct methods,764,38193
+1362,849ae238,SUCCESS,16,SUCCESS,13,FAIL,34,2020-04-14 21:45:54 -0400,Next development version,764,38193
+1363,38bd24a8,SUCCESS,15,SUCCESS,13,FAIL,39,2019-05-31 12:00:38 -0600,Add support for custom username claim,764,38225
+1364,08d1f234,SUCCESS,16,SUCCESS,13,FAIL,33,2016-12-21 20:39:56 +0100,Add redis based authorization code services,766,38350
+1365,b2485b12,SUCCESS,14,SUCCESS,13,FAIL,33,2018-09-10 15:30:52 -0500,Support clock skew for access token expiry check,766,38391
+1366,f4bbfc5b,SUCCESS,16,SUCCESS,13,FAIL,40,2020-04-15 21:15:48 -0400,Polish gh-1478,766,38395
+1367,7866a350,SUCCESS,14,SUCCESS,12,FAIL,34,2015-10-19 11:16:32 +0200,Change visibility of DefaultUserAuthenticationConverter#getAuthorities(Map),766,38395
+1368,b1ec290c,SUCCESS,15,SUCCESS,13,FAIL,34,2020-04-16 12:11:12 -0400,Release 2.5.0.M1,766,38395
+1369,689b8d7e,SUCCESS,15,SUCCESS,12,FAIL,36,2020-04-16 12:30:10 -0400,Revert to snapshot,766,38395
+1370,ca06d265,SUCCESS,18,SUCCESS,12,FAIL,36,2020-04-21 15:10:04 -0400,Update to commons-codec:1.14,766,38395
+1371,4b27e2e1,SUCCESS,20,SUCCESS,13,FAIL,37,2020-04-21 15:18:56 -0400,Update to spring-security:4.2.15.RELEASE,766,38395
+1372,9ece323f,SUCCESS,16,SUCCESS,11,FAIL,37,2018-04-17 13:12:06 +0300,Add support for reading public key from X.509 PEM certificates,766,38424
+1373,68a87b99,SUCCESS,15,SUCCESS,12,FAIL,37,2020-04-30 06:47:12 -0400,"Revert ""Improve handling of invalid tokens""",766,38409
+1374,d2c3b9d8,SUCCESS,15,SUCCESS,12,FAIL,35,2020-04-30 13:11:37 -0400,Handle failed JWT signature verification,766,38432
+1375,0a3938e7,SUCCESS,16,SUCCESS,14,FAIL,37,2020-04-16 21:31:39 +0200,Delete access_to_refresh key when removing refresh token in RedisTokenStore,766,38476
+1376,e581a818,SUCCESS,14,SUCCESS,13,FAIL,33,2017-02-25 06:58:04 -0500,Add optional parameters in RemoteTokenService,766,38501
+1377,7e95ee48,SUCCESS,16,SUCCESS,13,FAIL,37,2017-11-15 08:55:21 +0100,Fix OAuth2AuthenticationDetails display string,766,38503
+1378,f384bbfd,SUCCESS,16,SUCCESS,12,FAIL,35,2017-01-26 21:42:10 +0800,Document needing sessions on stateless=false,766,38503
+1379,0787ed59,SUCCESS,14,SUCCESS,13,FAIL,37,2017-01-16 10:59:31 +0100,RsaKeyHelper parses public key without comment (id),766,38512
+1380,c6e56f1f,SUCCESS,16,SUCCESS,12,FAIL,33,2016-12-15 00:38:08 +0900,Fix potential NPE in OAuthProviderBeanDefinitionParser,766,38512
+1381,611854e7,SUCCESS,17,SUCCESS,12,FAIL,34,2020-05-08 21:33:33 +0300,Handle expires_in when 0,766,38518
+1382,fa46bac5,SUCCESS,16,SUCCESS,13,FAIL,39,2020-05-05 07:20:53 +0200,DefaultTokenServices generates url-safe tokens,766,38516
+1383,b478e803,SUCCESS,15,SUCCESS,13,FAIL,34,2020-05-11 17:29:14 -0400,Allow custom AuthenticationProvider and AuthenticationEventPublisher,766,38637
+1384,c8d92da4,SUCCESS,16,SUCCESS,12,FAIL,37,2020-05-14 14:01:23 -0400,Release 2.5.0.RC1,766,38637
+1385,42a6bcd1,SUCCESS,14,SUCCESS,12,FAIL,35,2020-05-14 15:33:22 -0400,Revert to snapshot,766,38637
+1386,b8a137bd,SUCCESS,15,SUCCESS,13,FAIL,37,2020-05-20 17:52:34 -0500,Preserve user authentication details on re-authentication,766,38719
+1387,93b06d60,SUCCESS,15,SUCCESS,12,FAIL,34,2020-05-28 08:36:06 -0400,JwkSetConverter only accepts public key use sig,766,38715
+1388,4ca524db,SUCCESS,15,SUCCESS,12,FAIL,36,2020-05-25 11:49:59 +0100,Specify charset when generating tokens,766,38717
+1389,0675229b,SUCCESS,15,SUCCESS,12,FAIL,39,2020-05-28 10:04:06 -0400,Release spring-security-jwt.1.1.1.RELEASE,766,38717
+1390,eba9bf42,SUCCESS,15,SUCCESS,13,FAIL,34,2020-05-28 10:30:40 -0400,Next development version spring-security-jwt,766,38717
+1391,aced45d0,SUCCESS,16,SUCCESS,13,FAIL,39,2020-05-28 10:44:42 -0400,Update to spring-security-jwt:1.1.1,766,38717
+1392,b7208d2a,SUCCESS,15,SUCCESS,13,FAIL,33,2020-05-28 10:52:55 -0400,Release 2.5.0.RELEASE,766,38717
+1393,304c43be,SUCCESS,16,SUCCESS,13,FAIL,39,2020-05-28 11:06:10 -0400,Next development version,766,38717
+1394,ef8d7840,SUCCESS,16,SUCCESS,13,FAIL,37,2016-08-22 16:55:32 +0100,Fix typo,766,38717
+1395,4bcfe798,SUCCESS,15,SUCCESS,11,FAIL,34,2021-02-11 17:18:55 +0100,Fix NPE in JdbcTokenStore,766,38740
+1396,2732a09e,SUCCESS,15,SUCCESS,13,FAIL,32,2021-02-27 14:05:05 +0100,Add clock skew support to AccessTokenProviderChain,766,38810
+1397,5d33f445,SUCCESS,15,SUCCESS,12,FAIL,34,2021-03-25 09:18:01 -0400,Fix misconfigured redirect-uri in sparklr2 sample,766,38810
+1398,58454b7e,SUCCESS,26,SUCCESS,13,FAIL,34,2021-04-09 14:26:06 -0400,Update Spring to 4.3.30.RELEASE,766,38810
+1399,e0e502ea,SUCCESS,20,SUCCESS,12,FAIL,41,2021-04-09 14:31:15 -0400,Update Spring Security to 4.2.20.RELEASE,766,38810
+1400,af7cd123,SUCCESS,19,SUCCESS,11,FAIL,39,2021-04-09 14:49:22 -0400,Update Jackson to 2.10.5,766,38810
+1401,3f33a89a,SUCCESS,14,SUCCESS,13,FAIL,36,2021-04-09 15:15:24 -0400,Release 2.5.1.RELEASE,766,38810
+1402,6f296536,SUCCESS,15,SUCCESS,14,FAIL,37,2021-04-09 16:49:49 -0400,Next development version,766,38810
+1403,3a165461,SUCCESS,15,SUCCESS,13,FAIL,35,2021-04-27 06:12:43 -0400,Rename master branch to main,766,38810
+1404,947a314b,SUCCESS,16,SUCCESS,13,FAIL,41,2021-05-13 08:39:45 -0400,Update security policy link,766,38810
+1405,265ee115,SUCCESS,14,SUCCESS,12,FAIL,36,2021-05-13 08:52:54 -0400,Update host for docs server,766,38810

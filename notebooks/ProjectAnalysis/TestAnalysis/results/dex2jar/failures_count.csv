@@ -1,0 +1,5 @@
+exception,count
+junit.framework.AssertionFailedError,1
+junit.framework.AssertionFailedError:,12
+java.lang.AssertionError:,14
+org.junit.ComparisonFailure,1

@@ -1,0 +1,6 @@
+error,count
+,3
+com.metamx.collections.bitmap.WrappedConciseBitmap cannot be cast to com.metamx.collections.bitmap.WrappedImmutableConciseBitmap,1
+KeeperErrorCode = NodeExists for /druid/segments/localhost:1,2
+KeeperErrorCode = NodeExists for /druid/segments/localhost:1234,2
+KeeperErrorCode = NodeExists for /druid/segments/locahost:0,1

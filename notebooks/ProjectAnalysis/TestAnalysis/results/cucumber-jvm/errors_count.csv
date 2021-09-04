@@ -1,0 +1,28 @@
+error,count
+,250
+wrong number of arguments,23
+1,9
+Unexpected exception parsing XML document from class path resource [steps.xml]; nested exception is java.lang.IllegalStateException: Context namespace element &#x27;component-scan&#x27; and its parser class [org.springframework.context.annotation.ComponentScanBeanDefinitionParser] are only available on JDK 1.5 and higher,271
+The method public void cucumber.steps.AbstractSteps.iSayHello() was called with 2 arguments.,12
+The method public void cucumber.steps.AbstractSteps.iSayHello() was called with 1 arguments.,9
+"The method public void cucumber.steps.AbstractSteps.iHaveNCukes(int,java.lang.String) was called with 1 arguments.",3
+The method public void cucumber.steps.AbstractSteps.longs(long) was called with 2 arguments.,7
+"The method public void cucumber.steps.AbstractSteps.iShouldHaveNCukes(int,java.lang.String) was called with 1 arguments.",4
+The method public void cuke4duke.steps.AbstractSteps.iSayHello() was called with 1 arguments.,4
+The method public void cuke4duke.steps.AbstractSteps.iSayHello() was called with 2 arguments.,8
+"The method public void cuke4duke.steps.AbstractSteps.iHaveNCukes(int,java.lang.String) was called with 1 arguments.",7
+"The method public void cuke4duke.steps.AbstractSteps.iShouldHaveNCukes(int,java.lang.String) was called with 1 arguments.",2
+The method public void cuke4duke.steps.AbstractSteps.longs(long) was called with 2 arguments.,3
+Missing system jruby.home property or JRUBY_HOME enironment variable,3
+org.jboss.weld.exceptions.WeldException: by java.lang.ClassFormatError: Illegal class name &quot;org/jboss/weld/environment/se/org$jboss$weld$bean-classpath-ManagedBean-org$jboss$weld$environment$se$ShutdownManager[@javax$enterprise$context$ApplicationScoped()]{}_$$_WeldClientProxy&quot; in class file org/jboss/weld/environment/se/org$jboss$weld$bean-classpath-ManagedBean-org$jboss$weld$environment$se$ShutdownManager[@javax$enterprise$context$ApplicationScoped()]{}_$$_WeldClientProxy,73
+"Index: 0, Size: 0",2
+Failed to instantiate class cucumber.runtime.java8.test.LambdaStepdefs,138
+Timed out after 50ms.,2
+Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.3.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.3.0 from/to central (http://repo1.maven.org/maven2/): Error transferring file: Server returned HTTP response code: 501 for URL: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.3.0/pax-exam-inject-4.3.0.jar from http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.3.0/pax-exam-inject-4.3.0.jar,46
+WELD-ENV-002002: Weld SE container 3f9c5847-23d1-4c28-bc7b-59e0fe149237 was already shut down,1
+Timed out after 10ms.,1
+"
+Cannot mock/spy class io.cucumber.java8.Scenario
+Mockito cannot mock/spy because :
+ - final class",16
+io.cucumber.core.gherkin.FeatureParser: Provider io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser could not be instantiated,997

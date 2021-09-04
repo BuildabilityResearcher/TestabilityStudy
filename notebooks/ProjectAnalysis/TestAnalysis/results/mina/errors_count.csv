@@ -1,0 +1,19 @@
+error,count
+javax.net.ssl.SSLHandshakeException: SSL handshake failed.,466
+,324
+java.io.IOException: Connection reset by peer,407
+Unknown event type: SESSION_CREATED,1
+Line is too long: 7,7
+Protocol handler initialization failed: java.net.BindException: Address already in use (Bind failed):8282,1
+localAddress,30
+org.apache.mina.filter.codec.ProtocolDecoderException: java.lang.StringIndexOutOfBoundsException: String index out of range: 8 (Hexdump: 7F 1B 50 4C CB 6B DC 8C 5A B7 3D DB DE E5 9E B7 E5 B0 E1 D9 ED 41 FC 55 31 E9 E2 DB 7A 58 3A C6 4C 4F 46 14 6E 47 BD 46 84 EF AF 32 AA 77 EB ED A1 75 59 E4 58 70 AB FB B7 87 00 F7 99 1D A3 CA AD E6 35 5C 26 D5 C2 14 F2 6B 19 16 03 03 00 04 0E 00 00 00),1
+Address already in use,27
+org.apache.mina.filter.codec.ProtocolEncoderException: java.lang.ClassCastException: org.apache.mina.filter.codec.http.DefaultHttpRequest cannot be cast to org.apache.mina.filter.codec.http.HttpResponse,4
+Certificates do not conform to algorithm constraints,37
+Unrecognized xbean element mapping: nioDatagramAcceptor in namespace http://mina.apache.org/config/1.0,113
+The specified class doesn&#x27;t have a public default constructor.,2
+chain,3
+org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V,8
+unknown option code : 17,2
+unknown option code : 61425,1
+unknown option code : 10,1

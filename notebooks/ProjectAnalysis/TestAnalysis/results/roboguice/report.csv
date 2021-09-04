@@ -1,0 +1,1055 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,4ed1fc08,FAIL,0,NO,0,NO,0,2009-08-22 19:07:13 -0700,initial checkin,18,458
+1,0fb94b2c,FAIL,0,NO,0,NO,0,2009-08-22 19:30:03 -0700,remove redundant onStops that crept in,18,446
+2,dada3915,FAIL,0,NO,0,NO,0,2009-08-31 10:19:09 -0700,nullpointer bug fix,18,446
+3,1007ced6,FAIL,7,NO,0,NO,0,2009-08-31 16:12:04 -0700,reorganize to allow building from maven2,18,446
+4,b2cf541e,FAIL,4,NO,0,NO,0,2009-08-31 16:29:18 -0700,add maven builder to eclipse project,18,446
+5,ed81861f,FAIL,4,NO,0,NO,0,2009-08-31 17:59:05 -0700,don't depend on dependency injection for scope since the injector may not have been set up yet,18,442
+6,26d3adb2,FAIL,3,NO,0,NO,0,2009-09-03 13:10:49 -0700,change default behavior of onRetainNonConfigurationInstance,18,454
+7,5951ce38,FAIL,4,NO,0,NO,0,2009-09-15 14:03:36 -0700,Added tag 0.1 for changeset d04a8ef4ccb0,18,454
+8,d777fe57,FAIL,5,NO,0,NO,0,2009-09-25 14:49:05 -0700,add inject to shared preferences provider constructor,18,456
+9,2c5f61f3,FAIL,3,NO,0,NO,0,2009-10-16 15:12:06 -0400,switch to using context scoping switch to keeping the injector in Application instead of module,20,506
+10,eea1efd4,FAIL,4,NO,0,NO,0,2009-10-16 19:55:39 -0400,don't try to make injector until onCreate,20,506
+11,757373bc,FAIL,2,NO,0,NO,0,2009-10-22 10:30:18 -0700,initial checking of sample application,23,561
+12,33e1055d,FAIL,3,NO,0,NO,0,2009-10-22 10:35:47 -0700,inject resources,23,566
+13,1a8bfa40,FAIL,4,NO,0,NO,0,2009-10-22 10:51:24 -0700,move most of framework configuration to GuiceApplication add sample usage,23,576
+14,c65c43f2,FAIL,3,NO,0,NO,0,2009-10-22 10:53:12 -0700,minor,23,576
+15,59e74f7e,FAIL,4,NO,0,NO,0,2009-10-23 14:36:52 -0700,Added tag 0.2 for changeset aa491af82d9a,23,576
+16,6460b48f,FAIL,4,NO,0,NO,0,2009-10-23 14:37:22 -0700,change way i do modules to make testcases (which don't run inside a GuiceApplication) work,24,588
+17,bfcae879,FAIL,3,NO,0,NO,0,2009-10-23 21:54:15 -0700,don't crash when running inside android test runner,24,591
+18,e1e49e8b,FAIL,3,NO,0,NO,0,2009-10-26 09:30:37 -0700,update pom to 0.2,23,576
+19,09a04ead,FAIL,4,NO,0,NO,0,2009-10-26 09:30:47 -0700,Added tag 0.2 for changeset f241352a0b11,23,576
+20,007870f6,FAIL,3,NO,0,NO,0,2009-10-26 09:32:14 -0700,update pom,23,576
+21,2d93c5d5,FAIL,4,NO,0,NO,0,2009-10-26 10:31:15 -0700,update pom.xml,24,591
+22,b047e74d,FAIL,3,NO,0,NO,0,2009-10-27 10:05:55 -0700,fix for #11,24,593
+23,5c00c3a5,FAIL,4,NO,0,NO,0,2009-10-27 11:52:53 -0700,"took injection out of GuiceApplication, and moved it to a new class called GuiceInjectableApplication. GuiceInjectableApplication is identical to the old GuiceApplicaiton.",25,596
+24,9e251a24,FAIL,3,NO,0,NO,0,2009-11-06 09:10:02 +0100,Updated Astroboy to get it work with the current robo-guice code.,26,605
+25,cef14829,FAIL,3,NO,0,NO,0,2009-11-06 11:38:41 +0100,"Patch for issue 6 : http://code.google.com/p/robo-guice/issues/detail?id=6 Added createInjector method, and overridable addApplicationModules method. Added documentation for GuiceApplication, so that users know how to use it. Also fixed Astroboy so that it works with this patch.",26,608
+26,b9906ac9,FAIL,3,NO,0,NO,0,2009-11-06 12:33:23 +0100,Updated Astroboy to show how to inject a collaborator. The collabotor also get injected an AstroboyApplication (this is to show how to get an application injected),28,638
+27,ed2223da,FAIL,4,NO,0,NO,0,2009-11-12 20:06:21 -0800,fixed classpath,25,596
+28,3ee28ca0,FAIL,3,NO,0,NO,0,2009-11-13 17:34:55 -0800,merge from https://pyricau-robo-guice-staging.googlecode.com/hg,28,638
+29,24268466,FAIL,3,NO,0,NO,0,2009-11-13 17:41:55 -0800,some minor stylistic tweaks,28,632
+30,fff25286,FAIL,4,NO,0,NO,0,2009-11-13 17:50:29 -0800,Added tag 0.3 for changeset 76f63d1e55a2,28,632
+31,16cf8d2e,FAIL,4,NO,0,NO,0,2009-11-13 17:51:08 -0800,updating version number to reflect changed apis,28,632
+32,adc43ad4,FAIL,3,NO,0,NO,0,2009-11-13 18:04:28 -0800,directly inject astroboy application,28,632
+33,5575263e,FAIL,3,NO,0,NO,0,2009-11-13 18:11:17 -0800,some name changes to avoid confusion with android services,28,629
+34,e93cd119,FAIL,0,NO,0,NO,0,2009-11-15 17:57:45 -0800,don't make one eclipse project a subdirectory of another eclipse project,28,629
+35,f8f225c6,FAIL,0,NO,0,NO,0,2009-11-15 17:58:51 -0800,hg ignore,28,629
+36,60c376a8,FAIL,0,NO,0,NO,0,2009-11-15 18:06:03 -0800,move some additional files,28,629
+37,d6c9660e,FAIL,0,NO,0,NO,0,2009-11-15 18:06:56 -0800,whoops,28,629
+38,46a142c6,FAIL,0,NO,0,NO,0,2009-11-15 18:14:38 -0800,get rid of hardcoded sdk location,28,629
+39,c95f7e13,FAIL,0,NO,0,NO,0,2009-11-15 18:17:43 -0800,get rid of ~mike in .classpath,28,629
+40,1b537cde,FAIL,0,NO,0,NO,0,2009-11-20 09:24:14 -0800,getInjector and createInjector need to be synchronized to prevent the accidental creation of multiple injectors,28,629
+41,60b943d0,FAIL,0,NO,0,NO,0,2009-11-20 17:26:59 -0800,configuration to try to publish artifacts to java.net,28,629
+42,0968839c,FAIL,0,NO,0,NO,0,2009-11-20 17:53:47 -0800,add injection of system services,29,668
+43,115c1a29,FAIL,0,NO,0,NO,0,2009-11-20 18:53:32 -0800,don't crash at startup,29,668
+44,0220ed7c,FAIL,0,NO,0,NO,0,2009-11-20 23:39:10 -0800,use a default shared prefs name unless otherwise specified,29,666
+45,96409306,FAIL,0,NO,0,NO,0,2009-11-21 09:47:47 -0800,update pom.xml to publish to java.net,29,666
+46,9602d484,FAIL,0,NO,0,NO,0,2009-11-22 11:59:58 -0800,added ability to requestStaticInjection for @InjectResource if you're using AbstractAndroidModule,30,691
+47,6b2e23f4,FAIL,0,NO,0,NO,0,2009-11-22 12:01:38 -0800,update astroboy sample to use AbstractAndroidModule,30,691
+48,9ff597af,FAIL,0,NO,0,NO,0,2009-11-22 22:55:38 +0100,Patch for issue 25 (http://code.google.com/p/robo-guice/issues/detail?id=25) Astroboy aims at Android 1.6 when it could aim at Android 1.5,30,691
+49,c4d5cf3c,FAIL,0,NO,0,NO,0,2009-11-22 23:02:35 +0100,Patch for issue 26 : http://code.google.com/p/robo-guice/issues/detail?id=26 getInjector needs to be synchronized only when guice is null.,30,695
+50,7a4ddcda,FAIL,0,NO,0,NO,0,2009-11-22 23:05:49 +0100,Updated documentation to take into account the recent evolving of AndroidAbstractModule,30,695
+51,b1b53edf,FAIL,0,NO,0,NO,0,2009-11-22 23:15:44 +0100,Patch for issue 31 : http://code.google.com/p/robo-guice/issues/detail?id=31 Remove synchronized keyword from createInjector. Added some javadoc to getInjector,30,695
+52,f06537f6,FAIL,0,NO,0,NO,0,2009-11-22 23:18:59 +0100,Patch for issue 27 : http://code.google.com/p/robo-guice/issues/detail?id=27 Do not use Arrays.asList when the parameter is not an array.,30,695
+53,f1f88b2d,FAIL,0,NO,0,NO,0,2009-11-22 17:27:55 -0800,fix classpath,30,695
+54,f8140df7,FAIL,0,NO,0,NO,0,2009-11-22 17:34:34 -0800,minor,30,695
+55,b026a685,FAIL,0,NO,0,NO,0,2009-11-23 11:26:32 +0100,Updated javadoc of GuiceApplication : added style and new lines. Added javadoc for configure method.,30,701
+56,3267c182,FAIL,0,NO,0,NO,0,2009-11-23 11:53:59 +0100,Added javadoc to GuiceActivity and it's related sisters.,30,701
+57,ada3998e,FAIL,0,NO,0,NO,0,2009-11-23 12:09:47 +0100,Javadoc on InjectExtra and InjectResource,30,701
+58,797f4de9,FAIL,0,NO,0,NO,0,2009-11-23 17:53:33 +0100,updated Javadoc to tell users to subclass AbstractModule instead of directly implement Module,30,702
+59,b30979f7,FAIL,0,NO,0,NO,0,2009-11-23 18:08:22 +0100,Added Javadoc on DefaultXXX annotations. Updated InjectExtra javadoc,30,702
+60,0b52370d,FAIL,0,NO,0,NO,0,2009-11-23 10:11:37 -0800,cleaning up a few comments,30,701
+61,bc7a91ad,FAIL,0,NO,0,NO,0,2009-11-24 14:44:12 +0100,"Patch for issue 32 : http://code.google.com/p/robo-guice/issues/detail?id=32 Getting rid of @DefaultXXX annotation Added an ""optional"" parameter to InjectExtra annotation. Update ExtrasListener : removing any @DefaultXXX reference, and taking into account the optional parameter. A reformat occured while I was patching, so one might see more changes what I really changed. Sorry about that, we really need to share eclipse formatting settings",30,700
+62,fc2945f5,FAIL,0,NO,0,NO,0,2009-11-24 14:44:59 +0100,"Updated Astroboy to add android:debuggable=""true"" to the Manifest (to enable debugging the app on a real device)",30,700
+63,98a72f69,FAIL,0,NO,0,NO,0,2009-11-24 14:46:28 +0100,Removed DefaultXXX annotations (they are useless now),27,667
+64,b507dd03,FAIL,0,NO,0,NO,0,2009-11-24 15:12:51 +0100,Updated samples to show the different possibilities when using @InjectExtra,27,677
+65,f5690911,FAIL,0,NO,0,NO,0,2009-11-24 15:13:31 +0100,"Wooops, forgot to add Tobio activity (a new activity that immediately starts DoctorTenma, adding extras to the intent ;-) .",28,690
+66,32e09b44,FAIL,0,NO,0,NO,0,2009-11-24 15:24:36 +0100,Updated InjectExtra javadoc,28,691
+67,76dbddd8,FAIL,0,NO,0,NO,0,2009-11-24 15:41:06 +0100,Patch for issue 28 : http://code.google.com/p/robo-guice/issues/detail?id=28 Not instanciating guice related stuff before any GuiceActivity is used.,28,698
+68,a21ebdb0,FAIL,0,NO,0,NO,0,2009-11-24 17:54:45 +0100,"Example to show how to convert extras to instances, using a provider",30,729
+69,1a635ea5,FAIL,0,NO,0,NO,0,2009-11-25 10:09:18 +0100,Added copyright+license headers to all source java files,30,729
+70,6757e825,FAIL,0,NO,0,NO,0,2009-11-25 14:44:26 +0100,Patch for issue 3 : http://code.google.com/p/robo-guice/issues/detail?id=3 Pluggable convert mechanism for extras injection,35,819
+71,11f06925,FAIL,0,NO,0,NO,0,2009-11-25 14:30:37 -0800,needed to support testcases,30,703
+72,54a59d36,FAIL,0,NO,0,NO,0,2009-11-25 14:52:10 -0800,"behavior changes coming, so update version to 0.5-SNAPSHOT",30,703
+73,c4912aa4,FAIL,0,NO,0,NO,0,2009-11-25 14:53:29 -0800,merge from https://pyricau-robo-guice-staging.googlecode.com/hg/,35,821
+74,438826fa,FAIL,0,NO,0,NO,0,2009-11-25 14:57:41 -0800,Added tag 0.4 for changeset ca3fe55c28a6,35,821
+75,a91d5125,FAIL,0,NO,0,NO,0,2009-11-25 14:59:31 -0800,get rid of weird head,35,821
+76,a94dde87,FAIL,0,NO,0,NO,0,2009-11-25 17:56:44 -0800,first attempt at getting two stage injection working,36,852
+77,6f49223d,FAIL,0,NO,0,NO,0,2009-11-25 17:58:33 -0800,fix exception when trying to inject a resource into a field of primitive type,35,821
+78,d8b4799b,FAIL,0,NO,0,NO,0,2009-11-25 18:15:43 -0800,clean up warnings,36,855
+79,aac13064,FAIL,0,NO,0,NO,0,2009-11-26 14:32:49 +0100,Added Javadoc on ContextScoped and ExtraConverter,35,823
+80,ec2a7353,FAIL,0,NO,0,NO,0,2009-11-26 14:34:02 +0100,Bind Application injections to the unique Application instance Patch for issue 39 : http://code.google.com/p/robo-guice/issues/detail?id=39,35,822
+81,ee1fe762,FAIL,0,NO,0,NO,0,2009-11-26 14:36:41 +0100,ResourcesProvider should be a singleton Patch for issue 4 : http://code.google.com/p/robo-guice/issues/detail?id=40,35,824
+82,1cbd23ce,FAIL,0,NO,0,NO,0,2009-11-26 15:51:13 +0100,"GuiceApplicationProvider depends on an activity => what about singleton scopes ? Patch for issue 42 : http://code.google.com/p/robo-guice/issues/detail?id=42 Application is now available from the singleton scope, and the provider does not depend anymore on an activity.",35,831
+83,a656431e,FAIL,0,NO,0,NO,0,2009-11-26 16:02:56 +0100,Get rid of ViewResourceProvider and StringResourceProvider + Provide XXXResourceFactory Patch for issue 41 : http://code.google.com/p/robo-guice/issues/detail?id=41 Plus a usage example in Astroboy.,35,826
+84,3f3f9da5,FAIL,0,NO,0,NO,0,2009-11-26 08:58:30 -0800,commit project settings,35,821
+85,57b1a8c4,FAIL,0,NO,0,NO,0,2009-11-27 10:44:36 +0100,Yes! Bind Application AND SUBCLASSES to the unique Application instance Patch for issue 39 : http://code.google.com/p/robo-guice/issues/detail?id=39 I also updated AstroboyModule (only one binding allowed for a class),35,826
+86,6fd51654,FAIL,0,NO,0,NO,0,2009-11-27 11:20:55 +0100,"Setting wider scopes for some providers, + lazy init (synchronized) of providers Patch for issue 40 : http://code.google.com/p/robo-guice/issues/detail?id=40",35,849
+87,fe92fcbd,FAIL,0,NO,0,NO,0,2009-11-27 12:04:48 +0100,Added copyright headers to StringResourceFactory,35,849
+88,e4bb2394,FAIL,0,NO,0,NO,0,2009-11-27 11:20:02 -0800,merge from pierre's branch.,35,829
+89,e880b71c,FAIL,0,NO,0,NO,0,2009-11-27 11:31:03 -0800,Backed out changeset 0f42a6245703,36,852
+90,ab989a2f,FAIL,0,NO,0,NO,0,2009-11-27 11:31:20 -0800,Backed out changeset b6752437afb3,35,821
+91,d392095c,FAIL,0,NO,0,NO,0,2009-11-27 11:31:31 -0800,merge,35,821
+92,c42811b8,FAIL,0,NO,0,NO,0,2009-11-27 11:51:59 -0800,split InjectResource and InjectView into two separate concepts,37,866
+93,8d072deb,FAIL,0,NO,0,NO,0,2009-11-27 12:08:44 -0800,"move injection to onCreate, with the exception of View injection, which is deferred until setContentView",37,892
+94,912acad2,FAIL,0,NO,0,NO,0,2009-11-27 12:11:46 -0800,merge from two-stage-injector branch,37,902
+95,6c75c1fb,FAIL,0,NO,0,NO,0,2009-11-27 12:13:58 -0800,fix warnings,37,901
+96,cbcfed71,FAIL,0,NO,0,NO,0,2009-11-27 12:37:34 -0800,added splash page skeleton,38,934
+97,835cc1c7,FAIL,0,NO,0,NO,0,2009-11-27 13:08:53 -0800,add javadocs to build,38,934
+98,61c8b55a,FAIL,0,NO,0,NO,0,2009-11-27 15:55:12 -0800,move robo-guice to roboguice,38,934
+99,44dd1798,FAIL,0,NO,0,NO,0,2009-11-27 16:21:34 -0800,update .hgignore,38,934
+100,76d3a890,FAIL,0,NO,0,NO,0,2009-11-27 16:29:16 -0800,robo-guice -> roboguice,38,934
+101,e18d208b,FAIL,0,NO,0,NO,0,2009-11-30 15:32:39 -0800,bind contentresolver add constructor to sharedpreferencesprovider,38,940
+102,4fc57ed1,FAIL,0,NO,0,NO,0,2009-11-30 16:33:38 -0800,build on intellij,38,940
+103,17bf8e9d,FAIL,0,NO,0,NO,0,2009-11-30 16:56:34 -0800,build fixes,38,940
+104,99a89dde,FAIL,0,NO,0,NO,0,2009-12-09 12:15:24 +0100,Changing any robo-guice reference to roboguice or RoboGuice.,38,940
+105,d3d91798,FAIL,0,NO,0,NO,0,2009-12-09 14:26:34 +0100,Provides @author javadoc tags Patch for issue 7 : http://code.google.com/p/roboguice/issues/detail?id=7,38,940
+106,232c1896,FAIL,0,NO,0,NO,0,2009-12-09 14:38:38 +0100,Remove the remaining references to robo-guice (dash) in roboguice Patch of sample for issue 10 : http://code.google.com/p/roboguice/issues/detail?id=10,38,940
+107,c10eb5af,FAIL,0,NO,0,NO,0,2009-12-09 15:02:08 +0100,"Replace @Named(""sharedPreferencesContext"") with @SharedPreferencesName + bug when not bound. Patch for issue 11 : http://code.google.com/p/roboguice/issues/detail?id=11",39,948
+108,b5b65040,FAIL,0,NO,0,NO,0,2009-12-09 15:48:47 +0100,Removed GuiceApplication instance counting (useless since a few commits) Separate Module from Application Patch for issue 8 : http://code.google.com/p/roboguice/issues/detail?id=8,40,972
+109,22d05fb7,FAIL,0,NO,0,NO,0,2009-12-10 09:23:45 +0100,RoboGuiceModule wasn't binding the Application anymore. Also updated AstroboyModule to remove any reference to the application. Additional patch for issue 8 : http://code.google.com/p/roboguice/issues/detail?id=8,40,972
+110,e0142df9,FAIL,0,NO,0,NO,0,2009-12-10 09:29:25 +0100,Enabling users to instanciate a SharedPreferencesProvider without using Guice. See http://code.google.com/p/roboguice/issues/detail?id=11#c3 => is it now working as expected ?,40,976
+111,a09f6237,FAIL,0,NO,0,NO,0,2009-12-10 09:48:03 +0100,Small refactorings to have consistant attribute names Patch for issue 12 : http://code.google.com/p/roboguice/issues/detail?id=12,40,976
+112,50fbd813,FAIL,0,NO,0,NO,0,2009-12-11 10:30:16 +0100,Formatting all files using the shared eclipse formatter. No code change. See issue 9 : http://code.google.com/p/roboguice/issues/detail?id=9,40,983
+113,6543d03b,FAIL,0,NO,0,NO,0,2009-12-12 10:47:24 +0100,Forgot to update .classpath of Astroboy when changed RoboGuice project name.,40,983
+114,42ba0a5c,FAIL,0,NO,0,NO,0,2009-12-12 10:49:10 +0100,Patch for issue 11 (comment 5) : http://code.google.com/p/roboguice/issues/detail?id=11#c5,40,986
+115,f2e8c8a2,FAIL,0,NO,0,NO,0,2009-12-12 13:22:36 -0800,merge from pyricau,40,986
+116,3565f6b6,FAIL,0,NO,0,NO,0,2009-12-13 17:03:43 -0800,"fix a bug that was causing PreferencesNameHolder.value to always be ""default""",40,986
+117,05b5ccf2,FAIL,0,NO,0,NO,0,2009-12-13 17:21:27 -0800,Fix workspace name for external maven builder,40,986
+118,c69c765d,FAIL,0,NO,0,NO,0,2009-12-13 17:24:02 -0800,fix broken path to guice lib,40,986
+119,f48c2581,FAIL,0,NO,0,NO,0,2009-12-14 10:37:10 -0800,updated javadocs,40,986
+120,014320a1,FAIL,0,NO,0,NO,0,2009-12-14 11:39:28 -0800,update version to 1.0-RC1 update javadocs,40,986
+121,f47ca930,FAIL,0,NO,0,NO,0,2009-12-14 11:39:57 -0800,Added tag 1.0-RC1 for changeset 4daa5ed3ef0e,40,986
+122,bd0ff0ea,FAIL,0,NO,0,NO,0,2009-12-14 11:40:39 -0800,Added tag 0.5 for changeset 273184406fa1,40,986
+123,cb36791f,FAIL,0,NO,0,NO,0,2010-01-05 17:39:55 -0800,add source generation,40,986
+124,fd633d5c,FAIL,0,NO,0,NO,0,2010-02-10 18:33:19 -0800,add additional android activities,44,1190
+125,41bba310,FAIL,0,NO,0,NO,0,2010-02-10 19:57:02 -0800,"added <string>, <integer-array>, <color> support for @InjectResource",44,1206
+126,dea835b1,FAIL,0,NO,0,NO,0,2010-02-10 20:29:59 -0800,add helper methods to simplify configuration process,44,1222
+127,13da7b37,FAIL,0,NO,0,NO,0,2010-02-19 15:04:19 -0800,remove ability to inject color integers and resource integer ids. Can re-evaluate later and re-introduce again if desired,44,1212
+128,1e731b6e,FAIL,0,NO,0,NO,0,2010-02-19 15:09:55 -0800,get rid of bindConstant() helper methods get rid of setsharedpreferencesname helper method since i want to change how that is configured anyway,44,1196
+129,9df434c5,FAIL,0,NO,0,NO,0,2010-03-07 15:50:24 -0800,Add some useful functionality,49,1355
+130,60d1b8b1,FAIL,0,NO,0,NO,0,2010-03-07 15:55:41 -0800,comments,49,1355
+131,09c6acef,FAIL,0,NO,0,NO,0,2010-03-07 16:30:29 -0800,add static injection for RoboThread and RoboAsyncTask,49,1344
+132,70dfd688,FAIL,0,NO,0,NO,0,2010-03-07 16:56:29 -0800,make logging of exceptions optional,49,1344
+133,75be2e16,FAIL,0,NO,0,NO,0,2010-03-07 17:13:07 -0800,rename class,49,1344
+134,3b65d30f,FAIL,0,NO,0,NO,0,2010-03-07 22:42:11 -0800,comments,49,1344
+135,af19a4e4,FAIL,0,NO,0,NO,0,2010-03-07 23:05:51 -0800,add SensorManager to service bindings,49,1346
+136,e4584389,FAIL,0,NO,0,NO,0,2010-03-21 01:29:52 +0100,commit,50,1378
+137,4dd8972b,FAIL,0,NO,0,NO,0,2010-03-26 14:22:21 -0400,add ThreadFactory to constructor,49,1355
+138,da7c2a6b,FAIL,0,NO,0,NO,0,2010-03-26 14:47:58 -0400,"in theory, should now support canceling. In practice, this is untested",49,1364
+139,c9bc7983,FAIL,0,NO,0,NO,0,2010-03-27 11:47:54 -0400,intellij,49,1364
+140,b239d0d2,FAIL,0,NO,0,NO,0,2010-03-27 11:52:28 -0400,1.0 branch,44,1196
+141,81b0645d,FAIL,0,NO,0,NO,0,2010-03-27 12:01:44 -0400,updated javadocs,44,1196
+142,34eb289b,FAIL,0,NO,0,NO,0,2010-03-27 13:41:35 -0400,docs,44,1196
+143,be981adf,FAIL,0,NO,0,NO,0,2010-03-27 14:17:56 -0400,Added tag 1.0 for changeset aad229e4371b,44,1196
+144,2724c424,FAIL,0,NO,0,NO,0,2010-03-27 14:20:52 -0400,merge from 1.0-branch,49,1364
+145,61e9ece3,FAIL,0,NO,0,NO,0,2010-03-27 15:18:27 -0400,rename Guice*Activity to Robo*Activity,49,1364
+146,95fd36e6,FAIL,0,NO,0,NO,0,2010-03-27 15:20:40 -0400,more renames,49,1363
+147,7cf7334a,FAIL,0,NO,0,NO,0,2010-03-27 15:56:27 -0400,update intellij files,49,1363
+148,4e838c50,FAIL,0,NO,0,NO,0,2010-03-27 16:02:31 -0400,Update astroboy to use renamed activities,49,1359
+149,6c8f2041,FAIL,0,NO,0,NO,0,2010-03-27 16:10:08 -0400,Fix warnings,49,1359
+150,51f8a57a,FAIL,0,NO,0,NO,0,2010-03-27 16:51:10 -0400,Added first testcase (SafeAsyncTest),52,1489
+151,804da323,FAIL,0,NO,0,NO,0,2010-03-27 17:02:41 -0400,"whoops, didn't mean to delete that",52,1489
+152,1666b35d,FAIL,0,NO,0,NO,0,2010-03-27 18:23:49 -0400,a very hacky set of ant files to build and run tests from command line,52,1486
+153,ed611e95,FAIL,0,NO,0,NO,0,2010-03-27 18:46:04 -0400,ignore,52,1486
+154,ab2f7062,FAIL,0,NO,0,NO,0,2010-03-27 18:48:52 -0400,"revert all that stuff, start with a fresh (non-working) buildfile again",52,1486
+155,3bf3a7ae,FAIL,0,NO,0,NO,0,2010-03-27 19:07:15 -0400,Now runs tests if an emulator is running,52,1486
+156,6afc5aa0,FAIL,0,NO,0,NO,0,2010-03-27 19:21:49 -0400,Now starts up an emulator if one isn't already running,52,1486
+157,55b722f2,FAIL,0,NO,0,NO,0,2010-03-27 19:52:01 -0400,testing failure of automated builds,52,1489
+158,413f3e79,FAIL,0,NO,0,NO,0,2010-03-27 20:26:37 -0400,Now fails on error in testcases,52,1489
+159,3334c8b3,FAIL,0,NO,0,NO,0,2010-03-27 20:49:06 -0400,Trying to write a real cancel test case,52,1517
+160,3021441b,FAIL,0,NO,0,NO,0,2010-03-27 22:49:26 -0400,"If there's a failure, spit out the test output in the fail message",52,1517
+161,05e0d8aa,FAIL,0,NO,0,NO,0,2010-03-27 23:07:42 -0400,Replace semaphore with latch,52,1515
+162,0a02247f,FAIL,0,NO,0,NO,0,2010-03-28 01:23:50 -0400,Fix cancel test,52,1517
+163,e44e80b6,FAIL,0,NO,0,NO,0,2010-03-28 16:05:06 -0400,clean up semantics of SafeAsyncTask a bit more,52,1516
+164,c78cfaf9,FAIL,0,NO,0,NO,0,2010-03-29 13:34:40 -0400,run emulator headless and kill before and after tests,52,1516
+165,d0e99f2f,FAIL,0,NO,0,NO,0,2010-03-29 13:48:29 -0400,"Hm, not a fan of random sleeps",52,1516
+166,bea26491,FAIL,0,NO,0,NO,0,2010-03-29 13:58:09 -0400,Invert test condition,52,1516
+167,e06b14b3,FAIL,0,NO,0,NO,0,2010-03-30 16:33:00 -0400,clean up SafeAsyncTask more,52,1510
+168,7d8efa9a,FAIL,0,NO,0,NO,0,2010-03-30 17:12:18 -0400,make overriding functionality easier,52,1528
+169,fc19cb2b,FAIL,0,NO,0,NO,0,2010-03-30 17:38:18 -0400,test case that subclasses roboasynctask to do something,52,1580
+170,a8e8a88b,FAIL,0,NO,0,NO,0,2010-03-30 17:56:20 -0400,Fix roboasynctask test case to do context-based action in background,52,1566
+171,4dba71c9,FAIL,0,NO,0,NO,0,2010-03-31 14:55:30 +0200,commit,50,1374
+172,b4b1d1ab,FAIL,0,NO,0,NO,0,2010-04-07 22:17:15 -0700,fixed version of wagon svn extension adapted groupid of maps plugin to standard used by maven android sdk deployer,52,1566
+173,5bb6b8a7,FAIL,0,NO,0,NO,0,2010-04-08 18:23:40 -0400,merge from christine branch,53,1594
+174,71e16859,FAIL,0,NO,0,NO,0,2010-04-08 18:29:19 -0400,rename and fix compilation errors,53,1593
+175,6b52defa,FAIL,0,NO,0,NO,0,2010-04-08 18:39:50 -0400,docs,53,1593
+176,33762f6f,FAIL,0,NO,0,NO,0,2010-04-08 15:47:00 -0700,"first stab at maven build for astroboy, fully works but needs some cleanup",52,1566
+177,ea6d0836,FAIL,0,NO,0,NO,0,2010-04-19 21:12:59 -0300,Adding preference injection,56,1713
+178,1f2ff32e,FAIL,0,NO,0,NO,0,2010-04-21 11:00:38 -0400,fix java 1.5 compilation in intellij,56,1711
+179,f68fb324,FAIL,0,NO,0,NO,0,2010-04-21 11:01:57 -0400,make RPA abstract like its superclass,56,1711
+180,88ef8158,FAIL,0,NO,0,NO,0,2010-05-14 15:56:25 -0400,don't NPE if listeners is empty,56,1712
+181,7ec1b46b,FAIL,0,NO,0,NO,0,2010-05-14 15:56:40 -0400,fix path to guice jar,56,1712
+182,06003f0e,FAIL,0,NO,0,NO,0,2010-05-14 15:56:53 -0400,add AssetManager to bindings,57,1723
+183,73a5a568,FAIL,0,NO,0,NO,0,2010-05-14 18:12:48 -0400,add RoboActivityUnitTestCase,58,1724
+184,da1c64ab,FAIL,0,NO,0,NO,0,2010-06-03 11:48:51 -0700,now uses the application as the default context if no context scope has been explicitly entered yet.,58,1716
+185,3609516c,FAIL,0,NO,0,NO,0,2010-06-07 17:09:39 -0700,changes so that the android jars as bound for maven central are used,52,1566
+186,7cf30ae2,FAIL,0,NO,0,NO,0,2010-06-07 17:37:17 -0700,adding pom to run instrumentation tests via maven,52,1566
+187,3e08aa30,FAIL,0,NO,0,NO,0,2010-06-09 10:07:44 -0400,switch AsyncTask iterface to use Executors instead of ThreadPoolFactories. This makes them more versatile,58,1717
+188,ff5e975d,FAIL,0,NO,0,NO,0,2010-06-22 20:41:44 -0700,updated to r4 of 1.5 and did full run to test it all out,52,1566
+189,96f02c2c,FAIL,0,NO,0,NO,0,2010-06-22 21:36:49 -0700,pulled up changes from trunk,58,1717
+190,2ff20eae,FAIL,0,NO,0,NO,0,2010-07-12 12:18:50 -0400,add launch location to stacktrace on error to assist debugging,58,1727
+191,ef3a3f42,FAIL,0,NO,0,NO,0,2010-07-12 13:13:31 -0400,update pool size to decrease likelihood of deadlock,58,1727
+192,72d1b228,FAIL,0,NO,0,NO,0,2010-07-12 13:13:41 -0400,merge,58,1727
+193,9af36590,FAIL,0,NO,0,NO,0,2010-07-12 13:18:19 -0400,"whoops, fix merge errors Although intellij module's dependncies are still messed up",58,1727
+194,c641e1da,FAIL,0,NO,0,NO,0,2010-07-12 19:19:48 -0400,make the executor easier to override,58,1729
+195,f78774d8,FAIL,0,NO,0,NO,0,2010-07-12 20:21:41 -0400,use static executor as originally intended,58,1728
+196,db9814f3,FAIL,0,NO,0,NO,0,2010-08-02 10:09:40 -0300,"Added RoboAccountAuthenticatorActivity, submitted by marcus. Had to up the api level to 2.x since AccountAuthenticatorActivity only appears in api level 5 or later.  Hope this doesn't cause any problems",59,1778
+197,1358ba98,FAIL,0,NO,0,NO,0,2010-08-10 16:37:47 -0300,typo http://code.google.com/p/roboguice/issues/detail?id=37,59,1778
+198,839c33ae,FAIL,0,NO,0,NO,0,2010-08-30 15:39:11 -0400,Add scope context to onNewIntent,59,1825
+199,c48eb0b7,FAIL,0,NO,0,NO,0,2010-09-27 10:04:31 -0400,documentation update,59,1825
+200,8b4e7a01,FAIL,0,NO,0,NO,0,2010-09-27 10:07:04 -0400,another doc update,59,1825
+201,49947c01,FAIL,0,NO,0,NO,0,2010-10-20 07:40:29 -0500,Adding robointentservice,60,1853
+202,eb3e6159,FAIL,0,NO,0,NO,0,2010-10-20 12:07:26 -0400,docs,60,1853
+203,a0920bcf,FAIL,0,NO,0,NO,0,2010-11-08 18:33:20 -0500,update project to use supported android platform,60,1853
+204,e4254837,FAIL,0,NO,0,NO,0,2010-11-22 14:28:08 -0800,RoboBroadcastReceiver,61,1868
+205,c9dea844,FAIL,0,NO,0,NO,0,2010-11-23 17:14:13 -0500,switch to instantiating test application using Instrumentation constructor,61,1870
+206,d17c0b31,FAIL,0,NO,0,NO,0,2010-11-24 15:41:04 -0500,Added in Strings and Ln,63,2072
+207,2168fc4a,FAIL,0,NO,0,NO,0,2010-11-24 15:42:52 -0500,docs,63,2072
+208,34608833,FAIL,0,NO,0,NO,0,2010-12-01 13:41:45 -0500,Ln injection,63,2074
+209,1fd48304,FAIL,0,NO,0,NO,0,2010-12-01 14:11:05 -0500,added IterableAdapter,64,2092
+210,22ebd08c,FAIL,0,NO,0,NO,0,2010-12-01 15:56:07 -0500,namedformat,64,2102
+211,7b29cb39,FAIL,0,NO,0,NO,0,2010-12-01 16:01:31 -0500,disable timestamp when generating javadocs,64,2102
+212,f1fbd4a0,FAIL,0,NO,0,NO,0,2010-12-16 13:54:25 -0500,more flexibility in sharedpreferencesprovider,64,2103
+213,7dda7a19,FAIL,0,NO,0,NO,0,2010-12-16 13:55:05 -0500,docs,64,2103
+214,a2a5287c,FAIL,0,NO,0,NO,0,2010-12-20 16:07:33 -0500,added ability to set handler after construction in SafeAsyncTask,64,2108
+215,c8d80e20,FAIL,0,NO,0,NO,0,2010-12-20 16:24:47 -0500,"whoops, forgot i can't do it quite that way",64,2108
+216,8f852a60,FAIL,0,NO,0,NO,0,2010-12-25 17:39:41 -0600,Trying to get project in intellij setup and building.,64,2108
+217,a2d43551,FAIL,0,NO,0,NO,0,2010-12-25 23:15:04 -0600,Changing target to 1.6,64,2108
+218,a7a3db91,FAIL,0,NO,0,NO,0,2010-12-25 23:16:45 -0600,Initial spike of ContextObservers for autowiring methods on injectable components that will be called when the method is executed on its context class.,68,2300
+219,fef063e9,FAIL,0,NO,0,NO,0,2010-12-25 23:44:44 -0600,Rename from Activity to Context,68,2300
+220,b0eb3647,FAIL,0,NO,0,NO,0,2010-12-27 10:25:24 -0600,Adding capability to unregister.,68,2313
+221,bccdbdc3,FAIL,0,NO,0,NO,0,2010-12-27 10:46:39 -0600,Adding value to ContextObserver annotation to override the method name and allow multiple registrations per observer. See ContextObservingService in the astroboy sample for examples of usage.,68,2325
+222,90b353ab,FAIL,0,NO,0,NO,0,2010-12-27 15:53:36 -0700,Context observer refinement. Added ContextObservers annotation and ActivityEvent defined events,70,2352
+223,0186c65c,FAIL,0,NO,0,NO,0,2010-12-27 16:59:44 -0700,Updated comments,70,2352
+224,23293836,FAIL,0,NO,0,NO,0,2010-12-30 15:51:25 -0700,Added @ContextParameterObserver event functionality with examples,77,2632
+225,90f87b53,FAIL,0,NO,0,NO,0,2010-12-30 17:00:56 -0700,Added hybrid observing service example,78,2661
+226,68a94c99,FAIL,0,NO,0,NO,0,2010-12-30 19:13:20 -0500,remove notifyWithResult until we come up with a more intuitive behavior,70,2325
+227,09b14bae,FAIL,0,NO,0,NO,0,2010-12-30 20:25:45 -0500,prototyping CDI-type events,69,2276
+228,2bed3306,FAIL,0,NO,0,NO,0,2010-12-30 21:24:38 -0700,Added EventResultHandler for optional return value handling Renamed ContextParameterObserver annotation to ContextObserves Minor spelling & java format fixes,81,2711
+229,575654db,FAIL,0,NO,0,NO,0,2010-12-31 21:00:29 -0700,moved RoboActivity On*Event to the activity.event package Consolidated 2 approaches to event handling Moved ContextObserver annotation value to class (along the same lines as ContextObserves),91,2581
+230,ba675e1a,FAIL,0,NO,0,NO,0,2011-01-01 14:14:05 -0700,Comments,91,2581
+231,3a8a12c4,FAIL,0,NO,0,NO,0,2011-01-02 14:48:03 -0700,Code review tweaks: Event inheritance-based triggering protected over private Renamed and repackaged event related classes Comments,94,2681
+232,b5a29e6d,FAIL,0,NO,0,NO,0,2011-01-02 15:06:27 -0700,Fixed Adam's name spelling (oops!),94,2681
+233,f88e1f04,FAIL,0,NO,0,NO,0,2011-01-03 08:11:22 -0500,get rid of ContextObserver try experimental code in DoctorTenma.onCreate,87,2508
+234,196d5694,FAIL,0,NO,0,NO,0,2011-01-03 08:36:43 -0500,experimentally simplify ContextObserver code by making it contextscoped instead of singleton,86,2437
+235,7d7078f6,FAIL,0,NO,0,NO,0,2011-01-03 08:46:57 -0500,minor,86,2437
+236,c1ff2bbd,FAIL,0,NO,0,NO,0,2011-01-03 09:01:29 -0500,sloppy merge,91,2560
+237,93237756,FAIL,0,NO,0,NO,0,2011-01-03 11:22:46 -0500,fix merge,91,2513
+238,577a1951,FAIL,0,NO,0,NO,0,2011-01-03 11:32:07 -0500,simplifying toastlistener,91,2523
+239,5e847ce4,FAIL,0,NO,0,NO,0,2011-01-03 11:44:55 -0500,cleanup,89,2504
+240,3b37e7e3,FAIL,0,NO,0,NO,0,2011-01-03 12:19:01 -0500,get rid of unnecessary Context param in unregisterObserver call,89,2503
+241,97dc43d1,FAIL,0,NO,0,NO,0,2011-01-03 12:32:09 -0500,cleanup,89,2497
+242,5bc14017,FAIL,0,NO,0,NO,0,2011-01-03 12:44:34 -0500,added support for protected methods,89,2498
+243,2568fd8a,FAIL,0,NO,0,NO,0,2011-01-03 12:57:19 -0500,per john's suggestions,89,2486
+244,5b4ae0cc,FAIL,0,NO,0,NO,0,2011-01-03 13:13:29 -0500,get rid of e.printStackTrace,89,2487
+245,20364769,FAIL,0,NO,0,NO,0,2011-01-03 13:17:15 -0500,add superclassing to notifyWithResult,89,2488
+246,c60a4388,FAIL,0,NO,0,NO,0,2011-01-05 14:37:22 -0500,NOTE: THIS CHANGE REQUIRES A CHANGE IN USAGE IF USING CUSTOM EXECUTORS. YOU MUST CALL future() TO GET A FUTURE. DON'T CREATE YOUR OWN AS PREVIOUSLY RECOMMENDED,64,2115
+247,05393017,FAIL,0,NO,0,NO,0,2011-01-05 14:38:08 -0500,javadocs,64,2115
+248,bc680e64,FAIL,0,NO,0,NO,0,2011-01-05 14:52:08 -0500,add executor accessors,64,2120
+249,d3f12d26,FAIL,0,NO,0,NO,0,2011-01-05 16:06:19 -0500,instructions,64,2120
+250,286a2a3e,FAIL,0,NO,0,NO,0,2011-01-05 18:07:38 -0500,remove double future restriction,64,2118
+251,013dc278,FAIL,0,NO,0,NO,0,2011-01-07 12:42:17 -0500,clean up intellij files now based on maven poms,64,2118
+252,9a05cedd,FAIL,0,NO,0,NO,0,2011-01-07 13:23:38 -0500,remove project file,69,2276
+253,b42dbe2f,FAIL,0,NO,0,NO,0,2011-01-07 13:29:13 -0500,sloppy merge,91,2477
+254,9653e849,FAIL,0,NO,0,NO,0,2011-01-07 15:03:52 -0500,Backed out changeset f968a6205c4e,89,2488
+255,62ca7514,FAIL,0,NO,0,NO,0,2011-01-07 15:09:13 -0500,merge from main,89,2498
+256,1be6e5d1,FAIL,0,NO,0,NO,0,2011-01-07 15:10:06 -0500,remove ipr,89,2498
+257,d2a6acfe,FAIL,0,NO,0,NO,0,2011-01-07 15:12:05 -0500,intellij files,89,2498
+258,8a7b445b,FAIL,0,NO,0,NO,0,2011-01-07 15:30:42 -0500,make EventManager a singleton again,89,2515
+259,2306318e,FAIL,0,NO,0,NO,0,2011-01-07 15:41:37 -0500,get rid of protected final,89,2515
+260,e4757aa0,FAIL,0,NO,0,NO,0,2011-01-07 16:50:43 -0500,change way return values are handled in preparation for single return value observer,89,2517
+261,2cc59db1,FAIL,0,NO,0,NO,0,2011-01-07 16:56:06 -0500,minor,89,2517
+262,dc17b3e3,FAIL,0,NO,0,NO,0,2011-01-07 17:37:10 -0500,switch to validating return types at registration time instead of notification time,90,2522
+263,df60fa55,FAIL,0,NO,0,NO,0,2011-01-07 17:46:23 -0500,only allow a single handler for events that return values,90,2522
+264,20f3bc31,FAIL,0,NO,0,NO,0,2011-01-07 17:51:42 -0500,added return value for OnKeyUp Added error if you use the wrong notify for a given event type,90,2527
+265,3d5da9d8,FAIL,0,NO,0,NO,0,2011-01-07 17:59:30 -0500,disallow inheritance-based event handling for now,90,2528
+266,ddce23c6,FAIL,0,NO,0,NO,0,2011-01-07 18:12:24 -0500,remove logall since it doesn't trigger anymore,90,2526
+267,90779817,FAIL,0,NO,0,NO,0,2011-01-07 18:25:21 -0500,add support for animations per mosabua,64,2122
+268,9363e3b6,FAIL,0,NO,0,NO,0,2011-01-07 18:45:37 -0500,fix for test execution failure,64,2122
+269,7c3f6fb1,FAIL,0,NO,0,NO,0,2011-01-07 18:46:17 -0500,update android maven plugin,64,2122
+270,e6c6fb6a,FAIL,0,NO,0,NO,0,2011-01-07 18:46:24 -0500,intellij files,64,2122
+271,fe5430f8,FAIL,0,NO,0,NO,0,2011-01-07 19:35:37 -0500,remove intellij files and prevent them from getting checked in,64,2122
+272,9f5d5035,FAIL,0,NO,0,NO,0,2011-01-09 19:02:05 -0500,docs,64,2122
+273,73268a3b,FAIL,0,NO,0,NO,0,2011-01-09 19:46:30 -0500,change way that Ln is configured so it doesn't incur a cost every time one of the log methods is invoked,64,2092
+274,27503d2a,FAIL,0,NO,0,NO,0,2011-01-09 19:47:25 -0500,javadoc,64,2092
+275,7db92307,FAIL,0,NO,0,NO,0,2011-01-09 19:50:16 -0500,docs,64,2092
+276,e78deeb2,FAIL,0,NO,0,NO,0,2011-01-09 20:00:05 -0500,make logging location overridable,64,2096
+277,d06746e6,FAIL,0,NO,0,NO,0,2011-01-09 20:23:59 -0500,remove unnecessary method,64,2090
+278,d12dd5d7,FAIL,0,NO,0,NO,0,2011-01-10 10:00:39 -0500,move more functionality to overridable LnPrint instead of non-overridable Ln,64,2098
+279,1656d64c,FAIL,0,NO,0,NO,0,2011-01-10 10:07:39 -0500,rename,64,2098
+280,014e0c99,FAIL,27,NO,0,NO,0,2011-01-10 10:41:29 -0500,top-level pom courtesty of mosabua,64,2098
+281,5ace97c9,FAIL,6,NO,0,NO,0,2011-01-10 15:46:33 -0500,make Task class definition public,64,2098
+282,3eb08ee6,FAIL,5,NO,0,NO,0,2011-01-12 14:28:01 -0500,change default threadpool size to more sensible value,64,2098
+283,00fe45bd,FAIL,6,NO,0,NO,0,2011-01-12 14:30:20 -0500,improve logging selector mechanism,64,2112
+284,f3c5e606,FAIL,7,NO,0,NO,0,2011-01-12 14:34:38 -0500,earlier short circuit,64,2132
+285,8f546e26,FAIL,6,NO,0,NO,0,2011-01-12 14:38:50 -0500,provide way for users to set logging level,64,2141
+286,678b3143,FAIL,6,NO,0,NO,0,2011-01-12 18:27:45 -0500,can now overload Ln.BaseConfig,64,2140
+287,90b64c24,FAIL,6,NO,0,NO,0,2011-01-14 10:49:37 -0500,change to make overriding easier,64,2142
+288,163e3350,FAIL,6,NO,0,NO,0,2011-01-14 11:09:43 -0500,"add support for ints, booleans, colorstatelist",64,2152
+289,7f65ad50,FAIL,0,NO,0,NO,0,2011-01-14 11:30:44 -0500,removing events that return results for now until we decide on the right solution,87,2456
+290,4244657f,FAIL,0,NO,0,NO,0,2011-01-14 11:39:10 -0500,add events to remaining activities superclasses,87,2697
+291,1ff42de9,FAIL,0,NO,0,NO,0,2011-01-14 11:45:32 -0500,minor,87,2697
+292,4c8c78fa,FAIL,0,NO,0,NO,0,2011-01-14 11:48:32 -0500,remove Returns for now,86,2679
+293,904e61e9,FAIL,6,NO,0,NO,0,2011-01-14 12:02:08 -0500,merge from main,86,2713
+294,6154b26f,FAIL,5,NO,0,NO,0,2011-01-14 12:56:47 -0500,added OnContentAvailableEvent,87,2742
+295,b8a05431,FAIL,5,NO,0,NO,0,2011-01-18 11:44:19 -0500,Remove OnContentChangedEvent since it throws NPE during onCreate,86,2704
+296,babac121,FAIL,6,NO,0,NO,0,2011-01-18 11:47:52 -0500,docs,86,2704
+297,d4fce382,FAIL,5,NO,0,NO,0,2011-01-18 12:03:14 -0500,Backed out changeset 6cef898301b5,86,2704
+298,ce3aad39,FAIL,7,NO,0,NO,0,2011-01-18 12:03:18 -0500,Backed out changeset d41d2fc3ddd8,87,2742
+299,b209a12c,FAIL,6,NO,0,NO,0,2011-01-18 14:21:48 -0500,"fix npe in RoboPreferenceActivity although i'm not sure RPA works the way it should.  onCreatePreferences may not actually work properly now, and there may not be a way to get it to work properly",87,2742
+300,81271676,FAIL,7,NO,0,NO,0,2011-01-18 15:26:15 -0500,rename notify -> fire,87,2742
+301,36d86aba,FAIL,7,NO,0,NO,0,2011-01-18 15:28:45 -0500,Remove unused classes,84,2726
+302,752461e0,FAIL,6,NO,0,NO,0,2011-01-18 15:39:34 -0500,Add events to service classes,88,2763
+303,ea032d46,FAIL,5,NO,0,NO,0,2011-01-18 15:40:42 -0500,rename,88,2763
+304,4da6cb54,FAIL,6,NO,0,NO,0,2011-01-18 16:43:13 -0500,cleanup event example,88,2762
+305,5129ba0c,FAIL,7,NO,0,NO,0,2011-01-18 16:49:41 -0500,Improve background task example,88,2764
+306,8a704089,FAIL,6,NO,0,NO,0,2011-01-18 17:22:14 -0500,docs,88,2764
+307,72611b82,FAIL,6,NO,0,NO,0,2011-01-19 11:21:22 -0500,Use simpler fire interface,88,2768
+308,f4f0c981,FAIL,6,NO,0,NO,0,2011-01-19 14:27:39 -0500,"revert pool size change, since some groupon tests now hang because of it filed as http://code.google.com/p/roboguice/issues/detail?id=57",88,2768
+309,b8d94ed1,FAIL,7,NO,0,NO,0,2011-01-20 11:32:07 -0500,fix crazy formatting,88,2761
+310,d2c5e49e,FAIL,6,NO,0,NO,0,2011-01-20 11:43:10 -0500,Handle superclasses,88,2762
+311,5774e2c8,FAIL,8,NO,0,NO,0,2011-01-20 12:04:19 -0500,clean up warnings in ContextScope,88,2765
+312,f532575f,FAIL,6,NO,0,NO,0,2011-01-20 12:11:37 -0500,"The OnDestroyEvent was never firing because the scope was getting closed out in onPause.  Moved the scope.exit() to onDestroy, not sure why I stuck it in onPause way back when.",88,2765
+313,1f395879,FAIL,6,NO,0,NO,0,2011-01-20 13:19:32 -0500,"make fire(Context,Object) public",88,2765
+314,0a23b5eb,FAIL,6,NO,0,NO,0,2011-01-21 15:08:58 -0500,Don't crash during RoboPreferenceActivity.onCreate,88,2765
+315,1f9356e4,FAIL,7,NO,0,NO,0,2011-01-21 16:02:53 -0500,minor cleanup,88,2768
+316,4f4b19aa,FAIL,7,NO,0,NO,0,2011-01-21 16:22:24 -0500,docs,88,2768
+317,93b49dbb,FAIL,6,NO,0,NO,0,2011-01-24 11:26:39 -0500,updated groupId in preparation for maven central hosting,88,2768
+318,5399b198,FAIL,8,NO,0,NO,0,2011-01-24 12:05:58 -0500,updated pom in prep for maven central,88,2768
+319,3a65f014,FAIL,7,NO,0,NO,0,2011-01-24 15:35:02 -0500,add mosabua as contributor,88,2768
+320,46dbe134,FAIL,8,NO,0,NO,0,2011-01-24 16:02:21 -0500,fix developer id to reflect id in hg,88,2768
+321,06c451c8,FAIL,6,NO,0,NO,0,2011-01-24 16:34:03 -0500,update subscribe links,88,2768
+322,bd415bb7,FAIL,9,NO,0,NO,0,2011-01-25 09:06:46 -0500,update for sonatype,88,2768
+323,e8279b34,FAIL,6,NO,0,NO,0,2011-01-25 10:19:42 -0500,[maven-release-plugin] prepare release roboguice-1.1,88,2768
+324,8f9ebbdf,FAIL,6,NO,0,NO,0,2011-01-25 10:19:45 -0500,[maven-scm] copy for tag roboguice-1.1,88,2768
+325,7cf1cfc1,FAIL,7,NO,0,NO,0,2011-01-25 10:19:47 -0500,[maven-release-plugin] prepare for next development iteration,88,2768
+326,b07e4cac,FAIL,6,NO,0,NO,0,2011-01-25 10:35:09 -0500,try again,88,2768
+327,75b3d84e,FAIL,5,NO,0,NO,0,2011-01-25 10:36:19 -0500,[maven-release-plugin] prepare release roboguice-1.1,88,2768
+328,68eb88fa,FAIL,5,NO,0,NO,0,2011-01-25 10:36:52 -0500,Removed tag roboguice-1.1,88,2768
+329,57b1f2c6,FAIL,6,NO,0,NO,0,2011-01-25 10:40:01 -0500,[maven-scm] copy for tag roboguice-1.1,88,2768
+330,a03ed3fe,FAIL,7,NO,0,NO,0,2011-01-25 10:40:02 -0500,[maven-release-plugin] prepare for next development iteration,88,2768
+331,be63ef35,FAIL,6,NO,0,NO,0,2011-01-25 10:44:19 -0500,Removed tag roboguice-1.1,88,2768
+332,4aa648da,FAIL,11,NO,0,NO,0,2011-01-25 10:45:14 -0500,[maven-release-plugin] prepare release roboguice-1.1,88,2768
+333,005e64d1,FAIL,7,NO,0,NO,0,2011-01-25 10:45:16 -0500,[maven-scm] copy for tag roboguice-1.1,88,2768
+334,715a5fd3,FAIL,5,NO,0,NO,0,2011-01-25 10:45:17 -0500,[maven-release-plugin] prepare for next development iteration,88,2768
+335,68deeebf,FAIL,6,NO,0,NO,0,2011-01-25 11:25:56 -0500,cleanup,88,2768
+336,35243fec,FAIL,7,NO,0,NO,0,2011-01-25 11:40:09 -0500,fix poms,88,2768
+337,86aeffc7,FAIL,7,NO,0,NO,0,2011-01-26 17:28:38 -0500,"Whoops, remove asserting debugging code from RoboPreferenceActivity",88,2762
+338,b30e9cb1,FAIL,6,NO,0,NO,0,2011-01-26 17:37:47 -0500,minor,88,2760
+339,eefc847f,FAIL,7,NO,0,NO,0,2011-01-26 20:21:37 -0500,"Implemented static RoboGuice.createInjector() to get rid of RoboApplication. Works, but slow.  seems to initialize multiple times",88,2763
+340,d968983e,FAIL,6,NO,0,NO,0,2011-01-26 20:46:41 -0500,A bunch of simplification,87,2690
+341,666baa45,FAIL,6,NO,0,NO,0,2011-01-26 20:56:08 -0500,Check in missing file,88,2724
+342,b532bb11,FAIL,6,NO,0,NO,0,2011-01-26 21:25:22 -0500,Got rid of RoboApplication entirely!,84,2639
+343,2d738f9b,FAIL,7,NO,0,NO,0,2011-01-26 21:57:21 -0500,misc cleanup,84,2638
+344,0eab68e7,FAIL,7,NO,0,NO,0,2011-01-27 06:58:58 -0500,allow user to override stage,84,2640
+345,4f9332cd,FAIL,7,NO,0,NO,0,2011-01-27 07:19:30 -0500,Simplify contextscope and robomodule a little,84,2635
+346,e9a048ca,FAIL,6,NO,0,NO,0,2011-01-27 14:36:54 -0500,minor,84,2633
+347,258f97e9,FAIL,7,NO,0,NO,0,2011-01-27 14:57:18 -0500,"Add support back for static injection of resources, views",85,2646
+348,6c0e703b,FAIL,7,NO,0,NO,0,2011-01-27 15:01:17 -0500,cleanup,85,2641
+349,e7fb2fa9,FAIL,11,NO,0,NO,0,2011-01-27 16:32:36 -0500,added john's testcases for events,96,3079
+350,8430a940,FAIL,7,NO,0,NO,0,2011-01-27 18:31:10 -0500,merge from head,93,2960
+351,9048d593,FAIL,5,NO,0,NO,0,2011-01-28 11:54:38 -0500,Now make application accessible to modules,93,2970
+352,b5f13409,FAIL,5,NO,0,NO,0,2011-01-28 11:56:10 -0500,docs,93,2970
+353,38df72bf,FAIL,6,NO,0,NO,0,2011-01-29 10:47:50 -0500,Add support for specifying modules manually,93,2999
+354,0bb2715c,FAIL,7,NO,0,NO,0,2011-01-29 10:53:56 -0500,minor,93,2998
+355,c0bb81c1,FAIL,7,NO,0,NO,0,2011-01-29 11:25:05 -0500,Working toward making RoboModule overridable,93,2989
+356,e7159873,FAIL,7,NO,0,NO,0,2011-01-29 11:29:23 -0500,RoboModule should now be overridable,93,2986
+357,b37bfe03,FAIL,7,NO,0,NO,0,2011-01-29 13:09:44 -0500,"I think this fixes Preferences, but need to verify",88,2779
+358,984e59f5,FAIL,7,NO,0,NO,0,2011-01-29 13:52:38 -0500,"Add ability to register listener callbacks, not just method callbacks",89,2803
+359,91e00c8b,FAIL,7,NO,0,NO,0,2011-01-29 13:55:26 -0500,Clean up interface a little,89,2803
+360,128dc219,FAIL,7,NO,0,NO,0,2011-01-29 13:59:12 -0500,Add no-context convenience methods,89,2811
+361,1fe8e97f,FAIL,9,NO,0,NO,0,2011-01-30 12:02:45 -0500,john's patch to fix broken testcases,99,3164
+362,19062f27,FAIL,7,NO,0,NO,0,2011-01-31 11:22:10 -0500,Revert bad clear() call,99,3162
+363,a1cd902c,FAIL,10,NO,0,NO,0,2011-01-31 13:37:50 -0500,patch for issue 75 from mosabua,99,3162
+364,01935fd1,FAIL,7,NO,0,NO,0,2011-01-31 13:42:31 -0500,fix platform versions,99,3162
+365,1ce52e21,FAIL,6,NO,0,NO,0,2011-01-31 14:32:46 -0500,update maven plugin,99,3162
+366,5c98cecd,FAIL,6,NO,0,NO,0,2011-02-01 09:59:45 -0500,convert assert to checkNotNull,99,3164
+367,1e28ada1,FAIL,7,NO,0,NO,0,2011-02-01 11:13:23 -0500,docs,93,2986
+368,f36d6572,FAIL,7,NO,0,NO,0,2011-02-01 13:47:20 -0500,docs,93,2984
+369,532fa813,FAIL,6,NO,0,NO,0,2011-02-03 15:22:07 -0500,add telephonymanager,96,3081
+370,3e97969f,FAIL,5,NO,0,NO,0,2011-02-03 15:25:09 -0500,Add note about problems with @InjectView and setContentView,99,3164
+371,c47deeac,FAIL,6,NO,0,NO,0,2011-02-03 15:29:49 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,99,3164
+372,9d9a8ab1,FAIL,7,NO,0,NO,0,2011-02-03 15:29:51 -0500,[maven-scm] copy for tag roboguice-1.1.1,99,3164
+373,75dda42e,FAIL,5,NO,0,NO,0,2011-02-03 15:29:53 -0500,[maven-release-plugin] prepare for next development iteration,99,3164
+374,b6d1a8ce,FAIL,5,NO,0,NO,0,2011-02-06 00:48:40 -0500,don't crash if no modules specified,93,2983
+375,aff3329e,FAIL,5,NO,0,NO,0,2011-02-09 15:09:14 -0500,"ContextScope was deleting all values on exit. This doesn't work with android's lifecycle, which calls onCreate of the new activity BEFORe it calls onDestroy of the exiting activity, which resulted in the brand new activity's scoped objects getting removed instead of the one being destroyed (whoops).",99,3164
+376,ff04e87c,FAIL,6,NO,0,NO,0,2011-02-09 17:44:31 -0500,"Fix ActivityProvider to be contextscoped, as well as a few others",99,3165
+377,d580c324,FAIL,6,NO,0,NO,0,2011-02-11 16:25:04 -0500,properly clear out context map on scope exit,99,3175
+378,13681141,FAIL,5,NO,0,NO,0,2011-02-11 19:31:41 -0500,"Fix for messages being sent from the wrong scope in onStop, onDestroy",99,3193
+379,80bbed36,FAIL,8,NO,0,NO,0,2011-02-12 20:08:56 -0500,Add test to make sure that context is correct in onStop,102,3233
+380,43504d2a,FAIL,5,NO,0,NO,0,2011-02-12 20:40:48 -0500,test now runs on command line,102,3234
+381,0aa9049c,FAIL,5,NO,0,NO,0,2011-02-12 21:26:30 -0500,res dir,102,3234
+382,481094ce,FAIL,6,NO,0,NO,0,2011-02-13 03:02:48 -0600,"Fixing null ref bug, instead logging a warning with a helpful solution.",102,3237
+383,33eb35e6,FAIL,5,NO,0,NO,0,2011-02-13 03:32:26 -0600,Fixing ContextScope issues by adding a stack like thread local structure to push and pop the current context Should follow-up with better documentation and safer template methods to handle edge scenarios around:   Services   BroadcastReceivers   onStop & onDestory,103,3648
+384,02cda4da,FAIL,5,NO,0,NO,0,2011-02-14 10:03:35 -0500,updates to hgignore,103,3648
+385,20c6cf58,FAIL,6,NO,0,NO,0,2011-02-14 10:06:16 -0500,Clean up logging,103,3647
+386,9657aacf,FAIL,5,NO,0,NO,0,2011-02-14 12:23:49 -0500,"backout usage of contextscope that was causing breakages.  As per adam,",103,3646
+387,5b01c8ec,FAIL,4,NO,0,NO,0,2011-02-17 13:11:45 -0800,Fix for onActivityResult,103,3682
+388,5bdf4a7e,FAIL,5,NO,0,NO,0,2011-02-18 15:12:14 -0600,Adding oldConfiguration & newConfiguration to onConfigurationChanged so they can be diff'd,103,3695
+389,4dae3185,FAIL,6,NO,0,NO,0,2011-02-21 11:20:36 -0800,formatting,103,3695
+390,1926f82f,FAIL,4,NO,0,NO,0,2011-02-21 11:35:37 -0800,pom update,103,3695
+391,95f0d5b9,FAIL,4,NO,0,NO,0,2011-02-21 11:36:19 -0800,extended adam's activity.OnConfigurationChangedEvent changes to service.OnConfigurationChangedEvent,103,3707
+392,56fbeb63,FAIL,6,NO,0,NO,0,2011-02-22 16:55:19 -0500,remove unnecessary throw,103,3706
+393,bee336ba,FAIL,5,NO,0,NO,0,2011-02-23 22:25:38 -0500,merge from roboguice-1.1-branch,103,3708
+394,42d25c48,FAIL,6,NO,0,NO,0,2011-02-23 22:51:57 -0500,merge from default (including 1.1.1),100,3629
+395,8ea37078,FAIL,10,NO,0,NO,0,2011-02-23 22:29:35 -0700,Added event threading,116,3977
+396,e3045fc4,FAIL,5,NO,0,NO,0,2011-03-02 15:48:38 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,103,3706
+397,1d55c335,FAIL,5,NO,0,NO,0,2011-03-02 15:49:21 -0500,Removed tag roboguice-1.1.1,103,3706
+398,832ca33d,FAIL,4,NO,0,NO,0,2011-03-09 17:41:16 -0500,call onInterrupted for InterruptedIOException in addition to InterruptedException,103,3707
+399,cf296455,FAIL,5,NO,0,NO,0,2011-03-09 18:47:41 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,103,3707
+400,85c78b5b,FAIL,5,NO,0,NO,0,2011-03-09 18:47:44 -0500,[maven-scm] copy for tag roboguice-1.1.1,103,3707
+401,71eb37e3,FAIL,5,NO,0,NO,0,2011-03-09 18:47:47 -0500,[maven-release-plugin] prepare for next development iteration,103,3707
+402,4024b63c,FAIL,6,NO,0,NO,0,2011-03-09 18:57:34 -0500,fix examples and tests,103,3707
+403,d23c148d,FAIL,6,NO,0,NO,0,2011-03-09 19:00:03 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,103,3707
+404,25478542,FAIL,5,NO,0,NO,0,2011-03-09 19:00:53 -0500,Removed tag roboguice-1.1.1,103,3707
+405,efaf04e5,FAIL,6,NO,0,NO,0,2011-03-09 19:05:00 -0500,[maven-scm] copy for tag roboguice-1.1.1,103,3707
+406,1b1e0dda,FAIL,6,NO,0,NO,0,2011-03-09 19:05:02 -0500,[maven-release-plugin] prepare for next development iteration,103,3707
+407,efa1db7d,FAIL,6,NO,0,NO,0,2011-03-09 19:11:01 -0500,Removed tag roboguice-1.1.1,103,3707
+408,1d297d3c,FAIL,7,NO,0,NO,0,2011-03-09 19:17:05 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,103,3707
+409,e907623f,FAIL,5,NO,0,NO,0,2011-03-09 19:17:07 -0500,[maven-scm] copy for tag roboguice-1.1.1,103,3707
+410,659e13eb,FAIL,5,NO,0,NO,0,2011-03-09 19:17:09 -0500,[maven-release-plugin] prepare for next development iteration,103,3707
+411,33763639,FAIL,6,NO,0,NO,0,2011-03-09 19:29:43 -0500,Removed tag roboguice-1.1.1,103,3707
+412,701ac880,FAIL,6,NO,0,NO,0,2011-03-09 19:29:57 -0500,update poms to hopefully get the thing to release properly,103,3707
+413,28cd0e77,FAIL,5,NO,0,NO,0,2011-03-09 19:32:49 -0500,[maven-release-plugin] prepare release roboguice-1.1.1,103,3707
+414,a9138342,FAIL,5,NO,0,NO,0,2011-03-09 19:32:51 -0500,[maven-scm] copy for tag roboguice-1.1.1,103,3707
+415,a687813a,FAIL,6,NO,0,NO,0,2011-03-09 19:32:53 -0500,[maven-release-plugin] prepare for next development iteration,103,3707
+416,29facea3,FAIL,6,NO,0,NO,0,2011-03-09 21:09:12 -0500,merge from 1.1.1,100,3630
+417,113efcaf,FAIL,6,NO,0,NO,0,2011-03-26 19:26:30 -0400,merge eventThreading from John,116,3978
+418,7fb82623,FAIL,6,NO,0,NO,0,2011-03-26 19:44:24 -0400,a little cleanup as I go through and learn the code,116,3973
+419,78f518aa,FAIL,7,NO,0,NO,0,2011-03-26 19:51:00 -0400,minor,116,3971
+420,3db5bb56,FAIL,7,NO,0,NO,0,2011-03-26 21:33:27 -0400,Simplify a bit by removing several layers of factories,111,3884
+421,aa19dd2b,FAIL,9,NO,0,NO,0,2011-03-29 17:50:17 -0400,porting to guice3,99,3162
+422,511724bc,FAIL,5,NO,0,NO,0,2011-04-13 10:31:55 -0400,remove antiquated tests,108,3688
+423,431d5024,FAIL,5,NO,0,NO,0,2011-04-14 10:52:21 -0400,re-enable EventManager,107,3675
+424,708a27f5,FAIL,6,NO,0,NO,0,2011-04-14 11:37:49 -0400,bind ANDROID_ID,107,3682
+425,f0033545,FAIL,7,NO,0,NO,0,2011-04-16 11:39:51 -0400,working on Nullable for guice3,100,3169
+426,66654d54,FAIL,6,NO,0,NO,0,2011-04-16 12:08:25 -0400,merge from default,108,3688
+427,5241f5b3,FAIL,6,NO,0,NO,0,2011-04-16 12:39:16 -0400,added jsr 305 and testcases,140,4068
+428,0f716531,FAIL,6,NO,0,NO,0,2011-04-16 12:45:48 -0400,update to guice3,140,4068
+429,814c5e37,FAIL,6,NO,0,NO,0,2011-04-16 12:47:55 -0400,remove jsr 305 in favor of http://repo2.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/,109,3715
+430,6e1b1357,FAIL,9,NO,0,NO,0,2011-04-16 14:24:07 -0400,Switch to using jsr305 Nullable,109,3715
+431,e87067d4,FAIL,6,NO,0,NO,0,2011-04-16 14:37:46 -0400,minor,109,3707
+432,cc7d62ac,FAIL,7,NO,0,NO,0,2011-04-16 14:40:15 -0400,remove support for test classes,107,3679
+433,0ef81d0e,FAIL,5,NO,0,NO,0,2011-04-16 14:54:12 -0400,add injection testcase,108,3713
+434,7077552e,FAIL,6,NO,0,NO,0,2011-04-16 14:58:54 -0400,more tests,108,3726
+435,f2df28c3,FAIL,7,NO,0,NO,0,2011-04-16 15:38:47 -0400,attempt to add non-working inject prefs testcase,108,3757
+436,1d764903,FAIL,6,NO,0,NO,0,2011-04-16 15:45:27 -0400,merge guice30 into default,108,3757
+437,741d2333,FAIL,6,NO,0,NO,0,2011-04-16 16:32:25 -0400,remove iml file,108,3757
+438,9c998372,FAIL,6,NO,0,NO,0,2011-05-24 11:52:31 -0400,working on a test to see if we have a memory leak in ViewListener https://groups.google.com/forum/#!topic/roboguice/l223sxou_c4,104,3746
+439,7c2e2905,FAIL,6,NO,0,NO,0,2011-05-24 12:42:21 -0400,Fix memory leak in ViewListener,104,3743
+440,5ab0c6f8,FAIL,6,NO,0,NO,0,2011-05-24 12:49:27 -0400,minor,104,3742
+441,6602cc9b,FAIL,6,NO,0,NO,0,2011-05-24 12:51:27 -0400,Fix memory leak in PreferenceListener,104,3744
+442,2b6b3adf,FAIL,5,NO,0,NO,0,2011-05-27 22:48:24 -0400,"Don't try to retrieve the context and scope when the class is instantiated, since we may not have that info at that time.  Wait until the newTask method is called. At that point, if we don't have it, it's the user's fault.",104,3746
+443,5c7e6e1a,FAIL,6,NO,0,NO,0,2011-05-30 15:48:35 -0400,"static injection of resources works again, although technically it's not static injection",105,3766
+444,cd77e492,FAIL,6,NO,0,NO,0,2011-06-07 23:12:33 -0400,error message if trying to inject extras into services or broadcast receivers,106,3805
+445,1f910ed2,FAIL,7,NO,0,NO,0,2011-06-13 09:51:44 -0400,add AudioManager to provided services,108,3759
+446,877177ca,FAIL,6,NO,0,NO,0,2011-07-02 22:49:16 -0700,merge from roboguice-1.1-branch,111,3858
+447,1b814e4a,FAIL,5,NO,0,NO,0,2011-07-02 22:49:56 -0700,fix bug in PreferenceListener,106,3805
+448,825b5511,FAIL,5,NO,0,NO,0,2011-07-03 00:24:31 -0700,"first pass, most tests pass",111,3277
+449,ca621592,FAIL,5,NO,0,NO,0,2011-07-03 00:33:54 -0700,fix one test,111,3273
+450,73284cb6,FAIL,6,NO,0,NO,0,2011-07-03 00:52:14 -0700,getting closer,111,3332
+451,90d5bca6,FAIL,5,NO,0,NO,0,2011-07-03 00:57:53 -0700,all tests pass,111,3332
+452,be218c72,FAIL,5,NO,0,NO,0,2011-07-03 01:00:44 -0700,name change,111,3332
+453,f5f21d37,FAIL,6,NO,0,NO,0,2011-07-03 01:17:46 -0700,fix potential npe in weakref,111,3333
+454,4c033419,FAIL,5,NO,0,NO,0,2011-07-03 02:17:53 -0700,tests and a little tweaking,111,3315
+455,8745a71d,FAIL,5,NO,0,NO,0,2011-07-03 02:20:39 -0700,performance improvement?,111,3318
+456,64fe54db,FAIL,6,NO,0,NO,0,2011-07-03 02:25:54 -0700,minor,111,3318
+457,4b257cea,FAIL,6,NO,0,NO,0,2011-07-03 03:06:00 -0700,"fix roboasynctask and robothread, although i'm not convinced they really need scoping any more",111,3324
+458,e6210d4b,FAIL,6,NO,0,NO,0,2011-07-03 13:15:45 -0700,"Now compiles, although it doesn't run",109,3282
+459,939eeab2,FAIL,5,NO,0,NO,0,2011-07-03 13:30:09 -0700,"whoops, wrong Provider",109,3282
+460,0e2ebe77,FAIL,6,NO,0,NO,0,2011-07-03 13:34:44 -0700,"Bring back StaticTypeListeners, I'm not sure I can actually get rid of that",111,3324
+461,73885dc4,FAIL,5,NO,0,NO,0,2011-07-03 13:45:55 -0700,merge in pseudoChildInjectors branch,111,3324
+462,aa44a2f3,FAIL,5,NO,0,NO,0,2011-07-03 20:35:28 -0700,Another ContextScope test,111,3345
+463,4e224ecc,FAIL,6,NO,0,NO,0,2011-07-03 20:37:13 -0700,rename @ContextScoped -> @Context to be consistent with @Singleton and @Session,111,3342
+464,42a1f304,FAIL,6,NO,0,NO,0,2011-07-03 20:54:27 -0700,Remove weak references (which are fragile) in ContextScope now that we have full control of when to close out the context,111,3360
+465,571f63c7,FAIL,5,NO,0,NO,0,2011-07-03 21:01:29 -0700,"Switch @Context -> @ContextScoped again, because ides keep autocompleting the wrong one",111,3360
+466,013b62a5,FAIL,6,NO,0,NO,0,2011-07-03 21:44:53 -0700,make various listeners throw exceptions for static injection if they don't support static,111,3447
+467,24e8ba86,FAIL,6,NO,0,NO,0,2011-07-03 23:31:12 -0700,remove AbstractRoboModule by using SPI,110,3449
+468,6f3832c5,FAIL,6,NO,0,NO,0,2011-07-04 08:55:25 -0700,"Use a Weak key map for ContextScope, but a hard reference for the Context threadlocal.  This ensures the context will be in the map for the lifetime of the context, AND also for the lifetime of any background threads that are referencing the context.",110,3449
+469,68d94058,FAIL,6,NO,0,NO,0,2011-07-04 16:03:01 -0700,"switch back to using weakreference for values again, since the strong references were preventing context from getting gcd",110,3460
+470,ceb26b1c,FAIL,5,NO,0,NO,0,2011-07-04 16:16:58 -0700,fix tests,110,3458
+471,0b70475e,FAIL,6,NO,0,NO,0,2011-07-04 17:07:30 -0700,test for using providers after onDestroy,110,3493
+472,1187d4a0,FAIL,6,NO,0,NO,0,2011-07-04 17:36:03 -0700,"Tests and fixes for RoboAsyncTask and RoboThread, although doesn't seem to have fixed crash in Groupon app yet",110,3502
+473,6370c967,FAIL,5,NO,0,NO,0,2011-07-05 10:28:02 -0700,"full circle.  It occurs to me that there's no need to hold a strong reference, because the OS itself has a strong reference until at least onDestroy anyway",110,3496
+474,73e59b04,FAIL,6,NO,0,NO,0,2011-07-07 17:30:15 -0400,update poms,106,3805
+475,c30e5a13,FAIL,5,NO,0,NO,0,2011-07-08 22:13:27 -0400,Change SharedPReferencesProvider to use Application instead of being context scoped,110,3497
+476,0b3ca0d9,FAIL,5,NO,0,NO,0,2011-07-08 22:34:00 -0400,context -> application dependent,110,3496
+477,e06fb9d6,FAIL,6,NO,0,NO,0,2011-07-08 23:31:50 -0400,make systemserviceprovider @contextscoped instead of application,110,3497
+478,9085cb0b,FAIL,5,NO,0,NO,0,2011-07-09 00:04:43 -0400,[maven-release-plugin] prepare release roboguice-1.1.2,106,3805
+479,6e748a28,FAIL,5,NO,0,NO,0,2011-07-09 00:04:45 -0400,[maven-scm] copy for tag roboguice-1.1.2,106,3805
+480,4b0f0fbc,FAIL,4,NO,0,NO,0,2011-07-09 00:04:46 -0400,[maven-release-plugin] prepare for next development iteration,106,3805
+481,a8fd58c8,FAIL,5,NO,0,NO,0,2011-07-09 00:34:05 -0400,merge from 1.1.2,110,3497
+482,d0a18140,FAIL,6,NO,0,NO,0,2011-07-09 09:45:22 -0400,"Make most system service application scoped, but some context scoped",111,3509
+483,9fbe7809,FAIL,6,NO,0,NO,0,2011-07-09 19:10:31 -0400,make viewlistener potentially work multiple times,109,3336
+484,8577cd36,FAIL,5,NO,0,NO,0,2011-07-09 19:19:20 -0400,cleanup,109,3330
+485,30bf1353,FAIL,5,NO,0,NO,0,2011-07-09 19:40:09 -0400,Move view injection code to RoboInjector,110,3318
+486,44b7c463,FAIL,5,NO,0,NO,0,2011-07-09 19:41:45 -0400,open -> enter,110,3318
+487,dabb80a1,FAIL,5,NO,0,NO,0,2011-07-09 19:59:15 -0400,"In theory, can now inject viewmembers into Views, not just activities",110,3318
+488,3d1b5c4f,FAIL,6,NO,0,NO,0,2011-07-09 20:59:18 -0400,Can now use @InjectView in Views,110,3317
+489,ffe88811,FAIL,5,NO,0,NO,0,2011-07-09 21:00:19 -0400,minor,110,3317
+490,856729df,FAIL,5,NO,0,NO,0,2011-07-09 21:03:57 -0400,"add testcase for view injection.  thought i had this before, but looks like i jumped the gun",110,3331
+491,d0749e85,FAIL,6,NO,0,NO,0,2011-07-09 21:24:11 -0400,@InjectView seems to work on Views now,110,3337
+492,20a0b673,FAIL,5,NO,0,NO,0,2011-07-09 21:40:56 -0400,Make @InjectView happen for views during injectMembers,110,3329
+493,b1add648,FAIL,6,NO,0,NO,0,2011-07-10 11:42:43 -0400,minor,110,3328
+494,61ea1171,FAIL,6,NO,0,NO,0,2011-07-10 12:34:00 -0400,Fix a problem with hashing strings,111,3343
+495,c98d739b,FAIL,6,NO,0,NO,0,2011-07-10 16:44:49 -0400,clean up ActivityProvider a bit.  untested,111,3343
+496,aac40240,FAIL,5,NO,0,NO,0,2011-07-10 16:52:25 -0400,minor,111,3343
+497,1788d61d,FAIL,3,NO,0,NO,0,2011-07-10 16:56:15 -0400,remove old astroboy,95,3085
+498,b92aad26,FAIL,5,NO,0,NO,0,2011-07-10 17:37:26 -0400,blank astroboy application,96,3096
+499,2d71fb01,FAIL,7,NO,0,NO,0,2011-07-10 19:08:45 -0400,Initial version of new sample app and tutorial,96,3147
+500,948b5d82,FAIL,5,NO,0,NO,0,2011-07-10 19:19:57 -0400,FightForcesOfEvil initial pass,97,3163
+501,59b7f9fa,FAIL,7,NO,0,NO,0,2011-07-10 19:29:17 -0400,fix app package,97,3164
+502,f8deba31,FAIL,6,NO,0,NO,0,2011-07-10 19:36:32 -0400,Move files around,99,3173
+503,b75fc13e,FAIL,6,NO,0,NO,0,2011-07-10 19:48:47 -0400,"Add injection to RoboAsyncTask, and simplify",99,3161
+504,08cc74d1,FAIL,6,NO,0,NO,0,2011-07-10 19:49:18 -0400,"Add injection to RoboAsyncTask, and simplify",99,3160
+505,692b7ed2,FAIL,6,NO,0,NO,0,2011-07-10 20:14:03 -0400,Remove RoboThread and RoboLooperThread since they're no longer necessary,97,3129
+506,5daf1f30,FAIL,6,NO,0,NO,0,2011-07-10 20:30:23 -0400,added an ignored testcase that I need to fix one of these days,97,3130
+507,646f9f80,FAIL,5,NO,0,NO,0,2011-07-10 21:03:09 -0400,Some basic fighting,97,3157
+508,00c700be,FAIL,5,NO,0,NO,0,2011-07-10 21:17:13 -0400,Comments,97,3156
+509,6296f69b,FAIL,6,NO,0,NO,0,2011-07-11 11:10:38 -0400,build instructions,97,3156
+510,56f7240b,FAIL,5,NO,0,NO,0,2011-07-11 11:11:52 -0400,minor,97,3156
+511,7bba0ed6,FAIL,6,NO,0,NO,0,2011-07-11 23:40:46 -0400,Add Tyler Schultz's patch for multiple view Ids in InjectView,97,3193
+512,4f61056c,FAIL,6,NO,0,NO,0,2011-07-16 12:42:26 -0400,"Fix for background injection. Not 100% sure this is working correctly, but it seems to work better than the previous version. Groupon app seems to have ProvisionErrors under some circumstances trying to get Activity from ContextProvider",97,3210
+513,ffe57d07,FAIL,7,NO,0,NO,0,2011-07-23 17:31:04 +0200,"introduced RoboProvider, which will properly scope the context before getting the result of the provider",99,3275
+514,86b02c41,FAIL,6,NO,0,NO,0,2011-07-23 18:12:51 +0200,Minor,99,3275
+515,6492f3cc,FAIL,7,NO,0,NO,0,2011-07-28 13:56:21 +0100,Remove misleading documentation,106,3805
+516,5a14119c,FAIL,6,NO,0,NO,0,2011-07-28 13:56:52 +0100,merge,99,3275
+517,b95bb820,FAIL,7,NO,0,NO,0,2011-08-20 19:10:55 +0100,Tighten up ContextScoped and ContextScopedProvider behavior,98,3321
+518,f2e7cbf4,FAIL,5,NO,0,NO,0,2011-08-20 19:55:41 +0100,fix tests,98,3306
+519,1ecb64e9,FAIL,7,NO,0,NO,0,2011-08-20 20:12:25 +0100,fix build error,98,3309
+520,2a4b5610,FAIL,6,NO,0,NO,0,2011-08-21 13:34:04 +0100,"If we're going to be opening and closing scopes manually again, we'll need to use threadlocals to keep track of the current scope",98,3309
+521,0655e738,FAIL,6,NO,0,NO,0,2011-09-05 22:30:29 +0100,"Random asynctasks were failing (http) because the GC was collecting the weakreferences to things in the contextscope map, and there was a bug in the provider that wasn't re-generating them again.  However, the more fundamental problem was that they should never have been GCd.",98,3361
+522,9b4965d2,FAIL,5,NO,0,NO,0,2011-09-06 10:33:26 +0100,Allow injection of activities and services too,99,3372
+523,44dc7702,FAIL,6,NO,0,NO,0,2011-09-06 22:56:08 +0100,Added RoboContentProvider,100,3380
+524,1d5eeaf4,FAIL,5,NO,0,NO,0,2011-09-06 22:58:07 +0100,Don't swallow invocationaccessexception http://code.google.com/p/roboguice/issues/detail?id=109,100,3380
+525,7b5ae97c,FAIL,8,NO,0,NO,0,2011-09-07 15:28:51 +0100,preliminary fragment support. does not support view injection yet,109,3590
+526,22b99472,FAIL,6,NO,0,NO,0,2011-09-07 15:33:31 +0100,add fragment view injection support,109,3591
+527,a0e49448,FAIL,5,NO,0,NO,0,2011-09-07 16:03:25 +0100,add fragment view injection support,109,3591
+528,d7bfd98d,FAIL,6,NO,0,NO,0,2011-09-09 16:20:36 +0100,whoops,109,3591
+529,0b57e6ba,FAIL,6,NO,0,NO,0,2011-09-24 19:10:49 -0700,Use the context injector instead of the application injector,109,3591
+530,867cf269,FAIL,5,NO,0,NO,0,2011-09-24 21:49:47 -0700,testcases for service injection,110,3624
+531,e7e71074,FAIL,5,NO,0,NO,0,2011-09-25 16:37:41 -0700,view injection test,111,3677
+532,2174cac8,FAIL,5,NO,0,NO,0,2011-09-25 16:43:29 -0700,simplify the way we inject into views,111,3681
+533,b06613db,FAIL,6,NO,0,NO,0,2011-09-25 16:48:40 -0700,add RoboGuice.destroyInjector,111,3674
+534,3ae5dc26,FAIL,5,NO,0,NO,0,2011-09-25 17:01:19 -0700,prevent injecting views into contexts that aren't activities,111,3675
+535,f266b3c0,FAIL,6,NO,0,NO,0,2011-09-25 21:03:47 -0700,Trying to get Fragment support in robolectric,111,3713
+536,c9b198eb,FAIL,5,NO,0,NO,0,2011-09-25 23:01:12 -0700,Add testcase for injecting views into pojos,111,3703
+537,97370fa0,FAIL,6,NO,0,NO,0,2011-09-27 09:49:41 -0700,add application injection,111,3714
+538,145011ce,FAIL,5,NO,0,NO,0,2011-09-29 10:36:29 -0700,added testcase for application injection,112,3741
+539,f2f52ea7,FAIL,6,NO,0,NO,0,2011-10-02 21:22:35 +0100,Can now inject views into Pojos.  Unfortunately broke a few other things,112,3735
+540,98917826,FAIL,7,NO,0,NO,0,2011-10-02 21:38:16 +0100,Fix tests.  Don't allow injection of views into non-activity contexts,112,3738
+541,bbb3151b,FAIL,6,NO,0,NO,0,2011-10-02 21:42:32 +0100,cleanup,111,3727
+542,39147ba1,FAIL,7,NO,0,NO,0,2011-10-02 21:54:49 +0100,typesafe fragment support,111,3757
+543,cc37c390,FAIL,7,NO,0,NO,0,2011-10-03 00:00:32 +0100,Add back fragment injection,111,3759
+544,2c8a3fa9,FAIL,7,NO,0,NO,0,2011-10-03 00:13:04 +0100,Simplify ShadowFragment stuff.  Still doesn't work though,111,3743
+545,c76e17df,FAIL,6,NO,0,NO,0,2011-10-05 14:48:46 +0000,contribution from manfred,111,3743
+546,ca2e02ef,FAIL,6,NO,0,NO,0,2011-10-06 14:38:14 +0100,Fix Fragment test cases,111,3873
+547,9bd60fc6,FAIL,5,NO,0,NO,0,2011-10-06 14:38:37 +0100,merge,111,3873
+548,7399de93,FAIL,5,NO,0,NO,0,2011-10-06 15:14:49 +0100,Fix for broken fragment injection when also injecting into a FragmentActivity,111,3877
+549,f18edb8d,FAIL,7,NO,0,NO,0,2011-10-06 15:16:25 +0100,simplify test,111,3871
+550,4996ed8f,FAIL,5,NO,0,NO,0,2011-10-06 15:21:07 +0100,another test case,111,3901
+551,ba3fecc3,FAIL,5,NO,0,NO,0,2011-10-08 15:27:41 +0100,"improve fragment view injection test to actually, you know, inject views",111,3947
+552,0ab69ac2,FAIL,6,NO,0,NO,0,2011-10-08 15:31:03 +0100,Update version number to 2.0,111,3947
+553,c7425611,FAIL,6,NO,0,NO,0,2011-10-13 15:29:30 +0200,[maven-release-plugin] prepare release roboguice-2.0b1,111,3947
+554,cc94b5db,FAIL,5,NO,0,NO,0,2011-10-13 15:29:34 +0200,[maven-scm] copy for tag roboguice-2.0b1,111,3947
+555,388e9c2b,FAIL,5,NO,0,NO,0,2011-10-13 15:29:37 +0200,[maven-release-plugin] prepare for next development iteration,111,3947
+556,33c0dc72,FAIL,5,NO,0,NO,0,2011-10-13 16:07:00 +0200,not using powermock anymore,111,3947
+557,6addf791,FAIL,5,NO,0,NO,0,2011-10-13 16:20:37 +0200,can now deploy in astroboy dir,111,3947
+558,cd2d0862,FAIL,6,NO,0,NO,0,2011-10-13 16:32:30 +0200,rename RoboModule to DefaultRoboModule,111,3947
+559,cb26deda,FAIL,5,NO,0,NO,0,2011-10-13 17:09:02 +0200,Removed tag roboguice-2.0b1,111,3947
+560,c5958922,FAIL,6,NO,0,NO,0,2011-10-13 17:20:44 +0200,[maven-release-plugin] prepare release roboguice-2.0b1,111,3947
+561,47b50027,FAIL,5,NO,0,NO,0,2011-10-13 17:20:49 +0200,[maven-scm] copy for tag roboguice-2.0b1,111,3947
+562,55a2f790,FAIL,6,NO,0,NO,0,2011-10-13 17:20:52 +0200,[maven-release-plugin] prepare for next development iteration,111,3947
+563,602b945e,FAIL,6,NO,0,NO,0,2011-10-13 19:28:43 +0200,rename setApplicationInjector to setBaseApplicationInjector,111,3948
+564,ddafe087,FAIL,7,NO,0,NO,0,2011-10-13 19:55:26 +0200,Add a testcase to astroboy example,112,3964
+565,e7fb6840,FAIL,7,NO,0,NO,0,2011-10-13 20:56:35 +0200,Add a second testcase using easymock,113,4002
+566,5460e429,FAIL,6,NO,0,NO,0,2011-10-13 21:13:58 +0200,fix dexing issue,113,4002
+567,7b829997,FAIL,5,NO,0,NO,0,2011-10-13 22:01:49 +0200,add private constructor,113,4003
+568,86f622bb,FAIL,5,NO,0,NO,0,2011-10-14 01:00:45 +0200,minor,113,4002
+569,198fb38a,FAIL,6,NO,0,NO,0,2011-10-14 01:08:10 +0200,minor,113,4001
+570,d06fe03c,FAIL,5,NO,0,NO,0,2011-10-14 01:13:37 +0200,tear down the custom injector when done,113,4003
+571,404ea900,FAIL,6,NO,0,NO,0,2011-10-14 01:14:18 +0200,tear down the custom injector when done,113,4003
+572,e57fcdcb,FAIL,5,NO,0,NO,0,2011-10-14 01:36:12 +0200,Provide reset method,114,4038
+573,86969d01,FAIL,7,NO,0,NO,0,2011-10-14 01:40:27 +0200,documentation,114,4038
+574,8c9dca46,FAIL,5,NO,0,NO,0,2011-10-15 16:12:21 +0200,working on reverting array annotations in InjectView,114,4020
+575,f4bb9659,FAIL,6,NO,0,NO,0,2011-10-15 16:18:32 +0200,cleanup,114,4020
+576,1574e392,FAIL,6,NO,0,NO,0,2011-10-15 18:21:19 +0200,Fix a crash in astroboy,114,4019
+577,24f464e6,FAIL,5,NO,0,NO,0,2011-10-15 18:21:33 +0200,I believe I successfully reverted all of the InjectView(int[]) changes.,114,4010
+578,4e4beb11,FAIL,5,NO,0,NO,0,2011-10-18 10:48:00 +0200,[maven-release-plugin] prepare release roboguice-2.0b2,114,4010
+579,cb4f84a5,FAIL,5,NO,0,NO,0,2011-10-18 10:48:02 +0200,[maven-scm] copy for tag roboguice-2.0b2,114,4010
+580,053f6bad,FAIL,6,NO,0,NO,0,2011-10-18 10:48:04 +0200,[maven-release-plugin] prepare for next development iteration,114,4010
+581,c3313374,FAIL,5,NO,0,NO,0,2011-10-20 12:06:21 +0200,Add AccountManager binding,115,4024
+582,4a5d00d3,FAIL,5,NO,0,NO,0,2011-10-24 13:49:53 +0200,http://code.google.com/p/roboguice/issues/detail?id=140,115,4026
+583,d558db24,FAIL,5,NO,0,NO,0,2011-10-24 20:29:36 +0200,handlers now created on main looper by default,116,4037
+584,15e1cfe5,FAIL,6,NO,0,NO,0,2011-10-25 10:54:09 +0200,remove unnecessary static injection,116,4035
+585,586d5c9a,FAIL,5,NO,0,NO,0,2011-10-25 18:55:48 +0200,add preliminary support for @InjectFragment(),117,4083
+586,ba18f682,FAIL,6,NO,0,NO,0,2011-11-06 13:30:53 -0800,Added RoboGuice.injectMembers,117,4086
+587,c25392b8,FAIL,6,NO,0,NO,0,2011-11-06 13:34:44 -0800,rename ContextScoped -> ContextSingleton,117,4084
+588,001d92de,FAIL,5,NO,0,NO,0,2011-11-06 14:45:21 -0800,Add @ContentView,119,4144
+589,70983922,FAIL,5,NO,0,NO,0,2011-11-06 16:53:22 -0800,ensure event registrations are executed in the order they're created,119,4144
+590,7b3e5ebc,FAIL,11,NO,0,NO,0,2011-11-09 12:08:43 -0800,update android-maven-plugin version,119,4144
+591,61a2860d,FAIL,6,NO,0,NO,0,2011-11-09 13:00:27 -0800,switch back to compatibility-v4,119,4147
+592,2f639dfd,FAIL,4,NO,0,NO,0,2011-11-25 17:21:16 -0200,[maven-release-plugin] prepare release roboguice-2.0b3,119,4147
+593,895485a6,FAIL,5,NO,0,NO,0,2011-11-25 17:21:19 -0200,[maven-scm] copy for tag roboguice-2.0b3,119,4147
+594,8bf62231,FAIL,5,NO,0,NO,0,2011-11-25 17:21:21 -0200,[maven-release-plugin] prepare for next development iteration,119,4147
+595,ad9a4958,FAIL,5,NO,0,NO,0,2011-11-28 22:58:20 -0300,Initialize injector on bg thread,119,4150
+596,016b83cb,FAIL,5,NO,0,NO,0,2011-12-10 15:54:07 -0300,Use PreferenceManager.getDefaultSharedPreferences instead of our own custom prefs name.,120,4196
+597,f4b3dc07,FAIL,4,NO,0,NO,0,2011-12-10 16:20:16 -0300,Fallback on old RoboGuice1 prefs file if present,120,4238
+598,8ebbcf0f,FAIL,5,NO,0,NO,0,2011-12-10 17:50:35 -0300,Allow users to inject views using tags,120,4269
+599,b7384100,FAIL,4,NO,0,NO,0,2011-12-10 18:00:15 -0300,Allow users to inject fragments using tags,120,4274
+600,6b127d6b,FAIL,5,NO,0,NO,0,2011-12-10 18:19:59 -0300,Can now inject resources by name,120,4291
+601,053c6295,FAIL,5,NO,0,NO,0,2011-12-10 19:07:37 -0300,remove all references to compatibility lib from DefaultRoboModule and ViewListener,120,4307
+602,a26f54bb,FAIL,4,NO,0,NO,0,2011-12-10 19:40:27 -0300,"Initialize injector on main thread instead of in bg thread, since bg initialization can cause problems with some android classes that create handlers (eg dialogs)",120,4302
+603,0f3f7825,FAIL,4,NO,0,NO,0,2011-12-10 19:47:50 -0300,Don't include timestamps in Ln output since adb logcat -v time will show them.  Users can override this behavior if they prefer,120,4301
+604,d8cf519c,FAIL,5,NO,0,NO,0,2011-12-10 20:32:13 -0300,Fix pom,120,4301
+605,191d480f,FAIL,4,NO,0,NO,0,2011-12-10 20:35:50 -0300,Allow injection of RoboActivity,120,4313
+606,86e2ac7c,FAIL,5,NO,0,NO,0,2011-12-10 20:48:46 -0300,Add RoboLoader and RoboAsyncTaskLoader,122,4329
+607,9edae5f6,FAIL,5,NO,0,NO,0,2011-12-10 20:59:51 -0300,Fix VerifyError when running on Android 1.6 http://code.google.com/p/roboguice/issues/detail?id=154,122,4335
+608,ea28a0c2,FAIL,4,NO,0,NO,0,2011-12-19 16:44:19 -0700,NullPointerException on screen rotation,122,4384
+609,1cfca6c1,FAIL,6,NO,0,NO,0,2011-12-19 17:28:55 -0700,http://code.google.com/p/roboguice/issues/detail?id=129,122,4387
+610,0059a174,FAIL,6,NO,0,NO,0,2011-12-19 17:29:21 -0700,cleanup,122,4386
+611,812c755f,FAIL,5,NO,0,NO,0,2011-12-20 18:52:33 -0700,http://code.google.com/p/roboguice/issues/detail?id=163&sort=milestone,122,4386
+612,0f3947c2,FAIL,6,NO,0,NO,0,2012-02-05 13:18:40 -0800,http://code.google.com/p/roboguice/issues/detail?id=104&sort=milestone,122,4401
+613,8b8ed055,FAIL,5,NO,0,NO,0,2012-02-05 13:23:06 -0800,http://code.google.com/p/roboguice/issues/detail?id=168&sort=milestone Log exception from onException,122,4403
+614,ce200f4a,FAIL,9,NO,0,NO,0,2012-02-05 13:30:02 -0800,Update to support library r6,122,4403
+615,21a8e70d,FAIL,5,NO,0,NO,0,2012-02-05 13:37:33 -0800,http://code.google.com/p/roboguice/issues/detail?id=172&sort=milestone,122,4403
+616,d0c4ae89,FAIL,5,NO,0,NO,0,2012-02-05 14:09:22 -0800,Working on http://code.google.com/p/roboguice/issues/detail?id=158&sort=milestone,122,4368
+617,e134eb7d,FAIL,5,NO,0,NO,0,2012-02-24 10:30:08 -0800,[maven-release-plugin] prepare release roboguice-2.0b4,122,4368
+618,0088f669,FAIL,5,NO,0,NO,0,2012-02-24 10:30:11 -0800,[maven-scm] copy for tag roboguice-2.0b4,122,4368
+619,6ecbad8a,FAIL,5,NO,0,NO,0,2012-02-24 10:30:13 -0800,[maven-release-plugin] prepare for next development iteration,122,4368
+620,57716e8c,FAIL,5,NO,0,NO,0,2012-03-18 16:42:47 -0700,Fix for broken searchmanager http://code.google.com/p/roboguice/issues/detail?id=186,122,4368
+621,bcacd959,FAIL,4,NO,0,NO,0,2012-03-18 16:54:18 -0700,Add ability to get context in user defined modules http://code.google.com/p/roboguice/issues/detail?id=184,122,4371
+622,c03b6dd8,FAIL,5,NO,0,NO,0,2012-03-18 18:25:17 -0700,fix unnecessary key insertions http://code.google.com/p/roboguice/issues/detail?id=185,122,4367
+623,392f9637,FAIL,6,NO,0,NO,0,2012-03-18 18:44:23 -0700,Add ability to override module name http://code.google.com/p/roboguice/issues/detail?id=176,122,4372
+624,6ea8ad28,FAIL,6,NO,0,NO,0,2012-03-18 18:57:07 -0700,Add ability to specify how many items to skip in the stacktrace http://code.google.com/p/roboguice/issues/detail?id=119&sort=milestone,122,4372
+625,b0ad0723,FAIL,5,NO,0,NO,0,2012-03-19 20:41:58 -0700,@InjectView does not work on screen orientation change http://code.google.com/p/roboguice/issues/detail?id=183,122,4372
+626,6cee72fa,FAIL,5,NO,0,NO,0,2012-03-19 21:17:24 -0700,Revert dc3f949dc64a to put initialize roboguice on background thread again,122,4377
+627,0a50fab4,FAIL,5,NO,0,NO,0,2012-03-19 21:18:00 -0700,InjectPreference in RoboPreferenceActivity fails: UnsupportedOperationException: class android.content.Context is context-scoped and can't be injected outside of a context scope http://code.google.com/p/roboguice/issues/detail?id=188,122,4386
+628,ab7cefed,FAIL,5,NO,0,NO,0,2012-03-19 21:19:22 -0700,minor cleanup,122,4384
+629,b23e9aab,FAIL,5,NO,0,NO,0,2012-03-19 21:48:17 -0700,"Allow opening more than one scope at a time, provided that you close them again http://code.google.com/p/roboguice/issues/detail?id=179",122,4406
+630,82ce3f41,FAIL,5,NO,0,NO,0,2012-03-19 21:55:58 -0700,Allow the application to be a scope http://code.google.com/p/roboguice/issues/detail?id=134&sort=milestone,122,4407
+631,3dd49241,FAIL,5,NO,0,NO,0,2012-03-19 22:11:52 -0700,[maven-release-plugin] prepare release roboguice-2.0-RC1,122,4407
+632,5626b5a2,FAIL,4,NO,0,NO,0,2012-03-19 22:11:53 -0700,[maven-scm] copy for tag roboguice-2.0-RC1,122,4407
+633,81d72437,FAIL,5,NO,0,NO,0,2012-03-19 22:11:54 -0700,[maven-release-plugin] prepare for next development iteration,122,4407
+634,526901fb,FAIL,4,NO,0,NO,0,2012-03-21 22:04:42 -0700,Fix Context memory leak,122,4419
+635,6e8912b0,FAIL,4,NO,0,NO,0,2012-03-22 00:03:26 -0700,Prevent users from accidentally opening a context scope for a context that has already been destroyed,122,4426
+636,9c461a39,FAIL,5,NO,0,NO,0,2012-03-22 14:44:20 -0700,"Fix corner case I wasn't catching, increase memory of destroyed activities, improve performance",122,4426
+637,3d75dfa8,FAIL,6,NO,0,NO,0,2012-03-22 16:11:08 -0700,"Switch to IllegalStateException for ""Attempt to enter %s after onDestroy has already been called""",122,4426
+638,cc85b9be,FAIL,5,NO,0,NO,0,2012-03-28 15:24:52 -0700,Add call to ContextScope.onCreate(),122,4452
+639,319998a1,FAIL,4,NO,0,NO,0,2012-04-05 12:17:28 -0700,"Whoops, fix bug in setModulesResourceId",122,4452
+640,0c4bf0b3,FAIL,5,NO,0,NO,0,2012-04-05 17:58:02 -0700,"Change the mechanism by which we manage scopes.  Instead of putting them in a hashmap keyed off of the context, put them into the contexts themselves.",124,4522
+641,f90878e6,FAIL,19,NO,0,NO,0,2012-04-11 16:54:58 -0700,Check in maps artifact locally,124,4522
+642,640592ab,FAIL,12,NO,0,NO,0,2012-04-11 16:56:28 -0700,Check in maps artifact locally,124,4522
+643,9f24a389,FAIL,13,NO,0,NO,0,2012-04-11 17:03:28 -0700,[maven-release-plugin] prepare release roboguice-2.0-RC2,124,4522
+644,3e89ac56,FAIL,11,NO,0,NO,0,2012-04-11 17:03:30 -0700,[maven-scm] copy for tag roboguice-2.0-RC2,124,4522
+645,8b61162d,FAIL,14,NO,0,NO,0,2012-04-11 17:03:32 -0700,[maven-release-plugin] prepare for next development iteration,124,4522
+646,dfd25579,FAIL,11,NO,0,NO,0,2012-04-11 19:21:07 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme,124,4522
+647,256fae81,FAIL,11,NO,0,NO,0,2012-04-11 19:21:09 -0700,[maven-scm] copy for tag roboguice-2.0-ignoreme,124,4522
+648,d5799b74,FAIL,11,NO,0,NO,0,2012-04-11 19:21:12 -0700,[maven-release-plugin] prepare for next development iteration,124,4522
+649,895dbda0,FAIL,10,NO,0,NO,0,2012-04-11 19:25:48 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme,124,4522
+650,6568e833,FAIL,9,NO,0,NO,0,2012-04-11 19:26:21 -0700,Removed tag roboguice-2.0-ignoreme,124,4522
+651,400f2776,FAIL,11,NO,0,NO,0,2012-04-11 19:31:45 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme2,124,4522
+652,eaf5fa52,FAIL,11,NO,0,NO,0,2012-04-11 19:31:47 -0700,[maven-scm] copy for tag roboguice-2.0-ignoreme2,124,4522
+653,90c8f0fd,FAIL,11,NO,0,NO,0,2012-04-11 19:31:49 -0700,[maven-release-plugin] prepare for next development iteration,124,4522
+654,5cffbb4c,FAIL,11,NO,0,NO,0,2012-04-11 19:32:53 -0700,Removed tag roboguice-2.0-ignoreme2,124,4522
+655,e59fc3be,FAIL,11,NO,0,NO,0,2012-04-11 19:35:37 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme4,124,4522
+656,efc284aa,FAIL,11,NO,0,NO,0,2012-04-11 19:35:39 -0700,[maven-scm] copy for tag roboguice-2.0-ignoreme4,124,4522
+657,2df2d693,FAIL,10,NO,0,NO,0,2012-04-11 19:35:41 -0700,[maven-release-plugin] prepare for next development iteration,124,4522
+658,45d0549a,FAIL,10,NO,0,NO,0,2012-04-11 19:45:55 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme5,124,4522
+659,57e45bd2,FAIL,11,NO,0,NO,0,2012-04-11 19:47:17 -0700,[maven-release-plugin] rollback the release of roboguice-2.0-ignoreme5,124,4522
+660,83f6a3b2,FAIL,10,NO,0,NO,0,2012-04-11 19:48:01 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme6,124,4522
+661,eab3a358,FAIL,11,NO,0,NO,0,2012-04-11 19:48:04 -0700,[maven-scm] copy for tag roboguice-2.0-ignoreme6,124,4522
+662,9bbb7d01,FAIL,12,NO,0,NO,0,2012-04-11 19:48:08 -0700,[maven-release-plugin] prepare for next development iteration,124,4522
+663,94c6a3f1,FAIL,10,NO,0,NO,0,2012-04-11 19:49:02 -0700,use gpg agent,124,4522
+664,51731fc8,FAIL,9,NO,0,NO,0,2012-04-11 19:49:49 -0700,[maven-release-plugin] prepare release roboguice-2.0-ignoreme6,124,4522
+665,fad78f9d,FAIL,10,NO,0,NO,0,2012-04-11 19:50:23 -0700,"Removed tag roboguice-2.0-ignoreme6, roboguice-2.0-ignoreme4",124,4522
+666,bac7c740,FAIL,9,NO,0,NO,0,2012-04-11 19:50:39 -0700,[maven-release-plugin] rollback the release of roboguice-2.0-ignoreme6,124,4522
+667,a7ffd386,FAIL,10,NO,0,NO,0,2012-04-16 16:59:07 -0700,Fix RoboSplashActivity,124,4521
+668,68609192,FAIL,10,NO,0,NO,0,2012-04-16 17:12:11 -0700,Rename ScopedObjectProvider to RoboContext,124,4521
+669,6a22dad7,FAIL,9,NO,0,NO,0,2012-04-17 16:18:57 -0700,Remove RoboApplication requirement,123,4510
+670,eba9d989,FAIL,8,NO,0,NO,0,2012-04-17 16:25:06 -0700,[maven-release-plugin] prepare release roboguice-2.0-RC2b,123,4510
+671,f425b850,FAIL,9,NO,0,NO,0,2012-04-17 16:25:49 -0700,[maven-release-plugin] rollback the release of roboguice-2.0-RC2b,123,4510
+672,6f3547c9,FAIL,9,NO,0,NO,0,2012-04-17 16:27:52 -0700,[maven-release-plugin] prepare release roboguice-2.0-RC2b,123,4510
+673,eb3268e7,FAIL,9,NO,0,NO,0,2012-04-17 16:27:54 -0700,[maven-scm] copy for tag roboguice-2.0-RC2b,123,4510
+674,9ca2162f,FAIL,10,NO,0,NO,0,2012-04-17 16:27:56 -0700,[maven-release-plugin] prepare for next development iteration,123,4510
+675,3e780b85,FAIL,10,NO,0,NO,0,2012-04-17 16:44:17 -0700,Removed tag roboguice-2.0-RC2b,123,4510
+676,d255a524,FAIL,10,NO,0,NO,0,2012-04-17 16:48:16 -0700,config for aggregator pom,123,4510
+677,d7d814bf,FAIL,9,NO,0,NO,0,2012-04-17 16:48:58 -0700,[maven-release-plugin] prepare release roboguice-2.0-RC2b,123,4510
+678,a6f70f28,FAIL,10,NO,0,NO,0,2012-04-17 16:49:00 -0700,[maven-scm] copy for tag roboguice-2.0-RC2b,123,4510
+679,93a42552,FAIL,11,NO,0,NO,0,2012-04-17 16:49:02 -0700,[maven-release-plugin] prepare for next development iteration,123,4510
+680,7b9780b1,FAIL,11,NO,0,NO,0,2012-04-23 10:49:44 -0700,[maven-release-plugin] prepare release roboguice-2.0,123,4510
+681,36206f54,FAIL,11,NO,0,NO,0,2012-04-23 10:49:47 -0700,[maven-scm] copy for tag roboguice-2.0,123,4510
+682,d8dde261,FAIL,11,NO,0,NO,0,2012-04-23 10:49:51 -0700,[maven-release-plugin] prepare for next development iteration,123,4510
+683,432e4ff5,FAIL,11,NO,0,NO,0,2012-07-24 11:44:51 -0700,Update javassist RuntimeSupport to Apache2 license,123,4511
+684,b2e3bb42,FAIL,0,NO,0,NO,0,2012-08-12 13:37:20 -0700,Initial commit,0,0
+685,2f8d054f,FAIL,11,NO,0,NO,0,2012-08-12 13:55:22 -0700,merge from github,123,4511
+686,804473c4,FAIL,12,NO,0,NO,0,2012-10-08 22:00:26 -0700,ignoring maven output and intellij files,123,4511
+687,0301b321,FAIL,13,NO,0,NO,0,2012-10-08 22:03:17 -0700,"fixed roboguice version, updated to maps version from maven android sdk deployer, updated maven android plugin",123,4511
+688,ae188309,FAIL,6,NO,0,NO,0,2012-10-08 22:04:05 -0700,updated to maps version from maven android sdk deployer,123,4511
+689,260ca200,FAIL,5,NO,0,NO,0,2012-10-08 22:05:06 -0700,removed usage of local repository in filesystem,123,4511
+690,e0df20c0,FAIL,6,NO,0,NO,0,2012-10-08 22:08:21 -0700,moved readme to markdown file,123,4511
+691,59da5bfd,FAIL,5,NO,0,NO,0,2012-10-08 22:08:53 -0700,removed empty unused readme,123,4511
+692,11b17fca,FAIL,10,NO,0,NO,0,2012-10-08 22:36:04 -0700,"consistent android version for sdk platform, dependencies and maps, plugin updates",123,4511
+693,54ce7266,FAIL,5,NO,0,NO,0,2012-10-08 22:41:18 -0700,removed hg files,123,4511
+694,3820a322,FAIL,8,NO,0,NO,0,2012-10-08 22:50:25 -0700,updated support library version,123,4511
+695,0c617edf,FAIL,5,NO,0,NO,0,2012-10-08 22:51:22 -0700,spelling and style fix,123,4511
+696,cdc9672b,FAIL,9,NO,0,NO,0,2012-10-11 23:12:50 -0700,Updating readme,123,4511
+697,a76a4bdc,FAIL,11,NO,0,NO,0,2012-10-11 23:30:03 -0700,Updating app icon paths to gh-pages images,123,4511
+698,909d6ad6,FAIL,12,NO,0,NO,0,2012-10-11 23:48:20 -0700,Merge pull request #4 from donnfelker/master,123,4511
+699,7076a433,FAIL,11,NO,0,NO,0,2012-10-12 18:28:41 +0200,update from deprecated onStart to new onStartCommand,123,4512
+700,5bf11552,FAIL,11,NO,0,NO,0,2012-12-01 13:43:48 -0800,ignore .idea files,123,4511
+701,a7fc3a15,FAIL,11,NO,0,NO,0,2012-12-01 16:08:25 -0800,add travis config file,123,4511
+702,9f858444,FAIL,10,NO,0,NO,0,2012-12-01 16:12:51 -0800,fix broken astroboy dep,123,4511
+703,50c75e2b,FAIL,11,NO,0,NO,0,2012-12-01 16:29:22 -0800,Attempt to download android platform during build,123,4511
+704,5c06f9ca,FAIL,12,NO,0,NO,0,2012-12-01 16:38:17 -0800,Use proper package number,123,4511
+705,fcf64651,FAIL,11,NO,0,NO,0,2012-12-01 16:41:04 -0800,Maybe this will download api level 9?,123,4511
+706,2010a975,FAIL,12,NO,0,NO,0,2012-12-01 16:43:36 -0800,"Fine, try api level 10",123,4511
+707,fae350a9,FAIL,11,NO,0,NO,0,2012-12-01 16:47:57 -0800,"This seems to work on my machine, will it work on travis?",123,4511
+708,542fb115,FAIL,11,NO,0,NO,0,2012-12-01 16:50:57 -0800,Maybe it needs to download the tools first?,123,4511
+709,08362467,FAIL,10,NO,0,NO,0,2012-12-01 16:59:11 -0800,ignore intellij files,123,4511
+710,8664f7f6,FAIL,9,NO,0,NO,0,2012-12-01 17:02:01 -0800,fix test case?,123,4511
+711,6d916748,FAIL,9,NO,0,NO,0,2012-12-01 17:15:28 -0800,try reverting back to platform 9,123,4511
+712,ada5fef8,FAIL,10,NO,0,NO,0,2012-12-10 09:12:06 -0800,Merge pull request #5 from brodo/master,123,4512
+713,7bd426a3,FAIL,10,NO,0,NO,0,2012-12-10 09:15:53 -0800,Extend RoboService fix for #6 to RoboIntentService as well,123,4513
+714,3472bd04,FAIL,13,NO,0,NO,0,2012-12-10 13:15:51 -0800,Merge branch 'buildupdate' of https://github.com/mosabua/roboguice into mosabua-buildupdate,123,4513
+715,c99c1c81,FAIL,10,NO,0,NO,0,2012-12-10 13:23:56 -0800,Typo #8,123,4513
+716,d937ec72,FAIL,11,NO,0,NO,0,2012-12-10 13:33:15 -0800,Update platform version to one available on travis,123,4513
+717,3d3fa1f3,FAIL,12,NO,0,NO,0,2013-01-05 18:12:45 -0500,"Fixed @InjectFragment(String tag) The FragmentManager.findFragmentByTag method takes a String, not an Object. This caused fragmentFindFragmentByTagMethod in ViewListener to be null and thus a NullReferenceException in ViewListener.reallyInjectMemberFragments(Object)",123,4513
+718,4c35be5a,FAIL,11,NO,0,NO,0,2013-01-16 10:27:13 -0800,wiki change,123,4513
+719,b761c5bc,FAIL,11,NO,0,NO,0,2013-01-22 14:56:52 -0800,Merge pull request #10 from cyanfish/master,123,4513
+720,a9f25380,FAIL,10,NO,0,NO,0,2013-01-22 16:49:30 -0800,debugging travis,123,4513
+721,4c1fe73e,FAIL,11,NO,0,NO,0,2013-01-22 16:49:59 -0800,Merge remote-tracking branch 'origin/master',123,4513
+722,85a62d92,FAIL,12,NO,0,NO,0,2013-01-22 16:55:24 -0800,debugging travis,123,4513
+723,792c736a,FAIL,12,NO,0,NO,0,2013-01-22 17:33:14 -0800,debugging travis,123,4513
+724,5ffebd9d,FAIL,11,NO,0,NO,0,2013-01-22 17:56:22 -0800,debugging travis,123,4513
+725,06ef58a6,FAIL,10,NO,0,NO,0,2013-01-22 18:02:08 -0800,debugging travis,123,4513
+726,6fe79280,FAIL,10,NO,0,NO,0,2013-01-22 18:07:00 -0800,debugging travis,123,4513
+727,2e674daa,FAIL,12,NO,0,NO,0,2013-01-22 22:05:52 -0800,Add a testcase that uses mockito instead of easymock+robolectric,123,4515
+728,129bbd47,FAIL,10,NO,0,NO,0,2013-02-03 20:52:24 -0800,update version for experimental branch,123,4515
+729,ff876607,FAIL,10,NO,0,NO,0,2013-02-03 20:58:24 -0800,make experimental more explicit,123,4515
+730,36ad5140,FAIL,10,NO,0,NO,0,2013-02-03 21:00:44 -0800,add autoversionsubmodules,123,4515
+731,f5e00f4b,FAIL,10,NO,0,NO,0,2013-02-03 21:24:14 -0800,Disable gpg plugin for now,123,4515
+732,1817b83a,FAIL,11,NO,0,NO,0,2013-02-03 21:25:37 -0800,update version,123,4515
+733,378ec4fa,FAIL,11,NO,0,NO,0,2013-02-03 21:35:47 -0800,update scm urls,123,4515
+734,0411eb18,FAIL,13,NO,0,NO,0,2013-02-03 21:40:51 -0800,[maven-release-plugin] prepare release roboguice-3.0a-experimental,123,4515
+735,cc751ce5,FAIL,11,NO,0,NO,0,2013-02-03 21:41:11 -0800,[maven-release-plugin] prepare for next development iteration,123,4515
+736,c6fc5d16,FAIL,11,NO,0,NO,0,2013-02-03 22:34:52 -0800,Refactor Ln so it can be overridden,124,4571
+737,ed90adb0,FAIL,8,NO,0,NO,0,2013-02-03 22:39:16 -0800,[maven-release-plugin] prepare release roboguice-3.0b-experimental,124,4571
+738,c734f025,FAIL,10,NO,0,NO,0,2013-02-03 22:39:30 -0800,[maven-release-plugin] prepare for next development iteration,124,4571
+739,d8e45c35,FAIL,11,NO,0,NO,0,2013-02-04 12:57:39 -0800,Allow users to optionally override LnImpl,125,4608
+740,1a9ffc1c,FAIL,11,NO,0,NO,0,2013-02-05 14:59:40 -0800,Fix 'Get Started with RoboGuice 2' link,123,4515
+741,9a9a6e4d,FAIL,10,NO,0,NO,0,2013-02-05 16:13:16 -0800,Merge pull request #15 from marcab/master,123,4515
+742,9cbfb6f1,FAIL,10,NO,0,NO,0,2013-04-21 22:36:17 +0300,Add OnSaveInstanceStateEvent,126,4656
+743,e527f28d,FAIL,8,NO,0,NO,0,2013-04-21 22:57:28 +0300,"consolidate activity and service events for OnCreate, OnDestroy, OnStart, OnConfigurationChanged.  Add the context to the event.",122,4709
+744,cb9cf291,FAIL,10,NO,0,NO,0,2013-04-25 15:16:22 -0400,Adding Apache 2.0 License (like on Google Code),123,4515
+745,23f329d5,FAIL,10,NO,0,NO,0,2013-04-25 21:51:48 -0700,Merge pull request #25 from sghill/master,123,4515
+746,65d30937,FAIL,10,NO,0,NO,0,2013-05-06 11:44:03 -0700,"Add an alternate implementation of SafeAsyncTask called AndroidCallable. This version is faster, and I believe it has cleaner semantics when using it with java.util.concurrent",125,4800
+747,3b51bd92,FAIL,10,NO,0,NO,0,2013-05-06 13:18:17 -0700,fix for travis?,125,4800
+748,75a420a9,FAIL,10,NO,0,NO,0,2013-05-06 13:24:59 -0700,fix for travis?,123,4515
+749,8985c693,FAIL,10,NO,0,NO,0,2013-05-06 13:26:05 -0700,fix for travis?,125,4800
+750,814c108a,FAIL,10,NO,0,NO,0,2013-05-06 13:33:25 -0700,fix for travis?,125,4800
+751,2846ce33,FAIL,10,NO,0,NO,0,2013-05-06 13:47:02 -0700,fix for travis?,125,4800
+752,5518c8ea,FAIL,9,NO,0,NO,0,2013-05-06 13:50:01 -0700,fix for travis?,125,4800
+753,7ebf8b9e,FAIL,9,NO,0,NO,0,2013-05-06 14:05:49 -0700,fix for travis?,125,4800
+754,30fa6d60,FAIL,8,NO,0,NO,0,2013-05-06 14:09:28 -0700,fix for travis?,125,4800
+755,a234d60d,FAIL,10,NO,0,NO,0,2013-05-06 14:22:47 -0700,update version numbers,125,4800
+756,c5059f21,FAIL,9,NO,0,NO,0,2013-05-06 14:33:50 -0700,fix for travis?,125,4800
+757,d70b1b58,FAIL,10,NO,0,NO,0,2013-05-06 16:40:30 -0700,fix for travis?,125,4800
+758,27453910,FAIL,8,NO,0,NO,0,2013-05-06 16:47:05 -0700,fix for travis?,125,4800
+759,85bc97fa,FAIL,8,NO,0,NO,0,2013-05-06 16:48:39 -0700,fix for travis?,125,4800
+760,f4d1c0dd,FAIL,9,NO,0,NO,0,2013-05-06 16:58:05 -0700,fix for travis?,125,4800
+761,b4b11b6a,FAIL,9,NO,0,NO,0,2013-07-24 15:34:06 -0700,Fix for why new Ln wasn't working,125,4801
+762,99e17e84,FAIL,10,NO,0,NO,0,2013-07-24 15:58:30 -0700,Remove SuppressWarnings{All},125,4802
+763,a1621192,FAIL,9,NO,0,NO,0,2013-07-24 17:01:07 -0700,Add stacktrace output to AndroidCallable. Disable stacktrace output for production builds in both AndroidCallable and SafeAsyncTask,125,4813
+764,c7fbf16f,FAIL,10,NO,0,NO,0,2013-07-24 17:31:49 -0700,Fix AndroidCallable to use the correct thread's stacktrace,125,4813
+765,2db5fb8e,FAIL,10,NO,0,NO,0,2013-07-24 18:59:22 -0700,Add testcase for AndroidCallable,126,4868
+766,be38d73f,FAIL,9,NO,0,NO,0,2013-07-25 11:15:43 -0700,clean up poms,126,4868
+767,3c2d18c3,FAIL,9,NO,0,NO,0,2013-07-25 11:27:25 -0700,simplify Ln interface,126,4868
+768,e8193abc,FAIL,9,NO,0,NO,0,2013-07-25 11:31:00 -0700,ignore tests,126,4870
+769,f79eb655,FAIL,10,NO,0,NO,0,2013-07-25 12:13:42 -0700,ApplicationInjectionTests now passes,123,4690
+770,3213d314,FAIL,4,NO,0,NO,0,2013-07-25 13:30:15 -0700,Fix ActivityInjectTest in IntelliJ (if I manually reorder the module dependencies) Not fixed in maven though,123,4688
+771,238725e2,FAIL,5,NO,0,NO,0,2013-07-25 13:36:01 -0700,Fix maven tests,123,4688
+772,8aded2c6,FAIL,4,NO,0,NO,0,2013-07-25 14:10:33 -0700,Fix FragmentInjectionTest,123,4660
+773,6c0a0377,FAIL,5,NO,0,NO,0,2013-07-25 14:16:24 -0700,Fix warnings,123,4657
+774,f037dfcd,FAIL,5,NO,0,NO,0,2013-07-25 14:32:40 -0700,Fix warnings,123,4631
+775,3c397ce0,FAIL,5,NO,0,NO,0,2013-07-25 15:27:38 -0700,Fix AndroidCallableTest,123,4629
+776,3412c3c1,FAIL,6,NO,0,NO,0,2013-07-25 15:34:09 -0700,Fix build,123,4629
+777,8d52a1fd,FAIL,5,NO,0,NO,0,2013-07-25 15:42:20 -0700,Test exception handling,123,4651
+778,a62e6529,FAIL,5,NO,0,NO,0,2013-07-25 16:16:56 -0700,"Don't wrap the exception thrown by the underlying method, it obfuscates things. Add another testcase.",123,4676
+779,9a83916e,FAIL,5,NO,0,NO,0,2013-07-25 16:51:15 -0700,change version number,123,4676
+780,fad036fb,FAIL,5,NO,0,NO,0,2013-07-25 17:20:02 -0700,Deploy travis builds to maven snapshot repo,123,4676
+781,9a2fe99b,FAIL,9,NO,0,NO,0,2013-07-30 17:14:13 -0700,Merge branch 'master' of github.com:roboguice/roboguice,123,4515
+782,0553262e,FAIL,4,NO,0,NO,0,2013-07-30 17:29:17 -0700,Merge branch 'experimental',123,4676
+783,06d38cc8,FAIL,4,NO,0,NO,0,2013-07-30 17:30:47 -0700,set version number to 3.0-alpha,123,4676
+784,db9ce14f,FAIL,4,NO,0,NO,0,2013-07-30 17:48:11 -0700,Add context to events,123,4721
+785,b2a59649,FAIL,8,NO,0,NO,0,2013-07-31 08:27:24 -0700,Add support for actionbarsherlock Courtesy of Roberto Tyley https://plus.google.com/u/1/110056285015864219461/posts/CCk5bpNuGyV,133,5449
+786,93035ae5,FAIL,4,NO,0,NO,0,2013-07-31 11:37:47 -0700,Get rid of Ln.Config and Ln.Print https://github.com/roboguice/roboguice/pull/16#issuecomment-21648121,133,5435
+787,c81542e2,FAIL,5,NO,0,NO,0,2013-07-31 13:23:54 -0700,Remove reference to Arrays.copyOf,133,5435
+788,9b61e4e7,FAIL,4,NO,0,NO,0,2013-07-31 14:03:30 -0700,Port SafeAsyncTask to use AndroidCallable,133,5378
+789,85a9ab96,FAIL,5,NO,0,NO,0,2013-07-31 14:05:42 -0700,"Add testcases, not yet implemented",133,5384
+790,28611a94,FAIL,5,NO,0,NO,0,2013-07-31 14:32:28 -0700,"allow onPreCall to throw an excpetion, will be handled by onException. Add test cases",133,5479
+791,a677eb9e,FAIL,5,NO,0,NO,0,2013-07-31 14:43:39 -0700,minor,133,5479
+792,d9758caf,FAIL,5,NO,0,NO,0,2013-07-31 16:58:57 -0700,Fix broken testcase,133,5481
+793,5fa918ef,FAIL,6,NO,0,NO,0,2013-08-02 16:39:02 -0700,Remove support for static resource injection due to large performance overhead https://github.com/roboguice/roboguice/issues/87,133,5474
+794,836953cd,FAIL,5,NO,0,NO,0,2013-08-02 16:44:29 -0700,Remove support for static resource injection due to large performance overhead https://github.com/roboguice/roboguice/issues/87,133,5468
+795,c72376e9,FAIL,5,NO,0,NO,0,2013-08-07 17:00:47 -0700,[maven-release-plugin] prepare release roboguice-3.0-alpha-1,133,5468
+796,cbbcb313,FAIL,6,NO,0,NO,0,2013-08-07 19:13:32 -0700,"whoops, did i intend to remove the gpg plugin?",133,5468
+797,6528b482,FAIL,5,NO,0,NO,0,2013-08-07 19:14:55 -0700,"Revert ""[maven-release-plugin] prepare release roboguice-3.0-alpha-1""",133,5468
+798,4f45f96b,FAIL,5,NO,0,NO,0,2013-08-07 19:28:58 -0700,"Revert ""whoops, did i intend to remove the gpg plugin?""",133,5468
+799,173db702,FAIL,4,NO,0,NO,0,2013-08-07 19:30:43 -0700,[maven-release-plugin] prepare release roboguice-3.0-alpha-1,133,5468
+800,558a9a8f,FAIL,5,NO,0,NO,0,2013-08-07 19:31:06 -0700,[maven-release-plugin] rollback the release of roboguice-3.0-alpha-1,133,5468
+801,12b112c5,FAIL,4,NO,0,NO,0,2013-08-07 19:33:52 -0700,[maven-release-plugin] prepare release roboguice-3.0-alpha-1,133,5468
+802,5917ea7f,FAIL,4,NO,0,NO,0,2013-08-07 19:34:07 -0700,[maven-release-plugin] prepare for next development iteration,133,5468
+803,f4be360a,FAIL,5,NO,0,NO,0,2013-08-07 19:50:25 -0700,try to move some release stuff to parent pom,133,5468
+804,6fcf145c,FAIL,6,NO,0,NO,0,2013-08-07 19:53:48 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0d-experimental,133,5468
+805,0335c7d6,FAIL,5,NO,0,NO,0,2013-08-07 19:53:59 -0700,[maven-release-plugin] prepare for next development iteration,133,5468
+806,9ca726f0,FAIL,5,NO,0,NO,0,2013-08-07 20:00:47 -0700,Fix broken astroboy pom,133,5468
+807,56987033,FAIL,5,NO,0,NO,0,2013-08-23 13:28:07 +0200,Introduces a failry simple RoboAppWidgetProvider.,134,5480
+808,444add74,FAIL,5,NO,0,NO,0,2013-09-23 21:51:21 -0300,"ContextScope is now ContextSingleton, also in comments! :)",133,5468
+809,192e224f,FAIL,5,NO,0,NO,0,2013-09-23 22:34:22 -0700,Merge pull request #140 from mgurreta/patch-1,133,5468
+810,d7778055,FAIL,6,NO,0,NO,0,2013-10-12 15:22:13 -0400,fix pluralization typo,133,5468
+811,ed98d518,FAIL,4,NO,0,NO,0,2013-10-14 09:47:15 -0700,Merge pull request #144 from sghill/injectextra-docs,133,5468
+812,2ba14be0,FAIL,14,NO,0,NO,0,2013-10-17 13:48:18 +0400,fix for ConcurrentModificationException in EventManager: now copy of observers set is created,133,5481
+813,376eb5a7,FAIL,5,NO,0,NO,0,2013-11-15 20:40:34 -0800,minor,133,5468
+814,c41c57fd,FAIL,5,NO,0,NO,0,2013-11-16 06:52:57 -0800,Mostly fix testcases.  ViewInjectionTest is still failing,133,5474
+815,286d2eca,FAIL,5,NO,0,NO,0,2013-11-16 06:53:50 -0800,Merge branch 'master' of github.com:roboguice/roboguice,133,5474
+816,30b09ace,FAIL,4,NO,0,NO,0,2013-11-16 06:55:35 -0800,global event manager,133,5476
+817,98b19f98,FAIL,4,NO,0,NO,0,2013-11-16 07:00:25 -0800,travis-ci ping,133,5476
+818,dfb59636,FAIL,6,NO,0,NO,0,2013-11-26 17:37:10 -0800,Add support for compatibility-v7-appcompat,134,5563
+819,e5a37c5d,FAIL,15,NO,0,NO,0,2013-11-26 17:51:02 -0800,Switch to robolectric2 and fix build for maven 3.1.1,134,5564
+820,b0dc740a,FAIL,5,NO,0,NO,0,2013-12-09 17:52:36 +0200,Added Gymglish to the list of apps,134,5564
+821,41f8b42d,FAIL,5,NO,0,NO,0,2013-12-30 08:59:24 -0800,Merge pull request #152 from serj-lotutovici/master,134,5564
+822,5e6ce9ae,FAIL,6,NO,0,NO,0,2014-01-08 15:57:11 -0800,Fix broken oom tests,134,5561
+823,f335f018,FAIL,5,NO,0,NO,0,2013-04-06 02:07:09 +0200,Updated a few version numbers. Added automatic injection in custom views,135,5634
+824,b1902d5c,FAIL,5,NO,0,NO,0,2014-01-08 18:44:38 -0800,Updated a few version numbers. Added automatic injection in custom views,135,5618
+825,2cc580c3,FAIL,5,NO,0,NO,0,2013-04-06 02:11:02 +0200,Code clean up.,135,5623
+826,39996193,FAIL,6,NO,0,NO,0,2014-01-08 18:55:43 -0800,Extend view injection to all activities,135,5810
+827,7b90c0e5,FAIL,6,NO,0,NO,0,2014-01-08 18:59:09 -0800,Merge pull request #158 from roboguice/mburton/147/automatic-view-injection-2,135,5810
+828,9d649585,FAIL,5,NO,0,NO,0,2014-01-09 13:39:13 -0800,Update criteria for injection so we don't inject com.android views,135,5812
+829,4fbd7cf6,FAIL,6,NO,0,NO,0,2014-01-09 13:40:11 -0800,Merge pull request #159 from roboguice/mburton/147/automatic-view-injection-2,135,5812
+830,ad147037,FAIL,6,NO,0,NO,0,2014-01-09 15:01:30 -0800,Check AndroidManifest for modules definition instead of weird roboguice.xml file.,134,5561
+831,fb47091c,FAIL,6,NO,0,NO,0,2014-01-09 15:02:21 -0800,Merge pull request #160 from roboguice/mburton/149/roboguice.modules-in-manifest,135,5812
+832,562f2ca0,FAIL,6,NO,0,NO,0,2014-01-10 08:42:29 -0800,Update README.md,135,5812
+833,9df20fdf,FAIL,5,NO,0,NO,0,2014-01-10 11:44:58 -0800,"Add testcases for custom view injection Works in intellij, doesn't run in mvn surefire for some reason",137,5852
+834,c767f5d6,FAIL,6,NO,0,NO,0,2014-01-10 11:50:37 -0800,rename to get tests to work in surefire,137,5852
+835,d5ccda47,FAIL,5,NO,0,NO,0,2014-01-10 13:07:29 -0800,Merge branch 'master' of github.com:serso/roboguice into serso-master,137,5865
+836,21bf83e6,FAIL,6,NO,0,NO,0,2014-01-10 13:09:07 -0800,cleanup,137,5863
+837,1e46dabc,FAIL,6,NO,0,NO,0,2014-01-10 13:17:59 -0800,Merge pull request #137 from stephanenicolas/patch-1,138,5875
+838,d6d72f2e,FAIL,6,NO,0,NO,0,2014-01-10 13:20:45 -0800,cleanup,138,5876
+839,34568e50,FAIL,5,NO,0,NO,0,2013-04-28 15:22:47 -0700,Android package name requires at least two segments,138,5876
+840,6ed4b238,FAIL,6,NO,0,NO,0,2013-04-28 15:36:12 -0700,Fixes <uses-sdk> tag appears after <application> tag,138,5876
+841,ac16e415,FAIL,6,NO,0,NO,0,2013-04-28 15:37:28 -0700,Ignore lint warnings for unregistered activities,138,5876
+842,a718349f,FAIL,6,NO,0,NO,0,2013-04-29 13:56:43 -0700,Base native fragment classes added,141,5935
+843,300d1f3b,FAIL,5,NO,0,NO,0,2013-04-29 15:02:22 -0700,Fragment Injection error checking.,141,5967
+844,6c15c3b7,FAIL,5,NO,0,NO,0,2013-04-29 17:22:38 -0700,Preliminary Fragment refactoring,144,6002
+845,1d442ede,FAIL,5,NO,0,NO,0,2013-04-29 17:52:49 -0700,"Revert ""Android package name requires at least two segments""",144,6002
+846,45cbae27,FAIL,5,NO,0,NO,0,2013-04-29 18:51:54 -0700,Fixed silly error when injecting views,144,6002
+847,4f9ef656,FAIL,6,NO,0,NO,0,2013-04-29 19:50:57 -0700,Added native fragment bindings in default module,145,6038
+848,92c1810f,FAIL,6,NO,0,NO,0,2013-04-29 22:07:47 -0700,Hacks to manage classloading.,145,6064
+849,f351cbc5,FAIL,5,NO,0,NO,0,2013-04-30 00:16:05 -0700,DRY-ing out some duplicate code,145,6061
+850,89f6a07e,FAIL,6,NO,0,NO,0,2013-04-30 00:30:05 -0700,Removed useless code and leftover debug statement,145,6015
+851,e5c7e406,FAIL,6,NO,0,NO,0,2013-04-30 00:45:39 -0700,Arranged new classes in better package structure.,143,6009
+852,ca29e834,FAIL,5,NO,0,NO,0,2013-05-01 13:46:26 -0700,Added tests,146,6313
+853,1e6c8edd,FAIL,6,NO,0,NO,0,2013-05-01 14:44:36 -0700,Added generic type arguments/suppressed warnings,146,6323
+854,b756cd7f,FAIL,6,NO,0,NO,0,2013-05-01 14:47:46 -0700,Deprecated the subclasses of deprecated classes,146,6348
+855,9615ee18,FAIL,7,NO,0,NO,0,2013-05-01 21:12:10 -0700,Scaffold for native fragment injection tests.,148,6370
+856,fd0785cc,FAIL,6,NO,0,NO,0,2014-01-12 09:20:15 +0100,New merge attempt,146,6209
+857,d707afd8,FAIL,10,NO,0,NO,0,2014-01-12 09:21:41 +0100,--amend,148,6371
+858,561cf0dc,FAIL,7,NO,0,NO,0,2014-01-12 11:31:06 +0100,--amend,148,6371
+859,c0274153,FAIL,6,NO,0,NO,0,2014-01-12 11:34:08 +0100,--amend,148,6371
+860,6a869a66,FAIL,7,NO,0,NO,0,2014-01-12 11:46:19 +0100,Update travis config,148,6371
+861,1b0f1d3a,FAIL,6,NO,0,NO,0,2014-01-12 11:47:56 +0100,Minor correction of view injections and fragment handling.,148,6371
+862,80f8ab8b,FAIL,5,NO,0,NO,0,2014-01-12 18:59:32 +0100,Repair travis ?,148,6371
+863,45396381,FAIL,5,NO,0,NO,0,2014-01-12 19:09:32 +0100,Upgrade build version of SDK for additional tests,148,6371
+864,0fffeb84,FAIL,5,NO,0,NO,0,2014-01-12 19:27:37 +0100,Repair travis. Introduce android-sdk-installer in travis,148,6371
+865,0042455a,FAIL,5,NO,0,NO,0,2014-01-13 07:13:43 +0100,Retargetting to honeycomb for native fragment based classes,148,6372
+866,5eee143d,FAIL,6,NO,0,NO,0,2014-01-13 07:22:45 +0100,Add documentation to fragment based classes.,148,6372
+867,4bc51b4b,FAIL,5,NO,0,NO,0,2014-01-13 07:37:48 +0100,Travis : use official embark mobile travis android sdk installer.,148,6372
+868,9743a8e7,FAIL,5,NO,0,NO,0,2014-01-18 12:17:37 -0800,A little cleanup. Will need to see if travis takes this or not,146,6356
+869,943cdd20,FAIL,5,NO,0,NO,0,2014-01-18 12:23:43 -0800,Merge pull request #168 from roboguice/stephanenicolas-nativeFragments2,146,6356
+870,ecc3dfb8,FAIL,5,NO,0,NO,0,2014-01-18 12:32:36 +0100,General pom clean up.,146,6356
+871,94a6d2e7,FAIL,6,NO,0,NO,0,2014-01-18 14:17:09 +0100,RoboGuice project now passes checkstyle,147,6585
+872,9672c19d,FAIL,5,NO,0,NO,0,2014-01-18 15:42:27 +0100,"Add quality tools to RoboGuice : findbugs and pmd, with a few exceptions.",147,6596
+873,464c45a0,FAIL,5,NO,0,NO,0,2014-01-19 09:42:24 +0100,Everything is merged with nativeFragments. emmby comments taken into account.,147,6604
+874,a4d5bf56,FAIL,6,NO,0,NO,0,2014-01-19 18:35:05 -0800,"for some reason, intellij13 insisted on this",147,6604
+875,980a9e6c,FAIL,6,NO,0,NO,0,2014-01-19 18:53:10 -0800,Fix misleading stacktrace and disable pmd until we can figure out a better solution,147,6603
+876,8d07bed5,FAIL,5,NO,0,NO,0,2014-01-20 08:05:12 -0800,Don't try to deploy non-master branches.,146,6356
+877,b78ce0f5,FAIL,5,NO,0,NO,0,2014-01-20 08:08:36 -0800,Merge pull request #169 from roboguice/stephanenicolas-clean-pom,147,6603
+878,fde93a11,FAIL,5,NO,0,NO,0,2014-02-07 13:40:37 -0800,Introduce a surprising performance improvement in DefaultRoboModule,146,6353
+879,d9e2f375,FAIL,6,NO,0,NO,0,2014-02-07 13:40:48 -0800,Introduce a surprising performance improvement in DefaultRoboModule,146,6356
+880,f58c49a3,FAIL,5,NO,0,NO,0,2014-03-01 14:57:31 -0800,Remove unnecessary injection from SystemService provider,146,6356
+881,ee7cf0d0,FAIL,5,NO,0,NO,0,2014-03-01 14:58:46 -0800,"temporarily remove @ContentView from demo, it's causing problems with annotation processing, not sure why yet",146,6356
+882,3f229de4,FAIL,5,NO,0,NO,0,2014-03-01 15:00:43 -0800,set minsdk,146,6356
+883,1c3a9fcf,FAIL,5,NO,0,NO,0,2014-03-01 15:01:57 -0800,remove unnecessary dependency,146,6356
+884,ffa3ffc5,FAIL,5,NO,0,NO,0,2014-03-01 15:08:40 -0800,Merge remote-tracking branch 'origin/master',147,6603
+885,c67d86b1,FAIL,6,NO,0,NO,0,2014-03-01 15:16:24 -0800,print out checkstyle errors to console,147,6603
+886,3927f49e,FAIL,5,NO,0,NO,0,2014-03-01 15:18:02 -0800,"Revert ""temporarily remove @ContentView from demo, it's causing problems with annotation processing, not sure why yet""",147,6603
+887,e7f7839d,FAIL,5,NO,0,NO,0,2014-03-21 19:13:37 +0100,Add native only RoboPreferenceFragment. No equivalent in support lib. Solves https://github.com/roboguice/roboguice/issues/31,148,6620
+888,b175105d,FAIL,5,NO,0,NO,0,2014-03-22 22:59:34 -0300,Fixes,133,5468
+889,c0c61a89,FAIL,5,NO,0,NO,0,2014-03-26 20:58:34 -0700,Merge pull request #189 from lbrasseur/fixes,147,6603
+890,3d6f37c3,FAIL,5,NO,0,NO,0,2014-04-30 17:41:11 +0200,Android as first class citizen on Travis CI,147,6603
+891,5583c513,FAIL,5,NO,0,NO,0,2014-04-30 10:28:14 -0700,potential fix? for build error on travis,147,6603
+892,cbfeb752,FAIL,6,NO,0,NO,0,2014-04-30 11:23:45 -0700,Merge pull request #195 from roboguice/gildegoma-welcome-android-on-travis,147,6603
+893,bea35112,FAIL,5,NO,0,NO,0,2014-04-30 15:47:05 -0700,New authentication tokens for sonatype,147,6603
+894,da9d9033,FAIL,5,NO,0,NO,0,2014-05-02 10:14:22 -0700,Fix for following during mvn release:prepare:,147,6603
+895,a6bf6750,FAIL,5,NO,0,NO,0,2014-05-02 13:07:45 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0-alpha-2,147,6603
+896,6f6f8274,FAIL,5,NO,0,NO,0,2014-05-02 13:25:09 -0700,[maven-release-plugin] rollback the release of roboguice-aggregator-3.0-alpha-2,147,6603
+897,6debefeb,FAIL,6,NO,0,NO,0,2014-05-02 13:28:35 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0-alpha-2,147,6603
+898,6de9f92a,FAIL,5,NO,0,NO,0,2014-05-02 13:28:41 -0700,[maven-release-plugin] prepare for next development iteration,147,6603
+899,189443cc,FAIL,5,NO,0,NO,0,2014-05-02 15:32:52 -0700,Merge pull request #187 from stephanenicolas/preference-fragment,148,6620
+900,9b9375f8,FAIL,5,NO,0,NO,0,2014-05-17 08:50:28 +0200,Code clean up. Remove all warnings in eclipse.,148,6644
+901,79c30307,FAIL,6,NO,0,NO,0,2014-05-17 09:43:11 +0200,Library and plugin update. Code clean up.,148,6638
+902,5c02b97b,FAIL,5,NO,0,NO,0,2014-05-17 09:58:04 +0200,Manage dependencies versions in parent pom.,148,6638
+903,56638b74,FAIL,5,NO,0,NO,0,2014-05-17 10:18:47 +0200,Update README.md,148,6638
+904,7949e3b5,FAIL,6,NO,0,NO,0,2014-05-17 10:47:50 +0200,Add jacoco code coverage and reporting,148,6638
+905,b16fae17,FAIL,5,NO,0,NO,0,2014-05-17 11:11:20 +0200,Ooops. Now all subpackages are taken into account by jacoco,148,6638
+906,26b78c5d,FAIL,6,NO,0,NO,0,2014-05-19 11:17:00 +0200,"No neeed to generateApk for additional tests, save a few seconds per build.",148,6638
+907,7f635714,FAIL,5,NO,0,NO,0,2014-06-18 14:08:20 +0200,Solve issue #170.,148,6638
+908,9c87c40c,FAIL,6,NO,0,NO,0,2014-06-18 14:28:51 +0200,Solve issue #171. TODO try to enable cpd in pmd as fas as possible.,148,6638
+909,71c41bfc,FAIL,4,NO,0,NO,0,2014-06-18 14:47:52 +0200,Remove warnings in eclipse (exclude aar handling from pom for eclipse).,148,6638
+910,def3929f,FAIL,5,NO,0,NO,0,2014-06-18 15:17:22 +0200,Use more annotations for checkstyle and findbugs. Cleaner and easier to setup in eclipse.,148,6645
+911,17eacc54,FAIL,6,NO,0,NO,0,2014-06-18 15:26:06 +0200,Child pom inherit version from parent,148,6645
+912,07ec5d9a,FAIL,7,NO,0,NO,0,2014-06-19 09:54:01 +0200,Minor doc enhancement,148,6645
+913,9e0fce24,FAIL,7,NO,0,NO,0,2014-06-23 08:15:52 +0200,"Solve issue #100, removed unused duplicate RuntimeSupport.",147,6602
+914,9e77678e,FAIL,6,NO,0,NO,0,2014-06-23 13:15:38 +0200,RoboGuice passes lint. TODO add to build,147,6657
+915,c54ad4c6,FAIL,7,NO,0,NO,0,2014-06-23 13:26:49 +0200,Lint added to build. Solves issue #162,147,6657
+916,c3b540a4,FAIL,5,NO,0,NO,0,2014-06-24 11:46:17 +0200,Fix travis PR branch builds,147,6657
+917,30d07cf7,FAIL,6,NO,0,NO,0,2014-06-24 12:06:48 +0200,Conditional env vars not allowed on travis,147,6657
+918,7dbdee5c,FAIL,6,NO,0,NO,0,2014-06-20 10:56:02 +0200,PR for issue #191. Additional tests refactor,152,6690
+919,feb6b871,FAIL,5,NO,0,NO,0,2014-06-24 12:36:58 +0200,Repair builds of PRs,147,6657
+920,a0001018,FAIL,6,NO,0,NO,0,2014-06-24 14:28:27 +0200,Solve issue #138. Add tests.,147,6692
+921,a3d83ac6,FAIL,5,NO,0,NO,0,2014-06-25 12:07:30 +0200,Issue #205,147,6704
+922,16ac1832,FAIL,6,NO,0,NO,0,2014-06-25 13:07:29 +0200,Test for Issue #205,147,6725
+923,32af1de4,FAIL,6,NO,0,NO,0,2014-06-25 14:24:39 +0200,"Add more tests, following issue #143",150,6827
+924,0acf622e,FAIL,6,NO,0,NO,0,2014-07-18 07:07:41 -0400,Optimize resource listener. Take into account final classes and the fact that classes are singletons inside a JVM. See http://stackoverflow.com/q/7322469/693752,150,6827
+925,50c40aa2,FAIL,7,NO,0,NO,0,2014-07-18 07:15:07 -0400,Merge pull request #209 from roboguice/upstream-master,150,6827
+926,cefe7499,FAIL,6,NO,0,NO,0,2014-07-19 09:22:04 -0400,"RoboGuice modules can now have a constructor with application parameter, not context. Solves #191",155,6860
+927,2643be30,FAIL,19,NO,0,NO,0,2014-07-19 16:45:15 -0400,Squashed 'guice/' content from commit 76be88e,523,40164
+928,f6718689,FAIL,6,NO,0,NO,0,2014-07-19 16:45:15 -0400,Merge commit '2643be3096e14a6133f848cfab01fd1275ebd741' as 'guice',678,47024
+929,6ee8ef71,FAIL,16,NO,0,NO,0,2014-07-19 17:27:34 -0400,Squashed 'guice/' changes from 76be88e..f856e4e,531,40784
+930,9417ae6b,FAIL,6,NO,0,NO,0,2014-07-19 17:27:34 -0400,Blender fork of guice merged into RoboGuice.,686,47644
+931,019e7c23,FAIL,11,NO,0,NO,0,2014-07-19 22:40:02 -0400,Squashed 'guice/' changes from f856e4e..ab34526,533,40801
+932,72c6d1b2,FAIL,5,NO,0,NO,0,2014-07-19 22:40:02 -0400,Blender fork of guice merged into RoboGuice. With Mike comments,688,47661
+933,e470b492,FAIL,4,NO,0,NO,0,2014-07-19 23:31:03 -0400,All work on RoboBlender squashed,154,7266
+934,48f75d8d,FAIL,5,NO,0,NO,0,2014-07-19 23:43:38 -0400,Merge RoboBlender base branch (i.e. guice fork) into annotation processing orphan commit.,161,7337
+935,14f2ca2b,FAIL,5,NO,0,NO,0,2014-07-20 12:46:29 -0400,Shaded artifact.,162,7356
+936,30023346,FAIL,3,NO,0,NO,0,2014-07-21 13:32:21 -0400,Fix all mike comments,162,7356
+937,de951748,FAIL,3,NO,0,NO,0,2014-07-21 15:21:04 -0400,Remove automatic injection of inflated views from XML,162,7356
+938,58588afc,FAIL,3,NO,0,NO,0,2014-07-21 17:14:02 -0400,Subtree was added to gitignore,162,7356
+939,07aab577,FAIL,3,NO,0,NO,0,2014-07-21 18:20:20 -0400,Make guice building optional. Unplug XML inflation test,162,7358
+940,ecd47653,FAIL,2,NO,0,NO,0,2014-07-21 18:34:27 -0400,Revert back createInjector to getInjector,162,7358
+941,209b1742,FAIL,2,NO,0,NO,0,2014-07-21 18:41:36 -0400,Repair travis,162,7358
+942,5c9b69b8,FAIL,12,NO,0,NO,0,2014-07-21 19:12:32 -0400,Merge commit '615a9f699969fa328e7e0fdba254ca6dec738afe' as 'guice',695,48159
+943,615a9f69,FAIL,11,NO,0,NO,0,2014-07-21 19:12:32 -0400,Squashed 'guice/' content from commit ab34526,533,40801
+944,18b76f02,FAIL,12,NO,0,NO,0,2014-07-21 19:24:16 -0400,Merge commit '7b897a87328f013112d274b1918c8ce6a79559e9' into snicolas-mburton/roboblender,695,48159
+945,7b897a87,FAIL,13,NO,0,NO,0,2014-07-21 19:24:16 -0400,Squashed 'guice/' changes from ab34526..83adffd,533,40801
+946,c6493441,FAIL,13,NO,0,NO,0,2014-07-21 19:41:52 -0400,Fix provided dependency for findbugs annotation. Made lint cry for apps,695,48159
+947,f6591434,FAIL,13,NO,0,NO,0,2014-07-21 19:51:35 -0400,Add docs and reload travis,695,48159
+948,94dd0e1c,FAIL,14,NO,0,NO,0,2014-07-21 18:06:52 -0700,Merge pull request #211 from roboguice/snicolas-mburton/roboblender,695,48159
+949,e4386f22,FAIL,13,NO,0,NO,0,2014-07-22 07:56:03 -0400,Add more docs for managing subtrees.,695,48159
+950,076e7fbe,FAIL,14,NO,0,NO,0,2014-07-22 13:14:26 -0400,Issue #123. Embed blender in roboblender.,695,48159
+951,9cfc55b7,FAIL,14,NO,0,NO,0,2014-07-22 13:18:39 -0400,Issue #215. Support latest java version in annotation processor,695,48160
+952,18120c8e,FAIL,12,NO,0,NO,0,2014-07-22 14:08:10 -0400,Merge pull request #214 from roboguice/snicolas/issue-213,695,48159
+953,400eb555,FAIL,13,NO,0,NO,0,2014-07-22 14:10:22 -0400,Merge pull request #216 from roboguice/snicolas/issue-215,695,48160
+954,ab104057,FAIL,12,NO,0,NO,0,2014-07-22 15:14:12 -0400,Issue #217. Clean annotation processor in RoboGuice.Util.reset(),695,48166
+955,646e4412,FAIL,13,NO,0,NO,0,2014-07-22 15:20:49 -0400,Squashed 'guice/' changes from 83adffd..321e2d3,533,40806
+956,9bc69b96,FAIL,14,NO,0,NO,0,2014-07-22 15:20:49 -0400,Improvements of the annotation processor of guice. Merge commit '646e4412a641b674eca44eb3fd67410e27a9f3b2',695,48165
+957,86d6e5b6,FAIL,13,NO,0,NO,0,2014-07-22 16:26:40 -0400,Merge pull request #218 from roboguice/snicolas-mburton/roboblender,695,48165
+958,05bfcff1,FAIL,15,NO,0,NO,0,2014-07-22 16:30:20 -0400,Add docs and retrigger travis,695,48166
+959,4b2c19e3,FAIL,13,NO,0,NO,0,2014-07-23 00:44:45 -0400,Fixes from Mike comments,695,48167
+960,5b686125,FAIL,14,NO,0,NO,0,2014-07-23 00:56:35 -0400,Merge pull request #219 from roboguice/snicolas/issue-217,695,48172
+961,ba343157,FAIL,15,NO,0,NO,0,2014-07-23 01:12:07 -0400,Travis,695,48172
+962,0d4dc39d,FAIL,14,NO,0,NO,0,2014-07-29 13:50:13 -0400,PreferenceListener should always be bound. Force binding in DefaultRoboModule. Solves a bug in G app.,695,48172
+963,d8f1ca7f,FAIL,14,NO,0,NO,0,2014-07-30 10:52:47 -0400,Document GlobalEventManager retrieval.,695,48172
+964,780a005c,FAIL,15,NO,0,NO,0,2014-07-30 15:19:27 -0400,Minor checkstyle fixes,695,48172
+965,73a97567,FAIL,13,NO,0,NO,0,2014-08-01 10:22:46 -0400,Return to eagerly instanciated global event manager. Review by Mike,695,48169
+966,f15e0cc9,FAIL,13,NO,0,NO,0,2014-09-10 11:21:53 -0400,"issue #223: check if args is null in Ln.x(String format, Object... args)",696,48192
+967,265b4f63,FAIL,11,NO,0,NO,0,2014-09-10 09:15:03 -0700,Merge pull request #224 from roboguice/issue-223,696,48192
+968,662eef17,FAIL,12,NO,0,NO,0,2014-10-14 11:26:48 -0400,Modify .gitignore to work on v4 peacefully,696,48192
+969,f42741c2,FAIL,3,NO,0,NO,0,2014-10-14 12:20:53 -0400,Prepare to update guice,163,7390
+970,ffebc4df,FAIL,9,NO,0,NO,0,2014-10-14 12:21:00 -0400,Merge commit '41e273d1f39ff34f002b839178aa769e6d0d7c8b' as 'guice',696,48916
+971,41e273d1,FAIL,13,NO,0,NO,0,2014-10-14 12:21:00 -0400,Squashed 'guice/' content from commit 3582277,533,41526
+972,030ffe93,FAIL,14,NO,0,NO,0,2014-10-15 11:13:23 +0400,"bug fixed, AccessibilityManager injected instead of AudioManager",696,48192
+973,127d91c1,FAIL,6,NO,0,NO,0,2014-10-14 13:24:00 -0400,Remove old copy of guice.,1228,89720
+974,650f0695,FAIL,14,NO,0,NO,0,2014-10-15 16:36:12 -0400,Update version numbers of additional tests and astroboy,1228,89720
+975,755dc568,FAIL,13,NO,0,NO,0,2014-10-15 13:36:24 -0700,Merge pull request #234 from dryganets/master,696,48192
+976,4479728f,FAIL,13,NO,0,NO,0,2014-10-15 16:52:46 -0400,fix dependencies,1228,89720
+977,da5fd3c5,FAIL,12,NO,0,NO,0,2014-10-15 17:20:13 -0400,Remove guice 3 based apis,1228,89696
+978,435138e8,FAIL,12,NO,0,NO,0,2014-10-15 18:02:12 -0400,Remove old guice copy,696,48892
+979,9a7667b4,FAIL,12,NO,0,NO,0,2014-10-15 18:03:36 -0400,Merge pull request #235 from roboguice/upgrade-to-latest-guice4,696,48892
+980,c7cc90d5,FAIL,12,NO,0,NO,0,2014-09-19 14:12:05 -0400,To avoid using a hack context provider... ;),696,48893
+981,5a207ce8,FAIL,12,NO,0,NO,0,2014-10-16 05:42:54 -0400,Issue #109: Add download manager to DefaulRoboModule bindings.,696,48895
+982,57c25245,FAIL,13,NO,0,NO,0,2014-10-16 06:24:29 -0400,Issue #95:RoboSplashActivity lifecycle,696,48891
+983,749b7b6e,FAIL,14,NO,0,NO,0,2014-10-16 06:30:01 -0400,Issue #101: Add isCancelled() method to SafeAsyncTask,696,48894
+984,35af65dc,FAIL,14,NO,0,NO,0,2014-10-16 14:10:03 -0400,Merge pull request #239 from roboguice/issue-101-safeasynctask-iscancelled,696,48894
+985,ae1f5126,FAIL,13,NO,0,NO,0,2014-10-16 14:10:35 -0400,Merge pull request #238 from roboguice/issue-204-robosplashactivity,696,48893
+986,594d19dd,FAIL,13,NO,0,NO,0,2014-10-16 14:10:44 -0400,Merge pull request #237 from roboguice/issue-109-downloadmanager,696,48896
+987,378e9da4,FAIL,17,NO,0,NO,0,2014-10-16 14:10:55 -0400,Merge pull request #236 from roboguice/hack-contextprovider,696,48897
+988,58e04547,FAIL,15,NO,0,NO,0,2014-10-22 15:36:04 -0400,change urls of scm maven plugin,696,48897
+989,7ff3452a,FAIL,15,NO,0,NO,0,2014-10-22 16:55:36 -0400,Upgrade mvn release plugin,696,48897
+990,f59012c2,FAIL,26,NO,0,NO,0,2014-10-22 15:05:14 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0,696,48897
+991,e0e3e511,FAIL,14,NO,0,NO,0,2014-10-22 15:18:10 -0700,"Revert ""[maven-release-plugin] prepare release roboguice-aggregator-3.0""",696,48897
+992,a048f460,FAIL,26,NO,0,NO,0,2014-10-22 15:25:24 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0,696,48897
+993,971bf94a,FAIL,14,NO,0,NO,0,2014-10-22 15:27:07 -0700,"Revert ""[maven-release-plugin] prepare release roboguice-aggregator-3.0""",696,48897
+994,0114b7e8,FAIL,15,NO,0,NO,0,2014-10-22 15:32:05 -0700,trying a new git url,696,48897
+995,008057b6,FAIL,12,NO,0,NO,0,2014-10-23 10:20:54 -0400,Shaded relocation of guava. Solves issue #244,696,48897
+996,6aa94aa5,FAIL,6,NO,0,NO,0,2014-10-23 10:32:11 -0400,Profile exclusion is not taken into account for releasing. Remove guice profile activation by default.,696,48897
+997,0fbb6c57,FAIL,5,NO,0,NO,0,2014-10-23 10:03:36 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0,696,48897
+998,68f28465,FAIL,6,NO,0,NO,0,2014-10-23 10:08:29 -0700,"Revert ""[maven-release-plugin] prepare release roboguice-aggregator-3.0""",696,48897
+999,a177bbb5,FAIL,6,NO,0,NO,0,2014-10-23 10:13:04 -0700,[maven-release-plugin] prepare release roboguice-aggregator-3.0,696,48897
+1000,43ac55f3,FAIL,5,NO,0,NO,0,2014-10-23 10:13:09 -0700,[maven-release-plugin] prepare for next development iteration,696,48897
+1001,e1bda1f5,FAIL,6,NO,0,NO,0,2014-10-23 15:58:56 -0400,Add changelog,696,48897
+1002,d84517c2,FAIL,6,NO,0,NO,0,2014-10-23 16:00:58 -0400,Update changelog,696,48897
+1003,99b52ad3,FAIL,6,NO,0,NO,0,2014-10-29 15:40:29 -0400,2014,696,48897
+1004,bbbed635,FAIL,6,NO,0,NO,0,2014-10-29 16:01:58 -0400,Update README.md,696,48897
+1005,6e2eecc8,FAIL,6,NO,0,NO,0,2014-10-29 13:02:56 -0700,Update README.md,696,48897
+1006,c240cc87,FAIL,6,NO,0,NO,0,2014-10-29 16:08:30 -0400,Add assets for RG3 release maven badge.,696,48897
+1007,4b807a13,FAIL,7,NO,0,NO,0,2014-10-29 16:10:20 -0400,Update README.md,696,48897
+1008,49ca9421,FAIL,6,NO,0,NO,0,2014-10-29 16:10:34 -0400,Update README.md,696,48897
+1009,b40a783a,FAIL,5,NO,0,NO,0,2014-10-29 16:20:20 -0700,Update README.md,696,48897
+1010,3b824b0f,FAIL,6,NO,0,NO,0,2014-10-29 16:28:13 -0700,Update README.md,696,48897
+1011,f11a4a36,FAIL,4,NO,0,NO,0,2014-10-29 16:31:53 -0700,Update README.md,696,48897
+1012,36fe081f,FAIL,5,NO,0,NO,0,2014-10-29 16:33:15 -0700,Update README.md,696,48897
+1013,b454202c,FAIL,5,NO,0,NO,0,2014-10-29 16:38:45 -0700,Update README.md,696,48897
+1014,d2f059b3,FAIL,6,NO,0,NO,0,2014-10-29 16:39:02 -0700,Update README.md,696,48897
+1015,9eb64cdc,FAIL,5,NO,0,NO,0,2014-10-29 16:40:20 -0700,Update README.md,696,48897
+1016,ec3ab0da,FAIL,5,NO,0,NO,0,2014-10-29 16:43:27 -0700,Update README.md,696,48897
+1017,daa6460e,FAIL,6,NO,0,NO,0,2014-10-29 16:51:07 -0700,add app-icon assets,696,48897
+1018,e27687c4,FAIL,5,NO,0,NO,0,2014-10-29 16:51:26 -0700,Merge branch 'master' of https://github.com/roboguice/roboguice,696,48897
+1019,00aac6df,FAIL,4,NO,0,NO,0,2014-10-29 16:52:24 -0700,Update README.md,696,48897
+1020,0fc1bb2a,FAIL,5,NO,0,NO,0,2014-10-29 16:56:51 -0700,Update README.md,696,48897
+1021,9a4c3657,FAIL,5,NO,0,NO,0,2014-10-29 17:19:50 -0700,more app icons,696,48897
+1022,875e86b7,FAIL,6,NO,0,NO,0,2014-10-29 17:21:38 -0700,more app icons,696,48897
+1023,fa72a4ff,FAIL,5,NO,0,NO,0,2014-10-29 17:22:19 -0700,Merge branch 'master' of https://github.com/roboguice/roboguice,696,48897
+1024,adca3c21,FAIL,5,NO,0,NO,0,2014-10-29 17:24:25 -0700,Update README.md,696,48897
+1025,46252b46,FAIL,5,NO,0,NO,0,2014-10-29 17:25:55 -0700,html tidy,696,48897
+1026,f8c4ec04,FAIL,6,NO,0,NO,0,2014-10-29 17:27:27 -0700,5 cols of app icons,696,48897
+1027,fea10dcf,FAIL,5,NO,0,NO,0,2014-10-29 17:30:22 -0700,Update README.md,696,48897
+1028,4a1631ab,FAIL,5,NO,0,NO,0,2014-10-29 17:33:27 -0700,larger app icons,696,48897
+1029,3d864883,FAIL,5,NO,0,NO,0,2014-10-29 17:36:38 -0700,don't squish app icons,696,48897
+1030,7c7504da,FAIL,5,NO,0,NO,0,2014-10-29 17:44:57 -0700,whoops,696,48897
+1031,2ce24732,FAIL,5,NO,0,NO,0,2014-11-03 07:45:25 -0500,issue #256: Blender and RoboBlender need new extension point,697,48943
+1032,e735b2d7,FAIL,6,NO,0,NO,0,2014-11-03 07:46:32 -0500,Merge commit '0b34682a97727dfa1074699bf5c94fad5bbaad06' into sni/issue-256,697,48998
+1033,0b34682a,FAIL,5,NO,0,NO,0,2014-11-03 07:46:32 -0500,Squashed 'guice/' changes from 3582277..1894503,533,41581
+1034,b376e87d,FAIL,5,NO,0,NO,0,2014-11-03 07:50:33 -0500,Merge commit 'dca6694d57f39d59b3dcf191312d8c2039b3e289' into sni/issue-256,697,48994
+1035,dca6694d,FAIL,12,NO,0,NO,0,2014-11-03 07:50:33 -0500,Squashed 'guice/' changes from 1894503..0c3d6ab,533,41577
+1036,c459e9f2,FAIL,6,NO,0,NO,0,2014-11-04 09:53:20 -0800,use svg travis image and only show status for master,696,48897
+1037,5913121a,FAIL,5,NO,0,NO,0,2014-11-04 15:41:30 -0500,Merge pull request #257 from roboguice/sni/issue-256,697,48994
+1038,877c75c3,FAIL,6,NO,0,NO,0,2014-11-05 14:26:12 -0800,Adding Getaways by Groupon to readme,697,48994
+1039,b10cb32b,FAIL,6,NO,0,NO,0,2014-11-05 14:33:03 -0800,Alphabetically sorting apps,697,48994
+1040,f5fef117,FAIL,7,NO,0,NO,0,2014-11-10 09:27:18 -0800,Merge pull request #262 from ajma/master,697,48994
+1041,a6117c26,FAIL,6,NO,0,NO,0,2014-11-10 09:28:59 -0800,"Revert ""Adding getaways to readme.md""",697,48994
+1042,3030b4ec,FAIL,7,NO,0,NO,0,2014-11-10 09:29:13 -0800,Merge pull request #263 from roboguice/revert-262-master,697,48994
+1043,ec00af02,FAIL,6,NO,0,NO,0,2014-11-10 09:39:28 -0800,Putting the right image for Getaways,697,48994
+1044,3ad6c979,FAIL,5,NO,0,NO,0,2014-11-10 09:49:32 -0800,Adding getaways.png asset,697,48994
+1045,7f29b9b4,FAIL,6,NO,0,NO,0,2014-11-10 14:51:59 -0800,Update README.md,697,48994
+1046,cfdd8a67,FAIL,6,NO,0,NO,0,2014-11-10 20:34:43 -0500,Update CHANGELOG.md,697,48994
+1047,d45e133e,FAIL,7,NO,0,NO,0,2014-11-10 20:35:03 -0500,Update CHANGELOG.md,697,48994
+1048,caad953e,FAIL,12,NO,0,NO,0,2014-11-11 10:21:47 -0500,Squashed 'guice/' changes from 0c3d6ab..4bd04c7,533,41578
+1049,9ff41cfa,FAIL,6,NO,0,NO,0,2014-11-11 10:21:47 -0500,Update of Guice fork to continue 3.1 dev. Guice fork commit : 4bd04c70c001041491b333a3b8a61da9e9264cb6 Merge commit 'caad953ee9d907b38af852b0ad9d9666b4d82cbc',697,48995
+1050,2064e017,FAIL,6,NO,0,NO,0,2014-11-11 13:07:02 -0500,Update CHANGELOG.md,697,48995
+1051,bf9043c5,FAIL,6,NO,0,NO,0,2015-01-22 07:56:37 -0800,Merge pull request #264 from ajma/master,697,48995
+1052,cba93518,FAIL,6,NO,0,NO,0,2016-07-02 05:41:30 -0700,Update README.md,697,48995
+1053,d96250c4,FAIL,5,NO,0,NO,0,2016-08-15 08:57:56 -0700,Update README.md,697,48995

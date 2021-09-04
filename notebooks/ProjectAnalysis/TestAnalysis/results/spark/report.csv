@@ -1,0 +1,1063 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,a06b6d7,FAIL,0,NO,0,NO,0,2011-05-05 13:52:34 +0200,first commit,0,0
+1,3ffb473,SUCCESS,22,SUCCESS,7,SUCCESS,8,2011-05-05 13:59:08 +0200,Moved to new repo,12,357
+2,0317f40,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-05 14:00:17 +0200,removed test files,12,357
+3,cb43579,SUCCESS,7,SUCCESS,5,SUCCESS,5,2011-05-05 14:11:41 +0200,removed strange jetty config,12,357
+4,ab78b56,FAIL,0,NO,0,NO,0,2011-05-06 14:30:39 +0200,first commit,0,0
+5,263a0ec,SUCCESS,7,SUCCESS,3,SUCCESS,5,2011-05-06 14:31:23 +0200,Merge branch 'master' of github.com:perwendel/spark,12,357
+6,f64148d,SUCCESS,5,SUCCESS,4,SUCCESS,5,2011-05-06 15:11:36 +0200,execution work,12,357
+7,ff55049,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-06 15:13:55 +0200,improved ignite script,12,357
+8,e08012e,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-10 13:19:30 +0200,WebContext dev.,13,378
+9,a41e1da,SUCCESS,6,SUCCESS,5,SUCCESS,4,2011-05-10 15:39:03 +0200,added ascii art header,13,378
+10,9eb7ef1,SUCCESS,7,SUCCESS,5,SUCCESS,5,2011-05-10 15:46:25 +0200,added logo graphics,13,378
+11,fd65e55,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-10 16:20:59 +0200,"fixes in RouteMatcher, half ass validation added",13,411
+12,849e30e,SUCCESS,6,SUCCESS,5,SUCCESS,4,2011-05-10 16:29:41 +0200,"refactoring, package protection",13,411
+13,05c2118,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-10 16:47:25 +0200,refac.,13,411
+14,d9274c0,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-10 16:52:01 +0200,todos added,13,411
+15,5ad9ee4,SUCCESS,6,SUCCESS,5,SUCCESS,5,2011-05-10 16:57:54 +0200,added todos,13,419
+16,39262ab,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-11 10:39:08 +0200,redirect partly implemented,13,425
+17,9597ec8,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-11 10:51:35 +0200,added validation of method modifiers,13,432
+18,b060ed0,FAIL,6,NO,0,NO,0,2011-05-11 10:57:32 +0200,refac.,12,366
+19,956e16f,FAIL,5,NO,0,NO,0,2011-05-11 17:00:14 +0200,Alot of changed when trying to make tha annatition scanning better,12,380
+20,a1ef3d7,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-11 17:00:31 +0200,Alot of changed when trying to make tha annatition scanning better,28,1077
+21,4bdbb49,SUCCESS,8,SUCCESS,4,SUCCESS,4,2011-05-11 17:05:21 +0200,stuff,28,1076
+22,d9d6e97,SUCCESS,8,SUCCESS,5,SUCCESS,5,2011-05-11 17:11:09 +0200,added one more forname,28,1086
+23,3d7ef96,SUCCESS,9,SUCCESS,16,SUCCESS,7,2011-05-12 11:11:09 +0200,transformed to maven-plugin,29,1094
+24,75944d2,SUCCESS,6,SUCCESS,8,SUCCESS,7,2011-05-12 11:14:03 +0200,refac.,29,1094
+25,fde38a3,SUCCESS,6,SUCCESS,8,SUCCESS,7,2011-05-12 11:47:59 +0200,major refac yo,31,1027
+26,74c8866,SUCCESS,6,SUCCESS,8,SUCCESS,7,2011-05-12 12:09:44 +0200,refac. cont.,32,1042
+27,32a5458,SUCCESS,7,SUCCESS,7,SUCCESS,7,2011-05-12 14:50:55 +0200,refac.,32,1042
+28,3049134,SUCCESS,7,SUCCESS,7,SUCCESS,7,2011-05-12 16:37:48 +0200,WebContext - increased func. refac.,33,1327
+29,908c37f,SUCCESS,7,SUCCESS,6,SUCCESS,7,2011-05-12 16:52:53 +0200,More stuff in WebContext,33,1349
+30,b7f86b9,SUCCESS,7,SUCCESS,6,SUCCESS,6,2011-05-12 16:58:11 +0200,more stuff in WebContext,33,1352
+31,97d53b8,SUCCESS,6,SUCCESS,5,SUCCESS,7,2011-05-12 16:59:14 +0200,added comment,33,1352
+32,842445d,SUCCESS,7,SUCCESS,7,SUCCESS,9,2011-05-12 17:06:03 +0200,untested bat-script,33,1352
+33,ea347d1,FAIL,0,NO,0,NO,0,2011-05-13 12:29:32 +0200,remake of plugin,34,1360
+34,c73c5d4,SUCCESS,8,SUCCESS,4,SUCCESS,5,2011-05-16 15:23:21 +0200,"refactoring, works with new paradigm but complete",19,815
+35,2d463c5,SUCCESS,8,SUCCESS,4,SUCCESS,5,2011-05-16 15:37:58 +0200,more refac.,18,825
+36,2107a2b,SUCCESS,7,SUCCESS,5,SUCCESS,6,2011-05-16 15:44:54 +0200,refac.,18,821
+37,4695842,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-16 15:50:55 +0200,moved param from spark methods to Route constructor,18,826
+38,b530abc,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-16 15:52:37 +0200,added simple example to readme,18,826
+39,e98789c,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-16 15:53:12 +0200,readme,18,826
+40,4766295,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-16 16:36:06 +0200,test,18,830
+41,154a5b4,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-16 16:39:46 +0200,added ascii art,18,830
+42,520455f,SUCCESS,7,SUCCESS,5,SUCCESS,4,2011-05-16 16:40:58 +0200,smaller art,18,830
+43,2cc4d2b,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-16 16:41:28 +0200,no art :-),18,830
+44,f16d910,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-16 17:07:19 +0200,"Route is soon, functionally speaking, complete",18,839
+45,97a0397,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-17 11:25:18 +0200,major refac.,22,940
+46,60ae415,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-17 11:44:56 +0200,added javadoc and license,23,938
+47,0d4c6da,SUCCESS,7,SUCCESS,5,SUCCESS,5,2011-05-17 11:50:06 +0200,Added license header,23,938
+48,8bfdee1,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-17 14:21:06 +0200,added javadoc,23,938
+49,3d390a9,SUCCESS,7,SUCCESS,5,SUCCESS,4,2011-05-17 14:50:31 +0200,added javadoc,23,938
+50,57d2cdd,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-17 16:12:59 +0200,added filter func,27,1034
+51,dcd667e,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-17 16:14:32 +0200,readme test,27,1034
+52,7aa79f8,SUCCESS,6,SUCCESS,5,SUCCESS,4,2011-05-17 16:15:05 +0200,readme,27,1034
+53,a8e2de7,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-17 16:59:25 +0200,"After filter, javadoc, example",27,1057
+54,aa242b0,SUCCESS,5,SUCCESS,4,SUCCESS,5,2011-05-18 09:33:02 +0200,changed to static import in examples,27,1058
+55,a22b88e,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-18 09:42:43 +0200,changed to static imports,27,1058
+56,a8c1605,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-18 10:24:06 +0200,readme,27,1058
+57,c6d3e53,SUCCESS,7,SUCCESS,4,SUCCESS,5,2011-05-18 16:31:09 +0200,updated pom,27,1058
+58,9de9cbf,SUCCESS,7,SUCCESS,5,SUCCESS,4,2011-05-18 17:05:08 +0200,small change to be more conse...,27,1058
+59,27a5404,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-18 19:20:27 +0200,rawResponse -> raw,27,1058
+60,e7fd3a6,SUCCESS,6,SUCCESS,5,SUCCESS,5,2011-05-18 22:45:12 +0200,queryParam -> queryParams,27,1058
+61,25feca7,SUCCESS,6,SUCCESS,4,SUCCESS,5,2011-05-19 00:12:07 +0200,Filter refac.,28,1087
+62,4516e25,SUCCESS,7,SUCCESS,5,SUCCESS,4,2011-05-19 10:10:40 +0200,Changed to Route matcher that works like Sinatra's,29,1187
+63,1441261,SUCCESS,6,SUCCESS,4,SUCCESS,4,2011-05-19 10:15:12 +0200,added to beta number,29,1187
+64,16ad13f,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-19 11:09:49 +0200,*m,30,1205
+65,0c1815c,SUCCESS,7,SUCCESS,4,SUCCESS,4,2011-05-19 11:23:29 +0200,*f,30,1203
+66,1e94447,SUCCESS,6,SUCCESS,5,SUCCESS,8,2011-05-21 11:42:42 +0200,implementation of integration test started,31,1258
+67,47e266b,SUCCESS,6,SUCCESS,5,FAIL,7,2011-05-21 12:25:09 +0200,BOOKS junit,31,1320
+68,9400030,SUCCESS,6,SUCCESS,6,FAIL,7,2011-05-21 19:31:55 +0200,Added req/res wrappers,33,1419
+69,83bb6ed,SUCCESS,8,SUCCESS,6,FAIL,7,2011-05-21 19:32:33 +0200,version,33,1419
+70,fe136a5,SUCCESS,7,SUCCESS,6,FAIL,7,2011-05-22 00:37:50 +0200,Added distribution management,33,1419
+71,3eff894,SUCCESS,7,SUCCESS,7,FAIL,7,2011-05-23 12:58:03 +0200,added attribute feature to Request and filter example on how to use it,34,1496
+72,71278e9,SUCCESS,6,SUCCESS,6,FAIL,6,2011-05-23 13:14:57 +0200,added example to README,34,1496
+73,7e7acb8,SUCCESS,7,SUCCESS,5,FAIL,7,2011-05-23 13:17:53 +0200,README,34,1496
+74,c1e865f,SUCCESS,7,SUCCESS,6,FAIL,6,2011-05-23 23:06:02 +0200,change from sysout to log,34,1496
+75,984d652,SUCCESS,7,SUCCESS,6,FAIL,7,2011-05-23 23:08:48 +0200,sysout -> log,34,1495
+76,f95965f,SUCCESS,9,SUCCESS,4,FAIL,7,2011-05-26 11:40:46 +0200,Change to newer jetty version,34,1530
+77,cd9e194,SUCCESS,7,SUCCESS,6,FAIL,5,2011-05-26 11:42:46 +0200,removed unused dependency,34,1530
+78,c4b5a13,SUCCESS,7,SUCCESS,5,FAIL,8,2011-06-17 11:26:48 +0200,"Added support for execution on app server (e.g. tomcat, jetty, etc)",42,1562
+79,dfd0c12,SUCCESS,6,SUCCESS,6,SUCCESS,8,2011-09-01 09:36:30 +0200,issue #4: using a read from standard input to block the main thread.,42,1584
+80,76b86d1,SUCCESS,7,SUCCESS,6,SUCCESS,8,2011-09-01 09:42:34 +0200,Updated version number.,42,1584
+81,14f3346,SUCCESS,7,SUCCESS,6,SUCCESS,8,2011-09-13 14:31:48 +0200,fix params in maj,42,1598
+82,28bc015,SUCCESS,7,SUCCESS,7,SUCCESS,8,2011-10-25 18:25:42 +0200,[spark] Make spark.Response's body method public (#8),42,1584
+83,023f21b,SUCCESS,8,SUCCESS,5,SUCCESS,7,2011-12-15 22:39:29 +0200,Added encoding and maven-compiler-plugin version to POM,42,1584
+84,da4e044,SUCCESS,5,SUCCESS,5,FAIL,8,2012-01-04 06:20:29 -0800,Merge pull request #9 from mwanji/master,42,1584
+85,a81b1ed,SUCCESS,7,SUCCESS,5,SUCCESS,8,2012-01-04 06:26:44 -0800,Merge pull request #7 from cuberri/master,42,1598
+86,dfbbe18,SUCCESS,6,SUCCESS,6,SUCCESS,7,2012-01-10 11:08:17 +0100,Fixed code to follow conventions.,42,1598
+87,9b13fd4,SUCCESS,8,SUCCESS,5,FAIL,8,2012-01-10 14:26:34 +0100,Removed dependency to Log4j. Now only sl4j is used.,42,1594
+88,7756ea8,SUCCESS,6,SUCCESS,6,FAIL,9,2012-01-10 14:39:42 +0100,Fixed issue with failing jUnit tests for maven in windows.,42,1594
+89,9dfe901,SUCCESS,7,SUCCESS,7,SUCCESS,8,2012-03-04 00:54:51 +0400,ignore idea project files/directory,42,1594
+90,4056798,SUCCESS,6,SUCCESS,7,FAIL,8,2012-03-04 01:10:07 +0400,dependencies cleanup,42,1594
+91,4bbca10,SUCCESS,5,SUCCESS,6,FAIL,8,2012-03-04 01:33:52 +0400,remove log4j config,42,1594
+92,0e35d02,SUCCESS,5,SUCCESS,6,FAIL,8,2012-03-23 03:19:43 -0700,Merge pull request #15 from mikegolod/master,42,1594
+93,99e2079,SUCCESS,6,SUCCESS,5,FAIL,8,2012-04-16 20:10:38 +0200,simplified server stopping,42,1589
+94,763bb0e,SUCCESS,6,SUCCESS,6,FAIL,7,2012-06-14 12:52:15 +0100,tests no longer depend on execution order,42,1596
+95,1e2c025,SUCCESS,6,SUCCESS,6,FAIL,8,2012-06-16 14:58:11 -0300,QueryParamsMap added to handle params sinatra/rack style,45,1869
+96,9572098,SUCCESS,7,SUCCESS,5,FAIL,8,2012-06-20 17:26:35 -0300,"refactor names and code, added more tests, added javadocs",45,1938
+97,2ead465,SUCCESS,5,SUCCESS,7,FAIL,8,2012-06-20 17:55:09 -0300,"more test , more refactoring, more javadoc",45,1954
+98,194e41c,SUCCESS,7,SUCCESS,6,FAIL,8,2012-06-22 13:43:04 -0300,snapshot removed,45,1954
+99,f97275e,SUCCESS,6,SUCCESS,6,SUCCESS,7,2012-06-22 13:52:55 -0300,test fixed,45,1953
+100,da79597,SUCCESS,5,SUCCESS,6,FAIL,8,2012-06-22 13:54:35 -0300,snapshot and version put back. Forgot there was a pull request on this branch,45,1953
+101,57d318c,SUCCESS,7,SUCCESS,5,FAIL,8,2012-08-21 02:13:55 -0700,Merge pull request #22 from danieltwagner/master,42,1596
+102,0e55eb5,SUCCESS,5,SUCCESS,6,FAIL,7,2012-10-10 15:04:50 +0300,Update src/test/java/spark/BooksIntegrationTest.java,42,1595
+103,ff2d65d,SUCCESS,6,SUCCESS,6,FAIL,8,2012-11-19 11:27:44 +0100,README -> README.md,42,1596
+104,f1572ed,SUCCESS,5,SUCCESS,6,FAIL,8,2012-11-19 11:32:49 +0100,Fixed Markdown in README,42,1596
+105,9d2a052,SUCCESS,5,SUCCESS,6,FAIL,7,2012-11-19 11:34:09 +0100,Small README fix,42,1596
+106,e519169,SUCCESS,6,SUCCESS,6,FAIL,8,2012-11-22 16:33:05 +0100,Extracted creation of SparkApplication into method to allow overriding in subclasses. Subclasses may use dependency injection or other techniques to create an instance of SparkApplication.,42,1598
+107,e9cf3d4,SUCCESS,7,SUCCESS,7,FAIL,9,2012-11-22 11:34:25 -0800,Merge pull request #27 from 12k/master,42,1596
+108,f488ce2,SUCCESS,7,SUCCESS,7,FAIL,9,2012-11-22 11:40:10 -0800,Merge pull request #25 from nihed/master,42,1595
+109,eaa6c4b,SUCCESS,7,SUCCESS,6,SUCCESS,9,2012-11-22 11:55:29 -0800,Merge pull request #28 from sclassen/master,42,1597
+110,e9de804,SUCCESS,6,SUCCESS,6,SUCCESS,9,2012-11-22 12:02:55 -0800,Merge pull request #23 from fddayan/master,45,1956
+111,50852ac,SUCCESS,6,SUCCESS,6,FAIL,8,2012-11-22 12:07:03 -0800,Merge pull request #16 from bonifaido/master,45,1951
+112,637c383,SUCCESS,6,SUCCESS,7,SUCCESS,8,2012-11-22 21:47:01 +0100,Session support added. This is kumai's changes originally. Thanks :-),47,2049
+113,0cdfab2,SUCCESS,6,SUCCESS,6,SUCCESS,8,2012-11-22 21:51:35 +0100,Version increment,47,2049
+114,afcadad,SUCCESS,5,SUCCESS,5,SUCCESS,9,2012-12-05 16:24:54 -0800,using logger instead of sysout,47,2052
+115,44951d7,SUCCESS,5,SUCCESS,6,SUCCESS,7,2012-12-20 01:08:53 +0400,rename MyTestUtil to SparkTestUtil,47,2049
+116,8bb8c64,SUCCESS,7,SUCCESS,7,SUCCESS,9,2012-12-20 01:09:08 +0400,implement cookies support,48,2170
+117,d29f4ab,SUCCESS,6,SUCCESS,7,SUCCESS,8,2012-12-20 01:10:25 +0400,add DONE for cookies in the feature list,48,2170
+118,68cfe27,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-01-23 23:52:55 -0800,Merge pull request #29 from shatsar/master,47,2052
+119,0ec130b,SUCCESS,7,SUCCESS,7,SUCCESS,8,2013-01-30 13:04:47 -0500,Update README.md,47,2052
+120,6a24006,SUCCESS,6,SUCCESS,6,SUCCESS,8,2013-02-01 01:49:29 -0800,Merge pull request #32 from subdigit/patch-1,47,2052
+121,ddbf20b,SUCCESS,8,SUCCESS,5,SUCCESS,8,2013-02-04 19:33:40 +0100,Merge commit '8bb8c64abf90867322fbc98f94e46ddd01b82595',48,2173
+122,f9f881b,SUCCESS,7,SUCCESS,7,SUCCESS,8,2013-02-04 19:38:13 +0100,Changed method names to the Spark convention,48,2173
+123,3232c2d,SUCCESS,5,SUCCESS,6,SUCCESS,8,2013-02-04 19:54:06 +0100,Merge commit 'd29f4ab7297abe4efe75f67fca1bc98ce4fbf313',48,2173
+124,6e3ae33,SUCCESS,6,SUCCESS,5,SUCCESS,9,2013-02-04 19:57:33 +0100,"Commented out unstable BooksIntegrationTest (due to states), Removed eclipse warnings",48,2036
+125,91df567,SUCCESS,7,SUCCESS,5,SUCCESS,10,2013-02-04 12:06:42 -0800,API to allow user to specify address to listen on.,48,2045
+126,b308884,SUCCESS,7,SUCCESS,5,SUCCESS,10,2013-02-04 12:09:58 -0800,Fixed up JavaDocs.,48,2045
+127,bf49860,SUCCESS,8,SUCCESS,6,SUCCESS,10,2013-02-05 13:09:00 -0800,Add call host API from Spark class.,48,2050
+128,4944e58,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-02-06 21:34:53 +0100,fixed minor javadoc errors,48,2050
+129,aad1f3c,SUCCESS,7,SUCCESS,5,SUCCESS,9,2013-02-07 10:29:43 -0600,updating groupId spark --> com.sparkjava,48,2050
+130,90b66af,SUCCESS,10,SUCCESS,5,SUCCESS,10,2013-02-07 10:55:52 -0600,preparing pom.xml for Sonatype OSS sync to Maven central repository,48,2050
+131,f51b243,SUCCESS,7,SUCCESS,7,SUCCESS,10,2013-02-07 19:56:58 +0100,updated version number,48,2050
+132,86d9026,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-02-07 19:58:31 +0100,readme changes,48,2050
+133,b7921de,SUCCESS,7,SUCCESS,8,SUCCESS,10,2013-02-07 20:49:58 +0100,changed artifactid from spark to spark-core,48,2050
+134,ff3f451,SUCCESS,8,SUCCESS,7,FAIL,11,2013-02-13 00:20:17 +0000,Added secure (SSL) option for embedded Jetty,51,2317
+135,58f93c9,SUCCESS,6,SUCCESS,7,SUCCESS,9,2013-02-26 10:25:07 +0100,"Add possibility to serve static resources like html, css or js.",50,2092
+136,4ae2a19,SUCCESS,10,SUCCESS,6,SUCCESS,10,2013-02-26 22:48:52 +0100,Upgrade to servlet 3.0 and jetty 8,48,2092
+137,e5b5943,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-03-06 23:20:34 +0100,add a HTTP301 (permanent) redirection to response api,48,2054
+138,f9cf0d1,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-03-06 23:35:06 +0100,add some log and a slf4j logger,48,2059
+139,4486ee6,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-03-08 14:52:20 +0100,add secured cookie creation method,48,2062
+140,96b5af6,SUCCESS,12,SUCCESS,5,SUCCESS,17,2013-03-12 13:56:15 +0100,"Upgrade to servlet 3.0, jetty 9, and java 7",48,2094
+141,ac94f53,SUCCESS,7,SUCCESS,7,SUCCESS,15,2013-03-12 13:59:32 +0100,Removed inherited from maven plugins,48,2094
+142,5e06b77,SUCCESS,8,SUCCESS,6,SUCCESS,16,2013-03-12 14:29:40 +0100,Removed log4j from comment in pom,48,2094
+143,aff9875,SUCCESS,7,SUCCESS,7,SUCCESS,15,2013-03-12 14:32:26 +0100,Added jetty dependencies section comment in pom,48,2094
+144,95591b0,SUCCESS,8,SUCCESS,6,SUCCESS,19,2013-03-19 18:50:51 +0100,merge SSL pull request and updated to use Jetty 9.0,51,2375
+145,f47846d,SUCCESS,6,SUCCESS,6,SUCCESS,17,2013-03-19 18:57:23 +0100,moved test keystore,51,2376
+146,0743716,SUCCESS,7,SUCCESS,6,SUCCESS,17,2013-03-19 19:59:42 +0100,removed unused import,51,2375
+147,a1adf96,SUCCESS,6,SUCCESS,6,SUCCESS,15,2013-03-19 20:40:27 +0100,merged static resources pull request,53,2416
+148,ab957c3,SUCCESS,6,SUCCESS,7,SUCCESS,18,2013-03-19 22:06:35 +0100,sonar fixes,53,2439
+149,b06617a,SUCCESS,7,SUCCESS,7,SUCCESS,17,2013-03-20 10:42:57 +0100,Merge remote-tracking branch 'upstream/master',53,2451
+150,301d2fb,FAIL,7,NO,0,NO,0,2013-03-21 13:11:16 +0100,adding securedCookie method redirect http 3XX method some logs,55,2536
+151,ad02a1f,SUCCESS,10,SUCCESS,6,SUCCESS,16,2013-03-21 15:40:46 +0100,last version for slf4j (to be able to use varargs),55,2536
+152,0be718b,SUCCESS,7,SUCCESS,6,SUCCESS,15,2013-03-31 22:59:48 -0700,"Replaced calls to HttpServletRequest.getScheme(),HttpServletRequest.host() and HttpServletRequest.getPathInfo() with a call to HttpServletRequest.getServletURL() Calls to HttpServletRequest.getPathInfo() return null if extra path information is unavailable causing malformed URLs to be returned.",53,2439
+153,587400d,SUCCESS,7,SUCCESS,6,SUCCESS,17,2013-04-04 23:01:51 +0200,increased version,53,2439
+154,1cdb622,SUCCESS,6,SUCCESS,6,SUCCESS,17,2013-04-05 21:52:21 +0200,Merge commit '0be718b3b73c74e05f6c27813ed476e6133df6c4',53,2439
+155,e4e52f2,SUCCESS,7,SUCCESS,7,SUCCESS,18,2013-04-07 02:17:44 +0300,Added support for PATCH method + refactor SparkTestUtil to use Apache HttpClient to support PATCH,53,2515
+156,95a3399,SUCCESS,8,SUCCESS,8,SUCCESS,17,2013-04-07 09:17:01 +0200,Merge remote-tracking branch 'lunatix/master',55,2536
+157,37aaa74,SUCCESS,8,SUCCESS,7,SUCCESS,15,2013-04-07 20:35:08 +0200,http 3XX and secured cookies,53,2463
+158,68f5aae,SUCCESS,5,SUCCESS,7,SUCCESS,15,2013-04-07 20:50:52 +0200,Merge remote-tracking branch 'uric/master',53,2539
+159,a794631,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-04-07 21:50:15 +0200,fixed sonar warnings,53,2539
+160,b78b011,SUCCESS,7,SUCCESS,6,SUCCESS,17,2013-04-08 10:16:56 +0200,For #56 : add possibility to have resources outside of jar,53,2585
+161,5ab3f23,SUCCESS,7,SUCCESS,7,SUCCESS,17,2013-04-08 17:56:02 +0200,merge of external file routes func.,53,2588
+162,a53327f,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-04-11 15:05:34 +0200,#59 Splat support in routes,53,2628
+163,64df065,SUCCESS,7,SUCCESS,6,SUCCESS,18,2013-04-11 18:19:51 +0200,changed splat from list to array since it's parameters,53,2627
+164,9a16dc9,SUCCESS,6,SUCCESS,7,SUCCESS,17,2013-04-11 18:58:03 +0200,Renamed method for static files from route to location.,53,2627
+165,c4bc839,SUCCESS,6,SUCCESS,7,SUCCESS,15,2013-04-11 19:06:34 +0200,increasing version,53,2627
+166,e89591c,SUCCESS,6,SUCCESS,7,SUCCESS,18,2013-04-12 10:19:07 +0200,minor refactoring,53,2627
+167,a82a0f4,SUCCESS,11,SUCCESS,8,SUCCESS,16,2013-04-17 23:44:46 +0200,Upgrade to Jetty 9.0.2.v20130417,53,2627
+168,085e322,SUCCESS,8,SUCCESS,8,SUCCESS,19,2013-04-18 04:35:46 -0700,Merge pull request #63 from sslavic/63,53,2627
+169,99aaaed,SUCCESS,6,SUCCESS,7,SUCCESS,18,2013-04-26 23:00:34 +0200,updated readme.md,53,2627
+170,249b6d9,SUCCESS,6,SUCCESS,7,SUCCESS,17,2013-05-06 13:31:50 +0200,"Since a lot of changes had been made since this pull request a ""copy-paste"" merge was easier than a nomral merge of the commit.",53,2657
+171,d5e20f4,SUCCESS,6,SUCCESS,6,FAIL,15,2013-05-09 20:30:31 +0200,resolves #44 so Routes and Filters are accept type aware.,54,2817
+172,88d2feb,SUCCESS,8,SUCCESS,7,SUCCESS,15,2013-05-20 21:04:48 +0200,resolves #44,64,2974
+173,086eafb,SUCCESS,6,SUCCESS,6,SUCCESS,15,2013-05-30 14:51:48 +0200,Add the ability to specify a path in a cookie,53,2660
+174,35d3f79,SUCCESS,6,SUCCESS,7,SUCCESS,16,2013-06-04 19:50:17 +0200,resolves issues #1 and #44,63,2957
+175,9e23f72,SUCCESS,6,SUCCESS,7,SUCCESS,17,2013-06-19 10:02:24 +0200,"when 404 is returned, the request URL is included in the body",53,2657
+176,0de6842,SUCCESS,6,SUCCESS,5,SUCCESS,16,2013-06-19 18:17:08 +0200,merge of solution for #1 and #44,63,3015
+177,c129d56,SUCCESS,6,SUCCESS,7,SUCCESS,16,2013-06-24 11:11:07 +0200,Merge remote-tracking branch 'xavier/master',63,3018
+178,5ccac45,SUCCESS,7,SUCCESS,6,SUCCESS,16,2013-06-24 13:06:42 +0200,Merge remote-tracking branch 'bverbeken/master',63,3018
+179,77d35e8,SUCCESS,7,SUCCESS,8,SUCCESS,18,2013-06-24 13:09:18 +0200,changed to just request URI,63,3018
+180,bbe1a87,SUCCESS,7,SUCCESS,7,SUCCESS,17,2013-06-25 14:23:02 +0200,added travis file,63,3018
+181,21f55ea,SUCCESS,7,SUCCESS,7,SUCCESS,18,2013-06-25 14:28:11 +0200,for trigger a travis build,63,3018
+182,458806a,SUCCESS,8,SUCCESS,7,SUCCESS,17,2013-06-28 12:53:13 +0200,staged for release,63,3018
+183,505b20f,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-06-29 10:38:38 +0200,maven central,63,3018
+184,1173949,SUCCESS,6,SUCCESS,6,SUCCESS,16,2013-06-29 11:12:33 +0200,added google group,63,3018
+185,49ce9ab,SUCCESS,6,SUCCESS,6,SUCCESS,18,2013-06-29 17:11:37 +0200,added helping comment to FreeMarker example,63,3018
+186,7a9c145,SUCCESS,8,SUCCESS,6,SUCCESS,17,2013-07-14 16:32:03 +0200,MatcherFilter should not try to modify content type header which was intentionally modified before by user,63,3020
+187,b8edbc6,SUCCESS,7,SUCCESS,7,SUCCESS,16,2013-08-05 12:50:29 +0000,Expose the servlet request's servlet path.,63,3032
+188,8cedc87,SUCCESS,7,SUCCESS,8,SUCCESS,16,2013-08-14 16:30:42 +0200,Merge commit 'b8edbc68f50a0faa38f992cbcd48b2394234acca',63,3034
+189,2223fdc,SUCCESS,7,SUCCESS,6,SUCCESS,16,2013-08-14 16:32:18 +0200,fixed formatting stuff,63,3034
+190,12ab370,SUCCESS,6,SUCCESS,7,SUCCESS,17,2013-08-14 16:36:10 +0200,added context path,63,3048
+191,3d0cfc1,SUCCESS,7,SUCCESS,6,SUCCESS,16,2013-08-14 16:39:09 +0200,updated version for release,63,3048
+192,d201b3b,SUCCESS,7,SUCCESS,8,SUCCESS,19,2013-08-20 15:30:52 -0500,"update version to next development version, 1.1-SNAPSHOT",63,3048
+193,3f9534f,SUCCESS,7,SUCCESS,8,SUCCESS,16,2013-08-20 15:33:20 -0500,fix for issue 89 ; use servlet-api 2.5 compatible containsHeader rather than 3.0 compatible getHeader,63,3048
+194,ad556fd,SUCCESS,7,SUCCESS,7,SUCCESS,18,2013-09-04 10:28:33 +0200,Add the ability to specify a path in a cookie,63,3051
+195,fa3d2ea,SUCCESS,8,SUCCESS,7,SUCCESS,16,2013-09-09 11:00:05 -0700,Merge pull request #92 from heuermh/master,63,3051
+196,8a85fc3,SUCCESS,6,SUCCESS,7,SUCCESS,17,2013-09-09 20:55:24 +0200,copy-paste merge of #93,63,3050
+197,a19594a,SUCCESS,7,SUCCESS,6,SUCCESS,15,2013-10-31 23:11:24 +0100,updated version for release,63,3050
+198,12ddc1c,SUCCESS,6,SUCCESS,6,SUCCESS,18,2013-11-05 19:00:32 +0100,Update README.md,63,3050
+199,3c906ec,SUCCESS,6,SUCCESS,7,SUCCESS,15,2013-11-05 14:01:44 -0800,Merge pull request #111 from tschundeee/master,63,3050
+200,5823c6a,SUCCESS,7,SUCCESS,7,SUCCESS,19,2013-12-22 20:54:17 -0500,Updated with information about static file locations,63,3050
+201,9787761,SUCCESS,7,SUCCESS,7,SUCCESS,17,2013-12-28 08:08:22 -0800,Merge pull request #118 from wesleycho/readme_update,63,3050
+202,80278da,SUCCESS,6,SUCCESS,6,SUCCESS,17,2014-03-01 09:29:01 +0100,Fix for #115,63,3050
+203,30298a0,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-03-01 10:04:12 +0100,Fix for #122,63,3055
+204,ab8de10,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-03-01 17:25:16 +0100,bumped version,63,3055
+205,f1f0676,SUCCESS,6,SUCCESS,6,SUCCESS,18,2014-03-03 16:42:43 +0100,"Made stop functionality public, fix for #120",62,3044
+206,86ef723,SUCCESS,7,SUCCESS,6,SUCCESS,18,2014-03-23 00:47:15 +0100,Exception mapper implementation,64,3099
+207,0f34b2a,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-03-23 01:16:26 +0100,Fixed indenting,64,3099
+208,0555979,SUCCESS,6,SUCCESS,6,SUCCESS,16,2014-03-23 16:48:23 +0100,Changed visibility of getDelegate() to package local (no modifier),64,3099
+209,720fe0f,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-04-01 16:30:54 +0200,"Added ""throws Exception"" to the regular handler methods, so that implementors can let non-RuntimeExceptions fall through to the exception handler.",64,3099
+210,f094619,SUCCESS,7,SUCCESS,7,SUCCESS,20,2014-04-01 23:11:53 +0200,Pom update,62,3044
+211,0d107c5,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-04-01 23:12:05 +0200,Merge branch 'master' into ExceptionMapper,64,3099
+212,ee53eae,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-04-01 23:15:07 +0200,"Whoops, that was not supposed to get into the pull request.",64,3099
+213,c0ca8c6,SUCCESS,7,SUCCESS,7,SUCCESS,15,2014-04-15 18:26:37 +0200,A little patch that allows catching of exceptions that inherit a mapped exception class,66,3128
+214,0f3903d,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-05-09 19:30:27 +0200,Fixed indentation,66,3128
+215,175875f,FAIL,7,NO,0,NO,0,2014-05-09 19:51:57 +0200,Consistency patch,66,3126
+216,eb1cdcf,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-09 19:53:33 +0200,And this is why you compile before committing,66,3126
+217,501c478,SUCCESS,8,SUCCESS,7,SUCCESS,19,2014-05-10 09:49:35 +0200,added generic arguments to remove IDE warnings,66,3126
+218,5e76dbd,SUCCESS,7,SUCCESS,8,SUCCESS,17,2014-05-10 09:56:23 +0200,minor changes to remove IDE warnings,66,3125
+219,4423442,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-10 10:22:36 +0200,added some more junit tests,67,3143
+220,a015578,SUCCESS,7,SUCCESS,6,SUCCESS,18,2014-05-10 12:38:10 +0200,Added functionality for setPort(0). Code copied from #124,67,3152
+221,e4dba1a,SUCCESS,7,SUCCESS,6,SUCCESS,15,2014-05-10 12:54:17 +0200,Added Spark code style settings for Intellij,67,3152
+222,bdc1b1c,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-05-10 18:42:56 +0200,"Fixed lamdbas for core use cases, Template engine needs tweaking. And Exception mapping",67,2891
+223,d6c8ebf,SUCCESS,6,SUCCESS,7,SUCCESS,16,2014-05-10 20:51:44 +0200,modified exception mapping to support lambdas,69,2910
+224,12d7d4e,SUCCESS,6,SUCCESS,8,SUCCESS,17,2014-05-11 10:01:13 +0200,partial template commit,71,2949
+225,9d99dfc,SUCCESS,6,SUCCESS,8,SUCCESS,19,2014-05-11 11:04:58 +0200,modified implementation of lambdas to make it simpler to fix TemplateViewRoutes,73,3001
+226,5101765,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-05-11 11:07:44 +0200,Added TODO comment for optimization,73,3001
+227,0fd677a,SUCCESS,7,SUCCESS,8,FAIL,19,2014-05-11 11:33:23 +0200,"Template View commit, is other HTTP verbs needed?",74,3037
+228,c403458,SUCCESS,7,SUCCESS,6,SUCCESS,17,2014-05-11 15:04:41 +0200,finalizing port to java 8 and Lambdas,75,3095
+229,fa3cae9,SUCCESS,6,SUCCESS,8,SUCCESS,17,2014-05-11 15:08:06 +0200,bumped version to 2.0.0,75,3095
+230,b7c396b,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-05-11 16:38:15 +0200,completed lambda for Response Transformers and TemplateViews,75,3161
+231,ccc4bab,SUCCESS,8,SUCCESS,7,SUCCESS,16,2014-05-11 16:40:10 +0200,Comments,75,3161
+232,620231a,SUCCESS,8,SUCCESS,6,SUCCESS,17,2014-05-11 16:44:32 +0200,refactoring,74,3161
+233,549b254,SUCCESS,6,SUCCESS,7,SUCCESS,16,2014-05-11 17:06:38 +0200,preparation for maven central release,74,3204
+234,c781915,SUCCESS,6,SUCCESS,7,SUCCESS,17,2014-05-11 17:15:57 +0200,preparation for maven central release,74,3204
+235,019c467,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-11 17:21:36 +0200,preparation for maven central release,74,3199
+236,587b752,SUCCESS,7,SUCCESS,8,SUCCESS,17,2014-05-11 17:24:13 +0200,preparation for maven central release,74,3199
+237,9b02807,SUCCESS,7,SUCCESS,6,SUCCESS,18,2014-05-11 17:29:01 +0200,prepare,74,3199
+238,ba98173,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-11 17:35:24 +0200,prepare,74,3201
+239,b9714f8,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-05-11 17:44:21 +0200,prepare,74,3201
+240,8fe81d5,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-11 17:47:37 +0200,prepare,74,3201
+241,fcad3b7,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-05-11 17:50:31 +0200,prepare,74,3201
+242,160a7f2,SUCCESS,8,SUCCESS,7,SUCCESS,19,2014-05-11 19:40:58 +0200,update readme,74,3201
+243,a46b5a3,SUCCESS,7,SUCCESS,6,SUCCESS,17,2014-05-11 19:41:49 +0200,readme,74,3201
+244,bbcd3b2,SUCCESS,6,SUCCESS,7,SUCCESS,17,2014-05-12 13:10:21 +0200,pom formatting,74,3201
+245,3625f56,SUCCESS,8,SUCCESS,6,SUCCESS,18,2014-05-15 10:42:08 +0200,Added modelAndView helper method and updated readme.md,74,3203
+246,2701887,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-18 12:04:11 +0200,"working version will class path static resources, needs cleanup in utils",89,5567
+247,f5d4d49,SUCCESS,7,SUCCESS,6,SUCCESS,16,2014-05-18 12:11:32 +0200,removed Vfs related,87,5389
+248,7d3d4fc,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-05-18 12:15:13 +0200,more clean up to reduce footprint,87,5274
+249,b2aefb9,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-05-18 12:21:02 +0200,reducing footprint,87,5217
+250,0ce1e4a,SUCCESS,8,SUCCESS,8,FAIL,17,2014-05-18 12:28:42 +0200,reducing footprint,87,4873
+251,15810e3,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-05-18 12:32:50 +0200,reducing footprint,87,4632
+252,8ca1d2c,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-05-18 12:37:04 +0200,more clean up to reduce footprint,86,4393
+253,d07e3aa,SUCCESS,8,SUCCESS,6,SUCCESS,17,2014-05-18 12:43:07 +0200,reducing footprint,86,4254
+254,3ef0cb7,SUCCESS,7,SUCCESS,8,SUCCESS,17,2014-05-18 15:22:50 +0200,working external static resource handler,88,4392
+255,f0140a2,SUCCESS,9,SUCCESS,7,SUCCESS,17,2014-05-18 15:50:59 +0200,"Refactoring, preparation for pull request",89,4346
+256,5dc28a0,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-05-18 19:38:04 +0200,updated jdk version for travis,89,4346
+257,62f991c,SUCCESS,7,SUCCESS,6,SUCCESS,16,2014-05-18 19:51:37 +0200,Added comments about origin of source code and about who made modifications,89,4343
+258,a61a6e0,SUCCESS,7,SUCCESS,6,SUCCESS,16,2014-05-18 19:53:46 +0200,removed whitespaces,89,4343
+259,2df2964,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-05-18 20:16:04 +0200,reducing footprint,89,4044
+260,c72845b,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-05-18 20:17:22 +0200,updating IOUtils header,89,4044
+261,81577aa,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-05-18 20:41:07 +0200,Fixes after review comments,89,4082
+262,9964741,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-05-18 21:56:18 +0200,"refactoring, removing unnecessary interface, changing to use non-deprecated methods in tests",88,4066
+263,0a7fabc,SUCCESS,8,SUCCESS,7,FAIL,17,2014-05-18 22:03:03 +0200,review fixes,88,4071
+264,c03b87f,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-05-18 22:06:52 +0200,Merge pull request #143 from perwendel/static-resource,88,4071
+265,580fa37,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-05-18 22:25:52 +0200,"Added protocol and uri methods to request, #129",88,4081
+266,089f769,SUCCESS,11,SUCCESS,8,SUCCESS,18,2014-05-19 11:23:43 -0500,adding maven enforcer plugin configuration to enforce JDK 8,88,4081
+267,b0db420,SUCCESS,11,SUCCESS,7,SUCCESS,20,2014-05-19 11:33:57 -0500,"updating dependency versions; slf4j to 1.7.7, junit to 4.11, httpclient to 4.3.3, freemarker to 2.3.20, etc.",88,4081
+268,f857ea5,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-05-20 19:53:43 +0200,Merge pull request #145 from heuermh/update-dependency-versions,88,4081
+269,c65a023,SUCCESS,8,SUCCESS,8,SUCCESS,19,2014-05-20 19:59:11 +0200,Merge pull request #144 from heuermh/enforcer-config,88,4081
+270,d89bc35,SUCCESS,8,SUCCESS,6,SUCCESS,18,2014-05-22 23:43:34 +0200,remove link with outdated examples in README,88,4081
+271,993d4e8,SUCCESS,7,SUCCESS,8,SUCCESS,19,2014-05-23 19:37:26 +0200,Merge pull request #147 from xorrr/patch-1,88,4081
+272,8ecb6cb,SUCCESS,7,SUCCESS,8,SUCCESS,20,2014-05-28 21:50:04 +0200,Fix for issue #141,88,4088
+273,33987ed,SUCCESS,8,SUCCESS,9,SUCCESS,19,2014-05-29 23:19:37 +0200,display ci build status in README,88,4081
+274,3b4c190,SUCCESS,8,FAIL,8,NO,0,2014-05-30 16:21:27 +0200,uncomment BooksIntegrationTest to start fixing,88,4218
+275,b294ea7,SUCCESS,9,FAIL,8,NO,0,2014-05-30 16:26:13 +0200,use indentation size 4 instead of 3,88,4218
+276,08e47e7,SUCCESS,7,SUCCESS,8,FAIL,16,2014-05-30 16:27:03 +0200,remove undefined methodcall in AfterClass,88,4217
+277,f878068,SUCCESS,7,SUCCESS,8,FAIL,17,2014-05-30 16:29:48 +0200,use org.juni.Assert instead of deprecated junit.framework.Assert,88,4219
+278,1acc1df,SUCCESS,9,SUCCESS,7,SUCCESS,18,2014-05-30 16:41:59 +0200,fix testListBooks Test by creating a Book first,88,4223
+279,aaf6379,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-05-30 16:56:21 +0200,refactor creation of test book,88,4224
+280,8ba8712,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-05-30 17:07:17 +0200,use Before After instead of BeforeClass AfterClass,88,4224
+281,5f4d437,SUCCESS,7,SUCCESS,6,FAIL,17,2014-05-30 17:20:30 +0200,change bookId to non-static,88,4225
+282,9e65a74,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-05-30 17:21:32 +0200,fix testDeleteBook,88,4225
+283,f9a078e,SUCCESS,7,SUCCESS,7,SUCCESS,22,2014-05-30 17:34:56 +0200,change books map to public for testing purposes,88,4222
+284,03a8619,SUCCESS,8,SUCCESS,7,SUCCESS,23,2014-05-30 17:38:42 +0200,clear books map in tearDown,88,4223
+285,a6ec6b9,SUCCESS,9,SUCCESS,7,SUCCESS,21,2014-05-30 17:39:47 +0200,fix testUpdateBook,88,4223
+286,3a50088,SUCCESS,8,SUCCESS,6,SUCCESS,23,2014-05-30 17:42:28 +0200,fix testGetUpdatedBook,88,4225
+287,c6aa7ff,SUCCESS,8,SUCCESS,7,SUCCESS,20,2014-05-30 17:46:58 +0200,delete commented out code,88,4225
+288,da1d9d7,SUCCESS,8,SUCCESS,8,SUCCESS,21,2014-05-30 17:49:49 +0200,refactor by extracting methods,88,4229
+289,3ef2c48,SUCCESS,8,SUCCESS,7,SUCCESS,23,2014-05-30 17:50:35 +0200,remove println in testListBooks,88,4228
+290,4b598c7,SUCCESS,8,SUCCESS,7,SUCCESS,20,2014-05-30 17:55:26 +0200,style tests with empty lines,88,4228
+291,d1d5d48,SUCCESS,8,SUCCESS,8,SUCCESS,20,2014-05-30 18:01:33 +0200,use lambda syntax for the filters in setup,88,4226
+292,2266b7b,SUCCESS,7,SUCCESS,7,SUCCESS,21,2014-05-30 18:05:06 +0200,refactor test method names,88,4226
+293,ee00530,SUCCESS,7,SUCCESS,7,SUCCESS,21,2014-05-30 18:21:33 +0200,deal with exceptions in doMethod,88,4230
+294,8b901b1,SUCCESS,8,SUCCESS,8,SUCCESS,20,2014-05-30 18:23:28 +0200,refactor doMethod,88,4235
+295,27fd2f2,SUCCESS,8,SUCCESS,8,SUCCESS,24,2014-05-30 18:24:46 +0200,fix printStackTrace in wontFindBook,88,4235
+296,f0f657d,SUCCESS,8,SUCCESS,8,SUCCESS,21,2014-05-30 18:27:33 +0200,use JUnit syntax to expect an exception in wontFindBook,88,4228
+297,2589e93,SUCCESS,8,SUCCESS,8,SUCCESS,19,2014-05-30 18:28:59 +0200,remove obsolete try-catch block in Test annotated methods,88,4209
+298,a0dee74,SUCCESS,7,SUCCESS,7,SUCCESS,15,2014-05-30 18:39:02 +0200,"use BeforeClass, AfterClass to improve test executing speed",88,4212
+299,4ff09ab,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-06-03 20:11:32 +0200,Merge pull request #148 from perwendel/issue_141,88,4088
+300,96bfb8f,SUCCESS,9,SUCCESS,7,SUCCESS,22,2014-06-10 18:36:26 -0300,added possiblity to get the body as bytes without needing to convert it to String,88,4107
+301,8718f0f,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-06-11 20:39:48 +0200,Merge pull request #150 from xorrr/patch-1,88,4088
+302,2b8c31a,SUCCESS,7,SUCCESS,7,SUCCESS,16,2014-06-11 21:57:48 +0200,Merge pull request #152 from xorrr/fix_books_integrationtest,88,4219
+303,228af35,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-06-12 10:42:35 +0200,Removed build status from README since the Travis build seems unstable and doesn't correspond to actual status,88,4219
+304,095d7f6,SUCCESS,6,SUCCESS,8,SUCCESS,18,2014-06-14 23:07:01 -0400,Update Request.java,88,4219
+305,edf181a,SUCCESS,9,SUCCESS,7,SUCCESS,19,2014-07-03 10:22:16 -0700,"Allow overriding of HTTP method used for matching via the ""_method"" request parameter.  This allows people to use RESTful URL definitions even with clients that don't support all HTTP verbs, such as most Javascript AJAX clients.  This feature is taken from Rails.",88,4236
+306,90019e1,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-07-04 09:03:46 -0700,"Allow overriding of HTTP method with the X-HTTP-Method-Override.  This allows people to use RESTful URL definitions even with clients that don't support all HTTP verbs, such as most Javascript AJAX clients.",88,4261
+307,1ecd428,SUCCESS,6,SUCCESS,8,SUCCESS,17,2014-07-08 20:17:56 +0200,Merge pull request #159 from benwaffle/patch-1,88,4219
+308,3325b80,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-07-08 12:55:04 -0700,Merge branch 'master' of https://github.com/perwendel/spark,88,4261
+309,289e922,SUCCESS,8,SUCCESS,8,SUCCESS,18,2014-07-08 13:04:20 -0700,Fix spacing,88,4261
+310,e128605,SUCCESS,8,SUCCESS,9,SUCCESS,18,2014-07-08 13:08:51 -0700,Really fix spacing,88,4261
+311,109d684,SUCCESS,8,SUCCESS,7,SUCCESS,16,2014-07-13 17:05:53 +0100,Fixed MimeParse Exception,88,4223
+312,eec4896,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-07-19 13:05:05 -0700,Updated the Request object to enable type capture on the attribute(String) method.,88,4219
+313,d569d4c,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-08-14 15:40:43 +0200,#136 replace all System.out and System.err with slf4j logging,88,4241
+314,895fb2d,SUCCESS,8,SUCCESS,6,SUCCESS,17,2014-08-20 13:43:28 +0200,Message to followers,88,4219
+315,2c0c329,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-09-05 19:41:11 -0700,Moved route error info to log from 404 page,88,4220
+316,804a4f6,SUCCESS,8,SUCCESS,6,SUCCESS,18,2014-09-30 11:46:12 +0000,extend relevant interfaces for abstract types,88,4219
+317,5faec88,SUCCESS,8,SUCCESS,7,SUCCESS,16,2014-10-13 15:43:24 +0200,Merge pull request #184 from jangalinski/136_use_logger,88,4241
+318,c5366c6,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-10-13 15:45:14 +0200,Merge pull request #192 from DFalgout/MatchFilter-fix,88,4242
+319,ec8814e,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-10-13 15:59:16 +0200,Merge pull request #174 from EdgeOwl/master,88,4246
+320,a249882,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-10-13 16:02:21 +0200,fixed bad formatting,88,4246
+321,c7600eb,SUCCESS,6,SUCCESS,7,SUCCESS,18,2014-10-13 16:09:52 +0200,Merge pull request #199 from kofrasa/extend-interfaces,88,4246
+322,d0b7559,SUCCESS,8,SUCCESS,8,SUCCESS,19,2014-10-13 16:19:49 +0200,Merge pull request #157 from juanformoso/master,88,4265
+323,7b877e1,SUCCESS,7,SUCCESS,8,SUCCESS,18,2014-10-13 19:32:36 -0700,fixed slf4j-simple dependency,88,4265
+324,ffe3b11,SUCCESS,9,SUCCESS,7,SUCCESS,16,2014-10-14 10:23:23 +0200,Merge pull request #203 from pvg/upstream,88,4265
+325,ef4a922,SUCCESS,7,SUCCESS,7,SUCCESS,15,2014-11-02 18:22:55 +0100,added link to web site,88,4265
+326,efa7928,SUCCESS,7,SUCCESS,6,SUCCESS,17,2014-11-02 18:23:01 +0100,Merge branch 'master' of https://github.com/perwendel/spark,88,4265
+327,a882415,SUCCESS,7,SUCCESS,8,SUCCESS,17,2014-11-13 15:41:48 +0200,Fix for issue #187,88,4268
+328,8621d65,SUCCESS,7,SUCCESS,8,SUCCESS,20,2014-11-13 19:36:41 +0100,Merge pull request #210 from kliakos/response-body-fix,88,4268
+329,631e1a5,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-11-13 19:38:42 +0100,fixing bad format from pull request,88,4268
+330,2f57841,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-11-19 21:25:55 +0100,Merge pull request #172 from carsongross/master,88,4310
+331,c052b56,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-11-21 10:20:40 -0500,- wrap the request so 'getInputStream()' can be called multiple times,88,4332
+332,918842f,SUCCESS,8,SUCCESS,7,SUCCESS,18,2014-12-05 00:54:23 +0100,"Fix for #201, making body available.",88,4323
+333,3a17421,SUCCESS,7,SUCCESS,7,SUCCESS,22,2014-12-05 12:50:32 +0100,Body availability - Added test.,89,4379
+334,25d3a4a,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-12-05 12:51:46 +0100,minor fix,89,4379
+335,e12ed52,SUCCESS,7,SUCCESS,8,SUCCESS,18,2014-12-08 20:48:46 +0100,Merge pull request #218 from perwendel/pw-request-fixes,89,4379
+336,d869e4d,SUCCESS,8,SUCCESS,7,SUCCESS,17,2014-12-08 21:00:55 +0100,Merge pull request #216 from jgangemi/issue201,89,4401
+337,37b9df8,SUCCESS,8,SUCCESS,8,SUCCESS,18,2014-12-08 21:03:01 +0100,fixed bad formatting,89,4401
+338,8bb9223,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-12-08 21:05:20 +0100,Preparing version for maven central release 2.1.,89,4401
+339,624528f,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-12-08 21:14:49 +0100,Merge pull request #219 from perwendel/pw-version-2.1-bump,89,4401
+340,7715521,SUCCESS,7,SUCCESS,8,SUCCESS,20,2014-12-08 21:42:19 +0100,added missing javadoc,89,4401
+341,5dcc8bf,SUCCESS,7,SUCCESS,6,SUCCESS,20,2014-12-08 21:45:44 +0100,added missing javadoc,89,4401
+342,364958a,SUCCESS,8,SUCCESS,7,SUCCESS,19,2014-12-09 08:38:03 +0100,2.1 -> 2.2-SNAPSHOT,89,4401
+343,0453a92,SUCCESS,7,SUCCESS,7,SUCCESS,19,2014-12-09 08:38:55 +0100,updated readme.md with 2.1,89,4401
+344,e988cd3,SUCCESS,7,SUCCESS,7,SUCCESS,18,2014-12-09 08:39:19 +0100,updated readme.md with 2.1,89,4401
+345,4a16e0c,SUCCESS,7,SUCCESS,7,SUCCESS,17,2014-12-12 19:43:35 +0900,Makes Jetty's thread pool configurable.,89,4421
+346,5359a52,SUCCESS,7,SUCCESS,7,SUCCESS,16,2015-01-03 01:19:28 +0100,Reducing boilerplate code rethrowing exceptions in tests,89,4278
+347,6b76b6a,SUCCESS,7,SUCCESS,7,SUCCESS,21,2015-01-27 19:48:14 +0100,"Fixed #231: Added support for removing all routes and particular ones based on path and, optionally, HTTP method",90,4500
+348,3100559,SUCCESS,9,SUCCESS,7,SUCCESS,20,2015-01-28 18:42:40 +0100,"Fixed #233, Add top-level NOTICE file: - Renamed LICENSE to NOTICE - Added Apache 2 license as LICENSE - Added notices from all bundled software",89,4401
+349,f27bd30,SUCCESS,8,SUCCESS,6,SUCCESS,20,2015-02-01 17:49:03 +0100,Solution: binary-safe copy of static files. Fixes #215.,89,4416
+350,b4b140f,SUCCESS,7,SUCCESS,8,SUCCESS,20,2015-02-03 23:44:08 -0500,Adding gzip compression support,92,4492
+351,75c2eb2,SUCCESS,7,SUCCESS,8,SUCCESS,19,2015-02-04 19:02:17 -0300,added awaitInitialization method on SparkBase to be able to wait for the jetty server to be up before making requests. Fixes #226,89,4411
+352,1145904,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-02-04 18:05:03 -0500,Forgot to actually use output stream,92,4493
+353,17aed8d,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-02-04 18:08:23 -0500,Fix bug in gzip not being applied for some input,92,4496
+354,8dcf297,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-02-05 00:32:16 -0300,change byte[]-string conversion method to a simpler one,89,4401
+355,f625bc3,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-02-05 21:57:14 -0500,Improved GZIP implementation style,91,4465
+356,fb1f1d4,SUCCESS,7,SUCCESS,6,SUCCESS,21,2015-02-05 22:14:53 -0500,Re-add check that client supports gzip,91,4467
+357,4a2bd82,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-02-05 22:17:04 -0500,Deleted added files no longer needed,89,4408
+358,f762bd6,SUCCESS,6,SUCCESS,7,SUCCESS,20,2015-02-09 11:29:52 +0100,adds Serializer interface for serializing output data to different formats instead of calling toString.,94,4509
+359,b1bf5f1,SUCCESS,8,SUCCESS,7,SUCCESS,19,2015-02-16 14:00:48 +0100,Merge pull request #234 from travisspencer/wp-issue-233-add-NOTICE-file,89,4401
+360,f10a74e,SUCCESS,20,SUCCESS,9,SUCCESS,23,2015-02-20 23:51:09 +1030,Add OSGi bundle configuration to pom so that Spark will build as a bundle.,89,4401
+361,645daeb,SUCCESS,8,SUCCESS,8,SUCCESS,20,2015-03-05 20:09:18 +0100,Fixed format string in debug log message,90,4500
+362,e5a4e28,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-03-12 15:26:04 +0100,Merge pull request #235 from c-rack/215-staticfilelocation-messes-up-binary-files,89,4416
+363,b7543f9,SUCCESS,6,SUCCESS,6,SUCCESS,21,2015-03-13 08:55:46 +0100,Merge pull request #239 from amarseillan/useless_stream,89,4416
+364,7163b68,SUCCESS,8,SUCCESS,8,SUCCESS,20,2015-03-17 21:20:23 +0100,Update README: remove unused imports and add more Java 8 syntax,89,4416
+365,1f2a4af,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-03-19 20:26:03 +0100,Undid change to .gitignore,90,4500
+366,383b68c,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-03-25 06:03:25 -0300,Merge pull request #255 from pkafel/master,89,4416
+367,0305785,SUCCESS,8,SUCCESS,6,SUCCESS,18,2015-03-25 16:07:29 +0100,Backed out changes to SparkBase,89,4419
+368,7539785,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-03-26 17:26:15 -0300,Merge pull request #232 from travisspencer/wp-issue-231-remove-clear-routes,89,4434
+369,521f7e2,SUCCESS,8,SUCCESS,7,SUCCESS,20,2015-03-31 10:03:33 +0900,remove obsolete param in a javadoc document,89,4434
+370,79b7091,SUCCESS,7,SUCCESS,7,SUCCESS,22,2015-04-05 01:48:41 +0200,Remove old logo graphics,89,4434
+371,999b82b,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-04-08 09:08:24 +0200,Merge pull request #263 from tipsy/patch-1,89,4434
+372,c4da5ca,SUCCESS,8,SUCCESS,7,SUCCESS,23,2015-04-08 09:09:06 +0200,Merge pull request #260 from tos-kamiya/tos-kamiya/fix-obsolete-param,89,4434
+373,b621367,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-04-10 22:53:10 -0700,Make params/routes unicode strings,89,4439
+374,b397f98,SUCCESS,9,SUCCESS,7,SUCCESS,21,2015-04-16 21:00:44 +0200,Remove references to deprecated setPort method,89,4426
+375,3b2ac4e,SUCCESS,8,SUCCESS,7,SUCCESS,18,2015-04-21 12:52:14 +0200,minor change,89,4434
+376,8e4284c,SUCCESS,7,SUCCESS,6,SUCCESS,22,2015-04-29 11:17:46 +0200,Merge pull request #268 from pkafel/remove_set_port_reference,89,4426
+377,6b4ffca,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-05-07 13:54:39 +0200,halt methods return HaltException instead of void,89,4426
+378,f94a2bd,SUCCESS,8,SUCCESS,7,SUCCESS,21,2015-05-12 18:18:48 +0200,Merge pull request #267 from pvg/master,89,4431
+379,d46ce5d,SUCCESS,7,SUCCESS,7,SUCCESS,21,2015-05-12 18:21:48 +0200,Re-added removed method since it might (small risk) backwards compatibility,89,4434
+380,5e18333,SUCCESS,7,SUCCESS,7,SUCCESS,18,2015-05-12 18:39:06 +0200,Merge pull request #240 from lordofthejars/master,94,4542
+381,9299d98,SUCCESS,9,SUCCESS,8,SUCCESS,19,2015-05-12 18:43:13 +0200,Format fixes of #240,94,4542
+382,6676d57,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-05-12 18:48:47 +0200,Merge pull request #238 from amarseillan/synchronized_start,94,4552
+383,63736a9,SUCCESS,8,SUCCESS,7,SUCCESS,19,2015-05-12 18:50:56 +0200,format fixes for #238,94,4552
+384,8fccc5e,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-05-13 22:51:50 -0400,Merging from upstream,94,4554
+385,bcc05c7,SUCCESS,8,SUCCESS,7,SUCCESS,22,2015-05-13 22:53:26 -0400,"Re-adding support for gzip compression based on the presence of a proper ""Content-Encoding"" header signaling that gzip should be in place",94,4561
+386,b71eb61,SUCCESS,8,SUCCESS,7,SUCCESS,18,2015-05-14 14:55:37 +0200,Refactoring of #237 and #240,95,4576
+387,625fb6f,SUCCESS,9,SUCCESS,6,SUCCESS,21,2015-05-14 14:57:46 +0200,Merge pull request #237 from EdwardRaff/master,94,4561
+388,ae4a19a,SUCCESS,7,SUCCESS,7,SUCCESS,17,2015-05-14 14:59:58 +0200,Merge branch 'master' of github.com:perwendel/spark into pw-237-tweak,95,4576
+389,c1ff18b,SUCCESS,8,SUCCESS,6,SUCCESS,19,2015-05-14 15:06:34 +0200,Refactoring of #240,95,4577
+390,faa4146,SUCCESS,7,SUCCESS,8,SUCCESS,21,2015-05-14 15:23:41 +0200,Refactoring. Rename of bad package name,95,4577
+391,3810603,SUCCESS,7,SUCCESS,7,SUCCESS,21,2015-05-14 20:05:01 +0200,Merge and tweaking of #222,95,4620
+392,a12f27c,SUCCESS,7,SUCCESS,7,SUCCESS,19,2015-05-15 03:11:49 +0200,fix QueryParamsMap's javadoc,95,4577
+393,20d055c,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-05-15 13:12:22 +0200,Merge pull request #274 from ricordisamoa/patch-1,95,4577
+394,69bec6f,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-05-15 13:13:21 +0200,Update SparkBase.java,95,4620
+395,931ccad,SUCCESS,9,SUCCESS,8,SUCCESS,19,2015-05-15 13:16:15 +0200,Merge pull request #273 from perwendel/pw-222-updates,95,4620
+396,64813ae,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-05-15 13:34:28 +0200,Merge pull request #244 from steve-taylor/master,95,4620
+397,390f6a5,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-05-15 14:02:17 +0200,ramping up for 2.2 release,95,4620
+398,04cb67d,SUCCESS,10,SUCCESS,8,SUCCESS,20,2015-05-18 10:25:52 +0200,Readme updates for 2.2 release,95,4620
+399,2dc8203,SUCCESS,8,SUCCESS,8,SUCCESS,25,2015-05-23 16:24:25 -0300,Read body as string lazily,95,4618
+400,9db320a,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-05-29 09:27:24 +0200,Update Request.java,95,4622
+401,9b6c2f3,SUCCESS,9,SUCCESS,8,SUCCESS,24,2015-05-29 10:12:12 +0200,Delegated queryParamsValues from RequestWrapper,95,4625
+402,cc8f707,SUCCESS,9,SUCCESS,10,SUCCESS,21,2015-05-31 19:49:48 -0400,method `handle` of TemplateViewRoute can throw Exceptions,95,4620
+403,a391ef2,SUCCESS,7,FAIL,8,NO,0,2015-06-05 15:20:34 +0200,Added SparkApplication.destroy() Fixes #151,89,4438
+404,abad05e,SUCCESS,7,SUCCESS,7,SUCCESS,20,2015-06-05 15:32:40 +0200,Added SparkApplication.destroy() Fixes #151,89,4438
+405,ff3787f,SUCCESS,12,SUCCESS,8,SUCCESS,21,2015-06-16 01:38:43 -0300,Jetty version from 9.0.2.v20130417 to 9.3.0.M2,95,4639
+406,610988f,SUCCESS,12,SUCCESS,7,SUCCESS,20,2015-06-16 01:44:34 -0300,Jetty version from 9.0.2.v20130417 to 9.2.11.v20150529,95,4639
+407,755df4e,SUCCESS,9,SUCCESS,8,SUCCESS,21,2015-07-29 20:29:34 +0300,"Add ""patch"" http method to the available verbs in the javadoc",95,4620
+408,fbb8165,SUCCESS,9,SUCCESS,7,SUCCESS,19,2015-08-06 16:39:20 +0200,Merge pull request #301 from gutobortolozzo/jetty-version,95,4639
+409,607f384,SUCCESS,7,SUCCESS,8,SUCCESS,19,2015-08-06 16:44:33 +0200,Fixed code style/formatting errors in #301,95,4639
+410,77c9390,SUCCESS,9,SUCCESS,8,SUCCESS,19,2015-08-06 16:49:05 +0200,Merge pull request #291 from zeroflag/master,95,4643
+411,da1d18a,SUCCESS,8,SUCCESS,8,SUCCESS,19,2015-08-06 16:55:43 +0200,Merge pull request #312 from yinonavraham/patch-1,95,4643
+412,d8fa2d0,SUCCESS,11,SUCCESS,8,SUCCESS,21,2015-07-17 15:54:58 +0200,Added basic WebSocket support in the embedded server,101,4824
+413,f9ac155,SUCCESS,9,SUCCESS,8,SUCCESS,22,2015-08-11 15:33:09 +0200,Check the type of the WebSocket handlers,102,4868
+414,65833aa,SUCCESS,9,SUCCESS,8,SUCCESS,24,2015-08-12 17:38:37 +0200,Merge pull request #309 from nacx/ws,102,4868
+415,99c4645,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-08-12 17:46:06 +0200,Refactoring of #309,102,4869
+416,fc9d084,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-08-14 17:30:37 -0400,Add null check when header is empty.,102,4871
+417,acf84e4,SUCCESS,8,SUCCESS,9,SUCCESS,20,2015-08-15 19:56:05 +0200,Merge pull request #327 from briannesbitt/fixEmptyAcceptEncodingHeader,102,4871
+418,19c62b9,SUCCESS,10,SUCCESS,8,SUCCESS,19,2015-08-15 20:02:12 +0200,Merge pull request #285 from bryce-anderson/TemplateViewExcepiton,102,4871
+419,0342d75,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-08-15 20:05:59 +0200,"removed code that mistakenly is in the repo, #279",101,4855
+420,c6dcf8a,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-08-15 20:10:43 +0200,Added test from #276,100,4523
+421,2886a03,SUCCESS,10,SUCCESS,8,SUCCESS,23,2015-08-15 20:30:20 +0200,Merge branch 'Test-Methods-Exceptions' of https://github.com/wojtek-szymanski/spark into wojtek-szymanski-Test-Methods-Exceptions,100,4449
+422,0eb0130,SUCCESS,9,SUCCESS,9,SUCCESS,24,2015-08-15 20:33:43 +0200,Merge pull request #328 from perwendel/wojtek-szymanski-Test-Methods-Exceptions,100,4449
+423,2982ac5,SUCCESS,8,SUCCESS,7,SUCCESS,20,2015-08-15 20:39:14 +0200,Merge pull request #278 from guicamest/master,100,4447
+424,1b46fa1,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-08-15 20:39:54 +0200,minor name change,100,4447
+425,0eb3874,SUCCESS,10,SUCCESS,8,SUCCESS,20,2015-08-15 20:42:33 +0200,added missing javadoc required by Sonatype,100,4447
+426,4216879,SUCCESS,10,SUCCESS,9,SUCCESS,21,2015-08-15 20:43:44 +0200,Merge pull request #283 from serandel/queryparamsvalues,100,4452
+427,547454f,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-08-15 20:45:11 +0200,minor javadoc changes,100,4452
+428,d82881f,SUCCESS,8,SUCCESS,8,SUCCESS,21,2015-08-15 20:52:29 +0200,Merge pull request #176 from jkwatson/enable_type_capture_on_request_attribute,100,4452
+429,2a6b338,SUCCESS,9,SUCCESS,7,SUCCESS,21,2015-08-15 20:54:00 +0200,correcting format errors,100,4452
+430,35eda14,SUCCESS,9,SUCCESS,10,SUCCESS,22,2015-08-24 16:35:54 -0300,no more sleeps in tests,95,4615
+431,4f64ce7,SUCCESS,9,SUCCESS,7,SUCCESS,21,2015-08-24 16:44:36 -0300,fix merge,100,4445
+432,fe0ef12,SUCCESS,16,SUCCESS,10,SUCCESS,24,2015-08-26 18:37:27 +0200,Bump all dependencies,100,4452
+433,0f3bf35,SUCCESS,10,SUCCESS,8,SUCCESS,21,2015-08-27 18:59:30 +0200,Add @FunctionalInterface to Spark's functional interfaces in its API,100,4457
+434,36a3225,SUCCESS,11,SUCCESS,9,SUCCESS,22,2015-09-01 17:07:52 +0200,first working rev of instance impl,101,4750
+435,9ba2e75,SUCCESS,10,SUCCESS,7,SUCCESS,21,2015-09-01 21:57:41 +0200,Major refactoring. Untangling. Separation of logic,109,4747
+436,171e1e4,SUCCESS,8,SUCCESS,8,SUCCESS,22,2015-09-01 22:25:11 +0200,"More untangling, one cyclic left",110,4751
+437,a2dab91,SUCCESS,9,SUCCESS,9,SUCCESS,19,2015-09-01 22:42:26 +0200,removed TODO,110,4751
+438,a2be77f,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-09-02 18:39:59 +0200,Changes after first round of review,110,4752
+439,c65b5e4,SUCCESS,11,SUCCESS,10,SUCCESS,22,2015-09-02 19:14:04 +0200,Review fixes,110,4757
+440,d99b510,SUCCESS,9,SUCCESS,7,SUCCESS,20,2015-09-02 20:15:56 +0200,More review fixes,110,4757
+441,b3733a1,SUCCESS,9,SUCCESS,9,SUCCESS,22,2015-09-03 19:29:07 +0200,Changes made after review comments,110,4757
+442,5af5a3b,SUCCESS,9,SUCCESS,10,SUCCESS,20,2015-09-03 19:45:31 +0200,removal of RouteWrapper -> Factory methods in RouteImpl and FilterImpl,109,4743
+443,cbfbe91,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-09-03 19:48:28 +0200,Merge pull request #344 from perwendel/pw-inst-dev,109,4743
+444,ce312cb,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-09-03 20:18:40 +0200,Merge pull request #337 from tipsy/patch-2,109,4743
+445,6bb93e5,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-09-03 20:55:23 +0200,"Fix for #345, sooooo small",109,4743
+446,95d3db9,SUCCESS,8,SUCCESS,8,SUCCESS,17,2015-09-06 21:04:00 +0200,Merge branch 'tests_sleep' of https://github.com/amarseillan/spark into amarseillan-tests_sleep,109,4736
+447,54b6574,SUCCESS,8,SUCCESS,9,SUCCESS,19,2015-09-06 21:05:11 +0200,Merge branch 'amarseillan-tests_sleep',109,4736
+448,773967b,SUCCESS,11,SUCCESS,8,SUCCESS,22,2015-08-29 14:46:15 +0200,Add the ability to specify http only in a cookie,109,4739
+449,2f17e4f,SUCCESS,9,SUCCESS,8,SUCCESS,19,2015-09-07 14:29:47 +0200,Add httpOnly cookie method without path,109,4741
+450,4570be8,SUCCESS,10,SUCCESS,9,SUCCESS,19,2015-09-16 17:29:55 +0200,prepare for 2.3 release,109,4736
+451,ba27dde,SUCCESS,8,SUCCESS,9,SUCCESS,19,2015-09-16 17:36:17 +0200,prepare for 2.3 release,109,4736
+452,601fd96,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-09-16 17:43:42 +0200,prepare for 2.3 release,109,4736
+453,ee1aa71,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-09-16 21:54:14 +0200,Updated web socket examples,109,4736
+454,daf536a,SUCCESS,8,SUCCESS,9,SUCCESS,19,2015-09-16 22:21:30 +0200,2.3 available,109,4736
+455,2fc5c99,SUCCESS,9,SUCCESS,9,SUCCESS,19,2015-09-22 19:50:09 +0200,version in readme,109,4736
+456,83f98bd,SUCCESS,10,SUCCESS,8,SUCCESS,20,2015-09-23 14:11:00 +0200,Might improve static files performance a tiny bit,109,4737
+457,24963c4,SUCCESS,9,SUCCESS,8,SUCCESS,20,2015-09-23 14:24:38 +0200,Changed way of informing 'not consumed' in Embedded Jetty,109,4744
+458,82be04f,SUCCESS,8,SUCCESS,9,SUCCESS,23,2015-09-24 14:34:58 +0200,No IllegalArgumentException when using unsupported HTTP methods Fixes: #346,109,4756
+459,ded78b7,SUCCESS,9,SUCCESS,8,SUCCESS,20,2015-09-25 14:09:56 +0200,Merge pull request #354 from perwendel/pw-performance-jetty-static-files,109,4744
+460,b75ae9f,SUCCESS,9,SUCCESS,9,SUCCESS,20,2015-09-28 14:04:09 -0400,copy stream directly rather than buffer as a utf-8 string,109,4743
+461,4338709,SUCCESS,9,SUCCESS,9,FAIL,24,2015-09-28 21:17:57 +0200,Added specific test class for static files (embedded),110,4837
+462,69ada76,SUCCESS,9,SUCCESS,8,FAIL,23,2015-09-28 21:51:51 +0200,"Working version, removal of code needed and perhaps additions to stop() impl",110,4858
+463,50555af,SUCCESS,10,SUCCESS,8,FAIL,20,2015-09-28 21:59:24 +0200,====== WORKING ===== Refactoring started,110,4864
+464,0185d8b,SUCCESS,8,SUCCESS,9,FAIL,22,2015-09-28 22:08:19 +0200,Safety commit,109,4819
+465,05278c4,SUCCESS,9,SUCCESS,9,FAIL,22,2015-09-28 22:23:47 +0200,Safety commit,109,4821
+466,70b54d7,SUCCESS,8,SUCCESS,9,FAIL,23,2015-09-28 22:30:18 +0200,junit fixes,109,4828
+467,6c22ed7,SUCCESS,9,SUCCESS,9,FAIL,21,2015-09-28 22:31:09 +0200,formatting,109,4827
+468,f04b48b,SUCCESS,9,SUCCESS,9,FAIL,21,2015-09-28 22:39:51 +0200,Added test case to verify exception mapping works with static resources,109,4840
+469,5737efe,SUCCESS,9,SUCCESS,7,SUCCESS,21,2015-09-28 22:45:15 +0200,Travis seems to not accept subdirs in tmp,109,4811
+470,b011ff9,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-09-29 20:27:29 +0200,removed unnecessary private methods,109,4805
+471,67ec883,SUCCESS,10,SUCCESS,9,SUCCESS,23,2015-09-30 19:52:46 +0200,added todos,109,4805
+472,efa3762,SUCCESS,9,SUCCESS,9,SUCCESS,25,2015-09-30 19:58:12 +0200,Merge pull request #359 from perwendel/pw-static-files-rewrite,109,4805
+473,4c4394f,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-09-30 22:14:07 +0200,"minor changes, added Gzip TODO in matcher filter",109,4804
+474,dc40b3b,SUCCESS,9,SUCCESS,8,SUCCESS,21,2015-10-14 10:09:44 +0200,pom bumb,109,4804
+475,5b071ee,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-10-18 16:20:32 +0200,Remove x bits from java files,109,4804
+476,6530f52,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-10-19 21:46:17 +0200,Merge pull request #368 from ruurd/ruurd/master,109,4804
+477,dd990dd,SUCCESS,10,SUCCESS,9,SUCCESS,24,2015-10-19 21:47:41 +0200,Merge pull request #358 from martylamb/master,109,4803
+478,0eed907,SUCCESS,11,SUCCESS,8,SUCCESS,21,2015-10-19 21:55:00 +0200,Merge pull request #338 from bentolor/chore/annotate-functionalinterfaces,109,4808
+479,4558b5e,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-10-19 21:58:48 +0200,Merge pull request #341 from evertvp/master,109,4813
+480,1029114,SUCCESS,9,SUCCESS,9,SUCCESS,24,2015-10-26 17:56:43 -0700,Fixed some typos,109,4813
+481,ce977d0,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-11-10 12:54:58 +0100,Merge pull request #376 from ErickSanVal/fix-typos,109,4813
+482,127eef4,SUCCESS,10,SUCCESS,9,SUCCESS,20,2015-11-12 19:34:36 +0100,fix for #384,109,4812
+483,71775a8,SUCCESS,10,SUCCESS,8,SUCCESS,22,2015-11-16 18:41:38 +0500,"Fixing Lazy initialization of ""static"" fields should be synchronized",109,4812
+484,1853c63,SUCCESS,13,SUCCESS,9,SUCCESS,22,2015-11-22 17:18:33 +0100,Maven update dependencies,109,4812
+485,9a2ea67,SUCCESS,9,SUCCESS,8,SUCCESS,21,2015-11-22 17:19:55 +0100,Update README.md,109,4812
+486,e2c7a06,SUCCESS,9,SUCCESS,9,SUCCESS,20,2015-11-22 21:03:18 +0100,Update README.md,109,4812
+487,e13efa3,SUCCESS,9,SUCCESS,9,SUCCESS,19,2015-11-23 08:44:28 +0100,Merge pull request #395 from perwendel/tipsy-update-deps,109,4812
+488,95e4c74,SUCCESS,7,SUCCESS,9,SUCCESS,20,2015-11-23 08:45:56 +0100,Merge pull request #390 from DevFactory/release/lazy-initialization-of-static-fields-fix-1,109,4812
+489,dc3a971,SUCCESS,8,SUCCESS,9,SUCCESS,23,2015-11-23 20:03:45 +0100,fix for #381 #365 (#250?),109,4812
+490,ac8784c,SUCCESS,10,SUCCESS,10,SUCCESS,24,2015-11-23 20:20:25 +0100,Static files Gzip support,109,4817
+491,e00a49a,SUCCESS,10,SUCCESS,9,SUCCESS,22,2015-11-23 20:26:50 +0100,removed comment,109,4817
+492,9a309cc,SUCCESS,10,SUCCESS,9,SUCCESS,22,2015-11-24 00:02:27 +0100,Add status badges,109,4812
+493,2eb8324,SUCCESS,8,SUCCESS,10,SUCCESS,22,2015-11-24 10:45:53 +0100,Remove unnecessary newlines,109,4812
+494,8e590c0,SUCCESS,9,SUCCESS,8,SUCCESS,25,2015-11-24 18:49:39 +0100,Added Gzip support for static files and added test cases,112,4896
+495,e7b3001,SUCCESS,10,SUCCESS,9,SUCCESS,24,2015-11-24 22:41:07 +0100,Gzip - review fixes,112,4896
+496,212fc63,SUCCESS,10,SUCCESS,9,SUCCESS,25,2015-11-24 22:43:24 +0100,Merge pull request #399 from perwendel/pw-static-files-gzip-support,112,4896
+497,2c5cbbe,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-11-24 21:34:42 -0800,Fixes a few typos,112,4896
+498,0a1689b,SUCCESS,9,SUCCESS,9,SUCCESS,25,2015-11-25 10:01:51 +0100,Merge pull request #401 from craigsdennis/patch-1,112,4896
+499,e5f4df8,SUCCESS,11,SUCCESS,9,SUCCESS,26,2015-11-25 10:03:31 +0100,Update README.md,112,4896
+500,5c7b2db,SUCCESS,11,SUCCESS,10,SUCCESS,23,2015-11-25 11:37:18 +0100,Fixed bug in GZIP for static files #403,112,4904
+501,cb79078,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-11-25 11:51:31 +0100,Merge pull request #404 from perwendel/pw-gzip-fixes,112,4904
+502,bb1e0e4,SUCCESS,9,SUCCESS,8,SUCCESS,25,2015-11-26 07:25:05 -0500,Removed jetty utils URIUtil references from resource handling classes,112,4985
+503,00f075a,SUCCESS,11,SUCCESS,11,SUCCESS,24,2015-12-27 07:15:34 -0600,UTS-192 Add test cases for SparkInstanceTest,110,4933
+504,9cca246,SUCCESS,10,SUCCESS,8,SUCCESS,24,2015-12-28 11:18:39 -0700,Fix some typos,112,4904
+505,4dec47a,SUCCESS,10,SUCCESS,9,SUCCESS,25,2015-12-19 14:11:05 +0800,"added unit test cases for RouteEntry, MimeParse, SparkUtils",112,4907
+506,d6220f0,SUCCESS,10,SUCCESS,8,FAIL,23,2015-12-21 22:16:18 +0800,added message to assertions,112,4928
+507,d92c2b5,SUCCESS,11,SUCCESS,11,SUCCESS,25,2015-12-24 00:42:25 +0800,fixed accidentally deleted line in SparkUtilsTest,112,4929
+508,8753d11,SUCCESS,10,SUCCESS,10,SUCCESS,24,2015-11-12 19:34:36 +0100,fix for #384,109,4812
+509,9066301,SUCCESS,11,SUCCESS,10,SUCCESS,26,2015-12-22 17:39:26 -0300,UTS-193 - Add tests cases for the the method AbstractResourceTest.exists,110,4873
+510,d802bde,SUCCESS,9,SUCCESS,9,SUCCESS,28,2015-12-23 16:05:44 -0300,UTS-193 - Add test cases for the method ResourceUtils.getFile,111,4892
+511,4f49189,SUCCESS,11,SUCCESS,12,SUCCESS,29,2015-12-24 03:06:16 -0300,UTS-193 - Add test cases for the method ClassPathResourceHandler.getResource,112,4996
+512,45f2b3c,SUCCESS,11,SUCCESS,10,SUCCESS,25,2015-12-24 17:45:05 -0300,UTS-193 - Change the name of a test method,112,4996
+513,65ed045,SUCCESS,9,SUCCESS,8,SUCCESS,33,2015-12-24 18:03:58 -0300,UTS-193 - Add tests cases for the method ExternalResourceHandler.getResource,113,5078
+514,ab87707,SUCCESS,10,SUCCESS,10,SUCCESS,29,2015-12-24 21:47:04 -0300,UTS-193 - Add test cases for the method SimpleRouteMatcher.parseValidateAddRoute,114,5111
+515,b953503,SUCCESS,10,SUCCESS,10,SUCCESS,35,2015-12-25 11:58:32 -0300,UTS-193 - Add messages to assert statements,114,5126
+516,cb8644f,SUCCESS,9,SUCCESS,10,SUCCESS,27,2015-12-26 09:23:52 -0300,UTS-193 - Add missing assert messages and exception expected messages,114,5134
+517,0170cf4,SUCCESS,9,SUCCESS,10,SUCCESS,20,2015-09-28 14:04:09 -0400,copy stream directly rather than buffer as a utf-8 string,109,4803
+518,74b1b84,SUCCESS,9,SUCCESS,9,SUCCESS,20,2015-08-27 18:59:30 +0200,Add @FunctionalInterface to Spark's functional interfaces in its API,109,4808
+519,639d783,SUCCESS,9,SUCCESS,10,SUCCESS,23,2015-08-29 14:46:15 +0200,Add the ability to specify http only in a cookie,109,4811
+520,ec603d0,SUCCESS,11,SUCCESS,10,SUCCESS,26,2015-09-07 14:29:47 +0200,Add httpOnly cookie method without path,109,4813
+521,af798e3,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-10-26 17:56:43 -0700,Fixed some typos,109,4813
+522,b170b39,SUCCESS,10,SUCCESS,8,SUCCESS,21,2015-11-12 19:34:36 +0100,fix for #384,109,4812
+523,3ea90b5,SUCCESS,9,SUCCESS,10,SUCCESS,27,2015-12-28 08:02:38 -0300,UTS-194 - Add test cases for the methods StaticFiles.configureStaticResources and StaticFiles.configureExternalStaticResources,110,4921
+524,146a101,SUCCESS,11,SUCCESS,9,SUCCESS,27,2015-12-28 08:25:02 -0300,UTS-194 - Add test cases for the method ExceptionMapper.getInstance,111,4937
+525,1d2c766,SUCCESS,9,SUCCESS,9,SUCCESS,23,2015-09-30 22:14:07 +0200,"minor changes, added Gzip TODO in matcher filter",109,4804
+526,8fa7271,SUCCESS,9,SUCCESS,10,SUCCESS,24,2015-10-14 10:09:44 +0200,pom bumb,109,4804
+527,ab27dae,SUCCESS,11,SUCCESS,9,SUCCESS,20,2015-10-18 16:20:32 +0200,Remove x bits from java files,109,4804
+528,a202be5,SUCCESS,9,SUCCESS,8,SUCCESS,23,2015-09-28 14:04:09 -0400,copy stream directly rather than buffer as a utf-8 string,109,4803
+529,3a0e411,SUCCESS,10,SUCCESS,10,SUCCESS,21,2015-08-27 18:59:30 +0200,Add @FunctionalInterface to Spark's functional interfaces in its API,109,4808
+530,a2e2203,SUCCESS,8,SUCCESS,9,SUCCESS,21,2015-08-29 14:46:15 +0200,Add the ability to specify http only in a cookie,109,4811
+531,f16842e,SUCCESS,9,SUCCESS,9,SUCCESS,25,2015-09-07 14:29:47 +0200,Add httpOnly cookie method without path,109,4813
+532,b4f394e,SUCCESS,10,SUCCESS,8,SUCCESS,27,2015-10-26 17:56:43 -0700,Fixed some typos,109,4813
+533,87be208,SUCCESS,10,SUCCESS,10,SUCCESS,24,2015-11-12 19:34:36 +0100,fix for #384,109,4812
+534,d4b7e3f,SUCCESS,10,SUCCESS,10,SUCCESS,23,2015-12-28 22:08:39 -0300,UTS-197 - Add test cases for the method StaticFiles.clear(),110,4842
+535,474814a,SUCCESS,10,SUCCESS,8,SUCCESS,26,2015-12-29 16:07:26 -0300,UTS-194 - Add instance vars to StaticFilesTest of common mocking class,111,4930
+536,9532eca,SUCCESS,9,SUCCESS,8,SUCCESS,32,2015-12-29 20:00:17 -0300,UTS-193 - Add instance vars to make test methods more focused and add comments to indicate sections in the test methods,115,5138
+537,bd5f16a,SUCCESS,9,SUCCESS,9,SUCCESS,27,2015-12-29 20:42:52 -0300,UTS-194 - Add comments to indicate sections in the test methods,111,4930
+538,18e3dc2,SUCCESS,9,SUCCESS,9,SUCCESS,21,2015-12-29 21:05:14 -0300,UTS-197 -  Add comments to indicate sections in the test methods,110,4842
+539,89a0f05,SUCCESS,9,SUCCESS,9,FAIL,24,2015-12-29 22:26:05 -0300,UTS-197 - Add test cases for the method SparkInstance.init(),111,4869
+540,078dcd1,SUCCESS,9,SUCCESS,9,SUCCESS,24,2015-12-31 00:25:35 +0800,"added test case to 100% cover Session, added Mockito and Powermock to the POM",113,4984
+541,9e6515c,SUCCESS,9,SUCCESS,9,SUCCESS,25,2015-12-21 01:35:51 +0800,added initial test cases for Request. Added Mockito in POM,112,5094
+542,4329e8f,SUCCESS,10,SUCCESS,10,SUCCESS,25,2015-12-26 22:43:56 +0800,added additional test cases for Request,112,5120
+543,4a38289,SUCCESS,10,SUCCESS,9,SUCCESS,23,2015-12-26 22:49:50 +0800,removed commented out test case,112,5120
+544,2e65457,SUCCESS,10,SUCCESS,8,SUCCESS,23,2015-12-27 23:12:06 +0800,addressed PR review comments,112,5098
+545,3a9b61b,SUCCESS,8,SUCCESS,9,SUCCESS,25,2015-12-27 23:19:58 +0800,moved common mock and setup code to @Before setup,112,5074
+546,b481c10,SUCCESS,8,SUCCESS,8,SUCCESS,24,2015-12-30 17:23:31 +0800,refactored the other test to use the Mockito-mocked HttpServletRequest,112,4837
+547,666e88e,SUCCESS,10,SUCCESS,9,SUCCESS,22,2015-12-30 12:45:29 -0600,UTS-192 - Modified test case for SparkInstanceTest addressing PR comment,110,4943
+548,f2b0ac2,SUCCESS,9,SUCCESS,9,SUCCESS,30,2015-12-31 13:43:56 +0800,"added test cases for ServletFlag, CollectionUtils, ObjectUtils, JettyServerFactory, SocketConnectorFactory, WebSocketCreatorFactory, WebSocketServletContextHandlerFactory",121,5278
+549,9ea3b80,SUCCESS,8,SUCCESS,9,SUCCESS,22,2015-12-31 13:26:26 -0600,UTS-192 -  Modified test case for SparkInstanceTest addressing PR comment,110,4943
+550,7f9cb18,SUCCESS,10,SUCCESS,8,SUCCESS,23,2015-12-31 13:26:57 -0600,Merge branch 'ccup-testcoverage/UTS-192' of https://scm.devfactory.com/stash/scm/oscc/perwendel-spark into ccup-testcoverage/UTS-192,110,4943
+551,983c9f5,SUCCESS,9,SUCCESS,9,SUCCESS,24,2016-01-01 23:08:37 +0800,"corrected typo in assertion message, removed unused imports",113,4984
+552,daebae5,SUCCESS,10,SUCCESS,9,SUCCESS,23,2016-01-01 15:11:29 +0000,Merge pull request #15 in OSCC/perwendel-spark from ccup-testcoverage/UTS-196 to df-unit-test-uts196,113,4984
+553,65cf5d3,SUCCESS,10,SUCCESS,11,SUCCESS,25,2015-12-27 16:01:03 -0600,UTS-199 - Add test case for RouteImplTest and FilterImplTest,114,4995
+554,9c66601,SUCCESS,9,SUCCESS,8,SUCCESS,26,2015-12-30 13:29:13 -0600,UTS-199 - Modified test case for RouteImplTest and FilterImplTest addressing PR comment,114,4996
+555,565a5f5,SUCCESS,10,SUCCESS,9,SUCCESS,25,2015-12-31 15:56:10 +0800,"removed invalid test for RouteImpl, removed EasyMock and Powermock from POM",114,4981
+556,c20f296,SUCCESS,9,SUCCESS,8,SUCCESS,28,2016-01-02 00:26:20 +0800,making changes to address PR comments,115,5137
+557,bdcbbee,SUCCESS,10,SUCCESS,8,SUCCESS,30,2016-01-02 00:27:15 +0800,Merge branch 'ccup-testcoverage/UTS-193' into df-unit-test-uts193,118,5229
+558,2bc502f,SUCCESS,10,SUCCESS,8,SUCCESS,26,2016-01-02 00:33:04 +0800,Merge branch 'ccup-testcoverage/UTS-194' into df-unit-test-uts194,114,5022
+559,105412a,SUCCESS,10,SUCCESS,9,SUCCESS,25,2016-01-02 00:46:59 +0800,Merge branch 'ccup-testcoverage/UTS-197' into df-unit-test-uts197,114,4961
+560,8f5f54c,SUCCESS,10,SUCCESS,9,SUCCESS,23,2016-01-03 11:40:23 +0800,Merge branch 'ccup-testcoverage/UTS-192' into df-unit-test-uts192,113,5035
+561,45e820e,SUCCESS,9,SUCCESS,9,SUCCESS,26,2016-01-04 12:05:09 +0100,Merge pull request #442 from DevFactory/df-unit-test-uts192,113,5035
+562,75157f1,SUCCESS,11,SUCCESS,9,SUCCESS,31,2016-01-04 12:08:52 +0100,Merge pull request #431 from DevFactory/df-add-unit-tests-uts201,116,5152
+563,0943635,SUCCESS,9,SUCCESS,11,SUCCESS,28,2016-01-04 12:10:42 +0100,Merge pull request #434 from DevFactory/df-unit-test-uts195,116,5085
+564,c248dce,SUCCESS,9,SUCCESS,8,SUCCESS,26,2016-01-04 12:11:20 +0100,Merge pull request #437 from DevFactory/df-unit-test-uts199,118,5162
+565,647f8f1,SUCCESS,8,SUCCESS,9,SUCCESS,30,2016-01-05 22:41:33 +0800,merging with latest from community repo and fixed conflicts,119,5242
+566,45558e3,SUCCESS,10,SUCCESS,9,SUCCESS,36,2016-01-05 23:03:34 +0800,merged with latest community master and fixed conflicts in pom.xml,124,5419
+567,bae4840,SUCCESS,9,SUCCESS,9,SUCCESS,36,2016-01-05 23:15:29 +0800,fixed conflict with community master in pom.xml,124,5487
+568,110ede0,SUCCESS,9,SUCCESS,9,SUCCESS,27,2016-01-05 23:28:12 +0800,fixed conflict in pom.xml and SparkInstanceTest,119,5192
+569,b887a1f,SUCCESS,9,SUCCESS,8,SUCCESS,32,2016-01-05 23:44:32 +0800,"fixed conflict in pom.xml, reformatted ExceptionMapperTest and StaticFilesTest using code style recommended in PR comment",120,5286
+570,998c0f8,SUCCESS,12,SUCCESS,9,FAIL,24,2015-12-30 15:38:44 -0600,UTS-198 - Modified test case for ResponseTest addressing PR comment,113,5285
+571,1b507a0,SUCCESS,10,SUCCESS,9,SUCCESS,26,2016-01-02 22:56:23 +0800,"refactored ResponseTest, added Mockito to POM",113,5058
+572,43fc4de,SUCCESS,9,SUCCESS,9,SUCCESS,28,2016-01-06 13:31:10 +0800,fixed conflicts with pom.xml,119,5316
+573,67f66ae,SUCCESS,9,SUCCESS,9,SUCCESS,30,2016-01-15 14:42:54 +0100,Merge pull request #441 from DevFactory/df-unit-test-uts198,119,5316
+574,62d2efa,SUCCESS,8,SUCCESS,9,SUCCESS,28,2016-01-22 20:06:26 +0200,Respect request encoding when parsing body,119,5323
+575,335f57c,SUCCESS,10,SUCCESS,9,SUCCESS,28,2016-01-26 23:32:03 +0100,Merge pull request #436 from DevFactory/df-unit-test-uts196,120,5396
+576,95a196f,SUCCESS,9,SUCCESS,9,SUCCESS,36,2016-01-26 23:32:23 +0100,Merge pull request #435 from DevFactory/df-unit-test-uts200,126,5653
+577,418f1f8,SUCCESS,10,SUCCESS,9,SUCCESS,38,2016-01-26 23:33:13 +0100,Merge pull request #428 from Ariel-Isaacm/typos,126,5653
+578,a1909a8,SUCCESS,10,SUCCESS,9,SUCCESS,36,2016-01-29 00:04:54 +0100,Refactoring of the webserver package,135,5841
+579,81236f0,SUCCESS,10,SUCCESS,9,SUCCESS,37,2016-02-01 17:39:02 +0100,more refactoring,136,5846
+580,384d649,SUCCESS,10,SUCCESS,8,SUCCESS,38,2016-02-02 12:54:17 +0100,Merge pull request #452 from perwendel/pw-webserver-package-refactoring,136,5846
+581,13618a4,SUCCESS,10,SUCCESS,9,SUCCESS,38,2016-02-02 12:59:25 +0100,Merge branch 'respect-request-encoding' of https://github.com/kliakos/spark into kliakos-respect-request-encoding,126,5660
+582,4e1c375,SUCCESS,9,SUCCESS,9,SUCCESS,36,2016-02-02 12:59:43 +0100,Merge branch 'kliakos-respect-request-encoding',126,5660
+583,a1c168d,SUCCESS,10,SUCCESS,10,SUCCESS,35,2016-02-02 13:11:46 +0100,Merge branch 'master' of github.com:perwendel/spark,136,5853
+584,144fe86,SUCCESS,9,SUCCESS,8,SUCCESS,38,2016-02-02 13:17:30 +0100,Refactoring of #449,136,5859
+585,679caaf,SUCCESS,8,SUCCESS,10,SUCCESS,38,2016-02-02 20:55:39 +0100,Merge branch 'df-unit-test-uts194' of https://github.com/DevFactory/spark into DevFactory-df-unit-test-uts194,138,5983
+586,0a0a653,SUCCESS,10,SUCCESS,10,SUCCESS,38,2016-02-02 20:55:53 +0100,Merge branch 'DevFactory-df-unit-test-uts194',138,5983
+587,d1c2433,SUCCESS,10,SUCCESS,8,SUCCESS,37,2016-02-02 20:57:06 +0100,format fix,138,5983
+588,318dcb9,SUCCESS,8,SUCCESS,10,SUCCESS,40,2016-02-02 21:00:52 +0100,Merge branch 'df-unit-test-uts197' of https://github.com/DevFactory/spark into DevFactory-df-unit-test-uts197,138,5983
+589,5be20cc,SUCCESS,9,SUCCESS,9,SUCCESS,41,2016-02-02 21:01:20 +0100,Merge branch 'DevFactory-df-unit-test-uts197',138,5983
+590,680342b,SUCCESS,8,SUCCESS,9,SUCCESS,51,2016-02-02 21:04:35 +0100,Merge branch 'df-unit-test-uts193' of https://github.com/DevFactory/spark into DevFactory-df-unit-test-uts193,144,6324
+591,1db5577,SUCCESS,9,SUCCESS,11,SUCCESS,47,2016-02-02 21:05:36 +0100,Merge branch 'DevFactory-df-unit-test-uts193',144,6324
+592,ff430bc,SUCCESS,10,SUCCESS,11,SUCCESS,47,2016-02-02 22:02:31 +0100,Merge branch 'FIX-407' of https://github.com/MouettE-SC/spark into MouettE-SC-FIX-407,144,6405
+593,9d311c7,SUCCESS,8,SUCCESS,9,SUCCESS,45,2016-02-02 22:02:44 +0100,Merge branch 'MouettE-SC-FIX-407',144,6405
+594,07ba5e4,SUCCESS,10,SUCCESS,12,SUCCESS,47,2016-02-02 22:04:20 +0100,Minor modifications to #408,144,6323
+595,c7e5221,SUCCESS,9,SUCCESS,11,SUCCESS,47,2016-02-02 22:36:14 +0100,Merge branch 'master' of https://github.com/zeroflag/spark into zeroflag-master,145,6360
+596,ec08486,SUCCESS,11,SUCCESS,10,SUCCESS,44,2016-02-02 22:38:42 +0100,Merge branch 'zeroflag-master',145,6360
+597,b86ed98,SUCCESS,11,SUCCESS,10,SUCCESS,50,2016-02-07 01:36:20 +0100,Add convenience methods for redirect,146,6385
+598,971408a,SUCCESS,9,SUCCESS,9,SUCCESS,45,2016-02-13 11:17:08 +0200,Make bodyContent available in the after filters,145,6362
+599,66bba13,SUCCESS,8,SUCCESS,9,SUCCESS,49,2016-02-14 20:23:47 +0100,Add convenience methods for redirect,146,6405
+600,9be7fa9,SUCCESS,10,SUCCESS,9,SUCCESS,47,2016-02-16 13:23:53 +0100,"Fix for #461, alternative to #464",145,6363
+601,3a35e4c,SUCCESS,10,SUCCESS,8,SUCCESS,47,2016-02-16 17:50:09 +0100,Merge pull request #466 from perwendel/pw-alternative-to-464,145,6363
+602,17f64ab,SUCCESS,11,SUCCESS,9,SUCCESS,56,2016-02-16 17:52:30 +0100,Merge branch 'master' into redirect,146,6408
+603,ae07a13,SUCCESS,9,SUCCESS,10,SUCCESS,50,2016-02-16 20:28:50 +0100,Moved redirect to own class and public field for better semantic,147,6523
+604,566f900,SUCCESS,9,SUCCESS,10,SUCCESS,49,2016-02-17 00:20:39 +0100,Merge pull request #456 from perwendel/redirect,147,6523
+605,c9155e2,SUCCESS,9,SUCCESS,10,SUCCESS,49,2016-02-17 00:25:47 +0100,minor changes,147,6523
+606,ccd099c,SUCCESS,10,SUCCESS,10,SUCCESS,44,2016-02-18 22:29:20 +0300, Error while generating apidocs #460.,147,6523
+607,e213a92,SUCCESS,9,SUCCESS,9,SUCCESS,53,2016-02-18 21:38:55 +0100,Merge pull request #469 from IRus/master,147,6523
+608,a9afedd,SUCCESS,9,SUCCESS,11,SUCCESS,55,2016-03-03 21:12:35 +0100,instance API first rev,150,6551
+609,88f93c1,SUCCESS,11,SUCCESS,11,SUCCESS,46,2016-03-15 19:20:44 -0400,Re-added general exception logging in route/filter,147,6525
+610,f88bc63,SUCCESS,9,SUCCESS,10,SUCCESS,52,2016-03-25 10:47:47 +0900,Clean up unused imports,147,6510
+611,a4e25cf,SUCCESS,9,SUCCESS,9,SUCCESS,47,2016-03-24 17:38:45 +0900,Add serialVersionUID to NotSupportedException,147,6524
+612,2702ce6,SUCCESS,9,SUCCESS,12,SUCCESS,51,2016-03-25 10:20:06 +0900,Add SuppressWarnings annotation,147,6524
+613,4ae3b45,SUCCESS,11,SUCCESS,10,SUCCESS,52,2016-03-25 17:07:10 +0900,Change to class variable,147,6523
+614,d03a1e6,SUCCESS,9,SUCCESS,10,SUCCESS,51,2016-03-26 16:55:28 +0100,Merge of 'master',150,6551
+615,11c6063,SUCCESS,8,SUCCESS,11,SUCCESS,51,2016-03-26 17:03:17 +0100,service() -> ignite(),150,6553
+616,8ee25f9,SUCCESS,10,SUCCESS,10,SUCCESS,52,2016-03-28 11:24:56 +0900,Add a doc comment,147,6523
+617,ff0ca01,SUCCESS,10,SUCCESS,10,SUCCESS,52,2016-03-30 12:27:24 +0200,Merge pull request #499 from perwendel/pw-instance-api,150,6553
+618,8f413c8,SUCCESS,10,SUCCESS,10,SUCCESS,51,2016-03-30 12:36:42 +0200,Merge pull request #493 from t-kameyama/Clean_up_unused_imports,150,6540
+619,e4af6c3,SUCCESS,9,SUCCESS,10,SUCCESS,55,2016-03-25 14:15:14 +0900,Remove redundant type arguments,150,6540
+620,ea8b5e6,SUCCESS,10,SUCCESS,9,SUCCESS,50,2016-03-25 16:07:30 +0900,Refactor pom,150,6540
+621,3c22b5d,SUCCESS,9,SUCCESS,9,SUCCESS,51,2016-03-30 20:03:35 +0200,Add route overview functionality,152,6715
+622,df5887b,SUCCESS,9,SUCCESS,10,SUCCESS,51,2016-04-01 16:45:08 +0900,Remove unused field,150,6539
+623,f9b6b2c,SUCCESS,9,SUCCESS,11,SUCCESS,53,2016-04-01 20:43:09 +0900,Fix code that is using deprecated class in test case,150,6546
+624,3d9bcac,SUCCESS,9,SUCCESS,10,SUCCESS,51,2016-04-02 18:38:18 +0900,Fix test case,150,6542
+625,e475981,SUCCESS,9,SUCCESS,10,SUCCESS,49,2016-04-04 14:53:01 +0900,Fix for #503,150,6558
+626,3cfff36,SUCCESS,11,SUCCESS,10,SUCCESS,52,2016-04-04 17:06:33 +0200,Merge pull request #509 from t-kameyama/fix_test_case,150,6542
+627,c4c40c5,SUCCESS,10,SUCCESS,10,SUCCESS,53,2016-04-04 17:08:01 +0200,Merge pull request #496 from t-kameyama/refactor_pom,150,6542
+628,4c01511,SUCCESS,9,SUCCESS,9,SUCCESS,52,2016-04-04 17:08:15 +0200,Merge pull request #507 from t-kameyama/remove_unused_field,150,6541
+629,981e556,SUCCESS,10,SUCCESS,10,SUCCESS,55,2016-04-04 17:09:18 +0200,Merge pull request #494 from t-kameyama/remove_redundant_type_arguments,150,6541
+630,f47f57f,SUCCESS,10,SUCCESS,9,SUCCESS,51,2016-04-04 21:30:49 +0200,Merge pull request #508 from t-kameyama/deprecated_class,150,6547
+631,b195feb,SUCCESS,8,SUCCESS,8,SUCCESS,51,2016-04-04 21:33:41 +0200,Merge pull request #512 from t-kameyama/fix_for_503,150,6565
+632,b017881,SUCCESS,9,SUCCESS,8,SUCCESS,53,2016-04-04 21:37:31 +0200,Merge pull request #497 from t-kameyama/change_to_class_variable,150,6565
+633,a1de1a3,SUCCESS,10,SUCCESS,10,SUCCESS,56,2016-04-05 14:20:06 +0900,Fix for #251,150,6617
+634,1b843e8,SUCCESS,9,SUCCESS,9,SUCCESS,55,2016-04-08 10:34:29 +0900,Fix for #251 use Assert.notNull,150,6616
+635,9b7f997,SUCCESS,10,SUCCESS,9,SUCCESS,52,2016-04-08 10:59:11 +0900,Fix for #517,150,6568
+636,1379e54,SUCCESS,10,SUCCESS,10,SUCCESS,51,2016-04-10 20:51:09 +0200,Set cache headers for static resources,150,6552
+637,62db377,SUCCESS,9,SUCCESS,10,SUCCESS,52,2016-04-13 20:17:35 +0200,"Remove default expire time, add custom headers map",150,6561
+638,efb2611,SUCCESS,10,SUCCESS,8,SUCCESS,53,2016-04-14 00:06:51 +0200,Don't clear customHeaders on setCustomHeaders call,150,6561
+639,e28c5fc,SUCCESS,11,SUCCESS,10,SUCCESS,55,2016-04-25 18:27:07 +0200,Merge of 'master',152,6740
+640,3507fb4,SUCCESS,9,SUCCESS,10,SUCCESS,50,2016-04-25 18:51:04 +0200,refactoring,153,6746
+641,98de75b,SUCCESS,9,SUCCESS,9,SUCCESS,51,2016-04-25 18:56:21 +0200,more refactoring,153,6746
+642,43b7a01,SUCCESS,10,SUCCESS,10,SUCCESS,52,2016-04-25 19:02:09 +0200,Merge pull request #505 from perwendel/route-overview-clean,153,6746
+643,f41bf73,SUCCESS,8,SUCCESS,9,SUCCESS,53,2016-04-25 19:04:01 +0200,Merge pull request #519 from t-kameyama/fix_for_517,153,6749
+644,f34e77e,SUCCESS,11,SUCCESS,11,SUCCESS,53,2016-04-25 19:42:10 +0200,Merge pull request #515 from t-kameyama/fix_for_251,153,6800
+645,d705759,SUCCESS,10,SUCCESS,10,SUCCESS,55,2016-04-15 14:44:53 -0500,added tests for UriPath.java,154,6829
+646,cf70aab,SUCCESS,11,SUCCESS,9,SUCCESS,54,2016-04-26 21:22:33 +0200,Add tests,150,6579
+647,1b7ac66,SUCCESS,11,SUCCESS,11,SUCCESS,52,2016-04-26 21:48:11 +0200,Added experimental annotation,154,6809
+648,e158ff3,SUCCESS,9,SUCCESS,11,SUCCESS,56,2016-04-26 21:51:54 +0200,Merge pull request #529 from perwendel/pw-adding-experimental-annot,154,6809
+649,1c41ef3,SUCCESS,9,SUCCESS,9,SUCCESS,52,2016-04-26 21:54:55 +0200,Merge branch 'master' into cache-headers,154,6848
+650,33a1317,SUCCESS,9,SUCCESS,10,SUCCESS,50,2016-04-26 21:56:20 +0200,duh,154,6809
+651,73a54ca,SUCCESS,9,SUCCESS,11,SUCCESS,61,2016-04-26 21:56:37 +0200,Merge branch 'master' into cache-headers,154,6848
+652,8979306,SUCCESS,11,SUCCESS,10,SUCCESS,54,2016-04-26 21:58:38 +0200,marked methods as experimental,154,6852
+653,bd967c0,SUCCESS,10,SUCCESS,11,SUCCESS,64,2016-04-27 15:11:00 +0200,New static files paradigm,155,6931
+654,99b094f,SUCCESS,11,SUCCESS,12,SUCCESS,61,2016-04-27 15:17:35 +0200,Merge pull request #521 from perwendel/cache-headers,155,6931
+655,185565c,SUCCESS,10,SUCCESS,10,SUCCESS,58,2016-04-27 15:25:57 +0200,small tweaks,155,6931
+656,52df5c4,SUCCESS,10,SUCCESS,10,SUCCESS,59,2016-04-27 15:26:21 +0200,Merge branch 'cache-headers',155,6931
+657,b4ee63e,SUCCESS,10,SUCCESS,10,SUCCESS,59,2016-04-27 16:36:03 +0200,Merge branch 'response-body-after-filters' of https://github.com/kliakos/spark into kliakos-response-body-after-filters,155,6933
+658,b59688f,SUCCESS,10,SUCCESS,13,SUCCESS,60,2016-04-27 16:38:14 +0200,tweak of #462,155,6933
+659,9382ecb,SUCCESS,9,SUCCESS,11,SUCCESS,57,2016-04-27 16:38:52 +0200,git push origin masterMerge branch 'kliakos-response-body-after-filters',155,6933
+660,a5a751b,SUCCESS,11,SUCCESS,12,SUCCESS,58,2016-04-29 20:01:46 +0200,"shush, don't tell anyone",157,6946
+661,e6a902b,SUCCESS,11,SUCCESS,10,SUCCESS,57,2016-04-29 20:08:29 +0200,"bumping to 2.4, prepare release",157,6946
+662,aff7e6f,SUCCESS,9,SUCCESS,10,SUCCESS,63,2016-04-30 13:25:11 +0200,2.4 released,157,6946
+663,424fc81,SUCCESS,11,SUCCESS,11,SUCCESS,64,2016-04-30 13:28:51 +0200,bumped pom for snapshot,157,6946
+664,9805cfa,SUCCESS,11,SUCCESS,11,SUCCESS,59,2016-04-30 13:29:03 +0200,Merge branch 'master' of github.com:perwendel/spark,157,6946
+665,e0ccffd,SUCCESS,11,SUCCESS,11,SUCCESS,61,2016-05-02 19:49:41 +0200,readme,157,6946
+666,04d0563,SUCCESS,9,SUCCESS,11,SUCCESS,55,2016-05-02 21:23:17 +0200,Fix for #535. Static files in jar,158,7041
+667,8819a52,SUCCESS,9,SUCCESS,11,SUCCESS,56,2016-05-03 15:33:08 +0200,small body tweak,158,7043
+668,921fea8,SUCCESS,11,SUCCESS,11,SUCCESS,59,2016-05-03 18:20:41 +0200,Merge pull request #537 from perwendel/pw-static-files-jar-solution,158,7043
+669,9971a29,SUCCESS,10,SUCCESS,10,SUCCESS,62,2016-05-03 18:41:45 +0200,added test for response body logic,159,7125
+670,fe3ffdc,SUCCESS,11,SUCCESS,11,SUCCESS,61,2016-05-03 18:54:19 +0200,preparing for 2.5 release,159,7125
+671,7f4c7ec,SUCCESS,10,SUCCESS,11,SUCCESS,59,2016-05-03 19:22:40 +0200,->2.6-SNAPSHOT,159,7125
+672,e175fad,SUCCESS,10,SUCCESS,11,SUCCESS,65,2016-05-03 19:33:02 +0200,Update README.md,159,7125
+673,ba5c344,SUCCESS,11,SUCCESS,11,SUCCESS,63,2016-05-08 13:51:05 -0400,Merge branch 'master' into FIX-486,159,7127
+674,4acfcaa,SUCCESS,10,SUCCESS,12,SUCCESS,61,2016-05-08 14:09:50 -0400,"Enhancement: concept of ""finally"" filter",160,7166
+675,24e7b26,SUCCESS,11,SUCCESS,11,SUCCESS,58,2016-05-08 20:38:45 +0200,Merge branch 'master' of https://github.com/amanteaux/spark into amanteaux-master,159,7125
+676,7f156e5,SUCCESS,9,SUCCESS,10,SUCCESS,63,2016-05-08 20:40:48 +0200,Merge branch 'amanteaux-master',159,7125
+677,114d245,SUCCESS,10,SUCCESS,13,SUCCESS,65,2016-05-08 20:41:09 +0200,Halt -> HaltException,159,7125
+678,6bd72ca,SUCCESS,11,SUCCESS,10,SUCCESS,62,2016-05-08 19:55:59 -0400,Added support for reading resources from multiple locations in classpath,158,7047
+679,c65c80a,SUCCESS,10,SUCCESS,11,SUCCESS,59,2016-05-08 20:45:07 -0400,Fix javadoc,160,7166
+680,bb2f6ea,SUCCESS,10,SUCCESS,11,SUCCESS,62,2016-05-10 13:45:18 -0400,Coherent behaviour between jar and physical directory access,158,6999
+681,70d585b,SUCCESS,11,SUCCESS,9,SUCCESS,66,2016-05-10 13:56:05 +0200,Perform parameter/splat decoding later to enable encoded slashes without breaking route,159,7133
+682,9bfab98,SUCCESS,9,SUCCESS,10,SUCCESS,61,2016-05-11 11:25:12 +0200,Merge pull request #492 from t-kameyama/add_SuppressWarnings_annotation,159,7126
+683,6f9446a,SUCCESS,10,SUCCESS,10,SUCCESS,63,2016-05-11 11:25:47 +0200,Merge pull request #527 from nihalp/tests,160,7155
+684,b5d9bb6,SUCCESS,11,SUCCESS,11,SUCCESS,62,2016-05-11 11:51:38 +0200,Refactoring Secure Test,160,7158
+685,517565d,SUCCESS,9,SUCCESS,10,SUCCESS,60,2016-05-11 11:55:27 +0200,Merge pull request #554 from perwendel/pw-test-refactoring,160,7158
+686,5a66f5d,SUCCESS,12,SUCCESS,11,SUCCESS,68,2016-05-12 19:07:20 +0200,Merge pull request #491 from t-kameyama/add-serialVersionUID,160,7159
+687,36f1b0e,SUCCESS,11,SUCCESS,10,SUCCESS,68,2016-05-15 16:53:12 +0200,updated docs and example to use preferred semantic,160,7159
+688,e32306b,SUCCESS,11,SUCCESS,11,SUCCESS,62,2016-05-15 16:57:28 +0200,Merge pull request #558 from perwendel/pw-mv,160,7159
+689,87cb3cd,SUCCESS,10,SUCCESS,10,SUCCESS,65,2016-05-11 21:34:43 -0400,Added method signatures for allowing multiple filters to be mapped to a before/after action,161,7230
+690,2efb946,SUCCESS,11,SUCCESS,11,SUCCESS,64,2016-05-15 17:23:01 +0200,Merge pull request #559 from perwendel/pw-merge-of-filter-part-of-555,161,7230
+691,4db08a6,SUCCESS,12,SUCCESS,10,SUCCESS,63,2016-05-15 17:28:27 +0200,enhancements,161,7219
+692,c3b0ae1,SUCCESS,11,SUCCESS,11,SUCCESS,65,2016-05-22 21:53:25 +0530,Changes as discussed in issue #388,161,7229
+693,19da50c,SUCCESS,10,SUCCESS,12,SUCCESS,63,2016-05-30 03:02:29 -0300,added missing delegate implementation in ResponseWrapper,161,7222
+694,a38c743,SUCCESS,11,SUCCESS,11,SUCCESS,60,2016-06-11 15:34:45 +0200,Merge pull request #572 from Born2Go/master,161,7222
+695,6add232,SUCCESS,10,SUCCESS,11,SUCCESS,68,2016-06-12 13:59:56 +0300,add missing delegate methods to ResponseWrapper,162,7272
+696,f8359c0,SUCCESS,12,SUCCESS,11,SUCCESS,66,2016-06-17 17:04:36 +0700,Issue-446 Allow a user to retrieve the allocated port the server is running on,161,7249
+697,4a2b982,SUCCESS,10,SUCCESS,13,FAIL,61,2016-06-18 14:28:29 +0200,Add mime-type support to static files,162,7309
+698,3b6ecb4,SUCCESS,10,SUCCESS,11,FAIL,68,2016-06-18 16:44:51 +0200,Reset mime-type after custom-mime-type-test,162,7311
+699,7fce050,SUCCESS,12,SUCCESS,11,SUCCESS,64,2016-06-18 17:09:32 +0200,Use custom extension to avoid race condition in custom-mime-type-test,162,7309
+700,ec2a657,SUCCESS,12,SUCCESS,10,SUCCESS,61,2016-06-19 18:46:29 +0200,Merge branch 'mimetype2',162,7309
+701,6828157,SUCCESS,11,SUCCESS,11,SUCCESS,66,2016-06-19 18:54:19 +0200,minor fixes - MIMEType,162,7309
+702,b243962,SUCCESS,11,SUCCESS,10,SUCCESS,64,2016-06-23 15:40:28 -0400,"Fix javadoc, added @Param for all methods",162,7309
+703,d8d2903,SUCCESS,11,SUCCESS,11,SUCCESS,65,2016-06-23 22:02:39 -0500,Support for multiple Spark applications in filter configuration,162,7336
+704,a6b144a,SUCCESS,10,SUCCESS,10,SUCCESS,69,2016-06-26 01:13:57 -0300,Add web fonts mime types to MimeType inner map,162,7313
+705,f8069c4,SUCCESS,11,SUCCESS,11,SUCCESS,68,2016-06-26 20:55:02 -0300,Add woff2 mime type to inner mime type mapping,162,7314
+706,02b25d8,SUCCESS,11,SUCCESS,10,SUCCESS,60,2016-06-27 08:59:31 +0200,Merge pull request #596 from giflw/patch-1,162,7314
+707,e0d89b7,SUCCESS,10,SUCCESS,12,SUCCESS,66,2016-06-28 17:24:15 +0200,Adds missing getters in ResponseWrapper,162,7320
+708,1b00560,SUCCESS,12,SUCCESS,10,SUCCESS,59,2016-06-30 15:42:20 -0400,Fix javadoc for Service.java,162,7314
+709,f68a25d,SUCCESS,12,SUCCESS,10,SUCCESS,65,2016-07-04 12:22:27 +0200,Merge pull request #602 from vedala/fix-service-javadoc,162,7314
+710,57d144e,SUCCESS,11,SUCCESS,10,SUCCESS,69,2016-07-04 12:22:52 +0200,Merge pull request #600 from dherges/fix/issue-599,162,7320
+711,a08018e,SUCCESS,10,SUCCESS,11,SUCCESS,68,2016-07-04 12:23:11 +0200,Merge pull request #593 from vedala/fix-redirect-javadoc,162,7320
+712,12774f1,SUCCESS,11,SUCCESS,11,SUCCESS,66,2016-07-04 12:24:11 +0200,Merge pull request #579 from anttipoi/fix-response-wrapper,163,7364
+713,0a7eddd,SUCCESS,11,SUCCESS,10,SUCCESS,70,2016-07-05 15:51:33 -0400,Fix javadoc error and warnings in several files,163,7364
+714,64a1168,SUCCESS,12,SUCCESS,11,SUCCESS,67,2016-07-06 20:41:06 +0100,ExceptionHandlerImpl actually implementing ExceptionHandler,163,7364
+715,5a21dbf,SUCCESS,11,SUCCESS,11,SUCCESS,67,2016-07-09 21:11:24 +0100,Fixes #563 The stop function cannot be ran in the same thread as the route handling thread so it has to be wrapped into another thread. This ensures that no matter where you stop the server from it always shuts down gracefully.,163,7368
+716,0e7d1bc,SUCCESS,12,SUCCESS,12,SUCCESS,65,2016-07-10 14:53:45 +0100,Fixes #583. Route was not being passed through to the super method in RouteImpl and causing a null return when calling delegate.,163,7364
+717,0c88981,SUCCESS,12,SUCCESS,12,SUCCESS,61,2016-08-02 15:30:24 +0200,Implement getFilename for ExternalResource,163,7368
+718,77c854b,SUCCESS,13,SUCCESS,11,SUCCESS,70,2016-08-06 14:41:46 +0100,"Converted the ModelAndView to return a Map<String, Object>. Updated GenericIntegrationTest to pass with the change.",163,7367
+719,d1e43e5,SUCCESS,10,SUCCESS,11,SUCCESS,65,2016-08-22 22:19:41 -0400,log which accept header is not mapped,163,7365
+720,11a78b5,SUCCESS,11,SUCCESS,11,SUCCESS,68,2016-08-25 09:53:15 +0200,Enable passing WebSocket handler instances.,166,7412
+721,d936ab7,SUCCESS,11,SUCCESS,11,SUCCESS,64,2016-08-31 18:36:32 +0200,Merge branch 'Issue-446' of https://github.com/chibenwa/spark into chibenwa-Issue-446,163,7391
+722,ae306c4,SUCCESS,12,SUCCESS,11,SUCCESS,76,2016-08-31 18:41:06 +0200,rename from getPort to port to follow Spark conventions,163,7391
+723,8221f8a,SUCCESS,12,SUCCESS,11,SUCCESS,62,2016-08-31 18:42:41 +0200,Merge branch 'chibenwa-Issue-446',163,7391
+724,b48fecd,SUCCESS,9,SUCCESS,11,SUCCESS,66,2016-08-31 18:46:12 +0200,Merge pull request #616 from AzureusNation/fix-#583,163,7391
+725,31b1f81,SUCCESS,11,SUCCESS,12,SUCCESS,62,2016-08-31 18:51:07 +0200,Merge pull request #594 from sock-osg/multi-applications,163,7418
+726,dc86219,SUCCESS,10,SUCCESS,10,SUCCESS,69,2016-08-31 18:53:02 +0200,minor formatting fixes,163,7418
+727,0be1dad,SUCCESS,12,SUCCESS,12,SUCCESS,69,2016-08-31 18:54:26 +0200,Merge pull request #633 from camunda-third-party/external-resource-filename,163,7422
+728,d22406c,SUCCESS,11,SUCCESS,9,SUCCESS,67,2016-08-31 18:56:44 +0200,Merge pull request #612 from AzureusNation/fix#563,163,7426
+729,3fec112,SUCCESS,12,SUCCESS,13,SUCCESS,69,2016-08-31 18:59:40 +0200,making #612 a bit more sleek,163,7424
+730,6f29dc5,SUCCESS,11,SUCCESS,12,SUCCESS,71,2016-09-01 19:09:58 +0200,Merge pull request #645 from jakaarl/websocket_handler_instances,166,7472
+731,1c5a862,SUCCESS,11,SUCCESS,11,SUCCESS,68,2016-09-01 19:13:03 +0200,Merge pull request #553 from bearythebear/master,166,7480
+732,c8afda1,SUCCESS,11,SUCCESS,9,SUCCESS,64,2016-09-01 19:15:57 +0200,Minor formatting of #553,166,7480
+733,ba541c8,SUCCESS,11,SUCCESS,11,SUCCESS,69,2016-09-01 21:13:54 +0200,Added test for case for requests just matching non-modifying filters,166,7480
+734,043812d,SUCCESS,10,SUCCESS,11,FAIL,71,2016-09-01 21:24:36 +0200,refactoring tests,167,7502
+735,4a6a388,SUCCESS,11,SUCCESS,11,SUCCESS,74,2016-09-01 21:50:24 +0200,trying to fix test,167,7506
+736,ad53cd7,SUCCESS,11,SUCCESS,11,SUCCESS,69,2016-09-12 16:35:09 +0800,fix issue 663,167,7506
+737,6ab3c47,SUCCESS,10,SUCCESS,10,SUCCESS,72,2016-09-16 10:53:44 -0700,add hasKey method,167,7511
+738,2c76eb1,SUCCESS,13,SUCCESS,10,SUCCESS,72,2016-10-11 20:00:00 +0200,Merge pull request #664 from argan/master,167,7506
+739,ce57dfb,SUCCESS,12,SUCCESS,13,SUCCESS,72,2016-10-11 20:02:29 +0200,preparing for 2.5.1 release,167,7506
+740,22261da,SUCCESS,8,SUCCESS,10,SUCCESS,68,2016-10-11 20:14:13 +0200,bumped pom to snapshot,167,7506
+741,c6e1e3c,SUCCESS,10,SUCCESS,10,SUCCESS,71,2016-10-13 21:23:53 +0200,A very basic EditorConfig file (indent with 4 spaces).,167,7506
+742,b52b398,SUCCESS,11,SUCCESS,10,SUCCESS,71,2016-10-14 10:27:19 +0200,Fix mimetype setting for jar resources,167,7510
+743,19f4d23,SUCCESS,11,SUCCESS,12,SUCCESS,72,2016-10-15 20:14:27 +0200,Merge pull request #682 from reinhard/RP-fix-mimetype-for-jar-resources,167,7510
+744,01e779e,SUCCESS,12,SUCCESS,10,SUCCESS,72,2016-10-16 00:41:58 +0200,test content type for static files from an archive,168,7558
+745,edc3816,SUCCESS,9,SUCCESS,11,SUCCESS,75,2016-10-18 08:01:21 +0200,unset the extended classloader after the tests,168,7567
+746,6f1eea9,SUCCESS,11,SUCCESS,11,SUCCESS,74,2016-10-30 10:38:15 -0700,Fixing a typo,167,7510
+747,1a3e014,SUCCESS,10,SUCCESS,11,SUCCESS,71,2016-10-30 19:47:18 +0100,Merge pull request #693 from ChrisAntaki/patch-1,167,7510
+748,623b76c,SUCCESS,16,SUCCESS,10,SUCCESS,70,2016-10-31 23:01:19 +0100,Updated Jetty dependency and a test broken by Jetty changes.,167,7510
+749,aaf4341,SUCCESS,11,SUCCESS,11,SUCCESS,73,2016-11-03 11:42:50 +0000,Remove unecessary logging,167,7508
+750,fceb31b,SUCCESS,11,SUCCESS,11,SUCCESS,70,2016-11-03 13:58:03 +0100,Merge pull request #699 from sdchapman/removelogging,167,7508
+751,fe2ba93,SUCCESS,10,SUCCESS,12,SUCCESS,71,2016-11-03 13:59:33 +0100,Merge pull request #665 from chrisgreve/master,167,7513
+752,ce46d86,SUCCESS,11,SUCCESS,11,SUCCESS,72,2016-11-03 14:00:22 +0100,Merge pull request #644 from yegeniy/patch-1,167,7514
+753,210066a,SUCCESS,12,SUCCESS,11,SUCCESS,70,2016-11-03 14:03:29 +0100,Merge pull request #607 from vedala/fix-javadoc-err-and-warn,167,7514
+754,c57e572,SUCCESS,11,SUCCESS,11,SUCCESS,72,2016-11-03 14:05:09 +0100,Merge pull request #608 from izzabudaka/master,167,7514
+755,26b57d0,SUCCESS,10,SUCCESS,12,SUCCESS,65,2016-11-05 13:57:08 +0100,Fix for #700 - Arbitrary File Read Vulnerability,166,7336
+756,afeee2b,SUCCESS,10,SUCCESS,9,SUCCESS,60,2016-11-05 22:16:05 +0100,"Some fixes. Checks made only when resource exists, leading/trailing (and back)slashes removed",166,7362
+757,efcb46c,SUCCESS,10,SUCCESS,11,SUCCESS,59,2016-11-06 14:09:35 +0100,Merge pull request #701 from perwendel/fix-for-directory-traversal-issue-700,166,7362
+758,74debfa,SUCCESS,11,SUCCESS,10,SUCCESS,65,2016-11-06 02:25:47 +0100,bumping version for 2.5.2 release,166,7362
+759,83dcaa4,SUCCESS,11,SUCCESS,11,SUCCESS,58,2016-11-06 17:14:00 +0100,Enable opt-out possibility for mime type guessing,166,7432
+760,c275139,SUCCESS,12,SUCCESS,12,SUCCESS,61,2016-11-06 17:28:34 +0100,Merge pull request #702 from perwendel/mime-type-guessin-opt-out,166,7432
+761,d396c9a,SUCCESS,11,SUCCESS,11,SUCCESS,57,2016-11-06 17:47:07 +0100,pom.xml version -> 2.5.3-SNAPSHOT,166,7432
+762,9af073c,SUCCESS,11,SUCCESS,11,SUCCESS,63,2016-11-06 20:25:02 +0100,Update README.md,166,7432
+763,16f51b5,SUCCESS,12,SUCCESS,11,SUCCESS,59,2016-11-06 20:41:03 +0100,Update README.md,166,7432
+764,e20029b,SUCCESS,10,SUCCESS,10,SUCCESS,63,2016-11-08 12:42:22 -0200,Make external static folder be *nix like,166,7434
+765,98f65f1,SUCCESS,10,SUCCESS,11,SUCCESS,59,2016-11-08 12:48:31 -0200,Add Windows to *nix path conversion,166,7436
+766,216e3b0,SUCCESS,10,SUCCESS,10,SUCCESS,63,2016-11-08 13:14:55 -0200,Warn when registering external static folder,166,7440
+767,1d006f2,SUCCESS,11,SUCCESS,11,SUCCESS,64,2016-11-09 17:48:55 +0100,Add path-prefix functionality,167,7448
+768,d8f6320,SUCCESS,12,SUCCESS,11,SUCCESS,64,2016-11-11 13:09:58 -0500,Merge branch 'master' into FIX-547,165,7333
+769,a42d2e9,SUCCESS,10,SUCCESS,11,SUCCESS,62,2016-11-15 19:28:33 +0100,Merge pull request #706 from giflw/patch-2,166,7440
+770,c9a55f6,SUCCESS,9,SUCCESS,10,SUCCESS,63,2016-11-15 19:31:00 +0100,Merge pull request #707 from perwendel/path-prefix,167,7456
+771,919f3a4,SUCCESS,11,SUCCESS,10,SUCCESS,67,2016-09-01 21:37:47 -0400,Changed call name to done(),160,7166
+772,bcecb70,SUCCESS,11,SUCCESS,11,SUCCESS,63,2016-11-15 20:34:13 -0500,Fix CRLF,160,7166
+773,e5d84a2,SUCCESS,10,SUCCESS,10,SUCCESS,63,2016-11-15 20:44:23 -0500,Merge branch 'master' into FIX-324,168,7497
+774,1d84ebc,SUCCESS,13,SUCCESS,10,SUCCESS,61,2016-11-21 20:37:47 +0100,Merge pull request #548 from MouettE-SC/FIX-547,166,7357
+775,07bbd20,SUCCESS,10,SUCCESS,11,SUCCESS,60,2016-11-21 20:51:07 +0100,Preparing pom.xml for 2.5.3 release,166,7357
+776,76fcff8,SUCCESS,12,SUCCESS,12,SUCCESS,65,2016-11-21 21:00:22 +0100,Bumping pom.xml to 2.5.4-SNAPSHOT,166,7357
+777,434db78,SUCCESS,11,SUCCESS,10,SUCCESS,62,2016-11-22 21:17:43 +0100,Update README.md,166,7357
+778,de44c1e,SUCCESS,10,SUCCESS,10,SUCCESS,61,2016-11-22 21:17:57 +0100,Update README.md,166,7357
+779,e5bb99b,SUCCESS,10,SUCCESS,11,SUCCESS,59,2016-12-01 13:35:03 +0100,Custom 404 and 500 error pages,168,7474
+780,b1388ec,SUCCESS,10,SUCCESS,11,SUCCESS,66,2016-12-01 19:30:22 +0100,#719 review fixes,168,7483
+781,2fcf202,SUCCESS,10,SUCCESS,11,SUCCESS,57,2016-12-01 19:47:50 +0100,Merge pull request #719 from perwendel/pw-custom-error-pages,168,7483
+782,5b60861,SUCCESS,10,SUCCESS,8,SUCCESS,62,2016-12-02 18:07:18 +0100,Ramping up for 2.5.4 release,168,7483
+783,fe04aad,SUCCESS,10,SUCCESS,10,SUCCESS,59,2016-12-02 18:14:33 +0100,pom.xml -> 2.5.5-SNAPSHOT,168,7483
+784,8659914,SUCCESS,9,SUCCESS,9,SUCCESS,58,2016-12-04 15:14:13 +0100,"minor fixes, added sync",168,7483
+785,bcd2974,SUCCESS,9,SUCCESS,11,SUCCESS,66,2016-12-05 22:04:04 -0500,Fix for issues 722 and 723 +comments,168,7493
+786,6d42411,SUCCESS,11,SUCCESS,10,SUCCESS,59,2016-12-07 11:48:24 -0500,Fix line endings on source files,168,7483
+787,9b02792,SUCCESS,8,SUCCESS,11,SUCCESS,56,2016-12-07 12:00:53 -0500,Merge branch 'master' into FIX-486,168,7485
+788,c1620c7,SUCCESS,9,SUCCESS,11,SUCCESS,62,2016-12-08 21:55:00 -0500,Added application/json mime type for .json files,168,7484
+789,3fd18a9,FAIL,10,NO,0,NO,0,2016-12-08 22:14:35 -0500,Merge branch 'master' into FIX-324,169,7524
+790,5f1632d,SUCCESS,9,SUCCESS,10,SUCCESS,64,2016-12-08 22:18:12 -0500,Fix MatcherFilter with new GeneralError.modify prototype,169,7530
+791,a6630fb,SUCCESS,11,SUCCESS,12,SUCCESS,58,2016-12-11 13:01:22 +0100,Merge pull request #733 from MouettE-SC/mime-json,168,7484
+792,14ac271,SUCCESS,9,SUCCESS,10,SUCCESS,62,2016-12-13 21:27:40 +0100,minor fix,168,7484
+793,abe3fef,SUCCESS,9,SUCCESS,8,SUCCESS,59,2016-12-19 20:19:22 +0100,Don't sweep interruption under the rug in awaitInitialized().,168,7485
+794,a8ed208,SUCCESS,14,SUCCESS,10,SUCCESS,72,2016-12-23 21:25:07 +0100,Upgraded Jetty version to 9.4.0.v20161208 and fixed test breakage.,167,7510
+795,37c98ed,SUCCESS,10,SUCCESS,11,FAIL,63,2016-12-23 21:38:54 +0100,Merge remote-tracking branch 'upstream/master' into feature/bump_jetty_version,168,7484
+796,22d1039,SUCCESS,10,SUCCESS,9,SUCCESS,64,2017-01-05 14:16:52 -0500,Moved done filters execution toward the end of doFilter,169,7533
+797,25482a3,SUCCESS,11,SUCCESS,10,SUCCESS,58,2017-01-05 22:02:13 -0500,Merge branch 'master' into fix-crlf,168,7484
+798,e7713b5,SUCCESS,9,SUCCESS,11,SUCCESS,61,2017-01-09 12:47:48 +0400,Spark.halt() method signature should correspond to Service.halt(),168,7484
+799,7d36959,SUCCESS,11,SUCCESS,10,SUCCESS,60,2017-01-10 19:22:53 +0100,Merge pull request #743 from vonZeppelin/master,168,7484
+800,a287f5b,SUCCESS,10,SUCCESS,10,SUCCESS,60,2017-02-01 14:10:43 +0100,Merge pull request #546 from MouettE-SC/FIX-324,169,7534
+801,a43b826,SUCCESS,10,SUCCESS,9,SUCCESS,61,2017-02-01 15:24:10 -0500,Added domain option for cookies,169,7560
+802,d29b271,SUCCESS,10,SUCCESS,10,SUCCESS,59,2017-02-03 12:08:57 +0100,Fix for #320 - X-Forwarded-For support in request.ip(),169,7552
+803,3a5783b,SUCCESS,11,SUCCESS,10,SUCCESS,60,2017-02-03 12:15:26 +0100,Merge pull request #760 from perwendel/pw-fix-for-320,169,7552
+804,9e1804d,SUCCESS,11,SUCCESS,10,SUCCESS,61,2017-02-06 19:26:23 +0100,Rename from 'done' to 'afterAfter' (better name wanted),169,7552
+805,6e6bc4c,SUCCESS,10,SUCCESS,9,SUCCESS,64,2017-02-06 19:32:38 +0100,preparing pom for 2.5.5 release,169,7552
+806,7f28389,SUCCESS,10,SUCCESS,10,SUCCESS,57,2017-02-06 19:34:40 +0100,Merge pull request #762 from perwendel/pw-done-to-afterafter,169,7552
+807,2e51877,SUCCESS,10,SUCCESS,10,SUCCESS,61,2017-02-06 19:35:08 +0100,Merge pull request #763 from perwendel/pw-pom-bump,169,7552
+808,74b7ac7,SUCCESS,12,SUCCESS,10,SUCCESS,62,2017-02-06 19:36:22 +0100,Merge pull request #487 from MouettE-SC/FIX-486,169,7554
+809,b5597f3,SUCCESS,11,SUCCESS,9,SUCCESS,61,2017-02-07 00:42:21 +0100,Update README.md,169,7554
+810,8c93a5f,SUCCESS,10,SUCCESS,10,SUCCESS,59,2017-02-08 00:33:34 +0000,Fix #714,170,7586
+811,550aa72,SUCCESS,10,SUCCESS,10,SUCCESS,62,2017-02-08 00:48:40 +0000,Fix #714,170,7586
+812,f28dfef,SUCCESS,11,SUCCESS,9,SUCCESS,63,2017-02-08 10:02:26 +0100,bumped pom.xml to next version,169,7554
+813,49ce297,SUCCESS,11,SUCCESS,11,SUCCESS,64,2017-02-08 22:29:59 +0000,Stop swallowing the interrupt,170,7587
+814,43df698,SUCCESS,11,SUCCESS,11,FAIL,59,2017-02-08 21:41:48 -0500,Name harmonization from done to afterAfter filter,169,7554
+815,7c98d41,SUCCESS,11,SUCCESS,11,SUCCESS,59,2017-02-08 22:12:41 -0500,Fix HttpMethod afterafter name to all lowercase,169,7555
+816,3b2b3fb,SUCCESS,10,SUCCESS,10,SUCCESS,60,2017-02-09 17:32:55 +0530,Expose active server thread count,169,7560
+817,433dcea,SUCCESS,10,SUCCESS,11,SUCCESS,58,2017-02-09 22:51:19 +0100,Merge pull request #766 from MouettE-SC/fix-afterafter-names,169,7555
+818,ad13568,SUCCESS,10,SUCCESS,11,SUCCESS,64,2017-02-12 19:36:25 +0000,added jetty check for client certificates,169,7590
+819,e975642,SUCCESS,10,SUCCESS,9,SUCCESS,58,2017-02-19 13:15:30 +0100,Merge pull request #638 from AzureusNation/#629,169,7558
+820,cf08897,SUCCESS,10,SUCCESS,10,SUCCESS,55,2017-02-19 13:32:55 +0100,Merge pull request #680 from jakaarl/feature/editorconfig,169,7558
+821,8ba4985,SUCCESS,10,SUCCESS,9,SUCCESS,57,2017-02-19 15:03:12 +0100,Merge pull request #683 from reinhard/RP-fix-mimetype-for-jar-resources,170,7615
+822,34494e6,SUCCESS,10,SUCCESS,12,SUCCESS,63,2017-02-19 15:11:45 +0100,Merge pull request #732 from MouettE-SC/fix-crlf,170,7615
+823,7dfd295,SUCCESS,13,SUCCESS,10,SUCCESS,64,2017-02-19 23:50:45 +0100,Add ico-mapping,170,7616
+824,d9c879f,SUCCESS,9,SUCCESS,10,SUCCESS,64,2017-02-23 09:44:08 +0100,Corrected out-of-date example code by replacing done(...) with afterAfter(...),170,7616
+825,9618b83,SUCCESS,11,SUCCESS,10,SUCCESS,63,2017-02-23 09:58:28 +0100,Merge pull request #784 from stevemcleod/master,170,7616
+826,523894b,SUCCESS,10,SUCCESS,9,SUCCESS,64,2016-10-28 12:11:17 +0300,Make RouteImpl factory methods public,170,7616
+827,152e4a4,SUCCESS,11,SUCCESS,10,SUCCESS,63,2017-02-27 20:51:54 +0100,Merge pull request #771 from 6487927a/feature/562-client-certificate-authentication,170,7651
+828,c72b092,SUCCESS,11,SUCCESS,9,SUCCESS,60,2017-02-27 21:06:26 +0100,Merge branch 'fix/portNumber' of https://github.com/Mirosta/spark into Mirosta-fix/portNumber,171,7684
+829,59eefaa,SUCCESS,10,SUCCESS,11,SUCCESS,64,2017-02-27 21:09:26 +0100,Merge branch 'Mirosta-fix/portNumber',171,7684
+830,ef3b065,SUCCESS,11,SUCCESS,10,SUCCESS,65,2017-02-27 21:15:01 +0100,Merge branch 'expose-active-server-threads' of https://github.com/neenaoffline/spark into neenaoffline-expose-active-server-threads,171,7690
+831,a368594,SUCCESS,9,SUCCESS,10,SUCCESS,70,2017-02-27 21:17:17 +0100,Fixes to #767,171,7690
+832,996a366,SUCCESS,11,SUCCESS,11,SUCCESS,63,2017-02-27 21:20:20 +0100,Merge branch 'neenaoffline-expose-active-server-threads',171,7690
+833,b739933,SUCCESS,10,SUCCESS,9,SUCCESS,63,2017-02-27 21:41:09 +0100,Merge pull request #735 from jakaarl/fix/do_not_clear_interrupt,171,7691
+834,465b1fc,SUCCESS,11,SUCCESS,11,SUCCESS,61,2017-02-28 22:35:19 +0200,Close the file input stream in static file handler,171,7691
+835,33162dd,SUCCESS,10,SUCCESS,11,SUCCESS,66,2017-02-28 21:52:12 +0100,Merge pull request #476 from paavohuhtala/master,171,7691
+836,a06d978,SUCCESS,10,SUCCESS,10,SUCCESS,64,2017-03-01 17:13:00 +0100,"Removed all RouteOverview functionality, because it used an internal Sun API not available in Java 9",169,7535
+837,7f6bd3f,SUCCESS,9,SUCCESS,10,SUCCESS,65,2017-03-01 17:23:34 +0100,Merge pull request #793 from stevemcleod/removerouteoverview,169,7535
+838,cd8c28e,SUCCESS,10,SUCCESS,11,SUCCESS,65,2017-03-01 17:24:44 +0100,"Made changes to avoid compiler warnings:  Removed unused import that caused compiler warning  Replaced use of deprecated URLEncoder.encode(String s) method with URLEncoder.encode(String s, String enc) alternative.",171,7690
+839,fa5ed03,SUCCESS,11,SUCCESS,8,SUCCESS,65,2017-03-01 18:33:20 +0100,Merge pull request #794 from stevemcleod/compiler-warnings,169,7534
+840,1aad118,SUCCESS,10,SUCCESS,11,SUCCESS,68,2017-03-10 14:15:50 +0100,Clear route on stop(),169,7534
+841,3407487,SUCCESS,11,SUCCESS,10,SUCCESS,63,2017-03-19 23:51:16 -0300,remove all warnings,169,7527
+842,86bef5b,SUCCESS,10,SUCCESS,11,SUCCESS,61,2017-03-21 21:55:54 +0530,merged changes from upstream,169,7544
+843,5742529,SUCCESS,10,SUCCESS,10,SUCCESS,66,2017-03-21 22:06:15 +0530,changes as suggested in #565,169,7546
+844,46b875e,SUCCESS,11,SUCCESS,10,SUCCESS,69,2017-03-26 12:05:50 +0200,"Add mapping for "".htm"" files",169,7535
+845,1ee8427,SUCCESS,9,SUCCESS,10,SUCCESS,63,2017-03-26 14:32:23 +0200,Merge pull request #808 from toni07/master,169,7535
+846,92db592,SUCCESS,9,SUCCESS,10,FAIL,67,2017-03-30 22:06:37 +0200,Make Jetty servers tunable,171,7592
+847,86a927f,SUCCESS,9,SUCCESS,10,SUCCESS,65,2017-04-07 11:33:00 +0200,Merge pull request #802 from jpthiery/clearRouteOnStop,169,7535
+848,d87688b,SUCCESS,11,SUCCESS,11,SUCCESS,67,2017-04-07 11:33:24 +0200,Merge pull request #806 from Pompeu/master,169,7528
+849,6165948,SUCCESS,10,SUCCESS,11,SUCCESS,63,2017-04-07 20:17:31 +0200,Merge pull request #565 from arunwizz/master,169,7540
+850,ca554ae,SUCCESS,8,SUCCESS,10,SUCCESS,65,2017-04-07 20:27:08 +0200,Fix naming and formatting for new initExceptionHandler,169,7538
+851,8cbf214,SUCCESS,11,SUCCESS,10,SUCCESS,63,2017-04-07 21:13:06 +0200,Add queryParamOrDefault method,169,7551
+852,40f46ed,SUCCESS,10,SUCCESS,10,SUCCESS,70,2017-04-07 22:22:13 +0200,Refactor some stringly typed route-creation code (#773),168,7544
+853,a9bad47,SUCCESS,11,SUCCESS,11,FAIL,67,2017-04-08 02:21:23 +0200,Add test for initExceptionHandler,169,7570
+854,8782a23,SUCCESS,11,SUCCESS,10,SUCCESS,65,2017-04-08 11:08:40 +0200,Merge pull request #692 from kliakos/public-routeimpl-factory-methods,169,7570
+855,3f06234,SUCCESS,11,SUCCESS,11,SUCCESS,65,2017-04-08 11:30:17 +0200,Rewrite initExceptionTest to be less stupid,169,7572
+856,321f9d4,SUCCESS,10,SUCCESS,11,SUCCESS,68,2017-04-08 11:33:33 +0200,Merge pull request #820 from perwendel/test-fix,169,7572
+857,2d7f803,SUCCESS,11,SUCCESS,11,SUCCESS,70,2017-04-08 14:28:56 +0200,Merge pull request #758 from MouettE-SC/FIX-757,169,7598
+858,1080cbc,SUCCESS,10,SUCCESS,11,SUCCESS,62,2017-04-08 15:45:35 +0200,Disable stream cache for chunked transfer encoding,169,7575
+859,21ef276,SUCCESS,11,SUCCESS,10,SUCCESS,63,2017-04-08 17:06:08 +0200,Add UriPathTest,170,7614
+860,af5dfde,SUCCESS,10,FAIL,10,NO,0,2017-04-08 18:13:34 +0200,Merge pull request #813 from gquintana/jetty-server-factory,172,7671
+861,a0f889d,SUCCESS,11,SUCCESS,12,SUCCESS,70,2017-04-08 18:23:43 +0200,General cleanup and compile fix of #813,172,7673
+862,ada4aa7,SUCCESS,12,SUCCESS,11,FAIL,70,2017-04-08 18:33:42 +0200,Merge pull request #822 from perwendel/pw-cleanup,172,7673
+863,9aa3907,SUCCESS,11,SUCCESS,9,SUCCESS,68,2017-04-08 13:04:12 -0400,Merge branch 'master' into fix-custom-error-pages,172,7683
+864,719ce80,SUCCESS,11,SUCCESS,12,FAIL,69,2017-04-08 14:19:44 -0400,Updated CustomErrorPagesTest to verify fallback behavior in #722,172,7692
+865,8154903,SUCCESS,10,SUCCESS,10,SUCCESS,71,2017-04-08 14:50:26 -0400,Reverted tests due to build error,172,7683
+866,ddda7e5,SUCCESS,12,SUCCESS,12,FAIL,67,2017-04-08 21:29:26 +0200,Merge pull request #729 from fdmoulin/fix-custom-error-pages,172,7683
+867,45204d6,SUCCESS,10,SUCCESS,8,SUCCESS,62,2016-03-11 21:00:35 +0100,"Clear ExceptionMapper mappings on stop, analog to clear routes",172,7687
+868,5755cf9,SUCCESS,10,SUCCESS,9,SUCCESS,65,2016-03-07 16:14:03 +0100,Type info for ExceptionHandler,172,7683
+869,738f4f2,SUCCESS,11,SUCCESS,11,FAIL,69,2017-04-09 21:06:04 +0200,Cookies with path attribute can now be removed,172,7715
+870,f01adc8,SUCCESS,11,SUCCESS,11,SUCCESS,71,2017-04-09 21:15:17 +0200,"Response.removeCookie(name) now calls new Response.removeCookie(path, name) method with path set to null",172,7713
+871,3c25310,SUCCESS,12,SUCCESS,11,SUCCESS,64,2017-04-09 17:49:35 +0200,Fix EmbeddedServersTest,172,7685
+872,c89497d,SUCCESS,11,SUCCESS,11,SUCCESS,67,2017-04-09 21:44:55 +0200,Merge pull request #824 from perwendel/travis-test,172,7685
+873,20109b5,SUCCESS,10,SUCCESS,11,SUCCESS,69,2017-04-09 21:53:27 +0200,Merge pull request #825 from stevemcleod/master,172,7715
+874,c2c9761,SUCCESS,11,SUCCESS,11,SUCCESS,72,2017-04-09 21:59:48 +0200,Merge pull request #485 from JWGmeligMeyling/clean-exception-mapper-state,172,7719
+875,e285429,SUCCESS,10,SUCCESS,10,SUCCESS,64,2017-04-10 11:13:35 +0200,Merge pull request #480 from JWGmeligMeyling/type-info-exception-handler,172,7719
+876,deb6005,SUCCESS,10,SUCCESS,10,SUCCESS,69,2017-04-10 11:26:49 +0200,Add small test for typed exceptions,173,7724
+877,27a77d8,SUCCESS,12,SUCCESS,10,SUCCESS,69,2017-04-10 12:09:03 +0200,Merge pull request #821 from perwendel/chunked-fix,173,7727
+878,4a5090a,SUCCESS,11,SUCCESS,11,SUCCESS,71,2017-04-10 12:31:42 +0200,Fix parameter name of notConsumed to avoid confusion,173,7727
+879,5c1464a,SUCCESS,11,SUCCESS,10,SUCCESS,68,2017-04-11 11:30:13 +0200,Change 'not found' to 'bad request' for directory-traversal attack,173,7729
+880,5becfeb,SUCCESS,12,SUCCESS,11,SUCCESS,69,2017-04-11 13:26:07 +0200,Merge pull request #698 from jakaarl/feature/bump_jetty_version,173,7729
+881,01cb436,SUCCESS,9,SUCCESS,10,SUCCESS,67,2017-04-11 14:48:48 +0200,"Revert ""Updated Jetty dependency and a test broken by Jetty changes.""",173,7729
+882,4f681a5,SUCCESS,10,SUCCESS,9,SUCCESS,77,2017-04-11 14:52:05 +0200,Merge pull request #826 from perwendel/revert-698-feature/bump_jetty_version,173,7729
+883,7da00c7,SUCCESS,9,SUCCESS,10,SUCCESS,66,2017-04-17 11:50:41 -0400,Fix CRLF in CustomErrorPages.java,173,7729
+884,d830624,SUCCESS,11,SUCCESS,11,SUCCESS,67,2017-04-17 18:05:03 +0200,Merge pull request #834 from MouettE-SC/customerror-crlf-fix,173,7729
+885,7e20e1c,SUCCESS,13,SUCCESS,12,SUCCESS,70,2017-04-23 07:07:27 -0700,Issue #698 - Upgrade to Jetty 9.4.4,173,7739
+886,8706ba4,SUCCESS,12,SUCCESS,11,SUCCESS,74,2017-04-23 19:38:49 +0200,Simplify InitExceptionHandlerTest,173,7724
+887,e61dc60,SUCCESS,10,SUCCESS,10,SUCCESS,68,2017-04-23 20:39:56 +0200,Manually revert #638,173,7721
+888,2ce4e60,SUCCESS,11,SUCCESS,11,SUCCESS,68,2017-04-23 20:57:01 +0200,Merge pull request #840 from perwendel/template-fix,173,7721
+889,e888bdd,SUCCESS,10,SUCCESS,10,SUCCESS,64,2017-04-23 21:43:44 +0200,Merge branch 'master' into issue-698,173,7729
+890,eddd72a,SUCCESS,10,SUCCESS,11,SUCCESS,72,2017-04-23 21:48:20 +0200,Fix imports,173,7729
+891,4ceff39,SUCCESS,10,SUCCESS,11,SUCCESS,65,2017-04-23 21:49:08 +0200,Fix imports,173,7728
+892,ff64e34,SUCCESS,10,SUCCESS,11,SUCCESS,68,2017-04-23 21:53:08 +0200,Merge pull request #838 from joakime/issue-698,173,7728
+893,675055b,SUCCESS,10,SUCCESS,12,SUCCESS,66,2017-04-24 20:41:48 +0200,Bumping for candidate release of 2.6.0,173,7728
+894,c70018f,SUCCESS,11,SUCCESS,11,SUCCESS,75,2017-04-25 00:36:07 +0200,Update README.md,173,7728
+895,e22956b,SUCCESS,10,SUCCESS,10,SUCCESS,70,2017-04-25 00:37:10 +0200,Update README.md,173,7728
+896,cd579ef,SUCCESS,10,SUCCESS,10,SUCCESS,70,2017-04-28 13:42:50 +0200,Add link to spark debug module.,173,7728
+897,4bef4ef,SUCCESS,10,SUCCESS,10,SUCCESS,66,2017-04-28 14:10:02 +0200,Merge pull request #847 from hydroid7/patch-1,173,7728
+898,6bf06bc,SUCCESS,10,SUCCESS,12,SUCCESS,73,2017-05-03 17:25:43 +0200,preparing for 2.6.0 release (#850),173,7728
+899,73586c9,SUCCESS,11,SUCCESS,11,SUCCESS,71,2017-05-03 17:45:10 +0200,bumped pom to 2.6.1-SNAPSHOT,173,7728
+900,98a56a4,SUCCESS,11,SUCCESS,10,SUCCESS,71,2017-05-20 15:47:39 +0530,Fixed broken Javdoc link.,173,7728
+901,ff5e1b7,SUCCESS,11,SUCCESS,11,SUCCESS,66,2017-05-20 13:04:16 +0200,Merge pull request #862 from ravikumar-n/master,173,7728
+902,0492933,SUCCESS,14,SUCCESS,12,SUCCESS,70,2017-05-21 17:20:49 +0100,update the jetty version,173,7728
+903,e08f498,SUCCESS,12,SUCCESS,11,SUCCESS,67,2017-05-21 22:07:50 +0200,Merge pull request #864 from tweenietomatoes/patch-1,173,7728
+904,266baf8,SUCCESS,10,SUCCESS,11,SUCCESS,66,2017-05-22 01:17:10 +0100,change to latest release,173,7728
+905,9ecc731,SUCCESS,10,SUCCESS,11,SUCCESS,69,2017-05-22 09:34:24 +0200,Merge pull request #865 from tweenietomatoes/patch-2,173,7728
+906,4fefee7,SUCCESS,9,SUCCESS,11,SUCCESS,71,2017-06-08 17:29:13 +0800,don't do route.render if response is already redirected (#860),173,7729
+907,738d898,SUCCESS,14,SUCCESS,13,SUCCESS,68,2017-06-12 19:07:05 +0300,Update of jetty and powermock version (#873),173,7729
+908,d2b18ea,SUCCESS,10,SUCCESS,9,SUCCESS,65,2017-07-18 09:01:22 -0500,Added activeThreadCount to Service and Spark classes (#886),173,7735
+909,f6bcf66,SUCCESS,10,SUCCESS,9,SUCCESS,66,2017-08-15 09:29:23 +0200,Use `StaticFilesConfiguration` as the single source of truth. (#902),173,7731
+910,d580ab1,SUCCESS,10,SUCCESS,10,SUCCESS,66,2017-08-28 09:10:36 +0200,disable http request wrapper byte cache for multipart/form-data uploads (#891),173,7735
+911,d0c3cfe,SUCCESS,12,SUCCESS,9,SUCCESS,70,2017-08-28 10:17:54 +0300,Fixed: plus signs in path params are parsed are they are (#872),173,7734
+912,97a2467,SUCCESS,11,SUCCESS,10,SUCCESS,69,2017-09-20 06:01:08 -0300,Updating EmbeddedJettyServer to work with custom connectors  (#915),173,7743
+913,63edad9,SUCCESS,11,SUCCESS,11,SUCCESS,68,2017-09-20 05:01:44 -0400,Enable custom 404 pages for external web container (#909),173,7743
+914,ab07711,SUCCESS,10,SUCCESS,11,SUCCESS,69,2017-09-20 11:02:45 +0200,Use Maven wrapper. (#901),173,7743
+915,52a3f20,SUCCESS,12,SUCCESS,10,SUCCESS,73,2017-09-28 15:46:48 -0400,Add initialization check before blocking (#923),173,7745
+916,6b41c1f,SUCCESS,11,SUCCESS,11,SUCCESS,70,2017-10-22 01:13:26 +0200,Update readme - added links for badges (#929),173,7745
+917,bd014ba,SUCCESS,9,SUCCESS,11,SUCCESS,68,2017-10-24 12:45:55 +0200,removed unreachable if conditions (#927),173,7743
+918,2eecb4d,SUCCESS,12,SUCCESS,10,SUCCESS,70,2017-10-24 03:49:46 -0700,Added ability to pass ThreadPool to Jetty embedded server via factory (#853),174,7816
+919,2e7be3c,SUCCESS,10,SUCCESS,9,SUCCESS,70,2017-11-02 15:50:40 +0100,POM version upgrade for 2.7.0 release,174,7816
+920,b7f955c,SUCCESS,13,SUCCESS,11,SUCCESS,71,2017-11-02 18:14:27 +0100,Update README.md,174,7816
+921,c0d7926,SUCCESS,14,SUCCESS,11,SUCCESS,68,2017-11-14 19:34:39 +0100,preparing for 2.7.1 release,174,7816
+922,5316c0d,SUCCESS,12,SUCCESS,10,SUCCESS,69,2017-11-14 19:39:40 +0100,Fixing #941 - Jetty specific import in spark.Request (#942),178,8161
+923,e5951a0,SUCCESS,11,SUCCESS,11,SUCCESS,71,2017-11-14 21:32:43 +0100,POM version -> 3.0.0-SNAPSHOT,178,8161
+924,bfda598,SUCCESS,12,SUCCESS,12,SUCCESS,69,2017-12-19 16:42:34 -0500,Update version in readme (#958),178,8161
+925,7b489e6,SUCCESS,11,SUCCESS,11,SUCCESS,65,2018-01-06 09:33:34 +0530,Add methods to set long and date headers,178,8191
+926,3193d6e,SUCCESS,11,SUCCESS,10,SUCCESS,74,2018-01-08 14:05:50 +0330,Set HttpOnly for session cookie due to improvement of security.,178,8162
+927,99d7ddc,SUCCESS,11,SUCCESS,9,SUCCESS,67,2018-02-19 11:56:14 +0300,Fix #506 (#971),178,8199
+928,db45b56,SUCCESS,11,SUCCESS,12,SUCCESS,68,2018-03-06 11:42:19 +0100,Fix for #981 (#987),178,8202
+929,2c29cf3,SUCCESS,14,SUCCESS,13,SUCCESS,70,2018-03-06 11:42:54 +0100,Update pom.xml (#985),178,8202
+930,2723653,SUCCESS,11,SUCCESS,11,SUCCESS,75,2018-03-07 11:47:14 +0100,preparing for 2.7.2 maintenance release,178,8202
+931,030e9d0,SUCCESS,10,SUCCESS,11,SUCCESS,73,2018-03-07 14:43:02 +0100,"Fix for #981, patch 2 (#988)",178,8220
+932,9c5cab7,SUCCESS,12,SUCCESS,10,SUCCESS,77,2018-04-04 19:36:52 +0200,Add isNotEmpty method in CollectionUtils (and tests),178,8240
+933,88cdd61,SUCCESS,11,SUCCESS,11,SUCCESS,71,2018-04-10 07:31:47 +0200,Implement ability to add a default response transformer if no custom one is provided,179,8260
+934,ced5318,SUCCESS,11,SUCCESS,10,SUCCESS,68,2018-05-15 06:04:26 +0200,Revert Service.java to original version to remove star imports and auto formatting,179,8264
+935,bb768d2,SUCCESS,12,SUCCESS,11,SUCCESS,74,2018-06-11 06:03:07 -0300,Fixed documentation miskates (#1018),178,8240
+936,e198dff,SUCCESS,12,SUCCESS,12,SUCCESS,76,2018-06-11 10:03:53 +0100,HaltException: disable stack traces and suppression. (#963),178,8243
+937,8022555,SUCCESS,11,SUCCESS,9,SUCCESS,71,2018-06-11 11:07:56 +0200,Added Service.awaitStop(). (#730),178,8289
+938,61507f1,SUCCESS,12,SUCCESS,11,SUCCESS,74,2018-06-11 02:10:53 -0700,ByteSerializer formatting (#1015),178,8288
+939,b33e5dd,SUCCESS,13,SUCCESS,11,SUCCESS,72,2018-06-11 11:15:54 +0200,Merge branch 'master' of https://github.com/richarddd/spark into richarddd-master,179,8312
+940,3a9dfc6,SUCCESS,12,SUCCESS,10,SUCCESS,74,2018-06-11 11:23:25 +0200,Tweaks to #998,179,8314
+941,c697d98,SUCCESS,11,SUCCESS,9,SUCCESS,69,2018-06-11 11:23:40 +0200,Merge branch 'richarddd-master',179,8314
+942,c9ca05c,SUCCESS,10,SUCCESS,9,SUCCESS,70,2018-06-27 19:27:26 +0300,Merge branch 'master' of https://github.com/M-Razavi/spark into session-cookie-httponly,179,8315
+943,fca8755,SUCCESS,14,SUCCESS,10,SUCCESS,74,2018-06-27 19:54:48 +0300,"#965 add possibility to disable ""HttpOnly"" flag for session cookie",179,8334
+944,e0c4a2f,SUCCESS,22,SUCCESS,15,SUCCESS,83,2018-06-27 20:46:38 +0300,upgrade dependencies,179,8322
+945,376dcc8,SUCCESS,12,SUCCESS,9,SUCCESS,77,2018-06-28 10:16:16 +0200,fixed service so each instance has its own instance of ExceptionMapper (#1010),179,8331
+946,5f76742,SUCCESS,13,SUCCESS,10,SUCCESS,72,2018-08-21 05:29:45 -0400,Update README.md (#1037),179,8314
+947,a2320ef,SUCCESS,12,SUCCESS,12,SUCCESS,74,2018-08-21 10:34:47 +0100,Each service has own static file location (#1036),179,8323
+948,2494677,SUCCESS,16,SUCCESS,13,SUCCESS,79,2018-08-22 22:51:23 +0300,upgrade more dependencies,179,8322
+949,6c8a3a8,SUCCESS,11,SUCCESS,10,SUCCESS,76,2018-09-03 11:28:36 +0200,Merge branch 'exception-mapper' of https://github.com/mikosik/spark,179,8340
+950,7486deb,SUCCESS,12,SUCCESS,10,SUCCESS,71,2018-09-03 11:42:31 +0200,making #1033 backwards compatible,179,8356
+951,bc05286,SUCCESS,10,SUCCESS,13,SUCCESS,71,2018-09-06 15:18:12 +0200,Merge branch 'session-cookie-httponly' of https://github.com/asolntsev/spark into asolntsev-session-cookie-httponly,179,8376
+952,00b159b,SUCCESS,12,SUCCESS,10,SUCCESS,72,2018-09-06 15:23:15 +0200,formatting for #1027,179,8379
+953,87a048e,SUCCESS,13,SUCCESS,10,SUCCESS,74,2018-09-06 15:23:24 +0200,Merge branch 'asolntsev-session-cookie-httponly',179,8379
+954,98fa034,SUCCESS,12,SUCCESS,9,SUCCESS,86,2018-09-07 22:23:20 +0300,make web.xml servlet API 3.x compliant,179,8322
+955,7a024c4,SUCCESS,12,SUCCESS,11,SUCCESS,86,2018-09-12 10:31:33 +0200,Merge branch 'upgrade-dependencies' of https://github.com/asolntsev/spark into asolntsev-upgrade-dependencies,179,8387
+956,82da807,SUCCESS,10,SUCCESS,11,SUCCESS,81,2018-09-12 10:31:45 +0200,Merge branch 'asolntsev-upgrade-dependencies',179,8387
+957,64aaa26,SUCCESS,11,SUCCESS,11,SUCCESS,81,2018-09-14 10:26:48 +0300,upgrade maven wrapper to the latest version 3.5.4,179,8387
+958,e36fab9,SUCCESS,14,SUCCESS,10,SUCCESS,87,2018-09-14 10:30:04 +0300,upgrade to Jetty 9.4.12.v20180830,179,8387
+959,d19fb93,SUCCESS,13,SUCCESS,11,SUCCESS,86,2018-09-14 11:53:57 +0200,Merge branch 'asolntsev-upgrade-jetty',179,8387
+960,aaa9828,SUCCESS,11,SUCCESS,9,SUCCESS,83,2018-09-18 10:13:41 +0200,version bump for 2.8.0 release,179,8387
+961,26f5015,SUCCESS,10,SUCCESS,10,SUCCESS,79,2018-09-18 14:53:55 +0200,Update README.md,179,8387
+962,786d629,SUCCESS,12,SUCCESS,12,SUCCESS,82,2018-09-18 14:58:12 +0200,Update README.md,179,8387
+963,6945ea9,SUCCESS,10,SUCCESS,9,SUCCESS,85,2018-10-17 16:55:13 -0700,Expose get/set on Service.embeddedServerIdentifier,179,8411
+964,a16445f,SUCCESS,11,SUCCESS,9,SUCCESS,84,2018-11-05 03:56:42 -0700,Remove redundant null check (#1064),179,8384
+965,3731f0c,SUCCESS,11,SUCCESS,11,SUCCESS,90,2019-02-14 21:49:49 +0100,Remove call to deprecated (and empty) Jetty method (#1082),179,8383
+966,b15ef53,SUCCESS,11,SUCCESS,12,SUCCESS,83,2019-03-01 05:52:16 +0800,Support .mjs file for MIME type auto detection (closes #1093),179,8391
+967,e7ddfed,SUCCESS,10,SUCCESS,12,SUCCESS,89,2019-02-28 22:53:15 +0100,fix typos in QueryParamsMap documentation (#1096),179,8391
+968,6eab08a,SUCCESS,10,SUCCESS,10,SUCCESS,85,2019-03-12 17:01:29 -0300,Adding HttpMethod to RouteMatch + Fixing usage,179,8396
+969,24e0092,FAIL,12,NO,0,NO,0,2019-03-12 17:18:29 -0300,Add find all methods,179,8409
+970,21dd277,FAIL,10,NO,0,NO,0,2019-03-13 14:06:14 -0300,Adding tests for getAllRoutes,179,8430
+971,d38df66,SUCCESS,9,SUCCESS,10,SUCCESS,86,2019-03-13 14:49:24 -0300,Add missing List import,179,8431
+972,9aebf4a,SUCCESS,10,SUCCESS,11,SUCCESS,111,2019-03-14 11:46:39 -0700,new field and getter in Request for matchedRoute (#1049),179,8432
+973,e0cc4fd,SUCCESS,11,SUCCESS,11,SUCCESS,93,2019-03-27 11:02:05 +0100,Namechange from  to (#1107),179,8431
+974,611bb06,SUCCESS,15,SUCCESS,13,SUCCESS,83,2019-03-27 12:11:44 +0100,Bumped to latest stable Jetty version (#1108),179,8431
+975,484c331,SUCCESS,10,SUCCESS,10,SUCCESS,84,2019-03-27 12:17:36 +0100,prepare 2.9.0 release (#1109),179,8431
+976,168ed0e,SUCCESS,12,SUCCESS,11,SUCCESS,84,2019-03-27 15:19:38 +0100,Update README.md,179,8431
+977,b34c5e7,SUCCESS,11,SUCCESS,12,SUCCESS,90,2019-03-27 15:20:00 +0100,Update README.md,179,8431
+978,080fb1f,SUCCESS,10,SUCCESS,11,SUCCESS,90,2019-03-27 15:20:38 +0100,Update README.md,179,8431
+979,ef86b74,SUCCESS,16,SUCCESS,12,SUCCESS,84,2019-05-22 11:34:09 +0200,Security fix in Jetty. Fix for #1117 (#1119),179,8431
+980,10146d7,SUCCESS,13,SUCCESS,11,SUCCESS,87,2019-05-22 11:39:51 +0200,Bumping version for 2.9.1 release (#1120),179,8431
+981,f79facb,SUCCESS,10,SUCCESS,11,SUCCESS,83,2019-05-22 11:56:57 +0200,Update pom.xml,179,8431
+982,a618b58,SUCCESS,12,SUCCESS,11,SUCCESS,83,2019-05-22 18:54:43 -0600,Ensure InputStreamSerializer closes its streams,180,8459
+983,403eb02,SUCCESS,11,SUCCESS,11,SUCCESS,86,2019-05-24 11:59:51 +0200,Update README.md,179,8431
+984,a7fae95,SUCCESS,15,SUCCESS,15,SUCCESS,91,2020-05-06 01:58:11 +1000,"Updated embedded Jetty version to 9.4.27.v20200227, to gain support for the ""SameSite"" cookie attribute (#1162)",179,8431
+985,8f63c06,FAIL,10,NO,0,NO,0,2020-05-31 13:45:15 +0800,Fix issue 1072,179,8447
+986,564d191,SUCCESS,12,SUCCESS,12,SUCCESS,88,2020-05-31 14:28:34 +0800,Fix issue 1061,182,8476
+987,740c501,SUCCESS,11,SUCCESS,11,SUCCESS,87,2020-06-18 12:23:43 +0200,Some formatting fixes,181,8471
+988,77345cf,SUCCESS,11,SUCCESS,11,SUCCESS,89,2020-06-18 12:23:57 +0200,Merge branch 'xrl2408-master',181,8471
+989,df7a578,SUCCESS,17,SUCCESS,13,SUCCESS,86,2020-06-25 15:31:35 +0200,Bumping to latest jetty version (#1179),181,8471
+990,0ac3ff4,SUCCESS,11,SUCCESS,11,SUCCESS,84,2020-07-01 20:43:33 +0200,Update README.md,181,8471
+991,7551a7d,SUCCESS,9,SUCCESS,12,SUCCESS,91,2020-07-01 20:49:46 +0200,preparing for 2.9.2 release,181,8471
+992,ac51c95,SUCCESS,12,SUCCESS,11,SUCCESS,88,2020-09-02 06:18:08 -0300,Test improvement: removed Magic Number test smell (#1184),181,8472
+993,ea1b77c,SUCCESS,12,SUCCESS,13,SUCCESS,87,2020-09-02 15:25:36 -0400,Add methods for removing routes at runtime,181,8476
+994,bd90e83,SUCCESS,14,SUCCESS,12,SUCCESS,89,2020-09-07 15:33:39 +0200,Bumped Jetty version to latest (#1191),181,8472
+995,d607ffd,SUCCESS,12,SUCCESS,10,SUCCESS,89,2020-09-08 20:01:50 +0200,Merge branch 'stream-serializer-closes-streams' of https://github.com/ThatJoeMoore/spark into ThatJoeMoore-stream-serializer-closes-streams,182,8500
+996,2b1edfd,SUCCESS,12,SUCCESS,10,SUCCESS,88,2020-09-08 20:02:05 +0200,Merge branch 'ThatJoeMoore-stream-serializer-closes-streams',182,8500
+997,c313e8c,SUCCESS,10,SUCCESS,10,SUCCESS,86,2020-09-08 20:07:30 +0200,Merge branch 'crutcher-embeddedServerIdentifier' of https://github.com/3Scan/spark-1 into 3Scan-crutcher-embeddedServerIdentifier,182,8524
+998,10ddf62,SUCCESS,11,SUCCESS,13,SUCCESS,104,2020-09-08 20:08:03 +0200,Merge branch '3Scan-crutcher-embeddedServerIdentifier',182,8524
+999,018e9a0,SUCCESS,10,SUCCESS,12,SUCCESS,86,2020-09-08 20:14:03 +0200,Merge branch 'improve/add-dates' of https://github.com/ketan/spark into ketan-improve/add-dates,182,8554
+1000,bf8b091,SUCCESS,13,SUCCESS,12,SUCCESS,89,2020-09-08 20:14:23 +0200,Merge branch 'ketan-improve/add-dates',182,8554
+1001,fae8c0b,SUCCESS,12,SUCCESS,11,SUCCESS,86,2020-09-09 11:34:07 +0200,Fix for broken travis build (#1192),182,8524
+1002,c8ba04c,SUCCESS,10,SUCCESS,11,SUCCESS,85,2020-09-09 11:48:44 +0200,Merge branch 'master' of github.com:perwendel/spark,182,8554
+1003,8f4d2a2,SUCCESS,12,SUCCESS,12,SUCCESS,90,2020-09-09 21:50:04 +0200,Merge branch 'master' of https://github.com/johnnybigoode/spark into johnnybigoode-master,182,8564
+1004,fe91e30,SUCCESS,11,SUCCESS,12,SUCCESS,92,2020-09-09 21:51:12 +0200,keeping backwards compatibility,182,8566
+1005,82a194b,SUCCESS,11,SUCCESS,13,SUCCESS,93,2020-09-09 21:54:29 +0200,sparkify method names,182,8564
+1006,ddfe6e8,SUCCESS,10,SUCCESS,12,SUCCESS,91,2020-09-09 21:55:01 +0200,Merge branch 'johnnybigoode-master',182,8564
+1007,e5cf5a9,SUCCESS,11,SUCCESS,12,SUCCESS,85,2020-09-09 21:58:54 +0200,Merge branch 'master' of github.com:perwendel/spark,182,8594
+1008,af03187,SUCCESS,11,SUCCESS,12,SUCCESS,90,2020-09-10 22:48:25 +0200,Update README.md,182,8594
+1009,5a41b39,SUCCESS,11,SUCCESS,11,SUCCESS,92,2020-09-15 16:19:58 +0200,Fixed: jetty deprecated SslContextFactory functions,182,8595
+1010,45148d2,SUCCESS,11,SUCCESS,10,SUCCESS,85,2020-09-28 15:30:35 +0200,Update pom.xml,182,8594
+1011,043653d,SUCCESS,12,SUCCESS,11,SUCCESS,92,2020-09-28 15:34:59 +0200,Update README.md,182,8594
+1012,bd7cbf1,SUCCESS,13,SUCCESS,11,SUCCESS,88,2020-09-28 15:35:59 +0200,Update README.md,182,8594
+1013,5ca85ca,SUCCESS,12,SUCCESS,11,SUCCESS,87,2020-09-28 22:32:42 +0200,Update pom.xml,182,8594
+1014,500c8b6,SUCCESS,11,SUCCESS,10,SUCCESS,93,2020-09-29 17:10:52 +0200,extracted xml format file from jar,182,8594
+1015,5ca2a0a,SUCCESS,11,SUCCESS,12,SUCCESS,85,2020-09-29 17:14:26 +0200,Update README.md,182,8594
+1016,a938359,SUCCESS,12,SUCCESS,11,SUCCESS,88,2020-10-05 21:31:46 +0200,Merge branch 'master' of https://github.com/jmarkerink/spark into jmarkerink-master,182,8595
+1017,358c1e7,SUCCESS,12,SUCCESS,11,SUCCESS,93,2020-10-05 21:31:59 +0200,Merge branch 'jmarkerink-master',182,8595
+1018,2b5e388,SUCCESS,12,SUCCESS,13,SUCCESS,93,2020-10-05 21:40:45 +0200,added tracking of changes,182,8595
+1019,86ab8c1,SUCCESS,12,SUCCESS,11,SUCCESS,93,2020-10-05 21:41:52 +0200,updated changeset,182,8595
+1020,5ae7ca7,SUCCESS,11,SUCCESS,12,SUCCESS,87,2020-10-05 21:43:09 +0200,updated changeset,182,8595
+1021,3ce2a5f,SUCCESS,12,SUCCESS,14,SUCCESS,90,2020-10-05 21:44:46 +0200,updated changeset,182,8595
+1022,c62a966,SUCCESS,11,SUCCESS,12,SUCCESS,92,2020-10-05 17:24:36 -0400,Rename methods to align with Spark's idiomatic style,181,8476
+1023,0a3c31a,SUCCESS,11,SUCCESS,11,SUCCESS,89,2020-10-06 22:09:27 +1300,Modify Base64 to use java.util.Base64 Encoder/Decoder (#1193),182,8593
+1024,25e0af0,SUCCESS,11,SUCCESS,11,SUCCESS,90,2020-10-06 11:11:24 +0200,add 1194 to changeset,182,8595
+1025,8818c96,SUCCESS,12,SUCCESS,10,SUCCESS,82,2020-10-06 11:11:35 +0200,Merge branch 'master' of github.com:perwendel/spark,182,8593
+1026,ad1f161,SUCCESS,13,SUCCESS,12,FAIL,121,2020-10-07 13:54:45 +0200,Merge branch 'master' of https://github.com/dustinkredmond/spark into dustinkredmond-master,182,8597
+1027,ee98f9a,SUCCESS,11,SUCCESS,11,SUCCESS,91,2020-10-07 13:55:48 +0200,Merge branch 'dustinkredmond-master',182,8597
+1028,a68b2ab,SUCCESS,12,SUCCESS,12,SUCCESS,90,2020-10-07 14:19:40 +0200,added test for unmapping of routes,183,8627
+1029,1edbd4d,SUCCESS,12,SUCCESS,12,SUCCESS,90,2020-10-07 14:20:56 +0200,updated changeset,183,8627
+1030,27cc3f7,SUCCESS,11,SUCCESS,13,SUCCESS,94,2020-10-07 19:23:26 +0200,updated changeset,183,8627
+1031,1e8dd2a,SUCCESS,13,SUCCESS,15,SUCCESS,96,2020-10-07 19:25:34 +0200,updated changeset,183,8627
+1032,30968e0,SUCCESS,10,SUCCESS,10,SUCCESS,87,2020-10-07 19:35:39 +0200,"updated changeset, added link",183,8627
+1033,30e6cd3,SUCCESS,12,SUCCESS,11,SUCCESS,85,2020-10-07 19:37:18 +0200,"updated changeset, removed link",183,8627
+1034,aab0141,SUCCESS,11,SUCCESS,11,SUCCESS,93,2020-10-07 19:38:46 +0200,changeset markdown to enable links,183,8627
+1035,f2e2e6e,SUCCESS,10,SUCCESS,10,SUCCESS,91,2020-10-07 19:40:00 +0200,added links,183,8627
+1036,af14a04,SUCCESS,12,SUCCESS,12,SUCCESS,92,2020-10-07 19:41:42 +0200,changes,183,8627
+1037,30d8617,SUCCESS,12,SUCCESS,11,SUCCESS,94,2020-10-07 19:44:10 +0200,anchor links to reduce verboseness,183,8627
+1038,5445585,SUCCESS,12,SUCCESS,10,SUCCESS,87,2020-10-07 19:45:28 +0200,target-blank,183,8627
+1039,ad71703,SUCCESS,10,SUCCESS,11,SUCCESS,90,2020-10-07 19:49:28 +0200,removed non-working html,183,8627
+1040,48a94f1,SUCCESS,11,SUCCESS,11,SUCCESS,103,2020-10-08 13:06:59 +0200,preparing 2.9.3 release,183,8627
+1041,f794474,SUCCESS,11,SUCCESS,11,SUCCESS,94,2020-10-08 14:58:18 +0200,sections,183,8627
+1042,e06da38,SUCCESS,10,SUCCESS,11,SUCCESS,92,2020-10-08 15:01:08 +0200,moved changeset,183,8627
+1043,d3980f7,SUCCESS,12,SUCCESS,9,SUCCESS,95,2020-10-08 15:07:24 +0200,updated pom version to 2.9.4-SNAPSHOT,183,8627
+1044,e03346e,SUCCESS,13,SUCCESS,12,SUCCESS,93,2020-10-08 15:08:51 +0200,Update README.md,183,8627
+1045,b38e5c8,SUCCESS,11,SUCCESS,11,SUCCESS,92,2020-10-08 15:09:06 +0200,Update README.md,183,8627
+1046,436d2bf,SUCCESS,17,SUCCESS,14,SUCCESS,92,2020-10-12 17:32:49 +0200,latest jetty version (#1196),183,8627
+1047,ea6ed13,SUCCESS,10,SUCCESS,11,SUCCESS,123,2020-10-12 17:34:00 +0200,Create 2.9.4-changeset.md,183,8627
+1048,49beca8,SUCCESS,12,SUCCESS,12,SUCCESS,93,2020-10-12 17:37:53 +0200,Update 2.9.4-changeset.md,183,8627
+1049,58c4f2a,SUCCESS,11,SUCCESS,12,SUCCESS,124,2020-10-13 14:19:48 +0200,Delete changeset.txt,183,8627
+1050,70e5d98,SUCCESS,13,SUCCESS,12,SUCCESS,93,2020-10-18 18:35:34 +0300,added Spark.trustForwardHeaders method,183,8640
+1051,449d4e7,SUCCESS,15,SUCCESS,14,SUCCESS,93,2020-11-15 17:45:36 +0100,Update Jetty to 9.4.33.v20201020 to fix CVE-2020-27216 (#1201),183,8627
+1052,701e010,SUCCESS,13,SUCCESS,13,SUCCESS,92,2020-11-15 17:48:04 +0100,updated 2.9.4 changeset,183,8627
+1053,53e0062,SUCCESS,12,SUCCESS,11,SUCCESS,96,2020-11-15 17:51:24 +0100,Merge branch 'master' of https://github.com/Something-Host/spark into Something-Host-master,183,8640
+1054,d4406df,SUCCESS,11,SUCCESS,12,SUCCESS,93,2020-11-15 17:51:39 +0100,Merge branch 'Something-Host-master',183,8640
+1055,2e86608,SUCCESS,11,SUCCESS,12,SUCCESS,98,2020-11-15 18:13:52 +0100,modifications to maintain backwards compatibility and also more spark aligned method names,183,8655
+1056,b798e44,SUCCESS,12,SUCCESS,13,SUCCESS,95,2020-11-15 18:16:14 +0100,updated changeset,183,8655
+1057,30762ea,SUCCESS,12,SUCCESS,10,SUCCESS,88,2020-11-15 18:16:45 +0100,fixed errors in changeset,183,8655
+1058,11779c7,SUCCESS,10,SUCCESS,12,SUCCESS,91,2020-11-18 21:29:56 +0100,fixed incorrect javadocs,183,8655
+1059,71e383c,SUCCESS,11,SUCCESS,11,SUCCESS,85,2020-11-18 21:38:30 +0100,fix for #1146 (#1202),183,8655
+1060,8fb8619,SUCCESS,12,SUCCESS,12,SUCCESS,91,2020-11-18 21:40:35 +0100,updated changeset,183,8655
+1061,54079b0,SUCCESS,11,SUCCESS,12,SUCCESS,86,2020-11-18 21:40:59 +0100,updated changeset,183,8655

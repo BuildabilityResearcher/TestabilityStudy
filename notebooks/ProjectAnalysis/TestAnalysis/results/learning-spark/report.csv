@@ -1,0 +1,417 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,6f96ecd,FAIL,0,NO,0,NO,0,2014-02-20 18:17:11 -0800,Initial commit of a mostly empty repo for examples for the Learning Spark book,0,0
+1,02aada5,FAIL,0,NO,0,NO,0,2014-03-06 11:34:21 -0800,Add first examples and a license and fix build,1,19
+2,e1072d6,FAIL,0,NO,0,NO,0,2014-03-06 13:05:35 -0800,Better indentation,1,20
+3,628f976,FAIL,0,NO,0,NO,0,2014-03-06 16:02:51 -0800,Fix basicmap indentation,1,20
+4,c27f780,FAIL,0,NO,0,NO,0,2014-03-06 16:03:12 -0800,"Add a few more examples (sum, map and filter)",3,62
+5,658a08c,FAIL,0,NO,0,NO,0,2014-03-06 16:03:32 -0800,And add the scala ones too,3,62
+6,11f8779,FAIL,0,NO,0,NO,0,2014-03-06 16:12:36 -0800,Change basic sum scala example to match java one more closely,3,62
+7,1d3719b,FAIL,0,NO,0,NO,0,2014-03-08 15:41:34 -0800,Add a simple basicmap python example,3,62
+8,515b4ec,FAIL,0,NO,0,NO,0,2014-03-09 21:46:15 -0700,Add an example to remove outliers,3,62
+9,a95842b,FAIL,0,NO,0,NO,0,2014-03-12 15:06:26 -0700,Fix description,3,62
+10,40b801d,FAIL,0,NO,0,NO,0,2014-03-12 16:38:50 -0700,Add removeoutliers for java and basicavg for scala and java,5,114
+11,08ceb13,FAIL,0,NO,0,NO,0,2014-03-13 11:47:37 -0700,More python examples,5,114
+12,7396849,FAIL,0,NO,0,NO,0,2014-03-13 12:17:25 -0700,Add BasicSum python example,5,114
+13,5ec3883,FAIL,0,NO,0,NO,0,2014-03-13 12:40:13 -0700,Fix BasicSum test,5,114
+14,56319a8,FAIL,0,NO,0,NO,0,2014-03-13 12:40:26 -0700,Add a basic avg example,5,114
+15,58f105e,FAIL,0,NO,0,NO,0,2014-03-13 13:43:49 -0700,Finish the basic average Java example,5,131
+16,42d7ca3,FAIL,0,NO,0,NO,0,2014-03-13 17:55:28 -0700,Show how map to double works :),6,152
+17,22bff1a,FAIL,0,NO,0,NO,0,2014-03-17 11:36:27 -0700,Things are more fun when they do stuff (add some stuff so the remove outliers code actually has an outlier to remove in the example),6,152
+18,e8e8a07,FAIL,0,NO,0,NO,0,2014-03-17 11:36:46 -0700,Add RemoveOutliers python example,6,152
+19,db86925,FAIL,0,NO,0,NO,0,2014-03-24 17:03:49 -0700,RemoveOutleirs python and start of basic join csv example (todo holden: finish),7,178
+20,cd89ba5,FAIL,0,NO,0,NO,0,2014-03-25 11:32:01 -0700,Basic join csv example,7,187
+21,0d6be09,FAIL,0,NO,0,NO,0,2014-04-02 15:24:42 -0700,Add wordcount,7,187
+22,c271a44,FAIL,0,NO,0,NO,0,2014-04-02 15:43:58 -0700,Add wordcount java example,8,215
+23,9ddb609,FAIL,0,NO,0,NO,0,2014-04-11 00:13:49 -0700,Add a per key avg in scala,8,215
+24,8d7402a,FAIL,0,NO,0,NO,0,2014-04-14 10:27:53 -0700,Fix random indentation in BasicMap,6,152
+25,6fb8ed1,FAIL,0,NO,0,NO,0,2014-04-14 10:29:18 -0700,give basicavg a different program name in java and fix the random indentation,6,152
+26,6e12a7f,FAIL,0,NO,0,NO,0,2014-04-14 11:36:05 -0700,Add a basic avg with kryo example in Java,7,203
+27,8da5b00,FAIL,0,NO,0,NO,0,2014-04-14 11:37:20 -0700,update name of basicavg in scala code,7,203
+28,796e479,FAIL,0,NO,0,NO,0,2014-04-14 11:53:25 -0700,Add the required zero argument constructor for Kryo serilization,7,206
+29,cd7ba03,FAIL,0,NO,0,NO,0,2014-04-19 23:06:12 -0700,"Add some more examples (wordcount, mappartitions, avgwithkryo)",7,206
+30,6337c41,FAIL,0,NO,0,NO,0,2014-04-20 16:50:06 -0700,Exchange succeed more often when we send them to the client :p,7,206
+31,3227172,FAIL,0,NO,0,NO,0,2014-04-20 19:36:11 -0700,Upgrade to spark 0.9.1 and fix META-INF that was getting included,8,247
+32,1dcb41b,FAIL,0,NO,0,NO,0,2014-04-21 12:23:11 -0700,Add a basic map partitions examples for python,8,247
+33,78cb914,FAIL,0,NO,0,NO,0,2014-04-27 13:27:33 -0700,Add BasicAvgMapPartitions.scala,8,247
+34,7a245e2,FAIL,0,NO,0,NO,0,2014-04-27 14:11:19 -0700,[WIP] add BasicAvgMapPartitions example to java,9,292
+35,a7230e5,FAIL,0,NO,0,NO,0,2014-04-28 21:18:03 -0700,Some more cleanup of the java examples,9,302
+36,f6b6294,SUCCESS,33,SUCCESS,5,SUCCESS,10,2014-04-28 22:22:18 -0700,Add build Java,9,302
+37,a34e481,FAIL,8,NO,0,NO,0,2014-04-28 23:55:56 -0700,merge,11,365
+38,516d99f,SUCCESS,8,SUCCESS,5,SUCCESS,5,2014-04-28 23:56:46 -0700,update pom.xml for opencsv dep,11,365
+39,3495ecd,SUCCESS,8,SUCCESS,6,SUCCESS,5,2014-04-30 16:30:43 -0700,Update README with how to run examples,11,365
+40,886664f,SUCCESS,10,SUCCESS,5,SUCCESS,6,2014-04-30 16:51:15 -0700,Add PerKeyAvg to java examples,12,411
+41,8894242,SUCCESS,9,SUCCESS,6,SUCCESS,5,2014-04-30 23:28:06 -0700,Make the registrator static,12,411
+42,29e89af,SUCCESS,10,SUCCESS,5,SUCCESS,8,2014-05-01 20:24:06 -0700,Fix up the perkeyavg example,12,423
+43,e99700f,SUCCESS,7,SUCCESS,5,SUCCESS,5,2014-05-01 20:53:19 -0700,Add perkeyavg python example,12,423
+44,9c15d6f,SUCCESS,7,SUCCESS,5,SUCCESS,6,2014-05-01 20:59:17 -0700,basicmapnocache,12,423
+45,d7f07df,SUCCESS,7,SUCCESS,6,SUCCESS,5,2014-05-05 10:49:40 -0700,BasicAvgFromFile (show loading a text file),12,423
+46,c32afb2,SUCCESS,9,SUCCESS,5,SUCCESS,5,2014-05-09 17:55:41 -0700,Start the update to 1.0.0-SNAPSHOT (broken),12,423
+47,fef585c,FAIL,9,NO,0,NO,0,2014-05-09 19:57:57 -0700,Update the Java code to 1.0.0-SNAPSHOT,12,426
+48,09b56c3,FAIL,18,NO,0,NO,0,2014-05-09 20:18:22 -0700,Update the maven build to 1.0.0-SNAPSHOT for Spark and add the ES uberjar to sbt and maven builds,12,426
+49,4f9c02d,FAIL,6,NO,0,NO,0,2014-05-12 21:15:20 -0700,Update the build,12,426
+50,7f4fec4,FAIL,5,NO,0,NO,0,2014-05-12 21:24:04 -0700,Add some more simple examples,12,426
+51,ce8a86b,FAIL,5,NO,0,NO,0,2014-05-13 21:50:25 -0700,Update loadwholecsv and basicavgfromfiles,13,459
+52,e3a108e,FAIL,6,NO,0,NO,0,2014-05-13 21:50:32 -0700,Update build files,13,459
+53,caef446,FAIL,6,NO,0,NO,0,2014-05-13 22:15:39 -0700,Change the name of the program we use,13,459
+54,f5ed274,FAIL,6,NO,0,NO,0,2014-05-16 22:44:30 -0700,IntersectByKey example in scala,13,459
+55,59f3e3d,FAIL,5,NO,0,NO,0,2014-05-16 23:43:44 -0700,Add java intersect by key,14,506
+56,f3ecc1a,FAIL,7,NO,0,NO,0,2014-05-17 17:14:25 -0700,Add intersect by key in python and add es hadoop mr artifact to the scala and java builds,14,506
+57,aea0e03,FAIL,6,NO,0,NO,0,2014-05-17 17:24:12 -0700,Change intersectbykey example a bit,14,506
+58,4bb1413,FAIL,7,NO,0,NO,0,2014-05-17 23:17:28 -0700,"Add json parsing example in java,python and csv example in scala",15,541
+59,c3e06ef,FAIL,5,NO,0,NO,0,2014-05-20 18:15:13 -0700,Update a bunch of data loading examples and mention[ish] spark-submit,15,556
+60,cc93fcf,FAIL,4,NO,0,NO,0,2014-05-30 15:00:47 -0700,Add sequence file examples in scala,15,556
+61,796c3c8,FAIL,6,NO,0,NO,0,2014-05-30 18:06:39 -0700,Add a basic load sequence file example for Java,16,580
+62,407d6a7,FAIL,4,NO,0,NO,0,2014-05-31 15:55:42 -0700,Add an initial travis.yml,16,580
+63,f486a65,FAIL,6,NO,0,NO,0,2014-06-01 01:28:53 -0700,"Add elephant bird example in scala (todo: holden, update the maven build)",16,580
+64,3fa90ec,FAIL,6,NO,0,NO,0,2014-06-01 01:51:23 -0700,Update .travis.yml file not to use tabs,16,580
+65,3e30bc2,FAIL,4,NO,0,NO,0,2014-06-01 02:33:24 -0700,Show how to have a sequence file in Java,17,609
+66,bcbd3a0,FAIL,6,NO,0,NO,0,2014-06-01 02:33:27 -0700,Show how to have a sequence file in Java,17,609
+67,373b2a0,FAIL,5,NO,0,NO,0,2014-06-01 02:54:00 -0700,Add a second typesafe repo because play-json disappeared from releases :(,17,609
+68,e4384e1,FAIL,5,NO,0,NO,0,2014-06-01 03:01:47 -0700,remove extara ` which snuck in to BasicSaveSequenceFile java example,17,608
+69,576bb5b,FAIL,6,NO,0,NO,0,2014-06-01 14:27:30 -0700,Start adding the contents for a protocol buffer example,17,608
+70,8c998eb,FAIL,5,NO,0,NO,0,2014-06-01 15:31:55 -0700,Put the pb in the correct location and update the readme and travis config file for the new protobuf-compiler dep,17,608
+71,c04a196,FAIL,6,NO,0,NO,0,2014-06-01 16:13:11 -0700,Add a simple places proto and construct it,17,608
+72,55dbbb8,FAIL,5,NO,0,NO,0,2014-06-01 16:13:32 -0700,Call the build method,17,608
+73,11aab20,FAIL,6,NO,0,NO,0,2014-06-08 16:23:41 -0700,Fix up saveprotobuf example,17,608
+74,fd224f0,FAIL,5,NO,0,NO,0,2014-06-08 16:23:57 -0700,Add wordcount example,18,626
+75,6894f6b,FAIL,5,NO,0,NO,0,2014-06-08 16:34:58 -0700,Make the basicflatmap example be a wordcount example,18,631
+76,6f97289,FAIL,6,NO,0,NO,0,2014-06-10 17:41:04 -0700,Simple load hive example,18,631
+77,f1cff20,FAIL,5,NO,0,NO,0,2014-06-10 22:52:17 -0700,More python examples,18,631
+78,47a66e0,FAIL,5,NO,0,NO,0,2014-06-11 18:04:55 -0700,Add keyvaluemap filter example and add spark-sql and spark-hive for scala loadhive example,19,666
+79,65fc7d4,FAIL,5,NO,0,NO,0,2014-06-12 14:11:17 -0700,Make the wordcount example match its description (we didn't use countbyvalue before),19,666
+80,d03d5bf,FAIL,6,NO,0,NO,0,2014-06-12 14:14:25 -0700,Add Python wordcount and Java Load hive examples,20,699
+81,e361226,FAIL,5,NO,0,NO,0,2014-06-13 12:11:28 -0700,We aren't working over nums in wordcount switch it for lines,20,699
+82,c5610d1,FAIL,5,NO,0,NO,0,2014-06-13 14:37:41 -0700,Simple splitwords perl example we can call from pipe,20,699
+83,23c0dfd,FAIL,5,NO,0,NO,0,2014-06-13 15:29:05 -0700,Add a simple pipe example driver program,20,699
+84,88db4cb,FAIL,4,NO,0,NO,0,2014-06-14 18:12:52 -0700,Add an FTP example and a KeyValueTextFormat example,20,699
+85,0a70c5d,FAIL,6,NO,0,NO,0,2014-06-19 12:19:05 -0700,Add some comments to BasicParseJson and make BasicLoadJson in java behave more like scala in that it silently skips bad input,20,701
+86,6fa4c5c,FAIL,5,NO,0,NO,0,2014-06-19 15:58:52 -0700,Include the mysql connector,20,701
+87,916cac7,FAIL,6,NO,0,NO,0,2014-06-20 14:31:00 -0700,Add an example using a source rdd filtered in two different ways and then unioned together to pull out the lines with error or warning,20,701
+88,4b8888c,FAIL,5,NO,0,NO,0,2014-07-24 14:15:33 -0700,Add basic accumulator and streaming examples,20,701
+89,82b910c,FAIL,5,NO,0,NO,0,2014-07-24 16:39:06 -0700,Update the accumulator example to use a tree,20,701
+90,53fa4c9,FAIL,5,NO,0,NO,0,2014-07-24 16:45:02 -0700,Add a call sign tbl to our files,20,701
+91,2346b8d,FAIL,6,NO,0,NO,0,2014-07-24 17:56:55 -0700,Add the chapter six example in Scala,20,701
+92,89ab03a,FAIL,4,NO,0,NO,0,2014-07-28 14:32:03 -0700,Update the chapter six example,20,701
+93,bcdb3f1,FAIL,6,NO,0,NO,0,2014-07-29 17:04:07 -0700,Start adding the chapter six example in Java,21,727
+94,54dfc89,FAIL,5,NO,0,NO,0,2014-07-29 19:24:23 -0700,"Fix the chapter six example, namely allow higher error rate and call toList so when we don't try and map over the scala io source twice",21,727
+95,14becb8,FAIL,5,NO,0,NO,0,2014-07-30 14:07:18 -0700,Actually broadcast the values we were using,21,727
+96,a12b182,FAIL,5,NO,0,NO,0,2014-08-07 13:23:24 -0700,"Use a filter instead of a flatMap in the validating call signs, its cleaner",21,727
+97,4854df7,FAIL,5,NO,0,NO,0,2014-08-07 13:30:31 -0700,Add some ham radio data,21,727
+98,62cdcab,FAIL,5,NO,0,NO,0,2014-08-07 14:15:54 -0700,Add the chapter six example in python (still WIP),21,727
+99,7d2ec6e,FAIL,5,NO,0,NO,0,2014-08-07 14:59:35 -0700,Add some more call signs,21,727
+100,8d1a53c,FAIL,5,NO,0,NO,0,2014-08-07 14:59:52 -0700,Expand a bit on the chapter 6 comment,21,727
+101,cedeeec,FAIL,5,NO,0,NO,0,2014-08-07 15:00:05 -0700,formatting,21,727
+102,fb9ec00,FAIL,5,NO,0,NO,0,2014-08-07 15:00:23 -0700,Do country lookup in the python version of the chapter six example using broadcast values,21,727
+103,24e0cdc,FAIL,6,NO,0,NO,0,2014-08-08 15:54:07 -0700,Update the chapter six example to validate the call signs,21,750
+104,adb7049,FAIL,5,NO,0,NO,0,2014-08-11 11:31:32 -0700,Count the number of lines with KK6JKQ in Java using accumulator,21,756
+105,1b85734,FAIL,6,NO,0,NO,0,2014-08-11 12:58:07 -0700,Update chapter six examples,21,784
+106,4811291,FAIL,5,NO,0,NO,0,2014-08-12 13:47:10 -0700,remove incorrect comment from ch06 scala example,21,784
+107,dfd2fb0,FAIL,5,NO,0,NO,0,2014-08-12 13:47:33 -0700,Finish up the country lookup example in ch06 (java),21,788
+108,0c5b44f,FAIL,6,NO,0,NO,0,2014-08-13 15:55:17 -0700,"made some progress to loading the json results back in chapter 6, however the mesosphere module I tried to use doesn't work (even with the readme example.) so will need to redo that part",21,788
+109,ab6fdde,FAIL,5,NO,0,NO,0,2014-08-13 16:31:15 -0700,Ditch the parsing with the mesos module and instead make everythng optional in our QSO class (gives us a zero argument constructor),21,788
+110,52edb74,FAIL,5,NO,0,NO,0,2014-08-14 13:46:08 -0700,contactsContactList progress,21,827
+111,ad3db91,FAIL,4,NO,0,NO,0,2014-08-14 14:23:34 -0700,Move QSO to a seperate file so Jackson is happy pandas,22,835
+112,e9d6528,FAIL,6,NO,0,NO,0,2014-08-14 14:23:59 -0700,Fix the Java example,22,830
+113,5467fb6,FAIL,5,NO,0,NO,0,2014-08-15 12:58:36 -0700,Add basic json parsing with jackson example since we might switch to that in ch3,22,830
+114,aa47a82,FAIL,5,NO,0,NO,0,2014-08-18 09:22:17 -0700,Add a second call signs file,22,830
+115,c996e5e,FAIL,5,NO,0,NO,0,2014-08-18 09:22:24 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,22,830
+116,753271f,FAIL,5,NO,0,NO,0,2014-08-18 10:08:11 -0700,Get the BasicParseJsonWithJackson scala example to compile,22,830
+117,d9a9c4b,FAIL,5,NO,0,NO,0,2014-08-18 14:41:04 -0700,Add the start of our find distance script in R,22,830
+118,4910579,FAIL,5,NO,0,NO,0,2014-08-24 12:14:50 -0700,Find the distance in R using Imap,22,830
+119,eef16f4,FAIL,6,NO,0,NO,0,2014-08-25 13:09:09 -0700,Call the R example instead,22,830
+120,19460a0,FAIL,7,NO,0,NO,0,2014-08-25 15:41:49 -0700,"Start working on adding pipe to the Java example, fix our JavaRDD of tuples to be a PairRDD",22,839
+121,2047848,FAIL,6,NO,0,NO,0,2014-08-25 15:42:21 -0700,Add pipe example in scala,22,839
+122,fc8724c,FAIL,5,NO,0,NO,0,2014-08-26 10:02:20 -0700,java pip example progress,22,848
+123,5010b2d,FAIL,8,NO,0,NO,0,2014-08-26 14:50:50 -0700,Mention the chapter six example dependency on R and Imap,22,848
+124,c69468a,FAIL,8,NO,0,NO,0,2014-08-26 14:51:06 -0700,Filter out invalid inputs,22,852
+125,8fa79c6,FAIL,5,NO,0,NO,0,2014-08-28 20:30:45 -0700,Update the python example to match the rest of the chapter six python examples,22,848
+126,b50a060,FAIL,7,NO,0,NO,0,2014-08-28 20:30:53 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,22,852
+127,daaf4dd,FAIL,6,NO,0,NO,0,2014-08-29 15:46:31 -0700,Fix the Java example. Also addfile works in local mode now,22,853
+128,e57911a,FAIL,5,NO,0,NO,0,2014-08-29 15:46:54 -0700,Fix the scala example,22,853
+129,cb7ad53,FAIL,6,NO,0,NO,0,2014-09-02 12:13:11 -0700,Get the pipe example integrated integrated into the chapter six example in python,22,853
+130,16d7969,FAIL,5,NO,0,NO,0,2014-09-02 12:46:30 -0700,Simplify py/scala chapter six examples,22,853
+131,e7507fb,FAIL,5,NO,0,NO,0,2014-09-02 13:35:30 -0700,Run all of the code as part of the travis tests,22,853
+132,56d8048,FAIL,7,NO,0,NO,0,2014-09-02 13:49:34 -0700,make the /user/hive directory as part of the travis setup,22,853
+133,5ad2c06,FAIL,6,NO,0,NO,0,2014-09-02 14:14:10 -0700,Mention urllib3 requirements for python examples and install as part of travis setup,22,853
+134,525ff9b,FAIL,6,NO,0,NO,0,2014-09-02 14:15:46 -0700,link to travis build status in README,22,853
+135,6061eb1,FAIL,6,NO,0,NO,0,2014-09-02 14:26:43 -0700,use relative path,22,853
+136,207113f,FAIL,6,NO,0,NO,0,2014-09-03 11:56:22 -0700,add another call sign,22,853
+137,054f4d4,FAIL,6,NO,0,NO,0,2014-09-03 12:23:14 -0700,Integrate the remove outliers example into the chapter six examples,22,864
+138,055d2bb,FAIL,6,NO,0,NO,0,2014-09-03 12:25:36 -0700,too long line,22,865
+139,5fbcebe,FAIL,6,NO,0,NO,0,2014-09-03 12:57:09 -0700,Update to spark 1.0.2 for testing (so the python example works since spark sql changed from giving backs dicts to row objects.,22,865
+140,375242d,FAIL,5,NO,0,NO,0,2014-09-03 13:15:19 -0700,disable one of the examples until next spark rev drops,22,865
+141,cc6ad97,FAIL,6,NO,0,NO,0,2014-09-03 13:29:41 -0700,Simplify the looking up in array component of the chapter six example in Scala,22,865
+142,c21a683,FAIL,6,NO,0,NO,0,2014-09-03 13:53:51 -0700,Clean up the Java example for chapter six a bit,22,872
+143,ab100c7,FAIL,6,NO,0,NO,0,2014-09-03 13:56:21 -0700,match scala output,22,872
+144,ff211c7,FAIL,6,NO,0,NO,0,2014-09-03 14:41:44 -0700,simplify the python example and make it a bit more like the scala/java example,22,872
+145,c9d2d43,FAIL,6,NO,0,NO,0,2014-09-03 14:42:10 -0700,same output file as scala/java examples,22,872
+146,6877523,FAIL,6,NO,0,NO,0,2014-09-03 14:48:49 -0700,Handle long line,22,872
+147,44433df,FAIL,6,NO,0,NO,0,2014-09-03 15:01:13 -0700,formatting fixes so stuff looks nicer in the book,22,872
+148,1a50471,FAIL,6,NO,0,NO,0,2014-09-03 15:06:44 -0700,try using the travis-tools script to setup R,22,872
+149,48f2d18,FAIL,6,NO,0,NO,0,2014-09-03 15:17:13 -0700,Add a description file,22,872
+150,9c1f6f5,FAIL,6,NO,0,NO,0,2014-09-03 15:20:27 -0700,Update DESCRIPTION file a bit,22,872
+151,71ce2f0,FAIL,5,NO,0,NO,0,2014-09-03 16:06:30 -0700,"don't use pattern matching in scala regex example, Matei thinks it might be too distracting",22,872
+152,58f1491,FAIL,5,NO,0,NO,0,2014-09-03 17:10:07 -0700,Fix some long lines that were causing issues with the book formatting,22,875
+153,4989420,FAIL,6,NO,0,NO,0,2014-09-04 12:54:14 -0700,Simnplify the scala version of the chapter six example to only use one broadcast value and move slightly more logic to a helper function,22,875
+154,740b2e0,FAIL,5,NO,0,NO,0,2014-09-04 13:32:07 -0700,Simplify the python example as with the Scala example,22,875
+155,973c5e2,FAIL,5,NO,0,NO,0,2014-09-04 13:36:28 -0700,plurals for RDD names,22,875
+156,c338f68,FAIL,6,NO,0,NO,0,2014-09-04 13:40:49 -0700,plurals for RDD names,22,875
+157,256b8de,FAIL,6,NO,0,NO,0,2014-09-04 13:47:10 -0700,Simplify the Java example for chapter six a bit,22,875
+158,b350c08,FAIL,5,NO,0,NO,0,2014-09-04 14:24:36 -0700,Run the R code seperatetly,22,875
+159,3331530,FAIL,6,NO,0,NO,0,2014-09-04 14:25:19 -0700,better debugging,22,875
+160,72e320e,FAIL,5,NO,0,NO,0,2014-09-04 14:54:44 -0700,use provided stdev function,22,877
+161,7f7d1c5,FAIL,6,NO,0,NO,0,2014-09-04 15:02:25 -0700,stop reading separator from env,22,877
+162,a419f83,FAIL,4,NO,0,NO,0,2014-09-04 15:14:11 -0700,Refactor a bit and reindent chaptersixexample in scala,22,877
+163,b3e50ee,FAIL,5,NO,0,NO,0,2014-09-04 16:02:19 -0700,Cleanup and fix java and scala pipe examples,22,875
+164,45a79c4,FAIL,5,NO,0,NO,0,2014-09-04 16:25:35 -0700,Try and make some more helper methods to make our mapPartitions example simpler,22,883
+165,42f700c,FAIL,4,NO,0,NO,0,2014-09-04 16:34:00 -0700,Add a comment about why the filter,22,883
+166,544ca32,FAIL,5,NO,0,NO,0,2014-09-04 16:38:12 -0700,More plurals,22,883
+167,544ef19,FAIL,5,NO,0,NO,0,2014-09-04 16:40:44 -0700,plurals and stuff in python,22,883
+168,00c7a5e,FAIL,4,NO,0,NO,0,2014-09-04 16:51:21 -0700,fix typo in python code,22,883
+169,2b7d8bd,FAIL,6,NO,0,NO,0,2014-09-05 13:13:20 -0700,Auto pep8ify the python code,22,883
+170,1ff9de7,FAIL,5,NO,0,NO,0,2014-09-05 13:19:27 -0700,-aaa,22,883
+171,7ba6e22,FAIL,5,NO,0,NO,0,2014-09-05 13:24:32 -0700,pep8ify the python examples,22,883
+172,b40402a,FAIL,6,NO,0,NO,0,2014-09-05 14:24:08 -0700,Add a note about the top level class restriction that I forgot about before and clarify the comments a bit more,22,883
+173,a8cc256,FAIL,19,NO,0,NO,0,2014-09-05 19:19:24 -0700,Add the spark cassandra connector,22,883
+174,c900de9,FAIL,6,NO,0,NO,0,2014-09-06 19:51:57 -0700,Start adding the cassandra example,22,883
+175,7875313,FAIL,6,NO,0,NO,0,2014-09-06 22:06:35 -0700,fix travis.yml to install -y,22,883
+176,dfc69f3,FAIL,6,NO,0,NO,0,2014-09-07 11:35:00 -0700,force yes install of dsc20,22,883
+177,dccf175,FAIL,6,NO,0,NO,0,2014-09-07 12:01:33 -0700,"this feels bad, piping yes to apt-get but w/e",22,883
+178,000d2e0,FAIL,6,NO,0,NO,0,2014-09-07 14:33:44 -0700,try running the query cassandra example as part of our travis run now that we have travis set up,22,883
+179,22655f2,FAIL,5,NO,0,NO,0,2014-09-07 15:12:06 -0700,Use a shell enviroment variable for assembly jar,22,883
+180,eb33292,FAIL,5,NO,0,NO,0,2014-09-07 15:39:40 -0700,Add a basic java query example,23,915
+181,1cb6afa,FAIL,6,NO,0,NO,0,2014-09-07 16:13:46 -0700,list of seq save,23,915
+182,f957b74,FAIL,5,NO,0,NO,0,2014-09-07 16:31:25 -0700,cqlsh setup,23,915
+183,4c62e6c,FAIL,6,NO,0,NO,0,2014-09-07 22:12:56 -0700,drop the keyspace if it already exists,22,883
+184,7400996,FAIL,5,NO,0,NO,0,2014-09-07 22:13:04 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,23,915
+185,0f45876,FAIL,6,NO,0,NO,0,2014-09-07 22:26:25 -0700,lists are more fun,23,915
+186,8e1dd06,FAIL,6,NO,0,NO,0,2014-09-07 23:01:49 -0700,change how we save,23,915
+187,3c37a30,FAIL,7,NO,0,NO,0,2014-09-07 23:09:50 -0700,don't specify somecolumns,23,915
+188,c2b1da1,FAIL,5,NO,0,NO,0,2014-09-08 12:43:26 -0700,illustrate saving from a case class,23,915
+189,6f7fea1,FAIL,5,NO,0,NO,0,2014-09-08 12:56:04 -0700,java cassandra example compiles again,23,934
+190,d1fb750,FAIL,5,NO,0,NO,0,2014-09-08 12:56:29 -0700,add java example to run-all script,23,934
+191,80f7639,FAIL,5,NO,0,NO,0,2014-09-08 13:52:56 -0700,whoops swapped test and kv in the java example,23,934
+192,1df0a01,FAIL,5,NO,0,NO,0,2014-09-08 14:14:30 -0700,add empty constructor,23,935
+193,b4653f6,FAIL,6,NO,0,NO,0,2014-09-08 14:32:30 -0700,make private,23,935
+194,0957f86,FAIL,5,NO,0,NO,0,2014-09-08 15:05:50 -0700,change the constructor for KeyValue in ajva,23,937
+195,5966018,FAIL,6,NO,0,NO,0,2014-09-08 18:23:46 -0700,happy pandas,23,936
+196,7630426,FAIL,5,NO,0,NO,0,2014-09-08 18:37:40 -0700,make inner class instead,23,936
+197,045a7c2,FAIL,5,NO,0,NO,0,2014-09-09 11:03:34 -0700,just make things public since this is just an example,23,929
+198,4585fe2,FAIL,6,NO,0,NO,0,2014-09-09 11:05:03 -0700,merge,23,928
+199,23cd53c,FAIL,5,NO,0,NO,0,2014-09-09 11:23:09 -0700,whoops make it static class,23,928
+200,3908fd4,FAIL,5,NO,0,NO,0,2014-09-09 11:38:39 -0700,add an empty constructor explicitly,23,929
+201,e42eed5,FAIL,5,NO,0,NO,0,2014-09-09 12:15:40 -0700,Add something to make a parquet file and query it with spark sql,23,929
+202,3dffcc6,FAIL,5,NO,0,NO,0,2014-09-09 12:16:25 -0700,Create and query a favourite animal parquet file,23,929
+203,f4554b3,FAIL,6,NO,0,NO,0,2014-09-09 12:17:07 -0700,make it panda friends,23,929
+204,a53bd84,FAIL,6,NO,0,NO,0,2014-09-09 12:21:13 -0700,looks like cassandra uses the accessor functions,23,933
+205,bdb4555,FAIL,6,NO,0,NO,0,2014-09-09 12:32:08 -0700,too much time writing scala code :p,23,933
+206,9127931,FAIL,5,NO,0,NO,0,2014-09-09 14:01:11 -0700,ah well,23,937
+207,42fd8ba,FAIL,7,NO,0,NO,0,2014-09-09 16:05:10 -0700,call them CallLogs not QSOs as per Matei's feedback,23,937
+208,ea3b245,FAIL,6,NO,0,NO,0,2014-09-10 09:49:19 -0700,Add a basic minimal build,23,937
+209,f761657,FAIL,6,NO,0,NO,0,2014-09-10 10:01:26 -0700,Make the mini example that we will include in ch02,23,937
+210,8620829,FAIL,6,NO,0,NO,0,2014-09-10 10:04:59 -0700,mark things as provided,23,937
+211,751700d,FAIL,6,NO,0,NO,0,2014-09-10 10:05:13 -0700,add some samples,25,985
+212,7eb9384,FAIL,5,NO,0,NO,0,2014-09-10 10:05:35 -0700,add assembly plugin,25,985
+213,2c812ac,FAIL,7,NO,0,NO,0,2014-09-10 10:06:37 -0700,remove some unecessary resolvers,25,985
+214,fa974f3,FAIL,6,NO,0,NO,0,2014-09-10 10:25:06 -0700,mvn clean compile package,25,985
+215,ed1ec9e,FAIL,6,NO,0,NO,0,2014-09-10 10:27:48 -0700,re-order the tests,25,985
+216,8de2e2b,FAIL,9,NO,0,NO,0,2014-09-10 10:41:39 -0700,magic pandas,25,985
+217,ceecde5,FAIL,10,NO,0,NO,0,2014-09-10 11:06:15 -0700,temporarily disable the cassandra examples,25,985
+218,355dd2e,FAIL,9,NO,0,NO,0,2014-09-10 11:40:06 -0700,Simplify the mini complete example and exit 0 and end of ch06 example explicitly,25,990
+219,8e5576d,FAIL,10,NO,0,NO,0,2014-09-10 11:58:13 -0700,print when reached end of run-all-examples,25,990
+220,6b566c0,FAIL,9,NO,0,NO,0,2014-09-10 12:23:48 -0700,different run,25,990
+221,e6e2c46,FAIL,9,NO,0,NO,0,2014-09-11 13:55:38 -0700,add comments,25,990
+222,e7e0567,FAIL,8,NO,0,NO,0,2014-09-11 14:08:30 -0700,more comments,25,990
+223,380f06e,FAIL,10,NO,0,NO,0,2014-09-11 14:13:18 -0700,why do I get exit 0 and build failed with 1? what?,25,990
+224,8fb4cf7,FAIL,11,NO,0,NO,0,2014-09-11 14:14:12 -0700,maaaybe thats why,25,990
+225,74c1ab3,FAIL,11,NO,0,NO,0,2014-09-11 15:17:37 -0700,hmm,25,990
+226,85f5367,FAIL,10,NO,0,NO,0,2014-09-12 12:18:45 -0700,re-org our travis build components,25,990
+227,7760b63,FAIL,10,NO,0,NO,0,2014-09-12 12:43:34 -0700,update,25,990
+228,63b161e,FAIL,11,NO,0,NO,0,2014-09-12 13:31:13 -0700,set -e in build project,25,990
+229,62bc60d,FAIL,9,NO,0,NO,0,2014-09-12 14:06:48 -0700,add README,25,990
+230,e0998cc,FAIL,9,NO,0,NO,0,2014-09-12 14:35:01 -0700,don't use assembly jars for our mini example,25,990
+231,914a019,FAIL,11,NO,0,NO,0,2014-09-12 14:45:46 -0700,simplify our sparkcontext contrusction,25,990
+232,8e50977,FAIL,10,NO,0,NO,0,2014-09-12 14:48:28 -0700,capatilization,25,990
+233,4bf054f,FAIL,10,NO,0,NO,0,2014-09-12 14:52:47 -0700,fix our build to not try and make an assembly anymopre in the mini example,25,990
+234,6d66b62,FAIL,9,NO,0,NO,0,2014-09-12 15:06:12 -0700,fix build scripts,25,990
+235,0e55601,FAIL,8,NO,0,NO,0,2014-09-13 16:44:47 -0700,be more explicit with sign prefixes (as per Mate's feedback),23,935
+236,8b5ad5e,FAIL,9,NO,0,NO,0,2014-09-13 17:09:19 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,25,989
+237,f4b4eb9,FAIL,9,NO,0,NO,0,2014-09-13 17:33:47 -0700,refactor and cleanup based on Matei's feedback,25,991
+238,6fd4eda,FAIL,10,NO,0,NO,0,2014-09-13 18:57:38 -0700,actually send the exchange to the client (a little too eager with the refactoring),25,993
+239,f36ac0f,FAIL,9,NO,0,NO,0,2014-09-14 19:27:26 -0700,Simplify the client/exchange pandas thing a bit more,25,993
+240,9ade89f,FAIL,8,NO,0,NO,0,2014-09-14 19:29:14 -0700,more comments,25,993
+241,cb257bf,FAIL,8,NO,0,NO,0,2014-09-15 11:31:01 -0700,long lines,25,990
+242,d48c198,FAIL,9,NO,0,NO,0,2014-09-15 11:31:08 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,25,993
+243,81f774a,FAIL,15,NO,0,NO,0,2014-09-16 11:09:15 -0700,upgrade to 1.1.0 from 1.02,25,993
+244,18a4802,FAIL,8,NO,0,NO,0,2014-09-17 11:39:08 -0700,Initial commit of the java 8 streaming demo app from Vida (TODO: holden port it back to Java 7),33,1433
+245,8a19318,FAIL,8,NO,0,NO,0,2014-09-17 11:40:19 -0700,move the files,33,1433
+246,8c37eb4,FAIL,9,NO,0,NO,0,2014-09-18 14:09:39 -0700,Some more progress towards porting Vida's example to JDK1.7,33,1502
+247,2ef965f,FAIL,8,NO,0,NO,0,2014-09-18 15:27:09 -0700,the java streaming example now compiles,33,1504
+248,861a1dd,FAIL,9,NO,0,NO,0,2014-09-19 18:06:33 -0700,Start adding the scala example,33,1504
+249,7855f7c,FAIL,8,NO,0,NO,0,2014-09-20 18:07:19 -0700,Add a python parquet file query example,33,1504
+250,835360e,FAIL,8,NO,0,NO,0,2014-09-20 18:39:41 -0700,oops typos,33,1504
+251,f324d4f,FAIL,9,NO,0,NO,0,2014-09-21 21:39:58 -0700,remove unecessary repo,33,1504
+252,4af5b53,FAIL,10,NO,0,NO,0,2014-09-21 23:39:23 -0700,rename to mini.java,33,1504
+253,c7a2383,FAIL,11,NO,0,NO,0,2014-09-23 16:25:01 -0700,Parse command line arguments for the loganalyzerappmain in scala,33,1504
+254,45c1283,FAIL,10,NO,0,NO,0,2014-09-23 16:25:13 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,33,1504
+255,3326e84,FAIL,9,NO,0,NO,0,2014-09-24 13:47:58 -0700,Add a simple streaming log input example in Scala,33,1504
+256,a2a6b63,FAIL,11,NO,0,NO,0,2014-09-24 14:21:52 -0700,indentation,33,1504
+257,f5bd9e7,FAIL,10,NO,0,NO,0,2014-09-24 14:22:04 -0700,Add simple streaming log input example,34,1525
+258,96ab793,FAIL,10,NO,0,NO,0,2014-09-24 14:28:06 -0700,maybe cqlsh gove moved into tools,34,1525
+259,e7a32d1,FAIL,10,NO,0,NO,0,2014-09-24 16:04:53 -0700,Fix how we were launching our streaming example,34,1526
+260,883089a,FAIL,11,NO,0,NO,0,2014-09-24 16:06:03 -0700,run the streamingloginput examples as part of our script,34,1526
+261,13121dd,FAIL,9,NO,0,NO,0,2014-09-24 16:12:52 -0700,call stop at the end,34,1527
+262,97ee90a,FAIL,10,NO,0,NO,0,2014-09-25 12:33:12 -0700,try and add the spark widget to the readme,34,1527
+263,5836518,FAIL,9,NO,0,NO,0,2014-09-25 12:38:14 -0700,ok no js,34,1527
+264,1144c53,FAIL,9,NO,0,NO,0,2014-09-25 12:39:10 -0700,better linkes,34,1527
+265,1177321,FAIL,8,NO,0,NO,0,2014-09-30 16:42:40 -0700,more streaming app funtimes,34,1527
+266,4e4c7f7,FAIL,8,NO,0,NO,0,2014-09-30 18:20:07 -0700,try installing kafka and starting a topic as part of our setup project,34,1527
+267,984bd4f,FAIL,9,NO,0,NO,0,2014-09-30 18:20:43 -0700,Add a ReadTransferStats example in Scala,34,1527
+268,abaa2d3,FAIL,9,NO,0,NO,0,2014-09-30 18:21:04 -0700,Add hte start of a java ReadTransferStats (won't work due to API bug),35,1547
+269,a71e3cb,FAIL,8,NO,0,NO,0,2014-09-30 18:22:04 -0700,oops,35,1547
+270,ba02a3a,FAIL,9,NO,0,NO,0,2014-09-30 18:59:58 -0700,basic kafka example,35,1547
+271,0f2c452,FAIL,9,NO,0,NO,0,2014-09-30 19:00:48 -0700,run the kafka example,35,1547
+272,b29543f,FAIL,8,NO,0,NO,0,2014-09-30 19:13:52 -0700,Add kafka input example,35,1547
+273,d216a7e,FAIL,8,NO,0,NO,0,2014-09-30 19:14:30 -0700,try and fix running kafka example,35,1547
+274,36c42c1,FAIL,9,NO,0,NO,0,2014-10-01 13:51:35 -0700,try and run the kafka examples in travis,35,1547
+275,031e3c8,FAIL,12,NO,0,NO,0,2014-10-01 14:11:10 -0700,kafka streaming ins't provided.,35,1547
+276,5799f73,FAIL,9,NO,0,NO,0,2014-10-01 14:57:07 -0700,fix our kafka start,35,1547
+277,f171daa,FAIL,10,NO,0,NO,0,2014-10-01 15:21:33 -0700,typos suck,35,1547
+278,1a053b0,FAIL,8,NO,0,NO,0,2014-10-01 15:44:21 -0700,Add Java KafkaInput example,36,1575
+279,01de69e,FAIL,9,NO,0,NO,0,2014-10-01 15:49:29 -0700,Add the fakelogs script to the repo,36,1575
+280,2d8253f,FAIL,9,NO,0,NO,0,2014-10-01 20:49:14 -0700,some progress on flume,36,1575
+281,2ed3d94,FAIL,9,NO,0,NO,0,2014-10-02 13:54:47 -0700,try and setup flume for our run-all-examples bits and parallelize some of our setup downloads,36,1575
+282,5ac0d41,FAIL,9,NO,0,NO,0,2014-10-02 14:11:41 -0700,install time,36,1575
+283,9b4c818,FAIL,8,NO,0,NO,0,2014-10-02 14:27:45 -0700,missing sudo,36,1575
+284,0743389,FAIL,9,NO,0,NO,0,2014-10-02 14:28:37 -0700,s/waitpid/wait/,36,1575
+285,9690658,FAIL,9,NO,0,NO,0,2014-10-02 14:45:51 -0700,fix sparkhome,36,1575
+286,a9ba55f,FAIL,9,NO,0,NO,0,2014-10-02 15:06:19 -0700,fix the dl link for spark 1.1.0,36,1575
+287,fdee058,FAIL,9,NO,0,NO,0,2014-10-02 15:12:21 -0700,less log messages about updates and dls,36,1575
+288,9ff5a8f,FAIL,8,NO,0,NO,0,2014-10-02 15:20:51 -0700,debug setup,36,1575
+289,c59b6a2,FAIL,9,NO,0,NO,0,2014-10-02 15:30:26 -0700,handle the fact that the dls finish before we get to wait often,36,1575
+290,745cd0c,FAIL,9,NO,0,NO,0,2014-10-02 15:47:47 -0700,look at the dl log,36,1575
+291,8f4e2fa,FAIL,13,NO,0,NO,0,2014-10-02 15:50:33 -0700,use regular redirect,36,1575
+292,06404ae,FAIL,9,NO,0,NO,0,2014-10-02 15:51:28 -0700,use bash,36,1575
+293,0df46cd,FAIL,11,NO,0,NO,0,2014-10-02 15:55:26 -0700,Fix our waits and re-order to take slightly more advantage of stuff,36,1575
+294,f6d9be3,FAIL,10,NO,0,NO,0,2014-10-02 16:01:06 -0700,"oops not so smart that last one, fix the pid we wait on",36,1575
+295,1b6391d,FAIL,11,NO,0,NO,0,2014-10-02 16:25:25 -0700,try and give actual msgs,36,1575
+296,f89b4a2,FAIL,10,NO,0,NO,0,2014-10-02 16:25:48 -0700,sleep a second,36,1575
+297,c859edc,FAIL,10,NO,0,NO,0,2014-10-02 17:09:37 -0700,be slightly less chatty,36,1575
+298,ab3ca8a,FAIL,10,NO,0,NO,0,2014-10-02 17:17:58 -0700,stop using yes to force install hopefully this works,36,1575
+299,5dcdd46,FAIL,11,NO,0,NO,0,2014-10-02 17:19:24 -0700,no need for tar to be verbose,36,1575
+300,023b024,FAIL,9,NO,0,NO,0,2014-10-02 17:29:49 -0700,move params,36,1575
+301,d254348,FAIL,10,NO,0,NO,0,2014-10-02 17:43:48 -0700,y and force yes still arent enough,36,1575
+302,0af6f59,FAIL,10,NO,0,NO,0,2014-10-02 17:48:09 -0700,remove old cassandra,36,1575
+303,29670ba,FAIL,9,NO,0,NO,0,2014-10-02 17:57:28 -0700,I give up lets just pipe yes to it,36,1575
+304,95b205d,FAIL,9,NO,0,NO,0,2014-10-03 11:30:07 -0700,Fix our flume config,36,1575
+305,168c10a,FAIL,8,NO,0,NO,0,2014-10-03 13:50:41 -0700,Add the FlumeInput scala example jar,36,1575
+306,6de14c2,FAIL,8,NO,0,NO,0,2014-10-03 14:05:23 -0700,oops I guess that code didn't compile. Fix the FlumeInput example,36,1575
+307,6093520,FAIL,9,NO,0,NO,0,2014-10-03 14:29:05 -0700,print the results,36,1575
+308,3eba8d2,FAIL,8,NO,0,NO,0,2014-10-03 14:30:28 -0700,more chatty flume input,36,1575
+309,ea9c81d,FAIL,8,NO,0,NO,0,2014-10-06 10:54:46 -0700,wait more and push more elements in to flume,36,1575
+310,8eaeb4b,FAIL,9,NO,0,NO,0,2014-10-06 16:51:54 -0700,Update log analyzer example,36,1576
+311,09e05a2,FAIL,8,NO,0,NO,0,2014-10-08 17:04:18 -0700,Update log example,36,1600
+312,d838e9f,FAIL,9,NO,0,NO,0,2014-10-10 17:07:24 -0700,Add a LoadJsonWithSparkSQL example in Scala,36,1600
+313,cfadf75,FAIL,9,NO,0,NO,0,2014-10-10 17:08:42 -0700,Add a LoadJsonWithSparkSQL example in Scala,36,1600
+314,dcbcd1a,FAIL,9,NO,0,NO,0,2014-10-10 17:27:00 -0700,whoops missing assembly jar,36,1600
+315,f8f591f,FAIL,9,NO,0,NO,0,2014-10-12 15:18:49 -0700,=3,36,1600
+316,66ef5bb,FAIL,10,NO,0,NO,0,2014-10-12 15:19:08 -0700,add java version,37,1627
+317,1422340,FAIL,10,NO,0,NO,0,2014-10-13 10:26:55 -0700,Add responsecodecounttransform,36,1604
+318,4bfb85f,FAIL,9,NO,0,NO,0,2014-10-13 10:27:03 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,37,1631
+319,1c96ff8,FAIL,8,NO,0,NO,0,2014-10-13 10:27:43 -0700,i don't know why I thought that was a three. more coffee!,37,1631
+320,ea9d115,FAIL,8,NO,0,NO,0,2014-10-21 08:49:36 -0700,Check for lovesPandas keys,37,1631
+321,e97ba2c,FAIL,8,NO,0,NO,0,2014-10-21 09:30:12 -0700,Add a scala transform example,37,1631
+322,984336a,FAIL,8,NO,0,NO,0,2014-10-21 11:22:21 -0700,add reducebykeyandwindow,37,1631
+323,c31e830,FAIL,8,NO,0,NO,0,2014-10-21 11:36:57 -0700,add reducebykeyandwindow example for java,37,1645
+324,0ddfa20,FAIL,9,NO,0,NO,0,2014-10-21 16:37:44 -0700,Add compute running sum example in scala for log analyzer panda thing,37,1645
+325,9889412,FAIL,9,NO,0,NO,0,2014-10-27 21:30:29 -0700,output pandas,37,1631
+326,d2f63f6,FAIL,8,NO,0,NO,0,2014-10-27 22:49:32 -0700,save sequence files,37,1631
+327,22291dc,FAIL,9,NO,0,NO,0,2014-10-29 13:39:46 -0700,add java ipaddress dstream example withotu transform and add scala ipaddress join example,37,1647
+328,273be27,FAIL,8,NO,0,NO,0,2014-10-29 13:53:15 -0700,add java ipaddress dstream example withotu transform and add scala ipaddress join example,37,1654
+329,fab1e1a,FAIL,8,NO,0,NO,0,2014-10-29 14:07:15 -0700,Add the dstream join in Java example,37,1654
+330,f64116c,FAIL,8,NO,0,NO,0,2014-10-29 14:07:22 -0700,Merge branch 'master' of github.com:holdenk/learning-spark-examples,37,1654
+331,a203bb8,FAIL,9,NO,0,NO,0,2014-10-29 16:27:47 -0700,Add saving to sequence files for Java,37,1673
+332,4d66998,FAIL,8,NO,0,NO,0,2014-11-04 19:38:20 -0800,Start adding the Spark SQL Twitter example (will modify),37,1673
+333,e5ae29a,FAIL,8,NO,0,NO,0,2014-11-04 19:57:25 -0800,Add the Spark SQL Java example,38,1685
+334,f032f45,FAIL,8,NO,0,NO,0,2014-11-05 11:04:19 -0800,Add the start of Spark SQL twitter demo in python,38,1685
+335,cbc0f36,FAIL,9,NO,0,NO,0,2014-11-05 13:44:52 -0800,run the spark sql example,38,1685
+336,ea91458,FAIL,8,NO,0,NO,0,2014-11-05 15:39:37 -0800,More progress on all of the SQL demos,38,1696
+337,57b360d,FAIL,9,NO,0,NO,0,2014-11-05 16:22:07 -0800,Add the test tweet,38,1696
+338,6858c4b,FAIL,9,NO,0,NO,0,2014-11-05 16:42:06 -0800,select just text and retweet count,38,1696
+339,903d3a2,FAIL,9,NO,0,NO,0,2014-11-05 16:43:17 -0800,omnomnomnom directories. oh man I'm going to eat a burrito soon. I wonder if anyone else will read this commit message. If you do: burritos are delicious,38,1696
+340,c358559,FAIL,9,NO,0,NO,0,2014-11-05 20:11:46 -0800,Extract the text,38,1702
+341,26ca5aa,FAIL,9,NO,0,NO,0,2014-11-05 20:28:23 -0800,add a happyperson case class,38,1702
+342,c05eded,FAIL,9,NO,0,NO,0,2014-11-05 22:54:06 -0800,make happy,38,1702
+343,ebe9ebc,FAIL,10,NO,0,NO,0,2014-11-05 23:20:48 -0800,Add a JavaBean based Spark SQL example,39,1714
+344,9f915cd,FAIL,11,NO,0,NO,0,2014-11-05 23:20:58 -0800,Add a JavaBean based Spark SQL example,39,1720
+345,449604a,FAIL,9,NO,0,NO,0,2014-11-06 23:06:08 -0800,yay windows support,39,1720
+346,d906304,FAIL,9,NO,0,NO,0,2014-11-07 10:59:06 -0800,Add the fake log files,38,1702
+347,2ae10b0,FAIL,10,NO,0,NO,0,2014-11-07 11:05:36 -0800,Merge branch 'master' of github.com:holdenk/learning-spark-examples,39,1720
+348,7180ce4,FAIL,10,NO,0,NO,0,2014-11-07 11:10:28 -0800,echo log lines,39,1720
+349,ab10faf,FAIL,9,NO,0,NO,0,2014-11-07 14:45:22 -0800,Add UDFS to SQL example in Scala and Python. In Python add constructing a schema RDD from an in-memory collection,39,1720
+350,06ea2ae,FAIL,11,NO,0,NO,0,2014-11-07 15:28:45 -0800,Java UDF example,39,1731
+351,868c79b,FAIL,9,NO,0,NO,0,2014-11-09 20:49:07 -0800,set codegen on,39,1731
+352,71203ac,FAIL,10,NO,0,NO,0,2014-11-09 21:34:51 -0800,import the type we were using,39,1731
+353,74bec66,FAIL,10,NO,0,NO,0,2014-11-10 17:43:00 -0800,move our examples over to use the hive context,39,1731
+354,f7ebf0d,FAIL,10,NO,0,NO,0,2014-11-10 17:46:29 -0800,more hive. all the hive. omnomnom hive,39,1731
+355,c55ec11,FAIL,9,NO,0,NO,0,2014-11-10 17:47:29 -0800,merge from master,39,1731
+356,92b36d2,FAIL,8,NO,0,NO,0,2014-11-19 23:20:31 -0800,Creating StreamingContext with SparkConf instead of SparkContext,39,1729
+357,9e3b082,FAIL,10,NO,0,NO,0,2014-11-22 01:50:03 -0800,Added Java version of LoadJsonWithSparkSQL in run-all-examples,39,1729
+358,0e8b946,FAIL,9,NO,0,NO,0,2014-11-23 14:06:03 -0800,hql() is deprecated now. Using the sql function,39,1729
+359,0f108fb,FAIL,9,NO,0,NO,0,2014-11-23 14:13:31 -0800,Removed unnecessary package names for SQLContext() and HiveContext(),39,1729
+360,00a5094,FAIL,10,NO,0,NO,0,2014-11-26 13:33:47 -0800,Merge pull request #1 from mrt/fixes,39,1729
+361,d5ca87c,FAIL,9,NO,0,NO,0,2014-11-26 13:34:59 -0800,update the SparkSQLTwitter example,39,1729
+362,ce1620a,FAIL,10,NO,0,NO,0,2014-11-26 13:36:16 -0800,ipAddress -> ip,39,1729
+363,13c39f2,FAIL,10,NO,0,NO,0,2014-12-10 13:00:08 -0800,Change requirements for the examples to JDK 1.7,39,1729
+364,658b473,FAIL,10,NO,0,NO,0,2014-12-11 17:52:20 -0800,add a happypandas file,39,1729
+365,ec60b08,FAIL,9,NO,0,NO,0,2014-12-12 12:12:12 -0800,Initial check-in of Joseph's MLlib example,40,1764
+366,501af31,FAIL,13,NO,0,NO,0,2014-12-12 12:20:34 -0800,Change the packages and move the pipeline example to disabled until 1.2.0 ships,40,1764
+367,4cc3c69,FAIL,10,NO,0,NO,0,2014-12-12 14:09:17 -0800,enable pipefail and explicitly start cassandra,40,1764
+368,46e9315,FAIL,11,NO,0,NO,0,2014-12-12 14:39:23 -0800,murh,40,1764
+369,d649e44,FAIL,10,NO,0,NO,0,2014-12-12 14:49:48 -0800,use container pre-install cassandra?,40,1764
+370,4c4438e,FAIL,10,NO,0,NO,0,2014-12-12 15:07:21 -0800,really use system cassandra,40,1764
+371,422ab53,FAIL,10,NO,0,NO,0,2015-01-14 11:11:24 -0800,remove the output variable we were not using (thanks to Deborah Siegel for pointing this out),40,1764
+372,ae084e1,FAIL,10,NO,0,NO,0,2015-02-03 16:08:38 -0800,Add a simple write example,40,1764
+373,2aade6c,FAIL,4,NO,0,NO,0,2015-02-03 16:08:46 -0800,tests are fun,40,1764
+374,c864b29,FAIL,4,NO,0,NO,0,2015-02-03 19:45:39 -0800,add missing print now that refactored StreamingLogInput,40,1764
+375,d9e9950,FAIL,4,NO,0,NO,0,2015-02-04 11:53:23 -0800,oops remove some junk code,40,1764
+376,0ea3a4e,FAIL,5,NO,0,NO,0,2015-02-05 14:23:36 -0800,add a trivial test,40,1764
+377,f495c4e,FAIL,4,NO,0,NO,0,2015-02-24 00:22:12 -0800,Fixing small typo,40,1764
+378,b7f89d1,FAIL,4,NO,0,NO,0,2015-02-24 00:25:42 -0800,Fixing another typo,40,1764
+379,fd448f8,FAIL,5,NO,0,NO,0,2015-03-17 12:17:48 -0700,upgrade to 1.3,40,1764
+380,8c5413a,FAIL,4,NO,0,NO,0,2015-03-17 13:02:39 -0700,Upgrade to Spark 1.3,40,1769
+381,68008d5,FAIL,4,NO,0,NO,0,2015-03-17 14:16:47 -0700,Fix SPARK_HOME used in run-all-examples,40,1769
+382,417e08e,FAIL,5,NO,0,NO,0,2015-03-17 15:05:42 -0700,"Revert ""Fix SPARK_HOME used in run-all-examples""",40,1769
+383,d8ce044,FAIL,4,NO,0,NO,0,2015-03-17 15:05:44 -0700,"Revert ""Upgrade to Spark 1.3""",40,1764
+384,b824b15,FAIL,4,NO,0,NO,0,2015-03-17 15:05:45 -0700,"Revert ""upgrade to 1.3""",40,1764
+385,fac359e,FAIL,5,NO,0,NO,0,2015-03-23 14:27:28 -0700,Solve serialization problem for Jackson ObjectMapper,40,1764
+386,4a1a7c7,FAIL,3,NO,0,NO,0,2015-03-30 11:52:46 -0700,fix the ham file,40,1764
+387,a32c9a8,FAIL,5,NO,0,NO,0,2015-03-30 11:53:14 -0700,fix the spam file,40,1764
+388,13f5e8b,FAIL,4,NO,0,NO,0,2015-03-17 15:06:34 -0700,"Revert ""Revert ""upgrade to 1.3""""",40,1764
+389,69b1394,FAIL,5,NO,0,NO,0,2015-03-17 15:06:38 -0700,"Revert ""Revert ""Upgrade to Spark 1.3""""",40,1769
+390,96f75dd,FAIL,5,NO,0,NO,0,2015-03-17 15:06:42 -0700,"Revert ""Revert ""Fix SPARK_HOME used in run-all-examples""""",40,1769
+391,41025a0,FAIL,4,NO,0,NO,0,2015-03-17 16:06:11 -0700,Different mapper,40,1769
+392,7bde05c,FAIL,4,NO,0,NO,0,2015-03-17 16:43:27 -0700,We need absolute paths now :(,40,1769
+393,9d0eb58,FAIL,5,NO,0,NO,0,2015-03-17 17:20:50 -0700,And in python as well we need absolute paths for addFile,40,1769
+394,6ddbdef,FAIL,4,NO,0,NO,0,2015-04-01 11:40:44 -0700,Add missing import to chapter six example,40,1769
+395,017aa00,FAIL,5,NO,0,NO,0,2015-04-01 13:51:46 -0700,Fix IntegerType import for Spark SQL,40,1769
+396,fdc5dbe,FAIL,6,NO,0,NO,0,2015-04-01 14:22:40 -0700,upgrade sbt version,40,1769
+397,7244264,FAIL,5,NO,0,NO,0,2015-04-01 14:25:32 -0700,Disable cassandra setup since we aren't running the cassandra examples,40,1769
+398,98c4d57,FAIL,5,NO,0,NO,0,2015-04-01 14:50:47 -0700,We can't provide relative paths anymore,40,1769
+399,596b9b2,FAIL,4,NO,0,NO,0,2015-04-21 22:02:08 -0700,Merge pull request #2 from aalkilani/patch-1,40,1769
+400,a34dc34,FAIL,5,NO,0,NO,0,2015-04-21 22:02:26 -0700,Merge pull request #1 from cesararevalo/master,40,1769
+401,c1aeef0,FAIL,4,NO,0,NO,0,2015-06-30 13:25:50 -0700,Upgrade to 1.3.1,40,1769
+402,0b249c4,FAIL,4,NO,0,NO,0,2015-08-19 12:38:51 -0700,curl and rdrs aren't supper happy,40,1769
+403,4dbf508,FAIL,4,NO,0,NO,0,2015-08-19 12:39:53 -0700,but still handle falling back to curl with extra -L,40,1769
+404,161a8a0,FAIL,6,NO,0,NO,0,2015-08-19 12:43:57 -0700,fix axel usage and use sbt 0.13.7,40,1769
+405,3b7c51c,FAIL,4,NO,0,NO,0,2015-08-19 13:24:33 -0700,Use same sbt script for mini project,40,1769
+406,aa6446f,FAIL,4,NO,0,NO,0,2015-08-19 13:30:43 -0700,and for some reason axel wgets a 403 from typesafe :(,40,1769
+407,3a78078,FAIL,4,NO,0,NO,0,2015-08-19 13:43:26 -0700,"Increase build size, dl spark 1.3.1 to match sbt build script",40,1769
+408,4012338,FAIL,4,NO,0,NO,0,2015-08-19 14:00:14 -0700,use parent's spark home,40,1769
+409,b70c5c5,FAIL,4,NO,0,NO,0,2015-08-19 14:41:26 -0700,Fix the errors that we introduced in the databricks version (seems like maybe a merge issue),40,1769
+410,bd3975b,FAIL,4,NO,0,NO,0,2015-09-08 19:02:40 +0900,directly use Configuration instead of getting from job in BasicSaveProtobuf example,40,1769
+411,56f51d3,SUCCESS,74,SUCCESS,8,SUCCESS,7,2015-09-10 09:43:47 -0400,Fixed maven dependency artifact names and added scala.binary.version property,40,1769
+412,fb07383,SUCCESS,13,SUCCESS,8,SUCCESS,8,2015-10-29 18:13:36 -0700,Merge pull request #10 from shimizust/pomfix,40,1769
+413,13dca89,SUCCESS,16,SUCCESS,8,SUCCESS,9,2015-10-29 18:14:57 -0700,Merge pull request #7 from huydx/master,40,1769
+414,1a3e765,SUCCESS,15,SUCCESS,9,SUCCESS,9,2016-01-27 14:32:05 +0000,Fix warn filter,40,1769
+415,6b34161,SUCCESS,14,SUCCESS,7,SUCCESS,9,2016-01-28 13:05:36 -0800,Merge pull request #17 from tabdulradi/patch-1,40,1769

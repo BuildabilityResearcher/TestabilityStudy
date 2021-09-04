@@ -1,0 +1,337 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,39b8cbc,FAIL,0,NO,0,NO,0,2012-06-29 22:14:23 -0700,Initial commit,0,0
+1,91bb63b,FAIL,0,NO,0,NO,0,2012-06-29 22:25:45 -0700,Initial push to GitHub!,10,2496
+2,3c4743f,FAIL,0,NO,0,NO,0,2012-06-29 22:31:21 -0700,Update master,10,2496
+3,731709a,FAIL,0,NO,0,NO,0,2012-07-01 00:10:18 -0700,First attempt at integrating the compatibility version of ActionBarSherlock into the above view.,147,19865
+4,b3b33e4,FAIL,0,NO,0,NO,0,2012-07-01 00:13:10 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,147,19865
+5,5adcebe,FAIL,0,NO,0,NO,0,2012-07-01 00:30:23 -0700,Added a test menu to the actionbar. Toggle on 'Up' pressed. The ActionBar background is still messed up.,147,19870
+6,7ce9f11,FAIL,0,NO,0,NO,0,2012-07-01 01:16:50 -0700,Removing ActionBarCompat stuff.,143,19457
+7,d5732a5,FAIL,0,NO,0,NO,0,2012-07-01 02:08:12 -0700,Reading stuff from xml to configure the SlidingMenu.,143,19472
+8,91c1570,FAIL,0,NO,0,NO,0,2012-07-01 02:17:04 -0700,Fixing up everything.,143,19468
+9,e6089a1,FAIL,0,NO,0,NO,0,2012-07-02 22:02:08 -0700,Update master,143,19468
+10,4cc34d8,FAIL,0,NO,0,NO,0,2012-07-02 22:02:37 -0700,Update master,143,19468
+11,9ab8b09,FAIL,0,NO,0,NO,0,2012-07-02 22:02:57 -0700,Update master,143,19468
+12,42add76,FAIL,0,NO,0,NO,0,2012-07-02 22:05:55 -0700,Update master,143,19468
+13,ff27a20,FAIL,0,NO,0,NO,0,2012-07-02 22:10:13 -0700,Update master,143,19468
+14,68b8a9d,FAIL,0,NO,0,NO,0,2012-07-02 22:17:07 -0700,Update master,143,19468
+15,7df7460,FAIL,0,NO,0,NO,0,2012-07-02 22:26:22 -0700,Update master,143,19468
+16,372db1b,FAIL,0,NO,0,NO,0,2012-07-02 22:27:32 -0700,Update master,143,19468
+17,24ba59f,FAIL,0,NO,0,NO,0,2012-07-02 22:28:04 -0700,Update master,143,19468
+18,2593649,FAIL,0,NO,0,NO,0,2012-07-02 22:29:35 -0700,Update master,143,19468
+19,3a8293f,FAIL,0,NO,0,NO,0,2012-07-02 22:29:53 -0700,Update master,143,19468
+20,d400678,FAIL,0,NO,0,NO,0,2012-07-02 22:30:18 -0700,Update master,143,19468
+21,ecc4223,FAIL,0,NO,0,NO,0,2012-07-02 22:31:06 -0700,Update master,143,19468
+22,725460e,FAIL,0,NO,0,NO,0,2012-07-02 22:32:47 -0700,Update master,143,19468
+23,5ffecc2,FAIL,0,NO,0,NO,0,2012-07-02 22:34:04 -0700,Update master,143,19468
+24,a965956,FAIL,0,NO,0,NO,0,2012-07-02 22:36:18 -0700,Update master,143,19468
+25,790f29d,FAIL,0,NO,0,NO,0,2012-07-02 22:37:49 -0700,Update master,143,19468
+26,55aad43,FAIL,0,NO,0,NO,0,2012-07-02 22:41:06 -0700,Update master,143,19468
+27,66f0b01,FAIL,0,NO,0,NO,0,2012-07-03 08:34:55 -0700,Moving packages around to make more sense.wq,145,19475
+28,a2e4f6f,FAIL,0,NO,0,NO,0,2012-07-03 08:35:13 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,145,19475
+29,4eb91dc,FAIL,0,NO,0,NO,0,2012-07-04 10:13:24 -0700,SlidingFragmentActivity works. Getting a null pointer with SlidingListActivity. Don't know what's up there...,148,19792
+30,2499000,FAIL,0,NO,0,NO,0,2012-07-04 10:14:50 -0700,Updated .gitignoe. We don't want metadata. ARGH,148,19792
+31,b2311b8,FAIL,0,NO,0,NO,0,2012-07-04 10:30:35 -0700,Little bug fix when inserting the xml defined viewAbove into a SlidingMenu.,148,19789
+32,f8fe3f7,FAIL,0,NO,0,NO,0,2012-07-04 11:34:00 -0700,now with tabs.,148,19804
+33,3c424c4,FAIL,0,NO,0,NO,0,2012-07-04 11:36:34 -0700,Updated gitignore,148,19804
+34,9e66cf0,FAIL,0,NO,0,NO,0,2012-07-04 11:42:31 -0700,Actually doing something on tab selection.,148,19814
+35,0f00680,FAIL,0,NO,0,NO,0,2012-07-05 10:47:40 -0700,Cleaning up behind the scenes things. More refactoring to come.,148,19801
+36,5a07829,FAIL,0,NO,0,NO,0,2012-07-05 13:06:59 -0700,Update master,148,19801
+37,3dc0234,FAIL,0,NO,0,NO,0,2012-07-08 22:55:00 -0700,Added fullscreen touch mode. Now you can set if the entire screen is a valid touch to slide the menu open.,148,19839
+38,782bdc3,FAIL,0,NO,0,NO,0,2012-07-08 22:55:14 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,148,19839
+39,941fd12,FAIL,0,NO,0,NO,0,2012-07-09 08:54:58 -0700,Now you can enable and disable the SlidingMenu,148,19842
+40,eee62fe,FAIL,0,NO,0,NO,0,2012-07-09 08:58:23 -0700,Now you can enable and disable the SlidingMenu,148,19843
+41,739ca38,FAIL,0,NO,0,NO,0,2012-07-09 22:13:47 -0700,Update master,148,19843
+42,de94ade,FAIL,0,NO,0,NO,0,2012-07-09 22:18:58 -0700,Update master,148,19843
+43,6fc993e,FAIL,0,NO,0,NO,0,2012-07-09 23:04:24 -0700,Update master,148,19843
+44,03dce04,FAIL,0,NO,0,NO,0,2012-07-09 23:05:18 -0700,Forgot to push these before,148,19841
+45,fd9e499,FAIL,0,NO,0,NO,0,2012-07-09 23:05:32 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,148,19841
+46,1701264,FAIL,0,NO,0,NO,0,2012-07-09 23:08:08 -0700,Update master,148,19841
+47,716c3b1,FAIL,0,NO,0,NO,0,2012-07-11 23:06:00 -0700,Removed the need for an Adapter. Made the behind view a subclass of the above view. That is not working 100% correctly yet.,149,19839
+48,37b341f,FAIL,0,NO,0,NO,0,2012-07-12 00:28:33 -0700,Having issues with laying out the 'window' in the CustomAboveView,149,19839
+49,d30de3f,FAIL,0,NO,0,NO,0,2012-07-12 00:35:48 -0700,xml defined touch modes,149,19843
+50,b77a203,FAIL,0,NO,0,NO,0,2012-07-12 00:40:42 -0700,fixing naming convention,149,19844
+51,6249663,FAIL,0,NO,0,NO,0,2012-07-12 01:34:40 -0700,Now working with CustomViewBehind2. Methods calls not as initially planned. Must go back and fix.,149,19846
+52,274b81a,FAIL,0,NO,0,NO,0,2012-07-12 01:48:31 -0700,Finally sorted everything out with behind inheriting from above,149,19848
+53,225cd69,FAIL,0,NO,0,NO,0,2012-07-12 08:41:22 -0700,Update master,148,19841
+54,696edca,FAIL,0,NO,0,NO,0,2012-07-13 01:08:03 -0700,Tricking ActionBarSherlock. No longer need my custom installDecor method exposed.,150,19988
+55,0201803,FAIL,0,NO,0,NO,0,2012-07-13 01:55:12 -0700,Fixing up the Activities. Preference activity not done yet.,154,19875
+56,610bdee,FAIL,0,NO,0,NO,0,2012-07-13 01:56:02 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,154,19875
+57,e23d39e,FAIL,0,NO,0,NO,0,2012-07-13 01:59:08 -0700,Making CustomViewBehind2 CustomViewBehind and getting rid of the original,154,19138
+58,859f12a,FAIL,0,NO,0,NO,0,2012-07-13 01:59:47 -0700,Removing CustomViewBehind2,153,19095
+59,897b74b,FAIL,0,NO,0,NO,0,2012-07-14 17:55:37 -0700,Working on disabling the above view when the behind view is showing. All that's left is to open the above view on a click,153,19089
+60,5265549,FAIL,0,NO,0,NO,0,2012-07-14 18:12:14 -0700,Little bug fix for TOUCHMODE_FULLSCREEN,153,19089
+61,7832d7f,FAIL,0,NO,0,NO,0,2012-07-15 11:28:13 -0700,Untested SlidingMapActivity,154,19131
+62,0d6964d,FAIL,0,NO,0,NO,0,2012-07-15 11:52:32 -0700,Close the menu on a touch of the above view now implemented,154,19137
+63,0078346,FAIL,0,NO,0,NO,0,2012-07-16 20:33:20 -0700,Remove tablet specific layout for now.,154,19137
+64,76e5348,FAIL,0,NO,0,NO,0,2012-07-16 20:49:33 -0700,Removing unnecessary resources.,154,19137
+65,a7029ef,FAIL,0,NO,0,NO,0,2012-07-16 20:55:45 -0700,Removing the adapter. No need for it anymore,153,19056
+66,7d923ca,FAIL,0,NO,0,NO,0,2012-07-16 20:59:21 -0700,Pushing v13 android support package,153,19056
+67,41c129e,FAIL,0,NO,0,NO,0,2012-07-16 21:00:00 -0700,Need this too,153,19056
+68,cdcc14b,FAIL,0,NO,0,NO,0,2012-07-16 21:10:10 -0700,Fixing files for ActionBarSherlock,97,15756
+69,ffe954a,FAIL,0,NO,0,NO,0,2012-07-17 07:46:14 -0700,It now makes a default list in SlidingListActivity,97,15760
+70,854b01f,FAIL,0,NO,0,NO,0,2012-07-17 11:17:58 -0700,SlidingListActivity fix suggested by iNdieboyjeff,97,15761
+71,41a2afa,FAIL,0,NO,0,NO,0,2012-07-17 13:07:24 -0700,Forgot import ListView,97,15762
+72,982b5c0,FAIL,0,NO,0,NO,0,2012-07-17 21:23:06 -0700,Bug fixes for SlidingActivity and getting rid of setContentView methods,98,15745
+73,e834577,FAIL,0,NO,0,NO,0,2012-07-17 22:17:27 -0700,Updated gitignore?,98,15745
+74,3b56d06,FAIL,0,NO,0,NO,0,2012-07-17 22:20:44 -0700,Removing binary and gen files,98,15745
+75,700f323,FAIL,0,NO,0,NO,0,2012-07-18 12:18:24 -0700,Make sure setBehindContentView is called in onCreate,98,15744
+76,0d246de,FAIL,0,NO,0,NO,0,2012-07-18 14:51:08 -0700,PinnedHeaderListView from Android Contacts app,103,16510
+77,52bcb09,FAIL,0,NO,0,NO,0,2012-07-19 16:28:32 -0700,Drop shadows. Woo.,98,15743
+78,41c5996,FAIL,0,NO,0,NO,0,2012-07-20 08:41:08 -0700,Update README.md,98,15743
+79,c8901a3,FAIL,0,NO,0,NO,0,2012-07-20 09:16:51 -0700,New drop shadow example,98,15756
+80,7886f39,FAIL,0,NO,0,NO,0,2012-07-20 09:17:02 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,98,15756
+81,60028d2,FAIL,0,NO,0,NO,0,2012-07-22 02:18:58 -0700,Moving away from ABS dependency,96,15606
+82,14e5d33,FAIL,0,NO,0,NO,0,2012-07-22 02:42:16 -0700,Can now enable and disable the sliding ActionBar,96,15635
+83,8088844,FAIL,0,NO,0,NO,0,2012-07-22 03:30:13 -0700,Little bug fixes. BehindView still extends too far,96,15638
+84,c7945d6,FAIL,0,NO,0,NO,0,2012-07-22 12:11:54 -0700,Taking out fading for now. Too many bugs.,96,15644
+85,4e67f36,FAIL,0,NO,0,NO,0,2012-07-22 12:16:37 -0700,Updating all activities.,96,15672
+86,69d34f5,FAIL,0,NO,0,NO,0,2012-07-22 12:26:54 -0700,Fixing SlidingListActivity,96,15675
+87,8b3e1ca,FAIL,0,NO,0,NO,0,2012-07-24 15:40:35 -0700,No longer need the patched ABS. SlidingMenu is standalone. Booyah.,15,1582
+88,91f54a2,FAIL,0,NO,0,NO,0,2012-07-24 16:00:54 -0700,Build version check,15,1584
+89,57872f1,FAIL,0,NO,0,NO,0,2012-07-24 16:46:37 -0700,Top margin hack for Sliding ActionBar,15,1627
+90,d2d612b,FAIL,0,NO,0,NO,0,2012-07-24 18:05:40 -0700,Moving all Activities away from Sherlock,15,1621
+91,bd0b518,FAIL,0,NO,0,NO,0,2012-07-24 18:21:07 -0700,rolling back a couple,15,1626
+92,5cf463d,FAIL,0,NO,0,NO,0,2012-07-24 18:21:41 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,15,1621
+93,1cd62ec,FAIL,0,NO,0,NO,0,2012-07-24 18:27:06 -0700,Stupid commenting out error...,15,1622
+94,1853a11,FAIL,0,NO,0,NO,0,2012-07-24 18:44:57 -0700,Updated examples that don't use Sherlock.,15,1623
+95,a17ec94,FAIL,0,NO,0,NO,0,2012-07-24 20:04:04 -0700,Update README.md,15,1623
+96,57eb02d,FAIL,0,NO,0,NO,0,2012-07-24 20:28:39 -0700,Updated ExampleActivity2,15,1623
+97,e0a3cb2,FAIL,0,NO,0,NO,0,2012-07-24 20:28:51 -0700,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,15,1623
+98,bdda515,FAIL,0,NO,0,NO,0,2012-07-25 11:59:33 +0200,Update README.md,15,1623
+99,d62e49b,FAIL,0,NO,0,NO,0,2012-07-25 07:42:42 -0700,Merge pull request #23 from chrisjenx/patch-1,15,1623
+100,62ae5d4,FAIL,0,NO,0,NO,0,2012-07-25 14:52:05 -0400,Added Log DEBUG flag check in CustomViewAbove onMeasure and onLayout.,15,1623
+101,72e2c9c,FAIL,0,NO,0,NO,0,2012-07-25 11:58:04 -0700,Merge pull request #24 from iPaulPro/master,15,1623
+102,e44c1d3,FAIL,0,NO,0,NO,0,2012-07-25 16:47:12 -0700,No more above view with transparent background issue,15,1621
+103,2d19a64,FAIL,0,NO,0,NO,0,2012-07-25 16:48:12 -0700,Merge,15,1621
+104,86f9e87,FAIL,0,NO,0,NO,0,2012-07-25 16:50:00 -0700,Example changes,15,1621
+105,678c9e4,FAIL,0,NO,0,NO,0,2012-07-26 00:42:56 -0700,Fixed the ABS setSlidingActionBarEnabled(false) bug on pre-ICS devices,15,1624
+106,45516d7,FAIL,0,NO,0,NO,0,2012-07-26 10:25:40 -0700,Update README.md,15,1624
+107,a6ced13,FAIL,0,NO,0,NO,0,2012-07-26 15:18:33 -0700,project.properties missing. New OnOpen and OnCloseListeners,15,1644
+108,cd7aeb4,FAIL,0,NO,0,NO,0,2012-07-27 11:16:33 -0700,Rename setFitsSystemWindows,15,1643
+109,39cdff5,FAIL,0,NO,0,NO,0,2012-07-27 17:22:25 -0700,Update README.md,15,1643
+110,a9484cb,FAIL,0,NO,0,NO,0,2012-07-29 17:26:32 +0100,Fragment Issue fixed,15,1643
+111,2c68751,FAIL,0,NO,0,NO,0,2012-07-29 17:26:51 +0100,Changed name for me,15,1643
+112,4f2988d,FAIL,0,NO,0,NO,0,2012-07-29 18:44:29 +0100,Fixed Orientation change,15,1667
+113,0006e45,FAIL,0,NO,0,NO,0,2012-07-29 18:44:49 +0100,Updated gitignore for me,15,1667
+114,a7a4978,FAIL,0,NO,0,NO,0,2012-07-29 19:00:17 +0100,"Revert ""Changed name for me""",15,1667
+115,47d38c7,FAIL,0,NO,0,NO,0,2012-07-29 19:01:06 +0100,"Revert ""Updated gitignore for me""",15,1667
+116,efc76b2,FAIL,0,NO,0,NO,0,2012-07-30 11:14:17 -0700,Merge pull request #39 from chrisjenx/picker,15,1667
+117,42eefb8,FAIL,0,NO,0,NO,0,2012-08-07 11:10:13 -0700,Enabling and disabling the view behind on slide,15,1681
+118,278a570,FAIL,0,NO,0,NO,0,2012-08-07 12:08:23 -0700,Fixed multi finger sliding. Still needs testing from the community :),15,1687
+119,982403a,FAIL,0,NO,0,NO,0,2012-08-09 15:05:46 -0700,Disable touches on the behind view when it is closed. Touches were going through up until now,15,1696
+120,770fa1e,FAIL,0,NO,0,NO,0,2012-08-17 11:09:35 -0400,Updates slide menu close to trigger on back button key up event,15,1735
+121,0679caa,FAIL,0,NO,0,NO,0,2012-08-17 14:19:14 -0700,Merge pull request #51 from howaboutwe/master,15,1735
+122,cd1ed8a,FAIL,0,NO,0,NO,0,2012-08-17 18:41:17 -0400,"Added ability to set behind width instead of offset. Basically just the inverse, but easier to manipulate for tablet layouts, etc",15,1750
+123,5cc8351,FAIL,0,NO,0,NO,0,2012-08-17 20:59:17 -0300,Update README.md,15,1750
+124,6c843fb,FAIL,0,NO,0,NO,0,2012-08-17 20:00:05 -0400,License moved to top level,15,1750
+125,7d9642f,FAIL,0,NO,0,NO,0,2012-08-20 14:13:08 -0400,Added OnClosedListener and OnOpenedListener callback interfaces to SlidingMenu.java. These listeners add individual callbacks that fire once the opening/closing animations have completed.,15,1768
+126,7343c3c,FAIL,0,NO,0,NO,0,2012-08-20 13:18:36 -0700,Merge pull request #52 from howaboutwe/onclosed-onopened-listeners,15,1768
+127,1a7d6a9,FAIL,0,NO,0,NO,0,2012-08-30 11:04:44 -0400,Scale margin threshold according to screen density,15,1771
+128,6b1a224,FAIL,0,NO,0,NO,0,2012-08-30 11:55:33 -0400,Exposing the canvas so that people can transform it. Not quite there yet. Fade not working yet,15,1792
+129,b3b4988,FAIL,0,NO,0,NO,0,2012-08-30 13:47:46 -0400,Exposed canvas to transformations,15,1796
+130,6807ad5,FAIL,0,NO,0,NO,0,2012-08-31 09:34:07 -0400,Fading behind view now working,15,1800
+131,1025518,FAIL,0,NO,0,NO,0,2012-08-31 12:29:30 -0400,Fixed fading issue,15,1795
+132,95e1b3d,FAIL,0,NO,0,NO,0,2012-08-31 19:26:41 -0400,Made it safe back to 1.6,15,1805
+133,b6af5b0,FAIL,0,NO,0,NO,0,2012-09-01 11:20:20 -0400,Initial commit of selected view indicators for the behind view,15,1836
+134,b11c8d7,FAIL,0,NO,0,NO,0,2012-09-01 11:49:24 -0400,Little fixes. Indicator doesn't currently stay with the view,15,1843
+135,5d4387c,FAIL,0,NO,0,NO,0,2012-09-01 13:10:07 -0300,Update README.md,15,1836
+136,5539ae8,FAIL,0,NO,0,NO,0,2012-09-01 13:51:16 -0400,More work on indicators,15,1843
+137,045f7e2,FAIL,0,NO,0,NO,0,2012-09-01 22:57:52 -0400,More work on indicator and cleaning up CustomViewAbove,15,1592
+138,5ff38fe,FAIL,0,NO,0,NO,0,2012-09-02 12:24:13 -0400,More underneath work,15,1571
+139,af0fc65,FAIL,0,NO,0,NO,0,2012-09-02 20:10:59 -0400,More work exposing the canvas,15,1578
+140,bcde8b5,FAIL,0,NO,0,NO,0,2012-09-02 20:11:15 -0400,Canvas transforming in the sample,15,1605
+141,9a89738,FAIL,0,NO,0,NO,0,2012-09-03 02:06:54 -0400,Reworked the example app,16,1621
+142,1451600,FAIL,0,NO,0,NO,0,2012-09-03 02:07:48 -0400,Renamed example,16,1621
+143,8824836,FAIL,0,NO,0,NO,0,2012-09-03 03:19:31 -0400,Remove print statement,16,1620
+144,68b7149,FAIL,0,NO,0,NO,0,2012-09-03 04:04:07 -0400,More work on the sample,19,1693
+145,89d9dd1,FAIL,0,NO,0,NO,0,2012-09-03 04:04:55 -0400,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,19,1693
+146,0764f2b,FAIL,0,NO,0,NO,0,2012-09-03 04:26:16 -0400,Only behind width not working now,19,1737
+147,bb484d9,FAIL,0,NO,0,NO,0,2012-09-03 04:26:41 -0400,Removing unused layout,19,1737
+148,cba4988,FAIL,0,NO,0,NO,0,2012-09-03 04:48:31 -0400,Fixing opened and closed listener issues,19,1682
+149,e528d98,FAIL,0,NO,0,NO,0,2012-09-03 11:07:41 -0400,More work on the example,20,1712
+150,0f15704,FAIL,0,NO,0,NO,0,2012-09-03 11:15:50 -0400,Interpolator for the rotate animation,20,1719
+151,b7069ab,FAIL,0,NO,0,NO,0,2012-09-03 11:42:25 -0400,First commit of CanvasTransformerBuilder,21,1799
+152,c5ada26,FAIL,0,NO,0,NO,0,2012-09-03 11:43:27 -0400,More example work,21,1799
+153,3c9f936,FAIL,0,NO,0,NO,0,2012-09-04 15:23:53 -0400,More work. Example now more compatible,21,1793
+154,3459ab6,FAIL,0,NO,0,NO,0,2012-09-05 00:14:30 -0400,Added example scale animation,22,1799
+155,2e810b6,FAIL,0,NO,0,NO,0,2012-09-05 00:15:17 -0400,Fold animation not working,23,1819
+156,4941116,FAIL,0,NO,0,NO,0,2012-09-05 06:30:11 -0400,"Modified scrollTo, experimental onIntercept and onTouch methods",23,1919
+157,cf883cd,FAIL,0,NO,0,NO,0,2012-09-06 01:39:35 -0400,Removing fold for now,23,1919
+158,77a4ff2,FAIL,0,NO,0,NO,0,2012-09-06 02:03:15 -0400,"Weeeiiirrd behavior :""",23,1818
+159,869476b,FAIL,0,NO,0,NO,0,2012-09-07 00:38:13 -0400,Much improved touch handling. Now touches on the home button will not be intercepted. Hooray,23,1812
+160,1e219ab,FAIL,0,NO,0,NO,0,2012-09-07 00:39:02 -0400,Removed debug print statements,23,1812
+161,f946b7a,FAIL,0,NO,0,NO,0,2012-09-07 14:03:08 -0400,Fix for ViewPager in the above view,23,1811
+162,47082d3,FAIL,0,NO,0,NO,0,2012-09-10 20:10:56 -0300,Update README.md,23,1811
+163,219a611,FAIL,0,NO,0,NO,0,2012-09-10 21:16:28 -0400,Fixed multitouch issue. Still needs testing on Gingerbread and Froyo.,23,1823
+164,cab9074,FAIL,0,NO,0,NO,0,2012-09-10 21:17:01 -0400,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,23,1823
+165,285bf1d,FAIL,0,NO,0,NO,0,2012-09-11 15:32:31 -0700,Add tablet boolean to the correct resource-qualified folder.,23,1823
+166,b1da629,FAIL,0,NO,0,NO,0,2012-09-11 15:46:36 -0700,"We need to check if the device is a tablet, because the status bar could be at the top.",23,1824
+167,e622af4,FAIL,0,NO,0,NO,0,2012-09-11 15:49:54 -0700,"squash! We need to check if the device is a tablet, because the status bar could be at the top.",23,1824
+168,028a49f,FAIL,0,NO,0,NO,0,2012-09-11 15:46:36 -0700,"We need to check if the device is a tablet, because the status bar could be at the bottom.",23,1824
+169,2c915b5,FAIL,0,NO,0,NO,0,2012-09-11 15:49:54 -0700,"squash! We need to check if the device is a tablet, because the status bar could be at the bottom.",23,1824
+170,53a7502,FAIL,0,NO,0,NO,0,2012-09-11 15:56:39 -0700,Merge branch 'master' of github.com:hwrdprkns/SlidingMenu,23,1824
+171,efbd868,FAIL,0,NO,0,NO,0,2012-09-11 16:04:32 -0700,Merge pull request #72 from hwrdprkns/master,23,1824
+172,368be06,FAIL,0,NO,0,NO,0,2012-09-11 23:24:10 -0300,Update README.md,23,1824
+173,c4d287a,FAIL,0,NO,0,NO,0,2012-09-11 23:24:54 -0300,Update README.md,23,1824
+174,2102c0c,FAIL,0,NO,0,NO,0,2012-09-12 16:51:59 -0400,More title bar touch ups following up on yesterday,23,1779
+175,6d2d643,FAIL,0,NO,0,NO,0,2012-09-12 16:52:20 -0400,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,23,1779
+176,5731fd4,FAIL,0,NO,0,NO,0,2012-09-12 16:59:42 -0400,Fixing attachSlidingMenu method. Still untested,23,1781
+177,fa55fa9,FAIL,0,NO,0,NO,0,2012-09-13 10:31:10 -0700,Remove unused defaults.xml files from values and values-large.,23,1781
+178,eaedb4f,FAIL,0,NO,0,NO,0,2012-09-13 21:34:05 -0700,"Fixing the bugs in the SlidingMenu fitSystemWindow code. We only need to take care of the content view, not everything else.",23,1789
+179,78dae49,FAIL,0,NO,0,NO,0,2012-09-13 21:35:11 -0700,Adding Android standard build.xml files for use with Eclipse and Intellij,23,1789
+180,ddf7f07,FAIL,0,NO,0,NO,0,2012-09-13 22:20:41 -0700,Merge pull request #76 from hwrdprkns/master,23,1789
+181,cdedbeb,FAIL,0,NO,0,NO,0,2012-09-19 15:54:04 -0400,Fixed window vertical resizing issue. Still needs testing,23,1789
+182,9909223,FAIL,0,NO,0,NO,0,2012-09-27 22:51:39 -0300,Update README.md,23,1789
+183,67dd877,FAIL,0,NO,0,NO,0,2012-10-05 13:44:55 -0300,Update README.md,23,1789
+184,8412d06,FAIL,0,NO,0,NO,0,2012-10-09 00:39:30 -0400,Added setBehindWidthRes and associated javadoc comments. Fixed warnings related to deprecated constants and unused variables and imports.,23,1766
+185,9da5004,FAIL,0,NO,0,NO,0,2012-10-11 07:16:30 -0700,Merge pull request #97 from AEFeinstein/master,23,1766
+186,1e1554d,FAIL,0,NO,0,NO,0,2012-10-22 10:45:09 +0200,fix the SavedState usage when recovering from a dead activity,23,1775
+187,d7e69da,FAIL,0,NO,0,NO,0,2012-10-23 17:04:37 -0700,Merge pull request #107 from levelup/SavedState,23,1775
+188,16952e5,FAIL,0,NO,0,NO,0,2012-10-24 16:16:04 -0400,Fixing naming conventions,23,1775
+189,3c14d41,FAIL,0,NO,0,NO,0,2012-10-24 18:26:56 -0400,Added setAboveOffset. Touches currently don't go all the way to the behind view,23,1812
+190,f8bf61a,FAIL,0,NO,0,NO,0,2012-10-26 13:53:08 -0400,Fixing up the example for the App Store (coming soon). Added Responsive UI and Fragment switching examples,32,2090
+191,24ce431,FAIL,0,NO,0,NO,0,2012-10-26 13:55:20 -0400,Added TOUCHMODE_NONE,32,2097
+192,6cc4ea2,FAIL,0,NO,0,NO,0,2012-10-26 13:55:49 -0400,Removing old example artifacts,26,1996
+193,5923add,FAIL,0,NO,0,NO,0,2012-10-26 14:15:41 -0400,Trying to fix setBehindWidth issues,26,2003
+194,7423607,FAIL,0,NO,0,NO,0,2012-10-26 23:03:00 -0400,More example work. Getting ready for the Play Store release,29,2158
+195,809da3f,FAIL,0,NO,0,NO,0,2012-10-26 23:14:59 -0400,Handler to showAbove in the example,29,2165
+196,ebd51d9,FAIL,0,NO,0,NO,0,2012-10-28 19:20:23 -0400,Example depends on ActionBarSherlock. Added ViewPager stuff,30,2248
+197,3abbce3,FAIL,0,NO,0,NO,0,2012-10-28 19:25:29 -0400,Adding directional aware sliding,30,2256
+198,ff3131c,FAIL,0,NO,0,NO,0,2012-10-28 20:33:41 -0400,"New, better up indicator",30,2256
+199,63d8ad7,FAIL,0,NO,0,NO,0,2012-10-29 00:30:57 -0400,More fixes to the example,30,2258
+200,976a26b,FAIL,0,NO,0,NO,0,2012-10-30 10:07:22 -0400,Missed recycle. Im an idiot :(,30,2261
+201,60833bb,FAIL,0,NO,0,NO,0,2012-10-31 09:51:13 -0400,expose unanimated toggling,30,2290
+202,6ebe191,FAIL,0,NO,0,NO,0,2012-11-01 03:07:45 -0400,Example app now published to Play Store,30,2334
+203,4da2e06,FAIL,0,NO,0,NO,0,2012-11-01 11:43:53 -0400,Correct visibility.,30,2334
+204,f2c3957,FAIL,0,NO,0,NO,0,2012-11-01 11:41:44 -0700,Rename misspelled class CanvasTransformerBuilder,30,2334
+205,0410751,FAIL,0,NO,0,NO,0,2012-11-01 12:35:21 -0700,Merge pull request #119 from gatherdigital/visibility,30,2334
+206,d04bcf3,FAIL,0,NO,0,NO,0,2012-11-01 12:36:11 -0700,Merge pull request #120 from hwrdprkns/master,30,2334
+207,18ea158,FAIL,0,NO,0,NO,0,2012-11-01 20:30:25 -0300,Update README.md,30,2334
+208,eacf1ea,FAIL,0,NO,0,NO,0,2012-11-02 03:08:55 -0400,Bug squashing,30,2340
+209,921484c,FAIL,0,NO,0,NO,0,2012-11-02 03:09:01 -0400,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,30,2340
+210,d11bf5b,FAIL,0,NO,0,NO,0,2012-11-02 03:17:04 -0400,Removing print statements,30,2339
+211,0f4b305,FAIL,0,NO,0,NO,0,2012-11-04 21:50:18 -0500,Removed actionbarsherlock-plugin-maps,30,2341
+212,c3a4753,FAIL,0,NO,0,NO,0,2012-11-05 18:11:22 -0800,Merge pull request #127 from AEFeinstein/master,30,2341
+213,f727de2,FAIL,0,NO,0,NO,0,2012-11-13 16:00:46 +0200,implemented SlidingPreferenceActivity similar to others SlidingActivities,30,2397
+214,1d19b0e,FAIL,0,NO,0,NO,0,2012-11-16 14:44:29 -0800,Merge pull request #137 from atermenji/preference_activity,30,2397
+215,5f47198,FAIL,0,NO,0,NO,0,2012-11-21 18:22:39 -0500,Major refactoring,30,2341
+216,e6c6b45,FAIL,0,NO,0,NO,0,2012-11-21 19:47:23 -0500,Fixing some issues. Right in development,30,2379
+217,9e09007,FAIL,0,NO,0,NO,0,2012-11-21 20:26:55 -0500,More work and stable right side,30,2374
+218,a50896e,FAIL,0,NO,0,NO,0,2012-11-21 21:05:03 -0500,More work on right,30,2370
+219,eb1fd8f,FAIL,0,NO,0,NO,0,2012-11-21 21:10:04 -0500,Fix menu item position issues,30,2378
+220,bb73c62,FAIL,0,NO,0,NO,0,2012-11-22 00:09:06 -0500,Right now working correctly\!,30,2360
+221,ee5c8cd,FAIL,0,NO,0,NO,0,2012-11-22 01:39:34 -0500,Fixed scroll scale for RIGHT,30,2361
+222,8626499,FAIL,0,NO,0,NO,0,2012-11-22 12:52:36 -0500,Fix arithmetic error,30,2361
+223,89bd7f1,FAIL,0,NO,0,NO,0,2012-11-22 13:00:42 -0500,Expose LEFT and RIGHT mode in xml,30,2362
+224,f4fc27f,FAIL,0,NO,0,NO,0,2012-11-22 13:12:38 -0500,Fixing back pressed when RIGHT is open,30,2362
+225,952036c,FAIL,0,NO,0,NO,0,2012-11-22 13:14:30 -0500,oops. remove hard coded RIGHT,30,2362
+226,c20c294,FAIL,0,NO,0,NO,0,2012-11-22 14:38:21 -0500,Left and right menus now in example. Adding placeholder menu and content if ones are not declared in xml,30,2340
+227,35c38be,FAIL,0,NO,0,NO,0,2012-11-22 14:43:54 -0500,Fixing some bugs with the example. Exposing ability to getMode (LEFT or RIGHT),30,2346
+228,11c08d4,FAIL,0,NO,0,NO,0,2012-11-22 14:46:43 -0500,Made example shadows look a lot nicer,30,2346
+229,c2eb0cf,FAIL,0,NO,0,NO,0,2012-11-23 17:27:01 -0500,Left and right menus in example,31,2398
+230,dfa5fb6,FAIL,0,NO,0,NO,0,2012-11-23 18:08:02 -0500,Exposed getContent and getMenu. Left and Right example now finished,31,2415
+231,56c2ffe,FAIL,0,NO,0,NO,0,2012-11-27 10:52:31 -0500,Adjusting behind visibility better,32,2434
+232,78003f5,FAIL,0,NO,0,NO,0,2012-11-28 01:23:37 -0500,Introducing optimized LEFT_RIGHT mode as well as setSecondaryMenu. Outward facing interface should remain the same. Fixing setContent bug.,32,2491
+233,f211301,FAIL,0,NO,0,NO,0,2012-11-28 01:24:06 -0500,Updated LeftAndRightActivity,32,2465
+234,2e6b8b7,FAIL,0,NO,0,NO,0,2012-11-28 01:33:12 -0500,Update README.md,32,2465
+235,18dec7b,FAIL,0,NO,0,NO,0,2012-11-28 14:04:24 -0500,Renaming behind to menu and above to content,32,2479
+236,507ca04,FAIL,0,NO,0,NO,0,2012-11-28 14:07:18 -0500,Cleaning up left and right,32,2476
+237,38ba0ef,FAIL,0,NO,0,NO,0,2012-11-28 15:51:47 -0500,Removing unnecessary invalidates,32,2469
+238,f01912f,FAIL,0,NO,0,NO,0,2012-11-28 15:52:13 -0500,Remove DEBUG,32,2469
+239,6b1984f,FAIL,0,NO,0,NO,0,2012-11-28 17:41:19 -0500,Removing unused attach method,32,2450
+240,eaff492,FAIL,0,NO,0,NO,0,2012-11-28 17:46:12 -0500,Making measure match layout width,32,2450
+241,477ac8a,FAIL,0,NO,0,NO,0,2012-11-28 17:57:45 -0500,invalidate for transformers. Measure content exactly,32,2452
+242,637dee5,FAIL,0,NO,0,NO,0,2012-11-28 18:28:07 -0500,Exposed secondary shadow,32,2465
+243,ee25831,FAIL,0,NO,0,NO,0,2012-12-01 14:14:15 -0500,Correct visibility for behind view in LEFT RIGHT. Remove Log,32,2464
+244,91061a9,FAIL,0,NO,0,NO,0,2012-12-02 11:37:38 -0500,Fixing LEFT_RIGHT to LEFT or RIGHT,32,2466
+245,85eb954,FAIL,0,NO,0,NO,0,2012-12-03 02:05:49 -0500,Fix NPE,32,2466
+246,eba555a,FAIL,0,NO,0,NO,0,2012-12-03 02:09:01 -0500,Example fix,32,2466
+247,cdef60e,FAIL,0,NO,0,NO,0,2012-12-04 00:27:40 -0500,Added left right to properties example. Better determineTargetPage behavior. Making secondaryContent GONE when not in LEFT_RIGHT,32,2482
+248,af5ba3e,FAIL,0,NO,0,NO,0,2012-12-04 13:23:26 -0500,Update README.md,32,2482
+249,017774c,FAIL,0,NO,0,NO,0,2012-12-05 12:00:55 -0500,Adding new attachToActivity method so people can avoid having to extend Sliding*Activities. Example added to the example app,33,2546
+250,40a78a0,FAIL,0,NO,0,NO,0,2012-12-05 12:02:38 -0500,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,33,2546
+251,a65b670,FAIL,0,NO,0,NO,0,2012-12-05 15:15:38 -0500,Update README.md,33,2546
+252,8694f9d,FAIL,0,NO,0,NO,0,2012-12-06 17:35:27 +0000,Stopping incorrect focusing on SlidingMenu,33,2543
+253,5921d48,FAIL,0,NO,0,NO,0,2012-12-06 17:39:44 +0000,Undoing a change,33,2543
+254,442e944,FAIL,0,NO,0,NO,0,2012-12-06 12:58:14 -0600,Update library/src/com/slidingmenu/lib/SlidingMenu.java,33,2549
+255,0e22f56,FAIL,0,NO,0,NO,0,2012-12-07 11:37:13 -0800,Merge pull request #172 from RockoDev/master,33,2549
+256,71d057d,FAIL,0,NO,0,NO,0,2012-12-07 11:37:22 -0800,Merge pull request #171 from gauntface/master,33,2546
+257,855424d,FAIL,0,NO,0,NO,0,2012-12-11 09:59:33 +0100,Add/Remove Views ignored by the Touch Down Event when mode is Fullscreen,33,2562
+258,29dbf9e,FAIL,0,NO,0,NO,0,2012-12-11 10:53:25 +0100,Add an ignored View only if it is not allready ignored,33,2563
+259,caa723c,FAIL,0,NO,0,NO,0,2012-12-11 17:08:17 +0100,Use getHitRect to check if a view is in Ignore Views,33,2561
+260,ca72682,FAIL,0,NO,0,NO,0,2012-12-17 09:11:52 -0800,Merge pull request #176 from CmoaToto/master,33,2561
+261,2b13be5,FAIL,0,NO,0,NO,0,2012-12-18 11:00:17 -0500,Fixing import,33,2562
+262,2bd360d,FAIL,0,NO,0,NO,0,2012-12-19 00:52:19 -0500,Update README.md,33,2562
+263,193c6cd,FAIL,0,NO,0,NO,0,2012-12-19 15:44:22 +0100,Added getter and setter for the touchmode margin threshold,33,2570
+264,fb1a691,FAIL,0,NO,0,NO,0,2012-12-19 22:05:49 -0500,Going back to v4 support package,33,2562
+265,5d5a38e,FAIL,0,NO,0,NO,0,2012-12-19 22:07:21 -0500,Fixing refs,33,2562
+266,fc7d713,FAIL,0,NO,0,NO,0,2012-12-19 22:09:16 -0500,Removing old files,33,2562
+267,6b76c4d,FAIL,0,NO,0,NO,0,2012-12-19 22:10:39 -0500,Removing old files,33,2562
+268,9b7d10a,FAIL,0,NO,0,NO,0,2012-12-19 22:21:13 -0500,Fixing eclipse imports,33,2562
+269,ddf908b,FAIL,15,NO,0,NO,0,2012-12-20 13:09:05 -0600,Mavenize the library,33,2562
+270,934171f,FAIL,13,NO,0,NO,0,2012-12-20 15:10:08 -0600,Add missing type to actionbarsherlock,33,2562
+271,6ca0c5e,FAIL,0,NO,0,NO,0,2013-01-02 21:13:20 -0500,Working on FULLSCREEN behind. Reintroduced selectors. Cleaned up quick returning,33,2609
+272,a3650fe,FAIL,0,NO,0,NO,0,2013-01-03 15:11:29 +0100,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,33,2617
+273,10f123b,FAIL,0,NO,0,NO,0,2013-01-03 10:20:34 -0500,Remove hard coded test,33,2607
+274,4a53fb1,FAIL,0,NO,0,NO,0,2013-01-03 11:37:27 -0500,Fixing attach for overlays,33,2612
+275,d079f35,FAIL,0,NO,0,NO,0,2013-01-04 10:31:00 -0500,Update README.md,33,2612
+276,130ccdd,FAIL,0,NO,0,NO,0,2013-01-04 10:32:21 -0500,Update README.md,33,2612
+277,fa64e7a,FAIL,0,NO,0,NO,0,2013-01-09 20:26:37 -0500,Explicit use of hardware layers for smoother scrolling,33,2636
+278,593b78a,FAIL,0,NO,0,NO,0,2013-01-09 20:26:55 -0500,Merge branch 'master' of https://github.com/jfeinstein10/SlidingMenu,33,2636
+279,32a8ac7,FAIL,0,NO,0,NO,0,2013-01-15 13:45:34 -0500,Fix for empty non-clickable views,33,2635
+280,c407a1b,FAIL,0,NO,0,NO,0,2013-01-15 13:51:24 -0500,Removing unnecessary stuff in AndroidManifest,33,2635
+281,945832c,FAIL,0,NO,0,NO,0,2013-01-15 13:57:37 -0500,Removing unused resources,33,2635
+282,35aefcf,FAIL,0,NO,0,NO,0,2013-01-15 13:59:41 -0500,Remove warning,33,2636
+283,24893d0,FAIL,0,NO,0,NO,0,2013-01-16 12:32:12 -0500,Fixing actionbar overlay,33,2635
+284,29547a0,FAIL,0,NO,0,NO,0,2013-02-05 09:53:57 -0500,Pointer out of range fix,33,2624
+285,3f09d41,FAIL,0,NO,0,NO,0,2013-02-05 09:55:51 -0500,Another index fix,33,2624
+286,59dd356,FAIL,0,NO,0,NO,0,2013-02-11 10:19:38 -0500,Fix pointer issue,33,2624
+287,3d5e962,FAIL,0,NO,0,NO,0,2013-02-18 11:19:14 -0500,Update README.md,33,2624
+288,a1710a7,FAIL,6,NO,0,NO,0,2013-02-19 17:51:39 -0800,Merge pull request #191 from DDRBoxman/maven,33,2624
+289,b8823b8,FAIL,5,NO,0,NO,0,2013-03-01 17:30:13 +0800,remove unused BasePagerAdapter,33,2607
+290,42461fe,FAIL,6,NO,0,NO,0,2013-03-03 00:34:34 +0100,* Removed dependency on actionbarsherlock from library because it is no longer used in library * Moved maps dependency to a separate slidingmenu-maps-support project. Users that need SlidingMapActivity will need to include this project in addition to the SlidingMenu library.,33,2624
+291,29d40b6,FAIL,5,NO,0,NO,0,2013-03-17 21:37:09 -0700,Merge pull request #313 from liruqi/patch-1,33,2607
+292,fb50428,FAIL,6,NO,0,NO,0,2013-03-19 00:31:10 +0800,Enable menu toggle when sliding is disabled,33,2606
+293,1c1d8df,FAIL,6,NO,0,NO,0,2013-03-20 10:26:54 +0800,Avoid fragment being created twice,33,2610
+294,6467f87,FAIL,5,NO,0,NO,0,2013-03-25 09:32:25 -0300,Update README.md,33,2607
+295,7753bbb,FAIL,6,NO,0,NO,0,2013-03-25 05:33:02 -0700,Merge pull request #340 from yccheok/patch-1,33,2610
+296,3cbbf47,FAIL,5,NO,0,NO,0,2013-04-04 14:05:05 -0700,Merge pull request #189 from Appstrakt/master,33,2618
+297,46d5d7c,FAIL,6,NO,0,NO,0,2013-04-04 14:05:43 -0700,Merge pull request #315 from alfthomas/mapsupport,33,2618
+298,ba63620,FAIL,5,NO,0,NO,0,2013-04-12 15:38:30 -0700,Merge pull request #335 from liruqi/patch-2,33,2617
+299,9b3d8c1,FAIL,6,NO,0,NO,0,2013-04-29 11:36:31 -0300,Update README.md,33,2617
+300,37680e4,FAIL,5,NO,0,NO,0,2013-05-06 10:47:44 -0700,"Reorganizing file structure, package names and import statements to new package name.",33,2617
+301,f499edc,FAIL,6,NO,0,NO,0,2013-05-06 10:48:47 -0700,Removing old DS_Store,33,2617
+302,2eff42a,FAIL,5,NO,0,NO,0,2013-05-06 10:49:18 -0700,Adding .DS_Store to ignore,33,2617
+303,6989cdb,FAIL,6,NO,0,NO,0,2013-05-06 11:12:53 -0700,Updating import statements in the example project,33,2617
+304,76f0e35,FAIL,6,NO,0,NO,0,2013-05-06 11:18:59 -0700,Moving to a proper maven source directory,33,2617
+305,56576af,FAIL,6,NO,0,NO,0,2013-05-06 11:21:19 -0700,Fixing erroneous imports,33,2617
+306,ca7b84b,FAIL,5,NO,0,NO,0,2013-05-06 11:26:24 -0700,Do not commit target directory,33,2617
+307,f47ea3e,FAIL,7,NO,0,NO,0,2013-05-07 06:26:02 -0700,Merge pull request #403 from donnfelker/maven-central-prep,33,2617
+308,c6cc3cf,FAIL,6,NO,0,NO,0,2013-05-07 13:44:13 -0700,Reverting maven standard directory layout,33,2617
+309,078d39b,FAIL,6,NO,0,NO,0,2013-05-07 13:47:57 -0700,Merge branch 'maven-central-prep',33,2617
+310,ad6054b,FAIL,6,NO,0,NO,0,2013-05-08 07:54:17 -0700,Merge pull request #405 from donnfelker/master,33,2617
+311,ee8a1d0,FAIL,6,NO,0,NO,0,2013-05-13 11:19:03 -0700,Including reguired POM attributes for project for Maven Central push.,33,2617
+312,f328bc9,FAIL,13,NO,0,NO,0,2013-05-13 11:36:40 -0700,Adding parent and additional DeveloperConnection to fufill requirements for Maven Central deployment through sonatype OSS,33,2617
+313,da5b9c6,FAIL,7,NO,0,NO,0,2013-05-13 12:19:26 -0700,Merge pull request #415 from donnfelker/master,33,2617
+314,cfe65fb,FAIL,7,NO,0,NO,0,2013-05-15 12:06:41 +0200,Update README.md,33,2617
+315,fe85a18,FAIL,6,NO,0,NO,0,2013-05-21 18:00:38 -0400,IDEA files. Moving example package back to root like the library,33,2617
+316,b0556d1,FAIL,7,NO,0,NO,0,2013-05-21 18:03:15 -0400,Remove idea folder,33,2617
+317,8fcae2c,FAIL,7,NO,0,NO,0,2013-05-25 21:09:45 -0700,Merge pull request #420 from michaelcspeed/patch-1,33,2617
+318,dd1f2de,FAIL,7,NO,0,NO,0,2013-06-26 16:29:16 -0700,Add a build.gradle for gradle module,33,2617
+319,bd701c6,FAIL,6,NO,0,NO,0,2013-06-26 19:11:51 -0700,Use auto updatable android gradle,33,2617
+320,9402c1a,FAIL,7,NO,0,NO,0,2013-07-19 00:06:42 +0530,Adding OnOpenListner for Secondary Menu,33,2623
+321,eefb9ed,FAIL,7,NO,0,NO,0,2013-07-19 00:08:38 +0530,Fixing Spelling mistake,33,2623
+322,e688477,FAIL,13,NO,0,NO,0,2013-07-20 10:33:06 -0400,Update to android-maven-plugin 3.6.0,33,2617
+323,6681dd2,FAIL,7,NO,0,NO,0,2013-07-20 11:19:15 -0700,Merge pull request #491 from NineWorlds/android-sdk-21,33,2617
+324,a8b4057,FAIL,7,NO,0,NO,0,2013-07-20 11:20:41 -0700,Merge pull request #487 from marutib/master,33,2623
+325,7ebe327,FAIL,7,NO,0,NO,0,2013-07-25 10:35:27 -0400,Update README.md,33,2623
+326,b38aca5,FAIL,7,NO,0,NO,0,2013-08-28 10:32:26 -0400,Remove hardcoded string on TAG variable,33,2623
+327,4eeff1b,FAIL,7,NO,0,NO,0,2013-09-12 16:27:42 +0800,ignore idea's .iml files,33,2623
+328,f278ec7,FAIL,8,NO,0,NO,0,2013-12-09 07:31:26 -0800,Merge pull request #537 from huahang/master,33,2623
+329,3876155,FAIL,7,NO,0,NO,0,2013-12-09 07:31:35 -0800,Merge pull request #525 from ConAntonakos/patch-1,33,2623
+330,e9721f7,FAIL,7,NO,0,NO,0,2013-12-09 07:34:08 -0800,Merge pull request #467 from linuxmotion/master,33,2623
+331,d929476,FAIL,6,NO,0,NO,0,2013-12-09 16:33:26 -0500,Invalid pointer fix and getClass fix,33,2622
+332,08ff047,FAIL,8,NO,0,NO,0,2014-02-26 16:18:09 +0800,-updated touchModeAbove/touchModeBehind xml attribute options.,33,2622
+333,d188a03,FAIL,7,NO,0,NO,0,2014-03-07 23:01:20 -0800,Fix Copyright Year,33,2622
+334,bd2b251,FAIL,7,NO,0,NO,0,2014-03-09 17:27:46 -0400,Merge pull request #609 from JoshSGman/fix-copyright,33,2622
+335,4254fec,FAIL,7,NO,0,NO,0,2014-03-09 17:30:35 -0400,Merge pull request #605 from lbhonrade/master,33,2622

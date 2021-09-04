@@ -1,0 +1,15 @@
+error,count
+&quot;[String]&quot; was not equal to &quot;[NameEnum]&quot;,9
+,59
+false did not equal true,2
+&quot;&lt;Pair&gt;[   &lt;Node&gt;     &lt;name&gt;string&lt;/name&gt;     &lt;wrappedChildren&gt;     &lt;/wrappedChildren&gt;   &lt;/Node&gt;   &lt;Node&gt;     &lt;name&gt;string&lt;/name&gt;     &lt;wrappedChildren&gt;     &lt;/wrappedChildren&gt;   &lt;/Node&gt; ]&lt;/Pair&gt;&quot; was not equal to &quot;&lt;Pair&gt;[\n  &lt;Node&gt;\n    &lt;name&gt;string&lt;/name&gt;\n    &lt;wrappedChildren&gt;\n    &lt;/wrappedChildren&gt;\n  &lt;/Node&gt;\n  &lt;Node&gt;\n    &lt;name&gt;string&lt;/name&gt;\n    &lt;wrappedChildren&gt;\n    &lt;/wrappedChildren&gt;\n  &lt;/Node&gt;\n]&lt;/Pair&gt;&quot;,13
+&quot;\DateTime&quot; was not null,5
+&quot;[string[]]&quot; was not equal to &quot;[array[string]]&quot;,5
+&quot;[\Swagger\Client\Model\]Children&quot; was not equal to &quot;[]Children&quot;,5
+&quot;[\Swagger\Client\Model\Children[]]&quot; was not equal to &quot;[array[Children]]&quot;,5
+"&quot;map[string,[\Swagger\Client\Model\]Children]&quot; was not equal to &quot;map[string,[]Children]&quot;",5
+&quot;\[]Client\Model\Childre...&quot; was not equal to &quot;\[Swagger\]Client\Model\Childre...&quot;,4
+"&quot;map[string,\[]Client\Model\Childre...&quot; was not equal to &quot;map[string,\[Swagger\]Client\Model\Childre...&quot;",2
+&quot;\[]Model\Children&quot; was not equal to &quot;\[Swagger\Client\]Model\Children&quot;,7
+&quot;\[]Model\Children[]&quot; was not equal to &quot;\[Swagger\Client\]Model\Children[]&quot;,7
+"&quot;map[string,\[]Model\Children]&quot; was not equal to &quot;map[string,\[Swagger\Client\]Model\Children]&quot;",7

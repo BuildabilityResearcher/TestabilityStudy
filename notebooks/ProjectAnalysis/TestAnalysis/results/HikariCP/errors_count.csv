@@ -1,0 +1,105 @@
+error,count
+,581
+Could not initialize class com.zaxxer.hikari.ProxyFactory,47
+$java.sql.Connection$$EnhancerByMockitoWithCGLIB$$ab318bb3 cannot be cast to com.zaxxer.hikari.IHikariConnectionProxy,1
+$java.sql.Connection$$EnhancerByMockitoWithCGLIB$$ba1c3cff cannot be cast to com.zaxxer.hikari.IHikariConnectionProxy,1
+Could not initialize class com.zaxxer.hikari.proxy.ProxyFactory,12
+Could not initialize class com.zaxxer.hikari.proxy.JavassistProxyFactoryFactory,27
+Unable to start system bundle.,2
+Stream handler unavailable due to: null,4
+Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:3.4.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:3.4.0 from/to central (http://repo1.maven.org/maven2/): Error transferring file: Server returned HTTP response code: 501 for URL: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/3.4.0/pax-exam-inject-3.4.0.jar,2128
+one of either dataSource or dataSourceClassName must be specified,3
+Could not initialize class com.zaxxer.hikari.HikariConfig,46
+Timeout of 30000ms encountered waiting for connection.,9
+com.zaxxer.hikari.HikariConfig,5
+java.lang.NullPointerException,7
+connectionTimeout cannot be less than 1000ms,4
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.4.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.4.0 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.4.0/pax-exam-inject-4.4.0.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",188
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:3.4.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:3.4.0 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/3.4.0/pax-exam-inject-3.4.0.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",180
+Exception during pool initialization,14
+com.zaxxer.hikari.pool.PoolInitializationException: Exception during pool initialization,1
+Could not initialize class com.zaxxer.hikari.util.LongAdder,112
+java.lang.SecurityException: Unsafe,2
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.5.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.5.0 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.5.0/pax-exam-inject-4.5.0.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",668
+Timeout after 30000ms of waiting for a connection.,2
+cannot use driverClassName and dataSourceClassName together,5
+jdbcUrl is required with driverClassName,5
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.6.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.6.0 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.6.0/pax-exam-inject-4.6.0.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",454
+"HikariPool-3 - Connection is not available, request timed out after 2500ms.",1
+"Illegal type at constant pool entry 165 in class com.zaxxer.hikari.pool.HikariProxyStatement
+Exception Details:
+  Location:
+    com/zaxxer/hikari/pool/HikariProxyStatement.getLargeUpdateCount()J @5: invokespecial
+  Reason:
+    Constant pool index 165 is invalid
+  Bytecode:
+    0x0000000: b800 cb4c 2ab7 00a5 2b10 5204 54ad 4d2a
+    0x0000010: 2cb6 0017 2b10 5304 54bf               
+  Exception Handler Table:
+    bci [4, 14] =&gt; handler: 14
+  Stackmap Table:
+    full_frame(@14,{Object[#2],Object[#205]},{Object[#15]})
+",6
+"Illegal type at constant pool entry 169 in class com.zaxxer.hikari.pool.HikariProxyPreparedStatement
+Exception Details:
+  Location:
+    com/zaxxer/hikari/pool/HikariProxyPreparedStatement.getLargeUpdateCount()J @5: invokespecial
+  Reason:
+    Constant pool index 169 is invalid
+  Bytecode:
+    0x0000000: b801 ad4c 2ab7 00a9 2b10 5204 54ad 4d2a
+    0x0000010: 2cb6 001b 2b10 5304 54bf               
+  Exception Handler Table:
+    bci [4, 14] =&gt; handler: 14
+  Stackmap Table:
+    full_frame(@14,{Object[#2],Object[#431]},{Object[#17]})
+",3
+"Illegal type at constant pool entry 413 in class com.zaxxer.hikari.pool.HikariProxyPreparedStatement
+Exception Details:
+  Location:
+    com/zaxxer/hikari/pool/HikariProxyPreparedStatement.setObject(ILjava/lang/Object;Ljava/sql/SQLType;)V @9: invokespecial
+  Reason:
+    Constant pool index 413 is invalid
+  Bytecode:
+    0x0000000: b801 ad3a 042a 1b2c 2db7 019d a700 133a
+    0x0000010: 052a 1905 b600 1b19 0411 00d2 0454 bf19
+    0x0000020: 0411 00d3 0454 b1                      
+  Exception Handler Table:
+    bci [5, 12] =&gt; handler: 15
+  Stackmap Table:
+    full_frame(@15,{Object[#2],Integer,Object[#281],Object[#408],Object[#431]},{Object[#17]})
+    same_frame(@31)
+",2
+minimumIdle cannot be negative or more than maximumPoolSize,54
+java.lang.reflect.InvocationTargetException,19
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException,1
+leakDetectionThreshold cannot be less than 2000ms,4
+maxLifetime cannot be less than 30000ms,2
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.8.0: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.8.0 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.8.0/pax-exam-inject-4.8.0.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",76
+java.lang.ArrayIndexOutOfBoundsException: 16,1
+"Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.9.1: Could not transfer artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.9.1 from/to central (http://repo1.maven.org/maven2/): Failed to transfer file: http://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-inject/4.9.1/pax-exam-inject-4.9.1.jar. Return code is: 501 , ReasonPhrase:HTTPS Required.",160
+"HikariPool-2 - Connection is not available, request timed out after 2501ms.",1
+Failed to initialize pool: Bad query or something.,1
+"record - Connection is not available, request timed out after 252ms.",1
+Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.9.2,236
+Connection refused,1
+Error resolving artifact org.ops4j.pax.exam:pax-exam-inject:jar:4.10.0,8
+The configuration of the pool is sealed once started.  Use HikariConfigMXBean for runtime changes.,6
+Bad thing happens on datasource.,1
+"testShutdown5 - Connection is not available, request timed out after 30000ms.",1
+"testMaxLifetime - Connection is not available, request timed out after 2501ms.",1
+"testMaxLifetime2 - Connection is not available, request timed out after 2500ms.",1
+"testEviction - Connection is not available, request timed out after 2501ms.",1
+"recordConnectionTimeout - Connection is not available, request timed out after 251ms.",1
+"testConnectionRetries3 - Connection is not available, request timed out after 2800ms.",2
+"testConnectionRetries5 - Connection is not available, request timed out after 1000ms.",2
+"testConnectionIdleFill - Connection is not available, request timed out after 2001ms.",2
+"testShutdown5 - Connection is not available, request timed out after 30002ms.",1
+"testMaxLifetime - Connection is not available, request timed out after 2502ms.",1
+"testMaxLifetime2 - Connection is not available, request timed out after 2501ms.",1
+"testEviction - Connection is not available, request timed out after 2502ms.",1
+"recordConnectionTimeout - Connection is not available, request timed out after 250ms.",1
+"testStatementProxy - Connection is not available, request timed out after 30000ms.",1
+"testOtherExceptions - Connection is not available, request timed out after 30000ms.",1
+"testProxyCreation - Connection is not available, request timed out after 30000ms.",1
+"testStatementExceptions - Connection is not available, request timed out after 1000ms.",1

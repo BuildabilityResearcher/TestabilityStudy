@@ -1,0 +1,50 @@
+error,count
+,571
+vehicle needs type,1
+coord must not be null,1
+"sum of probabilities is not 1.0, but is 0.0. make sure that the sum of the probability of each searchStrategy is 1.0",1
+"Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.IllegalArgumentException&gt;",1
+Cannot cast jsprit.core.problem.Capacity to jsprit.core.problem.solution.route.state.StateFactory$State,46
+-1,16
+vehicle is missing.,4
+"Unexpected exception, expected&lt;java.lang.IllegalStateException&gt; but was&lt;java.lang.NullPointerException&gt;",2
+"Index: 0, Size: 0",22
+state-id with name &#x27;myState&#x27; cannot be created. it is already reserved internally.,20
+"either you use a reserved stateId that is applied internally or your stateId has been created without index, e.g. StateFactory.createId(stateName)  does not assign indeces thus do not use it anymore, but use  stateManager.createStateId(name)  instead. ",28
+"state load of activity [type=pickupShipment][locationId=0,0][size=[nuOfDimensions=1][[dimIndex=0][dimValue=1]]][twStart=0][twEnd=oo] is missing.",2
+state load of activity [type=pickupShipment][locationId=[x=5.0][y=0.0]][size=[nuOfDimensions=1][[dimIndex=0][dimValue=0]]][twStart=0][twEnd=oo] is missing.,4
+state load_at_end of route [start=[type=start][locationId=[x=0.0][y=0.0]][twStart=0][twEnd=9]][end=[type=end][locationId=[x=5.0][y=0.0]][twStart=0][twEnd=9]][departureTime=0.0][vehicle=[id=v][type=[typeId=type][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=[x=0.0][y=0.0]][coord=[x=0.0][y=0.0]][isReturnToDepot=false]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@76012793][nuOfActs=1] is missing.,2
+state load_at_end of route [start=[type=start][locationId=[x=0.0][y=0.0]][twStart=0][twEnd=10]][end=[type=end][locationId=[x=5.0][y=0.0]][twStart=0][twEnd=10]][departureTime=0.0][vehicle=[id=v][type=[typeId=type][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=[x=0.0][y=0.0]][coord=[x=0.0][y=0.0]][isReturnToDepot=false]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@628c4ac0][nuOfActs=1] is missing.,2
+"state vehicleParam of activity Mock for TourActivity, hashCode: 399373008 for vehicle v is missing.",1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@12d2ce03][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@7a55af6b][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@7b420819][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@63fbfaeb][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@2f62ea70][nuOfActs=1] is missing.,2
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@4ed5eb72][nuOfActs=1] is missing.,2
+"state vehicleParam of activity Mock for TourActivity, hashCode: 1463022229 for vehicle v is missing.",1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@d771cc9][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@172b013][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@2bb3058][nuOfActs=1] is missing.,1
+state load_at_end of route [start=[type=start][locationId=vehLoc][twStart=0][twEnd=oo]][end=[type=end][locationId=vehLoc][twStart=0][twEnd=oo]][departureTime=0.0][vehicle=[id=v][type=[typeId=vType][capacity=0][fixed=0.0][perTime=0.0][perDistance=1.0]][locationId=vehLoc][coord=[x=0.0][y=0.0]][isReturnToDepot=true]][driver=jsprit.core.problem.driver.DriverImpl$NoDriver@54e7df6a][nuOfActs=1] is missing.,1
+arguments must not be null,2
+1,4
+activity index is 0. this should not be.,4
+breaks are not yet supported when dealing with infinite fleet. either set it to finite or omit breaks.,1
+"
+Unfinished stubbing detected here:
+-&gt; at jsprit.core.algorithm.recreate.TestInserter.whenInsertingServiceAndRouteIsOpen_itInsertsCorrectlyAndSwitchesEndLocation(TestInserter.java:100)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, you naughty developer!
+",2
+arrTime &gt; latestArrTime,204
+2,1
+&#x27;costs.service&#x27; doesn&#x27;t map to an existing object,94
+numerator &gt; 0 and denominator = 0. cannot divide by 0,1

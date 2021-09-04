@@ -1,0 +1,4 @@
+error,count
+" No X11 DISPLAY variable was set, but this program performed an operation which requires it.",116
+"
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.",95

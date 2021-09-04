@@ -1,0 +1,30 @@
+error,count
+dx.jar文件不存在,133
+java.lang.RuntimeException: fail on Lorg/mortbay/jetty/AbstractGenerator$Output;.blockForOutput()V,1
+java.lang.RuntimeException: fail on Lorg/mortbay/component/Container;.update(Ljava/lang/Object;[Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/String;Z)V,1
+java.lang.RuntimeException: Error in method:[Lorg/mortbay/jetty/HttpTokens;.&lt;clinit&gt;()V],4
+"while accept class id:[5],name:[Ljavax/servlet/GenericServlet;]",5
+method &lt;init&gt; ()V,3
+"while accept class id:[0],name:[Lres/LongDoubleRes;]",2
+"while accept class id:[13],name:[Ljavax/servlet/ServletInputStream;]",1
+"while accept class id:[0],name:[Lres/NullZero;]",1
+"while accept class id:[26],name:[Ljavax/servlet/http/HttpServlet;]",1
+method nullzero ()V,11
+"while accept class id:[63],name:[Lorg/mortbay/ijetty/IJetty;]",1
+"while accept class id:[103],name:[Lorg/mortbay/ijetty/servlet/DefaultServlet;]",2
+"while accept class id:[105],name:[Lorg/mortbay/io/AbstractBuffer;]",1
+"while accept class id:[126],name:[Lorg/mortbay/io/nio/ChannelEndPoint;]",2
+"while accept class id:[287],name:[Lorg/mortbay/jetty/security/HashSSORealm;]",2
+"while accept class id:[311],name:[Lorg/mortbay/jetty/security/UnixCrypt;]",2
+"while accept class id:[319],name:[Lorg/mortbay/jetty/servlet/Context;]",1
+"while accept class id:[356],name:[Lorg/mortbay/jetty/webapp/WebXmlConfiguration;]",1
+while accept method:[Lres/NoEndRes;.a()V],1
+com.googlecode.dex2jar.DexException: method equals (Ljava/lang/Object;)Z,1
+,4
+while accept method:[Ljavax/servlet/http/HttpServlet;.maybeSetLastModified(Ljavax/servlet/http/HttpServletResponse;J)V],2
+while accept method:[Ljavax/servlet/ServletInputStream;.readLine([BII)I],1
+while accept method:[Ljavax/servlet/GenericServlet;.&lt;clinit&gt;()V],2
+while accept method:[Lres/I71;.size()I],1
+com.googlecode.dex2jar.DexException: method readLine ([BII)I,1
+com.googlecode.dex2jar.DexException: method dispatch (Z)Z,1
+arguments not equal: java/io/PrintStream.append(Ljava/lang/CharSequence;)Ljava/io/PrintStream; &lt;&gt; com/googlecode/d2j/tools/jar/test/WaveTest.append(Lcom/googlecode/d2j/tools/jar/MethodInvocation;)Ljava/lang/Object;,2

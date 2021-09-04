@@ -1,0 +1,5 @@
+exception,count
+java.lang.AssertionError,25
+org.junit.ComparisonFailure,69
+java.lang.AssertionError:,4
+org.opentest4j.AssertionFailedError,6

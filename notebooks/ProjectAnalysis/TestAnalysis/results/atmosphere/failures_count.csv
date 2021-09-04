@@ -1,0 +1,7 @@
+exception,count
+java.lang.AssertionError,1106
+java.lang.NullPointerException,125
+org.atmosphere.cpr.AtmosphereMappingException,19
+javax.servlet.ServletException,27
+java.lang.IllegalStateException,8
+java.lang.ClassCastException,1

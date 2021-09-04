@@ -1,0 +1,3 @@
+exception,count
+java.lang.AssertionError,82
+org.opentest4j.AssertionFailedError,320

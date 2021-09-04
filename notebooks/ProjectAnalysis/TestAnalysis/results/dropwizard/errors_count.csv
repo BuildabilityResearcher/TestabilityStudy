@@ -1,0 +1,7 @@
+error,count
+javax/el/PropertyNotFoundException,12
+"Can not construct instance of com.codahale.dropwizard.metrics.reporters.ConsoleReporterFactory$ConsoleStream from String value &#x27;stdout&#x27;: value not one of declared Enum instance names  at [Source: N/A; line: -1, column: -1] (through reference chain: com.codahale.dropwizard.metrics.MetricsFactory[&quot;reporters&quot;]-&gt;com.codahale.dropwizard.metrics.reporters.ConsoleReporterFactory[&quot;output&quot;])",14
+"{ was not one of [SYNC, ASYNC, ASYNC_STALLING, ASYNC_DROPPING, ASYNC_STALLING_FULL_CALLEE, ASYNC_DROPPING_FULL_CALLEE]  at [Source: java.io.StringReader@6134ac4a; line: 1, column: 1629] (through reference chain: com.codahale.dropwizard.Configuration[&quot;server&quot;]-&gt;com.codahale.dropwizard.server.DefaultServerFactory[&quot;requestLog&quot;]-&gt;com.codahale.dropwizard.jetty.RequestLogFactory[&quot;appenders&quot;]-&gt;com.codahale.dropwizard.logging.ConsoleAppenderFactory[&quot;appenderPolicy&quot;])",1
+com.codahale.dropwizard.logging.AsyncAppender cannot be cast to ch.qos.logback.classic.net.SyslogAppender,1
+,6
+java.net.SocketException: Connection reset,6

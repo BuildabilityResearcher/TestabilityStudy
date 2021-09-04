@@ -1,0 +1,346 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,e1dc6cf0,FAIL,0,NO,0,NO,0,2011-03-19 22:23:47 +0000,trunk/tags/branches,0,0
+1,ea668bf9,FAIL,0,NO,0,NO,0,2011-03-19 22:36:16 +0000,git-svn-id: https://svn.java.net/svn/essentials~svn/trunk@968 e251c2fe-e539-e718-e476-b85c1f46cddb,0,0
+2,59d0415c,FAIL,0,NO,0,NO,0,2011-03-19 22:39:51 +0000,Moving all files to trunk.,141,9594
+3,b3808f71,FAIL,0,NO,0,NO,0,2011-03-20 00:41:19 +0000,Testmerge from 2.1 to trunk,141,9594
+4,95bfe6d9,FAIL,0,NO,0,NO,0,2011-03-20 01:32:07 +0000,Testcommit to trunk for merge,141,9594
+5,4e8bba1e,FAIL,0,NO,0,NO,0,2011-03-20 01:36:03 +0000,Testcommit,141,9594
+6,6a3fc060,FAIL,0,NO,0,NO,0,2011-03-20 12:41:46 +0000,[trunk] Corrected log names in items.csv,141,9594
+7,ffd5bf19,FAIL,0,NO,0,NO,0,2011-03-21 12:51:26 +0000,[trunk] Fix NPE in EssentialsConf on closing the stream.,141,9594
+8,97adf699,FAIL,0,NO,0,NO,0,2011-03-21 15:39:57 +0000,[trunk] Fix for ticket #161. Reset the color to white after away.,141,9594
+9,22379f76,FAIL,0,NO,0,NO,0,2011-03-21 15:50:35 +0000,[2.1] Adding world name to location of whois,141,9594
+10,2f88d64a,FAIL,0,NO,0,NO,0,2011-03-22 13:40:44 +0000,Updated to more normal settings including essentials permission nodes.,141,9594
+11,4dc5824a,FAIL,0,NO,0,NO,0,2011-03-22 13:42:45 +0000,Updated to more normal settings including essentials permission nodes.,141,9594
+12,71c5e8c5,FAIL,0,NO,0,NO,0,2011-03-30 04:03:21 +0000,"2.1 prerelease, part 2 of 3",144,9902
+13,2b191534,FAIL,0,NO,0,NO,0,2011-03-30 04:04:57 +0000,Renamed 2.1 -> trunk,144,9902
+14,31b23920,FAIL,0,NO,0,NO,0,2011-03-30 07:49:29 +0000,latest RB #602,144,9902
+15,5aca17d7,FAIL,0,NO,0,NO,0,2011-03-30 12:22:10 +0000,Updated merged jars to add c3p0,144,9902
+16,e7eafa81,FAIL,0,NO,0,NO,0,2011-03-30 12:56:34 +0000,Revert to 1013,147,9994
+17,57c93a21,FAIL,0,NO,0,NO,0,2011-03-30 12:58:01 +0000,Revert to 1013,149,10101
+18,3f7be285,FAIL,0,NO,0,NO,0,2011-03-30 13:16:54 +0000,Deprecated Serverlist,146,9831
+19,d869f01d,FAIL,0,NO,0,NO,0,2011-03-30 13:28:15 +0000,Commit 1002,146,9834
+20,f42c5ee3,FAIL,0,NO,0,NO,0,2011-03-30 13:28:57 +0000,Commit 1001,146,9834
+21,09bc9e98,FAIL,0,NO,0,NO,0,2011-03-30 13:31:01 +0000,Commit 994 996,146,9902
+22,965e42e0,FAIL,0,NO,0,NO,0,2011-03-30 13:34:15 +0000,Commit 993,146,9902
+23,b1745aa4,FAIL,0,NO,0,NO,0,2011-03-30 13:39:00 +0000,Deprecated Serverlist,146,9902
+24,57eb9a78,FAIL,0,NO,0,NO,0,2011-03-30 14:08:12 +0000,Fixed merge error,146,9841
+25,714e836f,FAIL,0,NO,0,NO,0,2011-03-30 14:22:14 +0000,2.1 v,146,9849
+26,09403c7a,FAIL,0,NO,0,NO,0,2011-03-30 14:28:46 +0000,gah,146,9841
+27,50e1b5a9,FAIL,0,NO,0,NO,0,2011-03-30 14:31:54 +0000,remove,140,9345
+28,e58a2aba,FAIL,0,NO,0,NO,0,2011-03-30 16:38:56 +0000,git-svn-id: https://svn.java.net/svn/essentials~svn/trunk@1038 e251c2fe-e539-e718-e476-b85c1f46cddb,140,9345
+29,1beef491,FAIL,0,NO,0,NO,0,2011-03-30 16:40:44 +0000,Updated for bukkit 600+,140,9341
+30,557f2325,FAIL,0,NO,0,NO,0,2011-03-30 16:57:05 +0000,git-svn-id: https://svn.java.net/svn/essentials~svn/trunk@1041 e251c2fe-e539-e718-e476-b85c1f46cddb,140,9321
+31,3cac8891,FAIL,0,NO,0,NO,0,2011-03-30 17:58:00 +0000,Updated for CB 602,140,9404
+32,df3b904e,FAIL,0,NO,0,NO,0,2011-03-30 20:22:07 +0000,Temporary fix for teleportation,140,9399
+33,0dd84217,FAIL,0,NO,0,NO,0,2011-03-31 11:59:43 +0000,We shouldn't be canceling Priority.Monitor events; switched to Priority.Lowest.,140,9399
+34,0c7a2f4b,FAIL,0,NO,0,NO,0,2011-03-31 12:05:42 +0000,Fixed priorities,140,9399
+35,a1c78d06,FAIL,0,NO,0,NO,0,2011-03-31 21:48:46 +0000,wolf spawn,140,9400
+36,5c59f472,FAIL,0,NO,0,NO,0,2011-03-31 22:20:53 +0000,Fix NPE where players trigger creature spawn,140,9403
+37,4efc2b80,FAIL,0,NO,0,NO,0,2011-03-31 22:39:08 +0000,NULL item is when we click on stuff like doors.,140,9403
+38,864635ec,FAIL,0,NO,0,NO,0,2011-04-01 00:18:15 +0000,[trunk] Remove private directories.,140,9403
+39,795f3b8d,FAIL,0,NO,0,NO,0,2011-04-01 01:21:30 +0000,[trunk] Correcting path for c3p0,140,9403
+40,48e80296,FAIL,0,NO,0,NO,0,2011-04-01 01:36:47 +0000,[trunk] Ignore dist & build,140,9403
+41,6504bdf9,FAIL,0,NO,0,NO,0,2011-04-01 02:16:07 +0000,[trunk] CraftBukkit new recommended build 612 Compatibility with MC 1.4,140,9403
+42,66c66354,FAIL,0,NO,0,NO,0,2011-04-01 04:13:38 +0000,[trunk] New 1.4 items.csv by necrodoom,140,9403
+43,f3468d6d,FAIL,0,NO,0,NO,0,2011-04-01 10:15:49 +0000,Temp fix for coloured suffixes,140,9403
+44,59be793e,FAIL,0,NO,0,NO,0,2011-04-01 20:11:55 +0000,[trunk] CraftBukkit: new recommended build 617 Fixes Sign bug (sign won't change),140,9403
+45,992d309b,FAIL,0,NO,0,NO,0,2011-04-01 22:06:00 +0000,[trunk] Item lists in settings are now stored as Integer lists. Also: Names from items.csv now work in item lists.,140,9463
+46,193b94c8,FAIL,0,NO,0,NO,0,2011-04-01 22:46:27 +0000,[trunk] Handle suffix with a size of 0 or 1.,140,9463
+47,5811ced6,FAIL,0,NO,0,NO,0,2011-04-01 22:55:28 +0000,[trunk] Cleanup,140,9462
+48,4827e298,FAIL,0,NO,0,NO,0,2011-04-01 23:06:44 +0000,"[trunk] Prevent scam (air, zero items) signs and prevent stacks size lower than 1 with /give and /item",140,9466
+49,e64f29cb,FAIL,0,NO,0,NO,0,2011-04-01 23:35:10 +0000,[trunk] Fixed multiworld support for /home,140,9466
+50,b37bf315,FAIL,0,NO,0,NO,0,2011-04-01 23:39:18 +0000,[trunk] teleportTo replaced with teleport; craftbukkit deprecated,140,9466
+51,97cdc2b8,FAIL,0,NO,0,NO,0,2011-04-02 00:41:58 +0000,[trunk] Readded [balance] and [heal] sign code that was lost,140,9487
+52,8a47117c,FAIL,0,NO,0,NO,0,2011-04-02 02:43:58 +0000,[trunk] Prevent explosions near protected objects,140,9523
+53,f7d24f72,FAIL,0,NO,0,NO,0,2011-04-02 09:46:13 +0000,[trunk] Trim whitespaces from names in item lists in config.yml,140,9530
+54,b074c9c7,FAIL,0,NO,0,NO,0,2011-04-02 23:21:28 +0000,[Warp] signes. Format:     [Warp]     warp-name     Free/group/empty(then need permission to use),140,9544
+55,8cecbb4f,FAIL,0,NO,0,NO,0,2011-04-02 23:21:45 +0000,[Warp] signes. Format:     [Warp]     warp-name     Free/group/empty(then need permission to use),140,9558
+56,40c00a06,FAIL,0,NO,0,NO,0,2011-04-03 01:12:55 +0000,[trunk] Warp signs,140,9557
+57,b07e44af,FAIL,0,NO,0,NO,0,2011-04-03 01:19:50 +0000,[trunk] Warp signs PerWarpPermissions,140,9557
+58,d8e88a42,FAIL,0,NO,0,NO,0,2011-04-03 12:02:33 +0000,[trunk] Warp signs 4th line: charge money or items,140,9581
+59,01200b9b,FAIL,0,NO,0,NO,0,2011-04-03 12:15:22 +0000,"[trunk] Warp signs Since we can charge for warping now, Free is wrong, changed to Everyone. So if you want everyone to use the sign use either ""Everyone"" or leave the third line empty. In the latter case per Warp permission may apply, if enabled and the user needs essentials.signs.warp.use permission.",140,9581
+60,7c67bac0,FAIL,0,NO,0,NO,0,2011-04-03 13:38:25 +0000,[trunk] Drop items from Buy Signs if the inventory is full,140,9584
+61,4130a7d1,FAIL,0,NO,0,NO,0,2011-04-03 14:25:10 +0000,"[trunk] Infinite placement of blocks, egg throws, buckets",140,9674
+62,3daf7095,FAIL,0,NO,0,NO,0,2011-04-03 14:31:30 +0000,[trunk] Removed unused imports,140,9672
+63,af33b4ff,FAIL,0,NO,0,NO,0,2011-04-03 14:53:22 +0000,"[trunk] Removed debug message ""Kit is timed""",140,9671
+64,be9cd246,FAIL,0,NO,0,NO,0,2011-04-03 16:01:21 +0000,[trunk] Typo in config,140,9671
+65,5b615382,FAIL,0,NO,0,NO,0,2011-04-03 16:32:33 +0000,"[trunk] Fixes slime:size 1 is smallest Also added wool color for sheeps: Use color name (like white, red, blue) Example: /spawnmob sheep:blue",140,9682
+66,df80b68f,FAIL,0,NO,0,NO,0,2011-04-03 17:10:19 +0000,[trunk] Spawn angry or tamed wolf /spawnmob wolf:angry /spawnmob wolf:tamed,140,9695
+67,a11ccdda,FAIL,0,NO,0,NO,0,2011-04-03 17:16:02 +0000,[trunk] Cleanup,140,9695
+68,9eec83bf,FAIL,0,NO,0,NO,0,2011-04-03 18:16:23 +0000,[trunk] Default config changed: protect.alert.on-use: empty now protect.disable.build: true,140,9695
+69,6f143797,FAIL,0,NO,0,NO,0,2011-04-03 20:21:20 +0000,[trunk] Renamed infinite to unlimited Please change your permissions and config if you have used this.,141,9752
+70,a52d1394,FAIL,0,NO,0,NO,0,2011-04-03 20:31:18 +0000,[trunk] Renamed infinite to unlimited Please change your permissions and config if you have used this.,141,9752
+71,31a85d8e,FAIL,0,NO,0,NO,0,2011-04-03 20:39:39 +0000,[trunk] Renamed infinite to unlimited Please change your permissions and config if you have used this.,141,9753
+72,8081b665,FAIL,0,NO,0,NO,0,2011-04-03 20:52:23 +0000,"[trunk] /unlimited: Only give out one item, if the inventory does not contain one.",141,9756
+73,828cb46c,FAIL,0,NO,0,NO,0,2011-04-04 01:26:45 +0000,[trunk] New /powertool command,142,9827
+74,62c34735,FAIL,0,NO,0,NO,0,2011-04-04 01:55:27 +0000,[trunk] New /powertool command Disable spam message for {player} commands,142,9826
+75,2c644319,FAIL,0,NO,0,NO,0,2011-04-04 02:58:41 +0000,[trunk] Refactoring & cleanup of /spawnmob,142,9836
+76,92f81932,FAIL,0,NO,0,NO,0,2011-04-04 12:46:19 +0000,[trunk] Unlimited: Don't run on canceled place.,142,9837
+77,f0739930,FAIL,0,NO,0,NO,0,2011-04-04 13:06:01 +0000,[trunk] Unlimited: Display a message when user already has permissions to avoid confusion.,142,9850
+78,0550c900,FAIL,0,NO,0,NO,0,2011-04-04 13:25:02 +0000,[trunk] Unlimited: Better config documentation,142,9850
+79,2cbbbbaf,FAIL,0,NO,0,NO,0,2011-04-04 14:16:00 +0000,[trunk] Unlimited: Breaking change!,142,9811
+80,abb4a8ee,FAIL,0,NO,0,NO,0,2011-04-04 14:27:06 +0000,[trunk] Unlimited: List unlimited items with /unlimited list <player>,142,9822
+81,72b234c8,FAIL,0,NO,0,NO,0,2011-04-04 14:40:16 +0000,[trunk] Unlimited: List unlimited items with /unlimited list <player>,142,9822
+82,cc9a3429,FAIL,0,NO,0,NO,0,2011-04-04 14:51:19 +0000,[trunk] Unlimited: allow permissions with ids instead of names:,142,9822
+83,de5a3a99,FAIL,0,NO,0,NO,0,2011-04-04 15:02:07 +0000,"[trunk] Unlimited: removed the - from names, so that the names correspond with the ones in items.csv.",142,9822
+84,7eb32d3e,FAIL,0,NO,0,NO,0,2011-04-04 15:11:42 +0000,[trunk] Unlimited: fix unlimited.item-all permission,142,9822
+85,ce357dfb,FAIL,0,NO,0,NO,0,2011-04-04 15:38:25 +0000,"[trunk] Clear Inventory: Fix ""Player not found"" message",142,9824
+86,6be3f191,FAIL,0,NO,0,NO,0,2011-04-04 17:58:02 +0000,[trunk] Unlimited: Fix for list,142,9828
+87,22364941,FAIL,0,NO,0,NO,0,2011-04-04 19:48:59 +0000,[trunk] Unlimited: Displayed wrong name,142,9828
+88,6fe78b07,FAIL,0,NO,0,NO,0,2011-04-05 15:53:29 +0000,"[trunk] /plugin commands are broken. see http://leaky.bukkit.org/issues/641 for details Disabled all commands except /plugin list /plugin load, /plugin reload and /plugin enable will call server.reload() function.",142,9823
+89,fac328b5,FAIL,0,NO,0,NO,0,2011-04-05 15:54:59 +0000,[trunk] /list: Reset color after [AFK],142,9823
+90,3885fd99,FAIL,0,NO,0,NO,0,2011-04-05 15:57:54 +0000,[trunk] /msg /r Reply to the console. Add /r console command.,144,9850
+91,9f150473,FAIL,0,NO,0,NO,0,2011-04-05 16:31:38 +0000,[trunk] Hopefully fixes java.lang.IllegalAccessError in EssentialsBlockListener Force the hidden classes to load by the same ClassLoader.,144,9850
+92,bb382607,FAIL,0,NO,0,NO,0,2011-04-05 16:46:06 +0000,[trunk] Jail: Directly send player to Jail.,144,9850
+93,e1f1ee3b,FAIL,0,NO,0,NO,0,2011-04-05 16:53:26 +0000,[trunk] Teleport Cooldown: uncommented code What was the regression here?,144,9855
+94,a99800d5,FAIL,0,NO,0,NO,0,2011-04-05 16:59:46 +0000,[trunk] EssentialsChat: chat-radius is now multi world compatible.,144,9857
+95,a3dc43bc,FAIL,0,NO,0,NO,0,2011-04-05 18:14:18 +0000,[trunk] /msg /r Reply to the console. Add /r console command.,144,9858
+96,0c02e220,FAIL,0,NO,0,NO,0,2011-04-05 18:28:18 +0000,[trunk] /msg /r Reply to the console. Add /r console command.,144,9859
+97,f57bfcfa,FAIL,0,NO,0,NO,0,2011-04-05 23:30:58 +0000,[trunk] Another IllegalAccess error? http://pastebin.com/C122fiuQ,144,9859
+98,bf923f5a,FAIL,0,NO,0,NO,0,2011-04-06 00:50:16 +0000,[trunk] Fixes failed back after tjail,144,9859
+99,ae4366d7,FAIL,0,NO,0,NO,0,2011-04-06 00:52:27 +0000,[trunk] Fixes tjail if there is a jail stuck in the config.,144,9860
+100,5b9802cd,FAIL,0,NO,0,NO,0,2011-04-06 01:02:31 +0000,[trunk] trying to avoid IllegalAccess errors,144,9858
+101,548bc7d8,FAIL,0,NO,0,NO,0,2011-04-06 01:05:41 +0000,[trunk] trying to avoid IllegalAccess errors,144,9855
+102,0d7df77a,FAIL,0,NO,0,NO,0,2011-04-06 10:32:59 +0000,[trunk] Don't expect the values from yaml to be a specific number format.,144,9855
+103,242d7abd,FAIL,0,NO,0,NO,0,2011-04-07 02:21:10 +0000,[trunk] New base class for User for storing all data.,145,10172
+104,5c51ce02,FAIL,0,NO,0,NO,0,2011-04-07 02:59:56 +0000,[trunk] New base class for User for storing all data.,145,10224
+105,7b690ae2,FAIL,0,NO,0,NO,0,2011-04-07 16:57:06 +0000,"[trunk] Last heal, Last teleport: Don't error if it's the first time.",145,10226
+106,5817267a,FAIL,0,NO,0,NO,0,2011-04-07 20:32:00 +0000,[trunk] Monster don't target players.,145,10241
+107,9030ac36,FAIL,0,NO,0,NO,0,2011-04-07 20:37:48 +0000,[trunk] Monster don't target players.,145,10241
+108,71b9de15,FAIL,0,NO,0,NO,0,2011-04-07 20:39:27 +0000,[trunk] Monster don't target players.,145,10242
+109,834fb48d,FAIL,0,NO,0,NO,0,2011-04-07 20:44:06 +0000,[trunk] Monster don't target players.,145,10242
+110,35009288,FAIL,0,NO,0,NO,0,2011-04-08 08:16:28 +0000,New RB #670,145,10274
+111,f1b7f4a3,FAIL,0,NO,0,NO,0,2011-04-08 08:22:19 +0000,test libs,145,10274
+112,50bfc66b,FAIL,0,NO,0,NO,0,2011-04-08 11:13:33 +0000,[trunk] Replace all CraftInventory with Inventory,145,10267
+113,cbf724fc,FAIL,0,NO,0,NO,0,2011-04-08 11:28:55 +0000,[trunk] Typo in groups.yml,145,10267
+114,0be847fb,FAIL,0,NO,0,NO,0,2011-04-08 11:43:10 +0000,[trunk] empty fields in Inventory now return null instead of Material.AIR,145,10267
+115,fe298d2f,FAIL,0,NO,0,NO,0,2011-04-08 11:45:14 +0000,[trunk] empty fields in Inventory now return null instead of Material.AIR,145,10269
+116,40f4aedd,FAIL,0,NO,0,NO,0,2011-04-08 16:35:32 +0000,"[trunk] New permission essentials.protect.ownerinfo shows the owner of each block, was essentials.protect.admin before.",145,10269
+117,8d8dba4e,FAIL,0,NO,0,NO,0,2011-04-09 00:58:41 +0000,[trunk] tpall command,146,10296
+118,214468c6,FAIL,0,NO,0,NO,0,2011-04-09 19:36:11 +0000,updated items.csv,146,10296
+119,9c31085f,FAIL,0,NO,0,NO,0,2011-04-10 16:36:57 +0000,Updated according to necrodoom,146,10296
+120,58b625ae,FAIL,0,NO,0,NO,0,2011-04-10 16:48:25 +0000,Updated according to necrodoom,146,10296
+121,b5268c97,FAIL,0,NO,0,NO,0,2011-04-10 18:17:53 +0000,[trunk] Backported some code from 3.0 branch: Correct the protection of signs and rails.,146,10300
+122,f9d89046,FAIL,0,NO,0,NO,0,2011-04-10 19:29:37 +0000,"[trunk] New /info command, reads text from info.txt. Chapters are supported. Each line that starts with #name creates a chapter named name. Name does not support spaces and ignores case.",147,10394
+123,3a7d0920,FAIL,0,NO,0,NO,0,2011-04-10 19:44:12 +0000,[trunk] New permissions: essentials.nocommandcost.all essentials.nocommandcost.[commandname],147,10396
+124,f76b9fd2,FAIL,0,NO,0,NO,0,2011-04-10 20:09:04 +0000,[trunk] getSaveDestination: round location and center the player on the block Less chance to get stuck in walls,147,10397
+125,9e518d33,FAIL,0,NO,0,NO,0,2011-04-10 20:51:39 +0000,[trunk] change portal exit position for fixed getSavePosition,147,10397
+126,27c0f9cf,FAIL,0,NO,0,NO,0,2011-04-10 21:00:50 +0000,"[trunk] added woodenstair, woodstair, wstair to item.csv",147,10397
+127,5adb15f9,FAIL,0,NO,0,NO,0,2011-04-10 21:21:34 +0000,[trunk] add alias of ci to cleaninventory,147,10401
+128,4a2bd54b,FAIL,0,NO,0,NO,0,2011-04-10 22:55:11 +0000,[trunk] GroupManager: Support utf-8 for saving files.,147,10392
+129,70b0f22d,FAIL,0,NO,0,NO,0,2011-04-10 23:35:07 +0000,[trunk] Home: Catch world not loaded/unknown in server.,147,10396
+130,1f942449,FAIL,0,NO,0,NO,0,2011-04-10 23:43:02 +0000,[trunk] UserTest/Home: We can't test home without a running server.,147,10392
+131,e5da64f2,FAIL,0,NO,0,NO,0,2011-04-11 00:10:18 +0000,[trunk] Config: added all possible values to prevent spawning,147,10392
+132,bee1ef4f,FAIL,0,NO,0,NO,0,2011-04-11 00:35:56 +0000,[trunk] UserData: Catch null location in getHome,147,10395
+133,5d17db19,FAIL,0,NO,0,NO,0,2011-04-11 08:48:40 +0000,[trunk] updated csv by necrodoom,147,10395
+134,dd4a22c3,FAIL,0,NO,0,NO,0,2011-04-11 08:58:16 +0000,[trunk] getSaveDestination: floor location and center the player on the block Less chance to get stuck in walls,147,10395
+135,b529b17f,FAIL,0,NO,0,NO,0,2011-04-11 10:49:45 +0000,"[trunk] Protect: new prevent.portal-creation If enabled, players can't create portals using fire.",147,10402
+136,2fa346a8,FAIL,0,NO,0,NO,0,2011-04-11 11:23:10 +0000,[trunk] Antioch: Removed restriction to op users.,147,10399
+137,546dc12e,FAIL,0,NO,0,NO,0,2011-04-11 17:38:40 +0000,Added /realname,147,10399
+138,9b493b76,FAIL,0,NO,0,NO,0,2011-04-12 02:21:53 +0000,Added ability to disable nicknames by adding /nick to the disabled commands list,147,10396
+139,94fb11f4,FAIL,0,NO,0,NO,0,2011-04-12 03:14:01 +0000,Added /ifo and /about as aliases for /info,147,10396
+140,f506f43b,FAIL,0,NO,0,NO,0,2011-04-12 19:39:38 +0000,[trunk] God/Heal: New aliases /egod and /eheal,147,10404
+141,4e6206a6,FAIL,0,NO,0,NO,0,2011-04-12 20:28:52 +0000,No private folders please!,147,10404
+142,22f1fdf5,FAIL,0,NO,0,NO,0,2011-04-12 20:29:32 +0000,[trunk] God/Heal: New aliases /egod and /eheal Also fix: /money and /bal for /balance,147,10404
+143,8261c0d9,FAIL,0,NO,0,NO,0,2011-04-13 12:21:39 +0000,"new RB #647,",147,10404
+144,d2028214,FAIL,0,NO,0,NO,0,2011-04-13 12:37:56 +0000,recommend # 674,147,10412
+145,1a0d1927,FAIL,0,NO,0,NO,0,2011-04-14 09:36:25 +0000,[trunk] adding new setting to send a person to spawn if /home is used with no home set,147,10425
+146,f7b41f7d,FAIL,0,NO,0,NO,0,2011-04-14 10:36:17 +0000,RB #677,147,10425
+147,384722f4,FAIL,0,NO,0,NO,0,2011-04-14 21:14:16 +0000,[trunk] add setting warn-on-build-disallow to protect. setting this will give users with build:false a warning,147,10430
+148,73769fa0,FAIL,0,NO,0,NO,0,2011-04-14 22:11:35 +0000,[trunk] Do not rely on getItemInHand(); Bukkit-Bug: http://leaky.bukkit.org/issues/663,147,10428
+149,8ea0d4e0,FAIL,0,NO,0,NO,0,2011-04-14 22:16:01 +0000,[trunk] Don't forget to update the minBukkitBuildVersion in Essentials class.,147,10428
+150,23237064,FAIL,0,NO,0,NO,0,2011-04-14 22:53:36 +0000,cleanup,147,10425
+151,b900116c,FAIL,0,NO,0,NO,0,2011-04-15 01:41:42 +0000,Added overridden-commands.  Commands beginning with /e will also give Essentials precedence.,147,10434
+152,f3d152b9,FAIL,0,NO,0,NO,0,2011-04-15 06:55:39 +0000,Removing private directory again.,147,10434
+153,37ad3477,FAIL,0,NO,0,NO,0,2011-04-15 16:42:53 +0000,[trunk] remove ServerList section,147,10434
+154,52291b27,FAIL,0,NO,0,NO,0,2011-04-15 19:47:17 +0000,[trunk] emoney,147,10434
+155,f1383bad,FAIL,0,NO,0,NO,0,2011-04-15 20:13:16 +0000,"[trunk] change the way we prevent jailed players teleporting, should fix conflict with nocheat",147,10444
+156,be51bc19,FAIL,0,NO,0,NO,0,2011-04-15 21:11:41 +0000,[trunk] case insensitive items from items csv when using /item and /give,147,10444
+157,4678ec7d,FAIL,0,NO,0,NO,0,2011-04-15 21:18:32 +0000,[trunk] fixing node setting for warn-on-build-disallow. This needs to be in the protect: section under the disable: best place is to put it under the build: true node,147,10444
+158,85c8ae86,FAIL,0,NO,0,NO,0,2011-04-15 21:56:40 +0000,[trunk] fix setting for prevent-block-on-rails,147,10444
+159,e4ce7857,FAIL,0,NO,0,NO,0,2011-04-15 23:06:29 +0000,[trunk] new setting use-1to1-ratio if true sets the nether offset when using world to 1:1 else defaults to normal nether ratio,147,10449
+160,fd610407,FAIL,0,NO,0,NO,0,2011-04-15 23:21:40 +0000,"[trunk] change the ability to nick others to permission node ""essentials.nick.others""",147,10449
+161,2f4d91f9,FAIL,0,NO,0,NO,0,2011-04-16 00:42:43 +0000,"[trunk] moved the worth-id: cost out to their own file ""worth.yml"" some default values will be created. If you have values in config.yml already then they need to be copied to this new file. Added a setworth command that can change / add worth values.",149,10490
+162,b1a45664,FAIL,0,NO,0,NO,0,2011-04-16 00:46:53 +0000,forgot to return,149,10491
+163,5bc4f35e,FAIL,0,NO,0,NO,0,2011-04-16 00:54:31 +0000,[trunk] restore a users saved inventory if they use invsee then logout,149,10495
+164,7c874c2d,FAIL,0,NO,0,NO,0,2011-04-16 05:36:32 +0000,[trunk] Groups for Protection signs.,149,10499
+165,698a2606,FAIL,0,NO,0,NO,0,2011-04-16 05:52:58 +0000,[trunk] 1 to 1 ratio in Nether: The code is in two places. Also fixes 1/16=0 error using /world command.,149,10508
+166,db8a1ca4,FAIL,0,NO,0,NO,0,2011-04-16 05:57:16 +0000,"[trunk] /worth: don't access config directly, don't reload config after save and use getPrice() method.",149,10507
+167,f4d1689c,FAIL,0,NO,0,NO,0,2011-04-16 05:59:59 +0000,[trunk] Cleanup,149,10506
+168,87807c00,FAIL,0,NO,0,NO,0,2011-04-16 06:00:27 +0000,[trunk] Cleanup,149,10505
+169,dfa79b66,FAIL,0,NO,0,NO,0,2011-04-16 06:28:56 +0000,"[trunk] Worth/Sell: Support for double values as prices and more important: support for data items. the yaml structure has changed, there is a fallback to the old structure.",149,10518
+170,24b0034c,FAIL,0,NO,0,NO,0,2011-04-16 06:45:37 +0000,"[trunk] Worth/Sell: Support for double values as prices and more important: support for data items. the yaml structure has changed, there is a fallback to the old structure.",149,10517
+171,c5474e4c,FAIL,0,NO,0,NO,0,2011-04-16 07:01:18 +0000,[trunk] Groups for Protection signs. Group inheritance.,149,10522
+172,0819de6e,FAIL,0,NO,0,NO,0,2011-04-16 07:05:46 +0000,[trunk] Group inheritance for warp signs,149,10522
+173,f4c4189e,FAIL,0,NO,0,NO,0,2011-04-16 13:36:09 +0000,[trunk] New mechanism for upgrading config files. This will be extended in the future. New worth.yml autogenerated from the previous values.,150,10579
+174,dd8508ca,FAIL,0,NO,0,NO,0,2011-04-16 13:38:02 +0000,[trunk] Removed useless loadClasses() method from Essentials.,150,10569
+175,ed697cf5,FAIL,0,NO,0,NO,0,2011-04-16 13:41:36 +0000,[trunk] Update user data if a command from /powertool is removed,150,10569
+176,278a4d3a,FAIL,0,NO,0,NO,0,2011-04-16 14:39:31 +0000,[trunk] Bukkit-Bug: http://leaky.bukkit.org/issues/668 changed getData().getData() to getDurability(),150,10572
+177,b17bb09b,FAIL,0,NO,0,NO,0,2011-04-16 15:11:20 +0000,"[trunk] /sell itemname amount New syntax for sell command, proposed by KimKandor It won't sell the items in hand anymore.",150,10583
+178,473271b0,FAIL,0,NO,0,NO,0,2011-04-16 15:11:44 +0000,"[trunk] /sell itemname amount New syntax for sell command, proposed by KimKandor It won't sell the items in hand anymore.",150,10583
+179,a289cfb7,FAIL,0,NO,0,NO,0,2011-04-16 15:12:45 +0000,"[trunk] /sell itemname amount New syntax for sell command, proposed by KimKandor It won't sell the items in hand anymore.",150,10583
+180,aed820a2,FAIL,0,NO,0,NO,0,2011-04-16 15:15:46 +0000,"[trunk] /sell itemname amount New syntax for sell command, proposed by KimKandor It won't sell the items in hand anymore.",150,10583
+181,47f0c903,FAIL,0,NO,0,NO,0,2011-04-16 15:21:17 +0000,[trunk] NPE in /sell,150,10585
+182,ceb75175,FAIL,0,NO,0,NO,0,2011-04-16 15:25:06 +0000,[trunk] Better log of command errors,150,10586
+183,df37b86a,FAIL,0,NO,0,NO,0,2011-04-16 15:25:48 +0000,"[trunk] Worth: Don't default to 0.0, default to NaN.",150,10588
+184,76b4a5e8,FAIL,0,NO,0,NO,0,2011-04-16 15:33:52 +0000,[trunk] /sell: fix negative value,150,10590
+185,1d947652,FAIL,0,NO,0,NO,0,2011-04-16 15:36:37 +0000,[trunk] /setworth: support double,150,10590
+186,9aea3246,FAIL,0,NO,0,NO,0,2011-04-16 15:39:58 +0000,[trunk] /sell hand will sell the item in hand.,150,10594
+187,ba4f1783,FAIL,0,NO,0,NO,0,2011-04-16 15:53:36 +0000,[trunk] Protection signs: Only owner of signs can destroy the signs. This is also guarded by EssentialsProtect.,150,10595
+188,8bba355c,FAIL,0,NO,0,NO,0,2011-04-16 16:16:04 +0000,[trunk] Protection signs: Only owner of signs can destroy the signs. This is also guarded by EssentialsProtect.,150,10596
+189,e74ca6a6,FAIL,0,NO,0,NO,0,2011-04-16 16:24:45 +0000,[trunk] Protection signs: Last character from group was cut off.,150,10598
+190,6d1bb402,FAIL,0,NO,0,NO,0,2011-04-16 16:49:56 +0000,[trunk] EssentialsUpgrade: rename backup to .upgradebackup,150,10598
+191,7a4c6256,FAIL,0,NO,0,NO,0,2011-04-16 17:26:32 +0000,[trunk] EssentialsConf: getDouble(): do not change the config on get() if the value is not set,150,10605
+192,5203b90e,FAIL,0,NO,0,NO,0,2011-04-16 19:05:31 +0000,git-svn-id: https://svn.java.net/svn/essentials~svn/trunk@1234 e251c2fe-e539-e718-e476-b85c1f46cddb,150,10605
+193,91089060,FAIL,0,NO,0,NO,0,2011-04-16 19:13:53 +0000,Formatting,150,10605
+194,d31d4395,FAIL,0,NO,0,NO,0,2011-04-16 23:18:00 +0000,[trunk] Less spam on command errors by default Added new debug setting to config.,150,10608
+195,6918e756,FAIL,0,NO,0,NO,0,2011-04-16 23:41:11 +0000,[trunk] Catch the case where the upgrade is called before the config.yml file exists. We don't need to update then.,150,10610
+196,7d8a34c3,FAIL,0,NO,0,NO,0,2011-04-17 00:08:09 +0000,[trunk] Throw errors on upgrade rename fail.,150,10612
+197,7cbc982f,FAIL,0,NO,0,NO,0,2011-04-17 14:42:59 +0000,[trunk] cleanup,150,10612
+198,bbddb704,FAIL,0,NO,0,NO,0,2011-04-18 01:01:34 +0000,Settings are now in trunk,150,10612
+199,7ad287d2,FAIL,0,NO,0,NO,0,2011-04-19 10:04:51 +0000,Craftbukkit recommended #684,150,10612
+200,4c7bd8c9,FAIL,0,NO,0,NO,0,2011-04-19 10:49:17 +0000,"[trunk] add optional playername param to home. Players with ""essentials.homes.others"" permission can teleport to other players homes.",150,10615
+201,c648e345,FAIL,0,NO,0,NO,0,2011-04-19 10:52:24 +0000,[trunk] args length fix,150,10615
+202,030474fe,FAIL,0,NO,0,NO,0,2011-04-20 19:00:22 +0000,Added /e aliases for most commands,150,10615
+203,4bc7b568,FAIL,0,NO,0,NO,0,2011-04-21 09:29:31 +0000,Updated build-impl by Netbeans 7.0,150,10615
+204,8adc7f8d,FAIL,0,NO,0,NO,0,2011-04-21 09:33:25 +0000,Craftbukkit 689 / MC 1.5,150,10615
+205,39f807f8,FAIL,0,NO,0,NO,0,2011-04-21 09:45:59 +0000,Missed one function rename of the wolf entity,150,10615
+206,028c832e,FAIL,0,NO,0,NO,0,2011-04-21 10:08:44 +0000,Prevent to give air.,150,10623
+207,df5fecdc,FAIL,0,NO,0,NO,0,2011-04-21 10:43:19 +0000,New items.csv for 1.5 by necrodoom,150,10623
+208,f8c26fcf,FAIL,0,NO,0,NO,0,2011-04-21 11:48:07 +0000,Use the correct nether in case there are more worlds loaded.,150,10639
+209,0153661b,FAIL,0,NO,0,NO,0,2011-04-21 11:59:22 +0000,Fix signs for names > 14 char length. This can be exploited by creating a user with the same first 14 characters.,150,10639
+210,52ed15bd,FAIL,0,NO,0,NO,0,2011-04-21 14:08:01 +0000,Fix signs for names > 14 char length. This can be exploited by creating a user with the same first 14 characters.,150,10644
+211,2b788d4d,FAIL,0,NO,0,NO,0,2011-04-21 14:41:43 +0000,"Removed reference to EssentialsHome, we don't have that anymore",150,10643
+212,72064beb,FAIL,0,NO,0,NO,0,2011-04-21 15:00:07 +0000,Typo,150,10643
+213,fb2c0d28,FAIL,0,NO,0,NO,0,2011-04-21 16:37:37 +0000,"Fix item drop on trade signs, if player inventory is full.",150,10647
+214,568a5561,FAIL,0,NO,0,NO,0,2011-04-21 16:58:02 +0000,CB 697 Fixes spawning of web and new rails. New config: Disable Lightning damage for players.,150,10651
+215,deb9821d,FAIL,0,NO,0,NO,0,2011-04-21 17:03:44 +0000,New option for /spawnmob,150,10654
+216,372359c9,FAIL,0,NO,0,NO,0,2011-04-21 17:52:31 +0000,CB 698 Fixes creeper.isPowered(),150,10654
+217,bd282f34,FAIL,0,NO,0,NO,0,2011-04-21 18:05:07 +0000,CB 699 Finally fixes creeper.isPowered(),150,10654
+218,be12264e,FAIL,0,NO,0,NO,0,2011-04-23 00:20:55 +0000,CB 711,150,10652
+219,10e73c1f,FAIL,0,NO,0,NO,0,2011-04-23 00:24:29 +0000,"added wheather,   usage /weather <sun/storm> [time in seconds]",151,10696
+220,cdbc33f0,FAIL,0,NO,0,NO,0,2011-04-23 00:26:10 +0000,"added wheather,   usage /weather <sun/storm> [time in seconds]",152,10740
+221,08c3ce07,FAIL,0,NO,0,NO,0,2011-04-23 00:30:59 +0000,CB 711,152,10763
+222,3c9e2985,FAIL,0,NO,0,NO,0,2011-04-23 00:43:27 +0000,"added thunder,   usage: /thunder <true/false> [duration]",153,10807
+223,a710aa61,FAIL,0,NO,0,NO,0,2011-04-23 00:45:10 +0000,small CB build fix,153,10807
+224,7d42ad2b,FAIL,0,NO,0,NO,0,2011-04-23 01:21:54 +0000,updatedplugin.yml,153,10807
+225,4e979a6a,FAIL,0,NO,0,NO,0,2011-04-24 01:24:37 +0000,Let's get to the bottom of this ban error.,153,10811
+226,592edca8,FAIL,0,NO,0,NO,0,2011-04-24 20:49:02 +0000,delete,152,10767
+227,6f54f19e,FAIL,0,NO,0,NO,0,2011-04-24 22:13:14 +0000,Code cleanup; deprecated /nuble,151,10747
+228,fce3e6b6,FAIL,0,NO,0,NO,0,2011-04-26 02:05:22 +0000,CB 731,151,10747
+229,5eb2f84c,FAIL,0,NO,0,NO,0,2011-04-26 09:14:38 +0000,Rcommended #733,151,10747
+230,a157bb44,FAIL,0,NO,0,NO,0,2011-04-26 10:36:53 +0000,[trunk] do'h,151,10747
+231,c3b3e7e8,FAIL,0,NO,0,NO,0,2011-04-26 10:47:59 +0000,[trunk] /unlimited: - Reset durability on some data items to prevent second stacks - Double Step gives Step,151,10763
+232,ec24a1cd,FAIL,0,NO,0,NO,0,2011-04-26 11:04:02 +0000,[trunk] New items.csv by necrodoom,151,10763
+233,0601176f,FAIL,0,NO,0,NO,0,2011-04-26 12:13:39 +0000,[trunk] weather / thunder refactor,151,10738
+234,9ed39895,FAIL,0,NO,0,NO,0,2011-04-26 12:39:57 +0000,"[trunk] weather / thunder refactor, added /lightning. usage: /lightning [player] it will zap them and kill them. You can also zap yourself.",152,10757
+235,e2173660,FAIL,0,NO,0,NO,0,2011-04-26 12:48:24 +0000,"[trunk] lightning, not as harsh, will take 5 hearts.",152,10757
+236,cc5eb6e3,FAIL,0,NO,0,NO,0,2011-04-26 21:36:51 +0000,"[trunk] cleanup, prevent lightning fire spread",152,10761
+237,d7fd2689,FAIL,0,NO,0,NO,0,2011-04-26 22:46:34 +0000,[trunk] fix /weather and /thunder args,152,10761
+238,275c5f00,FAIL,0,NO,0,NO,0,2011-04-27 00:16:23 +0000,[trunk] lightning strikes where you look if you do not pass an arg. fixed health taking,152,10762
+239,b08b69af,FAIL,0,NO,0,NO,0,2011-04-27 00:42:53 +0000,[trunk] sky alias,152,10762
+240,28f322c0,FAIL,0,NO,0,NO,0,2011-04-27 01:33:45 +0000,[trunk] added new config settings to disable weather. you can disable storm / thunder and lightning seperately.,153,10806
+241,6d731887,FAIL,0,NO,0,NO,0,2011-04-27 15:44:07 +0000,[trunk] Update items.csv by necrodoom,153,10806
+242,7b18918c,FAIL,0,NO,0,NO,0,2011-04-27 19:28:40 +0000,[trunk] remove chat spam from lightning,153,10805
+243,70e0f962,FAIL,0,NO,0,NO,0,2011-04-28 00:32:47 +0000,[trunk] test the svn bot,153,10807
+244,7d29e7b2,FAIL,0,NO,0,NO,0,2011-04-28 22:52:08 +0000,[trunk] fix /home playername. Look out for any case sesitive weirdness,153,10823
+245,ca52b418,FAIL,0,NO,0,NO,0,2011-04-29 08:48:29 +0000,[trunk] add new config setting warn-on-smite: true setting this to false will not tell people they are smited when using /lightning,153,10826
+246,18d8fd7f,FAIL,0,NO,0,NO,0,2011-04-29 09:35:58 +0000,RB #740,153,10826
+247,5b4514d8,FAIL,0,NO,0,NO,0,2011-04-30 18:12:46 +0000,[trunk/GroupManager] Correct error message on failing to load users file.,153,10826
+248,1aa4cb68,FAIL,0,NO,0,NO,0,2011-05-01 11:04:34 +0000,EssentialsGeoIP is now officially part of Essentials,160,11583
+249,8476c920,FAIL,0,NO,0,NO,0,2011-05-01 11:06:17 +0000,Empty project for Fayconomy,160,11583
+250,1df39a28,FAIL,0,NO,0,NO,0,2011-05-01 11:32:17 +0000,[trunk] Fix the seperate stacks with /unlimited for all data items.,160,11595
+251,c0f1af37,FAIL,0,NO,0,NO,0,2011-05-01 11:57:57 +0000,[trunk] GeoIP: New permission: essentials.geoip.hide,160,11598
+252,02a71837,FAIL,0,NO,0,NO,0,2011-05-01 18:37:58 +0000,"[trunk] /kickall <reason>, the reason is now optional, also fixes that only the first word is send as kick message.",160,11592
+253,448b32f4,FAIL,0,NO,0,NO,0,2011-05-01 19:09:38 +0000,[trunk] Fix unknown itemids to crash clients.,160,11597
+254,77cc3c7d,FAIL,0,NO,0,NO,0,2011-05-01 19:13:12 +0000,[trunk] New items.csv by necrodoom,160,11597
+255,36808a2c,FAIL,0,NO,0,NO,0,2011-05-01 19:38:25 +0000,"[trunk] Geoip: New permission essentials.geoip.show, that allow the player to see the location of other players.",160,11604
+256,3a83d59a,FAIL,0,NO,0,NO,0,2011-05-01 21:07:30 +0000,This is a big refactoring of the user class and more. Many commands have been cleaned.,166,11565
+257,0da67593,FAIL,0,NO,0,NO,0,2011-05-01 21:58:38 +0000,[trunk] Fix bug on upgrade the home locations,166,11569
+258,7663c0ac,FAIL,0,NO,0,NO,0,2011-05-01 22:35:26 +0000,[trunk] Another fix for upgrading the home locations,166,11570
+259,0e4de9e1,FAIL,0,NO,0,NO,0,2011-05-01 22:58:54 +0000,[trunk] Upgrade: - move users.yml to users.yml.old - handle filesystems that ignore case,166,11575
+260,d9294d6c,FAIL,0,NO,0,NO,0,2011-05-02 00:20:57 +0000,[trunk] Fix converting to new home format.,166,11578
+261,9d41ffcc,FAIL,0,NO,0,NO,0,2011-05-02 00:25:39 +0000,Made signs double compatible and fixed Sign Colours Permissions bypass exploit in Eco Signs.,166,11584
+262,25d77eff,FAIL,0,NO,0,NO,0,2011-05-02 00:37:57 +0000,[trunk] formatting,166,11584
+263,33c9e596,FAIL,0,NO,0,NO,0,2011-05-02 00:46:15 +0000,[trunk] Eco: removed useless converting string => double => string Missing brackets added,166,11582
+264,d8d4c1df,FAIL,0,NO,0,NO,0,2011-05-02 01:23:57 +0000,Fixed ugly decimals in messages and in balance.,166,11592
+265,5918f6b8,FAIL,0,NO,0,NO,0,2011-05-02 01:49:38 +0000,"[trunk] /item /give, new permissions   - essentials.itemspawn.item-all   - essentials.itemspawn.item-[itemname]   - essentials.itemspawn.item-[itemid]   - essentials.give.item-all   - essentials.give.item-[itemname]   - essentials.give.item-[itemid] these have to be activated  with permission-based-item-spawn: true in config.yml",166,11605
+266,200284fa,FAIL,0,NO,0,NO,0,2011-05-02 02:15:19 +0000,[trunk] Check for null in /sell,166,11605
+267,63e0c125,FAIL,0,NO,0,NO,0,2011-05-02 03:56:51 +0000,Integrated EcoAPI at EcoAPI.java,167,11772
+268,8a7caf49,FAIL,0,NO,0,NO,0,2011-05-02 05:22:42 +0000,EssentialsiConomyBridge.jar replaces the iConomy.jar dependency.,167,11772
+269,4e557b03,FAIL,0,NO,0,NO,0,2011-05-02 05:26:36 +0000,EssentialsiConomyBridge.jar replaces the iConomy.jar dependency. Project updated.,167,11772
+270,d485a1cc,FAIL,0,NO,0,NO,0,2011-05-02 05:28:30 +0000,git-svn-id: https://svn.java.net/svn/essentials~svn/trunk@1314 e251c2fe-e539-e718-e476-b85c1f46cddb,167,11772
+271,966ef1ce,FAIL,0,NO,0,NO,0,2011-05-02 09:55:22 +0000,"Fixed API ALOT, added bypass on iconomy calls for ico-bridge.",167,11779
+272,98fef113,FAIL,0,NO,0,NO,0,2011-05-02 09:56:40 +0000,"FayConomy is now EssentialsiConomyBridge, done and ported, fully functional.  Relies on EcoAPI!",171,11886
+273,150f1b03,FAIL,0,NO,0,NO,0,2011-05-02 10:09:07 +0000,Fixes dependencies for icoBridge,171,11886
+274,f1ed1510,FAIL,0,NO,0,NO,0,2011-05-02 10:09:43 +0000,Fixed last minute screw up.,171,11887
+275,23e1bc81,FAIL,0,NO,0,NO,0,2011-05-02 16:57:19 +0000,"[trunk] Stop the server instead of reloading, since reloading does not unload worlds. This for compatibility to other multiworld plugins, since we load all unloaded worlds as normal worlds.",171,11890
+276,061af61d,FAIL,0,NO,0,NO,0,2011-05-02 16:59:25 +0000,"[trunk] Delete temp files, if they are not needed.",171,11892
+277,86478459,FAIL,0,NO,0,NO,0,2011-05-02 18:22:17 +0000,Cleanup of the iConomyBridge Code,171,11910
+278,9b5b0cdc,FAIL,0,NO,0,NO,0,2011-05-02 22:30:48 +0000,[trunk] word spacing on mute / tempban,171,11910
+279,6e6b2df3,FAIL,0,NO,0,NO,0,2011-05-02 22:51:57 +0000,[trunk]fix nullpointer on mails after you clear them,171,11910
+280,5b4ecb6c,FAIL,0,NO,0,NO,0,2011-05-02 22:54:38 +0000,"EXPIRIMENTAL Essentials Iconomy Bridge for iConomy 5.0.  This has reverse compatability and is tested but unsure of 5.0 API, needs testing but no 5.0 API plugins yet!",178,12198
+281,4f19593a,FAIL,0,NO,0,NO,0,2011-05-02 23:10:24 +0000,[trunk]fix nullpointer on mails after you clear them and try to send mails,178,12199
+282,3a90e39b,FAIL,0,NO,0,NO,0,2011-05-03 04:05:28 +0000,Fixed currency/plural.,178,12199
+283,fe49c10c,FAIL,0,NO,0,NO,0,2011-05-03 04:29:37 +0000,"Working with ico 5.0 plugins.  Not sure about banks . . no plugins to test it with . . . yet!  Reverse compatability broken, ico decided to switch packages.",185,12415
+284,71b7c1d5,FAIL,0,NO,0,NO,0,2011-05-03 05:22:03 +0000,Cleaned up my format . . .,185,12415
+285,cb55472f,FAIL,0,NO,0,NO,0,2011-05-03 21:37:36 +0000,[trunk/protect] Adding warning for changes coming soon to protect in regards to worldguard,186,12432
+286,89f0bfb5,FAIL,0,NO,0,NO,0,2011-05-03 23:39:10 +0000,[trunk] warps should once again charge if setup in command costs,186,12432
+287,11b0d48c,FAIL,0,NO,0,NO,0,2011-05-04 02:34:44 +0000,Reverse Compatibility is impossible as of now until a method to dynamically change code (or how it works) in external plugins is found.  Removed Redundant and useless packages.,179,12144
+288,8763ac12,FAIL,0,NO,0,NO,0,2011-05-04 10:01:31 +0000,[trunk] lightning <playername> from the console,179,12149
+289,7137ffc5,FAIL,0,NO,0,NO,0,2011-05-04 10:06:47 +0000,[trunk] rules from console,179,12149
+290,2f3048f1,FAIL,0,NO,0,NO,0,2011-05-04 10:39:56 +0000,"[trunk] new socialspy command. if toggled will show the output of /msg and /mail in the chat for the toggle persons. usage /socialspy to turn on, /socialspy again to turn off",180,12181
+291,88ee42d0,FAIL,0,NO,0,NO,0,2011-05-04 11:23:45 +0000,[trunk] {MAILS} in motd will show how many mails,180,12182
+292,337e3e82,FAIL,0,NO,0,NO,0,2011-05-04 14:23:22 +0000,[trunk] formatting monies and signs. signs still need some work to incorporate doubles,180,12180
+293,cb24f6a2,FAIL,0,NO,0,NO,0,2011-05-04 15:00:42 +0000,[trunk/ Groupmanager] change the groups.yml so the default config will let default build.,180,12180
+294,24b0f320,FAIL,0,NO,0,NO,0,2011-05-04 15:53:32 +0000,"[trunk] adding support to warp other players to warps, this requires the essentials.warp.otherplayers permission",180,12187
+295,bb0c199d,FAIL,0,NO,0,NO,0,2011-05-04 16:22:38 +0000,"[trunk] Untested - /sell inventory sells all your inventory minus armour stuff, /sell blocks sells blocks only",180,12200
+296,04c1e42d,FAIL,0,NO,0,NO,0,2011-05-04 23:19:17 +0000,"[trunk warps should charge only once, and not when an exception happens",180,12199
+297,5d80a0e1,FAIL,0,NO,0,NO,0,2011-05-04 23:33:32 +0000,"[trunk] /sell inventory, /sell blocks fixes",180,12198
+298,def1f094,FAIL,0,NO,0,NO,0,2011-05-05 00:05:22 +0000,"[trunk] EssentialsProtect :- fix owner spam on arm swing, will only show on right-click now",180,12199
+299,f4cd897f,FAIL,0,NO,0,NO,0,2011-05-05 04:32:32 +0000,"Fixed offline player data changes rollingback on relogin.  Need to reproccess OfflinePlayer as a user, not declare it as a user.  Tested and works perfectly.",180,12200
+300,b7064d57,FAIL,0,NO,0,NO,0,2011-05-05 10:10:31 +0000,[trunk] cleanup,180,12199
+301,d4437163,FAIL,0,NO,0,NO,0,2011-05-05 19:22:39 +0000,currnceyName > currencyName in config.yml . . . I need to lrn2spell,180,12199
+302,773eebda,FAIL,0,NO,0,NO,0,2011-05-05 19:39:44 +0000,Removed indentations.,180,12199
+303,19ba12da,FAIL,0,NO,0,NO,0,2011-05-05 22:13:05 +0000,[trunk] standardising the currency settings,180,12195
+304,585c61bc,FAIL,0,NO,0,NO,0,2011-05-06 01:36:26 +0000,Compatability fix with API.,180,12193
+305,0fb3d15d,FAIL,0,NO,0,NO,0,2011-05-06 19:50:14 +0000,[trunk] fix formatting of sell,180,12194
+306,dbf85f2b,FAIL,0,NO,0,NO,0,2011-05-06 20:19:44 +0000,[trunk] fix none ops colour option,180,12196
+307,774fe7a2,FAIL,0,NO,0,NO,0,2011-05-06 20:55:12 +0000,[trunk] fix doubles in signs and output display,180,12196
+308,e3ce8518,FAIL,0,NO,0,NO,0,2011-05-06 21:08:58 +0000,[trunk] cleanup double $,180,12197
+309,9ec06d27,FAIL,0,NO,0,NO,0,2011-05-06 23:37:18 +0000,[trunk] heal others fixed,180,12202
+310,82a1e746,FAIL,0,NO,0,NO,0,2011-05-06 23:58:06 +0000,"[trunk] possible tpa fix, can't test",180,12202
+311,f4d0f5b6,FAIL,0,NO,0,NO,0,2011-05-07 10:58:00 +0000,[trunk]various trade sign fixes,180,12202
+312,609a2e61,FAIL,0,NO,0,NO,0,2011-05-07 10:58:51 +0000,[trunk]missed a rouge $,180,12202
+313,aec00841,FAIL,0,NO,0,NO,0,2011-05-07 11:13:26 +0000,"[trunk] more trade sign fixes, upon breaking",180,12202
+314,0aade098,FAIL,0,NO,0,NO,0,2011-05-07 11:17:14 +0000,[trunk] remove debug code,180,12202
+315,45a1ffdb,FAIL,0,NO,0,NO,0,2011-05-07 12:11:56 +0000,[trunk] fix /sell inventory / blocks chat spam,180,12205
+316,d53be400,FAIL,0,NO,0,NO,0,2011-05-07 13:03:45 +0000,"[trunk] metadata support in itemsdb.java, allows worth commands with metadata",180,12212
+317,9efa54fb,FAIL,0,NO,0,NO,0,2011-05-07 23:06:03 +0000,[trunk] I have gone insane. [trade] sign fixes,180,12217
+318,7cb6e969,FAIL,0,NO,0,NO,0,2011-05-07 23:58:14 +0000,[trunk] socialspy fix,180,12220
+319,e87a506a,FAIL,0,NO,0,NO,0,2011-05-08 00:06:28 +0000,[trunk] if ops name is empty handling,180,12220
+320,cb621ee8,FAIL,0,NO,0,NO,0,2011-05-08 03:37:46 +0000,Fixed bad Main class. -iConomy Bridge4,180,12226
+321,35786859,FAIL,0,NO,0,NO,0,2011-05-08 13:03:03 +0000,[trunk] cleanup debug messaging,180,12225
+322,97df4ae4,FAIL,0,NO,0,NO,0,2011-05-08 19:09:04 +0000,Attempted fix on API overwriting values.,180,12229
+323,c78184e0,FAIL,0,NO,0,NO,0,2011-05-08 19:25:44 +0000,Bug fixes on API.,180,12229
+324,9c218d86,FAIL,0,NO,0,NO,0,2011-05-08 19:40:24 +0000,API Changes.,180,12229
+325,816e840b,FAIL,0,NO,0,NO,0,2011-05-08 19:53:05 +0000,API Changes.,180,12221
+326,5d31c3cf,FAIL,0,NO,0,NO,0,2011-05-08 22:23:04 +0000,iConomy 5.0 support,180,12221
+327,2d5a5218,FAIL,0,NO,0,NO,0,2011-05-08 22:25:27 +0000,Updated authors.,180,12221
+328,531acfd5,FAIL,0,NO,0,NO,0,2011-05-08 22:37:38 +0000,"[trunk] Help: first test for help_username.txt, then help_groupname.txt and then help.txt, to allow help files for seperate groups and users.",180,12225
+329,87149491,FAIL,0,NO,0,NO,0,2011-05-08 22:45:10 +0000,"[trunk] warp sign: Only charge the user, if he is authorized to use the sign.",180,12229
+330,f51cbf2d,FAIL,0,NO,0,NO,0,2011-05-08 22:57:38 +0000,"[trunk] New config property: nether.ratio, defaults to 16. Please update use1to1ratio to ratio: 1.0",180,12221
+331,fae5c862,FAIL,0,NO,0,NO,0,2011-05-08 23:28:23 +0000,[trunk] Fix chargeFor on teleports,180,12221
+332,1b8fef0b,FAIL,0,NO,0,NO,0,2011-05-08 23:38:40 +0000,[trunk] Don't show /back message on death if command is disabled,180,12221
+333,d4749625,FAIL,0,NO,0,NO,0,2011-05-08 23:57:44 +0000,[trunk] Fix formatCurrency and roundDouble (it breaks on non-us locales),180,12221
+334,aa124109,FAIL,0,NO,0,NO,0,2011-05-09 00:12:58 +0000,[trunk] Add compatibility with backpack plugin.,180,12229
+335,035e8ba2,FAIL,0,NO,0,NO,0,2011-05-09 00:22:45 +0000,"[trunk] Rewritten ItemDb.get(), removed the getUnsafe function.",180,12230
+336,8016fa48,FAIL,0,NO,0,NO,0,2011-05-09 00:37:05 +0000,[trunk] Updated /item and /give to support the new ItemDb.get() Heal sign supports data items too.,180,12224
+337,a02f0da2,FAIL,0,NO,0,NO,0,2011-05-09 00:48:21 +0000,"[trunk] ItemDb.get(): Added support for other seperation characters : + ' , ; . added support for itemname:data, e.g. wool:7",180,12231
+338,e5c5d7ed,FAIL,0,NO,0,NO,0,2011-05-09 02:42:20 +0000,"[trunk] Translation of Essentials to other languages. This is just a start, many strings needs to be added. Console doesn't show umlauts, but in game chat does. New config property: locale",180,12235
+339,34ff5632,FAIL,0,NO,0,NO,0,2011-05-09 02:47:19 +0000,"[trunk] Translation of Essentials to other languages. This is just a start, many strings needs to be added. Console doesn't show umlauts, but in game chat does. New config property: locale",180,12307
+340,0b2e3152,FAIL,0,NO,0,NO,0,2011-05-09 02:48:30 +0000,cleanup,180,12305
+341,27311f66,FAIL,0,NO,0,NO,0,2011-05-09 03:11:59 +0000,cleanup,180,12305
+342,e24b321e,FAIL,0,NO,0,NO,0,2011-05-09 09:00:29 +0000,Minor fix on give and item,180,12305
+343,14adadea,FAIL,0,NO,0,NO,0,2011-05-09 09:19:25 +0000,Short sapling names by necrodoom,180,12305
+344,cd199302,FAIL,0,NO,0,NO,0,2011-05-09 09:31:36 +0000,Log items that are sold using /sell,180,12310

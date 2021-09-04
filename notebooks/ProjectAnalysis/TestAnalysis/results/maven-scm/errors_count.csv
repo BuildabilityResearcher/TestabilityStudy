@@ -1,0 +1,24 @@
+error,count
+Exception while executing SCM command.,689
+Error while executing process.,724
+/home/bugs/projects/maven-scm/maven-scm-providers/maven-scm-provider-svn isn&#x27;t a svn checkout directory.,1
+Command could not be executed: bzr init,964
+Command could not be executed: bzr version,7
+Cannot run status command : ,30
+,10
+No such provider: &#x27;cvs&#x27;.,79
+Command failed.The svn command failed.,40
+/home/bugs/projects/maven-scm/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/test/resources/svn/changelog/svnlogValidOutput.txt (No such file or directory),1
+/home/bugs/projects/maven-scm/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/test/resources/svn/changelog/svnlogInvalidReason.txt (No such file or directory),1
+/home/bugs/projects/maven-scm/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/src/test/resources/svn/changelog/svnlogInvalidDate.txt (No such file or directory),1
+String index out of range: -1,1
+org.apache.maven.scm.ScmFile cannot be cast to java.lang.String,38
+java.lang.StringBuilder cannot be cast to java.lang.StringBuffer,6
+/bin/sh -c svn --non-interactive ls http://svn.apache.org/repos/asf/maven/scm/trunk/foo/bar/beer.The svn command failed:/bin/sh: 1: svn: not found ,2
+/bin/sh -c svn --non-interactive ls http://svn.apache.org/repos/asf/maven/scm/trunk/.The svn command failed:/bin/sh: 1: svn: not found ,2
+Source directory doesn&#x27;t exists (/home/bugs/projects/maven-scm/maven-scm-providers/maven-scm-providers-git/maven-scm-provider-gitexe/src/test/resources/repository/dotgit).,2
+No such provider: &#x27;git&#x27;.,12
+org/apache/maven/scm/provider/git/gitexe/command/add/GitAddCommand,8
+org/apache/maven/scm/provider/git/gitexe/command/diff/GitDiffRawConsumer,4
+No such file or directory,4651
+2,1

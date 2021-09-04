@@ -1,0 +1,5 @@
+exception,count
+java.lang.NullPointerException,123
+junit.framework.AssertionFailedError:,72
+junit.framework.AssertionFailedError,219
+java.lang.AssertionError,139

@@ -1,0 +1,1443 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,b25eb522,FAIL,0,NO,0,NO,0,2010-01-17 11:26:51 +1100,Init,0,0
+1,2dcdabed,FAIL,0,NO,0,NO,0,2010-01-17 17:28:19 +1100,Site,0,0
+2,442b55c6,FAIL,0,NO,0,NO,0,2010-01-17 18:33:57 +1100,Work,0,0
+3,b0dd8d31,FAIL,0,NO,0,NO,0,2010-01-19 09:42:55 +1100,Suds: inherit meta from parent dir,0,0
+4,4cb0f831,FAIL,0,NO,0,NO,0,2010-01-21 13:05:10 +1100,ignore,0,0
+5,b9c78848,FAIL,0,NO,0,NO,0,2011-06-23 11:30:25 +1000,Merge,0,0
+6,3c1ae1fb,FAIL,0,NO,0,NO,0,2011-06-23 11:37:15 +1000,Updated readme,0,0
+7,ffb7ae00,FAIL,0,NO,0,NO,0,2009-12-19 12:32:21 +1100,Project init.,0,0
+8,0a5128fa,FAIL,0,NO,0,NO,0,2009-12-19 12:46:46 +1100,readme update,0,0
+9,e23559f9,SUCCESS,23,SUCCESS,4,SUCCESS,8,2009-12-19 17:47:15 +1100,"Initial implementation of TokenStream, to pull tokens from HTML for parsing.",5,10
+10,2bc42058,SUCCESS,7,SUCCESS,5,SUCCESS,7,2009-12-19 17:55:04 +1100,Initial implementation of TokenStream.,5,172
+11,548ce134,SUCCESS,6,SUCCESS,4,SUCCESS,4,2009-12-21 18:51:58 +1100,Initial implementation of Tag.,7,392
+12,a657d090,SUCCESS,6,SUCCESS,5,SUCCESS,5,2009-12-21 23:39:22 +1100,Draft implementation of Parser.,18,618
+13,80ca2f79,SUCCESS,5,SUCCESS,5,SUCCESS,8,2009-12-21 23:43:58 +1100,"Stack, not Queue, so  use getLast()",18,618
+14,97f29aa3,SUCCESS,5,SUCCESS,5,SUCCESS,4,2009-12-22 17:27:44 +1100,"Ignore tag ""html"" in parse tree as created by doc",18,621
+15,a29e8b53,SUCCESS,5,SUCCESS,5,SUCCESS,5,2009-12-22 19:44:48 +1100,Initial implementation of AttributeParser.,20,741
+16,c0fa8c39,SUCCESS,5,SUCCESS,4,SUCCESS,6,2009-12-22 23:44:56 +1100,URL in readme,20,741
+17,4cbae5ad,SUCCESS,8,SUCCESS,4,SUCCESS,5,2009-12-23 19:34:45 +1100,Updated TokenStream to deal with < or > within attributes.,20,768
+18,c95216aa,SUCCESS,5,SUCCESS,4,SUCCESS,4,2009-12-26 17:36:11 +1100,Implemented comment handling.,20,825
+19,b04c5412,SUCCESS,5,SUCCESS,6,SUCCESS,5,2009-12-26 18:07:09 +1100,"Element child(int) method, attr(key) method",20,839
+20,04744368,SUCCESS,6,SUCCESS,5,SUCCESS,5,2009-12-26 18:16:59 +1100,Set parent on add Child,20,842
+21,d6da0b02,SUCCESS,7,SUCCESS,6,SUCCESS,5,2009-12-26 18:20:22 +1100,Complain if moving elements in tree (to implement),20,845
+22,9db51cf7,SUCCESS,6,FAIL,5,NO,0,2009-12-26 19:01:39 +1100,Implemented getElementsByTagName,21,879
+23,c84469e7,SUCCESS,5,FAIL,5,NO,0,2009-12-26 19:03:40 +1100,Test zero return,21,881
+24,f5b1a2ab,SUCCESS,7,FAIL,6,NO,0,2009-12-26 19:31:32 +1100,Implemented Element.getElementById,21,907
+25,e65b503c,SUCCESS,6,FAIL,5,NO,0,2009-12-26 22:29:42 +1100,Implemented text(),21,930
+26,ffde882f,SUCCESS,8,FAIL,7,NO,0,2009-12-26 23:09:08 +1100,Implemented sibling methods,21,980
+27,9d3ab851,SUCCESS,7,SUCCESS,6,SUCCESS,7,2009-12-27 07:52:33 +1100,Renamed JSoup -> Jsoup,22,986
+28,2f0a7bf5,SUCCESS,6,SUCCESS,7,FAIL,6,2009-12-27 16:01:05 +1100,Reimplemented parser.,16,803
+29,03336ea9,SUCCESS,8,SUCCESS,5,SUCCESS,6,2009-12-28 21:23:06 +1100,"Pulled string matching stuff out of Parser ad into TokenQueue, for reuse in selector parser. Added som texts and corrected behaviour of parser.",17,863
+30,f435b791,SUCCESS,6,SUCCESS,5,SUCCESS,6,2009-12-31 13:23:35 +1100,Implemented:  * Element.getElementsByClass  * Element.getElementsWithAttribute  * Element.getElementsWithAttributeValue  * Element.className  * Element.hasClass  * Elmenet.classNames,19,972
+31,eaf6bf4a,SUCCESS,10,SUCCESS,5,SUCCESS,5,2010-01-02 12:30:56 +1100,Handle HTML encoded (escaped) data in text nodes and attributes.,19,986
+32,ac95e9f5,SUCCESS,6,SUCCESS,6,SUCCESS,6,2010-01-02 13:15:03 +1100,Nodes get to html() method.,19,1032
+33,0e4c8bf7,SUCCESS,6,SUCCESS,7,SUCCESS,7,2010-01-02 14:31:36 +1100,"All nodes have outerHtml method, elements have (inner) HTML.",19,1039
+34,04025259,SUCCESS,7,SUCCESS,6,SUCCESS,6,2010-01-02 18:38:04 +1100,"Initial, partial implementation of Selector.",22,1191
+35,1f3cfcfb,SUCCESS,7,SUCCESS,6,SUCCESS,6,2010-01-02 22:44:47 +1100,"Implemented select(query, query, query) or group selector.",22,1254
+36,c1ef042a,SUCCESS,7,SUCCESS,5,SUCCESS,7,2010-01-02 23:15:05 +1100,Implemented ElementList.select(),23,1276
+37,e4ff08f2,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-02 23:16:19 +1100,Renamed ElementList to Elements,23,1276
+38,d31572d7,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-02 23:16:54 +1100,Renamed ElementList to Elements,23,1276
+39,e8e755bf,SUCCESS,8,SUCCESS,6,SUCCESS,7,2010-01-03 00:04:22 +1100,"Implemented select(""ancestor descendant"").",23,1309
+40,315292d7,SUCCESS,8,SUCCESS,7,SUCCESS,7,2010-01-03 00:11:10 +1100,Deeper descendant test.,23,1314
+41,4bd743a3,SUCCESS,8,SUCCESS,7,SUCCESS,6,2010-01-04 15:54:47 +1100,"Support for data only tags (script, textarea etc)",23,1987
+42,479e85fc,SUCCESS,7,SUCCESS,6,SUCCESS,7,2010-01-04 16:09:15 +1100,Removed scratch test.,23,1327
+43,e2f6a9d1,SUCCESS,8,SUCCESS,6,SUCCESS,7,2010-01-04 16:27:43 +1100,Neatened Parser,23,1325
+44,e97f564d,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-04 23:13:30 +1100,"Implicit parent creation for elements, more general document structure creation.",23,1365
+45,ce691239,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-04 23:27:12 +1100,"Introduced a DataNode, and SCRIPT, TEXTAREA, TITLE etc goes into DataNodes, so that Element.text() does not get clouded with script or style inners.",24,1398
+46,b8b73080,SUCCESS,8,SUCCESS,6,SUCCESS,6,2010-01-04 23:33:00 +1100,Fixed head canContain,24,1398
+47,ada77956,SUCCESS,8,SUCCESS,7,SUCCESS,6,2010-01-05 10:53:35 +1100,todo note,24,1398
+48,3dd9e66b,SUCCESS,8,SUCCESS,6,SUCCESS,7,2010-01-05 11:00:59 +1100,"Have Element DOM methods return Elements instead of List<Element>, to give ready access to .select(query)",24,1398
+49,6fe6c34a,SUCCESS,8,SUCCESS,8,SUCCESS,7,2010-01-05 15:58:06 +1100,"Implemented Element.text(string) method, to set the text of an element, and clear out existing html.",25,1428
+50,86c1d97c,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-05 16:33:10 +1100,Selector: added * (all elements) and parent > child.,25,1473
+51,d23db47d,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-06 17:15:27 +1100,"Implement baseURIs for all Nodes, and absolute URL attribute getter.",26,1547
+52,8bb732b7,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-06 18:04:44 +1100,Initial test suite from real world html,27,1578
+53,7b1a8763,SUCCESS,8,SUCCESS,9,SUCCESS,7,2010-01-06 22:56:07 +1100,"Updated parser to support namespaced attributes (i.e xml:lang=en). Implemented Elements first(), last(), attr(), hasAttr() methods.",27,1593
+54,917a429b,SUCCESS,8,SUCCESS,11,SUCCESS,8,2010-01-07 15:33:55 +1100,Git ignore Eclipse,27,1593
+55,ef748897,SUCCESS,8,SUCCESS,8,SUCCESS,7,2010-01-07 15:34:32 +1100,"Explicit empty String[], to remove warning on null as vararg.",27,1593
+56,eb95cc76,SUCCESS,8,SUCCESS,9,SUCCESS,7,2010-01-07 17:10:27 +1100,"Fixed selector so that ""parent child"" doesn't contain parent, and ""element.class"" is an AND on parent element, and doesn't match .class in child element (i.e. I re-read the CSS3 selector doc, which is clearer than jquery doc).",27,1640
+57,43e16a60,SUCCESS,9,SUCCESS,7,SUCCESS,8,2010-01-07 19:29:52 +1100,Attribute helpers in Element and Elements.,27,1667
+58,45718e93,SUCCESS,8,SUCCESS,8,SUCCESS,6,2010-01-07 19:35:15 +1100,Test confirms selectors are case insensitive.,27,1674
+59,07039680,SUCCESS,8,SUCCESS,9,SUCCESS,7,2010-01-07 20:42:55 +1100,"Parser updated to handle CDATA, and rogue < in text nodes.",27,1702
+60,00734226,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-07 20:57:11 +1100,Output HTML correctly for <! ... > and <? ... ?> xml tags.,27,1706
+61,4555f2d3,SUCCESS,7,SUCCESS,7,SUCCESS,8,2010-01-07 22:31:41 +1100,Implemented advanced attribute selectors (!= ^= $= *=) and element methods.,27,1761
+62,c1472f38,SUCCESS,8,SUCCESS,8,SUCCESS,7,2010-01-07 22:40:27 +1100,Extend selector test for multi classes and attributes.,27,1761
+63,40979c98,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-08 12:53:07 +1100,Don't register unknown tags.,27,1761
+64,e86fce8a,SUCCESS,7,SUCCESS,6,SUCCESS,6,2010-01-08 13:02:28 +1100,Tests parser for unknown tags.,27,1769
+65,7f653fab,SUCCESS,7,SUCCESS,6,SUCCESS,6,2010-01-08 13:14:43 +1100,Handle empty (self closing) blocks.,27,1778
+66,56bacbd1,SUCCESS,7,SUCCESS,7,SUCCESS,6,2010-01-08 14:00:26 +1100,"Implemented Elements methods text(), eq(), and is().",27,1809
+67,2202259e,SUCCESS,8,SUCCESS,7,SUCCESS,6,2010-01-08 14:02:33 +1100,Removed unused Select#groupOp noop.,27,1808
+68,314fa9d2,SUCCESS,9,SUCCESS,8,SUCCESS,7,2010-01-08 14:08:19 +1100,Renamed Elements#select to Elements#filter.,27,1808
+69,0eeefe41,SUCCESS,8,SUCCESS,7,SUCCESS,6,2010-01-08 17:04:41 +1100,Initial bits of HTML cleaner.,29,1885
+70,577b2927,SUCCESS,8,SUCCESS,6,SUCCESS,7,2010-01-09 12:51:42 +1100,Initial implementation of Whitelist cleaner config.,29,1965
+71,83b8d1a6,SUCCESS,9,SUCCESS,6,SUCCESS,6,2010-01-09 17:44:14 +1100,Initial Cleaner implementation.,30,2077
+72,e9e331c2,SUCCESS,8,SUCCESS,6,SUCCESS,7,2010-01-11 13:13:27 +1100,Added integration test for www.news.com.au,30,2089
+73,72fe7662,SUCCESS,7,SUCCESS,6,SUCCESS,7,2010-01-11 17:16:03 +1100,Fixed select parser for childs.,30,2107
+74,7a7419fb,SUCCESS,8,SUCCESS,7,SUCCESS,7,2010-01-11 17:18:01 +1100,Selector cleanup,30,2106
+75,95fe538d,SUCCESS,8,SUCCESS,7,SUCCESS,9,2010-01-11 17:18:34 +1100,Google search result parse test.,30,2106
+76,ac57740b,SUCCESS,9,SUCCESS,7,SUCCESS,8,2010-01-11 17:42:59 +1100,Fixed selector for multi descenders.,30,2114
+77,2264b369,SUCCESS,8,SUCCESS,7,SUCCESS,9,2010-01-11 17:43:29 +1100,Google parse test,30,2124
+78,e3222667,SUCCESS,9,SUCCESS,8,SUCCESS,7,2010-01-11 22:01:51 +1100,"Implemented ""abs:"" virtual attribute prefix for absolute URLs.",30,2135
+79,2f732574,SUCCESS,9,SUCCESS,7,SUCCESS,8,2010-01-11 22:25:53 +1100,"Modified Node#absURL to return only absolute URLs, or """".",30,2136
+80,6fcffa8f,SUCCESS,9,SUCCESS,8,SUCCESS,7,2010-01-12 10:13:00 +1100,Modified parser to add elements found past </body> into body.,30,2144
+81,7e5fb425,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-01-12 14:19:26 +1100,Test for binary content.,30,2148
+82,4296f2cd,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-01-12 14:52:06 +1100,Parse Test for Yahoo Japan.,29,2090
+83,cdeae1e3,SUCCESS,10,SUCCESS,9,SUCCESS,8,2010-01-12 16:45:27 +1100,Extra Cleaner tests.,29,2122
+84,7649933b,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-01-13 13:54:35 +1100,Adds Parser.parseBodyFragment method.,29,2135
+85,4899674e,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-01-13 14:00:45 +1100,Makes static members final.,29,2135
+86,458b9908,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-13 16:49:43 +1100,Updates pom and adds license,29,2135
+87,89eeefbd,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-13 17:07:03 +1100,Updates description,29,2135
+88,1819b3ab,SUCCESS,9,SUCCESS,7,SUCCESS,7,2010-01-13 20:14:29 +1100,Encourage Maven to copy using UTF-8.,29,2135
+89,5af8413f,SUCCESS,8,SUCCESS,7,SUCCESS,7,2010-01-13 20:35:53 +1100,Maven plugin to build javadoc,29,2135
+90,83d18481,SUCCESS,9,SUCCESS,7,SUCCESS,7,2010-01-14 10:50:00 +1100,Rename Element.addChild to appendChild.,29,2151
+91,abdf2271,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-14 13:49:13 +1100,Implemented Element.append(html),29,2186
+92,9bed789b,SUCCESS,9,SUCCESS,10,SUCCESS,9,2010-01-14 16:33:46 +1100,Element documentation.,29,2186
+93,46e1e978,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-01-14 17:09:01 +1100,Doc tidy.,29,2186
+94,59d5e26e,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-01-14 21:48:55 +1100,Benchmark script.,30,2208
+95,3205f0ef,SUCCESS,9,SUCCESS,9,SUCCESS,8,2010-01-15 09:33:59 +1100,Removed StartTag,29,2182
+96,80c826dc,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-15 09:52:45 +1100,"Moved Evaluator to nodes from select, to close down public methods.",29,2177
+97,a8ca1dae,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-15 09:54:56 +1100,Doc,29,2177
+98,a9768aa5,SUCCESS,8,SUCCESS,7,SUCCESS,7,2010-01-15 10:01:08 +1100,Doc,29,2177
+99,7355cbe4,SUCCESS,8,SUCCESS,8,SUCCESS,7,2010-01-15 10:12:08 +1100,Copyright date,29,2177
+100,9c8969d4,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-15 10:17:51 +1100,Knock access down,29,2177
+101,56a6c72c,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-15 15:34:31 +1100,Version is 0.1 until first beta release,29,2177
+102,e5cd5847,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-15 15:52:06 +1100,"Removed Element children list, and create on fly from nodes.",29,2183
+103,5b407063,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-15 16:19:28 +1100,Attributes values back to Attribute,29,2182
+104,d8dbde85,SUCCESS,8,SUCCESS,8,SUCCESS,8,2010-01-15 16:36:39 +1100,Attributes format,29,2182
+105,95945f17,SUCCESS,8,SUCCESS,7,SUCCESS,9,2010-01-15 17:10:25 +1100,Implemented Element prepend methods,29,2214
+106,bd3e7c8a,SUCCESS,7,SUCCESS,7,SUCCESS,9,2010-01-15 17:17:55 +1100,Simplified Document bean methods for consistency.,29,2214
+107,37d4c1f1,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-01-15 17:46:47 +1100,Linked Document title methods with HTML structure,29,2231
+108,98e828a2,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-01-19 11:00:34 +1100,Fixed parse of unclosed <dl><dt>Foo<dd>Bar</dl> runs.,29,2242
+109,a56b19c5,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-01-15 19:45:17 +1100,"Force compile source from UTF-8. Otherwise it defaults to something odd. And the property already set (project.build.sourceEncoding) doesn't seem to be used by the mvn compiler. Which is... also odd. Or more likely, I don't 100% understand it.",29,2242
+110,76e03ee3,SUCCESS,10,SUCCESS,9,SUCCESS,8,2010-01-24 13:42:30 +1100,POM update to build source and javadoc jars,29,2242
+111,8929d961,SUCCESS,8,SUCCESS,9,SUCCESS,8,2010-01-22 12:07:32 +1100,"Implemented Jsoup.parse(File), and javadocced.",30,2270
+112,01342bcf,SUCCESS,8,SUCCESS,7,SUCCESS,7,2010-01-22 12:17:03 +1100,Flipped integration test to use Parse(File),30,2270
+113,ac809a4a,SUCCESS,7,SUCCESS,7,SUCCESS,7,2010-01-22 14:52:17 +1100,No default constructor for Jsoup,30,2271
+114,e2c62cdc,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-22 16:42:27 +1100,"Dropped ""get""",30,2271
+115,48a63ff1,SUCCESS,8,SUCCESS,8,SUCCESS,8,2010-01-22 17:51:27 +1100,Elements,30,2271
+116,ed30e5c1,SUCCESS,8,SUCCESS,9,SUCCESS,8,2010-01-24 16:40:14 +1100,"Don't escape text in data nodes, to preserve "" chars",30,2271
+117,c4bb2a49,SUCCESS,10,SUCCESS,7,SUCCESS,8,2010-01-26 12:53:50 +1100,Simplifed Tag creator.,30,2269
+118,ad405f99,SUCCESS,8,SUCCESS,8,FAIL,8,2010-01-26 15:58:12 +1100,Text normalisation.,30,2304
+119,7898cdff,FAIL,8,NO,0,NO,0,2010-01-26 16:19:56 +1100,Use string builders for HTML creation.,30,2311
+120,62ea04e4,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-26 17:15:04 +1100,Whitespace tests,31,2330
+121,496e6a1e,SUCCESS,8,SUCCESS,6,SUCCESS,8,2010-01-26 17:29:00 +1100,Preserve whitespace in children of <pre>,31,2337
+122,4cfd3c37,SUCCESS,8,SUCCESS,6,SUCCESS,8,2010-01-26 22:08:09 +1100,Implemented parse from URL.,32,2371
+123,8c211dc3,SUCCESS,8,SUCCESS,7,SUCCESS,8,2010-01-26 22:31:24 +1100,Doc typo,32,2371
+124,3ff2694a,SUCCESS,9,SUCCESS,7,SUCCESS,8,2010-01-26 22:31:56 +1100,Doc,32,2371
+125,6788a6da,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-28 23:00:04 +1100,Parse <frameset> outside of <body>,32,2379
+126,be365c57,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-01-29 13:49:55 +1100,Updated URL integration test,32,2380
+127,28418f83,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-01-31 11:37:17 +1100,Javadoc,37,2380
+128,3f67316f,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-01-31 11:52:43 +1100,Parser javadoc,37,2380
+129,36be16cd,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-01-31 12:05:04 +1100,Cleaner javadoc,37,2380
+130,671e03b5,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-01-31 12:57:43 +1100,Selector documentation,37,2379
+131,11686628,SUCCESS,9,SUCCESS,7,SUCCESS,10,2010-01-31 14:17:09 +1100,Document.createElement(String),37,2381
+132,45e787d0,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-01-31 14:28:10 +1100,Support for inline font tag,37,2389
+133,be3ff9a8,SUCCESS,8,SUCCESS,9,SUCCESS,11,2010-01-31 16:20:17 +1100,pom update,37,2389
+134,03a2c127,SUCCESS,8,SUCCESS,10,SUCCESS,10,2010-01-31 16:24:59 +1100,[maven-release-plugin] prepare release jsoup-0.1.1,37,2389
+135,c1d06490,SUCCESS,9,SUCCESS,8,SUCCESS,12,2010-01-31 16:25:11 +1100,[maven-release-plugin] prepare for next development iteration,37,2389
+136,62b3080e,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-02-01 07:43:36 +1100,Readme update,37,2389
+137,2cce405d,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-01 22:09:32 +1100,Parse unknown tags as inline elements that can contain blocks.,37,2400
+138,535e03fe,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-01 22:27:51 +1100,Changelog,37,2400
+139,55763616,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-02-02 11:14:56 +1100,Release 0.1.2 prep.,37,2400
+140,8fd43ac4,SUCCESS,11,SUCCESS,8,SUCCESS,11,2010-02-02 11:19:06 +1100,[maven-release-plugin] prepare release jsoup-0.1.2,37,2400
+141,42a712e5,SUCCESS,11,SUCCESS,9,SUCCESS,9,2010-02-02 11:19:21 +1100,[maven-release-plugin] prepare for next development iteration,37,2400
+142,c01af229,SUCCESS,10,SUCCESS,10,SUCCESS,10,2010-02-02 21:37:24 +1100,Fix absolute URL resolution issue when a base tag has no href.,37,2408
+143,544281d1,SUCCESS,8,SUCCESS,8,SUCCESS,11,2010-02-02 21:39:14 +1100,Example program: list links,39,2447
+144,f992e417,SUCCESS,8,SUCCESS,7,SUCCESS,10,2010-02-03 23:47:11 +1100,Implemented Element#wrap and #Elements#wrap,39,2514
+145,79c67235,SUCCESS,10,SUCCESS,8,SUCCESS,9,2010-02-04 15:48:54 +1100,"New: E + F adjacent sibling selector, E ~ F preceding sibling.",39,2599
+146,77233652,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-02-08 10:41:25 +1100,Corrected change note,39,2599
+147,56ddff90,SUCCESS,8,SUCCESS,9,SUCCESS,11,2010-02-06 00:29:28 +1100,Maven Sonatype setup,39,2599
+148,3d145b35,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-06 00:30:27 +1100,[maven-release-plugin] prepare release jsoup-0.2.1,39,2599
+149,5daa5a62,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-02-06 00:30:39 +1100,[maven-release-plugin] prepare for next development iteration,39,2599
+150,8876eef2,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-02-06 00:36:54 +1100,[maven-release-plugin] prepare release jsoup-0.2.1,39,2599
+151,9379c7bc,SUCCESS,10,SUCCESS,10,SUCCESS,12,2010-02-06 00:39:45 +1100,Release prep,39,2599
+152,d16c8ce6,SUCCESS,10,SUCCESS,9,SUCCESS,13,2010-02-06 00:40:39 +1100,[maven-release-plugin] prepare release jsoup-0.2.1a,39,2599
+153,f74286ba,SUCCESS,10,SUCCESS,10,SUCCESS,12,2010-02-06 00:40:50 +1100,[maven-release-plugin] prepare for next development iteration,39,2599
+154,c5898f19,SUCCESS,10,SUCCESS,10,SUCCESS,11,2010-02-06 00:48:03 +1100,Sonatype release machinations,39,2599
+155,5011bb45,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-06 00:49:24 +1100,[maven-release-plugin] prepare release jsoup-0.2.1b,39,2599
+156,8fae12eb,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-02-06 00:49:36 +1100,[maven-release-plugin] prepare for next development iteration,39,2599
+157,d2f4ea69,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-02-07 11:45:19 +1100,"Add addClass, removeClass, toggleClass, hasClass to Element and Elements.",39,2665
+158,d24b485e,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-02-07 16:15:56 +1100,Improved document normalisation.,40,2722
+159,93e9d84d,SUCCESS,8,SUCCESS,9,SUCCESS,9,2010-02-07 16:27:19 +1100,hasText,40,2743
+160,a52e669c,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-02-07 18:04:41 +1100,Improved HTML output (pretty-print),40,2755
+161,b5067c25,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-07 18:06:11 +1100,Changelog for release prep,40,2755
+162,2ee1b79f,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-02-07 18:08:10 +1100,[maven-release-plugin] prepare release jsoup-0.2.2,40,2755
+163,67915c0f,SUCCESS,8,SUCCESS,9,SUCCESS,10,2010-02-07 18:08:22 +1100,[maven-release-plugin] prepare for next development iteration,40,2755
+164,14db439c,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-02-15 11:35:16 +1100,"Assert attribute values are not null, not not empty.",40,2759
+165,4a0e5a59,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-02-16 10:18:59 +1100,Changed Elements#attr(key) to scan all elements for attribute.,40,2771
+166,0c312ebd,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-02-16 10:45:36 +1100,"Implemented Elements html(), html(string), append, and prepend.",40,2813
+167,0a143a91,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-02-16 10:57:04 +1100,Changelog,40,2813
+168,6b60af66,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-02-17 22:19:19 +1100,"Normalise head by prepending, not appending.",40,2817
+169,19f2541e,SUCCESS,9,SUCCESS,7,SUCCESS,10,2010-02-20 13:26:11 +1100,Cleaner.isValid() method.,40,2847
+170,4c353188,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-20 14:12:07 +1100,IsValid test for OK attribute,40,2847
+171,6c945b25,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-02-20 14:14:32 +1100,Test self is not descender,40,2849
+172,0b5dfaff,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-02-20 14:22:13 +1100,Deploy prep,40,2849
+173,e1589ba7,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-02-20 15:42:16 +1100,Release prep,40,2849
+174,0a79e4b5,SUCCESS,9,SUCCESS,10,SUCCESS,11,2010-02-20 15:43:08 +1100,[maven-release-plugin] prepare release jsoup-0.3.1,40,2849
+175,7199cf1e,SUCCESS,9,SUCCESS,10,SUCCESS,11,2010-02-20 15:43:20 +1100,[maven-release-plugin] prepare for next development iteration,40,2849
+176,ec69d09d,SUCCESS,11,SUCCESS,10,SUCCESS,11,2010-02-22 09:34:37 +1100,Allow - and _ in CSS ID selectors.,40,2861
+177,7e13f49a,SUCCESS,9,SUCCESS,10,SUCCESS,11,2010-02-22 09:38:48 +1100,Changelog,40,2861
+178,4d1d2f06,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-02-22 09:39:05 +1100,Changelog,40,2861
+179,2660750b,SUCCESS,11,SUCCESS,9,SUCCESS,9,2010-02-24 14:45:49 +1100,Resolve relative links when cleaning.,40,2871
+180,3eb8a678,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-02-24 15:31:49 +1100,Allow combinators at start of selector query,40,2886
+181,fcab98cd,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-02-24 16:44:21 +1100,Added val() and val(string) to Element and Elements.,40,2923
+182,982e4f96,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-03-16 11:11:31 +1100,Added Node#remove and Node#replaceWith.,40,2942
+183,a3d03f9a,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-03-16 11:32:00 +1100,Throw exception if trying to parse non-text content,40,2954
+184,f607d8fc,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-03-16 11:45:40 +1100,Added TextNode#text and TextNode#text(String),40,2967
+185,5eecccd3,SUCCESS,8,SUCCESS,9,SUCCESS,9,2010-03-16 14:27:34 +1100,"Added selector support for :eq, :lt, and gt",40,3044
+186,40a35750,SUCCESS,9,SUCCESS,7,SUCCESS,10,2010-05-19 20:56:37 +0800,String.isEmpty() and LinkedList.peekFirst() is not part of the Java 5.0 API.,40,3044
+187,8cb8dd11,SUCCESS,7,SUCCESS,6,SUCCESS,10,2010-06-08 18:56:07 +1000,Updated ignore list,40,3044
+188,30a8de55,SUCCESS,8,SUCCESS,7,SUCCESS,9,2010-06-08 18:56:27 +1000,Preparing 1.1.1 release,40,3044
+189,371eaf76,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-06-08 18:59:29 +1000,[maven-release-plugin] prepare release jsoup-1.1.1,40,3044
+190,4d3ff3d8,SUCCESS,8,SUCCESS,8,SUCCESS,11,2010-06-08 18:59:39 +1000,[maven-release-plugin] prepare for next development iteration,40,3044
+191,04ad97cc,SUCCESS,13,SUCCESS,9,SUCCESS,10,2010-06-08 19:51:51 +1000,Change notes,40,3044
+192,77add794,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-06-08 22:09:03 +1000,Fixed test package,40,3044
+193,27a52f90,SUCCESS,10,SUCCESS,7,FAIL,10,2010-06-08 22:35:28 +1000,Fix an issue where text order was incorrect when parsing pre-document HTML.,40,3048
+194,bb4ead7c,SUCCESS,8,SUCCESS,8,FAIL,10,2010-06-08 23:17:29 +1000,Clean up the parse stack correctly when parsing data-nodes.,40,3053
+195,6c2032dc,SUCCESS,8,SUCCESS,8,FAIL,9,2010-06-10 16:07:55 +1000,Fixed javadoc typo,40,3053
+196,aec561f3,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-06-10 18:22:46 +1000,Added :has(selector) pseudo-selector. Added Element#parents() and Elements#parents() methods.,40,3107
+197,5599adfa,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-06-10 18:26:30 +1000,Chanelog release date,40,3107
+198,0081d162,SUCCESS,8,SUCCESS,9,SUCCESS,11,2010-06-13 18:19:04 +1000,Improved implicit close tag heuristic detection when parsing malformed HTML.,40,3138
+199,05ea09d3,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-06-18 15:15:09 +1000,Cleanup Element and Node add mechanism,40,3136
+200,8c07dc18,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-06-18 17:18:13 +1000,"Added .before(html) and .after(html) methods to Element and Elements, to insert sibling HTML",40,3177
+201,214c5686,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-06-21 16:04:13 +1000,Added :contains(text) selector,40,3202
+202,e7ebe699,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-06-21 18:41:11 +1000,[maven-release-plugin] prepare release jsoup-1.2.1,40,3202
+203,02c90521,SUCCESS,8,SUCCESS,9,SUCCESS,11,2010-06-21 18:41:22 +1000,[maven-release-plugin] prepare for next development iteration,40,3202
+204,f00fdf09,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-06-22 20:21:38 +1000,Changelog release date,40,3202
+205,97d203b3,SUCCESS,8,SUCCESS,8,SUCCESS,11,2010-06-22 20:40:45 +1000,Fixed javadoc for :eq(n),40,3202
+206,cf3676c5,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-06-22 21:57:26 +1000,Upgraded the selector query parser to allow nested selectors like 'div:has(p:has(span))',41,3241
+207,e6cc4cef,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-06-23 16:57:48 +1000,"Updated TokenQueue so :contains(text) can be escaped, if looking for ( or ) within text",41,3274
+208,916d5399,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-06-24 17:05:25 +1000,Implemented :matches(regex) selector.,41,3319
+209,faf1a78c,SUCCESS,8,SUCCESS,8,SUCCESS,10,2010-06-24 17:08:23 +1000,Changelog,41,3319
+210,027c4152,SUCCESS,8,SUCCESS,8,SUCCESS,10,2010-06-25 12:07:00 +1000,Parsing optimisation.,41,3312
+211,6cff72ab,SUCCESS,7,SUCCESS,8,SUCCESS,10,2010-06-25 13:59:57 +1000,Parsing performance optimisation.,41,3320
+212,40a3cda0,SUCCESS,7,SUCCESS,8,SUCCESS,9,2010-06-25 16:51:18 +1000,Parsing performance optimisation.,41,3320
+213,f0f3eab9,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-06-28 12:45:49 +1000,TextNode performance tweaks,41,3322
+214,0831a08e,SUCCESS,8,SUCCESS,9,SUCCESS,9,2010-06-28 17:58:25 +1000,Performance optimisation in parsing.,41,3360
+215,10cfa046,SUCCESS,8,SUCCESS,9,SUCCESS,10,2010-06-28 23:43:41 +1000,Use a Visitor instead of recursion for HTML and selectors.,43,3416
+216,6b0dd15b,SUCCESS,8,SUCCESS,9,SUCCESS,8,2010-06-29 13:31:39 +1000,Performance tweaks.,43,3434
+217,ad203677,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-06-29 13:37:25 +1000,Tidy,43,3434
+218,57567c67,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-07-05 15:26:53 +1000,Added [key~=regex] attribute selector by regular expression,43,3460
+219,4b9bd67f,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-07-05 15:58:08 +1000,Tidy,43,3459
+220,9544fe38,SUCCESS,9,SUCCESS,10,SUCCESS,11,2010-07-11 14:11:59 +1000,Changelog,43,3459
+221,211a0b39,SUCCESS,9,SUCCESS,9,SUCCESS,12,2010-07-11 14:12:13 +1000,Test update,43,3467
+222,25a4b0cf,SUCCESS,11,SUCCESS,9,SUCCESS,11,2010-07-11 14:15:11 +1000,[maven-release-plugin] prepare release jsoup-1.2.2,43,3467
+223,b044a777,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-07-11 14:15:21 +1000,[maven-release-plugin] prepare for next development iteration,43,3467
+224,7eeb74d1,SUCCESS,8,SUCCESS,8,SUCCESS,10,2010-07-15 17:17:24 +1000,Automatically determine charset when parsing from URL or File.,44,3503
+225,4f2ff532,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-07-16 14:45:35 +1000,Auto detect charset from HTML5 <meta charset> tag if present,44,3503
+226,7520dee7,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-07-17 11:29:09 +1000,"Changed DT & DD tags to block-mode tags, to follow practise over spec.",44,3509
+227,af580c31,SUCCESS,8,SUCCESS,8,SUCCESS,10,2010-07-17 19:10:10 +1000,Added support for [^attributePrefix] selector query. Useful for finding elements with HTML5 datasets: [^data],44,3533
+228,847e03ec,SUCCESS,9,SUCCESS,8,SUCCESS,10,2010-07-18 19:43:18 +1000,"Implemented Element.dataset(), to retrieve a map of custom data attributes.",44,3601
+229,ba5d6601,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-07-19 13:20:52 +1000,"Improved tag definitions to allow limited children and excluded children. Improved implicit table element creation, particularly around tbody tags.",44,3625
+230,e05e1855,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-07-19 13:35:50 +1000,Cleaned tag definitions to make head and dl parsing more generic.,44,3616
+231,a147ce54,SUCCESS,9,SUCCESS,9,SUCCESS,9,2010-07-19 14:36:40 +1000,Implicit close for <caption> tags.,44,3619
+232,299d7210,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-07-19 14:49:50 +1000,Changelog,44,3619
+233,09adeec4,SUCCESS,9,SUCCESS,8,SUCCESS,8,2010-07-19 15:21:57 +1000,Testcase for malformed meta http-equiv charset.,44,3623
+234,f0f280cd,SUCCESS,8,SUCCESS,9,SUCCESS,9,2010-07-19 16:44:28 +1000,HTML5 tag support,44,3657
+235,e5f6e084,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-07-23 09:24:54 +1000,Added support for namespaced elements (<fb:name>) and selectors (fb|name),44,3695
+236,9824d000,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-07-23 11:26:34 +1000,Improved HTML output format for empty elements and auto-detected self closing tags.,44,3714
+237,8a49d09f,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-07-26 10:41:46 +1000,"Added support for tag names with - and _ (<abc_foo>, <abc-foo>)",44,3729
+238,aef65a90,SUCCESS,8,SUCCESS,9,SUCCESS,10,2010-07-26 13:33:18 +1000,Removed obsolete nodeDepth method,44,3724
+239,2ca58b79,SUCCESS,8,SUCCESS,9,SUCCESS,10,2010-07-26 13:41:50 +1000,Implemented Node.ownerDocument DOM API method.,44,3737
+240,33aed223,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-07-31 10:07:01 +1000,Fixed support for character class regular expressions in [attr=~regex] selector,44,3737
+241,eb1edd46,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-07-31 10:23:22 +1000,Fixed support for character class regular expressions in [attr=~regex] selector,44,3745
+242,cad245f7,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-08-01 20:36:32 +1000,Note <tag > fix,44,3745
+243,17486e2f,SUCCESS,9,SUCCESS,10,SUCCESS,12,2010-08-01 22:29:51 +1000,"Draft implementation of Entities, for customisable entity escaping.",46,5925
+244,f8841eda,SUCCESS,11,SUCCESS,10,SUCCESS,10,2010-08-02 23:25:04 +1000,Working on escape/unescape routine.,46,5999
+245,935cab0e,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-08-03 20:18:40 +1000,Simplified Entity unescaper,46,5986
+246,57bce6dc,SUCCESS,11,SUCCESS,9,SUCCESS,8,2010-08-03 21:53:05 +1000,Added ability to configure the document's output charset.,46,6020
+247,8070859d,SUCCESS,9,SUCCESS,8,SUCCESS,11,2010-08-04 18:26:20 +1000,Re-ordered changelog,46,6020
+248,21c927d3,SUCCESS,10,SUCCESS,9,SUCCESS,8,2010-08-04 18:27:52 +1000,[maven-release-plugin] prepare release jsoup-1.2.3,46,6020
+249,91356162,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-08-04 18:28:02 +1000,[maven-release-plugin] prepare for next development iteration,46,6020
+250,050c5b2c,SUCCESS,11,SUCCESS,9,SUCCESS,10,2010-08-07 15:29:35 +1000,"Use jsoup escaper for attributes, not Apache's.",46,6020
+251,674dab03,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-08-07 16:10:31 +1000,Optimise adding nodes to end of childnode list.,46,6037
+252,19aecf27,SUCCESS,11,SUCCESS,9,FAIL,10,2010-08-07 17:19:49 +1000,TokenQueue optimisations,46,6048
+253,daf46660,SUCCESS,9,SUCCESS,9,SUCCESS,10,2010-08-07 17:56:31 +1000,Optimised document normalisation,46,6058
+254,09d99e7e,SUCCESS,9,FAIL,8,NO,0,2010-08-07 19:16:23 +1000,Mini optimisations,46,6059
+255,ff329d58,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-08-07 19:24:30 +1000,Restored public access for Entities.EscapeMode,46,6059
+256,1342c611,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-08-08 09:56:46 +1000,Javadoc fix,46,6059
+257,18e9a8f2,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-08-08 12:39:12 +1000,Removed dependency on Apache Commons-lang. Jsoup now has no external dependencies.,49,6151
+258,e8e29ca1,SUCCESS,8,SUCCESS,8,SUCCESS,9,2010-08-08 13:38:15 +1000,Optimised normaliseWhitespace,49,6179
+259,7568b914,SUCCESS,8,SUCCESS,8,SUCCESS,8,2010-08-08 13:49:49 +1000,Optimised attribute html,49,6180
+260,09b0d1b6,SUCCESS,9,SUCCESS,8,SUCCESS,9,2010-08-08 14:16:09 +1000,Micro-optimise tag ancestor,49,6180
+261,f548940d,SUCCESS,10,SUCCESS,10,SUCCESS,11,2010-08-08 19:45:41 +1000,Optimised textnodes to not hold attributes or childnodes unless required on use.,49,6221
+262,5e52f1b2,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-08-13 10:10:24 +1000,Fixed support for case-sensitive HTML escape entities.,49,6223
+263,62afbdf6,SUCCESS,11,SUCCESS,10,SUCCESS,12,2010-08-13 10:51:11 +1000,Fixed issue when parsing tags with keyless attributes.,49,6232
+264,a83d5f1a,SUCCESS,11,SUCCESS,9,SUCCESS,12,2010-08-15 17:26:46 +1000,Entity doc,49,6232
+265,eec6bb02,SUCCESS,12,SUCCESS,9,SUCCESS,11,2010-08-15 23:32:28 +1000,Draft  / in progress implementation of Connection,51,6444
+266,ce843ec8,SUCCESS,11,SUCCESS,8,SUCCESS,9,2010-08-16 22:57:41 +1000,Initial implementation of Connection,51,6521
+267,444f558a,SUCCESS,10,SUCCESS,9,SUCCESS,9,2010-08-18 12:19:47 +1000,Working on http connection implementation,51,6560
+268,20865395,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-08-19 11:58:31 +1000,Implemented request headers,51,6562
+269,84056ded,SUCCESS,11,SUCCESS,8,SUCCESS,9,2010-08-20 14:57:15 +1000,Implemented query string from data,51,6587
+270,c6936dd3,SUCCESS,10,SUCCESS,8,SUCCESS,9,2010-08-22 13:16:51 +1000,Fixed Attributes.hmtl(),52,6610
+271,d65b6dad,SUCCESS,11,SUCCESS,9,SUCCESS,10,2010-08-22 14:49:26 +1000,Added support for gzipped output.,52,6615
+272,35090950,SUCCESS,11,SUCCESS,9,SUCCESS,9,2010-08-22 14:55:24 +1000,"Connection timeout specified in millis, not seconds",52,6615
+273,6c28472e,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-08-22 16:03:15 +1000,Documented Connection interface methods,52,6615
+274,00aa39e3,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-08-22 16:32:55 +1000,Tidied up Connection and Jsoup use,52,6619
+275,102caa11,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-08-22 17:11:48 +1000,URL connection tests,52,6654
+276,e4917452,SUCCESS,10,SUCCESS,8,SUCCESS,9,2010-08-22 17:25:02 +1000,Implemented Element#ownText(),52,6670
+277,5fd1be67,SUCCESS,10,SUCCESS,7,SUCCESS,10,2010-08-22 17:31:11 +1000,Changelog,52,6670
+278,e256bb7f,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-08-22 17:52:48 +1000,"Added support for non-pretty-printed HTML output, to more closely mirror the input HTML.",52,6692
+279,6f1606e3,SUCCESS,10,SUCCESS,8,SUCCESS,8,2010-08-22 18:20:42 +1000,Changelog,52,6692
+280,dfe666c4,SUCCESS,9,SUCCESS,10,SUCCESS,10,2010-08-23 07:56:18 +1000,Fixed html() method of Attribute,53,6695
+281,2217137d,SUCCESS,10,SUCCESS,10,SUCCESS,11,2010-08-23 08:37:44 +1000,"Added support for selectors :containsOwn(text) and :matchesOwn(regex), to supplement Element.ownText().",53,6735
+282,8877dab9,SUCCESS,11,SUCCESS,9,SUCCESS,11,2010-08-23 17:00:46 +1000,Updated the link example program to use Jsoup.connect(),53,6734
+283,961e4d71,SUCCESS,11,SUCCESS,9,SUCCESS,11,2010-08-23 18:59:47 +1000,Validations for Connection,54,6782
+284,f88553da,SUCCESS,11,SUCCESS,9,SUCCESS,10,2010-08-23 19:02:28 +1000,Changelog release prep,54,6782
+285,4187ea92,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-08-23 19:03:32 +1000,[maven-release-plugin] prepare release jsoup-1.3.1,54,6782
+286,008b3a6f,SUCCESS,11,SUCCESS,9,SUCCESS,11,2010-08-23 19:03:42 +1000,[maven-release-plugin] prepare for next development iteration,54,6782
+287,ec49e383,SUCCESS,10,SUCCESS,9,SUCCESS,11,2010-08-28 11:08:40 +1000,Doc,54,6782
+288,3091fd44,SUCCESS,11,SUCCESS,8,SUCCESS,10,2010-08-28 11:50:18 +1000,Treat HTTP headers as case insensitive in Jsoup.Connection. Improves compatibility for HTTP responses.,54,6819
+289,b57bab46,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-08-29 22:23:45 +1000,Tweaks,54,6815
+290,78d40f41,SUCCESS,11,SUCCESS,7,SUCCESS,10,2010-08-30 13:53:36 +1000,Improved malformed table parsing by implementing ignorable end tags.,54,6839
+291,0722718f,SUCCESS,12,SUCCESS,9,SUCCESS,10,2010-08-30 16:02:29 +1000,More tests for Jsoup.Connection,54,6887
+292,3e012e72,SUCCESS,11,SUCCESS,10,SUCCESS,11,2010-08-30 16:28:31 +1000,[maven-release-plugin] prepare release jsoup-1.3.2,54,6887
+293,93f930b8,SUCCESS,11,SUCCESS,10,SUCCESS,12,2010-08-30 16:28:41 +1000,[maven-release-plugin] prepare for next development iteration,54,6887
+294,210eeadb,SUCCESS,10,SUCCESS,8,SUCCESS,11,2010-08-30 21:20:05 +1000,Implement Elements.empty() and Elements.remove().,54,6907
+295,e96bd4bc,SUCCESS,11,SUCCESS,8,SUCCESS,10,2010-08-30 21:24:51 +1000,Javadoc note for Elements.get(int),54,6908
+296,2e22a341,SUCCESS,10,SUCCESS,8,SUCCESS,10,2010-08-30 21:44:51 +1000,Selector documentation tweak,54,6913
+297,6e760a41,SUCCESS,11,SUCCESS,10,FAIL,10,2010-11-03 19:54:41 +1100,Relaxed parse rules of H1 - H6 to allow nested content.,54,6916
+298,b87be0c0,SUCCESS,10,SUCCESS,10,FAIL,11,2010-11-03 20:04:16 +1100,"Relaxed parse rule of SPAN to treat as block, to allow nested block content.",54,6919
+299,84de4abc,SUCCESS,11,SUCCESS,8,FAIL,12,2010-11-03 20:21:15 +1100,Added ability to load and parse HTML from an input stream.,54,6924
+300,0b56f3e5,SUCCESS,11,SUCCESS,9,SUCCESS,10,2010-11-03 21:34:39 +1100,Test fix,54,6929
+301,20ed24ce,SUCCESS,13,SUCCESS,10,SUCCESS,12,2010-09-01 10:07:10 +1000,"Fixed issue in Entities when unescaping &#36; (""$"")",54,6933
+302,f4f2efb2,SUCCESS,9,SUCCESS,10,SUCCESS,12,2010-09-03 06:24:59 +0800,added EscapeMode.minimum,54,6953
+303,528b793d,SUCCESS,10,SUCCESS,10,SUCCESS,13,2010-09-03 10:23:31 +1000,Added restricted XHTML output entity option,54,6957
+304,53c113dd,SUCCESS,14,SUCCESS,11,SUCCESS,13,2010-09-19 18:00:39 +1000,Changelog,54,6957
+305,ddef7e95,SUCCESS,12,SUCCESS,12,SUCCESS,13,2010-09-19 18:01:47 +1000,[maven-release-plugin] prepare release jsoup-1.3.3,54,6957
+306,a97445b2,SUCCESS,10,SUCCESS,11,SUCCESS,12,2010-09-19 18:01:57 +1000,[maven-release-plugin] prepare for next development iteration,54,6957
+307,9e2d3711,SUCCESS,11,SUCCESS,9,SUCCESS,12,2010-10-27 09:35:04 +1100,Implemented DataNode.setWholeData() to allow updating of script and style data contents.,54,6960
+308,ef57a000,SUCCESS,11,SUCCESS,10,SUCCESS,12,2010-10-29 12:25:34 +1100,Fixed support for jsoup.connect to follow redirects between http & https URLs.,54,6981
+309,cacbbfb9,SUCCESS,12,SUCCESS,10,SUCCESS,13,2010-10-30 12:38:36 +1100,Fixed issue in jsoup.connect when extracting character set from content-type header; now supports quoted charset declaration.,54,6978
+310,08a3d672,SUCCESS,10,SUCCESS,10,SUCCESS,11,2010-11-15 09:41:36 +1100,Javadoc example on absUrl,54,6978
+311,82855b07,SUCCESS,9,SUCCESS,9,SUCCESS,11,2010-11-15 15:57:01 +1100,"Document normalisation now more correctly enforces document structure.  - ensure only one head and one body element, both under html el  - allow html/head/noscript/img for some site's analytic pattern",54,6999
+312,da9b977e,SUCCESS,13,SUCCESS,10,SUCCESS,10,2010-11-15 16:17:34 +1100,Support node.outerHtml() method when node has no parent.,54,7007
+313,2e496949,SUCCESS,12,SUCCESS,8,SUCCESS,11,2010-11-16 21:50:20 +1100,"Fixed support for HTML entities with numbers in name (e.g. &frac34, &sup1)",54,7007
+314,2f5b1878,SUCCESS,10,SUCCESS,10,SUCCESS,10,2010-10-30 01:24:34 +0800,Fixes IndexArrayOutOfBoundException on response with empty headers,54,7008
+315,5ca6b404,SUCCESS,10,SUCCESS,9,SUCCESS,12,2010-11-17 15:24:16 +1100,"Implemented Node.clone() to create deep, independent copies of Nodes, Elements, and Documents.",54,7084
+316,9dcc488f,SUCCESS,11,SUCCESS,10,SUCCESS,10,2010-11-18 08:40:56 +1100,Testcase to confirm doctypes get cloned,54,7090
+317,adce18ec,SUCCESS,10,SUCCESS,9,SUCCESS,12,2010-11-23 09:51:11 +1100,Fixed absolute URL generation from relative URLs which are only query strings.,54,7098
+318,13c2af3f,SUCCESS,11,SUCCESS,10,SUCCESS,13,2010-11-23 11:22:08 +1100,Output format tweak,54,7106
+319,f462438f,SUCCESS,11,SUCCESS,10,SUCCESS,11,2010-11-23 16:44:01 +1100,"Added :not() selector, to find elements that do not match the selector. E.g. div:not(.logo) finds divs that do not have the ""logo"" class name.",54,7152
+320,ca8bad78,SUCCESS,10,SUCCESS,9,SUCCESS,10,2010-11-23 21:04:33 +1100,"Added Elements.not(selector) method, to remove undesired results from selector results.",54,7163
+321,9ef0e739,SUCCESS,12,SUCCESS,10,SUCCESS,13,2010-11-23 21:08:12 +1100,Changelog update in launce preperation,54,7163
+322,f1613dc2,SUCCESS,10,SUCCESS,9,SUCCESS,13,2010-11-23 21:08:50 +1100,Changelog tweak,54,7163
+323,c066b23e,SUCCESS,12,SUCCESS,9,SUCCESS,12,2010-11-23 21:10:00 +1100,[maven-release-plugin] prepare release jsoup-1.4.1,54,7163
+324,9b69302f,SUCCESS,13,SUCCESS,8,SUCCESS,11,2010-11-23 21:10:10 +1100,[maven-release-plugin] prepare for next development iteration,54,7163
+325,749687cb,SUCCESS,11,SUCCESS,10,SUCCESS,12,2011-01-07 13:33:17 +0300,added .clone() for Elements,54,7169
+326,8a7efe73,SUCCESS,11,SUCCESS,8,SUCCESS,11,2011-01-11 10:51:13 +0300,Initial add of new generation selectors(faster than original),64,7310
+327,6fb07413,SUCCESS,11,SUCCESS,9,SUCCESS,13,2011-01-12 22:46:50 +0300,Added attribute selectors,65,7357
+328,073d9734,SUCCESS,12,SUCCESS,9,SUCCESS,12,2011-01-12 23:44:22 +0300,added AttrSelector.AttrNamePrefixSelector,65,7368
+329,170c25f9,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-01-13 10:58:01 +0300,fix bug in element selector: incorrect behavior on multiple classes,65,7368
+330,2f447280,FAIL,10,NO,0,NO,0,2011-01-13 11:19:08 +0300,removing as exists matching evaluator classes,62,7332
+331,b9f9860f,FAIL,11,NO,0,NO,0,2011-01-13 11:24:24 +0300,changes wrt existing Evaluator class,64,7334
+332,64433991,FAIL,14,NO,0,NO,0,2011-01-13 12:09:00 +0300,Selectors update,64,7341
+333,b0c8d3ef,FAIL,10,NO,0,NO,0,2011-01-13 12:09:32 +0300,removing boxing/unboxing,64,7341
+334,7ea1e534,SUCCESS,11,SUCCESS,8,SUCCESS,12,2011-01-13 12:09:42 +0300,evaluators made public,64,7341
+335,81594d5b,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-01-13 12:10:11 +0300,Adding evaluators tests,65,7488
+336,2d2c9a91,SUCCESS,11,SUCCESS,10,SUCCESS,12,2011-01-13 12:24:00 +0300,added new tests,65,7508
+337,b25f8506,SUCCESS,12,SUCCESS,8,SUCCESS,10,2011-01-13 17:51:46 +0300,Renaming in some selectors,65,7564
+338,2f2f8b83,SUCCESS,10,SUCCESS,10,SUCCESS,11,2011-01-13 18:40:38 +0300,adding new ctors to And and Or,65,7576
+339,b8cb55a5,SUCCESS,10,SUCCESS,9,SUCCESS,12,2011-01-13 19:02:08 +0300,adding toString(),65,7599
+340,cc494e90,SUCCESS,11,SUCCESS,9,SUCCESS,10,2011-01-13 19:02:22 +0300,added base container,66,7620
+341,f9ffaf49,SUCCESS,10,SUCCESS,9,SUCCESS,11,2011-01-13 19:07:09 +0300,added .toString() to basic Evaluators,66,7662
+342,9008cbf6,SUCCESS,11,SUCCESS,11,SUCCESS,14,2011-01-13 19:17:28 +0300,Adding Selector parser,67,7837
+343,112c1541,FAIL,12,NO,0,NO,0,2011-01-13 21:59:51 +0300,removing char boxing,67,7837
+344,c45ed5b7,FAIL,12,NO,0,NO,0,2011-01-14 09:39:35 +0300,adding empty and .addAll,67,7842
+345,fbed2413,FAIL,12,NO,0,NO,0,2011-01-14 09:39:47 +0300,implemented :has selector,68,7858
+346,e9909538,SUCCESS,12,SUCCESS,11,SUCCESS,12,2011-01-14 09:40:25 +0300,Working parser except the root node selector. Added basic tests,69,8316
+347,3fb9295d,SUCCESS,11,SUCCESS,9,SUCCESS,11,2011-01-14 09:47:12 +0300,removed unused constructor,69,8308
+348,12a4abda,SUCCESS,11,SUCCESS,10,SUCCESS,12,2011-01-14 09:50:19 +0300,parser update: normal order of selectors,69,8306
+349,dbbe693c,SUCCESS,11,SUCCESS,11,SUCCESS,12,2011-01-15 10:40:14 +0300,fix non-void element parsing such as <a href=/link/>link text</a>,69,8306
+350,ae7308a2,SUCCESS,12,SUCCESS,10,SUCCESS,13,2011-01-15 10:59:32 +0300,"Evaluator.match(Element test) -> Evaluator.match(Element root, Element test) change",69,8325
+351,920ffd8d,SUCCESS,11,SUCCESS,10,SUCCESS,13,2011-01-15 23:41:33 +0300,Character -> char change,69,8325
+352,e3627911,SUCCESS,13,SUCCESS,10,SUCCESS,13,2011-01-15 23:58:04 +0300,restored all tests.,69,8333
+353,b8d2e210,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-01-15 23:58:54 +0300,added RootSelector updated tree selectors wrt subtree matching,70,8346
+354,cbc1cf34,SUCCESS,11,SUCCESS,11,SUCCESS,12,2011-01-15 23:59:25 +0300,update evaluator wrt subtree matching,70,8348
+355,b800dd75,SUCCESS,11,SUCCESS,11,SUCCESS,14,2011-01-15 23:59:45 +0300,Added RootSelector support,70,8350
+356,f11c3b4f,SUCCESS,11,SUCCESS,9,SUCCESS,12,2011-01-16 00:16:31 +0300,small optimizations,70,8342
+357,5998a3ea,SUCCESS,11,SUCCESS,10,SUCCESS,11,2011-01-16 14:32:33 +0300,added javadocs,70,8342
+358,43a39b30,SUCCESS,10,SUCCESS,10,SUCCESS,11,2011-01-16 14:41:44 +0300,Added javadocs for Evaluators. Updated tests. Updated parser,69,8319
+359,d0a7e3a0,SUCCESS,10,SUCCESS,9,SUCCESS,12,2011-01-18 12:53:08 +1100,Fixed issue when using descendant regex attribute selectors.,69,8336
+360,4ad65182,SUCCESS,10,SUCCESS,8,SUCCESS,10,2011-01-18 13:08:26 +1100,Added a test to confirm combinators don't match in balanced contains queries,69,8342
+361,25097669,SUCCESS,12,SUCCESS,8,SUCCESS,11,2010-12-21 16:12:54 -0800,Updated OutputSettings inside of Document to be a static inner class.,69,8342
+362,4a470a02,SUCCESS,11,SUCCESS,9,SUCCESS,12,2011-01-18 14:48:14 +1100,Fixed tokeniser optimisation when scanning for missing data element close tags.,69,8344
+363,21334edb,SUCCESS,11,SUCCESS,10,SUCCESS,13,2010-12-28 15:49:16 +0800,There are no valid (x)html tags that start with numbers,69,8344
+364,08e2a7fc,SUCCESS,11,SUCCESS,9,SUCCESS,11,2011-01-20 08:24:21 +1100,Reverted changes that only allow empty tags in pre-defined instances.,69,8345
+365,bbca7db2,FAIL,11,NO,0,NO,0,2011-01-20 12:03:53 +1100,"Integrated new single-pass selector evaluators, contributed by knz (Anton Kazennikov).",65,7411
+366,277949e7,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-01-25 07:11:13 +0800,"Removed com.sun.xml.internal.ws.util.StringUtils to fix https://github.com/jhy/jsoup/issues/#issue/69 ""jsoup/src/main/java/org/jsoup/select/selectors/AndSelector.java:[8,35] package com.sun.xml.internal.ws.util does not exist""",65,7410
+367,f317c04a,SUCCESS,12,SUCCESS,11,SUCCESS,14,2011-01-28 14:31:19 +1100,Force strict entity matching (must be &xxx; and not &xxx) in element attributes.,65,7424
+368,f9d8a9c8,SUCCESS,12,SUCCESS,11,SUCCESS,15,2011-01-28 15:04:02 +1100,Ensure that Jsoup.Connect handles relative redirects in cases where the underlying HTTP stack doesn't automatically follow them.,65,7429
+369,fa8a8deb,SUCCESS,10,SUCCESS,10,SUCCESS,10,2011-01-28 15:20:47 +1100,Allow Jsoup.Connect to parse application/xml and application/xhtml+xml responses.,65,7429
+370,6dbe51b3,SUCCESS,11,SUCCESS,8,SUCCESS,11,2011-01-28 15:28:56 +1100,Defined U (underline) element as an inline tag.,65,7430
+371,64ec9cfb,SUCCESS,11,SUCCESS,8,SUCCESS,11,2011-01-28 17:20:14 +1100,Cleanup of selector class files,57,7371
+372,39915966,SUCCESS,10,SUCCESS,10,SUCCESS,10,2011-02-03 15:05:55 +1100,Updated Jsoup.Connection so that cookies set on a redirect response will be included on the redirected request and response.,57,7413
+373,9c46f13f,SUCCESS,9,SUCCESS,8,FAIL,21,2011-02-03 19:19:21 +1100,Prevent infinite redirection loops in jsoup.connect.,57,7431
+374,c114eb05,SUCCESS,12,SUCCESS,10,FAIL,20,2011-02-03 21:21:57 +1100,Implemented TextNode.splitText,57,7452
+375,785d41a3,SUCCESS,11,SUCCESS,9,FAIL,17,2011-02-03 21:45:25 +1100,"Moved .wrap, .before, and .after from Element to Node for flexibility. Overriding implementations in Element still return Element.",57,7470
+376,b320c9c2,SUCCESS,9,SUCCESS,9,SUCCESS,10,2011-02-03 21:48:41 +1100,Don't run URL connectivity tests by default.,57,7471
+377,9ae3df99,SUCCESS,11,SUCCESS,10,SUCCESS,11,2011-02-03 22:08:17 +1100,"Added ability to change an element's tag with Element.tagName(String), and to change many at once with Elements.tagName(String).",57,7489
+378,c8807e90,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-02-03 22:24:07 +1100,Test to confirm that abs URL method works on img src attributes.,57,7494
+379,7eefa1b5,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-02-04 08:41:14 +1100,Generify empty child list.,57,7494
+380,9fcda18b,SUCCESS,11,SUCCESS,10,SUCCESS,10,2011-02-04 08:56:11 +1100,Removed redundant empty array,57,7494
+381,cffae6e8,SUCCESS,10,SUCCESS,10,SUCCESS,10,2011-02-19 17:52:18 +1100,Changelog updates,57,7494
+382,f75ffca1,SUCCESS,9,SUCCESS,9,SUCCESS,11,2011-02-19 18:03:48 +1100,Readme update,57,7494
+383,eeea5cbc,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-02-19 18:05:04 +1100,[maven-release-plugin] prepare release jsoup-1.5.1,57,7494
+384,7d172333,SUCCESS,11,SUCCESS,10,SUCCESS,10,2011-02-19 18:05:15 +1100,[maven-release-plugin] prepare for next development iteration,57,7494
+385,a14fb16d,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-02-22 22:06:18 +1100,"Fixed issue with selector parser where some boolean AND + OR combined queries (e.g. ""meta[http-equiv], meta[content]"") were being parsed incorrectly as OR only queries (e.g. former as ""meta, [http-equiv], meta[content]"")",57,7503
+386,e42cce47,SUCCESS,10,SUCCESS,9,SUCCESS,11,2011-02-22 22:50:00 +1100,"Allow <a> and <font> elements to be treated as flow/block elements, to match browser parse trees.",57,7512
+387,65e846da,SUCCESS,12,SUCCESS,9,SUCCESS,12,2011-02-22 13:32:12 -0800,Updated copyright date,57,7512
+388,29c9d482,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-02-27 12:26:26 +1100,Updated Element.text() method to ensure <br> tags output as whitespace.,57,7519
+389,694efa8b,SUCCESS,11,SUCCESS,10,SUCCESS,10,2011-02-27 12:49:14 +1100,Tweaked Element.outerHtml() method to not generate initial newline on first output element.,57,7524
+390,db9efbd5,SUCCESS,10,SUCCESS,11,SUCCESS,11,2011-02-27 14:37:27 +1100,"Have <br> output as "" "" for Element.ownText()",57,7529
+391,6d9081bb,SUCCESS,12,SUCCESS,9,SUCCESS,11,2011-02-27 14:54:54 +1100,Testcase for bug #63.,57,7534
+392,a6d9d213,SUCCESS,12,SUCCESS,8,SUCCESS,11,2011-02-27 15:08:07 +1100,Test to ensure that charset detection from <meta> tag works when preceeded by an irrelevant <meta> tag.,57,7534
+393,cb525223,SUCCESS,10,SUCCESS,9,SUCCESS,10,2011-02-27 15:15:19 +1100,Changelog prep for 1.5.2,57,7534
+394,a7b57725,SUCCESS,9,SUCCESS,9,SUCCESS,9,2011-02-27 15:16:20 +1100,[maven-release-plugin] prepare release jsoup-1.5.2,57,7534
+395,481542f5,SUCCESS,11,SUCCESS,9,SUCCESS,10,2011-02-27 15:16:31 +1100,[maven-release-plugin] prepare for next development iteration,57,7534
+396,8749726a,SUCCESS,12,SUCCESS,9,SUCCESS,10,2011-05-10 22:13:23 +1000,"Reimplementation of parser and tokeniser, to make jsoup a HTML5 conformat parser, against the http://whatwg.org/html spec.",65,10882
+397,a28fb8ea,SUCCESS,10,SUCCESS,8,SUCCESS,9,2011-05-28 23:33:35 +1000,"Added test to verify that solidus as end of unquoted attribute in tag is handled as part of attribute, and not a self-closing tag, which was the old behaviour of jsoup.",65,10888
+398,71608a84,SUCCESS,10,SUCCESS,9,SUCCESS,9,2011-05-28 23:42:53 +1000,Added test to confirm that tbody in span does not create a new table.,65,10893
+399,411c01ff,SUCCESS,11,SUCCESS,8,SUCCESS,11,2011-05-31 14:44:10 +1000,"Improved ""abs:"" absolute URL handling in Elements.attr(""abs:href"") and Node.hasAttr(""abs:href"").",65,10928
+400,51cb8669,SUCCESS,14,SUCCESS,10,SUCCESS,11,2011-06-03 08:53:11 +1000,Fixed issue in TokeniserState where the tokeniser could get trapped at EOF if in RCDataEndTag state.,65,10936
+401,76de9d87,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-06-03 10:22:50 +1000,Fixed cookie handling issue in jsoup.Connect where empty cookies would cause a validation exception.,65,10965
+402,dc0b7cb2,SUCCESS,14,SUCCESS,9,SUCCESS,11,2011-02-25 13:06:44 -0600,Allow 400-500 errors and response with no content-type to be parsed.,65,10991
+403,1bc34292,SUCCESS,12,SUCCESS,10,SUCCESS,10,2011-06-03 14:52:57 +1000,Documentation and test cases for jsoup.Connect ignoreHttpErrors and ignoreContentType options.,65,11001
+404,35ba2dd2,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-06-03 14:56:07 +1000,Cleanup datastream test.,65,11001
+405,437d8eca,SUCCESS,12,SUCCESS,10,SUCCESS,11,2011-06-04 01:02:05 +1000,"Handle  unclosed <title> tags in document by breaking out of the title at the next start tag, instead of eating up to the end of the document.",65,11020
+406,db902bc0,SUCCESS,16,SUCCESS,25,SUCCESS,14,2011-06-04 17:47:32 +1000,Added OSGi bundle support to the jsoup package jar.,65,11020
+407,82bb80e6,SUCCESS,11,SUCCESS,14,SUCCESS,16,2011-06-13 12:11:00 +1000,Test for #101,65,11024
+408,13672ea6,SUCCESS,12,SUCCESS,15,SUCCESS,13,2011-06-13 13:11:19 +1000,JavaDoc update,65,11021
+409,874be30d,SUCCESS,11,SUCCESS,17,SUCCESS,16,2011-06-13 15:09:06 +1000,Node.after and Node.before(node) change log,65,11021
+410,7aec925d,SUCCESS,13,SUCCESS,16,SUCCESS,17,2011-06-13 15:22:22 +1000,Test to confirm that <textarea>s do not get implicit <form> tags with the new parser.,65,11024
+411,444b5cea,SUCCESS,11,SUCCESS,16,SUCCESS,15,2011-06-13 16:10:41 +1000,"Added Node.unwrap() and Elements.unwrap(), to remove a node but keep its contents.",65,11057
+412,c0d9ad62,SUCCESS,12,SUCCESS,15,SUCCESS,13,2011-06-13 16:41:18 +1000,JavaDoc usage example,65,11057
+413,85516601,SUCCESS,12,SUCCESS,15,SUCCESS,16,2011-06-13 16:47:56 +1000,[maven-release-plugin] prepare release jsoup-1.6.0,65,11057
+414,2c6031ae,SUCCESS,12,SUCCESS,17,SUCCESS,16,2011-06-13 16:48:07 +1000,[maven-release-plugin] prepare for next development iteration,65,11057
+415,a99106ee,SUCCESS,13,SUCCESS,14,SUCCESS,12,2011-06-13 00:37:00 -0700,Marked release date.,65,11057
+416,e30ed5d3,SUCCESS,12,SUCCESS,14,SUCCESS,14,2011-06-14 11:17:05 +1000,Fix Java 1.5 compatibility,66,11085
+417,66ff2640,SUCCESS,12,SUCCESS,17,SUCCESS,13,2011-06-14 11:20:05 +1000,Specify Felix Maven plugin verion,66,11085
+418,49eb02fe,SUCCESS,20,SUCCESS,13,SUCCESS,13,2011-06-14 11:26:10 +1000,Javadoc update for DescendableLinkedList,66,11085
+419,ab489018,SUCCESS,13,SUCCESS,13,SUCCESS,12,2011-06-14 12:07:25 +1000,"Fix an incorrect case fall-through, and add some not-null validations to prevent warnings.",66,11088
+420,b5f53ec2,SUCCESS,15,SUCCESS,12,SUCCESS,11,2011-06-14 12:13:54 +1000,Changelog for Java 1.5 fix,66,11088
+421,7b47828b,SUCCESS,14,SUCCESS,12,SUCCESS,12,2011-06-13 18:27:52 +1000,Changelog correction,66,11088
+422,7fe86808,SUCCESS,12,SUCCESS,12,SUCCESS,13,2011-06-14 21:18:42 +1000,Fixed an issue when parsing <script> tags.,66,11088
+423,81d1fb98,SUCCESS,12,SUCCESS,12,SUCCESS,12,2011-06-15 17:39:15 +1000,Refactor of script and rawtext end tag name states.,66,11089
+424,f16c0c17,SUCCESS,12,SUCCESS,11,SUCCESS,13,2011-06-19 17:49:27 +1000,Fixed CharacterReader to handle unconsuming at EOF correctly. Additional <script> test at EOF.,67,11147
+425,f36b950d,SUCCESS,12,SUCCESS,11,SUCCESS,11,2011-06-23 21:02:15 +1000,Fixed an issue with a missing quote when serialising DocumentType nodes.,68,11171
+426,3d6f1e47,SUCCESS,12,SUCCESS,12,SUCCESS,12,2011-06-23 21:19:38 +1000,Fixed issue where a single 0 character was lexed incorrectly as a null character.,68,11177
+427,128b3f82,SUCCESS,12,SUCCESS,12,SUCCESS,12,2011-06-23 21:48:42 +1000,Fixed normalisation of carriage returns to newlines on input HTML,68,11195
+428,912d3c14,SUCCESS,12,SUCCESS,11,SUCCESS,12,2011-06-25 21:12:21 +1000,Disabled memory mapped files,68,11193
+429,99d04d8f,SUCCESS,12,SUCCESS,11,SUCCESS,12,2011-07-02 16:40:26 +1000,Release date,68,11193
+430,f148123f,SUCCESS,13,SUCCESS,12,SUCCESS,13,2011-07-02 16:48:59 +1000,Updated changelog,68,11193
+431,508718bc,SUCCESS,11,SUCCESS,12,SUCCESS,14,2011-07-02 17:04:08 +1000,Updated POM for github push,68,11193
+432,291ba4d3,SUCCESS,14,SUCCESS,12,SUCCESS,13,2011-07-02 17:05:49 +1000,[maven-release-plugin] prepare release jsoup-1.6.1,68,11193
+433,1ea48c83,SUCCESS,13,SUCCESS,11,SUCCESS,12,2011-07-02 17:06:01 +1000,[maven-release-plugin] prepare for next development iteration,68,11193
+434,3fb895c9,SUCCESS,12,SUCCESS,12,SUCCESS,12,2011-07-16 11:04:21 +1000,Javadoc typo fix.,68,11193
+435,863bad78,SUCCESS,12,SUCCESS,11,SUCCESS,11,2011-07-16 12:39:33 +1000,Follow POST redirects as GETs,68,11203
+436,7171cec2,SUCCESS,12,SUCCESS,11,SUCCESS,13,2011-07-16 17:19:27 +1000,Optionally preserve related links in elements when cleaning,68,11213
+437,c2ecaa18,SUCCESS,12,SUCCESS,12,SUCCESS,13,2011-07-17 21:33:33 +1000,Fixed handling of null characters within comments.,68,11217
+438,93ff111c,SUCCESS,13,SUCCESS,13,SUCCESS,13,2011-08-28 11:09:43 +1000,"Added jsoup.connect.cookies(Map) method, to set multiple cookies at once, possibly from a prior request.",68,11233
+439,d0418222,SUCCESS,13,SUCCESS,12,SUCCESS,13,2011-08-28 14:13:21 +1000,Tweaked escaped entity detection in attributes to not treat &entity_... as an entity form.,68,11237
+440,c98349a7,SUCCESS,13,SUCCESS,12,SUCCESS,12,2011-08-28 15:14:35 +1000,"Updated the Cleaner to support custom allowed protocols such as ""cid:"" and ""data:"".",68,11245
+441,70b2cf9a,SUCCESS,11,SUCCESS,12,SUCCESS,13,2011-08-28 16:39:30 +1000,Fixed doctype tokeniser to allow whitespace between name and public identifier.,68,11252
+442,ae80e51c,SUCCESS,14,SUCCESS,12,SUCCESS,12,2011-08-30 11:07:42 +1000,Tweaked HTML output of closing script and style tags to not add an extraneous newline when pretty-printing.,68,11255
+443,f31916f5,SUCCESS,12,SUCCESS,11,SUCCESS,12,2011-08-30 11:27:39 +1000,Tweaked Element#select documentation to reinforce CSS selector syntax.,68,11255
+444,7b9f1776,SUCCESS,12,SUCCESS,10,SUCCESS,12,2011-08-30 12:15:32 +1000,"Added Element.textNodes() and Element.dataNodes(), to easily access an element's children text nodes and data nodes.",68,11297
+445,ad03c445,SUCCESS,11,SUCCESS,10,SUCCESS,11,2011-09-01 23:20:25 +1000,Implemented an example HTML to plain-text converter.,69,11363
+446,0d8ec381,SUCCESS,11,SUCCESS,12,SUCCESS,13,2011-09-02 13:02:39 +1000,Updated changelog for HtmlToPlainText example,69,11363
+447,9ff954f3,SUCCESS,12,SUCCESS,11,SUCCESS,12,2011-09-02 13:26:13 +1000,Added documentation for NodeVisitor and NodeTraversor.,69,11363
+448,16ca9214,SUCCESS,13,SUCCESS,11,SUCCESS,12,2011-09-04 22:10:13 +1000,Corrected documentation of NodeTraversor to reflect depth-first order of node visitation.,69,11363
+449,f45de034,SUCCESS,13,SUCCESS,11,SUCCESS,11,2011-09-04 22:22:42 +1000,"Added Node.traverse() and Elements.traverse() methods, to iterate through a node's descendants.",69,11394
+450,f2535d70,SUCCESS,13,SUCCESS,11,SUCCESS,13,2011-09-16 17:44:05 +0800,Made Evaluator constructor public to allow custom implementations,69,11394
+451,1e84edbe,SUCCESS,13,SUCCESS,11,SUCCESS,13,2011-10-01 11:13:16 +1000,Act on only the first base href in parse.,69,11408
+452,3592968b,SUCCESS,14,SUCCESS,13,SUCCESS,12,2011-12-30 13:21:11 -0800,"Fixes issue #126 in jsoup, where comments inside table were replicated inside body",69,11409
+453,5000be31,SUCCESS,15,SUCCESS,11,SUCCESS,12,2012-02-26 17:23:10 -0800,First draft of a simple XML treebuilder / parser.,72,11506
+454,889ff7cf,SUCCESS,14,SUCCESS,12,SUCCESS,13,2012-02-27 19:06:03 -0800,Added test coverage for XML parser.,72,11521
+455,433d2f18,SUCCESS,16,SUCCESS,12,SUCCESS,12,2012-02-27 20:55:53 -0800,Allow an alternate parser to be supplied for core use cases.,72,11568
+456,99c4da88,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-03-04 16:34:15 -0800,Fixed URL tests.,72,11568
+457,d8c3f9cb,SUCCESS,13,SUCCESS,11,SUCCESS,11,2012-03-04 17:18:30 -0800,Fixed invocation of alternative parser in Jsoup.Connection. Updated test to confirm.,72,11596
+458,6c8365b9,SUCCESS,12,SUCCESS,10,SUCCESS,12,2012-03-04 17:35:37 -0800,Added test for invocation of alternate parser when loading from file input stream.,72,11609
+459,dd4b6822,SUCCESS,11,SUCCESS,10,SUCCESS,11,2012-03-15 13:41:11 +0800,"Change what considered as ""whitespace""",69,11424
+460,be94f554,SUCCESS,12,SUCCESS,12,SUCCESS,13,2012-03-19 21:02:03 -0700,Added support to optionally keep track of errors while tokenising and tree-building.,72,11618
+461,96f31681,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-03-19 21:15:55 -0700,Test XML (un)known self-closing behaviour.,72,11624
+462,76068cb3,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-03-19 21:19:37 -0700,Changelog for XML and error tracking.,72,11624
+463,7dfce519,SUCCESS,12,SUCCESS,12,SUCCESS,13,2012-03-20 19:22:01 -0700,Merge branch 'master' of https://github.com/chikei/jsoup into chikei-master,72,11640
+464,84ab3d3c,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-03-20 19:27:07 -0700,Changelog and code tweak for whitespace test.,72,11638
+465,9afeb6b7,SUCCESS,12,SUCCESS,13,SUCCESS,14,2012-03-20 19:45:49 -0700,Merge branch 'master' of https://github.com/bsampath/jsoup into bsampath-master,72,11639
+466,68c05150,SUCCESS,15,SUCCESS,14,SUCCESS,13,2012-03-20 19:55:16 -0700,Changelog and test for pull #165 (comments in tables). Fixes #126,72,11643
+467,f8a5dfb0,SUCCESS,12,SUCCESS,10,SUCCESS,12,2012-03-20 21:55:57 -0700,Updated parser error tracking to cap the max size of errors tracked. Defaults to 0 (disabled).,73,11663
+468,2c257f64,SUCCESS,11,SUCCESS,10,SUCCESS,11,2012-03-24 22:26:28 -0700,Make ParseError public.,73,11663
+469,1d31086a,SUCCESS,11,SUCCESS,11,SUCCESS,12,2012-03-25 21:57:36 -0700,Drop BOM at start of byte data if present after decode.,73,11674
+470,1030e618,SUCCESS,13,SUCCESS,11,SUCCESS,12,2012-03-25 22:24:20 -0700,Correctly handle content (ignore it) after frameset end. Fixes #162,73,11677
+471,0ea12d3d,SUCCESS,14,SUCCESS,14,SUCCESS,14,2012-03-25 22:34:50 -0700,"Reduced memory pre-allocation in Node.outerHtml from 32KB to 128B, to reduce memory pressure.",73,11677
+472,bf46f7a5,SUCCESS,14,SUCCESS,12,SUCCESS,14,2012-03-27 20:46:40 -0700,Changelog release prep,73,11677
+473,785488c9,SUCCESS,14,SUCCESS,11,SUCCESS,13,2012-03-27 21:01:18 -0700,POM update for git url syntax,73,11677
+474,bfd79c98,SUCCESS,12,SUCCESS,10,SUCCESS,12,2012-03-27 21:05:25 -0700,[maven-release-plugin] prepare release jsoup-1.6.2,73,11677
+475,2f05a964,SUCCESS,14,SUCCESS,12,SUCCESS,14,2012-03-27 21:05:30 -0700,[maven-release-plugin] prepare for next development iteration,73,11677
+476,c744b9af,SUCCESS,15,SUCCESS,11,SUCCESS,11,2012-04-02 18:19:24 -0700,"Tidied up readme, for github presentation.",73,11677
+477,249e5a8a,SUCCESS,13,SUCCESS,10,SUCCESS,12,2012-04-02 19:40:56 -0700,Fixed parsing of group-or commas in CSS selectors.,73,11690
+478,447bff37,SUCCESS,13,SUCCESS,11,SUCCESS,12,2012-04-04 19:58:41 -0700,Updated license date,73,11690
+479,5d56ace1,SUCCESS,11,SUCCESS,13,SUCCESS,12,2012-04-05 21:25:16 -0700,"Fixed precedence parsing of group OR (,) in CSS selectors.",74,11732
+480,4b0dde41,SUCCESS,11,SUCCESS,11,SUCCESS,13,2012-04-14 10:48:29 -0700,"If a node has no parent, return null on previousSibling and nextSibling instead of throwing a null pointer exception.",74,11780
+481,dbc1e34b,SUCCESS,12,SUCCESS,12,SUCCESS,11,2012-04-14 10:51:21 -0700,Correct Elements.not() javadoc.,74,11780
+482,1d37cef1,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-04-14 12:31:46 -0700,Fixed HTML entity parser to correctly parse entities like frac14 (letter + number combo).,74,11802
+483,04b8921d,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-04-14 12:59:04 -0700,Fixed issue where contents of a script tag within a comment could be incorrectly parsed.,74,11812
+484,472c7e55,SUCCESS,12,SUCCESS,10,FAIL,11,2012-04-14 20:59:41 -0700,"Fixed GAE support: load HTML entities from a file on startup, instead of embedding in the class.",74,9691
+485,002a4940,SUCCESS,13,SUCCESS,12,FAIL,13,2012-05-06 00:33:31 -0700,Fix NPE in style fragment parse,74,9693
+486,a97385eb,SUCCESS,14,SUCCESS,14,FAIL,13,2012-05-06 00:50:48 -0700,Fixed issue with :all pseudo-tag in HTML sanitizer when cleaning tags,74,9699
+487,cd054a8a,SUCCESS,12,SUCCESS,12,FAIL,13,2012-05-06 00:51:06 -0700,NPE changelog,74,9699
+488,561d12a9,SUCCESS,12,SUCCESS,11,FAIL,12,2012-05-14 15:35:58 +0300,"Use English-locale settings when uppercasing charset. Fixes a problem with Turkish characters, see: http://mattryall.net/blog/2009/02/the-infamous-turkish-locale-bug",74,9700
+489,5c43ce2d,SUCCESS,13,SUCCESS,13,FAIL,13,2012-05-26 14:12:20 -0700,Fixed NPE in Parser.parseFragment() when context parameter is null.,74,9704
+490,1e85878f,SUCCESS,11,SUCCESS,12,FAIL,12,2012-05-26 14:40:28 -0700,"In HTML whitelists, when defining allowed attributes for a tag, automatically add the tag to the allowed list.",74,9715
+491,9a5d4f3b,SUCCESS,15,SUCCESS,12,SUCCESS,12,2012-05-26 15:05:06 -0700,"Copy .properties files, to fix mvn build of Entities.",74,9715
+492,21759032,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-05-26 15:43:53 -0700,Fixed missing <td> in javadoc,74,9715
+493,fa9d20a3,SUCCESS,13,SUCCESS,10,SUCCESS,11,2012-05-26 16:11:20 -0700,Splelling.,74,9715
+494,af317bde,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-05-27 16:47:46 -0700,Correct date for the last release.,74,9715
+495,347fec51,SUCCESS,11,SUCCESS,11,SUCCESS,12,2012-05-27 16:48:41 -0700,Releae prep.,74,9715
+496,13d0bee2,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-05-27 16:50:25 -0700,[maven-release-plugin] prepare release jsoup-1.6.3,74,9715
+497,e045c995,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-05-27 16:50:31 -0700,[maven-release-plugin] prepare for next development iteration,74,9715
+498,8a61b7d4,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-05-28 10:21:10 -0700,Reflect actual release date.,74,9715
+499,c9bc0b28,SUCCESS,11,SUCCESS,11,SUCCESS,13,2012-05-28 10:40:05 -0700,Javadoc align headers lefJavadoc align headers leftt,74,9715
+500,eb8a107f,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-05-28 11:14:06 -0700,Merge pull request #193 from OKA133/master,74,9716
+501,4b763cc8,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-05-28 11:18:42 -0700,"Set Locale.ENGLISH when running upper/lowercase methods, to ensure locale independence.",74,9717
+502,94002db5,SUCCESS,12,SUCCESS,12,SUCCESS,11,2012-05-28 11:49:07 -0700,Fixed whitespace preservation in <textarea> tags.,74,9732
+503,e313f95e,SUCCESS,12,SUCCESS,12,SUCCESS,14,2012-05-28 12:10:48 -0700,"In jsoup.connect, fail faster if the return content type is not supported.",74,9733
+504,cf8ae1c5,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-05-28 14:09:24 -0700,"In jsoup.clean, allow custom OutputSettings, to control pretty printing, character set, and entity escaping.",74,9761
+505,ede13169,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-05-28 18:39:20 -0700,Use a StringBuilder to accumulate attribute values.,74,9763
+506,8633b014,SUCCESS,13,SUCCESS,12,SUCCESS,13,2012-05-28 20:16:38 -0700,Reuse StringBuilders,74,9764
+507,3e284b6c,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-05-28 20:59:27 -0700,No longer strip \r before parsing.,74,9786
+508,66b65e08,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-05-28 21:22:39 -0700,Changelog for performance improvement.,74,9786
+509,07a3c08a,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-05-29 21:02:14 -0700,"Make copies of all strings returned, vs returning pointers to substrings of input.",74,9786
+510,231aab61,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-06-03 18:44:14 -0700,"Replaced Strings with char array in CharacterReader, for well improved parse times.",74,9919
+511,666275a5,SUCCESS,10,SUCCESS,11,SUCCESS,11,2012-06-03 20:09:12 -0700,Only create attribute objects for end tag tokens when required.,74,9925
+512,d55af671,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-06-03 20:10:05 -0700,Don't create Iterator objects in these tight Evaluator loops.,74,9927
+513,074d9bfd,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-06-03 20:13:22 -0700,"To save GC time in select, don't wrap childnodes in unmodifiable list.",74,9927
+514,d7b5d5b2,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-06-03 20:39:27 -0700,"Check for null body, possible in framesets.",74,9936
+515,d9f15627,SUCCESS,11,SUCCESS,10,SUCCESS,11,2012-06-03 20:42:35 -0700,Changelog catch-up.,74,9936
+516,db2d5aa8,SUCCESS,12,SUCCESS,10,SUCCESS,13,2012-06-06 12:40:59 +0200,"Added support for css pseudo classes :first-child, :last-child, :nth-child, :nth-last-child, :first-of-type, :last-of-type, :nth-of-type, :nth-last-of-type, :only-child, :only-of-type, :empty, :root",75,10284
+517,bbd77846,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-06-10 22:16:39 -0700,Javadoc fix,74,9936
+518,4f92f9be,SUCCESS,13,SUCCESS,11,SUCCESS,10,2012-06-30 08:56:30 +0200,Upgrade to maven-resources-plugin version 2.4,74,9936
+519,87394199,SUCCESS,10,SUCCESS,12,SUCCESS,12,2012-07-17 06:40:05 -0700,Merge pull request #217 from kayahr/4f92f9be7d1de1f81959a0574047951c92d4ea39,74,9936
+520,547a1147,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-07-17 06:46:26 -0700,Updated Maven pom.xml to specify jar plugin version.,74,9936
+521,82f86831,SUCCESS,13,SUCCESS,12,SUCCESS,12,2012-07-17 07:03:32 -0700,Fixed an issue when normalising whitespace for strings containing high-surrogate characters.,74,9944
+522,00901316,SUCCESS,13,SUCCESS,13,SUCCESS,13,2012-07-17 21:16:54 -0700,Don't throw an exception if no content-type specified.,74,9944
+523,8963e2ac,SUCCESS,12,SUCCESS,13,SUCCESS,13,2012-07-18 22:33:01 -0700,"If the charset from the server is not supported, fail-back to UTF8.",74,9958
+524,9b85aea8,SUCCESS,12,SUCCESS,12,SUCCESS,11,2012-09-21 18:45:39 -0700,Remove unnecessary synchronisation in Tag.valueOf,74,9955
+525,c75e9cc8,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-09-21 18:52:35 -0700,Micro-optimised Tag.valueOf,74,9957
+526,398f9cf9,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-09-21 20:11:00 -0700,"In DataUtil, check if body length > 0 before looking at docData",74,9957
+527,a31ec08e,SUCCESS,12,SUCCESS,11,SUCCESS,12,2012-09-23 12:15:53 -0700,Refactored entity decoding.,74,9959
+528,59fb5117,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-09-23 12:27:59 -0700,Extra wrap/unwrap tests,74,9970
+529,05ae9786,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-09-23 12:47:20 -0700,Whitespace normalise document.title() output.,74,9973
+530,1e30a157,SUCCESS,11,SUCCESS,11,SUCCESS,12,2012-09-23 13:05:27 -0700,Tidy up javadoc one-liners for Element,74,9973
+531,77e6a1a9,SUCCESS,12,SUCCESS,12,FAIL,29,2012-09-23 15:14:28 -0700,Introduced finer granularity to Jsoup.connect exceptions.,76,10033
+532,65fd8532,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-09-23 15:15:52 -0700,Don't run URL tests by default.,76,10034
+533,fb837fe7,SUCCESS,14,SUCCESS,12,SUCCESS,12,2012-09-23 15:38:49 -0700,Confirm cleans Russian characters OK,76,10035
+534,2cfb8026,SUCCESS,12,SUCCESS,11,SUCCESS,10,2012-09-23 19:12:42 -0700,[maven-release-plugin] prepare release jsoup-1.7.1,76,10035
+535,381ce3d8,SUCCESS,11,SUCCESS,10,SUCCESS,11,2012-09-23 19:12:48 -0700,[maven-release-plugin] prepare for next development iteration,76,10035
+536,dfac9ce4,SUCCESS,11,SUCCESS,12,SUCCESS,12,2012-09-29 12:04:40 -0700,Refactored the Cleaner to traverse rather than recurse child nodes,76,10051
+537,f9901ab3,SUCCESS,12,SUCCESS,13,SUCCESS,14,2012-09-29 12:13:11 -0700,Typo in Doctype node,76,10051
+538,caf61a4a,SUCCESS,14,SUCCESS,12,SUCCESS,12,2012-09-29 12:58:35 -0700,"When parsing in XML mode, preserve XML declarations (<?xml ... ?>).",76,10071
+539,3cb4cee1,SUCCESS,12,SUCCESS,11,SUCCESS,13,2012-09-29 13:31:32 -0700,Allow Whitelist test methods to be extended,76,10071
+540,3232ff00,SUCCESS,11,SUCCESS,12,SUCCESS,11,2012-09-29 13:42:01 -0700,Javadoc typo,76,10071
+541,615f5301,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-10-08 11:27:54 +0100,"Support ins, del and s tags inline",76,10071
+542,3cfd4511,SUCCESS,12,SUCCESS,12,SUCCESS,13,2012-12-10 15:51:23 -0800,Fixed an issue when parsing <textarea>/RCData tags containing unescaped closing tags that would drop the traling >.,76,10076
+543,a8da2e7d,SUCCESS,13,SUCCESS,13,SUCCESS,12,2012-12-10 23:19:55 -0800,Added a maximum body response size to Jsoup.Connection,76,10109
+544,46cff80e,SUCCESS,10,SUCCESS,11,SUCCESS,11,2012-12-10 23:20:29 -0800,The Connection API is no longer in beta.,76,10109
+545,f9f37e19,SUCCESS,10,SUCCESS,10,SUCCESS,11,2012-12-11 02:51:49 -0800,Modified maxBodySize to truncate at precise max.,76,10120
+546,e064bc48,SUCCESS,10,SUCCESS,11,SUCCESS,13,2012-12-14 11:51:13 +0100,#273 :	Provide an output setting to render all elements as block,76,10130
+547,7ff15ee2,SUCCESS,12,SUCCESS,11,SUCCESS,11,2012-12-22 12:10:16 -0800,Corrected the javadoc for Element#child() to note that it throws IndexOutOfBounds.,76,10129
+548,fd12d272,SUCCESS,12,SUCCESS,13,SUCCESS,13,2012-12-22 12:26:06 -0800,Added test to verify absolute URLs for file:// URIs,76,10140
+549,deaf9f6a,SUCCESS,12,SUCCESS,12,SUCCESS,12,2012-12-23 13:17:14 -0800,Added Element.insertChildren,76,10223
+550,fa87a8fe,SUCCESS,13,SUCCESS,10,SUCCESS,10,2012-12-23 14:02:21 -0800,Added Node.childNodesCopy(),76,10241
+551,0e37cba8,SUCCESS,11,SUCCESS,11,SUCCESS,10,2012-12-23 14:03:05 -0800,Don't clone the element's classnames,76,10261
+552,2d56df2c,SUCCESS,11,SUCCESS,11,SUCCESS,11,2012-12-26 12:45:27 -0800,Limit how far up the stack the formatting adoption agency algorithm will travel,76,10261
+553,1fd0a617,SUCCESS,13,SUCCESS,11,SUCCESS,13,2012-12-26 14:24:19 -0800,Modified Element.text() to build text by traversing child nodes rather than recursing.,76,10263
+554,4de5fe88,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-01-26 15:11:39 +0800,"changed return type of Tokeniser.consumeCharacterReference from Character to char[], and also changed TokeniserState accordingly",76,10263
+555,c2a9605b,SUCCESS,12,SUCCESS,9,SUCCESS,11,2013-01-26 15:15:19 +0800,"changed Entities.escape to escape String with supplementary characters correctly, and added two test cases to verify",76,10276
+556,e917ada8,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-01-26 16:07:49 -0800,"Introduced Parser.parseXmlFragment(), to allow easy parsing of XML fragments.",76,10282
+557,3ddc5469,SUCCESS,13,SUCCESS,12,SUCCESS,12,2013-01-26 16:08:27 -0800,Updated copyright year.,76,10282
+558,38e20f43,SUCCESS,12,SUCCESS,13,SUCCESS,13,2013-01-26 16:27:38 -0800,Merge pull request #252 from UniversityofWarwick/inline-tags,76,10282
+559,a44e18aa,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-01-26 16:46:00 -0800,Merge branch 'master' of https://github.com/jkowalczyk/jsoup into jkowalczyk-master,76,10292
+560,3982ea11,SUCCESS,12,SUCCESS,12,FAIL,12,2013-01-26 17:07:02 -0800,Tweaked koz's changes in merge prep.,76,10293
+561,109a47ac,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-01-27 10:12:59 +0800,"added test cases to verify supplementary characters can be used as attribute name and value, as well as be selected by selector",76,10286
+562,d94f56c2,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-01-26 18:18:40 -0800,Fixed overzealous indenting in outerHtmlTail,76,10293
+563,38065277,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-01-27 10:20:52 +0800,added a containsOwn test,76,10286
+564,c3c952e5,SUCCESS,11,SUCCESS,11,SUCCESS,13,2013-01-26 18:33:13 -0800,"When parsing, allow all tags to self-close.",76,10291
+565,aa812e42,SUCCESS,11,SUCCESS,12,SUCCESS,11,2013-01-26 19:41:29 -0800,Merge branch 'master' of https://github.com/mingfai/jsoup into mingfai-master,76,10314
+566,82200d78,SUCCESS,11,SUCCESS,10,SUCCESS,10,2013-01-27 12:44:52 +0800,fixed incorrect code copy-and-paste,76,10286
+567,9779d0db,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-01-27 12:09:39 -0800,Merge branch 'master' of https://github.com/mingfai/jsoup into mingfai-master,76,10314
+568,43cd48ba,SUCCESS,11,SUCCESS,10,SUCCESS,11,2013-01-27 13:33:01 -0800,Tweaked mingfai's surrogate pair implementation for efficiency.,76,10331
+569,ae51709b,SUCCESS,10,SUCCESS,10,SUCCESS,11,2013-01-27 13:58:05 -0800,Output escape codes in hex instead of decimal.,76,10333
+570,a991deb4,SUCCESS,11,SUCCESS,11,SUCCESS,13,2013-01-27 14:03:47 -0800,Output valid hex escapes this time.,76,10338
+571,2d1e4696,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-01-27 14:11:22 -0800,Changelog for supplementary characters,76,10338
+572,dd8e8321,SUCCESS,12,SUCCESS,11,SUCCESS,13,2013-01-27 16:01:18 -0800,Merge commit 'db2d5aa85352fe63531540ef396b944e2fe58e2c',77,10683
+573,c140ebf1,SUCCESS,13,SUCCESS,13,SUCCESS,14,2013-01-27 16:05:40 -0800,Changelog for structural pseudo selectors,77,10683
+574,be960036,SUCCESS,14,SUCCESS,11,SUCCESS,13,2013-01-27 16:10:22 -0800,Note the Jsoup.Connect default max size,77,10683
+575,b42fe0d5,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-01-27 16:29:25 -0800,[maven-release-plugin] prepare release jsoup-1.7.2,77,10683
+576,4ffc755b,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-01-27 16:29:30 -0800,[maven-release-plugin] prepare for next development iteration,77,10683
+577,3a6a3fcb,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-01-29 20:50:13 -0800,Changelog 1.7.2 release date,77,10683
+578,73f0278e,SUCCESS,11,SUCCESS,12,SUCCESS,12,2013-01-29 20:58:30 -0800,Test that hostless URIs resolve to absolute URLs correctly.,77,10693
+579,07df0dea,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-02-02 13:35:26 -0800,Removed code duplication in data end tag handlers,77,10637
+580,ea41269c,SUCCESS,11,SUCCESS,10,SUCCESS,12,2013-02-02 13:50:28 -0800,Reduce code dupes for ScriptDataDoubleEscapeStart and ScriptDataDoubleEscapeEnd,77,10617
+581,c5792eb6,SUCCESS,11,SUCCESS,13,SUCCESS,12,2013-02-07 17:38:57 -0800,First pass at a FomElement,79,10794
+582,89ffff24,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-02-07 20:54:45 -0800,FormElement changelog note,79,10794
+583,76903813,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-02-07 22:21:03 -0800,Don't auto submit buttons,79,10794
+584,4d94c5d0,SUCCESS,11,SUCCESS,12,SUCCESS,12,2013-02-08 20:00:12 -0700,Modified Node.clone() to use iterative approach.,79,10804
+585,834d3142,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-02-16 11:01:36 -0800,Added a forms() convenience method to Elements,79,10813
+586,f2fe1eac,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-04-15 15:53:03 +0300,Made test method for attribute protected so it can be overridden,79,10813
+587,1bae7a28,SUCCESS,11,SUCCESS,11,SUCCESS,10,2013-05-22 09:26:27 -0700,Merge branch 'master' into issue_290,79,10823
+588,586c8542,SUCCESS,11,SUCCESS,10,SUCCESS,10,2013-06-02 14:39:22 -0700,Added test for cloning deeply nested document.,79,10832
+589,b4fc2f24,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-07-05 10:51:16 +0200,"1. add support for ""unsecure connections""",79,10848
+590,ab53e915,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-08-07 21:26:04 -0400,"Add ""cite"" protocols to relaxed",79,10814
+591,2518e92a,SUCCESS,11,SUCCESS,9,SUCCESS,12,2013-10-06 13:46:11 -0700,Fixed support for self-closing script tags.,79,10814
+592,88730bf9,SUCCESS,13,SUCCESS,13,SUCCESS,14,2013-10-06 15:36:25 -0700,Fixed a crash when reading an unterminated CDATA section.,79,10821
+593,76399e5b,SUCCESS,16,SUCCESS,16,SUCCESS,16,2013-10-06 16:20:52 -0700,Fixed an issue where elements added via the adoption agency algorithm did not preserve their attributes.,79,10827
+594,2c07dc3e,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-10-06 16:39:31 -0700,"Added test for #332, already passes without pull",79,10836
+595,73e26919,SUCCESS,13,SUCCESS,12,SUCCESS,11,2013-10-06 17:10:35 -0700,Tweaked Elements.clone(),79,10842
+596,d3705477,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-10-06 17:12:58 -0700,FindBugs squash,79,10848
+597,668514d0,SUCCESS,12,SUCCESS,11,SUCCESS,14,2013-10-06 17:45:53 -0700,Merge pull request #351 from marconilanna/patch-1,79,10849
+598,11185c4f,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-10-06 23:01:49 -0700,Merge branch 'pr/292',79,10868
+599,1198b258,SUCCESS,12,SUCCESS,10,SUCCESS,12,2013-10-06 23:05:51 -0700,Changelog for #290,79,10868
+600,fc7c7f18,SUCCESS,9,SUCCESS,10,SUCCESS,11,2013-11-08 17:45:46 +0100,Merge remote-tracking branch 'upstream/master',79,10903
+601,8627ba3b,SUCCESS,12,SUCCESS,12,SUCCESS,14,2013-11-10 11:59:31 -0800,Performance: hit stack.size() less in agency adoption,79,10869
+602,862c256f,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-11-10 12:45:01 -0800,Performance: moved body tag searches to constants,79,10887
+603,de098c35,SUCCESS,11,SUCCESS,10,SUCCESS,11,2013-11-10 13:10:20 -0800,Performance: reduced String[] allocations in Builder,79,10895
+604,2c8b9ad1,SUCCESS,10,SUCCESS,12,SUCCESS,10,2013-11-10 14:59:49 -0800,Performance: CPU and memory improvements for Selectors,79,10906
+605,c1bdb9df,SUCCESS,11,SUCCESS,11,SUCCESS,11,2013-11-10 16:31:00 -0800,Changelog for perf improvements,79,10906
+606,c765b819,SUCCESS,12,SUCCESS,11,SUCCESS,11,2013-08-22 01:44:12 +0200,"Replaced whitespaces by ""%20"" in urls on redirects and .connect(String url)",79,10920
+607,d118ca52,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-11-10 16:57:59 -0800,Changelog for whitespace,79,10920
+608,b67cc18b,SUCCESS,11,SUCCESS,11,SUCCESS,13,2013-11-10 16:58:27 -0800,Merge branch 'pr/354',79,10920
+609,f052908e,SUCCESS,11,SUCCESS,11,SUCCESS,12,2013-04-30 09:27:01 +0200,Make http charset detection code more robust,79,10985
+610,0422aeb3,SUCCESS,11,SUCCESS,12,SUCCESS,12,2013-11-10 17:20:24 -0800,Changelog for HTTP character set dections,79,10985
+611,21d8c188,SUCCESS,12,SUCCESS,11,SUCCESS,13,2013-11-10 17:26:41 -0800,Merge branch 'pr/325',79,10985
+612,20088820,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-11-10 17:38:03 -0800,Merge pull request #316 from Shepard/patch-1,79,10985
+613,edcc4a00,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-03-17 06:20:18 -0500,Added Document.location(),79,11005
+614,384bf2cb,SUCCESS,12,SUCCESS,12,SUCCESS,11,2013-11-10 17:46:53 -0800,Doc tidy up,79,11005
+615,d9ec2623,SUCCESS,11,SUCCESS,10,SUCCESS,13,2013-11-10 17:47:10 -0800,Merge branch 'pr/306',79,11005
+616,68a1083c,SUCCESS,11,SUCCESS,9,SUCCESS,10,2013-11-10 17:47:32 -0800,Merge branch 'master' of https://github.com/jhy/jsoup,79,11005
+617,d599990c,SUCCESS,12,SUCCESS,10,SUCCESS,11,2013-11-10 21:04:13 -0800,[maven-release-plugin] prepare release jsoup-1.7.3,79,11005
+618,f3dbb685,SUCCESS,10,SUCCESS,10,SUCCESS,13,2013-11-10 21:04:17 -0800,[maven-release-plugin] prepare for next development iteration,79,11005
+619,1c4fe033,SUCCESS,14,SUCCESS,11,SUCCESS,13,2013-11-10 21:59:37 -0800,Release change date,79,11005
+620,35407bb1,SUCCESS,12,SUCCESS,11,FAIL,31,2013-11-11 08:51:26 +0100,1. add unit test to verify wok of disabling security 2. adjust class instance check,79,10912
+621,27b9f632,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-11-11 08:54:05 +0100,1. got ignore annotation back 2. add java doc to unit test,79,10913
+622,2cc22447,SUCCESS,13,SUCCESS,13,SUCCESS,10,2013-11-14 18:46:39 -0800,Correct javadoc,79,11005
+623,5e6e9fc8,SUCCESS,13,SUCCESS,11,SUCCESS,12,2013-11-16 13:58:28 -0800,Removed patterns no longer used.,79,11003
+624,d6fd1637,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-11-16 14:02:26 -0800,Performance improvment for Element.text,79,10996
+625,be64f746,SUCCESS,13,SUCCESS,13,SUCCESS,12,2013-11-16 14:56:47 -0800,Element.text changelog,79,10996
+626,c07ba8a3,SUCCESS,12,SUCCESS,11,SUCCESS,14,2013-11-16 16:48:43 -0800,"If pretty-print is disabled, don't trim outer whitespace in Element.html()",79,10998
+627,9e9e1585,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-11-16 17:12:31 -0800,Don't parse <img> as <image> when in <svg>,79,11004
+628,d6518550,SUCCESS,12,SUCCESS,12,SUCCESS,13,2013-11-17 12:05:26 -0800,Clarify why script is not here,79,11004
+629,6c4f16f2,SUCCESS,12,SUCCESS,11,SUCCESS,12,2013-11-17 19:11:08 -0800,"Support for HTML output syntax, enabled by default",79,11101
+630,3f9f33d8,SUCCESS,12,SUCCESS,13,SUCCESS,12,2013-11-17 21:12:57 -0800,Fix issue with UTF-8 BOM when charset only in HTML.,79,11111
+631,5dab7a23,SUCCESS,11,SUCCESS,12,SUCCESS,12,2013-11-18 09:50:59 -0800,Improved file read time,79,11115
+632,80158d6f,SUCCESS,13,SUCCESS,11,SUCCESS,11,2013-11-18 11:51:16 -0800,A couple perf tweaks,79,11116
+633,311d2e7e,SUCCESS,12,SUCCESS,12,SUCCESS,12,2013-12-04 17:47:29 +0100,Fix Validation of cookie names,79,11116
+634,574e76eb,SUCCESS,12,SUCCESS,13,SUCCESS,15,2013-12-17 16:21:46 -0800,Preallocate children ArrayList,79,11116
+635,32ab9579,SUCCESS,11,SUCCESS,11,SUCCESS,12,2014-01-16 14:57:03 -0300,Fix issue with invalid document when script tag is whitelisted,79,11125
+636,8b5fb7be,SUCCESS,12,SUCCESS,12,SUCCESS,11,2014-02-11 22:19:51 +0100,Merge remote-tracking branch 'upstream/master',79,11160
+637,456a5545,SUCCESS,11,SUCCESS,11,SUCCESS,10,2014-03-09 23:57:55 -0700,Add support for quoted attribute values,79,11125
+638,4a28f776,SUCCESS,11,SUCCESS,11,SUCCESS,11,2014-03-21 14:32:44 +0800,compare Tag by equals instead of == for unknown tags support,79,11121
+639,924c4807,SUCCESS,18,SUCCESS,12,SUCCESS,12,2014-03-23 22:03:48 +0100,Ensure JDK5 compatibility. Fixes #392.,79,11116
+640,e187364d,SUCCESS,12,SUCCESS,10,SUCCESS,13,2014-04-04 10:00:47 -0700,Address #387: prevent NPE when adding markup to <title> elements,79,11128
+641,3475eaf7,SUCCESS,13,SUCCESS,11,SUCCESS,13,2014-05-14 00:38:19 +0800,Create .travis.yml,79,11116
+642,81a9f532,SUCCESS,12,SUCCESS,11,SUCCESS,12,2014-07-23 14:43:58 -0500,Attempt fix for #77. Add support for # 'protocol'.,79,11136
+643,d745f853,SUCCESS,14,SUCCESS,12,SUCCESS,14,2014-07-31 19:44:02 -0700,add support for application/atom+xml and like content types that might begin with application/ and end with +xml,79,11120
+644,c1ee9335,SUCCESS,15,SUCCESS,13,SUCCESS,15,2014-08-01 10:31:37 -0700,Use a regular expression pattern to parse various xml content types,79,11122
+645,16d2cc3e,SUCCESS,14,SUCCESS,12,SUCCESS,14,2014-08-13 16:28:16 +1200,Added removeTag method to Whitelist,79,11126
+646,cf06d020,SUCCESS,14,SUCCESS,12,SUCCESS,12,2014-08-13 16:58:59 +1200,Added removeAttributes method to Whitelist,79,11147
+647,9a5d38cd,FAIL,11,NO,0,NO,0,2014-08-13 17:24:51 +1200,Added removeEnforcedAttribute method to Whitelist,79,11157
+648,313b625c,FAIL,11,NO,0,NO,0,2014-08-13 17:53:17 +1200,Added removeProtocols method to Whitelist,79,11176
+649,3a158cfb,SUCCESS,11,SUCCESS,10,SUCCESS,12,2014-08-13 17:56:45 +1200,Tweaked removals in Whitelist,79,11177
+650,be339d37,SUCCESS,12,SUCCESS,10,SUCCESS,12,2014-08-14 09:01:05 +1200,Added junit tests for whitelist remove methods,79,11195
+651,eab521f7,SUCCESS,14,SUCCESS,13,SUCCESS,13,2014-08-14 09:10:14 +1200,Aded Whitelist removal documentation,79,11195
+652,1beb36dc,SUCCESS,14,SUCCESS,11,SUCCESS,12,2014-09-10 12:00:24 +0200,Add method cssPath to Element to get the CSS unique path of an element.,79,11139
+653,1837ecbc,SUCCESS,11,SUCCESS,12,SUCCESS,11,2014-09-27 15:02:08 -0700,Updated copyright year,79,11116
+654,b033535f,SUCCESS,11,SUCCESS,11,SUCCESS,11,2014-09-27 15:34:56 -0700,Relaxed doctype validation,79,11130
+655,8f9b51da,SUCCESS,11,SUCCESS,11,SUCCESS,11,2014-09-27 15:53:08 -0700,Document that Element.text() normalizes whitespace,79,11130
+656,799b9aa3,SUCCESS,11,SUCCESS,11,SUCCESS,13,2014-09-27 16:02:38 -0700,Added test to verify protocol relative URLs,79,11136
+657,21ee3e98,SUCCESS,12,SUCCESS,13,SUCCESS,12,2014-09-27 16:21:15 -0700,Reset base URI on parse start,79,11142
+658,0b9eab69,SUCCESS,12,SUCCESS,12,SUCCESS,10,2014-09-27 16:39:55 -0700,Support 307 temp redir status code,79,11149
+659,3c5061f0,SUCCESS,11,SUCCESS,10,SUCCESS,11,2014-09-27 16:44:41 -0700,Doc format cleanup,79,11149
+660,bb16e069,SUCCESS,12,SUCCESS,11,SUCCESS,12,2014-09-27 17:08:07 -0700,Java 1.5 support,79,11149
+661,627efb94,SUCCESS,12,SUCCESS,11,SUCCESS,13,2014-09-27 17:24:53 -0700,"Add span, div to whitelists",79,11149
+662,a4c375d8,SUCCESS,13,SUCCESS,13,SUCCESS,12,2014-09-27 18:14:53 -0700,Renamed cssPath to cssSelector,79,11142
+663,1833adf5,SUCCESS,13,SUCCESS,11,SUCCESS,12,2014-09-27 18:20:09 -0700,Merge branch 'pr/459',79,11175
+664,821b021a,FAIL,14,NO,0,NO,0,2014-09-27 18:28:43 -0700,Merge pull request #403 from ahus1/ahus1_jdk_compatibility,79,11175
+665,d758acab,SUCCESS,13,SUCCESS,11,SUCCESS,12,2014-09-27 18:33:04 -0700,Fixed 1.5 support from last pull,79,11175
+666,97bd4286,SUCCESS,12,SUCCESS,9,SUCCESS,12,2014-09-27 18:35:26 -0700,Merge pull request #410 from tipabu/fix-title-html,79,11187
+667,ffc28bee,SUCCESS,13,SUCCESS,12,SUCCESS,15,2014-09-27 18:37:31 -0700,Changelog update for pulls,79,11187
+668,d84d6a14,SUCCESS,16,SUCCESS,15,SUCCESS,15,2014-09-27 18:49:22 -0700,Merge pull request #400 from mdaniel/css2-quoted-attributes-fix,79,11196
+669,dd73f674,SUCCESS,14,SUCCESS,15,SUCCESS,14,2014-09-27 18:56:47 -0700,Pull changelog,79,11196
+670,802e7b4e,SUCCESS,15,SUCCESS,13,SUCCESS,14,2014-09-27 19:00:56 -0700,Merge pull request #379 from toffaletti/reduce_children_reallocations,79,11196
+671,02659375,SUCCESS,15,SUCCESS,15,SUCCESS,16,2014-09-27 19:09:02 -0700,Merge pull request #402 from code4craft/master,79,11201
+672,1b48d15c,SUCCESS,15,SUCCESS,13,SUCCESS,14,2014-09-27 19:11:30 -0700,Pull changelog,79,11201
+673,3f7d2c71,SUCCESS,12,SUCCESS,13,SUCCESS,14,2014-09-27 19:16:09 -0700,Merge pull request #444 from travisfw/master,79,11207
+674,f14bd640,SUCCESS,12,SUCCESS,13,SUCCESS,13,2014-09-27 19:19:38 -0700,Pull changelog,79,11207
+675,74c61a13,SUCCESS,13,SUCCESS,13,SUCCESS,15,2014-09-27 19:44:43 -0700,Merge pull request #388 from amferraz/master,79,11216
+676,85289133,SUCCESS,14,SUCCESS,14,SUCCESS,16,2014-09-27 19:46:17 -0700,Pull changlog,79,11216
+677,56323d30,SUCCESS,16,SUCCESS,13,SUCCESS,12,2014-09-27 20:02:09 -0700,Typo,79,11216
+678,703ca9cb,SUCCESS,15,SUCCESS,14,SUCCESS,15,2014-09-27 20:08:35 -0700,[maven-release-plugin] prepare release jsoup-1.8.1,79,11216
+679,8dc7294a,SUCCESS,15,SUCCESS,15,SUCCESS,14,2014-09-27 20:08:40 -0700,[maven-release-plugin] prepare for next development iteration,79,11216
+680,6db694c4,SUCCESS,15,SUCCESS,14,SUCCESS,14,2014-09-27 20:50:16 -0700,TLS for repo,79,11216
+681,2822422a,SUCCESS,13,SUCCESS,12,SUCCESS,11,2014-09-27 20:59:12 -0700,[maven-release-plugin] prepare release jsoup-1.8.1,79,11216
+682,0d295e32,SUCCESS,14,SUCCESS,13,SUCCESS,12,2014-09-27 21:04:13 -0700,Release cleanup,79,11216
+683,b9463cdc,SUCCESS,14,SUCCESS,12,SUCCESS,12,2014-09-27 21:04:41 -0700,[maven-release-plugin] prepare release jsoup-1.8.1,79,11216
+684,c9628192,SUCCESS,14,SUCCESS,13,SUCCESS,14,2014-09-27 21:06:04 -0700,Snapshot,79,11216
+685,14678515,SUCCESS,14,SUCCESS,14,SUCCESS,12,2014-09-27 21:06:50 -0700,[maven-release-plugin] prepare release jsoup-1.8.1.a,79,11216
+686,d29504db,SUCCESS,13,SUCCESS,12,SUCCESS,13,2014-09-27 21:06:56 -0700,[maven-release-plugin] prepare for next development iteration,79,11216
+687,359bec5b,SUCCESS,12,SUCCESS,12,SUCCESS,12,2014-09-27 21:23:15 -0700,Released 1.8.1,79,11216
+688,9e1ca808,SUCCESS,14,SUCCESS,13,SUCCESS,15,2014-09-27 21:36:42 -0700,Verify &raquo;,79,11216
+689,74f4f7fa,SUCCESS,14,SUCCESS,12,SUCCESS,15,2014-09-28 17:40:08 +0200,update with upstream,79,11260
+690,b0244150,SUCCESS,12,SUCCESS,11,SUCCESS,11,2014-10-01 21:16:33 -0700,Javadoc clarification,79,11195
+691,de941054,SUCCESS,13,SUCCESS,13,SUCCESS,13,2014-10-01 21:21:42 -0700,Merge branch 'pr/449',79,11295
+692,bb19c927,SUCCESS,13,SUCCESS,14,SUCCESS,15,2014-10-01 21:22:14 -0700,Changelog for pull,79,11295
+693,0ca6fc9d,SUCCESS,14,SUCCESS,14,SUCCESS,16,2014-10-01 21:25:23 -0700,Nix jdoc warning,79,11295
+694,91bc88c9,SUCCESS,14,SUCCESS,12,SUCCESS,13,2014-10-01 21:44:03 -0700,Added javadoc for # protocol,79,11136
+695,199e34bc,SUCCESS,14,SUCCESS,13,SUCCESS,14,2014-10-01 21:44:13 -0700,Merge branch 'pr/441',79,11315
+696,a63a1427,SUCCESS,14,SUCCESS,14,SUCCESS,13,2014-10-01 21:48:32 -0700,Anchor support,79,11315
+697,f5004298,SUCCESS,13,SUCCESS,12,SUCCESS,13,2014-10-01 22:00:50 -0700,Merge pull request #419 from linkerlin/patch-2,79,11315
+698,333a6469,SUCCESS,13,SUCCESS,11,SUCCESS,13,2014-10-01 22:35:38 -0700,Merge pull request #377 from kaznovac/master,79,11315
+699,ebf35bbc,SUCCESS,12,SUCCESS,11,SUCCESS,12,2014-10-01 22:36:29 -0700,Pull changelog,79,11315
+700,af77fd3f,SUCCESS,13,SUCCESS,13,FAIL,11,2014-10-07 22:19:31 -0700,Support for file uploads in posts,79,11447
+701,bd5e1753,SUCCESS,12,SUCCESS,12,FAIL,12,2014-10-07 22:19:55 -0700,Merge branch 'feature-file-upload',79,11447
+702,549ed001,SUCCESS,13,SUCCESS,13,SUCCESS,13,2014-10-07 22:26:20 -0700,Correct mime boundary test,79,11446
+703,8165206e,SUCCESS,14,SUCCESS,13,SUCCESS,13,2014-10-07 23:03:07 -0700,Verify #398,79,11451
+704,e37cc9af,SUCCESS,13,SUCCESS,13,SUCCESS,14,2014-10-08 08:36:13 +0200,Merge remote-tracking branch 'upstream/master',79,11495
+705,a0bd1689,SUCCESS,14,SUCCESS,14,SUCCESS,13,2014-10-08 08:45:11 +0200,1. rename methods and variables 2. extend javaDoc,79,11494
+706,245b2655,SUCCESS,14,SUCCESS,13,SUCCESS,13,2014-10-08 08:50:29 +0200,1. rearrange ssl initializations to be performed only for connectons of proper class 2. extend javadoc 3. synchronize sslSocketFactory initialization,79,11494
+707,4770715f,SUCCESS,14,SUCCESS,11,SUCCESS,12,2014-10-08 09:05:03 +0200,1. restructure tests 2. autostyle methods,79,11497
+708,cbd9605b,SUCCESS,11,SUCCESS,14,FAIL,49,2014-10-08 09:33:21 +0200,1. add unit tests for SNI 2. add empty hostname verifier,79,11513
+709,514dcd87,SUCCESS,14,SUCCESS,16,SUCCESS,16,2014-10-08 09:36:55 +0200,1. ignore integration tests by default,79,11514
+710,43e17dc7,FAIL,11,NO,0,NO,0,2014-10-08 13:52:34 +0200,Changes for issue #467,79,11387
+711,954e0f36,SUCCESS,17,SUCCESS,15,SUCCESS,17,2014-10-10 23:25:37 -0700,Better handle class names and the empty string,79,11454
+712,cda2c5d4,SUCCESS,14,SUCCESS,14,SUCCESS,16,2014-10-11 11:36:05 -0700,Changelog,79,11454
+713,527a2f44,SUCCESS,15,SUCCESS,14,SUCCESS,13,2014-10-11 11:37:24 -0700,Merge branch 'pr/469',79,11454
+714,a35fd085,SUCCESS,14,SUCCESS,13,SUCCESS,14,2014-10-11 12:53:59 -0700,"For HTML5 output, use a lowercase doctype",79,11462
+715,4c844c15,SUCCESS,13,SUCCESS,12,SUCCESS,11,2014-10-11 13:23:35 -0700,Most likely if breaker,79,11462
+716,837d77f0,SUCCESS,14,SUCCESS,10,SUCCESS,13,2014-10-11 13:39:44 -0700,Added some missing HTML5 tags,79,11462
+717,119fd967,SUCCESS,13,SUCCESS,12,SUCCESS,13,2014-10-11 16:38:19 -0700,"Treat 2xx and 3xx as OK, Location for redir",79,11462
+718,a76f2e9f,SUCCESS,12,SUCCESS,13,SUCCESS,15,2014-10-11 17:23:40 -0700,"Support for PUT, DELETE, PATCH",79,11481
+719,a4883a44,SUCCESS,14,SUCCESS,12,SUCCESS,14,2014-10-11 19:53:21 -0700,Support for W3C DOM document conversion.,81,11598
+720,597ddb1c,SUCCESS,14,SUCCESS,14,SUCCESS,13,2014-10-11 21:30:27 -0700,w3c url test,81,11608
+721,b45aebf0,SUCCESS,14,SUCCESS,14,SUCCESS,14,2014-10-12 09:38:42 -0700,Updated license URL,81,11608
+722,e613360f,SUCCESS,15,SUCCESS,14,SUCCESS,16,2014-10-17 22:11:25 +0200,Annotations added and some cleanup.,81,11625
+723,e936b1b6,SUCCESS,16,SUCCESS,15,SUCCESS,15,2014-10-17 22:23:37 +0200,Cleanup.,81,11623
+724,2e20bc1b,SUCCESS,15,SUCCESS,14,SUCCESS,14,2014-10-17 22:37:26 +0200,Added missing javadoc tags.,81,11623
+725,23c2d42a,SUCCESS,15,SUCCESS,13,SUCCESS,13,2014-10-17 22:39:06 +0200,Replaced the empty expression with a better visibible one.,81,11623
+726,f879638b,SUCCESS,13,SUCCESS,14,SUCCESS,14,2014-10-17 22:42:10 +0200,"Null check added (note: however,  i'm not sure if that special case may happen in reality)",81,11623
+727,288b76ea,SUCCESS,14,SUCCESS,14,SUCCESS,15,2014-10-17 22:44:59 +0200,Replaced the if-test with a return test.,81,11622
+728,ed95f9b8,SUCCESS,15,SUCCESS,13,SUCCESS,13,2014-10-17 16:36:55 -0700,Merge pull request #477 from offa/some_fixes,81,11622
+729,8c673ddc,SUCCESS,13,SUCCESS,13,SUCCESS,13,2014-10-18 17:28:17 +0200,Element.classNames() must not be cached,81,11619
+730,850e1c27,SUCCESS,12,SUCCESS,13,SUCCESS,15,2014-10-18 21:54:32 +0200,Test for Issue#478 (class names must not be cached),81,11644
+731,24d01fba,SUCCESS,16,SUCCESS,14,SUCCESS,15,2014-10-18 17:38:15 -0700,Merge pull request #479 from hannibal218bc/fix-element-classnames,81,11644
+732,ab7feede,SUCCESS,15,SUCCESS,13,SUCCESS,15,2014-10-19 21:54:28 -0700,Add CSS selector filter to HtmlToPlainText example,81,11656
+733,af61d072,SUCCESS,13,SUCCESS,13,SUCCESS,11,2014-10-21 10:15:57 +0200,Changes for issue #467,80,11372
+734,0993f66c,SUCCESS,13,SUCCESS,13,SUCCESS,14,2014-10-21 17:44:11 +0200,"Replaced unicode BOM ""magic number"" with a constant.",81,11657
+735,83ad1bc4,SUCCESS,12,SUCCESS,12,SUCCESS,12,2014-10-21 15:59:08 -0700,Merge pull request #483 from offa/magic_number_replaced,81,11657
+736,d1b57703,FAIL,11,NO,0,NO,0,2014-10-26 15:50:18 -0700,Speed improvements,81,11754
+737,f61ba0f9,FAIL,12,NO,0,NO,0,2014-10-26 15:51:01 -0700,"Speed improvement, final marks",81,11754
+738,8e524450,SUCCESS,15,SUCCESS,15,SUCCESS,16,2014-10-26 15:51:25 -0700,Optimized character reference searches,81,11766
+739,4ec4cf2f,SUCCESS,14,SUCCESS,14,SUCCESS,16,2014-10-26 16:27:36 -0700,Reduce GC by not forcing string builders,81,11777
+740,59453e27,SUCCESS,15,SUCCESS,12,SUCCESS,17,2014-10-26 16:30:09 -0700,Less GC in cache check,81,11776
+741,01a62698,SUCCESS,14,SUCCESS,15,SUCCESS,15,2014-10-26 17:40:06 -0700,Use ArrayList instead of LinkedList,81,11751
+742,da9547eb,SUCCESS,14,SUCCESS,14,SUCCESS,15,2014-10-27 14:14:34 +0100,Update charset of meta tag.,81,11683
+743,fee47623,SUCCESS,14,SUCCESS,13,SUCCESS,13,2014-10-27 17:02:36 +0100,Merge remote-tracking branch 'upstream/master',81,11720
+744,c0325891,SUCCESS,13,SUCCESS,13,SUCCESS,12,2014-10-27 21:57:47 +0100,Formated to match the rest of the codebase.,81,11683
+745,4424fe85,SUCCESS,12,SUCCESS,12,SUCCESS,13,2014-10-27 18:45:37 -0700,Merge branch 'master' into speedbird,81,11752
+746,17796e34,SUCCESS,14,SUCCESS,15,SUCCESS,16,2014-10-27 19:17:31 -0700,Reuse String[] for inSpecificScope,81,11754
+747,e9919360,SUCCESS,14,SUCCESS,14,SUCCESS,15,2014-10-27 21:29:25 -0700,"Reuse Tokens, instead of creating all the time",81,11804
+748,ac5e9e83,SUCCESS,15,SUCCESS,13,SUCCESS,14,2014-10-27 21:31:38 -0700,Name safety,81,11804
+749,990285bd,SUCCESS,16,SUCCESS,13,SUCCESS,14,2014-10-27 22:38:43 -0700,Short-circuit addChildren,81,11806
+750,b9c17405,SUCCESS,12,SUCCESS,13,SUCCESS,12,2014-10-28 17:26:56 +0100,Refactor the Elements collection to extend instead of delegate,81,11622
+751,e47d9081,SUCCESS,14,SUCCESS,12,SUCCESS,13,2014-10-28 21:37:18 -0700,Use a CharacterBuffer in CharacterReader,81,11830
+752,7d7a2988,SUCCESS,12,SUCCESS,12,SUCCESS,13,2014-10-28 22:14:28 -0700,"Revert ""Use a CharacterBuffer in CharacterReader""",81,11806
+753,18948588,SUCCESS,13,SUCCESS,13,SUCCESS,15,2014-10-28 22:34:17 -0700,Don't allocate new char[]s for every character reference,81,11814
+754,83efaf1a,SUCCESS,16,SUCCESS,14,SUCCESS,16,2014-10-28 22:34:27 -0700,Changelog,81,11814
+755,3a82c2f9,SUCCESS,15,SUCCESS,14,SUCCESS,15,2014-10-28 22:35:48 -0700,Merge branch 'speedbird',81,11814
+756,4ae8917d,SUCCESS,15,SUCCESS,17,SUCCESS,16,2014-10-28 23:16:23 -0700,Renamed SSL to TLS,81,11716
+757,c1924bec,SUCCESS,14,SUCCESS,14,SUCCESS,14,2014-10-28 23:16:38 -0700,Merge branch 'pr/343',81,11873
+758,16e8fc98,SUCCESS,16,SUCCESS,13,SUCCESS,13,2014-10-28 23:20:56 -0700,TLS changelog,81,11873
+759,8b57279f,SUCCESS,13,SUCCESS,13,SUCCESS,12,2014-10-29 16:28:28 +0100,Update of meta charset tags.,81,11892
+760,9271f805,SUCCESS,13,SUCCESS,12,FAIL,14,2014-10-29 16:35:00 +0100,Implementation of meta charset update.,81,11910
+761,174dca2c,SUCCESS,15,SUCCESS,11,SUCCESS,14,2014-10-29 20:42:33 +0100,Moved charset update settings into Document class and improved tests.,81,11950
+762,75e9330e,SUCCESS,14,SUCCESS,12,SUCCESS,12,2014-10-29 21:46:46 +0100,Obsolete meta charset elements are removed on update.,81,11964
+763,eb7e65e9,SUCCESS,13,SUCCESS,13,SUCCESS,13,2014-10-30 12:35:41 +0100,Implementation for Xml incl. tests.,81,12067
+764,85c83565,SUCCESS,14,SUCCESS,14,SUCCESS,13,2014-10-31 10:42:48 +0100,"Documentation added, todo removed.",81,12067
+765,567b90e4,SUCCESS,15,SUCCESS,15,SUCCESS,15,2014-11-03 11:46:57 +0100,Merge branch 'master' of https://github.com/jhy/jsoup,81,11838
+766,659f9832,SUCCESS,14,SUCCESS,13,SUCCESS,14,2014-11-04 11:50:42 -0600,Update to allow for specification of form post data charset.   Updates to Connection and Request interfaces and HttpConnection implementation,81,11888
+767,eacba9ae,SUCCESS,14,SUCCESS,12,SUCCESS,14,2014-12-11 16:10:02 +0100,Fix for https://github.com/jhy/jsoup/issues/504,81,11883
+768,ee613b20,SUCCESS,14,SUCCESS,15,SUCCESS,14,2014-12-16 21:58:40 +0100,Fixed UnsupportedCharsetException for meta charset tags with an unsupported charset.,81,11886
+769,95c64c06,SUCCESS,16,SUCCESS,15,SUCCESS,16,2014-12-26 23:47:58 +0100,removed unused loop labels,81,11871
+770,32fc662b,SUCCESS,14,SUCCESS,14,SUCCESS,15,2014-12-27 00:11:31 +0100,added missing override,81,11874
+771,1153eeef,SUCCESS,14,SUCCESS,14,SUCCESS,11,2014-12-27 00:12:35 +0100,cookieVal cannot be null at this point since will get NullPointerExcepion on the previous .trim methods,81,11872
+772,05faab38,SUCCESS,14,SUCCESS,13,SUCCESS,14,2014-12-27 00:48:19 +0100,removed unused imports and redundant type info,81,11865
+773,842977c3,SUCCESS,12,SUCCESS,14,SUCCESS,15,2015-01-03 16:15:57 +0100,Fixed JavaDoc errors and warnings for JDK8 with stricter doc rules.,81,11873
+774,2f7079a0,SUCCESS,16,SUCCESS,15,SUCCESS,15,2015-01-09 20:37:19 +0100,Fix for classes with space.,81,11888
+775,f5227640,SUCCESS,14,SUCCESS,13,SUCCESS,16,2015-03-06 17:28:52 +0000,Use platform independent line endings in tests.,81,11876
+776,ee5d4dff,SUCCESS,14,SUCCESS,12,FAIL,14,2015-03-17 10:26:07 -0400,store invalid head/noscript tokens as character tokens,81,11873
+777,22217f11,SUCCESS,15,SUCCESS,14,SUCCESS,13,2015-03-17 10:36:58 -0400,fix test,81,11873
+778,69418186,SUCCESS,14,SUCCESS,12,SUCCESS,15,2015-03-29 13:38:01 -0700,Only submit radio and checkboxes if checked attribute set,81,11882
+779,2588abdd,SUCCESS,14,SUCCESS,12,SUCCESS,12,2015-03-29 13:47:17 -0700,Merge pull request #533 from torrlane/master,81,11885
+780,98e87c6a,SUCCESS,14,SUCCESS,12,SUCCESS,13,2015-03-29 14:32:40 -0700,Merge pull request #526 from offa/class_fix,81,11900
+781,53a42236,SUCCESS,12,SUCCESS,13,SUCCESS,13,2015-03-29 14:36:06 -0700,Changelog not for #526,81,11900
+782,f40b1555,SUCCESS,14,SUCCESS,14,SUCCESS,15,2015-03-29 14:43:58 -0700,Merge pull request #540 from jaredstehler/store-invalid-noscript-as-char,81,11900
+783,3702b50f,SUCCESS,14,SUCCESS,13,SUCCESS,13,2015-03-29 14:46:42 -0700,Change note for #540,81,11900
+784,37ab504f,SUCCESS,15,SUCCESS,16,SUCCESS,15,2015-03-29 14:48:17 -0700,Merge pull request #487 from cromoteca/master,81,11865
+785,bcdd5bb2,SUCCESS,16,SUCCESS,14,SUCCESS,15,2015-03-29 14:53:47 -0700,Merge pull request #517 from offa/javadoc_fix,81,11865
+786,a9fb01bd,SUCCESS,15,SUCCESS,14,SUCCESS,15,2015-03-29 14:58:45 -0700,Merge pull request #512 from mitemitreski/master,81,11857
+787,13b55d7e,SUCCESS,14,SUCCESS,13,SUCCESS,13,2015-03-29 15:10:56 -0700,Merge pull request #506 from kguelzau/master,81,11867
+788,3268b818,SUCCESS,14,SUCCESS,13,SUCCESS,14,2015-03-29 15:12:37 -0700,Changelog for #506,81,11867
+789,a2e331f0,SUCCESS,14,SUCCESS,13,SUCCESS,13,2015-03-29 15:17:05 -0700,Merge pull request #491 from andyphillips404/master,81,11882
+790,5f50c73f,SUCCESS,14,SUCCESS,14,SUCCESS,17,2015-03-29 15:17:59 -0700,Changelog for #491,81,11882
+791,b06fcf0d,SUCCESS,15,SUCCESS,13,SUCCESS,14,2015-03-29 15:29:01 -0700,Typo,81,11882
+792,a7b2b42a,SUCCESS,14,SUCCESS,12,SUCCESS,12,2015-03-29 15:31:32 -0700,Merge pull request #509 from offa/datautil_fix,81,11895
+793,8300a249,SUCCESS,15,SUCCESS,14,SUCCESS,12,2015-03-29 15:33:43 -0700,Changelog for #508,81,11895
+794,b8c259cf,SUCCESS,13,SUCCESS,14,SUCCESS,13,2015-03-29 17:02:12 -0700,"Check content-length != 0, or will throw an IO Exception",81,11922
+795,8391b723,SUCCESS,14,SUCCESS,13,SUCCESS,14,2015-03-29 18:10:57 -0700,Improved hashcode and equals for Node,81,11969
+796,585eb726,SUCCESS,16,SUCCESS,14,SUCCESS,14,2015-03-29 23:04:05 -0700,Improve performance when selecting against multiple roots,81,11977
+797,3519d82f,SUCCESS,13,SUCCESS,13,SUCCESS,14,2015-03-30 18:45:38 +0200,Merge branch 'master' into update_meta_charset,81,12171
+798,99268a99,SUCCESS,17,SUCCESS,13,SUCCESS,16,2015-03-30 19:49:45 +0200,Tests for meta charset update over-worked.,81,12191
+799,1fd3a3cb,SUCCESS,17,SUCCESS,15,SUCCESS,16,2015-04-02 18:40:22 -0700,Tidied up siblingIndex() access in Node,81,11972
+800,0c10dbff,SUCCESS,15,SUCCESS,14,SUCCESS,15,2015-04-02 18:51:20 -0700,Added test case for clone,81,11985
+801,c01fcd33,SUCCESS,14,SUCCESS,14,SUCCESS,14,2015-04-02 19:14:23 -0700,Form data submission fix,81,11994
+802,ed39e9a3,SUCCESS,12,SUCCESS,13,SUCCESS,14,2015-04-02 19:15:52 -0700,Change note for #489 fix,81,11994
+803,0961b24e,SUCCESS,14,SUCCESS,15,SUCCESS,15,2015-04-02 19:30:21 -0700,Test case for #455,81,12003
+804,b14e7357,SUCCESS,16,SUCCESS,14,SUCCESS,14,2015-04-06 19:30:03 -0700,Speed fix for Android canEncode,81,12020
+805,495cb3d8,SUCCESS,14,SUCCESS,15,SUCCESS,15,2015-04-06 21:33:28 -0700,Speed improvement for .class selector,81,12024
+806,2bef2e7c,SUCCESS,14,SUCCESS,13,SUCCESS,13,2015-04-06 21:44:04 -0700,Simplify get by ID,81,12023
+807,6d6ee1cc,SUCCESS,15,SUCCESS,13,SUCCESS,15,2015-04-07 14:48:18 +0200,Merge remote-tracking branch 'upstream/master' into update_meta_charset,81,12239
+808,e8809994,SUCCESS,16,SUCCESS,14,SUCCESS,16,2015-04-08 19:04:00 +0200,Fixed format.,81,12239
+809,888ae2cb,SUCCESS,14,SUCCESS,15,SUCCESS,15,2015-04-08 19:12:27 +0200,Calls of 'displayName()' replaced by 'name()'.,81,12239
+810,6820982e,SUCCESS,14,SUCCESS,13,SUCCESS,15,2015-04-08 19:14:10 +0200,Call of 'displayName()' replaced for not related test too.,81,12239
+811,dcc35b70,SUCCESS,12,SUCCESS,15,SUCCESS,15,2015-04-08 19:29:04 +0200,Autoenable 'updateMetaCharset' on charset update.,81,12236
+812,e981b5dd,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-04-08 19:42:34 +0200,Methods renamed.,81,12236
+813,6e148047,SUCCESS,16,SUCCESS,13,SUCCESS,13,2015-04-08 20:04:47 -0700,Javadoc for selector parse exceptions,81,12023
+814,b831caaf,SUCCESS,15,SUCCESS,14,SUCCESS,15,2015-04-09 16:33:27 +0200,Code cleanup.,81,12236
+815,40e9ed51,SUCCESS,17,SUCCESS,13,SUCCESS,15,2015-04-09 23:38:45 -0700,Changelog for #486,81,12236
+816,684ae68a,SUCCESS,16,SUCCESS,16,SUCCESS,16,2015-04-09 23:41:57 -0700,Merge branch 'pr/486',81,12236
+817,feca4a64,SUCCESS,14,SUCCESS,14,SUCCESS,15,2015-04-10 19:25:29 -0700,Update license year,81,12236
+818,fea00905,SUCCESS,15,SUCCESS,15,SUCCESS,14,2015-04-11 23:45:55 -0700,Summarized copyright year range,81,12236
+819,7210a179,SUCCESS,13,SUCCESS,14,SUCCESS,13,2015-04-13 21:32:24 -0700,[maven-release-plugin] prepare release jsoup-1.8.2,81,12236
+820,abaac7a2,SUCCESS,13,SUCCESS,14,SUCCESS,14,2015-04-13 21:32:29 -0700,[maven-release-plugin] prepare for next development iteration,81,12236
+821,1bcaf3cf,SUCCESS,13,SUCCESS,12,SUCCESS,14,2015-04-13 21:40:51 -0700,[maven-release-plugin] prepare release jsoup-1.8.2,81,12236
+822,2ecf1bab,SUCCESS,13,SUCCESS,12,SUCCESS,14,2015-04-13 22:44:57 -0700,Released 1.8.2,81,12236
+823,616d3c40,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-04-17 14:44:05 -0700,Code cleanup,81,12234
+824,63b778a5,SUCCESS,15,SUCCESS,14,SUCCESS,15,2015-04-17 14:50:44 -0700,Code cleanup,81,12229
+825,373ea35b,SUCCESS,15,SUCCESS,15,SUCCESS,16,2015-04-17 15:06:06 -0700,Code cleanup,81,12223
+826,eafba57c,SUCCESS,15,SUCCESS,15,SUCCESS,15,2015-04-18 21:44:43 +0300,Add custom boolean attribute support #503,82,12269
+827,11f7c1bd,SUCCESS,13,SUCCESS,15,SUCCESS,14,2015-04-21 22:11:28 -0700,Search for element siblings by identity not content,81,12239
+828,9e97fbf6,SUCCESS,13,SUCCESS,15,SUCCESS,14,2015-04-22 12:21:40 -0700,:lt documentation fix,81,12239
+829,4384e169,FAIL,12,NO,0,NO,0,2015-05-03 19:40:17 +0100,added proxy support,81,12243
+830,23982c28,SUCCESS,16,SUCCESS,15,SUCCESS,16,2015-05-03 19:45:02 +0100,added proxy support,81,12254
+831,0986da60,SUCCESS,13,SUCCESS,14,SUCCESS,15,2015-05-03 19:48:10 +0100,added proxy support,81,12262
+832,521681b6,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-05-18 16:16:52 +0300,Explicilty test the type of boolean Attribute instances,82,12280
+833,b86beca8,SUCCESS,14,SUCCESS,12,SUCCESS,14,2015-05-27 09:24:51 +0200,Keep tag that have not been closed by > before reaching EOF.,81,12245
+834,4e6100fa,SUCCESS,12,SUCCESS,14,SUCCESS,14,2015-06-17 10:15:20 -0400,bump to 1.8.3-SNAPSHOT,81,12239
+835,ec608674,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-07-05 13:59:01 -0700,Merge pull request #592 from HubSpot/bump-to-snapshot,81,12239
+836,3a7f39c5,SUCCESS,14,SUCCESS,13,SUCCESS,16,2015-07-05 14:56:33 -0700,Fixed an issue where unexpected elements in a badly nested table could be moved to the wrong location in the document.,81,12264
+837,4edb7899,SUCCESS,14,SUCCESS,15,SUCCESS,14,2015-07-05 15:05:38 -0700,Merge pull request #582 from fazerish/handle_unclosed_tag_on_eof,81,12270
+838,e5e18466,SUCCESS,12,SUCCESS,14,SUCCESS,15,2015-07-05 15:19:39 -0700,Merge pull request #555 from Legioth/master,82,12327
+839,27363462,SUCCESS,12,SUCCESS,13,SUCCESS,14,2015-07-05 15:20:54 -0700,Changelog for #555,82,12327
+840,a04b3731,SUCCESS,15,SUCCESS,16,SUCCESS,14,2015-05-13 16:38:52 -0400,Use the XML parser if the MIME-type matches an XML type,82,12329
+841,5236f0b3,SUCCESS,13,SUCCESS,13,SUCCESS,14,2015-07-05 19:42:52 -0700,Only switch to XML if parser not already specified,82,12352
+842,e6514a01,SUCCESS,14,SUCCESS,14,SUCCESS,16,2015-07-05 19:44:49 -0700,Merge branch 'pr/574',82,12352
+843,5be8b081,SUCCESS,16,SUCCESS,15,SUCCESS,15,2015-07-05 20:21:34 -0700,Test for redirects in form of ./file.html,82,12357
+844,3b4f9dfa,SUCCESS,14,SUCCESS,16,SUCCESS,15,2015-07-05 21:21:02 -0700,Fix table insertion into TH tags,82,12361
+845,84a2dfec,SUCCESS,14,SUCCESS,14,SUCCESS,15,2015-07-05 22:30:26 -0700,Added test to confirm that #345 (abs urls) work,82,12370
+846,ddf4c1bc,SUCCESS,15,SUCCESS,14,SUCCESS,15,2015-07-05 23:14:15 -0700,Test to validate #249 works correctly,82,12388
+847,3ba88d8c,SUCCESS,15,SUCCESS,16,SUCCESS,14,2015-07-05 23:45:23 -0700,Fixed &nbsp; for XHTML in Shift_JS,82,12407
+848,1e09df66,SUCCESS,14,SUCCESS,15,SUCCESS,14,2015-07-13 22:34:50 -0700,"Fix a relative redirect issue, and clean up URL resolving.",82,12440
+849,a025d87d,SUCCESS,14,SUCCESS,15,SUCCESS,13,2015-07-13 23:11:21 -0700,Escape < in XML attributes,82,12448
+850,8c43a813,SUCCESS,12,SUCCESS,13,SUCCESS,16,2015-08-01 17:32:00 -0700,Performance improvement on parsing larger HTML pages.,82,12463
+851,f4c7766f,SUCCESS,15,SUCCESS,14,SUCCESS,13,2015-08-02 12:26:07 -0700,Fix test now that XML responses auto use XML parser,82,12465
+852,99ef54ac,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-08-02 12:42:33 -0700,Typo,82,12465
+853,06d4ffe9,SUCCESS,13,SUCCESS,13,SUCCESS,12,2015-08-02 13:06:06 -0700,Prep next release,82,12465
+854,124eef7b,SUCCESS,13,SUCCESS,14,SUCCESS,13,2015-08-02 13:16:13 -0700,Working to get mvn release:prepare to work,82,12465
+855,f51e7982,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-08-02 13:18:18 -0700,[maven-release-plugin] prepare release jsoup-1.8.3a,82,12465
+856,658bb5ca,SUCCESS,15,SUCCESS,17,SUCCESS,15,2015-08-02 13:18:22 -0700,[maven-release-plugin] prepare for next development iteration,82,12465
+857,0aa50cd3,SUCCESS,16,SUCCESS,14,SUCCESS,15,2015-08-30 13:52:20 +0200,"Fix ""Parent"" Evaluator ignores ""root"" argument for matches.",82,12474
+858,b79afd36,SUCCESS,15,SUCCESS,14,SUCCESS,14,2015-08-30 13:05:25 -0700,Add changelog,82,12474
+859,3bdad1f1,SUCCESS,14,SUCCESS,14,SUCCESS,16,2015-08-30 13:08:31 -0700,Merge branch 'pr/619',82,12474
+860,73b52d0d,SUCCESS,15,SUCCESS,15,SUCCESS,16,2015-08-30 13:44:55 -0700,"Dedupe elements by identity, not equality",82,12487
+861,65553582,SUCCESS,14,SUCCESS,14,SUCCESS,13,2015-08-30 15:47:43 -0700,Combine header values with comma,82,12529
+862,93b659b4,SUCCESS,14,SUCCESS,13,SUCCESS,12,2015-08-30 17:13:11 -0700,"Support HEAD, OPTIONS, TRACE",82,12538
+863,f2f3e660,SUCCESS,14,SUCCESS,13,SUCCESS,13,2015-08-30 18:57:59 -0700,Test to verify #610,82,12543
+864,15302899,SUCCESS,15,SUCCESS,16,SUCCESS,15,2015-11-14 21:55:03 -0600,#650 Cannot use single quotes in selectors,82,12549
+865,8e7dd707,SUCCESS,14,SUCCESS,13,SUCCESS,14,2015-12-02 10:14:16 +0200,Add appendTo(Node parent) method to Element.,82,12552
+866,a689425d,SUCCESS,15,SUCCESS,12,SUCCESS,15,2015-12-02 10:30:27 +0200,Add test for Element.appendTo(Element parent) method.,82,12566
+867,55190398,SUCCESS,13,SUCCESS,14,SUCCESS,12,2015-12-26 14:48:21 +0700,307 redirect should keep original method & data,82,12545
+868,1dec69d8,SUCCESS,13,SUCCESS,15,SUCCESS,14,2016-01-27 16:26:11 -0500,Fix for bug 671: namespace is included in W3CDom.fromJsoup,82,12569
+869,69e10fa7,SUCCESS,17,SUCCESS,15,SUCCESS,14,2016-03-27 13:08:11 -0700,Removed redundant buffering in Http client,82,12540
+870,6a8fcb2a,SUCCESS,15,SUCCESS,14,SUCCESS,14,2016-03-27 13:40:43 -0700,Update the string cache on conflicts,82,12541
+871,8a22a9d5,SUCCESS,14,SUCCESS,13,SUCCESS,14,2016-03-27 14:51:04 -0700,Don't create StringBuilders for every attribute value,82,12551
+872,5886dd28,SUCCESS,15,SUCCESS,14,SUCCESS,15,2016-04-02 14:41:41 -0700,Perf improvement during parsing.,82,12554
+873,f1622e2f,SUCCESS,15,SUCCESS,17,SUCCESS,18,2016-04-03 15:04:27 -0700,Merge branch 'master' of https://github.com/pafgoncalves/jsoup into pafgoncalves-master,82,12577
+874,3f39a5a4,SUCCESS,15,SUCCESS,15,SUCCESS,14,2016-04-03 15:59:24 -0700,Integrating proxy support PR,82,12601
+875,7bb01c0f,SUCCESS,14,SUCCESS,13,SUCCESS,13,2016-04-03 16:00:33 -0700,Merge proxy support,82,12601
+876,97c3cb4d,SUCCESS,14,SUCCESS,14,SUCCESS,15,2016-04-03 17:03:41 -0700,Merge pull request #655 from javalite/master,82,12607
+877,a8b6982d,SUCCESS,15,SUCCESS,13,SUCCESS,16,2016-04-03 17:06:17 -0700,Merge pull request #666 from hatsuyuki15/master,82,12609
+878,931dddfb,SUCCESS,17,SUCCESS,15,SUCCESS,17,2016-04-03 17:09:07 -0700,Changelog notes,82,12609
+879,941f69bf,SUCCESS,14,SUCCESS,13,SUCCESS,14,2016-04-03 18:33:09 -0700,Added not-null validators to Element.appendText() and Element.prependText(),82,12619
+880,b2e37fca,SUCCESS,13,SUCCESS,13,SUCCESS,15,2016-04-03 20:19:13 -0700,"Fixed an issue when moving moving nodes using Element.insert(index, children)",82,12629
+881,50336e64,SUCCESS,11,SUCCESS,13,SUCCESS,14,2016-04-05 10:48:03 -0700,Merge branch 'master' into pr/672,82,12655
+882,143ede68,SUCCESS,12,SUCCESS,13,SUCCESS,15,2016-04-05 10:53:55 -0700,Make prefix namespaces work,82,12678
+883,a707e087,SUCCESS,14,SUCCESS,14,SUCCESS,14,2016-04-05 10:57:19 -0700,Changelog,82,12678
+884,06dd8968,SUCCESS,14,SUCCESS,13,SUCCESS,14,2016-04-05 10:58:12 -0700,Merge branch 'pr/672',82,12678
+885,07d990fe,SUCCESS,15,SUCCESS,16,SUCCESS,14,2016-04-05 11:53:20 -0700,Removed unused change from PR,82,12676
+886,cc19d302,SUCCESS,16,SUCCESS,16,SUCCESS,16,2016-04-05 12:54:42 -0700,Reverted Node.equals() and Node.hashCode(),82,12661
+887,c3cbe1b6,SUCCESS,15,SUCCESS,15,SUCCESS,14,2016-04-05 14:03:04 -0700,Support UTF-16 and -32 BOMs,81,12600
+888,48230bcc,SUCCESS,15,SUCCESS,13,SUCCESS,16,2016-04-05 14:41:13 -0700,Changelog prioritization,81,12600
+889,8b38cd81,SUCCESS,15,SUCCESS,18,SUCCESS,16,2016-04-05 16:32:54 -0700,Bump copyright year,81,12600
+890,25e0e1e9,SUCCESS,14,SUCCESS,14,SUCCESS,15,2016-04-05 17:05:20 -0700,Added support for unicode letters in tags,80,12010
+891,8de737bf,SUCCESS,14,SUCCESS,13,SUCCESS,15,2016-04-05 17:08:11 -0700,Additional test,80,12010
+892,c850608f,SUCCESS,15,SUCCESS,13,SUCCESS,14,2016-04-14 10:49:42 -0700,Resolved PR #470 conflicts,81,12082
+893,ce7ceeec,SUCCESS,15,SUCCESS,15,SUCCESS,14,2016-04-14 10:49:58 -0700,Merge branch 'schmid-michael-master',81,12082
+894,6a340521,SUCCESS,13,SUCCESS,13,SUCCESS,14,2016-04-14 12:02:24 -0700,Tidied javadoc,81,12081
+895,d3b8326e,SUCCESS,13,SUCCESS,13,SUCCESS,15,2016-04-14 15:22:49 -0700,Added support for sending plain HTTP request bodies,81,12146
+896,1406292b,SUCCESS,14,SUCCESS,14,SUCCESS,15,2016-04-14 19:22:58 -0700,Added Connection.data(key),81,12152
+897,d2d06134,SUCCESS,15,SUCCESS,15,SUCCESS,13,2016-04-16 16:38:53 -0700,[maven-release-plugin] prepare release jsoup-1.9.1,81,12152
+898,084c5109,SUCCESS,13,SUCCESS,13,SUCCESS,15,2016-04-16 16:38:58 -0700,[maven-release-plugin] prepare for next development iteration,81,12152
+899,47f00ba6,SUCCESS,13,SUCCESS,14,SUCCESS,13,2016-04-16 17:18:35 -0700,[maven-release-plugin] rollback the release of jsoup-1.9.1,81,12152
+900,1c18964e,SUCCESS,12,SUCCESS,13,SUCCESS,12,2016-04-16 17:21:47 -0700,Javadoc 1.8 fix,81,12152
+901,2a2e8421,SUCCESS,13,SUCCESS,14,SUCCESS,14,2016-04-16 17:22:25 -0700,[maven-release-plugin] prepare release jsoup-1.9.1,81,12152
+902,e71c258c,SUCCESS,17,SUCCESS,14,SUCCESS,15,2016-04-16 17:50:16 -0700,Changelog date,81,12152
+903,6ee95c90,SUCCESS,15,SUCCESS,14,SUCCESS,17,2016-04-17 19:55:33 -0700,"Update POM, javadoc",81,12152
+904,f5ddda0a,SUCCESS,15,SUCCESS,14,SUCCESS,15,2016-04-19 04:59:06 +0200,Tag namespaces cause cssSelector() to fail (#677),81,12160
+905,35c6076c,SUCCESS,14,SUCCESS,13,SUCCESS,16,2016-04-18 20:01:58 -0700,Changelog for #677,81,12160
+906,99286c89,SUCCESS,15,SUCCESS,12,SUCCESS,15,2016-04-23 12:37:12 -0700,Cleaned a few dupe,81,12141
+907,31be24fb,SUCCESS,15,SUCCESS,14,SUCCESS,14,2016-04-23 12:53:14 -0700,Bit of a cleanup,81,12133
+908,4c4192d3,SUCCESS,15,SUCCESS,14,SUCCESS,14,2016-04-28 09:26:32 -0700,Fixed .not() example,81,12133
+909,49db84f8,SUCCESS,15,SUCCESS,12,SUCCESS,15,2016-05-05 20:44:57 -0700,Fix getting stuck on non-ascii tags,81,12133
+910,2bca40cf,SUCCESS,13,SUCCESS,14,SUCCESS,14,2016-05-05 20:52:32 -0700,Fix test,81,12133
+911,4eb4f2b2,SUCCESS,14,SUCCESS,14,SUCCESS,13,2016-05-07 16:11:01 -0700,Detect charset from xml prolog,81,12165
+912,c090381c,SUCCESS,16,SUCCESS,15,SUCCESS,14,2016-05-07 16:18:24 -0700,Test for prolog,81,12176
+913,a229d735,SUCCESS,13,SUCCESS,13,SUCCESS,15,2016-05-07 17:18:58 -0700,Allow selectors to contain unbalanced braces,81,12186
+914,d374092e,SUCCESS,14,SUCCESS,12,SUCCESS,14,2016-05-07 19:43:48 -0700,Clarify precedence,81,12188
+915,1b51e910,SUCCESS,13,SUCCESS,13,SUCCESS,14,2016-05-17 19:42:21 -0700,Changelog update for release,81,12188
+916,5dc4c487,SUCCESS,14,SUCCESS,15,SUCCESS,14,2016-05-17 19:43:55 -0700,[maven-release-plugin] prepare release jsoup-1.9.2,81,12188
+917,9655d895,SUCCESS,15,SUCCESS,13,SUCCESS,15,2016-05-17 19:44:00 -0700,[maven-release-plugin] prepare for next development iteration,81,12188
+918,f6a1ef34,SUCCESS,16,SUCCESS,14,SUCCESS,18,2016-05-20 13:54:58 -0700,Update links to https://jsoup.org/,81,12188
+919,ec75e400,SUCCESS,16,SUCCESS,17,SUCCESS,17,2016-06-17 13:23:24 +0300,bump to junit 4.12,81,12188
+920,5d00201a,SUCCESS,16,SUCCESS,14,SUCCESS,16,2016-06-28 10:19:53 -0700,Add wildcard-namespace selector support '*|' Issue #723,81,12218
+921,0b8debbc,SUCCESS,14,SUCCESS,14,SUCCESS,14,2016-06-29 22:05:12 +0800,Add Connection.headers(map),81,12204
+922,6569bb7a,SUCCESS,11,SUCCESS,12,SUCCESS,12,2016-08-05 15:05:22 -0700,Introduced ParseSettings for tag and attribute name case options.,83,12317
+923,1eecd1ad,SUCCESS,15,SUCCESS,13,SUCCESS,13,2016-08-05 15:26:13 -0700,Merge pull request #724 from er1c/wildcardnamespace,81,12218
+924,b1e58d0f,SUCCESS,15,SUCCESS,14,SUCCESS,16,2016-08-05 15:28:52 -0700,Changelog for #724,81,12218
+925,bc1b0ef2,SUCCESS,14,SUCCESS,15,SUCCESS,16,2016-08-05 15:32:04 -0700,Merge pull request #719 from VEINHORN/master,81,12218
+926,4029b296,SUCCESS,14,SUCCESS,14,SUCCESS,14,2016-08-05 15:33:13 -0700,Merge pull request #725 from zJiaJun/master,81,12234
+927,9e8ba013,SUCCESS,14,SUCCESS,14,SUCCESS,14,2016-08-05 15:34:13 -0700,Changelog for #725,81,12234
+928,f148f88d,SUCCESS,15,SUCCESS,14,SUCCESS,15,2016-08-05 16:41:40 -0700,Normalize invalid attribute names in XML when converting,81,12246
+929,70f916f0,SUCCESS,14,SUCCESS,16,SUCCESS,14,2016-08-05 17:11:12 -0700,Fragment test to verify #726,81,12246
+930,e38b916b,SUCCESS,15,SUCCESS,12,SUCCESS,13,2016-08-06 10:17:16 -0700,Merge branch 'parsesettings',83,12375
+931,ec48e0cc,SUCCESS,12,SUCCESS,13,SUCCESS,13,2016-08-11 12:57:14 -0700,Check bounds of document before fetching first child,83,12390
+932,00c8d2b7,SUCCESS,16,SUCCESS,15,SUCCESS,16,2016-08-14 12:51:58 -0700,Enable charset override,83,12418
+933,aa81e10c,SUCCESS,16,SUCCESS,17,SUCCESS,16,2016-08-19 12:04:21 -0700,Improved HTML entity support,83,12484
+934,f0f0e41e,SUCCESS,16,SUCCESS,15,SUCCESS,16,2016-08-19 12:54:51 -0700,Merge ahielg:master for attribute fix,83,12493
+935,222feb17,SUCCESS,19,SUCCESS,15,SUCCESS,15,2016-08-19 15:52:05 -0700,Include license and other files in jar/meta-inf,83,12493
+936,3b2440a2,SUCCESS,13,SUCCESS,13,SUCCESS,14,2016-08-19 15:58:18 -0700,"Don't reuse encoders, to make threadsafe",83,12491
+937,d3c58259,SUCCESS,15,SUCCESS,15,SUCCESS,16,2016-08-23 17:00:13 +0200,optimize Element#hasClass this method is perf sensitive (CPU and memory allocations) This replace the regexp split with a custom implementation that do not allocate unneeded memory. With this patch a simple test calling Element#select in a loop for several selector went from 3Gb allocated to 10Mb. GC times were reduced. Fixes #752,83,12545
+938,f41efcd0,SUCCESS,16,SUCCESS,15,SUCCESS,15,2016-08-23 21:05:00 +0200,Optimize Attribute#iterator It allocates a lot of memory during the parsing through ParseSettings#normalizeAttributes. this new implementation just wrap the LinkedHashMap values iterator in a read-only iterator.,83,12503
+939,b19d66e9,SUCCESS,14,SUCCESS,14,SUCCESS,13,2016-08-24 10:30:04 +0200,add new tests for the new implementation of Attributes#iterator,83,12531
+940,6e295d44,SUCCESS,13,SUCCESS,12,SUCCESS,14,2016-08-24 16:50:40 -0700,Merge branch 'benbenw-hasclass-optim',83,12545
+941,4f5a5645,SUCCESS,14,SUCCESS,14,SUCCESS,14,2016-08-24 17:04:45 -0700,Changelog for #753 and tidied up comments a little,83,12545
+942,84ffc4b7,SUCCESS,12,SUCCESS,15,SUCCESS,14,2016-08-25 14:37:41 -0700,Don't override request content-type if set,83,12571
+943,01779db8,SUCCESS,15,SUCCESS,13,SUCCESS,15,2016-08-25 15:00:30 -0700,Merge branch 'attributes-iterator-optim' of https://github.com/benbenw/jsoup,83,12611
+944,a79d5e28,SUCCESS,14,SUCCESS,14,SUCCESS,15,2016-08-25 15:05:39 -0700,Changelog and tweak for #755,83,12603
+945,5f21bf31,SUCCESS,21,SUCCESS,30,SUCCESS,24,2016-10-20 11:45:40 +0200,Maven plugins updated to latest versions.,83,12603
+946,a1f8d852,SUCCESS,16,SUCCESS,15,SUCCESS,16,2016-10-20 17:17:10 +0200,CI: Build on multiple JDK's (OpenJDK and Oracle).,83,12603
+947,64c36a29,SUCCESS,14,SUCCESS,15,SUCCESS,16,2016-10-20 18:42:44 -0700,Merge pull request #773 from offa/ci_multiple_jdk,83,12603
+948,5de91b56,SUCCESS,16,SUCCESS,21,SUCCESS,24,2016-10-23 11:14:05 -0700,Merge branch 'offa-maven_plugin_update',83,12603
+949,7f8010df,SUCCESS,15,SUCCESS,19,SUCCESS,22,2016-10-23 11:19:24 -0700,[maven-release-plugin] prepare release jsoup-1.10.1,83,12603
+950,8e01dfda,SUCCESS,14,SUCCESS,18,SUCCESS,23,2016-10-23 11:19:29 -0700,[maven-release-plugin] prepare for next development iteration,83,12603
+951,d4ba6617,SUCCESS,15,SUCCESS,21,SUCCESS,22,2016-10-23 11:45:44 -0700,Changelog release date,83,12603
+952,7a04d72c,SUCCESS,14,SUCCESS,29,SUCCESS,25,2016-10-23 21:23:07 +0200,Workaround for #772: Downgrade maven-bundle-plugin to v2.x.,83,12603
+953,e2ffcfc5,SUCCESS,15,SUCCESS,19,SUCCESS,23,2016-10-23 13:52:35 -0700,Merge pull request #776 from offa/maven_jdk6_workaround,83,12603
+954,6dc38f26,SUCCESS,15,SUCCESS,20,SUCCESS,23,2016-10-23 17:59:25 -0700,Use jsoup's CharacterReader instead of regexes to parse Entities,83,12609
+955,fa929d4f,SUCCESS,13,SUCCESS,20,SUCCESS,27,2016-10-23 18:37:53 -0700,Updated POM description,83,12609
+956,c28e5bf5,SUCCESS,13,SUCCESS,21,SUCCESS,24,2016-10-24 18:01:41 -0700,Fixed handling of public/system flag in doctypes,83,12650
+957,2c58e975,SUCCESS,16,SUCCESS,23,SUCCESS,30,2016-10-26 12:58:24 -0700,Remove attributes using iterator to avoid CMEs.,83,12681
+958,4f707008,SUCCESS,16,SUCCESS,22,SUCCESS,24,2016-10-29 14:31:33 -0700,Implemented Element.is(),83,12708
+959,c43e4875,SUCCESS,15,SUCCESS,22,SUCCESS,26,2016-10-29 14:43:14 -0700,Javadoc note,83,12708
+960,fcd88070,SUCCESS,15,SUCCESS,22,SUCCESS,27,2016-10-29 15:56:16 -0700,Support prev and next etc,83,12772
+961,97a270ce,SUCCESS,16,SUCCESS,21,SUCCESS,26,2016-10-29 16:41:49 -0700,Don't recurse in ownerDocument,83,12774
+962,f78df946,SUCCESS,16,SUCCESS,24,SUCCESS,26,2016-10-29 17:25:56 -0700,Node.root(),83,12786
+963,38d04b7d,SUCCESS,18,SUCCESS,24,SUCCESS,26,2016-10-29 17:32:03 -0700,Simple Element contstructor,83,12791
+964,2cad0592,SUCCESS,13,SUCCESS,23,SUCCESS,23,2016-10-29 21:43:13 -0700,Handle UTF headers and encode URLs better,83,12859
+965,47f5fd02,SUCCESS,13,SUCCESS,21,SUCCESS,25,2016-10-29 21:47:26 -0700,Test for #549,83,12865
+966,cd45173d,SUCCESS,16,SUCCESS,22,SUCCESS,27,2016-05-31 17:24:39 +0300,Suggesting an implementation to issue #711,83,12868
+967,032c9732,SUCCESS,15,SUCCESS,22,SUCCESS,24,2016-10-29 22:39:00 -0700,"Tidied up interrupt check, added test case to make sure it works.",83,12882
+968,2a9f635f,SUCCESS,15,SUCCESS,25,SUCCESS,26,2016-10-30 12:37:40 -0700,Updated default timeout and user-agent,83,12887
+969,1038abfd,SUCCESS,17,SUCCESS,28,SUCCESS,27,2016-10-30 13:27:38 -0700,Added :containsData() selector,83,12925
+970,622caa2a,SUCCESS,16,SUCCESS,22,SUCCESS,26,2016-10-30 13:47:25 -0700,Better case insensitive test,83,12925
+971,0b75415d,SUCCESS,15,SUCCESS,22,SUCCESS,26,2016-10-30 13:55:00 -0700,Test for #635,83,12931
+972,188c3be9,SUCCESS,14,SUCCESS,22,SUCCESS,26,2016-11-07 00:47:18 +0100,Fixed a few typos,83,12931
+973,69073d98,SUCCESS,16,SUCCESS,21,SUCCESS,26,2016-11-03 09:24:57 +0200,Update Document.java,83,12931
+974,b919f01e,SUCCESS,16,SUCCESS,25,SUCCESS,29,2016-11-24 12:13:16 -0800,"In Whitelists, validate that removed protocol exists before removing.",83,12935
+975,f44d6e64,SUCCESS,16,SUCCESS,22,SUCCESS,23,2016-11-24 14:36:13 -0800,Update isValid and cleaner methods,83,12981
+976,79b1aa4b,SUCCESS,14,SUCCESS,22,SUCCESS,25,2016-12-11 12:27:11 -0800,Trim \r on entity load,83,12984
+977,577b1545,SUCCESS,15,SUCCESS,23,SUCCESS,25,2017-01-01 18:05:56 -0800,Happy New Year,83,12984
+978,d79f498b,SUCCESS,15,SUCCESS,22,SUCCESS,24,2017-01-02 11:05:59 -0800,Changelog release prep,83,12984
+979,d1ade464,SUCCESS,13,SUCCESS,23,SUCCESS,31,2017-01-02 11:09:50 -0800,[maven-release-plugin] prepare release jsoup-1.10.2,83,12984
+980,7f6b23ff,SUCCESS,17,SUCCESS,27,SUCCESS,30,2017-01-02 11:09:57 -0800,[maven-release-plugin] prepare for next development iteration,83,12984
+981,d8eb9bd6,SUCCESS,16,SUCCESS,22,SUCCESS,24,2017-01-05 13:10:55 -0800,Added tests for children() including empty children,83,13007
+982,a623db77,SUCCESS,14,SUCCESS,22,SUCCESS,24,2017-01-05 15:07:29 -0800,Check attribute name is not empty after trimming before creating attribute,83,13014
+983,c221cc8a,SUCCESS,15,SUCCESS,24,SUCCESS,26,2017-01-05 15:36:30 -0800,Bit of a Tag cleanup,83,13008
+984,8fecf72d,SUCCESS,15,SUCCESS,22,SUCCESS,25,2017-01-05 19:48:35 -0800,Improved CSS query parse validation,83,13018
+985,040ce712,SUCCESS,14,SUCCESS,23,SUCCESS,27,2017-01-06 09:46:11 -0800,Javadoc tweaks,83,13018
+986,c42928d1,SUCCESS,14,SUCCESS,22,SUCCESS,27,2017-01-06 13:24:42 -0800,"Updated readme to md, more detail",83,13018
+987,16b2ab8e,SUCCESS,18,SUCCESS,23,SUCCESS,23,2017-01-17 13:51:48 -0800,Added eachText and eachAttr,83,13061
+988,b6dda00b,SUCCESS,15,SUCCESS,22,SUCCESS,27,2017-01-18 13:35:52 -0800,No longer experimental.,83,13061
+989,83f01fd8,SUCCESS,15,SUCCESS,23,SUCCESS,27,2017-01-21 15:26:56 -0800,Access the class attribute case-insensitiviely,83,13083
+990,56a728d4,SUCCESS,16,SUCCESS,25,SUCCESS,30,2017-01-21 16:27:06 -0800,Fix double escaping of query string in redirect,83,13090
+991,f28c024b,SUCCESS,17,SUCCESS,24,SUCCESS,24,2017-01-23 11:46:21 -0800,Readme location,83,13090
+992,57855251,SUCCESS,16,SUCCESS,20,SUCCESS,26,2017-01-24 19:23:43 -0500,Minor fix for the parsing of non-empty selects,83,13091
+993,7462c0d9,SUCCESS,14,SUCCESS,23,FAIL,28,2017-01-30 21:47:20 +0100,Add tests to check for locale-independent lower-casing,84,13164
+994,8121d8cf,SUCCESS,18,SUCCESS,20,SUCCESS,25,2017-01-30 23:34:38 +0100,Always use Locale.ENGLISH when converting to lower case,85,13180
+995,6dcbf710,SUCCESS,15,SUCCESS,23,FAIL,28,2017-02-22 09:58:21 +0100,Add failing test for document with two meta elements with content type,83,13090
+996,a5266b14,SUCCESS,16,SUCCESS,24,SUCCESS,26,2017-02-22 10:03:40 +0100,Consider all meta elements until a charset is found,83,13093
+997,0db39c27,SUCCESS,15,SUCCESS,22,SUCCESS,25,2017-05-10 11:54:08 +0200,Fix #872 Set request body to null when doing a redirect,83,13091
+998,38049ce2,SUCCESS,15,SUCCESS,24,SUCCESS,28,2017-06-10 12:25:30 -0700,"Memoize the child element list, so that sibling index queries are much faster",84,13198
+999,33deba95,SUCCESS,17,SUCCESS,24,SUCCESS,28,2017-06-10 12:52:06 -0700,Merge pull request #881 from Siedlerchr/fix872,84,13199
+1000,fe4dfc24,SUCCESS,15,SUCCESS,26,SUCCESS,27,2017-06-10 12:55:11 -0700,Changelog for 881,84,13199
+1001,172dc2fd,SUCCESS,17,SUCCESS,27,SUCCESS,27,2017-06-10 13:11:00 -0700,Couple tests for URL encoding issue,84,13204
+1002,bae55f9e,SUCCESS,16,SUCCESS,23,SUCCESS,23,2017-06-10 13:18:42 -0700,Improved docs to help with #852,84,13204
+1003,91afa82c,SUCCESS,14,SUCCESS,22,SUCCESS,26,2017-06-10 13:30:08 -0700,Merge pull request #835 from cketti/GH-834_multiple_meta_elements_with_content_type,84,13207
+1004,07ce1cf7,SUCCESS,16,SUCCESS,25,SUCCESS,26,2017-06-10 13:36:21 -0700,Change log,84,13204
+1005,f229eb96,SUCCESS,14,SUCCESS,22,SUCCESS,25,2017-06-10 13:36:23 -0700,Merge branch 'master' of https://github.com/jhy/jsoup,84,13207
+1006,824e82ff,SUCCESS,15,SUCCESS,23,SUCCESS,27,2017-06-10 13:57:16 -0700,Added method to clear all attributes,84,13221
+1007,2f6eabc9,SUCCESS,17,SUCCESS,23,SUCCESS,29,2017-06-10 14:30:10 -0700,Added test cases to validate case insentitivity of hasClass and selectors for class,84,13252
+1008,b934c5d3,SUCCESS,15,SUCCESS,24,SUCCESS,29,2017-06-10 15:51:45 -0700,Make sure unkown tags close correctly when in insensitive case mode,84,13252
+1009,1fd04fdb,SUCCESS,17,SUCCESS,24,SUCCESS,28,2017-06-10 16:45:01 -0700,"Remove content-type when being redirected, can't be on a Get",84,13253
+1010,45a9de55,SUCCESS,17,SUCCESS,25,SUCCESS,26,2017-06-10 17:40:07 -0700,Merge pull request #817 from lexspoon/select-with-options,84,13254
+1011,7ba0ee75,SUCCESS,17,SUCCESS,22,SUCCESS,28,2017-06-10 17:45:31 -0700,Merge pull request #820 from cketti/GH-256_fix_locale_bugs,86,13344
+1012,8799a685,SUCCESS,14,SUCCESS,23,SUCCESS,23,2017-06-10 17:46:57 -0700,Changelog,86,13344
+1013,42f17bac,SUCCESS,16,SUCCESS,25,SUCCESS,29,2017-06-11 10:12:20 -0700,Use a weak ref instead of a soft ref for the shadow elements,86,13344
+1014,3c81151c,SUCCESS,17,SUCCESS,24,SUCCESS,26,2017-06-11 10:46:22 -0700,Don't create Integer objects or Iterators,86,13343
+1015,2a5f524d,SUCCESS,14,SUCCESS,24,SUCCESS,26,2017-06-11 12:13:32 -0700,[maven-release-plugin] prepare release jsoup-1.10.3,86,13343
+1016,5e5c1dca,SUCCESS,14,SUCCESS,23,SUCCESS,24,2017-06-11 12:13:41 -0700,[maven-release-plugin] prepare for next development iteration,86,13343
+1017,75e1972b,SUCCESS,15,SUCCESS,27,SUCCESS,28,2017-06-11 12:27:48 -0700,Release date,86,13343
+1018,bbe9c974,SUCCESS,16,SUCCESS,22,SUCCESS,27,2017-06-12 18:54:51 -0700,Made Normalizer final for tiny speed hint,87,13344
+1019,3c44a732,SUCCESS,16,SUCCESS,26,SUCCESS,29,2017-06-12 18:54:53 -0700,Merge branch 'master' of https://github.com/jhy/jsoup,87,13344
+1020,42c0a0ec,SUCCESS,16,SUCCESS,27,SUCCESS,29,2017-06-12 18:57:18 -0700,Normalizer is Final,87,13344
+1021,1203bd45,SUCCESS,17,SUCCESS,21,SUCCESS,25,2017-06-12 19:46:35 -0700,Make sure the HTML parser is correctly reset before reuse,87,13361
+1022,e2ff399d,SUCCESS,19,SUCCESS,25,SUCCESS,31,2017-06-17 15:36:28 -0700,Updated from Java 5 to Java 7,86,13339
+1023,5840fcd4,SUCCESS,16,SUCCESS,25,SUCCESS,26,2017-06-17 15:41:38 -0700,Incantation to make Travis CI work with OpenJDK,86,13339
+1024,ad4a1bee,SUCCESS,15,SUCCESS,24,SUCCESS,28,2017-06-17 15:49:10 -0700,Minor inspections,86,13337
+1025,654bc6f9,SUCCESS,17,SUCCESS,25,SUCCESS,26,2017-06-24 23:47:45 -0700,Stream network loading (#905),88,13534
+1026,416ad294,SUCCESS,16,SUCCESS,24,SUCCESS,25,2017-06-25 00:58:53 -0600,Case-insensitive attribute setter (#903),88,13557
+1027,d51f6539,SUCCESS,15,SUCCESS,23,SUCCESS,28,2017-06-25 00:01:32 -0700,Changelog,88,13557
+1028,35bceca3,SUCCESS,17,SUCCESS,24,SUCCESS,29,2017-06-25 10:44:55 -0700,Cleaned up self-closing ack and error track,88,13545
+1029,d381b913,SUCCESS,20,SUCCESS,25,SUCCESS,31,2017-06-25 12:49:49 -0700,Note about not calling Parse twice,88,13545
+1030,c4f6a622,SUCCESS,17,SUCCESS,26,SUCCESS,29,2017-06-26 21:18:21 -0700,Test case for #845,88,13545
+1031,195566fa,SUCCESS,16,SUCCESS,23,SUCCESS,27,2017-06-29 15:24:05 -0700,Allow rctext / rcdata tags to self -close,88,13545
+1032,cde6403a,SUCCESS,16,SUCCESS,28,SUCCESS,29,2017-06-30 20:49:36 -0700,Added bufferUp method to response,88,13556
+1033,a0513032,SUCCESS,18,SUCCESS,23,SUCCESS,30,2017-06-30 21:07:04 -0700,Test for self-closing iframe,88,13556
+1034,48f31787,SUCCESS,18,SUCCESS,22,SUCCESS,30,2017-06-30 22:19:12 -0700,Merge branch 'master' of https://github.com/sedran/jsoup into sedran-master,88,13593
+1035,9eab14f2,SUCCESS,16,SUCCESS,26,SUCCESS,28,2017-06-30 22:43:20 -0700,"Updated impl, test, and changes",88,13586
+1036,2b7550c5,SUCCESS,15,SUCCESS,24,SUCCESS,29,2017-06-30 22:43:33 -0700,Merging #662,88,13586
+1037,d3f02400,SUCCESS,15,SUCCESS,25,SUCCESS,29,2017-06-30 23:56:59 -0700,Treat nbsp chars are spaces when normalizing text,88,13600
+1038,c63ccf83,SUCCESS,17,SUCCESS,25,SUCCESS,28,2017-07-01 00:36:53 -0700,Less StringBuilder GC in text(),88,13611
+1039,5e386d51,SUCCESS,19,SUCCESS,28,SUCCESS,29,2017-07-01 15:38:54 -0700,Minor perf improvements through lower garbage objects.,88,13623
+1040,f71712ba,SUCCESS,18,SUCCESS,26,SUCCESS,30,2017-07-01 23:59:26 -0700,Project :: Slimfast,89,13706
+1041,aff23979,SUCCESS,18,SUCCESS,23,SUCCESS,30,2017-07-02 14:29:58 -0700,Make sure encoder works across threads,89,13720
+1042,7c8df4ca,SUCCESS,17,SUCCESS,23,SUCCESS,27,2017-07-02 14:29:58 -0700,Make sure encoder works across threads,89,13732
+1043,ea322571,SUCCESS,15,SUCCESS,25,SUCCESS,27,2017-07-02 15:42:44 -0700,Merge remote-tracking branch 'origin/master',89,13732
+1044,ea1fb65e,SUCCESS,15,SUCCESS,22,SUCCESS,27,2017-07-04 13:10:31 -0700,Refactored Attributes to be an array pair vs LinkedHashSet,89,13829
+1045,91f0354c,SUCCESS,15,SUCCESS,26,SUCCESS,30,2017-07-04 19:15:52 -0700,Attempt to trip Github's license detector,89,13829
+1046,35e80a77,SUCCESS,16,SUCCESS,27,SUCCESS,30,2017-07-18 22:57:37 -0700,Added bodyStream method,89,13838
+1047,a7749a63,SUCCESS,18,SUCCESS,27,SUCCESS,29,2017-08-10 23:58:26 +0200,Make consistency checks consistent,89,13839
+1048,590f77e5,SUCCESS,17,SUCCESS,25,SUCCESS,25,2017-10-07 14:37:17 -0700,Fixed w3c test in JDK 9,89,13827
+1049,be56a546,SUCCESS,16,SUCCESS,23,SUCCESS,30,2017-10-07 15:00:11 -0700,Updated javadoc plugin to fix bug with JDK9,89,13827
+1050,cd3e51d1,SUCCESS,18,SUCCESS,26,SUCCESS,30,2017-10-07 15:10:44 -0700,Version comment,89,13827
+1051,397a0cae,SUCCESS,17,SUCCESS,30,SUCCESS,27,2017-10-08 00:15:05 +0200,[fix] parsing of mixed-case tags after b934c5d (#942),89,13827
+1052,6759c781,SUCCESS,15,SUCCESS,25,SUCCESS,31,2017-10-07 15:18:37 -0700,Changelog foe #942,89,13827
+1053,982ce8a3,SUCCESS,16,SUCCESS,24,SUCCESS,28,2017-10-07 15:20:03 -0700,Merge pull request #931 from kno10/patch-2,89,13828
+1054,b185fd76,SUCCESS,18,SUCCESS,23,SUCCESS,26,2017-10-08 06:23:00 +0800,patch about issue #836 addChildren is quadratic (#930),89,13823
+1055,846108dc,SUCCESS,17,SUCCESS,23,SUCCESS,28,2017-10-07 15:25:25 -0700,Changelog for #930,89,13823
+1056,c33ba536,SUCCESS,17,SUCCESS,24,SUCCESS,30,2017-10-08 06:27:26 +0800,fixed issue #916 (#928),89,13830
+1057,8c7350ba,SUCCESS,15,SUCCESS,24,SUCCESS,26,2017-10-07 15:29:24 -0700,Changelog for #928,89,13830
+1058,ac13ffd2,SUCCESS,17,SUCCESS,23,SUCCESS,26,2017-10-08 00:31:29 +0200,Missing Test Case to preserve consumeToIgnoreCase() behavior (#925),89,13838
+1059,b27c4c14,SUCCESS,16,SUCCESS,25,SUCCESS,29,2017-10-08 00:33:28 +0200,Missing Test Case for whitespace class name (#924),89,13846
+1060,410c15f1,SUCCESS,17,SUCCESS,27,SUCCESS,30,2017-10-08 00:34:11 +0200,Duplicated Logic in Called Method (#923),89,13844
+1061,bbcf905c,SUCCESS,18,SUCCESS,27,SUCCESS,27,2017-10-08 00:34:43 +0200,Missing Test Case for location conversion (#922),89,13852
+1062,51163017,SUCCESS,18,SUCCESS,23,SUCCESS,33,2017-10-07 15:37:28 -0700,Fixed IndexLessThan matches() to ignore root element and added tests (#918),89,13872
+1063,929c2f8b,SUCCESS,16,SUCCESS,25,SUCCESS,26,2017-10-07 15:38:47 -0700,Changelog for #918,89,13872
+1064,32af6ba9,SUCCESS,15,SUCCESS,22,SUCCESS,30,2017-10-08 00:43:46 +0200,Add unit test (but no fix) for 883 (#893),89,13880
+1065,4fa93397,SUCCESS,14,SUCCESS,26,SUCCESS,30,2017-10-07 18:46:27 -0400,allow template inside thead/tbody/tr. Fixes #807 (#901),89,13884
+1066,ecfcd44e,SUCCESS,17,SUCCESS,27,SUCCESS,27,2017-10-07 15:47:54 -0700,Changelog for #901,89,13884
+1067,925ecb3b,SUCCESS,15,SUCCESS,22,SUCCESS,25,2017-10-07 15:58:13 -0700,Travis can't support OracleJDK7 any more,89,13884
+1068,45111a15,SUCCESS,20,SUCCESS,30,SUCCESS,29,2017-10-07 16:45:00 -0700,Ensure Android 8 compatibility,89,13888
+1069,3a81df16,SUCCESS,16,SUCCESS,24,SUCCESS,27,2017-10-08 15:30:18 -0700,"Strip CR, so it works on Windows",89,13888
+1070,655e3aab,SUCCESS,16,SUCCESS,24,SUCCESS,30,2017-03-21 15:42:55 +0100,Allow `static` use of NodeTraversor.traverse(),89,13890
+1071,6a284f14,FAIL,17,NO,0,NO,0,2017-03-22 11:32:58 +0100,"Add `traverse(NodeVisitor, Elements)`.",89,13895
+1072,66522406,FAIL,14,NO,0,NO,0,2017-03-23 17:16:26 +0100,Use static NodeTraversor.traverse,89,13888
+1073,ad23b481,SUCCESS,17,SUCCESS,26,SUCCESS,27,2017-03-23 17:18:27 +0100,Add new NodeFilter interface to NodeTraversor,90,13941
+1074,fe001bcc,SUCCESS,15,SUCCESS,24,SUCCESS,28,2017-03-23 17:19:22 +0100,"Add Node.filter, Elements.filter convenience API",90,13949
+1075,0d714da4,SUCCESS,15,SUCCESS,25,SUCCESS,27,2017-03-23 17:19:36 +0100,Add unit test.,91,14020
+1076,57dbebc8,SUCCESS,17,SUCCESS,23,SUCCESS,29,2017-10-08 15:52:26 -0700,Deprecation note,91,14020
+1077,f75a462e,SUCCESS,15,SUCCESS,23,SUCCESS,27,2017-10-08 16:02:29 -0700,Changelog for #849,91,14020
+1078,a97672ad,SUCCESS,15,SUCCESS,24,SUCCESS,28,2017-10-08 17:36:34 -0700,Added Element.selectFirst(),91,14049
+1079,ea00e065,SUCCESS,18,SUCCESS,22,FAIL,29,2017-10-08 21:21:16 -0700,Added support for multiple headers,91,14108
+1080,f7e2868f,SUCCESS,18,SUCCESS,25,SUCCESS,31,2017-10-08 22:32:06 -0700,Note that headers() map is a view.,91,14107
+1081,35b59253,SUCCESS,17,SUCCESS,27,SUCCESS,31,2017-10-08 23:01:50 -0700,Multiple headers should be comma joined,91,14101
+1082,22a17d24,SUCCESS,15,SUCCESS,24,SUCCESS,26,2017-10-09 12:35:15 -0700,Small code cleanup,91,14100
+1083,c324fabe,SUCCESS,16,SUCCESS,25,SUCCESS,26,2017-10-09 14:55:26 -0700,Notifications to cloned elements were incorrectly delivered to the original element.,91,14121
+1084,a129f801,SUCCESS,16,SUCCESS,25,SUCCESS,30,2017-10-14 11:26:15 -0700,Simplified and corrected ConstrainableInputStream impl,92,14192
+1085,d8fb5212,SUCCESS,16,SUCCESS,23,SUCCESS,27,2017-10-14 11:53:49 -0700,Close input stream after reading to release resources,92,14203
+1086,8ec29562,SUCCESS,19,SUCCESS,25,SUCCESS,30,2017-10-14 14:44:43 -0700,First pass at a local test server,96,14284
+1087,3c697472,SUCCESS,20,SUCCESS,26,SUCCESS,27,2017-10-14 14:52:46 -0700,"Enable Jetty to run on Java7, and clean up stop",96,14283
+1088,bd789b07,SUCCESS,15,SUCCESS,23,SUCCESS,26,2017-10-14 16:56:40 -0700,Moved some tests to ConnectTest,97,14369
+1089,7d8abb78,SUCCESS,17,SUCCESS,26,SUCCESS,31,2017-10-14 17:57:48 -0700,SlowRider test for interruptable read,98,14406
+1090,a63fcab3,SUCCESS,18,SUCCESS,25,SUCCESS,30,2017-10-14 22:12:01 -0700,Implemented a proper total duration timeout,98,14460
+1091,2b488261,SUCCESS,18,SUCCESS,26,SUCCESS,30,2017-10-15 18:14:15 -0700,Simplify,98,14458
+1092,abfeea20,SUCCESS,15,SUCCESS,24,SUCCESS,26,2017-10-16 11:26:29 -0700,Test scope Jetty,98,14458
+1093,6bce3ded,SUCCESS,14,SUCCESS,23,SUCCESS,28,2017-10-19 22:42:16 -0700,Tidy up,98,14458
+1094,4685bd09,SUCCESS,16,SUCCESS,25,FAIL,30,2017-10-21 16:53:32 -0700,Add option to set mimetype on uploads,98,14510
+1095,5ba643ce,SUCCESS,17,SUCCESS,25,FAIL,27,2017-10-21 17:05:08 -0700,Proxy should not be in the test,98,14509
+1096,24121880,SUCCESS,15,SUCCESS,22,SUCCESS,26,2017-10-21 17:17:23 -0700,Fixup crlf size,98,14509
+1097,fb8b60b4,SUCCESS,17,SUCCESS,23,SUCCESS,29,2017-10-21 19:37:42 -0700,Limit stack search depth to 100,98,14531
+1098,72edc30e,SUCCESS,17,SUCCESS,21,SUCCESS,27,2017-10-21 19:44:39 -0700,Moved more tests to the local server,98,14530
+1099,24de855a,SUCCESS,16,SUCCESS,21,SUCCESS,29,2017-10-26 13:41:11 -0700,Sort and validate sorted at build not runtime,100,14575
+1100,06159687,SUCCESS,18,SUCCESS,30,SUCCESS,31,2017-10-29 15:30:57 -0700,Avoid covariant return type change problems,100,14578
+1101,f3035caf,SUCCESS,16,SUCCESS,23,SUCCESS,29,2017-10-29 17:35:20 -0700,Moved entity data from resource to .class,101,14567
+1102,5edd9aed,SUCCESS,16,SUCCESS,23,SUCCESS,29,2017-10-29 18:52:31 -0700,Improved handling of read timeout,101,14570
+1103,a58c8e67,SUCCESS,15,SUCCESS,24,SUCCESS,27,2017-11-04 18:25:50 +0100,removing last class should remove class attribute (#963),101,14580
+1104,2d340db5,SUCCESS,15,SUCCESS,24,SUCCESS,30,2017-11-04 11:32:30 -0700,Added shallowClone(),101,14606
+1105,5dc49376,SUCCESS,18,SUCCESS,29,SUCCESS,30,2017-11-04 12:08:24 -0700,[maven-release-plugin] prepare release jsoup-1.11.1,101,14606
+1106,3993d72f,SUCCESS,16,SUCCESS,23,SUCCESS,27,2017-11-04 12:09:09 -0700,[maven-release-plugin] prepare for next development iteration,101,14606
+1107,1b38f80d,SUCCESS,17,SUCCESS,25,SUCCESS,28,2017-11-04 18:11:21 -0700,Added sample from site,102,14621
+1108,adb7a15a,SUCCESS,17,SUCCESS,24,SUCCESS,27,2017-11-06 22:28:56 -0800,Start stack search at right spot,101,14176
+1109,1ece207d,SUCCESS,15,SUCCESS,25,SUCCESS,34,2017-11-10 09:22:20 -0800,Handle empty buffer in attribute value read,102,14205
+1110,e7692266,SUCCESS,20,SUCCESS,28,SUCCESS,34,2017-11-10 13:56:15 -0800,Correct other buffer underrun chances,102,14248
+1111,d3232135,SUCCESS,17,SUCCESS,27,SUCCESS,30,2017-11-10 15:29:57 -0800,Other buffer underrun tests,102,14308
+1112,c19acbb9,SUCCESS,16,SUCCESS,25,SUCCESS,30,2017-11-12 13:32:10 -0800,Support infinite timeouts,102,14316
+1113,4d78e031,SUCCESS,15,SUCCESS,23,SUCCESS,26,2017-11-12 14:23:10 -0800,"Sort at write time, not start time",103,14326
+1114,f75f4739,SUCCESS,14,SUCCESS,24,SUCCESS,31,2017-11-13 00:57:36 +0100,Fix #429,103,14348
+1115,aeaf3c1a,SUCCESS,18,SUCCESS,26,SUCCESS,30,2017-11-12 16:02:31 -0800,Search further up the stack for <pre>,103,14336
+1116,5fa76800,SUCCESS,18,SUCCESS,24,SUCCESS,30,2017-11-12 16:13:28 -0800,Fixed an issue where were was not spelled correctly.,103,14336
+1117,1d7e6fa1,SUCCESS,15,SUCCESS,22,SUCCESS,30,2017-11-12 18:38:20 -0800,:matchText,104,14383
+1118,5f071432,SUCCESS,17,SUCCESS,23,SUCCESS,32,2017-11-13 09:24:36 -0800,Some more :matchText tests,104,14393
+1119,b8411990,SUCCESS,15,SUCCESS,23,SUCCESS,31,2017-11-14 11:34:20 -0800,Don't OBE at  EOF,104,14403
+1120,8808e3fb,SUCCESS,16,SUCCESS,27,SUCCESS,33,2017-11-14 12:39:20 -0800,NPE fix,104,14406
+1121,3264eee7,SUCCESS,17,SUCCESS,27,SUCCESS,28,2017-11-14 15:51:51 -0800,Expanded sample code,104,14406
+1122,e38af6a3,SUCCESS,13,SUCCESS,23,SUCCESS,27,2017-11-14 21:38:38 -0800,Threadlocal encoder,104,14410
+1123,6f9013be,SUCCESS,15,SUCCESS,21,SUCCESS,31,2017-11-14 21:47:41 -0800,Comment cleanup,104,14410
+1124,d1f9c8ec,SUCCESS,16,SUCCESS,26,SUCCESS,33,2017-11-16 19:18:37 -0800,Changelog not cleanup,104,14410
+1125,9cb4bf06,SUCCESS,14,SUCCESS,21,SUCCESS,27,2017-11-16 19:21:38 -0800,Merge pull request #969 from lukasschlueter/master,104,14432
+1126,8c7414da,SUCCESS,14,SUCCESS,24,SUCCESS,31,2017-11-16 19:24:18 -0800,Changelog for #969,104,14432
+1127,3475dc84,SUCCESS,15,SUCCESS,24,SUCCESS,27,2017-11-18 12:52:52 -0800,Maintain stack for namespaces,104,14462
+1128,c3f8caa7,SUCCESS,16,SUCCESS,24,SUCCESS,30,2017-11-18 13:38:01 -0800,Normalize invisibles in text(),104,14476
+1129,f4c700b8,SUCCESS,16,SUCCESS,28,SUCCESS,33,2017-11-20 11:31:36 +0900,Added TokeniserState tests (#859),105,14610
+1130,3e4b76b6,SUCCESS,17,SUCCESS,27,SUCCESS,27,2017-11-19 18:42:03 -0800,Deprecate validateTLSCertificates,105,14610
+1131,6b1f53ee,SUCCESS,16,SUCCESS,26,SUCCESS,27,2017-11-19 18:42:17 -0800,Spell check,104,14606
+1132,e6af5715,SUCCESS,16,SUCCESS,27,SUCCESS,31,2017-11-20 11:43:10 +0900,Add Element#getWholeText() (#564),104,14623
+1133,b001b304,SUCCESS,17,SUCCESS,25,SUCCESS,29,2017-11-19 18:52:01 -0800,Renamed and changelog for wholeText,104,14623
+1134,7daae314,SUCCESS,15,SUCCESS,24,SUCCESS,28,2017-11-20 03:53:23 +0100,Exclude examples from artifacts (#700),104,14623
+1135,6b5b09d2,SUCCESS,15,SUCCESS,22,SUCCESS,28,2017-11-19 20:40:52 -0800,Relax test timeout a little,104,14623
+1136,429f2c7d,SUCCESS,15,SUCCESS,24,SUCCESS,27,2017-11-19 20:42:15 -0800,[maven-release-plugin] prepare release jsoup-1.11.2,104,14623
+1137,bbef9d72,SUCCESS,14,SUCCESS,25,SUCCESS,30,2017-11-19 20:42:24 -0800,[maven-release-plugin] prepare for next development iteration,104,14623
+1138,461609f6,SUCCESS,16,SUCCESS,26,SUCCESS,32,2017-11-19 21:07:36 -0800,Release date,104,14623
+1139,c07c0eea,SUCCESS,17,SUCCESS,25,SUCCESS,33,2017-11-23 13:34:44 -0800,Preserve CDATA sections,105,14681
+1140,4c142cac,SUCCESS,15,SUCCESS,24,SUCCESS,25,2017-11-24 22:42:17 +0100,Deflate encoding support,105,14685
+1141,e9885f06,SUCCESS,16,SUCCESS,24,SUCCESS,27,2017-11-25 10:33:01 -0800,More cdata coverage,105,14681
+1142,1791ef17,SUCCESS,18,SUCCESS,28,SUCCESS,30,2017-11-30 20:43:19 +0530,Adding support for nested quotes in attribute selection,105,14697
+1143,87b54a51,SUCCESS,16,SUCCESS,23,SUCCESS,28,2017-12-03 12:03:16 -0800,Merge branch 'master' into pr/982,105,14685
+1144,64eef180,SUCCESS,14,SUCCESS,22,SUCCESS,30,2017-12-03 13:01:51 -0800,Test case for deflate,106,14717
+1145,f627193c,SUCCESS,14,SUCCESS,19,SUCCESS,25,2017-12-03 14:38:17 -0800,Collapse boolean attribute empty string values,106,14721
+1146,f9307ec9,SUCCESS,13,SUCCESS,23,SUCCESS,24,2017-12-03 15:13:40 -0800,Space for textnodes immediately after block elements,106,14729
+1147,02668f75,SUCCESS,14,SUCCESS,23,SUCCESS,33,2017-12-03 15:49:58 -0800,Skip first newline in <pre>,106,14730
+1148,45c54996,SUCCESS,16,SUCCESS,27,SUCCESS,32,2017-12-21 18:08:30 -0800,Make sure the mark limit is same as buffer size to prevent mark being invalidated,106,14730
+1149,3676b132,SUCCESS,17,SUCCESS,23,SUCCESS,29,2017-12-21 18:25:30 -0800,Merge branch 'master' into pr/988,106,14746
+1150,bf4f99c7,SUCCESS,16,SUCCESS,25,SUCCESS,30,2017-12-21 18:36:16 -0800,Prep #988 for merge,106,14740
+1151,df272b77,SUCCESS,15,SUCCESS,19,SUCCESS,26,2017-12-22 10:25:05 -0800,"In XML parse mode set to lowercase, normalize closing tags",106,14744
+1152,11e018fe,SUCCESS,13,SUCCESS,23,SUCCESS,28,2017-12-22 12:44:14 -0800,Verify that form data mixes ok with form uploads,106,14748
+1153,e5210d1f,SUCCESS,14,SUCCESS,25,SUCCESS,30,2017-12-22 13:49:47 -0800,Corrected fix for #998,106,14748
+1154,b92b4f6b,SUCCESS,15,SUCCESS,21,SUCCESS,28,2017-12-23 17:40:13 -0800,isEmpty() should bufferUp,106,14763
+1155,03bffef1,SUCCESS,16,SUCCESS,25,SUCCESS,31,2017-12-23 18:08:56 -0800,Correct the change note location,106,14763
+1156,f1110a90,SUCCESS,18,SUCCESS,21,SUCCESS,29,2018-04-07 10:39:25 +0200,Accept a custom SSL socket factory,106,14778
+1157,71561e09,SUCCESS,15,SUCCESS,22,SUCCESS,27,2018-04-07 19:38:58 -0700,It's 2018,106,14763
+1158,2c4e79b1,SUCCESS,16,SUCCESS,24,SUCCESS,31,2018-04-14 13:27:36 -0700,DataUtil should throw IOException on failed reads during parse,107,14813
+1159,1028b37a,SUCCESS,17,SUCCESS,24,SUCCESS,27,2018-04-14 13:43:05 -0700,"Leaf nodes should return an empty list on .childNodes(), not except",107,14822
+1160,197815a0,SUCCESS,15,SUCCESS,22,SUCCESS,30,2018-04-14 13:48:08 -0700,Fix typo in README.md (#1028),107,14822
+1161,f37e6481,SUCCESS,16,SUCCESS,22,SUCCESS,28,2018-04-14 22:54:21 +0200,Allow HtmlTreeBuilder subclasses (#1040),107,14821
+1162,a4dfbcf0,SUCCESS,14,SUCCESS,21,SUCCESS,29,2018-04-14 17:18:06 -0700,Set automatic module name for Java 9,107,14822
+1163,e0f9c5fb,SUCCESS,16,SUCCESS,26,SUCCESS,31,2018-04-14 17:18:28 -0700,Merge branch 'master' of https://github.com/jhy/jsoup,107,14821
+1164,0f7e0cc3,SUCCESS,17,SUCCESS,23,SUCCESS,28,2018-04-14 20:08:25 -0700,Make sure to consume a UTF-8 BOM at the start of a doc,107,14818
+1165,3c699bad,SUCCESS,15,SUCCESS,20,SUCCESS,30,2018-04-15 12:37:05 +0200,Parse invalid unicode escapes as Windows-1252 instead [Fixes #1034],107,14843
+1166,47a7f5ab,SUCCESS,16,SUCCESS,23,SUCCESS,29,2018-04-15 13:53:55 -0700,Keep \n on file endings,107,14818
+1167,e9feec90,SUCCESS,14,SUCCESS,21,SUCCESS,29,2018-04-15 14:09:14 -0700,Check that XML declarations parse OK,107,14824
+1168,f25170a3,SUCCESS,17,SUCCESS,23,SUCCESS,33,2018-04-15 14:33:49 -0700,Change log for #1046,107,14843
+1169,18ef3235,SUCCESS,18,SUCCESS,26,SUCCESS,31,2018-04-15 14:34:15 -0700,Merge branch 'pr/1046',107,14849
+1170,834c81bb,SUCCESS,15,SUCCESS,24,SUCCESS,27,2018-04-15 14:54:11 -0700,Change log for #1038,106,14778
+1171,04f0ab3b,SUCCESS,14,SUCCESS,23,SUCCESS,26,2018-04-15 14:56:18 -0700,Merge branch 'pr/1038',107,14864
+1172,2b1ea063,SUCCESS,15,SUCCESS,22,SUCCESS,29,2018-04-15 15:19:58 -0700,[maven-release-plugin] prepare release jsoup-1.11.3,107,14864
+1173,176c173b,SUCCESS,17,SUCCESS,23,SUCCESS,29,2018-04-15 15:20:09 -0700,[maven-release-plugin] prepare for next development iteration,107,14864
+1174,fa38b8a9,SUCCESS,15,SUCCESS,23,SUCCESS,26,2018-04-15 15:26:40 -0700,Release date,107,14864
+1175,bf6667c4,SUCCESS,14,SUCCESS,20,SUCCESS,26,2018-04-28 13:16:30 -0700,Removed deprecated Connection.validateTLSCertificates() method,107,14832
+1176,850a9cc0,SUCCESS,15,SUCCESS,23,SUCCESS,29,2018-04-28 18:51:43 -0700,Maintain the Parser used when parsing a Document,107,14868
+1177,e38dfd44,SUCCESS,16,SUCCESS,19,SUCCESS,27,2018-04-28 19:58:51 -0700,Detect charset from pseudo XML declaration when in HTML parser mode,107,14887
+1178,d2fb53fd,SUCCESS,15,SUCCESS,24,SUCCESS,29,2018-04-29 10:01:41 -0700,Para move,107,14887
+1179,f1b885d2,SUCCESS,14,SUCCESS,24,SUCCESS,27,2018-04-29 11:43:19 -0700,Spring cleaning,108,14854
+1180,77966f79,SUCCESS,14,SUCCESS,23,SUCCESS,27,2018-04-29 12:42:22 -0700,Some redirect tests,109,14914
+1181,6be19a6f,SUCCESS,15,SUCCESS,23,SUCCESS,31,2018-04-29 14:42:51 -0700,"If a charset cannot encode, flip to one that can",109,14917
+1182,39e90ee3,SUCCESS,18,SUCCESS,22,SUCCESS,28,2018-04-29 15:06:19 -0700,Indentation fix,109,14917
+1183,bdf1df7e,SUCCESS,15,SUCCESS,21,SUCCESS,29,2018-04-29 15:25:23 -0700,"Treat < in a start tag as a new tag, not an attribute name",109,14928
+1184,a810d2e3,SUCCESS,14,SUCCESS,21,SUCCESS,28,2018-04-29 16:16:12 -0700,Don't blow up if a namespace is undefined,109,14944
+1185,20ec85e6,SUCCESS,13,SUCCESS,22,SUCCESS,27,2018-05-02 21:11:25 +0800,Add methods to get all the element siblings before or after current element,109,14984
+1186,59f10777,SUCCESS,13,SUCCESS,21,SUCCESS,28,2018-05-04 20:10:34 +0800,Element#previousElementSiblings() and Element#nextElementSiblings now return empty list,109,15020
+1187,eec4cf35,SUCCESS,16,SUCCESS,26,SUCCESS,31,2018-05-05 23:20:29 -0700,"Call .disconnect() in close, so Android OKHttp impl can clean its pool",109,14950
+1188,ae99d7eb,SUCCESS,17,SUCCESS,22,SUCCESS,28,2018-05-06 11:24:09 -0700,Table parse performance tweak,109,14967
+1189,16491229,SUCCESS,14,SUCCESS,23,SUCCESS,27,2018-05-06 12:39:02 -0700,"Perf tweaks in start tags, data",109,14980
+1190,c8c05694,SUCCESS,16,SUCCESS,27,SUCCESS,28,2018-05-09 22:18:19 -0700,"Use a stack for StringBuilder flyweight, so threads can use more than one at a time",109,14993
+1191,105f7bdc,SUCCESS,16,SUCCESS,22,SUCCESS,25,2018-05-11 18:59:23 -0700,Moved StringUtil to the Internal package,109,14998
+1192,e26267dd,SUCCESS,15,SUCCESS,23,SUCCESS,33,2018-05-11 21:20:54 -0700,Remove no-longer relevant comment,109,14993
+1193,ae7d2163,SUCCESS,15,SUCCESS,20,SUCCESS,29,2018-05-11 21:20:56 -0700,Merge branch 'master' of https://github.com/jhy/jsoup,109,14998
+1194,4d104721,SUCCESS,16,SUCCESS,19,SUCCESS,27,2018-05-11 21:48:40 -0700,Simplify code a bit,109,14996
+1195,1933e972,SUCCESS,15,SUCCESS,23,SUCCESS,30,2018-05-11 22:02:08 -0700,Make HttpConnection constructor public,109,15006
+1196,426ffe78,SUCCESS,14,SUCCESS,23,FAIL,27,2018-05-11 22:32:07 -0700,"Simplified nextElements and previousElements impl, added changelog",109,15006
+1197,26adfcbc,SUCCESS,13,SUCCESS,22,FAIL,30,2018-05-11 22:34:27 -0700,Merge branch 'pr/1054',109,15068
+1198,220b7714,SUCCESS,16,SUCCESS,23,SUCCESS,31,2018-05-11 22:47:22 -0700,Previous elements are returned in reverse order,109,15068
+1199,db7bc390,SUCCESS,17,SUCCESS,25,SUCCESS,29,2018-08-20 13:36:20 -0700,Add center tag to list of block elements,109,15068
+1200,cecdb325,SUCCESS,20,SUCCESS,27,SUCCESS,31,2018-10-21 16:47:37 -0700,Updated jetty-server (which is used for integration tests) to latest 9.2 series (9.2.26.v20180806).,109,15068
+1201,54e87300,SUCCESS,16,SUCCESS,23,FAIL,29,2018-12-05 17:23:47 -0500,Adding unit test demonstrating character reader buffer issue.,109,15068
+1202,49c4a148,SUCCESS,16,SUCCESS,22,SUCCESS,30,2018-12-22 17:17:15 -0800,URL cleanup,109,15068
+1203,25ba713e,SUCCESS,15,SUCCESS,22,SUCCESS,32,2018-12-22 17:28:00 -0800,Validate new attribute names correctly,109,15074
+1204,973234bc,SUCCESS,15,SUCCESS,26,SUCCESS,25,2018-12-22 17:59:13 -0800,Added ParserTest,110,15090
+1205,38c13b5a,SUCCESS,14,SUCCESS,21,SUCCESS,26,2018-12-22 18:19:31 -0800,Correct check for element children,110,15095
+1206,7ff7c43e,SUCCESS,13,SUCCESS,21,SUCCESS,28,2018-12-22 19:56:49 -0800,Use normalized element names for tree searching,110,15102
+1207,3ffb622c,SUCCESS,14,SUCCESS,25,SUCCESS,33,2018-12-23 05:19:26 +0000, Oracle JDK10 and JDK11 build added to Travis (#1124),110,15102
+1208,89536709,SUCCESS,18,SUCCESS,25,SUCCESS,31,2018-12-22 21:40:36 -0800,Optimize toArray via change length to 0 directly (#1158),110,15102
+1209,952b0e85,SUCCESS,17,SUCCESS,24,FAIL,30,2018-12-23 16:20:26 -0800,Typo,109,15068
+1210,54a8d301,SUCCESS,17,SUCCESS,23,SUCCESS,30,2018-12-23 16:45:01 -0800,Do a full bufferUp when marking a reader,109,15091
+1211,2da07a11,SUCCESS,16,SUCCESS,22,SUCCESS,25,2018-12-23 16:45:17 -0800,Merge branch 'master' into pr/1154,110,15125
+1212,1be6e5c1,SUCCESS,14,SUCCESS,24,SUCCESS,29,2018-12-23 16:52:40 -0800,Changelog for #1154,110,15125
+1213,9934dfc6,SUCCESS,17,SUCCESS,25,SUCCESS,28,2018-12-23 20:20:13 -0800,Add build status to readme,110,15125
+1214,8adcd55d,SUCCESS,15,SUCCESS,21,SUCCESS,29,2018-12-23 20:30:47 -0800,Chagelog tweak,110,15125
+1215,8b837a43,SUCCESS,14,SUCCESS,21,SUCCESS,30,2018-12-23 22:02:59 -0800,Return null attribute values as empty string,110,15133
+1216,1d663eeb,SUCCESS,15,SUCCESS,21,SUCCESS,25,2018-12-23 22:27:31 -0800,Don't NPE in setValue for an orphan Attribute,110,15142
+1217,b09e4b74,SUCCESS,13,SUCCESS,21,SUCCESS,28,2018-12-26 16:32:30 -0800,Adds test case for space between center tags,109,15072
+1218,7c60ac13,SUCCESS,16,SUCCESS,26,SUCCESS,30,2018-12-26 16:33:22 -0800,Merge branch 'pr/1113',110,15146
+1219,18cd16d2,SUCCESS,14,SUCCESS,22,SUCCESS,30,2018-12-26 16:55:24 -0800,Fix up end-of-line normalization; always want LFs on text,110,15146
+1220,56ea479e,SUCCESS,15,SUCCESS,21,SUCCESS,29,2018-05-07 20:14:59 +0700,Allow multipart form submission by setting header; automatically add boundary.,110,15160
+1221,68ff8cbe,SUCCESS,15,SUCCESS,24,SUCCESS,30,2018-12-26 18:03:44 -0800,Changelog and visibility for auto multipater,110,15163
+1222,5f5c64b2,SUCCESS,16,SUCCESS,24,SUCCESS,28,2019-05-12 10:16:24 -0700,Cleanup,110,15163
+1223,7842f887,SUCCESS,15,SUCCESS,28,SUCCESS,28,2019-05-12 10:26:46 -0700,Update Jetty version,110,15163
+1224,82e2c442,SUCCESS,15,SUCCESS,23,SUCCESS,27,2019-05-12 10:41:35 -0700,Test for #1205,110,15168
+1225,eaf876dc,SUCCESS,15,SUCCESS,22,SUCCESS,29,2019-04-05 20:21:53 -0500,Clone attributes in shallowClone(),110,15170
+1226,315655cc,SUCCESS,15,SUCCESS,23,SUCCESS,30,2019-05-12 11:00:33 -0700,Changelog for #1201,110,15170
+1227,7de614ff,SUCCESS,17,SUCCESS,22,SUCCESS,28,2019-05-12 11:37:10 -0700,Validate string length,110,15176
+1228,247c5d05,SUCCESS,15,SUCCESS,25,SUCCESS,32,2019-05-12 15:28:35 -0700,"If the input file or URL is binary, throw an exception",111,15271
+1229,b87c0139,SUCCESS,15,SUCCESS,22,SUCCESS,28,2019-05-12 15:34:21 -0700,Test binary to byte fetch OK,111,15280
+1230,3f025695,SUCCESS,16,SUCCESS,22,SUCCESS,31,2019-05-12 16:53:46 -0700,[maven-release-plugin] prepare release jsoup-1.12.1,111,15280
+1231,fb45283b,SUCCESS,15,SUCCESS,24,SUCCESS,31,2019-05-12 16:53:56 -0700,[maven-release-plugin] prepare for next development iteration,111,15280
+1232,a87b1c6d,SUCCESS,16,SUCCESS,23,SUCCESS,25,2019-05-12 17:34:52 -0700,Changelog prep,111,15280
+1233,620287bf,SUCCESS,15,SUCCESS,27,SUCCESS,29,2019-05-12 17:38:31 -0700,Updated jetty-server (test dependency),111,15280
+1234,7400feca,SUCCESS,13,SUCCESS,24,SUCCESS,28,2019-01-03 16:25:17 -0800,fix typo in Selector.java,111,15280
+1235,a3649e6b,SUCCESS,16,SUCCESS,21,SUCCESS,30,2019-03-27 13:11:02 +0100,fix inconsistent javadoc,111,15280
+1236,ff979f46,SUCCESS,14,SUCCESS,23,SUCCESS,30,2018-08-10 11:20:32 +0200,test: chompBalanced() should throw IllegalArgumentException when unbalanced input,111,15289
+1237,e4995596,SUCCESS,17,SUCCESS,20,SUCCESS,30,2018-08-16 10:55:27 -0700,maven-compiler-plugin 3.8.0,111,15289
+1238,7755a419,SUCCESS,16,SUCCESS,17,SUCCESS,22,2019-05-15 22:23:13 -0700,Don't recompile all on every build,111,15289
+1239,7bd5cf5b,SUCCESS,16,SUCCESS,25,SUCCESS,29,2019-05-15 22:59:44 -0700,Rollback -Xpkginfo:always,111,15289
+1240,d65510c8,SUCCESS,16,SUCCESS,22,SUCCESS,29,2019-05-14 17:16:43 +0200,JDK 12 CI build added.,111,15289
+1241,fd46489c,SUCCESS,16,SUCCESS,23,SUCCESS,31,2019-05-16 16:25:48 -0700,Moved some URL tests to local servlet,111,15321
+1242,525d7c19,SUCCESS,14,SUCCESS,21,SUCCESS,28,2019-05-16 16:32:58 -0700,Splelling,111,15321
+1243,0fe6d51f,SUCCESS,16,SUCCESS,23,SUCCESS,28,2019-05-16 14:16:22 +0300,"Fix :has selector to set the root, allowing relative selectors",111,15325
+1244,e4417540,SUCCESS,16,SUCCESS,22,SUCCESS,28,2019-05-16 17:23:49 -0700,Changelog for #1214,111,15325
+1245,a63ed993,SUCCESS,14,SUCCESS,21,SUCCESS,26,2019-05-16 17:59:46 -0700,Limit style to the syntax table,111,15325
+1246,1e576bbb,SUCCESS,15,SUCCESS,24,SUCCESS,27,2019-05-17 15:15:24 -0700,Added remaining typed Element chaining methods,111,15399
+1247,9e36f9e2,SUCCESS,14,SUCCESS,23,SUCCESS,28,2019-05-17 15:58:00 -0700,A few cleanups /  sanity assertions,111,15402
+1248,a47a7e45,SUCCESS,15,SUCCESS,23,SUCCESS,27,2019-05-17 16:13:57 -0700,Allocate entities in static section; saves 16K from .jar,111,15406
+1249,8e3eeb5f,SUCCESS,16,SUCCESS,24,SUCCESS,32,2019-06-02 21:50:06 +0000,Jdk11 / Jdk12 JavaDoc generation fix (#1217),111,15406
+1250,a4b5e826,SUCCESS,16,SUCCESS,19,SUCCESS,27,2019-06-02 21:51:32 +0000,Code improvements (#1216),111,15419
+1251,e42ca3b8,SUCCESS,16,SUCCESS,21,SUCCESS,28,2019-06-29 16:11:58 -0700,Move integ tests to Maven Failsafe,112,15431
+1252,333fcc3f,SUCCESS,16,SUCCESS,26,SUCCESS,33,2019-06-29 16:37:51 -0700,Travis fixup,112,15431
+1253,92392a67,SUCCESS,16,SUCCESS,24,SUCCESS,29,2019-06-29 19:50:10 -0700,Don't recompile regex on each hit,112,15433
+1254,27a445b0,SUCCESS,14,SUCCESS,20,SUCCESS,27,2019-07-04 12:49:50 -0700,Get location from path info,112,15430
+1255,0fc3d672,SUCCESS,17,SUCCESS,23,SUCCESS,28,2019-07-04 15:26:11 -0700,"On duplicate attributes, retain first not last instance",112,15466
+1256,e9e61370,SUCCESS,14,SUCCESS,26,SUCCESS,29,2019-07-04 15:31:18 -0700,Testcase for #1234,112,15471
+1257,a9439f0c,SUCCESS,14,SUCCESS,24,SUCCESS,30,2019-07-04 15:54:14 -0700,Don't submit button values,112,15473
+1258,b61a3e6b,SUCCESS,19,SUCCESS,29,SUCCESS,33,2019-07-04 17:49:17 -0700,Fix Travis CI JDK issues (#1236),112,15473
+1259,fb588770,SUCCESS,17,SUCCESS,25,SUCCESS,29,2019-07-04 20:38:30 -0700,"Reorder conn.disconnect, to support keepalives when bodyStream read",112,15473
+1260,8d1d5039,SUCCESS,14,SUCCESS,24,SUCCESS,27,2019-07-04 21:19:46 -0700,Removed external URL from testsuite,112,15482
+1261,468c5369,SUCCESS,14,SUCCESS,26,SUCCESS,27,2020-01-01 18:06:16 +0100,Added new method childrenCount complementary to child(int),112,15490
+1262,a0b87bf1,SUCCESS,14,SUCCESS,22,SUCCESS,30,2020-01-20 18:10:05 -0800,Ensure enough data is buffered to survive a Mark reset,112,15545
+1263,9fdda993,SUCCESS,13,SUCCESS,21,SUCCESS,27,2020-01-20 18:24:41 -0800,Update Travis JDK builds,112,15545
+1264,86d69ea6,SUCCESS,14,SUCCESS,22,SUCCESS,30,2020-01-26 15:26:47 -0800,Update default max body to 2MB. Update default UA.,112,15545
+1265,de97030f,SUCCESS,19,SUCCESS,23,SUCCESS,30,2020-01-21 19:32:03 +0100,Fix edge cases with delimiters being near a buffer boundary.,112,15590
+1266,c2b1fe73,SUCCESS,16,SUCCESS,23,SUCCESS,29,2020-01-26 16:30:41 -0800,Report the correct error position in some malformed constructs,113,15629
+1267,9b674f82,SUCCESS,15,SUCCESS,22,SUCCESS,29,2020-01-26 16:31:59 -0800,Changes for #1253,113,15629
+1268,8371a171,SUCCESS,17,SUCCESS,23,SUCCESS,31,2019-11-22 16:55:59 +0100,fix for bug #1279,113,15638
+1269,a4210b7a,SUCCESS,16,SUCCESS,26,SUCCESS,33,2020-01-26 16:53:41 -0800,Also add fix for ends with spaces,113,15642
+1270,91ca25b3,SUCCESS,17,SUCCESS,25,SUCCESS,31,2020-01-30 20:51:19 -0800,Don't normalize away zwj or zwnj,113,15654
+1271,eb7b0d78,SUCCESS,15,SUCCESS,19,SUCCESS,29,2020-01-30 20:53:06 -0800,Changes typo,113,15654
+1272,f2ff26b6,SUCCESS,14,SUCCESS,23,SUCCESS,33,2020-01-30 21:42:08 -0800,Fix case in-sensitivity for Tag.Endswith (namespaced elements),113,15718
+1273,de1ced99,SUCCESS,15,SUCCESS,25,SUCCESS,31,2020-01-30 21:48:58 -0800,Changes typo,113,15718
+1274,f5fc1bb0,SUCCESS,13,SUCCESS,21,SUCCESS,29,2020-01-30 22:13:19 -0800,"Don't throw an exception if a selector ends in a space, just trim it.",113,15735
+1275,5a570cf3,SUCCESS,15,SUCCESS,25,SUCCESS,33,2020-02-01 18:32:43 -0800,Much faster perf when bulk inserting a complete node list into anothe r node,113,15817
+1276,cfd13628,SUCCESS,15,SUCCESS,21,SUCCESS,29,2020-02-01 18:44:27 -0800,Extra tests,113,15832
+1277,a8d431ba,SUCCESS,13,SUCCESS,23,SUCCESS,36,2020-02-02 04:04:14 +0100,Fixes #1220 self-closing textarea,113,15841
+1278,ef400e71,SUCCESS,16,SUCCESS,29,SUCCESS,37,2020-02-01 19:09:18 -0800,Moved test,113,15833
+1279,a7d704f2,SUCCESS,16,SUCCESS,24,SUCCESS,33,2020-02-01 19:10:42 -0800,2020 date,113,15833
+1280,b891b6f5,SUCCESS,18,SUCCESS,23,SUCCESS,33,2020-02-01 19:16:35 -0800,Removed todo,113,15833
+1281,3a9bf46e,SUCCESS,13,SUCCESS,22,SUCCESS,30,2020-01-26 18:20:00 +0100,Not add line break when pretty printing inline tags,113,15858
+1282,279fbe12,SUCCESS,14,SUCCESS,22,SUCCESS,35,2020-02-02 09:09:43 -0800,"Cleaned up Tag, tweaked output for inline text then tag",113,15856
+1283,97758e74,SUCCESS,17,SUCCESS,23,SUCCESS,31,2020-02-02 09:29:32 -0800,Test for #851,113,15856
+1284,128008e2,SUCCESS,15,SUCCESS,23,SUCCESS,34,2020-02-02 09:56:10 -0800,Fix TextNode.outerHtml normalization for orhpans,113,15872
+1285,5359490c,SUCCESS,16,SUCCESS,23,SUCCESS,34,2020-02-02 10:11:46 -0800,Removed binary input detection attempt,113,15838
+1286,2d431412,SUCCESS,15,SUCCESS,22,SUCCESS,33,2020-02-02 10:20:56 -0800,Test to verify zwnj fix for Farsi,113,15838
+1287,88e045eb,SUCCESS,13,SUCCESS,23,SUCCESS,35,2020-02-02 18:54:18 +0000,CI builds for current Java versions (#1254),113,15838
+1288,4e097487,SUCCESS,16,SUCCESS,24,SUCCESS,29,2020-02-02 11:09:04 -0800,Renamed to childrenSize for consistency,112,15490
+1289,894d3ec9,SUCCESS,16,SUCCESS,26,SUCCESS,35,2020-02-02 11:11:56 -0800,Merge branch 'pr/1291',113,15844
+1290,c198334e,SUCCESS,14,SUCCESS,22,SUCCESS,33,2020-02-02 11:12:10 -0800,Merge branch 'master' of https://github.com/jhy/jsoup,113,15844
+1291,9297a22a,SUCCESS,17,SUCCESS,25,SUCCESS,34,2020-02-02 11:34:35 -0800,Safeclose to get any inputstreams closed first on error,113,15844
+1292,d36f91a4,SUCCESS,14,SUCCESS,21,SUCCESS,31,2020-02-02 14:19:25 -0800,Test to verify #1208,113,15851
+1293,fe92494c,SUCCESS,13,SUCCESS,20,FAIL,33,2020-02-02 15:49:04 -0800,W3CDom#asString should emit XML,113,15895
+1294,052dc1b1,SUCCESS,17,SUCCESS,23,FAIL,36,2020-02-02 20:01:17 -0800,Added tests to verify #1096,113,15934
+1295,1a84ce3b,SUCCESS,16,SUCCESS,22,SUCCESS,33,2020-02-02 20:09:55 -0800,Normalize xml strings before comparison,113,15923
+1296,4e052740,SUCCESS,18,SUCCESS,27,SUCCESS,34,2020-02-05 22:29:03 -0800,Updata Jetty servlet to current,113,15923
+1297,2ea6f9a8,SUCCESS,15,SUCCESS,24,SUCCESS,36,2020-02-05 22:41:13 -0800,Test cleanup,113,15923
+1298,6b2bf55e,SUCCESS,16,SUCCESS,24,SUCCESS,36,2020-02-06 10:01:11 -0800,Added test to validate #1243,113,15932
+1299,3bd77f86,SUCCESS,17,SUCCESS,25,SUCCESS,34,2020-02-06 10:02:47 -0800,Don't want that,113,15931
+1300,fb50d963,SUCCESS,16,SUCCESS,22,SUCCESS,31,2020-02-06 13:23:08 -0800,Deepclone attributes in LeafNodes if set,113,15976
+1301,e0208540,SUCCESS,16,SUCCESS,21,FAIL,33,2020-02-08 16:54:29 -0800,"In W3CDom, handle doctypes, and don't force XML output",113,16074
+1302,0bec5931,SUCCESS,17,SUCCESS,24,FAIL,37,2020-02-08 17:05:34 -0800,Readme URL update,113,16074
+1303,a0711e57,SUCCESS,14,SUCCESS,22,FAIL,36,2020-02-06 23:18:51 +0100,Use String#replace instead of String#replaceAll where possible.,113,16074
+1304,f91e1e8d,SUCCESS,16,SUCCESS,22,FAIL,37,2020-02-06 23:09:02 +0100,Avoid unnecessary boxing of char in TokenQueue#chompBalanced.,113,16074
+1305,d06d8f42,SUCCESS,15,SUCCESS,21,FAIL,33,2020-02-06 23:01:01 +0100,"Avoid unnecessary null checks, as Element#indexInList never returns null.",113,16072
+1306,e81c35f9,SUCCESS,14,SUCCESS,23,FAIL,36,2020-02-08 18:03:58 -0800,Fix file to LF endings,113,16072
+1307,6ef89226,SUCCESS,17,SUCCESS,25,FAIL,36,2020-02-08 18:09:41 -0800,[maven-release-plugin] prepare release jsoup-1.12.2,113,16072
+1308,437c727f,SUCCESS,15,SUCCESS,22,FAIL,36,2020-02-09 05:27:11 -0800,Prep 1.13.1 development,113,16072
+1309,a7b0c2df,SUCCESS,15,SUCCESS,23,FAIL,33,2020-02-09 06:29:52 -0800,Removed old deprecated classes and methods,112,16022
+1310,91fcf208,SUCCESS,15,SUCCESS,23,FAIL,32,2020-02-09 06:50:00 -0800,Test for application/rss+xml,112,16026
+1311,50df99d6,SUCCESS,16,SUCCESS,21,FAIL,35,2020-02-09 07:47:46 -0800,Added some tests,113,16091
+1312,a82d6b6a,SUCCESS,15,SUCCESS,21,FAIL,33,2020-02-09 08:07:08 -0800,Don't push inline comments to newline,113,16096
+1313,fbc7e76a,SUCCESS,14,SUCCESS,24,FAIL,36,2020-02-09 08:23:18 -0800,Auto close optgroup in select,113,16096
+1314,08fa0064,SUCCESS,16,SUCCESS,24,FAIL,37,2020-02-09 08:24:27 -0800,Assert harder,113,16096
+1315,0a4bd07a,SUCCESS,16,SUCCESS,27,FAIL,40,2020-02-09 09:29:31 -0800,Don't create Attributes objects until required,114,16139
+1316,52bbe52a,SUCCESS,17,SUCCESS,25,SUCCESS,34,2020-02-09 10:43:35 -0800,Update test for varying XHTML impl formats,114,16139
+1317,1c51c84e,SUCCESS,14,SUCCESS,22,SUCCESS,30,2020-02-09 10:48:50 -0800,Fix some jdoc warnings,114,16139
+1318,2080cbb7,SUCCESS,16,SUCCESS,26,SUCCESS,37,2020-02-09 14:18:37 -0800,"Added Attribute#hasValue, Attributes#hasValue(key)",114,16167
+1319,f93f2fe9,SUCCESS,15,SUCCESS,25,SUCCESS,38,2020-02-09 14:47:18 -0800,Speed tweaks in hot methods,114,16181
+1320,fb79deab,SUCCESS,16,SUCCESS,25,SUCCESS,35,2020-02-12 21:12:37 -0800,Ensure that attributes are nulled on clear(),114,16193
+1321,6f2fd07c,SUCCESS,14,SUCCESS,21,SUCCESS,34,2020-02-12 21:24:43 -0800,Renamed hasKey to hasKeyWithDefinedValue,114,16193
+1322,979d5dd7,SUCCESS,15,SUCCESS,22,SUCCESS,37,2020-02-12 23:17:07 -0800,Introduced internal attributes,114,16261
+1323,528ba552,SUCCESS,19,SUCCESS,26,SUCCESS,38,2020-02-13 17:12:47 -0800,Updated to Attributes#hasDeclaredValueForKey,114,16261
+1324,62c05958,SUCCESS,16,SUCCESS,25,SUCCESS,36,2020-02-15 11:35:34 -0800,Preserve the mark when buffering,114,16265
+1325,1d9f4658,SUCCESS,18,SUCCESS,24,SUCCESS,34,2020-02-14 00:40:19 +0300,Apply attribute normalization to void tags,114,16265
+1326,6e8241ab,SUCCESS,16,SUCCESS,22,SUCCESS,32,2020-02-15 11:58:24 -0800,Normalize form attributes,114,16265
+1327,006c6cc5,SUCCESS,13,SUCCESS,25,SUCCESS,37,2020-02-15 12:08:14 -0800,Indent sanity test,114,16265
+1328,f4338e20,SUCCESS,14,SUCCESS,24,SUCCESS,30,2020-02-15 13:06:52 -0800,Indent preserve-upper-cased tags correctly,114,16275
+1329,c5c5a735,SUCCESS,15,SUCCESS,23,SUCCESS,31,2020-02-15 20:55:12 -0800,Close and clear the character reader,114,16294
+1330,53236050,SUCCESS,15,SUCCESS,25,SUCCESS,36,2020-02-15 21:13:29 -0800,Script and Style must be DataNodes when case-sensitive parsing,114,16294
+1331,75815e2d,SUCCESS,17,SUCCESS,22,SUCCESS,33,2020-02-15 21:22:02 -0800,"Use Tag#normalName, not Element#tagName for all comparisons",114,16294
+1332,f54857ed,SUCCESS,16,SUCCESS,25,SUCCESS,40,2020-02-15 22:04:06 -0800,Sampling found avg num attributes is 1.49,114,16294
+1333,265653e3,SUCCESS,16,SUCCESS,24,SUCCESS,37,2020-02-16 10:33:04 -0800,Use URL instead of email,114,16294
+1334,7a405918,SUCCESS,15,SUCCESS,24,SUCCESS,32,2020-02-16 21:59:39 -0800,Minor (~2%) increase in cache hit rate,114,16297
+1335,bd64b019,SUCCESS,17,SUCCESS,23,SUCCESS,34,2020-02-18 20:20:39 -0800,Added Element#closest,114,16345
+1336,5d864bd9,SUCCESS,14,SUCCESS,23,SUCCESS,33,2020-02-18 20:22:22 -0800,Issue link,114,16345
+1337,50fae5bf,SUCCESS,17,SUCCESS,22,SUCCESS,32,2020-02-18 20:42:16 -0800,Test for #1170 text node content,114,16360
+1338,19be649e,SUCCESS,14,SUCCESS,26,SUCCESS,35,2020-02-19 21:19:03 -0800,Extra test for mark invalid issue,114,16360
+1339,d9dfc4a6,SUCCESS,14,SUCCESS,19,SUCCESS,29,2020-02-19 21:41:37 -0800,Moved some longer running tests to IT tests,115,16382
+1340,a657ae02,SUCCESS,16,SUCCESS,21,SUCCESS,30,2020-02-22 10:37:27 -0800,"Added forms(), comments(), textNodes(), dataNodes()",115,16434
+1341,9d9e53c8,SUCCESS,15,SUCCESS,21,SUCCESS,31,2020-02-22 22:39:26 -0800,Fixed a performance regression in 1.12,115,16438
+1342,c693d6e4,SUCCESS,16,SUCCESS,24,SUCCESS,31,2020-02-22 23:43:21 -0800,"Use switch for start, end tags",115,16490
+1343,1f5ffb85,SUCCESS,17,SUCCESS,26,SUCCESS,30,2020-02-23 09:12:19 -0800,Pulled out InBody start and end sequences,115,16500
+1344,696461b3,SUCCESS,17,SUCCESS,22,SUCCESS,29,2020-02-23 10:57:23 -0800,Perf - catch comments in one hit,115,16517
+1345,ebd2a773,SUCCESS,15,SUCCESS,23,SUCCESS,29,2020-02-23 11:46:01 -0800,Don't copy String if a char buf is available,115,16522
+1346,51278145,SUCCESS,14,SUCCESS,21,SUCCESS,29,2020-02-23 13:44:20 -0800,Save a little time - that verification hasn't fired to date,115,16517
+1347,328f2e4e,SUCCESS,16,SUCCESS,22,SUCCESS,28,2020-02-29 14:57:21 -0800,Use canned arrays for all searches,115,16533
+1348,9675a92b,SUCCESS,13,SUCCESS,23,SUCCESS,28,2020-02-29 16:10:16 -0800,Preserve whitespace in nodes before <head>,115,16543
+1349,fb9aa17b,SUCCESS,15,SUCCESS,22,SUCCESS,29,2020-02-29 17:17:53 -0800,Changes for #1327,115,16543
+1350,dcf3c8ba,SUCCESS,14,SUCCESS,22,SUCCESS,29,2020-02-29 17:21:15 -0800,[maven-release-plugin] prepare release jsoup-1.13.1,115,16543
+1351,1330299a,SUCCESS,15,SUCCESS,24,SUCCESS,29,2020-02-29 17:21:23 -0800,[maven-release-plugin] prepare for next development iteration,115,16543
+1352,e807847d,SUCCESS,17,SUCCESS,26,SUCCESS,32,2020-03-01 11:00:13 -0800,Release date,115,16543
+1353,5136929f,SUCCESS,16,SUCCESS,22,SUCCESS,26,2020-03-01 11:09:27 -0800,Testcase to show #1292 works as-is.,115,16555
+1354,34715b38,SUCCESS,14,SUCCESS,20,SUCCESS,28,2020-03-01 12:19:04 -0800,Added support for loading gzipped HTML files.,115,16563
+1355,89d9677f,SUCCESS,15,SUCCESS,23,SUCCESS,34,2020-03-01 17:43:16 -0800,Updated intro para.,115,16563
+1356,140b48a5,SUCCESS,19,SUCCESS,18,SUCCESS,20,2020-03-01 18:17:24 -0800,Help maven to compile incrementally,115,16563
+1357,8ddcef3c,SUCCESS,14,SUCCESS,19,SUCCESS,21,2020-03-02 17:10:20 +0100,Test improvements; assertions updated and unused exception declarations removed.,115,16562
+1358,8c50f6f6,SUCCESS,17,SUCCESS,21,SUCCESS,19,2020-03-05 09:02:07 -0800,Minor parse speed improvement,115,16591
+1359,8e432a5f,SUCCESS,17,SUCCESS,20,SUCCESS,28,2020-03-05 10:09:53 -0800,Java8 and JUnit5 (#1335),115,16547
+1360,6b103e1e,SUCCESS,17,SUCCESS,19,SUCCESS,24,2020-03-05 10:28:42 -0800,Updated min Android from 8 to 10.,115,16542
+1361,23a0e22e,SUCCESS,14,SUCCESS,21,SUCCESS,26,2020-03-05 10:30:20 -0800,Missed test annotation,115,16543
+1362,89580cc3,SUCCESS,18,SUCCESS,24,SUCCESS,31,2020-03-07 19:11:06 +0000,JUnit 5 dependency aggregator. (#1336),115,16543
+1363,653d5e7c,SUCCESS,18,SUCCESS,24,SUCCESS,28,2020-12-09 23:13:48 -0500,"Test on Java versions on Linux, Windows and MacOS. (#1458)",115,16543
+1364,6dba1650,SUCCESS,15,SUCCESS,20,SUCCESS,25,2020-12-10 15:57:29 +1100,Move from Travis to GitHub Actions (#1459),115,16543
+1365,6c689fce,SUCCESS,16,SUCCESS,20,FAIL,25,2020-12-10 16:02:39 +1100,Bump jetty-server from 9.4.26.v20200117 to 9.4.35.v20201120 (#1457),115,16543
+1366,c52f8312,SUCCESS,18,SUCCESS,22,SUCCESS,25,2020-12-10 16:31:27 +1100,Fix Jetty version,115,16543
+1367,22405b79,SUCCESS,15,SUCCESS,20,SUCCESS,24,2020-12-10 06:41:08 +0100,Limit reading CharBuffer.array() to CharBuffer.limit() to avoid additional NULL characters at the end of some inputs (#1452),115,16543
+1368,54a3740d,SUCCESS,16,SUCCESS,22,SUCCESS,28,2020-12-10 06:43:34 +0100,Add bin/ to .gitignore (#1439),115,16543
+1369,6ea3c367,FAIL,14,NO,0,NO,0,2020-12-11 01:12:54 +0100,Use constants for the standard charsets (#1455),115,16541
+1370,6e24d79e,FAIL,15,NO,0,NO,0,2020-12-11 09:19:55 +0900,Improve StringBuilder cache performance under high concurrency (#1402),115,16544
+1371,aa36135f,FAIL,15,NO,0,NO,0,2020-12-11 11:27:19 +1100,Changelog notes for PRs,115,16544
+1372,c0b27536,FAIL,16,NO,0,NO,0,2020-12-11 11:50:49 +1100,"Reduce hits to Charset.forName, prefer static Charset",115,16543
+1373,28a45919,FAIL,16,NO,0,NO,0,2020-12-11 12:03:38 +1100,Remove StandardCharset use,115,16542
+1374,ee531437,SUCCESS,16,SUCCESS,21,SUCCESS,25,2020-12-11 12:11:36 +1100,Remove other StandardCharset use,115,16544
+1375,62f5035b,SUCCESS,15,SUCCESS,21,SUCCESS,26,2020-12-11 13:54:23 +1100,GitHub Actions tweaks,115,16544
+1376,2ccd3f88,SUCCESS,17,SUCCESS,19,SUCCESS,27,2020-12-11 14:06:56 +1100,Githhub Build,115,16544
+1377,6e3c98c4,SUCCESS,17,SUCCESS,23,SUCCESS,29,2020-12-11 15:52:53 +1100,Fix null guards on start tag attributes,115,16547
+1378,f6388656,SUCCESS,17,SUCCESS,22,SUCCESS,26,2020-12-11 16:12:56 +1100,Fixed javadoc and added testcase for Element#isBlock,115,16553
+1379,27b65674,SUCCESS,13,SUCCESS,21,SUCCESS,25,2020-12-15 15:12:56 +1100,"Build - report on API compat between verisons, and store build artifacts",115,16553
+1380,a4edbe03,SUCCESS,14,SUCCESS,18,SUCCESS,25,2020-12-15 15:32:17 +1100,Removing artifact retention; uploads were flaky,115,16553
+1381,02bb8a90,SUCCESS,18,SUCCESS,22,SUCCESS,24,2020-12-15 19:14:18 +1100,Corrected uses of Whitelist to Safelist (#1464),117,16710
+1382,dc33b400,SUCCESS,16,SUCCESS,18,SUCCESS,28,2020-12-15 21:38:51 +1100,Specify previous version for compat tests,117,16710
+1383,9edccb17,SUCCESS,16,SUCCESS,22,SUCCESS,29,2020-12-15 22:23:00 +1100,"Enable ""restricted"" headers, so that we can set Sec-Fetch-Mode etc",117,16734
+1384,4df2bcd1,SUCCESS,16,SUCCESS,21,SUCCESS,25,2020-12-15 22:53:33 +1100,Temp disable 16-ea until japicmp builds OK on it,117,16734
+1385,e8ae03d2,SUCCESS,14,SUCCESS,18,SUCCESS,24,2020-12-15 22:56:25 +1100,Corrected issue link,117,16734
+1386,d45098eb,SUCCESS,16,SUCCESS,20,SUCCESS,27,2020-12-20 12:53:45 +1100,Add initial nullability annotations (#1467),119,16788
+1387,43c35a79,SUCCESS,17,SUCCESS,23,SUCCESS,27,2020-12-20 13:10:15 +1100,Clean up sort test,119,16780
+1388,ee05221d,SUCCESS,17,SUCCESS,23,SUCCESS,27,2020-12-20 13:26:05 +1100,Minor code tweaks,119,16778
+1389,a7c07d96,SUCCESS,15,SUCCESS,21,SUCCESS,29,2020-12-20 14:07:30 +1100,Fix issue in addNodes where could incorrectly reparent,119,16794
+1390,457aea06,SUCCESS,14,SUCCESS,21,SUCCESS,20,2020-12-20 14:48:11 +1100,Javadoc tweak,120,16795
+1391,4dc96506,SUCCESS,14,SUCCESS,19,SUCCESS,22,2020-12-20 15:07:00 +1100,Text javadoc clarification,120,16795
+1392,5727d18a,SUCCESS,15,SUCCESS,20,SUCCESS,26,2020-12-20 15:17:04 +1100,Added Element#id(String) setter,120,16809
+1393,77fcaf4d,SUCCESS,16,SUCCESS,20,SUCCESS,26,2020-12-20 18:08:59 +1100,Added nullability annotations to nodes package,122,16905
+1394,415f6255,SUCCESS,16,SUCCESS,20,SUCCESS,25,2020-12-21 11:24:54 +1100,"Updated Document#head and #body to normalize, always return Element",122,16946
+1395,b03e2d2e,SUCCESS,16,SUCCESS,26,SUCCESS,26,2020-12-21 11:28:03 +1100,Fixed some typos,122,16946
+1396,9b8e81ab,SUCCESS,14,SUCCESS,19,SUCCESS,25,2020-12-21 12:35:54 +1100,More nullability assertions,122,16965
+1397,1350463c,SUCCESS,16,SUCCESS,20,SUCCESS,26,2020-12-21 12:51:47 +1100,Make sure org.jsoup.internal gets exported in manifest,122,16965
+1398,532b79a6,SUCCESS,17,SUCCESS,24,SUCCESS,29,2020-12-21 14:11:32 +1100,Clone outputsettings from dirty to clean document,122,16973
+1399,20797a47,SUCCESS,18,SUCCESS,21,SUCCESS,27,2020-12-21 14:35:39 +1100,Disable pretty printing of XML input by default,122,16979
+1400,3c37bffe,SUCCESS,15,SUCCESS,21,SUCCESS,30,2020-12-21 14:37:53 +1100,Link to issue,122,16979
+1401,afd73606,SUCCESS,17,SUCCESS,20,SUCCESS,28,2020-12-22 15:21:49 +1100,Performance improvement for clone,122,16984
+1402,724b2c5b,SUCCESS,16,SUCCESS,23,SUCCESS,25,2020-12-22 19:25:40 +1100,"When parsing fragments, use the context node to insert children",122,17043
+1403,690d6019,SUCCESS,15,SUCCESS,20,SUCCESS,26,2020-12-23 10:33:14 +1100,Test for body() not null on frameset,122,17063
+1404,3f75b90d,SUCCESS,15,SUCCESS,19,SUCCESS,25,2020-12-23 10:47:08 +1100,Test case for shallowClone.toString,122,17073
+1405,6a047bfe,SUCCESS,15,SUCCESS,17,SUCCESS,29,2020-12-23 12:43:08 +1100,Testcase for Safelist extension,123,17103
+1406,982c993a,SUCCESS,18,SUCCESS,21,SUCCESS,27,2020-06-15 17:26:09 +0200,Fix Elements.forms(),123,17101
+1407,1b170925,SUCCESS,15,SUCCESS,20,SUCCESS,31,2020-12-28 12:48:54 +1100,Reimplemented the form upload test,123,17126
+1408,60bf5846,SUCCESS,15,SUCCESS,21,SUCCESS,32,2020-12-28 14:03:51 +1100,Reimplemented some URL fetch tests to use local Jetty server,123,17207
+1409,af763d07,SUCCESS,18,SUCCESS,22,SUCCESS,27,2020-12-28 14:37:08 +1100,Document#body should return the framset el for frameset docs,123,17209
+1410,1c5071f1,SUCCESS,15,SUCCESS,18,SUCCESS,25,2020-12-28 15:10:08 +1100,Removed obsolete method,123,17199
+1411,c2ef8e97,SUCCESS,14,SUCCESS,22,SUCCESS,29,2020-12-28 21:40:04 +1100,Simplified isContentForTagData,123,17195
+1412,b482e008,SUCCESS,16,SUCCESS,19,SUCCESS,28,2020-12-29 11:05:54 +1100,Typo,123,17195
+1413,50576455,SUCCESS,15,SUCCESS,21,SUCCESS,27,2020-12-29 13:22:05 +1100,Tweaked new Attributes,123,17194
+1414,1a0ba6a3,SUCCESS,17,SUCCESS,20,SUCCESS,25,2020-12-29 14:37:44 +1100,Test for #1186,123,17208
+1415,45f62328,SUCCESS,15,SUCCESS,19,SUCCESS,25,2020-12-29 14:50:46 +1100,Typo,123,17208
+1416,d66decd3,SUCCESS,15,SUCCESS,19,SUCCESS,29,2020-12-29 16:41:45 +1100,Support node.replaceWith(node) during node traversal,123,17251
+1417,fbd74e72,SUCCESS,20,SUCCESS,21,SUCCESS,31,2020-12-29 17:07:29 +1100,Doc hints for rename,123,17251
+1418,3afde583,SUCCESS,17,SUCCESS,20,SUCCESS,27,2020-12-30 12:48:07 +1100,"Added appendChildren and prependChildren, and wrap the Node children to prevent CMEs",123,17407
+1419,28792633,SUCCESS,16,SUCCESS,19,SUCCESS,29,2020-12-30 15:15:32 +1100,Do not auto-vivify attributes or child nodes for read only ops,123,17448
+1420,79496d8d,SUCCESS,17,SUCCESS,22,SUCCESS,30,2020-12-31 12:41:49 +1100,Call out behavior change on childNodes,123,17448
+1421,032f0215,SUCCESS,16,SUCCESS,20,SUCCESS,26,2020-12-31 13:59:28 +1100,Javadoc fixes for first sentence,123,17448
+1422,21b01b25,SUCCESS,15,SUCCESS,20,SUCCESS,28,2021-01-03 13:53:16 +1100,Added support for Internationalized Domain Names (IDNs),123,17498
+1423,f104b5ad,SUCCESS,17,SUCCESS,19,SUCCESS,26,2021-01-04 10:47:46 +1100,Corrected IDN host,123,17498
+1424,dd054bb7,SUCCESS,17,SUCCESS,21,SUCCESS,26,2021-01-04 20:39:44 +1100,Testcase for selecting direct children,123,17508
+1425,7cf9d03b,SUCCESS,16,SUCCESS,18,SUCCESS,29,2021-01-04 21:08:29 +1100,"In Element#cssSelector, check that IDs are unique before using them",123,17527
+1426,8e7dedbb,SUCCESS,16,SUCCESS,21,SUCCESS,27,2021-01-05 11:01:54 +1100,Testcase to demonstrate tab retention #1240,123,17527
+1427,48615054,SUCCESS,12,SUCCESS,21,SUCCESS,32,2021-01-05 19:02:43 +1100,Fixes the toString() methods of the Evaluators,123,17536
+1428,42d77caa,SUCCESS,17,SUCCESS,23,SUCCESS,35,2021-01-05 19:16:19 +1100,Use a switch jump table for combinator selection,123,17542
+1429,165b3c82,SUCCESS,20,SUCCESS,22,SUCCESS,29,2021-01-06 12:18:55 +1100,"In W3CDom, treat illegal tag names as text Nodes",122,17342
+1430,40a7d354,SUCCESS,15,SUCCESS,20,SUCCESS,24,2021-01-06 13:01:41 +1100,Corrected changelog order,122,17342
+1431,ec03d274,SUCCESS,16,SUCCESS,18,SUCCESS,27,2021-01-06 14:57:15 +1100,"Dont emit ""EOF"" character tokens",122,17347
+1432,90fd58cd,SUCCESS,16,SUCCESS,19,SUCCESS,27,2021-01-07 11:27:43 +1100,Testcase for noscript EOF token,122,17347
+1433,78e14c4b,SUCCESS,16,SUCCESS,20,SUCCESS,26,2021-01-07 11:29:38 +1100,✨ Happy New Year 2021,122,17347
+1434,0802228b,SUCCESS,17,SUCCESS,24,SUCCESS,31,2021-01-07 17:04:16 +1100,Fixed dangling brace,122,17347
+1435,5174584e,SUCCESS,15,SUCCESS,19,SUCCESS,25,2021-01-08 11:05:18 +1100,Simple test to detect if a document was normalized,122,17347
+1436,1736e798,SUCCESS,15,SUCCESS,18,SUCCESS,26,2021-01-08 12:31:33 +1100,Javadoc typo,122,17347
+1437,7d4f9635,SUCCESS,15,SUCCESS,21,SUCCESS,28,2021-01-09 17:10:32 +1100,"Update japicmp, and enable JDK 16-ea CI builds (#1475)",122,17347
+1438,55e5a428,SUCCESS,18,SUCCESS,22,SUCCESS,30,2021-01-11 17:29:37 +1100,Clarified the nullability annotations within Connection and HttpConnection,122,17391
+1439,b431fb2d,SUCCESS,17,SUCCESS,22,SUCCESS,32,2021-01-20 20:50:18 +1100,Adds easy request session-state and corrects cookie domain and path rules (#1476),126,17832
+1440,73e23c1a,SUCCESS,18,SUCCESS,23,SUCCESS,32,2021-01-27 01:47:22 -0800,Minor performance improvement to Selector.select() (#1479),126,17831
+1441,ae9a18c9,SUCCESS,15,SUCCESS,17,SUCCESS,29,2021-01-30 09:48:33 +1100,Clarified some Cleaner documentation,126,17831

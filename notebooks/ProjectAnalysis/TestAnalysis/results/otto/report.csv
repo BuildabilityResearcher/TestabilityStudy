@@ -1,0 +1,206 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,a3e5b77,SUCCESS,17,SUCCESS,4,SUCCESS,8,2012-06-18 19:52:05 -0700,Initial import.,14,827
+1,1295b6b,SUCCESS,4,SUCCESS,5,SUCCESS,5,2012-06-18 19:54:47 -0700,Bump version to 1.0.0.,14,827
+2,f8b1aec,SUCCESS,5,SUCCESS,5,SUCCESS,6,2012-06-18 19:55:18 -0700,[maven-release-plugin] prepare release eventbus-1.0.0,14,827
+3,89990de,SUCCESS,5,SUCCESS,5,SUCCESS,6,2012-06-18 19:55:20 -0700,[maven-release-plugin] prepare for next development iteration,14,827
+4,d6ece26,SUCCESS,5,SUCCESS,5,SUCCESS,6,2012-06-19 00:09:30 -0700,Add @Producer functionality to the event bus.,17,1020
+5,02f5300,SUCCESS,5,SUCCESS,5,SUCCESS,5,2012-06-20 23:09:55 +0000,Merge pull request #1 from square/jw/producer,17,1020
+6,1e4f4da,SUCCESS,5,SUCCESS,6,SUCCESS,6,2012-06-20 17:36:50 -0700,Impose restrictions on how the class hierarchy of events is treated.,17,833
+7,1f48bf3,SUCCESS,6,SUCCESS,5,SUCCESS,7,2012-06-21 00:58:55 +0000,Merge pull request #3 from square/jw/no-hierarchy,17,833
+8,a71c710,SUCCESS,6,SUCCESS,5,SUCCESS,8,2012-06-21 00:51:26 -0700,Put test dependencies in test scope.,17,833
+9,ce9a830,SUCCESS,5,SUCCESS,6,SUCCESS,5,2012-06-21 15:44:46 -0700,Skip checking all handlers present when unregistering.,17,834
+10,c6cef45,SUCCESS,5,SUCCESS,5,SUCCESS,7,2012-06-21 22:46:20 +0000,Merge pull request #5 from square/jw/quickerize,17,834
+11,ef728f3,SUCCESS,5,SUCCESS,5,SUCCESS,6,2012-06-21 18:36:43 -0700,"Rename package to ""otto"".",17,834
+12,73aaebd,SUCCESS,6,SUCCESS,5,SUCCESS,6,2012-06-22 02:13:57 +0000,Merge pull request #6 from square/jw/package,17,834
+13,07a78f5,SUCCESS,4,SUCCESS,6,SUCCESS,6,2012-06-21 19:19:05 -0700,Add thread enforcement to public API calls.,19,887
+14,1e59e95,SUCCESS,5,SUCCESS,4,SUCCESS,7,2012-06-22 16:51:20 -0700,Bump version to 1.1.0.,17,834
+15,3021588,SUCCESS,5,SUCCESS,5,SUCCESS,7,2012-06-22 16:51:55 -0700,[maven-release-plugin] prepare release otto-1.1.0,17,834
+16,951aedd,SUCCESS,5,SUCCESS,5,SUCCESS,6,2012-06-22 16:52:03 -0700,[maven-release-plugin] prepare for next development iteration,17,834
+17,d5192bb,SUCCESS,6,SUCCESS,5,SUCCESS,6,2012-06-23 04:21:40 +0000,Merge pull request #4 from square/jw/thread-enforcer,19,887
+18,486bef1,FAIL,19,NO,0,NO,0,2012-06-23 10:54:31 -0700,Refactor into multimodule project.,25,1048
+19,34906d9,FAIL,6,NO,0,NO,0,2012-06-25 20:02:07 -0700,Convert to JUnit4-style tests.,25,1069
+20,895ac54,FAIL,6,NO,0,NO,0,2012-06-25 20:28:56 -0700,Website copy feedback and tweaks.,25,1069
+21,1b66cef,FAIL,6,NO,0,NO,0,2012-06-25 22:16:23 -0700,Javadoc cleanup.,25,1065
+22,3205de6,FAIL,5,NO,0,NO,0,2012-06-25 22:53:11 -0700,More website copy tweak. Desktop layout adjustment.,25,1065
+23,b7fedb8,FAIL,7,NO,0,NO,0,2012-06-25 23:07:57 -0700,Ensure tests pass. Oops.,25,1065
+24,d1c0129,FAIL,5,NO,0,NO,0,2012-06-25 23:41:52 -0700,Update README with more information.,25,1065
+25,3591a72,FAIL,6,NO,0,NO,0,2012-06-25 23:48:49 -0700,Update change log with updates since last version.,25,1065
+26,202d715,FAIL,5,NO,0,NO,0,2012-06-26 00:33:43 -0700,Don't wrap inline code blocks.,25,1065
+27,71dbb9a,FAIL,6,NO,0,NO,0,2012-06-26 15:46:47 +0000,Merge pull request #7 from square/jw/sample,25,1065
+28,ce82ad9,FAIL,6,NO,0,NO,0,2012-06-26 10:29:19 -0700,Code review and build system fix.,25,1065
+29,c85faee,FAIL,6,NO,0,NO,0,2012-06-26 17:37:28 +0000,Merge pull request #8 from square/jw/code-review,25,1065
+30,4b4c7e9,FAIL,5,NO,0,NO,0,2012-06-28 10:39:03 -0700,its -> it is,25,1065
+31,2fcfb8c,FAIL,8,NO,0,NO,0,2012-06-28 10:44:46 -0700,Add parent pom for open sourcing.,25,1065
+32,d873f8b,FAIL,6,NO,0,NO,0,2012-06-28 16:41:55 -0700,Update pom for deployment on public GitHub.,25,1065
+33,b0287f7,FAIL,6,NO,0,NO,0,2012-06-28 16:42:09 -0700,Bump version to 1.2.0.,25,1065
+34,0852566,FAIL,8,NO,0,NO,0,2012-06-28 16:50:03 -0700,[maven-release-plugin] prepare release 1.2.0,25,1065
+35,e8230ec,FAIL,5,NO,0,NO,0,2012-06-28 16:50:08 -0700,[maven-release-plugin] prepare for next development iteration,25,1065
+36,3e8da93,FAIL,6,NO,0,NO,0,2012-06-30 18:13:37 -0700,Do not allow producers to return null.,25,1068
+37,3e5a15b,FAIL,5,NO,0,NO,0,2012-06-30 23:02:03 -0700,Merge pull request #1 from square/jw/no-nulls,25,1068
+38,679203f,FAIL,6,NO,0,NO,0,2012-07-01 00:09:03 -0700,Add test case for null producers.,25,1077
+39,346882a,FAIL,6,NO,0,NO,0,2012-07-01 12:51:03 -0700,Bump version to 1.2.1.,25,1077
+40,ff16b3d,FAIL,6,NO,0,NO,0,2012-07-01 12:55:08 -0700,[maven-release-plugin] prepare release 1.2.1,25,1077
+41,e01821b,FAIL,6,NO,0,NO,0,2012-07-01 12:55:13 -0700,[maven-release-plugin] prepare for next development iteration,25,1077
+42,9d34a9d,FAIL,6,NO,0,NO,0,2012-07-02 13:52:29 -0700,Fence POM dependency element as XML,25,1077
+43,b8629cc,FAIL,6,NO,0,NO,0,2012-07-02 13:54:02 -0700,Merge pull request #2 from kevinsawicki/patch-1,25,1077
+44,0bcec49,FAIL,7,NO,0,NO,0,2012-07-02 14:00:25 -0700,Use possessive version of its,25,1077
+45,ee47e8e,FAIL,5,NO,0,NO,0,2012-07-02 14:06:31 -0700,Merge pull request #3 from kevinsawicki/patch-2,25,1077
+46,abf2114,FAIL,6,NO,0,NO,0,2012-07-04 12:42:39 -0500,"Never log toString() for arbitrary objects, as this could expose sensitive application data. When logging InvocationTargetException, log the cause, as that's the interesting bit.",25,1081
+47,49983bd,FAIL,6,NO,0,NO,0,2012-07-04 14:14:00 -0700,Merge pull request #4 from eburke/burke/fixlog,25,1081
+48,3a1b362,FAIL,6,NO,0,NO,0,2012-07-05 00:16:06 +0300,Update master,25,1081
+49,fee5e5b,FAIL,6,NO,0,NO,0,2012-07-05 00:44:45 -0700,Merge pull request #5 from romansky/master,25,1081
+50,234bebf,FAIL,6,NO,0,NO,0,2012-07-16 21:27:44 -0700,Don't swallow handler exceptions: fail fast,25,1099
+51,04dd057,FAIL,6,NO,0,NO,0,2012-07-17 10:36:25 -0700,Merge pull request #9 from square/dont-swallow-exceptions,25,1099
+52,7f05afc,FAIL,6,NO,0,NO,0,2012-07-17 10:47:17 -0700,Update change log. Bump to working on 1.3.0.,25,1099
+53,7b9543a,FAIL,6,NO,0,NO,0,2012-07-18 15:15:07 -0700,Allow @Produce methods to return null when they have nothing to say.,26,1114
+54,09edc5c,FAIL,6,NO,0,NO,0,2012-07-18 20:03:58 -0700,Merge pull request #12 from square/ray/produce-null-is-okay,26,1114
+55,ec4060e,FAIL,6,NO,0,NO,0,2012-07-18 22:44:19 -0700,Update change log for #12.,26,1114
+56,cd0453b,FAIL,6,NO,0,NO,0,2012-07-19 15:37:50 -0700,Fail-fast when attempting to subscribe or produce on non-public methods.,26,1152
+57,abb069f,FAIL,6,NO,0,NO,0,2012-07-19 15:46:33 -0700,Merge pull request #13 from square/fail-on-non-public-methods,26,1152
+58,dd22ddf,FAIL,6,NO,0,NO,0,2012-07-23 08:59:00 -0700,Mention public accessor requirement. Closes #11.,26,1152
+59,912abca,FAIL,6,NO,0,NO,0,2012-08-01 22:38:43 -0600,Using putIfAbsent to ensure concurrency when using ConcurrentHashMap,27,1217
+60,fd4e991,FAIL,7,NO,0,NO,0,2012-08-02 20:05:15 -0600,Switched ConcurrentHashMap to ConcurrentMap interface Removed unit tests per discussion.,26,1157
+61,a283a3b,FAIL,5,NO,0,NO,0,2012-08-06 18:23:52 -0700,Better reporting of producer exceptions.,26,1155
+62,18b1be3,FAIL,7,NO,0,NO,0,2012-08-06 18:30:36 -0700,Merge pull request #17 from square/ray/better-reporting-of-producer-exception,26,1155
+63,8a366a0,FAIL,6,NO,0,NO,0,2012-08-08 13:19:47 -0700,Bump version to 1.3.0.,26,1155
+64,7162d56,FAIL,7,NO,0,NO,0,2012-08-08 13:22:38 -0700,Add release plugin.,26,1155
+65,19e62e6,FAIL,5,NO,0,NO,0,2012-08-08 13:24:35 -0700,[maven-release-plugin] prepare release 1.3.0,26,1155
+66,ee0ef79,FAIL,6,NO,0,NO,0,2012-08-08 13:24:44 -0700,[maven-release-plugin] prepare for next development iteration,26,1155
+67,c28fdd5,FAIL,6,NO,0,NO,0,2012-08-10 19:45:46 +0300,Update website/index.html,26,1155
+68,77883be,FAIL,7,NO,0,NO,0,2012-08-10 09:55:50 -0700,Merge pull request #19 from pyricau/patch-1,26,1155
+69,40906eb,FAIL,6,NO,0,NO,0,2012-08-10 20:05:14 +0200,Documents necessary ProGuard configuration.,26,1155
+70,ee8abb7,FAIL,5,NO,0,NO,0,2012-08-10 11:16:45 -0700,Merge pull request #20 from subsis/master,26,1155
+71,b3fc210,FAIL,6,NO,0,NO,0,2012-08-10 14:22:25 -0700,Merge pull request #16 from johncarl81/master,26,1160
+72,33e449a,FAIL,7,NO,0,NO,0,2012-08-29 19:54:46 +0200,Docfix: Annotation is called Produce and not Provide.,26,1155
+73,a4412b8,FAIL,7,NO,0,NO,0,2012-08-29 10:57:51 -0700,Merge pull request #21 from subsis/master,26,1160
+74,b324f62,FAIL,6,NO,0,NO,0,2012-07-30 22:00:17 -0700,Enable more useful checkstyle checks.,26,1160
+75,930d091,FAIL,10,NO,0,NO,0,2012-09-05 21:55:35 -0700,Plugin and dependency updates.,26,1160
+76,1f0dab2,FAIL,6,NO,0,NO,0,2012-09-09 03:09:16 -0700,Dynamically fetch latest version for download button.,26,1160
+77,6eebf76,FAIL,7,NO,0,NO,0,2012-09-17 11:51:06 -0700,Update android maven plugin version.,26,1160
+78,924ebcd,FAIL,6,NO,0,NO,0,2012-09-17 11:54:33 -0700,Bump version to 1.3.1.,26,1160
+79,faf52ac,FAIL,6,NO,0,NO,0,2012-09-17 11:55:33 -0700,[maven-release-plugin] prepare release 1.3.1,26,1160
+80,68bdd64,FAIL,6,NO,0,NO,0,2012-09-17 11:55:43 -0700,[maven-release-plugin] prepare for next development iteration,26,1160
+81,a967b91,FAIL,7,NO,0,NO,0,2012-09-17 12:55:07 -0700,Add a CONTRIBUTING file.,26,1160
+82,88f7592,FAIL,6,NO,0,NO,0,2012-09-17 13:09:54 -0700,Merge pull request #23 from square/jw/dem-contributions,26,1160
+83,5369c3d,FAIL,7,NO,0,NO,0,2012-09-20 21:28:51 -0700,Updated some comments; mostly focused on replacing passive with active voice,26,1160
+84,5294fa2,FAIL,6,NO,0,NO,0,2012-09-20 22:41:26 -0700,Merge pull request #24 from eburke/eburke/comments,26,1160
+85,10d76f8,FAIL,6,NO,0,NO,0,2012-10-05 22:34:35 -0700,Add Travis config.,26,1160
+86,71aafd9,FAIL,6,NO,0,NO,0,2012-10-05 23:01:05 -0700,Do not build gh-pages branch.,26,1160
+87,13f9978,FAIL,7,NO,0,NO,0,2012-10-05 23:07:53 -0700,Use organization name.,26,1160
+88,0b5cb1a,FAIL,7,NO,0,NO,0,2012-10-05 23:12:57 -0700,Include platform tools in android setup.,26,1160
+89,b3302d1,FAIL,6,NO,0,NO,0,2012-10-10 12:47:24 -0700,Correct 'groupId' casing. Closes #25.,26,1160
+90,3c418cb,FAIL,7,NO,0,NO,0,2012-10-16 13:07:26 -0400,"add found handlers, then dispatch produced events",29,1246
+91,05ad7a4,FAIL,7,NO,0,NO,0,2012-10-16 10:46:26 -0700,Merge pull request #28 from loganj/two_pass_register,29,1246
+92,d7f3d59,FAIL,7,NO,0,NO,0,2012-10-16 10:50:19 -0700,Update change log.,29,1246
+93,b2a63d6,FAIL,7,NO,0,NO,0,2012-10-16 10:52:15 -0700,[maven-release-plugin] prepare release 1.3.2,29,1246
+94,f980c22,FAIL,8,NO,0,NO,0,2012-10-16 10:52:26 -0700,[maven-release-plugin] prepare for next development iteration,29,1246
+95,c186a6b,FAIL,7,NO,0,NO,0,2012-10-16 21:23:30 -0700,Logo!,29,1246
+96,47a33e6,FAIL,7,NO,0,NO,0,2012-10-16 21:27:30 -0700,Write checkstyle to stdout.,29,1246
+97,4f8c074,FAIL,6,NO,0,NO,0,2012-10-22 21:01:53 -0700,Change ThreadEnforcer ANY to NONE for clarity.,29,1247
+98,8206a8f,FAIL,8,NO,0,NO,0,2012-10-23 05:57:48 -0700,Merge pull request #32 from square/jw/none,29,1247
+99,f7b7231,FAIL,7,NO,0,NO,0,2012-10-18 14:51:02 -0400,Objects never produce or handle once unregistered.,29,1276
+100,9f189ac,FAIL,6,NO,0,NO,0,2012-10-23 08:03:43 -0700,Remove ANY instead of deprecating.,29,1246
+101,dbf6eef,FAIL,6,NO,0,NO,0,2012-10-23 08:12:11 -0700,Merge pull request #34 from square/jw/none,29,1246
+102,a0eda4a,FAIL,7,NO,0,NO,0,2012-11-07 17:42:34 -0500,Corrected a typo in a comment,29,1246
+103,5bf15aa,FAIL,6,NO,0,NO,0,2012-11-07 14:46:58 -0800,Merge pull request #35 from joeykrim/patch-1,29,1246
+104,5dc3f1a,FAIL,7,NO,0,NO,0,2012-11-08 17:09:23 -0800,Disallow @Produce on methods returning void.,29,1253
+105,afb833d,FAIL,6,NO,0,NO,0,2012-11-08 17:12:17 -0800,Merge pull request #36 from square/jw/void,29,1253
+106,c73d738,FAIL,6,NO,0,NO,0,2012-11-08 17:26:01 -0800,Rookie mistake. Use void's type.,29,1253
+107,35c2422,FAIL,5,NO,0,NO,0,2012-11-08 18:00:48 -0800,Update change log for disallowing void return type.,29,1253
+108,3cd963d,FAIL,6,NO,0,NO,0,2012-11-19 09:55:53 -0800,Merge pull request #29 from loganj/complete_unregister_fix,29,1282
+109,802f4e3,FAIL,8,NO,0,NO,0,2013-01-08 10:46:59 -0500,strip InvocationTargetException from stack traces,29,1288
+110,6da1e74,FAIL,6,NO,0,NO,0,2013-01-08 08:48:42 -0800,Fix Travis build.,29,1282
+111,cfd7994,FAIL,6,NO,0,NO,0,2013-01-08 08:54:13 -0800,Merge pull request #41 from square/jw/fix-travis,29,1282
+112,41f8a0f,FAIL,6,NO,0,NO,0,2013-01-25 20:43:16 -0500,add lineSeparator property to NewlineAtEndOfFile checkstyle module to avoid spurious errors on Windows.,29,1282
+113,9ce8fdc,FAIL,5,NO,0,NO,0,2013-01-28 09:37:12 -0500,fix issue #47 - run enforce goal during Eclipse builds.,29,1282
+114,10a7501,FAIL,6,NO,0,NO,0,2013-01-31 13:59:15 -0500,remove module DoubleCheckedLocking (no longer supported as of Checkstyle 5.6),29,1282
+115,8f56e10,FAIL,6,NO,0,NO,0,2013-01-31 14:02:46 -0500,add .checkstyle file (generated by Eclipse checkstyle plugin),29,1282
+116,39c92c1,FAIL,5,NO,0,NO,0,2013-01-31 13:47:20 -0500,provide more detailed explanatory message with IllegalArgumentException thrown when conflicting Producer methods are detected.,29,1286
+117,7325824,FAIL,6,NO,0,NO,0,2013-01-31 12:19:07 -0800,Merge pull request #52 from adennie/add-dot-checkstyle-to-gitignore,29,1282
+118,9afad9a,FAIL,7,NO,0,NO,0,2013-01-31 13:27:57 -0800,Merge pull request #49 from adennie/remove-checkstyle-doublechecked-locking,29,1282
+119,2ce66d0,FAIL,6,NO,0,NO,0,2013-02-01 11:37:00 -0500,fix compiler warning about use of unparameterized Comparable declaration. Replaced Comparable with Serializable.,29,1283
+120,f0a536b,FAIL,6,NO,0,NO,0,2013-02-01 09:05:59 -0800,Merge pull request #54 from adennie/fix-comparable-warning,29,1283
+121,74b789a,FAIL,7,NO,0,NO,0,2013-02-06 14:48:54 -0500,"Add OttoBus base interface, and have Bus implement it. Creating a base interface allows instances of classes that act like a Bus but aren't a Bus (e.g. ScopedBus) to be passed around as a standard interface. To minimize disruption to existing code, I left the name of the Bus class alone and named the interface OttoBus.",30,1287
+122,7da0715,FAIL,5,NO,0,NO,0,2013-02-07 11:10:54 -0500,fixed comment block indentation,30,1287
+123,0cc5440,FAIL,6,NO,0,NO,0,2013-02-08 16:26:43 -0500,restore blank lines in copyright/license comment header.,30,1287
+124,b0daa0d,FAIL,7,NO,0,NO,0,2013-02-13 20:45:19 -0800,Merge pull request #55 from adennie/base-interface,30,1288
+125,4e40a7c,FAIL,6,NO,0,NO,0,2013-02-13 20:46:10 -0800,Merge pull request #48 from adennie/issue47,30,1288
+126,f80f9e3,FAIL,6,NO,0,NO,0,2013-02-13 20:47:24 -0800,Merge pull request #46 from adennie/checkstyle-line-separator,30,1288
+127,52d2084,FAIL,6,NO,0,NO,0,2013-02-13 20:48:33 -0800,Merge branch 'better-conflicting-producer-exception' of https://github.com/adennie/otto into adennie-better-conflicting-producer-exception,30,1292
+128,e29ffc5,FAIL,7,NO,0,NO,0,2013-02-13 20:50:10 -0800,Package scope the variable directly.,30,1290
+129,19ffb8b,FAIL,7,NO,0,NO,0,2013-02-13 20:54:26 -0800,Merge branch 'master' of github.com:square/otto,30,1290
+130,522ec09,FAIL,6,NO,0,NO,0,2013-02-13 20:55:42 -0800,Merge branch 'unpack_ites' of https://github.com/loganj/otto into loganj-unpack_ites,30,1296
+131,5a23b57,FAIL,6,NO,0,NO,0,2013-02-13 20:58:20 -0800,Formatting.,30,1296
+132,2fd53f3,FAIL,7,NO,0,NO,0,2013-02-13 22:01:06 -0800,Space.,30,1296
+133,c5c047f,FAIL,7,NO,0,NO,0,2013-02-13 22:09:41 -0800,Two space poms.,30,1296
+134,bbe34b1,FAIL,6,NO,0,NO,0,2013-02-14 16:39:08 -0800,"Revert ""Change ThreadEnforcer ANY to NONE for clarity.""",30,1296
+135,98a6a68,FAIL,6,NO,0,NO,0,2013-02-14 16:41:50 -0800,"Revert ""Add OttoBus base interface, and have Bus implement it.""",29,1291
+136,fe2b58c,FAIL,6,NO,0,NO,0,2013-02-14 16:48:09 -0800,"Update change log, version.",29,1291
+137,36169f8,FAIL,5,NO,0,NO,0,2013-02-14 16:53:44 -0800,Mention concurrency fix in CHANGELOG.,29,1291
+138,016b338,FAIL,7,NO,0,NO,0,2013-02-15 23:46:39 -0800,Update documentation,29,1291
+139,94283c3,FAIL,6,NO,0,NO,0,2013-02-18 11:25:01 -0800,Fix Javadoc tag. Avoid needless object creation.,29,1291
+140,e5a357e,FAIL,5,NO,0,NO,0,2013-02-18 11:25:38 -0800,Merge pull request #63 from square/jw/nit-picks,29,1291
+141,237b2ac,FAIL,6,NO,0,NO,0,2013-02-18 11:42:17 -0800,Update website to fetch version from Maven central.,29,1291
+142,8e4ab1f,FAIL,6,NO,0,NO,0,2013-02-18 11:43:12 -0800,Merge pull request #64 from square/jw/mash-all-the-keys,29,1291
+143,7d0f4d0,FAIL,6,NO,0,NO,0,2013-02-18 11:44:42 -0800,Bump to version 1.3.3.,29,1291
+144,e6b8647,FAIL,6,NO,0,NO,0,2013-02-18 11:46:32 -0800,[maven-release-plugin] prepare release 1.3.3,29,1291
+145,9d3b235,FAIL,5,NO,0,NO,0,2013-02-18 11:46:39 -0800,[maven-release-plugin] prepare for next development iteration,29,1291
+146,f5de245,FAIL,6,NO,0,NO,0,2013-02-21 17:55:19 -0800,Merge pull request #62 from matthewmichihara/master,29,1291
+147,2d162d4,FAIL,6,NO,0,NO,0,2013-05-04 01:17:48 -0700,Update website to new style.,29,1291
+148,4673439,FAIL,7,NO,0,NO,0,2013-05-10 12:02:56 -0700,Add website deploy script.,29,1291
+149,750bac1,FAIL,6,NO,0,NO,0,2013-06-24 11:25:32 -0700,Actively throw NPEs when un/registering null objects,29,1310
+150,36e88fd,FAIL,6,NO,0,NO,0,2013-06-24 11:34:16 -0700,Merge pull request #90 from square/holmes/message-when-null,29,1310
+151,35984de,FAIL,6,NO,0,NO,0,2013-06-24 11:46:21 -0700,Prepare for 1.3.4.,29,1310
+152,eb531ff,FAIL,6,NO,0,NO,0,2013-06-24 12:20:52 -0700,[maven-release-plugin] prepare release 1.3.4,29,1310
+153,06327a7,FAIL,5,NO,0,NO,0,2013-06-24 12:20:55 -0700,[maven-release-plugin] prepare for next development iteration,29,1310
+154,6326fde,FAIL,15,NO,0,NO,0,2013-08-08 08:21:50 -0700,Update maven android plugin.,29,1310
+155,7753355,FAIL,6,NO,0,NO,0,2013-09-06 11:00:54 -0700,"Adds ""Creating a Bus"" section",29,1310
+156,9eb96fc,FAIL,5,NO,0,NO,0,2013-09-06 11:19:19 -0700,Adds file comments,29,1310
+157,16eb776,FAIL,6,NO,0,NO,0,2013-09-06 11:23:25 -0700,"Reduces the ""Create a Bus"" section greatly",29,1310
+158,dd4cd15,FAIL,6,NO,0,NO,0,2013-09-06 15:31:55 -0700,"Reduces the ""Create a Bus"" section into the Usage sentence",29,1310
+159,2afb899,FAIL,6,NO,0,NO,0,2013-09-06 15:38:45 -0700,Merge pull request #93 from imminent/patch-1,29,1310
+160,e9b3a30,FAIL,6,NO,0,NO,0,2013-11-15 09:33:14 +0000,Fix proguard instructions to preserve annotations,29,1310
+161,7b6b022,FAIL,7,NO,0,NO,0,2014-02-19 09:50:35 -0500,Adds Gradle to Website Docs,29,1310
+162,abdd0f2,FAIL,7,NO,0,NO,0,2014-02-19 08:25:42 -0800,Merge pull request #104 from mbarany/website-gradle,29,1310
+163,184828f,FAIL,17,NO,0,NO,0,2014-02-19 23:15:37 -0800,Update Travis CI build.,29,1310
+164,5976f3d,FAIL,7,NO,0,NO,0,2014-02-21 00:09:44 -0800,Deprecate G+ community in favor of StackOverflow.,29,1310
+165,f3c4ae3,FAIL,7,NO,0,NO,0,2014-03-02 17:35:35 -0500,Updated reference to sample application,29,1310
+166,b821b22,FAIL,6,NO,0,NO,0,2014-03-02 16:27:44 -0800,Merge pull request #105 from joeykrim/patch-2,29,1310
+167,893420d,FAIL,7,NO,0,NO,0,2014-05-12 07:48:51 -0500,Link more detail to exceptions,29,1310
+168,9b67a73,FAIL,6,NO,0,NO,0,2014-05-12 05:56:27 -0700,Merge pull request #117 from pforhan/pforhan/improve-stacktraces,29,1310
+169,fc419a9,FAIL,7,NO,0,NO,0,2014-05-13 13:16:24 -0700,Ignore annotations on synthetic bridge methods.,29,1323
+170,972bd22,FAIL,7,NO,0,NO,0,2014-06-09 16:38:14 -0700,Merge branch 'jw/bridge-annotations',29,1323
+171,c0dd25c,FAIL,7,NO,0,NO,0,2014-06-09 16:57:38 -0700,Merge pull request #98 from npombourcq/proguard-instructions,29,1323
+172,632d491,FAIL,7,NO,0,NO,0,2014-06-09 17:09:40 -0700,Prepare version 1.3.5.,29,1323
+173,70a4b29,FAIL,7,NO,0,NO,0,2014-06-09 17:27:45 -0700,Better naming of folders.,29,1323
+174,e650f1c,FAIL,6,NO,0,NO,0,2014-06-09 17:32:47 -0700,Update release plugin.,29,1323
+175,a109e2e,FAIL,6,NO,0,NO,0,2014-06-09 17:34:07 -0700,[maven-release-plugin] prepare release otto-parent-1.3.5,29,1323
+176,7f32e50,FAIL,8,NO,0,NO,0,2014-06-09 17:34:11 -0700,[maven-release-plugin] prepare for next development iteration,29,1323
+177,1885c49,FAIL,6,NO,0,NO,0,2014-11-19 14:25:13 -0800,Use new central artifact redirect link.,29,1323
+178,2735190,FAIL,7,NO,0,NO,0,2014-11-19 17:47:01 -0500,Merge pull request #130 from square/jw/new-redirect-link,29,1323
+179,1fcfee9,FAIL,6,NO,0,NO,0,2014-12-20 01:23:05 -0800,Auto-deploy snapshots from Travis CI to Sonatype.,29,1323
+180,8de3a08,FAIL,6,NO,0,NO,0,2014-12-20 01:25:58 -0800,Merge pull request #133 from square/jw/auto-deploy,29,1323
+181,46237e8,FAIL,6,NO,0,NO,0,2014-12-20 02:14:08 -0800,Errors fail the deploy script.,29,1323
+182,25effd4,FAIL,7,NO,0,NO,0,2015-01-19 11:42:03 -0800,Do not allow the same instance to be registered twice.,29,1332
+183,5ebd584,FAIL,7,NO,0,NO,0,2015-01-19 14:52:24 -0500,Merge pull request #140 from square/jw/fail-double-register,29,1332
+184,7a777b6,FAIL,7,NO,0,NO,0,2015-01-19 22:54:44 -0800,Prepare verseion 1.3.6.,29,1332
+185,41c1933,FAIL,18,NO,0,NO,0,2015-01-19 22:57:06 -0800,Throw random upgrades at the build tool until it stops complaining.,29,1332
+186,f6fb4d4,FAIL,8,NO,0,NO,0,2015-01-19 22:59:38 -0800,[maven-release-plugin] prepare release otto-parent-1.3.6,29,1332
+187,ebb60ac,FAIL,9,NO,0,NO,0,2015-01-19 22:59:42 -0800,[maven-release-plugin] prepare for next development iteration,29,1332
+188,1de58c8,FAIL,5,NO,0,NO,0,2015-05-07 15:12:45 -0500,ensure flattenHierarchy method is threadsafe,29,1333
+189,ec78b69,FAIL,7,NO,0,NO,0,2015-05-08 10:26:49 -0400,Prepare version 1.3.7.,29,1333
+190,1cb0920,FAIL,8,NO,0,NO,0,2015-05-08 10:30:46 -0400,[maven-release-plugin] prepare release otto-parent-1.3.7,29,1333
+191,a25d110,FAIL,8,NO,0,NO,0,2015-05-08 10:30:48 -0400,[maven-release-plugin] prepare for next development iteration,29,1333
+192,936f692,FAIL,7,NO,0,NO,0,2015-06-02 17:14:46 -0700,Make static hashmaps thread safe,29,1344
+193,468681b,FAIL,7,NO,0,NO,0,2015-06-17 00:54:49 -0400,Prepare version 1.3.8.,29,1344
+194,fe42ae3,FAIL,8,NO,0,NO,0,2015-06-17 00:55:48 -0400,[maven-release-plugin] prepare release otto-parent-1.3.8,29,1344
+195,f23d016,FAIL,9,NO,0,NO,0,2015-06-17 00:55:50 -0400,[maven-release-plugin] prepare for next development iteration,29,1344
+196,e92c9d5,FAIL,7,NO,0,NO,0,2015-10-26 22:40:40 -0400,Update links to Javadoc.,29,1344
+197,8d17f1e,FAIL,8,NO,0,NO,0,2015-10-26 22:43:26 -0400,Merge pull request #171 from square/jwilson_1026_update_javadoc_links,29,1344
+198,008bd6e,FAIL,7,NO,0,NO,0,2016-01-15 21:14:38 -0800,Deprecate Otto in favor of RxJava,29,1344
+199,35f3d8e,FAIL,7,NO,0,NO,0,2016-01-15 21:21:00 -0800,Merge pull request #181 from square/jwilson_notto,29,1344
+200,a85ae72,FAIL,7,NO,0,NO,0,2016-01-19 19:41:18 -0500,Add a reference to Kaushik’s blog post on Otto to Rx,29,1344
+201,6f0002a,FAIL,6,NO,0,NO,0,2016-09-06 18:46:41 -0500,update blog link,29,1344
+202,7499e61,FAIL,7,NO,0,NO,0,2016-09-06 21:18:09 -0400,Merge pull request #193 from JesseBuss/blog_link,29,1344
+203,dfac913,FAIL,7,NO,0,NO,0,2018-04-24 19:12:12 +0300,"Replacement of ""compile"" with ""implementation""",29,1344
+204,2a67589,FAIL,6,NO,0,NO,0,2018-04-24 17:23:35 -0400,Merge pull request #206 from TurboProgramming/patch-1,29,1344

@@ -1,0 +1,49 @@
+error,count
+unable to parse http://sourceforge.net/p/checkstyle/code/ci/default/tree/src/testinputs/com/puppycrawl/tools/checkstyle/suppressions_none.xml?format=raw - Document is invalid: no grammar found.,8
+unable to find https://raw.github.com/checkstyle/checkstyle/master/src/testinputs/com/puppycrawl/tools/checkstyle/suppressions_none.xml,70
+unable to find https://raw.github.com/checkstyle/checkstyle/master/src/test/resources/com/puppycrawl/tools/checkstyle/suppressions_none.xml,5
+unable to parse http://checkstyle.sourceforge.net/files/suppressions_none.xml - White spaces are required between publicId and systemId.,1717
+"cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Property &#x27;targets&#x27; in module com.puppycrawl.tools.checkstyle.checks.AbbreviationAsWordInNameCheck does not exist, please check the documentation",10
+"expecting EOF, found &#x27;}&#x27;",1
+unable to read http://checkstyle.sourceforge.net/files/suppressions_none.xml,4
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@3561c410,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@1ab06251,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@6f7923a5,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@1838ccb8,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@60410cd,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Token &quot;ENUM_CONSTANT_DEF&quot; was not found in Acceptable tokens list in check com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck@7393222f,1
+Unable to parse http://checkstyle.sourceforge.net/files/suppressions_none.xml - White spaces are required between publicId and systemId.,3512
+"Index: 3, Size: 3",3
+Unable to parse http://checkstyle.sourceforge.net/non_existing_suppression.xml - White spaces are required between publicId and systemId.,1893
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidClassDefIndent.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidForIndent.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidLabelWithWhileLoopIndent.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputAnonymousClassInMethod.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidIfIndent.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidAnonymousClassIndent.java,1
+cannot initialize module com.puppycrawl.tools.checkstyle.filters.SuppressionFilter - Unable to parse http://checkstyle.sourceforge.net/files/suppressions_none.xml - White spaces are required between publicId and systemId.,2219
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/import-control_one-re.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,74
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/import-control_pkg-re-in-child.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,37
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/import-control_two-re.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,37
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/import-control_pkg-re-in-parent.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,37
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/import-control_pkg-re-in-both.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,37
+"config_imports.xml has invalid Checkstyle xml (cannot initialize module TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;config/import-control.xml&#x27; in module ImportControl): &lt;module name=&quot;ImportControl&quot;&gt;
+    &lt;property name=&quot;file&quot; value=&quot;config/import-control.xml&quot;/&gt;
+&lt;/module&gt;",37
+/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/translation/InputTranslationCheckFireErrors_de.properties (No such file or directory),3
+Unable to parse http://checkstyle.sourceforge.net/non_existent_suppression.xml - White spaces are required between publicId and systemId.,614
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/AbbreviationAsWordInNameCheck.java,1
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/ConstantNameCheck.java,1
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlOneRegExp.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,6
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlPkgRegExpInChild.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,3
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlTwoRegExp.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,3
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlPkgRegExpInParent.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,3
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlPkgRegExpInBoth.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,3
+cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Cannot set property &#x27;file&#x27; to &#x27;/home/bugs/projects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/imports/importcontrol/InputImportControlBlacklist.xml&#x27; in module com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,3
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AtclauseOrderCheck.java,1
+"cannot initialize module com.puppycrawl.tools.checkstyle.TreeWalker - Property &#x27;shouldStartLine&#x27; in module com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck does not exist, please check the documentation",1
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/blocks/LeftCurlyCheck.java,1
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/annotation/PackageAnnotationCheck.java,1
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FallThroughCheck.java,1
+Error was thrown while processing src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/CovariantEqualsCheck.java,1
+Error was thrown while processing /home/bugs/projects/checkstyle/src/test/resources-noncompilable/com/puppycrawl/tools/checkstyle/checks/indentation/indentation/InputIndentationCheckSwitchExpression.java,1

@@ -1,0 +1,3 @@
+error,count
+,13
+OAuth parameters must either be scope or start with &#x27;oauth_&#x27;,32

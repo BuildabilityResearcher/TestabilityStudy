@@ -1,0 +1,4 @@
+error,count
+Empty nameString not allowed,104
+String index out of range: -1,106
+"org.apache.hadoop.fs.FilterFileSystem.copyToLocalFile(boolean, org.apache.hadoop.fs.Path, org.apache.hadoop.fs.Path, boolean)",29

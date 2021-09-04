@@ -1,0 +1,32 @@
+error,count
+,9
+"
+Unnecessary stubbings detected in test class: DefaultLoadBalancingPolicyEventsTest
+Clean &amp; maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -&gt; at com.datastax.oss.driver.internal.core.loadbalancing.DefaultLoadBalancingPolicyEventsTest.setup(DefaultLoadBalancingPolicyEventsTest.java:34)
+Please remove unnecessary stubbings or use &#x27;lenient&#x27; strictness. More info: javadoc for UnnecessaryStubbingException class.",10
+"
+Unnecessary stubbings detected in test class: DefaultLoadBalancingPolicyRequestTrackerTest
+Clean &amp; maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -&gt; at com.datastax.oss.driver.internal.core.loadbalancing.DefaultLoadBalancingPolicyRequestTrackerTest.setup(DefaultLoadBalancingPolicyRequestTrackerTest.java:45)
+Please remove unnecessary stubbings or use &#x27;lenient&#x27; strictness. More info: javadoc for UnnecessaryStubbingException class.",10
+"
+Unnecessary stubbings detected in test class: DcInferringLoadBalancingPolicyEventsTest
+Clean &amp; maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -&gt; at com.datastax.oss.driver.internal.core.loadbalancing.DcInferringLoadBalancingPolicyEventsTest.setup(DcInferringLoadBalancingPolicyEventsTest.java:34)
+Please remove unnecessary stubbings or use &#x27;lenient&#x27; strictness. More info: javadoc for UnnecessaryStubbingException class.",10
+"
+Unnecessary stubbings detected in test class: DefaultLoadBalancingPolicyInitTest
+Clean &amp; maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -&gt; at com.datastax.oss.driver.internal.core.loadbalancing.DefaultLoadBalancingPolicyInitTest.setup(DefaultLoadBalancingPolicyInitTest.java:45)
+Please remove unnecessary stubbings or use &#x27;lenient&#x27; strictness. More info: javadoc for UnnecessaryStubbingException class.",10
+"
+Unnecessary stubbings detected in test class: DcInferringLoadBalancingPolicyInitTest
+Clean &amp; maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -&gt; at com.datastax.oss.driver.internal.core.loadbalancing.DcInferringLoadBalancingPolicyInitTest.setup(DcInferringLoadBalancingPolicyInitTest.java:45)
+Please remove unnecessary stubbings or use &#x27;lenient&#x27; strictness. More info: javadoc for UnnecessaryStubbingException class.",10

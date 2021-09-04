@@ -1,0 +1,7 @@
+exception,count
+junit.framework.AssertionFailedError,170
+junit.framework.ComparisonFailure,17
+java.lang.AssertionError,4
+org.junit.ComparisonFailure,12
+com.google.common.truth.AssertionErrorWithFacts,33
+com.google.common.truth.ComparisonFailureWithFacts,46

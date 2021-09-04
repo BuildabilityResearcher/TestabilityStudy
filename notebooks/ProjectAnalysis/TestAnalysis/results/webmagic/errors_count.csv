@@ -1,0 +1,9 @@
+error,count
+,407
+Could not get a resource from the pool,1
+The driver executable does not exist: /Users/yihua/Downloads/chromedriver,6
+"Unexpected exception, expected&lt;java.lang.NullPointerException&gt; but was&lt;java.lang.NoSuchMethodError&gt;",1
+org/apache/commons/lang/Validate,6
+com.google.common.collect.FluentIterable.from([Ljava/lang/Object;)Lcom/google/common/collect/FluentIterable;,36
+Connection reset,24
+"Unexpected exception, expected&lt;java.lang.IllegalArgumentException&gt; but was&lt;java.lang.NullPointerException&gt;",8

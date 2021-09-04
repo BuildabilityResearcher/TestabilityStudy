@@ -1,0 +1,815 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,7e6ed0af,SUCCESS,21,SUCCESS,4,FAIL,9,2010-06-11 02:57:11 -0300,Protocol implementation,4,236
+1,0f3217ff,SUCCESS,5,SUCCESS,5,SUCCESS,5,2010-06-11 09:53:26 -0300,Small refactoring to separate commands from connection,4,199
+2,be06049f,SUCCESS,4,SUCCESS,5,SUCCESS,5,2010-06-11 10:17:37 -0300,Added license file,4,199
+3,bba8407f,SUCCESS,5,SUCCESS,5,FAIL,4,2010-06-11 10:18:33 -0300,Oh damn! forgot to add these files,6,252
+4,421d0414,SUCCESS,6,SUCCESS,6,FAIL,4,2010-06-11 10:18:56 -0300,Added readme file,6,252
+5,829e6d98,SUCCESS,5,SUCCESS,5,FAIL,9,2010-06-11 10:20:16 -0300,Fixed readme file,6,252
+6,55f640c8,SUCCESS,4,SUCCESS,5,FAIL,4,2010-06-11 14:24:28 -0300,Fixed a small typo,6,252
+7,4ccb12cd,SUCCESS,5,SUCCESS,6,FAIL,4,2010-06-11 21:41:46 -0300,Small refactoring to make command definitions even smaller,6,258
+8,def3f38d,SUCCESS,5,SUCCESS,5,FAIL,6,2010-06-12 00:29:46 -0300,Added commands operating on all kind of values,9,521
+9,de444d0c,SUCCESS,6,SUCCESS,5,FAIL,5,2010-06-13 00:15:42 -0300,Added commands operating on strings,9,663
+10,14dc0399,SUCCESS,5,SUCCESS,5,FAIL,6,2010-06-13 00:17:05 -0300,Increased version,9,663
+11,fdf40d8f,SUCCESS,6,SUCCESS,6,FAIL,5,2010-06-13 02:11:24 -0300,Added hash commands,10,847
+12,0920223e,SUCCESS,6,SUCCESS,6,FAIL,7,2010-06-13 02:13:24 -0300,Readme show now the download section instead of a specific download,10,847
+13,dc07d70e,SUCCESS,6,SUCCESS,6,FAIL,6,2010-06-15 23:28:19 -0300,Check jedis is connected before executing commands,11,860
+14,034315ed,SUCCESS,5,SUCCESS,5,FAIL,7,2010-06-16 17:37:35 -0300,Implemented first List commands,12,930
+15,8815dbb7,SUCCESS,7,SUCCESS,7,FAIL,6,2010-06-22 13:48:59 -0300,Implemented list commands,12,1046
+16,a70037ec,SUCCESS,9,FAIL,6,NO,0,2010-06-22 23:08:58 -0300,Added some set commands,13,1081
+17,ddb60915,SUCCESS,6,SUCCESS,8,FAIL,7,2010-06-24 21:27:54 -0400,Added smembers,13,1087
+18,2c8583d2,SUCCESS,7,SUCCESS,8,FAIL,8,2010-06-25 10:50:14 -0300,Added commands to operate on sets,13,1260
+19,cc26791c,FAIL,6,NO,0,NO,0,2010-06-29 23:03:56 -0300,Added commands operating on sorted sets,14,1455
+20,81cc2cec,SUCCESS,7,SUCCESS,7,FAIL,7,2010-07-05 00:35:47 -0300,Added transactions support,19,2063
+21,20acb5bc,SUCCESS,7,SUCCESS,7,FAIL,6,2010-07-07 22:55:35 -0300,Refactored to support object multi bulk reply,19,2097
+22,ce1ebdd0,SUCCESS,7,SUCCESS,7,FAIL,7,2010-07-07 23:14:25 -0300,Added watch command,19,2118
+23,4d078d74,SUCCESS,7,SUCCESS,8,FAIL,7,2010-07-07 23:22:16 -0300,Added unwatch command,19,2141
+24,d48ab8de,FAIL,9,NO,0,NO,0,2010-07-25 10:36:13 -0300,Partial support for sorting,21,2206
+25,3dd7ca6f,FAIL,6,NO,0,NO,0,2010-07-25 17:51:11 -0300,Added more sorting options,21,2249
+26,ef5518e5,FAIL,7,NO,0,NO,0,2010-08-03 00:32:13 -0300,Implemented BLPOP,21,2290
+27,350865c8,FAIL,6,NO,0,NO,0,2010-08-03 00:37:05 -0300,Implemented by SORT parameter,21,2306
+28,dea8c12d,FAIL,6,NO,0,NO,0,2010-08-03 01:20:01 -0300,Implemented all the sorting parameters,21,2362
+29,21312654,FAIL,6,NO,0,NO,0,2010-08-03 01:23:51 -0300,Implemented BRPOP,21,2388
+30,b4862828,FAIL,6,NO,0,NO,0,2010-08-03 23:47:52 -0300,Implemented AUTH,22,2293
+31,de107a89,FAIL,6,NO,0,NO,0,2010-08-03 23:49:39 -0300,Help update,22,2293
+32,f53c7a1b,FAIL,7,NO,0,NO,0,2010-08-04 19:58:42 -0300,Added a small benchmark test with a small performance improvement,23,2314
+33,b58ae069,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-04 20:03:25 -0300,Moved a core class out of the tests folder,23,2314
+34,1df23415,SUCCESS,7,SUCCESS,6,FAIL,7,2010-08-04 20:15:08 -0300,New exception management. Less exceptions... assume everything works,23,2261
+35,c4e5d0b8,SUCCESS,8,SUCCESS,7,FAIL,7,2010-08-04 20:57:20 -0300,Treat any other type of reply as an error,23,2263
+36,3af260f9,SUCCESS,8,SUCCESS,8,FAIL,8,2010-08-04 22:11:00 -0300,Added DataStreams and BufferedStream to increase performance,23,2268
+37,01da8062,SUCCESS,7,SUCCESS,7,FAIL,6,2010-08-05 00:35:06 -0300,Added receive buffer to the socket,23,2269
+38,56795974,SUCCESS,7,SUCCESS,7,FAIL,8,2010-08-05 21:45:21 -0300,Added pipeline support,26,2326
+39,02c68146,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-05 21:46:03 -0300,Updated doc,26,2326
+40,f629a576,SUCCESS,7,SUCCESS,6,FAIL,7,2010-08-07 15:44:53 -0300,Fixed bug in blpop and brpop tests,26,2334
+41,4c5e8d9f,SUCCESS,8,FAIL,7,NO,0,2010-08-07 16:33:23 -0300,Refactored to be more reliable,26,2330
+42,2a1ca391,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-07 17:54:14 -0300,Added pubsub support,28,2526
+43,5f5a4f44,SUCCESS,7,SUCCESS,8,FAIL,7,2010-08-07 17:54:48 -0300,Updated readme file,28,2526
+44,a842e64f,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-07 17:55:46 -0300,Updated readme file,28,2526
+45,22797464,SUCCESS,8,SUCCESS,8,FAIL,7,2010-08-07 18:04:06 -0300,Added support for ZCOUNT,28,2539
+46,111eb114,SUCCESS,7,SUCCESS,7,FAIL,6,2010-08-07 18:27:51 -0300,Implemented ZRANGEBYSCORE,28,2606
+47,bb543288,SUCCESS,8,SUCCESS,7,FAIL,7,2010-08-07 18:34:42 -0300,Implemented ZREMRANGEBYRANK,28,2624
+48,84f4c450,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-07 19:37:16 -0300,Implemented ZREMRANGEBYSCORE,28,2641
+49,4a769791,SUCCESS,9,SUCCESS,8,FAIL,9,2010-08-07 20:28:26 -0300,Implemented ZUNIONSTORE and ZINTERSTORE,29,2752
+50,86f3cffe,SUCCESS,10,SUCCESS,9,FAIL,9,2010-08-08 12:46:33 -0300,Impmented SAVE command,30,2764
+51,6d92097c,SUCCESS,8,SUCCESS,8,FAIL,7,2010-08-08 12:54:55 -0300,Implemented BGSAVE,30,2773
+52,bf3094f0,SUCCESS,10,SUCCESS,8,FAIL,8,2010-08-08 12:59:02 -0300,Implemented BGREWRITEAOF,30,2782
+53,bb5fe63b,SUCCESS,8,SUCCESS,9,FAIL,7,2010-08-08 13:20:43 -0300,Implemented LASTSAVE,30,2799
+54,5cc2d887,SUCCESS,8,SUCCESS,8,FAIL,8,2010-08-08 13:26:42 -0300,Implemented SHUTDOWN,30,2809
+55,0453ffcd,SUCCESS,9,SUCCESS,8,FAIL,8,2010-08-08 13:29:38 -0300,Implemented INFO,30,2818
+56,f0a426a7,SUCCESS,9,SUCCESS,7,FAIL,7,2010-08-08 13:48:04 -0300,Implemented MONITOR,31,2843
+57,50405b4d,SUCCESS,7,SUCCESS,8,FAIL,7,2010-08-08 13:53:45 -0300,Implemented SLAVEOF,31,2853
+58,69ada882,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-08 13:59:21 -0300,Updated readme file,31,2853
+59,2ba732c6,SUCCESS,7,SUCCESS,7,FAIL,6,2010-08-08 14:05:23 -0300,Increased version to Release Candidate,31,2853
+60,8372092b,SUCCESS,7,SUCCESS,7,FAIL,6,2010-08-08 14:12:39 -0300,Updates readme,31,2853
+61,048d87d2,SUCCESS,7,SUCCESS,8,FAIL,7,2010-08-08 14:52:35 -0300,Addded default socket timeout of 2000 ms,31,2884
+62,8d8c5131,SUCCESS,7,SUCCESS,8,FAIL,7,2010-08-08 15:21:59 -0300,Start with a fresh DB when doing benchmark,31,2886
+63,c2905409,SUCCESS,8,SUCCESS,8,FAIL,8,2010-08-08 15:57:19 -0300,Changed name to ControlParameters which is more appropiate,31,2886
+64,3f0ecebe,SUCCESS,7,SUCCESS,8,FAIL,6,2010-08-08 16:07:33 -0300,Implemented CONFIG,31,2908
+65,ba6673fd,SUCCESS,8,SUCCESS,7,FAIL,7,2010-08-17 21:31:57 -0300,Incresed version,31,2908
+66,2e3dc20c,SUCCESS,8,SUCCESS,7,FAIL,6,2010-08-24 00:14:01 -0300,Fixed issue with converting String to byte array,31,2937
+67,96709e0a,SUCCESS,7,SUCCESS,7,FAIL,7,2010-08-24 00:34:37 -0300,Added connection pool,34,3147
+68,caaf23c3,SUCCESS,7,SUCCESS,6,FAIL,7,2010-08-24 00:35:40 -0300,Increased version,34,3147
+69,d0f011aa,SUCCESS,8,SUCCESS,8,FAIL,7,2010-08-24 00:38:04 -0300,Updated readme file,34,3147
+70,94b7e1d5,SUCCESS,8,SUCCESS,8,FAIL,8,2010-08-24 15:09:40 +0200,Gradle build for Jedis,34,3147
+71,99f29abd,SUCCESS,8,SUCCESS,8,FAIL,8,2010-08-24 15:29:59 -0300,Test will now flush everything before executing,34,3146
+72,f55deca6,SUCCESS,7,SUCCESS,9,FAIL,8,2010-08-24 21:57:13 +0800,discard() method on the Transaction object,34,3148
+73,7c050551,SUCCESS,9,SUCCESS,8,FAIL,8,2010-08-27 17:22:21 -0300,When in multi show a nice error if not using TransactionJedis,34,3262
+74,6a7b1db3,SUCCESS,8,SUCCESS,8,FAIL,9,2010-08-30 05:23:05 +0800,"Need to get this reply from server, otherwise the next read is polluted",34,3263
+75,366b2a05,SUCCESS,9,SUCCESS,9,FAIL,8,2010-08-30 05:22:13 +0800,"Scores should be represented as doubles, not ints",34,3263
+76,aa7a96d0,SUCCESS,9,SUCCESS,11,FAIL,9,2010-08-30 11:12:24 -0300,Fixed broken constructor. Wasn't setting default protocol,34,3273
+77,84bde29d,SUCCESS,9,SUCCESS,9,FAIL,11,2010-08-30 11:16:19 -0300,Increased version,34,3273
+78,00dedc5f,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-03 10:38:33 -0300,"Fix for GH-4, isResourceValid should check for PONG not OK",34,3273
+79,68905396,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-04 11:29:54 -0300,Fixed EOFException issue with JedisPool. Was trying to reuse a broken Jedis,34,3314
+80,71c9c35b,SUCCESS,9,SUCCESS,10,FAIL,8,2010-09-04 11:30:58 -0300,Increased version,34,3314
+81,2c41132c,SUCCESS,9,SUCCESS,8,FAIL,9,2010-09-06 14:54:25 -0300,Remnoved 2 assertions that made tests to fail with the latest version of redis. It was testing too much,34,3309
+82,9fb41cfc,SUCCESS,7,SUCCESS,9,FAIL,8,2010-09-07 09:58:36 -0300,Added sorting support to transaction,34,3315
+83,d3be2f62,SUCCESS,9,SUCCESS,7,FAIL,9,2010-09-07 12:24:17 +0800,FixedResourcePool upgraded Added pool destroy method. Added idle connections validation (When needed) Added metrics log every 10 seconds.,34,3406
+84,e6105efd,SUCCESS,8,SUCCESS,7,FAIL,9,2010-09-07 16:31:32 -0300,Removed not useful information from the pool,34,3446
+85,1d377288,SUCCESS,8,SUCCESS,8,FAIL,8,2010-09-07 17:10:52 -0300,"If it is not possible to create the resource, keep trying until it can",34,3447
+86,eeeef3af,SUCCESS,8,SUCCESS,8,FAIL,10,2010-09-08 11:12:15 -0300,Updated readme,34,3447
+87,8c19367b,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-08 12:07:55 -0300,Fixed typo,34,3447
+88,8207c241,SUCCESS,10,SUCCESS,10,FAIL,10,2010-09-08 17:39:25 -0300,Added a benchmark to the jedis pool,35,3514
+89,395a32c2,SUCCESS,10,SUCCESS,10,FAIL,9,2010-09-09 09:11:58 -0300,Make sure resource is not null before destroying it,35,3514
+90,7e0c5dc4,SUCCESS,10,SUCCESS,9,FAIL,8,2010-09-10 01:58:06 +0800,Added an eclipse busting git ignore,35,3514
+91,562fa70a,SUCCESS,8,SUCCESS,7,FAIL,8,2010-09-09 18:07:28 -0300,Ignore gradle build files,35,3514
+92,f0f6049c,SUCCESS,9,SUCCESS,7,FAIL,8,2010-09-10 17:05:18 +0200,Fix processBulKReply against TCP fragmentation.,35,3516
+93,9211335f,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-10 17:26:09 +0200,Add U test for fragmented processBulkReply patch.,36,3538
+94,de5030e1,SUCCESS,8,SUCCESS,8,FAIL,9,2010-09-10 23:05:18 +0800,Fix processBulKReply against TCP fragmentation.,35,3516
+95,97e2a50f,SUCCESS,8,SUCCESS,9,FAIL,8,2010-09-10 23:26:09 +0800,Add U test for fragmented processBulkReply patch.,36,3538
+96,7c680634,SUCCESS,9,SUCCESS,8,FAIL,9,2010-09-10 18:45:11 +0800,autoboxings fixed,36,3535
+97,a614f1ff,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-10 18:54:39 +0800,return types fixed,36,3533
+98,c6507e61,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-10 19:40:44 +0800,connect in sendCommand() and don't check with isConnected() two times,36,3539
+99,675e2b13,SUCCESS,9,SUCCESS,7,FAIL,8,2010-09-10 19:52:58 +0800,RC5 -> RC5.1,36,3539
+100,d4d13329,SUCCESS,8,SUCCESS,9,FAIL,10,2010-09-11 09:54:06 +0300,isUse must be final otherwise synchronized has no useful semantic,36,3539
+101,a521841f,SUCCESS,10,SUCCESS,10,FAIL,9,2010-09-11 21:15:38 +0300,a bit faster implementation of output stream for Redis,37,3603
+102,b573526a,SUCCESS,10,SUCCESS,10,FAIL,10,2010-09-11 21:48:36 +0300,optimized writeInt,37,3628
+103,aed824c9,SUCCESS,10,SUCCESS,10,FAIL,9,2010-09-12 12:36:16 +0200,more optimizations on write side,37,3657
+104,f9e7887e,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-12 17:05:58 +0200,more optimizations on write side,38,3691
+105,d61f4d79,SUCCESS,9,SUCCESS,8,FAIL,12,2010-09-13 10:55:58 +0200,Allow to execute tests against a remote server.,36,3587
+106,e4ee2c04,SUCCESS,8,SUCCESS,8,FAIL,7,2010-09-13 11:08:02 +0200,Merge from upstream/master.,38,3740
+107,baab2225,SUCCESS,8,SUCCESS,8,FAIL,8,2010-09-14 01:30:59 -0300,Added sharding using ketama,42,4084
+108,411b04a1,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-14 01:34:04 -0300,version bump,42,4084
+109,9b202c3f,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-14 01:34:21 -0300,Updated readme,42,4084
+110,032fe7e1,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-14 11:50:49 +0200,ability to provide logger instead of stdout,38,3697
+111,20dac7e9,SUCCESS,8,SUCCESS,8,FAIL,8,2010-09-14 11:59:25 +0200,more reasonable PoolBenchmark,38,3700
+112,a8ffacd3,SUCCESS,9,SUCCESS,8,FAIL,8,2010-09-14 12:08:56 -0300,Added bunch of missing commands and a test to check if Jedis is updated,43,4201
+113,86293609,SUCCESS,8,SUCCESS,8,FAIL,8,2010-09-14 14:08:49 -0300,Added MurmureHash as sharding algo.,44,4272
+114,f99c4ed6,SUCCESS,8,SUCCESS,7,FAIL,9,2010-09-14 14:10:31 -0300,Updated readme,44,4272
+115,703244c8,SUCCESS,8,SUCCESS,7,FAIL,8,2010-09-14 14:11:57 -0300,Merge branch 'master' of http://github.com/alextkachman/jedis,44,4281
+116,708ae8a5,SUCCESS,8,SUCCESS,8,FAIL,9,2010-09-14 14:17:10 -0300,Fixed small bug in the benchmark test,44,4282
+117,224555af,SUCCESS,9,SUCCESS,9,FAIL,8,2010-09-14 16:43:48 -0300,"Added password to Jedis, JedisPool and ShardedJedis constructor for easier and more efficient usage",44,4305
+118,f4548807,SUCCESS,10,SUCCESS,8,FAIL,10,2010-09-14 16:46:36 -0300,Added redis conf files used in tests,44,4305
+119,4a1d9928,SUCCESS,10,SUCCESS,8,FAIL,10,2010-09-15 10:49:36 +0200,Update the way the Redis host(s) can be configured for the tests.,45,4374
+120,a9d8dfe3,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-15 10:28:41 -0300,Updated readme,44,4305
+121,ed20894c,SUCCESS,10,SUCCESS,9,FAIL,10,2010-09-15 14:41:35 -0300,Refactores primitive types in the API. Now int -> Integer and double -> Double. This is to support Redis null values,44,4309
+122,59f7063b,SUCCESS,10,SUCCESS,8,FAIL,9,2010-09-15 14:44:56 -0300,Merge branch 'master' of http://github.com/yaourt/jedis,45,4378
+123,edcf7412,SUCCESS,9,SUCCESS,9,FAIL,9,2010-09-15 15:06:12 -0300,"Changed MurmurHash algo, to the one developed in http://github.com/tdunning/MAHOUT-228",46,4410
+124,b824da67,SUCCESS,9,SUCCESS,8,FAIL,9,2010-09-15 16:39:11 -0300,version bump,46,4410
+125,e4d5c182,SUCCESS,10,SUCCESS,9,FAIL,8,2010-09-15 16:41:19 -0300,version bump,46,4410
+126,3d154613,SUCCESS,11,SUCCESS,7,FAIL,9,2010-09-15 17:17:24 -0300,Implemented linsert,46,4441
+127,1312c4d4,SUCCESS,10,SUCCESS,9,FAIL,10,2010-09-15 20:17:30 -0300,Added DEBUG command,47,4482
+128,ea784de9,SUCCESS,10,SUCCESS,8,FAIL,9,2010-09-15 23:35:45 -0300,Version bump,47,4482
+129,53efb847,SUCCESS,10,SUCCESS,8,FAIL,9,2010-09-16 15:41:04 +0200,simplification of sharding,48,4443
+130,330135eb,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-16 21:41:04 +0800,simplification of sharding,48,4443
+131,16a44246,SUCCESS,9,SUCCESS,10,FAIL,10,2010-09-20 20:53:15 -0300,version bump,48,4443
+132,bdb29dec,SUCCESS,10,SUCCESS,9,FAIL,10,2010-09-22 11:00:19 -0300,version bump,48,4443
+133,86ae05f1,SUCCESS,11,SUCCESS,9,FAIL,9,2010-09-22 11:07:50 -0300,Fixed a typo in the test,48,4443
+134,592bc69e,SUCCESS,10,SUCCESS,10,FAIL,10,2010-09-22 11:08:03 -0300,Removed ignore attribute,48,4442
+135,6458691d,SUCCESS,9,SUCCESS,9,FAIL,10,2010-09-22 11:09:09 -0300,Merge branch 'master' of github.com:xetorthio/jedis,48,4442
+136,9202d009,SUCCESS,8,SUCCESS,8,FAIL,10,2010-09-22 13:41:51 -0300,Updated license,48,4442
+137,3d838f00,SUCCESS,10,SUCCESS,8,FAIL,9,2010-09-22 14:00:18 -0300,Updated readme,48,4442
+138,2106e82c,SUCCESS,8,SUCCESS,9,FAIL,8,2010-09-25 02:29:50 +0200,updated pom maven will create javadoc and source.jar on mvn install,48,4442
+139,45061f58,SUCCESS,10,SUCCESS,9,FAIL,10,2010-09-27 14:22:48 -0300,Updated readme,48,4442
+140,260b9ce5,SUCCESS,11,SUCCESS,9,FAIL,9,2010-09-27 14:23:30 -0300,Updated readme,48,4442
+141,345fa37c,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-27 14:24:17 -0300,Updated readme,48,4442
+142,723702b4,SUCCESS,9,SUCCESS,8,FAIL,10,2010-09-29 00:14:09 +0200,added javadoc comments and nosearch(),48,4445
+143,c4f92203,SUCCESS,14,SUCCESS,10,FAIL,11,2010-09-29 13:28:59 +0200,Changed pom to fit the requirements of https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide#SonatypeOSSMavenRepositoryUsageGuide-7a.1.POMandsettingsconfig,48,4445
+144,af273f73,SUCCESS,10,SUCCESS,12,FAIL,11,2010-09-29 10:03:00 -0300,Merge branch 'master' of http://github.com/m-heuser/jedis,48,4445
+145,2df3a1b2,SUCCESS,11,SUCCESS,12,FAIL,10,2010-09-30 17:17:51 -0300,Added support for key tags.,48,4473
+146,6da1852d,SUCCESS,11,SUCCESS,10,FAIL,10,2010-09-30 17:28:45 -0300,Merge commit 'origin/master' into key-tags,48,4476
+147,39618506,SUCCESS,9,SUCCESS,10,FAIL,10,2010-09-30 18:14:32 -0300,Key tags support made optional.,48,4490
+148,6a1e1410,SUCCESS,10,SUCCESS,9,FAIL,9,2010-09-30 21:04:21 -0300,Added sharding benchmark and removed some imports,49,4525
+149,ca83b631,SUCCESS,8,SUCCESS,9,FAIL,10,2010-09-30 21:06:34 -0300,version update,49,4525
+150,3d479e8d,SUCCESS,9,SUCCESS,7,FAIL,10,2010-10-01 14:34:30 -0300,[maven-release-plugin] prepare release jedis-1.3.0,49,4525
+151,9db72b74,SUCCESS,10,SUCCESS,10,FAIL,9,2010-10-01 14:34:52 -0300,[maven-release-plugin] prepare for next development iteration,49,4525
+152,45bb7284,SUCCESS,10,SUCCESS,9,FAIL,10,2010-10-01 15:13:53 -0300,Removed System.out and System.err logging. Using native java logging support,49,4554
+153,da876fe7,SUCCESS,10,SUCCESS,9,FAIL,10,2010-10-02 08:46:08 +0200,"Changed scm params to fit for xetorthio's jedis repository, formated SortingParams with java coding style.",49,4554
+154,8447d508,SUCCESS,10,SUCCESS,9,FAIL,10,2010-10-05 11:59:58 -0300,Added mailing list to pom,49,4554
+155,a3ae4f4b,SUCCESS,10,SUCCESS,9,FAIL,9,2010-10-05 12:01:24 -0300,[maven-release-plugin] prepare release jedis-1.3.0,49,4554
+156,a0a2ec46,SUCCESS,10,SUCCESS,9,FAIL,9,2010-10-05 12:08:42 -0300,[maven-release-plugin] prepare for next development iteration,49,4554
+157,a686a526,SUCCESS,10,SUCCESS,9,FAIL,10,2010-10-07 11:22:28 -0300,Updated readme,49,4554
+158,417d4062,SUCCESS,9,SUCCESS,10,FAIL,9,2010-10-08 08:46:59 -0300,"Updated reame with a ""I want to contribute"" section",49,4554
+159,8bbd1f30,SUCCESS,9,SUCCESS,9,FAIL,9,2010-10-08 08:48:36 -0300,Fixed a small typo,49,4554
+160,3b880bba,SUCCESS,10,SUCCESS,9,FAIL,9,2010-10-08 08:49:16 -0300,fixed another small typo,49,4554
+161,3f21dcd0,SUCCESS,9,SUCCESS,9,FAIL,9,2010-10-09 20:46:50 +0200,Fixed a performance issue with utf8 characters.,49,4554
+162,99a50db3,SUCCESS,10,SUCCESS,10,FAIL,10,2010-10-14 09:12:41 -0300,Disabled logging in JedisPool benchmark,49,4535
+163,e38a3fc0,SUCCESS,10,SUCCESS,10,FAIL,10,2010-10-17 17:15:38 +0200,Introducing IJedis common interface for sharded and non-sharded Jedis,50,4609
+164,a732ed3a,SUCCESS,11,SUCCESS,9,FAIL,10,2010-10-17 18:12:06 +0200,IJedis renamed ro JedisCommands,50,4609
+165,2754bbb7,SUCCESS,11,SUCCESS,9,FAIL,9,2010-10-18 11:33:11 -0300,[maven-release-plugin] prepare release jedis-1.3.1,50,4609
+166,8692184f,SUCCESS,10,SUCCESS,11,FAIL,9,2010-10-18 11:33:20 -0300,[maven-release-plugin] prepare for next development iteration,50,4609
+167,7d3fb446,SUCCESS,11,SUCCESS,10,FAIL,11,2010-10-25 14:19:53 -0300,"Added support for -inf, +inf and open/closed intervals to zrangebyscore",50,4617
+168,d70c42ed,SUCCESS,10,SUCCESS,11,FAIL,11,2010-11-02 01:04:02 -0300,Added sharding+pipelining support,51,4934
+169,07f5820a,SUCCESS,10,SUCCESS,10,FAIL,10,2010-11-02 12:33:28 -0300,getIntegerReply should return Integer and not int to support null replies,51,4936
+170,8d34c4cb,SUCCESS,12,SUCCESS,9,FAIL,9,2010-11-02 17:44:47 -0300,Updated readme,51,4936
+171,6bccfbd3,SUCCESS,11,SUCCESS,10,FAIL,9,2010-11-02 17:47:42 -0300,updated readme,51,4936
+172,7a377fd8,SUCCESS,9,SUCCESS,9,FAIL,8,2010-11-02 17:48:49 -0300,updated readme,51,4936
+173,08f84322,SUCCESS,10,SUCCESS,8,FAIL,9,2010-11-02 23:18:24 -0300,now it is possible to subscribe and unsubscribe on a JedisPubSub instance,51,4973
+174,ce876e2b,SUCCESS,10,SUCCESS,9,FAIL,10,2010-11-04 09:21:18 +0100,Add a binary sendCommand(...),51,4988
+175,77590f5b,SUCCESS,9,SUCCESS,8,FAIL,9,2010-11-04 09:25:10 +0100,Added final to methods params,51,4988
+176,69c1c644,SUCCESS,10,SUCCESS,9,FAIL,9,2010-11-04 09:26:26 +0100,processBulkReply(...) now return a byte[] (instead of String).,51,4987
+177,daec806c,SUCCESS,9,FAIL,9,NO,0,2010-11-04 09:31:21 +0100,"UTF-8 charset declared in Protocol, added a getBinaryBulkReply() in Connection",51,4989
+178,ddd39329,SUCCESS,9,FAIL,7,NO,0,2010-11-04 10:22:39 +0100,Code cleanup (final method params),51,5076
+179,377c266d,FAIL,9,NO,0,NO,0,2010-11-04 10:31:20 +0100,Add a sendCommand(String byte[]...) method.,51,5086
+180,85ce39ca,FAIL,8,NO,0,NO,0,2010-11-04 12:22:40 +0100,BinaryClient is born,52,5667
+181,78e7b653,FAIL,8,NO,0,NO,0,2010-11-04 13:45:04 +0100,Client inherits from BinaryClient...,52,5603
+182,9614a99a,FAIL,8,NO,0,NO,0,2010-11-04 13:51:42 +0100,BinaryJedisCommands skeleton,53,5689
+183,7213955d,FAIL,8,NO,0,NO,0,2010-11-04 13:59:26 +0100,JedisCommands inherit from BinaryJediCommands,53,5689
+184,ef1cbfaf,FAIL,9,NO,0,NO,0,2010-11-04 14:08:18 +0100, JedisCommands DOES NOT inherit from BinaryJedisCommand,53,5689
+185,37a39152,FAIL,8,NO,0,NO,0,2010-11-04 14:49:23 +0100,"BinaryJedis is born, Jedis inherits from it",54,6145
+186,84bb16dd,FAIL,8,NO,0,NO,0,2010-11-04 15:08:50 +0100,"BinaryTransactiob is born, Transaction inherits from it",55,6386
+187,e2d81488,SUCCESS,10,SUCCESS,10,FAIL,10,2010-11-04 15:59:50 +0100,Binary key & values seems to be implemented now,56,6616
+188,fd8e3116,SUCCESS,11,SUCCESS,10,FAIL,9,2010-11-04 17:14:06 +0100,Fix broken U tests,56,6641
+189,abd464f9,SUCCESS,12,SUCCESS,10,FAIL,9,2010-11-04 17:48:58 +0100,Implemented commands are retreived from Protocol.Command enum,56,6634
+190,ead39394,SUCCESS,11,SUCCESS,9,FAIL,9,2010-11-04 18:55:00 +0100,"Fix some broken U tests (there are stille broken tests, working on it)",56,6689
+191,dab21609,SUCCESS,9,SUCCESS,9,FAIL,9,2010-11-05 09:33:57 +0100,Fix some more U tests ...,56,6701
+192,f8afa09a,SUCCESS,9,SUCCESS,8,FAIL,9,2010-11-05 09:53:37 +0100,Fix some more U tests ...,56,6704
+193,afad308e,SUCCESS,10,SUCCESS,9,FAIL,8,2010-11-05 09:57:54 +0100,Fix some more U tests ...,56,6706
+194,2836d78c,SUCCESS,12,SUCCESS,9,FAIL,9,2010-11-05 10:17:03 +0100,Fix some more U tests ...,56,6713
+195,ad5f44ed,SUCCESS,11,SUCCESS,9,FAIL,10,2010-11-05 10:21:38 +0100,Fix some more U tests ...,56,6713
+196,a2468dff,SUCCESS,11,SUCCESS,10,FAIL,10,2010-11-05 10:25:41 +0100,Fix some more U tests ...,56,6714
+197,47a39cb5,SUCCESS,11,SUCCESS,8,FAIL,9,2010-11-05 10:28:19 +0100,Fix some more U tests ...,56,6715
+198,a2b3417f,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-05 10:30:02 +0100,Fix some more U tests ...,56,6717
+199,9ff9ab35,SUCCESS,10,SUCCESS,10,FAIL,9,2010-11-05 10:56:54 +0100,Use Arrays.equals(...) instead of hand written method for arrays comparison,56,6711
+200,11fec5c1,SUCCESS,11,SUCCESS,8,FAIL,9,2010-11-05 14:46:37 +0100,Ready to be merged back to master ...,56,6774
+201,70cd1768,SUCCESS,10,SUCCESS,8,FAIL,10,2010-11-05 15:42:38 +0100,Remove duplicates ...,56,6766
+202,c62a6762,SUCCESS,12,SUCCESS,10,FAIL,9,2010-11-05 15:42:51 +0100,Add Binary oriented U tests ...,56,6865
+203,7d58a68d,SUCCESS,10,SUCCESS,9,FAIL,10,2010-11-05 16:09:32 +0100,Binary U test on Hashes ...,56,6967
+204,ad25921e,SUCCESS,10,SUCCESS,8,FAIL,9,2010-11-05 16:41:38 +0100,Binary U test on Lists ...,56,7158
+205,5a87ae46,SUCCESS,9,SUCCESS,9,FAIL,9,2010-11-05 17:11:31 +0100,Binary U test on Sets ...,56,7291
+206,0beeddce,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-05 18:16:16 +0100,Binary U test on SortedSets ...,56,7521
+207,424512d4,SUCCESS,10,FAIL,9,NO,0,2010-11-07 10:48:23 +0100,keys command now return a set (instead of a list).,56,7525
+208,3281bafd,SUCCESS,9,SUCCESS,9,FAIL,9,2010-11-07 10:49:45 +0100,Fix wrong test on lists / sets.,56,7569
+209,4a71dff0,SUCCESS,11,SUCCESS,9,FAIL,8,2010-11-07 18:10:07 +0100,"Binary Sorting fixed, and under U tests.",56,7677
+210,3d8d1522,SUCCESS,12,FAIL,9,NO,0,2010-11-07 22:32:19 +0100,Apache Jakarta commons-pool based JedisPool.,51,4988
+211,6ba7a699,SUCCESS,8,FAIL,9,NO,0,2010-11-07 22:51:28 +0100,Remove unused old pool class.,50,4673
+212,deb049d1,SUCCESS,10,SUCCESS,9,FAIL,9,2010-11-08 11:11:43 +0100,U tests for binary values manipulations.,57,7838
+213,e8704296,SUCCESS,10,SUCCESS,9,FAIL,9,2010-11-08 14:59:57 +0100,Binary U test on Transaction ...,57,7897
+214,dd6874aa,SUCCESS,12,SUCCESS,10,FAIL,9,2010-11-08 15:57:43 +0100,Hashes hkeys and hvals refactored to return a set instead of a list.,57,7901
+215,f6254893,SUCCESS,10,SUCCESS,10,FAIL,9,2010-11-10 13:41:41 -0300,Add a pool for sharded jedis,53,5117
+216,d3362da1,SUCCESS,10,SUCCESS,10,FAIL,11,2010-11-12 15:42:42 +0100,"hvals now return a Collection, not a Set neither a List.",57,7958
+217,b013a74c,SUCCESS,11,SUCCESS,11,FAIL,11,2010-11-15 23:55:57 -0300,Merge branch 'binaryAPI' of git://github.com/yaourt/jedis,61,7898
+218,a6ad0ff1,SUCCESS,12,SUCCESS,11,FAIL,10,2010-11-16 00:03:18 -0300,version bump,61,7898
+219,1bdb1632,SUCCESS,11,SUCCESS,10,FAIL,8,2010-11-16 00:07:00 -0300,[maven-release-plugin] prepare release jedis-1.4.0,61,7898
+220,851291f1,SUCCESS,9,SUCCESS,10,FAIL,9,2010-11-16 00:07:08 -0300,[maven-release-plugin] prepare for next development iteration,61,7898
+221,e7582644,FAIL,9,NO,0,NO,0,2010-11-21 17:31:15 -0300,Merge branch 'ApacheCommonsPool' of git://github.com/yaourt/jedis,60,7598
+222,71eb4c5b,SUCCESS,10,SUCCESS,9,FAIL,7,2010-11-21 18:16:31 -0300,replace custom pool implementation with apache's,61,7592
+223,098de44a,SUCCESS,9,SUCCESS,8,FAIL,8,2010-11-21 19:53:43 -0300,add support for java 1.5,62,7602
+224,970ea3ad,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-21 21:00:40 -0300,"add watch on several keys, and discard status return",62,7613
+225,ad149e82,SUCCESS,9,SUCCESS,9,FAIL,8,2010-11-22 10:21:56 -0300,Remove @override to make it java 1.5 compliant,62,7601
+226,a1815f38,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-22 12:49:18 -0300,"Now Sharded will handle connections instead of Info, so connection won't be shared between instances of ShardedJedis",62,7610
+227,d18cc4bd,SUCCESS,10,SUCCESS,9,FAIL,9,2010-11-23 16:52:18 -0800,incr/decr operate on 64-bit numbers. Switching from Integer to Long,62,7628
+228,f8636ec1,SUCCESS,10,SUCCESS,8,FAIL,9,2010-11-15 13:24:17 -0800,Verify incr behaviour in rollover conditions.,62,7638
+229,8043f12e,SUCCESS,10,SUCCESS,9,FAIL,8,2010-11-27 15:44:43 -0300,Add alternative pipeline usage,64,8148
+230,5a07efd9,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-27 15:59:30 -0300,[maven-release-plugin] prepare release jedis-1.5.0-RC1,64,8148
+231,efb27de0,SUCCESS,10,SUCCESS,10,FAIL,9,2010-11-27 15:59:38 -0300,[maven-release-plugin] prepare for next development iteration,64,8148
+232,81ec9f8a,SUCCESS,11,SUCCESS,9,FAIL,9,2010-11-30 12:27:22 -0300,add checks when server closes idle connections,64,8162
+233,cd9e17a7,SUCCESS,10,SUCCESS,10,FAIL,9,2010-11-30 12:51:01 -0300,"exists, sismember and hexists return Boolean instead of long",64,8146
+234,b8baba9a,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-30 12:57:52 -0300,add dependency for apache commons pool,64,8146
+235,c4263b0a,SUCCESS,10,SUCCESS,10,FAIL,8,2010-11-30 12:58:20 -0300,remove java 1.6 specific annotations,64,8140
+236,ad26ea23,SUCCESS,10,SUCCESS,12,FAIL,8,2010-12-02 01:46:31 -0300,"fix consistent hashing, both MD5 and Murmur,",64,8179
+237,d33c0a52,SUCCESS,11,SUCCESS,9,FAIL,8,2010-12-02 01:47:18 -0300,Add benchmark for hashing algos,65,8216
+238,f78b2a42,SUCCESS,11,SUCCESS,11,FAIL,9,2010-12-02 11:36:01 -0300,version change,65,8216
+239,5d3c55b1,SUCCESS,12,SUCCESS,12,FAIL,9,2010-12-02 11:40:26 -0300,[maven-release-plugin] prepare release jedis-1.5.0-RC2,65,8216
+240,26614b26,SUCCESS,11,SUCCESS,10,FAIL,9,2010-12-02 11:40:35 -0300,[maven-release-plugin] prepare for next development iteration,65,8216
+241,ff8ac4c9,SUCCESS,11,SUCCESS,9,FAIL,9,2010-12-02 12:10:30 -0800,Surround jedis.quit() in try/catch to ignore connection problems in method destroyObject,65,8218
+242,afd34c8a,SUCCESS,11,SUCCESS,9,FAIL,7,2010-12-10 17:21:22 -0300,"hincr, incr and decr long support",65,8218
+243,dadaaecf,SUCCESS,11,SUCCESS,9,FAIL,9,2010-12-10 17:26:02 -0300,Add constrcutor with default pool conf,65,8221
+244,6f92f5fc,SUCCESS,11,SUCCESS,8,FAIL,9,2010-12-10 17:36:44 -0300,pool doesn't throw Exception anymore but JedisException,65,8237
+245,e73564b3,SUCCESS,12,SUCCESS,10,FAIL,8,2010-12-10 17:42:13 -0300,version bump,65,8237
+246,453b83b0,SUCCESS,12,SUCCESS,10,FAIL,9,2010-12-10 17:43:40 -0300,mvn snapshot,65,8237
+247,0bf3018e,SUCCESS,11,SUCCESS,10,FAIL,10,2010-12-10 17:47:19 -0300,[maven-release-plugin] prepare release jedis-1.5.0,65,8237
+248,ff0b43ad,SUCCESS,11,SUCCESS,10,FAIL,9,2010-12-10 17:47:28 -0300,[maven-release-plugin] prepare for next development iteration,65,8237
+249,15c0e242,SUCCESS,10,SUCCESS,10,FAIL,8,2010-12-20 10:36:43 -0300,add bgrewriteaof,65,8249
+250,c3035958,SUCCESS,10,SUCCESS,8,FAIL,8,2010-12-20 10:50:05 -0300,add bgsave,65,8248
+251,3f79d803,SUCCESS,10,SUCCESS,10,FAIL,8,2010-12-20 11:10:02 -0300,add brpoplpush,65,8298
+252,f43ca04b,SUCCESS,10,SUCCESS,10,FAIL,8,2010-12-20 11:21:11 -0300,add config resetstat,65,8323
+253,586cc9f6,SUCCESS,11,SUCCESS,10,FAIL,7,2010-12-20 11:29:22 -0300,add save and lastsave to pipeline,65,8334
+254,0d296a7f,SUCCESS,10,SUCCESS,8,FAIL,7,2010-12-20 16:26:52 -0300,add bitset and bitget,66,8367
+255,f2ca9cd4,SUCCESS,8,SUCCESS,9,FAIL,8,2010-12-20 16:39:48 -0300,[maven-release-plugin] prepare release jedis-1.5.1,66,8367
+256,72d1531c,SUCCESS,10,SUCCESS,10,FAIL,10,2010-12-20 16:39:56 -0300,[maven-release-plugin] prepare for next development iteration,66,8367
+257,a13aff54,SUCCESS,11,SUCCESS,10,FAIL,9,2011-01-20 11:36:17 -0300,update debug command,66,8357
+258,1857dd34,SUCCESS,11,SUCCESS,12,FAIL,9,2011-01-20 11:50:38 -0300,getbit and setbit have now long offset,66,8357
+259,66fc6be7,SUCCESS,12,SUCCESS,11,FAIL,10,2011-01-20 12:18:25 -0300,update transaction api with all the new commands,66,8396
+260,b243d107,SUCCESS,12,SUCCESS,11,FAIL,9,2011-01-20 15:08:24 -0300,setbit and getbit receive long offset in BinaryJedis,66,8396
+261,c5f86a16,SUCCESS,11,SUCCESS,11,FAIL,8,2011-01-20 15:16:11 -0300,add missing sort overloads to Transaction,66,8400
+262,a2a8bc08,SUCCESS,11,SUCCESS,10,FAIL,9,2011-01-08 22:46:05 -0500,Binary client delegates for Pipline,66,8599
+263,1d5589f2,SUCCESS,11,SUCCESS,9,FAIL,10,2011-01-12 13:33:47 -0500,added JedisPoolConfig getters/setters so object pool can be configured with Spring/IoC,67,8650
+264,2896dddd,SUCCESS,11,SUCCESS,10,FAIL,8,2011-01-20 16:02:23 -0300,add defaults to pool config,67,8657
+265,1076140b,SUCCESS,10,SUCCESS,9,FAIL,8,2011-01-20 16:05:40 -0300,test use the new jedis pool config,67,8662
+266,f3009450,SUCCESS,10,SUCCESS,11,FAIL,8,2011-01-21 11:20:36 -0300,update missing commands in binary transaction,67,8666
+267,b8330890,SUCCESS,11,SUCCESS,11,FAIL,9,2011-01-21 11:33:19 -0300,update missing sort command in transactions api,67,8672
+268,7150c5fe,SUCCESS,10,SUCCESS,8,FAIL,8,2011-01-23 23:58:01 -0300,pubsub command check if we are connected,67,8691
+269,4d5e5a7c,SUCCESS,12,SUCCESS,10,FAIL,9,2011-01-24 13:24:08 -0300,add binary support for pubsub,68,8958
+270,b4ad7697,SUCCESS,11,SUCCESS,10,FAIL,8,2011-01-30 17:11:41 -0300,remove since it was deprecated,67,8919
+271,2a4a43f4,SUCCESS,10,SUCCESS,10,FAIL,8,2011-01-30 17:46:17 -0300,add JedisDataException and JedisConnectionException,69,8913
+272,a4312c45,SUCCESS,10,SUCCESS,8,FAIL,9,2011-02-04 10:31:21 -0300,[maven-release-plugin] prepare release jedis-1.5.2,69,8913
+273,fa05c2e9,SUCCESS,11,SUCCESS,9,FAIL,8,2011-02-04 10:31:36 -0300,[maven-release-plugin] prepare for next development iteration,69,8913
+274,dad1b8c3,SUCCESS,10,SUCCESS,9,FAIL,7,2011-02-10 10:51:48 -0600,Connect.connect() now honors timeout value,69,8915
+275,33ceb6da,SUCCESS,9,SUCCESS,11,FAIL,9,2011-02-15 20:51:36 -0500,set keepAlive on pub/sub sockets (infinite timeout) in case we don't see the connection close,69,8917
+276,9dd23cec,SUCCESS,11,SUCCESS,10,FAIL,9,2011-02-25 13:00:34 +0100,Flush to socket when starting to read,69,8928
+277,30435d77,SUCCESS,11,SUCCESS,11,FAIL,9,2011-02-25 13:13:48 +0100,Use regular HashSet instead of LinkedHashSet for unordered replies,69,8915
+278,dac1d259,SUCCESS,11,SUCCESS,12,FAIL,8,2011-02-25 13:44:54 +0100,Don't wait for QUEUED replies in MULTI,69,8740
+279,e7e4c4c2,SUCCESS,11,SUCCESS,11,FAIL,9,2011-02-25 13:58:48 +0100,Use #discard on the transaction object,69,8727
+280,ffebfe12,SUCCESS,10,SUCCESS,11,FAIL,8,2011-02-22 22:15:08 -0500,Fixing Jedis.(get|set)bit to use use booleans as input and output to better match Redis commands,69,8916
+281,e12f655f,SUCCESS,11,SUCCESS,11,FAIL,10,2011-02-22 22:17:29 -0500,Adding setbit/getbit to ShardedJedis,69,8924
+282,430601f3,SUCCESS,12,SUCCESS,10,FAIL,9,2011-02-22 22:41:46 -0500,Adding support for bit commands get/setrange,69,8966
+283,b7eb51f7,SUCCESS,11,SUCCESS,10,FAIL,7,2011-02-24 09:40:28 -0500,adding support for bit manipulation in to pipeline,69,8986
+284,ac70d235,SUCCESS,10,SUCCESS,10,FAIL,7,2011-02-28 10:37:43 -0300,Merge branch 'flush' of git://github.com/pietern/jedis into pietern-flush,69,8999
+285,28fb816b,SUCCESS,12,SUCCESS,9,FAIL,8,2011-02-28 13:12:47 -0300,pubsub should flush commands ASAP since it won't read from the socket,69,9013
+286,8a0054fe,SUCCESS,12,SUCCESS,10,FAIL,9,2011-02-28 14:58:09 -0300,Merge branch 'hashset' of git://github.com/pietern/jedis into pietern-hashset,69,9013
+287,333a9bc6,SUCCESS,11,SUCCESS,11,FAIL,9,2011-02-28 15:22:52 -0300,fix tests to use HashSet instead of LinkedHashSet,69,9021
+288,80d2f9d1,SUCCESS,10,SUCCESS,12,FAIL,10,2011-02-28 15:56:11 -0300,Merge branch 'pipeline-multi' of git://github.com/pietern/jedis into pietern-pipeline-multi,69,8832
+289,121af749,SUCCESS,12,SUCCESS,10,FAIL,8,2011-02-28 15:59:10 -0300,add public setrange and getrange,69,8832
+290,8b3c5fdf,SUCCESS,11,SUCCESS,9,FAIL,9,2011-03-02 17:44:59 -0300,Generate keys for different shards,69,8845
+291,27856046,SUCCESS,10,SUCCESS,9,FAIL,8,2011-03-02 17:50:12 -0300,Fix test keys,69,8845
+292,3d1603b5,SUCCESS,10,SUCCESS,12,FAIL,8,2011-03-02 17:53:27 -0300,Generate shard nodes by shard position. Shards are now host/port independent,69,8845
+293,3fc43e7d,SUCCESS,10,SUCCESS,10,FAIL,9,2011-03-08 19:03:24 +0100,Implementation of ZREVRANGEBYSCORE command,69,8956
+294,58aa95c4,SUCCESS,12,SUCCESS,10,FAIL,10,2011-03-08 20:19:54 +0100,"Binary versions of ZREVRANGEBYSCORE methods, some code cleanup",69,9105
+295,9dd1cff4,SUCCESS,12,SUCCESS,10,FAIL,8,2011-03-08 16:54:52 -0500,"Compare Tuples based on the element, not the element & score",69,8838
+296,0801b01c,SUCCESS,12,SUCCESS,11,FAIL,9,2011-03-21 14:32:50 +0000,made getShardInfo(byte[]) public,69,8832
+297,dc891936,SUCCESS,10,SUCCESS,10,FAIL,9,2011-03-21 14:58:29 +0000,"Revert ""made getShardInfo(byte[]) public""",69,8832
+298,cb0d7605,SUCCESS,11,SUCCESS,10,FAIL,8,2011-03-21 15:02:07 +0000,made getShardInfo(byte[]) public,69,8832
+299,604615d2,SUCCESS,13,SUCCESS,13,FAIL,10,2011-03-25 11:19:17 +0000,ISSUE 78: Removed logic that waits forever till all shards are connected in ShardedJedisPool Ensuered that all commands connect at the beginning if necessary.,69,8813
+300,347d743d,SUCCESS,12,SUCCESS,12,FAIL,11,2011-03-25 10:52:06 -0300,should always default to Murmur to be consistent everywhere,69,8832
+301,74ca0e1d,SUCCESS,13,SUCCESS,11,FAIL,10,2011-03-25 10:56:57 -0300,Merge branch 'MasterSlaveConsistency' of https://github.com/TioBorracho/jedis into TioBorracho-MasterSlaveConsistency,69,8845
+302,da3092e6,SUCCESS,12,SUCCESS,11,FAIL,8,2011-03-25 14:35:29 +0000,reverted back vetify() as connection checks could be disabled in pool config,69,8820
+303,ff50c172,SUCCESS,12,SUCCESS,11,FAIL,8,2011-03-25 11:37:49 -0300,"fix issue 108, brpoplpush set infinite timeout before waiting for a reply from the server",69,8851
+304,620a5d69,SUCCESS,13,SUCCESS,12,FAIL,9,2011-03-25 15:15:57 +0000,safe disconnect,69,8837
+305,f16d9155,SUCCESS,15,SUCCESS,10,FAIL,8,2011-04-05 15:41:28 +0100,made shard iterable in the same order as in config during creation,69,8832
+306,6707b623,SUCCESS,13,SUCCESS,10,FAIL,8,2011-04-06 01:07:20 -0300,pipeline return formatted values,72,8997
+307,3fb7a520,SUCCESS,13,SUCCESS,11,FAIL,10,2011-04-06 01:38:19 -0300,multi/exec block return formatted responses,73,9334
+308,90e68fa4,SUCCESS,12,SUCCESS,11,FAIL,9,2011-04-06 01:57:14 -0300,Merge branch 'ordered_shards_iteration' of https://github.com/grdmitro/jedis into grdmitro-ordered_shards_iteration,73,9334
+309,1502990c,SUCCESS,11,SUCCESS,10,FAIL,8,2011-04-06 02:00:13 -0300,Merge branch 'safe_disconnect' of https://github.com/grdmitro/jedis into grdmitro-safe_disconnect,73,9339
+310,8aa25eb9,SUCCESS,12,SUCCESS,10,FAIL,8,2011-04-06 02:03:51 -0300,Merge branch 'issue-78' of https://github.com/grdmitro/jedis into grdmitro-issue-78,73,9327
+311,97dd134e,SUCCESS,12,SUCCESS,10,FAIL,9,2011-04-06 21:52:48 -0300,Merge branch 'master' of https://github.com/lmar/jedis into lmar-master,73,9604
+312,cf749357,SUCCESS,11,SUCCESS,10,FAIL,8,2011-04-06 23:47:31 -0400,fix reversed boolean logic for setbit,73,9604
+313,443686b1,SUCCESS,13,SUCCESS,11,FAIL,9,2011-04-16 17:06:00 -0300,double builder should build from string,74,9627
+314,713cb15b,SUCCESS,14,SUCCESS,12,FAIL,8,2011-04-16 22:43:07 -0300,remove stupid test :(,74,9613
+315,e87b8947,SUCCESS,14,SUCCESS,10,FAIL,9,2011-04-17 01:03:26 -0300,add more tests to pipeline repsonse,74,9632
+316,bb4d9512,SUCCESS,11,SUCCESS,11,FAIL,10,2011-04-17 23:17:54 -0300,add benchmark for SafeEncoder,75,9654
+317,6c59e347,SUCCESS,13,SUCCESS,11,FAIL,9,2011-04-25 10:57:51 -0300,don't check if jedis is connected as PING will connect if necessary,75,9654
+318,a94168bc,SUCCESS,12,SUCCESS,12,FAIL,9,2011-04-25 11:05:31 -0300,add del() to ShardedJedis,75,9658
+319,e5a3833d,SUCCESS,12,SUCCESS,11,FAIL,9,2011-04-25 13:12:14 -0300,change doc as it confuses people about setting empty hashes,75,9658
+320,6e1ef5af,SUCCESS,11,SUCCESS,11,FAIL,9,2011-04-28 14:39:08 -0400,adding bit commands to ShardedJedisPipeline,73,9620
+321,b13c9645,SUCCESS,13,SUCCESS,12,FAIL,8,2011-05-02 01:54:52 -0300,jedis monitor should set client socket timeout to infinite,75,9674
+322,0885681f,SUCCESS,11,SUCCESS,11,FAIL,10,2011-05-11 13:32:14 -0300,fix small typo in exists command,75,9674
+323,22b2229b,SUCCESS,12,SUCCESS,12,FAIL,10,2011-05-11 14:06:07 -0300,handle quit command response as it was leaving the socket in an unconsistent state,75,9684
+324,acb1eb59,SUCCESS,12,SUCCESS,11,FAIL,9,2011-05-11 14:56:05 -0300,throw a JedisConnectionException if unsubscribing from a not subscribed JedisPubSub instance,75,9699
+325,cfc90616,SUCCESS,13,SUCCESS,11,FAIL,10,2011-05-11 18:34:41 -0300,add test to check JedisPool with password,75,9708
+326,0d6d37b9,SUCCESS,16,SUCCESS,11,FAIL,8,2011-05-11 19:22:31 -0300,throw JedisDataException when sending NULL values to redis as it is not a valid value in the protocol,75,9715
+327,66b0a578,SUCCESS,11,SUCCESS,11,FAIL,9,2011-05-11 19:45:07 -0300,"fix md5 hashing as MessageDigest is not threadsafe, now using ThreadLocal",75,9716
+328,86fdf63c,SUCCESS,13,SUCCESS,11,FAIL,9,2011-05-11 19:53:20 -0300,add publish to transaction,75,9731
+329,cd3b5026,SUCCESS,12,SUCCESS,12,FAIL,8,2011-05-11 22:29:42 -0300,add publish command to Pipeline,75,9746
+330,6ff96835,SUCCESS,11,SUCCESS,10,FAIL,8,2011-05-11 22:50:53 -0300,add getDB() which return the db number we are connected to,75,9762
+331,f25d7091,SUCCESS,11,SUCCESS,12,FAIL,8,2011-05-11 19:01:29 -0700,Merge pull request #103 from malomalo/set-compare,75,9768
+332,b6df4739,SUCCESS,13,SUCCESS,10,FAIL,8,2011-05-11 23:09:37 -0300,add Tuple compareTo,75,9775
+333,4e15a23e,SUCCESS,13,SUCCESS,10,FAIL,8,2011-05-11 23:23:06 -0300,list command receive now long parameters to be consistent with return type,75,9775
+334,6a78b32a,SUCCESS,11,SUCCESS,10,FAIL,9,2011-05-11 19:29:37 -0700,Merge pull request #121 from ewhauser/master,75,9791
+335,ace15885,SUCCESS,14,SUCCESS,12,FAIL,9,2011-05-13 18:03:38 -0300,disconnection,69,8844
+336,9af964e8,SUCCESS,14,SUCCESS,12,FAIL,10,2011-05-13 18:03:44 -0300,Merge branch 'master' of https://github.com/xetorthio/jedis into Cleaning,75,9803
+337,5c9d5165,SUCCESS,13,SUCCESS,11,FAIL,8,2011-05-15 17:24:23 -0300,ignores,75,9803
+338,37587df2,SUCCESS,11,SUCCESS,10,FAIL,9,2011-05-15 18:22:34 -0300,MasterSlave consistency and old mode compatibility with shard names,75,9916
+339,56fd098e,SUCCESS,13,SUCCESS,10,FAIL,8,2011-05-15 18:24:23 -0300,keep old connection file. DO NOT CROSS BRANCHES AGAIN,75,9904
+340,202d68a2,SUCCESS,13,SUCCESS,11,FAIL,10,2011-05-15 18:34:15 -0300,optimize,75,9905
+341,4bc292e0,SUCCESS,13,SUCCESS,10,FAIL,11,2011-05-15 17:44:12 -0700,Merge pull request #145 from TioBorracho/Cleaning,75,9803
+342,4dcdf4e3,SUCCESS,12,SUCCESS,13,FAIL,9,2011-05-15 21:44:54 -0300,rollback some ignores,75,9803
+343,3a291eb3,SUCCESS,14,SUCCESS,12,FAIL,9,2011-05-15 17:53:23 -0700,Merge pull request #146 from TioBorracho/MasterSlaveConsistency2,75,9905
+344,6e0be01f,SUCCESS,13,SUCCESS,12,FAIL,9,2011-05-15 21:56:46 -0300,code cleanup,75,9891
+345,20ee796f,SUCCESS,12,SUCCESS,12,FAIL,10,2011-05-15 21:59:00 -0300,"hvals response type consistency, was Collection should have been List",75,9889
+346,607d31d9,SUCCESS,13,SUCCESS,12,FAIL,9,2011-05-15 22:17:21 -0300,"On reconnection, select the correct db index",75,9902
+347,00712f04,SUCCESS,13,SUCCESS,11,FAIL,8,2011-05-26 12:53:42 -0300,binary jedis watch command accepts several keys,75,9902
+348,525710aa,SUCCESS,12,SUCCESS,11,FAIL,9,2011-05-30 10:58:55 -0300,remove unused test,75,9892
+349,44c3eef6,SUCCESS,10,SUCCESS,10,FAIL,9,2011-05-30 11:13:41 -0300,Add binary responses to binary transaction,75,9949
+350,d690833e,SUCCESS,11,SUCCESS,9,FAIL,8,2011-05-30 13:43:21 -0300,avoid creating pipeline responses and do it lazy,75,9959
+351,891e0180,SUCCESS,11,SUCCESS,10,FAIL,9,2011-05-30 14:04:51 -0300,version bump,75,9959
+352,6aa216f8,SUCCESS,11,SUCCESS,11,FAIL,8,2011-05-30 14:23:20 -0300,remove watch from transaction,75,9956
+353,f070baa1,SUCCESS,11,SUCCESS,10,FAIL,9,2011-05-30 14:31:53 -0300,revert back version,75,9956
+354,36d5e0d4,SUCCESS,11,SUCCESS,11,FAIL,8,2011-05-30 14:34:14 -0300,fix typo,75,9956
+355,85ed0e4b,SUCCESS,14,SUCCESS,10,FAIL,9,2011-05-30 14:36:11 -0300,[maven-release-plugin] prepare release jedis-2.0.0,75,9956
+356,c3f0cf0d,SUCCESS,12,SUCCESS,11,FAIL,10,2011-05-30 14:36:18 -0300,[maven-release-plugin] prepare for next development iteration,75,9956
+357,3b55731b,SUCCESS,14,SUCCESS,12,FAIL,10,2011-06-01 23:54:31 -0400,Pipeline commands should not throw an exception when a key is unset,75,9952
+358,8ddba03a,SUCCESS,17,SUCCESS,12,FAIL,9,2011-06-02 20:25:19 -0400,switch SharededJedisPipeline to use return Response and deprecate existing API,76,10126
+359,8465720d,SUCCESS,16,SUCCESS,12,FAIL,8,2011-06-03 10:52:49 -0300,remove strange license header,75,9956
+360,9006178a,SUCCESS,13,SUCCESS,10,FAIL,8,2011-06-03 11:48:55 -0300,"JedisPool timeout was broken. Values <= 0 where treated as -1, where 0 is infinite",75,9952
+361,cbca00a7,SUCCESS,10,SUCCESS,12,FAIL,9,2011-06-03 08:01:50 -0700,Merge pull request #153 from ewhauser/master,75,9948
+362,ede74672,SUCCESS,11,SUCCESS,11,FAIL,8,2011-06-07 19:45:18 -0700,Edited README.md via GitHub,75,9948
+363,f9608e93,SUCCESS,13,SUCCESS,9,FAIL,8,2011-06-07 19:47:46 -0700,Merge pull request #159 from amalloy/patch-1,75,9948
+364,03d42083,SUCCESS,12,SUCCESS,10,FAIL,8,2011-06-09 23:24:56 -0400,"Added the ability to use Double.MIN_VALUE and Double.MAX_VALUE when calling sorted set methods to represent ""-inf"" and ""+inf"" respectively.",75,9966
+365,a4cef0b4,SUCCESS,12,SUCCESS,12,FAIL,9,2011-06-10 13:39:00 -0400,Use Double.NEGATIVE/POSITIVE_INFINITY instead of MIN_VALUE and MAX_VALUE to indicate -inf and +inf respectively.,75,9966
+366,5ad02d08,SUCCESS,11,SUCCESS,11,FAIL,8,2011-06-10 17:08:10 -0400,Added string argument versions of zrange functions that can use -inf and +inf. Also added byte array versions where missing to make the API more complete.,75,10034
+367,a77153aa,SUCCESS,10,SUCCESS,9,FAIL,8,2011-06-13 10:40:08 -0700,"update maven dep version number, and license date",75,9948
+368,6c3ec9fc,SUCCESS,12,SUCCESS,11,FAIL,9,2011-06-13 10:55:09 -0700,Merge pull request #162 from tnm/master,75,9948
+369,6e4e1c39,SUCCESS,12,SUCCESS,13,FAIL,9,2011-06-15 09:46:48 +0100,Throwing Jedis connection exception on IO error rather than JedisException,75,9657
+370,f25901d6,SUCCESS,12,SUCCESS,10,FAIL,11,2011-06-23 14:56:46 -0700,Fence code blocks in README with languages.,75,9948
+371,234336b5,SUCCESS,13,SUCCESS,12,FAIL,8,2011-06-23 16:49:28 -0700,Fix @see tags referencing int params that are now long,75,9948
+372,97bbfdc2,SUCCESS,12,SUCCESS,10,FAIL,9,2011-06-24 16:40:36 -0700,Iterate over entry set instead of key set.,75,9949
+373,e9644a45,SUCCESS,12,SUCCESS,10,FAIL,8,2011-06-24 16:44:12 -0700,Add JedisPool constructor that takes only host string,75,9950
+374,88e662ee,SUCCESS,14,SUCCESS,12,FAIL,9,2011-06-26 01:49:23 -0400,Merge remote-tracking branch 'jonathan/master',75,10034
+375,bbb6d666,SUCCESS,12,SUCCESS,11,FAIL,8,2011-06-28 10:52:46 -0700,Fix broken @see and @link tags,75,9948
+376,3abaf71e,SUCCESS,12,SUCCESS,11,FAIL,8,2011-06-29 09:34:57 -0700,Mark inner classes static that don't reference parent class.,75,9948
+377,22d4d3fc,SUCCESS,11,SUCCESS,11,FAIL,9,2011-07-31 19:50:16 -0700,fixing Issue 188,75,10009
+378,ec0b58e1,SUCCESS,12,SUCCESS,11,FAIL,10,2011-07-31 20:28:51 -0700,fixing Issue 188 - Pipline.syncAndReturnAll changes,75,10013
+379,0aab8cb6,SUCCESS,12,SUCCESS,12,FAIL,10,2011-08-16 11:15:07 -0400,"Fixed comments in exists, return values were incorrect",75,9948
+380,fb33b262,SUCCESS,13,SUCCESS,12,FAIL,10,2011-08-26 16:47:37 -0500,Add ability to specify database number in pool config,75,9966
+381,c9d856c1,SUCCESS,12,SUCCESS,11,FAIL,10,2011-08-31 05:22:28 -0700,Merge pull request #193 from gigq/master,75,9948
+382,ef3a5329,SUCCESS,13,SUCCESS,11,FAIL,8,2011-08-31 05:28:51 -0700,Merge pull request #172 from kevinsawicki/docs2,75,9948
+383,8a5948a8,SUCCESS,13,SUCCESS,10,FAIL,8,2011-08-31 05:29:37 -0700,Merge pull request #167 from kevinsawicki/docs,75,9948
+384,9d48a07c,SUCCESS,12,SUCCESS,10,FAIL,8,2011-08-31 05:30:22 -0700,Merge pull request #166 from kevinsawicki/patch-1,75,9948
+385,420192ba,SUCCESS,11,SUCCESS,10,FAIL,7,2011-09-10 00:57:58 -0400,adding intellij generated files to .gitignore,75,9948
+386,e55eed4e,SUCCESS,12,SUCCESS,11,FAIL,8,2011-09-09 22:03:40 -0700,Merge pull request #205 from ewhauser/feature/ignore-intellij-files,75,9948
+387,b178e25d,SUCCESS,11,SUCCESS,9,FAIL,9,2011-09-12 22:38:39 -0400,ignoring broken test until jonathon can comment on the correct logic,75,9949
+388,3e8ac6e0,SUCCESS,10,SUCCESS,9,FAIL,7,2011-09-12 19:41:21 -0700,Merge pull request #207 from ewhauser/feature/ignore-broken-pubsub-test,75,9949
+389,a688c610,SUCCESS,9,SUCCESS,10,FAIL,8,2011-08-30 17:23:49 +0800,wjw465150 add socket performance,75,9953
+390,a9ef10bb,SUCCESS,11,SUCCESS,10,FAIL,9,2011-09-12 22:48:58 -0400,fix ignore that was placed on wrong test,75,9953
+391,dba5e2c3,SUCCESS,12,SUCCESS,10,FAIL,10,2011-09-12 22:49:12 -0400,Merge pull request #199 from sehugg/jedis,75,9955
+392,e9d8886e,SUCCESS,13,SUCCESS,10,FAIL,9,2011-09-12 22:53:30 -0400,Merge pull request #197 from michaelcameron/jedis,75,9973
+393,7b24682d,SUCCESS,13,SUCCESS,11,FAIL,8,2011-09-12 22:57:16 -0400,Merge pull request #173 from kevinsawicki/jedis,75,9973
+394,7803f5b0,SUCCESS,11,SUCCESS,10,FAIL,10,2011-09-12 22:58:43 -0400,Merge pull request #170 from kevinsawicki/jedis,75,9974
+395,90dd6a10,SUCCESS,12,SUCCESS,9,FAIL,10,2011-09-12 23:06:24 -0400,Merge pull request #168 from kevinsawicki/jedis,75,9976
+396,fe87266a,SUCCESS,14,SUCCESS,11,FAIL,9,2011-09-12 23:07:45 -0400,Merge pull request #163 from grdmitro/jedis,75,9975
+397,bb806ae0,SUCCESS,11,SUCCESS,10,FAIL,10,2011-09-12 23:13:18 -0400,Merge pull request #154 from ewhauser/jedis,76,10149
+398,b7ee1fe2,SUCCESS,11,SUCCESS,12,FAIL,9,2011-09-13 23:08:20 -0400,Merge pull request #189 from vsoskov/jedis,76,10214
+399,fd0c5759,SUCCESS,11,SUCCESS,10,FAIL,9,2011-09-16 17:22:59 +0200,Fix broken test due to missing authent,76,10220
+400,dcba7bd3,SUCCESS,12,FAIL,9,NO,0,2011-09-16 17:23:59 +0200,Rename test : Shar<>edJedisPipelineTest to ShardedJedisPipelineTest,76,10220
+401,f82fb508,SUCCESS,11,SUCCESS,10,FAIL,9,2011-09-16 22:40:39 +0200,Update ShardedJedisPipelineTest class name.,76,10220
+402,9d4d11ef,SUCCESS,11,SUCCESS,10,FAIL,8,2011-09-26 15:37:15 +0200,no need to instantiate the Protocol class that can be static,76,10208
+403,04f60382,SUCCESS,14,SUCCESS,11,FAIL,9,2011-09-26 17:05:39 +0200,fixed some FindBugs errors,76,10223
+404,d97f30a0,SUCCESS,13,SUCCESS,12,FAIL,10,2011-12-13 21:33:14 +0100,Pipeline tests are authenticated. bgrewriteaof command test now supports scheduled status.,76,10223
+405,f27f809f,SUCCESS,12,SUCCESS,11,FAIL,10,2011-12-13 13:03:10 -0800,Merge pull request #208 from yaourt/brokenShardedTestFix,76,10220
+406,cb1b19b5,SUCCESS,11,SUCCESS,11,FAIL,8,2011-12-13 18:08:17 -0300,Merge branch 'master' of https://github.com/ivowiblo/jedis,76,10223
+407,79965d5d,SUCCESS,12,SUCCESS,11,FAIL,8,2011-12-13 19:16:14 -0300,Merge remote branch 'raszi/findbugs',76,10232
+408,b17692ad,SUCCESS,12,SUCCESS,12,FAIL,10,2011-09-16 16:31:27 +0000,Pipeline uses wrong response builder for get and getSet,76,10232
+409,fb723db8,SUCCESS,14,SUCCESS,12,FAIL,10,2011-12-14 05:43:52 +0100,Issue #158 is fixed: Response.get() returns null if redis returned null (i.e. when using zscore for a non existing member),76,10238
+410,f3a5d62e,SUCCESS,12,SUCCESS,10,FAIL,9,2011-12-14 05:43:52 +0100,Issue #158 is fixed: Response.get() returns null if redis returned null (i.e. when using zscore for a non existing member),76,10247
+411,6f4a32d2,SUCCESS,11,SUCCESS,8,FAIL,8,2011-12-23 11:44:39 -0300,add select to transaction,76,10263
+412,72ca4943,SUCCESS,12,SUCCESS,10,FAIL,9,2011-12-23 12:31:32 -0300,"add missing command to Transaction, BinaryTransaction and Pipeline",76,10338
+413,12a1a70d,SUCCESS,11,SUCCESS,11,FAIL,10,2011-12-23 12:56:05 -0600,update Gradle support,76,10247
+414,4d6f4c7a,SUCCESS,13,SUCCESS,18,FAIL,9,2011-12-23 12:53:48 -0600,add Eclipse support,76,10247
+415,f010bc0f,SUCCESS,14,SUCCESS,12,FAIL,10,2012-02-14 17:42:06 +0800,add variadic arguments support to lpush and rpush,76,10358
+416,df3c5794,SUCCESS,13,SUCCESS,11,FAIL,11,2012-03-23 17:02:16 +0000,Fixing Sharded Pipeline as the zrange should be built with a STRING_ZSET,76,10338
+417,be163acd,SUCCESS,11,SUCCESS,11,FAIL,11,2012-04-14 01:10:26 -0300,Merge remote-tracking branch 'upstream/master',76,10338
+418,9dc89626,FAIL,11,NO,0,NO,0,2011-12-15 15:51:45 +0100,Eval and Evalsha is now supported,77,10459
+419,3c86ebcd,FAIL,11,NO,0,NO,0,2011-12-15 17:45:14 +0100,Script commands are supported.,78,10580
+420,96d405a6,FAIL,10,NO,0,NO,0,2012-04-14 09:10:00 -0300,scripting support,77,10530
+421,9bf19c62,FAIL,11,NO,0,NO,0,2011-12-15 17:56:14 +0100,Binary scripting API is tested,77,10549
+422,df1dfce3,FAIL,11,NO,0,NO,0,2011-12-15 18:44:44 +0100,SCRIPT KILL command fixed,77,10553
+423,ef08981b,SUCCESS,12,SUCCESS,11,FAIL,10,2012-04-14 10:44:40 -0300,add makefile to run tests easier,76,10338
+424,df75c728,FAIL,10,NO,0,NO,0,2012-04-14 22:54:43 -0300,Eval and Evalsha api improved,77,10567
+425,9e13233b,FAIL,11,NO,0,NO,0,2012-04-17 16:06:03 -0400,DS_Store files removed,77,10567
+426,c9b413c3,SUCCESS,12,SUCCESS,12,FAIL,9,2012-04-17 16:40:54 -0400,Select support to pipeline. Thanks to @ib84,76,10346
+427,53f829fb,SUCCESS,12,SUCCESS,11,FAIL,9,2011-12-21 06:56:56 +0100,JedisPool accepts BinaryJedis as a resource for return. Issue #171,76,10354
+428,f6321826,SUCCESS,12,SUCCESS,11,FAIL,9,2012-04-17 18:09:16 -0300,update how to run tests,76,10338
+429,d18c77d5,SUCCESS,11,SUCCESS,11,FAIL,8,2012-04-17 18:24:59 -0300,Merge branch 'select_pipeline' of git://github.com/ivowiblo/jedis into ivowiblo-select_pipeline,76,10346
+430,b2648381,SUCCESS,13,SUCCESS,10,FAIL,9,2012-04-17 18:30:30 -0300,Merge branch 'Issue171' of git://github.com/ivowiblo/jedis into ivowiblo-issue171,76,10362
+431,aa05406e,SUCCESS,11,SUCCESS,11,FAIL,9,2012-04-17 18:35:36 -0300,Merge branch 'patch-1' of git://github.com/thesmith/jedis into thesmith-patch-1,76,10362
+432,caac6480,SUCCESS,11,SUCCESS,11,FAIL,10,2012-04-17 18:40:17 -0300,Merge branch 'variadic_arg_support' of git://github.com/shaofengniu/jedis into shaofengniu-variadic_arg_support,76,10382
+433,d1362252,SUCCESS,12,SUCCESS,10,FAIL,9,2012-04-17 18:45:31 -0300,remove unused import,76,10381
+434,0f978f52,SUCCESS,13,SUCCESS,11,FAIL,9,2012-04-17 21:13:37 -0400,Unused import is removed,77,10566
+435,75e52b9a,SUCCESS,12,SUCCESS,11,FAIL,10,2011-12-22 22:40:36 +0100,z*range commands now receive long instead of int. #242,76,10338
+436,088f84b6,SUCCESS,14,SUCCESS,9,FAIL,9,2012-04-17 21:37:33 -0400,Extra space is removed,76,10338
+437,e8c27e0d,SUCCESS,12,SUCCESS,12,FAIL,9,2011-12-21 06:19:05 +0100,Jedis does support lpushx and rpushx,76,10354
+438,ded776f8,SUCCESS,13,SUCCESS,11,FAIL,8,2012-04-18 00:27:00 -0400,Pool.java back to the original,76,10354
+439,e4f7f61d,SUCCESS,11,SUCCESS,10,FAIL,8,2012-04-18 00:33:20 -0400,Pipeline.sort with dstkey uses right Response type,76,10338
+440,8aca0b77,SUCCESS,12,SUCCESS,10,FAIL,9,2012-04-18 15:22:43 -0400,Variadic commands,76,10383
+441,f3dbc65b,SUCCESS,12,SUCCESS,11,FAIL,10,2012-04-18 18:10:45 -0300,Merge branch 'scriptsupport' of git://github.com/ivowiblo/jedis into ivowiblo-scriptsupport,77,10609
+442,d102ccf1,SUCCESS,14,SUCCESS,11,FAIL,9,2012-04-19 00:32:23 -0400,Object commands are supported,77,10415
+443,dd88c51d,SUCCESS,13,SUCCESS,12,FAIL,9,2012-04-19 01:51:02 -0400,Tests for Variadic commands,77,10511
+444,d5c2b996,SUCCESS,13,SUCCESS,10,FAIL,9,2012-04-19 02:53:26 -0400,Slowlog commands. The unit test is failing.,78,10430
+445,e008f403,SUCCESS,12,SUCCESS,11,FAIL,9,2012-04-19 02:59:52 -0400,SLOWLOG RESET is fixed,78,10431
+446,c765bc39,SUCCESS,13,SUCCESS,11,FAIL,9,2012-04-19 03:04:06 -0400,Style refactor,78,10430
+447,dbd7c8b5,SUCCESS,12,SUCCESS,11,FAIL,9,2012-04-19 13:38:40 +0200,Fix NPE in BuilderFactory for Double.,77,10610
+448,7b6ede8c,SUCCESS,12,SUCCESS,11,FAIL,8,2012-04-19 11:49:43 -0700,Merge pull request #285 from tom-martin/patch-1,77,10610
+449,94e3d25a,FAIL,11,NO,0,NO,0,2012-04-19 11:51:29 -0700,Merge pull request #211 from raszi/9d4d11ef466d7a890e763bb1b98b044e3d8635b4,77,10604
+450,5a6d98ac,SUCCESS,12,SUCCESS,10,FAIL,8,2012-04-19 16:48:18 -0400,fix broken instance reference to protocol,77,10604
+451,f1a4b7a2,SUCCESS,11,SUCCESS,11,FAIL,10,2012-04-19 16:50:51 -0400,Merge pull request #246 from AlanKrueger/jedis,77,10604
+452,094023a7,SUCCESS,13,SUCCESS,11,FAIL,8,2012-04-19 16:53:06 -0400,make gradlew executable,77,10604
+453,618bbec7,SUCCESS,13,SUCCESS,11,FAIL,8,2012-04-19 16:54:48 -0400,Merge pull request #247 from AlanKrueger/jedis,77,10604
+454,3da2f2dd,SUCCESS,12,SUCCESS,11,FAIL,9,2012-04-23 20:35:55 -0300,Merge branch 'slowlog' of git://github.com/ivowiblo/jedis into slowlog,79,10694
+455,05503212,SUCCESS,12,SUCCESS,11,FAIL,9,2012-04-23 21:00:29 -0300,Merge branch 'variadic' of git://github.com/ivowiblo/jedis into variadic,80,10853
+456,5244d824,SUCCESS,13,SUCCESS,11,FAIL,10,2012-04-23 23:00:13 -0300,Merge branch 'Object' of git://github.com/ivowiblo/jedis,81,10929
+457,6bc2ac0a,SUCCESS,13,SUCCESS,14,FAIL,9,2012-04-29 02:43:39 -0400,Pipeline supports Multi. Issue #251 is fixed.,77,10658
+458,d84ffdd8,SUCCESS,13,SUCCESS,10,FAIL,10,2012-04-29 02:48:11 -0400,Format improved,77,10657
+459,d526a32b,SUCCESS,13,SUCCESS,12,FAIL,9,2012-04-29 02:55:22 -0400,Pipeline.exec() now returns a response,77,10660
+460,129e358c,SUCCESS,12,SUCCESS,13,FAIL,9,2012-05-03 23:30:44 -0400,Now methods accepting infinit and exclusions are supported as String and byte[] overloads,81,11155
+461,42f19c73,SUCCESS,14,SUCCESS,12,FAIL,9,2012-05-06 19:20:44 -0300,Merge branch 'pipeline_multi' of https://github.com/ivowiblo/jedis into pipeline_multi,81,11206
+462,457cccc9,SUCCESS,13,SUCCESS,11,FAIL,11,2012-05-06 19:30:37 -0300,Merge branch 'Issue221' of https://github.com/ivowiblo/jedis into issue221,81,11222
+463,4f5acab0,SUCCESS,12,SUCCESS,12,FAIL,8,2012-05-06 19:47:00 -0300,Merge branch 'Issue242' of git://github.com/ivowiblo/jedis into issue242,81,11235
+464,ea03bd46,SUCCESS,10,SUCCESS,11,FAIL,8,2012-05-10 11:00:08 -0300,version bump,81,11235
+465,ebbaa145,SUCCESS,11,SUCCESS,10,FAIL,8,2012-05-10 11:06:41 -0300,Configuring POM for GitHub project,81,11235
+466,f4b0c2c0,SUCCESS,14,SUCCESS,10,FAIL,9,2012-05-10 11:39:19 -0300,changes in pom,81,11235
+467,78ad4cb5,SUCCESS,17,SUCCESS,11,FAIL,10,2012-05-10 11:59:31 -0300,update sonatype version,81,11235
+468,3a5f0763,SUCCESS,14,SUCCESS,12,FAIL,9,2012-05-10 12:28:03 -0300,[maven-release-plugin] prepare release jedis-2.1.0,81,11235
+469,35a7677e,SUCCESS,14,SUCCESS,11,FAIL,9,2012-05-10 12:28:13 -0300,[maven-release-plugin] prepare for next development iteration,81,11235
+470,8f9763a7,SUCCESS,14,SUCCESS,11,FAIL,9,2012-08-01 16:49:44 -0300,add url support,81,11373
+471,beb999d5,SUCCESS,13,SUCCESS,13,FAIL,8,2012-08-02 16:57:14 -0300,"when setting timeout infinite, make sure it is connected first",81,11380
+472,63b40b71,SUCCESS,12,SUCCESS,12,FAIL,10,2012-08-13 10:35:51 +0800,Sharded Performance improvement,75,9948
+473,b9442ea5,SUCCESS,16,SUCCESS,14,FAIL,11,2012-08-13 07:25:28 -0700,Merge pull request #330 from zhupan/master,81,11380
+474,45703299,SUCCESS,12,SUCCESS,10,FAIL,9,2012-08-23 10:29:36 +0900,implemented bitcount and bitop commands for Redis 2.6,82,11484
+475,909be715,SUCCESS,11,SUCCESS,10,FAIL,9,2012-10-21 17:17:26 +0100,adding del to sharded jedis pipeline,81,11389
+476,fe5e7777,SUCCESS,13,SUCCESS,11,FAIL,9,2012-10-26 13:04:15 -0300,Update src/main/java/redis/clients/jedis/BinaryShardedJedis.java,81,11383
+477,bdc517d7,SUCCESS,12,SUCCESS,12,FAIL,9,2012-10-28 08:31:11 -0700,Merge pull request #365 from eujern/patch-1,81,11383
+478,2058231a,SUCCESS,13,SUCCESS,12,FAIL,9,2012-11-02 12:54:25 -0700,Merge pull request #364 from thesmith/master,81,11392
+479,69b5291f,SUCCESS,13,SUCCESS,12,FAIL,10,2012-11-18 19:58:13 +0100,SENTINEL commands,82,11459
+480,0340fddb,SUCCESS,12,SUCCESS,11,FAIL,10,2012-12-03 15:36:30 +0000,Add persist to ShardedJedis,81,11398
+481,6bede664,SUCCESS,12,SUCCESS,13,FAIL,9,2012-12-03 15:42:15 +0000,Add strlen to ShardedJedis,81,11404
+482,7e95b150,SUCCESS,13,SUCCESS,11,FAIL,9,2012-12-03 15:47:25 +0000,"Add getbit,setbit, getrange, setrange to BinaryShardedJedis",81,11416
+483,bf9bba6e,SUCCESS,15,SUCCESS,13,FAIL,10,2012-12-04 17:21:43 +0000,Extract string and binary common interfaces for Pipline and ShardedJedisPipeline. While I'm here add missing binary methods for some bit operations and fix return types for some sharded operations (e.g. getType),83,12133
+484,45be143e,SUCCESS,14,SUCCESS,11,FAIL,9,2012-12-18 10:26:56 -0500,Fixed binary safe pipeline commands and added tests for pipelined hash functions,81,11444
+485,f9e818c9,FAIL,12,NO,0,NO,0,2012-12-22 11:08:01 -0500,Merge remote-tracking branch 'samhendley/binary_pipeline',83,12185
+486,c0bda88e,SUCCESS,12,SUCCESS,12,FAIL,9,2012-12-24 10:45:19 -0500,Normalized Pipeline[] interfaces and extracted all of the non-shardable commands into the MultiKey* interfaces,86,12353
+487,333ac221,SUCCESS,13,SUCCESS,11,FAIL,8,2012-12-24 11:41:53 -0500,extracted interfaces from Jedis,88,12456
+488,429e4508,SUCCESS,12,SUCCESS,12,FAIL,8,2012-12-25 09:21:44 -0500,removed functions in Jedis that overrode BinaryJedis versions,88,12420
+489,2006d80a,SUCCESS,14,SUCCESS,10,FAIL,9,2012-12-25 16:00:43 -0500,normalized BinaryJedisCommands to match JedisCommands (including setbit),88,12489
+490,cc0ef89b,SUCCESS,13,SUCCESS,11,FAIL,8,2012-12-26 10:22:38 -0500,added binary version of MultiKey commands,89,12540
+491,5bde3da7,SUCCESS,12,SUCCESS,11,FAIL,8,2012-12-26 11:45:57 -0500,"added interfaces for ScriptingCommands, AdvancedCommands most of jedis and binaryjedis are defined by interfaces",93,12621
+492,7b7c6c96,SUCCESS,13,SUCCESS,10,FAIL,9,2012-12-26 11:58:48 -0500,fixed up some missing pipelined methods,93,12631
+493,610f7d45,SUCCESS,12,SUCCESS,10,FAIL,9,2013-01-07 12:33:19 -0800,Added incrByFloat and hincrByFloat commands (binary and standard) + support for pipelining and sharding,81,11484
+494,1a967694,SUCCESS,12,SUCCESS,13,FAIL,9,2013-01-09 22:52:38 -0500,updated scripting test to be more tolerant of changing error messages (changed since 2.6.0),93,12631
+495,4c7cc57e,SUCCESS,13,SUCCESS,13,FAIL,10,2013-01-09 23:48:23 -0500,Added bitcount to standard interfaces and bitop to MultiKey interfaces (since it is non-shardable),94,12794
+496,4f9ddb3b,SUCCESS,14,SUCCESS,11,FAIL,9,2013-01-10 00:50:19 -0500,fixed many pipeline requests that were returning the wrong types,94,12791
+497,c8ddd237,SUCCESS,13,SUCCESS,12,FAIL,9,2013-01-10 01:16:54 -0500,extracted common Pipeline operations into PipelineBase and used that to simplify BinaryTransaction/Transaction,94,12070
+498,6b5fccdc,SUCCESS,13,SUCCESS,11,FAIL,10,2013-01-10 02:29:39 -0500,refactored pipelinebase so it is usable to implement SharedJedisPipeline as well.,95,11176
+499,258ac300,SUCCESS,14,SUCCESS,13,FAIL,9,2013-01-10 02:39:48 -0500,added variadic versions of lpush/rpush(x) functions,95,11170
+500,406d52b2,SUCCESS,14,SUCCESS,11,FAIL,10,2013-01-30 10:41:12 -0300,"fix tests, since ttl now return -2 or -1 depending if the key exists already",95,11170
+501,846397d9,SUCCESS,14,SUCCESS,11,FAIL,9,2013-01-30 10:50:58 -0300,Merge branch 'master' of git://github.com/hamsterready/jedis into hamsterready-master,96,11242
+502,23e50a36,SUCCESS,12,SUCCESS,11,FAIL,8,2013-01-30 15:24:53 -0300,Change the way we test sentinel commands so it is automatic,96,11258
+503,9d538a06,SUCCESS,13,SUCCESS,11,FAIL,8,2013-02-05 15:44:35 -0300,"when a script returns Null value, jedis throws NullPointerException",96,11267
+504,69f5340a,SUCCESS,14,SUCCESS,11,FAIL,8,2013-02-05 15:55:48 -0300,add info optional parameter,96,11275
+505,6af41cda,SUCCESS,13,SUCCESS,11,FAIL,9,2013-02-20 12:24:15 -0800,merging with master branch. Required refactoring of Pipeline code.,96,11357
+506,5e2cdb9c,SUCCESS,13,SUCCESS,13,FAIL,9,2013-03-29 22:28:01 -0700,When writing a negative sign the write(char) method goes directly to the output stream and by-passes the internal RedisOutputStream buffer causing random corruption of the output.  Casting the char to a byte ensures write(byte) is called which will properly buffer the output.,96,11275
+507,62c30dfe,SUCCESS,13,SUCCESS,12,FAIL,10,2013-05-02 08:48:48 -0300,change licensing info,96,11275
+508,24c6b7c8,SUCCESS,13,SUCCESS,10,FAIL,9,2013-05-13 12:40:24 +0300,support for new 'set' command (redis 2.6.12+),96,11319
+509,20a75417,SUCCESS,12,SUCCESS,11,FAIL,9,2013-06-29 12:58:25 +0800,fix - suppress warnings,96,11278
+510,f1db0b9c,SUCCESS,13,SUCCESS,11,FAIL,9,2013-06-29 12:58:36 +0800,new - build.sh,96,11278
+511,7b6006b6,SUCCESS,11,SUCCESS,10,FAIL,9,2013-06-29 12:59:32 +0800,merge - jedis pull request #429,96,11284
+512,8b3ea5f2,SUCCESS,13,SUCCESS,11,FAIL,9,2013-06-29 14:17:44 +0800,new - dump and restore command,96,11314
+513,e7a88a49,SUCCESS,14,SUCCESS,11,FAIL,8,2013-06-29 15:13:21 +0800,"new - pexpire, pexpireat and pttl command",96,11377
+514,1080d136,SUCCESS,13,SUCCESS,12,FAIL,10,2013-06-29 23:15:56 +0800,new - command for redis 2.6,96,11491
+515,76559949,SUCCESS,14,SUCCESS,12,FAIL,10,2013-07-01 14:30:19 +0800,new - supplement transaction missing api and fix some args type definition which is inconsistent with jedis,96,11678
+516,27b9eba0,SUCCESS,12,SUCCESS,12,FAIL,9,2013-07-03 08:50:14 +0800,fix - srandmember missing parameter,96,11678
+517,96c789aa,SUCCESS,13,SUCCESS,13,FAIL,9,2013-07-03 16:20:31 +0800,new - zcount with string min and max,96,11681
+518,d57bfb94,SUCCESS,15,SUCCESS,12,FAIL,9,2013-07-05 09:13:09 +0800,fix - CLIENT command,96,11682
+519,fffd119c,SUCCESS,13,SUCCESS,11,FAIL,10,2013-07-08 16:26:13 +0800,fix - pipeline sort,96,11682
+520,5f11954d,FAIL,12,NO,0,NO,0,2013-07-09 16:42:01 +0800,fix - pipeline zadd method signature,96,11682
+521,a1471e66,FAIL,12,NO,0,NO,0,2013-07-15 15:56:34 +0800,del,96,11682
+522,155aff09,SUCCESS,13,SUCCESS,12,FAIL,9,2013-07-15 15:57:03 +0800,fix - recover zadd with one score memeber,96,11685
+523,6dbad882,SUCCESS,11,SUCCESS,10,FAIL,9,2013-08-06 00:36:48 +0200,Fix issue #438,96,11286
+524,bc86b121,SUCCESS,12,SUCCESS,11,FAIL,9,2013-08-20 19:43:32 -0700,Pipeline eval and evalsha.,96,11339
+525,625e2235,SUCCESS,12,SUCCESS,11,FAIL,9,2013-08-20 23:36:42 -0400,Merge remote-tracking branch 'mindwind/master',96,11774
+526,2475f24f,SUCCESS,13,SUCCESS,12,FAIL,9,2013-08-20 20:43:50 -0700,Fix formatting.,96,11339
+527,ed80e7ce,SUCCESS,14,SUCCESS,12,FAIL,8,2013-08-21 00:06:30 -0400,Allow the Pool to be constructed without having an internal pool created. This is useful when extending the Pool without being able to create one at construction time.,96,11774
+528,a71c3dff,SUCCESS,12,SUCCESS,10,FAIL,9,2013-08-21 20:32:27 -0400,Merge remote-tracking branch 'amimimor/master',96,11818
+529,1f3b5f19,SUCCESS,11,SUCCESS,11,FAIL,9,2013-08-21 20:57:08 -0400,Merge branch 'master' of https://github.com/anthonyu/jedis,96,11882
+530,9b78d19d,SUCCESS,13,SUCCESS,12,FAIL,8,2013-08-21 21:01:03 -0400,Merge branch 'fix-issue-438' of https://github.com/vrischmann/jedis,96,11893
+531,33e64bdb,SUCCESS,12,SUCCESS,9,FAIL,9,2013-08-21 22:38:10 -0400,Changed redis.clients.jedis.tests.commands.AllKindOfValuesCommandsTest#ttl so that it passes assertion. Once this issue is resolved in Redis the test can be fixed.,96,11893
+532,d377bcf6,SUCCESS,11,SUCCESS,11,FAIL,9,2013-08-21 23:00:13 -0400,Fail if the Sentinel does not return the slave.,96,11894
+533,50516d3b,SUCCESS,12,SUCCESS,11,FAIL,8,2013-08-21 23:12:36 -0400,"Clean up README a bit, we're past Redis 2.0.0",96,11894
+534,928339bd,SUCCESS,12,SUCCESS,12,FAIL,9,2013-08-21 23:16:09 -0400,Updated release information.,96,11894
+535,1f6db132,SUCCESS,13,SUCCESS,11,FAIL,10,2013-08-21 23:38:20 -0400,[maven-release-plugin] prepare release jedis-2.2.0,96,11894
+536,404c5632,SUCCESS,15,SUCCESS,11,FAIL,9,2013-08-21 23:38:24 -0400,[maven-release-plugin] prepare for next development iteration,96,11894
+537,c2a48afa,SUCCESS,15,SUCCESS,12,FAIL,9,2013-08-23 23:06:13 -0400,Initial JedisSentinelPool based on code from hamsterready/jedis-sentinel-pool. Given a master name and a set of sentinels this pool will subscribe to the Sentinel notifications about master changes (+switch-master) and re-establishes the pool to the new master when one is announced.,98,12014
+538,52286d69,SUCCESS,14,SUCCESS,11,FAIL,11,2013-08-24 17:14:03 -0400,Refactored the inline thread that monitors the master and turned it into its own class. The pool shuts down the monitors as well now.,98,12051
+539,e47e8a41,SUCCESS,12,SUCCESS,11,FAIL,9,2013-08-24 17:33:18 -0400,[maven-release-plugin] prepare release jedis-2.2.1,98,12051
+540,e17679f5,SUCCESS,12,SUCCESS,12,FAIL,8,2013-08-24 17:33:22 -0400,[maven-release-plugin] prepare for next development iteration,98,12051
+541,39d81d8f,SUCCESS,14,SUCCESS,11,FAIL,8,2013-08-28 23:10:50 -0400,Added a JUnit test for JedisSentinelPool.,99,12117
+542,fddd41d7,SUCCESS,11,SUCCESS,12,FAIL,8,2013-09-02 18:13:14 -0300,"change makefile to accept ""start"" and ""stop"" to be able to start the testing environment and stopping it for manual testing purposes. raising down-after-milliseconds of sentinel 1 to avoid taking the master down and up all the time. change sleep to 10 seconds after doing a ""salveof"" to avoid false negatives.",99,12117
+543,e0fa095d,SUCCESS,16,SUCCESS,14,FAIL,12,2013-09-03 11:59:08 -0300,update dependencies version version bump,99,12117
+544,ad001d1a,SUCCESS,13,SUCCESS,13,FAIL,10,2013-09-03 14:00:32 -0300,change version to 2.2,99,12117
+545,2ed1f073,SUCCESS,14,SUCCESS,13,FAIL,9,2013-09-03 14:05:50 -0300,"it might happen that it is alredy saving, so make sure that test won't fail because of this",99,12121
+546,e9350659,SUCCESS,14,SUCCESS,12,FAIL,10,2013-09-06 15:10:11 -0300,add maven central pom stuff,99,12121
+547,690ad3c8,SUCCESS,14,SUCCESS,12,FAIL,10,2013-09-06 15:49:51 -0300,trying to release jedis in maven central,99,12121
+548,dd3e5493,SUCCESS,15,SUCCESS,11,FAIL,9,2013-09-06 15:52:59 -0300,add target to release jedis in maven central,99,12121
+549,54d6c50e,SUCCESS,13,SUCCESS,10,FAIL,9,2013-09-06 15:53:54 -0300,move back to snaptshot,99,12121
+550,2f26176e,SUCCESS,12,SUCCESS,11,FAIL,10,2013-09-06 16:09:11 -0300,[maven-release-plugin] prepare release jedis-2.2.0,99,12121
+551,d7d9f06b,SUCCESS,14,SUCCESS,13,FAIL,13,2013-09-06 16:09:18 -0300,[maven-release-plugin] prepare for next development iteration,99,12121
+552,ebf1380e,SUCCESS,15,SUCCESS,13,FAIL,11,2013-09-12 21:52:29 -0400,"Fixed bug where timeout, password, and database were not set in the JedisSentinelPool overloaded contructor and hence not passed to JedisFactory.",99,12124
+553,4d909082,SUCCESS,14,SUCCESS,12,FAIL,10,2013-09-15 15:32:31 -0300,don't push binaries to github,99,12124
+554,ad58f816,SUCCESS,14,SUCCESS,11,FAIL,10,2013-09-15 15:33:22 -0300,"make sure that JedisSentinelPool use timeout, password and db",99,12174
+555,6c8d23fa,SUCCESS,14,SUCCESS,12,FAIL,9,2013-09-15 15:37:01 -0300,"rollback sentinel1 configuration, since I broke a test",99,12174
+556,1aee3b39,SUCCESS,14,SUCCESS,13,FAIL,11,2013-09-15 15:41:44 -0300,ooppsss... forgot password for sentinel,99,12174
+557,0defe548,SUCCESS,13,SUCCESS,13,FAIL,11,2013-09-15 15:46:58 -0300,[maven-release-plugin] prepare release jedis-2.2.1,99,12174
+558,08e9b0c7,SUCCESS,13,SUCCESS,11,FAIL,10,2013-09-15 15:47:05 -0300,[maven-release-plugin] prepare for next development iteration,99,12174
+559,35a2dfd4,SUCCESS,11,SUCCESS,10,FAIL,9,2013-09-26 10:48:17 +0900,JedisSentinelPool now takes care of multi failover,99,12192
+560,bc4d0ed0,SUCCESS,12,SUCCESS,11,FAIL,10,2013-10-05 16:20:05 -0400,Added test from pull request #429.,99,12205
+561,796f80d9,SUCCESS,14,SUCCESS,11,FAIL,10,2013-09-24 15:32:18 -0600,Allow JedisPool to set a custom client name,99,12223
+562,2ee74305,SUCCESS,15,SUCCESS,13,FAIL,11,2013-10-05 17:32:06 -0400,Fixed issue #456 (evalsha loses args).,99,12227
+563,59736634,SUCCESS,14,SUCCESS,13,FAIL,11,2013-10-05 18:13:30 -0400,Fixed up eval(sha) tests to better check that the lua script ran properly.,99,12236
+564,7e1a1a70,SUCCESS,14,SUCCESS,11,FAIL,9,2013-10-07 11:03:32 +0900,Speed up Sentinel related tests,101,12335
+565,e9506298,SUCCESS,13,SUCCESS,11,FAIL,8,2013-10-16 18:22:04 +0900,fix bug in Protocol.processBulkReply(),99,12275
+566,52bb2452,SUCCESS,12,SUCCESS,12,FAIL,9,2013-10-16 19:42:29 +0900,* fix bug: test expects JedisConnectionException ** I have mistaken while verifying seeing Exception's message * remove huge print messages,99,12274
+567,c5a5e141,SUCCESS,14,SUCCESS,11,FAIL,9,2013-11-04 18:13:57 -0500,upgrade dependencies in gradle build file (to match the ones in pom.xml) and update version of gradle wrapper,99,12236
+568,17f6ee63,SUCCESS,13,SUCCESS,11,FAIL,9,2013-11-08 22:25:37 +0000,"Added support for nested lists, and longs in lists.",99,12249
+569,4fb85d0d,SUCCESS,15,SUCCESS,10,FAIL,10,2013-11-08 22:54:27 +0000,Fixed the ordering of arguments in assertions for a couple of older tests.,99,12249
+570,4543daf7,SUCCESS,14,SUCCESS,12,FAIL,10,2013-11-28 04:39:35 -0800,Merge pull request #474 from 50onRed/upgrade-dependencies,99,12236
+571,bbb86778,SUCCESS,17,SUCCESS,13,FAIL,10,2013-11-28 08:13:57 -0500,upgrade to commons-pool 2,99,12214
+572,18652b90,SUCCESS,13,SUCCESS,13,FAIL,11,2013-11-29 12:12:30 -0500,Merge branch 'speed-up-unit-test' of github.com:HeartSaVioR/jedis into upgrade_libs,101,12311
+573,6b5f080c,SUCCESS,15,SUCCESS,15,FAIL,11,2013-11-29 12:13:17 -0500,Merge branch 'master' of github.com:xetorthio/jedis,101,12311
+574,7cd4dd43,SUCCESS,13,SUCCESS,12,FAIL,11,2013-11-30 19:02:40 +0100,Updated maven dependency template Jedis version to  2.2.1 (latest),101,12311
+575,fb02c2e3,SUCCESS,13,SUCCESS,12,FAIL,11,2013-11-30 13:24:17 -0800,Merge pull request #484 from mathieuboniface/patch-1,101,12311
+576,3876bb04,SUCCESS,12,SUCCESS,12,FAIL,10,2013-12-01 14:56:23 -0800,Update Gradle build to use Apache Commons Pool 2.0.,101,12311
+577,e10cdda5,SUCCESS,12,SUCCESS,12,FAIL,11,2013-12-02 03:34:42 -0800,Merge pull request #485 from tague/479_gradle_build_file_fix,101,12311
+578,15891c41,SUCCESS,13,SUCCESS,11,FAIL,11,2013-12-02 22:11:52 +0900,make jedis unit tests pass to Redis 2.8.1,101,12318
+579,e7e2bfae,SUCCESS,12,SUCCESS,11,FAIL,10,2013-12-02 09:53:40 -0500,Launch 3 nodes on ports 7379 to 7381 with cluster enabled. Add command CLUSTER NODES,102,12380
+580,403f2b29,SUCCESS,12,SUCCESS,10,FAIL,9,2013-12-02 10:01:19 -0500,Add CLUSTER MEET command,102,12389
+581,dde27815,SUCCESS,10,SUCCESS,11,FAIL,10,2013-12-02 11:36:55 -0500,Add CLUSTER ADDSLOTS and CLUSTER DELSLOTS commands,102,12419
+582,77d244b9,SUCCESS,12,SUCCESS,10,FAIL,10,2013-12-02 14:04:37 -0500,"Add CLUSTER INFO, CLUSTER SETSLOT and CLUSTER GETKEYSINSLOT commands",102,12476
+583,5b15d488,SUCCESS,12,SUCCESS,12,FAIL,9,2013-12-02 14:34:05 -0500,Refactor to have interfaces. Add cluster pipeline commands.,104,12546
+584,46966fb8,SUCCESS,13,SUCCESS,11,FAIL,11,2013-12-02 19:27:12 -0500,Prepare redis cluster for testing. The cluster will always be in a deterministic state to be able to reproduce -MOVED and -ASK,106,12593
+585,fa614bd2,SUCCESS,13,SUCCESS,12,FAIL,12,2013-12-03 07:41:07 -0500,Merge branch 'handles-client-output-buffer-limit' of github.com:HeartSaVioR/jedis into HeartSaVioR-handles-client-output-buffer-limit,101,12356
+586,efbb7103,SUCCESS,14,SUCCESS,12,FAIL,12,2013-12-03 08:31:24 -0500,Change string size to make test fail faster,101,12364
+587,a27c67de,SUCCESS,13,SUCCESS,14,FAIL,12,2013-12-03 16:55:52 -0500,"add SCAN, HSCAN, SSCAN and ZSCAN",103,12608
+588,1c8e2226,SUCCESS,15,SUCCESS,13,FAIL,11,2013-12-03 13:58:41 -0800,Merge pull request #489 from xetorthio/scan_commands,103,12608
+589,58123034,SUCCESS,13,SUCCESS,12,FAIL,10,2013-12-03 17:43:15 -0500,make pubsub test fast,101,12238
+590,ceac8123,SUCCESS,14,SUCCESS,11,FAIL,10,2013-12-03 17:54:35 -0500,make control command tests fast,101,12228
+591,e17d24c7,SUCCESS,13,SUCCESS,12,FAIL,9,2013-12-03 18:20:49 -0500,make list command tests fast,101,12229
+592,ce3497e3,SUCCESS,13,SUCCESS,13,FAIL,11,2013-12-03 18:28:31 -0500,make object command tests fast,101,12228
+593,20d686ec,SUCCESS,14,SUCCESS,11,FAIL,9,2013-12-03 18:43:34 -0500,make list command tests even faster,101,12193
+594,4a4768b1,SUCCESS,12,SUCCESS,13,FAIL,10,2013-12-03 19:03:19 -0500,speed up JedisSentinelTest,101,12182
+595,3b7127c8,SUCCESS,14,SUCCESS,12,FAIL,11,2013-12-03 19:06:53 -0500,make JedisTest fast,101,12182
+596,8624d169,SUCCESS,15,SUCCESS,12,FAIL,301,2013-12-03 19:47:15 -0500,make JedisSentinelPool fast,101,12177
+597,0c00108f,SUCCESS,15,SUCCESS,13,FAIL,300,2013-12-03 16:51:04 -0800,Merge pull request #490 from xetorthio/speedup_tests,103,12421
+598,46734e64,SUCCESS,12,SUCCESS,12,FAIL,300,2013-12-05 09:35:13 -0500,add WAIT command,103,12434
+599,a8987ed8,SUCCESS,13,SUCCESS,12,FAIL,12,2013-12-07 17:55:17 -0300,Add first test to thorw MovedDataException when receiving MOVED from a cluster node,107,12991
+600,726c3151,SUCCESS,14,SUCCESS,14,FAIL,11,2013-12-08 01:08:14 -0300,Add RedisSlot helper to calculate key slot,108,13009
+601,10c131bb,SUCCESS,13,SUCCESS,14,FAIL,300,2013-12-09 10:54:53 +0900,BinaryJedis.multi(TransactionBlock) should not call discard when exception occurred,103,12460
+602,0ebbf02c,SUCCESS,12,SUCCESS,13,FAIL,10,2013-12-09 15:17:13 -0300,Change Moved cluster test and add confirmation for jedis cluster tests,109,13022
+603,c0080700,SUCCESS,16,SUCCESS,11,FAIL,9,2013-12-10 10:25:41 -0300,Add JedisClusterCommand and updated code to use it respectively,111,13096
+604,3073f778,SUCCESS,13,SUCCESS,12,FAIL,300,2013-12-21 01:33:46 +0900,"JedisPool / JedisSentinelPool resets returning object's state (watched, multi)",103,12519
+605,0bc27ac3,SUCCESS,12,SUCCESS,11,FAIL,10,2013-12-20 15:28:32 -0300,Refactor redis cluster connection handler and add JedisAskDataException handling,112,13111
+606,af72248c,SUCCESS,15,SUCCESS,12,FAIL,9,2013-12-20 16:56:29 -0300,Implement all Jedis cluster commands and rename RedisSlot class,112,13523
+607,53b3e041,SUCCESS,16,SUCCESS,14,FAIL,301,2013-12-23 14:19:28 +0900,Fix BinaryJedis.eval() method bug (argument),103,12459
+608,9f767a08,SUCCESS,15,SUCCESS,14,FAIL,13,2013-12-27 23:09:44 -0300,Add automatic discovery of cluster nodes,112,13562
+609,b2d22e20,FAIL,13,NO,0,NO,0,2013-12-28 00:59:35 -0300,Add slot based connection which routes requests according to key slot,113,13593
+610,1b268157,FAIL,15,NO,0,NO,0,2014-01-02 20:52:17 -0300,Add functionality to recalculate slots when receiving MOVED response from node. Add test to check for ASK responses (implementation missing),113,13645
+611,dd0bbdaf,FAIL,15,NO,0,NO,0,2014-01-03 16:42:21 -0300,Several changes have been added to this commit:,113,13695
+612,33716e23,FAIL,13,NO,0,NO,0,2014-01-03 16:45:22 -0300,Add JedisClusterException file,114,13704
+613,4ab8ea2e,SUCCESS,17,SUCCESS,14,FAIL,11,2014-01-14 15:57:53 -0300,Move Jedis CRC16 util as it's being used in the project. Changed Makefile to cleanup redis cluster node configuration before running tests Add cleanup to ClusterCommandTest.,114,13728
+614,a09a682f,SUCCESS,13,SUCCESS,10,FAIL,10,2014-01-14 16:00:22 -0300,Remove sysout prints from test,114,13724
+615,ccf93714,SUCCESS,13,SUCCESS,11,FAIL,9,2014-01-14 17:58:21 -0300,Fix ClusterCommand tearDown as gossip may take some time to send data to nodes,114,13728
+616,2f9564e1,SUCCESS,14,SUCCESS,12,FAIL,11,2014-01-14 21:20:33 -0300,Variable refactor in JedisClusterTest,114,13730
+617,46733c5d,SUCCESS,16,SUCCESS,13,FAIL,11,2014-01-16 18:04:27 -0300,Add test for redis cluster max redirections and refactor JedisClusterCommand exception handling,116,13765
+618,6c8d7a50,SUCCESS,15,SUCCESS,12,FAIL,10,2014-01-16 18:14:55 -0300,Add fail in case test doesn't throw any exception,116,13766
+619,354dd721,SUCCESS,14,SUCCESS,12,FAIL,10,2014-01-16 19:23:18 -0200,Update README.md,116,13766
+620,842dcd2a,SUCCESS,13,SUCCESS,11,FAIL,300,2014-01-16 16:35:04 -0500,Merge branch 'cluster' of github.com:marcosnils/jedis into marcosnils-cluster,118,14098
+621,424ae75c,SUCCESS,15,SUCCESS,12,FAIL,300,2014-01-16 16:40:48 -0500,Merge branch 'cluster' of github.com:marcosnils/jedis into marcosnils-cluster,118,14098
+622,23b54c2c,SUCCESS,14,SUCCESS,12,FAIL,301,2014-01-16 20:37:47 -0500,Fix sentinel test not to be so sensitive to time,118,14101
+623,f11c1622,SUCCESS,15,SUCCESS,11,FAIL,301,2014-01-16 21:57:22 -0700,Allow safe multi-threaded access to JedisPubSub,118,14117
+624,37f62976,SUCCESS,15,SUCCESS,11,FAIL,301,2014-01-17 12:06:20 -0300,Improve performance in  MOVED and ASK response parsing,118,14101
+625,01842e47,SUCCESS,14,SUCCESS,11,FAIL,301,2014-01-18 11:39:31 -0500,Merge branch 'fix-eval-argument-in-binary-jedis' of github.com:HeartSaVioR/jedis into HeartSaVioR-fix-eval-argument-in-binary-jedis,118,14126
+626,f7bd9c83,SUCCESS,15,SUCCESS,12,FAIL,300,2014-01-20 00:28:00 +0900,"Refactor Pipeline / Transaction to consume responses based on their requests, not rely on pipelinedCommands",118,14096
+627,5bf29b43,SUCCESS,16,SUCCESS,13,FAIL,300,2014-01-20 07:31:13 +0900,"Let BinaryJedis.multi() consumes ""OK"" message",118,14096
+628,2267c331,SUCCESS,16,SUCCESS,11,FAIL,301,2014-01-20 11:36:24 +0900,Implemented Client.getMany(int count) to remove multiple flush while getting responses at once,118,14091
+629,bc7cc5ed,SUCCESS,13,SUCCESS,11,FAIL,300,2014-01-20 14:35:42 +0900,Shadow client field from PipelineBlock and TransactionBlock,118,14099
+630,360e25e0,SUCCESS,15,SUCCESS,13,FAIL,300,2014-01-20 14:50:02 +0900,Remove unused discard() method,118,14097
+631,a50cf3b1,SUCCESS,14,SUCCESS,13,FAIL,300,2014-01-22 00:23:40 +0900,Apply Sentinel runtime configuration API introduced on Redis 2.8.4,119,14206
+632,68356eb8,SUCCESS,17,SUCCESS,13,FAIL,301,2014-01-22 00:40:37 +0900,make sentinel set command unit test stronger,119,14211
+633,5f5b80e6,SUCCESS,14,SUCCESS,12,FAIL,300,2014-01-23 21:03:46 +0530,"Corrected documentation for Jedis.get(), it returns a Java null, not (nil)",118,14126
+634,51f103af,SUCCESS,16,SUCCESS,13,FAIL,300,2014-01-23 09:42:17 -0800,Merge pull request #513 from mayank-kakodkar/master,118,14126
+635,b05d9adf,SUCCESS,16,SUCCESS,10,FAIL,301,2014-01-26 13:53:34 -0300,Change zadd parameter order to allow duplicated scoremembers but not members,118,14125
+636,adcb0c02,SUCCESS,15,SUCCESS,13,FAIL,300,2014-01-26 09:19:16 -0800,Merge pull request #515 from xetorthio/zadd_scoremembers,118,14125
+637,642cec66,SUCCESS,16,SUCCESS,11,FAIL,301,2014-01-27 12:47:21 +0900,Fix ControlCommandsTest to don't hang from monitor test because of timing issue,118,14129
+638,dca7ab1b,SUCCESS,15,SUCCESS,12,FAIL,301,2014-01-27 07:11:08 -0800,Merge pull request #516 from HeartSaVioR/fix-timing-issues-with-monitor-test,118,14128
+639,1844e295,SUCCESS,15,SUCCESS,13,FAIL,300,2014-01-28 11:04:21 -0300,Fix typo in cluster snippet from README,118,14128
+640,265eab0c,SUCCESS,17,SUCCESS,14,FAIL,300,2014-01-28 16:50:11 -0500,Merge branch 'reset-state-of-jedis-client' of github.com:HeartSaVioR/jedis into HeartSaVioR-reset-state-of-jedis-client,118,14213
+641,3e99749b,SUCCESS,14,SUCCESS,13,FAIL,301,2014-01-28 16:53:53 -0500,Merge branch 'missedbuffer' of github.com:ibuildthecloud/jedis into ibuildthecloud-missedbuffer,118,14213
+642,105ca9f5,SUCCESS,16,SUCCESS,13,FAIL,300,2014-01-31 11:24:06 -0500,Reformat all files in the project according to java conventions.,118,14357
+643,d7c5823c,SUCCESS,14,SUCCESS,12,FAIL,301,2014-01-31 08:25:16 -0800,Merge pull request #524 from xetorthio/reformat-all,118,14357
+644,8fef62e2,SUCCESS,15,SUCCESS,12,FAIL,301,2014-01-31 13:28:29 -0500,Merge branch 'pubsub-concurrency' of github.com:ibuildthecloud/jedis into ibuildthecloud-pubsub-concurrency,118,14373
+645,8bec9fd3,SUCCESS,14,SUCCESS,13,FAIL,300,2014-02-01 20:13:56 -0300,Implement missing pubsub commands and fix indentation,118,14323
+646,319a241d,SUCCESS,12,SUCCESS,11,FAIL,301,2014-02-01 20:15:52 -0300,Remove unnecessary imports,118,14322
+647,bd19193c,FAIL,13,NO,0,NO,0,2014-02-01 20:41:14 -0300,Merged with master,118,14487
+648,4b53160a,SUCCESS,14,SUCCESS,12,FAIL,301,2014-02-01 20:50:36 -0300,Remove unnecessary Builder and fix merge issue. Fixes #520,118,14476
+649,4ab54d95,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-03 12:44:40 -0300,Change pubSub to pubsub,118,14476
+650,d5f984a9,SUCCESS,16,SUCCESS,15,FAIL,300,2014-02-03 10:46:23 -0500,Merge branch 'transaction-block-should-not-call-discard-when-exception-ocurred' of github.com:HeartSaVioR/jedis into HeartSaVioR-transaction-block-should-not-call-discard-when-exception-ocurred,118,14400
+651,bfecfcb7,SUCCESS,15,SUCCESS,15,FAIL,300,2014-02-03 07:47:49 -0800,Merge pull request #523 from xetorthio/pubsub,118,14503
+652,56cec8f6,SUCCESS,14,SUCCESS,14,FAIL,300,2014-02-03 10:50:59 -0500,version bump to 2.3.0-snapshot,118,14503
+653,35291bf1,SUCCESS,14,SUCCESS,13,FAIL,300,2014-02-03 13:01:20 -0300,Make makefile remove temp files as it makes tests to fail sometimes,118,14503
+654,aa63c98d,SUCCESS,14,SUCCESS,12,FAIL,301,2014-02-03 11:09:48 -0500,[maven-release-plugin] prepare release jedis-2.3.0,118,14503
+655,2d04a384,SUCCESS,14,SUCCESS,13,FAIL,300,2014-02-03 11:09:50 -0500,[maven-release-plugin] prepare for next development iteration,118,14503
+656,6efeb459,SUCCESS,15,SUCCESS,13,FAIL,300,2014-02-05 00:26:14 +0900,Merge branch 'master' into introduce-new-sentinel-commands-added-to-Redis-2.8,119,14590
+657,13f0c32f,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-05 00:41:34 +0900,"Add unit test for ""sentinel set quorum"" introduced by Redis 2.8.5",119,14594
+658,dd62e360,SUCCESS,16,SUCCESS,13,FAIL,301,2014-02-05 00:45:48 +0900,"Apply ""Java Convention"" to met Jedis's preferred source code Convention",119,14607
+659,a5363582,SUCCESS,14,SUCCESS,12,FAIL,301,2014-02-05 07:52:53 +0900,"Apply ""Java Convention"" to met Jedis's preferred source code Convention",119,14609
+660,d846149a,SUCCESS,15,SUCCESS,15,FAIL,301,2014-02-04 22:34:48 -0300,Fix #526. Node parsing error uppon :0,118,14507
+661,a69dd4e2,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-05 00:06:29 -0300,Add exception handling in caso of unexecpected errors,118,14509
+662,b35e1f94,SUCCESS,15,SUCCESS,13,FAIL,300,2014-02-05 10:34:17 -0500,Update README on supported redis version,118,14550
+663,179498d4,SUCCESS,15,SUCCESS,13,FAIL,301,2014-02-05 10:38:21 -0500,Merge pull request #527 from xetorthio/node_parsing,118,14556
+664,28e7d2af,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-05 10:47:11 -0500,"Revert ""Update README on supported redis version""",118,14509
+665,75bc7542,SUCCESS,15,SUCCESS,14,FAIL,301,2014-02-05 10:48:40 -0500,Update README to indicate that redis 2.8.5 is supported,118,14509
+666,f7f689ef,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-05 10:51:36 -0500,[maven-release-plugin] prepare release jedis-2.3.1,118,14509
+667,51a4bf9a,SUCCESS,15,SUCCESS,13,FAIL,300,2014-02-05 10:51:37 -0500,[maven-release-plugin] prepare for next development iteration,118,14509
+668,40c8a933,SUCCESS,16,SUCCESS,13,FAIL,301,2014-02-05 22:24:23 +0000,Merge branch 'master' into eval-with-nested-lists-and-longs,118,14522
+669,7449619f,SUCCESS,15,SUCCESS,12,FAIL,301,2014-02-07 13:39:41 -0800,"Implement Closeable for Jedis, BinaryJedis etc.",118,14521
+670,f81f7517,SUCCESS,16,SUCCESS,14,FAIL,300,2014-02-08 10:10:45 +0000,Simplified unit test for compatibility with JDK6.,118,14520
+671,ed81f37d,SUCCESS,17,SUCCESS,14,FAIL,301,2014-02-10 07:08:39 +0900,"Introduce *scan with ""string"" cursor parameter to support unsigned long cursor",118,14680
+672,0aacd48c,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-10 07:28:46 +0900,Remove all @Deprecated things about *scan,118,14516
+673,1ed231cf,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-10 07:55:27 +0900,Mark @Duplicated to TransactionBlock and PipelineBlock related classes / methods,118,14451
+674,dbae5446,SUCCESS,16,SUCCESS,15,FAIL,301,2014-02-10 15:36:05 -0500,Merge pull request #528 from jideji/eval-with-nested-lists-and-longs,118,14520
+675,e59e4a0d,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-11 02:51:58 -0300,Fix test to make jedis work with latest git master version of redis,118,14517
+676,08ed0006,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-11 10:25:55 -0500,Merge pull request #539 from xetorthio/cluster_bugfix,118,14517
+677,d8ec0f8a,SUCCESS,16,SUCCESS,14,FAIL,301,2014-02-11 11:21:18 -0500,version bump,118,14517
+678,9776bbb4,SUCCESS,17,SUCCESS,15,FAIL,300,2014-02-11 11:28:09 -0500,Merge pull request #537 from HeartSaVioR/deprecated_transactionblock_and_pipelineblock,118,14459
+679,3bca5d84,SUCCESS,17,SUCCESS,15,FAIL,300,2014-02-11 11:29:18 -0500,Merge branch 'unsigned_long_cursor_with_compatibility' of github.com:HeartSaVioR/jedis into HeartSaVioR-unsigned_long_cursor_with_compatibility,118,14688
+680,e271acb7,SUCCESS,17,SUCCESS,13,FAIL,300,2014-02-11 12:04:47 -0500,Fix redis leak when testing,118,14459
+681,bd364c6f,SUCCESS,17,SUCCESS,14,FAIL,301,2014-02-11 12:05:26 -0500,Merge branch 'master' into HeartSaVioR-unsigned_long_cursor_with_compatibility,118,14630
+682,ba767cc5,SUCCESS,17,SUCCESS,15,FAIL,301,2014-02-11 12:11:57 -0500,Merge branch 'introduce-new-sentinel-commands-added-to-Redis-2.8' of github.com:HeartSaVioR/jedis into HeartSaVioR-introduce-new-sentinel-commands-added-to-Redis-2.8,119,14736
+683,79f1dcb9,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-11 12:22:01 -0500,Merge branch 'master' of github.com:hgschmie/jedis into hgschmie-master,119,14748
+684,fcef705a,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-11 12:31:32 -0500,Add unit tests to Closeable,119,14761
+685,ce3e76f2,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-11 12:35:34 -0500,Merge pull request #540 from xetorthio/closeable-support,119,14761
+686,adc9cb21,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-11 14:39:19 -0300,Fix ClusterCommandTest AfterClass handling as it may leave the cluster inconsistent,119,14765
+687,ba9989e6,SUCCESS,18,SUCCESS,14,FAIL,301,2014-02-12 00:39:12 -0300,Add support for redis cluster hashtags,119,14778
+688,76814b56,SUCCESS,14,SUCCESS,13,FAIL,301,2014-02-12 00:41:51 -0300,Remove unnecessary lines,119,14778
+689,c84039c3,SUCCESS,18,SUCCESS,13,FAIL,300,2014-02-11 22:53:27 -0500,Merge pull request #541 from xetorthio/jedis_cluster_hashtag,119,14778
+690,9530eedf,SUCCESS,18,SUCCESS,14,FAIL,301,2014-02-12 10:24:06 -0500,[maven-release-plugin] prepare release jedis-2.4.0,119,14778
+691,8d79bdef,SUCCESS,18,SUCCESS,16,FAIL,300,2014-02-12 10:24:08 -0500,[maven-release-plugin] prepare for next development iteration,119,14778
+692,ff6b26ee,SUCCESS,16,FAIL,14,NO,0,2014-02-13 07:42:10 +0900,Remove @Deprecated TransactionBlock and PipelineBlock,117,14744
+693,3ebc25e9,SUCCESS,16,SUCCESS,14,FAIL,301,2014-02-13 08:17:10 +0900,Remove Unit test related to @Deprecated TransactionBlock and PipelineBlock,117,14722
+694,7dc03cea,SUCCESS,17,SUCCESS,13,FAIL,301,2014-01-28 15:32:45 -0700,Add support for Travis CI,119,14778
+695,b0648f78,SUCCESS,16,SUCCESS,13,FAIL,301,2014-02-13 14:00:00 -0200,Merge pull request #544 from ibuildthecloud/travis-ci,119,14778
+696,07223203,SUCCESS,16,SUCCESS,16,FAIL,300,2014-02-13 15:41:29 -0200,Add travis build status,119,14778
+697,1f7d1fda,SUCCESS,17,SUCCESS,12,FAIL,300,2014-02-13 13:41:31 -0500,Makes sentinel tests more reliable by reducing the time it takes to mark master as odown.,119,14778
+698,1d0290d0,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-13 22:15:28 -0300,Improve JedsClusterTest setup speed,119,14777
+699,b2fa6b6c,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-14 05:31:16 -0300,Improve Jedis Cluster tests and cleanup son they run much faster and reliable,119,14783
+700,d2e073b2,SUCCESS,17,SUCCESS,14,FAIL,300,2014-02-15 10:30:01 +0900,"Use ""sentinel failover"" to force failover",119,14778
+701,09098115,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-15 11:00:46 +0900,"Let JedisSentinelPoolTest recognizes ""aborted failover"" and fail fast",119,14783
+702,a3862bc2,SUCCESS,16,SUCCESS,13,FAIL,301,2014-02-15 12:53:30 +0900,Clean up JedisSentinelTestUtil,120,14792
+703,d937b48f,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-15 12:57:40 +0900,"Revert ""Clean up JedisSentinelTestUtil""",119,14783
+704,57b17dcc,SUCCESS,17,SUCCESS,13,FAIL,301,2014-02-15 13:12:08 +0900,Clean up JedisSentinelTestUtil,120,14756
+705,cee792db,SUCCESS,15,SUCCESS,13,FAIL,301,2014-02-15 13:13:32 +0900,Modify method sequence : public -> private,120,14756
+706,ef956887,SUCCESS,13,SUCCESS,13,FAIL,300,2014-02-15 13:21:07 +0900,set sentinel failover-timeout longer (120000 ms),120,14756
+707,05d63bbd,SUCCESS,15,SUCCESS,13,FAIL,301,2014-02-15 20:22:50 +0900,Shift Redis/Sentinel instances to remove unused index,120,14753
+708,68ee4e49,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-17 13:37:06 +0900,Set dependency to Response when multi in pipeline and build dependency first if Response's dependency found and not built,119,14813
+709,c4fb2b4a,SUCCESS,17,SUCCESS,12,FAIL,300,2014-02-17 16:52:19 +0530,Fix #550 : Removed redundant call to connectionPool.getResource() in method getConnectionFromSlot(int slot) in class JedisSlotBasedConnectionHandler,119,14783
+710,752305a6,SUCCESS,16,SUCCESS,14,FAIL,301,2014-02-17 09:36:56 -0200,Merge pull request #551 from mayankdang/master,119,14783
+711,8ac9bd61,SUCCESS,14,SUCCESS,12,FAIL,300,2014-02-17 17:14:54 -0500,Merge pull request #546 from HeartSaVioR/sentinel_unit_test_revised,120,14753
+712,b7d55114,SUCCESS,17,SUCCESS,14,FAIL,301,2014-02-17 18:01:19 -0500,It is better to point everything to localhost and we just make sure there is not redis running on port 1234 when renning the tests.,120,14753
+713,89ccd8df,SUCCESS,12,SUCCESS,13,FAIL,300,2014-02-17 18:12:21 -0500,[maven-release-plugin] prepare release jedis-2.4.1,120,14753
+714,bfa4a80b,SUCCESS,13,SUCCESS,13,FAIL,300,2014-02-17 18:12:23 -0500,[maven-release-plugin] prepare for next development iteration,120,14753
+715,e4de6704,SUCCESS,16,SUCCESS,13,FAIL,301,2014-02-18 21:59:53 -0300,Make JedisCluster multihread by improving connection handling,119,14782
+716,756dc8de,SUCCESS,15,SUCCESS,12,FAIL,300,2014-02-18 22:30:40 -0300,Merge with master,120,14752
+717,db765227,SUCCESS,15,SUCCESS,13,FAIL,301,2014-02-19 18:21:56 +0530,fix #553 : Overloading JedisCluster constructor to include poolConfig to be used internally for all JedisPool classes,120,14773
+718,3f8507a1,SUCCESS,16,SUCCESS,11,FAIL,301,2014-02-20 14:39:51 -0300,Remove unnecessary connection allocation,120,14751
+719,75611382,SUCCESS,16,SUCCESS,13,FAIL,300,2014-02-20 14:58:04 -0300,Make JedisClusterCRC16 multi-thread,120,14750
+720,e9cf4692,SUCCESS,13,SUCCESS,12,FAIL,300,2014-02-21 10:44:36 -0500,Merge pull request #554 from xetorthio/jediscluster_multithread,120,14750
+721,670e019a,SUCCESS,14,SUCCESS,13,FAIL,300,2014-02-23 23:50:40 +0900,Implements Closeable to Pooled Jedis & ShardedJedis,120,14928
+722,882d6624,SUCCESS,17,SUCCESS,13,FAIL,300,2014-02-25 18:29:09 +0900,Make Jedis Cluster more likely to antirez's redis-rb-cluster,121,14836
+723,fcea0fe0,SUCCESS,15,SUCCESS,13,FAIL,301,2014-02-26 07:54:08 +0900,CLUSTERDOWN : JedisClusterException,121,14840
+724,ddb1870a,SUCCESS,14,SUCCESS,13,FAIL,301,2014-02-27 10:48:46 -0300,Fix bug in JedisCluster del command. Fix #568,120,14750
+725,dc054268,SUCCESS,14,SUCCESS,14,FAIL,300,2014-02-20 18:22:44 -0800,Add Closeable to JedisPool.,122,14835
+726,46eef953,SUCCESS,17,SUCCESS,11,FAIL,301,2014-02-27 10:58:46 -0800,add a number of null check to return methods.,120,14754
+727,b2eb5d6d,SUCCESS,15,SUCCESS,13,FAIL,300,2014-02-28 14:36:53 +0100,"add a returnBrokenResource method, this way we can throw away broken ShardedJedis objects (e.g. due to timeouts on one shard)",120,14752
+728,b5fe1072,SUCCESS,14,SUCCESS,14,FAIL,300,2014-03-03 18:49:43 -0300,Merge branch 'fix-jedis-cluster-failover-to-slave' of https://github.com/HeartSaVioR/jedis into HeartSaVioR-fix-jedis-cluster-failover-to-slave,121,14840
+729,4e78b811,SUCCESS,16,SUCCESS,14,FAIL,301,2014-03-03 18:54:24 -0300,Merge JedisSlotBasedConnectionGuaranteedConnectionHandler to JedisSlotBasedConnectionHandler,120,14825
+730,0cd32a61,SUCCESS,14,SUCCESS,12,FAIL,301,2014-03-04 23:54:44 +0900,Expose *SCAN commands to BinaryJedis,120,14976
+731,d9813a09,SUCCESS,14,SUCCESS,13,FAIL,301,2014-03-05 08:30:09 +0900,Change ScanResult's cursor type to byte[],120,14974
+732,e1f50b5f,SUCCESS,15,SUCCESS,13,FAIL,300,2014-03-05 21:30:36 +0900,Change method naming : ScanResult.getBinaryCursor to ScanResult.getCursorAsBytes,120,14974
+733,e7285ade,SUCCESS,17,SUCCESS,13,FAIL,301,2014-03-04 18:14:41 -0500,Accept long parameter for pexpire,120,14848
+734,92f6785a,SUCCESS,14,SUCCESS,13,FAIL,300,2014-03-05 16:59:11 -0500,"Remove deprecated pexpire(key, int) methods",120,14830
+735,f35567cc,SUCCESS,16,SUCCESS,13,FAIL,301,2014-03-12 10:28:44 -0400,Merge branch 'null-check' of github.com:hgschmie/jedis into null-check,120,14829
+736,62b98a3e,SUCCESS,16,SUCCESS,13,FAIL,301,2014-03-12 10:31:22 -0400,Add tests to check returning null to pool,120,14838
+737,0c16cbde,SUCCESS,15,SUCCESS,13,FAIL,301,2014-03-12 10:36:33 -0400,Merge pull request #587 from xetorthio/null-check,120,14838
+738,12ab600d,SUCCESS,16,SUCCESS,13,FAIL,301,2014-03-12 10:41:51 -0400,Merge pull request #549 from HeartSaVioR/make_multi_in_pipeline_and_sync_work_smoothly,120,14868
+739,e449923e,SUCCESS,14,SUCCESS,13,FAIL,301,2014-03-12 10:44:00 -0400,[maven-release-plugin] prepare release jedis-2.4.2,120,14868
+740,ec03c094,SUCCESS,15,SUCCESS,13,FAIL,300,2014-03-12 10:44:02 -0400,[maven-release-plugin] prepare for next development iteration,120,14868
+741,d00e8b64,SUCCESS,14,SUCCESS,14,FAIL,301,2014-03-12 13:13:48 -0400,revert back version,120,14868
+742,70fa35f3,SUCCESS,14,SUCCESS,11,FAIL,301,2014-03-12 13:14:49 -0400,[maven-release-plugin] prepare release jedis-2.4.2,120,14868
+743,bcd40b4e,SUCCESS,16,SUCCESS,12,FAIL,300,2014-03-12 13:14:51 -0400,[maven-release-plugin] prepare for next development iteration,120,14868
+744,28fdd60f,SUCCESS,16,SUCCESS,14,FAIL,301,2014-03-16 22:25:58 +0900,Merge branch 'closeable' of https://github.com/hgschmie/jedis into pool-closeable-support,122,14953
+745,c0697cd6,SUCCESS,16,SUCCESS,15,FAIL,300,2014-03-16 22:58:26 +0900,"Add ""closeable"" unit tests to JedisSentinelPool, ShardedJedisPoolTest",122,14977
+746,1fd5b575,SUCCESS,16,SUCCESS,12,FAIL,300,2014-03-18 18:29:03 -0700,Fixed #595:,120,14876
+747,5d360048,SUCCESS,16,SUCCESS,14,FAIL,301,2014-03-18 19:51:51 -0700,Indent fix,120,14876
+748,d7f88789,SUCCESS,17,SUCCESS,12,FAIL,300,2014-03-22 18:00:34 +0900,Reflect recent version to maven dependency explain,120,14868
+749,e7bc4f5d,SUCCESS,15,SUCCESS,12,FAIL,300,2014-03-22 18:37:40 +0900,Merge pull request #601 from HeartSaVioR/master,120,14868
+750,924f2791,SUCCESS,15,SUCCESS,12,FAIL,300,2014-03-26 13:27:47 +0530,Merging upstream,120,14888
+751,6c68624a,SUCCESS,17,SUCCESS,13,FAIL,301,2014-03-26 14:56:46 +0530,Test case for checking if Pool gets applied to Cluster pools added to JedisClusterTest.java,120,14895
+752,b7db408a,SUCCESS,15,SUCCESS,12,FAIL,300,2014-03-27 23:33:00 +0900,Fix invalid link to download (it's deprecated) - replace to releases,120,14868
+753,752973de,SUCCESS,16,SUCCESS,13,FAIL,300,2014-03-27 11:38:34 -0300,Merge pull request #605 from HeartSaVioR/fix-readme-with-invalid-download-link,120,14868
+754,7a8e8f99,SUCCESS,13,SUCCESS,12,FAIL,300,2014-03-28 23:16:30 +0900,Append 'package' command in Makefile,120,14868
+755,3a1b3a21,FAIL,13,NO,0,NO,0,2014-03-29 12:40:52 +0900,support nested list and longs to eval with pipeline / add binary eval commands to pipeline,122,15013
+756,1ac4edd4,SUCCESS,14,SUCCESS,11,FAIL,300,2014-03-29 12:57:09 +0900,Fix generic error with type erasure occurred in JDK7,122,15013
+757,cfa6ab6b,SUCCESS,14,SUCCESS,13,FAIL,300,2014-03-30 12:02:47 +0900,Rename interface name to more proper,122,15013
+758,2510e34c,SUCCESS,17,SUCCESS,15,FAIL,300,2014-03-30 13:38:07 +0900,"Revert ""Rename interface name to more proper""",122,15013
+759,86526453,SUCCESS,16,SUCCESS,13,FAIL,301,2014-04-01 20:21:07 -0400,Implement script commands for jedis cluster,122,15014
+760,86348301,SUCCESS,16,SUCCESS,11,FAIL,301,2014-04-01 21:52:34 -0400,Address review comments,122,15031
+761,add27789,SUCCESS,14,SUCCESS,10,FAIL,300,2014-04-01 19:40:21 -0700,Merge pull request #1 from phufool/cluster-scripting-commands,122,15031
+762,6d9d7add,SUCCESS,16,SUCCESS,13,FAIL,300,2014-04-02 15:12:31 -0400,Fixed cluster scripting commands build test,122,15098
+763,b55b79f4,SUCCESS,15,SUCCESS,11,FAIL,301,2014-04-02 12:26:02 -0700,Merge pull request #2 from phufool/cluster-scripting-commands,122,15098
+764,d729beca,SUCCESS,16,SUCCESS,14,FAIL,300,2014-04-02 19:55:17 -0400,Add binary jedis commands,123,15953
+765,737b5f94,SUCCESS,15,SUCCESS,11,FAIL,300,2014-04-02 21:30:22 -0400,JedisCluster extends BinaryJedisCluster. BinaryJedisCluster implements BasicCommands,123,15944
+766,ce1156be,SUCCESS,15,SUCCESS,12,FAIL,301,2014-04-03 16:27:52 -0700,JedisSentinelPool#return[Broken]Resource should handle nulls the same was as JedisPool,120,14890
+767,afefb71e,SUCCESS,14,SUCCESS,12,FAIL,300,2014-04-03 22:01:15 -0300,Add support for HLL,122,14954
+768,a6b76ae6,SUCCESS,15,SUCCESS,13,FAIL,300,2014-04-03 22:05:40 -0300,Remove RedisTimeout that was added accidentally,121,14921
+769,167a782c,SUCCESS,14,SUCCESS,12,FAIL,300,2014-04-03 18:53:59 -0400,Implement cluster binary scripting commands. Add tests,125,16255
+770,a3345f5a,SUCCESS,16,SUCCESS,14,FAIL,300,2014-04-04 11:23:31 +0900,Merge pull request #612 from vijaykramesh/sentinel_pool_null_check_on_broken,120,14890
+771,96591a15,SUCCESS,14,SUCCESS,12,FAIL,300,2014-04-05 18:35:07 +0900,Merge pull request #613 from xetorthio/hll,121,14943
+772,ac53759f,SUCCESS,17,SUCCESS,12,FAIL,301,2014-04-05 18:46:06 +0900,"Revert ""Add support for HLL""",120,14890
+773,1345b5c1,SUCCESS,16,SUCCESS,13,FAIL,301,2014-04-05 22:19:11 +0900,"Apply PF* commands to JedisCluster, ShardedJedis",121,14948
+774,11f05ec1,SUCCESS,14,SUCCESS,12,FAIL,301,2014-04-05 23:21:47 +0900,"Apply binary PF* commands to BinaryJedis, BinaryShardedJedis",121,15017
+775,c2cf79c9,SUCCESS,13,SUCCESS,12,FAIL,300,2014-04-05 23:48:49 +0900,"Apply PF* (string, binary) commands to Pipeline",121,15046
+776,334314d3,FAIL,13,NO,0,NO,0,2014-04-06 00:11:40 +0900,Merge branch 'master' into hll-resurrect-afefb71e57b0258a52b465b2b4e57c132aef4db9,121,15062
+777,986acc8c,SUCCESS,15,SUCCESS,14,FAIL,300,2014-04-06 00:19:16 +0900,"Revert ""Revert ""Add support for HLL""""",121,15068
+778,e062f9f5,SUCCESS,14,SUCCESS,12,FAIL,301,2014-04-07 21:16:33 -0400,-Pass keyCount to runScript method -Add missing scripting methods with key -Separate ScriptingCommands from JedisClusterScriptingCommands,122,15080
+779,4003ce24,SUCCESS,14,SUCCESS,12,FAIL,301,2014-04-07 19:12:42 -0700,Merge pull request #3 from phufool/cluster-scripting-commands,122,15080
+780,81c8308a,SUCCESS,13,SUCCESS,11,FAIL,301,2014-04-08 14:21:45 -0400, - Changed runScript() to run(),122,15080
+781,3c1d7999,SUCCESS,16,SUCCESS,13,FAIL,300,2014-04-08 11:25:32 -0700,Merge pull request #4 from phufool/cluster-scripting-commands,122,15080
+782,3824459c,SUCCESS,16,SUCCESS,13,FAIL,300,2014-04-08 14:40:38 -0400,Merged scripting commands,125,16237
+783,1e64d515,SUCCESS,17,SUCCESS,16,FAIL,300,2014-04-13 10:41:45 +0900,Remove BasicCommand implementation from JedisCluster,120,14729
+784,68113d65,SUCCESS,14,SUCCESS,11,FAIL,300,2014-04-08 19:04:51 -0400, - Removed runBinaryScript  - Add missing methods with key parameter  - Separate BinaryScriptingCommands from JedisClusterBinaryScriptingCommands,125,16233
+785,3bb23712,SUCCESS,15,SUCCESS,13,FAIL,300,2014-04-14 11:32:04 -0700,Merge pull request #5 from phufool/binary_jedis_commands_for_cluster,125,16233
+786,91a2d117,SUCCESS,15,SUCCESS,11,FAIL,300,2014-04-08 19:04:51 -0400, - Removed runBinaryScript  - Add missing methods with key parameter  - Separate BinaryScriptingCommands from JedisClusterBinaryScriptingCommands,125,16233
+787,143faa65,SUCCESS,15,SUCCESS,12,FAIL,301,2014-04-14 13:47:30 -0700,Merge pull request #8 from phufool/master,125,16233
+788,ef528ed9,SUCCESS,15,FAIL,12,NO,0,2014-04-16 16:25:19 -0400,- removed BasicCommands - fixed getSlot bug - fixed eval method that uses bytearray keyCount - changed methods that pass 1 for keyCount - pass arg to runBinary,125,16083
+789,cef85201,SUCCESS,13,FAIL,11,NO,0,2014-04-16 13:49:39 -0700,Merge pull request #9 from phufool/master,125,16083
+790,a764ad15,SUCCESS,11,SUCCESS,13,FAIL,300,2014-04-16 22:17:19 -0400,- Removed test case using deprecated ping method - Added getClusterNodes method back from accidentally removing it,125,16079
+791,79d27ef6,SUCCESS,14,SUCCESS,11,FAIL,300,2014-04-16 19:21:11 -0700,Merge pull request #10 from phufool/master,125,16079
+792,409740f0,SUCCESS,13,SUCCESS,10,FAIL,300,2014-04-22 23:39:37 +0900,Support Sorted Set with LEX commands,120,15147
+793,6301ff58,SUCCESS,14,SUCCESS,13,FAIL,300,2014-04-23 15:03:47 -0300,Add support for jdk8 in travis,120,14890
+794,69de8d84,SUCCESS,15,SUCCESS,15,FAIL,301,2014-04-24 10:58:57 +0800,fix - ScanParams should be return this reference,120,14892
+795,bbc9078c,SUCCESS,17,SUCCESS,14,FAIL,300,2014-04-29 00:05:49 +0900,Fix Pipeline NPE or sth with multi,120,14910
+796,cd722e5a,SUCCESS,14,SUCCESS,11,FAIL,300,2014-04-28 14:17:46 -0700,Add support for pfcount with multiple keys,121,15097
+797,b633024c,SUCCESS,15,SUCCESS,12,FAIL,300,2014-04-28 16:41:09 -0700,Move pfcount(keys) method to multikey interfaces,121,15090
+798,d9d039d0,SUCCESS,11,SUCCESS,11,FAIL,300,2014-04-29 08:58:15 -0700,Added pfcount(keys) to BinaryJedis interfaces,121,15096
+799,219f9b37,SUCCESS,15,SUCCESS,11,FAIL,301,2014-04-30 06:54:22 +0900,Merge pull request #627 from aloksingh/hll-pfcount-with-multiple-keys,121,15096
+800,6485a7ec,SUCCESS,13,SUCCESS,11,FAIL,300,2014-04-30 08:17:59 +0900,Add Binary Pipeline version of pfcount,121,15101
+801,c63e9012,SUCCESS,14,SUCCESS,10,FAIL,300,2014-05-03 17:25:10 +0800,add 'time()' method to MultiKeyPipellineBase,120,14893
+802,e17a312d,SUCCESS,16,SUCCESS,12,FAIL,300,2014-05-04 15:03:18 +0800,"To solving the error (at Pool.java 35 : The type org.apache.commons.pool2.impl.AbandonedConfig cannot be resolved. It is indirectly referenced from required .class files), we update common-pool2 (2.0 -> 2.2)",120,14893
+803,942fc1d7,SUCCESS,16,SUCCESS,14,FAIL,301,2014-05-04 15:15:21 +0800,add the time() method,120,14895
+804,4b07966e,SUCCESS,13,SUCCESS,11,FAIL,301,2014-05-20 11:42:16 -0300,Checks for buffer out of bounds before writing to the stream. Fixes #636,120,14902
+805,7255a8ca,SUCCESS,14,SUCCESS,13,FAIL,301,2014-05-21 08:08:12 +0900,"fix ""cluster nodes"" parse error when slot is in transition",123,14999
+806,51de5f72,SUCCESS,13,SUCCESS,12,FAIL,301,2014-05-21 16:09:47 +0100,Added Set NXXX and EXPX options for JedisCluster and ShardedJedis,120,14905
+807,742e83b1,SUCCESS,17,SUCCESS,12,FAIL,301,2014-05-22 11:29:55 +0100,Added override annotation to ShardedJedis.set(),120,14906
+808,3917a50c,SUCCESS,13,SUCCESS,12,FAIL,300,2014-05-23 15:04:52 +0800,format code use STS,120,14890
+809,268706b6,SUCCESS,14,SUCCESS,12,FAIL,301,2014-05-23 15:39:51 +0800,format test code,120,14890
+810,ab2f43b8,SUCCESS,15,SUCCESS,13,FAIL,300,2014-05-23 16:18:07 +0800,fix issue #642,120,14914
+811,aca1b32f,SUCCESS,16,SUCCESS,12,FAIL,301,2014-05-25 13:31:36 -0400,Merge pull request #641 from Lolecule/set_nxxx_expx_on_jedis_cluster,120,14906
+812,c17a228b,SUCCESS,14,SUCCESS,13,FAIL,300,2014-05-25 20:32:28 +0300,Merge pull request #637 from HeartSaVioR/fix-cluster-nodes-parse-error,123,15015
+813,8f52dc74,SUCCESS,15,SUCCESS,13,FAIL,300,2014-05-25,,124,15226

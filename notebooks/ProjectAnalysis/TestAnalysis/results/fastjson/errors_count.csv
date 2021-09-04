@@ -1,0 +1,409 @@
+error,count
+,1170
+"not close json text, token : }",2
+"create asm deserializer error, com.alibaba.json.test.bvt.MaterializedInterfaceTest$Bean",3
+"set property error, com.alibaba.fastjson.util.FieldInfo@41853299",1
+"set property error, com.alibaba.fastjson.util.FieldInfo@fe7b6b0",1
+"create instance error, class com.alibaba.json.test.bvt.bug.Bug_for_SpitFire$AbstractDTO",1
+"(class: Fastjson_ASM_Entity_220, method: deserialze signature: (Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;)Ljava/lang/Object;) Inconsistent stack height 2 != 0",1
+I,3
+"set property error, list",2
+"create asm serilizer error, class class data.media.MediaContent",4
+"create asm serilizer error, class class com.alibaba.json.test.bvt.bug.Bug_101_for_rongganlin_case2$Structure",1
+Duplicate field name &quot;media_asm_prefix__&quot; with signature &quot;[C&quot; in class file Fastjson_ASM_MediaContent_250,2
+Duplicate field name &quot;media_asm_prefix__&quot; with signature &quot;[C&quot; in class file Fastjson_ASM_MediaContent_193,2
+/usr/local/openjdk-8/jre/lib/amd64/libfontmanager.so: libfreetype.so.6: cannot open shared object file: No such file or directory,3255
+Could not initialize class sun.awt.X11FontManager,3255
+"syntax error, blue",294
+write javaBean error,507
+not match &#x27;:&#x27; - &amp;#26;,2
+[D cannot be cast to [Ljava.lang.Object;,1
+[B cannot be cast to [Ljava.lang.Object;,1
+"Found class java.util.ArrayList, but interface was expected",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_KimShen$Entity",2
+"create asm serializer error, class class com.alibaba.json.bvt.asm.ASMDeserTest$VO",2
+"create asm serializer error, class class com.alibaba.json.bvt.asm.ASMDeserTest2$VO",2
+name_asm_fieldType,5
+syntax error : className,2324
+"set property error, monitorItems",133
+"create instance error, public com.alibaba.json.bvt.ref.TestRef3$Entity(int,com.alibaba.json.bvt.ref.TestRef3$Child)",136
+"setter not found, class com.alibaba.json.bvt.parser.deser.FieldDeserializerTest2$Entity, property value",211
+com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$B cannot be cast to com.alibaba.json.bvt.parser.deser.AbstractSerializeTest2$B,3
+"syntax error, position at 0, name id",6
+String index out of range: 26,1
+String index out of range: 11,1
+not match &#x27;:&#x27; - i,6
+String index out of range: 73,1
+not match &#x27;:&#x27; - f,5
+"syntax error, expect {, actual Unkown, pos 0",5
+unclosed.str,5
+not match &#x27;:&#x27; - o,5
+String index out of range: 4,44
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_byte$V0",3
+"create asm serializer error, class class com.alibaba.json.bvt.TestMultiLevelClass$A",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_long$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.TestMultiLevelClass2$A",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_Long_0$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_Byte_0$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.CircularReferencesTest$A",6
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_short$V0",3
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyPathTest$A",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_Short_0$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_int$V0",2
+toJSON error,15
+"create asm serializer error, class class com.alibaba.json.bvt.writeClassName.WriteClassNameTest2$A",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_Integer$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.JSONSerializerTest$B",4
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_Date$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug2$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.DefaultExtJSONParserTest$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_leupom_2$Time",2
+"create asm serializer error, class class data.media.MediaContent",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM$Department",1
+"create asm serializer error, class class com.alibaba.json.bvt.fullSer.is_set_test_2$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_dragoon26_1$MonitorItemAlarmRule",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.DoubleTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyPathTest3$Person",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.bug_for_caoyaojun1988$ReportDto",1
+"create asm serializer error, class class com.alibaba.json.bvt.PublicFieldDoubleTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_char$V0",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_boolean$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyFilter_char$A",3
+"create asm serializer error, class class com.alibaba.json.bvt.FeaturesTest7$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.JSONSerializerTest2$A",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_char$Bean",1
+"create asm serializer error, class class java.lang.StackTraceElement",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_dragoon26$MonitorItem",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_wtusmchen$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest4$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.asm.TestList$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.compatible.jsonlib.CompatibleTest0$VO",2
+"create asm serializer error, class class com.alibaba.json.bvt.compatible.jsonlib.CompatibleTest0$V1",6
+"create asm serializer error, class class com.alibaba.json.bvt.compatible.jsonlib.CompatibleTest0$V2",6
+"create asm serializer error, class class com.alibaba.json.bvt.compatible.jsonlib.CompatibleTest0$V3",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_zhuel$Family",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_101_for_rongganlin_case2$Structure",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_double$V0",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_Johnny$MyObject",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.BooleanFieldSerializerTest_primitive$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.SerializeWriterTest_19$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_javaeye_litterJava$Group",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest3$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.FeaturesTest6$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyFilter_short$A",3
+"create asm serializer error, class class com.alibaba.json.bvtVO.OfferRankResultVO",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyFilter_byte$A",3
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_byte$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyFilter_double$A",3
+"create asm serializer error, class class com.alibaba.json.bvt.FloatFieldTest$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.prettyFormat.ArrayListFieldTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.ListFloatFieldTest$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.TypeUtilstTest$Person",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest5$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest2$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_boolean$V0",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug13$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_BigDecimal$V0",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_BigDecimal$V1",2
+"create asm serializer error, class class com.alibaba.json.bvt.ArmoryTest$MessageBody",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_float$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvtVO.Page",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_double$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_42283905$Group",1
+"create asm serializer error, class class com.alibaba.json.bvt.PublicFieldFloatTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyPathTest2$Person",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONFeidDemo2$Z_OA_MM_PR_INFO_IN",1
+"create asm serializer error, class class com.alibaba.json.bvtVO.IEventDto",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.PropertyFilter_float$A",3
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_42283905_1$Group",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.TransientTest$Category",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.NameFilterTest_short$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_Double2Tag$Double2Tag",2
+"create asm serializer error, class class com.alibaba.json.bvt.JavaBeanTest$User",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_jinguwei$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_float$V0",1
+"create asm serializer error, class class com.alibaba.json.bvt.ArrayListFloatFieldTest$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.fullSer.getfTest_2$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.writeClassName.WriteClassNameTest_List2$A",1
+"create asm serializer error, class class com.alibaba.json.bvtVO.DataTransaction$Body$DataSet",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.WriteNullListAsEmptyTest$VO1",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.GenericTest$User",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM_List$V0",1
+"create asm serializer error, class class com.alibaba.json.test.dubbo.Person",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_6$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.FloatTest$Bean",1
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM2$V1",2
+"create asm serializer error, class class com.alibaba.json.bvt.parser.deser.TestASM2$V3",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_booleanField$BooleanJson",2
+"create asm serializer error, class class com.alibaba.json.bvt.serializer.ConcurrentHashMapTest7$MessageQueue",1
+"create asm serializer error, class class com.alibaba.json.bvt.CastTest$Body",1
+"com.alibaba.fastjson.util.ThreadLocalCache.getAllocateLength(int, int, int)",3
+For input string: &quot;2014-08-21T09:51:36.25+08:00&quot;,10
+sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class,2
+[Ljava.lang.Object; cannot be cast to [Ljava.lang.Number;,1
+"set property error, values",1
+"syntax error, expect ,, actual [",3
+java.util.EnumSet,1
+For input string: &quot;2015-05-23Z&quot;,37
+"not close json text, token : error",2
+"syntax error, expect {, actual Set, pos 74",1
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.bug.Bug_for_issue_389$User,2
+syntax error,10
+String index out of range: -2147483648,5
+"syntax error, position at 0, name value",5
+"syntax error, position at 0, name b",5
+"syntax error, pos 246",5
+java.net.ConnectException: ConnectException invoking http://localhost:8088/rest/fastjson/test1: Connection refused (Connection refused),2
+java.net.ConnectException: ConnectException invoking http://localhost:8088/rest/fastjson/test2: Connection refused (Connection refused),2
+-,2
+context is null,1
+"not close json text, token : int",4
+"not close json text, token : true",1
+"not close json text, token : string",2
+Address already in use,8
+"write javaBean error, class com.alibaba.json.bvt.serializer.filters.PropertyPathTest3$Person2",1
+"write javaBean error, class com.alibaba.json.bvt.taobao.MTopTest$P0",1
+tried to access class com.alibaba.json.bvt.bug.Issue179$Student from class com.alibaba.fastjson.serializer.ASMSerializer_46_School,5
+tried to access class com.alibaba.json.bvtVO.SearchCenterOfferModel from class com.alibaba.fastjson.serializer.ASMSerializer_100_OfferRankResultVO,1
+com.alibaba.fastjson.serializer.ObjectSerializer.writeAsArrayNonContext(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V,6
+tried to access class com.alibaba.json.bvtVO.SearchCenterOfferModel from class com.alibaba.fastjson.serializer.ASMSerializer_102_OfferRankResultVO,3
+com.alibaba.fastjson.serializer.JavaBeanSerializer.writeNormal(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V,8
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug2$Article",1
+"create asm serializer error, class class com.sun.proxy.$Proxy14",1
+"create asm serializer error, class class com.alibaba.json.bvt.TestDeprecate$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_xuzebin$P",2
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest1$B",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest1$A",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest1$C",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest1$D",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_issue_256$AisleDeployInfo",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.JSONTypeTest$V1",2
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_issue_278$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_wangran1$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvtVO.PushMsg",1
+"create asm serializer error, class class com.alibaba.json.bvt.LongFieldTest_primitive$V0",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_melin$Entity",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue243$RpcResponse",1
+"create asm serializer error, class class com.alibaba.json.bvt.MapRefTest3$User",1
+tried to access class com.alibaba.json.bvt.bug.Issue179$Student from class com.alibaba.fastjson.serializer.ASMSerializer_44_School,1
+"create asm serializer error, class class com.alibaba.json.bvt.jsonfield.JSONFieldTest_0$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue146$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue204$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.feature.IgnoreErrorGetterTest_field$Model",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue69$Entry",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_json_array$Parser",1
+"write javaBean error, class com.alibaba.json.bvt.taobao.MTopTest$P0, create asm serializer error, class class com.alibaba.json.bvt.taobao.MTopTest$Model",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue169$SectionRequest",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_SpitFire$MyDTO",1
+"create asm serializer error, class class com.alibaba.json.bvt.GetSetNotMatchTest$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_42283905_1$Command",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_lenolix_9$Address",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_lenolix_10$User",1
+"write javaBean error, class java.lang.RuntimeException, create asm serializer error, class class java.lang.StackTraceElement",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue199$ConsumeStatus",1
+"create asm serializer error, class class com.alibaba.json.bvt.jsonfield.JSONFieldTest_1$VO",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_issue_572$Model",1
+"create asm serializer error, class class com.alibaba.json.test.dubbo.PersonInfo",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Issue220$Attr",1
+"create asm serializer error, class class com.alibaba.json.bvt.bug.Bug_for_field$VO",1
+"create factory method error, public static com.alibaba.json.bvt.parser.deser.FactoryTest$V1 com.alibaba.json.bvt.parser.deser.FactoryTest$V1.create(boolean,int,long,float)",1
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.bug.Issue585$Result,6
+"syntax error, expect {, actual [, pos 23, fieldName value",2
+default constructor not found. class java.lang.ref.WeakReference,4
+default constructor not found. class java.lang.Class,2
+default constructor not found. class java.lang.ref.SoftReference,2
+No enum constant com.alibaba.json.bvt.bug.Bug_for_issue_676.ModelType.,4
+java.util.HashMap cannot be cast to com.alibaba.json.bvt.JSONObjectTest_get_2$VO,2
+com.alibaba.fastjson.JSONObject cannot be cast to java.util.LinkedHashMap,2
+syntax error : string,6
+com.alibaba.fastjson.JSONObject cannot be cast to java.awt.Point,2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.bug.Bug_for_issue_184$TUser,2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.writeClassName.MapTest$VO,4
+com.alibaba.fastjson.JSONObject cannot be cast to java.util.IdentityHashMap,4
+com.alibaba.fastjson.JSONObject cannot be cast to java.util.concurrent.ConcurrentHashMap,2
+parse error,2
+"syntax error, expect {, actual string, pos 14, fieldName teslaSpace",2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.parser.deser.AbstractSerializeTest$B,6
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.parser.deser.AbstractSerializeTest2$B,6
+com.alibaba.fastjson.JSONObject cannot be cast to java.lang.StackTraceElement,2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.WriteClassNameTest2$Entity,2
+com.alibaba.fastjson.JSONObject cannot be cast to java.util.HashMap,2
+java.util.HashMap cannot be cast to com.alibaba.json.bvt.parser.TypeUtilsTest_castToJavaBean$VO,2
+can not get javaBeanDeserializer,2
+com.alibaba.fastjson.JSONObject cannot be cast to java.awt.Rectangle,2
+com.alibaba.fastjson.JSONObject cannot be cast to java.util.Hashtable,2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.WriteClassNameTest$Entity,2
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.bug.Issue_748$DataObject,2
+autoType is not support. com.alibaba.json.bvt.bug.Bug_for_dragoon26_1$MonitorItemAlarmRule,1
+Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner,6
+For input string: &quot;0001-01-01T00:00:00+08:00&quot;,4
+expect string,1
+"illegal identifier : $pos 2, json : { $id:1001}",1
+"create instance error, public Person(java.lang.String,int,java.lang.String)",3
+can not cast to : com.alibaba.json.bvt.issue_1500.Issue1582$Size,1
+"Could not deserialize: syntax error, expect {, actual error, pos 0, fastjson-version 1.2.53; nested exception is com.alibaba.fastjson.JSONException: syntax error, expect {, actual error, pos 0, fastjson-version 1.2.53",1
+For input string: &quot;20181229162849000+0800&quot;,9
+java.lang.String cannot be cast to com.alibaba.json.bvt.issue_2200.issue2224.Person,1
+java.util.HashMap cannot be cast to org.apache.commons.collections4.map.CaseInsensitiveMap,2
+Text &#x27;2021-06-06T14:26:50.872Z[Etc/UTC]&#x27; could not be parsed at index 10,1
+com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.json.bvt.issue_2200.issue2224.Person,1
+/ by zero,54
+TODO,3
+For input string: &quot;2021-06-06T09:29:47.900--10:00&quot;,1
+For input string: &quot;2021-06-06T09:40:21.258--10:00&quot;,1
+"syntax error,except start with { or [,but actually start with int",45
+"syntax error,except start with { or [,but actually start with TreeSet",2
+"syntax error,except start with { or [,but actually start with EOF",14
+"syntax error,except start with { or [,but actually start with string",79
+"syntax error,except start with { or [,but actually start with null",28
+"syntax error,except start with { or [,but actually start with error",4
+"syntax error,except start with { or [,but actually start with float",10
+"syntax error,except start with { or [,but actually start with undefined",1
+can not cast to JSONObject.,1
+"syntax error,except start with { or [,but actually start with true",3
+"syntax error,except start with { or [,but actually start with new",7
+"syntax error,except start with { or [,but actually start with Set",2
+"write javaBean error, fastjson version 1.2.60, class com.alibaba.json.bvt.serializer.features.JSONDirectTest_number$Model, syntax error,except start with { or [,but actually start with float",1
+"syntax error,except start with { or [,but actually start with false",1
+For input string: &quot;2021-06-06T11:48:25.547--11:00&quot;,1
+For input string: &quot;2021-06-07T12:29:46.808+12:45&quot;,1
+"parse enum com.alibaba.json.bvt.issue_2100.Issue2179$ProductType2 error, value : {&quot;code&quot;:1,&quot;prompt&quot;:&quot;手机&quot;}",1
+"create instance error, class com.alibaba.json.bvt.FieldBasedTest$Student",1
+"not close json text, token : ,",1
+For input string: &quot;2021-06-06T18:28:25.376--10:00&quot;,1
+java.lang.Integer cannot be cast to java.lang.String,1
+For input string: &quot;2021-06-07T04:49:32.225-02:-30&quot;,1
+For input string: &quot;2021-06-07T04:53:23.011-02:-30&quot;,1
+"syntax error, expect {, actual }, pos 0, fastjson-version 1.2.62",72
+"syntax error, expect {, actual }, pos 0, fieldName present, fastjson-version 1.2.62",2
+For input string: &quot;10.0&quot;,1
+For input string: &quot;2021-06-07T00:22:38.592--11:00&quot;,1
+autoType is not support. org.springframework.security.web.savedrequest.DefaultSavedRequest,2
+"create instance error, null, public org.springframework.security.core.userdetails.User(java.lang.String,java.lang.String,boolean,boolean,boolean,boolean,java.util.Collection&lt;? extends org.springframework.security.core.GrantedAuthority&gt;)",2
+For input string: &quot;2021-06-08 15:29:31&quot;,1
+For input string: &quot;2021-06-08 15:33:42&quot;,1
+For input string: &quot;2021-06-08 15:37:21&quot;,1
+For input string: &quot;2021-06-08 15:40:54&quot;,1
+For input string: &quot;2021-06-08 15:45:12&quot;,1
+For input string: &quot;2021-06-08 15:48:56&quot;,1
+For input string: &quot;2021-06-08 15:52:37&quot;,1
+For input string: &quot;2021-06-08 15:56:49&quot;,1
+For input string: &quot;2021-06-08 16:00:32&quot;,1
+For input string: &quot;2021-06-08 16:04:14&quot;,1
+For input string: &quot;2021-06-08 16:08:29&quot;,1
+For input string: &quot;2021-06-08 16:15:51&quot;,1
+For input string: &quot;2021-06-08 16:19:58&quot;,1
+For input string: &quot;2021-06-08 16:23:42&quot;,1
+For input string: &quot;2021-06-08 16:27:14&quot;,1
+For input string: &quot;2021-06-08 16:31:16&quot;,1
+For input string: &quot;2021-06-08 16:34:45&quot;,1
+For input string: &quot;2021-06-08 16:38:19&quot;,1
+For input string: &quot;2021-06-08 16:42:22&quot;,1
+For input string: &quot;2021-06-08 16:45:51&quot;,1
+For input string: &quot;2021-06-08 16:49:30&quot;,1
+For input string: &quot;2021-06-08 16:53:21&quot;,1
+For input string: &quot;2021-06-08 17:00:30&quot;,1
+For input string: &quot;12.0&quot;,6
+For input string: &quot;123.45&quot;,6
+For input string: &quot;2021-06-08 17:04:24&quot;,1
+For input string: &quot;2021-06-08 17:07:53&quot;,1
+For input string: &quot;2021-06-08 17:11:28&quot;,1
+For input string: &quot;2021-06-08 17:15:18&quot;,1
+For input string: &quot;2021-06-08 17:18:50&quot;,1
+For input string: &quot;2021-06-08 17:26:23&quot;,1
+For input string: &quot;2021-06-08 17:29:58&quot;,1
+For input string: &quot;2021-06-08 17:34:54&quot;,1
+For input string: &quot;2021-06-08 17:38:29&quot;,1
+For input string: &quot;2021-06-08 17:41:56&quot;,1
+For input string: &quot;2021-06-08 17:45:39&quot;,1
+For input string: &quot;2021-06-08 17:49:20&quot;,1
+For input string: &quot;2021-06-08 17:52:48&quot;,1
+For input string: &quot;2021-06-08 17:56:39&quot;,1
+For input string: &quot;2021-06-08 18:00:31&quot;,1
+For input string: &quot;2021-06-08 18:04:04&quot;,1
+For input string: &quot;2021-06-08 18:07:48&quot;,1
+For input string: &quot;2021-06-08 18:11:38&quot;,1
+For input string: &quot;2021-06-08 18:15:08&quot;,1
+For input string: &quot;2021-06-08 18:18:54&quot;,1
+For input string: &quot;2021-06-08 18:22:39&quot;,1
+For input string: &quot;2021-06-08 18:26:12&quot;,1
+For input string: &quot;2021-06-08 18:30:00&quot;,1
+For input string: &quot;2021-06-08 18:33:52&quot;,1
+For input string: &quot;2021-06-08 18:37:25&quot;,1
+For input string: &quot;2021-06-08 18:41:20&quot;,1
+For input string: &quot;2021-06-08 18:45:06&quot;,1
+For input string: &quot;2021-06-08 18:48:32&quot;,1
+For input string: &quot;2021-06-08 18:52:29&quot;,1
+For input string: &quot;2021-06-08 18:56:03&quot;,1
+For input string: &quot;2021-06-08 18:59:30&quot;,1
+For input string: &quot;2021-06-08 19:03:23&quot;,1
+For input string: &quot;2021-06-08 19:07:11&quot;,1
+For input string: &quot;2021-06-08 19:10:38&quot;,1
+For input string: &quot;2021-06-08 19:14:26&quot;,1
+For input string: &quot;2021-06-08 19:18:14&quot;,1
+For input string: &quot;2021-06-08 19:21:42&quot;,1
+For input string: &quot;2021-06-08 19:25:25&quot;,1
+For input string: &quot;2021-06-08 19:29:16&quot;,1
+"create instance error, null, public org.springframework.core.io.FileSystemResource(java.io.File)",8
+For input string: &quot;2021-06-08 19:32:49&quot;,1
+For input string: &quot;2021-06-08 19:36:34&quot;,1
+For input string: &quot;2021-06-08 19:40:24&quot;,1
+For input string: &quot;2021-06-08 19:43:49&quot;,1
+For input string: &quot;2021-06-08 19:46:51&quot;,1
+For input string: &quot;2021-06-08 19:50:44&quot;,1
+For input string: &quot;2021-06-08 19:54:25&quot;,1
+For input string: &quot;2021-06-08 19:58:40&quot;,1
+For input string: &quot;2021-06-08 20:02:39&quot;,1
+For input string: &quot;2021-06-08 20:06:15&quot;,1
+For input string: &quot;2021-06-08 20:10:23&quot;,1
+"set property error, com.alibaba.json.bvt.issue_3400.Issue_20201016_01$Config#owner",2
+For input string: &quot;2021-06-08 20:14:10&quot;,1
+For input string: &quot;2021-06-08 20:17:59&quot;,1
+For input string: &quot;2021-06-08 20:21:54&quot;,1
+For input string: &quot;2021-06-08 20:25:57&quot;,1
+For input string: &quot;2021-06-08 20:33:42&quot;,1
+For input string: &quot;2021-06-08 20:37:51&quot;,1
+For input string: &quot;2021-06-08 20:42:10&quot;,1
+For input string: &quot;2021-06-08 20:46:58&quot;,1
+For input string: &quot;2021-06-08 20:51:10&quot;,1
+For input string: &quot;2021-06-08 20:54:56&quot;,1
+For input string: &quot;2021-06-08 20:59:05&quot;,1
+For input string: &quot;2021-06-08 21:03:31&quot;,1
+For input string: &quot;2021-06-08 21:08:02&quot;,1
+For input string: &quot;2021-06-08 21:12:30&quot;,1
+For input string: &quot;2021-06-08 21:16:30&quot;,1
+For input string: &quot;2021-06-08 21:21:00&quot;,1
+For input string: &quot;2021-06-08 21:24:43&quot;,1
+For input string: &quot;2021-06-08 21:28:37&quot;,1
+For input string: &quot;2021-06-08 21:33:10&quot;,1
+For input string: &quot;2021-06-08 21:37:21&quot;,1
+For input string: &quot;2021-06-08 21:41:47&quot;,1
+For input string: &quot;2021-06-08 21:46:16&quot;,1
+For input string: &quot;2021-06-08 21:50:01&quot;,1
+For input string: &quot;2021-06-08 21:54:03&quot;,1
+For input string: &quot;2021-06-08 21:58:47&quot;,1
+For input string: &quot;2021-06-08 22:03:28&quot;,1
+For input string: &quot;2021-06-08 22:08:02&quot;,1
+For input string: &quot;2021-06-08 22:12:30&quot;,1
+For input string: &quot;2021-06-08 22:17:07&quot;,1
+For input string: &quot;2021-06-08 22:22:05&quot;,1
+For input string: &quot;2021-06-08 22:26:13&quot;,1
+For input string: &quot;2021-06-08 22:30:33&quot;,1
+For input string: &quot;2021-06-08 22:34:32&quot;,1
+String index out of range: 1,16
+For input string: &quot;2021-06-08 22:38:34&quot;,1
+For input string: &quot;2021-06-08 22:43:05&quot;,1
+For input string: &quot;2021-06-08 22:47:43&quot;,1
+For input string: &quot;2021-06-08 22:52:34&quot;,1
+For input string: &quot;2021-06-08 22:56:34&quot;,1
+For input string: &quot;2021-06-08 23:01:12&quot;,1
+For input string: &quot;2021-06-08 23:10:47&quot;,1
+For input string: &quot;2021-06-08 23:15:19&quot;,1
+"syntax error, expect [, actual EOF, pos 0, fieldName result",2
+"syntax error, pos 1, line 1, column 2CNY",4
+"syntax error, pos 1, line 1, column 2zh_CN",2
+"syntax error, pos 1, line 1, column 2c",2
+"syntax error, pos 1, line 1, column 2Little",1
+"syntax error, expect {, actual string, pos 32, fieldName properties, fastjson-version 1.2.76",1

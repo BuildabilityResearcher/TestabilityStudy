@@ -1,0 +1,10 @@
+error,count
+Connection refused (Connection refused),104
+Could not find configuration file at: @test.conf.dir@/toolbox.test.xml,26
+Could not find configuration file at: @test.conf.dir@/tools.test.properties,52
+Could not find configuration file at: @test.conf.dir@/tools.test.xml,26
+Could not find any configuration at @test.conf.dir@/whiteboxtest-toolbox.xml,26
+"Could not find file, classpath resource or standard URL for &#x27;@test.file.dir@/file.xml&#x27;.",78
+The specified class for Uberspect (org.apache.velocity.tools.model.ModelUberspector) does not exist or is not accessible to the current classloader.,10
+,2
+There was an error while parsing the InputStream,2

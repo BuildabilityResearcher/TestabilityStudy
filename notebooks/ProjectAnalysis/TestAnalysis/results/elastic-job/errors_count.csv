@@ -1,0 +1,14 @@
+error,count
+"Job conflict with register center. The job [testJob] in register center&#x27;s class is [com.dangdang.ddframe.job.internal.AbstractBaseJobTest.TestJob], your job class is [com.dangdang.ddframe.job.integrate.fixture.simple.SimpleElasticJob]",1
+"Job conflict with register center. The job [testJob] in register center&#x27;s class is [com.dangdang.ddframe.job.integrate.fixture.dataflow.sequence.StreamingSequenceDataFlowElasticJob], your job class is [com.dangdang.ddframe.job.integrate.fixture.dataflow.sequence.OneOffSequenceDataFlowElasticJob]",1
+Failed to load ApplicationContext,65
+java.lang.IllegalArgumentException: Path must start with / character,2
+"Unexpected exception, expected&lt;com.dangdang.ddframe.job.exception.JobConfigurationException&gt; but was&lt;java.lang.NullPointerException&gt;",2
+,89
+org.apache.zookeeper.KeeperException$OperationTimeoutException: KeeperErrorCode = OperationTimeout,28
+schedulerInstance,11
+no mesos in java.library.path,1
+Could not initialize class org.apache.mesos.MesosSchedulerDriver,1
+configService,1
+Could not load TestContextBootstrapper [null]. Specify @BootstrapWith&#x27;s &#x27;value&#x27; attribute or make the default bootstrapper class available.,1728
+java.net.SocketTimeoutException: Read timed out,23

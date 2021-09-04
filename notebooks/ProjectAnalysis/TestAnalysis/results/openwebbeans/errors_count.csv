@@ -1,0 +1,28 @@
+error,count
+No runnable methods,2
+clazz argument can not be null,1
+WebBeans context with scope type annotation @Dependent is not exist within current thread,42
+Exception is thrown while handling event object with type : org.apache.webbeans.test.event.LoggedInEvent,3
+rhs parameter can not be null,5
+,305
+@Obtains field with name : instance in bean class : org.apache.webbeans.test.component.inject.InstanceInjectedComponent must have type javax.inject.Instance,1
+javax.inject.UnsatisfiedDependencyException: Api type : javax.persistence.EntityManagerFactory is not found,1
+WebBeans component implementation class : org.apache.webbeans.test.component.UserComponent with passivating scope @javax.context.ScopeType must be Serializable,6
+WebBeans component implementation class : org.apache.webbeans.test.component.producer.ScopeAdaptorComponent with passivating scope @javax.context.ScopeType must be Serializable,3
+WebBeans component implementation class : org.apache.webbeans.test.component.producer.Producer4ConsumerComponent with passivating scope @javax.context.ScopeType must be Serializable,3
+WebBeans component implementation class : org.apache.webbeans.test.component.intercept.webbeans.ShoppingCard with passivating scope @javax.context.ScopeType must be Serializable,3
+WebBeans component implementation class : org.apache.webbeans.test.component.intercept.webbeans.SecureAndTransactionalComponent with passivating scope @javax.context.ScopeType must be Serializable,3
+WebBeans component implementation class : org.apache.webbeans.test.component.disposal.Disposal1 with passivating scope @javax.context.ScopeType must be Serializable,3
+WebBeans component implementation class : org.apache.webbeans.test.component.service.Typed2 with passivating scope @javax.context.ScopeType must be Serializable,12
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_82, method: _d32spliterator signature: ()Ljava/util/Spliterator;) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_82, method: _d26removeIf signature: (Ljava/util/function/Predicate;)Z) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_84, method: _d31sort signature: (Ljava/util/Comparator;)V) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_84, method: _d26removeIf signature: (Ljava/util/function/Predicate;)Z) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_85, method: _d27replaceAll signature: (Ljava/util/function/UnaryOperator;)V) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_85, method: _d33stream signature: ()Ljava/util/stream/Stream;) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_90, method: _d27replaceAll signature: (Ljava/util/function/UnaryOperator;)V) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_92, method: _d33stream signature: ()Ljava/util/stream/Stream;) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_96, method: _d31sort signature: (Ljava/util/Comparator;)V) Illegal use of nonvirtual function call",1
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_96, method: _d33stream signature: ()Ljava/util/stream/Stream;) Illegal use of nonvirtual function call",2
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_97, method: _d27replaceAll signature: (Ljava/util/function/UnaryOperator;)V) Illegal use of nonvirtual function call",2
+"(class: org/javassist/tmp/java/lang/Object_$$_javassist_97, method: _d31sort signature: (Ljava/util/Comparator;)V) Illegal use of nonvirtual function call",1

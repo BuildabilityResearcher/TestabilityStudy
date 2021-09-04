@@ -1,0 +1,7 @@
+error,count
+"
+Argument(s) passed is not a mock!
+Examples of correct verifications:
+    verifyNoMoreInteractions(mockOne, mockTwo);
+    verifyZeroInteractions(mockOne, mockTwo);
+",22

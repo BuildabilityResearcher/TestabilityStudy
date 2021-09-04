@@ -1,0 +1,6 @@
+{
+    "project": "qpid-proton",
+    "git_url": "https://github.com/apache/qpid-proton.git",
+    "last_commit": "4c466d1eb997c86aff1b7d1faa5d4b4dd75eccda",
+    "experiment": 2
+}

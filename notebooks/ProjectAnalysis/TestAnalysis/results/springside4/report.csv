@@ -1,0 +1,1075 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,71ee99d5,FAIL,0,NO,0,NO,0,2012-02-23 18:12:36 +0800,first commit,0,0
+1,2e41a206,SUCCESS,7,SUCCESS,3,SUCCESS,3,2012-02-23 19:31:54 +0800,migrate from svn,38,1200
+2,aa219d04,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-23 20:45:12 +0800,add a REAMME.txt for github,38,1200
+3,585f8aa3,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-23 20:48:28 +0800,add a REAMME.txt for github,38,1200
+4,1cd6efc5,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-23 23:45:38 +0800,输出Jsonp 实现跨域Ajax调用.,38,1200
+5,caf50c7f,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-24 00:00:39 +0800,"更新 web.xml 的root节点, 使得Eclipse保存web.xml时不用等一大轮时间。",38,1200
+6,9ee75d28,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-24 01:14:48 +0800,"一些清理工作, 如Sitemesh3的配置改进",37,1166
+7,4b21d1c7,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-02-24 10:18:38 +0800,add gitignore file,37,1166
+8,2f7cd58b,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-24 11:14:16 +0800,remove SVN tags in code header,37,1166
+9,7d6f5279,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-02-24 12:02:56 +0800,又来无聊的Package Refactory.,37,1165
+10,ae0a801e,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-02-24 13:22:54 +0800,又来无聊的Package Refactory.,37,1165
+11,d6fcfcea,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-02-24 20:08:22 +0800,让quick-start.bat跑利索了,37,1165
+12,bb45579a,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-02-24 21:55:23 +0800,"所以UnitTest顺畅运行, 将放在jenkinshosting.com上执行",37,1165
+13,019b530b,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-24 22:44:02 +0800,Fix Jenkins dependency problem,37,1165
+14,0e83719e,SUCCESS,2,SUCCESS,3,SUCCESS,3,2012-02-24 23:27:27 +0800,Fix jenkins radom fail in slow machine,37,1165
+15,b54653c7,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-25 17:30:16 +0800,update the site,37,1165
+16,63b86de2,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-02-25 17:35:16 +0800,update the site,37,1165
+17,b8a07ea4,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-02-25 17:35:50 +0800,update the site,37,1165
+18,a6abb9fe,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-25 17:38:42 +0800,update the site,37,1165
+19,99d759dc,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-26 00:56:01 +0800,cleanup,36,1152
+20,a768095e,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-26 01:57:12 +0800,cleanup jsp,36,1154
+21,2dc3cfd1,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-26 02:20:05 +0800,update css,36,1154
+22,956ee2a1,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-02-26 11:58:09 +0800,update css,36,1154
+23,277cd579,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-02-26 13:36:21 +0800,从Velocity重新换回FreeMaker,37,1189
+24,8e25be12,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-26 16:32:22 +0800,重做Shiro,36,1130
+25,c3f1fa4c,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-26 20:13:28 +0800,"重做Shiro,比前一版好一点点。",36,1130
+26,b40f2d84,SUCCESS,4,SUCCESS,4,SUCCESS,3,2012-02-26 22:01:17 +0800,Spring MVC的事务问题,36,1130
+27,ae8440ae,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-26 23:28:53 +0800,Skip the unstable cases,36,1130
+28,f474f3c4,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-26 23:42:23 +0800,Unstable case in the slow ec2,36,1132
+29,8b54f870,SUCCESS,4,SUCCESS,2,SUCCESS,4,2012-02-27 00:18:31 +0800,Skip the unstable cases,36,1131
+30,41492b38,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-27 02:07:56 +0800,修正Mini-Web中的Selenium Cases,36,1131
+31,9dbbef84,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-27 21:42:49 +0800,"修正Showcase中的Selenium Cases, 当然也是越改越好了",36,1131
+32,dee53149,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-02-28 11:10:03 +0800,"修正Showcase中的Selenium Cases, 当然也是越改越好了",36,1131
+33,9cb76c2c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-28 17:35:55 +0800,"在showcase引入DATA-JPA和Spring的Profile,江湖從此多事, shiro的FilterFactoryBean就先出問題了.",37,1284
+34,41439101,SUCCESS,4,SUCCESS,2,SUCCESS,4,2012-02-28 20:34:55 +0800,使用Spring3.1的Profile功能管理ApplicationContext.xml中Production/Dev/Test等環境的區別. 详见: https://github.com/springside/springside4/wiki/Spring,37,1284
+35,dd11e792,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-28 23:05:13 +0800,"fix cases, i love the jenkinshosting.com.",37,1284
+36,7a230ae1,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-29 00:06:29 +0800,Fix JPA problem,37,1284
+37,5bf5a785,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-29 00:31:27 +0800,Fix JPA problem,38,1310
+38,2cb4e56a,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-02-29 00:38:16 +0800,Fix JPA problem,38,1310
+39,1aef2fe8,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-02-29 01:13:14 +0800,"fix cases, i love the jenkinshosting.com.",38,1310
+40,cd53dfcb,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-02-29 11:51:53 +0800,Data JPA 实现自定义扩展函数,38,1310
+41,b73e599e,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-02-29 12:02:27 +0800,@Transactional 默认为readOnly=true,38,1310
+42,310c3bcf,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-02-29 21:08:28 +0800,Showcase也转为Spring Data Jpa,40,1341
+43,1f0de964,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-29 22:02:17 +0800,"忍痛删除以前对Hibernate的封装, RC1快发布了。",34,1031
+44,1ad3f4e7,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-29 22:24:33 +0800,Fix Cases,34,1031
+45,ef929404,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-02-29 22:26:37 +0800,Fix Cases,34,1031
+46,ded2a1f1,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-02-29 23:47:59 +0800,取消根目录的index.jsp,34,1034
+47,72965c2a,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-01 00:14:36 +0800,all batch file use English to avoid encoding display problem,34,1034
+48,3d5799dc,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-01 11:00:25 +0800,"数据库初始化改为用maven, quickstart.bat不再依赖ant，另在初始化数据前，会等待H2启动完毕。",34,1034
+49,025f17c8,SUCCESS,4,SUCCESS,2,SUCCESS,4,2012-03-01 11:50:01 +0800,操作成功提示信息加入fadeOut效果,34,1034
+50,83fe10ae,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-01 22:42:45 +0800,一边写文档一边小清理代码,34,1034
+51,4f442131,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-02 01:15:24 +0800,吃饱了撑着再做一次core的Package重构,32,867
+52,c1661b5c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-02 01:34:00 +0800,一边写文档一边小清理代码,32,867
+53,143fb037,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-02 01:56:34 +0800,一边写文档一边小清理代码,32,867
+54,20de3840,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-03-03 00:11:39 +0800,add a *nix version quickstart(not tested) and other little cleanup,32,867
+55,aec427ae,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-03 00:23:21 +0800,change the version to 4.0.0.RC1,32,867
+56,a0ab40d7,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-03 00:48:25 +0800,upgrade the snapshot version to  4.0.0.RELEASE,32,867
+57,7d274e27,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-03 10:41:38 +0800,update site,32,867
+58,0764b4df,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-03 11:47:09 +0800,modify quick-start,32,867
+59,c593f782,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-02 20:50:56 -0800,Merge pull request #19 from hhlai1990/master,32,867
+60,95bd78d7,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-04 00:35:58 +0800,挥泪去除打包jsw应用演示,32,867
+61,32839a7d,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-05 01:01:08 +0800,cleanup,32,867
+62,66ac15f2,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-05 21:35:02 +0800,"Issue #17 在github上创建Maven Repository并更新Spymemcached,log4jdbc的版本",32,867
+63,1de00801,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-05 21:43:39 +0800,"Issue #17 在github上创建Maven Repository并更新Spymemcached,log4jdbc的版本",32,867
+64,91010b34,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-05 22:43:42 +0800,Issue #16 Jenkins上运行代码质量检查与测试覆盖率报告,32,867
+65,2cc02b3e,SUCCESS,2,SUCCESS,3,SUCCESS,3,2012-03-05 22:52:32 +0800,Issue #16 Jenkins上运行代码质量检查与测试覆盖率报告,32,867
+66,f7c44912,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-06 00:53:24 +0800,Issue #16 Jenkins上运行代码质量检查与测试覆盖率报告 EC2上Jenkins问题多多，走回本地运行,32,867
+67,3716b46f,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-06 02:06:43 +0800,Issue #16 Jenkins上运行代码质量检查与测试覆盖率报告 EC2上Jenkins的插件问题多多，还是依赖原始的site,32,867
+68,a31449a0,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-06 02:11:21 +0800,Issue #16 Jenkins上运行代码质量检查与测试覆盖率报告 EC2上Jenkins的插件问题多多，还是依赖原始的site,32,867
+69,d2f601a9,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-06 11:10:10 +0800,"Issue #16 在Sonar 2.13默认Profile的基础上指定SpringSide的代码检查规则,同时顺手修改代码",32,868
+70,a25473b4,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-06 12:40:01 +0800,"3pp小更新: Jersey 1.11->1.12, guava 11.0.1->11.0.2, joda-time 2.0 -> 2.1, freemarker 2.3.18->2.3.19, Selenium 2.19 -> 2.20, Jackson 1.9.4 -> 1.9.5",32,868
+71,a3e02f5d,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-06 21:32:40 +0800,cleanup the code of core modules,32,868
+72,1d66b229,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-06 22:08:11 +0800,rollback,32,868
+73,39447b62,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-08 16:26:45 +0800,邮件发送失败.补全username. http://support.google.com/mail/bin/answer.py?answer=14257,32,868
+74,b8184e7c,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-08 04:24:45 -0800,Merge pull request #22 from kai8406/patch-1,32,868
+75,855b43e2,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-07 11:56:20 +0800,Issue #16 更新Sonar規則，但取消mvn site的report了，實在和Sonar差太遠.,32,868
+76,8cb451d5,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-09 01:50:45 +0800,#11 解决Shiro与Spring Data JPA初始化时的问题，支持方法级权限判断，加入Shiro错误到Restful的Mapping。,33,881
+77,e651477e,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-11 01:38:35 +0800,Issue #11 使用salt的1024次sha1 hash的密码 顺手整理原来的Digests和Crptos类,33,888
+78,dd806960,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-11 16:31:00 +0800,Issue #11 根据用户状态抛出帐号已被冻结的异常,33,888
+79,23b35a08,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-11 17:42:06 +0800,Issue #11 根据用户状态抛出帐号已被冻结的异常,33,888
+80,540044fd,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-12 01:11:34 +0800,Issue #15 Selenium2.0使用升级 使用WebDriverWait与ExpectedConditions实现灵活等待。 取消对Selenium1.0的依赖，通过加大implicitlyWait解决waitForPageLoad的问题。,33,888
+81,f46c7f51,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-12 20:19:37 +0800,"Improvement #15 Selenium2.0使用升级, 完成.",33,896
+82,4c030e9a,SUCCESS,3,SUCCESS,3,SUCCESS,4,2012-03-12 20:49:00 +0800,"Improvement #14 加入 Hamcrest Library, exclude Controller的覆蓋率統計",33,896
+83,c985dd5b,SUCCESS,4,SUCCESS,3,SUCCESS,4,2012-03-12 21:39:07 +0800,Improvement #5 升级Quartz 2.x,33,896
+84,2747dc1c,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-13 01:25:09 +0800,little cleanup,33,894
+85,36e909a0,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-14 00:06:15 +0800,更新Hibernate + Ehcache的配置. 不再使用hibernate-ehcache.jar而是用ehcache自带,33,894
+86,656f9784,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-14 01:03:48 +0800,Issue #6 SiteMesh回退到2.4.2,33,894
+87,4aead387,SUCCESS,3,SUCCESS,3,SUCCESS,4,2012-03-14 01:04:03 +0800,cleanup,33,894
+88,289fd595,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-14 12:31:07 +0800,"Improvement #12 尝试在Jenkins上用HtmlUnitDriver运行带@Category(Daily.class)的最重要Cases. 另整理了JSTL-1.2.jar 和  taglib-1.1.2.jar, 前者改为provided, 后者取消,因为已包含在前者内。",34,896
+89,585a6cd0,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-14 14:06:45 +0800,"Improvement #12 Jenkins上初次运行失败, 调整端口重试.",36,906
+90,5f12b407,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-14 15:18:37 +0800,"Improvement #12 Jenkins上部分case依然运行失败, 继续端口重试.",36,906
+91,b3d356b5,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-14 20:44:37 +0800,"Improvement #4 升级Hibernate 4.1.1,同时修了一下cglib,cglib-nodep,asm之间的关系",36,906
+92,0acd62ad,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-14 20:58:28 +0800,update mybatis 3.1.0 and mybatis-spring 1.1.0,36,906
+93,ff30e0aa,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-14 23:25:08 +0800,"Improvement #12 调整命名,.",33,900
+94,1efbd2ef,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-14 23:41:53 +0800,Improvement #12 fix stupid copy paste error.,33,900
+95,98f182e4,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-14 23:57:55 +0800,"Improvement #12 skip unit test in modules in smoke-teest mode, 这台EC2实在太慢了。",33,900
+96,2c211dc2,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-16 11:13:39 +0800,cleanup,33,900
+97,5a33b462,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-16 11:14:48 +0800,"Improvement #11 Shiro应用补全, 抽取password逻辑到password service, 并打开cache认证信息的选项",34,922
+98,ef3a6532,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-16 19:18:43 +0800,"Improvement #11 Shiro应用补全, cleanup, merge back passwordservice",33,900
+99,9968c15e,SUCCESS,3,SUCCESS,2,SUCCESS,4,2012-03-16 20:21:13 +0800,#13 修正Jquery Validate Plugin的使用,33,900
+100,bb65c732,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-16 20:52:53 +0800,#13 修正并加强Jquery Validate Plugin的使用,33,900
+101,cac9319f,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-17 00:39:23 +0800,updaet readme file in support,33,900
+102,df8ec7d4,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-17 00:40:52 +0800,updaet readme file in support,33,900
+103,c57a3b30,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-03-17 00:46:08 +0800,updaet readme file in support,33,900
+104,7efc9986,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-19 16:31:36 +0800,分开两种WebServiceClient的测试用例，第一种在缓慢的Jenkins跑不过去。,33,900
+105,e066d4fd,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-20 12:04:04 +0800,fix cases,33,900
+106,85d6536b,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-20 12:16:28 +0800,"cleanup,rename",33,900
+107,ffd50c23,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-20 16:25:25 +0800,add debug message for functionla case,33,900
+108,ee296c1c,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-21 10:21:51 +0800,set socket timeout in functional test case for the slow jenkins.,33,900
+109,9cfadab6,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-22 12:08:49 +0800,"#23 加密模块支持IV(初始化向量)，让相同的原文加密出不同的密文。 另外输入的原文全部从String 改为 bytes, 不care encoding.",33,900
+110,ceaac72b,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-22 12:09:44 +0800,改进JQuery JSONP ajax请求的写法,33,900
+111,48591d99,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-22 13:03:18 +0800,#12 改进selenium.driver的设定机制，在Jenkins上可以用JVM命令行变量动态设定,33,906
+112,b3ce96aa,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-23 10:23:44 +0800,#12 透传启动Maven时的selenium.driver参数 到SureFire Plugin fork出来的JVM,33,906
+113,55616ed9,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-23 22:19:27 +0800,cleanup,35,1010
+114,dbbdd95b,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-24 01:04:28 +0800,#13 增强Jquery Validate Plugin的使用,35,1010
+115,1e2cd0e5,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-25 00:09:39 +0800,#13 演示Spring MVC结合Hibernate Valdiator的客户端表单验证,35,1010
+116,b0d0822f,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-25 00:13:15 +0800,cleanup,35,1010
+117,1f8d6e68,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-03-25 16:58:07 +0800,"#11 shiro改用Controller方法级别annotation控制权限,url级别仅用于控制用户认证",35,1010
+118,967bcc5a,SUCCESS,2,SUCCESS,3,SUCCESS,3,2012-03-25 17:34:06 +0800,Ready for release RC2,35,1010
+119,15abadd7,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-26 22:28:40 +0800,new version,35,1010
+120,ae02aab1,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-03-26 22:45:30 +0800,Identities增加生成随机Base62编码的字符串,36,1012
+121,417a81d5,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-27 00:24:24 +0800,#9 增加RMI集群版的配置文件,36,1012
+122,29168f88,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-27 22:53:40 +0800,cleanup,36,1012
+123,4f2e2456,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-27 23:28:06 +0800,#9 Ehcache配置中默认值部分不再重复配置，配置命名使用2.0的命名，在showcase中使用了按Size做的限制。,36,1012
+124,1cb90c99,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-28 01:01:23 +0800,#9 shiro使用Ehcache RMI集群做授权缓存.,36,1012
+125,cb23f45a,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-28 01:21:47 +0800,"#8 hzl7652提交的GuavaCacheDemo,但rebase出错了,再手工提交一遍。",36,1012
+126,c9f27dd3,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-28 14:08:03 +0800,"#21  Threads增加sleep(long,TimeUnit)的方法          MockLog4jAppender增加getLogCount()方法并修正之前存在的NPE问题.",36,1012
+127,c370f8ec,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-28 14:11:15 +0800,#9 ehcache demo cleanup,36,1012
+128,04a58547,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-28 14:13:53 +0800,#8 GuavaCache Demo cleanup,36,1012
+129,260d7bb1,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-28 21:32:42 +0800,#8 Identities增加生成随机Base62编码的字符串,36,1012
+130,3360ae0a,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-28 21:40:54 +0800,cleanup,36,1012
+131,9dd0ec08,SUCCESS,3,SUCCESS,3,SUCCESS,4,2012-03-28 21:45:01 +0800,cleanup,36,1012
+132,34442bc8,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-28 22:13:59 +0800,#9 shiro使用Ehcache RMI集群做授权缓存.,36,1012
+133,48e4e9a0,SUCCESS,4,SUCCESS,3,SUCCESS,2,2012-03-29 00:22:05 +0800,"cleanup,SpyMemcachedClient cleanup",36,1012
+134,ffbfa8b4,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-29 01:06:34 +0800,"fix,rollback",36,1012
+135,158c7e32,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-29 01:07:04 +0800,演示使用HttpUrlConnection,36,1012
+136,a6b0a55b,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-29 22:37:58 +0800,"cleanup, DaoTestCase use more em.flush() to force the sql execute.",36,1012
+137,0c4ff28d,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-29 23:03:57 +0800,#8 DozerDemo升级，演示循环依赖的情况，并加入更多注释,36,1012
+138,e7b9cff1,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-29 23:17:18 +0800,#8 DozerDemo升级，演示使用@Mapping解决对象间的属性不一致的问题。,36,1012
+139,41fe592b,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-03-29 23:45:37 +0800,#8 更新注释,36,1012
+140,541ccc57,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-30 01:01:07 +0800,感谢oneryx，wj1s提交的代码,36,1012
+141,993ed015,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-03-30 13:18:22 +0800,"#28  Jackson从1.9升级到2.x,连带Jersey的Json使用进行修改",36,1012
+142,8225774e,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-30 13:26:05 +0800,"#28  Jackson从1.9升级到2.x,连带Jersey的Json使用进行修改",36,1012
+143,5823ff08,SUCCESS,2,SUCCESS,4,SUCCESS,3,2012-03-30 13:53:27 +0800,#29 functional test结构再次大升级,36,1011
+144,9c3c963c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-30 14:01:52 +0800,"#28  Jackson从1.9升级到2.x,连带Jersey的Json使用进行修改",36,1011
+145,e50af62c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-30 15:02:30 +0800,#29 fix,36,1011
+146,144abfce,SUCCESS,6,SUCCESS,4,SUCCESS,2,2012-03-30 15:43:34 +0800,合并parent的pom.xml到根目录的pom.xml,36,1011
+147,393b1c44,SUCCESS,2,SUCCESS,3,SUCCESS,3,2012-03-30 15:53:43 +0800,fix,36,1011
+148,2fb4858e,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-30 16:02:56 +0800,fix,36,1011
+149,ecc8b6d6,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-03-31 23:27:40 +0800,"commons-io 2.1->2.2 , poi 3.7->3.8",36,1011
+150,0ca32ec9,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-03-31 23:28:14 +0800,"#28  Jackson演示更新,加入更多演示",36,1011
+151,b0adb903,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-03-31 23:28:25 +0800,cleanup,36,1011
+152,bd27910d,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-01 16:57:17 +0800,cleanup,36,1011
+153,7eb7d99f,SUCCESS,4,SUCCESS,4,SUCCESS,3,2012-04-07 10:38:36 +0800,#21 cleanup 基础类,36,1011
+154,5153c906,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-07 23:11:53 +0800,"#29 改进Functional Test不止对嵌入式Jetty执行，也可以对在运行的其他服务器执行, Fixtures改进可适用于多种数据库。",36,1002
+155,ae004780,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-08 02:12:26 +0800,"#29 改进Functional Test不止对嵌入式Jetty执行，也可以对在运行的其他服务器执行, Fixtures改进可适用于多种数据库。",36,1001
+156,9f074246,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-08 02:25:54 +0800,#29 让HtmlUnitDriver支持Javascript，在Jenkins上执行更多SmokeTest,36,1002
+157,a38cccf6,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-08 02:45:12 +0800,"#29 改进Selenium只创建一次(很慢的),在JVM退出时使用shutdownHook去关闭它",36,1002
+158,1ee01462,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-08 11:07:39 +0800,#29 functional case fix and cleanup,36,1002
+159,41cca843,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-08 14:03:01 +0800,#29 使用Rule机制，保证dbunit的初始化数据在整个测试周期里只执行一次.,39,1070
+160,d91db55c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-08 14:05:55 +0800,fix,39,1070
+161,3cae2b58,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-08 14:38:28 +0800,fix,39,1070
+162,9be95b32,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-04-08 15:25:08 +0800,"#29 Junit Rule太高级了,换了一个Spring里的初始化Bean",37,1011
+163,59ccd5db,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-04-08 23:43:19 +0800,#29 支持Selenium Remote Server,37,1011
+164,3d37f16b,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-09 00:38:40 +0800,fix,37,1011
+165,b47683f3,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-09 10:55:16 +0800,#8 cleanup,37,1011
+166,e3d70ce0,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-09 10:59:06 +0800,cleanup by Eclipse,37,1009
+167,0d4a6f3d,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-09 13:48:46 +0800,to avoid the non-English environment test failure on assertEquals,36,1011
+168,909c8957,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-04-10 00:20:59 +0800,"#32 嵌入式的Jetty实现Executable War, 可用 java -jar xxxx.war 运行,用Maven Assembly插件打包.",38,1037
+169,5858c306,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-09 10:01:45 -0700,Merge pull request #33 from robbie-li/master,38,1037
+170,f798b2cd,SUCCESS,3,SUCCESS,4,SUCCESS,2,2012-04-10 01:05:56 +0800,#33 Mini-Service的AccountManagerTest测试在中文环境下不过,38,1037
+171,d4db5922,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-10 16:48:58 +0800,cleanup,38,1037
+172,9652d439,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-04-10 17:21:23 +0800,#34 H2使用改进，不再强制要求单独启动H2 TCP server，而是使用嵌入式，但可持久化的模式。,38,1037
+173,047db465,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-04-10 22:33:08 +0800,#29  Spring Profile配置升级，设定默认Profile为Production，functional test通过改变环境变量而不是使用另一个web.xml来改变profile。独立出functional test的Profile。Maven只 执行refresh db时会读取重载过的application.local的属性。,38,1037
+174,98560867,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-11 00:10:14 +0800,fix&cleanup,37,1002
+175,bc0bb68e,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-12 00:12:34 +0800,"#10 使用Jolokia 将JMX数据输出成Restful JSON数据, JMX重获新生。",39,1044
+176,2c6c584d,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-12 17:42:45 +0800,#29  Spring PropertyPlaceHolder升级为PropertySourcesPlaceholderConfigurer并使用NameSpace,39,1044
+177,bd7e5a2c,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-12 23:08:03 +0800,"cleanup and upgrade3pps:  selenium 2.20->2.21, H2 1.3.164->1.3.166, Hibernate 4.1.1.Final->4.12, PoweMock 1.4.11->1.4.12",39,1044
+178,990dbb02,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-13 23:56:24 +0800,#20 log4j动态控制页面,40,1110
+179,146bbac1,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-15 11:38:43 +0800,#25 Perf4fj 性能监控提升，使用@Profile标识记录性能，用AOP方式进行记录。使用普通的log然后再分析，而不是使用必须使用 log4j.xml格式的聚合appender。,40,1110
+180,0180f8d4,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-04-15 11:58:06 +0800,"change version to 4.0.0.RC3, add google code repository",40,1110
+181,60a9f7d9,SUCCESS,4,SUCCESS,3,SUCCESS,4,2012-04-15 12:21:36 +0800,#25 加入执行perf4j分析的命令,40,1110
+182,32587827,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-15 19:08:46 +0800,"fix case, Shiro带来的AOP的问题真多",40,1110
+183,6718c5bd,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-15 23:17:29 +0800,cleanup,40,1110
+184,7e1edd7e,SUCCESS,3,SUCCESS,2,SUCCESS,3,2012-04-15 23:45:00 +0800,"aspectj 回退到1.6.9, 感覺生活在一個危險的世界啊，到處都是潛在的問題。",40,1110
+185,8f44b940,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-16 21:25:55 +0800,#25 不是很滿意perf4j的使用，rollback到下個迭代再繼續,40,1110
+186,b3c97100,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-16 23:55:38 +0800,remove SpringIDE setting files,40,1110
+187,cd6ae34f,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-17 15:31:53 +0800,cleanup,40,1110
+188,01afb65d,SUCCESS,3,SUCCESS,4,SUCCESS,3,2012-04-17 17:45:31 +0800,改进gitignore写法,40,1110
+189,f9bff6d2,SUCCESS,4,SUCCESS,2,SUCCESS,4,2012-04-18 22:54:46 +0800,"cleanup,rename",40,1115
+190,e074f54f,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-19 00:54:05 +0800,recreate parent module,40,1115
+191,ba7fd2f5,SUCCESS,4,SUCCESS,3,SUCCESS,3,2012-04-19 01:26:52 +0800,cleanup profiles and settings.,40,1115
+192,bdad809d,SUCCESS,4,SUCCESS,2,SUCCESS,3,2012-04-19 01:26:52 +0800,cleanup profiles and settings.,40,1115
+193,babfef62,SUCCESS,3,SUCCESS,3,SUCCESS,2,2012-04-19 01:37:41 +0800,cleanup profiles and settings.,40,1115
+194,639fa322,SUCCESS,3,SUCCESS,3,SUCCESS,3,2012-04-19 01:41:27 +0800,cleanup,40,1115
+195,59d44610,FAIL,28,NO,0,NO,0,2012-04-20 00:10:13 +0800,cleanup,40,1115
+196,a3f2882a,FAIL,8,NO,0,NO,0,2012-04-20 00:21:07 +0800,fix cases,40,1115
+197,e743a472,FAIL,9,NO,0,NO,0,2012-04-21 11:07:32 +0800,又取消掉parent 项目,40,1115
+198,5a5766eb,FAIL,11,NO,0,NO,0,2012-04-23 22:20:52 +0800,cleanup,40,1115
+199,ab278237,FAIL,8,NO,0,NO,0,2012-04-23 23:32:35 +0800,cleanup,40,1115
+200,ee8f5ad0,FAIL,9,NO,0,NO,0,2012-04-24 21:45:22 +0800,skip Controller中注入属性的setter函数，因为无需unit test,40,1113
+201,e5d8857c,FAIL,8,NO,0,NO,0,2012-04-25 00:01:47 +0800,#10 update JMX demo,40,1113
+202,440d5bd8,FAIL,7,NO,0,NO,0,2012-04-25 00:50:59 +0800,document and cleanup jaxb part,40,1113
+203,c7cad8e1,FAIL,8,NO,0,NO,0,2012-04-26 02:02:20 +0800,cleanup and document logging,40,1111
+204,3b53c1d5,FAIL,8,NO,0,NO,0,2012-04-28 00:26:39 +0800,"update jetty server, 在windows上重复启动相同端口时应该报错。",40,1111
+205,e0a755e7,FAIL,10,NO,0,NO,0,2012-04-28 00:45:25 +0800,cleanup pom.xml file,40,1111
+206,bc2c1ccc,FAIL,8,NO,0,NO,0,2012-04-28 01:52:06 +0800,jackson 文档并整理代码.,40,1111
+207,c5d6c60f,FAIL,7,NO,0,NO,0,2012-04-28 02:11:26 +0800,cleanup and document logging,40,1107
+208,6a0cc714,FAIL,8,NO,0,NO,0,2012-04-28 22:22:22 +0800,rename,40,1107
+209,08bdcbbc,FAIL,9,NO,0,NO,0,2012-04-29 01:54:51 +0800,使用GreenMail做MailServer模拟器,40,1107
+210,7a550af5,FAIL,8,NO,0,NO,0,2012-04-29 02:38:19 +0800,fix,40,1107
+211,4d13393b,FAIL,8,NO,0,NO,0,2012-04-29 11:48:20 +0800,"#37, update greenmail's smtp  port to 3025",40,1107
+212,7a0e3816,FAIL,8,NO,0,NO,0,2012-04-29 12:21:51 +0800,"jmemcached 也用spring profile, 并设定maven jetty:run使用development profile",40,1107
+213,2277eddb,FAIL,9,NO,0,NO,0,2012-04-29 13:26:24 +0800,fix cases,40,1107
+214,2ea41319,FAIL,9,NO,0,NO,0,2012-04-29 13:32:10 +0800,fix cases,40,1107
+215,51649093,FAIL,8,NO,0,NO,0,2012-04-29 14:51:44 +0800,cleanup,40,1107
+216,9a43a859,FAIL,8,NO,0,NO,0,2012-04-29 16:15:09 +0800,#35 开始加入BootStrap,40,1107
+217,4064700a,FAIL,8,NO,0,NO,0,2012-04-29 17:01:53 +0800,"#35 tab,message换成BootStrap",40,1107
+218,8f37aa64,FAIL,8,NO,0,NO,0,2012-04-30 23:56:10 +0800,#35 showcase也换成BootStrap,40,1107
+219,a6400263,FAIL,9,NO,0,NO,0,2012-05-01 00:06:20 +0800,fix,40,1107
+220,95b7e8f4,FAIL,8,NO,0,NO,0,2012-05-01 00:24:22 +0800,bt测试环境也使用连接池,40,1107
+221,fa059a52,FAIL,7,NO,0,NO,0,2012-05-01 00:36:07 +0800,#35 update the size,40,1107
+222,40aa82bd,FAIL,4,NO,0,NO,0,2012-05-02 00:44:55 +0800,#43 从core与extension中拆分出专门的test模块,40,1110
+223,48c476dd,FAIL,4,NO,0,NO,0,2012-05-02 00:54:56 +0800,#43 从core与extension中拆分出专门的test模块,40,1110
+224,20aeebdc,FAIL,3,NO,0,NO,0,2012-05-02 00:57:45 +0800,"统一命名,integration-test profile改名为functional-test profile",40,1110
+225,fc1da779,FAIL,3,NO,0,NO,0,2012-05-02 00:59:08 +0800,"统一命名,integration-test profile改名为functional-test profile",40,1110
+226,40b87d23,FAIL,4,NO,0,NO,0,2012-05-02 21:33:08 +0800,jackson增加使用Jaxb Annotation的演示,40,1110
+227,192ab438,FAIL,3,NO,0,NO,0,2012-05-03 12:00:34 +0800,#45 更新Sonar3.0规则，见wiki,40,1110
+228,f5f89cf8,FAIL,3,NO,0,NO,0,2012-05-03 23:21:56 +0800,重新使用parent项目，变了好多次!!!!,40,1110
+229,6d08649d,FAIL,3,NO,0,NO,0,2012-05-04 01:08:23 +0800,cleanup,40,1110
+230,eb96291f,FAIL,6,NO,0,NO,0,2012-05-04 12:28:55 +0800,fix,40,1110
+231,95b7d360,FAIL,6,NO,0,NO,0,2012-05-05 00:12:49 +0800,guava 11.0.2->12.0,40,1110
+232,de5577d1,FAIL,4,NO,0,NO,0,2012-05-05 00:13:08 +0800,#10 update JMX demo,40,1110
+233,628bf5c0,FAIL,5,NO,0,NO,0,2012-05-05 00:16:25 +0800,fix,40,1110
+234,c562cdd1,FAIL,5,NO,0,NO,0,2012-05-05 17:48:43 +0800,fix sonar rules,40,1110
+235,cde6be92,FAIL,5,NO,0,NO,0,2012-05-05 18:24:15 +0800,"#29 引入Unstable的Category,在Jenksin上放弃运行不稳定的case",40,1120
+236,da244053,FAIL,5,NO,0,NO,0,2012-05-05 18:44:42 +0800,fix smoke test,40,1120
+237,e819fbce,FAIL,4,NO,0,NO,0,2012-05-05 23:39:31 +0800,#14 开始整理Modules的单元测试，提高测试覆盖率，并顺手改进代码。,38,1046
+238,03c5f2ba,FAIL,5,NO,0,NO,0,2012-05-08 00:50:43 +0800,"重构pom.xml, 抽取共同的profile到parent的pom.xml中",38,1046
+239,f6bb13d5,FAIL,5,NO,0,NO,0,2012-05-08 22:30:28 +0800,#21 整理基础类的使用并更新文档,38,1047
+240,9826f61f,FAIL,5,NO,0,NO,0,2012-05-10 00:26:54 +0800,#45 更新Sonar3.0规则，并在wiki上详细说明原因。,38,1047
+241,b118010a,FAIL,5,NO,0,NO,0,2012-05-10 01:38:38 +0800,add modules and examples pom.xml.,38,1047
+242,9270054c,FAIL,4,NO,0,NO,0,2012-05-19 17:41:51 +0800,"更新第三方依赖包:Spring Data JPA 1.0.3->1.1.0, Hibernate 4.1.2->4.1.3, Hibernate Validator 4.2->4.3, Jackson 2.0.1->2.0.2, Quartz 2.1.4->2.1.5",38,1047
+243,3e76c076,FAIL,4,NO,0,NO,0,2012-05-19 23:20:01 +0800,"#21 整理基础类的使用并更新文档, Collections类",38,1047
+244,11ba795f,FAIL,4,NO,0,NO,0,2012-05-19 23:58:20 +0800,"#21 整理基础类的使用并更新文档, 防御式编程校验参数的Validate类",38,1047
+245,ddffd408,FAIL,3,NO,0,NO,0,2012-05-20 00:36:20 +0800,"#21 整理基础类的使用并更新文档, IOUtils的Demo",38,1047
+246,a728b84e,FAIL,4,NO,0,NO,0,2012-05-29 15:37:36 +0800,自动根据jdbc medadata得出Hibernate Dialect，不再需要手工配置Dialect,37,1042
+247,96c40aed,FAIL,4,NO,0,NO,0,2012-05-29 15:37:51 +0800,cleanup,37,1042
+248,07577aef,FAIL,5,NO,0,NO,0,2012-05-29 16:13:19 +0800,自动根据jdbc medadata得出Hibernate Dialect，不再需要手工配置Dialect,38,1071
+249,e6fd0c38,FAIL,4,NO,0,NO,0,2012-05-29 17:21:12 +0800,"不再由Springside自建repository提供central没有的3pp jar包. 1.log4jdbc使用log4jdbc-remix, 在central能直接下包. 2.SpyMemcached也直接使用其自己的repository。",38,1071
+250,7be39407,FAIL,4,NO,0,NO,0,2012-05-29 17:23:07 +0800,H2 数据文件路径，从用户Home目录， 移到用户Home目录/.h2,38,1071
+251,f85a8f11,FAIL,5,NO,0,NO,0,2012-06-01 17:15:58 +0800,"#21 整理基础类的使用并更新文档, PropertiesLoader",38,1081
+252,321722da,FAIL,11,NO,0,NO,0,2012-06-11 13:57:03 +0800,update 3pp version,38,1081
+253,6bc161f6,FAIL,5,NO,0,NO,0,2012-07-11 22:17:38 +0800,update bootstrap from 2.0.3 -> 2.0.4,38,1081
+254,6da45643,FAIL,3,NO,0,NO,0,2012-07-18 01:43:58 +0800,#57 受PlayFramework刺激，简化合并mini-web与mini-service项目成为quickstart项目,42,1131
+255,1b929414,FAIL,6,NO,0,NO,0,2012-07-18 16:39:56 +0800,fix problem,42,1131
+256,6e0109be,FAIL,4,NO,0,NO,0,2012-07-18 16:42:29 +0800,#57 fix problem,42,1131
+257,7fe22298,FAIL,4,NO,0,NO,0,2012-07-22 01:14:27 +0800,#57 将quickstart重新命名mini-web,41,1123
+258,b2aca92b,FAIL,5,NO,0,NO,0,2012-07-22 01:21:43 +0800,#62 fix,41,1123
+259,acac42d4,FAIL,4,NO,0,NO,0,2012-07-23 23:04:34 +0800,#62 补充功能测试,41,1128
+260,b469e309,FAIL,5,NO,0,NO,0,2012-07-23 23:09:23 +0800,shorten method name,41,1128
+261,6aff8178,FAIL,4,NO,0,NO,0,2012-07-23 23:43:30 +0800,Jackson已经能够处理Hibernate的lazyload属性，因此在showcase中取消 mybatis，是演示更集中,40,1120
+262,f40ca195,FAIL,5,NO,0,NO,0,2012-07-24 00:13:35 +0800,"#56 fix case, Restful Service如果要用XML格式，DTO上一定要加@RootElement",40,1120
+263,ac0816a3,FAIL,4,NO,0,NO,0,2012-07-24 00:49:27 +0800,#59 Spring MVC使用改进,41,1127
+264,5ab50726,FAIL,5,NO,0,NO,0,2012-07-24 00:57:29 +0800,add comments,41,1127
+265,0ce96c57,FAIL,5,NO,0,NO,0,2012-07-24 01:34:28 +0800,#59 fix typo,41,1127
+266,8e585663,FAIL,4,NO,0,NO,0,2012-07-24 13:22:47 +0800,#64 受Play刺激，Jetty Server可以在Console按回车快速重载应用,41,1127
+267,49bbdcc2,FAIL,4,NO,0,NO,0,2012-07-24 13:23:18 +0800,#59 rollback,40,1114
+268,79441982,FAIL,6,NO,0,NO,0,2012-07-24 13:29:23 +0800,fix class path,40,1114
+269,765e16d9,FAIL,5,NO,0,NO,0,2012-07-24 15:33:55 +0800,#21 為Exceptions增加isCausedBy函數,40,1139
+270,3650c501,FAIL,4,NO,0,NO,0,2012-07-24 17:45:02 +0800,mini-service提供Restful delete的示例,40,1144
+271,6a1f2dcb,FAIL,4,NO,0,NO,0,2012-07-24 17:47:08 +0800,#65 注释乱码了,40,1144
+272,a244f2ae,FAIL,4,NO,0,NO,0,2012-07-24 21:11:00 +0800,"#57 正式合并mini-web/mini-service 项目为quickstart项目，稍后会将JAX-WS，MyBatis部分移入Showcase中。这几天主意改变了几回，做了好多无用功，最后还是""简""字当头，先把项目简化，然后做深一点。",35,1008
+273,24c2e7cf,FAIL,3,NO,0,NO,0,2012-07-24 22:37:44 +0800,#57 清理pom.xml文件,35,1008
+274,281a21b8,FAIL,3,NO,0,NO,0,2012-07-24 22:39:23 +0800,#57 删除POI excel演示及activemq配置演示,35,1008
+275,dd7d68d1,FAIL,3,NO,0,NO,0,2012-07-24 22:40:14 +0800,#21 将sprignside-core 部分类移动到springside-extension项目,34,979
+276,278d7463,FAIL,3,NO,0,NO,0,2012-07-24 23:57:08 +0800,#67 使用SpringMVC及RestTemplate代替Jersey,33,973
+277,68d07829,FAIL,4,NO,0,NO,0,2012-07-25 00:19:00 +0800,添加一些Project级别的常用maven脚本,33,973
+278,c873e8ec,FAIL,5,NO,0,NO,0,2012-07-25 00:20:45 +0800,#67 使用SpringMVC及RestTemplate代替Jersey,33,973
+279,c165ad07,FAIL,5,NO,0,NO,0,2012-07-25 00:40:41 +0800,fix quickstart.bat,33,973
+280,c86899a7,FAIL,5,NO,0,NO,0,2012-07-25 10:24:03 +0800,#21 使用Spring的MediaType和Guava的HttpHeaders的常量。,33,974
+281,e83b0622,FAIL,5,NO,0,NO,0,2012-07-25 11:14:39 +0800,Update examples/quickstart/src/main/webapp/WEB-INF/views/taskList.jsp,33,974
+282,392786a3,FAIL,5,NO,0,NO,0,2012-07-24 22:50:10 -0700,Merge pull request #69 from yangl/patch-1,33,974
+283,5cf33682,FAIL,5,NO,0,NO,0,2012-07-25 13:44:02 +0800,#21 a bit rollback,33,974
+284,f9718e2b,FAIL,5,NO,0,NO,0,2012-07-25 13:51:28 +0800,#69 url problem,33,974
+285,82895f96,FAIL,4,NO,0,NO,0,2012-07-25 23:11:21 +0800,#57 REST接口补回JSR303 BeanValidator的使用演示，另getTask()接口可返回404,32,933
+286,13bd2a37,FAIL,5,NO,0,NO,0,2012-07-25 23:24:56 +0800,#59 泪流满面级更新，终于把TaskController与TaskDetailController合并在一个Controller里了。,32,925
+287,29b2d3f0,FAIL,3,NO,0,NO,0,2012-07-26 00:36:06 +0800,upgrade 3PP version:,32,925
+288,186d1625,FAIL,9,NO,0,NO,0,2012-07-27 01:35:16 +0800,"#59 清理昨晚遗留的问题, 新增@OptionalPathVariable 用于被@ModelAttribute标注的方法",31,915
+289,dc0578ab,FAIL,5,NO,0,NO,0,2012-07-27 01:39:59 +0800,功能测试名称从*IT 改为 *FT，与functional的目录名更匹配,31,915
+290,c283ba11,FAIL,4,NO,0,NO,0,2012-07-27 02:12:51 +0800,"#59 再次泪流满面,终于有一个彻底满意的写法.",31,915
+291,2c1bec28,FAIL,4,NO,0,NO,0,2012-07-27 15:20:27 +0800,cleanup dependency and profile name,31,915
+292,7aa3ac17,FAIL,3,NO,0,NO,0,2012-07-28 01:13:00 +0800,#74 Showcase页面和Package结构装修，更容易找到演示内容,31,916
+293,ec22beaa,FAIL,4,NO,0,NO,0,2012-07-28 01:31:04 +0800,#74 Showcase页面和Package结构装修，更容易找到演示内容,31,916
+294,1dff3fcb,FAIL,5,NO,0,NO,0,2012-07-29 00:39:41 +0800,#57 将mini-service中的SOAP WebService部分移入showcase，虽然很少用了，但删掉也太可惜了。,36,999
+295,51a4041b,FAIL,4,NO,0,NO,0,2012-07-30 22:43:32 +0800,一轮疯狂的rename，比如dao的package终于被改名成repository，这也体现了历史车轮滚滚向前，现在不只是SQL DB一种存储了。,36,1000
+296,0700eca3,FAIL,6,NO,0,NO,0,2012-07-30 23:15:30 +0800,"pom.xml加入很实用的enforcer插件，避免再不小心的引入一些冲突的jar包. Shiro 1.2.0->1.2.1, Jackson 2.0.4->2.0.5",36,1000
+297,82c2cf5e,FAIL,4,NO,0,NO,0,2012-07-31 01:46:00 +0800,"#57 将MyBatis重新加入showcase, 而且充分使用了MyBatis-Spring，配置与原来比更漂亮，省掉了DAO的实现和Confiugration.xml里的alias定义.",36,1009
+298,5fdefc6e,FAIL,4,NO,0,NO,0,2012-07-31 02:43:45 +0800,"#57 将MyBatis重新加入showcase, 而且充分使用了MyBatis-Spring，配置与原来比更漂亮，省掉了DAO的实现和Confiugration.xml里的alias定义, Dao的命名也不用叫自己不喜欢的XXXMapper.",36,1036
+299,4927e6a0,FAIL,5,NO,0,NO,0,2012-07-31 16:44:02 +0800,fix compile error on some jdk,36,1036
+300,542804f9,FAIL,3,NO,0,NO,0,2012-08-01 00:42:33 +0800,#57 将MyBatis与SOAP加回到Showcase的收尾，比原来改进不少呀，代码就是要不断重写的。,37,1055
+301,0f9dc164,FAIL,5,NO,0,NO,0,2012-08-01 13:47:48 +0800,fix jpa annotation,37,1057
+302,23c7b1f2,FAIL,4,NO,0,NO,0,2012-08-01 13:55:37 +0800,fix path,37,1057
+303,bb72f7a3,FAIL,4,NO,0,NO,0,2012-08-01 16:55:37 +0800,fix case and add more permsize in functional test,37,1057
+304,06820b54,FAIL,5,NO,0,NO,0,2012-08-02 11:29:27 +0800,#77 Scheduler部分應用Spring的Task NameSpace，及對原有部分的一些註釋與整理,37,1057
+305,35272324,FAIL,4,NO,0,NO,0,2012-08-07 14:32:59 +0800,#57 在扫描MyBatis接口时，加入annotation class的限定，适合dao放在不同的模块目录的情况,37,1057
+306,c0b3b7e1,FAIL,4,NO,0,NO,0,2012-08-07 14:33:53 +0800,"#77 schduler, comments",37,1057
+307,ac0df497,FAIL,6,NO,0,NO,0,2012-08-07 15:05:44 +0800,pom.xml加入很实用的enforcer插件，避免再不小心的引入一些冲突的jar包.,37,1057
+308,8ec78d2d,FAIL,5,NO,0,NO,0,2012-08-08 16:01:57 +0800,spring对多个transactionManager的支持已成熟，取消原来的显式定义,36,1025
+309,c867b9f4,FAIL,4,NO,0,NO,0,2012-08-08 16:22:53 +0800,#57 将ehcache的hibernate 2nd Cache搬回Showcase,36,1031
+310,ebfdc86a,FAIL,4,NO,0,NO,0,2012-08-15 00:08:12 +0800,#57 修改演示说明,36,1031
+311,a9a52587,FAIL,4,NO,0,NO,0,2012-08-15 01:05:10 +0800,#57 多个ehcacheManager，需要在配置文件中给予不同的名字,36,1031
+312,768625a6,FAIL,4,NO,0,NO,0,2012-08-15 01:28:08 +0800,#57 JQuery-Validate高级用法移到showcase中,36,1031
+313,196900a5,FAIL,6,NO,0,NO,0,2012-08-19 17:19:04 +0800,"Hibnernate 4.1.5.SP1->4.1.6, guava 12.0->13.0",36,1031
+314,9a7871e3,FAIL,5,NO,0,NO,0,2012-08-19 17:30:21 +0800,#78 Shiro使用更新。 1. 对Cache的使用，默认使用ehcache 120秒自然失效，而不是进行cluster level cache的即时清理。 2. 代码进一步清理。,36,1031
+315,24d46056,FAIL,4,NO,0,NO,0,2012-08-20 23:49:43 +0800,#57 补回Shiro演示,38,1078
+316,3c6f140d,FAIL,5,NO,0,NO,0,2012-08-20 23:50:23 +0800,#57 补回Shiro演示,38,1078
+317,0ab4cbeb,FAIL,4,NO,0,NO,0,2012-08-21 15:56:44 +0800,#57 quickstart不演示Shiro的授权管理，增加User与Task的关系,39,1116
+318,3c0d9d36,FAIL,4,NO,0,NO,0,2012-08-22 18:18:12 +0800,#57 shiro权限校验移到showcase,39,1126
+319,9a602ab6,FAIL,4,NO,0,NO,0,2012-08-24 11:36:11 +0800,"fix jquery-validate的remote验证规则出错的问题，button名字不能叫submit,要改为别的名字如submit_btn",39,1126
+320,02e5c8e4,FAIL,4,NO,0,NO,0,2012-08-24 12:06:22 +0800,#78 Shiro使用更新。 3.提供Shiro没有提供的HasAnyPermissionsTag,39,1126
+321,ba8abfe2,FAIL,5,NO,0,NO,0,2012-08-24 17:06:28 +0800,#79 取消DBUnit的使用. DBUnit作用不是非常大，因此取消使用，简化技术。,39,1124
+322,eb6d4005,FAIL,4,NO,0,NO,0,2012-08-24 17:34:49 +0800,#80 解决Jetty在Windows下Lock住静态文件不能修改的问题，顺便重构了一下包名,39,1126
+323,81decc32,FAIL,4,NO,0,NO,0,2012-08-24 23:42:13 +0800,fix classpath,39,1123
+324,a9f7fbe4,FAIL,4,NO,0,NO,0,2012-08-24 23:52:15 +0800,rename happly,39,1123
+325,c6972697,FAIL,5,NO,0,NO,0,2012-08-25 00:02:42 +0800,prepare for RC4,39,1123
+326,76cca344,FAIL,6,NO,0,NO,0,2012-08-30 22:31:54 +0800,"3PP小升级 cxf 2.6.1->2.6.2, quartz 2.1.5->2.1.6, guava 13.0->13.0.1, jaxen 1.1.3->1.1.4 及其他小问题的小调整",39,1123
+327,5da46deb,FAIL,6,NO,0,NO,0,2012-08-30 22:42:18 +0800,update version to RC5-SNAPSHOT,39,1123
+328,8ec17773,FAIL,3,NO,0,NO,0,2012-08-30 22:42:38 +0800,精简H2的脚本,39,1123
+329,cd4f6cab,FAIL,4,NO,0,NO,0,2012-08-30 23:44:50 +0800,#83 task增加description属性，目录重构,39,1123
+330,4e116b34,FAIL,3,NO,0,NO,0,2012-08-30 23:55:43 +0800,twitter bootstrap 2.0.4->2.1.0,38,1085
+331,35856dbc,FAIL,4,NO,0,NO,0,2012-08-31 00:53:46 +0800,#83 TodoList 增加用户注册/用户管理功能,39,1116
+332,42144482,FAIL,4,NO,0,NO,0,2012-08-31 11:43:04 +0800,#83 TodoList 增加用户自管理功能，Task Update不再做部分更新,39,1116
+333,a4665233,FAIL,4,NO,0,NO,0,2012-08-31 14:43:41 +0800,"#83 TodoList 中加入基于角色的权限判断, 只有admin可以管理用户",39,1116
+334,dc2c6835,FAIL,5,NO,0,NO,0,2012-08-31 15:11:56 +0800,#35 解决bootstrap + JQuery Validation时出错信息被强制换行的问题,39,1116
+335,acb0c956,FAIL,4,NO,0,NO,0,2012-08-31 15:35:59 +0800,css 更新,39,1116
+336,9eb67ac7,FAIL,5,NO,0,NO,0,2012-08-31 16:33:36 +0800,"修正""Skipping URI variable 'id' since the request contains a bind value with the same name""的问题，path中的id无用的，所以就干脆改成另一个不冲突的名字",39,1116
+337,7cdbe51d,FAIL,4,NO,0,NO,0,2012-08-31 23:11:14 +0800,Css更新,39,1116
+338,a5446be3,FAIL,4,NO,0,NO,0,2012-09-01 01:25:05 +0800,"#85 spring mvc taglib的checkbox, radio 支持twitter bootstrap",41,1208
+339,14bbdd09,FAIL,5,NO,0,NO,0,2012-09-01 02:03:07 +0800,"#85 spring mvc taglib的checkbox, radio 支持twitter bootstrap",42,1227
+340,f2e60810,FAIL,4,NO,0,NO,0,2012-09-01 02:08:53 +0800,fix cases,42,1227
+341,13a8efec,FAIL,4,NO,0,NO,0,2012-09-01 13:26:55 +0800,"#85 spring mvc taglib的checkbox, radio 支持twitter bootstrap, 增加labelCssClass属性，可以设为",41,1140
+342,d83e4bad,FAIL,4,NO,0,NO,0,2012-09-01 14:29:53 +0800,#85 showcase中补充用户的角色管理(checkBox提交）的演示，比旧版有改进。,42,1147
+343,562dc227,FAIL,4,NO,0,NO,0,2012-09-01 16:11:58 +0800,shiro url pattern problem,42,1147
+344,e16119d2,FAIL,5,NO,0,NO,0,2012-09-01 16:15:47 +0800,#7 Quickstart 终于加入排序和分页功能,41,1116
+345,bc42869c,FAIL,4,NO,0,NO,0,2012-09-01 18:45:21 +0800,#7 Quickstart 终于加入排序和分页功能,41,1116
+346,72390263,FAIL,5,NO,0,NO,0,2012-09-01 21:22:07 +0800,"#7 Quickstart 终于加入排序和分页功能, 修正遗留小问题",41,1116
+347,f176e3d5,FAIL,5,NO,0,NO,0,2012-09-02 00:17:17 +0800,在showcase演示REST+ XML，注意DTO不能有循环依赖，否则会返回406,44,1172
+348,94329909,FAIL,4,NO,0,NO,0,2012-09-02 00:29:27 +0800,#84 jboss与weblogic下，应用服务器自带的jpa也会自动扫描persistence.xml，改名避免冲突发生,44,1172
+349,cf4a16df,FAIL,4,NO,0,NO,0,2012-09-02 18:23:25 +0800,showcase中的css更新,44,1172
+350,c7e77124,FAIL,3,NO,0,NO,0,2012-09-02 18:26:23 +0800,release RC5,44,1172
+351,71f7bb3c,FAIL,5,NO,0,NO,0,2012-09-02 22:30:35 +0800,update version to GA-SNAPSHOT,44,1172
+352,66a49ae8,FAIL,5,NO,0,NO,0,2012-09-03 09:56:23 +0800,clean code,44,1172
+353,7c7db09d,FAIL,4,NO,0,NO,0,2012-09-03 10:39:57 +0800,spring mvc使用更新，url更有restful风格,44,1172
+354,6d200b21,FAIL,5,NO,0,NO,0,2012-09-03 10:55:40 +0800,"quickstart service层加入逻辑判断, 并补回service层的UT",43,1157
+355,5158736d,FAIL,4,NO,0,NO,0,2012-09-03 11:10:51 +0800,"JAXBMapper参考Spring的做法进行改进,纯静态调用类。",43,1157
+356,c4d2c1a7,FAIL,5,NO,0,NO,0,2012-09-03 11:33:18 +0800,某些Entity返回不应该被修改的属性时使用guava的ImmutableList,43,1155
+357,62f3c7b0,FAIL,4,NO,0,NO,0,2012-09-03 12:19:02 +0800,Showcase Restful Service演示与Shiro集成的HttpBasic安全控制，RestTemplate设置HttpHeaders的写法。,40,1099
+358,8c0cf8d0,FAIL,4,NO,0,NO,0,2012-09-03 14:36:10 +0800,JQuery Valdiate 对checkbox 必填项的支持,40,1099
+359,99e6e7bf,FAIL,3,NO,0,NO,0,2012-09-03 14:36:24 +0800,fix wrong cron expression,40,1099
+360,85077cd9,FAIL,4,NO,0,NO,0,2012-09-03 14:49:30 +0800,加强bind Exception的显示,40,1099
+361,e2d599f8,FAIL,4,NO,0,NO,0,2012-09-03 16:34:24 +0800,jquery validate + Bootstraper 将默认值放到message_bs_cn中，不需要每次设定,40,1099
+362,7cddaa5e,FAIL,4,NO,0,NO,0,2012-09-03 22:19:36 +0800,cleanup,40,1099
+363,e1f35a59,FAIL,4,NO,0,NO,0,2012-09-04 01:09:48 +0800,cleanup,39,1069
+364,b608c3da,FAIL,5,NO,0,NO,0,2012-09-04 15:46:10 +0800,"sonar checking，但大都无关痛痒 sonar 也升级到3.2, 主要改变是findbugs升级到2.0了, 规则改动不算大",39,1071
+365,040ec26a,FAIL,4,NO,0,NO,0,2012-09-04 17:27:32 +0800,"Mockito写法小改进, fix cases",39,1067
+366,2ab6818a,FAIL,4,NO,0,NO,0,2012-09-04 17:29:33 +0800,cleanup useless import,39,1065
+367,9a670a02,FAIL,5,NO,0,NO,0,2012-09-05 10:22:45 +0800,release rc5.SP1,39,1065
+368,9fe49cdf,FAIL,4,NO,0,NO,0,2012-09-05 16:54:52 +0800,add .settings/ to .gitignore,39,1065
+369,36d169f0,FAIL,5,NO,0,NO,0,2012-09-05 16:55:15 +0800,delete .settings folder,39,1065
+370,a79f5e5c,FAIL,4,NO,0,NO,0,2012-09-06 01:39:34 +0800,fix classpath,39,1065
+371,2c25099e,FAIL,4,NO,0,NO,0,2012-09-06 01:52:09 +0800,报应啊，偷懒写少两个测试，SP1就有两个bug了。顺便解决了Tomcat下不能登陆的问题，缺包了。,39,1065
+372,cd6e3bc2,FAIL,4,NO,0,NO,0,2012-09-06 17:41:07 +0800,back to GA-NAPSHOT,39,1065
+373,4e1d3230,FAIL,5,NO,0,NO,0,2012-09-06 22:13:55 +0800,#89 fix,39,1065
+374,69e80bd3,FAIL,4,NO,0,NO,0,2012-09-06 22:18:09 +0800,# 修复JBoss里部署失败的bug，原来忘记写baseScanPackage了，另外persistence.xml可以彻底删除了.,39,1065
+375,ddeb1100,FAIL,4,NO,0,NO,0,2012-09-06 07:33:50 -0700,Merge pull request #87 from zhanming/master,39,1065
+376,6e513eb5,FAIL,4,NO,0,NO,0,2012-09-06 22:39:46 +0800,#87，完善eclipse项目生成时的配置,39,1065
+377,6cdd0ca5,FAIL,5,NO,0,NO,0,2012-09-07 00:01:07 +0800,"补充functional test, 然后又很悲剧的发现一个bug. 分开测试与开发的数据库。",39,1065
+378,a429b678,FAIL,5,NO,0,NO,0,2012-09-07 01:26:42 +0800,补回mysql脚本,39,1065
+379,0e1b8323,FAIL,2,NO,0,NO,0,2012-09-07 10:39:29 +0800,洋气的pom.xml,39,1065
+380,73a58e62,FAIL,3,NO,0,NO,0,2012-09-07 14:24:32 +0800,"用enforcer设定开发环境，Maven 3.0.4 +, JDK 6.0  +",39,1065
+381,ca3e9b75,FAIL,3,NO,0,NO,0,2012-09-07 14:26:46 +0800,测试Oracle兼容性，需要另行实现，后见wiki,40,1079
+382,cc8bc978,FAIL,4,NO,0,NO,0,2012-09-07 16:52:55 +0800,"Spring Data JPA 1.1.0-> 1.2.0 RC1 fix早上pom.xml改动的问题,",40,1079
+383,e6d1dd27,FAIL,4,NO,0,NO,0,2012-09-08 02:04:52 +0800,#60 H2 + Oracle的实际开发场景,40,1079
+384,4890ca2b,FAIL,6,NO,0,NO,0,2012-09-08 11:46:38 +0800,"slf4j 1.6.6->1.7.0, jackson 2.0.5->2.0.6,Hibernate 4.1.6->4.1.7, slf4j终于有了info(String message, String... arg)函数",40,1079
+385,05f89867,FAIL,7,NO,0,NO,0,2012-09-08 22:34:32 +0800,#90 演示DateTime相关的数据库存储，Hibernate映射，单元测试，页面展示,42,1099
+386,769c077b,FAIL,4,NO,0,NO,0,2012-09-08 23:37:25 +0800,#90 改进date-time演示,42,1099
+387,37883671,FAIL,4,NO,0,NO,0,2012-09-09 17:42:22 +0800,"RestTemplate演示更新,	clientHttpRequestInterceptor设置http headers ，设置使用Apache HttpClient4作为底层。",42,1099
+388,95634872,FAIL,3,NO,0,NO,0,2012-09-09 17:57:22 +0800,quikstart删除用户时需要删除Task，演示Spring Data JPA下的delete/update语句的写法,42,1104
+389,6a090afe,FAIL,3,NO,0,NO,0,2012-09-09 18:40:10 +0800,"RestTemplate演示更新,	设置超时, 退出时关闭链接",42,1104
+390,4b1df0a3,FAIL,3,NO,0,NO,0,2012-09-09 18:47:17 +0800,change comments,42,1104
+391,6df15a99,FAIL,4,NO,0,NO,0,2012-09-09 18:50:24 +0800,prepare for RC6,42,1104
+392,68a2445e,FAIL,4,NO,0,NO,0,2012-09-10 22:39:44 +0800,fix case and download Maven requirement from 3.0.4 to 3.0.3,42,1104
+393,8c6aead8,FAIL,4,NO,0,NO,0,2012-09-11 23:20:56 +0800,upgrade to SNAPSHOT again,42,1104
+394,c434cf02,FAIL,4,NO,0,NO,0,2012-09-12 00:32:21 +0800,#86 开始实现动态搜索条件组合的功能,44,1163
+395,7b876f95,FAIL,4,NO,0,NO,0,2012-09-13 00:02:44 +0800,"#86 开始实现动态搜索条件组合的功能, 制定JPA2.0 Critera部分type safe API的真是学院级的变态，这泛型累得我啊。",44,1225
+396,9997f072,FAIL,4,NO,0,NO,0,2012-09-13 02:02:25 +0800,"#86 开始实现动态搜索条件组合的功能, 制定JPA2.0 Critera部分type safe API的绝对是学院级的变态，这泛型理解了半天.",44,1213
+397,4a3af887,FAIL,4,NO,0,NO,0,2012-09-13 23:23:52 +0800,最近做SOAP培训，发现原来把返回类命名为XXXResponse与wsdl中的默认元素是冲突的，改为XXXRequest,44,1213
+398,7cea5d38,FAIL,5,NO,0,NO,0,2012-09-14 00:18:59 +0800,将JAX-RS演示放入showcase中。,44,1213
+399,85d9d513,FAIL,4,NO,0,NO,0,2012-09-14 23:37:12 +0800,"将JAX-RS演示放入showcase中, 重构命名规则",45,1234
+400,caea25ad,FAIL,8,NO,0,NO,0,2012-09-14 23:51:42 +0800,jetty 7.6.5->7.6.7,45,1234
+401,a154ffc9,FAIL,7,NO,0,NO,0,2012-09-19 09:47:19 +0800,"commons-codec 1.6->1.7, slf4j 1.7.0->1.7.1",45,1234
+402,65eaea38,FAIL,5,NO,0,NO,0,2012-09-19 09:47:38 +0800,improve testing,45,1236
+403,f27f3640,FAIL,4,NO,0,NO,0,2012-09-19 09:48:24 +0800,"#86 开始实现动态搜索条件组合的功能, 参数类型的转换，从String到目标值",45,1256
+404,a9530de1,FAIL,5,NO,0,NO,0,2012-09-19 14:56:26 +0800,update jax-rs demo,45,1256
+405,b6549974,FAIL,6,NO,0,NO,0,2012-09-19 14:56:44 +0800,move Servlets to core module,45,1256
+406,49c084cb,FAIL,5,NO,0,NO,0,2012-09-19 17:41:49 +0800,"#86 开始实现动态搜索条件组合的功能, 支持嵌入式查询，另精简API使用。",45,1261
+407,858b4684,FAIL,5,NO,0,NO,0,2012-09-19 17:43:17 +0800,"#86 开始实现动态搜索条件组合的功能, rename.",45,1261
+408,bb63b80c,FAIL,4,NO,0,NO,0,2012-09-19 22:39:21 +0800,"#86 开始实现动态搜索条件组合的功能, rename.",45,1261
+409,ccc75fb5,FAIL,5,NO,0,NO,0,2012-09-19 23:11:00 +0800,fix bug of pagination,45,1261
+410,7acad180,FAIL,5,NO,0,NO,0,2012-09-19 23:11:44 +0800,bootstrap 2.1.0->2.1.1,45,1261
+411,30a93b76,FAIL,5,NO,0,NO,0,2012-09-20 00:27:54 +0800,"#86 开始实现动态搜索条件组合的功能, 测试下移到showcase项目，不需要依赖em后，改为静态方法。",46,1278
+412,6bc5a38e,FAIL,5,NO,0,NO,0,2012-09-20 00:32:29 +0800,#86 SearchFilter返回Map，方便后续步骤对Value类型(如Date)显式进行转换。,46,1277
+413,632a7a9f,FAIL,7,NO,0,NO,0,2012-09-20 01:09:53 +0800,"Maven 3pp update: install 2.3.1->2.4 dependency 2.4->2.5.1, surefire 2.12->2.12.3, source 2.1.2->2.2, Resoruce 2.5->2.6",46,1277
+414,9102f319,FAIL,5,NO,0,NO,0,2012-09-20 23:41:00 +0800,"#86 动态查询条件, 貌似完工了.",46,1277
+415,e8c29aac,FAIL,4,NO,0,NO,0,2012-09-21 01:03:22 +0800,"#90 改进date-time演示, joda time在jackson下不能简单格式化输出,而且要特别设置module, 总体来讲使用joda-time的代价还是太高了, 需要引入一系列东西, 加大了quickstart的复杂性,暂不使用.",45,1264
+416,86e779a7,FAIL,5,NO,0,NO,0,2012-09-21 01:34:52 +0800,增加与修正cases,45,1264
+417,528b8d06,FAIL,4,NO,0,NO,0,2012-09-21 23:20:23 +0800,借用Spring的favicon，Jetty默认的icon太丑了。,45,1264
+418,0c47a106,FAIL,4,NO,0,NO,0,2012-09-21 23:53:48 +0800,琐碎小修改,45,1264
+419,fcb0ca18,FAIL,5,NO,0,NO,0,2012-10-03 23:16:57 +0800,jquery-validate 1.9.0->1.10.0,45,1264
+420,293698a3,FAIL,4,NO,0,NO,0,2012-10-03 23:39:03 +0800,update dependency and plugins,45,1264
+421,e5c0fd0f,FAIL,4,NO,0,NO,0,2012-10-04 22:45:36 +0800,表名统一小写，避免问题,45,1264
+422,ca5d4e01,FAIL,5,NO,0,NO,0,2012-10-04 23:25:26 +0800,"正式加入Quickstart的Archetype, 未最后完成",57,1500
+423,d9af7659,FAIL,4,NO,0,NO,0,2012-10-05 00:33:58 +0800,remove,51,1382
+424,a2272d7c,FAIL,5,NO,0,NO,0,2012-10-05 00:38:05 +0800,remove wrong archetype files,51,1382
+425,40ce265a,FAIL,5,NO,0,NO,0,2012-10-05 00:39:08 +0800,Merge remote-tracking branch 'origin/master',51,1382
+426,bdb7c12d,FAIL,5,NO,0,NO,0,2012-10-05 00:43:53 +0800,functional的package名不能自动识别，css名叫quickstart不能很好自动改名等小问题,51,1382
+427,68dd27eb,FAIL,5,NO,0,NO,0,2012-10-06 10:54:03 +0800,archetype再次小改进,51,1382
+428,60cf90f8,FAIL,4,NO,0,NO,0,2012-10-06 11:36:49 +0800,archetype最后修改,51,1382
+429,9c738c07,FAIL,4,NO,0,NO,0,2012-10-06 12:00:07 +0800,4.0 GA版发布,51,1382
+430,d914e274,FAIL,4,NO,0,NO,0,2012-10-06 12:26:32 +0800,加强用例健壮性,51,1382
+431,cb041981,FAIL,7,NO,0,NO,0,2012-10-07 10:53:07 +0800,version升级到4.0.1-SNAPSHOT， 循例encore返场一样的4.0.1开始了，,51,1382
+432,4fb1044b,FAIL,5,NO,0,NO,0,2012-10-08 23:23:14 +0800,add comments and fix url,50,1329
+433,a5293266,FAIL,7,NO,0,NO,0,2012-10-22 22:41:30 +0200,"升级3PP版本， Spring-Data-JPA 1.2.0.RC1 - > 1.2.0, jackson 2.0.6->2.1.0, slf4j 1.7.1->1.7.2,aspectj 1.7.0->1.7.1",50,1329
+434,3e6aa682,FAIL,4,NO,0,NO,0,2012-10-23 22:11:24 +0200,[Dynamic Search] 修正动态组合查询条件中，未过滤空输入框的bug， showcase中也演示动态组合查询条件，增强Showcase/Quickstart中的相关功能测试用例,50,1332
+435,5794a023,FAIL,4,NO,0,NO,0,2012-11-04 12:47:15 +0800,Format the source.,50,1332
+436,8b50e4b2,FAIL,4,NO,0,NO,0,2012-11-17 21:57:16 +0800,Format the source.,38,1078
+437,38615f8a,FAIL,4,NO,0,NO,0,2012-12-01 17:28:06 +0800,Update modules/core/src/main/java/org/springside/modules/persistence/SearchFilter.java,50,1332
+438,04ce0efb,FAIL,12,NO,0,NO,0,2012-12-04 22:47:21 +0800,两个月来第一次更新，只是依赖包更新，可惜都只有一些小版本变更。,50,1341
+439,4b03ce44,FAIL,4,NO,0,NO,0,2012-12-04 08:37:41 -0800,Merge pull request #124 from diguage/patch-1,50,1341
+440,07f77d85,FAIL,4,NO,0,NO,0,2012-12-05 00:38:33 +0800,freemarkers小改,50,1341
+441,c92d2691,FAIL,4,NO,0,NO,0,2012-12-05 00:49:00 +0800,"#126 fix EqualsBuilder.reflectionEquals(Object lhs, Object rhs, String... excludeFields) 的严重误用",50,1341
+442,e64f8cff,FAIL,4,NO,0,NO,0,2012-12-04 08:50:43 -0800,Merge pull request #129 from diguage/master,50,1341
+443,f41b6042,FAIL,4,NO,0,NO,0,2012-12-04 10:21:28 -0800,Merge pull request #138 from boliza/patch-1,50,1341
+444,0c6d2341,FAIL,4,NO,0,NO,0,2012-12-05 01:57:31 +0800,"#127 支持sql中包含中文,设置编码",50,1341
+445,b5913d11,FAIL,7,NO,0,NO,0,2012-12-06 00:59:19 +0800,#132 DynamicSpecification不再对输入参数做自动类型转换，因为数字的话Hibernate会自动转，日期的格式很难自动转。另对昨天的修改增加了测试用例,47,1225
+446,8d5188ff,FAIL,4,NO,0,NO,0,2012-12-12 23:27:38 +0800,修正dataSource定义，在unit test下也可以设置log4jdbc，看到实际执行的sql，并修正原来设置中的一些瑕疵,45,1167
+447,9c913efa,FAIL,7,NO,0,NO,0,2012-12-13 00:48:55 +0800,"update 3pp like selenium,cxf and Jquery from 1.7.1->1.8.3, bootstrap from 2.1.1->2.2.2",45,1167
+448,97d37fb9,FAIL,5,NO,0,NO,0,2012-12-15 21:15:26 +0800,准备发布4.0.1.GA,45,1167
+449,c2ab0714,FAIL,5,NO,0,NO,0,2012-12-15 21:22:01 +0800,Merge remote-tracking branch 'origin/master',45,1167
+450,a35712fb,FAIL,5,NO,0,NO,0,2012-12-15 21:43:50 +0800,#140 archetype更新并修正原来package不正确的错误，原因很无厘头，因为自定义了一个属性projectName =QuickStart，和artifact重名的缘故。,45,1167
+451,80ecb107,FAIL,5,NO,0,NO,0,2012-12-15 22:04:22 +0800,forget to remove old bootstrap,45,1167
+452,d3898b2f,FAIL,5,NO,0,NO,0,2012-12-16 00:11:30 +0800,4.1.0开始,45,1167
+453,c7515b64,FAIL,7,NO,0,NO,0,2012-12-16 01:10:48 +0800,#145 spring版本升到3.2.0:  -- asm与cglib不再显式定义.  -- SimpleJdbcTemplate换成JdbcTemplate 同时springside-test中全部依赖加上optional.,45,1167
+454,6347fa21,FAIL,5,NO,0,NO,0,2012-12-16 17:43:09 +0800,"#116 解决@ResponseBody中文乱码, 将StringConverter的默认编码从 ISO-88591改为UTF-8。所有天不收地不管的@ResponseBody，比如text/plain和其他未知类型都会交给StringConverter处理",45,1167
+455,9bbe2901,FAIL,6,NO,0,NO,0,2012-12-16 23:47:50 +0800,#105 终于等来Spring3.2  ContentNegotiation的优雅写法，根据xxx.json xxx.xml 自动决定content-type,45,1167
+456,fa8a54bb,FAIL,5,NO,0,NO,0,2012-12-17 11:02:23 +0800,@ModelAttribute减少约定俗成，写得更大白话一点，入门的时候容易懂。,45,1167
+457,86ce7f78,FAIL,4,NO,0,NO,0,2012-12-18 11:00:58 +0800,#114 改进异常页面显示,45,1167
+458,2456e552,FAIL,4,NO,0,NO,0,2012-12-18 20:42:03 +0800,#145 使用用Spring 3.2的@ControllerAdvice，设置全局的@ExceptionHandler,46,1182
+459,3bab8c46,FAIL,5,NO,0,NO,0,2012-12-18 20:43:34 +0800,#145 xsd升级到3.2,46,1182
+460,9edd6c76,FAIL,5,NO,0,NO,0,2012-12-18 22:12:47 +0800,#146 Selenium2以JUnit @Rule的形式，支持在出错时，截屏到target/scennshot目录。,46,1182
+461,1af05024,FAIL,6,NO,0,NO,0,2012-12-24 23:15:47 +0800,#144 从 log4j转为logback，只是简单转换，还没开始演示logback特有功能,44,1098
+462,be1d351d,FAIL,5,NO,0,NO,0,2012-12-27 22:11:45 +0800,#144 从 log4j转为logback，修正logback的layout和appender配置,44,1098
+463,7980ead1,FAIL,4,NO,0,NO,0,2012-12-28 01:31:10 +0800,"#144 从 log4j转为logback，演示JMX及专门的业务Logger, Appender改名为ListAppender",44,1084
+464,88930305,FAIL,4,NO,0,NO,0,2013-01-05 01:43:40 +0800,#146 Selenium2以JUnit @Rule的形式，支持在出错时，截屏到target/scennshot目录。改进写法。及其他Functional Test小细节.,44,1084
+465,637a139c,FAIL,4,NO,0,NO,0,2013-01-06 00:53:02 +0800,Update modules/test/pom.xml,44,1084
+466,e4a91bd6,FAIL,5,NO,0,NO,0,2013-01-17 23:54:11 +0800,#171 Redis与MongoDB的Benchmark测试用例，计数器测试,48,1283
+467,605c66c3,FAIL,4,NO,0,NO,0,2013-01-18 00:03:33 +0800,#171 Redis与MongoDB的Benchmark测试用例，little update,48,1281
+468,13a85bf5,FAIL,4,NO,0,NO,0,2013-01-18 00:09:05 +0800,#171 Redis与MongoDB的Benchmark测试用例，some renaming.,48,1282
+469,0cb85c2c,FAIL,4,NO,0,NO,0,2013-01-18 10:28:19 +0800,#171 Redis与MongoDB的Benchmark测试用例，renaming + improve message,48,1285
+470,06b41be5,FAIL,4,NO,0,NO,0,2013-01-20 00:51:22 -0800,Merge pull request #161 from martinx/master,48,1285
+471,bc404eb6,FAIL,4,NO,0,NO,0,2013-01-20 16:52:04 +0800,little updates,48,1285
+472,45e42e24,FAIL,4,NO,0,NO,0,2013-01-20 18:06:07 +0800,数据初始化的SQL分类型，以支持对远程的真实数据库执行functional test,48,1285
+473,5e46624d,FAIL,5,NO,0,NO,0,2013-01-20 18:30:23 +0800,#171 Redis的Benchmark测试用例，去掉MongoDB，因为暂时还用不上。集中测试用于Counter与Session管理两种场景。,45,1133
+474,41959b9d,FAIL,5,NO,0,NO,0,2013-01-20 18:42:21 +0800,"完整的sessio#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1152
+475,8586a1ba,FAIL,5,NO,0,NO,0,2013-01-21 15:10:17 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1152
+476,3ddf7cf7,FAIL,7,NO,0,NO,0,2013-01-22 11:32:13 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1139
+477,28fcce05,FAIL,4,NO,0,NO,0,2013-01-22 11:32:13 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1141
+478,c56734c5,FAIL,4,NO,0,NO,0,2013-01-22 18:39:12 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1141
+479,e8dd4f2f,FAIL,4,NO,0,NO,0,2013-01-22 18:39:12 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1141
+480,71d6773d,FAIL,5,NO,0,NO,0,2013-01-22 22:17:51 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",45,1103
+481,e01174fd,FAIL,5,NO,0,NO,0,2013-01-23 18:05:52 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。",46,1158
+482,d81fd0a0,FAIL,4,NO,0,NO,0,2013-01-24 18:31:10 +0800,"#171 Redis的Benchmark测试用例, 完整的session性能测试。remove RateLimiter，减少依赖包使用",46,1158
+483,7e13e0b8,FAIL,4,NO,0,NO,0,2013-02-04 14:29:47 +0800,"#171 Redis的Benchmark测试用例, 微调",46,1158
+484,1358419c,FAIL,5,NO,0,NO,0,2013-02-05 17:48:16 +0800,#171 Redis增加session timer方案,46,1158
+485,de618ab2,FAIL,4,NO,0,NO,0,2013-02-07 12:29:46 +0800,#171 Redis增加session timer方案,47,1201
+486,7f28e647,FAIL,4,NO,0,NO,0,2013-02-07 14:18:02 +0800,#171 Redis增加session timer方案,47,1201
+487,12922de6,FAIL,4,NO,0,NO,0,2013-02-07 16:56:19 +0800,"#171 Redis增加session timer方案, 发现Jedis的brpop不会shutdownNow()中断的问题",47,1201
+488,824dcb96,FAIL,5,NO,0,NO,0,2013-02-08 13:55:48 +0800,"#171 Redis增加session timer方案, 基于redis的job系统的最终版了吧",46,1158
+489,436fe2be,FAIL,4,NO,0,NO,0,2013-02-15 18:13:09 +0800,"update jquery 1.8.3->1.9.1, jquery-validate 1.10-> 1.11, bootstreap 2.2->2.3",46,1158
+490,a4297ce6,FAIL,9,NO,0,NO,0,2013-03-04 17:52:51 +0800,update 3pp version,46,1158
+491,3330b0f9,FAIL,5,NO,0,NO,0,2013-03-25 19:56:59 +0800,在Dao名称冲突的时候可以启用别名,46,1158
+492,19a20bcb,FAIL,4,NO,0,NO,0,2013-03-27 15:50:35 +0800,Update applicationContext-email.xml,46,1158
+493,8d3e39ab,FAIL,5,NO,0,NO,0,2013-04-08 23:30:15 +0800,#171 Redis，还可以继续改进，比如在测试服务器上运行时支持在命令行用-D定义系统变量改变测试参数,46,1118
+494,692f449d,FAIL,4,NO,0,NO,0,2013-04-08 23:32:07 +0800,#171 Redis，还可以继续改进，比如在测试服务器上运行时支持在命令行用-D定义系统变量改变测试参数,46,1118
+495,d4bb4613,FAIL,7,NO,0,NO,0,2013-04-09 00:13:39 +0800,"例行升级第三方类库，一大堆更新，但没什么让人激动的更新,bugfix为主。反而有一些很基础的性能改进，如slf4j和logback用CocurrentHashMap代替HashMap放logger instances. 比如Joda Time 修改一些StringBuffer 为 StringBuilder",46,1118
+496,f2e9a702,FAIL,5,NO,0,NO,0,2013-05-01 01:47:52 -0700,Merge pull request #196 from undancer/patch-1,46,1118
+497,c07d8e74,FAIL,5,NO,0,NO,0,2013-05-01 01:52:45 -0700,Merge pull request #195 from miemiedev/master,46,1118
+498,1f1d30f4,FAIL,7,NO,0,NO,0,2013-05-01 17:05:24 +0800,update 依赖包version，并修复issues中的一堆低级问题,46,1118
+499,f4ed500e,FAIL,5,NO,0,NO,0,2013-05-01 18:29:18 +0800,#177 surefire插件的groups属性名改了,46,1118
+500,19b1fdad,FAIL,4,NO,0,NO,0,2013-05-01 18:38:52 +0800,"#182 新生成的项目, functional目录里少了一层目录",46,1118
+501,acacc701,FAIL,5,NO,0,NO,0,2013-05-01 18:43:51 +0800,#185 another stupid problem,46,1118
+502,d0a28fc9,FAIL,4,NO,0,NO,0,2013-05-01 19:15:02 +0800,#184 transaction read-only=true 没起作用，的确没什么用，只作为hints，干脆干掉。,46,1118
+503,c3ca897c,FAIL,4,NO,0,NO,0,2013-06-20 01:39:24 +0800,add ignore file for intellij project files,46,1118
+504,385e5705,FAIL,8,NO,0,NO,0,2013-06-20 08:15:28 +0800,update 3PP versions. 全都是小版本更新,46,1118
+505,b72fe349,FAIL,6,NO,0,NO,0,2013-06-20 08:31:09 +0800,maven plugins version upgrades,46,1118
+506,f1e71d9f,FAIL,4,NO,0,NO,0,2013-06-20 17:49:10 +0800,update pom.xml comments,46,1118
+507,4624c121,FAIL,4,NO,0,NO,0,2013-06-20 21:59:28 +0800,#223 使用已成熟的m2e插件，不再使用maven-eclipse-plugin,46,1118
+508,0099ed77,FAIL,4,NO,0,NO,0,2013-06-21 01:25:25 +0800,导出Eclipse配置文件,46,1118
+509,8628fe92,FAIL,4,NO,0,NO,0,2013-06-21 23:19:39 +0800,#221 加入对Jedis的封装,49,1225
+510,13ebb8bc,FAIL,4,NO,0,NO,0,2013-06-22 00:05:25 +0800,#224 导出SpringSide修改过的Eclipse配置项呈文件状,49,1225
+511,776cfb8e,FAIL,5,NO,0,NO,0,2013-06-22 18:56:40 +0800,code format,49,1225
+512,76b55eb3,FAIL,4,NO,0,NO,0,2013-06-22 19:11:35 +0800,#224 导出SpringSide修改过的Eclipse配置项呈文件状,49,1225
+513,76667062,FAIL,4,NO,0,NO,0,2013-06-22 19:28:56 +0800,code format,49,1225
+514,819bc8cc,FAIL,4,NO,0,NO,0,2013-06-22 19:51:54 +0800,#225 更新Sonar规则集，与Sonar 3.5.1 同步,49,1225
+515,28758b2c,SUCCESS,38,SUCCESS,10,FAIL,29,2013-06-30 12:29:34 +0800,#223 使用m2e插件取代mvn eclipse:eclipse插件，并且，spymemcached终于放回中央库了，不需要连接它的私库了。,49,1225
+516,63b3510f,SUCCESS,16,SUCCESS,10,FAIL,27,2013-07-01 01:26:04 +0800,#227 log4jdbc升级为log4jdbc-log4j2，刺头又少了一个。,49,1225
+517,adb5a06e,SUCCESS,12,SUCCESS,11,FAIL,24,2013-07-01 23:57:42 +0800,写文档时看着不好的随手改。,49,1225
+518,c08f3010,SUCCESS,11,SUCCESS,9,FAIL,26,2013-07-02 22:18:02 +0800,#227 log4jdbc升级为log4jdbc-log4j2，刺头又少了一个。,49,1225
+519,26c6469c,SUCCESS,13,SUCCESS,10,FAIL,28,2013-07-02 22:23:35 +0800,"关于Spring的Profiles,还是抽取一个类。",49,1225
+520,51e7a900,SUCCESS,14,SUCCESS,10,FAIL,27,2013-07-03 00:07:42 +0800,#227 log4jdbc升级为log4jdbc-log4j2，增加可选的配置参数，wiki已完成于https://github.com/springside/springside4/wiki/Datasource,49,1225
+521,25f4f1f1,SUCCESS,12,SUCCESS,13,FAIL,27,2013-07-03 15:07:39 +0800,#231 基于Node.js的性能测试用的简易模拟器 New Feature,49,1225
+522,a3959d10,SUCCESS,14,SUCCESS,10,FAIL,27,2013-07-03 18:31:25 +0800,#232 基于Hystrix的系统保护，初始化演示,51,1250
+523,e5b8e304,SUCCESS,12,SUCCESS,11,FAIL,27,2013-07-03 23:45:03 +0800,"boostrap 2.3.0->2.3.2, jquery-validation 1.11.0->1.11.1",51,1250
+524,a70cb10c,SUCCESS,12,SUCCESS,10,FAIL,25,2013-07-03 23:49:19 +0800,"修正prepare接口在新版MVC上的bug，在createForm提交时，如果有hidden input value且值为空时出错，因此将required=false 改为 defaultValue=""-1""",51,1250
+525,324adc0a,SUCCESS,11,SUCCESS,11,FAIL,27,2013-07-03 23:49:39 +0800,将javascript移到页面底部,51,1250
+526,1d85ed28,SUCCESS,10,SUCCESS,11,FAIL,27,2013-07-04 15:10:12 +0800,#221 加入对Jedis的封装,51,1250
+527,ef4e6bc5,SUCCESS,12,SUCCESS,9,FAIL,27,2013-07-04 18:09:19 +0800,#232 基于Hystrix的系统保护，Day2. 演示,52,1276
+528,3d55bf8b,SUCCESS,15,SUCCESS,9,FAIL,27,2013-07-05 17:14:38 +0800,#232 基于Hystrix的系统保护，Day3. 演示,52,1281
+529,b14322a3,SUCCESS,15,SUCCESS,11,FAIL,28,2013-07-05 17:49:38 +0800,#232 基于Hystrix的系统保护，Day3. 演示,52,1281
+530,5de47bfe,SUCCESS,13,SUCCESS,11,FAIL,27,2013-07-05 18:04:54 +0800,#232 基于Hystrix的系统保护，Day3. 演示,52,1281
+531,d1e46e9d,SUCCESS,13,SUCCESS,9,FAIL,26,2013-07-08 12:23:30 +0800,add travis-ci support,52,1281
+532,c1f6fa02,SUCCESS,10,SUCCESS,10,FAIL,26,2013-07-08 14:40:04 +0800,#144 从 log4j转为logback，fix bug of LogbackListAppender,52,1281
+533,ee9f4a96,SUCCESS,13,SUCCESS,11,FAIL,28,2013-07-08 15:32:48 +0800,#236 使用travis-ci 持续集成,52,1281
+534,51adcaf5,SUCCESS,12,SUCCESS,11,FAIL,27,2013-07-08 15:38:58 +0800,#236 使用travis-ci 持续集成,52,1281
+535,502cb4fa,SUCCESS,14,SUCCESS,11,FAIL,28,2013-07-08 15:53:30 +0800,#236 使用travis-ci 持续集成，继续努力把功能测试跑起来,52,1281
+536,f3e25d55,SUCCESS,12,SUCCESS,9,FAIL,25,2013-07-08 16:08:06 +0800,#236 使用travis-ci 持续集成，继续努力把功能测试跑起来,52,1281
+537,26675928,SUCCESS,13,SUCCESS,11,FAIL,29,2013-07-08 16:20:01 +0800,#236 使用travis-ci 持续集成，清理pom.xml，正式将原来的jenkins-host去掉,52,1281
+538,f477f8a9,SUCCESS,12,SUCCESS,11,FAIL,24,2013-07-08 16:26:20 +0800,#236 使用travis-ci 持续集成，增加smoke test,52,1281
+539,cae3d9ec,SUCCESS,10,SUCCESS,10,FAIL,25,2013-07-08 16:37:41 +0800,#236 使用travis-ci 持续集成，既然travis支持firefox，取消掉老是出错的htmlunit模式，最近和jquery 1.9.1又闹不兼容了,52,1275
+540,0b392ab8,SUCCESS,12,SUCCESS,10,FAIL,26,2013-07-08 16:40:35 +0800,"#236 使用travis-ci 持续集成，狠心一点, 让travis跑全部测试",52,1275
+541,15857fdb,SUCCESS,16,SUCCESS,9,FAIL,26,2013-07-08 22:13:07 +0800,#231 基于Node.js的性能测试用的简易模拟器 rename,52,1275
+542,9c2e9ef5,SUCCESS,14,SUCCESS,11,FAIL,24,2013-07-09 22:10:46 +0800,#237 数据库连接池从DBCP升级为Tomcat JDBC,52,1275
+543,bfcb387f,SUCCESS,16,SUCCESS,9,FAIL,25,2013-07-09 23:14:13 +0800,更新3pp和maven plugin的版本,52,1275
+544,dffc9dbb,SUCCESS,13,SUCCESS,11,FAIL,25,2013-07-10 01:34:36 +0800,fix testcase,52,1279
+545,f7c9d289,SUCCESS,17,SUCCESS,10,FAIL,26,2013-07-10 02:44:40 +0800,"徹底fix cases，比如cxf如果想用jackson, cxf 2.7.5只能配jackson 2.1.4， 要2.7.6-snapshot才能配jackson 2.2.2，比如H2的URL要多加一句close",52,1279
+546,ebcf6baf,SUCCESS,11,SUCCESS,10,FAIL,26,2013-07-10 11:58:55 +0800,fix  cases,52,1279
+547,f43b92e6,SUCCESS,15,SUCCESS,10,FAIL,27,2013-07-10 15:34:27 +0800,#221 加入对Jedis的封装,52,1266
+548,b6036ccb,SUCCESS,12,SUCCESS,9,FAIL,27,2013-07-10 15:39:48 +0800,#221 加入对Jedis的封装,52,1266
+549,32701371,SUCCESS,14,SUCCESS,12,FAIL,27,2013-07-11 00:48:22 +0800,#221 加入对Jedis的封装，对基于Redis的scheduler的封装及bencharmark框架的改进,54,1345
+550,4af636d2,SUCCESS,12,SUCCESS,10,FAIL,26,2013-07-11 01:44:09 +0800,#221 加入对Jedis的封装，注释与重命名,53,1333
+551,d842e552,SUCCESS,15,SUCCESS,10,FAIL,25,2013-07-11 17:59:14 +0800,#221 加入对Jedis的封装，代码改进与注释,51,1248
+552,7cc72a01,SUCCESS,13,SUCCESS,11,FAIL,27,2013-07-12 01:50:38 +0800,#221 加入对Jedis的封装，代码改进与注释,51,1200
+553,5e35feb6,SUCCESS,12,SUCCESS,11,FAIL,26,2013-07-13 00:16:58 +0800,#221 加入对Jedis的封装，代码改进与注释，希望是最后一个版本,50,1175
+554,f8ef90f6,SUCCESS,11,SUCCESS,10,FAIL,24,2013-07-13 02:29:05 +0800,#221 加入对Jedis的封装，代码改进与注释，果然不是最后一个版本,50,1175
+555,e70ff75e,SUCCESS,12,SUCCESS,10,FAIL,25,2013-07-14 00:34:59 +0800,#221 加入对Jedis的封装，又一轮代码改进与注释，新增了JedisPoolConfig的设置函数,49,1169
+556,8b3e1737,SUCCESS,14,SUCCESS,11,FAIL,26,2013-07-14 01:05:17 +0800,#221 加入对Jedis的封装，加入master elector的演示,50,1190
+557,3720c355,SUCCESS,13,SUCCESS,11,FAIL,24,2013-07-14 21:52:11 +0800,update gitignore from kai8406,50,1190
+558,7bbf836f,SUCCESS,12,SUCCESS,11,FAIL,25,2013-07-14 23:35:49 +0800,#221 加入对Jedis的封装，改变函数定义更方便Spring注入,50,1190
+559,d4cfb6bf,SUCCESS,12,SUCCESS,9,FAIL,25,2013-07-15 00:27:19 +0800,#221 加入对Jedis的封装，修改注释，增加jedisTemplate函数，加入描述故事的jsp,50,1190
+560,5159a801,SUCCESS,13,SUCCESS,10,FAIL,25,2013-07-15 00:53:34 +0800,jackson的构造复杂collection的API改动。,50,1190
+561,2b848b28,SUCCESS,15,SUCCESS,12,FAIL,24,2013-07-15 01:20:57 +0800,重新制作archetype,51,1216
+562,f7497f6d,SUCCESS,11,SUCCESS,11,FAIL,23,2013-07-15 01:25:14 +0800,重新制作archetype,51,1216
+563,de1527f5,SUCCESS,12,SUCCESS,10,FAIL,27,2013-07-16 22:03:39 +0800,move hystrix to deprecate,50,1200
+564,3574b0c9,SUCCESS,11,SUCCESS,11,FAIL,25,2013-07-17 23:36:35 +0800,release 4.1.0.GA,50,1200
+565,686d2639,SUCCESS,12,SUCCESS,11,FAIL,23,2013-07-18 00:44:55 +0800,begin 4.1.1 version,50,1200
+566,55d68ed8,SUCCESS,11,SUCCESS,9,FAIL,23,2013-07-18 23:36:25 +0800,Issue #242 Redis 优化，详见issues系统,50,1200
+567,498ca406,SUCCESS,12,SUCCESS,10,FAIL,28,2013-07-21 12:34:43 +0800,fix 小问题,50,1200
+568,0c42f776,SUCCESS,15,SUCCESS,11,FAIL,25,2013-07-23 21:42:47 +0800,去除在某些编译器的异常,50,1200
+569,c566761a,SUCCESS,17,SUCCESS,9,FAIL,23,2013-07-23 21:44:37 +0800,update cxf 2.7.6，号称修复了jackson 2.2.2的兼容性,50,1200
+570,0b4daa6a,SUCCESS,11,SUCCESS,11,FAIL,25,2013-07-24 00:33:28 +0800,#238 使用JMeter对Showcase进行性能测试，解决H2在showcase用例里shutdown时报错，MediaType没有UTF-8 其他小问题。,51,1207
+571,eecea81d,SUCCESS,12,SUCCESS,12,FAIL,28,2013-07-24 00:38:25 +0800,现有的MediaType没有UTF-8 charset的定义，只好自己重新定义,50,1200
+572,a2d38af8,SUCCESS,12,SUCCESS,10,FAIL,26,2013-07-24 01:14:43 +0800,#238 使用JMeter对Showcase进行性能测试，完成Restful部分,50,1200
+573,f73280ed,SUCCESS,15,SUCCESS,11,FAIL,25,2013-07-25 00:36:28 +0800,#238 使用JMeter对Showcase进行性能测试，更新Restful部分，顺便发现quickstart/showcase 的restful service中的一些小问题,51,1221
+574,bd11c6e0,SUCCESS,11,SUCCESS,10,FAIL,23,2013-07-26 01:16:51 +0800,#238 使用JMeter对Showcase进行性能测试，增加SOAP部分，顺便让CXF支持将输入输出的XML打印出来。,51,1221
+575,c1b3d8ce,SUCCESS,12,SUCCESS,11,FAIL,27,2013-07-26 01:17:54 +0800,Hibernate的getDialect()方法增加对 sqlserver和postresql的支持,51,1221
+576,a317bb4b,SUCCESS,13,SUCCESS,10,FAIL,24,2013-07-26 01:34:52 +0800,Jedis加强close处理方法,51,1221
+577,5338a0d4,SUCCESS,12,SUCCESS,9,FAIL,27,2013-07-27 11:00:41 +0800,#221 加入对Jedis的封装，周末大清早，改进MasterElector的算法,51,1221
+578,4b91c950,SUCCESS,13,SUCCESS,10,FAIL,27,2013-07-27 18:14:35 +0800,#238 使用JMeter对Showcase进行性能测试，变量可在properties文件里定义,51,1221
+579,bb81b8fc,SUCCESS,13,SUCCESS,11,FAIL,26,2013-07-27 18:15:03 +0800,rest exception写法改进,49,1165
+580,ad4ba534,SUCCESS,15,SUCCESS,11,FAIL,26,2013-07-28 00:23:44 +0800,琐碎修改。,49,1165
+581,f832f89f,SUCCESS,11,SUCCESS,11,FAIL,26,2013-07-30 00:29:59 +0800,#238 使用JMeter对Showcase进行性能测试，完成GUI测试部分,49,1165
+582,e061c42c,SUCCESS,13,SUCCESS,10,FAIL,24,2013-08-02 00:15:33 +0800,#240 使用Java Simon 监控Showcase性能,49,1165
+583,37292d18,SUCCESS,12,SUCCESS,10,FAIL,25,2013-08-02 00:21:06 +0800,#253 springmvc的jsonp生成及json格式化实践,49,1165
+584,dffbebc0,SUCCESS,10,SUCCESS,11,FAIL,25,2013-08-02 00:46:36 +0800,fix words,49,1165
+585,41782bfb,SUCCESS,12,SUCCESS,10,FAIL,23,2013-08-05 14:19:07 +0800,remove useless aspectj dependency?,49,1165
+586,1b4589c7,SUCCESS,11,SUCCESS,10,FAIL,24,2013-08-05 14:31:13 +0800,rollback,49,1165
+587,467586b5,SUCCESS,13,SUCCESS,10,FAIL,26,2013-08-06 23:27:29 +0800,重构businesslogger的演示,49,1168
+588,5534a787,SUCCESS,12,SUCCESS,11,FAIL,26,2013-08-06 23:28:45 +0800,shiro新版+Spring新版+Spring Data JPA新版，已没有奇怪的，shiro必须声明依赖dao的问题。,49,1168
+589,fd1962f6,SUCCESS,10,SUCCESS,10,FAIL,24,2013-08-06 23:29:25 +0800,little update,49,1168
+590,689659ae,SUCCESS,11,SUCCESS,10,FAIL,25,2013-08-07 01:10:14 +0800,重构businesslogger的演示,48,1155
+591,d152835a,SUCCESS,12,SUCCESS,10,FAIL,26,2013-08-07 01:30:26 +0800,fix case,48,1155
+592,9d859ce2,SUCCESS,14,SUCCESS,12,FAIL,23,2013-08-07 01:38:32 +0800,add missing @DirtiesContext,48,1155
+593,cfffa97f,SUCCESS,20,SUCCESS,10,FAIL,27,2013-08-08 23:59:29 +0800,"spring 3.2.3->3.2.4, selenium 2.33->2.34, h2 1.3.172->1.3.173, jetty 7.6.11->7.6.12, jolokia 1.1.2->1.1.3",48,1155
+594,a8819417,SUCCESS,12,SUCCESS,10,FAIL,26,2013-08-09 00:23:59 +0800,#240 使用Java Simon 监控Showcase性能-增加AOP動態定義需要監控的類,48,1155
+595,39d223f4,SUCCESS,12,SUCCESS,9,FAIL,26,2013-08-09 00:24:44 +0800,little updates,48,1155
+596,f8fc59fb,SUCCESS,12,SUCCESS,11,FAIL,25,2013-08-09 00:42:57 +0800,#234 logback高级功能演示，JMX功能演示,48,1155
+597,69d59d52,SUCCESS,11,SUCCESS,10,FAIL,26,2013-08-09 01:01:56 +0800,#221 加入对Jedis的封装. 参考Spring Data Redis新版，改进script executor,48,1155
+598,2dd91a30,SUCCESS,11,SUCCESS,8,FAIL,25,2013-08-09 01:25:18 +0800,green mail更新，使得development與functional環境使用不同的端口避免衝突。,48,1155
+599,9611ac0b,SUCCESS,12,SUCCESS,9,FAIL,25,2013-08-09 01:33:02 +0800,little fix,48,1155
+600,cf553e3b,SUCCESS,12,SUCCESS,11,FAIL,25,2013-08-09 01:41:27 +0800,fix cases,48,1155
+601,e95db94f,SUCCESS,13,SUCCESS,10,FAIL,28,2013-08-13 23:26:45 +0800,#240 使用Java Simon 监控Showcase性能-增加AOP動態定義需要監控的類,48,1155
+602,2270a140,SUCCESS,12,SUCCESS,10,FAIL,24,2013-08-13 23:28:36 +0800,#242 redis优化，支持即时任务，类名改名,48,1155
+603,d9d4a8dd,SUCCESS,12,SUCCESS,10,FAIL,26,2013-08-14 00:35:10 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1155
+604,08127a79,SUCCESS,14,SUCCESS,11,FAIL,27,2013-08-14 15:25:47 +0800,all assert use apache commons lang3's Validate,48,1155
+605,d2b80931,SUCCESS,12,SUCCESS,11,FAIL,25,2013-08-14 18:16:36 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1157
+606,53bebf26,SUCCESS,10,SUCCESS,10,FAIL,25,2013-08-14 18:22:31 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1157
+607,f3461559,SUCCESS,13,SUCCESS,9,FAIL,26,2013-08-14 18:23:13 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1157
+608,d2de81a5,SUCCESS,13,SUCCESS,11,FAIL,25,2013-08-14 18:49:16 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1157
+609,ce0de624,SUCCESS,12,SUCCESS,11,FAIL,27,2013-08-14 18:56:22 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1157
+610,fa216622,SUCCESS,18,SUCCESS,11,FAIL,26,2013-08-14 23:19:17 +0800,"log4jdb 从 log4jdbc-log4j2 退回到log4jdbc原版，因为原版终于上了中央库 增加java simon对数据库访问的监控 hibernate 4.2.3-4.2.4, java-simon 3.3->3.4",48,1157
+611,3ecca205,SUCCESS,12,SUCCESS,10,FAIL,27,2013-08-15 15:24:37 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1159
+612,3548b206,SUCCESS,13,SUCCESS,11,FAIL,24,2013-08-16 18:39:17 +0800,参考https://github.com/seomoz/qless ，改进Queue的封装，未完,48,1159
+613,c41896d9,SUCCESS,12,SUCCESS,11,FAIL,26,2013-08-30 15:39:01 +0800,继续改进redis相关代码及注释,48,1159
+614,7f235207,SUCCESS,12,SUCCESS,11,FAIL,25,2013-09-04 14:50:28 +0800,little refactory code,48,1159
+615,a00dbe9e,SUCCESS,17,SUCCESS,9,FAIL,29,2013-08-30 23:24:42 +0800,"update 3pp version hibernate 4.2.4->4.2.5,  jackson 2.2.2->2.2.3, joda-time 2.2->2.3 ,selenium 2.34->2.35",48,1159
+616,8506739b,SUCCESS,13,SUCCESS,10,FAIL,24,2013-08-31 00:22:27 +0800,"继续改进redis相关代码及注释, consumer改为只提供取Job的API",48,1159
+617,1c3be136,SUCCESS,13,SUCCESS,10,FAIL,25,2013-09-07 14:12:28 +0800,"继续改进redis相关代码及注释, consumer类型精简",48,1159
+618,c3f249ae,SUCCESS,16,SUCCESS,10,FAIL,27,2013-09-11 12:15:10 +0800,Jedis终于发布2.2了，改进elector时，使用新的set 语法，将setNx与setEx合二为一，避免了setNx成功而expire 不成功。,48,1159
+619,12db0401,SUCCESS,16,SUCCESS,10,FAIL,25,2013-09-16 10:23:13 +0800,"update 3pp version  httpclient 4.2.5->4.3.0 , spring-data-jpa 1.3.4->1.4.1, spymemcached 2.9.1->2.10.0, guava 14.0.1->15.0, install plugin 2.4->2.5",48,1159
+620,32bc4c3f,SUCCESS,16,SUCCESS,9,FAIL,28,2013-09-22 12:23:44 +0800,update plugins version,48,1159
+621,2683ac49,SUCCESS,12,SUCCESS,11,FAIL,25,2013-09-17 23:27:46 +0800,update archetype to 4.1.1,48,1148
+622,8251d7d8,SUCCESS,13,SUCCESS,10,FAIL,24,2013-09-22 18:14:54 +0800,缩短连接池检查idle的时间。,48,1148
+623,5ab52dda,SUCCESS,14,SUCCESS,11,FAIL,27,2013-09-22 18:15:33 +0800,增加用Tomcat7 plugin运行showcase项目的示例。,48,1148
+624,dd2e8a77,SUCCESS,15,SUCCESS,9,FAIL,25,2013-09-23 01:15:50 +0800,修改pom文件，避免H2被解释成Test级别。,48,1148
+625,1b15fc09,FAIL,6,NO,0,NO,0,2013-09-24 21:58:09 +0800,add <requireUpperBoundDeps/> to enforcer插件，防止显式定义一个比隐式依赖还低的版本,48,1148
+626,affa6523,SUCCESS,18,SUCCESS,13,FAIL,29,2013-09-24 23:10:09 +0800,因为多了enforcer插件的检查，定义隐式依赖的版本,48,1148
+627,541ca01c,SUCCESS,18,SUCCESS,12,FAIL,28,2013-09-25 01:45:49 +0800,remove useless dependency,48,1148
+628,93d8a717,SUCCESS,22,SUCCESS,13,FAIL,28,2013-10-14 00:23:15 +0800,"3pp版本升级，hibernate 4.2.5-4.2.6,  cxf 2.7.6->2.7.7, mybatis 3.2.2->3.2.3, quartz 2.2.0->2.2.1 等",48,1148
+629,0e8ab607,SUCCESS,15,SUCCESS,13,FAIL,28,2013-10-14 00:24:06 +0800,修正SQL中含中文出错的问题。,47,1135
+630,fb420b88,SUCCESS,16,SUCCESS,13,FAIL,30,2013-10-15 00:04:56 +0800,enforcer将Spring3.1也禁止了,47,1135
+631,0e1b8256,FAIL,3,NO,0,NO,0,2013-10-15 18:19:15 +0800,add hystrix demo back.,47,1135
+632,04c0364f,FAIL,20,NO,0,NO,0,2013-10-16 13:11:18 +0800,"add hystrix demo back, and improve the usage to follow the layers",47,1135
+633,476de45f,FAIL,14,NO,0,NO,0,2013-10-16 13:11:39 +0800,"add hystrix demo back, and improve the usage to follow the layers",47,1135
+634,b33687f0,FAIL,15,NO,0,NO,0,2013-10-16 14:59:18 +0800,"add hystrix demo back, and improve the usage to follow the layers",48,1161
+635,e731912e,FAIL,15,NO,0,NO,0,2013-10-16 15:21:50 +0800,"add hystrix demo back, and improve the usage to follow the layers, add client exception",48,1161
+636,cf46a4cb,SUCCESS,15,SUCCESS,11,FAIL,27,2013-10-16 15:54:54 +0800,code format,48,1161
+637,be1bfe9b,SUCCESS,17,SUCCESS,13,FAIL,28,2013-10-16 16:51:29 +0800,"#286 add hystrix demo back, improve error handling",47,1135
+638,f969e4a2,FAIL,16,NO,0,NO,0,2013-10-16 23:32:09 +0800,cleanup code,47,1135
+639,51157258,FAIL,15,NO,0,NO,0,2013-10-17 00:52:34 +0800,"#286 add hystrix demo back, improve GUI",47,1135
+640,2a10ff0b,FAIL,16,NO,0,NO,0,2013-10-17 01:49:01 +0800,"#286 add hystrix demo back, improve GUI, 太久没做前台要了老命了。",47,1135
+641,40cc28ca,FAIL,15,NO,0,NO,0,2013-10-17 02:00:02 +0800,jquery ajax用法升级至较新版,47,1135
+642,ba28d6d6,FAIL,15,NO,0,NO,0,2013-10-17 02:03:44 +0800,页面美化,47,1135
+643,ff5a2cc3,FAIL,16,NO,0,NO,0,2013-10-17 13:22:26 +0800,"#286 add hystrix demo back, 继续要老命的界面美化，异常处理，并将Metrics采集放回UserService。",47,1135
+644,c415034f,FAIL,16,NO,0,NO,0,2013-10-17 14:32:20 +0800,页面美化,47,1135
+645,cdaebd63,FAIL,14,NO,0,NO,0,2013-10-18 00:19:33 +0800,"#286 add hystrix demo back, 最后一轮代码清理。",47,1135
+646,0a43c81b,FAIL,20,NO,0,NO,0,2013-10-22 22:27:29 +0800,修复Common Logging不存在的bug，升级selenium 2.35->2.37.1,47,1135
+647,8e0bc04f,SUCCESS,15,SUCCESS,13,FAIL,28,2013-10-22 22:48:05 +0800,修复Common Logging不存在的bug,47,1135
+648,c1729a87,SUCCESS,16,SUCCESS,14,FAIL,28,2013-10-28 15:15:22 +0800,"页面美化, 函数rename",47,1135
+649,a74d32e7,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-10-29 15:27:59 +0800,add error collector demo using logstash + ElasticSearch + Kibana.,38,1037
+650,1281b134,SUCCESS,16,SUCCESS,15,FAIL,25,2013-10-30 10:34:50 -0700,Merge pull request #290 from fbird/master,47,1135
+651,b834cb0c,SUCCESS,14,SUCCESS,13,FAIL,28,2013-11-11 10:37:12 +0800,改进DateProvider用法,47,1135
+652,2ef384e4,SUCCESS,16,SUCCESS,13,FAIL,25,2013-11-11 22:43:55 +0800,"remove the complicated regex of the drop filter, because stackstrace is already combined into one record. also remove the mutate filter, using output format instead.",47,1135
+653,493f08bb,SUCCESS,13,SUCCESS,14,FAIL,26,2013-10-22 23:15:59 +0800,Tomcat打包可执行War包的Profile，但出来的包有找不到H2包的问题。,47,1135
+654,f0d697b4,SUCCESS,13,SUCCESS,12,FAIL,28,2013-11-12 05:42:05 -0800,Merge pull request #296 from fbird/master,47,1135
+655,6542494e,SUCCESS,13,SUCCESS,14,FAIL,26,2013-11-11 14:48:59 +0800,jmeter升级2.10，并修改变量定义的地方,47,1135
+656,5b72ac30,SUCCESS,15,SUCCESS,12,FAIL,26,2013-11-21 11:34:37 +0800,Quickstart 增加API 列表页面,48,1145
+657,d8679acd,FAIL,15,NO,0,NO,0,2013-11-21 11:57:05 +0800,update 3pp dependency,48,1145
+658,c7dc04ed,FAIL,9,NO,0,NO,0,2013-11-21 18:49:39 +0800,#243 init,49,1176
+659,29c1b9a2,SUCCESS,18,SUCCESS,12,FAIL,25,2013-11-22 11:19:26 +0800,fix dependency version error,49,1176
+660,33c65c95,SUCCESS,16,SUCCESS,13,FAIL,27,2013-11-29 18:35:10 +0800,#243 一个参考CodaHale的全新的Metrics Apia,61,1389
+661,e92ebddd,SUCCESS,16,SUCCESS,11,FAIL,26,2013-12-02 18:37:31 +0800,#243 一个参考CodaHale的全新的Metrics Api，基础计算部分完工，还剩报表部分,62,1525
+662,f1047cf0,SUCCESS,17,SUCCESS,13,FAIL,28,2013-12-03 14:13:23 +0800,"#243 metrics module, #243 一个参考CodaHale的全新的Metrics Api，add test and bug fixing and add Slf4jReporter",67,1826
+663,488b9daa,SUCCESS,15,SUCCESS,12,FAIL,29,2013-12-03 18:07:32 +0800,"#243 metrics module, #243 一个参考CodaHale的全新的Metrics Api，add test and bug fixing and add Slf4jReporter and GraphiteReporter",68,1965
+664,d2843df5,SUCCESS,17,SUCCESS,14,FAIL,28,2013-12-03 18:48:48 +0800,ignore the manual test,68,1967
+665,63f51e64,SUCCESS,15,FAIL,10,NO,0,2013-12-05 12:23:18 +0800,"#243 metrics module, #243 对CodaHale的实现进行更深入的修改",67,1955
+666,dfc31032,SUCCESS,14,FAIL,10,NO,0,2013-12-06 14:39:12 +0800,"#243 metrics module, Graphite不需要报告rate,它提供了自行计算的函数",67,1951
+667,a6f10ea1,SUCCESS,13,SUCCESS,11,FAIL,28,2013-12-09 13:56:55 +0800,"#243 metrics module, refactor",67,1945
+668,85a3e09c,SUCCESS,16,SUCCESS,12,FAIL,30,2013-12-09 16:10:20 +0800,"#243 metrics module, 在showcase中使用",67,1937
+669,25825b00,SUCCESS,15,SUCCESS,10,FAIL,26,2013-12-09 17:50:28 +0800,add other modules in showcase back,67,1937
+670,b96fa0fb,FAIL,7,NO,0,NO,0,2013-12-10 12:17:06 +0800,update 3pp versions,67,1937
+671,d460d19f,FAIL,4,NO,0,NO,0,2013-12-10 18:10:21 +0800,"#243 metrics module, remove the rate in graphite again,",67,1933
+672,d228d986,FAIL,4,NO,0,NO,0,2013-11-12 22:22:04 +0800,minor update of 3pp versions,67,1933
+673,7c03f454,FAIL,4,NO,0,NO,0,2013-11-12 22:53:33 +0800,add README.txt in support dirs,67,1933
+674,de695b7c,FAIL,4,NO,0,NO,0,2013-11-12 23:11:36 +0800,清理issues,67,1933
+675,9c6a07bd,FAIL,4,NO,0,NO,0,2013-11-13 01:09:22 +0800,logstash move dir,67,1933
+676,c5e9b1a6,FAIL,4,NO,0,NO,0,2013-12-14 01:00:28 +0800,"#243 metrics module, remove mean rate in Counter",67,1923
+677,bd12f547,FAIL,4,NO,0,NO,0,2013-12-14 01:18:13 +0800,"#243 metrics module, remove mean rate in Counter",67,1917
+678,1da5fb3d,SUCCESS,22,SUCCESS,13,FAIL,29,2013-12-14 01:44:00 +0800,fix 3pp version,67,1917
+679,d1492657,SUCCESS,14,SUCCESS,11,FAIL,28,2013-12-16 14:51:25 +0800,"#243 metrics module, make clock default and other setting parameters",67,1913
+680,c0bcfc48,SUCCESS,15,SUCCESS,12,FAIL,30,2013-12-16 17:35:07 +0800,merge fbird's code,67,1913
+681,2aab34ff,SUCCESS,16,SUCCESS,12,FAIL,29,2013-12-16 17:35:32 +0800,"rename#243 metrics module, rename",66,1833
+682,ad6cf2f4,SUCCESS,14,SUCCESS,13,FAIL,28,2013-12-16 23:40:08 +0800,"1. upgrade logstash to version 1.3.1 2. remove the tricky work around in collector.conf, since the bug was fixed in 1.3.0 3. fix a configuration issue in full_log_collector.conf",66,1833
+683,4ab87049,SUCCESS,14,SUCCESS,12,FAIL,28,2013-12-16 08:05:52 -0800,Merge pull request #308 from fbird/master,66,1833
+684,a6192f68,FAIL,5,NO,0,NO,0,2013-12-17 00:39:14 +0800,Issue #307 maven-enforcer-plugin中的<exclude>org.springframework:3.0.*</exclude>配置貌似不起作用,66,1833
+685,1cc7512f,SUCCESS,10,SUCCESS,9,FAIL,25,2013-12-17 13:20:15 +0800,Issue #307 maven-enforcer-plugin中的<exclude>org.springframework:3.0.*</exclude>配置貌似不起作用 要检讨一下，一错再错，而且对travis-ci的出错邮件不重视。,66,1833
+686,cf588acf,SUCCESS,16,SUCCESS,10,FAIL,27,2013-12-23 10:09:49 +0800,Update pom.xml,66,1833
+687,41c0e481,SUCCESS,12,SUCCESS,9,FAIL,26,2013-12-23 10:14:55 +0800,Update pom.xml,66,1833
+688,6ee87454,SUCCESS,12,SUCCESS,9,FAIL,26,2013-12-22 21:20:39 -0800,Merge pull request #313 from sgq0085/patch-4,66,1833
+689,694c503c,SUCCESS,11,SUCCESS,10,FAIL,25,2013-12-22 21:22:27 -0800,Merge pull request #312 from sgq0085/patch-3,66,1833
+690,30279b3f,SUCCESS,11,SUCCESS,9,FAIL,26,2013-12-26 23:00:40 +0800,"rename#243 metrics module, rename",66,1833
+691,cc90f75d,SUCCESS,12,SUCCESS,10,FAIL,25,2013-12-26 23:42:04 +0800,rename#243 counter逻辑改为与statsd一样，每次发送时清零，但也保持一个长期的counter，另外，graphiteReporter只发送变化的counter值,66,1801
+692,ee96d83e,SUCCESS,11,SUCCESS,9,FAIL,25,2013-12-27 10:57:16 +0800,rename#243 code refactor,66,1801
+693,d6526b84,SUCCESS,12,SUCCESS,11,FAIL,28,2014-01-07 15:35:53 +0800,Update schema.sql,66,1801
+694,57d6b245,SUCCESS,12,SUCCESS,9,FAIL,26,2014-01-07 01:58:27 -0800,Merge pull request #319 from xff8175/patch-1,66,1801
+695,7c46831b,SUCCESS,11,SUCCESS,9,FAIL,27,2014-01-08 10:42:43 +0800,Update schema.sql,66,1801
+696,89d9d870,SUCCESS,12,SUCCESS,11,FAIL,27,2014-01-08 16:34:43 +0800,logstash 文件重命名与注释修改,66,1801
+697,622efc09,SUCCESS,12,SUCCESS,10,FAIL,26,2014-01-08 16:43:39 +0800,logstash 文件重命名与注释修改,66,1801
+698,804e69df,SUCCESS,12,SUCCESS,9,FAIL,27,2014-01-08 16:43:39 +0800,logstash 文件重命名与注释修改,66,1801
+699,be81faa7,SUCCESS,11,SUCCESS,9,FAIL,25,2014-01-08 18:46:25 +0800,logstash 修正日志文件格式,66,1801
+700,265b5279,SUCCESS,11,SUCCESS,10,FAIL,26,2014-01-08 17:57:51 -0800,Merge pull request #320 from sgq0085/patch-5,66,1801
+701,daf16e57,SUCCESS,15,SUCCESS,10,FAIL,27,2014-01-15 18:01:05 +0800,add nosqlunit to test redis,66,1836
+702,17483bc9,SUCCESS,11,SUCCESS,7,FAIL,28,2014-01-15 21:44:47 +0800,slight update,66,1840
+703,f502088a,FAIL,10,NO,0,NO,0,2014-01-16 00:26:07 +0800,#323 合并SpringSide-Core 与 Spring-Test module,66,1837
+704,4c78c00d,FAIL,9,NO,0,NO,0,2014-01-16 00:31:40 +0800,update deprecate method in selenium2,66,1837
+705,849506e1,FAIL,9,NO,0,NO,0,2014-01-16 00:36:43 +0800,#322 默认不打开GraphiteReporter,66,1842
+706,2d6b89e9,FAIL,8,NO,0,NO,0,2014-01-16 00:37:36 +0800,#323 合并SpringSide-Core 与 Spring-Test module,66,1842
+707,bb42deb2,FAIL,8,NO,0,NO,0,2014-01-16 00:40:23 +0800,update  official site,66,1842
+708,f1b2d42d,FAIL,9,NO,0,NO,0,2014-01-16 23:04:46 +0800,update archetype,67,1859
+709,8da3f098,FAIL,8,NO,0,NO,0,2014-01-16 23:08:09 +0800,release SpringSide 4.2.0,67,1859
+710,8f441001,FAIL,7,NO,0,NO,0,2014-01-17 00:26:28 +0800,begin 4.3.0,67,1859
+711,a78733dc,FAIL,12,NO,0,NO,0,2014-01-17 00:40:22 +0800,update 3pp version,67,1859
+712,f5132113,FAIL,8,NO,0,NO,0,2014-01-17 01:45:53 +0800,#311 用assertJ简化assert编写,67,1860
+713,3d798b60,FAIL,10,NO,0,NO,0,2014-01-17 15:18:21 +0800,#311 用assertJ简化assert编写,67,1860
+714,e75af17d,FAIL,10,NO,0,NO,0,2014-01-17 15:34:18 +0800,#314 使用NoSQL Unit的嵌入式Redis编写测试,67,1882
+715,8548b518,FAIL,9,NO,0,NO,0,2014-01-17 16:08:38 +0800,"#309 Spring 4.0, update servlet to 3.0 for Spring 4.0 MockHttpRequest",67,1882
+716,15aa962c,FAIL,2,NO,0,NO,0,2014-01-17 16:25:50 +0800,"#309 Spring 4.0, update servlet to 3.0 for Spring 4.0 MockHttpRequest",67,1882
+717,585eb29e,FAIL,9,NO,0,NO,0,2014-01-17 16:30:54 +0800,"#309 Spring 4.0, update servlet to 3.0 for Spring 4.0 MockHttpRequest",67,1882
+718,6c8366ca,FAIL,7,NO,0,NO,0,2014-01-17 17:01:02 +0800,"#314 使用NoSQL Unit的嵌入式Redis编写测试, fix case",67,1882
+719,bc6ec05d,FAIL,8,NO,0,NO,0,2014-01-17 17:38:17 +0800,fix cases for mybatis,67,1882
+720,8cd89650,FAIL,9,NO,0,NO,0,2014-01-17 17:55:01 +0800,"updat travis to fail fast, if unit test error, stop test the project",67,1882
+721,72022629,FAIL,8,NO,0,NO,0,2014-01-17 18:24:07 +0800,"rollback, ehcache 导致ut和ft不能一起跑",67,1882
+722,6df93c85,FAIL,8,NO,0,NO,0,2014-01-17 18:42:33 +0800,update firefox version in travis-ci,67,1882
+723,fe652497,FAIL,8,NO,0,NO,0,2014-01-17 19:08:59 +0800,"#314 使用NoSQL Unit的嵌入式Redis编写测试,  update the tempate return code to Integer/Long to support null.",67,1902
+724,e6f36ef3,FAIL,9,NO,0,NO,0,2014-01-17 20:58:33 +0800,fix unstable test,67,1902
+725,dae36f31,FAIL,7,NO,0,NO,0,2014-01-18 00:39:10 +0800,"#311 用assertJ简化assert编写, springside-core部分",67,1899
+726,9ad845d4,FAIL,8,NO,0,NO,0,2014-01-18 01:08:52 +0800,fix copy-right,67,1899
+727,5a1eb2ce,FAIL,8,NO,0,NO,0,2014-01-18 01:32:32 +0800,"#311 用assertJ简化assert编写, springside-metrics部分",67,1893
+728,f5c354dd,FAIL,8,NO,0,NO,0,2014-01-18 02:28:36 +0800,"#311 用assertJ简化assert编写, showcase部分",67,1893
+729,c771be6c,FAIL,8,NO,0,NO,0,2014-01-18 15:52:14 +0800,"#309 Spring 4.0, 使用@RestController，不用每个方法都定义@ResponseBody",67,1893
+730,2478aa8f,FAIL,8,NO,0,NO,0,2014-01-18 16:07:54 +0800,"#309 Spring 4.0, 使用@RestController，update shcema version",67,1893
+731,cf622ffc,FAIL,7,NO,0,NO,0,2014-01-18 19:29:22 +0800,"#309 Spring 4.0, pom.xml里使用spring-framework-bom，不用再定义spring所有子模块的版本，并重新检查一些无需显式定义的版本",67,1893
+732,d1e96f47,FAIL,4,NO,0,NO,0,2014-01-18 23:10:15 +0800,"#311 用assertJ简化assert编写, 将fail改为failBecauseExceptionWasNotThrown(excepted exception class);",67,1892
+733,62ab2837,FAIL,4,NO,0,NO,0,2014-01-20 18:25:30 +0800,#327 try scalatest for BDD testing,67,1892
+734,c7398710,FAIL,8,NO,0,NO,0,2014-01-21 22:24:59 +0800,update version of guava and hibernate-validator,67,1892
+735,e51b3cc9,FAIL,6,NO,0,NO,0,2014-01-22 00:50:00 +0800,Issue #285 httpclient 4.3 变动，及其Fluent API演示,67,1892
+736,477c861c,FAIL,4,NO,0,NO,0,2014-01-22 00:55:49 +0800,format pom.xml,67,1892
+737,a0841771,FAIL,5,NO,0,NO,0,2014-01-22 01:09:31 +0800,Issue #285 httpclient 4.3 变动，增强FluentAPI的异常处理与注释,67,1892
+738,39c4e5ff,FAIL,4,NO,0,NO,0,2014-01-22 01:12:57 +0800,Issue #285 httpclient 4.3 变动，polish,67,1892
+739,8688041f,FAIL,8,NO,0,NO,0,2014-01-23 16:42:17 +0800,"rollback Spring data jpa from 1.4.3->1.4.2, 因为在jetty按回车重启服务器时，会报not a managed type的错误",67,1892
+740,7dd1244e,FAIL,5,NO,0,NO,0,2014-01-23 17:44:25 +0800,#242 update jedisTemplate to support setNxEx,67,1894
+741,c32be7a3,FAIL,4,NO,0,NO,0,2014-01-24 12:05:57 +0800,"#327 try scalatest for BDD testing,  写完第一个用例，使用了selenium DSL, scalatest初体验。",67,1894
+742,a0efcfbb,FAIL,4,NO,0,NO,0,2014-01-24 14:09:08 +0800,"#327 try scalatest for BDD testing,  polish",67,1894
+743,d934fecb,FAIL,4,NO,0,NO,0,2014-01-24 14:16:40 +0800,"#327 try scalatest for BDD testing,  polish",67,1894
+744,4358cece,FAIL,4,NO,0,NO,0,2014-01-24 14:21:32 +0800,"#327 try scalatest for BDD testing,  polish",67,1894
+745,b6ac4c7c,FAIL,4,NO,0,NO,0,2014-01-24 14:45:17 +0800,"#243 metrics module, update showcase",67,1894
+746,59d56f1c,FAIL,7,NO,0,NO,0,2014-01-24 15:38:49 +0800,update hibernate to 4.3.1,67,1894
+747,36827d4b,FAIL,4,NO,0,NO,0,2014-01-24 16:04:20 +0800,"#272 LogStash集中式日志处理演示 New Feature , polish",67,1894
+748,0ec03d93,FAIL,5,NO,0,NO,0,2014-01-24 17:52:39 +0800,#272 LogStash集中式日志处理演示 设置错误日志按日期输出,67,1894
+749,74948145,FAIL,4,NO,0,NO,0,2014-01-26 11:33:02 +0800,"#327 try scalatest for BDD testing,  fix the review comments",67,1894
+750,362d83fe,FAIL,5,NO,0,NO,0,2014-01-26 11:33:25 +0800,code format,67,1895
+751,5fa0624a,FAIL,5,NO,0,NO,0,2014-01-26 15:54:48 +0800,polish Utils,67,1895
+752,428ed553,FAIL,5,NO,0,NO,0,2014-01-26 17:20:19 +0800,polish by Sonar,67,1895
+753,ecc8c2ae,FAIL,5,NO,0,NO,0,2014-01-26 20:38:44 +0800,polish,67,1895
+754,4342c213,FAIL,5,NO,0,NO,0,2014-01-26 20:52:27 +0800,update archetype,67,1896
+755,0572c2a7,FAIL,5,NO,0,NO,0,2014-01-26 20:55:43 +0800,prepare for 4.2.1 Release,67,1896
+756,5c6c30f8,FAIL,5,NO,0,NO,0,2014-01-27 11:56:57 +0800,update to yuicompressor  to 2.4.8,67,1895
+757,8a9bbcf5,FAIL,5,NO,0,NO,0,2014-01-27 12:02:51 +0800,update git ignores,67,1895
+758,f02781e7,FAIL,4,NO,0,NO,0,2014-01-27 12:11:07 +0800,Merge remote-tracking branch 'origin/master',67,1896
+759,43d1794a,FAIL,4,NO,0,NO,0,2014-01-28 11:03:42 +0800,prepare for 4.3.0,67,1896
+760,0a8910d3,FAIL,4,NO,0,NO,0,2014-01-28 12:28:48 +0800,add bdd-test.bat,67,1896
+761,64c14e58,FAIL,12,NO,0,NO,0,2014-02-04 15:40:15 +0800,"update 3pp version, spring 4.0->4.0.1(bug fixing), jedis 2.2.1->2.3.0(apache connection pool from 1.5->2.0,support SCAN and WAIT), logback 1.0.3->1.1.0(bug fixing), powermock 1.5.3->1.5.4, ehcache 2.6.6->2.6.8, cxf 2.7.8->2.7.9,",67,1896
+762,163f63f3,FAIL,8,NO,0,NO,0,2014-02-04 15:52:47 +0800,同上，還有tomcat-jdbc 7.0.50->8.0.1,67,1896
+763,8c7dd295,FAIL,7,NO,0,NO,0,2014-02-04 16:45:39 +0800,#275 tomcat jdbc 连接超时问题： No operations allowed after connection closed.,67,1896
+764,b682f183,FAIL,11,NO,0,NO,0,2014-02-07 11:24:30 +0800,"update 3pp, slf4j 1.7.4->1.7.5, jedis,logback",67,1896
+765,5c04af13,FAIL,9,NO,0,NO,0,2014-02-07 15:47:03 +0800,"polish, 而且tomcat-jdbc 8.0 用jdk7编译，回退到7.x",67,1896
+766,70620650,FAIL,7,NO,0,NO,0,2014-02-08 17:10:46 +0800,Polish,67,1896
+767,0c9d2904,FAIL,9,NO,0,NO,0,2014-02-08 17:35:39 +0800,upload internal JedisPool,72,2214
+768,6ab30056,FAIL,9,NO,0,NO,0,2014-02-08 17:44:56 +0800,"change tcp input/output codec to 'line', because tcp input sometimes does not split newlines, but join them into one line. see https://logstash.jira.com/browse/LOGSTASH-1370 for details.",72,2214
+769,b989c99f,FAIL,9,NO,0,NO,0,2014-02-08 18:31:35 +0800,refactoring about jedis pool,71,2204
+770,268b50db,FAIL,10,NO,0,NO,0,2014-02-08 18:38:07 +0800,rename,71,2204
+771,a5f24485,FAIL,8,NO,0,NO,0,2014-02-08 18:41:39 +0800,Merge pull request #331 from fbird/master,71,2204
+772,914300f1,FAIL,8,NO,0,NO,0,2014-02-07 21:30:27 +0800,typo,71,2204
+773,54211cb8,FAIL,7,NO,0,NO,0,2014-02-08 21:16:32 +0800,"#332 refactoring the code to make it opensourceable. * Update the parameter from JedisPool to Pool<Jedis>, so it can support all pool type. * Add clientName as connection information * Update Sentinel Pool",71,2216
+774,aefa32f2,FAIL,7,NO,0,NO,0,2014-02-08 21:45:20 +0800,#332 refactoring the code to make it opensourceable.,71,2217
+775,9a4fbb0f,FAIL,7,NO,0,NO,0,2014-02-08 23:15:45 +0800,#332 rename,71,2217
+776,a92db01c,FAIL,7,NO,0,NO,0,2014-02-08 23:36:11 +0800,rename,71,2217
+777,7051b6d5,FAIL,9,NO,0,NO,0,2014-02-08 23:54:12 +0800,#332 endless refactoring,71,2219
+778,484941eb,FAIL,9,NO,0,NO,0,2014-02-09 01:59:01 +0800,#332 endless refactoring,71,2217
+779,d9d30ec2,FAIL,8,NO,0,NO,0,2014-02-10 12:16:01 +0800,"#332 endless refactoring, don't use pool ,just use jedis for setinel",71,2209
+780,e0047079,FAIL,8,NO,0,NO,0,2014-02-10 13:53:05 +0800,#332 polish,71,2208
+781,82dcc49d,FAIL,6,NO,0,NO,0,2014-02-10 18:27:37 +0800,update the new log path,71,2208
+782,afb8531e,FAIL,7,NO,0,NO,0,2014-02-11 18:09:51 +0800,#325 增加Logstash从业务日志进行统计的演示,71,2208
+783,7fba54f2,FAIL,7,NO,0,NO,0,2014-02-18 11:25:43 +0800,#325 增加Logstash从业务日志进行统计的演示,71,2208
+784,9116ae81,FAIL,9,NO,0,NO,0,2014-02-19 13:57:44 +0800,#325 增加Logstash从业务日志进行统计的演示，分析日志内容分门别类到不同的counter,71,2208
+785,623c08c9,FAIL,8,NO,0,NO,0,2014-02-19 14:05:26 +0800,#325 增加Logstash从业务日志进行统计的演示，update readme,71,2208
+786,3c9f98fd,FAIL,9,NO,0,NO,0,2014-02-19 14:13:09 +0800,#325 增加Logstash从业务日志进行统计的演示，update readme,71,2208
+787,8bead7d3,FAIL,9,NO,0,NO,0,2014-02-19 14:17:19 +0800,#325 增加Logstash从业务日志进行统计的演示，update readme,71,2208
+788,ed7d078d,FAIL,13,NO,0,NO,0,2014-02-20 15:52:57 +0800,"update 3pp minor version, spring 4.0.1->4.0.2, spring data jpa 1.4.2->1.4.4, tomcat-jdbc 7.0.50->7.0.52, cxf 2.7.9->2.7.10, jedis 2.3.1->2.4.1,  mybatis 3.2.4->3.2.5, hystrix 1.3.8->1.3.9, aspectj 1.7.3->1.7.4, selenium 2.39->2.40",71,2208
+789,c51036cc,FAIL,8,NO,0,NO,0,2014-02-21 00:06:40 +0800,update archetype,71,2208
+790,a11fc4c5,FAIL,9,NO,0,NO,0,2014-02-21 00:11:57 +0800,release SpringSide 4.2.2.GA,71,2208
+791,7c5b2354,FAIL,8,NO,0,NO,0,2014-02-27 11:20:22 +0800,增加grafana的springside demo，白色风格，图里显示平均值和阀值线。,71,2208
+792,9a36ffe6,FAIL,7,NO,0,NO,0,2014-02-27 11:21:09 +0800,"#325 logstash增加分析日志中的内容,并发送到ElasticSearch的例子",71,2208
+793,722a79db,FAIL,12,NO,0,NO,0,2014-03-17 14:18:55 +0800,update 3pp versions,71,2208
+794,7930e23d,FAIL,9,NO,0,NO,0,2014-03-17 14:19:27 +0800,Merge remote-tracking branch 'origin/master',71,2208
+795,c9237975,FAIL,8,NO,0,NO,0,2014-03-17 14:20:23 +0800,open cxf logging,71,2208
+796,3f6b7884,FAIL,9,NO,0,NO,0,2014-04-14 23:18:51 +0800,rollback hibernate 5.1.0->5.0.3 for spring 兼容,71,2208
+797,22000727,FAIL,8,NO,0,NO,0,2014-04-14 23:23:03 +0800,springside-metrics 代码改进与添加注释,66,2043
+798,5afe60a7,FAIL,14,NO,0,NO,0,2014-04-14 23:36:17 +0800,update 3pp versions,66,2043
+799,64f480bb,FAIL,7,NO,0,NO,0,2014-04-29 22:59:24 +0800,Update list.jsp,66,2043
+800,b984b4b0,FAIL,12,NO,0,NO,0,2014-05-05 13:19:33 +0800,升级3pp版本，并解决quickstart在jboss里缺少commons-codec的问题。,66,2043
+801,3b7cc450,FAIL,7,NO,0,NO,0,2014-05-07 14:04:36 +0800,fix httpcore artifact id error,66,2043
+802,1cbf7f8d,FAIL,8,NO,0,NO,0,2014-05-07 14:11:51 +0800,fix httpcore artifact id error,66,2043
+803,a4f1dc98,FAIL,7,NO,0,NO,0,2014-05-27 16:05:46 +0800,update benmark parent class implementation,67,2069
+804,2557ceff,FAIL,17,NO,0,NO,0,2014-06-05 11:58:25 +0800,"update 3pp, but CXF 3.0 not included yet",67,2069
+805,3bd4475a,FAIL,9,NO,0,NO,0,2014-06-05 22:21:39 +0800,Merge pull request #358 from HejiaHo/master,67,2069
+806,fd8d9cda,FAIL,9,NO,0,NO,0,2014-06-05 22:30:31 +0800,update to next minor version,67,2069
+807,aeaf06a7,FAIL,9,NO,0,NO,0,2014-06-05 22:44:06 +0800,update README to add Travis-CI status,67,2069
+808,af0c471d,FAIL,9,NO,0,NO,0,2014-06-05 22:44:30 +0800,update list.jsp to shortern the code,67,2069
+809,4b62432d,FAIL,8,NO,0,NO,0,2014-06-05 23:44:30 +0800,run()函数改为catch Throwable，避免Throwable异常，终断scheduler以后的执行。,67,2069
+810,9da096b3,FAIL,8,NO,0,NO,0,2014-06-05 23:48:19 +0800,#364 bug fixing，并含其他metrics演示的改进： 1 .使用slf4j reporter代替console logger，避免满屏都是log， 2. slf4Reporter和consoleReport多打印一个meanRate() 3. logback演示三种滚动策略,66,2033
+811,a46f2cc9,FAIL,9,NO,0,NO,0,2014-06-06 00:00:05 +0800,"store log file in /tmp,  In Windows, it's the [Drive your application running]/tmp/",66,2033
+812,caed9867,FAIL,7,NO,0,NO,0,2014-06-06 12:34:02 +0800,"#325, 升级到logstash 1.4.1的使用。",67,2069
+813,ce277a8e,FAIL,9,NO,0,NO,0,2014-06-06 12:34:33 +0800,Merge remote-tracking branch 'origin/master',66,2033
+814,d582b3df,FAIL,8,NO,0,NO,0,2014-06-13 11:45:53 +0800,Merge remote-tracking branch 'origin/master',66,2033
+815,11524712,FAIL,7,NO,0,NO,0,2014-06-16 15:01:12 +0800,Change Execution back to Timer,66,2033
+816,c0c97346,FAIL,8,NO,0,NO,0,2014-06-16 15:36:06 +0800,rename metrics package,66,2033
+817,f9a47363,FAIL,7,NO,0,NO,0,2014-06-16 16:39:42 +0800,add JMXExporter to spring-metrics,69,2224
+818,9f698992,FAIL,7,NO,0,NO,0,2014-06-16 22:39:55 +0800,修改Servlets.setFileDownloadHeader方法中文文件名有空格时被截断及IE下乱码问题,69,2224
+819,d368fc1f,FAIL,7,NO,0,NO,0,2014-06-17 15:54:27 +0800,logstash修正1.4.1上的配置,69,2224
+820,630b678d,FAIL,8,NO,0,NO,0,2014-06-18 17:23:35 +0800,Jedis 支持 客户端Sharding，Jedis提供的ShardingPool不能同时兼容Sentinel Pool，SpringSide提供同时支持两者的做法，即新的JedisShardedTemplate,69,2242
+821,9ca3f760,FAIL,7,NO,0,NO,0,2014-06-19 15:40:16 +0800,jedis add sharding feature,70,2365
+822,b0f8770f,FAIL,7,NO,0,NO,0,2014-06-27 16:22:31 +0800,slight update,70,2361
+823,20fcb577,FAIL,8,NO,0,NO,0,2014-07-01 15:31:55 +0800,修复JedisShardedTemplateTest测试用例hashActions中的key命名错误,70,2361
+824,ed3a7f44,FAIL,9,NO,0,NO,0,2014-07-03 10:52:36 +0800,Merge pull request #374 from LuciferYang/master,70,2361
+825,aeac04fd,FAIL,7,NO,0,NO,0,2014-08-06 08:37:22 +0800,添加用于生成新项目的Bash脚本,70,2361
+826,96661411,FAIL,7,NO,0,NO,0,2014-08-06 08:53:33 +0800,增加核心模块“安装”所用的Bash脚本,70,2361
+827,ac68e69e,FAIL,8,NO,0,NO,0,2014-08-06 09:04:56 +0800,增加QuickStart示例中所用脚本的Bash版,70,2361
+828,00da05fe,FAIL,9,NO,0,NO,0,2014-08-06 11:25:35 +0800,增加Showcase所用脚本的Bash版,70,2361
+829,6c603740,FAIL,9,NO,0,NO,0,2014-08-17 11:21:00 +0800,fix generate project failed,70,2361
+830,d84df3b0,FAIL,8,NO,0,NO,0,2014-08-20 11:47:55 +0800,REST默认返回JSON格式,66,2043
+831,9b7d7f80,FAIL,9,NO,0,NO,0,2014-09-12 23:42:19 +0800,Merge pull request #385 from kennedy-han/master,70,2361
+832,40413d6c,FAIL,8,NO,0,NO,0,2014-09-12 23:46:18 +0800,Merge pull request #381 from diguage/master,70,2361
+833,575b3698,FAIL,8,NO,0,NO,0,2014-09-12 23:48:08 +0800,Merge pull request #371 from hzl7652/upstream,70,2361
+834,a61d4069,FAIL,7,NO,0,NO,0,2014-09-13 00:28:31 +0800,metrics update,70,2376
+835,20d6438a,FAIL,7,NO,0,NO,0,2014-09-13 00:46:32 +0800,Merge branch 'master' of https://github.com/springside/springside4,70,2376
+836,4f46cbd6,FAIL,10,NO,0,NO,0,2014-09-13 00:52:50 +0800,Merge branch 'master' of https://github.com/springside/springside4,70,2376
+837,85f705e8,FAIL,8,NO,0,NO,0,2014-09-13 10:27:19 +0800,#393 移动redis代码到独立模块,70,2376
+838,a98f3604,FAIL,8,NO,0,NO,0,2014-09-13 11:11:48 +0800,#393 新的Connection定义及Pool,71,2458
+839,897aff83,FAIL,9,NO,0,NO,0,2014-09-13 17:13:39 +0800,#393 add race condition when pool init and switch,71,2466
+840,38485571,FAIL,7,NO,0,NO,0,2014-09-13 17:15:39 +0800,#393 move the elector and scheduler to new package,71,2466
+841,f3d84344,FAIL,7,NO,0,NO,0,2014-09-13 17:51:03 +0800,#393 补充JedisTemplate和JedisSharedTemplate的方法,73,2674
+842,6af30e23,FAIL,7,NO,0,NO,0,2014-09-13 18:04:14 +0800,#393 增加Pipeline内运行的回调函数接口,73,2682
+843,aaa08335,FAIL,8,NO,0,NO,0,2014-09-14 16:33:39 +0800,"#393 rollback race condition,only wait for init",73,2673
+844,1c1764e3,FAIL,8,NO,0,NO,0,2014-09-14 17:35:12 +0800,#393 增加sharding key接口，支持一个Action里访问多个Key,73,2868
+845,1418b7b3,FAIL,8,NO,0,NO,0,2014-09-14 17:36:08 +0800,#393 rename,73,2868
+846,f80eec47,FAIL,8,NO,0,NO,0,2014-09-18 15:01:42 +0800,将Bash脚本加上统一的后缀，增加两个Bash脚本,73,2868
+847,2efeed06,FAIL,9,NO,0,NO,0,2014-09-18 15:09:01 +0800,增加Bash脚本的Bangsha信息,73,2868
+848,029690fb,FAIL,8,NO,0,NO,0,2014-10-07 11:13:46 +0800,Merge remote-tracking branch 'origin/master',73,2868
+849,4cf86e30,FAIL,10,NO,0,NO,0,2014-10-07 11:45:49 +0800,update version for release,73,2868
+850,6d17cdd2,FAIL,9,NO,0,NO,0,2014-10-07 11:46:12 +0800,Merge remote-tracking branch 'origin/master',73,2868
+851,41c0e80c,FAIL,9,NO,0,NO,0,2014-10-07 12:27:08 +0800,Merge pull request #396 from diguage/master,73,2868
+852,bf0ad787,FAIL,8,NO,0,NO,0,2014-10-07 12:27:26 +0800,fix compile error,73,2868
+853,e7b68e44,FAIL,8,NO,0,NO,0,2014-10-07 12:27:44 +0800,Merge remote-tracking branch 'origin/master',73,2868
+854,7ed5da00,FAIL,8,NO,0,NO,0,2014-10-07 12:29:47 +0800,Merge pull request #387 from jtraviss/master,73,2868
+855,558cd3c7,FAIL,8,NO,0,NO,0,2014-10-07 12:30:04 +0800,Merge remote-tracking branch 'origin/master',73,2868
+856,7bcb464b,FAIL,8,NO,0,NO,0,2014-10-07 12:36:33 +0800,update generate-project file version,73,2868
+857,9fbb219d,FAIL,7,NO,0,NO,0,2014-10-07 14:29:22 +0800,update archetype,73,2868
+858,93d4fbbb,FAIL,8,NO,0,NO,0,2014-10-11 23:27:26 +0800,netxt version,73,2868
+859,4a63d823,FAIL,9,NO,0,NO,0,2014-10-12 00:23:46 +0800,"分拆springside-core 为 springside-utils 和 springside-core, 新的example1将只依赖springside-utils",74,2915
+860,eb5018fa,FAIL,7,NO,0,NO,0,2014-10-12 00:25:12 +0800,#394 开始加入Spring Boot的演示,78,2996
+861,1073c070,FAIL,9,NO,0,NO,0,2014-10-12 00:40:52 +0800,#394 update Spring Boot demo,79,3020
+862,429cdcee,FAIL,8,NO,0,NO,0,2014-10-12 23:45:26 +0800,#394 update Spring Boot demo的测试方法,78,3009
+863,f1e95577,FAIL,9,NO,0,NO,0,2014-10-15 22:23:54 +0800,#394 one more spring boot example demo adavanced feature,82,3103
+864,7bf465f9,FAIL,8,NO,0,NO,0,2014-11-10 15:46:15 +0800,metrics improvment,83,3168
+865,7aa96975,FAIL,7,NO,0,NO,0,2014-11-21 14:04:54 +0800,[metrics]fix lastRate & meanRate long/double problem,83,3168
+866,5e0ae659,FAIL,7,NO,0,NO,0,2014-11-21 14:31:07 +0800,[metrics]fix lastRate & meanRate long/double problem,83,3168
+867,16bb5da0,FAIL,8,NO,0,NO,0,2014-11-21 14:41:54 +0800,[metrics]fix lastRate & meanRate long/double problem,83,3168
+868,4b20ccd6,FAIL,8,NO,0,NO,0,2014-11-21 14:51:38 +0800,Merge pull request #422 from jenning/master,83,3168
+869,26d543ba,FAIL,8,NO,0,NO,0,2014-11-21 14:59:42 +0800,fix testcase,83,3163
+870,da72edb6,FAIL,9,NO,0,NO,0,2014-11-21 15:17:10 +0800,手工merge pull request里的更新,83,3163
+871,a4e6d466,FAIL,7,NO,0,NO,0,2014-11-21 15:27:02 +0800,ignore some GUI test to let showcase test pass,83,3163
+872,f1a4295d,FAIL,9,NO,0,NO,0,2014-11-21 16:35:41 +0800,update JedisPoolBuilder,83,3222
+873,6f239551,FAIL,7,NO,0,NO,0,2014-11-21 17:49:23 +0800,Metrics-Lib update，补完JMX Exporter的活,83,3268
+874,eb120980,FAIL,8,NO,0,NO,0,2014-11-22 00:05:20 +0800,[metrics module] 一系列改进，包括一些重命名，JMXExporter更完善，锁的改进，排序的改进等,82,3173
+875,66940a01,FAIL,7,NO,0,NO,0,2014-12-11 23:41:06 +0800,small upgrde for sprnigside-metrics,82,3173
+876,63491354,FAIL,3,NO,0,NO,0,2014-12-11 23:41:57 +0800,prepare to upload springside modules to Maven central repository,82,3173
+877,e501181f,FAIL,3,NO,0,NO,0,2014-12-25 23:29:12 +0800,minor updates,83,3197
+878,a01cd0b0,FAIL,3,NO,0,NO,0,2014-12-25 23:29:29 +0800,minor updates,83,3197
+879,6a788aaa,FAIL,20,NO,0,NO,0,2014-12-26 00:02:40 +0800,change groupId to io.springside and fix some 3pp version problem,83,3197
+880,df81d06c,FAIL,9,NO,0,NO,0,2015-01-09 00:39:25 +0800,update boot-service to spring-boot 1.2.1 and more simple also add h2 console to access embedded H2 in development env.,84,3181
+881,e85be935,FAIL,9,NO,0,NO,0,2015-11-06 23:33:56 +0800,update maven version,84,3181
+882,5041e23d,FAIL,4,NO,0,NO,0,2015-11-07 14:48:39 +0800,SpringSide 5.0 init,22,571
+883,0ff33011,FAIL,2,NO,0,NO,0,2015-11-07 15:01:23 +0800,cleanup the code,21,549
+884,a7562a8b,FAIL,3,NO,0,NO,0,2015-11-07 15:42:39 +0800,整理showcase项目,22,565
+885,32f01b97,FAIL,3,NO,0,NO,0,2015-11-07 18:37:53 +0800,修正用户认证部分,24,667
+886,7ed9aa01,FAIL,3,NO,0,NO,0,2015-11-07 19:07:52 +0800,代码修理,21,625
+887,86f31c33,FAIL,3,NO,0,NO,0,2015-11-08 09:22:04 +0800,完善功能测试流程,21,625
+888,b95e6df5,FAIL,2,NO,0,NO,0,2015-11-08 09:36:42 +0800,加上分页,21,626
+889,2fbcc850,FAIL,3,NO,0,NO,0,2015-11-08 09:48:08 +0800,使用Cache Builder,21,630
+890,163b6d9d,FAIL,3,NO,0,NO,0,2015-11-08 10:33:36 +0800,增加UT,22,708
+891,54884949,FAIL,2,NO,0,NO,0,2015-11-08 13:03:06 +0800,阅读Spring Boot手册，演示更多功能,22,660
+892,551de3b5,FAIL,3,NO,0,NO,0,2015-11-08 17:39:40 +0800,修正配置及初始化脚本,22,660
+893,3fdd6fe2,FAIL,3,NO,0,NO,0,2015-11-08 18:08:37 +0800,improve H2 console,22,660
+894,defa5d80,FAIL,3,NO,0,NO,0,2015-11-08 22:04:31 +0800,改进演示方式,22,660
+895,ef1717b3,FAIL,2,NO,0,NO,0,2015-11-08 22:11:36 +0800,update README,22,660
+896,4181576e,FAIL,3,NO,0,NO,0,2015-11-08 22:13:26 +0800,change ReadMe to markdown,22,660
+897,d76a72c2,FAIL,3,NO,0,NO,0,2015-11-08 22:16:19 +0800,change ReadMe to markdown,22,660
+898,45f0ebf5,FAIL,3,NO,0,NO,0,2015-11-08 22:17:07 +0800,update README,22,660
+899,9ff41d23,FAIL,2,NO,0,NO,0,2015-11-08 22:47:22 +0800,清理代码,22,660
+900,e3651c3d,FAIL,3,NO,0,NO,0,2015-11-10 01:02:44 +0800,加强测试演示,21,613
+901,d66a0b27,FAIL,3,NO,0,NO,0,2015-11-10 01:42:18 +0800,使用flyway,21,613
+902,16ca97b9,FAIL,3,NO,0,NO,0,2015-11-11 00:51:58 +0800,Exception处理改进，使用Clock,20,472
+903,06a23a74,FAIL,4,NO,0,NO,0,2015-11-11 00:58:39 +0800,增加crc32,20,472
+904,62b3fce1,FAIL,3,NO,0,NO,0,2015-11-11 01:03:18 +0800,update readme,20,472
+905,ab60acf1,FAIL,3,NO,0,NO,0,2015-11-11 01:08:34 +0800,update read me file,20,472
+906,84c3aa41,FAIL,3,NO,0,NO,0,2015-11-11 17:50:26 +0800,change the mail box,20,472
+907,75dd67e8,FAIL,3,NO,0,NO,0,2015-11-11 22:55:51 +0800,整理代码，拆分sql演示flyway,17,389
+908,7b1d204e,FAIL,3,NO,0,NO,0,2015-11-11 23:43:09 +0800,加强异常检查，改进演示页面,16,362
+909,f4cf2cd0,FAIL,3,NO,0,NO,0,2015-11-12 08:46:25 +0800,改进异常处理,16,362
+910,13555de1,FAIL,3,NO,0,NO,0,2015-11-14 10:13:26 +0800,改进异常处理,17,370
+911,4b7a4919,FAIL,3,NO,0,NO,0,2015-11-14 11:03:42 +0800,Test case严格按方法名排序执行，并在console里打印测试进度。,17,370
+912,16e96e69,FAIL,4,NO,0,NO,0,2015-11-14 11:27:44 +0800,消息摘要类加入crc32 和 murmurhash,17,391
+913,b821bdd8,FAIL,3,NO,0,NO,0,2015-11-14 12:55:18 +0800,改进异常处理,17,391
+914,33768cd1,FAIL,3,NO,0,NO,0,2015-11-14 13:09:26 +0800,showsql=true应改为showSql=true,17,391
+915,2bd77909,FAIL,3,NO,0,NO,0,2015-11-14 13:09:39 +0800,让showcase项目可运行,18,403
+916,8530a4f0,FAIL,3,NO,0,NO,0,2015-11-28 10:12:33 +0800,增加ThreadLocalContext,18,403
+917,1eb8ee4a,FAIL,4,NO,0,NO,0,2015-11-28 10:20:14 +0800,add CharSets,18,403
+918,10a1ea12,FAIL,3,NO,0,NO,0,2015-11-28 10:34:11 +0800,修改注释,18,403
+919,9a54485a,FAIL,3,NO,0,NO,0,2015-11-28 10:53:48 +0800,Digests的crc32增加返回Long的版本,18,403
+920,d64cc3ac,FAIL,3,NO,0,NO,0,2015-11-29 02:45:35 +0800,Collections补充函数,18,403
+921,f0382400,FAIL,3,NO,0,NO,0,2015-11-29 02:59:02 +0800,Add ConcurrentHashSet,18,403
+922,54b011a4,FAIL,3,NO,0,NO,0,2015-11-29 13:28:38 +0800,增加Numbers工具类,18,403
+923,33458155,FAIL,3,NO,0,NO,0,2015-11-29 13:29:20 +0800,Collections 增加从原始类型数组转换为List的函数,18,403
+924,bdb1cbd5,FAIL,3,NO,0,NO,0,2015-11-29 13:44:56 +0800,Threads的shutdownNow直接使用Guava函数,18,403
+925,48553900,FAIL,3,NO,0,NO,0,2015-11-29 16:40:37 +0800,Threads增加更多ThreadPool创建的方法,18,403
+926,2534e26e,FAIL,3,NO,0,NO,0,2015-11-29 21:52:36 +0800,独立的ThreadPoolBuilder，对比Executors提供更多配置项,18,390
+927,4f846aea,FAIL,3,NO,0,NO,0,2015-11-29 23:45:13 +0800,update ThreadPoolBuilder document,18,390
+928,57362ffc,FAIL,3,NO,0,NO,0,2015-12-07 21:39:29 +0800,fix thread pools bug and add one more builder,18,390
+929,50f76a2e,FAIL,3,NO,0,NO,0,2015-12-07 21:42:57 +0800,添加StringBuilderHolder，可重用的StringBuilder（及其char[]），可配合ThreadLocal使用,18,390
+930,dd613bcc,SUCCESS,25,SUCCESS,10,SUCCESS,32,2016-12-29 12:12:31 +0800,#524 复活Metrics模块,26,792
+931,1ebba4f2,SUCCESS,9,SUCCESS,9,SUCCESS,34,2016-12-29 14:31:55 +0800,#524 增加使用示例,26,792
+932,827bda4c,SUCCESS,10,SUCCESS,8,SUCCESS,35,2016-12-29 14:42:53 +0800,#524 增加使用示例,26,792
+933,0201d122,SUCCESS,9,SUCCESS,8,SUCCESS,37,2016-12-29 14:42:53 +0800,#524 增加使用示例,26,792
+934,492d5576,FAIL,8,NO,0,NO,0,2016-12-29 15:40:16 +0800,整理utils中的类,25,750
+935,fd668c50,FAIL,8,NO,0,NO,0,2016-12-29 18:13:14 +0800,"#524 复活Metrics模块,整理Slf4jReporter",25,750
+936,2beb80fa,FAIL,8,NO,0,NO,0,2016-12-29 18:39:07 +0800,#525  加强Threads相关Utils类，增加ThreadDummper，加强ThreadPoolBuilder,25,750
+937,8d06bb04,FAIL,8,NO,0,NO,0,2016-12-29 21:22:33 +0800,"#524 复活Metrics模块, 增加CachedGauge并增加演示示例。Mean改名为Avg。",25,750
+938,4c66f33c,FAIL,8,NO,0,NO,0,2016-12-29 21:33:12 +0800,"#524 复活Metrics模块, JMXExporter进一步增强",25,750
+939,eee6c772,FAIL,9,NO,0,NO,0,2016-12-29 22:02:03 +0800,"#524 复活Metrics模块, 整理代码",25,750
+940,10f67077,FAIL,10,NO,0,NO,0,2016-12-29 22:17:48 +0800,"#524 复活Metrics模块, Histogram支持采样率",25,750
+941,f61adf96,FAIL,9,NO,0,NO,0,2016-12-29 22:44:12 +0800,"#524 复活Metrics模块, 加强并发控制",25,750
+942,d0eb8bf4,FAIL,9,NO,0,NO,0,2016-12-29 22:47:18 +0800,"#524 复活Metrics模块, 加强并发控制",25,750
+943,d7082df2,SUCCESS,12,SUCCESS,9,FAIL,8,2016-12-31 00:01:55 +0800,#525 加强Utils Modules模块: Exceptions，Lists初步完成整理,25,753
+944,d764a888,SUCCESS,21,SUCCESS,12,FAIL,6,2016-12-31 00:03:16 +0800,#526 升级示例到SpringBoot新版,25,753
+945,86dbbd61,SUCCESS,9,SUCCESS,8,FAIL,7,2016-12-31 12:18:18 +0800,#525 加强Utils Modules模块: 早上的战果,26,757
+946,041f58d1,SUCCESS,9,SUCCESS,8,FAIL,7,2016-12-31 18:14:56 +0800,#525 加强Utils Modules模块: 下午的战果,26,752
+947,998eeab7,SUCCESS,9,SUCCESS,8,FAIL,8,2016-12-31 18:58:47 +0800,#525 加强Utils Modules模块: 傍晚的战果,26,752
+948,4dfed107,SUCCESS,9,SUCCESS,9,FAIL,7,2016-12-31 22:54:17 +0800,#525 加强Utils Modules模块: 晚上的战果,26,752
+949,4d0032fe,SUCCESS,9,SUCCESS,8,FAIL,8,2017-01-01 09:47:07 +0800,#525 加强Utils Modules模块: 深夜的战果,26,753
+950,b3480570,SUCCESS,10,SUCCESS,9,FAIL,7,2017-01-01 10:02:29 +0800,"#525 加强Utils Modules模块：更快的EnumMap, 先基于JDK1.7U80复制一份",27,1112
+951,d1fe61e1,SUCCESS,10,SUCCESS,8,FAIL,7,2017-01-01 10:14:53 +0800,#525 加强Utils Modules模块：更改EnumMap,26,753
+952,5147c5d7,SUCCESS,8,SUCCESS,8,FAIL,7,2017-01-01 10:58:36 +0800,#525 加强Utils Modules模块：在JMH中，FastEnum无优势，去除,26,753
+953,846dfc01,SUCCESS,9,SUCCESS,8,FAIL,7,2017-01-01 11:43:48 +0800,#525 加强Utils Modules模块：移植Netty的原子类型的HashMap，与其他几家相比，Netty此库胜在有在实际项目中使用,29,784
+954,e06e3d1c,SUCCESS,8,SUCCESS,8,FAIL,7,2017-01-01 12:31:33 +0800,#525 加强Utils Modules模块：移植ThreadLocalRandom，自动根据JDK版本进行适配,29,784
+955,b5538238,SUCCESS,9,SUCCESS,8,FAIL,8,2017-01-01 16:50:10 +0800,#525 加强Utils Modules模块：CachingDateFormatter 与 JSR166e实现,31,989
+956,c38c608e,SUCCESS,12,SUCCESS,8,FAIL,8,2017-01-01 17:51:34 +0800,#525 加强Utils Modules模块：Tomcat的可扩展线程池,31,989
+957,de25810e,SUCCESS,10,SUCCESS,7,FAIL,8,2017-01-01 19:26:55 +0800,#525 加强Utils Modules模块：Concurrent部分完成小目标,31,989
+958,760af5a1,SUCCESS,9,SUCCESS,8,FAIL,7,2017-01-01 19:52:21 +0800,#525 加强Utils Modules模块：IOUtils 部分,31,989
+959,e20948fa,SUCCESS,10,SUCCESS,8,FAIL,7,2017-01-02 11:39:42 +0800,#525 加强Utils Modules模块：完成Numbers 与 Properties,30,982
+960,e9aa1c1a,SUCCESS,15,SUCCESS,10,FAIL,8,2017-01-02 22:24:31 +0800,#525 加强Utils Modules模块：开始反射部分,29,803
+961,b4651540,FAIL,9,NO,0,NO,0,2017-01-03 01:52:59 +0800,加强注释,28,777
+962,04acc44a,FAIL,8,NO,0,NO,0,2017-01-03 12:04:44 +0800,fix Sonar,28,777
+963,3caf428c,FAIL,11,NO,0,NO,0,2017-01-03 12:29:31 +0800,#525 加强Utils Modules模块：简单加入JSONMapper 和 ObjectMapper,28,777
+964,22f59fdc,FAIL,10,NO,0,NO,0,2017-01-03 14:49:07 +0800,#525 加强Utils Modules模块：自家的Reflections更新,28,777
+965,2adb6515,FAIL,10,NO,0,NO,0,2017-01-03 19:05:44 +0800,"#525 加强Utils Modules模块：Reflections更新，其他Nets, Strings 也开始更新",29,800
+966,d9d19463,FAIL,8,NO,0,NO,0,2017-01-03 22:18:07 +0800,#525 加强Utils Modules模块：网络模块,28,777
+967,be1afd9c,FAIL,7,NO,0,NO,0,2017-01-04 01:14:40 +0800,#525 加强Utils Modules模块：晚上成果,28,777
+968,44c64e74,FAIL,7,NO,0,NO,0,2017-01-04 10:34:44 +0800,#525 加强Utils Modules模块：rename,28,777
+969,14b4f28c,FAIL,8,NO,0,NO,0,2017-01-04 18:45:30 +0800,#525 加强Utils Modules模块：下午抽空的结果,28,777
+970,63003052,FAIL,8,NO,0,NO,0,2017-01-04 18:59:26 +0800,#525 加强Utils Modules模块：取消Common-Codec的依赖,28,776
+971,c63c5377,FAIL,7,NO,0,NO,0,2017-01-04 23:30:48 +0800,"#525 加强Utils Modules模块：晚上成果,RandomUtil, IOUtil",28,776
+972,0a625781,FAIL,7,NO,0,NO,0,2017-01-05 00:34:08 +0800,#525 加强Utils Modules模块：拆分FileUtil,28,776
+973,ffdba803,FAIL,6,NO,0,NO,0,2017-01-06 16:37:05 +0800,#525 加强Utils Modules模块：一天的成果，渐近尾声,29,807
+974,97d67e02,FAIL,8,NO,0,NO,0,2017-01-06 17:36:42 +0800,#525 加强Utils Modules模块 JDK最小版本升级到1.7,29,807
+975,b1b4d5aa,FAIL,7,NO,0,NO,0,2017-01-06 18:50:16 +0800,#525 加强Utils Modules模块 开始补UT,32,868
+976,3535eab1,FAIL,8,NO,0,NO,0,2017-01-06 19:02:43 +0800,#525 加强Utils Modules模块 开始补UT,33,880
+977,36cc9dd9,FAIL,8,NO,0,NO,0,2017-01-09 11:20:44 +0800,#525 加强Utils Modules模块 开始补UT,35,892
+978,65b9d43c,FAIL,5,NO,0,NO,0,2017-01-09 11:21:49 +0800,"Revert ""#525 加强Utils Modules模块 JDK最小版本升级到1.7""",35,892
+979,a0042c80,FAIL,6,NO,0,NO,0,2017-01-09 16:06:50 +0800,#525 加强Utils Modules模块 补UT过程中，同样增强日期类的实现,35,999
+980,5b69e69b,FAIL,5,NO,0,NO,0,2017-01-09 17:15:17 +0800,#525 加强Utils Modules模块 补UT过程中，同样增强日期类的实现,35,1030
+981,cac75b5b,FAIL,5,NO,0,NO,0,2017-01-09 18:27:47 +0800,#525 加强Utils Modules模块 文本模块补UT,36,1044
+982,081da49f,SUCCESS,11,SUCCESS,8,FAIL,7,2017-01-10 17:01:07 +0800,#525 加强Utils Modules模块 文本模块补UT完成,37,1099
+983,2caf3d74,SUCCESS,10,SUCCESS,9,FAIL,6,2017-01-10 17:51:37 +0800,fix sonar,37,1099
+984,694969ad,SUCCESS,9,SUCCESS,7,FAIL,8,2017-01-10 21:59:56 +0800,#2 开始补UT，base目录的UT,37,1103
+985,d0da6893,SUCCESS,10,SUCCESS,9,FAIL,7,2017-01-10 22:39:01 +0800,#2 开始补UT，base目录的UT,54,1286
+986,3d28d012,FAIL,7,NO,0,NO,0,2017-01-11 17:42:42 +0800,#525 加强Utils Modules模块 下午战果,55,1397
+987,7652a411,FAIL,7,NO,0,NO,0,2017-01-12 00:17:33 +0800,#525 加强Utils Modules模块 格式化代码及ListUtil增强,55,1551
+988,eaa1cc72,FAIL,7,NO,0,NO,0,2017-01-12 12:49:58 +0800,#2 加强Utils Modules模块 覆盖率继续提升,55,1652
+989,564347e9,FAIL,8,NO,0,NO,0,2017-01-13 00:13:20 +0800,#525 加强Utils Modules模块 IO相关UT,57,1729
+990,d2e9e01e,SUCCESS,10,SUCCESS,9,FAIL,8,2017-01-13 17:53:59 +0800,#525 加强Utils Modules模块  覆盖率继续提升,59,1859
+991,35419296,SUCCESS,10,SUCCESS,9,FAIL,9,2017-01-13 19:02:00 +0800,#525 加强Utils Modules模块  覆盖率继续提升,59,1859
+992,354a3ec5,SUCCESS,10,SUCCESS,8,FAIL,8,2017-01-13 19:33:30 +0800,fix a bug,59,1859
+993,8c975672,SUCCESS,11,SUCCESS,10,FAIL,8,2017-01-13 22:42:28 +0800,从 http://gee.cs.oswego.edu/cgi-bin/viewcvs.cgi/jsr166/src/jsr166e/    引入最新的166e,69,7802
+994,2d844ec5,SUCCESS,12,SUCCESS,10,FAIL,9,2017-01-14 00:20:06 +0800,RandomUtil 补全,69,7861
+995,229baa6c,SUCCESS,12,SUCCESS,12,FAIL,9,2017-01-14 11:25:33 +0800,#2 加强Utils Modules模块 Random，Hash的性能优化等,69,7865
+996,831ce7da,SUCCESS,11,SUCCESS,9,FAIL,9,2017-01-14 17:49:09 +0800,#525 加强Utils Modules模块  下午的成果，BeanMapper加强，QueueUtil加强，ReflectionUtil加强,70,8682
+997,d236b0c3,SUCCESS,10,SUCCESS,10,FAIL,11,2017-01-14 18:10:11 +0800,#525 加强Utils Modules模块  进一步测试,70,8682
+998,6ec31f06,SUCCESS,12,SUCCESS,10,FAIL,10,2017-01-15 00:41:29 +0800,#525 加强Utils Modules模块  进一步测试,70,8682
+999,5205b104,SUCCESS,10,SUCCESS,10,FAIL,11,2017-01-15 12:22:34 +0800,#525 加强Utils Modules模块  早上成果，加强集合,70,8710
+1000,f2fbffed,SUCCESS,13,SUCCESS,10,FAIL,11,2017-01-15 19:12:29 +0800,#525 加强Utils Modules模块  傍晚成果，复活加密模块，添加Sampler，,72,8755
+1001,8a2ec98f,SUCCESS,13,SUCCESS,12,FAIL,11,2017-01-15 23:59:25 +0800,#525 加强Utils Modules模块  StringHolder 和 Dumper受OpenHFT改进,72,8751
+1002,5223dc46,SUCCESS,13,SUCCESS,8,FAIL,11,2017-01-16 18:47:33 +0800,#525 加强Utils Modules模块  今天的小改进,74,8777
+1003,2d4b8f22,SUCCESS,12,SUCCESS,9,FAIL,10,2017-01-16 23:56:40 +0800,使用Guava的Ordering，代替自己写的ComparatorUtil,73,8760
+1004,4c430a86,SUCCESS,10,SUCCESS,9,FAIL,11,2017-01-17 00:49:57 +0800,更多使用Guava减少代码,73,8760
+1005,3989e28a,SUCCESS,12,SUCCESS,10,FAIL,12,2017-01-17 08:59:37 +0800,#525 加强Utils Modules模块  加入hikari的FastList，加强MathUtil,73,8760
+1006,e1c96b08,SUCCESS,14,SUCCESS,11,FAIL,11,2017-01-17 13:29:10 +0800,#2  昨晚的成果 fix FastList在JDK7编译失败，继续基于Guava加强,73,8776
+1007,49b39075,SUCCESS,12,SUCCESS,11,FAIL,12,2017-01-17 21:24:23 +0800,#2  Guava的集合与Hash能力再挖掘,73,8776
+1008,35f6cb38,SUCCESS,10,SUCCESS,10,FAIL,10,2017-01-17 21:25:30 +0800,#2 反射类大调整，参考guava的思路调整API,74,8796
+1009,6e53489a,SUCCESS,12,FAIL,9,NO,0,2017-01-18 01:11:49 +0800,#2 小更新,74,8796
+1010,405e9981,SUCCESS,12,SUCCESS,11,FAIL,10,2017-01-18 10:09:24 +0800,fix,74,8797
+1011,8bfa13ab,SUCCESS,11,SUCCESS,9,FAIL,12,2017-01-18 21:39:34 +0800,#525 引入RateLimitedSlf4jLogger 和 UnitConverter，Murmursh的封装修正，BooleanUtil加强,75,8809
+1012,78ccd865,SUCCESS,13,SUCCESS,11,FAIL,10,2017-01-19 02:02:58 +0800,#525 小方法引入,75,8809
+1013,15d061c2,SUCCESS,12,SUCCESS,10,FAIL,11,2017-01-19 02:11:59 +0800,拆分ThreadUtil 与  ThreadPoolUtil,75,8808
+1014,24437966,SUCCESS,12,SUCCESS,10,FAIL,12,2017-01-19 09:43:07 +0900,fix typo,75,8808
+1015,a227c064,SUCCESS,11,SUCCESS,10,FAIL,11,2017-01-19 14:21:29 +0800,fix UT,75,8808
+1016,d5613127,SUCCESS,12,SUCCESS,9,FAIL,12,2017-01-19 16:36:33 +0800,#525 UT and Sonar,79,8942
+1017,576a6a8c,SUCCESS,14,SUCCESS,9,FAIL,11,2017-01-19 21:09:13 +0800,Update FilePathUtilTest.java,79,8944
+1018,e1abb856,SUCCESS,12,SUCCESS,9,FAIL,12,2017-01-19 23:03:21 +0800,Merge pull request #533 from c-cho/patch-1,79,8942
+1019,44405aa6,SUCCESS,12,SUCCESS,11,FAIL,11,2017-01-19 23:04:50 +0800,Merge pull request #536 from wolf8334/patch-1,79,8944
+1020,169d5b67,SUCCESS,13,SUCCESS,9,FAIL,11,2017-01-19 23:18:48 +0800,提升UT，手工合并一些pull request,81,9099
+1021,0cfccdaa,SUCCESS,11,SUCCESS,11,FAIL,11,2017-01-20 00:58:17 +0800,加强UT,81,9186
+1022,3c74dfc2,SUCCESS,13,FAIL,7,NO,0,2017-01-20 09:37:00 +0800,rename,81,9187
+1023,c251b81f,SUCCESS,13,SUCCESS,11,FAIL,11,2017-01-20 09:37:54 +0800,fix,81,9187
+1024,cc823c4a,SUCCESS,15,SUCCESS,10,FAIL,10,2017-01-20 11:20:52 +0800,prepare for release,81,9187
+1025,4a151beb,SUCCESS,12,SUCCESS,11,FAIL,11,2017-01-20 11:51:58 +0800,prepare for release,81,9187
+1026,ec2c4962,SUCCESS,12,SUCCESS,9,FAIL,11,2017-01-20 11:55:48 +0800,try release BETA-1,81,9187
+1027,a7882db5,SUCCESS,14,SUCCESS,11,FAIL,11,2017-01-20 16:59:07 +0800,先取消未经JMH验证的FastList,80,9156
+1028,3e8feaf8,SUCCESS,15,SUCCESS,10,FAIL,11,2017-01-20 17:46:53 +0800,#2 加入Commons Collections中有用的类，使用本类时需自行添加Commons Collections依赖,80,9156
+1029,ea32bbd9,SUCCESS,16,SUCCESS,10,FAIL,10,2017-01-20 22:29:18 +0800,#525 升级Jackson版本,80,9156
+1030,822b71d2,SUCCESS,12,SUCCESS,11,FAIL,12,2017-01-21 00:45:06 +0800,#525 增加ThreadUtil.getCallerMethod()，FilePathUtil.getJarFile(Class)， 大幅调整ResouceUtil的实现与注释.,80,9160
+1031,bc07e255,SUCCESS,12,SUCCESS,10,FAIL,10,2017-01-21 00:59:20 +0800,#525 修正JSR166e某些类用了JDK7才有的依赖。,80,9158
+1032,b101a9f4,SUCCESS,12,SUCCESS,10,FAIL,11,2017-01-21 01:43:22 +0800,增加Travis自动测试,80,9158
+1033,9390a666,SUCCESS,12,SUCCESS,9,SUCCESS,40,2017-01-21 01:54:12 +0800,fix UT,80,9158
+1034,787a85f6,SUCCESS,13,SUCCESS,10,SUCCESS,37,2017-01-21 02:00:12 +0800,不能用JDK6编译,80,9158
+1035,27dfe645,SUCCESS,11,SUCCESS,11,SUCCESS,37,2017-01-21 02:03:50 +0800,"use jdk7 compile and run on JDK6,7,8",80,9158
+1036,b8e43f54,SUCCESS,10,SUCCESS,10,SUCCESS,40,2017-01-21 02:08:52 +0800,jdk6，8不要编译,80,9158
+1037,b7d26187,SUCCESS,13,SUCCESS,10,SUCCESS,37,2017-01-21 02:19:38 +0800,assertJ 不支持JDK6，先忽略,80,9158
+1038,6c65226b,SUCCESS,13,SUCCESS,9,SUCCESS,34,2017-01-21 02:23:00 +0800,再次尝试JDK1.6,80,9158
+1039,f9f9936a,SUCCESS,15,SUCCESS,12,SUCCESS,39,2017-01-21 02:38:23 +0800,放弃JDK6支持,76,8530
+1040,cabc2b89,SUCCESS,14,SUCCESS,10,SUCCESS,36,2017-01-21 02:43:31 +0800,update logo,76,8530
+1041,58675724,SUCCESS,11,SUCCESS,9,SUCCESS,38,2017-01-21 02:46:24 +0800,update README,76,8530
+1042,157905e2,SUCCESS,14,SUCCESS,11,SUCCESS,41,2017-01-21 02:56:22 +0800,use jdk7 to run JDK8,76,8530
+1043,684f28d8,SUCCESS,14,SUCCESS,10,SUCCESS,35,2017-01-21 10:42:38 +0800,#539 JDK依赖改为JDK7.0+,78,8551
+1044,c9d51604,SUCCESS,13,SUCCESS,10,SUCCESS,35,2017-01-21 10:52:06 +0800,just some cleanup,78,8551
+1045,ae15c9f1,SUCCESS,13,SUCCESS,10,SUCCESS,37,2017-01-21 12:20:50 +0800,"#539 DateUtii 增加beginOf/Next Year, Month,Wek Date,Hour,Minutes函数，日期改为中国习惯，周一是每周第一天。",78,8551
+1046,b78c5891,SUCCESS,13,SUCCESS,9,SUCCESS,34,2017-01-21 22:59:11 +0800,"#539 DateUtii 增加endOf  Year, Month,Wek Date,Hour,Minutes函数",78,8551
+1047,72e1e8f7,SUCCESS,11,SUCCESS,8,SUCCESS,35,2017-01-21 23:00:08 +0800,#539 捕捉线程运行时的异常，防止跑飞的Runnable改名为SafeRunnable,78,8551
+1048,11966020,SUCCESS,14,SUCCESS,11,SUCCESS,38,2017-01-22 01:50:47 +0800,#525 目录调整,78,8552
+1049,32228053,SUCCESS,13,SUCCESS,10,SUCCESS,37,2017-01-23 13:22:36 +0800,#525  1.增加通配符匹配，对字符串可用通配符匹配，2.文件搜索可用AntPath，通配符，正则表达式匹配  3.FilePathUtils增加在windows下，将路径转为windows路径,80,8662
+1050,4d7fd03b,SUCCESS,13,SUCCESS,10,SUCCESS,38,2017-01-23 21:59:32 +0800,#525  FileUtil的测试用例改进及bug修复,79,8571
+1051,07e87658,SUCCESS,13,SUCCESS,10,SUCCESS,39,2017-01-23 22:27:41 +0800,提高覆盖率,79,8571
+1052,429f37bc,SUCCESS,12,SUCCESS,11,SUCCESS,39,2017-01-23 23:00:22 +0800,[PULL REQUEST] 六翼天使的提交，关于ListUtil,79,8578
+1053,457b1ae6,SUCCESS,11,SUCCESS,10,SUCCESS,37,2017-01-24 00:33:45 +0800,remove useless hashfunction,79,8578
+1054,6eadd011,SUCCESS,11,SUCCESS,11,SUCCESS,40,2017-01-24 11:15:46 +0800,format code,79,8597
+1055,8079272c,SUCCESS,13,SUCCESS,9,FAIL,13,2017-01-24 12:06:41 +0800,#525  URLResouceUtil加强,80,8642
+1056,c09cd027,SUCCESS,12,SUCCESS,10,SUCCESS,36,2017-01-24 13:03:56 +0800,fix UT,80,8634
+1057,9709310f,SUCCESS,10,SUCCESS,9,SUCCESS,36,2017-01-24 13:12:52 +0800,Prepare for 5.0.0 -RC1,80,8634
+1058,d91067a4,SUCCESS,11,SUCCESS,11,SUCCESS,39,2017-01-24 14:15:48 +0800,根据OSS指南，重写release pom file,80,8634
+1059,91b06f4c,SUCCESS,12,SUCCESS,9,SUCCESS,35,2017-02-10 10:41:00 +0800,Update ClassUtil.java,80,8634
+1060,b64f648e,SUCCESS,11,SUCCESS,9,SUCCESS,41,2017-02-15 11:00:30 +0800,Merge pull request #544 from rason/master,80,8634
+1061,5c15e89a,SUCCESS,12,SUCCESS,11,SUCCESS,40,2017-03-11 02:45:01 +0800,修复错别字,80,8634
+1062,204bf128,SUCCESS,11,SUCCESS,10,SUCCESS,37,2017-03-11 02:46:06 +0800,Merge pull request #1 from alwaysc/alwaysc-patch-1,80,8634
+1063,58da3350,SUCCESS,11,SUCCESS,9,SUCCESS,38,2017-03-29 21:56:47 +0800,Merge pull request #552 from alwaysc/master,80,8634
+1064,60b0557e,FAIL,10,NO,0,NO,0,2017-12-28 12:17:22 +0800,Improvement:,69,2896
+1065,47c633a3,FAIL,13,NO,0,NO,0,2018-01-25 16:49:31 +0800,最后一次更新springdie utils，后续更新将在vip下开源,71,2878
+1066,84c45675,FAIL,10,NO,0,NO,0,2018-06-06 14:18:01 +0800,Update README.md,71,2878
+1067,1be5c1e5,FAIL,11,NO,0,NO,0,2018-06-06 14:19:18 +0800,Update README.md,71,2878
+1068,cda22531,FAIL,10,NO,0,NO,0,2018-06-06 14:21:26 +0800,Create README.md,71,2878
+1069,8719eed3,FAIL,11,NO,0,NO,0,2018-08-07 15:25:46 +0800,恢复jsonMapper 与 XmlMapper,71,2878
+1070,f69b80b7,FAIL,11,NO,0,NO,0,2018-08-07 15:25:46 +0800,恢复jsonMapper 与 XmlMapper,71,2879
+1071,eb4fd212,SUCCESS,10,SUCCESS,11,FAIL,37,2018-08-07 15:40:00 +0800,Fix Case,71,2879
+1072,2bbd3fde,SUCCESS,10,SUCCESS,10,FAIL,37,2018-08-07 17:38:16 +0800,Fix Case,71,2879
+1073,8950746b,SUCCESS,11,SUCCESS,11,FAIL,40,2018-08-07 17:51:46 +0800,FixCase,71,2879

@@ -1,0 +1,3 @@
+exception,count
+java.lang.AssertionError,6
+org.junit.ComparisonFailure,5

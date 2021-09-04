@@ -1,0 +1,285 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,0969e49,FAIL,0,NO,0,NO,0,2010-10-24 20:34:52 -0400,Initial commit.,9,484
+1,680c0c7,FAIL,0,NO,0,NO,0,2010-10-25 08:54:40 -0400,Add version to params.,9,485
+2,c3121d6,FAIL,0,NO,0,NO,0,2011-04-09 10:32:17 -0400,Migration support.,10,559
+3,a6afb68,FAIL,0,NO,0,NO,0,2011-04-09 12:21:05 -0400,Fix saving null values.,10,566
+4,4cc0a8e,FAIL,0,NO,0,NO,0,2011-04-09 12:25:36 -0400,Use NaturalOrder comparator instead of Alphanum.,10,576
+5,a07fcd2,FAIL,0,NO,0,NO,0,2011-04-09 12:41:56 -0400,Add doc to getId().,10,576
+6,e950bba,FAIL,0,NO,0,NO,0,2011-04-09 12:42:17 -0400,Remove unused member.,10,574
+7,3d550b6,FAIL,0,NO,0,NO,0,2011-04-09 12:42:32 -0400,Execute migrations.,10,575
+8,9c38fd7,FAIL,0,NO,0,NO,0,2011-04-13 10:38:59 -0400,Calendar.class support.,10,582
+9,b5e278e,FAIL,0,NO,0,NO,0,2011-04-21 16:09:39 -0400,Add support for Calendar. Fix NPE in Application.getEntitiy().,10,584
+10,c329e54,FAIL,0,NO,0,NO,0,2011-04-27 19:18:09 -0400,Fix delete all method.,10,584
+11,b555a60,FAIL,0,NO,0,NO,0,2011-04-27 19:56:10 -0400,NPE fix.,10,582
+12,2fc7a1e,FAIL,0,NO,0,NO,0,2011-05-06 15:27:01 -0400,Don't hold on to passed context. Use application context.,10,582
+13,ec31b0a,FAIL,0,NO,0,NO,0,2011-05-16 10:40:37 -0400,Code clean up.,9,581
+14,62ab734,FAIL,0,NO,0,NO,0,2011-05-16 11:18:22 -0400,Add trial version exception.,10,591
+15,7360c0f,FAIL,0,NO,0,NO,0,2011-05-16 11:18:33 -0400,Speed/code optimizations.,10,588
+16,c75c6e3,FAIL,0,NO,0,NO,0,2011-05-16 11:33:50 -0400,Throw exception if Application doesn't extend com.activeandroid.Application.,10,592
+17,1d3d027,FAIL,0,NO,0,NO,0,2011-05-16 11:41:02 -0400,Remove Application qualifier.,10,592
+18,b9d64dd,FAIL,0,NO,0,NO,0,2011-06-08 18:06:40 -0400,Turn logging off.,10,592
+19,c62faee,FAIL,0,NO,0,NO,0,2011-06-08 19:40:27 -0400,Don't initialize class when getting class names.,10,592
+20,201dd49,FAIL,0,NO,0,NO,0,2011-06-13 14:41:29 -0400,Add type parser framework.,12,644
+21,8257c87,FAIL,0,NO,0,NO,0,2011-06-15 11:19:14 -0400,Added type serializers. Speed optimizations.,14,746
+22,5a9dff8,FAIL,0,NO,0,NO,0,2011-06-15 23:16:04 -0400,Speed optimizations.,14,777
+23,f4d67b0,FAIL,0,NO,0,NO,0,2011-06-22 10:50:58 -0400,Change trial notification.,14,806
+24,394f8ef,FAIL,0,NO,0,NO,0,2011-07-12 08:55:03 -0700,Update Params.,14,806
+25,6889880,FAIL,0,NO,0,NO,0,2011-10-04 14:51:22 -0400,Move to singleton pattern.,17,853
+26,fe691c0,FAIL,0,NO,0,NO,0,2011-10-05 09:41:14 -0400,Reorganize packages. Add wrapper classes.,17,867
+27,694a714,FAIL,0,NO,0,NO,0,2011-12-13 15:22:11 -0500,Add SQL DSL.,19,984
+28,c0fb1c4,FAIL,0,NO,0,NO,0,2012-01-17 15:10:41 -0500,Modify query builders. Other stuff.,19,994
+29,e6c31dc,FAIL,0,NO,0,NO,0,2012-01-23 22:21:01 -0500,ActiveAndroid 3.0 updates.,21,1115
+30,09ded93,FAIL,0,NO,0,NO,0,2012-04-19 14:34:50 -0400,Model.equals() checks for id==null now.,21,1115
+31,5963622,FAIL,0,NO,0,NO,0,2012-07-03 14:35:14 -0400,Add Update syntax. Fix migration bug.,23,1181
+32,aa5d8d3,FAIL,0,NO,0,NO,0,2012-08-02 09:21:55 -0400,Small optimizations. Migrations on create. Attached db.,23,1205
+33,b16822d,FAIL,0,NO,0,NO,0,2012-08-09 19:26:52 -0400,Allow passing in integers as limit/offset.,23,1209
+34,fc31c56,FAIL,0,NO,0,NO,0,2012-08-09 19:58:58 -0400,Support gzipped attached databases.,23,1219
+35,e4027c3,FAIL,0,NO,0,NO,0,2012-08-10 08:00:01 -0400,Check for files with .gz extension.,23,1226
+36,bb0066b,FAIL,0,NO,0,NO,0,2012-08-10 11:55:01 -0400,Clean up gzip recognition.,23,1229
+37,8509399,FAIL,0,NO,0,NO,0,2012-11-15 13:09:40 -0500,Huge refactor. Going open source!,22,1098
+38,937f278,FAIL,0,NO,0,NO,0,2012-11-15 13:13:22 -0500,Fix comment.,22,1098
+39,193f3c8,FAIL,0,NO,0,NO,0,2012-11-15 13:18:33 -0500,Add README.,22,1098
+40,3c98bb1,FAIL,0,NO,0,NO,0,2012-11-15 13:21:42 -0500,Update README.,22,1098
+41,5df29d2,FAIL,0,NO,0,NO,0,2012-11-15 13:25:04 -0500,Change file extension to markdown.,22,1098
+42,74a45ac,FAIL,0,NO,0,NO,0,2012-11-15 13:25:30 -0500,Change README extension to markdown.,22,1098
+43,21cee42,FAIL,0,NO,0,NO,0,2012-11-16 08:41:40 -0500,More refactoring for speed an organization.,24,1082
+44,6dd9aca,FAIL,0,NO,0,NO,0,2012-11-16 09:00:20 -0500,Removing README in hopes this fixes the borked markdown.,24,1082
+45,44aa6ab,FAIL,0,NO,0,NO,0,2012-11-16 09:02:31 -0500,Move android jar to libs folder.,24,1082
+46,5f2816c,FAIL,0,NO,0,NO,0,2012-11-16 09:03:49 -0500,Fix skipping of type parsers.,24,1082
+47,50bda5d,FAIL,0,NO,0,NO,0,2012-11-16 09:04:19 -0500,Fix method names. Cast instead of returning new list.,24,1082
+48,24b13d4,FAIL,0,NO,0,NO,0,2012-11-16 09:08:58 -0500,Re-add README.,24,1082
+49,2f21bd9,FAIL,0,NO,0,NO,0,2012-11-16 09:46:32 -0500,Properly find mId name.,24,1082
+50,aa19737,FAIL,0,NO,0,NO,0,2012-11-16 10:02:24 -0500,Add missing types.,24,1087
+51,d9b27b8,FAIL,0,NO,0,NO,0,2012-11-16 10:56:30 -0500,Change synchronization.,24,1084
+52,41e9558,FAIL,0,NO,0,NO,0,2012-11-16 16:27:03 -0500,Pass Application instead of context.,24,1085
+53,d99236e,FAIL,0,NO,0,NO,0,2012-11-16 19:55:35 -0500,Make class again so we can check existence of subclasses.,24,1085
+54,0635f32,FAIL,0,NO,0,NO,0,2012-11-16 19:56:07 -0500,Trim sql statements.,24,1085
+55,51e1cea,FAIL,0,NO,0,NO,0,2012-11-16 19:57:00 -0500,Fix isSubclassOf method,24,1072
+56,b1e646f,FAIL,0,NO,0,NO,0,2012-11-16 20:00:25 -0500,Fix scanning method to work with Robolectric.,24,1086
+57,de3323e,FAIL,0,NO,0,NO,0,2012-11-16 20:28:29 -0500,Add license.,24,1086
+58,660df62,FAIL,0,NO,0,NO,0,2012-11-17 10:13:50 -0500,Fix scan to work with Android first then Robolectric.,24,1105
+59,fd6a2bb,FAIL,0,NO,0,NO,0,2012-11-17 11:27:55 -0500,Properly implement non query sql execution.,24,1107
+60,bcc4f54,FAIL,0,NO,0,NO,0,2012-11-17 12:08:00 -0500,Make executeSingle limit to 1,24,1108
+61,8e466b0,FAIL,0,NO,0,NO,0,2012-11-17 13:51:28 -0500,Add wiki menu.,24,1108
+62,c5d43c4,FAIL,0,NO,0,NO,0,2012-11-17 13:52:45 -0500,Add README project description.,24,1108
+63,4136c47,FAIL,0,NO,0,NO,0,2012-11-17 13:53:42 -0500,Make urls absolute.,24,1108
+64,afbba26,FAIL,0,NO,0,NO,0,2012-11-17 13:57:34 -0500,Update description.,24,1108
+65,8c42f12,FAIL,0,NO,0,NO,0,2012-11-17 14:06:21 -0500,Fix class modifiers.,24,1108
+66,4f43e3c,FAIL,0,NO,0,NO,0,2012-11-17 14:52:26 -0500,Add license and contribution info.,24,1108
+67,c5dc61e,FAIL,0,NO,0,NO,0,2012-11-17 14:56:02 -0500,Add actual license.,24,1108
+68,37566b2,FAIL,0,NO,0,NO,0,2012-11-17 15:06:16 -0500,Add links to new documentation content. Add header.,24,1108
+69,1f31677,FAIL,0,NO,0,NO,0,2012-11-17 15:14:46 -0500,Add attribution.,24,1108
+70,531bb66,FAIL,0,NO,0,NO,0,2012-11-17 15:15:34 -0500,Change Author header style,24,1108
+71,3f85519,FAIL,0,NO,0,NO,0,2012-11-19 14:12:05 -0500,Add donate button.,24,1108
+72,9fbda3f,FAIL,0,NO,0,NO,0,2012-11-19 14:16:25 -0500,Remove invalid button code.,24,1108
+73,8767bbe,FAIL,0,NO,0,NO,0,2012-11-19 14:25:08 -0500,Add donate button (let's try this again...).,24,1108
+74,0275be4,FAIL,0,NO,0,NO,0,2012-11-19 14:25:49 -0500,Fix donate button markdown.,24,1108
+75,57a3494,FAIL,0,NO,0,NO,0,2012-11-21 16:15:27 -0500,Make processCursor public to aid ContentProvider results.,24,1108
+76,495128f,FAIL,0,NO,0,NO,0,2012-11-21 16:16:17 -0500,Add ContentProvider support.,25,1172
+77,a764af9,FAIL,0,NO,0,NO,0,2012-11-21 16:22:15 -0500,Fix bad method.,25,1173
+78,a4a1366,FAIL,0,NO,0,NO,0,2012-11-21 16:22:35 -0500,format police.,25,1173
+79,1c3b0e0,FAIL,0,NO,0,NO,0,2012-11-21 17:24:23 -0500,Add page to documentation contents.,25,1173
+80,c7184f9,FAIL,0,NO,0,NO,0,2012-11-22 12:11:56 -0500,Added default Android .gitignore,25,1173
+81,bccc5dd,FAIL,0,NO,0,NO,0,2012-11-22 10:01:55 -0800,Merge pull request #4 from SeanPONeil/master,25,1173
+82,609a3d7,FAIL,0,NO,0,NO,0,2012-11-30 17:12:54 -0500,fix getMany foreign table name.,25,1173
+83,f43cca9,FAIL,0,NO,0,NO,0,2012-12-08 03:21:37 +0200,Fixing type serialization mapping,25,1173
+84,204c215,FAIL,0,NO,0,NO,0,2012-12-09 13:56:04 -0800,Merge pull request #7 from dbalaouras/master,25,1173
+85,a8cbd1e,FAIL,0,NO,0,NO,0,2012-12-19 16:33:05 +0000,Fixed Model `equals` method,24,1108
+86,8b92dd7,FAIL,0,NO,0,NO,0,2012-12-19 13:09:05 -0800,Merge pull request #10 from blork/master,25,1173
+87,86fd11e,FAIL,0,NO,0,NO,0,2012-12-18 21:19:03 -0600,Fixed TypeSerializers not loading,25,1172
+88,90410b5,FAIL,0,NO,0,NO,0,2012-12-18 21:19:16 -0600,Added byte array/BLOB support,25,1178
+89,aafa44b,FAIL,0,NO,0,NO,0,2012-12-21 07:22:03 -0500,"Formatting. Remove ""PRIVATE METHODS"" comment header.",25,1178
+90,1e453f1,FAIL,0,NO,0,NO,0,2012-12-23 17:39:06 -0600,Call ActiveAndroid.dispose() on application termination (for testing),25,1182
+91,47271af,FAIL,0,NO,0,NO,0,2012-12-23 16:51:33 -0600,Fixed Set with no WHERE clause,25,1183
+92,f830eef,FAIL,0,NO,0,NO,0,2012-12-23 17:12:51 -0600,Added Android test project with unit tests for query classes,32,1380
+93,248befd,FAIL,0,NO,0,NO,0,2012-12-27 10:04:33 -0800,Merge pull request #13 from zach-klippenstein/pullrequest,32,1380
+94,f2ca013,FAIL,0,NO,0,NO,0,2013-01-01 17:00:16 +0100,"Add ""unique""-clause to column-decorator",32,1384
+95,52a1844,FAIL,0,NO,0,NO,0,2013-01-02 08:29:30 -0800,Merge pull request #18 from vonloxley/master,32,1384
+96,b87082e,FAIL,0,NO,0,NO,0,2013-01-03 13:48:07 +0100,Use standard transaction pattern,32,1388
+97,69f7885,FAIL,0,NO,0,NO,0,2013-01-07 19:32:04 +0100,Serialize enums automatically,32,1392
+98,5a1d67c,FAIL,0,NO,0,NO,0,2013-01-19 12:41:02 -0800,Merge pull request #25 from vonloxley/EnumSerialization,32,1392
+99,3ae41a9,FAIL,0,NO,0,NO,0,2013-01-21 14:25:42 +0100,Reference correct table,32,1393
+100,23f1fea,FAIL,0,NO,0,NO,0,2013-01-21 15:35:52 +0100,Set PRAGMA foreign_keys=ON on every open,32,1398
+101,41b198e,FAIL,0,NO,0,NO,0,2013-02-03 14:27:28 +0100,Add ModelAdapter,33,1421
+102,37bc615,FAIL,0,NO,0,NO,0,2013-02-07 10:06:39 -0500,Change Initialization point of mAuthority,32,1393
+103,941f8e3,FAIL,0,NO,0,NO,0,2013-02-07 07:12:10 -0800,Merge pull request #39 from xArthasx/master,32,1393
+104,35c3bab,FAIL,0,NO,0,NO,0,2013-02-07 07:16:56 -0800,Merge pull request #36 from vonloxley/ModelAdapter,33,1422
+105,5590899,FAIL,0,NO,0,NO,0,2013-02-07 10:30:24 -0500,Format police. getItemId() fails silently. setData conforms to Android standard.,33,1420
+106,0da0e00,FAIL,0,NO,0,NO,0,2013-02-07 16:13:58 -0500,Use SparseArray for better performance,33,1419
+107,0254eab,FAIL,0,NO,0,NO,0,2013-03-18 10:47:10 -0700,Merge pull request #40 from xArthasx/master,33,1419
+108,065a983,FAIL,0,NO,0,NO,0,2013-04-08 16:05:18 -0500,add build.xml,33,1419
+109,0206817,FAIL,0,NO,0,NO,0,2013-04-08 16:08:22 -0500,add new line,33,1419
+110,8564d01,FAIL,0,NO,0,NO,0,2013-04-11 09:06:28 -0700,Merge pull request #54 from ddrscott/master,33,1419
+111,e4a50c1,FAIL,0,NO,0,NO,0,2013-04-11 09:09:49 -0700,Merge pull request #20 from vonloxley/transactionpattern,33,1423
+112,df9fb5b,FAIL,0,NO,0,NO,0,2013-04-11 09:13:54 -0700,Merge pull request #32 from vonloxley/reference_correct_table,33,1429
+113,531bd28,FAIL,0,NO,0,NO,0,2013-04-22 14:30:27 -0400,Format police.,33,1429
+114,4acaa2f,FAIL,0,NO,0,NO,0,2013-04-22 14:30:37 -0400,Fix scripting bug. Normalize some methods.,33,1428
+115,806f442,FAIL,0,NO,0,NO,0,2013-05-07 09:32:17 +0800,Set Arguments's Bug,32,1384
+116,baa43fe,FAIL,20,NO,0,NO,0,2013-05-30 15:53:15 -0400,Mavenize,33,1428
+117,d12a80a,FAIL,4,NO,0,NO,0,2013-05-30 21:02:49 -0400,Add 'classes' to scan model paths,33,1428
+118,143de3c,FAIL,3,NO,0,NO,0,2013-05-31 06:06:29 -0700,Merge pull request #67 from fmedlin/mavenize,33,1428
+119,bbf7db2,FAIL,4,NO,0,NO,0,2013-05-31 09:20:37 -0400,Merge branch 'master' into robolectric-model-scan,33,1428
+120,2cec524,FAIL,5,NO,0,NO,0,2013-05-31 06:28:48 -0700,Merge pull request #69 from fmedlin/robolectric-model-scan,33,1428
+121,a27aa0d,FAIL,5,NO,0,NO,0,2013-06-03 11:43:36 -0400,Fix ContentProvider support.,33,1468
+122,494fa08,FAIL,5,NO,0,NO,0,2013-06-03 12:08:42 -0400,Switch to LruCache for entity cache.,33,1469
+123,32c3090,FAIL,5,NO,0,NO,0,2013-06-03 12:17:37 -0400,Fix typo.,33,1469
+124,72aff63,FAIL,5,NO,0,NO,0,2013-06-03 12:22:39 -0400,Comment.,33,1469
+125,ab13fc6,FAIL,6,NO,0,NO,0,2013-06-03 12:24:47 -0400,"Type, format police.",33,1464
+126,fc685a1,FAIL,5,NO,0,NO,0,2013-06-03 12:28:09 -0400,Fix logging.,33,1464
+127,53cd4f4,FAIL,5,NO,0,NO,0,2013-06-03 12:33:35 -0400,Add overload initialize methods. Remove unnecessary synchronize modifiers.,33,1468
+128,0e030fa,FAIL,5,NO,0,NO,0,2013-06-03 12:43:00 -0400,Add some debug logging.,33,1474
+129,b3be8ff,FAIL,6,NO,0,NO,0,2013-06-03 12:55:25 -0400,Remove unused arg from loadFromCursor signature.,33,1474
+130,c635f50,FAIL,5,NO,0,NO,0,2013-06-07 10:26:58 -0400,Add meta-data model definition support.,33,1517
+131,a951624,FAIL,5,NO,0,NO,0,2013-06-11 02:21:58 -0400,Add missing dependencies for building with Maven,33,1517
+132,adcff70,FAIL,22,NO,0,NO,0,2013-06-11 10:56:56 -0400,Add relative path to parent,33,1517
+133,037b4cc,FAIL,10,NO,0,NO,0,2013-06-11 08:53:32 -0700,Merge pull request #76 from SeanPONeil/master,33,1517
+134,783ce80,FAIL,10,NO,0,NO,0,2013-06-22 15:23:10 +0800,Fixed the parametrized types in Model.class,33,1517
+135,38a6c71,FAIL,10,NO,0,NO,0,2013-06-27 05:36:20 -0700,Merge pull request #82 from green-coder/master,33,1517
+136,e46328e,FAIL,10,NO,0,NO,0,2013-06-27 05:36:57 -0700,Merge pull request #61 from melvin7/master,33,1517
+137,7e08934,FAIL,11,NO,0,NO,0,2013-06-27 08:43:24 -0400,Remove donate button.,33,1517
+138,e42e734,FAIL,11,NO,0,NO,0,2013-06-27 09:02:22 -0400,Add Gradle support.,33,1517
+139,4b19b31,FAIL,10,NO,0,NO,0,2013-07-01 20:40:22 -0300,Use StringBuilder instead of String concat,33,1518
+140,c02ca07,FAIL,10,NO,0,NO,0,2013-07-02 12:52:00 -0300,Small fix in log,33,1518
+141,26383af,FAIL,11,NO,0,NO,0,2013-07-02 10:10:26 -0700,Merge pull request #88 from leonardoxh/master,33,1518
+142,c4556f3,FAIL,11,NO,0,NO,0,2013-07-02 13:15:27 -0400,Format police. Make code more readable.,33,1543
+143,22ea12f,FAIL,11,NO,0,NO,0,2013-07-04 09:32:21 -0300,Fix bug in limit in From class,33,1544
+144,424cfa9,FAIL,10,NO,0,NO,0,2013-07-08 14:22:48 -0700,Merge pull request #91 from leonardoxh/master,33,1544
+145,279adc4,FAIL,11,NO,0,NO,0,2013-07-08 23:28:31 -0300,Use StringBuilder instead String,33,1558
+146,5d3072a,FAIL,11,NO,0,NO,0,2013-07-13 19:14:51 +0200,Do not assume that toString() for an entity has not been overwritten.,33,1548
+147,daeb3bc,FAIL,11,NO,0,NO,0,2013-07-13 23:56:59 -0400,Set notification uri to cursor returned,33,1546
+148,829100d,FAIL,11,NO,0,NO,0,2013-07-14 18:13:00 -0700,add waffle.io badge,33,1544
+149,5012d88,FAIL,11,NO,0,NO,0,2013-07-14 18:13:24 -0700,Merge pull request #98 from waffleio/master,33,1544
+150,9494580,FAIL,11,NO,0,NO,0,2013-07-14 18:16:55 -0700,Merge pull request #93 from leonardoxh/master,33,1558
+151,16c40ee,FAIL,11,NO,0,NO,0,2013-07-14 18:20:02 -0700,Merge pull request #96 from markuspfeiffer/entityCacheKey,33,1562
+152,7d1ad36,FAIL,10,NO,0,NO,0,2013-07-14 18:21:06 -0700,Merge pull request #97 from barumrho/notification-uri,33,1564
+153,0cf403f,FAIL,10,NO,0,NO,0,2013-07-19 10:43:40 -0400,Initial Travis-CI build file.,33,1564
+154,1c6e3a8,FAIL,12,NO,0,NO,0,2013-07-19 10:48:18 -0400,Use JDK6 for Android compatibility.,33,1564
+155,15cbec9,FAIL,10,NO,0,NO,0,2013-07-19 10:52:48 -0400,Target Java 1.6 in correct place.,33,1564
+156,7c38455,FAIL,10,NO,0,NO,0,2013-07-26 13:29:33 -0600,Update README.md to include https in waffle.io badge url,33,1564
+157,03dcc56,FAIL,11,NO,0,NO,0,2013-07-26 12:31:51 -0700,Merge pull request #100 from kmanzana/patch-1,33,1564
+158,8532be0,FAIL,10,NO,0,NO,0,2013-07-27 14:37:39 -0400,Specify jar name.,33,1564
+159,d4667a2,FAIL,12,NO,0,NO,0,2013-07-29 09:20:19 -0400,Log table creation.,33,1566
+160,514afca,FAIL,11,NO,0,NO,0,2013-07-29 09:20:32 -0400,Build sources jar.,33,1566
+161,118afdc,FAIL,10,NO,0,NO,0,2013-07-29 11:06:10 -0400,Fix upgrade path for attached DBs. Add logging.,33,1575
+162,91bca49,FAIL,11,NO,0,NO,0,2013-08-01 11:51:27 -0400,"Fix caching, wtf!",33,1578
+163,b4b4dbd,FAIL,10,NO,0,NO,0,2013-08-01 14:32:08 -0400,Add Travis status badge.,33,1578
+164,7de4a28,FAIL,11,NO,0,NO,0,2013-08-10 11:04:32 +0200,"Typesafe equals, null-aware equals, implemented hashcode.",34,1626
+165,056032a,FAIL,10,NO,0,NO,0,2013-08-10 11:06:05 +0200,Merge branch 'master' of https://github.com/vsigler/ActiveAndroid.git,34,1640
+166,c5e4d89,FAIL,10,NO,0,NO,0,2013-08-10 22:39:05 +0200,"When not in db (id null), Model instance is equal only to itself.",34,1651
+167,eeff406,FAIL,11,NO,0,NO,0,2013-08-30 15:37:37 -0400,Use configuration.,34,1660
+168,d3fd3c8,FAIL,11,NO,0,NO,0,2013-08-30 15:48:21 -0400,Make configuration builder chainable.,34,1669
+169,41c4e12,FAIL,11,NO,0,NO,0,2013-08-30 15:56:38 -0400,Add context to configuration.,34,1671
+170,eb89924,FAIL,11,NO,0,NO,0,2013-08-30 16:13:59 -0400,Fix NPE.,34,1673
+171,4b7e9fa,FAIL,11,NO,0,NO,0,2013-08-30 16:14:08 -0400,Add protected method to get configuration.,34,1681
+172,e06e589,FAIL,10,NO,0,NO,0,2013-08-30 16:16:46 -0400,Fix NPE.,34,1681
+173,791652b,FAIL,11,NO,0,NO,0,2013-08-30 16:24:55 -0400,Check for null models/serializers.,34,1685
+174,b4b2c09,FAIL,12,NO,0,NO,0,2013-09-02 16:58:51 -0400,Fix check that source path is not a directory.,34,1685
+175,42a3cc2,FAIL,10,NO,0,NO,0,2013-09-06 14:24:48 -0400,Add config type serializers properly.,34,1686
+176,119fdb1,FAIL,10,NO,0,NO,0,2013-09-24 11:13:55 +0200,"Added Serializers for BigDecimal, JodaDateTime and UUID",37,1731
+177,ad85bdf,FAIL,11,NO,0,NO,0,2013-09-24 17:12:36 +0200,Removed JodaTime and its serializer.,36,1716
+178,06bf805,FAIL,10,NO,0,NO,0,2013-10-31 17:09:36 -0700,FIx AA_MODEL meta-data bug,34,1679
+179,3e44c1c,FAIL,10,NO,0,NO,0,2013-11-01 12:12:37 -0700,Fix bug introduced from previous commit,34,1679
+180,6550761,FAIL,12,NO,0,NO,0,2013-11-01 12:25:31 -0700,Better error message for devs on malformed meta-data,34,1687
+181,079f1be,FAIL,11,NO,0,NO,0,2013-11-11 13:34:26 -0800,"Revert ""Better error message for devs on malformed meta-data""",34,1679
+182,1a92ce8,FAIL,10,NO,0,NO,0,2013-11-15 21:46:34 +0800,Support Column.index,34,1717
+183,af7ae96,FAIL,11,NO,0,NO,0,2013-11-20 09:03:48 +0900,Ignore gradle wrapper files,34,1686
+184,8c6609e,FAIL,11,NO,0,NO,0,2013-11-21 00:13:02 +0900,Add Configuration test,35,1712
+185,353110f,FAIL,12,NO,0,NO,0,2013-11-23 08:07:01 +0900,Fix 'context.getClassLoader().getClassLoader' -> 'context.getClassLoader()',35,1712
+186,39a27bf,FAIL,11,NO,0,NO,0,2013-11-23 08:25:10 +0900,Add Cache test,36,1742
+187,921d9a5,FAIL,11,NO,0,NO,0,2013-11-27 17:27:50 -0300,My compiler was not able to deal these casts by itself.,34,1686
+188,0167b93,FAIL,12,NO,0,NO,0,2013-11-29 05:54:35 -0800,Merge pull request #148 from pfrolim/master,34,1686
+189,9fb4c6d,FAIL,10,NO,0,NO,0,2013-11-29 05:58:45 -0800,Merge pull request #123 from kramer65/master,36,1716
+190,658de29,FAIL,11,NO,0,NO,0,2013-09-30 14:59:43 -0400,Use StringBuider.,36,1720
+191,2bbc2d1,FAIL,11,NO,0,NO,0,2013-11-29 09:06:43 -0500,Add gradle wrapper.,36,1720
+192,c92f916,FAIL,10,NO,0,NO,0,2013-11-23 09:08:40 +0900,Update travis.yml,36,1742
+193,1d608ee,FAIL,11,NO,0,NO,0,2013-12-27 15:26:35 -0800,Merge pull request #140 from yongjhih/index,36,1751
+194,984aa7a,FAIL,11,NO,0,NO,0,2013-11-10 00:33:35 -0600,Throw a runtime exception instead of silently failing when the framework encounters a model with no default constructor.,34,1693
+195,3e2b466,FAIL,10,NO,0,NO,0,2014-01-02 07:17:04 -0800,Merge pull request #138 from JDeuce/feature-add-exception-on-no-default-constructor,36,1758
+196,6e2d6dd,FAIL,11,NO,0,NO,0,2013-12-18 12:17:00 +0800,Support Column.uniqueGroups,36,1798
+197,b25a95b,FAIL,11,NO,0,NO,0,2014-01-15 07:36:23 -0800,Merge pull request #164 from Wendly/unique,36,1798
+198,f803f1a,FAIL,10,NO,0,NO,0,2014-01-15 14:20:05 -0700,"Made Column name optional. If not explicitly defined in the annotation, it defaults to the name of the corresponding field in the Model.",36,1761
+199,4a117f2,FAIL,11,NO,0,NO,0,2014-01-15 14:24:35 -0700,Made Column name optional.,36,1761
+200,e70a2a5,FAIL,10,NO,0,NO,0,2014-01-15 13:32:35 -0800,Merge pull request #167 from harward/master,36,1801
+201,1f42dfc,FAIL,10,NO,0,NO,0,2014-01-16 12:01:36 +0800,Support Column.indexGroups,36,1813
+202,56a32c3,FAIL,10,NO,0,NO,0,2014-01-17 10:22:49 -0800,Merge pull request #157 from Wendly/index,36,1813
+203,5aa6af2,FAIL,11,NO,0,NO,0,2014-01-17 12:52:50 -0700,Return the row Id of the newly inserted row from Model.save,36,1814
+204,a82d891,FAIL,11,NO,0,NO,0,2014-01-17 12:03:40 -0800,Merge pull request #169 from harward/return_id,36,1814
+205,24e6c12,FAIL,11,NO,0,NO,0,2014-01-17 12:13:03 -0800,Merge pull request #1 from harward/return_id,36,1814
+206,52fa2dc,FAIL,11,NO,0,NO,0,2014-01-17 13:43:41 -0700,Avoid creating tables for abstract subclasses of Model,36,1815
+207,adcddac,FAIL,10,NO,0,NO,0,2014-01-17 12:57:20 -0800,Merge pull request #170 from harward/no_table_for_abstract_model,36,1815
+208,6b85d51,FAIL,10,NO,0,NO,0,2014-01-17 13:04:39 -0800,Merge pull request #2 from harward/no_table_for_abstract_model,36,1815
+209,74bbf33,FAIL,10,NO,0,NO,0,2014-01-20 14:28:04 -0700,Fix for #119,36,1828
+210,850352c,FAIL,10,NO,0,NO,0,2014-01-20 15:18:04 -0700,Merge branch 'master' of https://github.com/pardom/ActiveAndroid,36,1815
+211,13a86f9,FAIL,10,NO,0,NO,0,2014-01-21 11:46:24 -0800,Merge pull request #171 from harward/iss119,36,1828
+212,00d7397,FAIL,11,NO,0,NO,0,2014-01-21 13:46:59 -0700,Merge branch 'master' of https://github.com/pardom/ActiveAndroid,36,1828
+213,5d3f8a8,FAIL,10,NO,0,NO,0,2014-01-23 10:33:59 +0100,Use TextUtils.isEmpty() instead of String.isEmpty() as the latter is only available in API > 8,36,1829
+214,e5e601b,FAIL,10,NO,0,NO,0,2014-01-23 06:29:58 -0800,Merge pull request #173 from Jonan88/master,36,1829
+215,96b80e9,FAIL,11,NO,0,NO,0,2014-01-23 08:08:33 -0700,Merge branch 'master' of https://github.com/pardom/ActiveAndroid,36,1829
+216,73bd39f,FAIL,11,NO,0,NO,0,2014-01-23 07:37:57 -0800,Merge pull request #134 from bradmcmanus/master,36,1822
+217,9681d06,FAIL,11,NO,0,NO,0,2013-10-25 18:36:05 +0300,Add method in Table annotation for set column Id name. This fixes Issue #83,36,1833
+218,225d12e,FAIL,11,NO,0,NO,0,2014-01-28 16:28:32 +0800,skip blank lines instead of throwing an exception,36,1824
+219,52b8f42,FAIL,10,NO,0,NO,0,2014-01-28 11:14:23 -0700,Merge branch 'master' of https://github.com/pardom/ActiveAndroid,36,1822
+220,6187f06,FAIL,10,NO,0,NO,0,2014-01-30 14:46:13 -0700,Added public method to Cache to check initialized state,36,1824
+221,31e4846,FAIL,11,NO,0,NO,0,2014-02-12 14:05:22 +0800,Add FileSerializer,37,1839
+222,97664a4,FAIL,10,NO,0,NO,0,2014-02-17 21:10:00 +0800,Fix the change is not notify when Delete() is executed,36,1825
+223,e973420,FAIL,10,NO,0,NO,0,2014-02-17 10:32:58 -0500,Merge pull request #185 from Wendly/delete,36,1825
+224,39d5e1f,FAIL,10,NO,0,NO,0,2014-02-17 10:33:31 -0500,Merge pull request #183 from Wendly/file,37,1842
+225,98b110a,FAIL,11,NO,0,NO,0,2014-02-18 12:28:44 +0800,Fix it's not only delete single row when call Delete().executeSingle(),36,1826
+226,66bba08,FAIL,11,NO,0,NO,0,2014-02-17 23:43:44 -0500,Merge pull request #187 from Wendly/delete,37,1843
+227,8ab2b12,FAIL,17,NO,0,NO,0,2014-02-27 14:09:32 -0500,Upgrade android-maven-plugin to 3.8.0,37,1843
+228,d66a3ae,FAIL,11,NO,0,NO,0,2014-03-01 14:37:18 -0500,Merge branch 'fix_test' of github.com:rejasupotaro/ActiveAndroid into rejasupotaro-fix_test,39,1899
+229,2fc3539,FAIL,10,NO,0,NO,0,2014-03-02 12:13:23 -0500,Remove Gradle wrapper files from .gitignore,39,1899
+230,808a116,FAIL,11,NO,0,NO,0,2014-03-02 12:23:39 -0500,Use Maven 3.1.x when using android-maven-plugin 3.8.0,39,1899
+231,0757afb,FAIL,10,NO,0,NO,0,2014-03-02 11:10:29 -0700,Add chain-able `where()` conditions.,39,1910
+232,f9fb01e,FAIL,9,NO,0,NO,0,2014-03-02 11:22:58 -0700,Merge branch 'master' of github.com:joshuapinter/ActiveAndroid,39,1910
+233,84f821b,FAIL,10,NO,0,NO,0,2014-03-02 13:53:52 -0500,Merge pull request #190 from joshuapinter/master,39,1910
+234,7d557f3,FAIL,9,NO,0,NO,0,2014-03-02 13:54:23 -0500,Merge pull request #178 from harward/cache_is_initialized,39,1912
+235,b49c910,FAIL,10,NO,0,NO,0,2014-03-02 12:40:20 -0700,"Add ""Running the Test Suite"".",39,1912
+236,f659063,FAIL,9,NO,0,NO,0,2014-03-02 14:44:27 -0500,Merge pull request #191 from joshuapinter/patch-1,39,1912
+237,54b47ca,FAIL,11,NO,0,NO,0,2013-10-25 18:36:05 +0300,Add method in Table annotation for set column Id name. This fixes Issue #83,39,1923
+238,6ab1e05,FAIL,10,NO,0,NO,0,2014-03-02 18:01:25 -0500,Merge pull request #175 from hube/add_id_annotation,39,1923
+239,4fb901f,FAIL,11,NO,0,NO,0,2014-03-02 18:13:29 -0700,Merge branch 'master' of github.com:pardom/ActiveAndroid,39,1923
+240,0fca7ec,FAIL,10,NO,0,NO,0,2014-03-03 00:59:47 -0700,Fixes issue from Pull Request #175 with custom Id column name.,39,1940
+241,9adc7de,FAIL,10,NO,0,NO,0,2014-03-03 08:26:28 -0500,Merge pull request #192 from joshuapinter/master,39,1940
+242,08adce7,FAIL,10,NO,0,NO,0,2014-03-05 14:24:34 -0700,Remove manually setting `id` column name of test tables.,39,1940
+243,429cf32,FAIL,10,NO,0,NO,0,2014-03-23 19:20:44 +0800,changed String.isEmpty to TextUtils.isEmpty,39,1940
+244,5df8c2b,FAIL,10,NO,0,NO,0,2014-03-23 11:09:13 -0400,Merge pull request #198 from lucastan/master,39,1940
+245,3d0fef7,FAIL,10,NO,0,NO,0,2014-03-23 09:33:16 -0600,Merge branch 'master' of github.com:pardom/ActiveAndroid,39,1940
+246,636dd49,FAIL,8,NO,0,NO,0,2014-03-24 08:27:18 +0100,"Split sql-scripts on "";"" and return a list of commands",39,1959
+247,7a34996,FAIL,10,NO,0,NO,0,2014-03-24 09:00:27 +0100,Java 1.6 …,39,1959
+248,b12b552,FAIL,10,NO,0,NO,0,2014-03-24 11:02:06 -0400,Merge pull request #200 from vonloxley/lexMigrationScripts,39,1959
+249,ae6588a,FAIL,10,NO,0,NO,0,2014-03-24 11:29:44 -0400,Merge pull request #104 from vsigler/master,40,2032
+250,a83b2c2,FAIL,10,NO,0,NO,0,2014-04-03 18:41:53 -0600,Merge branch 'master' of github.com:pardom/ActiveAndroid,40,2032
+251,cbe3c4a,FAIL,10,NO,0,NO,0,2014-04-05 10:24:40 -0600,Minor cleanup of tests.,40,2030
+252,87bb981,FAIL,10,NO,0,NO,0,2014-04-05 10:36:49 -0600,Fix test suite by setting a different database name for CacheTest.,40,2031
+253,3df94a5,FAIL,11,NO,0,NO,0,2014-04-05 14:01:25 -0400,Merge pull request #205 from joshuapinter/fix_tests,40,2031
+254,27733e7,FAIL,10,NO,0,NO,0,2014-04-05 14:02:02 -0400,Merge pull request #176 from hube/handle_blank_lines,40,2033
+255,72d4a4c,FAIL,10,NO,0,NO,0,2014-04-06 12:16:34 -0600,Add test for default column names.,40,2049
+256,75f3562,FAIL,10,NO,0,NO,0,2014-04-06 13:09:29 -0600,Create failing test case for boolean field for Issue #203.,40,2064
+257,53397c4,FAIL,10,NO,0,NO,0,2014-04-06 15:33:51 -0600,Handle boolean types in where arguments.,40,2065
+258,cb31474,FAIL,10,NO,0,NO,0,2014-04-07 10:11:10 -0400,Merge pull request #206 from joshuapinter/fix_boolean_type,40,2067
+259,44f5bc6,FAIL,13,NO,0,NO,0,2014-04-07 11:05:40 -0400,"Allow Travis to build ActiveAndroid successfully. Update android-maven-plugin to 3.8.2, and download build tools in addition to the SDK.",40,2067
+260,bd98740,FAIL,11,NO,0,NO,0,2014-04-07 16:41:43 -0400,Merge pull request #208 from SeanPONeil/fix_travis,40,2067
+261,4a8af85,FAIL,11,NO,0,NO,0,2014-04-13 16:00:59 +0200,Add support for count/exists queries.,40,2124
+262,55208f6,FAIL,11,NO,0,NO,0,2014-04-16 13:01:38 +0200,Added a new SQL parser. This parser supports both SQL style line comments and comment blocks. SQL statements can span multiple lines but must be delimited with a semicolon. This allows for improved readability of SQL scripts.,43,2220
+263,a980772,FAIL,10,NO,0,NO,0,2014-04-17 16:46:18 +0200,Added several test cases for count and exists.,42,2264
+264,ec189d9,FAIL,10,NO,0,NO,0,2014-04-17 17:22:08 +0200,Trim Strings to make results more predictable while testing.,43,2220
+265,78444cc,FAIL,10,NO,0,NO,0,2014-04-17 18:04:13 +0200,Added multiple tests for the new parser.,44,2300
+266,2a64b3b,FAIL,10,NO,0,NO,0,2014-04-17 18:06:06 +0200,Configuration should return legacy parser by default.,44,2301
+267,208fae4,FAIL,9,NO,0,NO,0,2014-04-17 18:33:25 +0200,Added a simple migration test with the default configuration.,45,2332
+268,8af84d0,FAIL,11,NO,0,NO,0,2014-04-17 22:06:57 +0200,"Added additional tests for the parser, also test that semicolons inside strings and comments are ignored.",45,2359
+269,7c7c73c,FAIL,9,NO,0,NO,0,2014-04-17 22:13:01 +0200,Added some license headers.,45,2359
+270,25ea077,FAIL,10,NO,0,NO,0,2014-04-17 22:29:38 +0200,Added additional tests for where-chaining.,42,2302
+271,79c80ad,FAIL,10,NO,0,NO,0,2014-04-17 23:19:58 +0200,"Must honor group by, having, limit and offset for exists.",42,2306
+272,1c8e7d3,FAIL,10,NO,0,NO,0,2014-04-17 23:21:29 +0200,Added additional tests for count and exists.,42,2361
+273,7b2ed13,FAIL,10,NO,0,NO,0,2014-04-18 11:07:22 -0400,Merge pull request #215 from markuspfeiffer/dev-migration,45,2359
+274,06d0c5d,FAIL,9,NO,0,NO,0,2014-04-18 11:18:29 -0400,Merge pull request #214 from markuspfeiffer/dev-where,47,2653
+275,d0c6055,FAIL,10,NO,0,NO,0,2014-04-20 23:44:26 +0800,changed to use TextUtils.isEmpty,47,2654
+276,12c6937,FAIL,9,NO,0,NO,0,2014-04-20 12:37:29 -0400,Merge pull request #218 from lucastan/master,47,2654
+277,2004b0f,FAIL,11,NO,0,NO,0,2014-04-21 09:49:49 -0400,Support Windows+UNIX Robolectric users.,40,2067
+278,21151b5,FAIL,9,NO,0,NO,0,2014-05-15 18:09:51 +0200,Use standard 8k-buffer to copy databases,47,2654
+279,c97998d,FAIL,10,NO,0,NO,0,2014-05-28 19:25:10 +0200,"Fix the issue #106 (https://github.com/pardom/ActiveAndroid/issues/106) When use the cursor method getColumnIndex(String columnName) and have multiple columns with same name, the android implementation not return the first index, so the model entity is filled with wrong data. Create a custom search of index and replace the usages. Also add a junit test to check the issue and the fix.",47,2715
+280,834914c,FAIL,10,NO,0,NO,0,2014-05-28 14:38:37 -0400,Merge pull request #230 from sabadow/master,47,2715
+281,f894d80,FAIL,10,NO,0,NO,0,2014-05-28 14:39:40 -0400,Merge pull request #226 from vonloxley/Perf1,47,2715
+282,df29214,FAIL,10,NO,0,NO,0,2014-05-28 14:40:02 -0400,Merge pull request #219 from jhornby/master,47,2715
+283,08c6335,FAIL,10,NO,0,NO,0,2014-10-07 10:39:58 -0400,Maven publishing.,47,2715

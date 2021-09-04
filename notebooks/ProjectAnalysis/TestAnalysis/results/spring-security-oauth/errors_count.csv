@@ -1,0 +1,20 @@
+error,count
+Failed to transform class with name org.springframework.security.oauth2.common.TestOAuth2AccessTokenJackson2Deserializer. Reason: java.io.IOException: invalid constant type: 18,6
+Failed to transform class with name org.springframework.security.oauth2.common.TestOAuth2AccessTokenJackson1Deserializer. Reason: java.io.IOException: invalid constant type: 18,6
+Failed to transform class with name org.springframework.security.oauth2.common.TestOAuth2AccessTokenJackson1Serializer. Reason: java.io.IOException: invalid constant type: 18,6
+java.lang.RuntimeException: java.io.IOException: invalid constant type: 18,180
+Failed to transform class with name org.springframework.security.oauth2.common.TestOAuth2AccessTokenJackson2Serializer. Reason: java.io.IOException: invalid constant type: 18,6
+Failed to load ApplicationContext,52
+,9
+Invalid token does not contain resource id (oauth2/admin),2
+401 Unauthorized,12
+Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused (Connection refused),10374
+"Error creating bean with name &#x27;org.springframework.security.oauth2.config.annotation.TokenServicesMultipleBeansTests&#x27;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.security.oauth2.provider.token.ResourceServerTokenServices org.springframework.security.oauth2.config.annotation.TokenServicesMultipleBeansTests.tokenServices; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type [org.springframework.security.oauth2.provider.token.ResourceServerTokenServices] is defined: expected single matching bean but found 2: consumerTokenServices,defaultAuthorizationServerTokenServices",1
+Could not initialize class org.springframework.test.context.junit4.SpringJUnit4ClassRunner,4
+Field &#x27;fTestClass&#x27; was not found in class org.junit.internal.runners.MethodValidator.,12
+com/fasterxml/jackson/core/util/DefaultIndenter,156
+Error creating bean with name &#x27;requestMappingHandlerAdapter&#x27; defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method &#x27;requestMappingHandlerAdapter&#x27; threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter,3
+"Unexpected exception, expected&lt;org.springframework.security.oauth2.client.resource.OAuth2AccessDeniedException&gt; but was&lt;java.lang.NoClassDefFoundError&gt;",3
+Error creating bean with name &#x27;springSecurityFilterChain&#x27; defined in org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method &#x27;springSecurityFilterChain&#x27; threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter,81
+Error creating bean with name &#x27;oauth2ProviderFilter&#x27;: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/util/DefaultIndenter,6
+"Unexpected exception, expected&lt;org.springframework.core.serializer.support.SerializationFailedException&gt; but was&lt;org.springframework.data.redis.RedisConnectionFailureException&gt;",74

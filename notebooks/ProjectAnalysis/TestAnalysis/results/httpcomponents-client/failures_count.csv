@@ -1,0 +1,3 @@
+exception,count
+junit.framework.AssertionFailedError,8
+java.lang.AssertionError,7

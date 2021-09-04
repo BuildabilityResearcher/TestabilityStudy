@@ -1,0 +1,18 @@
+error,count
+Message too long (sendto failed),22
+by java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: &quot;com/profiler/interceptor/TestObject&quot;,3
+java.io.IOException: invalid constant type: 18 at 15,10
+java.io.IOException: invalid constant type: 18 at 1,18
+,57
+test-hbase.properties (No such file or directory),7
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:3 channel:[id: 0x22d57317, /127.0.0.1:48988 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:CLOSED channel:[id: 0x18888a73, /127.0.0.1:49298 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x4d896d7e, /127.0.0.1:49300 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:CLOSED channel:[id: 0x10d453a8, /127.0.0.1:49814 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x648dfd05, /127.0.0.1:49842 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x7c085c22, /127.0.0.1:51374 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x31a0c6de, /127.0.0.1:51626 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:CLOSED channel:[id: 0xaf668502, /127.0.0.1:56058 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x1d1c884e, /127.0.0.1:57328 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:CLOSED channel:[id: 0xcaac9697, /127.0.0.1:58016 :&gt; localhost/127.0.0.1:10234]",1
+"com.nhn.pinpoint.common.rpc.PinpointSocketException: invalid state:RECONNECT channel:[id: 0x7ecb3528, /127.0.0.1:59624 :&gt; localhost/127.0.0.1:10234]",1

@@ -1,0 +1,12 @@
+error,count
+Failed to load ApplicationContext,318
+java.lang.Exception: my exception,3
+,15
+java.lang.SecurityException: Unsafe,1
+Could not find method [notExistMethod] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@163370c2],1
+Could not find field [notExist] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@102cec62],1
+Could not find method [notExistMethod] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@75c56eb9],1
+Could not find field [notExist] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@13bc8645],1
+Could not find method [notExistMethod] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@3eb91815],4
+Could not find field [notExist] on target [org.springside.modules.utils.reflect.ReflectionUtilTest$TestBean@15a04efb],4
+resource /test.txt not found.,1

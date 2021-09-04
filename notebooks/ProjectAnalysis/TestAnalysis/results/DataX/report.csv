@@ -1,0 +1,175 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,87a4428,FAIL,0,NO,0,NO,0,2018-01-18 18:46:27 +0800,公告,0,0
+1,7b5c356,FAIL,40,NO,0,NO,0,2018-01-25 17:01:29 +0800,v0.0,148,4425
+2,7ec3fb6,FAIL,28,NO,0,NO,0,2018-01-25 17:01:29 +0800,v0.0,148,4402
+3,4a43947,FAIL,0,NO,0,NO,0,2018-02-02 17:50:46 +0800,Delete README.md,0,0
+4,baee63f,FAIL,29,NO,0,NO,0,2018-02-02 17:53:00 +0800,fix doc,148,4402
+5,7a7967c,FAIL,27,NO,0,NO,0,2018-02-02 17:57:27 +0800,Merge https://github.com/alibaba/DataX,148,4402
+6,c6c0931,FAIL,28,NO,0,NO,0,2018-02-02 18:22:09 +0800,Update README.md,148,4402
+7,fbe6c72,FAIL,30,NO,0,NO,0,2018-02-05 21:43:21 +0800,Update userGuid.md,148,4402
+8,4608abe,FAIL,29,NO,0,NO,0,2018-02-05 21:45:15 +0800,Update userGuid.md,148,4402
+9,a768739,FAIL,29,NO,0,NO,0,2018-03-26 15:23:25 +0800,修改hbaseConfig相关描述,148,4402
+10,3d159ed,FAIL,31,NO,0,NO,0,2018-03-27 15:10:10 +0800,Merge branch 'hbasedoc' into 'master',148,4402
+11,26a6035,FAIL,30,NO,0,NO,0,2018-05-14 10:22:19 +0800,Update README.md,148,4402
+12,53aea51,FAIL,30,NO,0,NO,0,2018-05-15 17:12:05 +0800,add .gitignore,148,4402
+13,9a119ad,FAIL,30,NO,0,NO,0,2018-05-23 11:27:44 +0800,change the logic of getting orc column count in DFSUtil.java,148,4402
+14,84cfeb5,FAIL,29,NO,0,NO,0,2018-05-23 11:48:34 +0800,rm some idea files,148,4402
+15,068b1db,FAIL,30,NO,0,NO,0,2018-05-23 13:57:37 +0800,Merge pull request #93 from windpiger/orc-columncount,148,4402
+16,e47dc1d,FAIL,31,NO,0,NO,0,2018-06-07 16:30:06 +0800,add datax plugin dev wiki,148,4402
+17,e0d6d66,FAIL,30,NO,0,NO,0,2018-06-07 16:30:17 +0800,Merge branch 'master' of https://github.com/alibaba/DataX,148,4402
+18,f1f6cf3,FAIL,30,NO,0,NO,0,2018-06-07 16:32:33 +0800,add rdbmsreader and rdbmswriter wiki link,148,4402
+19,1e5ef8b,FAIL,29,NO,0,NO,0,2018-06-07 17:17:31 +0800,fix dataxPluginDev.md,148,4402
+20,3944752,FAIL,63,NO,0,NO,0,2018-07-27 11:40:07 +0800,官方的maven库tablestore-streamclient没有1.0.0-SNAPSHOT，只有1.0.0版本,148,4402
+21,94a94f2,FAIL,29,NO,0,NO,0,2018-07-31 11:45:04 +0800,Update README.md,148,4402
+22,b901b62,FAIL,29,NO,0,NO,0,2018-11-07 20:18:07 +0800,add hbase11xsqlreader,152,4564
+23,d4d1ea6,FAIL,31,NO,0,NO,0,2018-11-07 20:27:49 +0800,Merge pull request #213 from lw309637554/add-hbase11xsqlreader,152,4564
+24,24cdfc3,FAIL,29,NO,0,NO,0,2018-12-03 17:25:13 +0800,增加odpsReader官方示例中的必须参数,152,4564
+25,a57425d,FAIL,31,NO,0,NO,0,2018-12-13 15:33:44 +0800,Write AnalyticDB by adbclient,153,4573
+26,8b538d0,FAIL,30,NO,0,NO,0,2018-12-17 11:04:17 +0800,Ensure table name to lower,153,4573
+27,9232808,FAIL,28,NO,0,NO,0,2018-12-26 10:18:48 +0800,update adswriter.md,153,4573
+28,27cd1cf,FAIL,30,NO,0,NO,0,2019-01-29 17:10:28 +0800,Merge pull request #245 from wuchase/master,153,4573
+29,272f48b,FAIL,28,NO,0,NO,0,2019-02-25 17:18:24 +0800,Update README.md,153,4573
+30,db0333b,FAIL,29,NO,0,NO,0,2019-03-11 11:19:41 +0800,支持Phoenix5.x版本读写插件,155,4623
+31,eb1ea0b,FAIL,28,NO,0,NO,0,2019-03-11 11:48:22 +0800,Merge pull request #290 from bakea/master,156,4632
+32,4d70b5a,FAIL,29,NO,0,NO,0,2019-04-26 14:53:55 +0800,Add OpenTSDB reader and TSDB writer,185,5402
+33,ee1fb97,FAIL,28,NO,0,NO,0,2019-04-26 17:08:56 +0800,Merge pull request #328 from asdf2014/opentsdb2tsdb,185,5402
+34,2437bd6,FAIL,29,NO,0,NO,0,2019-04-26 17:15:50 +0800,Add OpenTSDB reader and TSDB writer into README.md,185,5402
+35,6434d8a,FAIL,30,NO,0,NO,0,2019-04-26 17:20:31 +0800,Merge pull request #329 from asdf2014/update_readme,185,5402
+36,07cb166,FAIL,28,NO,0,NO,0,2019-05-23 17:27:26 +0800,fix#342 support phoenix table name lower case.,185,5402
+37,7b0216f,FAIL,28,NO,0,NO,0,2019-05-23 18:35:32 +0800,Merge pull request #343 from bakea/master,185,5402
+38,4c62fee,FAIL,30,NO,0,NO,0,2019-05-29 11:19:02 +0800,upgrade phoenix thin client version.,185,5402
+39,20471dd,FAIL,27,NO,0,NO,0,2019-05-29 13:16:50 +0800,Merge pull request #347 from bakea/master,185,5402
+40,ca32cbd,FAIL,29,NO,0,NO,0,2019-05-29 15:20:51 +0800,hbase11xsqlwriter支持phoenix thinclient,185,5403
+41,4b99fab,FAIL,27,NO,0,NO,0,2019-05-29 15:34:24 +0800,Merge pull request #349 from qingsonggithub/master,185,5403
+42,3c21cc2,FAIL,27,NO,0,NO,0,2019-07-19 17:28:38 +0800,Merge pull request #1 from alibaba/master,185,5403
+43,ff70dfb,FAIL,27,NO,0,NO,0,2019-07-23 12:07:57 +0800,"hbase11xreader和hbase11xwritter增加阿里云hbase增强版connector依赖,支持hbase增强版的导入导出",185,5403
+44,87b9e09,FAIL,26,NO,0,NO,0,2019-07-23 17:06:23 +0800,Merge pull request #395 from qingsonggithub/master,185,5403
+45,8059bba,FAIL,28,NO,0,NO,0,2019-07-25 11:12:52 +0800,add adbpgwriter plugin,191,5590
+46,6f79843,FAIL,27,NO,0,NO,0,2019-07-25 11:30:58 +0800,add adbpgwriter plugin,191,5590
+47,864ce4d,FAIL,26,NO,0,NO,0,2019-08-01 19:36:26 +0800,change package structure,191,5590
+48,256c65b,FAIL,28,NO,0,NO,0,2019-08-05 21:03:55 +0800,delete the unused file e 'duplicate',191,5590
+49,272c650,FAIL,28,NO,0,NO,0,2019-08-06 10:49:17 +0800,钉钉群,185,5403
+50,95ccebb,FAIL,27,NO,0,NO,0,2019-08-06 10:51:38 +0800,Delete dingding.jpg,185,5403
+51,88736cb,FAIL,27,NO,0,NO,0,2019-08-06 10:51:59 +0800,dingding,185,5403
+52,469a59f,FAIL,30,NO,0,NO,0,2019-08-06 11:32:12 +0800,Update pom.xml,191,5590
+53,6306a00,FAIL,26,NO,0,NO,0,2019-08-07 09:36:13 +0800,用户群,185,5403
+54,961c02b,FAIL,26,NO,0,NO,0,2019-08-16 17:02:33 +0800,update datax official email,185,5403
+55,05a000d,FAIL,26,NO,0,NO,0,2019-08-16 17:05:51 +0800,Merge pull request #411 from wuchase/master,191,5590
+56,de58309,FAIL,33,NO,0,NO,0,2019-09-02 17:32:21 +0800,Fix otsstreamreader compile failure.,191,5590
+57,1dbd39e,FAIL,27,NO,0,NO,0,2019-09-02 18:06:15 +0800,add gdbwriter plugin,206,6236
+58,57c8dd8,FAIL,26,NO,0,NO,0,2019-09-05 22:02:54 +0800,Merge pull request #429 from heljoyLiu/master,206,6236
+59,c64dab4,FAIL,27,NO,0,NO,0,2019-09-20 14:16:25 +0800,[fix]throw dataXException,206,6236
+60,de093d7,FAIL,141,NO,0,NO,0,2019-09-29 18:14:01 +0800,更改 pom 版本号，解决外网用户无法编译通过。   datax pom 增加 aliyun 仓库镜像   odpsreader 和 writer pom 修改 odps-sdk-core 为 0.20.7， 0.19.3 外网无法使用   otsstreamreader pom 修改 client 为 1.0.0 正式版,206,6236
+61,2f8cc74,FAIL,27,NO,0,NO,0,2019-10-11 16:30:56 +0800,cassandra plugins,207,6322
+62,1037110,FAIL,25,NO,0,NO,0,2019-10-11 16:51:06 +0800,Merge pull request #471 from sufism/cassandra,207,6322
+63,ad3e8d6,FAIL,25,NO,0,NO,0,2019-10-31 11:34:21 +0800,Update osswriter.md,207,6322
+64,0af1933,FAIL,29,NO,0,NO,0,2019-11-08 15:08:16 +0800,Bump jdk to 1.8,207,6322
+65,dd19fd4,FAIL,27,NO,0,NO,0,2019-11-08 16:52:39 +0800,Add TSDB Reader,221,6682
+66,aec036b,FAIL,27,NO,0,NO,0,2019-11-08 20:02:05 +0800,Merge pull request #494 from asdf2014/github_bump_jdk8,207,6322
+67,928300f,FAIL,27,NO,0,NO,0,2019-11-08 20:03:20 +0800,Merge pull request #495 from asdf2014/github_tsdb_reader,221,6682
+68,c2effde,FAIL,27,NO,0,NO,0,2019-11-08 20:14:55 +0800,Add TSDB Reader into README doc,221,6682
+69,a301cf5,FAIL,29,NO,0,NO,0,2019-11-08 20:30:12 +0800,Merge pull request #499 from asdf2014/github_readme,221,6682
+70,30cc3d5,FAIL,27,NO,0,NO,0,2019-11-14 10:30:24 +0800,Update userGuid.md,221,6682
+71,c4bf777,FAIL,300,NO,0,NO,0,2019-11-19 17:39:43 +0800,Merge branch 'master' into master,221,6682
+72,f76d5cd,FAIL,126,NO,0,NO,0,2019-12-11 11:22:39 +0800,Merge pull request #467 from wanda1416/master,221,6682
+73,235d4d3,FAIL,139,NO,0,NO,0,2020-02-06 00:31:15 +0800,fix bug  DataXException is not work .,221,6682
+74,e1b1354,FAIL,301,NO,0,NO,0,2020-02-12 17:01:10 +0800,Update wiki for current support,221,6682
+75,9af6dfa,FAIL,126,NO,0,NO,0,2020-02-17 19:56:27 +0800,Update osswriter.md,221,6682
+76,643b6e9,FAIL,139,NO,0,NO,0,2020-02-17 20:02:07 +0800,Merge pull request #593 from dataccs/patch-1,221,6682
+77,07022e1,FAIL,136,NO,0,NO,0,2020-03-27 16:10:51 +0800,修改dataxPluginDev.md文件中的文字错误,221,6682
+78,d6b70be,FAIL,301,NO,0,NO,0,2020-03-27 17:09:13 +0800,dataxPluginDev.md中把插件写成穿件了,221,6682
+79,2484343,FAIL,301,NO,0,NO,0,2020-04-10 15:43:28 +0800,gdbwriter: update to support set-property,222,6844
+80,e09ec84,FAIL,123,NO,0,NO,0,2020-04-10 16:03:38 +0800,gdbwriter: update readme doc,222,6844
+81,05d1851,FAIL,300,NO,0,NO,0,2020-04-13 10:29:33 +0800,gdbreader: reader for Aliyun GDB,231,7202
+82,d9f2f4a,FAIL,139,NO,0,NO,0,2020-04-14 21:22:23 +0800,Add Clickhouse Writer,221,6682
+83,74b776c,FAIL,140,NO,0,NO,0,2020-04-20 15:00:47 +0800,Merge pull request #644 from tujiye/datax_clickhouse_writer,221,6682
+84,0631ad6,FAIL,300,NO,0,NO,0,2020-04-23 11:36:47 +0800,Merge pull request #639 from heljoyLiu/new-plugin-gdbreader,231,7202
+85,3b3fa87,FAIL,301,NO,0,NO,0,2020-04-23 11:48:37 +0800,Merge pull request #635 from heljoyLiu/pulgin-gdb-update-to-set-property,232,7364
+86,b8428ef,FAIL,301,NO,0,NO,0,2020-05-13 17:55:16 +0800,Update ftpwriter.md,232,7364
+87,f09515c,FAIL,137,NO,0,NO,0,2020-05-25 13:43:47 +0800,Update mysqlwriter.md,232,7364
+88,5891b49,FAIL,137,NO,0,NO,0,2020-05-25 16:10:38 +0800,Fix missing simulator package #661 #676,232,7364
+89,f75321f,FAIL,301,NO,0,NO,0,2020-05-26 01:51:08 +0800,Update odpswriter.md,232,7364
+90,e2aed2e,FAIL,301,NO,0,NO,0,2020-05-26 05:17:24 +0800,Merge pull request #694 from dataccs/patch-2,232,7364
+91,f0db813,FAIL,121,NO,0,NO,0,2020-06-02 15:10:59 +0800,更新postgresqlwriter.md文件中关于*未展示的问题,232,7364
+92,66de851,FAIL,300,NO,0,NO,0,2020-06-19 15:24:24 +0800,Update txtfilewriter.md,232,7364
+93,21f2539,FAIL,136,NO,0,NO,0,2020-07-03 14:47:28 +0800,补充mongodbreader文档，修正部分文档错误。,232,7364
+94,1a2ca67,FAIL,124,NO,0,NO,0,2020-07-08 15:01:14 +0800,Update oraclereader.md,232,7364
+95,d763fa3,FAIL,301,NO,0,NO,0,2020-07-21 15:03:26 +0800,修复rdbmsreader插件，无法plugin.json下驱动，导致数据库连接报错问题,232,7364
+96,04d0937,FAIL,301,NO,0,NO,0,2020-07-21 15:03:40 +0800,修复rdbmswriter插件，无法plugin.json下驱动，导致数据库连接报错问题,232,7364
+97,4150aab,FAIL,135,NO,0,NO,0,2020-07-28 15:15:17 +0800,FQA->FAQ,232,7364
+98,561d900,FAIL,300,NO,0,NO,0,2020-08-05 16:53:38 +0800,Merge pull request #777 from coderxiao/patch-1,232,7364
+99,937abd5,FAIL,301,NO,0,NO,0,2020-08-05 16:54:46 +0800,Merge pull request #754 from XuDaojie/dev-xdj,232,7364
+100,a375618,FAIL,301,NO,0,NO,0,2020-08-05 16:55:09 +0800,Merge pull request #762 from randomGear/patch-1,232,7364
+101,acb7e5c,FAIL,300,NO,0,NO,0,2020-08-05 16:55:46 +0800,Merge pull request #733 from tofuHero/patch-2,232,7364
+102,7c1dca3,FAIL,123,NO,0,NO,0,2020-08-05 16:56:56 +0800,Merge pull request #674 from duyong6380/master,232,7364
+103,7c464eb,FAIL,301,NO,0,NO,0,2020-08-05 16:57:35 +0800,Merge pull request #692 from Willian-Zhang/patch-1,232,7364
+104,9fa4956,FAIL,121,NO,0,NO,0,2020-08-05 16:58:13 +0800,Merge pull request #693 from RiverLiu/master,232,7364
+105,cd6bbb6,FAIL,124,NO,0,NO,0,2020-08-05 16:58:54 +0800,Merge pull request #703 from Galthen/patch-1,232,7364
+106,82f86a3,FAIL,122,NO,0,NO,0,2020-08-05 16:59:35 +0800,Merge pull request #626 from sqdf1990/modify_dataxPluginDev_md,232,7364
+107,78f319e,FAIL,125,NO,0,NO,0,2020-08-05 17:00:21 +0800,Merge pull request #504 from woaer/patch-1,232,7364
+108,f0c9e58,FAIL,301,NO,0,NO,0,2020-08-05 17:01:45 +0800,Merge pull request #447 from lzrlizhirong/master,232,7364
+109,8583cb3,FAIL,300,NO,0,NO,0,2020-08-05 17:02:38 +0800,Merge pull request #229 from csurong/csurong_dev,232,7364
+110,5419d04,FAIL,300,NO,0,NO,0,2020-08-05 17:04:19 +0800,Merge pull request #486 from c-agam/patch-1,232,7364
+111,024e7f4,FAIL,301,NO,0,NO,0,2020-08-05 17:04:58 +0800,Merge pull request #587 from BoYiZhang/master,232,7364
+112,7d239d5,FAIL,121,NO,0,NO,0,2020-08-05 17:11:06 +0800,Merge pull request #771 from lazlaz/master,232,7364
+113,7666c5e,FAIL,301,NO,0,NO,0,2020-08-05 17:12:57 +0800,Merge pull request #428 from zhouzf05/master,232,7364
+114,a9b77e4,FAIL,300,NO,0,NO,0,2020-08-05 17:18:22 +0800,Merge pull request #149 from springCat/master,232,7364
+115,066df49,FAIL,127,NO,0,NO,0,2020-08-12 11:59:15 +0800,Update README.md,232,7364
+116,6e2df55,FAIL,300,NO,0,NO,0,2020-08-12 12:27:20 +0800,Add files via upload,232,7364
+117,dee608b,FAIL,301,NO,0,NO,0,2020-08-12 12:41:59 +0800,Update README.md,232,7364
+118,6641150,FAIL,301,NO,0,NO,0,2020-08-12 15:18:33 +0800,gdbwriter: update column index prefix,232,7364
+119,f6afdef,FAIL,301,NO,0,NO,0,2020-08-12 15:22:18 +0800,Merge pull request #793 from heljoyLiu/master,232,7364
+120,7ac827b,FAIL,300,NO,0,NO,0,2020-08-31 21:28:39 +0800,update fastjson version,232,7364
+121,c83c5d1,FAIL,108,NO,0,NO,0,2020-08-31 21:29:42 +0800,Merge pull request #812 from alibaba/json_update,232,7364
+122,329e9c7,FAIL,107,NO,0,NO,0,2020-09-17 15:14:45 +0800,Add kingbasees plug-in.,233,7367
+123,155279c,FAIL,108,NO,0,NO,0,2020-09-21 15:02:52 +0800,kuduwriter,241,7738
+124,d6daf9c,FAIL,109,NO,0,NO,0,2020-09-21 15:21:09 +0800,readme and doc update,241,7738
+125,1371d35,FAIL,109,NO,0,NO,0,2020-09-22 01:26:42 +0800,Merge pull request #830 from HanHuimin001/master,233,7367
+126,ff1f961,FAIL,301,NO,0,NO,0,2020-09-22 11:46:14 +0800,Merge pull request #836 from Mr-KIDBK/kuduwriter_branch,242,7741
+127,098eb9f,FAIL,109,NO,0,NO,0,2020-09-28 10:57:46 +0800,kuduwriter_branch,240,7543
+128,8487eee,FAIL,108,NO,0,NO,0,2020-09-28 13:31:41 +0800,Merge pull request #844 from Mr-KIDBK/kuduwriter_branch,241,7546
+129,55e3e3e,FAIL,300,NO,0,NO,0,2020-09-29 15:35:01 +0800,update phoenix client version to 5.2.5,241,7546
+130,aafcac8,FAIL,301,NO,0,NO,0,2020-09-29 16:46:45 +0800,Merge pull request #847 from fly2best/feature/udpate-phx-version,241,7546
+131,54146d1,FAIL,121,NO,0,NO,0,2020-10-13 10:00:50 +0800,Merge pull request #1 from alibaba/master,241,7546
+132,3c03fed,FAIL,300,NO,0,NO,0,2020-10-13 06:42:47 +0000,Bump junit from 4.11 to 4.13.1,241,7546
+133,6dda19a,FAIL,108,NO,0,NO,0,2020-10-23 11:36:31 +0800,"fix hbase11xsqlreader ""No suitable driver found for jdbc:phoenix:xxx"" error""",241,7546
+134,f318dbf,FAIL,121,NO,0,NO,0,2020-10-23 20:09:22 +0800,Merge pull request #869 from fly2best/hbase11xsqlreader-no-suit-driver-err,241,7546
+135,a35b0e2,FAIL,108,NO,0,NO,0,2020-10-28 17:41:16 +0800,更新mongodb文档地址正确路径,241,7546
+136,6a5a6e0,FAIL,301,NO,0,NO,0,2020-11-09 21:20:56 +0800,add aliyun dataworks di description,241,7546
+137,30842ca,FAIL,108,NO,0,NO,0,2020-11-09 21:22:10 +0800,Merge pull request #871 from datagic/patch-1,241,7546
+138,3fd9c0a,FAIL,301,NO,0,NO,0,2020-11-17 18:07:44 +0800,Merge pull request #3 from alibaba/master,241,7546
+139,80860c2,FAIL,108,NO,0,NO,0,2020-10-13 10:26:58 +0800,bug fix and write speed optimization,241,7546
+140,00d8e97,FAIL,109,NO,0,NO,0,2020-10-13 20:23:27 +0800,bug fix and write speed optimization,241,7546
+141,809cffc,FAIL,108,NO,0,NO,0,2020-10-14 20:35:19 +0800, hdfs writer adds overwirte mode,241,7546
+142,b4a3eeb,FAIL,300,NO,0,NO,0,2020-10-14 20:39:25 +0800,"support for ""splitFactor"" parameterization",241,7547
+143,46a5e90,FAIL,301,NO,0,NO,0,2020-10-15 09:25:07 +0800,"support for ""splitFactor"" parameterization",241,7547
+144,dabb9a2,FAIL,300,NO,0,NO,0,2020-10-15 09:26:19 +0800,"support for ""splitFactor"" parameterization",241,7547
+145,3fb7fe7,FAIL,108,NO,0,NO,0,2020-11-17 19:12:24 +0800,"support for ""splitFactor"" parameterization",241,7547
+146,544debd,FAIL,121,NO,0,NO,0,2020-12-01 11:15:43 +0800,Update README.md,241,7546
+147,3f9e236,FAIL,301,NO,0,NO,0,2020-12-01 11:35:32 +0800,Merge pull request #898 from wenshao/patch-1,241,7546
+148,b4e1673,FAIL,300,NO,0,NO,0,2020-12-11 16:36:37 +0800,Merge pull request #888 from Mr-KIDBK/kuduwriter,241,7546
+149,96120c7,FAIL,110,NO,0,NO,0,2020-12-11 17:17:15 +0800,Merge pull request #5 from alibaba/master,241,7546
+150,ed59373,FAIL,300,NO,0,NO,0,2020-12-11 17:22:45 +0800,Merge pull request #7 from Mr-KIDBK/master,241,7547
+151,bcf800e,FAIL,113,NO,0,NO,0,2020-12-11 17:31:47 +0800,修改overwrite为truncate,241,7547
+152,42e50f6,FAIL,121,NO,0,NO,0,2020-12-11 17:44:47 +0800,Merge pull request #889 from Mr-KIDBK/dev,241,7547
+153,5485fb3,FAIL,301,NO,0,NO,0,2020-12-17 16:23:50 +0800,支持神通数据库写,243,7621
+154,a35bddc,FAIL,112,NO,0,NO,0,2021-01-08 14:58:53 +0800,https://github.com/alibaba/DataX/issues/390 mysql数据同步时json字段类型中文乱码 https://bugs.mysql.com/bug.php?id=80631,241,7547
+155,e7bdc26,FAIL,110,NO,0,NO,0,2021-01-08 17:51:30 +0800,关系型数据库通用writer的jdbcUrl默认配置调用函数错误,241,7547
+156,629050d,FAIL,109,NO,0,NO,0,2021-01-13 19:30:14 +0800,Update README.md,241,7547
+157,50e9e6f,FAIL,301,NO,0,NO,0,2021-01-19 22:10:49 +0800,Merge pull request #942 from meifu2027/patch-1,241,7547
+158,754fe7b,FAIL,300,NO,0,NO,0,2021-01-19 22:13:24 +0800,Merge pull request #858 from alibaba/dependabot/maven/junit-junit-4.13.1,241,7547
+159,3453304,FAIL,301,NO,0,NO,0,2021-01-26 20:55:06 +0800,升级httpclient及fluent-hc版本,241,7547
+160,9a188b4,FAIL,301,NO,0,NO,0,2021-01-26 21:02:51 +0800,Upgrade httpclient version 4.4->4.5,241,7547
+161,1039a60,FAIL,300,NO,0,NO,0,2021-01-26 21:05:22 +0800,Upgrade httpclient version 4.4->4.5,241,7547
+162,d338162,FAIL,301,NO,0,NO,0,2021-01-26 21:23:50 +0800,Upgrade httpclient version 4.4->4.5,241,7547
+163,4097c01,FAIL,300,NO,0,NO,0,2021-02-03 10:47:53 +0800,Merge pull request #917 from 1471914707/master,243,7621
+164,33e6ace,FAIL,301,NO,0,NO,0,2021-02-03 10:55:48 +0800,Merge pull request #951 from carvinhappy/carvinhappy-upgrade-httpclient-version,243,7621
+165,2294662,FAIL,300,NO,0,NO,0,2021-03-18 13:48:26 +0800,Merge pull request #939 from siwuai/master,243,7621
+166,6c3fb66,FAIL,301,NO,0,NO,0,2021-03-18 13:51:12 +0800,Merge pull request #938 from qixiaobo/fix-json-wrong-encode,243,7621
+167,d3bd2c5,FAIL,301,NO,0,NO,0,2021-05-20 17:22:58 +0800,add oceanbase plugins,255,8132
+168,6061010,FAIL,300,NO,0,NO,0,2021-05-20 19:49:06 +0800,add ob jar files.,255,8132
+169,32b703c,FAIL,212,NO,0,NO,0,2021-05-20 20:57:50 +0800,Merge pull request #1026 from johnrobbet/master,255,8132
+170,53e4c82,FAIL,301,NO,0,NO,0,2021-05-28 15:14:31 +0800,更新 readme 文档说明,255,8132
+171,2137e27,FAIL,300,NO,0,NO,0,2021-05-28 16:14:11 +0800,"update readme info, add more infomation for datax",255,8132
+172,f366328,FAIL,301,NO,0,NO,0,2021-06-10 20:30:31 +0800,add jar files needed by ob reader/writer.,255,8132
+173,3ea5ec7,FAIL,300,NO,0,NO,0,2021-06-10 22:23:09 +0800,Merge pull request #1045 from johnrobbet/master,255,8132

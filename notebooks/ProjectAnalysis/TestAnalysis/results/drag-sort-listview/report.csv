@@ -1,0 +1,166 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,21ce78b,FAIL,0,NO,0,NO,0,2012-06-01 00:36:22 -0600,first commit,0,0
+1,2d98971,FAIL,0,NO,0,NO,0,2012-06-04 01:03:37 -0600,Adding files of library project.,1,705
+2,7afa293,FAIL,0,NO,0,NO,0,2012-06-08 19:06:39 -0600,Added untested support for arbitrary list item heights,1,672
+3,79e74e0,FAIL,0,NO,0,NO,0,2012-06-09 01:34:57 -0600,Expansion/Collapse of items no longer ruins scroll increment,1,687
+4,288a5a4,FAIL,0,NO,0,NO,0,2012-06-09 01:34:57 -0600,Expansion/Collapse of items no longer ruins scroll increment,1,682
+5,6f180c5,FAIL,0,NO,0,NO,0,2012-06-09 14:32:33 -0600,Merge remote branch 'origin/master',1,682
+6,ee43063,FAIL,0,NO,0,NO,0,2012-06-09 18:42:47 -0600,Fixed recycled src item not expanding in getView,1,682
+7,9574cae,FAIL,0,NO,0,NO,0,2012-06-10 00:12:43 -0600,Added margin support,1,686
+8,b2d36d4,FAIL,0,NO,0,NO,0,2012-06-10 00:19:17 -0600,Added demo/ sub-project,6,931
+9,bac7b04,FAIL,0,NO,0,NO,0,2012-06-11 00:35:32 -0500,Added to README; testing github formatting,6,931
+10,8697ce4,FAIL,0,NO,0,NO,0,2012-06-11 00:42:43 -0500,README -> README.md,6,931
+11,fbdbc07,FAIL,0,NO,0,NO,0,2012-06-11 15:31:51 -0500,More README documentation,6,931
+12,09343b3,FAIL,0,NO,0,NO,0,2012-06-15 11:22:18 -0500,Intermediate commit; improving arbitrary item height behavior,6,1040
+13,3080e88,FAIL,0,NO,0,NO,0,2012-06-22 00:57:00 -0600,Updated method for handling arb size items; added dslv.py tool,6,1073
+14,dd2507e,FAIL,0,NO,0,NO,0,2012-06-22 01:16:13 -0600,Define acronym DSLV,6,1073
+15,2a87c07,FAIL,0,NO,0,NO,0,2012-06-22 01:21:16 -0600,Retabbed DSLV file for better github viewing; attempt 1,6,1073
+16,db9fc39,FAIL,0,NO,0,NO,0,2012-06-22 23:10:02 -0600,README grammar fixes,6,1073
+17,6453142,FAIL,0,NO,0,NO,0,2012-06-24 17:08:51 -0600,Cleaned up examples and some comments in DSLV,6,1070
+18,02bb8bc,FAIL,0,NO,0,NO,0,2012-06-26 23:23:26 -0600,Created subdirs under src/ to reflect package name,6,1070
+19,a41751b,FAIL,0,NO,0,NO,0,2012-06-27 21:11:38 -0600,Started adding detailed usage instructions,6,1070
+20,660c9ae,FAIL,0,NO,0,NO,0,2012-06-28 00:49:10 -0600,New documentation and cleaned up dslv attributes,6,1073
+21,70529b2,FAIL,0,NO,0,NO,0,2012-06-28 00:58:30 -0600,Doc fixes,6,1073
+22,011eb52,FAIL,0,NO,0,NO,0,2012-07-17 22:40:04 -0600,Fixed: Issues #2 and #4,6,1074
+23,d3c1b46,FAIL,0,NO,0,NO,0,2012-07-19 23:42:43 -0600,Previous fix for issue #2 introduced bug--squashed,6,1074
+24,e4e0c64,FAIL,0,NO,0,NO,0,2012-07-19 23:57:21 -0600,README update: debugging enabled by XML attribute,6,1074
+25,cc2e402,FAIL,0,NO,0,NO,0,2012-07-20 10:11:39 -0600,Fix typo in README,6,1074
+26,2321b6f,FAIL,0,NO,0,NO,0,2012-07-23 10:55:40 -0600,Remove more jumpy drag-scroll + minor changes,6,1087
+27,bfaa3b3,FAIL,0,NO,0,NO,0,2012-07-23 23:19:34 -0600,Remove flicker on initial drag from src position,6,1093
+28,1aa2031,FAIL,0,NO,0,NO,0,2012-08-07 18:42:16 -0700,Fix #7: Cancel drag-sort when Adapter is replaced,6,1094
+29,d21f2c8,FAIL,0,NO,0,NO,0,2012-08-10 02:34:17 +0100,"When the drag starts, the parent no longer intercepts our touch events",6,1076
+30,839b622,FAIL,0,NO,0,NO,0,2012-08-10 02:20:51 +0100,Fixes drag-scroll regions,6,1088
+31,07d96ee,FAIL,0,NO,0,NO,0,2012-08-09 20:40:58 -0700,Merge pull request #10 from heavyplayer/intercept_touch_event_fix,6,1076
+32,c969de0,FAIL,0,NO,0,NO,0,2012-08-09 22:05:41 -0700,Merge remote-tracking branch 'heavyplayer/drag_scroll_regions_fix',6,1076
+33,a9e25b9,FAIL,0,NO,0,NO,0,2012-08-09 22:12:35 -0700,Roll back MATCH_PARENT to FILL_PARENT,6,1076
+34,30849b1,FAIL,0,NO,0,NO,0,2012-08-14 11:47:20 -0700,Add short list demo,7,1115
+35,c8e52ef,FAIL,0,NO,0,NO,0,2012-08-23 13:35:39 -0600,Fix #14: left float alignment with margins/padding,8,1136
+36,14ad9d8,FAIL,0,NO,0,NO,0,2012-08-24 11:11:41 -0600,Add zip/tar.gz packaging tool,8,1136
+37,6baa052,FAIL,0,NO,0,NO,0,2012-08-24 11:58:05 -0600,Fix #15: visible source item while dragging,8,1137
+38,bd43110,FAIL,0,NO,0,NO,0,2012-08-30 00:28:46 -0700,Draw divider on expanded item while dragging,8,1160
+39,2857a1a,FAIL,0,NO,0,NO,0,2012-08-30 00:36:43 -0700,Remove debug logging in divider draw,8,1159
+40,a9cd919,FAIL,0,NO,0,NO,0,2012-08-30 23:03:44 +0200,Correctly handle SLIDELEFT + Correct rare crash,8,1171
+41,289b455,FAIL,0,NO,0,NO,0,2012-08-31 11:06:20 +0200,"Revert ""Correctly handle SLIDELEFT + Correct rare crash""",8,1159
+42,dc97e33,FAIL,0,NO,0,NO,0,2012-08-31 11:10:27 +0200,Correct handle of SLIDELEFT + Rare crash,8,1171
+43,382f987,FAIL,0,NO,0,NO,0,2012-08-31 11:21:51 +0200,"Revert ""Correct handle of SLIDELEFT + Rare crash""",8,1159
+44,0982ad7,FAIL,0,NO,0,NO,0,2012-08-31 11:23:39 +0200,test,8,1160
+45,33a277f,FAIL,0,NO,0,NO,0,2012-08-31 11:26:15 +0200,Correctly handle SLIDELEFT + fix rare crash,8,1171
+46,8a2be5c,FAIL,0,NO,0,NO,0,2012-09-02 09:56:31 +0200,ignore gitattributes and move getchild to using block,8,1171
+47,46aeefd,FAIL,0,NO,0,NO,0,2012-09-02 09:58:26 +0200,.,8,1171
+48,2d43c6d,FAIL,0,NO,0,NO,0,2012-09-02 09:58:57 +0200,.,8,1171
+49,78229ff,FAIL,0,NO,0,NO,0,2012-09-02 08:16:55 -0700,Merge pull request #16 from Tolriq/master,8,1171
+50,ca8ba14,FAIL,0,NO,0,NO,0,2012-09-08 13:09:28 +0200,Fix another rare crash,8,1172
+51,2ac9b72,FAIL,0,NO,0,NO,0,2012-09-08 09:05:26 -0700,Merge pull request #18 from Tolriq/master,8,1172
+52,21be489,FAIL,0,NO,0,NO,0,2012-09-17 23:15:08 +0200,"Add opacity (alpha) as optional value for the floating image.  Defaults to 255, i.e. fully opaque.",8,1175
+53,52ea7a8,FAIL,0,NO,0,NO,0,2012-09-17 16:31:18 -0700,Implement slide shuffle; intermediate save,8,1299
+54,5597f6a,FAIL,0,NO,0,NO,0,2012-09-17 22:52:51 -0700,Add float View alpha option to xml attrs,8,1175
+55,027c415,FAIL,0,NO,0,NO,0,2012-09-17 23:25:37 -0700,Merge branch 'master' into slide_shuffle,8,1303
+56,0d0c34d,FAIL,0,NO,0,NO,0,2012-09-18 10:01:32 -0700,Slide shuffle intermediate save,8,1339
+57,27a005e,FAIL,0,NO,0,NO,0,2012-09-18 10:04:38 -0700,Enable remove mode in demos,8,1175
+58,c675014,FAIL,0,NO,0,NO,0,2012-09-18 15:16:47 -0700,Merge branch 'master' into slide_shuffle,8,1339
+59,9046484,FAIL,0,NO,0,NO,0,2012-09-20 03:24:48 -0700,Slide shuffle work; offline commit,8,1167
+60,14ea752,FAIL,0,NO,0,NO,0,2012-09-21 02:36:23 -0700,Slide shuffle; work in progress commit,8,1169
+61,d7ade7f,FAIL,0,NO,0,NO,0,2012-09-22 02:09:13 -0700,Update debug tool; glitches while scrolling,8,1193
+62,633fb93,FAIL,0,NO,0,NO,0,2012-09-23 01:58:30 -0700,Smooth animated drag-sorting! Clean-up remains.,8,1194
+63,be39035,FAIL,0,NO,0,NO,0,2012-09-24 00:36:02 -0700,Fix crash on upward overscroll,8,1197
+64,f3a30f8,FAIL,0,NO,0,NO,0,2012-09-25 01:54:19 -0700,Enable slide shuffle when dragging,8,1197
+65,0b8779d,FAIL,0,NO,0,NO,0,2012-09-25 09:39:57 -0700,Added note on @id/drag,8,1175
+66,7457d4d,FAIL,0,NO,0,NO,0,2012-09-25 11:24:00 -0700,Merge pull request #23 from imminent/patch-1,8,1175
+67,3b58a81,FAIL,0,NO,0,NO,0,2012-09-26 01:19:45 -0700,Put most of drag-sort logic in layoutChildren(),8,1193
+68,6449e17,FAIL,0,NO,0,NO,0,2012-09-26 02:03:57 -0700,Documentation!,8,1187
+69,208a7d2,FAIL,0,NO,0,NO,0,2012-09-26 02:10:18 -0700,Remove unused private function before bed,8,1182
+70,24a3855,FAIL,0,NO,0,NO,0,2012-09-26 12:49:44 -0700,Overhaul README,8,1187
+71,198f0cf,FAIL,0,NO,0,NO,0,2012-09-26 12:52:54 -0700,Update README,8,1187
+72,2c67f0b,FAIL,0,NO,0,NO,0,2012-09-26 12:55:08 -0700,Update README,8,1187
+73,38011a8,FAIL,0,NO,0,NO,0,2012-09-26 12:57:27 -0700,Update README,8,1187
+74,9e87c8f,FAIL,0,NO,0,NO,0,2012-09-26 13:02:27 -0700,README update,8,1187
+75,33a2321,FAIL,0,NO,0,NO,0,2012-09-26 13:04:20 -0700,Merge branch 'slide_shuffle',8,1187
+76,7054228,FAIL,0,NO,0,NO,0,2012-09-26 23:55:14 -0700,Fix slide shuffle bug,8,1187
+77,4890331,FAIL,0,NO,0,NO,0,2012-09-30 21:41:24 -0700,Fix #26 and many other slide shuffle issues,8,1229
+78,f82b726,FAIL,0,NO,0,NO,0,2012-10-01 23:18:45 -0700,Begin conforming to ListView coding standard,8,1236
+79,9505e66,FAIL,0,NO,0,NO,0,2012-10-03 14:20:02 -0700,Fix #30; header/footer heights are special!,8,1248
+80,84cc418,FAIL,0,NO,0,NO,0,2012-10-03 20:38:19 -0700,"Cleanup res/{layout,drawable*,values}/ in library",8,1248
+81,89e21d4,FAIL,0,NO,0,NO,0,2012-10-04 12:20:09 +0100,Remove warnings in demos,8,1232
+82,7668ce1,FAIL,0,NO,0,NO,0,2012-10-04 12:50:56 +0100,Demo: avoid listing the launcher in the list of demos,8,1236
+83,0b28db3,FAIL,0,NO,0,NO,0,2012-10-04 13:52:13 +0100,Add a demo for fling-to-remove,9,1248
+84,acdf4c5,FAIL,0,NO,0,NO,0,2012-10-04 14:59:17 +0100,Don't start a drag immediately on touch down,9,1274
+85,f73c4e1,FAIL,0,NO,0,NO,0,2012-10-04 15:20:52 +0100,Add a demo for handling item clicks when the whole item is draggable,10,1320
+86,5616ffa,FAIL,0,NO,0,NO,0,2012-10-05 15:48:17 +0100,Improve long-press support,11,1364
+87,ca593ba,FAIL,0,NO,0,NO,0,2012-10-11 10:07:10 +0100,Update README with Eclipse import instructions,8,1248
+88,eb956cd,FAIL,0,NO,0,NO,0,2012-10-11 09:40:32 -0700,Merge pull request #37 from orac/topic/eclipse,8,1248
+89,3d5ae81,FAIL,16,NO,0,NO,0,2012-10-05 12:31:41 +0200,Added Project Object Model for Maven2,8,1248
+90,42e4d91,FAIL,4,NO,0,NO,0,2012-10-09 11:33:35 +0200,added maven-eclipse-plugin,8,1248
+91,8ca2515,FAIL,0,NO,0,NO,0,2012-10-19 00:47:57 -0700,Major update: allow DSLV customization,14,1850
+92,b397d27,FAIL,0,NO,0,NO,0,2012-10-19 01:13:34 -0700,Merge branch 'orac_click',14,1850
+93,bcce0ff,FAIL,0,NO,0,NO,0,2012-10-19 01:36:33 -0700,Fix XML controller default; README fix,14,1850
+94,5986712,FAIL,0,NO,0,NO,0,2012-10-19 03:17:59 -0700,Link to API docs,14,1850
+95,e1469bb,FAIL,0,NO,0,NO,0,2012-10-19 03:19:33 -0700,README quick fix,14,1850
+96,38acd55,FAIL,0,NO,0,NO,0,2012-10-19 03:21:30 -0700,README quick fix 2,14,1850
+97,2f0c8bb,FAIL,0,NO,0,NO,0,2012-10-19 12:47:33 -0700,Fix #40: start position drop fails,14,1852
+98,343030b,FAIL,0,NO,0,NO,0,2012-10-20 00:08:24 -0700,Example of floating View control,15,2004
+99,d5124df,FAIL,0,NO,0,NO,0,2012-10-27 13:38:49 -0600,Make item layout current for onDragFloatView,15,2144
+100,63260b8,FAIL,0,NO,0,NO,0,2012-10-28 15:28:24 -0700,Cleanup and restore float bg color xml option,15,2028
+101,bab3968,FAIL,0,NO,0,NO,0,2012-10-30 00:44:08 -0700,Add DragSortCursorAdapter helper classes,22,2498
+102,c9dee9e,FAIL,0,NO,0,NO,0,2012-10-30 16:30:25 -0700,Documentation of DragSortCursorAdapter,22,2498
+103,a5d9ba1,FAIL,0,NO,0,NO,0,2012-10-30 16:31:20 -0700,Add doc-builder tool,22,2498
+104,143696e,FAIL,5,NO,0,NO,0,2012-10-31 13:53:52 -0700,Merge remote-tracking branch 'goonie/master' into maven,22,2498
+105,eee66b3,FAIL,7,NO,0,NO,0,2012-10-05 12:31:41 +0200,Added Project Object Model for Maven2,22,2498
+106,e28b1e0,FAIL,0,NO,0,NO,0,2012-11-10 17:06:20 -0800,Optimize item shuffling underneath floating View,23,2548
+107,ca6bf4c,FAIL,5,NO,0,NO,0,2012-11-10 17:55:40 -0800,Merge remote-tracking branch 'goonie/mavenize' into maven,22,2498
+108,1151e5e,FAIL,5,NO,0,NO,0,2012-11-11 14:18:45 -0800,Merge branch 'master' into maven,23,2548
+109,3fa70ab,FAIL,9,NO,0,NO,0,2012-11-11 23:09:31 -0800,Mavenize and update directory structure,23,2548
+110,05460d1,FAIL,6,NO,0,NO,0,2012-11-11 23:39:51 -0800,Update README for maven use,23,2548
+111,6b0a388,FAIL,6,NO,0,NO,0,2012-11-05 13:41:41 +0100,Add method to reset cursor mapping,23,2551
+112,a814746,FAIL,7,NO,0,NO,0,2012-11-15 22:32:35 -0800,Merge pull request #46 from Goonie/reset-cursor-mapping,23,2551
+113,a645bab,FAIL,6,NO,0,NO,0,2012-11-15 22:44:17 -0800,Release 0.4.0: animations and convenience,23,2818
+114,ef49bb9,FAIL,6,NO,0,NO,0,2012-11-15 22:58:49 -0800,Merge branch 'sort_sans_drag',23,2821
+115,9141dda,FAIL,6,NO,0,NO,0,2012-11-16 00:52:35 -0800,Add Doclava javadoc goal to maven build,23,2821
+116,594ffe4,FAIL,6,NO,0,NO,0,2012-11-17 00:37:21 -0800,Updates for Play Store app release,23,2818
+117,74f5987,FAIL,6,NO,0,NO,0,2012-11-21 15:46:25 -0800,Fix #52: Gingerbread divider draw bug,23,2821
+118,9369dfe,FAIL,7,NO,0,NO,0,2012-11-23 04:12:37 -0800,Gittip link,23,2821
+119,2ac56d1,FAIL,5,NO,0,NO,0,2012-11-23 04:27:48 -0800,Enable Gittip,23,2821
+120,bcc0214,FAIL,7,NO,0,NO,0,2012-11-26 08:43:22 -0500,"use MatrixCursor in CursorDSLV, remove unused imports",20,2603
+121,44d3a13,FAIL,6,NO,0,NO,0,2012-11-26 09:50:23 -0800,Demo: empty ctors for DialogFragments,23,2835
+122,99b901e,FAIL,7,NO,0,NO,0,2012-11-26 09:55:30 -0800,Increment to 0.4.1 for bugfix,23,2835
+123,537eda8,FAIL,6,NO,0,NO,0,2012-11-30 23:04:27 -0800,Merge pull request #54 from saik0/matrixcursor,20,2617
+124,3206dfa,FAIL,6,NO,0,NO,0,2012-11-25 10:40:46 +0100,Support for Checkable list items,20,2635
+125,9d3be5a,FAIL,6,NO,0,NO,0,2012-12-05 23:05:51 +0100,DragSortListView.moveCheckState,20,2715
+126,56ee5d8,FAIL,6,NO,0,NO,0,2012-12-02 10:24:24 +0100,Examples in demo project for single- and multi-choice listview,23,2806
+127,64441c0,FAIL,6,NO,0,NO,0,2012-12-06 13:24:47 -0800,Fix #56: respect setDragEnabled!,20,2619
+128,a197854,FAIL,6,NO,0,NO,0,2012-12-06 13:41:49 -0800,Merge remote-tracking branch 'mflodin/checkable' into checkable,23,2808
+129,16e43e9,FAIL,5,NO,0,NO,0,2012-12-13 20:02:39 -0800,Add documentation to checkable support,23,2808
+130,89a79f1,FAIL,6,NO,0,NO,0,2012-12-13 20:10:52 -0800,Add float LayoutParams in SimpleFloatViewManager,20,2621
+131,0ad9f5b,FAIL,6,NO,0,NO,0,2012-12-13 20:16:52 -0800,Fix #57: set LayoutParams on float when null,20,2622
+132,64b887d,FAIL,6,NO,0,NO,0,2012-11-25 10:40:46 +0100,Support for Checkable list items,20,2640
+133,e42d7ab,FAIL,6,NO,0,NO,0,2012-12-05 23:05:51 +0100,DragSortListView.moveCheckState,20,2720
+134,3a77411,FAIL,5,NO,0,NO,0,2012-12-02 10:24:24 +0100,Examples in demo project for single- and multi-choice listview,23,2811
+135,ea7e153,FAIL,6,NO,0,NO,0,2013-01-06 21:03:21 +0100,DragSortListView.removeCheckState,23,2824
+136,ff93708,FAIL,6,NO,0,NO,0,2013-01-08 12:47:03 +0100,Examples in demo project for checkable listviews with removable items,23,2834
+137,d0bb590,FAIL,6,NO,0,NO,0,2013-01-10 19:46:01 -0800,Merge remote-tracking branch 'mflodin/checkable' into checkable,23,2834
+138,686d766,FAIL,6,NO,0,NO,0,2013-01-10 22:16:49 -0800,Document removeCheckState in README,23,2834
+139,011a20b,FAIL,6,NO,0,NO,0,2013-01-10 22:37:21 -0800,Test github markdown link processing,23,2834
+140,ec55b6f,FAIL,5,NO,0,NO,0,2013-01-10 22:43:20 -0800,Use \) in markdown links e.g. [name](url(\)),23,2834
+141,6a1d999,FAIL,6,NO,0,NO,0,2013-01-11 12:09:20 +0100,added FLING_OR_SLIDE_REMOVE mode,23,2945
+142,8fc297c,FAIL,7,NO,0,NO,0,2013-01-11 16:12:24 +0100,added styleable flingOrSlide,23,2945
+143,6afde13,FAIL,6,NO,0,NO,0,2013-01-13 00:31:27 -0800,Fix #59: dynamic list item heights,23,2837
+144,ef48c2a,FAIL,6,NO,0,NO,0,2013-01-17 10:59:37 -0800,Fix #62: on measure set AbsListView.LayoutParams,23,2837
+145,b0901a1,FAIL,6,NO,0,NO,0,2013-01-21 11:33:09 +0100,fixed error in  onClick remove mode,23,2945
+146,1bbcf0c,FAIL,6,NO,0,NO,0,2013-01-21 12:44:48 +0100,flingOrSlide working with onDown and onLongPress drag init modes,23,2945
+147,1ccc218,FAIL,6,NO,0,NO,0,2013-01-22 12:32:12 +0100,"added attr fling_handle_id, cleaned code a bit",23,2948
+148,d736daa,FAIL,6,NO,0,NO,0,2013-01-22 14:38:48 +0100,remove methods consolidation,23,2878
+149,c5893f3,FAIL,6,NO,0,NO,0,2013-01-29 10:10:25 +0100,Applied android formatting. Fling remove works on the drag handle when drag init mode is onLongPress,23,2893
+150,f77a093,FAIL,6,NO,0,NO,0,2013-02-09 14:28:25 -0700,Update readme for 0.6.0,23,2893
+151,187c948,FAIL,6,NO,0,NO,0,2013-02-09 14:31:35 -0700,Update changlog to 0.6.0,23,2893
+152,ebc4ea7,FAIL,5,NO,0,NO,0,2013-02-09 14:32:46 -0700,Change maven versions to 0.6.0,23,2893
+153,739f317,FAIL,6,NO,0,NO,0,2013-02-09 14:36:04 -0700,Merge branch 'fling-or-slide-remove',23,2895
+154,c5f07d4,FAIL,5,NO,0,NO,0,2013-02-14 10:14:55 -0700,Fix #77: OnClickListener crashes controller,23,2919
+155,c18d591,FAIL,5,NO,0,NO,0,2013-02-28 12:05:02 +0100,Make AdapterWrapper extend BaseAdapter,23,2950
+156,545a22a,FAIL,6,NO,0,NO,0,2013-02-28 10:33:53 -0800,Support FastScroller,23,2952
+157,cf5115a,FAIL,5,NO,0,NO,0,2013-02-13 11:35:39 +0100,Only remove oldChild if it's not null,23,2953
+158,594bc63,FAIL,5,NO,0,NO,0,2013-03-12 10:09:17 -0700,Merge pull request #83 from scompt/child_reuse_crash,23,2953
+159,1c8eae8,FAIL,5,NO,0,NO,0,2013-03-12 10:59:35 -0700,Two item view wrappers: checkable and non,24,2967
+160,c2e709f,FAIL,6,NO,0,NO,0,2013-03-12 11:32:35 -0700,Fix #82: choice mode with non-checkable,24,2968
+161,fcd23ef,FAIL,5,NO,0,NO,0,2013-03-17 22:10:11 -0700,Add git version tags,24,2968
+162,2ae9ee1,FAIL,6,NO,0,NO,0,2013-04-02 17:27:02 -0700,Rules for contributing,24,2968
+163,d39db07,FAIL,5,NO,0,NO,0,2013-04-02 17:28:59 -0700,oops,24,2968
+164,c3cfcce,FAIL,5,NO,0,NO,0,2013-04-23 16:26:53 -0700,notice,24,2968

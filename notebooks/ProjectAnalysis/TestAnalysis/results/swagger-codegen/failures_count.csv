@@ -1,0 +1,6 @@
+exception,count
+java.lang.IllegalStateException,380
+java.lang.AssertionError,55
+java.lang.NullPointerException:,2
+mockit.internal.MissingInvocation,1
+java.lang.NullPointerException,40

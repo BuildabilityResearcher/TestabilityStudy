@@ -1,0 +1,9 @@
+exception,count
+java.lang.AssertionError,187
+&lt;type &#x27;java.util.concurrent.TimeoutException&#x27;&gt;,54
+&lt;type &#x27;java.lang.IllegalStateException&#x27;&gt;,1584
+&lt;type &#x27;org.apache.qpid.proton.engine.TransportException&#x27;&gt;,284
+&lt;type &#x27;exceptions.AttributeError&#x27;&gt;,1
+&lt;type &#x27;org.apache.qpid.proton.TimeoutException&#x27;&gt;,70
+&lt;class &#x27;proton.TransportException&#x27;&gt;,21
+junit.framework.AssertionFailedError,1534

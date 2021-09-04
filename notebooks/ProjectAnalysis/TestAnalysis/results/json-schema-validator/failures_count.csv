@@ -1,0 +1,19 @@
+exception,count
+java.lang.AssertionError,791
+java.util.NoSuchElementException,100
+java.lang.ExceptionInInitializerError,2
+java.lang.NoClassDefFoundError,10
+java.lang.NullPointerException,171
+org.codehaus.jackson.JsonParseException,2
+java.lang.IllegalArgumentException,35
+java.lang.IllegalStateException,51
+org.mockito.exceptions.verification.TooManyActualInvocations,5
+org.eel.kitchen.jsonschema.main.JsonSchemaException,33
+org.mockito.exceptions.base.MockitoException,5
+java.lang.RuntimeException,59
+java.lang.IndexOutOfBoundsException,10
+com.google.common.util.concurrent.UncheckedExecutionException,1
+Wanted but not invoked,6
+java.lang.ArithmeticException,5
+org.mockito.exceptions.misusing.UnfinishedVerificationException,4
+java.lang.reflect.InvocationTargetException,3

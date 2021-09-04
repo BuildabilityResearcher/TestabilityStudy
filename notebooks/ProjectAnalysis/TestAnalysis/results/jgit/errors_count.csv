@@ -1,0 +1,1312 @@
+error,count
+In-memory buffer limit exceeded,1
+checkForCorrectIndex(resolve),1413
+No changes,1976
+"crissCrossMerge_checkOtherFiles(strategiesUnderTest[0], indexStates[2], worktreeStates[4])",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_343566236560961008&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5425928684869123424&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1747580645730761254&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1760007145165949491&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1789457837226770764&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7803824347554374164&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3225822159551332976&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_238545777594672803&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_940106647175434793&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_689736885390337485&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3506148446239048863&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5164092626382180660&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5211105281221030336&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3320609186664189547&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5614710082531485141&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6173059520865432509&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4244637123792090707&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5452236487246582053&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_809006171643631013&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6211224934192950660&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3812268399792307226&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7249592166307755003&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1817193275297274792&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2712916425061322969&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3998302872581754903&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3197639703104695289&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3619057081296064373&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_468729360484701348&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5548676217370150540&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6538784549587828852&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5681415765123770460&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6062714373510867341&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3859438293210174654&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5976168822605297644&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1671900448823920613&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6789317241115683740&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4582059936860015871&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7675994011799647769&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4871798814806498287&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4352901285004294875&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_772608716139548190&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8917310762863596772&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8209805230773530096&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4060386127612813552&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1331340203190890997&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7844784860943748524&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7156408578813749886&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7398340125055300825&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8285667959245817344&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7004069097034494013&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4687499361781768947&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5900622822527811638&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4741036066774738663&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5448171121075559182&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4143690454187341357&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7550946410383865583&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8246087478989242653&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3485971447629234717&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4787359005038034547&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2436689589183244556&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_110292564468951651&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3499365655461159202&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8756811641311814365&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7385452689232959421&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5201375873235161529&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6043601713407547907&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4499501675783471169&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1141180083862257155&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4677792825646946144&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2284495108425908232&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_421679764337337583&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_803167169255190208&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6950866381889085133&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3223043694233235005&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1687553375355366975&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3529357713407800063&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5272742497911662629&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7776630730033248423&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8992097458666672358&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6436491969603309146&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6498826050092788807&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1652650253942024211&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4618990156035034137&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4422039007836720442&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9053001587391234127&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6271511683628542566&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6022419342643392253&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2414909635760888468&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5273801522341168610&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5364465069369803964&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1560104040858076743&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3417120569757567495&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1368514976827799100&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_713952244358425520&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9079289154654521962&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2258878874712698385&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7135670431340209058&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4444538920184486192&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3831850878163367458&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8919950471800105724&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5526291875669777747&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5957565307570910064&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7610548209893616954&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1821768734735519992&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1916995657205007612&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2078290358559307126&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1095673108628535109&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3947340063495404398&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2732993471955143681&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8447594921866442957&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4330507675999539167&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_870858304789918953&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1355938313593030818&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1458673424730937022&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4675439223418161744&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8998116453034894353&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7321864628654855196&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8032724006914342097&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6218294444040654576&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2878880151615619801&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7027166687090927624&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8186073721063800578&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1116959501663856790&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1617448370823958062&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8672899723079514604&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_841776220456167467&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5838948685029247583&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8331254441569966255&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5521023719021659425&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1303986158343478650&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3291653469943132805&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6941961572072186228&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5476620324576135295&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1673129431134120827&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8473072576412763388&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4454932758699110875&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2832240045875473939&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5430009424709762623&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4410136873186633204&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6210350785949094700&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3720773962460411571&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6901062906496314228&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5559231642457327413&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6491971750726082234&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7898388060603650881&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7935756401135869858&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8559365493974737178&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3200131395740779979&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1276955048324468048&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7027274034683022639&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1782127072914779382&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5814585930899121979&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4303418498429033925&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3518909717914109114&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9106235484781417499&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2581029371644897296&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_984842988939956314&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1789660865054619161&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6480057742508371605&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5434702270013637736&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7821681428170270592&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6501016551172670150&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_761627711544886488&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1097482884387230290&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6800969291060158792&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7138516100029750700&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8306526831490563620&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4577506829429377685&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6014977118060803766&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1089043169504185976&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7316113413713892773&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8042267599401441507&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8123306350970942982&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4642194767860578239&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3439946352901940656&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8898594151206854847&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3232964961657094963&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7389015306346670793&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5694957347756449793&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1004239423457182561&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3291348795512772803&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2224460729858784158&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_244381899141326374&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1353456591621955015&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2334891463118885352&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8643408267607788193&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8116216577644156560&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6704068318467905141&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2352404846551797245&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2256280414530452477&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7998820848133346006&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7168681825368599354&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1534276017914209845&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7576453085824259924&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8033833054059846400&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6166154912903969600&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4232619160408501375&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_true_GlobalEOL_crlf(smallContents),44
+test_ConfigAutoCRLF_false_GlobalEOL_crlf(smallContents),44
+test_ConfigAutoCRLF_true_GlobalEOL_lf(smallContents),46
+test_switchToBranchWithTextAttributes(smallContents),47
+test_ConfigAutoCRLF_input_GlobalEOL_lf(smallContents),41
+test_ConfigAutoCRLF_true(smallContents),44
+test_GlobalEOL_lf_InfoEOL_crlf_RootEOL_lf(smallContents),45
+test_ConfigAutoCRLF_false_ConfigEOL_native(smallContents),42
+test_ConfigAutoCRLF_input_GlobalEOL_crlf(smallContents),42
+test_ConfigAutoCRLF_false_GlobalEOL_crlf_InfoEOL_lf(smallContents),41
+test_GlobalEOL_lf_RootEOL_crlf(smallContents),46
+test_ConfigAutoCRLF_false_GlobalEOL_lf(smallContents),42
+test_ConfigEOL_lf(smallContents),42
+test_ConfigAutoCRLF_true_ConfigEOL_lf(smallContents),46
+test_ConfigAutoCRLF_input_ConfigEOL_lf(smallContents),42
+testBinary1(smallContents),45
+testBinary2(smallContents),39
+test_switchToBranchWithBinaryAttributes(smallContents),47
+test_ConfigAutoCRLF_false_ConfigEOL_lf(smallContents),40
+test_ConfigEOL_native_xnix(smallContents),44
+testDefaultSetup(smallContents),41
+test_ConfigAutoCRLF_false(smallContents),44
+test_ConfigAutoCRLF_input(smallContents),41
+test_GlobalEOL_lf_InfoEOL_unspec_RootEOL_crlf(smallContents),42
+test_ConfigAutoCRLF_true_GlobalEOL_lf_InfoEOL_crlf(smallContents),40
+test_ConfigEOL_native_windows(hugeContents),10
+test_GlobalEOL_lf_InfoEOL_crlf_RootEOL_unspec(smallContents),45
+test_ConfigEOL_crlf(smallContents),46
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2640310380007611280&#x27; on file &#x27;src/a.txt&#x27; failed,1
+testBinary2(hugeContents),8
+test_ConfigAutoCRLF_input(hugeContents),6
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2766331648879361507&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_true_GlobalEOL_crlf(hugeContents),3
+test_ConfigAutoCRLF_input_GlobalEOL_crlf(hugeContents),5
+test_ConfigEOL_lf(hugeContents),5
+test_ConfigAutoCRLF_input_ConfigEOL_lf(hugeContents),5
+test_ConfigEOL_native_windows(smallContents),36
+test_ConfigAutoCRLF_input_GlobalEOL_lf(hugeContents),6
+testDefaultSetup(hugeContents),6
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6472718308432316365&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_false_ConfigEOL_lf(hugeContents),7
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8544063409015137098&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_false_ConfigEOL_native(hugeContents),5
+test_GlobalEOL_lf_InfoEOL_unspec_RootEOL_crlf(hugeContents),5
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8601693595938574111&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_true_GlobalEOL_lf_InfoEOL_crlf(hugeContents),7
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3686717695956246314&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_false(hugeContents),3
+test_ConfigAutoCRLF_false_GlobalEOL_crlf_InfoEOL_lf(hugeContents),6
+test_GlobalEOL_lf_InfoEOL_crlf_RootEOL_unspec(hugeContents),2
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6884060415780917553&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_false_GlobalEOL_lf(hugeContents),5
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9189693994311449620&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7287063678330652789&#x27; on file &#x27;src/a.txt&#x27; failed,1
+testBinary1(hugeContents),2
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6818412838981674499&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1539177432454780301&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_false_GlobalEOL_crlf(hugeContents),3
+test_ConfigAutoCRLF_true(hugeContents),3
+test_ConfigEOL_native_xnix(hugeContents),3
+test_ConfigAutoCRLF_true_ConfigEOL_lf(hugeContents),1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_642636818038928951&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3846107952339661583&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8875992283695806106&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1605140898692025675&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigEOL_crlf(hugeContents),1
+test_GlobalEOL_lf_InfoEOL_crlf_RootEOL_lf(hugeContents),2
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2434182152950974673&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_55854149762209418&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2038140806219474185&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_851362980257272886&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_ConfigAutoCRLF_true_GlobalEOL_lf(hugeContents),1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1897602032931488437&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1848508406168314065&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1099925525289365132&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8890033077994804276&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_100.txt
+Test_101.txt
+Test_102.txt
+Test_103.txt
+Test_104.txt
+Test_105.txt
+Test_106.txt
+Test_107.txt
+Test_108.txt
+Test_109.txt
+Test_110.txt
+Test_111.txt
+Test_112.txt
+Test_113.txt
+Test_114.txt
+Test_115.txt
+Test_116.txt
+Test_117.txt
+Test_118.txt
+Test_119.txt
+Test_120.txt
+Test_121.txt
+Test_122.txt
+Test_123.txt
+Test_124.txt
+Test_125.txt
+Test_126.txt
+Test_127.txt
+Test_128.txt
+Test_129.txt
+Test_130.txt
+Test_131.txt
+Test_132.txt
+Test_133.txt
+Test_134.txt
+Test_135.txt
+Test_136.txt
+Test_137.txt
+Test_138.txt
+Test_139.txt
+Test_140.txt
+Test_141.txt
+Test_142.txt
+Test_143.txt
+Test_144.txt
+Test_145.txt
+Test_146.txt
+Test_147.txt
+Test_148.txt
+Test_149.txt
+Test_150.txt
+Test_151.txt
+Test_152.txt
+Test_153.txt
+Test_154.txt
+Test_155.txt
+Test_156.txt
+Test_157.txt
+Test_158.txt
+Test_159.txt
+Test_160.txt
+Test_161.txt
+Test_162.txt
+Test_163.txt
+Test_164.txt
+Test_165.txt
+Test_166.txt
+Test_167.txt
+Test_168.txt
+Test_169.txt
+Test_170.txt
+Test_171.txt
+Test_172.txt
+Test_173.txt
+Test_174.txt
+Test_175.txt
+Test_176.txt
+Test_177.txt
+Test_178.txt
+Test_179.txt
+Test_180.txt
+Test_181.txt
+Test_182.txt
+Test_183.txt
+Test_184.txt
+Test_185.txt
+Test_186.txt
+Test_187.txt
+Test_188.txt
+Test_189.txt
+Test_190.txt
+Test_191.txt
+Test_192.txt
+Test_193.txt
+Test_194.txt
+Test_195.txt
+Test_196.txt
+Test_197.txt
+Test_198.txt
+Test_199.txt
+Test_200.txt
+Test_201.txt
+Test_202.txt
+Test_203.txt
+Test_204.txt
+Test_205.txt
+Test_206.txt
+Test_207.txt
+Test_208.txt
+Test_209.txt
+Test_210.txt
+Test_211.txt
+Test_212.txt
+Test_213.txt
+Test_214.txt
+Test_215.txt
+Test_216.txt
+Test_217.txt
+Test_218.txt
+Test_219.txt
+Test_220.txt
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",36
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4007588349965115924&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6100653997398395171&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4116155898573795683&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_82336444895451418&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3681906591341762695&#x27; on file &#x27;src/a.txt&#x27; failed,1
+test_GlobalEOL_lf_RootEOL_crlf(hugeContents),1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6460259743448070047&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4179346165077052291&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5601552167558490138&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_735773736159527878&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6323596159200841572&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_107.txt
+Test_108.txt
+Test_109.txt
+Test_110.txt
+Test_111.txt
+Test_112.txt
+Test_113.txt
+Test_114.txt
+Test_115.txt
+Test_116.txt
+Test_117.txt
+Test_118.txt
+Test_119.txt
+Test_120.txt
+Test_121.txt
+Test_122.txt
+Test_123.txt
+Test_124.txt
+Test_125.txt
+Test_126.txt
+Test_127.txt
+Test_128.txt
+Test_129.txt
+Test_130.txt
+Test_131.txt
+Test_132.txt
+Test_133.txt
+Test_134.txt
+Test_135.txt
+Test_136.txt
+Test_137.txt
+Test_138.txt
+Test_139.txt
+Test_140.txt
+Test_141.txt
+Test_142.txt
+Test_143.txt
+Test_144.txt
+Test_145.txt
+Test_146.txt
+Test_147.txt
+Test_148.txt
+Test_149.txt
+Test_150.txt
+Test_151.txt
+Test_152.txt
+Test_153.txt
+Test_154.txt
+Test_155.txt
+Test_156.txt
+Test_157.txt
+Test_158.txt
+Test_159.txt
+Test_160.txt
+Test_161.txt
+Test_162.txt
+Test_163.txt
+Test_164.txt
+Test_165.txt
+Test_166.txt
+Test_167.txt
+Test_168.txt
+Test_169.txt
+Test_170.txt
+Test_171.txt
+Test_172.txt
+Test_173.txt
+Test_174.txt
+Test_175.txt
+Test_176.txt
+Test_177.txt
+Test_178.txt
+Test_179.txt
+Test_180.txt
+Test_181.txt
+Test_182.txt
+Test_183.txt
+Test_184.txt
+Test_185.txt
+Test_186.txt
+Test_187.txt
+Test_188.txt
+Test_189.txt
+Test_190.txt
+Test_191.txt
+Test_192.txt
+Test_193.txt
+Test_194.txt
+Test_195.txt
+Test_196.txt
+Test_197.txt
+Test_198.txt
+Test_199.txt
+Test_200.txt
+Test_201.txt
+Test_202.txt
+Test_203.txt
+Test_204.txt
+Test_205.txt
+Test_206.txt
+Test_207.txt
+Test_208.txt
+Test_209.txt
+Test_210.txt
+Test_211.txt
+Test_212.txt
+Test_213.txt
+Test_214.txt
+Test_215.txt
+Test_216.txt
+Test_217.txt
+Test_218.txt
+Test_219.txt
+Test_220.txt
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4883382200277702089&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8024489441359013551&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6276417224449843241&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_834225001425155505&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_77591836464844082&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_719446381369457092&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3117354386417388238&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8997047156527547893&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8289866831167967903&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1593905534460833864&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3928020258001353734&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2502033847988412203&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2464169434381293178&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3777848276532943709&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2351371964921846333&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2637833728754805484&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_231866084671789017&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5318249837762305783&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_190.txt
+Test_191.txt
+Test_192.txt
+Test_193.txt
+Test_194.txt
+Test_195.txt
+Test_196.txt
+Test_197.txt
+Test_198.txt
+Test_199.txt
+Test_200.txt
+Test_201.txt
+Test_202.txt
+Test_203.txt
+Test_204.txt
+Test_205.txt
+Test_206.txt
+Test_207.txt
+Test_208.txt
+Test_209.txt
+Test_210.txt
+Test_211.txt
+Test_212.txt
+Test_213.txt
+Test_214.txt
+Test_215.txt
+Test_216.txt
+Test_217.txt
+Test_218.txt
+Test_219.txt
+Test_220.txt
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7449301916329407373&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5046081271778338414&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_214.txt
+Test_215.txt
+Test_216.txt
+Test_217.txt
+Test_218.txt
+Test_219.txt
+Test_220.txt
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6327455766263642685&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5545669051666264886&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6932073597951568212&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5171636771443910919&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5740306496052239253&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8124235879722606844&#x27; on file &#x27;src/a.txt&#x27; failed,1
+"Checkout conflict with files: 
+Test_152.txt
+Test_153.txt
+Test_154.txt
+Test_155.txt
+Test_156.txt
+Test_157.txt
+Test_158.txt
+Test_159.txt
+Test_160.txt
+Test_161.txt
+Test_162.txt
+Test_163.txt
+Test_164.txt
+Test_165.txt
+Test_166.txt
+Test_167.txt
+Test_168.txt
+Test_169.txt
+Test_170.txt
+Test_171.txt
+Test_172.txt
+Test_173.txt
+Test_174.txt
+Test_175.txt
+Test_176.txt
+Test_177.txt
+Test_178.txt
+Test_179.txt
+Test_180.txt
+Test_181.txt
+Test_182.txt
+Test_183.txt
+Test_184.txt
+Test_185.txt
+Test_186.txt
+Test_187.txt
+Test_188.txt
+Test_189.txt
+Test_190.txt
+Test_191.txt
+Test_192.txt
+Test_193.txt
+Test_194.txt
+Test_195.txt
+Test_196.txt
+Test_197.txt
+Test_198.txt
+Test_199.txt
+Test_200.txt
+Test_201.txt
+Test_202.txt
+Test_203.txt
+Test_204.txt
+Test_205.txt
+Test_206.txt
+Test_207.txt
+Test_208.txt
+Test_209.txt
+Test_210.txt
+Test_211.txt
+Test_212.txt
+Test_213.txt
+Test_214.txt
+Test_215.txt
+Test_216.txt
+Test_217.txt
+Test_218.txt
+Test_219.txt
+Test_220.txt
+Test_221.txt
+Test_222.txt
+Test_223.txt
+Test_224.txt
+Test_225.txt
+Test_226.txt
+Test_227.txt
+Test_228.txt
+Test_229.txt
+Test_230.txt
+Test_231.txt
+Test_232.txt
+Test_233.txt
+Test_234.txt
+Test_235.txt
+Test_236.txt
+Test_237.txt
+Test_238.txt
+Test_239.txt
+Test_240.txt
+Test_241.txt
+Test_242.txt
+Test_243.txt
+Test_244.txt
+Test_245.txt
+Test_246.txt
+Test_247.txt
+Test_248.txt
+Test_249.txt
+Test_250.txt
+Test_251.txt
+Test_252.txt
+Test_253.txt
+Test_254.txt
+Test_255.txt
+Test_256.txt
+Test_257.txt
+Test_258.txt
+Test_259.txt
+Test_260.txt
+Test_261.txt
+Test_262.txt
+Test_263.txt
+Test_264.txt
+Test_265.txt
+Test_266.txt
+Test_267.txt
+Test_268.txt
+Test_269.txt
+Test_270.txt
+Test_271.txt
+Test_272.txt
+Test_273.txt
+Test_274.txt
+Test_275.txt
+Test_276.txt
+Test_277.txt
+Test_278.txt
+Test_279.txt
+Test_280.txt
+Test_281.txt
+Test_282.txt
+Test_283.txt
+Test_284.txt
+Test_285.txt
+Test_286.txt
+Test_287.txt
+Test_288.txt
+Test_289.txt
+Test_290.txt
+Test_291.txt
+Test_292.txt
+Test_293.txt
+Test_294.txt
+Test_295.txt
+Test_296.txt
+Test_297.txt
+Test_298.txt
+Test_299.txt",1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4957826052025758602&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1166451842400099420&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8422734975628840309&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_624288663269529830&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7381970192005390658&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8694690832372020526&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4894368985241582169&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6090717560864603623&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4727531176526721761&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1935879582261100027&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5185439307760828284&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6217919115065346144&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4637123966981978101&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1492193258854525066&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3195504590714157193&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4318284471435710665&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4169209568525522797&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6634385290869025506&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_500351956690034504&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_26115994590680453&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_884728355673508576&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2121310790238112422&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6733550381722147634&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8963924014454701559&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1868615619545239172&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7728959298528485734&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6837898741657269633&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6924674427191420908&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5271728973612617687&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3632930220447464510&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5620798594900545822&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_979757507671328091&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3244003527395323381&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8461196628646704352&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3759289597128360207&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8675734107997030195&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5716247411313115446&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9170440986572050196&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_802151428063860421&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_825092676834074245&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4539469983009471626&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4519875275606450863&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6352918265216124696&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_712438582943121826&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6753097712293557574&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2637175037779857520&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1107608346423981996&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6545807825050055112&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8039100734344300882&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3095115882791479010&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5566232237214639144&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5427794369427467575&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_5654734271111270939&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2553793003603052734&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8715818377740824394&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4244733553768205714&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2298342601059741077&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4636658610998726936&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8949708095504452399&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6615564311733724147&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7802114958113663625&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4012023970332782756&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3369288693272367438&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_204627887598211545&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_9223089274878775059&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3032327836865641870&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2273717128706401570&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2709027352855474453&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4812802983705049958&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_8334554160747486907&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6246859285331955265&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2363289292824177682&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4670014411352820795&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_139949757471294951&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_6198272866440426799&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4019578604849065033&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1984065511040540547&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_972481705544983788&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7369565651058549374&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_1181058022109880841&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4865719022556045351&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_2247046318208012897&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3004333860207865828&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_4227806188937054506&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_7416917621176643147/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_7773607521325067387/gc.log.lock.89c0c350725b4425bb6d65ab5da850df,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_6090964440691213894/gc.log.lock.d8ed1208d7a74d60a264e55abf17ff73,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_3297330740533650254&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Execution of filter command &#x27;sh /home/bugs/projects/jgit/org.eclipse.jgit.test/target/AddCommandTest_7317822214593124687&#x27; on file &#x27;src/a.txt&#x27; failed,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_5931889453446897252/gc.log.lock.9c1bf540666247d29442fb83ab4cbaf6,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_3619498140510912046/gc.log.lock.53e786e7348546f7824a6ad207d21193,1
+Address already in use (Bind failed),3
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_8858498382687851780/gc.log.lock.feffd21c502c46a28fd623071a0a1e97,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_6797844845896595637/gc.log.lock.f9c1211ad2874386b8a19d31f7bfb169,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_3031515016887036252/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_8257283379381449658/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_809278958364433473/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_1329333288035899600/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_6967886325447900753/gc.log.lock,1
+Could not delete file /home/bugs/projects/jgit/org.eclipse.jgit.lfs.server.test/target/jgit_test_6988996039561322731/gc.log.lock,1

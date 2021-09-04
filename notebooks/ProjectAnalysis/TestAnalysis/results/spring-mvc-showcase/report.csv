@@ -1,0 +1,77 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,0a78a10,FAIL,14,NO,0,NO,0,2011-06-03 13:53:11 -0400,first commit,32,800
+1,1ee076d,FAIL,4,NO,0,NO,0,2011-06-03 14:27:26 -0400,mvc-showcase update for 3.1 and latest jquery,31,802
+2,14f5c72,FAIL,4,NO,0,NO,0,2011-06-03 14:34:43 -0400,simplified ajax utils,31,802
+3,2d3a3f3,FAIL,4,NO,0,NO,0,2011-06-03 14:57:01 -0400,updated readme,31,802
+4,a6d0fd8,FAIL,4,NO,0,NO,0,2011-06-03 14:57:32 -0400,updated readme,31,802
+5,0639b59,FAIL,5,NO,0,NO,0,2011-06-03 14:58:09 -0400,updated readme,31,802
+6,e159e42,FAIL,5,NO,0,NO,0,2011-06-08 12:35:37 -0400,upgrade to m2,31,802
+7,880c5d1,FAIL,4,NO,0,NO,0,2011-06-08 12:47:19 -0400,SPR-8361,31,802
+8,d249e27,FAIL,4,NO,0,NO,0,2011-06-09 08:12:36 -0400,polish,31,802
+9,311cae8,FAIL,3,NO,0,NO,0,2011-06-16 09:35:07 -0400,updated README to provide more links for new users,31,802
+10,8c1425c,FAIL,4,NO,0,NO,0,2011-06-16 15:53:28 -0400,polish,31,802
+11,659b8c8,FAIL,5,NO,0,NO,0,2011-06-23 23:41:07 -0400,Simplified dependencies; updated artifact name to spring-mvc-showcase for consistency,31,802
+12,65fa25d,FAIL,3,NO,0,NO,0,2011-08-24 15:48:22 +0100,Add examples of mapping by consumes/produces conditions.,32,832
+13,cba02da,FAIL,3,NO,0,NO,0,2011-08-25 15:34:44 +0100,Add '@PathVariables available in the model when rendering' and 'Data binding with URI variables' under the Views tab,33,853
+14,18f744b,FAIL,3,NO,0,NO,0,2011-08-31 10:38:55 +0100,Add example of annotating method argument with @Valid @RequestBody. Switch to using @ModelAttribute for application/x-www-form-urlencoded data (instead of MultiValueMap).,33,865
+15,80ec02a,FAIL,3,NO,0,NO,0,2011-09-16 11:22:49 +0100,Add links on 'Writing Responses' tab with response containing UTF-8 characters.,32,841
+16,7fd282d,FAIL,4,NO,0,NO,0,2011-09-19 11:45:24 -0400,added resource links to README,32,841
+17,e5b82d0,FAIL,3,NO,0,NO,0,2011-09-20 13:15:15 +0100,Improve back button behavior on tabs with redirect or full page reload.,32,841
+18,b1c4b3d,FAIL,5,NO,0,NO,0,2011-09-20 22:53:52 +0100,REDIRECT AND FLASH ATTRIBUTE RELATED IMPROVEMENTS,31,804
+19,0d4e00b,FAIL,5,NO,0,NO,0,2011-11-07 19:22:20 -0500,Add @ModelAttribute to ajaxRequest argument.,31,805
+20,d7434e5,FAIL,13,NO,0,NO,0,2011-12-13 12:52:58 -0500,Upgarde version of Spring to 3.1 GA,31,805
+21,e1fdd4d,FAIL,5,NO,0,NO,0,2012-10-11 16:23:02 +0100,Convert README to Markdown syntax.,31,805
+22,3d0e9f9,FAIL,6,NO,0,NO,0,2012-10-11 08:58:20 -0700,Merge pull request #7 from pledbrook/patch-01,31,805
+23,b03226a,FAIL,6,NO,0,NO,0,2012-10-11 21:19:23 -0400,Upgrade to Spring 3.2 and Servlet API 3 and add tests,47,1447
+24,ca7ea7f,FAIL,5,NO,0,NO,0,2012-10-12 09:17:08 -0400,Fix servlet API dependency issue,47,1447
+25,9c13d23,FAIL,4,NO,0,NO,0,2012-10-15 22:22:13 -0400,Demonstrate Spring 3.2 features,53,1653
+26,a4cb9e4,FAIL,5,NO,0,NO,0,2012-10-15 22:27:16 -0400,Remove copyright headers added by mistake,53,1652
+27,c789b7f,FAIL,5,NO,0,NO,0,2012-10-15 22:27:47 -0400,Remove outdated PDF slides,53,1652
+28,63bbfe9,FAIL,5,NO,0,NO,0,2012-10-21 09:10:36 -0400,Fix package imports for Spring MVC Test classes,53,1649
+29,add76ac,FAIL,5,NO,0,NO,0,2012-10-22 08:50:56 -0400,Fix tests failing due to current timezone,53,1659
+30,6d9394e,FAIL,6,NO,0,NO,0,2012-10-25 13:07:03 -0400,Add custom timeout handler for async requests,55,1726
+31,528182f,FAIL,4,NO,0,NO,0,2012-10-26 22:25:38 -0400,Revise custom timeout handler example,55,1709
+32,95e4a45,FAIL,5,NO,0,NO,0,2012-10-29 22:40:31 +0000,#9 Fixing timezone bugs in unit tests,55,1734
+33,3411dc3,FAIL,4,NO,0,NO,0,2012-10-30 09:17:59 -0700,Merge pull request #10 from adrianpillinger/master,55,1734
+34,23077db,FAIL,4,NO,0,NO,0,2012-10-30 12:19:01 -0400,Add demo of matrix variables,55,1769
+35,1368d33,FAIL,4,NO,0,NO,0,2012-10-31 11:23:02 -0400,Fix renamed type AsyncTask->MvcAsyncTask,55,1769
+36,21f6961,FAIL,5,NO,0,NO,0,2012-11-02 12:20:44 -0400,Add hamcrest dependency (now optional in spring-test),55,1769
+37,05fe57a,FAIL,4,NO,0,NO,0,2012-11-02 12:27:47 -0400,Add scope to test dependencies,55,1769
+38,18da3dc,FAIL,5,NO,0,NO,0,2012-11-05 21:20:48 -0500,Add async dispatches to async tests,55,1802
+39,159253d,FAIL,5,NO,0,NO,0,2012-11-09 08:06:02 -0800,Changed scope of servlet-api to provided.,55,1802
+40,b81d1b9,FAIL,5,NO,0,NO,0,2012-11-12 04:28:02 -0800,Merge pull request #13 from mnorbury/myfork/master,55,1802
+41,30c5200,FAIL,5,NO,0,NO,0,2012-11-22 15:50:32 -0500,Update to match change in Spring Framework master,55,1802
+42,3d10278,FAIL,4,NO,0,NO,0,2012-11-23 11:00:30 -0500,Change queue type used in DeferredResultController,55,1803
+43,8fdf953,FAIL,5,NO,0,NO,0,2012-11-28 17:06:14 -0500,Update to match class name change in spring-web,55,1803
+44,4ac74e1,FAIL,8,NO,0,NO,0,2012-12-14 09:21:43 -0500,Upgrade to Spring 3.2 GA,55,1803
+45,e43d972,FAIL,5,NO,0,NO,0,2012-12-31 16:22:34 +0800,"use ""tomcat7-maven-plugin"" instead of ""tomcat-maven-plugin""",55,1803
+46,4efe499,FAIL,5,NO,0,NO,0,2013-01-07 10:52:22 -0800,Merge pull request #17 from hechaoyi/tomcat7-plugin,55,1803
+47,6046624,FAIL,5,NO,0,NO,0,2013-07-18 17:05:19 -0400,Switch to Spring Framework 4.0.0.BUILD-SNAPSHOT,55,1803
+48,02c9661,FAIL,5,NO,0,NO,0,2013-11-25 21:59:25 -0500,Upgrade to Java 1.7 and aspectj 1.7.4,55,1803
+49,97e9910,FAIL,9,NO,0,NO,0,2013-12-17 08:56:18 -0500,Upgrade to Spring Framework 4,55,1803
+50,5bb425e,FAIL,7,NO,0,NO,0,2013-12-26 20:33:36 -0500,Add maven jetty plugin,55,1803
+51,361adc1,FAIL,8,NO,0,NO,0,2014-01-06 14:58:58 -0600,Add CSRF protection,55,1803
+52,c7b9162,FAIL,9,NO,0,NO,0,2014-02-12 15:21:00 -0500,Upgrade to Spring Framework 4.0.1,55,1803
+53,92f5393,FAIL,11,NO,0,NO,0,2014-04-23 12:59:29 -0400,Upgrade to 4.0.3 and rever code commited in error,55,1801
+54,8b05614,FAIL,7,NO,0,NO,0,2014-07-24 17:05:49 +0200,Upgrade to Spring 4.1.0.RC1 and fix Jackson and Rome dependencies,55,1797
+55,845aa68,FAIL,6,NO,0,NO,0,2014-08-19 12:11:29 -0400,Upgrade to 4.1 RC2,55,1797
+56,d52a95d,FAIL,4,NO,0,NO,0,2014-08-11 21:27:54 +0800,Fix css download errors in brower console,55,1797
+57,7090993,FAIL,4,NO,0,NO,0,2013-09-25 12:07:03 -0400,Update README.md,55,1797
+58,d5d5f3a,FAIL,3,NO,0,NO,0,2014-08-19 12:32:57 -0400,Update readme,55,1797
+59,d0deee5,FAIL,5,NO,0,NO,0,2014-08-26 15:13:12 +0200,Upgrade Tomcat plugin in order to fix #30,55,1797
+60,fc93fd0,SUCCESS,15,SUCCESS,9,SUCCESS,26,2014-09-04 15:23:34 +0200,Upgrade to Spring Framework 4.1.0,55,1797
+61,f7a2e9d,SUCCESS,10,SUCCESS,10,SUCCESS,24,2015-10-28 21:42:25 -0400,Update Spring Framework version,55,1797
+62,a30e404,SUCCESS,35,SUCCESS,13,SUCCESS,30,2018-01-23 12:06:58 -0500,Update dependencies,55,1795
+63,cd984e5,SUCCESS,14,SUCCESS,11,SUCCESS,27,2018-01-23 12:13:49 -0500,Polish,55,1787
+64,b53082e,SUCCESS,12,SUCCESS,11,SUCCESS,28,2018-01-23 12:26:23 -0500,Use out tag for success message,55,1787
+65,4543d0d,SUCCESS,11,SUCCESS,11,SUCCESS,26,2018-01-23 12:29:39 -0500,Update README.md,55,1787
+66,5903eed,SUCCESS,12,SUCCESS,11,SUCCESS,27,2018-01-23 13:01:34 -0500,Fix jstl issue introduced in recent depenency update,55,1787
+67,0dda6c1,SUCCESS,12,SUCCESS,13,SUCCESS,27,2018-01-23 13:02:12 -0500,Remove tomcat maven plugin,55,1787
+68,0a979d1,SUCCESS,10,SUCCESS,11,SUCCESS,27,2018-01-23 15:15:48 -0500,Replace XML with Java configuration,58,1873
+69,17ff9a8,SUCCESS,11,SUCCESS,10,FAIL,29,2018-03-19 14:43:32 -0400,Use shortcut mapping annotations,58,1878
+70,5c8de17,SUCCESS,10,SUCCESS,12,SUCCESS,27,2018-03-19 14:50:09 -0400,Use @RestController where feasible,58,1868
+71,5f2ff0d,SUCCESS,15,SUCCESS,13,SUCCESS,26,2018-03-19 14:51:09 -0400,Update SFW version to 5.0.4,58,1868
+72,b9e18ad,SUCCESS,10,SUCCESS,12,SUCCESS,29,2018-05-30 20:04:39 -0500,Checking in clarification note with location of controller code for standard and custom web Arguments,58,1868
+73,5d869f5,SUCCESS,10,SUCCESS,10,SUCCESS,26,2019-03-20 20:13:29 -0500,URL Cleanup,58,1868
+74,36e9278,SUCCESS,10,SUCCESS,10,SUCCESS,29,2019-03-19 22:42:22 -0500,URL Cleanup,58,1868
+75,fa09f61,SUCCESS,11,SUCCESS,10,SUCCESS,25,2015-03-31 21:35:33 -0400,Typo fix home.jsp,58,1868

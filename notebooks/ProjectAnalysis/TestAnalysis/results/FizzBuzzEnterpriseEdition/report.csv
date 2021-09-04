@@ -1,0 +1,185 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,8d101c4,FAIL,0,NO,0,NO,0,2012-11-24 01:44:16 +0100,Started the project. Time to learn!,1,11
+1,ba06e77,FAIL,0,NO,0,NO,0,2012-11-24 01:49:26 +0100,Made it into a more serious project.,17,132
+2,64cc791,FAIL,0,NO,0,NO,0,2012-11-24 02:05:21 +0100,Made the code A LOT more readable.,17,135
+3,bc0c812,FAIL,0,NO,0,NO,0,2012-11-24 14:33:51 +0100,Implemented the Factory pattern.,42,325
+4,dcc66cf,FAIL,0,NO,0,NO,0,2012-11-25 00:35:54 +0100,Ignore .class files.,42,325
+5,8b1cf86,FAIL,0,NO,0,NO,0,2012-11-24 15:54:34 -0800,Merge pull request #1 from commonquail/master,42,325
+6,e1c6252,FAIL,0,NO,0,NO,0,2012-11-25 00:53:53 +0100,Cleaned the directory for .class-file clutter.,42,325
+7,7f0fab0,FAIL,0,NO,0,NO,0,2012-11-25 01:36:59 +0100,Added readme.,42,325
+8,071737b,FAIL,0,NO,0,NO,0,2012-11-25 01:46:55 +0100,Merge remote-tracking branch 'upstream/master',42,325
+9,61e6217,FAIL,0,NO,0,NO,0,2012-11-25 01:49:54 +0100,Accidentally a word.,42,325
+10,c77a22d,FAIL,0,NO,0,NO,0,2012-11-24 16:52:56 -0800,Merge pull request #2 from commonquail/master,42,325
+11,b17cfd7,FAIL,0,NO,0,NO,0,2012-11-25 01:58:09 +0100,Condition changed to actually count to the number given as a parameter.,42,325
+12,8a53efd,FAIL,0,NO,0,NO,0,2012-11-25 15:07:39 +0100,"<= is a lot of responsibility on one line, better separate it into < and ==.",42,327
+13,417395b,FAIL,0,NO,0,NO,0,2012-11-25 06:23:10 -0800,Merge pull request #4 from commonquail/master,42,327
+14,4435366,FAIL,0,NO,0,NO,0,2012-11-25 15:46:12 +0100,Fixed what Mikkel broke.,42,328
+15,c23a9fd,FAIL,0,NO,0,NO,0,2012-11-25 16:25:40 +0100,Separate interfaces and implementations.,0,0
+16,d8bfc0a,FAIL,0,NO,0,NO,0,2012-11-25 16:38:48 +0100,Merge remote-tracking branch 'upstream/master',42,350
+17,370b33f,FAIL,0,NO,0,NO,0,2012-11-25 07:48:31 -0800,Merge pull request #5 from commonquail/master,42,350
+18,30baae9,FAIL,0,NO,0,NO,0,2012-11-25 19:22:07 +0100,"Fixed the StringReturners, as their methods did not conform to the interface.",42,350
+19,c92ead8,FAIL,0,NO,0,NO,0,2013-03-12 12:29:05 +0900,changed the loop increment value to final value,42,350
+20,abac598,FAIL,0,NO,0,NO,0,2013-03-12 15:08:12 +0900,Move sources,42,350
+21,be96d38,FAIL,0,NO,0,NO,0,2013-03-12 02:37:15 -0700,Merge pull request #6 from torazuka/feature/pr1,42,350
+22,5e14a9c,SUCCESS,15,SUCCESS,5,SUCCESS,7,2013-03-19 20:09:51 +0900,Add maven project,42,350
+23,82bca46,SUCCESS,5,SUCCESS,6,SUCCESS,8,2013-03-19 20:10:54 +0900,Add test,43,398
+24,bb5148e,SUCCESS,7,SUCCESS,6,SUCCESS,6,2013-03-19 20:11:38 +0900,Merge branch 'master' into add_maven2_project_and_test,43,398
+25,238abbc,SUCCESS,8,SUCCESS,6,SUCCESS,6,2013-03-19 20:22:21 +0900,Add maven-jar-plugin,43,398
+26,c1512a9,SUCCESS,8,SUCCESS,6,SUCCESS,6,2013-03-19 05:09:08 -0700,Merge pull request #37 from mattn/add_maven2_project_and_test,43,398
+27,50c5f46,SUCCESS,9,SUCCESS,6,SUCCESS,7,2013-03-19 18:57:43 +0400,Added compiler configuration to build project with jdk 1.7; NewLineStringReturner now uses platform-independent line separator;,43,399
+28,0d35144,SUCCESS,7,SUCCESS,7,SUCCESS,6,2013-03-19 15:58:36 +0100,Update README.md,43,398
+29,06d971c,SUCCESS,7,SUCCESS,6,SUCCESS,6,2013-03-19 10:18:42 -0700,Merge pull request #40 from deadok22/master,43,399
+30,f111694,SUCCESS,8,SUCCESS,6,SUCCESS,6,2013-03-21 11:49:31 +0100,Fix magic number usage,43,400
+31,fe2167f,SUCCESS,7,SUCCESS,5,SUCCESS,7,2013-03-22 02:40:19 -0700,Merge pull request #46 from julianwachholz/master,43,400
+32,65bbb7b,SUCCESS,7,SUCCESS,6,SUCCESS,6,2013-04-09 21:06:40 -0400,Removed a few magic numbers; our code has to be adaptable and explicit.,46,413
+33,9413e68,SUCCESS,6,SUCCESS,7,SUCCESS,6,2013-04-10 09:23:35 -0700,Merge pull request #55 from hgentry/master,46,413
+34,9216cc6,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-04-12 13:59:55 +0400,Fix redundant newline.,46,413
+35,d86974e,SUCCESS,7,SUCCESS,7,SUCCESS,6,2013-04-12 14:07:15 +0400,Fix code duplication for checking one n umber is multiple of another.,47,423
+36,aa58495,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-05-07 20:55:54 +0400,Update LoopInitializer.java,46,413
+37,bd81ecd,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-05-07 20:56:31 +0400,Update LoopStep.java,46,413
+38,5a545cb,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-05-08 12:27:38 -0700,Merge pull request #62 from avl93/master,46,413
+39,c83b5d4,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-07-18 23:58:40 -0700,Merge pull request #58 from Dmitry-Me/master,47,423
+40,c57b908,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-02 19:22:49 +0400,Factor out comparison implementation.,49,444
+41,63a0fca,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-08-02 19:24:10 +0400,Remove redundant tab characters.,49,444
+42,cd45a38,SUCCESS,6,SUCCESS,7,SUCCESS,6,2013-08-07 02:10:01 -0700,Merge pull request #68 from Dmitry-Me/master,49,444
+43,8ffc288,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-08 00:00:52 -0400,Made the variable names more descriptive.,49,446
+44,fb41fa6,SUCCESS,7,SUCCESS,7,SUCCESS,6,2013-08-08 00:06:58 -0400,"Factored out integer division, in case we ever want to use other algorithms for it.",50,450
+45,baf6550,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-08 00:55:22 -0400,"Made the integer division class more explicit in what it's doing. Also, added a division-by-zero exception, to catch it before it happens, and added exception-handling code to the procedures that use the code that potentially throws division by zero.",50,466
+46,740dc89,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-08 02:50:29 -0700,Merge pull request #75 from joezeng/master,50,466
+47,222073a,FAIL,6,NO,0,NO,0,2013-08-13 03:26:50 -0400,Update IntegerDivider.java,50,470
+48,0597152,FAIL,7,NO,0,NO,0,2013-08-13 16:05:21 +0400,Loop ending should be coupled to the loop tighter for clarity.,51,477
+49,2530021,FAIL,6,NO,0,NO,0,2013-08-13 05:27:05 -0700,Merge pull request #80 from Dmitry-Me/refactorloop,51,477
+50,5631058,FAIL,5,NO,0,NO,0,2013-08-13 06:07:03 -0700,Merge pull request #79 from joezeng/patch-1,51,481
+51,3705017,FAIL,5,NO,0,NO,0,2013-08-13 17:52:23 +0400,Make conversions and doubles comparisons explicit.,55,509
+52,017e08c,FAIL,5,NO,0,NO,0,2013-08-13 07:54:18 -0700,Merge pull request #81 from Dmitry-Me/doublescomparison,55,509
+53,6c5963c,FAIL,6,NO,0,NO,0,2013-08-14 09:57:02 +0400,Previous change broke compilation.,55,509
+54,506c0f8,FAIL,6,NO,0,NO,0,2013-08-13 23:50:19 -0700,Merge pull request #83 from Dmitry-Me/compilationbroken,55,509
+55,7e504fb,FAIL,6,NO,0,NO,0,2013-08-14 13:28:42 +0400,Separate output generation from the loop iteration logic.,56,524
+56,dbd2994,FAIL,5,NO,0,NO,0,2013-08-14 03:09:21 -0700,Merge pull request #84 from Dmitry-Me/separategeneration,56,524
+57,9d51bcc,FAIL,7,NO,0,NO,0,2013-08-14 17:48:10 +0400,Comparison for equality was heavily duplicated.,57,533
+58,7a796ee,FAIL,5,NO,0,NO,0,2013-08-14 09:58:41 -0700,Merge pull request #85 from Dmitry-Me/equalitycomparison,57,533
+59,9248778,FAIL,5,NO,0,NO,0,2013-08-15 18:15:48 +0400,Problem solution should be instantiated through factory class to make the process more adaptable.,61,563
+60,9936dee,FAIL,5,NO,0,NO,0,2013-08-20 01:54:47 -0700,Merge pull request #86 from Dmitry-Me/generalizesolver,61,563
+61,34637f4,FAIL,5,NO,0,NO,0,2013-08-20 13:24:43 +0400,Loop implementation factored out into a separate class.,62,581
+62,f06eb1a,FAIL,6,NO,0,NO,0,2013-08-21 03:05:51 -0700,Merge pull request #88 from Dmitry-Me/separateloop,62,581
+63,0b1f871,FAIL,6,NO,0,NO,0,2013-08-22 11:42:25 +0400,Loop should not be nailed to generation.,69,643
+64,1e606df,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-23 14:28:03 +0200,Fix compile time errors,62,582
+65,59553a3,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-08-26 01:08:26 -0700,Merge pull request #90 from 14mRh4X0r/fixcompiletimeerrors,62,582
+66,2fd773c,FAIL,6,NO,0,NO,0,2013-08-29 03:11:50 -0700,Merge pull request #89 from Dmitry-Me/decoupleloopfromgeneration,69,644
+67,3f9dab3,SUCCESS,7,SUCCESS,6,SUCCESS,7,2013-09-06 17:15:10 -0700,"Fixed compilation errors, stop breaking prod",69,644
+68,666029e,SUCCESS,8,SUCCESS,6,SUCCESS,7,2013-09-13 00:43:27 -0700,Merge pull request #91 from denmojo/master,69,644
+69,38fd073,SUCCESS,7,SUCCESS,7,SUCCESS,6,2013-09-25 11:04:38 -0700,Update .gitignore for enterprise Java development tool (IDEA).,69,644
+70,b76ae5f,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-02-03 17:24:07 +0100,Added the final keyword to all immutable variables.,69,644
+71,3509749,SUCCESS,8,SUCCESS,6,SUCCESS,7,2014-02-18 20:51:52 -0500,Create .travis.yml,69,644
+72,e3300df,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-02-18 20:55:21 -0500,Update README.md,69,644
+73,0278d4d,SUCCESS,8,SUCCESS,6,SUCCESS,6,2014-02-18 20:59:24 -0500,Update README.md,69,644
+74,acedac0,SUCCESS,8,SUCCESS,7,SUCCESS,6,2014-02-21 14:47:21 +0100,Merge pull request #122 from wfreeman/master,69,644
+75,32b6a7e,SUCCESS,7,SUCCESS,5,SUCCESS,7,2014-02-21 14:54:57 +0100,Merge pull request #105 from sbeitzel/develop,69,644
+76,779b3b4,SUCCESS,7,SUCCESS,7,SUCCESS,6,2014-03-04 18:02:15 -0500,"Adding a much needed output strategy to get away from that old, crusty, System.out construct",70,647
+77,0d0d3e0,SUCCESS,7,SUCCESS,5,SUCCESS,6,2014-03-04 18:04:52 -0500,Adding a factory to create the output strategy so that we never get locked in again.  Enterprise freedom,71,651
+78,01f3038,SUCCESS,7,SUCCESS,7,SUCCESS,6,2014-03-04 18:09:18 -0500,"Adding a strategy to wrap System.out to prevent vendor lock-in.  Also declaring exceptions using IOException, which should be removed and replaced with our own type",72,661
+79,549f663,SUCCESS,8,SUCCESS,6,SUCCESS,6,2014-03-04 18:15:11 -0500,Creating a concrete factory for our output straetgy.  Freedom is only a few commits away.,73,670
+80,9171687,SUCCESS,7,SUCCESS,7,FAIL,6,2014-03-04 18:25:45 -0500,Removed all of those nasty System.out s with a proper output strategy.  Can you believe it...some kid forgot to give constructors to all of those classes...seesh,73,746
+81,5c55ec7,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-03-05 09:13:00 -0500,"Making a fix to the way the output stream is instantiated in order to fix the unit tests, like a boss.",73,749
+82,e4fa525,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-03-07 14:04:24 +0100,Merge pull request #124 from bstempi/feature/118,73,749
+83,00d9881,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-03-07 15:35:56 +0100,Manual merge with upstream.,73,749
+84,38755d6,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-03-12 12:45:54 +0400,Eliminale wrong link in project readme,73,749
+85,0e1bbc5,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-03-12 12:47:49 +0400,Improve markdown of project readme,73,749
+86,b09fe8d,SUCCESS,6,SUCCESS,7,SUCCESS,7,2014-03-12 22:13:54 +0100,Merge pull request #126 from Sannis/eliminale_wrong_link_in_project_readme,73,749
+87,5f399a5,SUCCESS,7,SUCCESS,5,SUCCESS,6,2014-03-12 22:16:19 +0100,Merge pull request #120 from alexfernandez/master,73,749
+88,9cabebf,FAIL,7,NO,0,NO,0,2014-03-25 11:11:33 +0100,Better naming convention,73,749
+89,8855d43,SUCCESS,7,FAIL,6,NO,0,2014-03-25 11:11:54 +0100,Better naming convention,73,749
+90,cb0f49c,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-03-25 12:14:19 +0100,Better naming convention,73,749
+91,a303ff0,SUCCESS,7,SUCCESS,7,SUCCESS,6,2014-07-11 13:42:38 +0400,Merge pull request #128 from voter101/master,73,749
+92,aad80de,SUCCESS,7,SUCCESS,6,SUCCESS,7,2014-07-22 13:53:57 +0400,Merge https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition/pull/127,80,816
+93,77de767,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-07-22 14:27:03 +0400,Merge pull request #147 from Dmitry-Me/corneil-master,80,816
+94,dc68cf6,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-08-07 11:04:51 +0400,Use mechanism for obtaining the upper limit value.,82,828
+95,f71d6cf,SUCCESS,7,SUCCESS,5,SUCCESS,6,2014-08-07 11:13:04 +0400,Merge pull request #149 from Dmitry-Me/getRidOfHardcoded100Value,82,828
+96,3732e43,SUCCESS,6,SUCCESS,5,SUCCESS,6,2014-08-07 13:52:14 +0400,Remove redundant import.,82,827
+97,47f8c4a,SUCCESS,7,SUCCESS,5,SUCCESS,7,2014-08-07 13:57:57 +0400,Merge pull request #150 from Dmitry-Me/removeRedundantImport,82,827
+98,72a653e,SUCCESS,7,SUCCESS,5,SUCCESS,6,2014-08-15 14:10:00 +0400,Improve temporaries naming.,82,827
+99,a7ff0f9,SUCCESS,7,SUCCESS,5,SUCCESS,7,2014-08-15 14:14:46 +0400,Merge pull request #152 from Dmitry-Me/improveVariableNames,82,827
+100,631cc36,SUCCESS,7,SUCCESS,6,SUCCESS,5,2014-08-15 19:35:55 +0100,Make some variables which are never changed final,82,827
+101,114ae3d,SUCCESS,7,SUCCESS,5,SUCCESS,7,2014-08-22 17:02:35 +0400,Use adapter for handling exceptions from output.,84,851
+102,60925e2,SUCCESS,6,SUCCESS,6,SUCCESS,6,2014-08-22 17:07:25 +0400,Merge pull request #154 from Dmitry-Me/adapterToAdaptExceptionHandlig,84,851
+103,f9c8ae4,SUCCESS,6,SUCCESS,6,SUCCESS,7,2014-09-09 16:43:31 -0400,Replaces zero constant with named final integral,84,852
+104,a26369b,SUCCESS,6,SUCCESS,6,SUCCESS,6,2014-09-10 11:36:11 +0400,Merge pull request #158 from ryanhaining/master,84,852
+105,a37df04,SUCCESS,16,SUCCESS,6,SUCCESS,9,2014-10-03 15:43:41 +0000,Added Codecov.io coverage reporting,84,852
+106,246c54e,SUCCESS,7,SUCCESS,7,SUCCESS,10,2014-10-03 11:47:15 -0400,Update README.md,84,852
+107,c607370,SUCCESS,7,SUCCESS,6,SUCCESS,6,2014-12-22 11:03:51 +1100,fix whitespace,84,852
+108,a7d1356,SUCCESS,6,SUCCESS,5,SUCCESS,6,2014-12-22 11:12:39 +0300,Merge pull request #168 from rheber/whitespace,84,852
+109,a2291e8,SUCCESS,8,SUCCESS,5,SUCCESS,6,2015-03-12 23:41:30 -0700,Refactored one of the remaining constants.,84,852
+110,65d6fc6,SUCCESS,7,SUCCESS,5,SUCCESS,7,2015-03-14 13:00:57 +0300,Merge pull request #182 from joezeng/patch-1,84,852
+111,2c3bab7,SUCCESS,11,SUCCESS,5,FAIL,6,2015-03-21 21:47:29 +0100,Installed spring and restructured for dependency injection.,86,981
+112,ab95ef6,SUCCESS,8,SUCCESS,5,FAIL,7,2015-03-21 22:13:20 +0100,Update Spring™ Maven™ POM Dependencies,86,981
+113,1256892,FAIL,3,NO,0,NO,0,2015-03-21 22:20:12 +0100,Include Spring™ XML Configuration,86,981
+114,cec9d6a,FAIL,4,NO,0,NO,0,2015-03-21 22:23:43 +0100,Correct improper placement of Spring™ XML Configuration,86,981
+115,a85ca56,SUCCESS,6,SUCCESS,6,SUCCESS,10,2015-03-21 22:33:13 +0100,Correct misunderstanding about the nature of directories and files,86,981
+116,828d499,SUCCESS,7,SUCCESS,5,SUCCESS,6,2015-03-30 13:18:11 +0300,Fix code style violation reported in PR#184,84,852
+117,ccee759,SUCCESS,7,SUCCESS,5,SUCCESS,6,2015-03-30 13:22:06 +0300,Merge pull request #187 from Dmitry-Me/fixCodeStyleViolation,84,852
+118,00097ff,SUCCESS,7,SUCCESS,5,SUCCESS,9,2015-04-19 17:56:49 +0200,Merge branch 'feature/Dependency-injection',86,981
+119,27e0403,SUCCESS,8,SUCCESS,5,FAIL,8,2015-04-22 13:40:19 +0200,"Use final wherever possible, constructor injection for better testability, access via this. to fields.",87,1097
+120,17cdb3b,SUCCESS,7,SUCCESS,5,SUCCESS,9,2015-05-12 13:45:23 -0400,Update LoopComponentFactory.java,86,981
+121,ad4b9a5,SUCCESS,7,SUCCESS,6,SUCCESS,9,2015-05-16 20:45:49 +0300,Merge pull request #202 from cmccall/patch-1,86,981
+122,1f65854,SUCCESS,7,SUCCESS,5,FAIL,8,2015-05-16 20:10:25 +0200,Merge remote-tracking branch 'origin/master' into bestPractices,87,1097
+123,9295584,SUCCESS,7,SUCCESS,6,FAIL,7,2015-05-16 20:26:50 +0200,always use fields fully qualified,87,1097
+124,a7c7d84,SUCCESS,7,SUCCESS,5,FAIL,7,2015-05-18 13:14:53 +0200,final variable,87,1097
+125,4a8639e,SUCCESS,8,SUCCESS,9,SUCCESS,10,2015-05-19 19:18:32 +0100,Add enterprise quality unit tests,144,1769
+126,e2fd1ae,SUCCESS,7,SUCCESS,6,SUCCESS,12,2015-05-26 15:42:25 +0200,Merge pull request #160 from stevepeak/master,86,981
+127,301d500,SUCCESS,7,SUCCESS,6,FAIL,10,2015-05-26 16:00:08 +0200,Merge pull request #191 from krasa/bestPractices,87,1097
+128,837c5d5,SUCCESS,7,SUCCESS,7,FAIL,8,2015-07-20 08:14:28 +0200,Added our new Code of Conduct for contributing.,87,1097
+129,c41f68d,SUCCESS,8,SUCCESS,7,FAIL,10,2015-07-20 08:35:52 +0200,Corrected link path in the README,87,1097
+130,10d080f,SUCCESS,7,SUCCESS,6,FAIL,11,2015-07-20 09:42:51 +0200,Merge pull request #218 from EnterpriseQualityCoding/contributor-code-of-conduct,87,1097
+131,6e9ce2e,SUCCESS,6,FAIL,7,NO,0,2015-08-28 16:02:16 +0200,Merge pull request #208 from ThomasRooney/master,145,1885
+132,dbd5a3a,SUCCESS,8,FAIL,7,NO,0,2015-10-19 15:46:22 +1000,updated to use corporate url in the pom,145,1885
+133,6ee55f0,SUCCESS,7,SUCCESS,7,SUCCESS,11,2015-10-26 17:39:44 +0100,"Revert ""Merge pull request #208 from ThomasRooney/master""",144,1769
+134,6f865cc,SUCCESS,6,SUCCESS,7,FAIL,10,2015-10-26 18:35:17 +0100,"Reverting the revert commit, since it clearly did not revert as intended.",87,1097
+135,6424933,SUCCESS,7,SUCCESS,6,FAIL,10,2015-10-30 13:29:21 +0100,Include Gradle config closes #230,87,1097
+136,b86dcee,SUCCESS,7,SUCCESS,7,SUCCESS,13,2015-10-30 14:20:37 +0100,Fixed a weird dependency,87,1100
+137,44c8251,SUCCESS,8,SUCCESS,6,FAIL,10,2015-10-30 15:19:58 +0100,Update url to new repository,87,1097
+138,9bcd20f,SUCCESS,7,SUCCESS,6,FAIL,10,2015-11-13 10:14:04 +0000,Add unsupported platform files to the .gitignore,87,1097
+139,b972ec2,SUCCESS,8,SUCCESS,6,FAIL,9,2015-12-06 11:23:19 -0500,Documentation for Loop package,87,1097
+140,956eea8,SUCCESS,7,SUCCESS,7,FAIL,9,2015-12-06 11:25:06 -0500,Documentatino for math.arithmetic package,87,1097
+141,0b95f1e,SUCCESS,7,SUCCESS,7,FAIL,9,2015-12-06 11:26:10 -0500,Documentation for Parameters package,87,1097
+142,ae916a0,SUCCESS,8,SUCCESS,6,FAIL,10,2015-12-06 11:28:55 -0500,Documentation for the printers package,87,1097
+143,eb136ad,SUCCESS,7,SUCCESS,6,FAIL,9,2015-12-18 15:20:54 -0500,"Documentation for interfaces, etc",87,1097
+144,4ed799f,SUCCESS,6,SUCCESS,6,FAIL,9,2016-01-29 19:03:09 +0400,"squid:S1118 - tility classes should not have public constructors squid:S2974 - Classes without ""public"" constructors should be ""final""",87,1104
+145,f7bba7c,SUCCESS,7,SUCCESS,6,FAIL,10,2016-07-25 15:34:50 +0200,"Code style issues - explicit super() call, introduced constants from magic strings, moved constants to one place.",88,1166
+146,fa2ba37,SUCCESS,8,SUCCESS,7,FAIL,9,2016-07-26 12:44:56 +0200,Introduced TestConstants,89,1186
+147,e3a1d2d,SUCCESS,7,SUCCESS,6,FAIL,9,2016-07-26 12:49:08 +0200,Renamed some constants to remove ambiguity,89,1187
+148,051fb7e,SUCCESS,7,SUCCESS,7,FAIL,8,2016-07-26 18:37:17 +0200,Merge pull request #266 from krasa/codeStyleIssues,89,1187
+149,4a6cb98,SUCCESS,7,SUCCESS,6,FAIL,10,2016-08-01 20:07:18 +0200,Merge pull request #153 from DziNeIT/patch-1,89,1187
+150,fd98db6,SUCCESS,7,SUCCESS,6,FAIL,10,2016-08-01 20:10:21 +0200,Merge pull request #232 from kristianperkins/patch-1,89,1187
+151,5d1f2c1,SUCCESS,7,SUCCESS,6,FAIL,9,2016-08-01 20:12:30 +0200,Merge pull request #235 from askogvold/update-pom-url,89,1187
+152,2d85936,SUCCESS,6,SUCCESS,7,FAIL,8,2016-08-01 20:13:00 +0200,Merge pull request #239 from Flowdeeps/patch-1,89,1187
+153,4307c8a,SUCCESS,7,SUCCESS,6,FAIL,8,2016-08-01 20:14:14 +0200,Merge pull request #245 from georgekankava/staging/utility-classes-should-not-have-public-constructors-fix-2,89,1194
+154,22f391c,SUCCESS,6,SUCCESS,6,FAIL,10,2016-09-01 13:56:13 +0200,Fix whitespace,89,1194
+155,f98ec95,SUCCESS,7,SUCCESS,6,FAIL,10,2016-09-01 16:41:59 +0200,Merge pull request #267 from rr-/whitespace-fix,89,1194
+156,662e33e,SUCCESS,6,SUCCESS,6,FAIL,10,2016-10-19 21:29:49 +0100,Fix FindBugs warning in ApplicationContextHolder.,89,1200
+157,f24a74b,SUCCESS,8,SUCCESS,6,FAIL,10,2016-10-19 21:31:32 +0100,Workaround for failing tests on Windows. TODO: Raise ticket to make tests platform-independent.,89,1201
+158,628d928,SUCCESS,7,SUCCESS,6,FAIL,8,2016-10-19 21:31:32 +0100,Workaround for failing tests on Windows. TODO: Raise ticket to make tests platform-independent.,89,1201
+159,8cb4964,SUCCESS,8,SUCCESS,6,FAIL,7,2016-10-19 22:12:29 +0100,Commit.,89,1201
+160,c766e57,SUCCESS,6,SUCCESS,7,FAIL,8,2016-10-20 16:17:56 +0100,Fix whitespace per PR review comments.,89,1201
+161,c386ab8,SUCCESS,8,SUCCESS,5,FAIL,9,2016-10-20 16:18:49 +0100,Increase code coverage (now 91%).,89,1165
+162,bc62e32,SUCCESS,7,SUCCESS,6,FAIL,8,2016-11-13 01:02:44 -0500,Merge commit 'eb136adb7490ef97e5ba7f97d2b9b75f489097e3' into recreatingSeriousDocumentation,89,1193
+163,883cbcb,SUCCESS,7,SUCCESS,6,FAIL,8,2016-11-12 22:10:23 -0500,Docs for impl/factories,89,1193
+164,71e6b66,SUCCESS,7,SUCCESS,6,FAIL,10,2016-11-12 22:30:46 -0500,"Documentation for loops, math.arithmetics, parameters",89,1193
+165,8c46e13,SUCCESS,6,SUCCESS,6,FAIL,9,2016-11-12 22:40:16 -0500,documentation for printers,89,1193
+166,6fd171d,SUCCESS,6,SUCCESS,6,FAIL,9,2016-11-12 23:17:57 -0500,Bringing documentation up to new standards,89,1193
+167,7a80be4,SUCCESS,7,SUCCESS,6,FAIL,8,2016-11-13 00:05:14 -0500,Documentation for tests,89,1193
+168,6880465,SUCCESS,7,SUCCESS,6,SUCCESS,11,2016-11-30 10:02:23 +0100,Merge pull request #234 from askogvold/gradle,89,1197
+169,4590711,SUCCESS,6,SUCCESS,6,SUCCESS,11,2017-01-07 17:11:18 +0100,Merge pull request #271 from cameronxm/master,89,1168
+170,16d9d00,SUCCESS,6,SUCCESS,5,SUCCESS,11,2017-02-03 13:39:33 -0800,FizzStringReturner may not have copied all characters,89,1169
+171,cdfac75,SUCCESS,6,SUCCESS,7,SUCCESS,13,2017-02-04 09:41:15 +0100,Merge pull request #281 from tkellogg/master,89,1169
+172,84dfc1d,SUCCESS,8,SUCCESS,6,FAIL,9,2017-03-02 11:23:39 -0500,spaces --> tabs for impl/factories,89,1193
+173,fccf6db,SUCCESS,8,SUCCESS,7,FAIL,8,2017-03-02 11:26:38 -0500,spaces --> tabs for impl/loop,89,1193
+174,5cbc47f,SUCCESS,7,SUCCESS,6,FAIL,8,2017-03-02 11:31:00 -0500,spaces —> tabs for impl/math,89,1193
+175,203efeb,SUCCESS,7,SUCCESS,6,FAIL,8,2017-03-02 11:36:46 -0500,spaces —> tabs for impl/printers,89,1193
+176,b4c9ddc,SUCCESS,7,SUCCESS,6,FAIL,9,2017-03-02 11:37:11 -0500,spaces —> tabs impl/printers,89,1193
+177,9ab5823,SUCCESS,7,SUCCESS,6,FAIL,8,2017-03-02 11:38:26 -0500,spaces —> tabs for impl/printers,89,1193
+178,afaf5db,SUCCESS,7,SUCCESS,5,FAIL,8,2017-03-02 11:41:59 -0500,spaces —> tabs for rest of impl/strategies,89,1193
+179,2f92ef7,SUCCESS,7,SUCCESS,7,FAIL,8,2017-03-02 11:47:12 -0500,spaces —> tabs for interfaces,89,1193
+180,dfbdcd9,SUCCESS,6,SUCCESS,7,FAIL,9,2017-03-02 11:48:34 -0500,spaces —> tabs for tests,89,1193
+181,f127ee1,SUCCESS,8,SUCCESS,5,SUCCESS,12,2017-03-02 14:10:13 -0500,Merge branch 'master' of github.com:ecurtin/FizzBuzzEnterpriseEdition into seriousDocumentation,89,1168
+182,c615ac6,SUCCESS,6,SUCCESS,5,SUCCESS,10,2017-03-02 16:29:00 -0500,Touchups after pulling updates from main branch. Added javadoc comments to most interface declarations.,89,1168
+183,4922c07,SUCCESS,7,SUCCESS,6,SUCCESS,11,2019-12-18 08:12:52 +0100,Merge pull request #242 from ecurtin/seriousDocumentation,89,1168

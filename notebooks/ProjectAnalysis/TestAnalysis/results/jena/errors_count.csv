@@ -1,0 +1,89 @@
+error,count
+caught: Failed to find a valid EntityMap for : file:///home/bugs/projects/jena/jena-text/testing/TextQuery/text-config.ttl#entMap,2
+caught: Failed to find a valid EntityMap for : file:///home/bugs/projects/jena/jena-text/testing/TextQuery/text-config-union.ttl#entMap,1
+,39853
+Can&#x27;t open database at location /tmp/TDBTest/ as it is already locked by the process with PID 358134.  TDB databases do not permit concurrent usage across JVMs so in order to prevent possible data corruption you cannot open this location from the JVM that does not own the lock for the dataset,97
+Already open: /tmp/TDBTest/journal.jrnl,37151
+Failed to open: --mem--/mem.idn (mode=rw),44
+Failed to open: --mem--/node2id.idn (mode=rw),251
+Failed to open: --mem--/prefixIdx.idn (mode=rw),10
+caught: Failed to open: --mem--/node2id.idn (mode=rw),5
+Failed to open: --mem--/FOO/node2id.idn (mode=rw),2
+Failed to open: --mem--/foo/node2id.idn (mode=rw),1
+"Unexpected exception, expected&lt;java.util.ConcurrentModificationException&gt; but was&lt;com.hp.hpl.jena.tdb.base.file.FileException&gt;",6
+Could not initialize class com.hp.hpl.jena.tdb.solver.TestStats,21
+Not found: file:///home/bugs/projects/jena/jena-arq/testing/RIOT/Lang/TurtleStd/comment_following_localName.ttl,1
+Not found: file:///home/bugs/projects/jena/jena-arq/testing/RIOT/Lang/TurtleStd/number_sign_following_localName.ttl,1
+Not found: file:///home/bugs/projects/jena/jena-arq/testing/RIOT/Lang/TurtleStd/comment_following_PNAME_NS.ttl,1
+Not found: file:///home/bugs/projects/jena/jena-arq/testing/RIOT/Lang/TurtleStd/number_sign_following_PNAME_NS.ttl,1
+Not found: testing/RIOT/Lang/TriX/trix-01.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-02.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-03.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-04.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-05.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-06.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-10.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-11.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-12.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-13.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-14.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-15.nq,1
+Not found: testing/RIOT/Lang/TriX/trix-01.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-01.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-02.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-02.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-03.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-03.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-04.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-04.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-05.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-05.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-06.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-06.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-10.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-10.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-11.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-11.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-12.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-12.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-13.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-13.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-14.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-14.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-15.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-15.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-ex-1.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-ex-1.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-ex-3.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-ex-3.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-ex-4.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-ex-4.trix (No such file or directory),1
+Not found: testing/RIOT/Lang/TriX/trix-ex-5.trix,2
+java.io.FileNotFoundException: testing/RIOT/Lang/TriX/trix-ex-5.trix (No such file or directory),1
+"Unexpected exception, expected&lt;org.apache.jena.riot.RiotException&gt; but was&lt;org.apache.jena.atlas.AtlasException&gt;",9
+"Unexpected exception, expected&lt;com.hp.hpl.jena.tdb.TDBException&gt; but was&lt;java.lang.StackOverflowError&gt;",8
+"Unexpected exception, expected&lt;java.util.ConcurrentModificationException&gt; but was&lt;java.lang.StackOverflowError&gt;",36
+"Unexpected exception, expected&lt;com.hp.hpl.jena.tdb.transaction.TDBTransactionException&gt; but was&lt;java.lang.StackOverflowError&gt;",4
+"Unexpected exception, expected&lt;com.hp.hpl.jena.tdb.TDBException&gt; but was&lt;java.lang.NullPointerException&gt;",6
+caught: null,21
+"Unexpected exception, expected&lt;com.hp.hpl.jena.tdb.transaction.TDBTransactionException&gt; but was&lt;java.lang.NullPointerException&gt;",12
+java.io.FileNotFoundException: /home/bugs/projects/jena/jena-tdb/target/test/DB/tdb.cfg (No such file or directory),18
+Does not exist: /home/bugs/projects/jena/jena-tdb/target/test/DB/,3
+-11,1
+-3,1
+tried to access method com.google.common.base.Stopwatch.&lt;init&gt;()V from class org.apache.hadoop.mapreduce.lib.input.FileInputFormat,175
+"Unexpected exception, expected&lt;java.io.IOException&gt; but was&lt;java.lang.IllegalAccessError&gt;",50
+langString,3
+Could not initialize class org.apache.jena.jdbc.remote.TestRemoteEndpointDriver,78
+Could not initialize class org.apache.jena.jdbc.results.AbstractResultSetTests,18
+Could not initialize class org.apache.jena.jdbc.remote.results.AbstractRemoteEndpointResultSetTests,15
+Could not initialize class com.hp.hpl.jena.query.ARQ,12
+Could not initialize class org.apache.jena.jdbc.remote.metadata.TestRemoteConnectionMetadata,3
+Could not initialize class org.apache.jena.jdbc.remote.connections.AbstractRemoteEndpointConnectionTests,6
+Could not initialize class org.apache.jena.jdbc.remote.connections.TestRemoteEndpointConnectionWithResultSetTypes,3
+Could not initialize class org.apache.jena.jdbc.remote.connections.TestRemoteEndpointConnectionWithGraphUris,3
+Could not initialize class org.apache.jena.jdbc.remote.connections.TestRemoteEndpointConnection,3
+Could not initialize class org.apache.jena.jdbc.remote.statements.TestRemoteEndpointStatements,3
+Could not initialize class org.seaborne.tdb2.solver.TestStats,3
+org.seaborne.tdb2.repack.DatasetGraphSwitchable cannot be cast to org.seaborne.tdb2.store.DatasetGraphTxn,34
+"Unexpected exception, expected&lt;org.seaborne.dboe.transaction.txn.TransactionException&gt; but was&lt;java.lang.NullPointerException&gt;",3

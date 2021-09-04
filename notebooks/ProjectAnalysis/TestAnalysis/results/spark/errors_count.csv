@@ -1,0 +1,36 @@
+error,count
+java.io.FileNotFoundException: http://localhost:9191/books/null,14
+java.lang.NumberFormatException: For input string: &quot;&quot;,16
+java.io.FileNotFoundException: http://localhost:9191/books/1896075965,1
+java.io.FileNotFoundException: http://localhost:9191/books/1052785343,1
+java.io.FileNotFoundException: http://localhost:9191/books/null?title=SPARK,3
+junit.framework.AssertionFailedError: null,4
+java.io.FileNotFoundException: http://localhost:9191/books/1784229170,1
+java.io.FileNotFoundException: http://localhost:4567/books/null,21
+java.io.FileNotFoundException: http://localhost:4567/books/null?title=SPARK,9
+java.io.FileNotFoundException: http://localhost:4567/books/394656213,1
+java.io.FileNotFoundException: http://localhost:4567/books/589241793,1
+java.io.FileNotFoundException: http://localhost:4567/books/732085717?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/732085717,2
+java.lang.String cannot be cast to [Ljava.lang.String;,3
+java.io.FileNotFoundException: http://localhost:4567/books/1663346383?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/1663346383,2
+java.io.FileNotFoundException: http://localhost:4567/books/1256225111?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/1256225111,2
+java.io.FileNotFoundException: http://localhost:4567/books/1273748616?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/1273748616,1
+java.io.FileNotFoundException: http://localhost:4567/books/792902898?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/792902898,2
+java.io.FileNotFoundException: http://localhost:4567/books/337981308?title=SPARK,1
+java.io.FileNotFoundException: http://localhost:4567/books/337981308,2
+java.net.SocketException: Connection reset,8
+"Unexpected exception, expected&lt;java.io.IOException&gt; but was&lt;junit.framework.AssertionFailedError&gt;",1
+"Unexpected exception, expected&lt;java.io.FileNotFoundException&gt; but was&lt;java.net.SocketException&gt;",1
+junit.framework.ComparisonFailure: null expected:&lt;[Hello World!]&gt; but was:&lt;[echo: hi]&gt;,2
+org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:9393 refused,14
+java.io.FileNotFoundException: http://localhost:4567/books/1976539833,1
+java.io.FileNotFoundException: http://localhost:4567/books/1316089123,1
+java.net.ConnectException: Connection refused (Connection refused),11
+Connection refused (Connection refused),1
+Connect to localhost:4567 [localhost/127.0.0.1] failed: Connection refused (Connection refused),1
+Connect to localhost:9393 [localhost/127.0.0.1] failed: Connection refused (Connection refused),12

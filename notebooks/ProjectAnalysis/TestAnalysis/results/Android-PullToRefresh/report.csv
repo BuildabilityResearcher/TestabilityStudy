@@ -1,0 +1,478 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,ee7c796,FAIL,0,NO,0,NO,0,2011-11-29 10:18:26 +0000,Initial Import,3,267
+1,6bd26be,FAIL,0,NO,0,NO,0,2011-11-29 10:41:20 +0000,README,3,267
+2,a2cbb5f,FAIL,0,NO,0,NO,0,2011-11-29 10:43:44 +0000,Fix README formatting,3,267
+3,d23790a,FAIL,0,NO,0,NO,0,2011-11-29 11:09:13 +0000,New Sample,5,346
+4,1d8143f,FAIL,0,NO,0,NO,0,2011-11-29 11:48:41 +0000,More README Formatting fixes,5,346
+5,f10c7e8,FAIL,0,NO,0,NO,0,2011-11-29 13:31:50 +0000,Fix Samples,5,350
+6,8891cf8,FAIL,0,NO,0,NO,0,2011-11-29 19:27:12 +0000,Remove Unnecessary AdapterView Inner Classes,5,336
+7,74d934f,FAIL,0,NO,0,NO,0,2011-11-29 20:02:37 +0000,Document some of the Public Methods,5,336
+8,e14fa0a,FAIL,0,NO,0,NO,0,2011-11-29 20:03:49 +0000,Make createAdapterView final in the supplied derived classes,5,336
+9,347b298,FAIL,0,NO,0,NO,0,2011-12-01 10:29:15 +0100,Added support for ExpandableListView,6,350
+10,f205704,FAIL,0,NO,0,NO,0,2011-12-02 15:05:56 +0100,added customization of labels and progress elements.,6,364
+11,0ba44f8,FAIL,15,NO,0,NO,0,2011-12-02 15:08:01 +0100,created maven pom files,6,364
+12,e4b3434,FAIL,4,NO,0,NO,0,2011-12-02 15:18:07 +0100,better naming for sub-projects: renamed library project to pulltorefresh-library and sample project to pulltorefresh-sample,6,364
+13,6d0a006,FAIL,3,NO,0,NO,0,2011-12-08 00:10:14 +0100,removed useless id,6,364
+14,d1fac37,FAIL,5,NO,0,NO,0,2011-12-08 00:11:08 +0100,added excludes to eclipse plugin config because project didn't build in Eclipse,6,364
+15,a3387e0,FAIL,4,NO,0,NO,0,2011-12-08 00:14:00 +0100,added PullToRefreshExpandableListActivity sample,7,428
+16,1cfc941,FAIL,4,NO,0,NO,0,2011-12-10 02:56:27 -0800,Merge pull request #1 from stefanodacchille/master,7,428
+17,ab820e3,FAIL,3,NO,0,NO,0,2011-12-10 11:13:11 +0000,Move Library and Sample back to original Folders,7,428
+18,fdb67b2,FAIL,3,NO,0,NO,0,2011-12-10 11:23:23 +0000,Update Readme,7,428
+19,4289c39,FAIL,6,NO,0,NO,0,2011-12-12 14:07:06 +0100,fixed broken maven build after module renaming,7,428
+20,61d1392,FAIL,5,NO,0,NO,0,2011-12-12 12:25:02 -0800,Merge pull request #4 from stefanodacchille/master,7,428
+21,c117641,FAIL,6,NO,0,NO,0,2011-12-12 21:11:00 +0000,Can now change Backgrounds and Text Colour using XML,7,439
+22,716d40f,FAIL,5,NO,0,NO,0,2011-12-12 21:12:16 +0000,Fix README formatting,7,439
+23,43ddedb,FAIL,6,NO,0,NO,0,2011-12-13 16:34:24 +0800,"Fixed the header text display ""Loading"" not ""Pull to refresh..."" when onRefreshComplete called",7,440
+24,618623c,FAIL,5,NO,0,NO,0,2011-12-13 01:44:24 -0800,Merge pull request #5 from lishali12345/master,7,440
+25,b776699,FAIL,5,NO,0,NO,0,2011-12-14 10:31:28 +0000,Clarify some things in README,7,440
+26,565daff,FAIL,6,NO,0,NO,0,2011-12-14 10:34:38 +0000,"Have a Graphic in the README, like all the cool-kids",7,440
+27,8c1c086,FAIL,6,NO,0,NO,0,2011-12-19 10:45:45 +0000,Re-use Interpolator and Make Rotate Animation Quicker,7,441
+28,5b2fbb8,FAIL,5,NO,0,NO,0,2011-12-23 13:09:09 +0000,Pull-Up-Refresh,7,516
+29,3f05ec4,FAIL,5,NO,0,NO,0,2011-12-23 13:50:40 +0000,Update README,7,516
+30,2aa43a0,FAIL,5,NO,0,NO,0,2011-12-23 14:51:09 +0000,Add End of List Listener,7,539
+31,c405abc,FAIL,6,NO,0,NO,0,2011-12-23 15:13:37 +0000,Make all Public methods final,7,539
+32,8021ff5,FAIL,6,NO,0,NO,0,2011-12-23 15:17:57 +0000,Update Readme,7,539
+33,a309d47,FAIL,6,NO,0,NO,0,2011-12-30 14:18:58 +0000,Can now Pull Up AND Pull Down on the same view!,8,595
+34,736e6f3,FAIL,6,NO,0,NO,0,2011-12-30 14:20:55 +0000,Update Readme,8,595
+35,e6f9846,FAIL,5,NO,0,NO,0,2011-12-30 14:27:22 +0000,Add setDisableScrollingWhileRefreshing Mutator,8,598
+36,67ff3ab,FAIL,6,NO,0,NO,0,2012-01-02 20:39:27 +0000,Fix OnTouchListener not being called.,8,598
+37,da80833,FAIL,6,NO,0,NO,0,2012-01-04 13:32:45 +0000,Fix Sample for ICS,8,598
+38,7de8864,FAIL,6,NO,0,NO,0,2012-01-04 14:13:12 +0000,Fix Last Commit,8,598
+39,baf32db,FAIL,5,NO,0,NO,0,2012-01-04 14:16:13 +0000,Use batched MotionEvents too,8,601
+40,26d3f55,FAIL,6,NO,0,NO,0,2012-01-05 15:54:56 +0000,Merge dev,9,671
+41,285f2a9,FAIL,5,NO,0,NO,0,2012-01-05 16:58:45 +0000,Improve some Code Style and Optimise certain things,9,667
+42,f528d00,FAIL,6,NO,0,NO,0,2012-01-09 11:35:00 +0000,Move AbsListView centric code to new sub class,10,692
+43,1025851,FAIL,6,NO,0,NO,0,2012-01-09 12:50:04 +0000,PullToRefreshWebView!,12,758
+44,1f7a7e1,FAIL,6,NO,0,NO,0,2012-01-09 12:51:49 +0000,Change Sample to not use deprecated method,12,758
+45,f751135,FAIL,5,NO,0,NO,0,2012-01-12 22:21:59 +0100,Retrieve friction value from ViewConfiguration,12,763
+46,64be8c4,FAIL,6,NO,0,NO,0,2012-01-12 22:51:58 +0100,Retrieve touchslop from ViewConfiguration Correctly analyze touch events using touchslop,12,819
+47,a8383d3,FAIL,6,NO,0,NO,0,2012-01-15 02:05:39 -0800,Merge pull request #16 from rno/rno_dev,12,819
+48,b5b272b,FAIL,6,NO,0,NO,0,2012-01-15 10:51:37 +0000,Remove Multitouch Code. Remove ViewConfiguration getScrollFriction and general Code Style Fixes,12,798
+49,6d204b5,FAIL,6,NO,0,NO,0,2012-01-15 15:38:32 +0000,Allow OnLastItemVisibleListener to fire if the Initial batch of items can't fill the AdapterView,12,797
+50,86a3dc2,FAIL,5,NO,0,NO,0,2012-01-15 16:51:07 +0000,More Code Style Fixes,12,788
+51,554f27a,FAIL,6,NO,0,NO,0,2012-01-19 13:40:32 +0100,pass the long clickable setting to the underlying control,12,791
+52,cc00794,FAIL,6,NO,0,NO,0,2012-01-19 13:55:13 +0100,allow lists to generate a context menu,12,808
+53,c683411,FAIL,5,NO,0,NO,0,2012-01-19 14:00:19 +0100,only allow the bottom pull if the last item is fully displayed,12,788
+54,50fd6ef,FAIL,6,NO,0,NO,0,2012-01-19 14:02:15 +0100,crash fix in case the element to test is not in the list cache,12,790
+55,d105fa0,FAIL,6,NO,0,NO,0,2012-01-19 14:16:38 +0100,allow lists to generate a context menu (bis),12,809
+56,8674088,FAIL,7,NO,0,NO,0,2012-01-19 14:31:12 +0100,allow outside code to tell the widget the refreshing is on,12,792
+57,b9c3f33,FAIL,6,NO,0,NO,0,2012-01-19 14:36:32 +0100,simple method to query if the widget is pulling from the top or not,12,790
+58,a8370d4,FAIL,6,NO,0,NO,0,2012-01-19 14:37:38 +0100,fix a typo,12,788
+59,d7724be,FAIL,6,NO,0,NO,0,2012-01-19 14:55:45 +0100,Add string translations in different languages,12,788
+60,b44e770,FAIL,6,NO,0,NO,0,2012-01-20 00:44:44 -0800,Merge pull request #20 from levelup/long_clickable,12,791
+61,403311d,FAIL,5,NO,0,NO,0,2012-01-20 00:45:13 -0800,Merge pull request #23 from levelup/pull_crash_fix,12,793
+62,cacb4eb,FAIL,5,NO,0,NO,0,2012-01-20 00:45:33 -0800,Merge pull request #24 from levelup/outside_refresh,12,797
+63,4e7f107,FAIL,6,NO,0,NO,0,2012-01-20 00:45:54 -0800,Merge pull request #26 from levelup/typo,12,797
+64,0637404,FAIL,5,NO,0,NO,0,2012-01-20 00:46:09 -0800,Merge pull request #25 from levelup/query_mode,12,799
+65,a840c0f,FAIL,6,NO,0,NO,0,2012-01-20 00:46:18 -0800,Merge pull request #27 from levelup/language_strings,12,799
+66,967ff68,FAIL,6,NO,0,NO,0,2012-01-20 00:47:53 -0800,Merge pull request #21 from levelup/contextmenu,12,820
+67,0949fbd,FAIL,6,NO,0,NO,0,2012-01-20 08:49:58 +0000,Update Readme to include Steve Lhomme,12,820
+68,6365b2c,FAIL,5,NO,0,NO,0,2012-01-22 20:53:33 +0000,Add Default Method for setRefreshing,12,822
+69,c79020d,FAIL,6,NO,0,NO,0,2012-01-22 21:19:17 +0000,Remove un-needed code and optimise bits,12,795
+70,30c6794,FAIL,5,NO,0,NO,0,2012-01-22 21:29:47 +0000,Update Public method Javadoc,12,795
+71,a9b7da2,FAIL,5,NO,0,NO,0,2012-01-22 21:49:13 +0000,Fix isLastItemVisible() so that it gets the correct child view,12,801
+72,3a68787,FAIL,7,NO,0,NO,0,2012-01-22 21:55:31 +0000,Fix Imports from last commit,12,799
+73,9aa2113,FAIL,5,NO,0,NO,0,2012-01-22 22:00:50 +0000,"Hopefully fix bug where manually calling setRefreshing, and then scrolling would cause refresh pull",12,799
+74,d6e4714,FAIL,6,NO,0,NO,0,2012-01-22 22:07:42 +0000,Set the rest of the public methods to final,12,799
+75,3c9873c,FAIL,5,NO,0,NO,0,2012-01-24 13:35:46 +0000,Fix behaviour when manually calling setRefreshing,12,811
+76,15dca3d,FAIL,6,NO,0,NO,0,2012-01-24 13:36:05 +0000,Update Sample to test manually calling setRefreshing,12,839
+77,6a37db4,FAIL,7,NO,0,NO,0,2012-01-24 18:54:21 +0000,Allow Continuous Scrolling when Scrolling back up to hide header,12,848
+78,964bc44,FAIL,5,NO,0,NO,0,2012-01-25 20:26:40 +0000,Don't allow  setRefreshing to change state if we're already refreshing,12,847
+79,77045bf,FAIL,6,NO,0,NO,0,2012-01-25 20:30:59 +0000,Removing Hacky Continuous Scrolling,12,834
+80,26ee51f,FAIL,6,NO,0,NO,0,2012-01-25 20:33:00 +0000,Javadoc,12,834
+81,200e5c1,FAIL,6,NO,0,NO,0,2012-01-25 21:19:18 +0000,Add some more accessor methods,12,842
+82,517c0a0,FAIL,6,NO,0,NO,0,2012-01-26 10:08:04 +0000,Simplify setRefreshingInternal and add getMode(),12,839
+83,91fa2fd,FAIL,6,NO,0,NO,0,2012-01-26 10:09:10 +0000,Add new way for ListView to show Header's. Now uses ListView's Header and Footers as well as our normal way.,12,930
+84,841b2e4,FAIL,6,NO,0,NO,0,2012-01-26 10:23:18 +0000,Make ListView sample use getRefreshableView to get ListView.,12,841
+85,0cd6e12,FAIL,6,NO,0,NO,0,2012-01-26 10:51:17 +0000,Hopefully fix double padding issue,12,841
+86,aaa2586,FAIL,6,NO,0,NO,0,2012-01-26 10:54:40 +0000,Merge branch 'dev' into ListViewImprovements,12,932
+87,656ce00,FAIL,6,NO,0,NO,0,2012-01-26 11:15:30 +0000,Only Scroll if we need to.,12,936
+88,5f39593,FAIL,6,NO,0,NO,0,2012-01-26 11:15:52 +0000,Only smooth scroll if we're not at the same Y,12,937
+89,76cdeff,FAIL,6,NO,0,NO,0,2012-01-26 11:28:36 +0000,Fix when using MODE_BOTH with weird scrolling introduced in 517c0a0538a80d24cf87c111fe9935f39d6f127e,12,841
+90,3f13d51,FAIL,7,NO,0,NO,0,2012-01-26 11:29:02 +0000,Merge branch 'dev' into ListViewImprovements,12,937
+91,ea7f5ad,FAIL,5,NO,0,NO,0,2012-01-26 11:43:05 +0000,Update README for v1.2,12,937
+92,5e5421f,FAIL,6,NO,0,NO,0,2012-01-26 11:48:13 +0000,"Whoops, missed this off the changelog",12,937
+93,01314b0,FAIL,6,NO,0,NO,0,2012-01-26 22:57:10 +0400,Disabling scrolling while refreshing has no effect on manual refresh,12,937
+94,4d57b00,FAIL,5,NO,0,NO,0,2012-01-26 11:40:17 -0800,Merge pull request #33 from mgalkin/disable_scroll_issue,12,937
+95,7e91832,FAIL,5,NO,0,NO,0,2012-01-26 19:44:41 +0000,Update Readme for v1.2.1,12,937
+96,3a8cad1,FAIL,6,NO,0,NO,0,2012-01-31 14:21:13 +0800,add missing constructor for PullToRefreshListView with mode,12,940
+97,ad01691,FAIL,6,NO,0,NO,0,2012-01-31 14:30:58 +0800,add missing init method without use xml layoutfor PullToRefreshBase,12,976
+98,0f7501f,FAIL,6,NO,0,NO,0,2012-02-09 06:29:45 -0800,Merge pull request #34 from mcxiaoke/master,12,976
+99,5102695,FAIL,6,NO,0,NO,0,2012-02-09 14:42:44 +0000,Clean-up mcxiaoke's Pull Request a bit,12,947
+100,ea3e136,FAIL,5,NO,0,NO,0,2012-02-09 14:46:26 +0000,String updates (Thanks to robUx4),12,947
+101,b513901,FAIL,6,NO,0,NO,0,2012-02-09 14:50:57 +0000,Update Readme with Pull Request info,12,947
+102,34427db,FAIL,6,NO,0,NO,0,2012-02-09 14:54:49 +0000,Update Changelog,12,947
+103,e0f35af,FAIL,5,NO,0,NO,0,2012-02-12 16:45:46 +0000,Set ListView Header Views to not be selectable.,12,947
+104,92a8ec3,FAIL,6,NO,0,NO,0,2012-02-15 09:52:34 +0000,Use Hungarian Notation instead.,12,947
+105,316c746,FAIL,6,NO,0,NO,0,2012-03-04 08:45:53 +0000,Fix Issue #41,12,955
+106,cf50f86,FAIL,6,NO,0,NO,0,2012-03-04 08:49:53 +0000,Manually bring in Pull #39,12,955
+107,22f465c,FAIL,6,NO,0,NO,0,2012-03-04 10:34:48 +0000,Fix #40,12,962
+108,29179ca,FAIL,6,NO,0,NO,0,2012-03-04 10:43:18 +0000,v1.2.3 Update,12,962
+109,6193d18,FAIL,6,NO,0,NO,0,2012-03-04 17:07:58 +0000,v1.2.3.1,12,980
+110,7795f41,FAIL,5,NO,0,NO,0,2012-03-14 08:40:07 +0000,Fix #43 (Thanks to hank-cp),12,980
+111,fade7fa,FAIL,6,NO,0,NO,0,2012-03-14 09:08:53 +0000,Fix #42,12,989
+112,12bae1c,FAIL,6,NO,0,NO,0,2012-03-14 09:16:10 +0000,Add Debug Flag,12,986
+113,9552a72,FAIL,6,NO,0,NO,0,2012-03-14 09:27:50 +0000,"New listener, OnRefreshListener2. Allows you now to differentiate between Pull Downs and Pull Ups",12,1002
+114,87fa3d4,FAIL,6,NO,0,NO,0,2012-03-14 09:55:15 +0000,Fix #43 (again),12,1005
+115,09fcd74,FAIL,6,NO,0,NO,0,2012-03-14 09:55:47 +0000,Change Sample Grid Activity to use new OnRefreshListener2,12,1011
+116,b397610,FAIL,5,NO,0,NO,0,2012-03-14 10:02:35 +0000,v.1.2.4,12,1011
+117,23adca1,FAIL,5,NO,0,NO,0,2012-03-15 09:26:35 +0000,More Javadoc,12,1011
+118,30d4fa2,FAIL,5,NO,0,NO,0,2012-03-15 09:26:44 +0000,"Revert ""More Javadoc""",12,1011
+119,04e629c,FAIL,5,NO,0,NO,0,2012-03-16 13:28:55 +0000,v1.2.5,12,1011
+120,6afd576,FAIL,6,NO,0,NO,0,2012-03-16 13:29:53 +0000,Merge branch 'dev',12,1011
+121,ba9d392,FAIL,6,NO,0,NO,0,2012-03-19 13:45:54 +0000,Make getMode and getCurrentMode public,12,1011
+122,1ad945b,FAIL,6,NO,0,NO,0,2012-03-19 13:46:54 +0000,Fix #44,12,1014
+123,669b361,FAIL,6,NO,0,NO,0,2012-03-19 14:04:57 +0000,Fix #49,12,1044
+124,c7afce5,FAIL,6,NO,0,NO,0,2012-03-20 09:03:57 +0000,Hopefully fix #48,12,1045
+125,4dbcc11,FAIL,6,NO,0,NO,0,2012-03-21 11:43:14 +0000,Actually fix #48 (thanks mcxiaoke),12,1043
+126,8531116,FAIL,6,NO,0,NO,0,2012-03-26 16:27:59 +0100,Add ability to set whether the Refreshing View is automatically shown after a Refresh,12,1054
+127,0dac2e6,FAIL,6,NO,0,NO,0,2012-04-08 15:08:54 +0100,v1.2.6,12,1054
+128,d023551,FAIL,6,NO,0,NO,0,2012-04-08 20:53:38 -0300,Small correction --- letter should not be capitalized.,12,1054
+129,35a3dce,FAIL,6,NO,0,NO,0,2012-04-09 19:23:05 +0900,fixed the height calculation of WebView.,12,1055
+130,ccdbd61,FAIL,6,NO,0,NO,0,2012-04-12 01:07:53 -0700,Merge pull request #56 from nagoya0/reload,12,1055
+131,1ab9eaa,FAIL,6,NO,0,NO,0,2012-04-12 01:08:51 -0700,Merge pull request #55 from davidcesarino/patch-1,12,1054
+132,33a47ed,FAIL,6,NO,0,NO,0,2012-04-12 09:10:24 +0100,Merge branch 'dev' of github.com:chrisbanes/Android-PullToRefresh into dev,12,1055
+133,1dbe652,FAIL,6,NO,0,NO,0,2012-04-20 17:42:18 -0600,Adding sub header functionality for displaying last updated time.  Keep it generic and pass a string so the app can easily format the date however it wants to.,12,1072
+134,bab19e1,FAIL,7,NO,0,NO,0,2012-04-20 17:54:19 -0600,Set header text from html to allow for bolding of parts of the string,12,1073
+135,e403f03,FAIL,6,NO,0,NO,0,2012-04-24 09:42:14 -0700,Merge pull request #65 from doubleencore/subheader,12,1073
+136,886b544,FAIL,5,NO,0,NO,0,2012-04-24 18:08:02 +0100,Tweak Peter Elliott's Pull #65,12,1077
+137,e1a6d20,FAIL,6,NO,0,NO,0,2012-04-24 18:10:35 +0100,Use getScaledTouchSlop rather than the deprecated getTouchSlop,12,1078
+138,f2fa1c0,FAIL,5,NO,0,NO,0,2012-04-24 18:13:30 +0100,"""Fix"" #66",12,1085
+139,3effdc7,FAIL,7,NO,0,NO,0,2012-04-24 18:30:26 +0100,Fix #62,12,1091
+140,ee18775,FAIL,6,NO,0,NO,0,2012-04-27 09:01:20 +0100,Strings have now been separated for Pulling Up and Pulling Down views.,12,1089
+141,59dcaae,FAIL,6,NO,0,NO,0,2012-04-27 09:09:01 +0100,Make ee18775d2ab3f582d784e9ba7e83279c03522c8d more main table. Now uses standard Pull Down strings for Pull Up unless the language has otherwise set them.,12,1089
+142,f9f7fdb,FAIL,6,NO,0,NO,0,2012-04-28 10:02:45 +0100,Fix #64: OnLastItemVisible being call more than once.,12,1090
+143,705023b,FAIL,6,NO,0,NO,0,2012-04-28 10:11:18 +0100,Update Readme for v1.2.7,12,1090
+144,77c0907,FAIL,6,NO,0,NO,0,2012-04-28 17:23:05 +0100,Add Ability to change the Pull-to-Refresh mode via a setter. Fixes #10,12,1133
+145,ca993c8,FAIL,6,NO,0,NO,0,2012-04-28 17:47:39 +0100,Add Copyright notices to all Java source files,12,1131
+146,dbc7aaf,FAIL,5,NO,0,NO,0,2012-04-28 17:52:28 +0100,Forgot to turn off debug before committing.,12,1131
+147,58128e4,FAIL,5,NO,0,NO,0,2012-04-28 17:56:26 +0100,Fix #60. Header and Footer views not using custom background colours on ListView,12,1136
+148,e02d2de,FAIL,6,NO,0,NO,0,2012-04-28 18:31:23 +0100,Update Copyright notice to be standard Apache version.,12,1136
+149,c1ab09e,FAIL,6,NO,0,NO,0,2012-04-29 11:05:14 +0100,Use a new Mode Enum rather than ints.,12,1151
+150,9960d86,FAIL,5,NO,0,NO,0,2012-05-01 13:12:19 +0100,Fix getting correct enum back after onSaveInstanceState,12,1152
+151,744e383,FAIL,6,NO,0,NO,0,2012-05-03 09:49:39 +0100,Fix #67: Auto scroll to bottom after Pull-To-Refresh from bottom,12,1155
+152,9f9894e,FAIL,6,NO,0,NO,0,2012-05-03 17:20:16 +0200,Added LastUpdated label for footer. Added LastUpdatedTextColor. Applied proper Maven versioning.,12,1100
+153,5fc50eb,FAIL,6,NO,0,NO,0,2012-05-03 17:15:46 +0100,Merge in Pull #68,12,1165
+154,92766a5,FAIL,6,NO,0,NO,0,2012-05-07 18:43:15 +0300,Update README.md,12,1090
+155,8a9ff7a,FAIL,6,NO,0,NO,0,2012-05-08 12:32:35 -0400,update library version in pom.xml,12,1090
+156,13e7766,FAIL,5,NO,0,NO,0,2012-05-10 09:18:03 +0100,Merge branch 'patch-1' of https://github.com/Giack/Android-PullToRefresh into dev,12,1165
+157,e5add81,FAIL,3,NO,0,NO,0,2012-05-10 09:22:48 +0100,Merge for Pull #71,12,1165
+158,e716d0b,FAIL,4,NO,0,NO,0,2012-05-10 09:25:59 +0100,Pull in commit from #69,12,1165
+159,902bc26,FAIL,4,NO,0,NO,0,2012-05-15 11:02:09 +0100,Fix #72. Add option to disable the filtering of Touch Events,12,1170
+160,85601b1,FAIL,3,NO,0,NO,0,2012-05-15 11:11:27 +0100,Remove unused String,12,1170
+161,c60117f,FAIL,4,NO,0,NO,0,2012-05-15 11:13:17 +0100,Fix Lint Marker: Use FloatMath.floor instead of Math.floor,12,1171
+162,c67cf57,FAIL,3,NO,0,NO,0,2012-05-15 14:39:45 +0100,v1.2.8,12,1171
+163,c75af9c,FAIL,5,NO,0,NO,0,2012-05-21 15:15:51 +0800,maven build bug fix,12,1171
+164,5b45e3d,FAIL,5,NO,0,NO,0,2012-05-22 04:07:16 -0700,Merge pull request #75 from cfgxy/master,12,1171
+165,07af367,FAIL,4,NO,0,NO,0,2012-05-23 14:18:23 +0100,Initial Pull Indicator code. Needs optimising and animating,12,1233
+166,c4cee35,FAIL,3,NO,0,NO,0,2012-05-23 14:48:30 +0100,Fade Out Indicator Icon instead of setting to GONE,13,1280
+167,9154fdf,FAIL,4,NO,0,NO,0,2012-05-23 17:08:46 +0100,"Use Translate Animation (Slide In from Top, etc) instead of Fade",13,1289
+168,ece9d77,FAIL,4,NO,0,NO,0,2012-05-23 17:22:50 +0100,Fix Showing Indicator for Pull-Ups,13,1292
+169,26985b3,FAIL,3,NO,0,NO,0,2012-05-24 10:37:53 +0100,Fixes for Indicator not showing sometimes,13,1301
+170,78d6922,FAIL,4,NO,0,NO,0,2012-05-24 10:46:46 +0100,Add new Attr to control whether to show Indicators,13,1303
+171,8961efc,FAIL,4,NO,0,NO,0,2012-05-24 13:40:27 +0100,Add some documentation,13,1303
+172,8d84847,FAIL,3,NO,0,NO,0,2012-05-24 13:56:22 +0100,Improve Graphics,13,1303
+173,6fab78b,FAIL,4,NO,0,NO,0,2012-05-24 13:57:30 +0100,Add some padding to the indicators,13,1305
+174,e736724,FAIL,5,NO,0,NO,0,2012-05-24 15:25:09 +0100,Merge branch 'master' into dev,13,1305
+175,5da6475,FAIL,5,NO,0,NO,0,2012-05-24 16:20:00 +0100,Add Copyright to new source file,13,1305
+176,796a794,FAIL,5,NO,0,NO,0,2012-05-24 17:22:21 +0100,Change the way that we indicate we're loading. Allows a customisable drawable.,13,1320
+177,8d4baca,FAIL,4,NO,0,NO,0,2012-05-24 17:27:32 +0100,Update GridView sample to make sure of new custom Drawable,13,1320
+178,7cfad9b,FAIL,5,NO,0,NO,0,2012-05-25 09:26:07 +0100,Split Indicator so it's made up of separate Views,13,1327
+179,2638b06,FAIL,5,NO,0,NO,0,2012-05-25 09:42:46 +0100,Animate Arrow in Indicator,13,1374
+180,617c423,FAIL,5,NO,0,NO,0,2012-05-25 09:51:16 +0100,Add Right Margin back to Indicators,13,1376
+181,f5f06c8,FAIL,4,NO,0,NO,0,2012-05-25 10:26:38 +0100,Replace 9-patch Indiciator BG with a XML Drawable,13,1378
+182,e9941c1,FAIL,4,NO,0,NO,0,2012-05-25 11:43:55 +0100,Fix bug where a bug could be displayed after setting the Last Updated Label,13,1383
+183,4189cd7,FAIL,5,NO,0,NO,0,2012-05-25 12:11:27 +0100,Fix bug where the indicator would show even when Pull-to-Refresh is disabled,13,1385
+184,8f18129,FAIL,6,NO,0,NO,0,2012-06-03 08:34:52 +0700,maven build bug fix for sample project,12,1171
+185,7aab362,FAIL,5,NO,0,NO,0,2012-06-05 17:36:21 +0100,Add a mutator to allow the Loading View Drawable to be changed within code,13,1395
+186,16625c4,FAIL,4,NO,0,NO,0,2012-06-05 17:46:27 +0100,Code Sorting,13,1395
+187,b84c6e2,FAIL,5,NO,0,NO,0,2012-06-05 17:48:14 +0100,Fix Field Sorting from last commit,13,1395
+188,86a90f5,FAIL,4,NO,0,NO,0,2012-06-05 18:24:48 +0100,Make some Javadoc params more clear,13,1395
+189,9f7cb75,FAIL,4,NO,0,NO,0,2012-06-05 18:30:56 +0100,Update Readme,13,1395
+190,d22198a,FAIL,5,NO,0,NO,0,2012-06-05 18:34:24 +0100,Fix Links to Wiki pages,13,1395
+191,16ee4a5,FAIL,5,NO,0,NO,0,2012-06-05 18:56:50 +0100,Link to new Quick Start Guide page,13,1395
+192,c361e93,FAIL,6,NO,0,NO,0,2012-06-05 18:57:02 +0100,Update Header Graphic,13,1395
+193,f8b6169,FAIL,5,NO,0,NO,0,2012-06-05 11:33:51 -0700,Merge pull request #82 from kmmbvnr/master,12,1171
+194,def7924,FAIL,5,NO,0,NO,0,2012-06-05 19:34:25 +0100,Merge branch 'master' into dev,13,1395
+195,0adc385,FAIL,6,NO,0,NO,0,2012-06-05 19:38:45 +0100,v1.3.0,13,1395
+196,c5640c0,FAIL,6,NO,0,NO,0,2012-06-05 19:41:21 +0100,Improve New Header Graphic quality,13,1395
+197,18fd196,FAIL,6,NO,0,NO,0,2012-06-05 19:44:45 +0100,Fix Grammer in README,13,1395
+198,e2fca0a,FAIL,6,NO,0,NO,0,2012-06-05 19:51:01 +0100,More cleanups of README,13,1395
+199,ac3321b,FAIL,6,NO,0,NO,0,2012-06-08 09:37:52 +0100,Changed Animated Scroll to use Overshoot. Thanks to yongsheng for the pull in #83,13,1396
+200,ab0aa2a,FAIL,5,NO,0,NO,0,2012-06-13 09:14:01 +0100,Make Sample Activities final. You shouldn't be using these in your apps. (#84),13,1396
+201,eaf836e,FAIL,6,NO,0,NO,0,2012-06-18 16:40:56 +0100,Add links to Apps Wiki Page in README,13,1395
+202,99f1154,FAIL,5,NO,0,NO,0,2012-06-18 16:41:10 +0100,Merge branch 'master' into dev,13,1396
+203,62e32b6,FAIL,6,NO,0,NO,0,2012-06-19 10:51:39 +0100,Fix Views not appearing in ADT Visual Editor (#86),13,1401
+204,e171e5b,FAIL,11,NO,0,NO,0,2012-06-19 14:06:29 +0100,Upgrade to v3.2.0 of android-maven-plugin,13,1395
+205,55d1e5d,FAIL,12,NO,0,NO,0,2012-06-19 14:28:15 +0100,Add pom fields to meet Maven Central Sync Requirements,13,1395
+206,4d3902f,FAIL,6,NO,0,NO,0,2012-06-19 14:35:18 +0100,Use 'snapshot' suffix for version,13,1395
+207,d35ecb9,FAIL,8,NO,0,NO,0,2012-06-20 06:22:06 -0700,Merge pull request #87 from rtyley/publish-to-maven-central,13,1395
+208,91c3390,FAIL,7,NO,0,NO,0,2012-06-21 16:48:00 +0900,Added boolean flag to turn off scrolling of the EmptyView.,13,1404
+209,911ea24,FAIL,6,NO,0,NO,0,2012-06-23 10:14:00 +0100,Merge branch 'master' into dev,13,1401
+210,319ec7d,FAIL,6,NO,0,NO,0,2012-06-27 12:15:31 +0900,Add PullToRefresh View as parameter to onRefresh,13,1396
+211,8e350a9,FAIL,7,NO,0,NO,0,2012-06-28 13:50:50 +0100,Merge branch 'patch-1' of https://github.com/pboos/Android-PullToRefresh into dev,13,1410
+212,a81cdab,FAIL,6,NO,0,NO,0,2012-06-28 13:54:24 +0100,Merge branch 'patch-2' of https://github.com/pboos/Android-PullToRefresh into dev,13,1411
+213,03a55a6,FAIL,6,NO,0,NO,0,2012-06-28 14:38:28 +0100,Improve 319ec7d199e53724632e4f680ff6928693fb309e by making the listener use generics types better.,13,1414
+214,15d88ed,FAIL,7,NO,0,NO,0,2012-07-04 15:34:45 +0100,New Sample Launcher Activity,14,1426
+215,bc999a6,FAIL,6,NO,0,NO,0,2012-07-04 15:36:02 +0100,Merge branch 'master' into dev,14,1445
+216,3451184,FAIL,7,NO,0,NO,0,2012-07-04 15:52:07 +0100,Change Sample package name as someone is using this one on Google Play,14,1426
+217,868824c,FAIL,6,NO,0,NO,0,2012-07-04 15:58:26 +0100,Merge branch 'master' into dev,14,1445
+218,c9a02e1,FAIL,6,NO,0,NO,0,2012-07-04 16:55:46 +0100,Add link to Google Play app from README,14,1426
+219,552eac6,FAIL,6,NO,0,NO,0,2012-07-04 16:55:56 +0100,Merge branch 'master' into dev,14,1445
+220,4ae27a4,FAIL,7,NO,0,NO,0,2012-07-04 16:58:41 +0100,Google Play link to use Markdown,14,1426
+221,913de21,FAIL,6,NO,0,NO,0,2012-07-04 16:58:49 +0100,Merge branch 'master' into dev,14,1445
+222,04e354a,FAIL,6,NO,0,NO,0,2012-07-09 08:15:35 +0100,Add AppBrain SDK Widget,14,1426
+223,09a1e50,FAIL,5,NO,0,NO,0,2012-07-09 08:16:12 +0100,"Revert ""Add AppBrain SDK Widget""",14,1426
+224,80318e4,FAIL,6,NO,0,NO,0,2012-07-14 11:14:59 +0100,Fix #79,14,1424
+225,77f49a4,FAIL,6,NO,0,NO,0,2012-07-14 11:15:35 +0100,Merge branch 'master' into dev,14,1443
+226,b143859,FAIL,6,NO,0,NO,0,2012-07-14 11:20:16 +0100,Replace FILL_PARENT with MATCH_PARENT. Means the library needs to be built against API 8 or above (will still run on lower devices though).,14,1443
+227,6463b56,FAIL,6,NO,0,NO,0,2012-07-14 12:39:38 +0100,Fix Copyrights,14,1443
+228,eafbf62,FAIL,6,NO,0,NO,0,2012-07-16 16:02:55 +0100,Use new postOnAnimation for Jelly Bean devices.,15,1452
+229,6e99e0a,FAIL,6,NO,0,NO,0,2012-07-16 16:10:23 +0100,Possibly fix #94,15,1453
+230,d89c3b7,FAIL,6,NO,0,NO,0,2012-07-30 09:24:05 +0100,"Add new Disabled Mode, replacing the boolean value 'isPullRefreshEnabled'",15,1455
+231,f34ca20,FAIL,7,NO,0,NO,0,2012-07-31 09:46:47 +0100,Remove JB postOnAnimation for now. Need to fix Maven first,14,1442
+232,5d37845,FAIL,10,NO,0,NO,0,2012-07-31 10:11:08 +0100,v1.3.1,14,1442
+233,db6ef54,FAIL,6,NO,0,NO,0,2012-08-02 15:15:22 +0100,Fix Issue #100,14,1448
+234,132051f,FAIL,6,NO,0,NO,0,2012-08-02 15:17:19 +0100,v1.3.2,14,1448
+235,d0e472e,FAIL,7,NO,0,NO,0,2012-08-02 17:33:21 +0100,Add new PullToRefreshScrollView,16,1507
+236,98c8aa8,FAIL,6,NO,0,NO,0,2012-08-03 08:42:11 +0100,Add OnLastItemVisibleListener to ListView sample,16,1511
+237,e712a68,FAIL,6,NO,0,NO,0,2012-08-03 09:34:07 +0100,Fix Issue 101.,16,1511
+238,784a45c,FAIL,6,NO,0,NO,0,2012-08-03 09:40:12 +0100,"If we don't have a listener, just reset scroll",16,1513
+239,fff18c0,FAIL,7,NO,0,NO,0,2012-08-10 09:44:25 +0100,Add Overscroll support to ListView,17,1553
+240,f5752e2,FAIL,6,NO,0,NO,0,2012-08-10 09:46:26 +0100,Add a bit of doc to previous commit,17,1553
+241,b354a84,FAIL,6,NO,0,NO,0,2012-08-10 09:47:31 +0100,Update Sample version code,17,1553
+242,7148a64,FAIL,6,NO,0,NO,0,2012-08-10 10:04:28 +0100,Always over scroll and tweak duration values,17,1552
+243,b0e8935,FAIL,6,NO,0,NO,0,2012-08-11 09:41:06 +0100,Add support for adding View via XML. Useful for PullToRefreshScrollView,16,1525
+244,50bd422,FAIL,6,NO,0,NO,0,2012-08-11 09:46:27 +0100,v1.3.3,16,1525
+245,061b1fe,FAIL,6,NO,0,NO,0,2012-08-11 09:52:19 +0100,Add -SNAPSHOT to version number for Maven. How silly of me.,16,1525
+246,aeea9eb,FAIL,7,NO,0,NO,0,2012-08-11 10:14:27 +0100,[maven-release-plugin] prepare release v1.3.3,16,1525
+247,8b75333,FAIL,5,NO,0,NO,0,2012-08-11 10:14:33 +0100,[maven-release-plugin] prepare for next development iteration,16,1525
+248,536bf34,FAIL,6,NO,0,NO,0,2012-08-11 10:26:42 +0100,Tweak POM,16,1525
+249,f023e1f,FAIL,6,NO,0,NO,0,2012-08-11 10:28:53 +0100,Fix last commit,16,1525
+250,60bb698,FAIL,6,NO,0,NO,0,2012-08-13 15:09:35 +0100,Merge,17,1564
+251,501ba94,FAIL,6,NO,0,NO,0,2012-08-13 15:18:09 +0100,Revert previous change to make over scroll work everywhere.,17,1565
+252,35c162d,FAIL,6,NO,0,NO,0,2012-08-13 15:36:41 +0100,Add Overscroll Support for All supported classes (other than WebView),18,1626
+253,67b236a,FAIL,6,NO,0,NO,0,2012-08-13 15:40:55 +0100,Double the rotate animation angle to hide the jittery-ness,18,1626
+254,4e6b29a,FAIL,5,NO,0,NO,0,2012-08-13 15:42:47 +0100,Fix Overscroll when we're using Mode.BOTH,18,1626
+255,9d0dbbf,FAIL,7,NO,0,NO,0,2012-08-17 14:28:23 +0100,Add Attribute and Getter/Setters for Overscroll,18,1641
+256,c6ceb9d,FAIL,6,NO,0,NO,0,2012-08-17 14:36:52 +0100,Create Interface with Public methods. Should be easier for debs to see what is available,19,1708
+257,ad897b6,FAIL,6,NO,0,NO,0,2012-08-21 11:55:23 -0300,Fixed typo,16,1525
+258,cbd7ab8,FAIL,7,NO,0,NO,0,2012-08-22 07:46:03 -0700,Merge pull request #109 from SeanPONeil/master,16,1525
+259,b0e6182,FAIL,6,NO,0,NO,0,2012-08-22 15:46:33 +0100,Merge branch 'master' of github.com:chrisbanes/Android-PullToRefresh into dev,19,1708
+260,8716111,FAIL,6,NO,0,NO,0,2012-08-22 15:49:33 +0100,Remove Abstract modifier in Interface,19,1708
+261,9b34407,FAIL,5,NO,0,NO,0,2012-08-28 14:28:02 +0100,Add Debug to OverScrollHelper,19,1712
+262,09755eb,FAIL,5,NO,0,NO,0,2012-08-28 14:28:52 +0100,Disable Overscroll on ScrollView as it seems to be broken.,19,1694
+263,0bd2812,FAIL,6,NO,0,NO,0,2012-08-25 07:58:11 -0500,Exposed internal API's for subclassing,16,1535
+264,c56a1c0,FAIL,6,NO,0,NO,0,2012-08-30 16:12:06 +0100,Merge Pull Request #114,19,1701
+265,e50f572,FAIL,6,NO,0,NO,0,2012-08-30 16:23:18 +0100,Change the way that the Interpolator can be changed from Pull Request #114. Now expose via a public mutator.,19,1706
+266,58dc9bc,FAIL,6,NO,0,NO,0,2012-09-10 15:25:49 +0100,Add convenience passthrough for methods for setAdapter and setOnItemClickListener. Sick of getting GitHub issues for this.,19,1713
+267,c54e9d9,FAIL,6,NO,0,NO,0,2012-09-10 15:46:57 +0100,Fix #115,19,1713
+268,71a121c,FAIL,7,NO,0,NO,0,2012-09-10 16:18:13 +0100,Move RefreshableViewWrapper concept to Base rather than just AdapterView. Should fix #110,19,1715
+269,33c76ec,FAIL,6,NO,0,NO,0,2012-09-10 17:03:17 +0100,Fix #117,19,1717
+270,5aa1001,FAIL,8,NO,0,NO,0,2012-09-10 17:18:17 +0100,Improve the order of calls in init(),19,1716
+271,85a9268,FAIL,9,NO,0,NO,0,2012-09-10 17:26:46 +0100,Update Maven POMs to build against android-16 and bump up version number,19,1716
+272,f8aa70b,FAIL,6,NO,0,NO,0,2012-09-12 15:53:23 +0100,Fix Overscroll for ScrollView,19,1747
+273,e4165b1,FAIL,6,NO,0,NO,0,2012-09-12 16:34:24 +0100,Add Overscroll to WebView,19,1777
+274,cd77dc1,FAIL,5,NO,0,NO,0,2012-09-12 16:42:33 +0100,[maven-release-plugin] prepare release v1.4.0,19,1777
+275,7564582,FAIL,6,NO,0,NO,0,2012-09-12 16:42:39 +0100,[maven-release-plugin] rollback changes from release preparation of v1.4.0,19,1777
+276,3e61313,FAIL,7,NO,0,NO,0,2012-09-12 16:50:23 +0100,v1.4.0,19,1777
+277,aff1d1f,FAIL,6,NO,0,NO,0,2012-09-12 16:50:45 +0100,Merge branch 'master' into dev,19,1777
+278,a75aedc,FAIL,6,NO,0,NO,0,2012-09-12 17:06:27 +0100,Update README and Sample app version number,19,1777
+279,74b6914,FAIL,6,NO,0,NO,0,2012-09-18 14:45:13 +0100,Fix being able to change smooth scroll durations.,19,1779
+280,5668548,FAIL,6,NO,0,NO,0,2012-09-19 10:15:56 +0100,Fix #114.,19,1783
+281,1848313,FAIL,5,NO,0,NO,0,2012-09-23 09:42:44 +0100,Add new OnPullEventListener which allows you to listen for Pull Events. Needed for #128.,19,1803
+282,40ddda6,FAIL,7,NO,0,NO,0,2012-09-23 10:08:27 +0100,Add new SoundPullEventListener which gives you an easy way to add sounds to PtR. Finishes #128,20,1838
+283,75a8e27,FAIL,5,NO,0,NO,0,2012-09-23 17:24:49 +0100,Fix methods that PullToRefreshListView should have overridden,20,1853
+284,9950900,FAIL,6,NO,0,NO,0,2012-09-23 17:47:02 +0100,Fix incorrect Scroll Y when having Header and Footers of different size.,20,1854
+285,dd34ebb,FAIL,6,NO,0,NO,0,2012-09-23 17:51:41 +0100,Fix Scroll from resetHeader in PtRListView when pulling up.,20,1854
+286,fc2371d,FAIL,6,NO,0,NO,0,2012-09-25 20:19:26 +0600,Add textAppearance`s attributes for header`s textViews,19,1791
+287,f349e85,FAIL,6,NO,0,NO,0,2012-09-25 08:49:59 -0700,Merge pull request #131 from Scorcher/add-styleable-features-2,20,1868
+288,153f83f,FAIL,6,NO,0,NO,0,2012-09-25 16:53:02 +0100,Pull in e7acb80163f0bb2cc3b4b5a94284ac801cf73cbe from Scorcher.,20,1868
+289,825dfb1,FAIL,6,NO,0,NO,0,2012-09-25 17:09:02 +0100,Add direction parameter to OnPullEventListener,20,1869
+290,7d2f4d9,FAIL,5,NO,0,NO,0,2012-09-25 22:19:02 -0400,Add AnimationDrawable support so users can use custom animations.,20,1880
+291,1cf4421,FAIL,6,NO,0,NO,0,2012-09-26 01:27:41 -0700,Merge pull request #132 from adstro/dev,20,1880
+292,51d37dd,FAIL,5,NO,0,NO,0,2012-09-27 09:23:01 +0100,Rename layout files in sample,20,1880
+293,dad7fc7,FAIL,4,NO,0,NO,0,2012-09-27 10:16:08 +0100,New PullToRefreshListFragment Extra,21,1907
+294,3689787,FAIL,6,NO,0,NO,0,2012-09-29 18:40:02 +0100,"Stop wrapping label in Html.fromHtml internally. Most users won't need this so stop creating objects for no reason. For those that do, just call the setters",21,1901
+295,f7a28c5,FAIL,4,NO,0,NO,0,2012-09-29 18:49:10 +0100,"Optimisations to LoadingLayout. Reduce the ViewGroup depth by one, along with some small optimisations.",21,1906
+296,d2b2823,FAIL,5,NO,0,NO,0,2012-09-29 18:58:34 +0100,Don't process Overscroll event if we haven't changed position,21,1906
+297,b871a5b,FAIL,5,NO,0,NO,0,2012-09-29 19:05:10 +0100,Turn off Indicators if Overscroll support is enabled.,21,1905
+298,da06a81,FAIL,4,NO,0,NO,0,2012-09-29 19:05:26 +0100,Remove unneeded if statement,21,1904
+299,158b5e8,FAIL,5,NO,0,NO,0,2012-09-30 12:50:33 +0100,Guard against NPE in LoadingLayout,21,1905
+300,18dbb99,FAIL,4,NO,0,NO,0,2012-10-02 12:55:32 +0100,Fix jolty scrolling on ListView if you don't pull down further than the LoadingLayout height.,21,1904
+301,595045c,FAIL,5,NO,0,NO,0,2012-10-02 13:11:56 +0100,Fix Indicator not scaling or displaying properly on certain devices.,21,1901
+302,6457939,FAIL,4,NO,0,NO,0,2012-10-02 13:18:08 +0100,JavaDoc Update,21,1897
+303,335e40d,FAIL,5,NO,0,NO,0,2012-10-02 13:35:28 +0100,Add some doc to the PullToRefreshListFragment extra,21,1897
+304,36feb8d,FAIL,5,NO,0,NO,0,2012-10-02 13:38:24 +0100,Small tweak to PullToRefreshListFragment extra doc,21,1897
+305,4b11b04,FAIL,4,NO,0,NO,0,2012-10-02 13:51:10 +0100,Make getPullToRefreshListView() public in PullToRefreshListFragment,21,1897
+306,c38976d,FAIL,5,NO,0,NO,0,2012-10-02 13:53:02 +0100,Add sample for PullToRefreshListFragment,22,1948
+307,4fe07fa,FAIL,5,NO,0,NO,0,2012-10-02 14:14:36 +0100,Update Readme,22,1948
+308,1bdfbdf,FAIL,5,NO,0,NO,0,2012-10-02 14:15:52 +0100,Update Manifest versions.,22,1948
+309,ac764ee,FAIL,5,NO,0,NO,0,2012-10-02 14:17:36 +0100,Update POM,22,1948
+310,47db3b0,FAIL,6,NO,0,NO,0,2012-10-02 14:27:07 +0100,Fix POMs,22,1948
+311,dc48c56,FAIL,6,NO,0,NO,0,2012-10-02 14:29:08 +0100,[maven-release-plugin] prepare release v1.4.1,22,1948
+312,be872ff,FAIL,6,NO,0,NO,0,2012-10-02 14:29:15 +0100,[maven-release-plugin] prepare for next development iteration,22,1948
+313,b28c67e,FAIL,6,NO,0,NO,0,2012-10-02 14:40:15 +0100,Hotfix for Maven build.,22,1948
+314,babb9ef,FAIL,5,NO,0,NO,0,2012-10-02 14:43:01 +0100,Update POMs again so I can release.,22,1948
+315,5e8a46c,FAIL,6,NO,0,NO,0,2012-10-02 14:45:28 +0100,[maven-release-plugin] prepare release v1.4.1.1,22,1948
+316,e981505,FAIL,5,NO,0,NO,0,2012-10-02 14:45:34 +0100,[maven-release-plugin] prepare for next development iteration,22,1948
+317,a38ed2f,FAIL,6,NO,0,NO,0,2012-10-02 14:52:11 +0100,Merge tag 'v1.4.1.1',22,1948
+318,8a43cb3,FAIL,5,NO,0,NO,0,2012-10-03 10:11:14 +0100,Fix #134,22,1947
+319,c61f261,FAIL,7,NO,0,NO,0,2012-10-04 14:26:59 +0100,Fix #135 so it happens automagically,22,1960
+320,637c844,FAIL,5,NO,0,NO,0,2012-10-04 15:31:27 +0100,New Advanced version of PullToRefreshWebView which delegates calls to the WebView's Javascript,23,1998
+321,00fc22c,FAIL,6,NO,0,NO,0,2012-10-04 16:27:55 +0100,Add sample for PullToRefreshWebView2,24,2032
+322,c79b144,FAIL,6,NO,0,NO,0,2012-10-04 16:28:59 +0100,Add some doc to the sample pointing the HTML file,24,2032
+323,3cbdb63,FAIL,5,NO,0,NO,0,2012-10-11 08:10:42 +0100,Add Ability to change just top/bottom loading drawable,24,2036
+324,08a77b2,FAIL,5,NO,0,NO,0,2012-10-15 11:40:24 +0100,"Extract core functionality out of Loading Layout so it can be re-used. Default Layout style is now called RotateLoadingLayout, I'll also add a FlipLoadingLayout later",25,2078
+325,456194b,FAIL,5,NO,0,NO,0,2012-10-15 11:48:24 +0100,Move Rotation Animation duration value to RotateLoadingLayout,25,2078
+326,975c3e7,FAIL,6,NO,0,NO,0,2012-10-15 12:00:47 +0100,Move more rotate specific stuff to RotateLoadingLayout,25,2081
+327,01204b2,FAIL,7,NO,0,NO,0,2012-10-15 12:19:52 +0100,Fix FC,25,2082
+328,cdae6e3,FAIL,6,NO,0,NO,0,2012-10-15 12:20:24 +0100,"Add new FlipLoadingLayout. Allows an option to use the old style animation style, via an XML attribute",26,2154
+329,20f8079,FAIL,5,NO,0,NO,0,2012-10-15 17:24:09 -0700,Find index of ListView by calling indexOfChild() instead of iterating through the views,26,2152
+330,c021ca8,FAIL,5,NO,0,NO,0,2012-10-15 17:31:41 -0700,Remove unused imports,26,2151
+331,d1a6783,FAIL,5,NO,0,NO,0,2012-10-16 01:14:32 -0700,Merge pull request #140 from SeanPONeil/dev,26,2151
+332,fd2b17f,FAIL,7,NO,0,NO,0,2012-10-16 09:43:22 +0100,Fix Flip Animations #137,26,2151
+333,59662c1,FAIL,6,NO,0,NO,0,2012-10-16 09:44:30 +0100,Fix Copyrights,26,2151
+334,61b543b,FAIL,6,NO,0,NO,0,2012-10-16 09:47:42 +0100,Use System default Theme rather than specifying one,26,2151
+335,2125544,FAIL,6,NO,0,NO,0,2012-10-16 09:49:34 +0100,"Revert ""Use System default Theme rather than specifying one""",26,2151
+336,b905c1e,FAIL,6,NO,0,NO,0,2012-10-17 17:20:54 +0100,Fix #141. You can now only have one listener set internally.,26,2153
+337,f6fbff1,FAIL,6,NO,0,NO,0,2012-10-18 09:56:43 +0100,Change state variable to use enum instead of ints. Will mean I can greatly improve the OnPullEventListener.,26,2168
+338,d164094,FAIL,6,NO,0,NO,0,2012-10-18 12:30:29 +0100,Massively improve how the internal state is set and propagated internally.,26,2182
+339,0f5bf49,FAIL,5,NO,0,NO,0,2012-10-18 12:43:50 +0100,Change internal callbacks visibility to be package-based. You should used setOnPullEventListener instead now.,26,2182
+340,bfdc27c,FAIL,6,NO,0,NO,0,2012-10-18 13:12:15 +0100,New Sounds for ListView sample,26,2183
+341,050d74c,FAIL,5,NO,0,NO,0,2012-10-22 11:01:19 +0100,Layout Improvements for Flip. No more rotate drawable clipping,26,2188
+342,020e89e,FAIL,5,NO,0,NO,0,2012-10-22 11:04:03 +0100,Fix Rotation Directions on Flip,26,2189
+343,f0dd2a2,FAIL,6,NO,0,NO,0,2012-10-22 13:07:38 +0100,Update Manifests for v1.4.2,26,2189
+344,cdcd945,FAIL,5,NO,0,NO,0,2012-10-22 13:09:57 +0100,[maven-release-plugin] prepare release v1.4.2,26,2189
+345,dd949f1,FAIL,5,NO,0,NO,0,2012-10-22 13:10:03 +0100,[maven-release-plugin] prepare for next development iteration,26,2189
+346,37f5a72,FAIL,6,NO,0,NO,0,2012-10-22 13:13:32 +0100,Merge tag 'v1.4.2',26,2189
+347,c631843,FAIL,6,NO,0,NO,0,2012-10-23 13:28:34 +0100,Fix #142 (Hopefully),26,2185
+348,728ff1a,FAIL,6,NO,0,NO,0,2012-10-26 15:25:19 +0100,Fix #143. Caused by Samsung's crapped over scroll bouncing ListView implementation,26,2193
+349,c937e03,FAIL,6,NO,0,NO,0,2012-10-31 12:14:09 +0000,Use Hardware Acceleration on sample app. Rookie mistake number 1!,26,2193
+350,94e97b3,FAIL,5,NO,0,NO,0,2012-11-01 10:31:12 +0000,"Fix #138. Better Tablet layout support. The headers are now pinned with a max width of 320dp, centred horizontally.",26,2212
+351,c152b43,FAIL,6,NO,0,NO,0,2012-11-15 10:01:53 +0000,Remove the final modifier on createRefreshableView(…) in the ListView classes,26,2212
+352,d127e1b,FAIL,6,NO,0,NO,0,2012-11-15 11:30:30 +0000,Fix Issue #150,26,2212
+353,a0af0fa,FAIL,6,NO,0,NO,0,2012-11-15 11:37:22 +0000,Fix #149,26,2212
+354,4a0e861,FAIL,5,NO,0,NO,0,2012-11-19 12:35:57 +0000,Code Tidy-ups. Rename some methods to make them more clear.,26,2206
+355,96310ba,FAIL,6,NO,0,NO,0,2012-11-19 15:39:21 +0000,Implement #154,26,2200
+356,864cf16,FAIL,6,NO,0,NO,0,2012-11-19 15:48:39 +0000,Updated Javadoc for previous commit,26,2200
+357,42d3482,FAIL,6,NO,0,NO,0,2012-11-21 09:25:17 +0000,Fix #156,26,2200
+358,9692e53,FAIL,6,NO,0,NO,0,2012-11-21 10:15:41 +0000,Implement #147. Add demo() method so that the dev can programatically show the PtR function to the user.,26,2233
+359,9866985,FAIL,6,NO,0,NO,0,2012-11-23 11:25:35 +0000,Include appropriate LICENSE file,26,2233
+360,582e1c6,FAIL,5,NO,0,NO,0,2012-11-29 14:49:25 +0000,Start of moving towards horizontal support. Lots to go!,27,2321
+361,88452fb,FAIL,6,NO,0,NO,0,2012-11-29 14:52:25 +0000,Horizontal ScrollView should just 'work' when the rest is complete now.,27,2318
+362,41a7524,FAIL,7,NO,0,NO,0,2012-11-29 15:44:29 +0000,Add Sample Horizontal ScrollView Activity,28,2354
+363,1b5a26e,FAIL,5,NO,0,NO,0,2012-11-29 16:20:07 +0000,Horizontal Scrolling working! Still needs some tweaks but it's getting there.,28,2438
+364,c4eea62,FAIL,6,NO,0,NO,0,2012-11-29 16:43:36 +0000,Tidy up and rename some enum values based on logical names (START/END) rather than TOP/BOTTOM.,28,2440
+365,910818a,FAIL,6,NO,0,NO,0,2012-11-29 17:00:47 +0000,Fix Horizontal Scroll OverScroll,28,2460
+366,1b25d33,FAIL,7,NO,0,NO,0,2012-11-29 17:01:40 +0000,Fix Imports,28,2459
+367,cfd61ed,FAIL,5,NO,0,NO,0,2012-11-29 17:14:25 +0000,Make getPullToRefreshScrollDirection() public so it can be used in the extras packages,28,2459
+368,b361fb7,FAIL,5,NO,0,NO,0,2012-11-29 17:22:11 +0000,Make OverscrollHelper public so it can be used in the extras packages,28,2459
+369,368877b,FAIL,5,NO,0,NO,0,2012-11-29 17:31:59 +0000,"New PullToRefreshViewPager Extra, with Sample",30,2550
+370,01d82c5,FAIL,6,NO,0,NO,0,2012-11-29 17:51:26 +0000,Style Improvements for Horizontal Pulling,30,2561
+371,870ddc0,FAIL,6,NO,0,NO,0,2012-11-29 17:56:32 +0000,Rename onPullImpl method,30,2561
+372,ea5b153,FAIL,6,NO,0,NO,0,2012-11-30 09:38:11 +0000,Always reset the LoadingLayouts,30,2559
+373,1f50c9b,FAIL,6,NO,0,NO,0,2012-11-30 09:40:55 +0000,Tweak Horizontal Loading Layouts,30,2559
+374,9c6bc53,FAIL,6,NO,0,NO,0,2012-11-30 09:47:22 +0000,Update Ptr Sample so that it's clearer,30,2559
+375,a2fba34,FAIL,5,NO,0,NO,0,2012-11-30 10:08:35 +0000,"Move some more attrs to be deprecated, replacing with start/end attrs",31,2584
+376,5f9ac75,FAIL,6,NO,0,NO,0,2012-11-30 10:10:08 +0000,Update Sample layouts to use new attrs,31,2584
+377,a7bd75a,FAIL,5,NO,0,NO,0,2012-11-30 10:12:25 +0000,Update Readme,31,2584
+378,73eaa39,FAIL,6,NO,0,NO,0,2012-11-30 10:35:36 +0000,Update Manifest versions,31,2584
+379,dc7ab22,FAIL,6,NO,0,NO,0,2012-11-30 10:47:15 +0000,Update POMs,31,2584
+380,559325c,FAIL,6,NO,0,NO,0,2012-11-30 10:54:23 +0000,Update Sample so it uses Holo,31,2584
+381,773974e,FAIL,6,NO,0,NO,0,2012-11-30 11:08:22 +0000,Style the Horizontal ScrollView Sample,31,2584
+382,b248414,FAIL,6,NO,0,NO,0,2012-11-30 11:12:42 +0000,[maven-release-plugin] prepare release v2.0,31,2584
+383,6a8c29a,FAIL,6,NO,0,NO,0,2012-11-30 11:12:48 +0000,[maven-release-plugin] prepare for next development iteration,31,2584
+384,cbed684,FAIL,5,NO,0,NO,0,2012-11-30 11:17:14 +0000,Merge tag 'v2.0',31,2584
+385,9b69b67,FAIL,6,NO,0,NO,0,2012-11-30 13:21:35 +0000,Fix Footer randomly appearing on PtRListView,31,2587
+386,ce2d1d2,FAIL,6,NO,0,NO,0,2012-11-30 13:24:45 +0000,Improve ViewPager background,31,2587
+387,3d498d3,FAIL,5,NO,0,NO,0,2012-11-30 13:24:56 +0000,Update Manifests to v2.0.1,31,2587
+388,2826a16,FAIL,5,NO,0,NO,0,2012-11-30 13:29:43 +0000,[maven-release-plugin] prepare release v2.0.1,31,2587
+389,9e00f44,FAIL,5,NO,0,NO,0,2012-11-30 13:29:50 +0000,[maven-release-plugin] prepare for next development iteration,31,2587
+390,ed84625,FAIL,6,NO,0,NO,0,2012-11-30 13:35:12 +0000,Merge tag 'v2.0.1',31,2587
+391,3187817,FAIL,5,NO,0,NO,0,2012-11-30 16:04:29 +0000,New Flip Drawable,31,2593
+392,a290f62,FAIL,6,NO,0,NO,0,2012-11-30 16:18:16 +0000,New Indicator Arrow Drawable,31,2600
+393,c8ec3ab,FAIL,5,NO,0,NO,0,2012-11-30 16:20:58 +0000,Fix last commit,31,2602
+394,ae245d2,FAIL,6,NO,0,NO,0,2012-11-30 16:26:00 +0000,Fix Rotation pivot point,31,2602
+395,60cbc96,FAIL,5,NO,0,NO,0,2012-12-04 17:27:08 +0000,Add support lib to Sample project,31,2602
+396,0aa78bc,FAIL,6,NO,0,NO,0,2012-12-06 10:00:08 +0000,#172: Expose constructor so that Animation Style can be set in code. Close issues.,31,2634
+397,a5c0f7c,FAIL,6,NO,0,NO,0,2012-12-06 12:47:32 +0000,Small Javadoc fixes,31,2634
+398,4f9ed52,FAIL,5,NO,0,NO,0,2012-12-06 15:39:24 +0000,New code formatter. Whooo.,31,2640
+399,d2a010a,FAIL,6,NO,0,NO,0,2012-12-06 15:41:29 +0000,Fix typo,31,2640
+400,fb86c36,FAIL,6,NO,0,NO,0,2012-12-06 17:06:46 +0000,Fix Force Close,31,2642
+401,320680b,FAIL,5,NO,0,NO,0,2012-12-06 17:21:43 +0000,Change Header/Footer Background function so that we're now overdrawing.,31,2668
+402,620cf9a,FAIL,6,NO,0,NO,0,2012-12-06 17:57:33 +0000,Set the LoadingLayout's to INVISIBLE unless we're in a position to show them,31,2684
+403,7c8b09f,FAIL,5,NO,0,NO,0,2012-12-06 18:22:47 +0000,Change Loading View Height using Padding. Allows Gravity to still work within natural bounds,31,2674
+404,5781477,FAIL,6,NO,0,NO,0,2012-12-06 19:27:26 +0000,Change Header/Footer View Height so it's always large enough,31,2674
+405,0f4829a,FAIL,5,NO,0,NO,0,2012-12-07 13:27:49 +0100,update language strings,31,2674
+406,23713eb,FAIL,6,NO,0,NO,0,2012-12-07 12:41:59 +0000,Fix Bug that can be caused by the user pressing on a View while we're overscrolling,31,2683
+407,9e341ef,FAIL,6,NO,0,NO,0,2012-12-07 12:52:06 +0000,Fix Some Lint warnings,31,2709
+408,4db3432,FAIL,5,NO,0,NO,0,2012-12-07 04:53:31 -0800,Merge pull request #173 from levelup/strings,31,2709
+409,3011b03,FAIL,5,NO,0,NO,0,2012-12-07 13:28:41 +0000,Fix Layout Problems on v2.x devices,31,2711
+410,f649332,FAIL,5,NO,0,NO,0,2012-12-07 14:10:13 +0000,Fix Header/Footer background not filling height when in horizontal mode,31,2712
+411,295361e,FAIL,5,NO,0,NO,0,2012-12-10 16:43:03 +0000,Expose ScrollingWhileRefreshingEnabled function via XML attributes. Tidy up Method name too.,31,2719
+412,786f42b,FAIL,5,NO,0,NO,0,2012-12-10 22:45:22 +0100,Allow removing the empty view using setEmptyView(null),31,2719
+413,bab1eb9,FAIL,6,NO,0,NO,0,2012-12-11 01:26:59 -0800,Merge pull request #177 from cketti/fix_set_empty_view,31,2719
+414,20ff7c7,FAIL,6,NO,0,NO,0,2012-12-11 16:09:12 +0000,Fix being able to use ptrHeaderTextAppearance and ptrHeaderTextColor at the same time. Closes #179,31,2719
+415,d1b44ce,FAIL,6,NO,0,NO,0,2012-12-11 16:11:05 +0000,Don't set Text Color unless we get a valid one back from XML Attr,31,2721
+416,8faf9f0,FAIL,5,NO,0,NO,0,2012-12-11 16:14:01 +0000,Allow devs to disable the ListView extras I added so that the user can scroll normally while refreshing.,31,2725
+417,3267f94,FAIL,6,NO,0,NO,0,2012-12-11 16:22:48 +0000,Fix Pulling when we're already refreshing,31,2728
+418,94f96ca,FAIL,6,NO,0,NO,0,2012-12-11 16:26:51 +0000,Don't over scroll if we're currently refreshing,31,2728
+419,11269ed,FAIL,5,NO,0,NO,0,2012-12-11 16:38:48 +0000,Add Documenting Comments to Attr xml file,31,2728
+420,d10ab41,FAIL,5,NO,0,NO,0,2012-12-11 16:40:54 +0000,Fix use of deprecated methods in sample,31,2728
+421,4988cbd,FAIL,6,NO,0,NO,0,2012-12-12 09:21:56 +0000,Move all of the LoadingLayout customisation methods to a separate class.,32,2725
+422,ee18684,FAIL,5,NO,0,NO,0,2012-12-12 09:23:50 +0000,Make LoadingLayout implement the new ILoadingLayout,32,2728
+423,f01cf9a,FAIL,6,NO,0,NO,0,2012-12-12 09:28:42 +0000,Fix use of deprecated methods in sample,32,2728
+424,57f796d,FAIL,6,NO,0,NO,0,2012-12-12 09:37:07 +0000,Make newly add public methods final,32,2728
+425,01ff067,FAIL,4,NO,0,NO,0,2012-12-12 10:00:38 +0000,Tidy-ups to code in 4988cbdb3c3921e66eb153318a50774dc41e1e95,33,2740
+426,c1fa9ba,FAIL,5,NO,0,NO,0,2012-12-13 02:16:06 +0300,a better sample for ExpandableListActivitiy,31,2582
+427,901a200,FAIL,5,NO,0,NO,0,2012-12-13 12:13:27 +0000,Fix Code Style Formatting,33,2738
+428,84ef17f,FAIL,5,NO,0,NO,0,2012-12-13 12:30:06 +0000,Merge branch 'master' of github.com:khelll/Android-PullToRefresh into dev,33,2733
+429,3753787,FAIL,5,NO,0,NO,0,2012-12-13 12:31:57 +0000,Fix formatting from c1fa9ba419419c952bf9e254986e34c888a512f0,33,2733
+430,4f1ed05,FAIL,5,NO,0,NO,0,2012-12-13 12:50:20 +0000,Fix NPE from 3753787a223d4ef4b50b52b77e01402c31af88b2,33,2739
+431,7694d16,FAIL,5,NO,0,NO,0,2012-12-13 14:26:46 +0000,Try and flatten the LoadingLayouts,33,2738
+432,0280dfb,FAIL,5,NO,0,NO,0,2012-12-13 14:33:35 +0000,Change default text appearance. And fix padding,33,2739
+433,a372b80,FAIL,5,NO,0,NO,0,2012-12-13 16:16:27 +0000,Remove some deprecated methods,33,2733
+434,cae3c9c,FAIL,6,NO,0,NO,0,2012-12-13 16:34:30 +0000,Change Scroll Direction value to enum,33,2734
+435,55c9c32,FAIL,6,NO,0,NO,0,2012-12-13 16:54:19 +0000,Implement #182 as an XML option,33,2741
+436,b62cb4e,FAIL,6,NO,0,NO,0,2012-12-14 11:49:38 +0100,Use setMode() to restore mode in onRestoreInstanceState(),33,2741
+437,16d1df3,FAIL,5,NO,0,NO,0,2012-12-14 04:03:15 -0800,Merge pull request #183 from cketti/fix_restore_instance_state,33,2741
+438,4bab109,FAIL,6,NO,0,NO,0,2012-12-17 15:51:00 +0000,Use Hardware Layers on Refreshable View,33,2749
+439,eaa7c9b,FAIL,5,NO,0,NO,0,2012-12-17 15:52:37 +0000,Update Manifest Version Numbers,33,2749
+440,dba70e6,FAIL,5,NO,0,NO,0,2012-12-17 16:12:46 +0000,[maven-release-plugin] prepare release v2.1,33,2749
+441,53c328f,FAIL,7,NO,0,NO,0,2012-12-17 16:12:52 +0000,[maven-release-plugin] prepare for next development iteration,33,2749
+442,9c3ff3a,FAIL,6,NO,0,NO,0,2012-12-17 16:17:25 +0000,Merge tag 'v2.1',33,2749
+443,3553b4a,FAIL,6,NO,0,NO,0,2012-12-19 11:31:56 +0000,Add new ListView in ViewPager sample,34,2817
+444,1669f28,FAIL,6,NO,0,NO,0,2012-12-19 11:40:11 +0000,Fix Refreshing on ListView when using a Header Background,34,2836
+445,d0b3bfd,FAIL,6,NO,0,NO,0,2012-12-20 10:15:36 +0000,Fix Empty View being stretched.,34,2835
+446,d5f8146,FAIL,6,NO,0,NO,0,2012-12-20 10:38:55 +0000,Stop using Layout Weight and Instead set the Height manually,34,2839
+447,2aad9d5,FAIL,5,NO,0,NO,0,2012-12-20 13:46:17 +0000,Trying to improve the Layout mechanism. Still some way to go yet.,34,2839
+448,dbaadb2,FAIL,6,NO,0,NO,0,2012-12-21 09:50:49 +0000,Move FrameLayout layout callback to separate file,35,2855
+449,df078d7,FAIL,5,NO,0,NO,0,2012-12-21 10:27:57 +0000,Getting there,35,2858
+450,3429998,FAIL,5,NO,0,NO,0,2012-12-21 10:56:32 +0000,"Finally, got an optimised layout routine",35,2857
+451,1ff49a0,FAIL,6,NO,0,NO,0,2012-12-21 11:04:55 +0000,New Layout mechanism is now finished,34,2822
+452,0ec847b,FAIL,6,NO,0,NO,0,2012-12-26 23:03:49 +0000,Fix setReleaseLabel(). Fixes #187,34,2822
+453,f855e38,FAIL,5,NO,0,NO,0,2012-12-27 00:03:27 -0800,Merge pull request #189 from intrications/fix-release-label,34,2822
+454,c25adb0,FAIL,4,NO,0,NO,0,2012-12-29 16:13:13 +0000,Fix typo causing Horizontal Layouts to not layout properly,34,2822
+455,8b1aef2,FAIL,6,NO,0,NO,0,2012-12-29 16:38:23 +0000,Fix #186,34,2832
+456,e10106b,FAIL,5,NO,0,NO,0,2012-12-29 16:49:58 +0000,Fix bug caused by 8b1aef22b9e147d4dfc54b212dd636d740cec1fe,34,2836
+457,a78c6cd,FAIL,5,NO,0,NO,0,2012-12-29 17:10:03 +0000,Pretty sure this finally fixes #185.,34,2840
+458,333464b,FAIL,6,NO,0,NO,0,2012-12-29 17:54:13 +0000,Fix #191. Much better way of detecting when the last visible item is visible.,34,2838
+459,94fed7d,FAIL,5,NO,0,NO,0,2012-12-31 13:06:59 +0000,Expand Fragment classes to include support for ExpandableListView,36,2855
+460,13c9077,FAIL,5,NO,0,NO,0,2013-01-02 14:53:59 +0000,Remove the hacky support for Context Menu's. It's not difficult to do it manually.,36,2848
+461,424ed33,FAIL,5,NO,0,NO,0,2013-01-02 15:15:06 +0000,Fix #194,36,2848
+462,21b9be7,FAIL,6,NO,0,NO,0,2013-01-02 15:20:34 +0000,Update Manifests,36,2848
+463,0a9e6fd,FAIL,5,NO,0,NO,0,2013-01-02 15:24:50 +0000,[maven-release-plugin] prepare release v2.1.1,36,2848
+464,4b3dfb0,FAIL,5,NO,0,NO,0,2013-01-02 15:24:55 +0000,[maven-release-plugin] prepare for next development iteration,36,2848
+465,12ebe85,FAIL,5,NO,0,NO,0,2013-01-02 15:27:53 +0000,Merge tag 'v2.1.1',36,2848
+466,333ddfe,FAIL,6,NO,0,NO,0,2013-01-08 16:36:09 +0200,Add Finnish language strings,36,2848
+467,028b7a3,FAIL,5,NO,0,NO,0,2013-01-08 07:16:46 -0800,Merge pull request #201 from nevalla/dev,36,2848
+468,3571853,FAIL,5,NO,0,NO,0,2013-01-08 15:35:14 +0000,Set Sample to use Android-16,36,2848
+469,8a71c60,FAIL,5,NO,0,NO,0,2013-01-08 15:44:44 +0000,Fix Text Showing on hidden LoadingLayout,36,2849
+470,420b36a,FAIL,5,NO,0,NO,0,2013-01-08 16:00:40 +0000,Disable Hardware Layers for now. Fixes #196,36,2852
+471,684a616,FAIL,5,NO,0,NO,0,2013-01-10 15:27:41 +0000,Fix Rotate Animation Drawable WOBBLE,36,2852
+472,60969e1,FAIL,5,NO,0,NO,0,2013-01-27 10:32:28 +0000,Hopefully fix #216.,36,2854
+473,5229b27,FAIL,6,NO,0,NO,0,2013-01-27 10:46:51 +0000,Fix #218.,36,2862
+474,ee10c53,FAIL,5,NO,0,NO,0,2013-01-27 10:51:56 +0000,Fix #220.,36,2860
+475,bff78c4,FAIL,5,NO,0,NO,0,2013-02-02 12:31:33 +0000,Update README to notify you of me no longer maintaining project,36,2860
+476,3bd8ef6,FAIL,5,NO,0,NO,0,2013-02-02 12:31:46 +0000,Merge branch 'dev',36,2860

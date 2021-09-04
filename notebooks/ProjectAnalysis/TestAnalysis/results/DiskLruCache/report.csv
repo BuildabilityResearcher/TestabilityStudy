@@ -1,0 +1,137 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,5e24759,SUCCESS,17,SUCCESS,3,SUCCESS,8,2012-01-04 19:35:14 -0500,Initial commit.,1,442
+1,c0e644f,SUCCESS,5,SUCCESS,5,SUCCESS,5,2012-01-04 19:40:17 -0500,Markdown tweaks.,1,442
+2,9c521b3,SUCCESS,8,SUCCESS,4,SUCCESS,6,2012-01-04 19:47:50 -0500,More markdown tweaks.,1,442
+3,768919f,SUCCESS,9,SUCCESS,7,SUCCESS,10,2012-01-04 20:21:20 -0500,Port the Android test cases sans MockOs stuff.,2,975
+4,c471ee4,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-01-04 20:31:08 -0500,Clean up pom. We won't have reporting deployed anywhere.,2,975
+5,8fc7c47,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-01-04 20:42:09 -0500,Remove TODOs. MockOs support will probably never happen.,2,973
+6,25f3fc6,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-01-04 20:47:11 -0500,Expand readme to include jar and maven info.,2,973
+7,5f7c1b6,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-01-04 20:47:28 -0500,Bump version to 1.0.0.,2,973
+8,53bd176,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-01-04 20:49:31 -0500,Remove site plugin.,2,973
+9,96d57df,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-01-04 20:53:42 -0500,[maven-release-plugin] prepare release 1.0.0,2,973
+10,a4b3627,SUCCESS,7,SUCCESS,9,SUCCESS,8,2012-01-04 20:53:45 -0500,[maven-release-plugin] prepare for next development iteration,2,973
+11,e2f4747,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-01-05 16:11:26 -0500,Fix second 'created' to read 'edited'.,2,973
+12,e59e29c,SUCCESS,8,SUCCESS,8,SUCCESS,7,2011-12-21 18:14:53 -0500,Give DiskLruCache an API to edit a snapshot.,2,1032
+13,e5e895d,SUCCESS,7,SUCCESS,8,SUCCESS,9,2012-01-04 10:23:18 -0500,Rename timestamp to sequenceNumber.,2,1032
+14,f3d873c,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-01-05 16:48:20 -0500,Add missing close method to readme doc.,2,1032
+15,2128808,SUCCESS,9,SUCCESS,7,SUCCESS,8,2012-01-05 16:50:44 -0500,Update documentation for edit method.,2,1032
+16,af1064c,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-01-07 02:02:36 -0500,Bump version to 1.1.0.,2,1032
+17,834294d,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-01-07 02:04:06 -0500,[maven-release-plugin] prepare release 1.1.0,2,1032
+18,23515bc,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-01-07 02:04:10 -0500,[maven-release-plugin] prepare for next development iteration,2,1032
+19,793815a,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-01-14 18:51:46 -0500,Target Java 1.5. Refs #4.,2,1032
+20,ebe0f06,SUCCESS,10,SUCCESS,8,SUCCESS,7,2012-01-20 09:59:09 -0500,Handle aggressive clearing of the cache directory. Refs #2.,2,1052
+21,7c9075b,SUCCESS,8,SUCCESS,8,SUCCESS,9,2012-01-20 10:00:15 -0500,Spaces -> tabs.,2,1052
+22,990011a,SUCCESS,7,SUCCESS,8,SUCCESS,7,2012-01-20 10:04:15 -0500,Re-enable assertion of persisted value.,2,1053
+23,d7c336c,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-01-20 10:12:53 -0500,Remove test that had always passed.,2,1049
+24,8c60c8b,SUCCESS,8,SUCCESS,9,SUCCESS,8,2012-01-20 10:13:16 -0500,Only create file name once.,2,1050
+25,9830a11,SUCCESS,8,SUCCESS,7,SUCCESS,9,2012-01-21 00:52:06 -0500,Silently fail reads and writes when the cache dir has disappeared. Refs #2.,2,1059
+26,7a07c00,SUCCESS,9,SUCCESS,7,SUCCESS,8,2012-04-19 12:21:40 -0700,Point to the correct downloads page.,2,1059
+27,d6ce25d,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-08-05 12:08:50 -0400,"* Document and enforce keys match regex [a-z0-9_]{1,64}.",2,1078
+28,f0bcf1c,SUCCESS,9,SUCCESS,8,SUCCESS,8,2012-08-05 12:14:12 -0400,* Documenting what constitutes a legal key.,2,1078
+29,dcde2af,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-08-08 08:12:35 -0700,Add XML fence around Maven snippet,2,1032
+30,aaaa511,SUCCESS,7,SUCCESS,9,SUCCESS,8,2012-08-28 13:26:41 -0700,Merge branch 'kevinsawicki-patch-1' into dev,2,1059
+31,7f28919,SUCCESS,8,SUCCESS,7,FAIL,9,2012-08-28 13:30:02 -0700,Merge branch 'Dash-Labs-master' into dev,2,1105
+32,0bb97df,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-08-28 13:33:13 -0700,Update tests not caught by #10.,2,1105
+33,444d382,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-08-28 13:46:53 -0700,Explicitly specify file input buffer. Closes #12.,2,1105
+34,e5d296f,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-08-28 13:56:33 -0700,Remove stray character from docs.,2,1105
+35,fcebb8f,SUCCESS,8,SUCCESS,7,FAIL,8,2012-08-28 14:53:23 -0700,Allow cache size adjustment.,2,1124
+36,04370be,SUCCESS,8,SUCCESS,7,SUCCESS,7,2012-08-29 09:15:20 -0700,Merge pull request #14 from JakeWharton/sizing,2,1124
+37,6b8c92f,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-08-29 09:51:27 -0700,Next version will be 1.2.0.,2,1124
+38,c341c9a,SUCCESS,8,SUCCESS,7,FAIL,8,2012-08-29 09:59:15 -0700,Start changelog for 1.2.0.,2,1124
+39,2ae2ef8,SUCCESS,8,SUCCESS,6,SUCCESS,9,2012-08-28 14:34:09 -0700,Add `abortUnlessCommitted` method for use in `finally` blocks.,2,1112
+40,666fe47,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-08-29 20:03:00 -0700,Merge pull request #13 from JakeWharton/closeable,2,1131
+41,d0f08fe,SUCCESS,8,SUCCESS,8,SUCCESS,7,2012-09-19 14:00:52 -0700,Java 5 does have these and IntelliJ keeps complaining.,2,1131
+42,d0653ee,SUCCESS,8,SUCCESS,8,FAIL,8,2012-09-19 14:07:01 -0700,Handle cache clearing properly.,2,1143
+43,ad11659,SUCCESS,7,SUCCESS,8,FAIL,8,2012-09-19 14:22:53 -0700,Merge pull request #17 from JakeWharton/jw/handle-clears,2,1143
+44,c36f2b2,SUCCESS,8,SUCCESS,8,SUCCESS,8,2012-09-19 14:43:45 -0700,Use StrictLineReader for journal.,4,1257
+45,0eb7e3b,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-09-19 14:52:46 -0700,Merge pull request #18 from JakeWharton/jw/strict,4,1257
+46,c34ffe0,SUCCESS,7,SUCCESS,8,SUCCESS,9,2012-09-19 15:12:28 -0700,Code cleanup.,7,1265
+47,1a71f15,SUCCESS,9,SUCCESS,8,SUCCESS,9,2012-09-28 20:22:59 -0700,Use String-based charset for String instantiation. Closes #20.,7,1269
+48,2da0df1,SUCCESS,7,SUCCESS,8,SUCCESS,9,2012-09-28 22:31:01 -0700,Merge pull request #21 from JakeWharton/jw/old-java,7,1269
+49,e031fd1,SUCCESS,8,SUCCESS,7,FAIL,10,2012-09-28 23:24:12 -0700,Add fake Arrays class for less difference between real version.,8,1271
+50,d89fdd7,SUCCESS,8,SUCCESS,7,FAIL,9,2012-09-28 23:39:48 -0700,Allow recreation of the cache directory when deleted.,8,1280
+51,f1cb716,SUCCESS,6,SUCCESS,7,FAIL,9,2012-09-29 08:39:09 -0700,Merge pull request #22 from JakeWharton/jw/resurrection,8,1280
+52,9a74cd6,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-09-29 13:02:18 -0700,Remove safety calls to set cache directory r/w.,8,1278
+53,407b31c,SUCCESS,8,SUCCESS,8,SUCCESS,9,2012-09-30 00:51:21 -0700,Update change log.,8,1278
+54,d359895,SUCCESS,8,SUCCESS,8,FAIL,8,2012-09-30 00:54:13 -0700,Pom updates.,8,1278
+55,7c86e74,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-09-30 00:55:23 -0700,Bump version to 1.2.0,8,1278
+56,7696305,SUCCESS,7,SUCCESS,7,SUCCESS,9,2012-09-30 19:22:44 -0700,[maven-release-plugin] prepare release 1.2.0,8,1278
+57,bd1d534,SUCCESS,8,SUCCESS,7,FAIL,8,2012-09-30 19:22:55 -0700,[maven-release-plugin] prepare for next development iteration,8,1278
+58,d905400,SUCCESS,7,SUCCESS,7,FAIL,9,2012-10-05 22:25:05 -0700,Add Travis config.,8,1278
+59,f9ef897,SUCCESS,7,SUCCESS,7,FAIL,9,2012-10-08 15:39:15 +0200,Use the project-specific Arrays class where appropriate,8,1277
+60,0ae675e,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-10-08 08:48:04 -0700,Merge pull request #23 from scompt/fix_arrays_copyofrange,8,1277
+61,b959eb6,SUCCESS,8,SUCCESS,7,SUCCESS,8,2012-10-08 08:52:14 -0700,Bump version to 1.2.1.,8,1277
+62,64308fa,SUCCESS,7,SUCCESS,7,SUCCESS,9,2012-10-08 08:53:04 -0700,[maven-release-plugin] prepare release 1.2.1,8,1277
+63,5cd38c3,SUCCESS,7,SUCCESS,8,FAIL,10,2012-10-08 08:53:13 -0700,[maven-release-plugin] prepare for next development iteration,8,1277
+64,cdf97be,SUCCESS,7,SUCCESS,8,SUCCESS,8,2012-10-08 19:24:24 -0300,allow keys with dashes (-) so one can use the return of an object's .hashCode() as key,8,1279
+65,88dcd68,SUCCESS,7,SUCCESS,7,FAIL,8,2012-10-08 19:31:43 -0300,spaces,8,1279
+66,d0ef458,SUCCESS,7,SUCCESS,7,SUCCESS,9,2012-10-09 13:53:02 -0300,updating README about dashes on keys,8,1279
+67,9a871f9,SUCCESS,6,SUCCESS,8,SUCCESS,9,2012-10-29 08:48:25 +0100,Add getLength method to Snapshot,8,1292
+68,747e27f,SUCCESS,7,SUCCESS,7,FAIL,8,2012-10-29 08:43:25 -0700,Merge pull request #25 from scompt/get_snapshot_value_size,8,1292
+69,204d41a,SUCCESS,7,SUCCESS,7,FAIL,9,2012-12-17 16:20:00 -0800,Merge pull request #24 from jonasfa/master,8,1294
+70,f2e16c5,SUCCESS,8,SUCCESS,6,SUCCESS,9,2012-12-23 23:18:34 -0500,Performance improvement in DiskLruCache.readJournalLine().,8,1301
+71,a0a92df,SUCCESS,7,SUCCESS,7,FAIL,8,2012-12-24 08:51:39 -0800,Merge pull request #27 from JakeWharton/jwilson/track_aosp_47964,8,1301
+72,a321396,SUCCESS,7,SUCCESS,7,SUCCESS,9,2012-12-24 14:28:22 -0500,Bump version to 1.3.0 and prepare for next release.,8,1301
+73,6382bf2,SUCCESS,7,SUCCESS,7,FAIL,7,2012-12-24 14:32:00 -0500,[maven-release-plugin] prepare release 1.3.0,8,1301
+74,f6dc3f0,SUCCESS,7,SUCCESS,6,SUCCESS,8,2012-12-24 14:32:12 -0500,[maven-release-plugin] prepare for next development iteration,8,1301
+75,699d82e,SUCCESS,6,SUCCESS,7,SUCCESS,8,2012-12-25 14:12:44 -0500,README updates.,8,1301
+76,f6fca81,SUCCESS,7,SUCCESS,7,FAIL,10,2013-01-02 21:28:07 -0700,Track redundant ops when opening the cache.,8,1332
+77,fd58905,SUCCESS,7,SUCCESS,6,FAIL,10,2013-01-02 22:08:24 -0800,Bump version to 1.3.1.,8,1332
+78,e463c6a,SUCCESS,7,SUCCESS,7,SUCCESS,10,2013-01-02 22:09:50 -0800,[maven-release-plugin] prepare release 1.3.1,8,1332
+79,02e4247,SUCCESS,7,SUCCESS,7,SUCCESS,11,2013-01-02 22:09:59 -0800,[maven-release-plugin] prepare for next development iteration,8,1332
+80,c4ad2a9,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-01-02 22:21:26 -0800,Update download link.,8,1332
+81,44f8b75,SUCCESS,7,SUCCESS,6,SUCCESS,11,2013-01-02 22:23:53 -0800,Switch to 'verify' phase so checkstyle runs.,8,1332
+82,759564a,SUCCESS,6,SUCCESS,6,FAIL,11,2013-02-11 12:02:03 -0500,Fixed possible file handle leak,8,1337
+83,7306e10,SUCCESS,7,SUCCESS,7,FAIL,10,2013-02-11 09:39:16 -0800,Merge pull request #31 from JakeWharton/marcelo/file_handle_leak,8,1337
+84,4c31913,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-02-11 13:58:13 -0500,Fix handle leak in rebuildJournal and add rename check,8,1399
+85,bbcbf9e,SUCCESS,8,SUCCESS,6,SUCCESS,10,2013-02-11 16:41:18 -0800,Merge pull request #32 from JakeWharton/marcelo/proper_rebuild,8,1404
+86,84193df,SUCCESS,6,SUCCESS,8,FAIL,9,2013-02-12 00:29:19 -0500,Make sure writer enforces the same encoder,8,1406
+87,b89285d,SUCCESS,7,SUCCESS,7,FAIL,10,2013-02-12 05:51:35 -0800,Merge pull request #33 from JakeWharton/marcelo/encoding,8,1406
+88,d77f601,SUCCESS,7,SUCCESS,7,SUCCESS,10,2013-03-30 17:49:33 -0400,Automatically flush the cache when an edit is completed.,8,1420
+89,ebbb058,SUCCESS,7,SUCCESS,6,SUCCESS,9,2013-03-30 15:04:55 -0700,Merge pull request #38 from JakeWharton/jwilson/autoflush,8,1420
+90,c405f89,SUCCESS,6,SUCCESS,7,SUCCESS,8,2013-03-30 19:45:49 -0400,Migrate to a modern Java code style for DiskLruCache.,5,1404
+91,5371cb6,SUCCESS,7,SUCCESS,7,SUCCESS,9,2013-03-30 17:18:37 -0700,Merge pull request #39 from JakeWharton/jwilson/style,5,1404
+92,c22d606,SUCCESS,6,SUCCESS,7,SUCCESS,9,2013-04-13 17:51:28 -0700,Update change log for 1.4.0.,5,1404
+93,48505c0,SUCCESS,6,SUCCESS,6,SUCCESS,9,2013-04-13 17:51:48 -0700,Get me out the stupid readme file.,5,1404
+94,3d8cd03,SUCCESS,6,SUCCESS,7,SUCCESS,8,2013-04-13 18:14:16 -0700,Move into package.,5,1407
+95,1a2bd20,SUCCESS,7,SUCCESS,6,SUCCESS,8,2013-04-13 18:20:48 -0700,Style tweaks to match Square.,5,1405
+96,7ebd418,SUCCESS,12,SUCCESS,7,SUCCESS,10,2013-04-13 18:21:14 -0700,Update tests to JUnit 4 style and FEST asserts.,5,1415
+97,0ae4331,SUCCESS,7,SUCCESS,7,SUCCESS,12,2013-04-13 18:23:13 -0700,[maven-release-plugin] prepare release disklrucache-2.0.0,5,1415
+98,522c893,SUCCESS,6,SUCCESS,7,SUCCESS,10,2013-04-13 18:23:43 -0700,[maven-release-plugin] prepare for next development iteration,5,1415
+99,bdabd59,SUCCESS,7,SUCCESS,8,SUCCESS,10,2013-04-15 08:54:26 -0700,Don't talk about specific versions. Link to dynamic .jar from central.,5,1415
+100,3886481,SUCCESS,6,SUCCESS,7,FAIL,11,2013-04-15 14:54:08 -0400,Don't throw runtime exceptions on racy IO operations.,5,1415
+101,8842981,SUCCESS,6,SUCCESS,8,SUCCESS,9,2013-04-15 13:09:57 -0700,Merge pull request #40 from JakeWharton/jwilson/delete_contents,5,1415
+102,ca36dd9,SUCCESS,7,SUCCESS,7,FAIL,11,2013-04-27 14:30:52 -0400,Synchronize isClosed.,5,1415
+103,05bf887,SUCCESS,6,SUCCESS,6,SUCCESS,12,2013-04-27 17:34:04 -0700,Merge pull request #41 from JakeWharton/jwilson/sync,5,1415
+104,36f710e,SUCCESS,7,SUCCESS,6,SUCCESS,11,2013-04-27 22:58:46 -0700,Bump version to 2.0.1.,5,1415
+105,3efc357,SUCCESS,7,SUCCESS,8,SUCCESS,11,2013-04-27 22:59:53 -0700,[maven-release-plugin] prepare release disklrucache-2.0.1,5,1415
+106,5887aae,SUCCESS,7,SUCCESS,7,SUCCESS,11,2013-04-27 22:59:59 -0700,[maven-release-plugin] prepare for next development iteration,5,1415
+107,a45363b,SUCCESS,7,SUCCESS,7,FAIL,11,2013-05-17 11:19:42 -0700,Synchronize access to getMaxSize.,5,1415
+108,df77875,SUCCESS,6,SUCCESS,7,FAIL,11,2013-05-18 01:55:08 -0400,Avoid throwing an exception trying to delete that which does not exist.,5,1416
+109,d7c98fb,SUCCESS,7,SUCCESS,7,SUCCESS,11,2013-06-18 22:55:55 -0400,cleaner,5,1415
+110,636b1f4,SUCCESS,6,SUCCESS,7,FAIL,11,2013-06-18 20:27:24 -0700,Add failing test case for Issue #43 before merge.,5,1419
+111,36ae85e,SUCCESS,6,SUCCESS,7,FAIL,10,2013-06-18 20:27:37 -0700,Merge branch 'avoid-unnecessary-exception-throw-on-remove' of https://github.com/gubatron/DiskLruCache into jw/issue-43,5,1419
+112,c401a3f,SUCCESS,6,SUCCESS,8,SUCCESS,11,2013-06-18 20:31:12 -0700,Merge pull request #44 from JakeWharton/jw/issue-43,5,1419
+113,0f1e3c7,SUCCESS,6,SUCCESS,7,SUCCESS,11,2013-06-18 20:41:42 -0700,Prepare 2.0.2.,5,1419
+114,c25de9c,SUCCESS,6,SUCCESS,7,SUCCESS,10,2013-06-18 20:42:49 -0700,[maven-release-plugin] prepare release disklrucache-2.0.2,5,1419
+115,e246e37,SUCCESS,7,SUCCESS,7,SUCCESS,11,2013-06-18 20:42:55 -0700,[maven-release-plugin] prepare for next development iteration,5,1419
+116,2799797,SUCCESS,6,SUCCESS,7,SUCCESS,10,2013-07-22 23:42:12 -0700,Casing.,5,1419
+117,a091703,SUCCESS,6,SUCCESS,6,FAIL,10,2013-10-12 00:10:37 -0700,Two space indent.,5,1419
+118,a520b04,SUCCESS,7,SUCCESS,6,FAIL,11,2013-10-12 00:11:20 -0700,Add script to deploy Javadoc to the gh-pages branch.,5,1419
+119,bbe4022,SUCCESS,7,SUCCESS,7,FAIL,12,2013-10-12 00:14:08 -0700,Util class should not be public.,5,1419
+120,021866c,SUCCESS,7,SUCCESS,8,SUCCESS,11,2013-10-20 16:32:03 -0700,Merge pull request #48 from JakeWharton/jw/no-pub,5,1419
+121,ce8c006,SUCCESS,7,SUCCESS,7,FAIL,11,2014-02-11 10:16:25 -0800,Temp dir now properly cleaned up,5,1419
+122,b6b6c3b,SUCCESS,7,SUCCESS,7,SUCCESS,10,2014-02-11 10:24:36 -0800,Removed errant spaces,5,1419
+123,6226c49,SUCCESS,7,SUCCESS,6,SUCCESS,11,2014-02-11 10:30:22 -0800,Merge pull request #58 from Wavesonics/unit_test_improvements,5,1419
+124,401c9c9,SUCCESS,7,SUCCESS,6,FAIL,10,2014-06-30 07:36:03 -0700,Fix off by one index error in tests.,5,1423
+125,4e4491d,SUCCESS,7,SUCCESS,6,FAIL,10,2014-06-30 15:09:31 -0700,Merge pull request #64 from sjudd/fix_off_by_one_test,5,1423
+126,78b3f9f,SUCCESS,7,SUCCESS,6,SUCCESS,10,2014-07-21 13:59:46 -0700,Increase key length limit to 120.,5,1427
+127,dc9e37f,SUCCESS,7,SUCCESS,6,SUCCESS,11,2014-07-23 17:27:05 -0700,Merge branch 'acherkashyn-master',5,1427
+128,09d1140,SUCCESS,6,SUCCESS,7,SUCCESS,9,2014-08-22 00:39:31 -0700,Correct non-deterministic test by querying the queue directly.,5,1427
+129,c2965c0,SUCCESS,6,SUCCESS,6,FAIL,10,2014-10-06 14:08:33 -0700,Merge pull request #69 from JakeWharton/jw/fix-test-non-determinism,5,1427
+130,5b45d10,SUCCESS,7,SUCCESS,6,SUCCESS,9,2014-10-23 23:15:49 -0400,Don't append to a truncated line in the journal.,5,1436
+131,7a1ecbd,SUCCESS,6,SUCCESS,5,SUCCESS,10,2014-10-24 10:09:30 -0700,Merge pull request #74 from JakeWharton/jwilson_1023_rebuild,5,1436
+132,5f0ef1e,SUCCESS,6,SUCCESS,6,SUCCESS,11,2014-12-20 03:06:35 -0800,Auto-deploy snapshots from Travis CI to Sonatype.,5,1436
+133,3aa6286,SUCCESS,6,SUCCESS,6,SUCCESS,11,2014-12-20 03:10:47 -0800,Merge pull request #77 from JakeWharton/jw/auto-deploy,5,1436
+134,057db12,SUCCESS,5,SUCCESS,7,SUCCESS,10,2016-06-01 14:24:58 +0600,Update keys length in regex in README.md,5,1436
+135,3e01635,SUCCESS,6,SUCCESS,7,SUCCESS,10,2016-06-01 10:27:39 -0400,Merge pull request #88 from divankov/patch-2,5,1436

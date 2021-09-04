@@ -1,0 +1,7 @@
+error,count
+resource words.txt not found.,4
+GC overhead limit exceeded,1
+bad code match 7 vs 8,1
+com.google.common.base.Stopwatch.elapsedMillis()J,195
+java.lang.NoSuchMethodError: com.google.common.base.Stopwatch.elapsedMillis()J,6
+java.lang.IllegalStateException: Degree of parallelism [2]  is larger than number of batches [1].,1

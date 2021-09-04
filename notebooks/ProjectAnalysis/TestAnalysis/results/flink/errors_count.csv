@@ -1,0 +1,4 @@
+error,count
+Failed to transform class with name eu.stratosphere.nephele.io.compression.CompressionLoader. Reason: java.io.IOException: invalid constant type: 18,66
+Failed to transform class with name eu.stratosphere.nephele.io.library.FileLineReadWriteTest. Reason: java.io.IOException: invalid constant type: 18,89
+For input string: &quot;myvalue1&quot;,16

@@ -1,0 +1,26 @@
+error,count
+,384
+"INTERNAL COMPILER ERROR.
+Please report this problem.
+THIS 1 [source_file: i0] is not a string node
+  Node(CALL): i0:1:17
+function Foo() { this.bar(); } Foo.prototype.bar = function() { return Foo(); };
+  Parent(EXPR_RESULT): i0:1:17
+function Foo() { this.bar(); } Foo.prototype.bar = function() { return Foo(); };
+",2
+"INTERNAL COMPILER ERROR.
+Please report this problem.
+THIS 6 [source_file: in1] [length: 4] is not a string node
+  Node(CALL): in1:6:2
+  this.method();
+  Parent(EXPR_RESULT): in1:6:2
+  this.method();
+",2
+"INTERNAL COMPILER ERROR.
+Please report this problem.
+
+Cannot create loose objectType with nominal type Object
+In scope: f(value) with root: FUNCTION f 1 [source_file: [testcode]]",4
+Externs zip must contain intl.js when environment is CUSTOM.,14
+java.lang.RuntimeException: java.io.NotSerializableException: com.google.javascript.jscomp.newtypes.NaivePersistentMap,5565
+No such resource: js/find.js.js,1

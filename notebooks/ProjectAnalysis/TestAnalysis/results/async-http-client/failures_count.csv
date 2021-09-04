@@ -1,0 +1,11 @@
+exception,count
+java.lang.AssertionError,1776
+java.net.ConnectException,62
+java.lang.AssertionError:,119
+java.lang.NullPointerException,2
+java.util.concurrent.TimeoutException,338
+java.util.concurrent.ExecutionException,866
+java.lang.NullPointerException:,237
+java.lang.IndexOutOfBoundsException,16
+java.net.BindException,2
+org.testng.internal.thread.ThreadTimeoutException,2

@@ -1,0 +1,1313 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,70e99380,FAIL,0,NO,0,NO,0,2012-10-23 12:08:07 -0700,Initial commit,0,0
+1,9d415999,FAIL,33,NO,0,NO,0,2012-10-24 03:39:51 -0400,Initial commit of OSS Druid Code,537,32515
+2,f09f595c,FAIL,4,NO,0,NO,0,2012-10-24 04:51:32 -0400,Fix up the demos a bit,537,32515
+3,27999cac,FAIL,3,NO,0,NO,0,2012-10-24 05:09:43 -0400,1) Create LICENSE 2) Attach copyright and notice of license to files,537,32515
+4,631c3bf3,FAIL,4,NO,0,NO,0,2012-10-24 12:08:47 -0400,Remove gradle files,537,32515
+5,6a9d86e1,FAIL,4,NO,0,NO,0,2012-10-24 11:46:32 -0500,Removed unused import in IndexMerger that was causing build.sh to fail with Java 1.7.0_04-b21 on OS X 10.7.4.,537,32514
+6,ae44e3ec,FAIL,4,NO,0,NO,0,2012-10-24 11:54:05 -0500,Removed hardcoded jar version in examples/rand/run_server.sh which was preventing it from running.  Also updated examples/rand/run_client.sh and examples/twitter/run_client.sh help messages to remove  the unneeded &.,537,32514
+7,9575326c,FAIL,3,NO,0,NO,0,2012-10-24 11:54:24 -0500,Added twitter and rand example output files to .gitignore.,537,32514
+8,6c819c1b,FAIL,4,NO,0,NO,0,2012-10-24 12:40:22 -0700,Stop java process when run_server.sh is killed,537,32515
+9,71edede8,FAIL,4,NO,0,NO,0,2012-10-24 14:34:24 -0700,cleaned up build.sh to remove spurious errors.,537,32515
+10,c8f549f7,FAIL,3,NO,0,NO,0,2012-10-24 14:57:17 -0700,Merge pull request #1 from mcroydon/master,537,32514
+11,3e09713e,FAIL,3,NO,0,NO,0,2012-10-24 14:57:44 -0700,Merge pull request #3 from mashion/shutdown-server,537,32514
+12,e5066397,FAIL,4,NO,0,NO,0,2012-10-24 14:58:43 -0700,Merge pull request #4 from tralfamadude/master,537,32514
+13,3763a0b7,FAIL,3,NO,0,NO,0,2012-10-24 15:47:55 -0700,Use correct key in query.body for twitter example,537,32514
+14,10b94259,FAIL,4,NO,0,NO,0,2012-10-24 17:06:39 -0700,Merge pull request #5 from mashion/fix-twitter-example,537,32514
+15,2d69a833,FAIL,3,NO,0,NO,0,2012-10-24 21:07:53 -0300,Update examples/twitter/query.body,537,32514
+16,a3eb4f32,FAIL,4,NO,0,NO,0,2012-10-24 17:30:04 -0700,Add search query example,537,32514
+17,bcdfece8,FAIL,3,NO,0,NO,0,2012-10-26 10:20:56 -0700,Allow group_by or search queries in run_client.sh,537,32514
+18,2c341144,FAIL,3,NO,0,NO,0,2012-10-26 10:46:30 -0700,Allow blank mysql passwords,537,32518
+19,aea00737,FAIL,3,NO,0,NO,0,2012-10-29 09:07:04 -0700,Merge pull request #7 from mashion/fix-zk-setup,537,32518
+20,afb347f7,FAIL,4,NO,0,NO,0,2012-10-29 09:08:34 -0700,Merge pull request #6 from mashion/search-examples,537,32518
+21,a34c5a10,FAIL,3,NO,0,NO,0,2012-10-29 14:34:17 -0700,add buffered version of JavaScriptAggregator,538,32585
+22,8a49c156,FAIL,3,NO,0,NO,0,2012-10-29 16:04:13 -0700,Merge pull request #13 from metamx/jsbufferfix,538,32585
+23,f062e136,FAIL,4,NO,0,NO,0,2012-10-30 10:59:07 -0500,1) Fix bug with sharded realtime data ingestion,538,32578
+24,d7f85cfb,FAIL,3,NO,0,NO,0,2012-10-30 12:08:30 -0500,1) Fix configuration property naming issue.,538,32578
+25,bd8d5bdd,FAIL,4,NO,0,NO,0,2012-10-30 22:21:55 -0700,Ignored all Eclipse .settings folders.,538,32578
+26,0d24df76,FAIL,3,NO,0,NO,0,2012-10-30 22:22:46 -0700,Removed unused imports.,538,32511
+27,35f04b4d,FAIL,3,NO,0,NO,0,2012-10-30 23:26:21 -0700,Fixed some minor potential resource leaks.,538,32521
+28,c5e2a881,FAIL,4,NO,0,NO,0,2012-10-30 23:59:31 -0700,Resolved dead code warning by null checking the correct variable according to the associated log statement.,538,32521
+29,e2494831,FAIL,3,NO,0,NO,0,2012-10-31 00:00:30 -0700,Removed some dead/unused code.,538,32502
+30,d0f66c1f,FAIL,4,NO,0,NO,0,2012-10-31 10:28:24 -0700,bug fix for merging with empty strings,539,32626
+31,fe9cb397,FAIL,3,NO,0,NO,0,2012-10-31 10:29:03 -0700,remove unncessarily created file,538,32593
+32,e8f02219,FAIL,4,NO,0,NO,0,2012-10-31 12:58:16 -0700,"Streamlined the Maven POMs, in particular the plugin configurations.  The 'mvn versions:display-plugin-updates' report is now warning free, and there are no more Maven warnings reported in Eclipse.",538,32502
+33,11c64593,FAIL,3,NO,0,NO,0,2012-10-31 14:35:09 -0700,improvements to the indexing service and auto scaling,546,33009
+34,9547ea49,FAIL,4,NO,0,NO,0,2012-10-31 14:45:44 -0700,fix bug with provision,546,33001
+35,e7ec073d,FAIL,8,NO,0,NO,0,2012-10-31 16:10:07 -0700,Cleaned Maven dependency configuration.  In particular the 'mvn dependency:analyze' report no longer warns of used but undeclared dependencies.,538,32502
+36,83a51a80,FAIL,3,NO,0,NO,0,2012-10-31 16:43:47 -0700,cleanup redirects and reannounce workers on connection loss,546,32997
+37,49289788,FAIL,3,NO,0,NO,0,2012-11-01 16:14:17 -0700,Merge pull request #17 from ianbrandt/codecleanup,538,32502
+38,8dd6f5c0,FAIL,4,NO,0,NO,0,2012-11-01 18:20:38 -0500,"1) Refactor the BrokerMain into a BrokerMain and a BrokerNode to allow for extensions 2) Rename ServerMain to ComputeMain 3) Refactor ComputeMain to ComputeMain and ComputeNode to allow for extensions 4) Remove ""TheSizeAdjuster"", was old legacy stuff that's not relevant anymore 5) Fix bug with registering different IndexIO handlers 6) Adjust it so that when a query type is unknown, it returns an error message instead of just emitting an alert and returning nothing 7) Create super classes for the various *Node classes that allow for code sharing on pieces that are common",540,32705
+39,f07b15db,FAIL,3,NO,0,NO,0,2012-11-01 18:38:26 -0500,Undo massive import re-ordering,540,32772
+40,09cc2e33,FAIL,4,NO,0,NO,0,2012-11-01 16:39:28 -0700,Merge branch 'master' into moarunittests,548,33125
+41,69b929fa,FAIL,3,NO,0,NO,0,2012-11-01 16:41:13 -0700,Merge branch 'master' into moarunittests,548,33191
+42,63b2f502,FAIL,3,NO,0,NO,0,2012-11-02 11:35:23 -0500,1) Make TimelineEntry in VersionedIntervalTimeline a static class with its own generic parameters to hopefully make OpenJDK happier.,540,32779
+43,7921be79,FAIL,3,NO,0,NO,0,2012-11-02 14:17:50 -0500,1) Bump up the maven version pre-requisite to 3.0.3,540,32779
+44,38ed1d8b,FAIL,3,NO,0,NO,0,2012-11-02 14:24:09 -0500,1) Revert failed attempt at making OpenJDK6 happy.,540,32772
+45,88a3fb84,FAIL,4,NO,0,NO,0,2012-11-02 14:24:43 -0500,1) New attempt at making OpenJDK 6 happy,540,32772
+46,abab3519,FAIL,3,NO,0,NO,0,2012-11-02 15:56:18 -0700,general cleanup and improvments for auto scaling,547,33004
+47,b1b61173,FAIL,3,NO,0,NO,0,2012-11-02 15:57:16 -0700,Merge branch 'master' into autoscaling,549,33198
+48,a5c3eab2,FAIL,3,NO,0,NO,0,2012-11-02 15:59:55 -0700,fix merge break,549,33198
+49,e9dadcae,FAIL,3,NO,0,NO,0,2012-11-02 16:59:49 -0700,more sensical logic around when to terminate worker nodes,549,33203
+50,b4e3f98f,FAIL,3,NO,0,NO,0,2012-11-05 11:18:11 -0800,bug fixes for retries without sufficient capacity,549,33197
+51,6b247f15,FAIL,3,NO,0,NO,0,2012-11-05 11:19:55 -0800,cleanup redundant code,549,33196
+52,49926338,FAIL,4,NO,0,NO,0,2012-11-05 11:38:03 -0800,timeseries for druid + unit tests,561,35238
+53,51cd361f,FAIL,4,NO,0,NO,0,2012-11-05 13:39:16 -0800,some changes to how handlers are registered,549,33202
+54,0a42f18c,FAIL,3,NO,0,NO,0,2012-11-05 14:33:15 -0800,HistogramVisual: add support for quantiles,540,32780
+55,a3564477,FAIL,4,NO,0,NO,0,2012-11-05 16:13:20 -0800,Merge branch 'moarunittests' into misc,562,35249
+56,7b2522ff,FAIL,3,NO,0,NO,0,2012-11-05 16:13:50 -0800,allow hadoop druid indexer to register registererers,562,35270
+57,9fbee29e,FAIL,4,NO,0,NO,0,2012-11-05 18:19:04 -0800,change hadoop indexer to be node based,563,35333
+58,2ae0a15b,FAIL,3,NO,0,NO,0,2012-11-05 18:31:23 -0800,add register abilities to mapper,563,35344
+59,eb2b5a61,FAIL,4,NO,0,NO,0,2012-11-05 18:40:54 -0800,fix setters for hadoop node,563,35346
+60,86d2fb35,FAIL,3,NO,0,NO,0,2012-11-06 00:16:27 -0800,"added DruidSetup.java and install/druid_setup.sh to run it for Druid ensemble setup (put properties to zk, create zk zpaths, prep db, and dump properties/paths in zk); property druid.zk.paths.base can establish a namespace for a druid ensemble allowing more than one ensemble to use the same zookeepers; this namespace is the base zpath prefix for paths with properties in the form druid.zk.paths.*Path which are normally set automatically now; if druid.zk.paths.*Path are explicitly set, then all of them must be set with absolute paths to ensure careful attention; ZkSetup is now deprecated, use DruidSetup instead; examples/twitter RealtimeStandaloneMain will exit properly now after a kill -15 (control-c or kill pid) instead of hanging on an unstopped daemon.",539,32854
+61,68e5adde,FAIL,3,NO,0,NO,0,2012-11-06 11:49:17 -0800,register registererers in the config,563,35340
+62,34a221a5,FAIL,4,NO,0,NO,0,2012-11-06 11:56:48 -0800,fix bug with jackson conversion,563,35339
+63,0b6dd994,FAIL,3,NO,0,NO,0,2012-11-06 12:36:55 -0800,set default version if one is not set,563,35339
+64,5698f640,FAIL,4,NO,0,NO,0,2012-11-06 12:40:53 -0800,fix last commit with version,563,35339
+65,34cb352c,FAIL,3,NO,0,NO,0,2012-11-06 14:26:53 -0800,working indexer with registererers,563,35333
+66,cb02c684,FAIL,3,NO,0,NO,0,2012-11-06 15:30:46 -0800,removed recursive zpath listing from DruidSetup dump command.,539,32852
+67,217caa3a,FAIL,4,NO,0,NO,0,2012-11-06 16:55:35 -0800,HistogramVisual: put min. and max. in quantile array,540,32766
+68,b1475219,FAIL,3,NO,0,NO,0,2012-11-06 20:15:57 -0800,Merge branch 'master' of git://github.com/tralfamadude/druid-1,542,33109
+69,9c3b7006,FAIL,3,NO,0,NO,0,2012-11-06 20:20:34 -0800,Merge pull request #22 from metamx/histograms,542,33103
+70,52214d73,FAIL,4,NO,0,NO,0,2012-11-07 17:27:23 -0800,additional improvements according to code review; unit tests; bug fixes for retry policies,551,33484
+71,4d6cfdc7,FAIL,3,NO,0,NO,0,2012-11-07 17:27:42 -0800,Merge branch 'master' into autoscaling,553,33815
+72,f39af83b,FAIL,4,NO,0,NO,0,2012-11-08 09:30:32 -0800,make switching between scaling strategies config based,553,33825
+73,cdd9cdb2,FAIL,3,NO,0,NO,0,2012-11-08 09:31:22 -0800,use PropUtils for indexer coordinator node,553,33825
+74,7083821f,FAIL,4,NO,0,NO,0,2012-11-08 10:08:40 -0800,no param for scaling provision and minor fix for initialization,553,33829
+75,f8a5d08d,FAIL,3,NO,0,NO,0,2012-11-08 10:11:33 -0800,Merge pull request #20 from metamx/autoscaling,553,33829
+76,88bb0296,FAIL,4,NO,0,NO,0,2012-11-08 10:32:18 -0800,fix compile breakage introduced by scaling strategies,553,33831
+77,8323feed,FAIL,4,NO,0,NO,0,2012-11-08 10:37:05 -0800,Merge branch 'master' into moarunittests,566,35878
+78,bff5a7d7,FAIL,3,NO,0,NO,0,2012-11-08 10:43:39 -0800,fix some merge issues,566,35878
+79,3ddfdfc7,FAIL,4,NO,0,NO,0,2012-11-08 10:45:21 -0800,add missing header,566,35878
+80,4c98b176,FAIL,3,NO,0,NO,0,2012-11-08 10:51:13 -0800,Merge branch 'master' into misc,567,35961
+81,ef6e65b8,FAIL,4,NO,0,NO,0,2012-11-08 10:51:41 -0800,Merge branch 'moarunittests' into misc,567,35961
+82,e8d19098,FAIL,3,NO,0,NO,0,2012-11-08 13:42:14 -0800,rename file,567,35956
+83,09e81be1,FAIL,4,NO,0,NO,0,2012-11-08 13:42:58 -0800,rename file,566,35873
+84,90b7fd99,FAIL,3,NO,0,NO,0,2012-11-08 13:46:30 -0800,Merge pull request #25 from metamx/moarunittests,566,35873
+85,5cf21e3c,FAIL,4,NO,0,NO,0,2012-11-08 13:49:02 -0800,Merge branch 'master' into misc,567,35956
+86,17fb93d0,FAIL,3,NO,0,NO,0,2012-11-08 14:43:02 -0800,fixes to init and more unit tests for timeseries,568,36082
+87,6da047b5,FAIL,3,NO,0,NO,0,2012-11-08 15:09:00 -0800,fix backwards compatibility issues,569,36154
+88,81a33bcb,FAIL,3,NO,0,NO,0,2012-11-08 16:39:07 -0800,Merge pull request #26 from metamx/misc,569,36154
+89,0a0e2a6c,FAIL,4,NO,0,NO,0,2012-11-08 17:06:02 -0800,1) Try to fix the dependency issues for running the HadoopDruidIndexer locally.,568,36001
+90,8aff8dec,FAIL,3,NO,0,NO,0,2012-11-09 09:32:57 -0800,[maven-release-plugin] prepare release druid-0.1.0,568,36001
+91,03e5d740,FAIL,3,NO,0,NO,0,2012-11-09 09:33:06 -0800,[maven-release-plugin] prepare for next development iteration,568,36001
+92,baba4e7b,FAIL,4,NO,0,NO,0,2012-11-09 10:10:26 -0800,[maven-release-plugin] prepare release druid-0.1.1,568,36001
+93,0b7a3f25,FAIL,3,NO,0,NO,0,2012-11-09 10:10:32 -0800,[maven-release-plugin] prepare for next development iteration,568,36001
+94,2ef1136a,FAIL,4,NO,0,NO,0,2012-11-09 13:39:02 -0800,fix a bug where intervals were being returned as String instead of Interval objects by the compute nodes,568,36002
+95,56f2c15e,FAIL,4,NO,0,NO,0,2012-11-09 13:40:57 -0800,[maven-release-plugin] prepare release druid-0.1.2,568,36002
+96,58595993,FAIL,3,NO,0,NO,0,2012-11-09 13:41:04 -0800,[maven-release-plugin] prepare for next development iteration,568,36002
+97,e668660a,FAIL,4,NO,0,NO,0,2012-11-09 15:48:26 -0800,fix strategy check in indexing coordinator,568,36002
+98,47e71080,FAIL,3,NO,0,NO,0,2012-11-09 15:50:16 -0800,[maven-release-plugin] prepare release druid-0.1.3,568,36002
+99,dd179921,FAIL,4,NO,0,NO,0,2012-11-09 15:50:24 -0800,[maven-release-plugin] prepare for next development iteration,568,36002
+100,447dfc0c,FAIL,4,NO,0,NO,0,2012-11-09 17:31:03 -0800,Switch to using javax.servlet:servlet-api:2.5 instead of two different versions of jetty's servlet-api distribution,568,36002
+101,c30f04e0,FAIL,3,NO,0,NO,0,2012-11-12 08:49:31 -0800,Merge pull request #27 from marshallpierce/master,568,36002
+102,c20dccd0,FAIL,3,NO,0,NO,0,2012-11-12 13:58:43 -0800,modifying the way registering serdes works to hopefully be a bit easier to use,569,36033
+103,57468d39,FAIL,3,NO,0,NO,0,2012-11-12 16:14:48 -0800,reverting some of the last changes,571,36100
+104,0d697ed1,FAIL,4,NO,0,NO,0,2012-11-12 16:17:51 -0800,fix rename of this node,570,36038
+105,7eccd76e,FAIL,3,NO,0,NO,0,2012-11-12 16:34:48 -0800,add missing headers,570,36038
+106,24564d73,FAIL,4,NO,0,NO,0,2012-11-12 16:41:34 -0800,register subtypes for reducer,570,36039
+107,0ef40171,FAIL,3,NO,0,NO,0,2012-11-13 13:18:31 -0800,nodes no longer inherit from interfaces but instead extend classes,570,36032
+108,cd1a812f,FAIL,4,NO,0,NO,0,2012-11-13 15:00:55 -0800,construct registering nodes with lists,570,36036
+109,06ed0e74,FAIL,3,NO,0,NO,0,2012-11-13 15:02:14 -0800,Merge pull request #28 from metamx/fjy,570,36036
+110,06bd77fc,FAIL,4,NO,0,NO,0,2012-11-13 15:10:00 -0800,[maven-release-plugin] prepare release druid-0.1.4,570,36036
+111,cf1c741f,FAIL,3,NO,0,NO,0,2012-11-13 15:10:12 -0800,[maven-release-plugin] prepare for next development iteration,570,36036
+112,aa073e4e,FAIL,4,NO,0,NO,0,2012-11-14 15:37:11 -0600,1) Add verification of memory settings to initialization. (Fixes #21),571,36085
+113,b7d43a66,FAIL,3,NO,0,NO,0,2012-11-15 21:32:56 -0800,doc/data_flow* diagrams added,571,36085
+114,16835a1f,FAIL,4,NO,0,NO,0,2012-11-19 14:42:57 -0800,Master: Add segment limit to merge selection algo,571,36129
+115,cdda8c2b,FAIL,4,NO,0,NO,0,2012-11-19 14:55:47 -0800,Merge pull request #31 from tralfamadude/master,571,36085
+116,701cc956,FAIL,3,NO,0,NO,0,2012-11-19 17:01:17 -0600,"1) Adjust the StorageAdapters to lowercase names of metrics and dimensions before looking them up. 2) Add some docs to InputRow/Row to indicate that column names passed into the methods are *always* lowercase and that the rows need to act accordingly. (fixes #29, or at least clarifies the behavior...)",574,36180
+117,c6579692,FAIL,3,NO,0,NO,0,2012-11-19 17:01:33 -0600,Merge branch 'master' of github.com:metamx/druid,574,36180
+118,b228c053,FAIL,4,NO,0,NO,0,2012-11-19 15:06:46 -0800,bug fix for too much data to indexer,571,36188
+119,41310630,FAIL,3,NO,0,NO,0,2012-11-19 15:07:00 -0800,Merge branch 'master' into fjy,574,36283
+120,6107bb7b,FAIL,4,NO,0,NO,0,2012-11-19 15:51:07 -0800,Merge pull request #32 from metamx/fjy,574,36283
+121,a48b67c9,FAIL,3,NO,0,NO,0,2012-11-20 10:13:33 -0600,"1) Remove -Djava.net.preferIPv4Stack=true from the install script, not sure why it's there.",574,36180
+122,9cbffa28,FAIL,4,NO,0,NO,0,2012-11-20 10:13:49 -0600,Merge branch 'master' of github.com:metamx/druid,574,36283
+123,0f63cb4f,FAIL,3,NO,0,NO,0,2012-11-20 15:30:50 -0600,1) Have IndexGeneratorJob write the descriptors for each of the segments it creates to a path in the temporary working directory (generally HDFS) 2) Have the DbUpdaterJob read descriptors from the temporary working directory instead of looking in the final segment output location (often the eventually consistent S3) 3) 1 and 2 Fixes #30,573,36208
+124,7497a319,FAIL,3,NO,0,NO,0,2012-11-20 16:14:22 -0600,1) Revert emr hadoop version that was accidentally commited in pom.,573,36208
+125,06b8e423,FAIL,4,NO,0,NO,0,2012-11-21 12:51:43 -0600,1) Fix PostAggregations with GroupBy (Fixes #24) 2) Add GroupByTimeseriesQueryRunnerTest which wraps a GroupByQueryRunner to look like a TimeseriesQueryRunner and leverages the tests there to help verify behavior (#8),575,36329
+126,09669b6a,FAIL,3,NO,0,NO,0,2012-11-21 12:18:27 -0800,TaskConsumer: Don't tell the queue we're done if we have been shut down,575,36330
+127,32d46a3e,FAIL,4,NO,0,NO,0,2012-11-21 16:09:08 -0800,[maven-release-plugin] prepare release druid-0.1.5,575,36330
+128,5e447937,FAIL,3,NO,0,NO,0,2012-11-21 16:09:14 -0800,[maven-release-plugin] prepare for next development iteration,575,36330
+129,228b2235,FAIL,4,NO,0,NO,0,2012-11-21 18:38:57 -0600,1) Fix bug with Sinks that causes Realtime it to overwrite the first chunk of data when creating a segment to hand off to compute nodes. 2) Fix bug with RealtimePlumberSchool that can cause it to miss some previously-persisted segments when directory naming changes 3) Have the various runnables in RealtimePlumberSchool name the threads to make it a bit easier to debug,577,36358
+130,3a9591bd,FAIL,3,NO,0,NO,0,2012-11-21 18:39:09 -0600,Merge branch 'master' of github.com:metamx/druid,577,36359
+131,9c732e75,FAIL,4,NO,0,NO,0,2012-11-21 19:06:32 -0600,1) Add new SearchQueryDimFilter/SearchQueryFilter that will do a filter using the same queries that can be used for SearchQuery,579,36417
+132,e2da8df3,FAIL,3,NO,0,NO,0,2012-11-21 19:15:08 -0600,1) Fix build,579,36418
+133,93a9affa,FAIL,4,NO,0,NO,0,2012-11-21 22:13:08 -0600,[maven-release-plugin] prepare release druid-0.1.6,579,36418
+134,0390e7fa,FAIL,3,NO,0,NO,0,2012-11-21 22:13:15 -0600,[maven-release-plugin] prepare for next development iteration,579,36418
+135,c929153a,FAIL,4,NO,0,NO,0,2012-11-26 11:41:29 -0600,1) Fix bug in random example introduced by case sensitivities,579,36421
+136,0da9075f,FAIL,3,NO,0,NO,0,2012-11-26 12:29:59 -0600,1) Better class-level javadoc for Firehose,579,36421
+137,253125cb,FAIL,4,NO,0,NO,0,2012-11-27 10:32:30 -0600,1) Adjust RealtimePlumberSchool to take a configurable rejection policy that lets you switch between server time and message time for rejections.,579,36453
+138,3c9f0317,FAIL,3,NO,0,NO,0,2012-11-27 10:33:20 -0600,1) Default the rejectionPolicy to server time,579,36453
+139,63c5b8c7,FAIL,3,NO,0,NO,0,2012-11-27 10:34:25 -0600,1) Camel case for consistency,579,36453
+140,790ba592,FAIL,3,NO,0,NO,0,2012-11-27 10:48:02 -0600,1) Merge-n-push should only happen after messages have been seen such that it can happen.,579,36460
+141,1e359135,FAIL,3,NO,0,NO,0,2012-11-27 11:12:28 -0600,1) add a log line on plumber creation to make it easier to know what rejection policy is being used.,579,36467
+142,cc8a14d5,FAIL,3,NO,0,NO,0,2012-11-26 11:39:33 -0800,IndexGeneratorTask: Log metrics when complete,579,36474
+143,5902ccd0,FAIL,3,NO,0,NO,0,2012-11-27 15:45:56 -0800,DruidMasterSegmentMerger: Clearer method names and more tests,579,36506
+144,4de6ef50,FAIL,4,NO,0,NO,0,2012-11-28 11:54:59 -0600,1) Remove the requirement on the segmentsPath zk property.,577,36391
+145,b85c54d8,FAIL,3,NO,0,NO,0,2012-11-28 11:55:25 -0600,Merge branch 'master' of github.com:metamx/druid,577,36430
+146,09a31e59,FAIL,4,NO,0,NO,0,2012-11-28 12:35:24 -0600,Tests should build.,577,36429
+147,7d2778fa,FAIL,3,NO,0,NO,0,2012-11-28 13:12:38 -0800,fix TimeBoundaryQuery to properly handle timestamps prior to 1970,577,36429
+148,2e5e1ce9,FAIL,4,NO,0,NO,0,2012-11-28 17:37:08 -0800,first commit of tiers for compute nodes; working UT at this point,589,37099
+149,e950c633,FAIL,4,NO,0,NO,0,2012-11-29 09:42:28 +0100,RemoteTaskRunner#run should fail on task with taskId from tasks.keys set,577,36439
+150,25a4caac,FAIL,3,NO,0,NO,0,2012-11-29 09:21:41 -0800,Merge pull request #37 from Benky/master,577,36439
+151,aa8fb7b9,FAIL,3,NO,0,NO,0,2012-11-30 11:28:10 -0800,abstract the assign and drop logic; cleanups everywhere; http endpoints for getting and assigning rules,594,37290
+152,1fb3bf5c,FAIL,4,NO,0,NO,0,2012-11-30 11:32:02 -0800,remove defaults for druid tiers,594,37290
+153,e1527a44,FAIL,3,NO,0,NO,0,2012-11-30 11:37:02 -0800,Merge branch 'master' into fjy,594,37300
+154,91cd9e95,FAIL,4,NO,0,NO,0,2012-11-30 13:17:14 -0800,fix broken UT,594,37300
+155,6c73de68,FAIL,3,NO,0,NO,0,2012-12-01 09:53:52 -0600,1) Work around Jackson bug with constructor parameters and setters.,577,36431
+156,5e8bd15d,FAIL,4,NO,0,NO,0,2012-12-01 09:54:13 -0600,Merge branch 'master' of github.com:metamx/druid,577,36441
+157,1618c9b8,FAIL,3,NO,0,NO,0,2012-11-14 21:07:45 +0100,formatted realtime spec files for examples,577,36441
+158,06e4199d,FAIL,3,NO,0,NO,0,2012-11-14 21:16:41 +0100,fixed path to base persist directory for rand example,577,36441
+159,06d6f976,FAIL,3,NO,0,NO,0,2012-11-14 21:48:55 +0100,made runtime.properties files of examples consistent,577,36441
+160,e22ac503,FAIL,4,NO,0,NO,0,2012-11-24 14:04:25 +0100,made run_server.sh files of examples as consistent as possible,577,36441
+161,5822f4f5,FAIL,4,NO,0,NO,0,2012-12-03 14:43:04 -0800,refactor master to run rules before cleaning up; more master stats; general improvements,591,37110
+162,5b8bd412,FAIL,3,NO,0,NO,0,2012-12-03 16:13:20 -0800,caching for rules; get rules from cache,591,37104
+163,bcf57b58,FAIL,4,NO,0,NO,0,2012-12-03 16:13:36 -0800,Merge branch 'master' of github.com:metamx/druid into fjy,591,37106
+164,a03f8527,FAIL,3,NO,0,NO,0,2012-12-03 16:23:11 -0800,implement memcached CacheBroker,580,36847
+165,98fbcfd7,FAIL,4,NO,0,NO,0,2012-12-03 17:49:05 -0800,file headers,580,36847
+166,51a7adf4,FAIL,3,NO,0,NO,0,2012-12-04 11:18:51 -0800,enable consistent hashing and optimizations + daemonize memcached IO thread,580,36853
+167,01dc7872,FAIL,4,NO,0,NO,0,2012-12-04 11:36:37 -0800,fix test case class name,580,36853
+168,c6e641e8,FAIL,4,NO,0,NO,0,2012-12-04 12:06:19 -0800,fix invalid cache keys,580,36853
+169,a3e46eb4,FAIL,3,NO,0,NO,0,2012-12-04 15:36:05 -0800,fix config property name,580,36853
+170,1083ed9c,FAIL,4,NO,0,NO,0,2012-12-04 16:28:27 -0800,make max cache object size configurable and disable client-side compressions,580,36863
+171,2145f78f,FAIL,3,NO,0,NO,0,2012-12-04 16:29:51 -0800,add memcached cache benchmarking code,581,36914
+172,9b8037b0,FAIL,3,NO,0,NO,0,2012-12-05 15:05:11 -0800,properly propagate exceptions,581,36915
+173,4a1abfc5,FAIL,4,NO,0,NO,0,2012-12-05 15:39:59 -0800,gui for rule configuratin; introducing jquery ui to master console,591,37181
+174,c1133493,FAIL,3,NO,0,NO,0,2012-12-06 11:41:35 -0800,emit cache timeouts metric,581,36916
+175,e7e5a87d,FAIL,3,NO,0,NO,0,2012-12-06 14:40:41 -0800,Merge pull request #39 from darxriggs/evaluation,577,36441
+176,1ebd7a8a,FAIL,4,NO,0,NO,0,2012-12-06 14:50:29 -0800,fix wrong jquery version,591,37183
+177,fbaff699,FAIL,4,NO,0,NO,0,2012-12-06 14:55:38 -0800,Merge pull request #36 from metamx/fjy,591,37183
+178,503b9194,FAIL,3,NO,0,NO,0,2012-12-06 15:54:40 -0800,move dependency version to base pom,581,36916
+179,9ef46f5e,FAIL,16,NO,0,NO,0,2012-12-06 15:57:37 -0800,remove unused method,581,36914
+180,a0dbd233,FAIL,4,NO,0,NO,0,2012-12-06 16:07:29 -0800,fix benchmarking code following removal of unnecessary method on MemcachedCacheBroker,581,36925
+181,6e775a9e,FAIL,3,NO,0,NO,0,2012-12-06 16:08:42 -0800,Merge pull request #38 from metamx/memcached-cachebroker,595,37667
+182,60282733,FAIL,3,NO,0,NO,0,2012-12-07 10:54:38 -0800,defaults for rules to make startup a bit easier,595,37704
+183,b5936106,FAIL,4,NO,0,NO,0,2012-12-07 10:59:34 -0800,[maven-release-plugin] prepare release druid-0.1.7,595,37704
+184,50a28f82,FAIL,3,NO,0,NO,0,2012-12-07 10:59:52 -0800,[maven-release-plugin] prepare for next development iteration,595,37704
+185,f6519744,FAIL,3,NO,0,NO,0,2012-12-07 14:35:49 -0800,bug fix for using configurable default for datasource,595,37720
+186,bd3c05dd,FAIL,4,NO,0,NO,0,2012-12-07 14:37:18 -0800,[maven-release-plugin] prepare release druid-0.1.8,595,37720
+187,35362b3e,FAIL,3,NO,0,NO,0,2012-12-07 14:37:25 -0800,[maven-release-plugin] prepare for next development iteration,595,37720
+188,5a511cbe,FAIL,4,NO,0,NO,0,2012-12-07 14:47:38 -0800,bug fix for missing quotations creating default datasource,595,37720
+189,9ce536e0,FAIL,3,NO,0,NO,0,2012-12-07 14:49:04 -0800,[maven-release-plugin] prepare release druid-0.1.9,595,37720
+190,9eb28254,FAIL,3,NO,0,NO,0,2012-12-07 14:49:13 -0800,[maven-release-plugin] prepare for next development iteration,595,37720
+191,404f6322,FAIL,3,NO,0,NO,0,2012-12-07 15:16:34 -0800,bug fix for checking if a segment exists on a node,595,37724
+192,6df32ac0,FAIL,4,NO,0,NO,0,2012-12-07 15:18:11 -0800,[maven-release-plugin] prepare release druid-0.1.10,595,37724
+193,da4b31c2,FAIL,3,NO,0,NO,0,2012-12-07 15:18:19 -0800,[maven-release-plugin] prepare for next development iteration,595,37724
+194,4695fbfc,FAIL,3,NO,0,NO,0,2012-12-07 17:49:18 -0800,fix bug with comparing historical servers,595,37733
+195,943fe5e6,FAIL,3,NO,0,NO,0,2012-12-07 17:50:41 -0800,[maven-release-plugin] prepare release druid-0.1.11,595,37733
+196,0105233f,FAIL,4,NO,0,NO,0,2012-12-07 17:50:47 -0800,[maven-release-plugin] prepare for next development iteration,595,37733
+197,81bc2890,FAIL,3,NO,0,NO,0,2012-12-10 17:10:20 -0800,configuration option to switch cache implementations,596,37758
+198,1a0ef0d5,FAIL,3,NO,0,NO,0,2012-12-11 11:15:09 -0800,Fix direct memory vm option name in warning message,595,37733
+199,6827e48b,FAIL,4,NO,0,NO,0,2012-12-11 15:09:16 -0800,bug fixes for invalid query params,595,37741
+200,143de953,FAIL,3,NO,0,NO,0,2012-12-11 17:10:27 -0800,bug fix for balancing,595,37741
+201,127b6324,FAIL,4,NO,0,NO,0,2012-12-11 17:20:23 -0800,revert last commit,595,37741
+202,08eb3390,FAIL,3,NO,0,NO,0,2012-12-12 09:30:48 -0800,fix for caching bug with empty byte arrays,595,37744
+203,f7a6ac31,FAIL,4,NO,0,NO,0,2012-12-12 09:37:13 -0800,Merge pull request #41 from marshallpierce/master,595,37733
+204,436828b6,FAIL,3,NO,0,NO,0,2012-12-12 10:36:46 -0800,post aggs verify that they have all the fields they need,597,37887
+205,cd38b5ba,FAIL,4,NO,0,NO,0,2012-12-12 10:36:56 -0800,Merge branch 'master' of github.com:metamx/druid into fjy,597,37887
+206,091ed069,FAIL,3,NO,0,NO,0,2012-12-12 12:50:23 -0800,RemoteTaskRunner: More robust task status listener,595,37747
+207,bfc9b639,FAIL,3,NO,0,NO,0,2012-12-11 17:44:01 -0800,segment metadata query,600,37994
+208,5dcf962e,FAIL,3,NO,0,NO,0,2012-12-12 13:26:11 -0800,register SegmentMetadataQueryRunnerFactory in ServerInit,600,37997
+209,6db99c45,FAIL,3,NO,0,NO,0,2012-12-12 14:51:19 -0800,more specific exceptions in test,597,37887
+210,0ed08d89,FAIL,3,NO,0,NO,0,2012-12-12 14:52:20 -0800,Merge pull request #42 from metamx/fjy,597,37887
+211,f4a413c8,FAIL,3,NO,0,NO,0,2012-12-12 14:54:52 -0800,Merge pull request #40 from metamx/broker-cacheconfig,598,37912
+212,f6643647,FAIL,4,NO,0,NO,0,2012-12-12 15:01:23 -0800,Merge pull request #43 from metamx/rtr-listener,598,37926
+213,dd258689,FAIL,3,NO,0,NO,0,2012-12-12 15:03:26 -0800,add missing headers to files,598,37926
+214,55652861,FAIL,4,NO,0,NO,0,2012-12-12 15:33:50 -0800,Merge pull request #44 from metamx/segment-metadata-query,603,38190
+215,578cf94b,FAIL,3,NO,0,NO,0,2012-12-12 15:38:37 -0800,[maven-release-plugin] prepare release druid-0.1.12,603,38190
+216,6729f166,FAIL,4,NO,0,NO,0,2012-12-12 15:38:58 -0800,[maven-release-plugin] prepare for next development iteration,603,38190
+217,6828ad10,FAIL,3,NO,0,NO,0,2012-12-12 16:07:47 -0800,reduce boundaries for time boundary a bit; prevent bound errors,603,38190
+218,4bc721f3,FAIL,4,NO,0,NO,0,2012-12-12 16:09:07 -0800,revert last commit,603,38190
+219,62ea45f2,FAIL,3,NO,0,NO,0,2012-12-13 17:55:32 -0600,1) Register SearchQueryDimFilter with DimFilter so that it can actually be used.,603,38191
+220,c8200797,FAIL,4,NO,0,NO,0,2012-12-13 17:57:42 -0600,[maven-release-plugin] prepare release druid-0.1.13,603,38191
+221,29a64f50,FAIL,3,NO,0,NO,0,2012-12-13 17:57:46 -0600,[maven-release-plugin] prepare for next development iteration,603,38191
+222,aa69ed52,FAIL,3,NO,0,NO,0,2012-12-14 09:05:25 -0800,alert when no rules match; exceptions in rules no longer block,597,37912
+223,8c7fd3bc,FAIL,3,NO,0,NO,0,2012-12-14 09:12:02 -0800,more specific checks in rule test,597,37912
+224,18692a12,FAIL,3,NO,0,NO,0,2012-12-14 09:25:39 -0800,better error emitting for mismatched rules,597,37915
+225,7670c848,FAIL,3,NO,0,NO,0,2012-12-14 09:32:37 -0800,Merge pull request #45 from metamx/fjy,603,38219
+226,da137a48,FAIL,3,NO,0,NO,0,2012-12-14 11:34:23 -0600,1) Optimize imports a bit,603,38216
+227,cb9b18c7,FAIL,4,NO,0,NO,0,2012-12-14 11:37:12 -0600,[maven-release-plugin] prepare release druid-0.1.14,603,38216
+228,b4a1bb4a,FAIL,3,NO,0,NO,0,2012-12-14 11:37:17 -0600,[maven-release-plugin] prepare for next development iteration,603,38216
+229,74a97750,FAIL,3,NO,0,NO,0,2012-12-14 17:06:03 -0800,bug fix for dropping segments in master,603,38307
+230,4e78d8e7,FAIL,3,NO,0,NO,0,2012-12-14 17:19:53 -0800,[maven-release-plugin] prepare release druid-0.1.15,603,38307
+231,e37e24cc,FAIL,3,NO,0,NO,0,2012-12-14 17:19:59 -0800,[maven-release-plugin] prepare for next development iteration,603,38307
+232,61afd0a4,FAIL,3,NO,0,NO,0,2012-12-14 18:13:57 -0800,Merger: De-parameterize alert messages,603,38304
+233,6a11e996,FAIL,3,NO,0,NO,0,2012-12-14 21:27:18 -0800,bug fixes for dropping segments and logging,603,38298
+234,a0d22a66,FAIL,4,NO,0,NO,0,2012-12-14 21:29:14 -0800,[maven-release-plugin] prepare release druid-0.1.16,603,38298
+235,0821dce8,FAIL,3,NO,0,NO,0,2012-12-14 21:29:20 -0800,[maven-release-plugin] prepare for next development iteration,603,38298
+236,884da334,FAIL,3,NO,0,NO,0,2012-12-14 22:06:19 -0800,fix for master getting stuck when assigning,603,38298
+237,ce8e02b5,FAIL,4,NO,0,NO,0,2012-12-14 22:07:50 -0800,[maven-release-plugin] prepare release druid-0.1.17,603,38298
+238,b0e1f90e,FAIL,3,NO,0,NO,0,2012-12-14 22:07:57 -0800,[maven-release-plugin] prepare for next development iteration,603,38298
+239,76807ae0,FAIL,4,NO,0,NO,0,2012-12-14 22:55:12 -0800,fix overloading of segments,603,38302
+240,2b2818db,FAIL,3,NO,0,NO,0,2012-12-14 22:56:43 -0800,[maven-release-plugin] prepare release druid-0.1.18,603,38302
+241,5fff07a8,FAIL,4,NO,0,NO,0,2012-12-14 22:56:49 -0800,[maven-release-plugin] prepare for next development iteration,603,38302
+242,585a812f,FAIL,3,NO,0,NO,0,2012-12-15 00:43:16 -0800,bug fixes again in load and drop,603,38318
+243,4bcc8d27,FAIL,3,NO,0,NO,0,2012-12-15 00:44:50 -0800,[maven-release-plugin] prepare release druid-0.1.19,603,38318
+244,f9386c36,FAIL,3,NO,0,NO,0,2012-12-15 00:44:58 -0800,[maven-release-plugin] prepare for next development iteration,603,38318
+245,db556102,FAIL,3,NO,0,NO,0,2012-12-15 00:50:28 -0800,fix typo,603,38318
+246,24f0207f,FAIL,3,NO,0,NO,0,2012-12-15 00:51:54 -0800,[maven-release-plugin] prepare release druid-0.1.20,603,38318
+247,e34944b1,FAIL,4,NO,0,NO,0,2012-12-15 00:52:01 -0800,[maven-release-plugin] prepare for next development iteration,603,38318
+248,2118252e,FAIL,3,NO,0,NO,0,2012-12-13 12:15:30 -0800,make memcached host configurable for benchmarking,603,38318
+249,54d8aff4,FAIL,4,NO,0,NO,0,2012-12-17 16:44:02 -0800,add parameter for benchmarking host,603,38320
+250,8b557909,FAIL,3,NO,0,NO,0,2012-12-18 10:15:23 -0800,add segmentMetadata query type,603,38322
+251,decc4e4c,FAIL,3,NO,0,NO,0,2012-12-18 10:37:08 -0800,[maven-release-plugin] prepare release druid-0.1.21,603,38322
+252,75d465ae,FAIL,4,NO,0,NO,0,2012-12-18 10:37:16 -0800,[maven-release-plugin] prepare for next development iteration,603,38322
+253,2a721408,FAIL,3,NO,0,NO,0,2012-12-18 14:09:54 -0800,fix NPE in segmentMetadata query for null dimension values,603,38322
+254,fb8f4f1f,FAIL,4,NO,0,NO,0,2012-12-18 14:19:02 -0800,[maven-release-plugin] prepare release druid-0.1.22,603,38322
+255,090a5a10,FAIL,3,NO,0,NO,0,2012-12-18 14:19:09 -0800,[maven-release-plugin] prepare for next development iteration,603,38322
+256,00ecf9d0,FAIL,3,NO,0,NO,0,2012-12-18 16:16:03 -0800,sorted db datasources for rules; smaller time boundary range,603,38323
+257,c579ba5a,FAIL,4,NO,0,NO,0,2012-12-18 16:17:38 -0800,[maven-release-plugin] prepare release druid-0.1.23,603,38323
+258,5137af07,FAIL,3,NO,0,NO,0,2012-12-18 16:17:44 -0800,[maven-release-plugin] prepare for next development iteration,603,38323
+259,5c1b2360,FAIL,4,NO,0,NO,0,2012-12-20 16:11:08 -0800,"- Add optional query/wait metric to MetricsEmittingQueryRunner - Add MetricsEmittingExecutorService decorator, and use it on compute nodes",604,38384
+260,438b85d2,FAIL,3,NO,0,NO,0,2012-12-27 14:08:02 -0800,Merge pull request #46 from metamx/short-alerts,603,38320
+261,93924d88,FAIL,4,NO,0,NO,0,2012-12-27 14:22:07 -0800,Merge pull request #47 from metamx/queue-metrics,604,38381
+262,3bfbcbe9,FAIL,4,NO,0,NO,0,2012-12-28 10:50:40 -0600,1) Create DirectClientQuerySegmentWalker to make it a bit easier to embed and use DirectDruidClient as a client.,604,38241
+263,366216f9,FAIL,3,NO,0,NO,0,2012-12-28 16:30:21 -0800,initial cost analyzer commit,605,38474
+264,3eda9dc5,FAIL,4,NO,0,NO,0,2012-12-31 11:08:37 -0800,working balancercostanalyzer,605,38461
+265,72758e13,FAIL,3,NO,0,NO,0,2012-12-31 13:55:48 -0800,update,605,38462
+266,db08640e,FAIL,4,NO,0,NO,0,2012-12-31 14:10:43 -0800,"reenable daylight saving test, now that we use joda-time 2",604,38382
+267,d0290b19,FAIL,3,NO,0,NO,0,2012-12-31 14:52:34 -0800,fix flawed interval overlap rule test fails around month end,604,38382
+268,6cdcc2be,FAIL,3,NO,0,NO,0,2012-12-31 14:56:03 -0800,[maven-release-plugin] prepare release druid-0.1.24,604,38382
+269,2a188996,FAIL,4,NO,0,NO,0,2012-12-31 14:56:10 -0800,[maven-release-plugin] prepare for next development iteration,604,38382
+270,19c3fd33,FAIL,3,NO,0,NO,0,2013-01-02 14:27:34 -0800,make reference timestamp explicit for time based rules,604,38395
+271,0543322c,FAIL,4,NO,0,NO,0,2013-01-02 14:31:51 -0800,tested timestamps should be deterministic,604,38395
+272,a9b8d8f1,FAIL,4,NO,0,NO,0,2013-01-02 15:44:14 -0800,fix end of month bug in PeriodDropRule as well,604,38400
+273,6525d818,FAIL,3,NO,0,NO,0,2013-01-02 18:14:00 -0800,postAggregators now return field dependencies,604,38389
+274,41edec62,FAIL,4,NO,0,NO,0,2013-01-02 18:46:07 -0800,remove unused imports,604,38388
+275,5441662c,FAIL,3,NO,0,NO,0,2013-01-03 09:10:48 -0800,Merge remote-tracking branch 'origin/master' into new_balancer,606,38521
+276,04492b43,FAIL,3,NO,0,NO,0,2013-01-03 09:55:32 -0800,Merge pull request #49 from metamx/rule-timestamp-fix,604,38400
+277,824997eb,FAIL,4,NO,0,NO,0,2013-01-03 10:01:42 -0800,simplify code,604,38388
+278,6318abb0,FAIL,3,NO,0,NO,0,2013-01-03 10:05:14 -0800,Merge pull request #50 from metamx/postagg-dependencies,604,38406
+279,f2c2d3f4,FAIL,4,NO,0,NO,0,2013-01-03 10:09:43 -0800,[maven-release-plugin] prepare release druid-0.1.25,604,38406
+280,9627fdcd,FAIL,3,NO,0,NO,0,2013-01-03 10:09:52 -0800,[maven-release-plugin] prepare for next development iteration,604,38406
+281,bb31fa7b,FAIL,4,NO,0,NO,0,2013-01-03 10:48:05 -0800,update,606,38519
+282,117cac27,FAIL,3,NO,0,NO,0,2013-01-03 14:12:10 -0800,update,603,38402
+283,4f5087b3,FAIL,3,NO,0,NO,0,2013-01-04 11:28:35 -0600,Merge branch 'master' of github.com:metamx/druid,605,38431
+284,402ddbf2,FAIL,4,NO,0,NO,0,2013-01-04 11:20:06 -0800,update,603,38446
+285,b184c46a,FAIL,5,NO,0,NO,0,2013-01-04 18:12:46 -0600,1) Introduce idea of value types and generic columns to the serialization format 2) Create SegmentLoader interface for the loading of segments! 3) Setup serialization of new format and conversion function inside IndexIO 4) Make some adjustments to the twitter demo to make it make a bit more sense based on some email feedback from someone kicking the tires.,644,40103
+286,72db507c,FAIL,4,NO,0,NO,0,2013-01-06 23:37:52 -0800,1) Update java-util version to be a non-SNAPSHOT version,644,40103
+287,2ea164ac,FAIL,3,NO,0,NO,0,2013-01-07 09:09:56 -0800,get rid of extraneous analyzer.inits,603,38444
+288,b62bdf91,FAIL,4,NO,0,NO,0,2013-01-07 10:09:19 -0800,1) Fix stray import... yay IntelliJ,644,40103
+289,a7553776,FAIL,4,NO,0,NO,0,2013-01-07 12:51:51 -0800,make sampling of segments uniformly at random and add unit test,603,38588
+290,d2ff88e9,FAIL,3,NO,0,NO,0,2013-01-07 13:09:18 -0800,add more stats to be emitted,603,38592
+291,4ef31de6,FAIL,3,NO,0,NO,0,2013-01-07 13:11:28 -0800,"1) Fix stray import, take 2... yay IntelliJ",644,40103
+292,aff4a05c,FAIL,3,NO,0,NO,0,2013-01-07 13:41:26 -0800,db based configs for indexer workers,611,38706
+293,79e9ff94,FAIL,3,NO,0,NO,0,2013-01-07 14:07:47 -0800,add missing headers,611,38706
+294,ba82fe74,FAIL,3,NO,0,NO,0,2013-01-07 16:28:27 -0800,put MAX_SEGMENTS_TO_MOVE in the config,603,38605
+295,700ce241,FAIL,4,NO,0,NO,0,2013-01-07 16:52:57 -0800,fix JVM optimizing out the benchmarking code,644,40105
+296,6fda5330,FAIL,4,NO,0,NO,0,2013-01-07 16:56:55 -0800,finish making MAX_SEGMENTS_TO_MOVE a config item,603,38627
+297,2b4dbdde,FAIL,3,NO,0,NO,0,2013-01-07 17:28:53 -0800,lots of changes,603,38617
+298,36858393,FAIL,4,NO,0,NO,0,2013-01-07 18:04:14 -0800,Merge branch 'master' into autoscaling,651,40405
+299,4549c3a8,FAIL,4,NO,0,NO,0,2013-01-08 09:07:43 -0800,"add some finals, reorganize",603,38617
+300,617907d8,FAIL,3,NO,0,NO,0,2013-01-08 16:12:16 -0800,move empty server holder list check outside of loop,603,38616
+301,4c2da933,FAIL,5,NO,0,NO,0,2013-01-09 14:51:35 -0800,bug fixes with ec2 auto scaling,651,40466
+302,5f40dc6d,FAIL,3,NO,0,NO,0,2013-01-10 10:27:43 -0800,put BalancerCostAnalyzer into params,603,38636
+303,3de62b34,FAIL,2,NO,0,NO,0,2013-01-14 15:00:28 -0600,1) Should be on 0.2.0 with the recent API changes for StorageAdapters,644,40103
+304,135474e4,FAIL,2,NO,0,NO,0,2013-01-14 15:01:32 -0600,Merge branch 'master' of github.com:metamx/druid,644,40105
+305,d1f4317a,FAIL,3,NO,0,NO,0,2013-01-14 14:55:04 -0800,updates to autoscaling config based on code review comments,649,40427
+306,ae76097b,FAIL,2,NO,0,NO,0,2013-01-14 14:55:29 -0800,Merge branch 'master' into autoscaling,649,40427
+307,998f0bf3,FAIL,2,NO,0,NO,0,2013-01-14 18:00:51 -0600,1) Better error message when aggregators want more memory than is available.,644,40110
+308,ef9e077d,FAIL,3,NO,0,NO,0,2013-01-14 16:01:29 -0800,remove getConfig method from DruidMaster,603,38634
+309,e847faf0,FAIL,3,NO,0,NO,0,2013-01-15 11:29:46 -0800,change name of MAX_SEGMENTS_TO_MOVE since it's not a final,603,38634
+310,47ac36d3,FAIL,2,NO,0,NO,0,2013-01-15 12:02:32 -0800,Merge branch 'master' of github.com:metamx/druid into autoscaling,649,40432
+311,7e074e81,FAIL,4,NO,0,NO,0,2013-01-15 12:04:12 -0800,fix pom breakage,644,40110
+312,3c0880fe,FAIL,4,NO,0,NO,0,2013-01-15 13:36:39 -0800,Merge branch 'master' into autoscaling,649,40432
+313,86277d11,FAIL,4,NO,0,NO,0,2013-01-15 22:14:20 -0800,StringInputRowParser: Treat dimensionExclusions case-insensitively,644,40116
+314,616415cb,FAIL,3,NO,0,NO,0,2013-01-15 22:29:03 -0800,UniformGranularitySpec: Only return bucketInterval for timestamps that legitimately overlap our input intervals,644,40126
+315,8b31d8db,FAIL,2,NO,0,NO,0,2013-01-16 10:01:46 -0600,"1) Adjust IndexMerger to create convert the indexes it creates from the old format to the new.  This is done quite sub-optimally, but it will work for now...",644,40111
+316,538d00e7,FAIL,3,NO,0,NO,0,2013-01-16 10:02:01 -0600,Merge branch 'master' of github.com:metamx/druid,644,40111
+317,7b42ee6a,FAIL,4,NO,0,NO,0,2013-01-15 22:23:21 -0800,Rework DeterminePartitionsJob in the hadoop indexer,645,40257
+318,6fc350bf,FAIL,4,NO,0,NO,0,2013-01-16 11:30:24 -0800,YeOldePlumberSchool: Populate dimension metadata in segment descriptor,644,40114
+319,a2090411,FAIL,4,NO,0,NO,0,2013-01-07 16:54:21 -0800,modify cacheBroker interface to implement bulk-get,643,40181
+320,c8cb96b0,FAIL,4,NO,0,NO,0,2013-01-16 17:10:33 -0600,1) Remove vast majority of usages of IndexIO.mapDir() and deprecated it.  IndexIO.loadIndex() is the new IndexIO.mapDir() 2) Fix bug with IndexMerger and null columns 3) Add QueryableIndexIndexableAdapter so that QueryableIndexes can be merged 4) Adjust twitter example to have multiple values for each hash tag 5) Adjusted GroupByQueryEngine to just drop dimensions that don't exist instead of throwing an NPE,645,40336
+321,e2788187,FAIL,3,NO,0,NO,0,2013-01-16 16:02:51 -0800,don't let timeout skew benchmark stats,643,40181
+322,21613bc7,FAIL,3,NO,0,NO,0,2013-01-16 17:31:01 -0800,initial commit to hard delete segments,648,40358
+323,5b1e0353,FAIL,4,NO,0,NO,0,2013-01-16 21:06:57 -0600,1) Fix some bugs found by external test suite,645,40354
+324,dcaa77a8,FAIL,4,NO,0,NO,0,2013-01-16 19:15:43 -0800,implement bulk get test,643,40229
+325,0bacb85a,FAIL,4,NO,0,NO,0,2013-01-16 19:18:14 -0800,"fix duplicate keys, shutdown gracefully and make sure we check all multiget keys in memcached benchmark",643,40229
+326,689ce4f8,FAIL,5,NO,0,NO,0,2013-01-17 13:10:11 -0600,"1) Upgrade java-util dependency to include ""ruby"" time",645,40354
+327,38b2041a,FAIL,4,NO,0,NO,0,2013-01-17 14:56:48 -0800,key/value config table,649,40434
+328,5ce53eb2,FAIL,4,NO,0,NO,0,2013-01-17 16:02:32 -0800,Merge branch 'master' into yops-descriptor-dimensions,645,40358
+329,71665346,FAIL,3,NO,0,NO,0,2013-01-17 16:03:18 -0800,YeOldePlumberSchool: Tweak for IndexIO changes,645,40358
+330,9032ef52,FAIL,3,NO,0,NO,0,2013-01-18 10:18:16 -0800,fix interrupted thread,643,40231
+331,a70ae155,FAIL,4,NO,0,NO,0,2013-01-18 10:00:06 -0800,"replace Pair<String, ByteBuffer> with NamedKey",643,40248
+332,86ca8967,FAIL,4,NO,0,NO,0,2013-01-18 15:04:12 -0800,rework code pulling from cache to be more readable,643,40253
+333,e0c34c3b,FAIL,3,NO,0,NO,0,2013-01-18 15:22:56 -0800,rename cacheBroker -> cache,643,40249
+334,8a8b8a59,FAIL,3,NO,0,NO,0,2013-01-18 16:42:02 -0800,Merge pull request #57 from metamx/yops-descriptor-dimensions,645,40358
+335,ac31afbc,FAIL,3,NO,0,NO,0,2013-01-18 16:45:23 -0800,remove redundant index for primary key in config table,649,40434
+336,07131c51,FAIL,4,NO,0,NO,0,2013-01-18 17:08:52 -0800,Merge pull request #53 from metamx/autoscaling,650,40682
+337,40c0bcad,FAIL,3,NO,0,NO,0,2013-01-18 18:25:51 -0800,simplify MapCache,643,40229
+338,2d7113b2,FAIL,4,NO,0,NO,0,2013-01-21 14:28:25 -0800,huge simplification of balancing code,603,38524
+339,068ca67d,FAIL,4,NO,0,NO,0,2013-01-21 14:21:01 -0800,fix cache not preserving timezone information,650,40682
+340,d9e6f1d9,FAIL,4,NO,0,NO,0,2013-01-21 14:38:35 -0800,DeterminePartitions follow-up,646,40470
+341,77a3f3cb,FAIL,4,NO,0,NO,0,2013-01-21 14:46:13 -0800,Merge branch 'master' into determine-partitions,652,41042
+342,bab9ee88,FAIL,3,NO,0,NO,0,2013-01-21 14:47:49 -0800,Merge branch 'master' into killsegments,654,40929
+343,94b72e88,FAIL,3,NO,0,NO,0,2013-01-21 15:32:29 -0800,replace param BalancerCostAnalyzer getter with a factory,603,38531
+344,f05c050c,FAIL,4,NO,0,NO,0,2013-01-21 15:49:39 -0800,add test for timezone,650,40711
+345,8f38b775,FAIL,4,NO,0,NO,0,2013-01-21 16:31:32 -0800,fix expected object type,650,40714
+346,d7ea8e9a,FAIL,3,NO,0,NO,0,2013-01-21 17:01:41 -0800,compare result timestamp based on millis + utcoffset,650,40714
+347,272d7375,FAIL,3,NO,0,NO,0,2013-01-22 16:21:38 -0800,cleaning up some interactions with RTR and workers,654,41002
+348,86a6d112,FAIL,3,NO,0,NO,0,2013-01-22 16:50:56 -0800,proper groupby tests,651,40858
+349,35058786,FAIL,4,NO,0,NO,0,2013-01-22 19:31:31 -0800,match query interval to granularity for this test,650,40710
+350,55ae4c87,FAIL,4,NO,0,NO,0,2013-01-22 10:59:05 -0800,timezone support in groupby query,650,40735
+351,67feee3c,FAIL,3,NO,0,NO,0,2013-01-23 18:36:52 -0600,1) Indexes don't always have an index.drd file anymore,645,40351
+352,9b6244ec,FAIL,3,NO,0,NO,0,2013-01-23 18:37:03 -0600,Merge branch 'master' of github.com:metamx/druid,650,40679
+353,fc07bc31,FAIL,3,NO,0,NO,0,2013-01-23 18:59:51 -0800,"Added umbrellaInterval method, which takes an Iterable of intervals and returns a single interval spanning the entire range of input intervals.",650,40719
+354,017d4779,FAIL,4,NO,0,NO,0,2013-01-23 19:27:14 -0800,Implemented Hadoop Index Task which takes as input a HadoopDruidIndexConfig and generates index segments.,651,40776
+355,ad6f9620,FAIL,4,NO,0,NO,0,2013-01-24 09:57:43 -0800,Merge pull request #58 from metamx/cache-bulkget,649,40798
+356,ec034dde,FAIL,4,NO,0,NO,0,2013-01-24 12:57:39 -0800,Merge pull request #56 from metamx/determine-partitions,651,41158
+357,ee7337fb,FAIL,4,NO,0,NO,0,2013-01-24 18:25:21 -0600,"1) Adjust the Timeseries caching fixes to still store the long, but do the timezone adjustment on the way out. 2) Store a reference to the granularity object instead of getting it every time",650,40737
+358,7f410f20,FAIL,4,NO,0,NO,0,2013-01-24 17:47:10 -0800,updating amazon sdk version,654,41002
+359,cb845e6f,FAIL,3,NO,0,NO,0,2013-01-24 17:54:06 -0800,Addresed Gian's code review,651,40774
+360,5e1cac6d,FAIL,3,NO,0,NO,0,2013-01-24 17:57:10 -0800,timezone test,651,40901
+361,37417cf2,FAIL,3,NO,0,NO,0,2013-01-25 11:03:44 -0800,"QueryServlet: Add ""host"" (remote address) to alerts",651,41159
+362,a14200d7,FAIL,4,NO,0,NO,0,2013-01-25 10:40:15 -0800,Index service support for early returns and choice of commit semantics.,654,40934
+363,e6a618ca,FAIL,4,NO,0,NO,0,2013-01-25 11:30:10 -0800,Merge branch 'killsegments' into task-stuff,658,41199
+364,f3b04d3f,FAIL,4,NO,0,NO,0,2013-01-25 11:33:50 -0800,S3SegmentKiller: Add TODO note,658,41199
+365,553738e1,FAIL,4,NO,0,NO,0,2013-01-25 11:34:18 -0800,Merge branch 'master' into task-stuff,659,41678
+366,82d77a8b,FAIL,3,NO,0,NO,0,2013-01-25 13:15:49 -0800,Index service: Fix kill task,659,41682
+367,bb68091c,FAIL,4,NO,0,NO,0,2013-01-25 13:15:55 -0800,Index service: TaskConsumer tests,660,41770
+368,0f474645,FAIL,4,NO,0,NO,0,2013-01-25 13:40:20 -0800,RemoteTaskRunner: null check on workerData,660,41776
+369,efdff7b9,FAIL,4,NO,0,NO,0,2013-01-25 14:33:05 -0800,fix unit test bug,660,41789
+370,1cff766e,FAIL,4,NO,0,NO,0,2013-01-25 16:01:17 -0800,RemoteTaskRunner: Only cleanup paths during bootstrapping if task is complete,660,41790
+371,4a1f5315,FAIL,3,NO,0,NO,0,2013-01-25 18:15:51 -0600,1) Make tests pass,651,40866
+372,74057600,FAIL,3,NO,0,NO,0,2013-01-27 09:57:37 -0800,fix worker node still using db connection,660,41786
+373,59dd9a8e,FAIL,4,NO,0,NO,0,2013-01-28 14:38:29 -0800,Merge pull request #66 from metamx/queryservlet-alert-remote-addr,651,41159
+374,5f18f368,FAIL,4,NO,0,NO,0,2013-01-28 14:39:00 -0800,Merge pull request #61 from metamx/fix-cache-timezone,651,41214
+375,c0822325,FAIL,4,NO,0,NO,0,2013-01-22 16:50:56 -0800,proper groupby tests,652,41390
+376,7439a2e8,FAIL,4,NO,0,NO,0,2013-01-25 18:15:51 -0600,1) Make tests pass,652,41380
+377,673cffc3,FAIL,4,NO,0,NO,0,2013-01-28 16:44:18 -0600,Merge branch 'groupby-tests' of github.com:metamx/druid into groupby-tests,652,41380
+378,1bcf443b,FAIL,3,NO,0,NO,0,2013-01-28 14:45:00 -0800,Merge pull request #62 from metamx/groupby-tests,652,41380
+379,6438401a,FAIL,3,NO,0,NO,0,2013-01-28 15:06:09 -0800,split pick segment logic into its own method,603,38526
+380,f2cce282,FAIL,4,NO,0,NO,0,2013-01-29 11:29:26 -0600,1) Make SegmentMetadataQuery work,656,41053
+381,08d3253f,FAIL,4,NO,0,NO,0,2013-01-29 11:29:42 -0600,Merge branch 'master' of github.com:metamx/druid,657,41219
+382,8af3ae09,FAIL,3,NO,0,NO,0,2013-01-29 11:38:35 -0600,1) Fix bug with loading old indexes that might have mixed case column names,657,41221
+383,27e09987,FAIL,3,NO,0,NO,0,2013-01-28 15:23:33 -0800,timezone test,652,41424
+384,da914b83,FAIL,4,NO,0,NO,0,2013-01-29 13:04:57 -0600,1) Add caching for SegmentMetadataQuery,657,41291
+385,61569f62,FAIL,4,NO,0,NO,0,2013-01-29 12:53:52 -0800,TimeseriesQueryRunner tests with small incremental indexes,658,41363
+386,41ca33c7,FAIL,4,NO,0,NO,0,2013-01-29 12:57:56 -0800,Merge branch 'master' of github.com:metamx/druid into task-stuff,666,41919
+387,8fc10a61,FAIL,4,NO,0,NO,0,2013-01-29 13:23:57 -0800,bug fix for incremental index and 1 row,658,41363
+388,a7abd2ca,FAIL,3,NO,0,NO,0,2013-01-29 13:40:04 -0800,Merge pull request #70 from metamx/timezone-tests,657,41335
+389,9a22e46e,FAIL,4,NO,0,NO,0,2013-01-29 13:41:15 -0800,Merge pull request #71 from metamx/queryrunner-onerow-test,658,41407
+390,034d6525,FAIL,4,NO,0,NO,0,2013-01-29 17:13:01 -0800,make balancer tests take into account loadqueue status,605,38578
+391,b205f7b3,FAIL,3,NO,0,NO,0,2013-01-29 18:16:34 -0800,use existing currentlyMovingSegments instead of creating a reundant segmentsBeingMoved,605,38576
+392,a1ce4b29,FAIL,4,NO,0,NO,0,2013-01-29 18:16:49 -0800,simplify balancer test,605,38501
+393,73f774e7,FAIL,3,NO,0,NO,0,2013-01-29 18:17:38 -0800,make masterbalancertest more stringent,605,38501
+394,dc49cccf,FAIL,4,NO,0,NO,0,2013-01-29 18:32:52 -0800,javadoc format,605,38501
+395,049ca2ba,FAIL,3,NO,0,NO,0,2013-01-30 13:47:08 -0800,[maven-release-plugin] prepare release druid-0.2.0,658,41407
+396,2a0de209,FAIL,3,NO,0,NO,0,2013-01-30 13:47:15 -0800,[maven-release-plugin] prepare for next development iteration,658,41407
+397,934207be,FAIL,4,NO,0,NO,0,2013-01-30 16:26:24 -0800,updating sdk version to fix indexer in aws,658,41407
+398,0b116a8f,FAIL,4,NO,0,NO,0,2013-01-30 16:28:22 -0800,[maven-release-plugin] prepare release druid-0.2.1,658,41407
+399,fa733565,FAIL,3,NO,0,NO,0,2013-01-30 16:28:28 -0800,[maven-release-plugin] prepare for next development iteration,658,41407
+400,26ed96f0,FAIL,4,NO,0,NO,0,2013-01-30 17:06:02 -0800,bug fix for autoscaling termination,658,41406
+401,ef19de82,FAIL,4,NO,0,NO,0,2013-01-30 17:09:18 -0800,[maven-release-plugin] prepare release druid-0.2.2,658,41406
+402,00e6ac1e,FAIL,4,NO,0,NO,0,2013-01-30 17:09:23 -0800,[maven-release-plugin] prepare for next development iteration,658,41406
+403,0e469c6f,FAIL,3,NO,0,NO,0,2013-01-31 08:09:22 -0800,TaskStatus: Fix javadocs,666,41919
+404,fe38ed25,FAIL,3,NO,0,NO,0,2013-01-31 08:10:59 -0800,"Introduce TaskExistsException, thrown by TaskStorage.insert when appropriate",667,41945
+405,779c54d8,FAIL,4,NO,0,NO,0,2013-01-31 08:13:44 -0800,TaskToolbox: Replace IndexerCoordinatorConfig with TaskConfig,668,41936
+406,65576cba,FAIL,4,NO,0,NO,0,2013-01-31 08:16:56 -0800,TaskStorageQueryAdapter: Rename some methods and tweak javadocs for clarity,668,41936
+407,86ec3a37,FAIL,3,NO,0,NO,0,2013-01-31 08:17:56 -0800,TaskGroup: Add javadocs,668,41936
+408,34e76f86,FAIL,4,NO,0,NO,0,2013-01-31 08:20:33 -0800,"TaskQueue: Clarify ""Naptime!"" log message",668,41936
+409,1e35e6ad,FAIL,4,NO,0,NO,0,2013-01-31 08:21:10 -0800,TaskQueue: Tweak to implementation of findTaskGroupForTask,668,41937
+410,f946fc3e,FAIL,4,NO,0,NO,0,2013-01-31 08:21:36 -0800,TaskConsumer: Commit to segment db in one transaction,668,42013
+411,f50c2145,FAIL,3,NO,0,NO,0,2013-01-31 09:59:52 -0800,Merge branch 'master' into task-stuff,669,42128
+412,e25b43b1,FAIL,3,NO,0,NO,0,2013-01-31 11:28:06 -0800,Merge branch 'master' into task-stuff,669,42129
+413,455bae2c,FAIL,4,NO,0,NO,0,2013-01-31 11:28:23 -0800,Merge branch 'master' into task-stuff,669,42128
+414,9179718d,FAIL,4,NO,0,NO,0,2013-01-31 14:53:50 -0800,hash cache keys to stay under memcached limit of 250 characters,658,41420
+415,d5cf7cfd,FAIL,4,NO,0,NO,0,2013-01-31 14:55:02 -0800,remove references to 'broker',658,41420
+416,3aef020f,FAIL,3,NO,0,NO,0,2013-01-31 15:54:52 -0800,include actual key in value to detect improbable hash collisions,658,41450
+417,e8e509c5,FAIL,3,NO,0,NO,0,2013-02-01 09:40:43 -0800,Merge pull request #74 from metamx/fix-memcached-keys,658,41450
+418,0b61f969,FAIL,4,NO,0,NO,0,2013-02-01 11:25:05 -0800,extra documentation,605,38501
+419,1c9270ad,FAIL,3,NO,0,NO,0,2013-02-01 11:25:41 -0800,change format of line comment,605,38501
+420,393bec05,FAIL,4,NO,0,NO,0,2013-02-01 12:16:06 -0800,"TaskQueue: Behavior tweaks, simplification",669,42136
+421,9f73c1a4,FAIL,4,NO,0,NO,0,2013-02-01 12:16:25 -0800,Merge branch 'master' into task-stuff,669,42180
+422,58bc305e,FAIL,4,NO,0,NO,0,2013-02-01 12:58:38 -0800,changes to remote task runner to kill nodes better,669,42130
+423,d252059e,FAIL,3,NO,0,NO,0,2013-02-01 12:59:04 -0800,Merge branch 'task-stuff' of github.com:metamx/druid into task-stuff,669,42182
+424,9e881978,FAIL,4,NO,0,NO,0,2013-02-01 14:08:52 -0800,change endpoints for killing segments,669,42187
+425,7de5c780,FAIL,4,NO,0,NO,0,2013-02-01 16:19:17 -0600,1) Some whitespace changes 2) Fix up the alerting to actually include the segment and server for when the MasterBalancer has something stuck in the queue,657,41286
+426,5f2c3cec,FAIL,3,NO,0,NO,0,2013-02-01 16:19:26 -0600,Merge branch 'master' of github.com:metamx/druid,658,41445
+427,1a9edbeb,FAIL,3,NO,0,NO,0,2013-02-01 16:21:26 -0600,1) whitespace,658,41440
+428,31743ed4,FAIL,3,NO,0,NO,0,2013-02-01 16:14:44 -0800,defaults + max memcached expiration is 30 days,658,41447
+429,a239f621,FAIL,4,NO,0,NO,0,2013-02-01 16:25:35 -0800,[maven-release-plugin] prepare release druid-0.2.3,658,41447
+430,7ec3563e,FAIL,4,NO,0,NO,0,2013-02-01 16:25:42 -0800,[maven-release-plugin] prepare for next development iteration,658,41447
+431,4ec67f61,FAIL,3,NO,0,NO,0,2013-02-01 16:29:58 -0800,Merger: Emit indexer/segment/bytes once per segment. No longer emit indexer/segment/count.,669,42181
+432,c63eb2b7,FAIL,4,NO,0,NO,0,2013-02-01 18:39:09 -0600,Merge branch 'master' of github.com:metamx/druid,658,41442
+433,34b43839,FAIL,3,NO,0,NO,0,2013-02-01 18:59:33 -0600,1) Adjust DataSegment to have a binaryVersion field that indicates the expected binary version of the segment files 2) Eliminate race condition from RemoteTaskRunnerTest.testAlreadyExecutedTask(),659,41525
+434,d9f2e68f,FAIL,3,NO,0,NO,0,2013-02-01 17:16:24 -0800,better logs,669,42189
+435,ea64eaab,FAIL,4,NO,0,NO,0,2013-02-01 17:16:39 -0800,Merge branch 'task-stuff' of github.com:metamx/druid into task-stuff,669,42183
+436,f4e843c8,FAIL,4,NO,0,NO,0,2013-02-03 11:02:38 -0600,1) Make BasePhoneBook not quite so zealous about throwing exceptions when things didn't line up exactly as it thought they should.,659,41526
+437,4f70bbc6,FAIL,4,NO,0,NO,0,2013-02-04 10:27:09 -0800,adding linear shard spec and ACL for s3 bucket,660,41513
+438,97999c06,FAIL,4,NO,0,NO,0,2013-02-06 11:08:44 -0800,throttle replicants,659,41506
+439,efd0dc00,FAIL,3,NO,0,NO,0,2013-02-06 11:09:49 -0800,refactor scaling stuff,678,42507
+440,84baef04,FAIL,3,NO,0,NO,0,2013-02-06 13:57:56 -0800,fix some bugs from last commit,659,41639
+441,e2862fe1,FAIL,3,NO,0,NO,0,2013-02-06 16:50:04 -0800,Merge pull request #79 from metamx/bug_fixes,660,41759
+442,7540dd58,FAIL,4,NO,0,NO,0,2013-02-06 16:52:24 -0800,fix broken UT,660,41761
+443,d0fdf4cc,FAIL,4,NO,0,NO,0,2013-02-06 16:54:16 -0800,[maven-release-plugin] prepare release druid-0.2.4,660,41761
+444,d023d219,FAIL,3,NO,0,NO,0,2013-02-06 16:54:21 -0800,[maven-release-plugin] prepare for next development iteration,660,41761
+445,0d303bee,FAIL,4,NO,0,NO,0,2013-02-06 17:41:08 -0800,reset lifetimes for the replication throttle,660,41764
+446,668353e8,FAIL,4,NO,0,NO,0,2013-02-06 17:42:33 -0800,[maven-release-plugin] prepare release druid-0.2.5,660,41764
+447,e09c6583,FAIL,4,NO,0,NO,0,2013-02-06 17:42:39 -0800,[maven-release-plugin] prepare for next development iteration,660,41764
+448,267c7970,FAIL,4,NO,0,NO,0,2013-02-06 18:40:29 -0800,fix bug in throttle replicants,660,41766
+449,22d96071,FAIL,3,NO,0,NO,0,2013-02-06 18:43:34 -0800,[maven-release-plugin] prepare release druid-0.2.6,660,41766
+450,ec2b906f,FAIL,4,NO,0,NO,0,2013-02-06 18:43:42 -0800,[maven-release-plugin] prepare for next development iteration,660,41766
+451,9ac5eeeb,FAIL,4,NO,0,NO,0,2013-02-06 23:34:46 -0800,1) Fix NPE in DeterminePartitionsJob when it fails,660,41766
+452,6ff42f37,FAIL,4,NO,0,NO,0,2013-02-07 10:11:36 -0800,fix cut-n-paste mistake in error message,660,41765
+453,111df9a9,FAIL,4,NO,0,NO,0,2013-02-07 10:35:32 -0800,Merge branch 'master' into indexing_refactor,680,42782
+454,875df7b9,FAIL,3,NO,0,NO,0,2013-02-11 10:39:56 -0800,Merge pull request #81 from metamx/fix-timeboundary,660,41765
+455,ac93f752,FAIL,3,NO,0,NO,0,2013-02-11 10:56:30 -0800,fix a case where a segment may get stuck in the terminate queue,660,41789
+456,07c005a0,FAIL,4,NO,0,NO,0,2013-02-11 10:56:39 -0800,Merge branch 'master' of github.com:metamx/druid,660,41788
+457,73f7468a,FAIL,4,NO,0,NO,0,2013-02-11 10:58:43 -0800,[maven-release-plugin] prepare release druid-0.2.7,660,41788
+458,e519f82e,FAIL,4,NO,0,NO,0,2013-02-11 10:58:51 -0800,[maven-release-plugin] prepare for next development iteration,660,41788
+459,05168808,FAIL,4,NO,0,NO,0,2013-02-11 11:12:31 -0800,Merge pull request #77 from metacret/master,662,41856
+460,67080290,FAIL,3,NO,0,NO,0,2013-02-11 13:13:52 -0600,1) Remove class level comments auto-created by IntelliJ,662,41856
+461,e12da510,FAIL,3,NO,0,NO,0,2013-02-11 11:28:50 -0800,merge master,661,41883
+462,1b9764ff,FAIL,4,NO,0,NO,0,2013-02-11 11:36:45 -0800,add binary version to datasegments for balancer test,661,41887
+463,a9176e73,FAIL,4,NO,0,NO,0,2013-02-11 12:36:49 -0800,Merge branch 'master' into indexing_refactor,680,42804
+464,69d0d98d,FAIL,3,NO,0,NO,0,2013-02-11 12:37:20 -0800,t Merge branch 'master' into indexing_refactor,682,42872
+465,e10025c8,FAIL,3,NO,0,NO,0,2013-02-08 16:50:23 -0800,filter out unneeded segments for TimeBoundary query,662,41918
+466,695b78b1,FAIL,3,NO,0,NO,0,2013-02-11 15:28:17 -0800,make findNewSegmentHome return a priority queue so assignment can assign replicants to other servers,661,41892
+467,e9f546c4,FAIL,4,NO,0,NO,0,2013-02-11 16:51:40 -0800,add default implementations to QueryToolChest methods,662,41885
+468,6b87ef29,FAIL,4,NO,0,NO,0,2013-02-11 16:55:21 -0800,assume segment intervals have already been filtered based on query interval,662,41879
+469,b27a459f,FAIL,4,NO,0,NO,0,2013-02-11 18:13:01 -0800,more refactoring and UT passing at this point,682,43056
+470,d4009c8c,FAIL,4,NO,0,NO,0,2013-02-11 18:40:14 -0800,refactor filterSegments to use `TimelineObjectHolder`s,662,41878
+471,633cccce,FAIL,2,NO,0,NO,0,2013-02-11 17:02:33 -0800,bump up to 0.3.0,662,41878
+472,7ab2e055,FAIL,2,NO,0,NO,0,2013-02-11 18:42:43 -0800,cleanup imports,662,41871
+473,68cd2e10,FAIL,2,NO,0,NO,0,2013-02-12 09:45:26 -0800,remove unnecessary segment grouping,662,41865
+474,07b0b461,FAIL,2,NO,0,NO,0,2013-02-12 09:52:21 -0800,bump up to 0.3.0,662,41865
+475,fcbac961,FAIL,4,NO,0,NO,0,2013-02-12 10:47:30 -0800,revert change to findNewSegmentHome: now return single ServerHolder,661,41895
+476,a0b159fe,FAIL,7,NO,0,NO,0,2013-02-12 20:58:12 -0600,"1) Move up to Jackson 2.1 2) Some bugs were fixed, but they ended up getting mixed in with the Jackson upgrade :(",663,41877
+477,429e23d3,FAIL,3,NO,0,NO,0,2013-02-13 08:57:39 -0800,change break to continue in BalancerCostAnalyzer to skip calculating cost when it's not necessary,661,41895
+478,a665bfa2,FAIL,4,NO,0,NO,0,2013-02-13 09:50:30 -0800,DeterminePartitionsJob: Select partition dimension to minimize segment size variance when cardinality is low,663,41895
+479,0eb65f69,FAIL,3,NO,0,NO,0,2013-02-13 09:54:34 -0800,Merge pull request #86 from metamx/dimpartition-by-variance,663,41895
+480,ce1d9078,FAIL,3,NO,0,NO,0,2013-02-13 10:16:03 -0800,DeterminePartitionsJob: Fix docs,663,41895
+481,c7b49737,FAIL,4,NO,0,NO,0,2013-02-13 14:19:11 -0800,bug fixes for RTR,684,43105
+482,1963bfe8,FAIL,4,NO,0,NO,0,2013-02-13 16:04:43 -0800,cleanup,684,43090
+483,82f02a4f,FAIL,3,NO,0,NO,0,2013-02-13 16:34:14 -0800,Merge branch 'master' into indexing_refactor,685,43119
+484,c5b78e75,FAIL,1,NO,0,NO,0,2013-02-12 20:58:12 -0600,"1) Move up to Jackson 2.1 2) Some bugs were fixed, but they ended up getting mixed in with the Jackson upgrade :(",663,41886
+485,ee193f0c,FAIL,1,NO,0,NO,0,2013-02-13 09:50:30 -0800,DeterminePartitionsJob: Select partition dimension to minimize segment size variance when cardinality is low,663,41904
+486,e3822f6c,FAIL,2,NO,0,NO,0,2013-02-13 10:16:03 -0800,DeterminePartitionsJob: Fix docs,663,41904
+487,1b85eaad,FAIL,4,NO,0,NO,0,2013-02-08 16:50:23 -0800,simplify query toolchest interface,664,41891
+488,98de0382,FAIL,3,NO,0,NO,0,2013-02-13 21:27:27 -0800,Merge branch 'master' into speedup-timeboundary,664,41891
+489,754b065c,FAIL,3,NO,0,NO,0,2013-02-14 09:08:25 -0800,merge master,664,42024
+490,a616f861,FAIL,4,NO,0,NO,0,2013-02-14 09:09:22 -0800,add DateTime import back,664,42025
+491,6998d604,FAIL,3,NO,0,NO,0,2013-02-14 12:41:34 -0800,fixes #80,664,41891
+492,ff325b1f,FAIL,3,NO,0,NO,0,2013-02-14 12:46:40 -0800,Merger: Changes to support rolling locks and a task-action API,678,42941
+493,18daa19f,FAIL,4,NO,0,NO,0,2013-02-14 12:57:00 -0800,Merge branch 'master' into task-stuff,683,43373
+494,de4fc981,FAIL,4,NO,0,NO,0,2013-02-14 13:36:43 -0800,TaskMasterLifecycle: Stop leaderLifecycle if it dies while starting,683,43373
+495,77fbe974,FAIL,3,NO,0,NO,0,2013-02-14 13:52:19 -0800,fix version conflicts of old jackson,663,41895
+496,ad1de9ba,FAIL,4,NO,0,NO,0,2013-02-14 14:16:46 -0800,Merge branch 'master' into task-stuff,683,43373
+497,ef768fee,FAIL,3,NO,0,NO,0,2013-02-14 14:20:20 -0800,new resource,686,43157
+498,ee4236da,FAIL,4,NO,0,NO,0,2013-02-14 17:10:27 -0600,1) Update to mmx build of jackson 2.1 branch to get bug-fix for jackson-databind #167,663,41895
+499,dd44f5cb,FAIL,4,NO,0,NO,0,2013-02-14 15:11:40 -0800,Merge branch 'master' into task-stuff,683,43373
+500,bf0d9c60,FAIL,4,NO,0,NO,0,2013-02-14 15:42:07 -0800,Merge branch 'task-stuff' into indexing_refactor,695,43899
+501,4f11eb52,FAIL,4,NO,0,NO,0,2013-02-14 18:24:51 -0600,1) Fix alert sent from line DruidMasterBalancer:71 to not include all of the segments that a server is holding,663,41895
+502,e56bc27f,FAIL,4,NO,0,NO,0,2013-02-14 16:27:12 -0800,[maven-release-plugin] prepare release druid-0.2.8,663,41895
+503,152bf201,FAIL,3,NO,0,NO,0,2013-02-14 16:27:20 -0800,[maven-release-plugin] prepare for next development iteration,663,41895
+504,48538d04,FAIL,3,NO,0,NO,0,2013-02-14 22:59:17 -0600,1) Fix bug in index converter when column has cardinality 0,663,41900
+505,53e801ec,FAIL,4,NO,0,NO,0,2013-02-14 22:59:43 -0600,Merge branch 'master' of github.com:metamx/druid,663,41900
+506,22d1f2a0,FAIL,4,NO,0,NO,0,2013-02-14 21:07:17 -0800,IndexMergerTest: Empty column test,663,41918
+507,ba7df5b7,FAIL,4,NO,0,NO,0,2013-02-14 21:23:41 -0800,[maven-release-plugin] prepare release druid-0.2.9,663,41918
+508,3fed8ee0,FAIL,4,NO,0,NO,0,2013-02-14 21:23:46 -0800,[maven-release-plugin] prepare for next development iteration,663,41918
+509,548c901c,FAIL,3,NO,0,NO,0,2013-02-14 23:34:49 -0800,Additional fix for columns with cardinality 0,663,41941
+510,e1533b87,FAIL,3,NO,0,NO,0,2013-02-15 10:15:05 -0800,Merge pull request #88 from metamx/8to9-empty-column,663,41941
+511,5ee7c0c2,FAIL,4,NO,0,NO,0,2013-02-15 12:15:53 -0600,1) Remove stray import of java.util.List,663,41940
+512,78041044,FAIL,3,NO,0,NO,0,2013-02-15 11:19:13 -0800,even more simple,664,41890
+513,05d347c3,FAIL,3,NO,0,NO,0,2013-02-15 11:25:47 -0800,Merge remote-tracking branch 'origin/master' into speedup-timeboundary,664,41935
+514,728e208f,FAIL,4,NO,0,NO,0,2013-02-15 11:39:22 -0800,merge master,664,42070
+515,e042c291,FAIL,4,NO,0,NO,0,2013-02-15 11:39:49 -0800,"Fixed typos in comments, changed prefix on s3Paths to s3n from s3://, cleaned up umbrellaIntervals code in JodaUtils, modified the DbUpdater to push segment meta-data to the database in batches.",651,40773
+516,06ef83db,FAIL,3,NO,0,NO,0,2013-02-15 11:43:42 -0800,Merge pull request #85 from metamx/speedup-timeboundary,664,41935
+517,0d99cee3,FAIL,3,NO,0,NO,0,2013-02-15 14:25:44 -0600,1) Whitespace ftw!,664,41933
+518,6bbc9921,FAIL,4,NO,0,NO,0,2013-02-15 13:03:32 -0800,[maven-release-plugin] prepare release druid-0.3.0,664,41933
+519,824e3c0e,FAIL,4,NO,0,NO,0,2013-02-15 13:03:39 -0800,[maven-release-plugin] prepare for next development iteration,664,41933
+520,60da9ffd,FAIL,4,NO,0,NO,0,2013-02-15 13:22:31 -0800,Merge branch 'master' into hadoop-index-task,665,42034
+521,d1626576,FAIL,4,NO,0,NO,0,2013-02-09 22:33:00 -0700,Working toward making it easier to add new SegmentPullers.,664,41894
+522,dc3459d3,FAIL,3,NO,0,NO,0,2013-02-13 19:15:49 -0600,1) Initial commit of refactorings on top of housejester's to simplify the zipping and simplify the creation of other methods of loading data,664,41898
+523,f8c54a72,FAIL,3,NO,0,NO,0,2013-02-19 19:22:59 -0600,1) Changes to allow for local storage,667,42053
+524,606a2e4b,FAIL,4,NO,0,NO,0,2013-02-21 15:49:55 -0600,[maven-release-plugin] prepare release druid-0.3.1,667,42053
+525,699aadd2,FAIL,4,NO,0,NO,0,2013-02-21 15:50:01 -0600,[maven-release-plugin] prepare for next development iteration,667,42053
+526,9dbb8841,FAIL,3,NO,0,NO,0,2013-02-21 18:16:14 -0800,initial commit,694,43916
+527,5e123988,FAIL,5,NO,0,NO,0,2013-02-21 20:37:51 -0600,1) Specify old Jackson version to resolve version conflicts between AWS SDK and curator,667,42053
+528,846bc0e4,FAIL,4,NO,0,NO,0,2013-02-21 20:39:45 -0600,[maven-release-plugin] prepare release druid-0.3.2,667,42053
+529,e0f6df1a,FAIL,4,NO,0,NO,0,2013-02-21 20:39:50 -0600,[maven-release-plugin] prepare for next development iteration,667,42053
+530,8513a5ab,FAIL,3,NO,0,NO,0,2013-02-24 22:18:44 -0800,1) Fix SimpleColumn to not produce NPEs when one of its parts is null.,667,42053
+531,7d7ce2b7,FAIL,4,NO,0,NO,0,2013-02-25 10:57:26 -0800,Fix DeterminePartitionsJob ISE for dimensions not present in all rows,667,42060
+532,49700dff,FAIL,4,NO,0,NO,0,2013-02-25 12:18:31 -0800,Merge branch 'master' into task-stuff,687,43526
+533,4811b500,FAIL,4,NO,0,NO,0,2013-02-25 12:21:48 -0800,Merge pull request #94 from metamx/fix-dpj,667,42060
+534,99c4f944,FAIL,3,NO,0,NO,0,2013-02-25 12:24:15 -0800,[maven-release-plugin] prepare release druid-0.3.3,667,42060
+535,9964e7df,FAIL,3,NO,0,NO,0,2013-02-25 12:24:24 -0800,[maven-release-plugin] prepare for next development iteration,667,42060
+536,3129e545,FAIL,4,NO,0,NO,0,2013-02-25 12:33:45 -0800,Merge branch 'master' into task-stuff,687,43533
+537,14cf506c,FAIL,5,NO,0,NO,0,2013-02-25 17:05:01 -0800,DefaultObjectMapper: Add GuavaModule,687,43535
+538,2427e818,FAIL,4,NO,0,NO,0,2013-02-25 17:05:30 -0800,Merger: Feedback from code review,687,43575
+539,d8fbddb9,FAIL,3,NO,0,NO,0,2013-02-26 11:36:07 -0800,Merger: Service discovery for worker -> master communication,687,43625
+540,d32a6284,FAIL,4,NO,0,NO,0,2013-02-26 13:03:56 -0800,Merge branch 'task-stuff' into indexing_refactor,699,44151
+541,e67a8757,FAIL,4,NO,0,NO,0,2013-02-26 14:18:07 -0800,Merge remote-tracking branch 'origin/master' into new_balancer,700,44281
+542,3b31aa74,FAIL,4,NO,0,NO,0,2013-02-26 14:41:45 -0800,Merge pull request #51 from metamx/new_balancer,700,44281
+543,ab456cf3,FAIL,3,NO,0,NO,0,2013-02-26 15:15:36 -0800,[maven-release-plugin] prepare release druid-0.3.4,700,44281
+544,2e1e1753,FAIL,3,NO,0,NO,0,2013-02-26 15:15:54 -0800,[maven-release-plugin] prepare for next development iteration,700,44281
+545,d1634fe5,FAIL,4,NO,0,NO,0,2013-02-26 18:58:16 -0800,fix cost balancing so assignment/balancing doesn't get stuck,700,44286
+546,f862d920,FAIL,4,NO,0,NO,0,2013-02-27 06:53:06 -0800,Merge branch 'master' into hadoop-index-task,701,44390
+547,e40fba4d,FAIL,4,NO,0,NO,0,2013-02-27 14:50:15 -0800,HadoopIndexTask: Jackson fixes and general overriding of storage-specific stuff,701,44445
+548,26dca563,FAIL,3,NO,0,NO,0,2013-03-01 06:59:23 -0800,"QueryServlet: Send alerts with remote address as ""peer"" instead of ""host""",700,44286
+549,e0bf3187,FAIL,4,NO,0,NO,0,2013-03-01 10:02:46 -0800,Merge pull request #64 from metamx/hadoop-index-task,701,44445
+550,fb874580,FAIL,4,NO,0,NO,0,2013-03-01 11:41:28 -0800,cleaner code for dimension/metric exploration on broker,701,44418
+551,334fffde,FAIL,4,NO,0,NO,0,2013-03-01 11:43:16 -0800,[maven-release-plugin] prepare release druid-0.3.5,701,44418
+552,3264a689,FAIL,3,NO,0,NO,0,2013-03-01 11:43:23 -0800,[maven-release-plugin] prepare for next development iteration,701,44418
+553,7f326294,FAIL,3,NO,0,NO,0,2013-03-01 13:53:27 -0800,fix a bug with client info resource with guice,701,44424
+554,a43dc44e,FAIL,4,NO,0,NO,0,2013-03-01 13:55:01 -0800,[maven-release-plugin] prepare release druid-0.3.6,701,44424
+555,360c6a1d,FAIL,3,NO,0,NO,0,2013-03-01 13:55:07 -0800,[maven-release-plugin] prepare for next development iteration,701,44424
+556,6b4f6bff,FAIL,4,NO,0,NO,0,2013-03-01 14:40:29 -0800,DbTaskStorage: Fix getAuditLogs,701,44424
+557,89d5ddf2,FAIL,3,NO,0,NO,0,2013-03-01 14:43:13 -0800,[maven-release-plugin] prepare release druid-0.3.7,701,44424
+558,998ed0a8,FAIL,4,NO,0,NO,0,2013-03-01 14:43:20 -0800,[maven-release-plugin] prepare for next development iteration,701,44424
+559,53021c2e,FAIL,8,NO,0,NO,0,2013-03-01 16:53:49 -0800,more logging,701,44429
+560,c9cf0919,FAIL,4,NO,0,NO,0,2013-03-01 16:54:00 -0800,Merge branch 'master' of github.com:metamx/druid,701,44429
+561,03ff72b7,FAIL,3,NO,0,NO,0,2013-03-01 16:57:38 -0800,[maven-release-plugin] prepare release druid-0.3.8,701,44429
+562,0092ad7e,FAIL,3,NO,0,NO,0,2013-03-01 16:57:47 -0800,[maven-release-plugin] prepare for next development iteration,701,44429
+563,375e342d,FAIL,4,NO,0,NO,0,2013-03-01 18:00:02 -0800,remove deadlock problem in pending tasks,701,44424
+564,8a9655a1,FAIL,3,NO,0,NO,0,2013-03-01 18:00:12 -0800,Merge branch 'master' of github.com:metamx/druid,701,44424
+565,a574da55,FAIL,3,NO,0,NO,0,2013-03-01 18:22:30 -0800,fix broken UT,701,44425
+566,02319970,FAIL,3,NO,0,NO,0,2013-03-01 18:24:03 -0800,[maven-release-plugin] prepare release druid-0.3.10,701,44425
+567,e2b4163e,FAIL,4,NO,0,NO,0,2013-03-01 18:24:09 -0800,[maven-release-plugin] prepare for next development iteration,701,44425
+568,0b054cdd,FAIL,3,NO,0,NO,0,2013-03-01 18:43:40 -0800,better logging for indexing service,701,44429
+569,665d1723,FAIL,3,NO,0,NO,0,2013-03-01 18:48:34 -0800,Add TaskLockPosse#toString,701,44436
+570,df532f02,FAIL,4,NO,0,NO,0,2013-03-01 19:03:16 -0800,more logging,701,44430
+571,e2197860,FAIL,4,NO,0,NO,0,2013-03-01 19:03:29 -0800,Merge branch 'master' of github.com:metamx/druid,701,44437
+572,7e316e35,FAIL,4,NO,0,NO,0,2013-03-01 19:05:39 -0800,[maven-release-plugin] prepare release druid-0.3.11,701,44437
+573,49e61d00,FAIL,4,NO,0,NO,0,2013-03-01 19:05:46 -0800,[maven-release-plugin] prepare for next development iteration,701,44437
+574,cbe0555d,FAIL,3,NO,0,NO,0,2013-03-01 19:25:25 -0800,better logging,701,44438
+575,38c8ffb5,FAIL,4,NO,0,NO,0,2013-03-01 19:28:28 -0800,[maven-release-plugin] prepare release druid-0.3.12,701,44438
+576,e0700bb1,FAIL,4,NO,0,NO,0,2013-03-01 19:28:34 -0800,[maven-release-plugin] prepare for next development iteration,701,44438
+577,1995039f,FAIL,3,NO,0,NO,0,2013-03-01 19:44:14 -0800,additional logs,701,44438
+578,06a2a3a7,FAIL,3,NO,0,NO,0,2013-03-01 19:45:50 -0800,[maven-release-plugin] prepare release druid-0.3.13,701,44438
+579,7f674719,FAIL,4,NO,0,NO,0,2013-03-01 19:45:59 -0800,[maven-release-plugin] prepare for next development iteration,701,44438
+580,bb83ddb5,FAIL,4,NO,0,NO,0,2013-03-01 19:51:33 -0800,fix bug with worker disappearance,701,44441
+581,e3ba6efb,FAIL,3,NO,0,NO,0,2013-03-01 19:53:07 -0800,[maven-release-plugin] prepare release druid-0.3.14,701,44441
+582,879b2475,FAIL,3,NO,0,NO,0,2013-03-01 19:53:13 -0800,[maven-release-plugin] prepare for next development iteration,701,44441
+583,e5cc6d24,FAIL,4,NO,0,NO,0,2013-03-02 08:58:22 -0800,cleaning up some code for RTR,701,44432
+584,aa63e0b2,FAIL,4,NO,0,NO,0,2013-03-02 09:25:44 -0800,account for duplicate events,701,44432
+585,a90d204b,FAIL,3,NO,0,NO,0,2013-03-02 09:28:51 -0800,[maven-release-plugin] prepare release druid-0.3.15,701,44432
+586,ee38d096,FAIL,4,NO,0,NO,0,2013-03-02 09:29:04 -0800,[maven-release-plugin] prepare for next development iteration,701,44432
+587,4e2107fb,FAIL,4,NO,0,NO,0,2013-03-04 11:23:36 -0800,Merger: Rename Task.getFixedInterval -> getImplicitLockInterval. Add more Task docs.,701,44431
+588,d7379db6,FAIL,4,NO,0,NO,0,2013-03-04 13:09:42 -0600,1) Initial commit: Converter Task,702,44507
+589,92ab51e7,FAIL,4,NO,0,NO,0,2013-03-04 13:03:15 -0800,fix bugs in balancing logic and removing auto-scaled node,701,44428
+590,88339fe9,FAIL,3,NO,0,NO,0,2013-03-04 13:03:27 -0800,Merge branch 'master' of github.com:metamx/druid,701,44427
+591,d4f4e413,FAIL,4,NO,0,NO,0,2013-03-04 13:08:09 -0800,[maven-release-plugin] prepare release druid-0.3.16,701,44427
+592,6977fe03,FAIL,4,NO,0,NO,0,2013-03-04 13:08:26 -0800,[maven-release-plugin] prepare for next development iteration,701,44427
+593,d18c9f2b,FAIL,3,NO,0,NO,0,2013-03-04 13:43:37 -0800,Merge branch 'master' into indexing_console,700,44446
+594,571375a3,FAIL,3,NO,0,NO,0,2013-03-04 14:40:02 -0800,fixing a bug with indexing service not correctly killing worker nodes,701,44433
+595,91f54a72,FAIL,4,NO,0,NO,0,2013-03-04 15:09:55 -0800,fix broken UT,701,44438
+596,fdb39117,FAIL,3,NO,0,NO,0,2013-03-04 15:11:28 -0800,[maven-release-plugin] prepare release druid-0.3.18,701,44438
+597,552b3651,FAIL,3,NO,0,NO,0,2013-03-04 15:11:37 -0800,[maven-release-plugin] prepare for next development iteration,701,44438
+598,10ec2288,FAIL,4,NO,0,NO,0,2013-03-04 15:23:34 -0800,Merge branch 'master' into indexing_console,700,44457
+599,a9f7094e,FAIL,5,NO,0,NO,0,2013-03-04 18:10:32 -0600,1) Remove the need for TaskActions to require a Task as a constructor parameter,707,44580
+600,b64118b1,FAIL,6,NO,0,NO,0,2013-02-25 09:26:52 -0800,minimal SQL support,701,44438
+601,3f7bd7d1,FAIL,3,NO,0,NO,0,2013-03-01 18:12:58 -0800,add group by,701,44438
+602,8640342a,FAIL,3,NO,0,NO,0,2013-03-01 18:15:32 -0800,remove antlr from common,701,44438
+603,f8a118dd,FAIL,3,NO,0,NO,0,2013-03-02 13:57:49 -0800,better number handling,701,44438
+604,5d1af7d8,FAIL,3,NO,0,NO,0,2013-03-02 14:09:20 -0800,support aliasing,701,44438
+605,eae5db6f,FAIL,4,NO,0,NO,0,2013-03-02 14:24:23 -0800,friendlier aggregator naming,701,44438
+606,aa382245,FAIL,3,NO,0,NO,0,2013-03-04 10:00:59 -0800,add support for 'NOT' filter and comments,701,44438
+607,4e765f67,FAIL,3,NO,0,NO,0,2013-03-04 10:18:08 -0800,remove obsolete comments,701,44438
+608,6a40072d,FAIL,4,NO,0,NO,0,2013-03-04 11:11:30 -0800,toy SQL runner,702,44504
+609,f5e3ff96,FAIL,4,NO,0,NO,0,2013-03-04 14:27:15 -0800,"add support for `!=` operator and `in ('a','b',...) expressions",702,44504
+610,88515ec5,FAIL,4,NO,0,NO,0,2013-03-04 14:43:30 -0800,add support for regex filter,702,44504
+611,d1c128bd,FAIL,3,NO,0,NO,0,2013-03-04 14:48:05 -0800,more elaborate example,702,44505
+612,ae682d2c,FAIL,4,NO,0,NO,0,2013-03-04 16:18:42 -0800,fix multiple toplevel dimfilters,702,44505
+613,848d49ca,FAIL,4,NO,0,NO,0,2013-03-04 13:03:15 -0800,fix bugs in balancing logic and removing auto-scaled node,707,44576
+614,90637ab7,FAIL,3,NO,0,NO,0,2013-03-04 13:08:09 -0800,[maven-release-plugin] prepare release druid-0.3.16,707,44576
+615,75cefa05,FAIL,3,NO,0,NO,0,2013-03-04 13:08:26 -0800,[maven-release-plugin] prepare for next development iteration,707,44576
+616,665f1909,FAIL,3,NO,0,NO,0,2013-03-04 14:40:02 -0800,fixing a bug with indexing service not correctly killing worker nodes,707,44582
+617,e51a01f8,FAIL,3,NO,0,NO,0,2013-03-04 15:09:55 -0800,fix broken UT,707,44587
+618,c0ab1a50,FAIL,3,NO,0,NO,0,2013-03-04 15:11:28 -0800,[maven-release-plugin] prepare release druid-0.3.18,707,44587
+619,b410f5e8,FAIL,3,NO,0,NO,0,2013-03-04 15:11:37 -0800,[maven-release-plugin] prepare for next development iteration,707,44587
+620,6e95dd49,FAIL,3,NO,0,NO,0,2013-03-05 13:27:25 -0600,"1) Remove Task parameter from other methods off of TaskToolbox that required it 2) Move getTaskDir() off of TaskConfig and onto TaskToolbox 3) Rename SegmentKiller interface to DataSegmentKiller 4) Change signature of ""DataSegmentKiller.kill(Collection<DataSegment>) throws ServiceException"" to just kill(DataSegment) throws SegmentLoadingException 5) Add various log messages 6) Update the version of the segment that has been converted",707,44580
+621,035986b3,FAIL,4,NO,0,NO,0,2013-03-05 11:45:51 -0800,keep track of queried fields,702,44505
+622,28fe2064,FAIL,3,NO,0,NO,0,2013-03-05 11:47:57 -0800,output tsv format + better command line,702,44582
+623,614d7801,FAIL,4,NO,0,NO,0,2013-03-05 12:41:44 -0800,very simplistic error handling,702,44586
+624,4cb3ca00,FAIL,4,NO,0,NO,0,2013-03-05 14:15:58 -0800,support for javascript dimfilters,703,44545
+625,9d9efadf,FAIL,4,NO,0,NO,0,2013-03-06 10:38:40 -0800,working indexer console,700,44476
+626,1b9bbb2f,FAIL,4,NO,0,NO,0,2013-03-06 11:20:27 -0800,remove test code,700,44473
+627,8f6c3135,FAIL,4,NO,0,NO,0,2013-03-06 17:28:09 -0800,log but do not fail if memcached operations do not get queued in time,701,44458
+628,28373090,FAIL,3,NO,0,NO,0,2013-03-06 19:22:15 -0800,do not fail on exceptions when pulling from cache,701,44460
+629,21d648cc,FAIL,3,NO,0,NO,0,2013-03-06 22:30:07 -0800,make request logs machine-readable,701,44438
+630,1b51848a,FAIL,4,NO,0,NO,0,2013-03-07 10:38:41 -0800,add cache errorCount,701,44474
+631,9ffccb68,FAIL,5,NO,0,NO,0,2013-03-07 12:59:59 -0600,1) Adjust the Config stuff that WorkerSetupManager was using to be reusable 2) Use new ConfigManager to pull out a whitelist for the Master,708,44720
+632,e2552cc0,FAIL,4,NO,0,NO,0,2013-03-07 11:13:47 -0800,Merge pull request #100 from metamx/indexing_console,700,44473
+633,bb1b3cd2,FAIL,4,NO,0,NO,0,2013-03-07 11:14:54 -0800,Merge pull request #98 from metamx/druid-sql,701,44621
+634,b0349a65,FAIL,4,NO,0,NO,0,2013-03-07 11:31:36 -0800,move objectMapper into requestLogger,701,44444
+635,a1cd3c39,FAIL,3,NO,0,NO,0,2013-03-07 13:35:48 -0800,Merge pull request #103 from metamx/request-logs,701,44627
+636,a3279541,FAIL,3,NO,0,NO,0,2013-03-07 13:36:51 -0800,Merge pull request #102 from metamx/cache-fixes,701,44663
+637,82aa6ed7,FAIL,4,NO,0,NO,0,2013-03-07 15:55:23 -0600,1) Adjust the SingleSegmentLoader to be able to use cache locations from previous versions as well without re-downloading,701,44642
+638,e4de6f3d,FAIL,4,NO,0,NO,0,2013-03-07 15:55:38 -0600,Merge branch 'master' of github.com:metamx/druid,701,44684
+639,a79c9ec1,FAIL,3,NO,0,NO,0,2013-03-07 14:10:46 -0800,fix some issues with negative numbers,701,44684
+640,fd0fcc73,FAIL,3,NO,0,NO,0,2013-03-07 16:18:31 -0600,Whitespace!,701,44682
+641,fe4ca2a1,FAIL,4,NO,0,NO,0,2013-03-07 16:19:02 -0600,Merge branch 'master' of github.com:metamx/druid,701,44682
+642,ef4ccce3,FAIL,5,NO,0,NO,0,2013-03-07 17:43:37 -0600,1) Stop polling in ConfigManager when stop is called 2) Remove WorkSetupManager in favor of just using ConfigManager,707,44691
+643,a11a34f8,FAIL,4,NO,0,NO,0,2013-03-04 13:09:42 -0600,1) Initial commit: Converter Task,702,44758
+644,c9b411c0,FAIL,3,NO,0,NO,0,2013-03-04 18:10:32 -0600,1) Remove the need for TaskActions to require a Task as a constructor parameter,707,44831
+645,6864007c,FAIL,4,NO,0,NO,0,2013-03-05 13:27:25 -0600,"1) Remove Task parameter from other methods off of TaskToolbox that required it 2) Move getTaskDir() off of TaskConfig and onto TaskToolbox 3) Rename SegmentKiller interface to DataSegmentKiller 4) Change signature of ""DataSegmentKiller.kill(Collection<DataSegment>) throws ServiceException"" to just kill(DataSegment) throws SegmentLoadingException 5) Add various log messages 6) Update the version of the segment that has been converted",707,44824
+646,1c3ef48f,FAIL,4,NO,0,NO,0,2013-03-07 12:59:59 -0600,1) Adjust the Config stuff that WorkerSetupManager was using to be reusable 2) Use new ConfigManager to pull out a whitelist for the Master,708,44964
+647,f70f7124,FAIL,3,NO,0,NO,0,2013-03-07 17:43:37 -0600,1) Stop polling in ConfigManager when stop is called 2) Remove WorkSetupManager in favor of just using ConfigManager,707,44935
+648,d1ffe93c,FAIL,4,NO,0,NO,0,2013-03-07 18:12:31 -0600,Merge remote branch 'origin/convert_task' into convert_task,707,44933
+649,c3a871b9,FAIL,3,NO,0,NO,0,2013-03-07 16:13:00 -0800,Merge pull request #97 from metamx/convert_task,707,44933
+650,9f405c0b,FAIL,4,NO,0,NO,0,2013-03-07 15:06:12 -0800,fix constant segment balancing and separate out the differences between segment assignment and balancing,707,44957
+651,7a57609c,FAIL,3,NO,0,NO,0,2013-03-07 16:31:00 -0800,emit metrics corresponding to cost-based balancing,707,44955
+652,b979096d,FAIL,3,NO,0,NO,0,2013-03-07 18:46:51 -0600,1) Building is good,707,44935
+653,53c8ba6e,FAIL,4,NO,0,NO,0,2013-03-07 18:47:05 -0600,Merge branch 'master' of github.com:metamx/druid,707,44957
+654,08bff3f4,FAIL,3,NO,0,NO,0,2013-03-07 22:06:23 -0800,Merger: Fix JacksonConfigManager initialization,707,44963
+655,46430307,FAIL,4,NO,0,NO,0,2013-03-07 22:38:28 -0800,TaskToolbox: Rename getTaskActionClientFactory -> getTaskActionClient,707,44954
+656,a470f3fa,FAIL,3,NO,0,NO,0,2013-03-08 10:35:13 -0800,change name of druid.indexer.configTable to druid.database.configTable to be consistent,707,44954
+657,d1161ae0,FAIL,4,NO,0,NO,0,2013-03-08 12:41:46 -0600,1) Master should create the config table if it's not there.,707,44959
+658,d9b9f734,FAIL,3,NO,0,NO,0,2013-03-08 12:41:58 -0600,Merge branch 'master' of github.com:metamx/druid,707,44956
+659,f8d9a3b1,FAIL,3,NO,0,NO,0,2013-03-11 11:08:44 -0700,"IndexGranularity: Fix increment for day, week",707,44956
+660,4126893b,FAIL,3,NO,0,NO,0,2013-03-11 11:13:19 -0700,KafkaFirehoseFactory: Fix serialization,707,44959
+661,3fa46988,FAIL,3,NO,0,NO,0,2013-03-11 11:14:51 -0700,"Realtime: - MetadataUpdater now built from SegmentAnnouncer, SegmentPublisher instances. - Sinks can take a version instead of always using interval.start. The realtime   plumber selects a version using a VersioningPolicy. - Plumbers gained a startJob method. - Realtime plumbers gained an implementation for finishJob.",712,45065
+662,0e4db00d,FAIL,4,NO,0,NO,0,2013-03-11 11:15:19 -0700,TaskQueue: Fix task ordering when bootstrapping,712,45065
+663,6245e389,FAIL,3,NO,0,NO,0,2013-03-11 11:22:36 -0700,RealtimeIndexTask-related stuff.,713,45434
+664,34d6b3a7,FAIL,4,NO,0,NO,0,2013-03-11 14:08:05 -0700,Merger: - RealtimeIndexTask: Drop locks on startup - RealtimeIndexTask: Acquire lock before announcing a new segment - Retry failed RemoteTaskActionClient submissions using a RetryPolicy - Add comments to RealtimeIndexTask,713,45475
+665,765e70bc,FAIL,3,NO,0,NO,0,2013-03-11 15:23:45 -0700,RemoteTaskActionClient: Better logging,713,45476
+666,97f828f6,FAIL,4,NO,0,NO,0,2013-03-11 17:20:09 -0700,[maven-release-plugin] prepare release druid-0.3.19,707,44956
+667,a49d0c5e,FAIL,3,NO,0,NO,0,2013-03-11 17:20:16 -0700,[maven-release-plugin] prepare for next development iteration,707,44956
+668,ac2d4e52,FAIL,3,NO,0,NO,0,2013-03-13 14:09:21 -0700,bug fix for indexer coordinator not alerting when worker provisioning taking too long,707,44997
+669,86c7ebe1,FAIL,4,NO,0,NO,0,2013-03-13 14:28:18 -0700,autoscaling will clear state if a node takes too long to create,707,45022
+670,fa66e1d2,FAIL,4,NO,0,NO,0,2013-03-13 16:29:34 -0500,1) SQL is hard,707,44959
+671,b1a55936,FAIL,3,NO,0,NO,0,2013-03-13 16:29:45 -0500,Merge branch 'master' of github.com:metamx/druid,707,45025
+672,8aac4826,FAIL,4,NO,0,NO,0,2013-03-13 16:33:10 -0500,[maven-release-plugin] prepare release druid-0.3.20,707,45025
+673,f1175389,FAIL,3,NO,0,NO,0,2013-03-13 16:33:17 -0500,[maven-release-plugin] prepare for next development iteration,707,45025
+674,16de004f,FAIL,3,NO,0,NO,0,2013-03-13 15:45:07 -0700,fix json,707,45023
+675,60e75d21,FAIL,4,NO,0,NO,0,2013-03-13 15:45:21 -0700,Merge branch 'master' of github.com:metamx/druid,707,45026
+676,688e5e74,FAIL,4,NO,0,NO,0,2013-03-13 18:29:47 -0500,1) Serialization of Tasks is important,708,45105
+677,32f8b097,FAIL,3,NO,0,NO,0,2013-03-13 18:29:54 -0500,Merge branch 'master' of github.com:metamx/druid,708,45106
+678,b7960e20,FAIL,4,NO,0,NO,0,2013-03-13 18:31:55 -0500,[maven-release-plugin] prepare release druid-0.3.21,708,45106
+679,2bd34f14,FAIL,3,NO,0,NO,0,2013-03-13 18:32:00 -0500,[maven-release-plugin] prepare for next development iteration,708,45106
+680,4c165b48,FAIL,3,NO,0,NO,0,2013-03-13 19:15:29 -0500,1) Better logging of master doing version checking 2) Exception out when the scv cannot find its indexer,708,45110
+681,1e0f2c2d,FAIL,4,NO,0,NO,0,2013-03-13 19:26:22 -0500,1) Make log a bit more descriptive,708,45110
+682,cf470b1e,FAIL,4,NO,0,NO,0,2013-03-13 18:39:06 -0700,Merger: Task serde without relying on jackson private-final-setter magic,708,45278
+683,a1c82340,FAIL,3,NO,0,NO,0,2013-03-13 22:32:12 -0700,Merger: Make json exceptions while bootstrapping non-fatal,708,45284
+684,df8e4d40,FAIL,4,NO,0,NO,0,2013-03-13 22:43:01 -0700,Merge branch 'master' into realtime-index-task,714,45804
+685,e5d5050c,FAIL,3,NO,0,NO,0,2013-03-13 23:06:55 -0700,RemoteTaskActionClient: Log retry timer on errors,714,45807
+686,055a98a8,FAIL,4,NO,0,NO,0,2013-03-14 10:37:40 -0700,Merger: Fix VersionConverterTask version selection by making SegmentInsertAction more flexible,708,45298
+687,2a94bd50,FAIL,3,NO,0,NO,0,2013-03-14 11:47:55 -0700,Merge pull request #104 from metamx/javascript-dimfilters,710,45405
+688,9fe6a37f,FAIL,4,NO,0,NO,0,2013-03-14 12:35:38 -0700,Realtime: Remove MetadataUpdater,714,45817
+689,c3410841,FAIL,3,NO,0,NO,0,2013-03-14 12:49:17 -0700,RealtimeIndexTask: Reword comments,714,45817
+690,b8c08f23,FAIL,4,NO,0,NO,0,2013-03-14 12:56:25 -0700,"Realtime: - Move VersioningPolicy, RetryPolicy outside of RealtimePlumberSchool - Move plumber stuff into its own package, since there's a lot of it",720,45847
+691,e45a5171,FAIL,3,NO,0,NO,0,2013-03-14 13:43:40 -0700,RealtimeIndexTask: Fix serde,720,45893
+692,f6752799,FAIL,3,NO,0,NO,0,2013-03-14 13:45:59 -0700,Merge branch 'master' into realtime-index-task,722,46014
+693,39449e6a,FAIL,4,NO,0,NO,0,2013-03-14 16:45:54 -0500,Merge branch 'master' of github.com:metamx/druid,722,46014
+694,a933438e,FAIL,3,NO,0,NO,0,2013-03-15 13:48:55 -0500,1) Fix bugs with VersionConverterTask 2) Fix bugs with NPEs on indexing,722,46103
+695,ff017fe7,FAIL,4,NO,0,NO,0,2013-03-15 13:53:33 -0500,[maven-release-plugin] prepare release druid-0.3.22,722,46103
+696,7dacf952,FAIL,3,NO,0,NO,0,2013-03-15 13:53:39 -0500,[maven-release-plugin] prepare for next development iteration,722,46103
+697,72b82b1b,FAIL,4,NO,0,NO,0,2013-03-15 15:50:37 -0500,1) Remove logline that really shouldn't be there.,722,46102
+698,92efba5f,FAIL,3,NO,0,NO,0,2013-03-15 16:07:54 -0500,Add CLA documents,722,46102
+699,6f771796,FAIL,4,NO,0,NO,0,2013-03-15 14:28:55 -0700,fix js bugs with indexer console,710,45405
+700,d316dfc8,FAIL,3,NO,0,NO,0,2013-03-15 14:29:19 -0700,Merge branch 'master' of github.com:metamx/druid,722,46102
+701,57655f19,FAIL,4,NO,0,NO,0,2013-03-15 14:32:24 -0700,[maven-release-plugin] prepare release druid-0.3.23,722,46102
+702,b9de751b,FAIL,3,NO,0,NO,0,2013-03-15 14:32:31 -0700,[maven-release-plugin] prepare for next development iteration,722,46102
+703,e3674368,FAIL,4,NO,0,NO,0,2013-03-18 12:57:01 -0500,1) Fix bug with the MergeTask not setting the binaryVersion field on DataSegments and causing the converter to run a lot.,722,46104
+704,bbed862b,FAIL,3,NO,0,NO,0,2013-03-18 12:59:33 -0500,Merge branch 'master' of github.com:metamx/druid,722,46104
+705,29a0a7e6,FAIL,4,NO,0,NO,0,2013-03-18 13:02:33 -0500,[maven-release-plugin] prepare release druid-0.3.24,722,46104
+706,cba404a6,FAIL,3,NO,0,NO,0,2013-03-18 13:02:40 -0500,[maven-release-plugin] prepare for next development iteration,722,46104
+707,57f52f71,FAIL,4,NO,0,NO,0,2013-03-18 17:04:11 -0500,1) Try checking for parent dirs first and creating if they aren't there when moving files from the legacy directory to the new one.,722,46109
+708,71aa8b80,FAIL,3,NO,0,NO,0,2013-03-18 17:06:51 -0500,1) It's great when log lines don't generate exceptions,722,46110
+709,1066144b,FAIL,4,NO,0,NO,0,2013-03-18 17:08:56 -0500,[maven-release-plugin] prepare release druid-0.3.25,722,46110
+710,f47319f1,FAIL,3,NO,0,NO,0,2013-03-18 17:09:01 -0500,[maven-release-plugin] prepare for next development iteration,722,46110
+711,d163f07a,FAIL,4,NO,0,NO,0,2013-03-18 17:12:15 -0700,Task: preflight takes TaskActionClient instead of TaskToolbox,722,46116
+712,5c3db75a,FAIL,3,NO,0,NO,0,2013-03-18 17:53:02 -0700,IndexGeneratorTask: Fix serialization,722,46116
+713,5f513be3,FAIL,4,NO,0,NO,0,2013-03-18 17:53:38 -0700,Merger: Replace TaskCallback with ListenableFuture<TaskStatus>,721,46098
+714,b5e7bff9,FAIL,3,NO,0,NO,0,2013-03-18 11:48:55 -0700,TaskMasterLifecycle: Less noisy exit when interrupted,721,46100
+715,922ed66a,FAIL,4,NO,0,NO,0,2013-03-19 10:46:46 -0700,Task: Fix comments in preamble,721,46100
+716,d1eb61d4,FAIL,3,NO,0,NO,0,2013-03-19 10:47:26 -0700,TaskAction: - Add isAudited - Generally straighten out Jackson annotations,721,46136
+717,ec566ee3,FAIL,4,NO,0,NO,0,2013-03-19 10:49:13 -0700,"Ability to run tasks in separate JVMs, and cancel tasks.",726,46535
+718,30fdb295,FAIL,3,NO,0,NO,0,2013-03-19 11:30:33 -0700,intiial commit for stop task,725,46323
+719,d5382213,FAIL,4,NO,0,NO,0,2013-03-19 12:23:20 -0700,Merge branch 'forking-task-runner' into stop_task,730,46818
+720,69a0e0e1,FAIL,3,NO,0,NO,0,2013-03-19 12:35:02 -0700,fix nodes not able to start,730,46826
+721,e5f46f2a,FAIL,4,NO,0,NO,0,2013-03-19 12:45:35 -0700,fix more startup problems,730,46824
+722,c68bd669,FAIL,3,NO,0,NO,0,2013-03-18 13:18:28 -0700,add close method to aggregators,723,46166
+723,243e70a3,FAIL,4,NO,0,NO,0,2013-03-19 16:31:37 -0700,TaskConsumer: Less complainy when interrupted,730,46825
+724,6324225a,FAIL,4,NO,0,NO,0,2013-03-19 16:32:01 -0700,ExecutorMain: Shut down when our parent disappears,730,46844
+725,c05629e6,FAIL,3,NO,0,NO,0,2013-03-19 17:08:48 -0700,more logging,730,46849
+726,76f4d120,FAIL,4,NO,0,NO,0,2013-03-19 17:43:29 -0700,ForkingTaskRunner: Totally ridiculous graceful shutdown mechanism,730,46880
+727,ed56bc52,FAIL,3,NO,0,NO,0,2013-03-19 17:55:05 -0700,RealtimeIndexTask: Better handle early shutdowns,730,46890
+728,dfe91d3b,FAIL,4,NO,0,NO,0,2013-03-19 18:02:23 -0700,RealtimeIndexTask: Close firehose after finishing plumbing job,730,46891
+729,9cdfea31,FAIL,3,NO,0,NO,0,2013-03-19 18:05:27 -0700,fix shutdown problem,730,46893
+730,424e8997,FAIL,4,NO,0,NO,0,2013-03-19 18:18:20 -0700,more logs,730,46896
+731,ce1ef940,FAIL,3,NO,0,NO,0,2013-03-19 18:16:13 -0700,GracefulShutdownFirehose: MutableBoolean -> AtomicBoolean,730,46897
+732,017278a5,FAIL,3,NO,0,NO,0,2013-03-19 18:16:25 -0700,IndexerCoordinatorResource: Un-break null returns,730,46898
+733,dc615ab7,FAIL,3,NO,0,NO,0,2013-03-19 18:29:00 -0700,RealtimePlumberSchool: Faster graceful shutdown,730,46893
+734,cc08d602,FAIL,4,NO,0,NO,0,2013-03-20 12:03:07 -0500,1) getDimensionCardinality() on QueryIndexStorageAdapter wasn't case insensitive.,722,46111
+735,a1dcdab5,FAIL,3,NO,0,NO,0,2013-03-20 10:51:16 -0700,clean up shutdown,730,46890
+736,654a43a0,FAIL,4,NO,0,NO,0,2013-03-20 10:51:47 -0700,Merge branch 'master' into stop_task,730,46891
+737,8eec41f9,FAIL,3,NO,0,NO,0,2013-03-20 11:41:40 -0700,squigglies ftw,723,46168
+738,0b04114c,FAIL,3,NO,0,NO,0,2013-03-20 12:17:20 -0700,more squigglies,723,46170
+739,57f88107,FAIL,4,NO,0,NO,0,2013-03-20 14:07:06 -0700,properly close rowiterators,723,46189
+740,d722c995,FAIL,3,NO,0,NO,0,2013-03-20 23:36:52 -0700,"fix cursor overshooting granularity boundaries, due to incorrect gran.next() usage",722,46111
+741,c0397aa6,FAIL,4,NO,0,NO,0,2013-03-21 10:36:14 -0700,add test case for granularities not aligned with segment boundaries,722,46138
+742,16e4cd42,FAIL,3,NO,0,NO,0,2013-03-21 10:38:39 -0700,fix cursor overshooting granularity boundaries in IncrementalIndexStorageAdapter as well,722,46138
+743,f00c2d07,FAIL,4,NO,0,NO,0,2013-03-21 11:11:43 -0700,Merge pull request #108 from metamx/fix-cursor-gran,722,46138
+744,3860710f,FAIL,3,NO,0,NO,0,2013-03-21 13:14:14 -0500,[maven-release-plugin] prepare release druid-0.3.26,722,46138
+745,35cfd1f1,FAIL,4,NO,0,NO,0,2013-03-21 13:14:20 -0500,[maven-release-plugin] prepare for next development iteration,722,46138
+746,e4c8122f,FAIL,3,NO,0,NO,0,2013-03-22 12:53:51 -0700,Merge branch 'master' of github.com:metamx/druid into stop_task,730,46918
+747,5eaaabce,FAIL,3,NO,0,NO,0,2013-03-22 17:05:39 -0700,fix for concurrent modifications in druid server,722,46111
+748,e7269511,FAIL,3,NO,0,NO,0,2013-03-22 17:07:05 -0700,Merge branch 'master' of github.com:metamx/druid,722,46138
+749,3687cba1,FAIL,3,NO,0,NO,0,2013-03-22 17:42:10 -0700,close resources as we iterate over them,723,46178
+750,c420fe3b,FAIL,3,NO,0,NO,0,2013-03-23 23:42:43 -0700,"fix output timestamps in groupby queries with granularity ""all"".",722,46151
+751,dcd10e69,FAIL,3,NO,0,NO,0,2013-03-24 18:19:32 -0700,WorkerTaskMonitor: Fix isTaskRunning check,722,46138
+752,32661397,FAIL,3,NO,0,NO,0,2013-03-24 18:23:17 -0700,RealtimePlumberSchool: Fix wait-for-handoff in finishJob,730,46919
+753,d366eec2,FAIL,4,NO,0,NO,0,2013-03-24 18:24:02 -0700,Merge branch 'master' into stop_task,730,46919
+754,a28de5fa,FAIL,3,NO,0,NO,0,2013-03-25 10:32:02 -0700,fix per tier metrics emission for new balancer,722,46168
+755,e57249bf,FAIL,4,NO,0,NO,0,2013-03-25 11:49:46 -0700,refactor balancer metric emission code,722,46148
+756,669f7926,FAIL,3,NO,0,NO,0,2013-03-25 12:58:32 -0700,Merge pull request #109 from metamx/fix-groupby-allgran-timestamp,722,46161
+757,05fdf086,FAIL,4,NO,0,NO,0,2013-03-25 13:09:19 -0700,Merge pull request #107 from metamx/aggregator-close,723,46229
+758,0ab7c315,FAIL,3,NO,0,NO,0,2013-03-25 13:11:02 -0700,more logging in CEQR to track down NPE,722,46145
+759,082ea59c,FAIL,4,NO,0,NO,0,2013-03-25 13:11:20 -0700,Merge branch 'master' of github.com:metamx/druid,723,46236
+760,3d7a0ea2,FAIL,3,NO,0,NO,0,2013-03-25 13:17:43 -0700,[maven-release-plugin] prepare release druid-0.3.27,723,46236
+761,efd57dcf,FAIL,4,NO,0,NO,0,2013-03-25 13:17:50 -0700,[maven-release-plugin] prepare for next development iteration,723,46236
+762,f0f4eee7,FAIL,4,NO,0,NO,0,2013-03-25 13:31:03 -0700,Merge branch 'master' into stop_task,731,47016
+763,a57951c7,FAIL,3,NO,0,NO,0,2013-03-25 13:31:19 -0700,Merge branch 'stop_task' of github.com:metamx/druid into stop_task,731,47017
+764,2306602e,FAIL,4,NO,0,NO,0,2013-03-26 09:06:11 -0500,1) Remove zookeeper 3.4.3 dependency from merger,722,46138
+765,42ca6aff,FAIL,3,NO,0,NO,0,2013-03-26 09:07:28 -0500,Merge branch 'master' of github.com:metamx/druid,723,46236
+766,a7d836a0,FAIL,4,NO,0,NO,0,2013-03-26 10:25:52 -0700,fix NPE for master balancing; introduce max number of workers for indexing service,723,46260
+767,f38566de,FAIL,3,NO,0,NO,0,2013-03-26 10:26:12 -0700,Merge branch 'master' of github.com:metamx/druid,723,46260
+768,a97287fa,FAIL,4,NO,0,NO,0,2013-03-26 11:10:04 -0700,[maven-release-plugin] prepare release druid-0.3.28,723,46260
+769,e785b87b,FAIL,3,NO,0,NO,0,2013-03-26 11:10:15 -0700,[maven-release-plugin] prepare for next development iteration,723,46260
+770,537f5279,FAIL,3,NO,0,NO,0,2013-03-26 14:14:23 -0700,Merge branch 'master' into stop_task,731,47041
+771,5bdcc361,FAIL,3,NO,0,NO,0,2013-03-27 10:40:44 -0700,fix inconsistent druid http paths + fix master console bugs,723,46263
+772,4e209a14,FAIL,4,NO,0,NO,0,2013-03-27 11:43:54 -0700,remove conflicting dependencies on ZK,723,46263
+773,8fee044c,FAIL,3,NO,0,NO,0,2013-03-27 11:55:38 -0700,[maven-release-plugin] prepare release druid-0.3.29,723,46263
+774,9e54e118,FAIL,3,NO,0,NO,0,2013-03-27 11:55:48 -0700,[maven-release-plugin] prepare for next development iteration,723,46263
+775,12e0dbce,FAIL,3,NO,0,NO,0,2013-03-28 19:12:10 -0700,fix broker datasources path,723,46263
+776,36601ee3,FAIL,3,NO,0,NO,0,2013-03-28 19:21:07 -0700,[maven-release-plugin] prepare release druid-0.3.30,723,46263
+777,04a46fb7,FAIL,3,NO,0,NO,0,2013-03-28 19:21:14 -0700,[maven-release-plugin] prepare for next development iteration,723,46263
+778,f9e5a10c,FAIL,3,NO,0,NO,0,2013-03-28 19:47:01 -0700,fix query problem,723,46263
+779,1515dddf,FAIL,4,NO,0,NO,0,2013-03-28 19:48:39 -0700,[maven-release-plugin] prepare release druid-0.3.31,723,46263
+780,30465b5c,FAIL,3,NO,0,NO,0,2013-03-28 19:48:46 -0700,[maven-release-plugin] prepare for next development iteration,723,46263
+781,da9b165a,FAIL,4,NO,0,NO,0,2013-03-29 09:37:05 -0500,1) A few minor edits to the paper,723,46263
+782,95b66eac,FAIL,3,NO,0,NO,0,2013-03-29 10:00:39 -0700,remove accidentally comitted files,723,46263
+783,b56ab645,FAIL,3,NO,0,NO,0,2013-04-01 14:26:02 -0700,fix segment partition deletion bug,723,46263
+784,467e75a2,FAIL,4,NO,0,NO,0,2013-04-01 14:26:16 -0700,Merge branch 'master' of github.com:metamx/druid,723,46263
+785,1f342dc0,FAIL,3,NO,0,NO,0,2013-04-01 14:28:36 -0700,[maven-release-plugin] prepare release druid-0.3.32,723,46263
+786,e8c6936a,FAIL,3,NO,0,NO,0,2013-04-01 14:28:43 -0700,[maven-release-plugin] prepare for next development iteration,723,46263
+787,258f1847,FAIL,3,NO,0,NO,0,2013-04-01 16:55:03 -0700,nodes will not try and download segments during startup,723,46286
+788,0730976c,FAIL,4,NO,0,NO,0,2013-04-01 17:16:19 -0700,fix broken UT,723,46290
+789,bbb3991b,FAIL,3,NO,0,NO,0,2013-04-01 17:17:44 -0700,[maven-release-plugin] prepare release druid-0.3.33,723,46290
+790,8b100248,FAIL,4,NO,0,NO,0,2013-04-01 17:17:50 -0700,[maven-release-plugin] prepare for next development iteration,723,46290
+791,c9d54136,FAIL,3,NO,0,NO,0,2013-04-02 18:40:25 +0200,fix cut-n-paste mistake in error message (issue #81),723,46288
+792,9400af7b,FAIL,4,NO,0,NO,0,2013-04-02 09:55:00 -0700,Merge pull request #114 from darxriggs/master,723,46288
+793,b1f2186c,FAIL,3,NO,0,NO,0,2013-04-02 11:36:01 -0700,use reservoir sampling in pickSegmentToMove to avoid IndexOutOfBoundsException when a segment gets dropped mid-run,723,46286
+794,1d050245,FAIL,4,NO,0,NO,0,2013-04-04 16:29:55 -0700,add argument checks to dim filters,723,46312
+795,4b11e1db,FAIL,3,NO,0,NO,0,2013-04-04 16:34:57 -0700,Merge pull request #115 from metamx/argument-checks,723,46312
+796,6d5869d8,FAIL,4,NO,0,NO,0,2013-04-05 14:36:21 -0700,remove unused imports,723,46310
+797,0b621c7b,FAIL,3,NO,0,NO,0,2013-04-06 11:10:36 -0500,1) Expand logging of unregistering real-time segments to help diagnose strange zookeeper behavior,723,46313
+798,488b3ef8,FAIL,4,NO,0,NO,0,2013-04-06 12:38:35 +0200,refactoring - made json type infos consistent for all query types,723,46316
+799,a6dc29cf,FAIL,3,NO,0,NO,0,2013-04-02 18:59:26 +0200,cleanup - removed extra empty lines,723,46313
+800,6c27cd2e,FAIL,3,NO,0,NO,0,2013-04-07 23:30:13 +0200,cleanup - removed unused imports,723,46224
+801,be47c200,FAIL,4,NO,0,NO,0,2013-04-08 08:36:55 -0700,Merge pull request #117 from darxriggs/a6dc29cf85fe617a96b70ca3cf84150b9e2e86f4,723,46313
+802,925c104d,FAIL,4,NO,0,NO,0,2013-04-08 11:23:08 -0700,update emitter version and fix some NPEs,723,46323
+803,120b822c,FAIL,3,NO,0,NO,0,2013-04-08 11:24:17 -0700,Merge branch 'master' of github.com:metamx/druid,723,46346
+804,f0ab28be,FAIL,4,NO,0,NO,0,2013-04-08 11:26:32 -0700,[maven-release-plugin] prepare release druid-0.3.34,723,46346
+805,6fe9707f,FAIL,3,NO,0,NO,0,2013-04-08 11:26:37 -0700,[maven-release-plugin] prepare for next development iteration,723,46346
+806,741a13fc,FAIL,12,NO,0,NO,0,2013-03-27 10:40:44 -0700,fix inconsistent druid http paths + fix master console bugs,731,47044
+807,fb5b1b44,FAIL,4,NO,0,NO,0,2013-03-27 11:43:54 -0700,remove conflicting dependencies on ZK,731,47044
+808,ef50da3b,FAIL,3,NO,0,NO,0,2013-03-27 11:55:38 -0700,[maven-release-plugin] prepare release druid-0.3.29,731,47044
+809,dbb03deb,FAIL,4,NO,0,NO,0,2013-03-27 11:55:48 -0700,[maven-release-plugin] prepare for next development iteration,731,47044
+810,ef2a7c7a,FAIL,4,NO,0,NO,0,2013-03-28 19:12:10 -0700,fix broker datasources path,731,47044
+811,ff0fdc15,FAIL,3,NO,0,NO,0,2013-03-28 19:21:07 -0700,[maven-release-plugin] prepare release druid-0.3.30,731,47044
+812,185d3671,FAIL,4,NO,0,NO,0,2013-03-28 19:21:14 -0700,[maven-release-plugin] prepare for next development iteration,731,47044
+813,dd80fded,FAIL,3,NO,0,NO,0,2013-03-28 19:47:01 -0700,fix query problem,731,47044
+814,d4dc593e,FAIL,4,NO,0,NO,0,2013-03-28 19:48:39 -0700,[maven-release-plugin] prepare release druid-0.3.31,731,47044
+815,bf2f2df2,FAIL,3,NO,0,NO,0,2013-03-28 19:48:46 -0700,[maven-release-plugin] prepare for next development iteration,731,47044
+816,847790f7,FAIL,4,NO,0,NO,0,2013-03-29 09:37:05 -0500,1) A few minor edits to the paper,731,47044
+817,2a199fd6,FAIL,3,NO,0,NO,0,2013-03-29 10:00:39 -0700,remove accidentally comitted files,731,47044
+818,e1366aa4,FAIL,3,NO,0,NO,0,2013-04-01 14:26:02 -0700,fix segment partition deletion bug,731,47044
+819,4f232fe4,FAIL,3,NO,0,NO,0,2013-04-01 14:28:36 -0700,[maven-release-plugin] prepare release druid-0.3.32,731,47044
+820,2fcf7e01,FAIL,4,NO,0,NO,0,2013-04-01 14:28:43 -0700,[maven-release-plugin] prepare for next development iteration,731,47044
+821,917cb204,FAIL,3,NO,0,NO,0,2013-04-01 16:55:03 -0700,nodes will not try and download segments during startup,731,47067
+822,272265b3,FAIL,3,NO,0,NO,0,2013-04-01 17:16:19 -0700,fix broken UT,731,47071
+823,27cef037,FAIL,3,NO,0,NO,0,2013-04-01 17:17:44 -0700,[maven-release-plugin] prepare release druid-0.3.33,731,47071
+824,e125a58f,FAIL,4,NO,0,NO,0,2013-04-01 17:17:50 -0700,[maven-release-plugin] prepare for next development iteration,731,47071
+825,3937a776,FAIL,3,NO,0,NO,0,2013-04-02 18:40:25 +0200,fix cut-n-paste mistake in error message (issue #81),731,47069
+826,092fe70a,FAIL,4,NO,0,NO,0,2013-04-02 11:36:01 -0700,use reservoir sampling in pickSegmentToMove to avoid IndexOutOfBoundsException when a segment gets dropped mid-run,731,47067
+827,33434f2c,FAIL,3,NO,0,NO,0,2013-04-02 16:19:46 -0700,Executor: Move most logic out of main,733,47143
+828,f90304d0,FAIL,4,NO,0,NO,0,2013-04-09 10:33:52 -0700,Merger: Task logging system,739,47508
+829,fce3b8c2,FAIL,3,NO,0,NO,0,2013-04-09 10:34:53 -0700,Merge branch 'master' into stop_task,739,47508
+830,a678f08b,FAIL,3,NO,0,NO,0,2013-04-09 18:56:59 -0700,Merge pull request #118 from darxriggs/master,723,46258
+831,55648c47,FAIL,3,NO,0,NO,0,2013-04-09 19:13:08 -0700,1) Adjust the GroupByQuery to also be able to merge results on the local node.  Fixes #116 2) Make the GroupByQuery operate in a multi-threaded fashion by default (this is configurable via druid.query.groupBy.singleThreaded).  Fixes #96 3) Fix up some post aggregation computation stuff.  I believe #72 is fixed 4) Fix case sensitivity issue with post aggregations on GroupBy queries,724,46284
+832,4d7dace0,FAIL,3,NO,0,NO,0,2013-04-10 10:02:24 -0700,Realtime: Update to kafka-0.7.2,724,46285
+833,eaea8ae1,FAIL,4,NO,0,NO,0,2013-04-10 09:51:51 -0700,- Ability to cancel pending tasks in the ForkingTaskRunner. - Other various changes from code review.,739,47535
+834,465b78b4,FAIL,3,NO,0,NO,0,2013-04-10 20:21:26 -0700,more changes,739,47538
+835,a2427402,FAIL,4,NO,0,NO,0,2013-04-12 11:49:01 -0700,change shutdown logic for firehose,739,47538
+836,e9f6c726,FAIL,4,NO,0,NO,0,2013-04-12 11:55:11 -0700,Merge pull request #120 from metamx/kafka-0.7.2,724,46285
+837,c21d7f6e,FAIL,4,NO,0,NO,0,2013-04-12 14:06:40 -0700,ForkingTaskRunner: Slight tweaks to setup and teardown,739,47538
+838,a0b2a348,FAIL,3,NO,0,NO,0,2013-04-12 14:10:27 -0700,Merge branch 'master' into stop_task,740,47542
+839,bacb1e55,FAIL,4,NO,0,NO,0,2013-04-12 22:12:22 -0700,update fix,739,47538
+840,8a4ec1cd,FAIL,3,NO,0,NO,0,2013-04-12 22:13:22 -0700,Merge branch 'stop_task' of github.com:metamx/druid into stop_task,740,47542
+841,6ed0308c,FAIL,3,NO,0,NO,0,2013-04-12 22:13:45 -0700,Merge branch 'master' into stop_task,740,47543
+842,cb1b69da,FAIL,3,NO,0,NO,0,2013-04-12 22:14:10 -0700,Merge pull request #110 from metamx/stop_task,740,47543
+843,cc929b2a,FAIL,3,NO,0,NO,0,2013-04-15 11:09:04 -0700,slightly better configuration when talking to indexing service,724,46299
+844,7a21ef9f,FAIL,4,NO,0,NO,0,2013-04-15 14:58:44 -0700,Merge pull request #122 from metamx/config-master,740,47557
+845,b71ae8ad,FAIL,3,NO,0,NO,0,2013-04-15 15:03:20 -0700,[maven-release-plugin] prepare release druid-0.3.35,740,47557
+846,beff15f8,FAIL,4,NO,0,NO,0,2013-04-15 15:03:26 -0700,[maven-release-plugin] prepare for next development iteration,740,47557
+847,2cf1cf9c,FAIL,3,NO,0,NO,0,2013-04-15 15:42:10 -0700,druid paper,724,46285
+848,3cfa081c,FAIL,4,NO,0,NO,0,2013-04-15 15:42:19 -0700,Merge branch 'master' of github.com:metamx/druid,740,47557
+849,3884ebbc,FAIL,3,NO,0,NO,0,2013-04-15 16:41:41 -0700,ForkingTaskRunner: Fix properties loading,740,47557
+850,eb804291,FAIL,3,NO,0,NO,0,2013-04-15 16:43:47 -0700,[maven-release-plugin] prepare release druid-0.3.36,740,47557
+851,128b8730,FAIL,4,NO,0,NO,0,2013-04-15 16:43:53 -0700,[maven-release-plugin] prepare for next development iteration,740,47557
+852,cafbcdb8,FAIL,3,NO,0,NO,0,2013-04-15 18:15:33 -0700,Merger: Tweaks to task tracking,740,47565
+853,c3d229df,FAIL,4,NO,0,NO,0,2013-04-15 18:17:36 -0700,[maven-release-plugin] prepare release druid-0.3.37,740,47565
+854,d879c9a4,FAIL,4,NO,0,NO,0,2013-04-15 18:17:42 -0700,[maven-release-plugin] prepare for next development iteration,740,47565
+855,cdbdf843,FAIL,3,NO,0,NO,0,2013-04-15 18:51:01 -0700,Merger: Tweaks to task shutdown,740,47564
+856,21c2aa57,FAIL,4,NO,0,NO,0,2013-04-15 18:55:46 -0700,[maven-release-plugin] prepare release druid-0.3.38,740,47564
+857,a1663442,FAIL,3,NO,0,NO,0,2013-04-15 18:55:53 -0700,[maven-release-plugin] prepare for next development iteration,740,47564
+858,de5622d7,FAIL,2,NO,0,NO,0,2013-04-09 17:55:21 -0700,bump up druid version to 0.4.0,740,47564
+859,0c68bd1b,FAIL,2,NO,0,NO,0,2013-04-09 17:51:23 -0700,rename MetricSelectorFactory to ColumnSelectorFactory,740,47564
+860,c8363192,FAIL,2,NO,0,NO,0,2013-04-11 14:42:19 -0700,object column selectors,741,47815
+861,b66f69de,FAIL,2,NO,0,NO,0,2013-03-20 16:08:18 -0700,specify javascript aggregator functions individually to support getCombiningFactory(),741,47834
+862,66a52ed2,FAIL,2,NO,0,NO,0,2013-04-11 14:43:47 -0700,javascript aggregator now uses column selector,741,47847
+863,2afe2bde,FAIL,2,NO,0,NO,0,2013-04-15 09:28:32 -0700,formatting,741,47851
+864,4597d7f4,FAIL,2,NO,0,NO,0,2013-04-15 14:31:24 -0700,remove IndexStorageAdapter,740,47518
+865,50998671,FAIL,2,NO,0,NO,0,2013-04-15 15:39:26 -0700,formatting,740,47519
+866,31a38f6c,FAIL,2,NO,0,NO,0,2013-04-16 09:39:49 -0700,Merge pull request #121 from metamx/column-selectors,740,47519
+867,db2f3aa7,FAIL,3,NO,0,NO,0,2013-04-16 09:53:34 -0700,fix pom versions,740,47519
+868,71269d7e,FAIL,4,NO,0,NO,0,2013-04-17 17:13:24 -0700,somehow tests are passing,745,47836
+869,cc30dfad,FAIL,3,NO,0,NO,0,2013-04-19 10:14:17 -0500,Test commit to test contributions,740,47519
+870,1dfe1335,FAIL,3,NO,0,NO,0,2013-04-19 14:04:10 -0700,DbConnector: Optional validation query (default off for now),740,47526
+871,1a659452,FAIL,3,NO,0,NO,0,2013-04-19 14:04:35 -0700,Merger: Tweaks to DB tables. Create tables automatically.,740,47568
+872,17205ebe,FAIL,3,NO,0,NO,0,2013-04-19 14:07:17 -0700,RealtimeIndexTask: Add minTime to assist in graceful switchover,741,47607
+873,dbfa045d,FAIL,3,NO,0,NO,0,2013-04-19 14:51:22 -0700,DbConnector: SQL and validation query tweaks,741,47610
+874,5edbf2b4,FAIL,3,NO,0,NO,0,2013-04-19 14:51:41 -0700,MinTimeFirehose: Correcter logic,741,47627
+875,376df403,FAIL,3,NO,0,NO,0,2013-04-19 15:26:00 -0700,"IndexerCoordinatorNode: Only create tables when in ""db"" storage mode",741,47628
+876,4c4d30cf,FAIL,3,NO,0,NO,0,2013-04-19 15:45:00 -0700,Initialization: Set service discovery address equal to druid.host (without port if any),741,47637
+877,7da14663,FAIL,4,NO,0,NO,0,2013-04-19 15:50:09 -0700,RealtimeIndexTask: Fix minTime serialization,741,47640
+878,6c4e844f,FAIL,4,NO,0,NO,0,2013-04-19 16:56:56 -0700,semi working spatial,746,47924
+879,78850a07,FAIL,3,NO,0,NO,0,2013-04-19 16:57:20 -0700,MinTimeFirehose: Care less about making nextRow work without hasMore,741,47633
+880,1c3ceddb,FAIL,4,NO,0,NO,0,2013-04-19 16:57:42 -0700,fix typo and also testing commit,740,47557
+881,4c1cbdc5,FAIL,3,NO,0,NO,0,2013-04-19 16:57:52 -0700,Merge branch 'master' of github.com:metamx/druid,740,47519
+882,4f4ebd5a,FAIL,3,NO,0,NO,0,2013-04-19 16:58:15 -0700,Merger: Switch payloads from strings to bytes,741,47633
+883,42c3f278,FAIL,4,NO,0,NO,0,2013-04-19 17:03:56 -0700,Merge pull request #125 from metamx/indexing-service-stuff,741,47633
+884,5ea1a77a,FAIL,3,NO,0,NO,0,2013-04-19 17:15:00 -0700,[maven-release-plugin] prepare release druid-0.4.0,741,47633
+885,deefa870,FAIL,4,NO,0,NO,0,2013-04-19 17:15:07 -0700,[maven-release-plugin] prepare for next development iteration,741,47633
+886,f28abd42,FAIL,4,NO,0,NO,0,2013-04-22 15:01:07 -0700,fix cache,746,47926
+887,9b9c516e,FAIL,4,NO,0,NO,0,2013-04-22 18:39:41 -0700,more tests,746,48012
+888,70937af7,FAIL,4,NO,0,NO,0,2013-04-23 11:40:44 -0700,Merge branch 'master' of github.com:metamx/druid into spatial,747,48077
+889,7184e528,FAIL,4,NO,0,NO,0,2013-04-23 13:16:50 -0700,fix some config bugs,747,48075
+890,13b617cf,FAIL,3,NO,0,NO,0,2013-04-23 16:53:57 -0700,fix some interval bugs,747,48080
+891,7f43f374,FAIL,4,NO,0,NO,0,2013-04-23 18:06:41 -0700,bug fixes,747,48176
+892,e3c6bad1,FAIL,3,NO,0,NO,0,2013-04-24 15:38:16 -0700,add emitting request logger,742,47712
+893,77ef525a,FAIL,4,NO,0,NO,0,2013-04-24 15:59:19 -0700,Merge pull request #130 from metamx/requestlogemitter,742,47712
+894,d29b3e09,FAIL,4,NO,0,NO,0,2013-04-24 16:00:47 -0700,fix lowercase bug,747,48176
+895,341ee274,FAIL,3,NO,0,NO,0,2013-04-25 13:10:17 +0300,"Changes to allow pushing events directly to realtime tasks, and the creation of single-segment realtime tasks.",751,48066
+896,f463b952,FAIL,4,NO,0,NO,0,2013-04-25 13:57:23 +0300,Merger: Advertise event receivers through service discovery,752,48129
+897,e01a7851,FAIL,4,NO,0,NO,0,2013-04-25 19:01:45 -0700,many more fixes and unit tests,747,48309
+898,43d630c0,FAIL,5,NO,0,NO,0,2013-04-22 20:04:28 -0500,1) Replace InventoryManagers with Curator-based Inventory Managers 2) Replace ZkSegmentAnnouncer with CuratorSegmentAnnouncer 3) Adjust LoadQueuePeons to operate using Curator 4) Remove ZkPhoneBook,748,47570
+899,dde50a0d,FAIL,4,NO,0,NO,0,2013-04-23 14:44:02 -0500,1) Remove references to zkclient 2) Eradicate zkclient from the poms!,745,47389
+900,57c31656,FAIL,5,NO,0,NO,0,2013-04-23 15:58:27 -0500,1) Eliminate PhoneBook,738,47132
+901,545b4890,FAIL,4,NO,0,NO,0,2013-04-23 16:07:40 -0500,1) Use PathChildrenCacheFactory to simplify creation of PathChildrenCache objects.,738,47128
+902,7370b0f2,FAIL,4,NO,0,NO,0,2013-04-23 16:25:29 -0500,1) Cleanup TODO comments,738,47128
+903,f71b941a,FAIL,5,NO,0,NO,0,2013-04-23 17:54:49 -0500,1) Refactor the announcement of segments to all exist inside the DataSegmentAnnouncer 2) Adjust the ExecutorNodes to expose the correct nodeType given the refactorings,737,47100
+904,b8ba9138,FAIL,4,NO,0,NO,0,2013-04-23 19:20:56 -0500,"1) Fix bug with Master not starting up without an indexer specified 2) Fix bug with PotentiallyGzippedCompressionProvider only catching ZipExceptions and not IOException (java 6 throws IO, java 7 throws Zip) 3) Create DruidServerMetadata and use that instead of DruidServer to represent the current server",738,47114
+905,9153cc94,FAIL,5,NO,0,NO,0,2013-04-24 17:26:27 -0500,1) Nicer logging 2) Announcer should actually delete its zk entries when it is told to unannounce something 3) Skip over complex columns that we don't have a proper deserializer for,738,47115
+906,3e94204c,FAIL,5,NO,0,NO,0,2013-04-24 17:29:24 -0500,1) Switch from com.netflix.curator to org.apache.curator,738,47115
+907,b6d72c0d,FAIL,6,NO,0,NO,0,2013-04-24 18:24:48 -0500,1) Log when servers show up and when they load segments 2) Adjust nodes to publish to ZK as the last part of their initialization,738,47123
+908,67ce1b6f,FAIL,5,NO,0,NO,0,2013-04-25 10:37:18 -0500,1) Adjust all of the uses of zookeeper paths to be based on ZkPathsConfig,736,47090
+909,38b5d94f,FAIL,5,NO,0,NO,0,2013-04-25 10:38:03 -0500,1) Imports...,736,47085
+910,1eb2dfe1,FAIL,5,NO,0,NO,0,2013-04-25 10:40:17 -0500,1) Don't need a ServiceEmitter in ZkCoordinator anymore.,736,47081
+911,de5c8c9d,FAIL,5,NO,0,NO,0,2013-04-25 10:42:45 -0500,It's better when things compile,736,47079
+912,19d80ccd,FAIL,4,NO,0,NO,0,2013-04-25 11:00:33 -0500,Remove extraneous logs,736,47078
+913,163a73be,FAIL,4,NO,0,NO,0,2013-04-25 11:11:53 -0500,More logging stuff,736,47075
+914,046647c2,FAIL,5,NO,0,NO,0,2013-04-26 16:28:57 -0500,1) Make druid.zk.paths.base required 2) Unit tests for announcer and fix race condition with session death,737,47202
+915,87684060,FAIL,5,NO,0,NO,0,2013-04-26 18:35:42 -0500,1) Unit tests!,738,47325
+916,74ff07ba,FAIL,5,NO,0,NO,0,2013-04-26 18:46:07 -0500,Moar unit tests,738,47325
+917,99305b29,FAIL,5,NO,0,NO,0,2013-04-26 19:16:56 -0500,Fixorz unit tests!,738,47367
+918,52ba6096,FAIL,5,NO,0,NO,0,2013-04-26 19:25:23 -0500,Screwed up the conflicts on rebasing.  Fixorz orz orz,738,47381
+919,82a62e3b,FAIL,4,NO,0,NO,0,2013-04-26 17:46:25 -0700,bug fixes for spatial and groupby; threshold for groupby,747,48336
+920,67cafaa0,FAIL,3,NO,0,NO,0,2013-04-26 17:56:18 -0700,Merge branch 'master' into spatial,748,48415
+921,28494862,FAIL,3,NO,0,NO,0,2013-04-28 15:34:43 -0700,simpler sequence limiting,748,48408
+922,405eed7c,FAIL,5,NO,0,NO,0,2013-04-29 11:48:42 -0500,Better name for ServerInventoryThingie,738,47378
+923,cee15bb8,FAIL,5,NO,0,NO,0,2013-04-29 12:05:59 -0500,Adjust passing of nodeType to ExecutorMain to be via a system property instead of via a command line argument.,738,47377
+924,2630d75c,FAIL,5,NO,0,NO,0,2013-04-29 13:58:57 -0500,More explicit comments around Zookeeper race condition,738,47376
+925,a665e8b3,FAIL,4,NO,0,NO,0,2013-04-29 14:02:30 -0500,whitespace!,738,47376
+926,862365e1,FAIL,3,NO,0,NO,0,2013-04-30 15:05:26 +0300,EventReceiverFirehoseFactory: Move parse exceptions from hasMore to addAll,752,48134
+927,25d7ecac,FAIL,6,NO,0,NO,0,2013-04-30 11:01:04 -0500,No more snapshots,738,47376
+928,cd535fcd,FAIL,4,NO,0,NO,0,2013-04-30 09:02:47 -0700,Merge pull request #131 from metamx/curator,738,47376
+929,60b279b0,FAIL,4,NO,0,NO,0,2013-04-30 12:47:43 -0500,1) Add support for storing segments in HDFS,741,47520
+930,e1367f25,FAIL,4,NO,0,NO,0,2013-04-30 12:58:36 -0500,"Fixes #112, paths specified as ""s3://"" when given to HadoopDruidIndexerMain will be converted to ""s3n://"" and loaded via Hadoop's default file system for s3n.",741,47535
+931,8922adb1,FAIL,4,NO,0,NO,0,2013-04-30 18:13:55 -0500,1) Make the demos work again. 2) First step in restructuring the demos into a single repository,742,47580
+932,72982f59,FAIL,4,NO,0,NO,0,2013-04-30 18:18:15 -0500,Remove the rand demo directory,741,47538
+933,0a3492c9,FAIL,4,NO,0,NO,0,2013-04-30 18:27:38 -0500,Move all the code for examples under the examples directory.  Also add initial take on flights demo.,743,47711
+934,1a2135a0,FAIL,3,NO,0,NO,0,2013-05-01 12:26:36 +0300,TaskStorageQueryAdapter: Fix getSameGroupMergedStatus for nonexistent tasks,752,48139
+935,407e413a,FAIL,4,NO,0,NO,0,2013-05-01 17:13:02 +0300,IndexerCoordinatorResource: Return 404 with proper json for status not found,752,48143
+936,63ccb24e,FAIL,4,NO,0,NO,0,2013-05-01 10:12:04 -0700,Merge branch 'master' into spatial,747,48233
+937,e1a2c43b,FAIL,4,NO,0,NO,0,2013-05-01 12:51:26 -0500,1) Adjust the example code to all be in one repository. 2) Adjust the run scripts to be able to switch between different examples.,743,47713
+938,e21e85b9,FAIL,3,NO,0,NO,0,2013-05-01 13:08:13 -0500,1) Make RealtimeIndexTask merge results like it should,743,47722
+939,7f839f7e,FAIL,3,NO,0,NO,0,2013-05-01 11:28:27 -0400,Fixes compilation error to accomodate multiple generic constraints in CharStream.,743,47723
+940,fd4b14ec,FAIL,3,NO,0,NO,0,2013-05-01 13:43:19 -0400,Eclipse formatting file.  (only what I inferred from a few files),743,47723
+941,6d4c0850,FAIL,3,NO,0,NO,0,2013-05-01 11:49:00 -0700,Merge branch 'master' into spatial,749,48420
+942,bf01399a,FAIL,4,NO,0,NO,0,2013-05-01 15:11:50 -0400,"Cassandra Data Segment Pusher, initial commit.",748,47950
+943,b8c8ed8d,FAIL,4,NO,0,NO,0,2013-05-01 15:17:15 -0400,Formatting.,748,47950
+944,b82a4e57,FAIL,4,NO,0,NO,0,2013-05-01 17:31:29 -0500,"1) A ""working"" assembly",743,47722
+945,d1a8b93b,FAIL,4,NO,0,NO,0,2013-05-01 17:37:38 -0500,1) druid-services -> services,743,47722
+946,8948c8d4,FAIL,4,NO,0,NO,0,2013-05-02 16:34:14 +0300,Merge branch 'master' into event-push,753,48150
+947,12fe145c,FAIL,4,NO,0,NO,0,2013-05-02 16:35:06 -0500,"1) Setup assembly to grab all dependencies -- it's broken right now, http://jira.codehaus.org/browse/MASSEMBLY-646",743,47722
+948,0b965852,FAIL,4,NO,0,NO,0,2013-05-02 16:38:44 -0500,1) Unbreak the build,743,47722
+949,df6fd5ec,FAIL,4,NO,0,NO,0,2013-05-02 17:13:22 -0500,[maven-release-plugin] prepare release druid-0.4.1,743,47722
+950,5f184ea9,FAIL,4,NO,0,NO,0,2013-05-02 17:13:28 -0500,[maven-release-plugin] prepare for next development iteration,743,47722
+951,3c04f163,FAIL,4,NO,0,NO,0,2013-05-02 18:00:50 -0500,1) Fix bug with same name on multiple JSON properties,743,47722
+952,8ce55ac6,FAIL,4,NO,0,NO,0,2013-05-03 14:26:54 +0300,ExecutorMain: Fix args count,753,48150
+953,af08ea76,FAIL,4,NO,0,NO,0,2013-05-03 14:29:17 +0300,"ServiceAnnouncer: - Interface with two impls, Noop and Curator - Used wherever fine services are advertised",758,48268
+954,b32a7288,FAIL,4,NO,0,NO,0,2013-05-03 16:38:23 +0300,Move indexer zk paths to ZkPathsConfig,758,48281
+955,6649a4b3,FAIL,4,NO,0,NO,0,2013-05-03 12:13:57 -0500,1) Don't require druid.zk.paths.base when attempting to load properties from zk,743,47728
+956,4fef7c2c,FAIL,4,NO,0,NO,0,2013-05-03 12:16:57 -0500,[maven-release-plugin] prepare release druid-0.4.2,743,47728
+957,c89f4cc8,FAIL,3,NO,0,NO,0,2013-05-03 12:17:05 -0500,[maven-release-plugin] prepare for next development iteration,743,47728
+958,d57141f4,FAIL,4,NO,0,NO,0,2013-05-03 10:35:26 -0700,checking stuff in but stuff not really working yet,756,48746
+959,c15ac1fc,FAIL,5,NO,0,NO,0,2013-05-03 10:52:00 -0700,limit spec for group by,745,47850
+960,3d262e6e,FAIL,3,NO,0,NO,0,2013-05-03 11:12:46 -0700,Merge pull request #135 from metamx/groupby-improve,745,47850
+961,665f3ef0,FAIL,3,NO,0,NO,0,2013-05-03 17:47:18 -0500,1) Unit tests for order by and limit stuff for groupBy queries 2) Adjustments to order by and limit stuff in light of unit tests-n-stuff,747,48034
+962,3417c50e,FAIL,3,NO,0,NO,0,2013-05-03 16:20:37 -0700,Merge branch 'master' into spatial,756,48760
+963,36516d21,FAIL,4,NO,0,NO,0,2013-05-03 16:38:08 -0700,Merge pull request #136 from metamx/group_by_order_limit,747,48034
+964,ba2b2fb3,FAIL,4,NO,0,NO,0,2013-05-03 18:41:33 -0500,[maven-release-plugin] prepare release druid-0.4.3,747,48034
+965,de720e6e,FAIL,4,NO,0,NO,0,2013-05-03 18:41:39 -0500,[maven-release-plugin] prepare for next development iteration,747,48034
+966,344a2b5d,FAIL,4,NO,0,NO,0,2013-05-03 23:09:05 -0700,numerous bug fixes and improvements according to code review,756,48819
+967,89029860,FAIL,4,NO,0,NO,0,2013-05-03 23:09:30 -0700,Merge branch 'master' into spatial,758,49003
+968,5a9bf98b,FAIL,4,NO,0,NO,0,2013-05-04 20:04:16 -0700,Some changes to automatically build a kit with samples.,743,47722
+969,c0e38981,FAIL,4,NO,0,NO,0,2013-05-04 20:50:53 -0700,Forgot to edit the source file so config was messed up,743,47722
+970,cfe9b7f1,FAIL,4,NO,0,NO,0,2013-05-04 21:02:31 -0700,Added a few comments and made sure it still works for non-kits,743,47722
+971,16455fe9,FAIL,4,NO,0,NO,0,2013-05-04 22:10:07 -0700,Merge branch 'master' of https://github.com/metamx/druid into kit-building,747,48034
+972,72e40fd9,FAIL,4,NO,0,NO,0,2013-05-06 09:58:44 -0700,Merge pull request #138 from metamx/kit-building,747,48034
+973,2ff9e28b,FAIL,4,NO,0,NO,0,2013-05-06 11:57:11 -0700,Merge branch 'master' into spatial,758,49003
+974,b18a548f,FAIL,4,NO,0,NO,0,2013-05-06 13:22:42 -0700,update emitter version,747,48034
+975,cdd8f78e,FAIL,4,NO,0,NO,0,2013-05-06 15:33:08 -0500,"1) Make GroupByQuery not require a limit clause 2) Make DefaultLimitSpec not require the ""limit"" field to be specified in JSON 3) Move a log line in Announcer to debug",747,48031
+976,9324b233,FAIL,3,NO,0,NO,0,2013-05-06 15:34:50 -0500,Merge branch 'master' of github.com:metamx/druid,747,48031
+977,a25469eb,FAIL,3,NO,0,NO,0,2013-05-06 15:43:28 -0500,"1) Rename ""orderBy"" on DefaultLimitSpec to ""columns""",747,48031
+978,426c2b2c,FAIL,4,NO,0,NO,0,2013-05-06 14:22:47 -0700,remove some_file.txt,747,48031
+979,0eb7b248,FAIL,3,NO,0,NO,0,2013-05-06 14:24:16 -0700,[maven-release-plugin] prepare release druid-0.4.4,747,48031
+980,9c8a0152,FAIL,3,NO,0,NO,0,2013-05-06 14:25:43 -0700,Merge branch 'master' of github.com:metamx/druid,747,48031
+981,f34d73aa,FAIL,4,NO,0,NO,0,2013-05-06 14:27:22 -0700,fix pom versions because of failed release,747,48031
+982,a4bd6bc8,FAIL,4,NO,0,NO,0,2013-05-06 14:30:03 -0700,[maven-release-plugin] prepare release druid-0.4.5,747,48031
+983,f7dfea05,FAIL,4,NO,0,NO,0,2013-05-06 14:30:11 -0700,[maven-release-plugin] prepare for next development iteration,747,48031
+984,d9b72e31,FAIL,4,NO,0,NO,0,2013-05-06 14:45:48 -0700,Merger: Replace EventReceivers with ChatHandlers,759,48284
+985,79d802fe,FAIL,4,NO,0,NO,0,2013-05-06 17:54:12 -0400,Working data segment pushed for C*.,748,47971
+986,142668cd,FAIL,4,NO,0,NO,0,2013-05-06 17:54:56 -0400,Merge branch 'master' of https://github.com/metamx/druid into cassandra-segments,752,48280
+987,202953c5,FAIL,4,NO,0,NO,0,2013-05-06 14:58:47 -0700,"ChatHandler: Remove useless method, add docs",759,48283
+988,7930a76b,FAIL,4,NO,0,NO,0,2013-05-06 15:00:59 -0700,EventReceiverFirehoseFactory: Remove useless getHandlerId method,759,48280
+989,01c1257c,FAIL,4,NO,0,NO,0,2013-05-06 15:10:44 -0700,Merge pull request #134 from metamx/event-push,763,48589
+990,8e873629,FAIL,4,NO,0,NO,0,2013-05-06 23:14:18 -0400,Added puller.,750,48229
+991,17835e6e,FAIL,3,NO,0,NO,0,2013-05-06 23:41:58 -0400,Examples for the cassandra storage.,750,48229
+992,41e9f8fc,FAIL,4,NO,0,NO,0,2013-05-07 11:35:14 -0400,Working Push & Pull.,751,48232
+993,863b8808,FAIL,3,NO,0,NO,0,2013-05-07 11:36:49 -0400,Merge branch 'master' of https://github.com/metamx/druid into cassandra-segments,767,48790
+994,f5dab1a4,FAIL,3,NO,0,NO,0,2013-05-07 09:31:07 -0700,add to string for groupby,763,48599
+995,d883001a,FAIL,3,NO,0,NO,0,2013-05-07 09:32:46 -0700,[maven-release-plugin] prepare release druid-0.4.6,763,48599
+996,913cf370,FAIL,3,NO,0,NO,0,2013-05-07 09:32:54 -0700,[maven-release-plugin] prepare for next development iteration,763,48599
+997,10a96626,FAIL,3,NO,0,NO,0,2013-05-07 16:53:12 -0400,Documentation for C*,767,48795
+998,4c092cb2,FAIL,4,NO,0,NO,0,2013-05-07 17:01:57 -0400,Merge branch 'master' of https://github.com/metamx/druid,763,48600
+999,69a14ae9,FAIL,3,NO,0,NO,0,2013-05-07 17:09:42 -0400,Added diagram for segment propagation (with websequence text),763,48600
+1000,32f82364,FAIL,4,NO,0,NO,0,2013-05-07 14:12:05 -0700,Merge branch 'master' into spatial,774,49568
+1001,43d3c538,FAIL,4,NO,0,NO,0,2013-05-08 10:14:40 -0700,fix order by double sum agg,763,48630
+1002,758baa91,FAIL,4,NO,0,NO,0,2013-05-08 10:17:17 -0700,[maven-release-plugin] prepare release druid-0.4.7,763,48630
+1003,e20aabd7,FAIL,4,NO,0,NO,0,2013-05-08 10:17:25 -0700,[maven-release-plugin] prepare for next development iteration,763,48630
+1004,986bb248,FAIL,3,NO,0,NO,0,2013-05-08 10:37:38 -0700,Merge branch 'master' into spatial,774,49599
+1005,b93c7e11,FAIL,3,NO,0,NO,0,2013-05-08 10:37:46 -0700,fix serialization of request logs,763,48641
+1006,79665d32,FAIL,3,NO,0,NO,0,2013-05-08 10:56:12 -0700,[maven-release-plugin] prepare release druid-0.4.8,763,48641
+1007,8388d059,FAIL,3,NO,0,NO,0,2013-05-08 10:56:22 -0700,[maven-release-plugin] prepare for next development iteration,763,48641
+1008,e1deaccd,FAIL,4,NO,0,NO,0,2013-05-08 11:46:46 -0700,Merge branch 'master' into spatial,774,49610
+1009,3eb0f4df,FAIL,4,NO,0,NO,0,2013-05-08 15:50:58 -0400,Fix hierarchy in Pusher (to use CassandraStorage superclass),767,48768
+1010,8e0c0e6d,FAIL,4,NO,0,NO,0,2013-05-08 16:02:11 -0400,Switched to default the aws properties.,767,48761
+1011,bec5d248,FAIL,4,NO,0,NO,0,2013-05-08 15:38:45 -0700,fix typo,763,48641
+1012,3e3f2c2d,FAIL,4,NO,0,NO,0,2013-05-09 15:02:10 -0700,HadoopDruidIndexerJob: Correct error message when jobs fail,763,48641
+1013,6917ff02,FAIL,4,NO,0,NO,0,2013-05-09 16:53:29 -0700,first commit,765,48739
+1014,7cc30a07,FAIL,4,NO,0,NO,0,2013-05-10 11:04:58 -0700,cleanup,765,48739
+1015,8e38a857,FAIL,4,NO,0,NO,0,2013-05-10 11:05:29 -0700,Merge branch 'master' into improve-bard,765,48739
+1016,bcfeac2d,FAIL,4,NO,0,NO,0,2013-05-12 15:14:57 -0700,fix NPE,765,48745
+1017,89eb2aff,FAIL,4,NO,0,NO,0,2013-05-12 15:17:09 -0700,fix logging,763,48641
+1018,64febd47,FAIL,4,NO,0,NO,0,2013-05-12 15:19:12 -0700,[maven-release-plugin] prepare release druid-0.4.9,763,48641
+1019,219a8d7d,FAIL,4,NO,0,NO,0,2013-05-12 15:19:19 -0700,[maven-release-plugin] prepare for next development iteration,763,48641
+1020,1a978fe5,FAIL,4,NO,0,NO,0,2013-05-12 15:26:19 -0700,fix predicates,765,48742
+1021,9ab22f23,FAIL,4,NO,0,NO,0,2013-05-13 11:06:46 -0700,fix bug in RTR for not correctly exiting after timeout,763,48651
+1022,1860104a,FAIL,4,NO,0,NO,0,2013-05-13 11:08:29 -0700,[maven-release-plugin] prepare release druid-0.4.10,763,48651
+1023,82c4cd56,FAIL,4,NO,0,NO,0,2013-05-13 11:08:39 -0700,[maven-release-plugin] prepare for next development iteration,763,48651
+1024,53c3af66,FAIL,3,NO,0,NO,0,2013-05-13 12:37:21 -0700,actually fix the bug mentioned in the last commit,763,48654
+1025,57e1cf5f,FAIL,3,NO,0,NO,0,2013-05-13 12:39:01 -0700,[maven-release-plugin] prepare release druid-0.4.11,763,48654
+1026,2c45f334,FAIL,3,NO,0,NO,0,2013-05-13 12:39:09 -0700,[maven-release-plugin] prepare for next development iteration,763,48654
+1027,5c9df858,FAIL,4,NO,0,NO,0,2013-05-13 15:21:45 -0700,better path validation,763,48652
+1028,d8d7d92f,FAIL,4,NO,0,NO,0,2013-05-13 17:31:02 -0700,[maven-release-plugin] prepare release druid-0.4.12,763,48652
+1029,7d34710e,FAIL,4,NO,0,NO,0,2013-05-13 17:31:11 -0700,[maven-release-plugin] prepare for next development iteration,763,48652
+1030,75a464ab,FAIL,12,NO,0,NO,0,2013-05-14 11:25:57 -0500,1) Initial commit of conversion to using Guice modules for bootstrapping.  Things don't actually completely work yet.,790,49458
+1031,4c93cecd,FAIL,4,NO,0,NO,0,2013-05-14 11:10:52 -0700,Merge branch 'master' into improve-bard,765,48753
+1032,9ed80df0,FAIL,3,NO,0,NO,0,2013-05-14 13:01:53 -0700,Allow variable maxPartitionSize in hadoop indexer,763,48694
+1033,774e6d30,FAIL,3,NO,0,NO,0,2013-05-14 13:26:21 -0700,Merge pull request #147 from metamx/hadoop-max-partitions-config,763,48694
+1034,55a986bc,FAIL,4,NO,0,NO,0,2013-05-14 13:59:07 -0700,[maven-release-plugin] prepare release druid-0.4.13,763,48694
+1035,89990808,FAIL,4,NO,0,NO,0,2013-05-14 13:59:17 -0700,[maven-release-plugin] prepare for next development iteration,763,48694
+1036,343af872,FAIL,4,NO,0,NO,0,2013-05-14 14:39:29 -0700,DbConnectorConfig: Serialization is hard,763,48719
+1037,ecf52f42,FAIL,4,NO,0,NO,0,2013-05-14 14:43:29 -0700,[maven-release-plugin] prepare release druid-0.4.14,763,48719
+1038,83fa572a,FAIL,4,NO,0,NO,0,2013-05-14 14:43:38 -0700,[maven-release-plugin] prepare for next development iteration,763,48719
+1039,e8ab0893,FAIL,4,NO,0,NO,0,2013-05-14 14:52:38 -0700,fix column size reporting,765,48751
+1040,1e14ea7f,FAIL,4,NO,0,NO,0,2013-05-14 14:53:05 -0700,Merge branch 'master' into improve-bard,765,48818
+1041,8bd19e9d,FAIL,4,NO,0,NO,0,2013-05-14 16:55:43 -0500,"1) Take in g9yuayon's pull request, fix merge conflicts and formatting",775,49430
+1042,fe5627e1,FAIL,3,NO,0,NO,0,2013-05-14 16:59:34 -0500,1) Left some log lines in the tests...  That's no good.,775,49424
+1043,9a46c85b,FAIL,3,NO,0,NO,0,2013-05-14 17:00:25 -0500,Merge branch 'master' of github.com:metamx/druid,775,49491
+1044,236fe64e,FAIL,3,NO,0,NO,0,2013-05-14 15:17:49 -0700,fix stray import,765,48817
+1045,86415e70,FAIL,4,NO,0,NO,0,2013-05-14 15:18:04 -0700,Merge pull request #142 from metamx/improve-bard,777,49589
+1046,5af188f1,FAIL,4,NO,0,NO,0,2013-05-14 16:10:18 -0700,Merge branch 'master' into spatial,788,50558
+1047,803e8ff6,FAIL,4,NO,0,NO,0,2013-05-14 17:38:05 -0700,add configurable spatial dimensions to hadoop indexer,788,50601
+1048,040467c9,FAIL,4,NO,0,NO,0,2013-05-15 01:23:18 -0700,HadoopDruidIndexerJob: getPublishedSegments before deleting them,777,49590
+1049,06e09a1e,FAIL,4,NO,0,NO,0,2013-05-15 01:27:05 -0700,HadoopDruidIndexerJob: Logic is hard,777,49590
+1050,384e9085,FAIL,4,NO,0,NO,0,2013-05-15 01:36:49 -0700,HadoopDruidIndexerConfig: Fix default cleanupOnFailure (should have been true),777,49606
+1051,20ae1d8b,FAIL,4,NO,0,NO,0,2013-05-15 15:37:04 -0700,lots of cleanups and refactorings,777,49651
+1052,1d232ee9,FAIL,4,NO,0,NO,0,2013-05-15 15:37:25 -0700,Merge branch 'master' into refactor-indexing,777,49668
+1053,89f0a6cc,FAIL,4,NO,0,NO,0,2013-05-15 15:50:25 -0700,Merge pull request #127 from metamx/spatial,788,50618
+1054,0f8e00f0,FAIL,4,NO,0,NO,0,2013-05-15 15:51:04 -0700,move publications into docs,777,49668
+1055,6213c0b6,FAIL,4,NO,0,NO,0,2013-05-15 17:14:40 -0700,Merge branch 'master' into refactor-indexing,788,50680
+1056,26e0eb62,FAIL,3,NO,0,NO,0,2013-05-15 17:28:08 -0700,merge and other refactorings,788,50680
+1057,835187be,FAIL,3,NO,0,NO,0,2013-05-15 17:38:59 -0700,fix poms to pass unit tests,788,50680
+1058,c038616b,FAIL,3,NO,0,NO,0,2013-05-15 18:53:25 -0700,DeterminePartitionsJob: Only create as many reducers as needed,788,50646
+1059,23998f3f,FAIL,3,NO,0,NO,0,2013-05-16 13:04:46 -0400,- Added cleanup to the puller. - Edited the documentation to remove reference to real-time node.,767,48765
+1060,c997c7ea,FAIL,3,NO,0,NO,0,2013-05-16 10:30:06 -0700,Merge pull request #141 from boneill42/sequence-diagram,788,50619
+1061,61c014c4,FAIL,3,NO,0,NO,0,2013-05-16 13:33:39 -0400,Cleaned up imports.,767,48764
+1062,8c1004d8,FAIL,3,NO,0,NO,0,2013-05-16 14:30:35 -0700,Merge pull request #149 from metamx/determine-partitions-reducers,788,50647
+1063,5905b6ea,FAIL,4,NO,0,NO,0,2013-05-16 14:54:04 -0700,[maven-release-plugin] prepare release druid-0.4.15,788,50647
+1064,aa29af8b,FAIL,4,NO,0,NO,0,2013-05-16 14:54:12 -0700,[maven-release-plugin] prepare for next development iteration,788,50647
+1065,c6ad0753,FAIL,4,NO,0,NO,0,2013-05-16 16:02:20 -0700,bug fixes,788,50701
+1066,08d84001,FAIL,4,NO,0,NO,0,2013-05-16 16:03:29 -0700,Merge branch 'master' into refactor-indexing,788,50730
+1067,de8512cc,FAIL,4,NO,0,NO,0,2013-05-16 16:25:47 -0700,"Exclude org.codehaus.jackson stuff from aws-java-sdk, so we can get a newer one elsewhere",788,50647
+1068,2aa465f9,FAIL,4,NO,0,NO,0,2013-05-16 16:27:42 -0700,add serde for spatial dim schemas,788,50654
+1069,217bd77b,FAIL,4,NO,0,NO,0,2013-05-16 16:27:47 -0700,Merge branch 'master' of github.com:metamx/druid,788,50654
+1070,c6a36c65,FAIL,4,NO,0,NO,0,2013-05-16 16:31:12 -0700,[maven-release-plugin] prepare release druid-0.4.16,788,50654
+1071,612f1fb3,FAIL,4,NO,0,NO,0,2013-05-16 16:31:19 -0700,[maven-release-plugin] prepare for next development iteration,788,50654
+1072,8b8c59d3,FAIL,4,NO,0,NO,0,2013-05-16 17:35:50 -0700,Merge branch 'master' into refactor-indexing,788,50737
+1073,c8ff5ca2,FAIL,4,NO,0,NO,0,2013-05-17 12:54:03 -0400,Using string formatter in log statements. Clean up of imports on the pusher.,767,48761
+1074,b0a58af0,FAIL,4,NO,0,NO,0,2013-05-17 09:56:44 -0700,Merge pull request #140 from boneill42/cassandra-segments,792,50825
+1075,b420892d,FAIL,4,NO,0,NO,0,2013-05-17 11:08:39 -0700,HadoopDruidIndexerJob: Fix NPE,763,48653
+1076,5df2e40d,FAIL,4,NO,0,NO,0,2013-05-17 11:14:08 -0700,[maven-release-plugin] prepare release druid-0.4.12.1,763,48653
+1077,f80e8551,FAIL,4,NO,0,NO,0,2013-05-17 11:14:16 -0700,[maven-release-plugin] prepare for next development iteration,763,48653
+1078,31f5cb5c,FAIL,3,NO,0,NO,0,2013-05-14 14:39:29 -0700,DbConnectorConfig: Serialization is hard,763,48678
+1079,7c687aeb,FAIL,3,NO,0,NO,0,2013-05-17 12:06:16 -0700,[maven-release-plugin] prepare release druid-0.4.12.2,763,48678
+1080,e76fd18a,FAIL,3,NO,0,NO,0,2013-05-17 12:06:24 -0700,[maven-release-plugin] prepare for next development iteration,763,48678
+1081,8af95981,FAIL,4,NO,0,NO,0,2013-05-18 13:21:45 -0700,fix currSize bug and maxTime bugs,763,48684
+1082,a66425fe,FAIL,4,NO,0,NO,0,2013-05-18 13:32:33 -0700,fix according to CR,763,48686
+1083,d197eafe,FAIL,4,NO,0,NO,0,2013-05-18 13:37:18 -0700,[maven-release-plugin] prepare release druid-0.4.12.3,763,48686
+1084,0e2fe691,FAIL,4,NO,0,NO,0,2013-05-18 13:37:27 -0700,[maven-release-plugin] prepare for next development iteration,763,48686
+1085,dd11c757,FAIL,4,NO,0,NO,0,2013-05-18 13:44:47 -0700,[maven-release-plugin] prepare release druid-0.4.12.4,763,48686
+1086,d8265376,FAIL,4,NO,0,NO,0,2013-05-18 13:44:54 -0700,[maven-release-plugin] prepare for next development iteration,763,48686
+1087,7f7ea485,FAIL,4,NO,0,NO,0,2013-05-18 16:58:30 -0700,DeterminePartitionsJob: Minimize distance from target instead of mean,792,50824
+1088,10bf25a6,FAIL,4,NO,0,NO,0,2013-05-18 17:26:18 -0700,Merge pull request #152 from metamx/partition-distance,792,50824
+1089,36b6f5c6,FAIL,4,NO,0,NO,0,2013-05-18 17:30:31 -0700,Merge branch 'druid-0.4.12.x',792,50828
+1090,8ba757d8,FAIL,4,NO,0,NO,0,2013-05-18 17:37:23 -0700,[maven-release-plugin] prepare release druid-0.4.17,792,50828
+1091,e28a8964,FAIL,3,NO,0,NO,0,2013-05-18 17:37:30 -0700,[maven-release-plugin] prepare for next development iteration,792,50828
+1092,54c48aac,FAIL,3,NO,0,NO,0,2013-05-20 12:06:21 -0700,fix DruidSetup not working,763,48693
+1093,ee51a5d1,FAIL,3,NO,0,NO,0,2013-05-20 12:07:54 -0700,[maven-release-plugin] prepare release druid-0.4.12.5,763,48693
+1094,a7925250,FAIL,3,NO,0,NO,0,2013-05-20 12:14:23 -0700,Merge tag 'druid-0.4.12.5',792,50834
+1095,af494be0,FAIL,4,NO,0,NO,0,2013-05-20 12:19:50 -0700,[maven-release-plugin] prepare release druid-0.4.18,792,50834
+1096,9376a313,FAIL,4,NO,0,NO,0,2013-05-20 12:19:58 -0700,[maven-release-plugin] prepare for next development iteration,792,50834
+1097,1b4a543f,FAIL,4,NO,0,NO,0,2013-05-20 13:44:33 -0700,add default cassandra configs,792,50837
+1098,a9837cc1,FAIL,4,NO,0,NO,0,2013-05-20 13:46:18 -0700,[maven-release-plugin] prepare release druid-0.4.19,792,50837
+1099,cccd5758,FAIL,4,NO,0,NO,0,2013-05-20 13:46:28 -0700,[maven-release-plugin] prepare for next development iteration,792,50837
+1100,efc92e7c,FAIL,4,NO,0,NO,0,2013-05-20 20:19:18 -0700,bug fixes for segment metadata queries and spatial indexing,792,50875
+1101,b7604c23,FAIL,4,NO,0,NO,0,2013-05-20 20:20:55 -0700,[maven-release-plugin] prepare release druid-0.4.20,792,50875
+1102,e404442a,FAIL,4,NO,0,NO,0,2013-05-20 20:21:03 -0700,[maven-release-plugin] prepare for next development iteration,792,50875
+1103,69c7131a,FAIL,4,NO,0,NO,0,2013-05-20 21:06:32 -0700,cleanup interval determination in II,792,50874
+1104,6e5b893e,FAIL,5,NO,0,NO,0,2013-05-21 17:10:44 -0700,make spatial filters work,792,50903
+1105,c6436dad,FAIL,3,NO,0,NO,0,2013-05-21 17:12:16 -0700,[maven-release-plugin] prepare release druid-0.4.21,792,50903
+1106,aa528002,FAIL,4,NO,0,NO,0,2013-05-21 17:12:23 -0700,[maven-release-plugin] prepare for next development iteration,792,50903
+1107,39f55a01,FAIL,3,NO,0,NO,0,2013-05-21 21:33:06 -0700,additional bug fixes for hadoop based spatial indexing,792,50909
+1108,7e635032,FAIL,3,NO,0,NO,0,2013-05-21 21:34:34 -0700,[maven-release-plugin] prepare release druid-0.4.22,792,50909
+1109,3a9d892b,FAIL,3,NO,0,NO,0,2013-05-21 21:34:42 -0700,[maven-release-plugin] prepare for next development iteration,792,50909
+1110,47f2d3b0,FAIL,3,NO,0,NO,0,2013-05-22 10:25:11 -0700,fix druidsetup properties path bug,792,50910
+1111,1fb8c9db,FAIL,4,NO,0,NO,0,2013-05-22 13:35:12 -0700,fix spatial bugs and more tests,793,51280
+1112,08f1cfb6,FAIL,4,NO,0,NO,0,2013-05-22 13:36:44 -0700,[maven-release-plugin] prepare release druid-0.4.23,793,51280
+1113,32999006,FAIL,4,NO,0,NO,0,2013-05-22 13:36:50 -0700,[maven-release-plugin] prepare for next development iteration,793,51280
+1114,192b24c3,FAIL,4,NO,0,NO,0,2013-05-22 17:16:56 -0700,enable gzip compression for HTTP requests,793,51284
+1115,1537bcf5,FAIL,4,NO,0,NO,0,2013-05-22 23:53:31 -0700,restore server selector behaviour,793,51284
+1116,07ac1663,FAIL,4,NO,0,NO,0,2013-05-22 23:55:06 -0700,[maven-release-plugin] prepare release druid-0.4.24,793,51284
+1117,27d4f461,FAIL,4,NO,0,NO,0,2013-05-22 23:55:15 -0700,[maven-release-plugin] prepare for next development iteration,793,51284
+1118,9b6098f7,FAIL,4,NO,0,NO,0,2013-05-23 11:00:12 -0600,more logging for curator events,793,51298
+1119,8cc4202f,FAIL,4,NO,0,NO,0,2013-05-23 11:05:18 -0600,[maven-release-plugin] prepare release druid-0.4.25,793,51298
+1120,b5e30cf7,FAIL,4,NO,0,NO,0,2013-05-23 11:05:24 -0600,[maven-release-plugin] prepare for next development iteration,793,51298
+1121,58335fd7,FAIL,4,NO,0,NO,0,2013-05-23 11:51:44 -0600,tony the tiger must love logs beacuse they are grrreeeat,793,51301
+1122,4c8d9e9f,FAIL,4,NO,0,NO,0,2013-05-23 11:53:21 -0600,[maven-release-plugin] prepare release druid-0.4.26,793,51301
+1123,e0877069,FAIL,4,NO,0,NO,0,2013-05-23 11:53:29 -0600,[maven-release-plugin] prepare for next development iteration,793,51301
+1124,113db061,FAIL,4,NO,0,NO,0,2013-05-26 13:31:18 -0600,discovered the cause of broker not being able to find segment issue,793,51310
+1125,39ae7485,FAIL,4,NO,0,NO,0,2013-05-26 13:32:57 -0600,[maven-release-plugin] prepare release druid-0.4.27,793,51310
+1126,69a9e045,FAIL,3,NO,0,NO,0,2013-05-26 13:33:05 -0600,[maven-release-plugin] prepare for next development iteration,793,51310
+1127,00cfb325,FAIL,4,NO,0,NO,0,2013-05-26 13:41:53 -0600,also remove curator listeners on cleanup,793,51310
+1128,9d105ef4,FAIL,3,NO,0,NO,0,2013-05-26 13:43:21 -0600,[maven-release-plugin] prepare release druid-0.4.28,793,51310
+1129,54932e31,FAIL,3,NO,0,NO,0,2013-05-26 13:43:28 -0600,[maven-release-plugin] prepare for next development iteration,793,51310
+1130,bd9e6fec,FAIL,4,NO,0,NO,0,2013-05-28 14:26:49 -0700,fix day 1 issue with VIT,793,51329
+1131,c6eec7eb,FAIL,4,NO,0,NO,0,2013-05-28 14:28:42 -0700,[maven-release-plugin] prepare release druid-0.4.29,793,51329
+1132,73a392d9,FAIL,4,NO,0,NO,0,2013-05-28 14:28:49 -0700,[maven-release-plugin] prepare for next development iteration,793,51329
+1133,a20d1ab5,FAIL,5,NO,0,NO,0,2013-05-29 09:48:31 -0700,update curator version,793,51329
+1134,dd9ac038,FAIL,4,NO,0,NO,0,2013-05-29 09:50:02 -0700,[maven-release-plugin] prepare release druid-0.4.30,793,51329
+1135,9cb9f475,FAIL,4,NO,0,NO,0,2013-05-29 09:50:10 -0700,[maven-release-plugin] prepare for next development iteration,793,51329
+1136,09f7b181,FAIL,4,NO,0,NO,0,2013-05-29 17:04:25 -0700,"first commit, working UT",796,51489
+1137,71feb0af,FAIL,4,NO,0,NO,0,2013-05-30 10:23:28 -0700,Merge branch 'master' into query-prioritization,796,51489
+1138,ffbf0e23,FAIL,4,NO,0,NO,0,2013-05-30 12:58:24 -0700,cleanup,796,51498
+1139,f1f465fc,FAIL,4,NO,0,NO,0,2013-05-31 13:59:04 -0700,fix bug in RTR with statuses getting removed,793,51325
+1140,5a3f69ae,FAIL,4,NO,0,NO,0,2013-05-31 14:00:39 -0700,[maven-release-plugin] prepare release druid-0.4.31,793,51325
+1141,c0211387,FAIL,4,NO,0,NO,0,2013-05-31 14:00:45 -0700,[maven-release-plugin] prepare for next development iteration,793,51325
+1142,2138f9fd,FAIL,3,NO,0,NO,0,2013-05-31 14:28:55 -0700,prevent ISE at broker from completely failing to return results,793,51327
+1143,7dcbea46,FAIL,3,NO,0,NO,0,2013-05-31 15:50:53 -0700,fix bug with out of order events on broker,793,51326
+1144,3d28fcd5,FAIL,4,NO,0,NO,0,2013-05-31 15:53:17 -0700,[maven-release-plugin] prepare release druid-0.4.32,793,51326
+1145,93e7ea37,FAIL,4,NO,0,NO,0,2013-05-31 15:53:23 -0700,[maven-release-plugin] prepare for next development iteration,793,51326
+1146,d5c2fd60,FAIL,4,NO,0,NO,0,2013-05-31 16:28:41 -0700,add new preconditions for taskqueue,793,51327
+1147,42cc87a2,FAIL,4,NO,0,NO,0,2013-05-31 17:28:59 -0700,Merge branch 'master' into refactor-indexing,793,51411
+1148,85ac8d43,FAIL,4,NO,0,NO,0,2013-06-04 15:45:51 -0700,Merge pull request #153 from metamx/gzip-compression,793,51331
+1149,1a02637b,FAIL,4,NO,0,NO,0,2013-06-04 17:10:25 -0700,"1) add full parameter to master endpoint /info/rules/dataSourceName that returns the fully resolved rules, not just the specified rules",793,51333
+1150,06931ee0,FAIL,2,NO,0,NO,0,2013-06-04 17:12:19 -0700,introduce availability groups,796,51556
+1151,63b379ae,FAIL,2,NO,0,NO,0,2013-06-04 17:25:16 -0700,Merge branch 'master' into refactor-indexing,796,51562
+1152,61074daa,FAIL,2,NO,0,NO,0,2013-06-04 18:56:20 -0700,fix merge error,796,51551
+1153,8202bc70,FAIL,4,NO,0,NO,0,2013-06-05 15:26:40 -0700,optimize spatial and update poms everywhere,796,51517
+1154,451d3d35,FAIL,4,NO,0,NO,0,2013-06-06 11:02:08 -0700,some fixes according to code review comments,796,51522
+1155,e4ea357b,FAIL,4,NO,0,NO,0,2013-06-06 14:10:18 -0700,multiple bug fixes for indexing service; scv quotes,796,51515
+1156,c2e0fb7b,FAIL,4,NO,0,NO,0,2013-06-06 14:12:33 -0700,Merge pull request #148 from metamx/refactor-indexing,796,51515
+1157,d48b4d8d,FAIL,4,NO,0,NO,0,2013-06-06 14:19:50 -0700,Merge branch 'master' into query-prioritization,799,51684
+1158,b8feb986,FAIL,4,NO,0,NO,0,2013-06-06 14:55:23 -0700,1) Make Master honor the druid.monitoring.monitorSystem property to turn off Sigar,796,51518
+1159,e20f5472,FAIL,4,NO,0,NO,0,2013-06-06 15:37:19 -0700,fix according to code review,799,51676
+1160,9df458a0,FAIL,4,NO,0,NO,0,2013-05-14 11:25:57 -0500,1) Initial commit of conversion to using Guice modules for bootstrapping.  Things don't actually completely work yet.,823,52377
+1161,19c5dacf,FAIL,4,NO,0,NO,0,2013-06-06 15:57:18 -0700,more code review fixes,799,51660
+1162,f1dea971,FAIL,4,NO,0,NO,0,2013-06-06 16:05:47 -0700,Merge pull request #156 from metamx/query-prioritization,799,51663
+1163,2113715f,FAIL,4,NO,0,NO,0,2013-06-06 16:10:39 -0700,[maven-release-plugin] prepare release druid-0.5.0,799,51663
+1164,d5b7e644,FAIL,4,NO,0,NO,0,2013-06-06 16:10:45 -0700,[maven-release-plugin] prepare for next development iteration,799,51663
+1165,14f9b040,FAIL,4,NO,0,NO,0,2013-06-06 17:58:40 -0700,fix pushing down too many properties,799,51672
+1166,a36d0007,FAIL,4,NO,0,NO,0,2013-06-06 18:00:24 -0700,[maven-release-plugin] prepare release druid-0.5.1,799,51672
+1167,ee38ca54,FAIL,4,NO,0,NO,0,2013-06-06 18:00:31 -0700,[maven-release-plugin] prepare for next development iteration,799,51672
+1168,d69fb61a,FAIL,4,NO,0,NO,0,2013-06-06 18:22:41 -0700,Fix getImplicitLockInterval check,799,51672
+1169,8dbb69c8,FAIL,4,NO,0,NO,0,2013-06-06 18:24:59 -0700,[maven-release-plugin] prepare release druid-0.5.2,799,51672
+1170,67be515d,FAIL,4,NO,0,NO,0,2013-06-06 18:25:07 -0700,[maven-release-plugin] prepare for next development iteration,799,51672
+1171,a0462374,FAIL,4,NO,0,NO,0,2013-06-07 14:02:25 +0530,Update RealtimePlumberSchool.java,799,51678
+1172,f68df7ab,FAIL,4,NO,0,NO,0,2013-06-07 12:01:46 -0700,1) Make tests work and continue trying to make the DruidMaster start up with just Guice,822,52379
+1173,d5dd29e2,FAIL,4,NO,0,NO,0,2013-05-28 14:50:26 -0700,enable snappy compression for memcached results,800,51701
+1174,899bae1c,FAIL,4,NO,0,NO,0,2013-06-05 12:51:29 -0700,swap out snappy for LZ4,800,51711
+1175,809a9585,FAIL,4,NO,0,NO,0,2013-06-07 13:10:02 -0700,Merge pull request #155 from metamx/snappy-cache-compression,800,51711
+1176,37a39940,FAIL,4,NO,0,NO,0,2013-06-07 14:08:51 -0700,add delegating executor service and fix bug with query priortization,800,51722
+1177,7bf357ce,FAIL,4,NO,0,NO,0,2013-06-07 14:09:05 -0700,Merge branch 'master' of github.com:metamx/druid,801,51761
+1178,a949f167,FAIL,4,NO,0,NO,0,2013-06-07 14:14:58 -0700,1) Fix bug with Master stopping trying to be Master after he losses it once,799,51676
+1179,06f90bc2,FAIL,3,NO,0,NO,0,2013-06-07 14:15:39 -0700,Merge branch 'master' of github.com:metamx/druid,801,51765
+1180,962db29e,FAIL,3,NO,0,NO,0,2013-06-07 14:17:32 -0700,[maven-release-plugin] prepare release druid-0.5.3,801,51765
+1181,12e78955,FAIL,4,NO,0,NO,0,2013-06-07 14:17:39 -0700,[maven-release-plugin] prepare for next development iteration,801,51765
+1182,2f56c242,FAIL,5,NO,0,NO,0,2013-06-07 17:37:33 -0700,1) Inject IndexingServiceClient 2) Switch all the DBI references to IDBI,827,52467
+1183,c4a3a9b2,FAIL,4,NO,0,NO,0,2013-06-10 11:53:57 -0700,1) Fix scripts to run the examples from a fresh build,801,51765
+1184,3312d9b8,FAIL,4,NO,0,NO,0,2013-06-10 14:07:36 -0700,fix merging problem with linear shard specs,801,51801
+1185,320682ca,FAIL,4,NO,0,NO,0,2013-06-10 14:07:41 -0700,Merge branch 'master' of github.com:metamx/druid,801,51801
+1186,c465d4ef,FAIL,4,NO,0,NO,0,2013-06-10 14:11:09 -0700,[maven-release-plugin] prepare release druid-0.5.4,801,51801
+1187,b96d6b35,FAIL,3,NO,0,NO,0,2013-06-10 14:11:19 -0700,[maven-release-plugin] prepare for next development iteration,801,51801
+1188,06f7e7e6,FAIL,4,NO,0,NO,0,2013-06-10 14:13:28 -0700,1) Fix DatabaseSegmentManager so that Unit Test passes,827,52468
+1189,270a4993,FAIL,4,NO,0,NO,0,2013-06-11 12:05:17 +0530,Update RealtimePlumberSchool.java,799,51678
+1190,58780094,FAIL,4,NO,0,NO,0,2013-06-13 17:59:17 -0700,"Upgraded to twitter4j 3.0.3, twitter example now works with twitter4j.properties in place that lists key pairs.",801,51805
+1191,0bd4e8b0,FAIL,4,NO,0,NO,0,2013-06-13 18:20:28 -0700,Fixed interactive twitter example to ask for consumer/access keys and secrets upon run.,801,51805
+1192,c7274f2f,FAIL,4,NO,0,NO,0,2013-06-13 22:17:32 -0700,Merge pull request #166 from rjurney/master,801,51805
+1193,87b687bd,FAIL,3,NO,0,NO,0,2013-06-13 22:19:17 -0700,Merge pull request #158 from kOD-dKOD/master,801,51811
+1194,11ea15fc,FAIL,4,NO,0,NO,0,2013-06-17 10:53:50 -0700,1) Introduce Jetty 8 2) Fix up modules based on exceptions at startup for MasterMain,835,52723
+1195,36941226,FAIL,4,NO,0,NO,0,2013-06-19 11:15:58 -0700,"1) Fix truncation math when figuring out what Segments to persist for realtime plumber.  Previously, Sinks could get persist-n-merged without actually being ready to be persist-n-merged. Fixes #168",801,51766
+1196,9d80369c,FAIL,4,NO,0,NO,0,2013-06-19 11:16:13 -0700,Merge branch 'master' of github.com:metamx/druid,801,51812
+1197,caa68e10,FAIL,4,NO,0,NO,0,2013-06-19 15:56:45 -0700,first commit; things working right now,806,52121
+1198,748695bf,FAIL,4,NO,0,NO,0,2013-06-20 14:59:52 -0700,trying to recover my files on intellij,831,53916
+1199,5720b45b,FAIL,4,NO,0,NO,0,2013-06-20 16:21:08 -0700,tests,807,52235
+1200,e242baac,FAIL,4,NO,0,NO,0,2013-06-20 16:21:33 -0700,Merge branch 'master' into batch-zk,807,52246
+1201,149c2e35,FAIL,4,NO,0,NO,0,2013-06-20 17:19:51 -0700,"1) A bunch more changes to make things actually run.  Not quite done, but close!",835,52735
+1202,f35b6f28,FAIL,3,NO,0,NO,0,2013-06-24 13:02:43 -0700,Including druid-test-harness as test-harness/. See https://github.com/housejester/druid-test-harness/issues/1,801,51812
+1203,535e2543,FAIL,3,NO,0,NO,0,2013-06-24 13:03:39 -0700,bug fix and test for time boundary,802,51864
+1204,b2de6c8d,FAIL,4,NO,0,NO,0,2013-06-24 13:41:06 -0700,Removed tarball from repo,801,51812
+1205,b9278168,FAIL,4,NO,0,NO,0,2013-06-24 16:27:45 -0700,"Working on exsternalizing kafka, but at the moment have a script that downloads its deps. Removing included jars",801,51812
+1206,f215e6d1,FAIL,4,NO,0,NO,0,2013-06-25 10:36:59 -0700,Merge branch 'batch-zk' into worker-resource,808,52298
+1207,cd0fa34a,FAIL,4,NO,0,NO,0,2013-06-25 11:18:04 -0700,1) Log exception when there is an error removing a segment,801,51812
+1208,8750ee88,FAIL,4,NO,0,NO,0,2013-06-25 14:37:58 -0700,Webstream example with tests,806,52131
+1209,0e1857f0,FAIL,4,NO,0,NO,0,2013-06-25 14:48:02 -0700,Applied codestyle and optimized imports,806,52132
+1210,4e4a0a79,FAIL,4,NO,0,NO,0,2013-06-25 14:58:12 -0700,removed DS_Store files,806,52132
+1211,039b06d6,FAIL,4,NO,0,NO,0,2013-06-25 15:01:19 -0700,made sure only edited files were pushed,806,52132
+1212,4d68bf11,FAIL,4,NO,0,NO,0,2013-06-25 16:01:54 -0700,Merge branch 'master' of github.com:metamx/druid,802,51864
+1213,1bdf38a2,FAIL,4,NO,0,NO,0,2013-06-25 18:16:47 -0700,Nuked test-harness. Starting over.,801,51812
+1214,15a4dae2,FAIL,4,NO,0,NO,0,2013-06-26 10:45:54 -0700,bunch of issue fixes,805,51991
+1215,e3f0b877,FAIL,4,NO,0,NO,0,2013-06-26 15:05:52 -0700,updated with Fangjin comments,807,52141
+1216,235ecce5,FAIL,4,NO,0,NO,0,2013-06-26 15:12:55 -0700,fixed constants and made them static finals,807,52142
+1217,8bc4d7c4,FAIL,4,NO,0,NO,0,2013-06-26 15:16:21 -0700,added druid header,807,52134
+1218,89a12b95,FAIL,4,NO,0,NO,0,2013-06-26 16:50:41 -0700,"Initial, working re-import of test-harness.",801,51812
+1219,511ee6c4,FAIL,4,NO,0,NO,0,2013-06-26 16:52:00 -0700,"Arg, botched import. Trying again after cleaning it out.",801,51812
+1220,8e7d991a,FAIL,3,NO,0,NO,0,2013-06-26 16:53:03 -0700,Re-import of test-harness.,801,51812
+1221,cce62cbd,FAIL,3,NO,0,NO,0,2013-06-26 17:27:04 -0700,The highly important commit of changing a log line,805,51991
+1222,d5306c5d,FAIL,3,NO,0,NO,0,2013-06-27 12:52:58 -0700,Merge branch 'master' into worker-resource,811,52423
+1223,a6787ab2,FAIL,4,NO,0,NO,0,2013-06-27 16:40:17 -0700,fix up configs,813,52460
+1224,2969d9a7,FAIL,4,NO,0,NO,0,2013-06-27 16:46:37 -0700,Merge branch 'master' into batch-zk,811,52423
+1225,80f4ae25,FAIL,3,NO,0,NO,0,2013-06-27 19:00:34 -0700,updated with further cleanliness,807,52126
+1226,c15f18c3,FAIL,3,NO,0,NO,0,2013-06-27 19:03:25 -0700,removed NoopRunnable,806,52126
+1227,6f6bf199,FAIL,4,NO,0,NO,0,2013-06-27 19:09:35 -0700,log.info changed to log.debug,806,52125
+1228,b6e198ff,FAIL,4,NO,0,NO,0,2013-06-28 09:35:48 +0200,Postgresql integration. Postgresql included into postgresql-schema.sql,805,51991
+1229,e9ce6b59,FAIL,4,NO,0,NO,0,2013-06-28 12:49:24 +0200,PostgresSQL integration with druid,805,51992
+1230,5a575397,FAIL,4,NO,0,NO,0,2013-06-28 10:18:10 -0700,fix hdfs config,805,51992
+1231,d02f1524,FAIL,4,NO,0,NO,0,2013-06-28 14:57:32 -0700,fix NPE,805,51994
+1232,e569b28c,FAIL,3,NO,0,NO,0,2013-06-28 21:00:29 -0700,Configuration changes to make later model stuff work.,801,51812
+1233,f0b0d70d,FAIL,3,NO,0,NO,0,2013-07-01 10:25:38 -0700,filter nulls in CEQR,805,51995
+1234,e8afeda0,FAIL,3,NO,0,NO,0,2013-07-01 14:54:32 -0700,Merge branch 'master' of github.com:metamx/druid,805,51991
+1235,797a083b,FAIL,4,NO,0,NO,0,2013-07-01 14:56:57 -0700,"1) Adjust SingleSegmentLoader to allow for storing segments on multiple different mount points.  The specification language is really janky right now, so this is remaining a stealth feature for the time being.",805,52009
+1236,090921b4,FAIL,4,NO,0,NO,0,2013-07-01 16:04:25 -0700,[maven-release-plugin] prepare release druid-0.5.5,805,52009
+1237,fd1d73e8,FAIL,4,NO,0,NO,0,2013-07-01 16:04:31 -0700,[maven-release-plugin] prepare for next development iteration,805,52009
+1238,800cff01,FAIL,4,NO,0,NO,0,2013-07-01 16:15:05 -0700,New config for each node type.,801,51812
+1239,7c3abf07,FAIL,4,NO,0,NO,0,2013-07-01 16:25:34 -0700,Nuked test-harness,801,51812
+1240,28af252b,FAIL,3,NO,0,NO,0,2013-07-01 16:36:30 -0700,"Include multiple configurations, one per node type, in assembly package for examples.",801,51812
+1241,8a1512ae,FAIL,3,NO,0,NO,0,2013-07-01 17:55:01 -0700,Initial script to boot and configure an ubuntu 12.04 server for running the four druid node types.,801,51812
+1242,c1f6c0ab,FAIL,4,NO,0,NO,0,2013-07-01 19:34:43 -0700,In progress ec2 script.,801,51812
+1243,07129418,FAIL,4,NO,0,NO,0,2013-07-02 11:53:53 -0700,"1) Add check whether a Hydrant has already been persisted before persisting.  Persisting happens synchronously on the same thread, but multiple persist requests can be queued up on that thread which means that subsequent ones would fail with an NPE.  Fixes #178",805,52013
+1244,8a5f4960,FAIL,3,NO,0,NO,0,2013-07-02 12:46:14 -0700,Working ec2 bootstrap script for ec2 environment,801,51812
+1245,7219ed15,FAIL,8,NO,0,NO,0,2013-07-02 15:56:12 -0700,fix according to code review,811,52479
+1246,5ac2d1db,FAIL,3,NO,0,NO,0,2013-07-02 15:57:31 -0700,Merge branch 'master' of github.com:metamx/druid into batch-zk,811,52499
+1247,9818d28a,FAIL,4,NO,0,NO,0,2013-07-02 15:59:52 -0700,Merge branch 'master' into bug-fix,805,52017
+1248,fde874ea,FAIL,4,NO,0,NO,0,2013-07-02 16:11:12 -0700,fix according to code review,805,52013
+1249,e21aa41b,FAIL,4,NO,0,NO,0,2013-07-02 16:23:53 -0700,Merge branch 'master' into worker-resource,813,52480
+1250,d3eb4911,FAIL,3,NO,0,NO,0,2013-07-02 16:24:59 -0700,Merge branch 'batch-zk' into worker-resource,813,52536
+1251,be2f1539,FAIL,3,NO,0,NO,0,2013-07-02 16:25:07 -0700,Merge branch 'bug-fix' into worker-resource,813,52536
+1252,86ecdc4c,FAIL,4,NO,0,NO,0,2013-07-02 17:17:36 -0700,"Removed credentials from ec2 script, ready for publishing.",801,51812
+1253,c41de039,FAIL,4,NO,0,NO,0,2013-07-02 17:25:37 -0700,Added realtime.spec to realtime config path.,801,51812
+1254,ca81b81f,FAIL,4,NO,0,NO,0,2013-07-03 19:53:06 -0700,Moved mysql setup to bottom,801,51812
+1255,6f06d701,FAIL,4,NO,0,NO,0,2013-07-04 16:00:20 +0200,Building a correct segment path for HDFS,807,52051
+1256,5f0f9b29,FAIL,4,NO,0,NO,0,2013-07-04 14:11:48 -0700,Working on fixing hang problem with mysql install.,801,51812
+1257,9e615bad,FAIL,4,NO,0,NO,0,2013-07-05 13:40:45 -0700,"Works, as long as you hit ctrl-C when it says so.",801,51812
+1258,8b7e32da,FAIL,4,NO,0,NO,0,2013-07-05 15:16:10 -0700,Merge pull request #175 from metamx/bug-fix,805,52013
+1259,b42c5743,FAIL,4,NO,0,NO,0,2013-07-05 16:42:57 -0700,Merge pull request #177 from nebrera/master,805,52014
+1260,1e46c6f4,FAIL,3,NO,0,NO,0,2013-07-05 16:51:01 -0700,Removed debug on ssh,801,51812
+1261,056bd9cf,FAIL,4,NO,0,NO,0,2013-07-05 18:03:37 -0700,"Created log directory, and echo ssh instructions.",801,51812
+1262,18ec0818,FAIL,4,NO,0,NO,0,2013-07-08 08:39:08 +0200,"moved getHdfsStorageDir() to DataSegmentPusherUtil, extended test",806,52046
+1263,d5b44172,FAIL,3,NO,0,NO,0,2013-07-08 11:50:15 +0200,Merge branch 'master' of github.com:metamx/druid,806,52047
+1264,83b96ee5,FAIL,3,NO,0,NO,0,2013-07-08 10:40:13 -0700,fix concurrency problem,811,52498
+1265,454f23d7,FAIL,3,NO,0,NO,0,2013-07-08 10:40:30 -0700,Merge branch 'master' of github.com:metamx/druid into batch-zk,811,52499
+1266,adda1488,FAIL,3,NO,0,NO,0,2013-07-08 10:59:07 -0700,another thread safety fix,811,52501
+1267,cc35841e,FAIL,4,NO,0,NO,0,2013-07-08 11:04:05 -0700,Merge branch 'batch-zk' into worker-resource,813,52538
+1268,adc00e65,FAIL,4,NO,0,NO,0,2013-07-08 12:13:25 -0700,fixed with Erics suggestions,806,52163
+1269,c8c686c7,FAIL,3,NO,0,NO,0,2013-07-08 12:19:38 -0700,added druid license comments,806,52163
+1270,439e8ca4,FAIL,3,NO,0,NO,0,2013-07-08 13:35:22 -0700,now take a map for renaming,806,52161
+1271,e7da31e4,FAIL,3,NO,0,NO,0,2013-07-08 13:41:19 -0700,seems to be working,806,52158
+1272,2403f1ec,FAIL,4,NO,0,NO,0,2013-07-08 13:42:50 -0700,Seperated env/run files.,801,51812
+1273,01b4728c,FAIL,3,NO,0,NO,0,2013-07-08 14:27:35 -0700,removed shared queue structure. Queue now encapsulated within updateStream,806,52146
+1274,142271aa,FAIL,3,NO,0,NO,0,2013-07-08 16:46:47 -0700,better encapsulation,808,52180
+1275,570fb1cf,FAIL,4,NO,0,NO,0,2013-07-08 17:30:37 -0700,"Working stuff, doing pull request. CTRL-C problem remains.",801,51812
+1276,72fbc516,FAIL,3,NO,0,NO,0,2013-07-08 18:53:08 -0700,added a RenameKeysUpdateStream wrapper,812,52265
+1277,41cb115d,FAIL,4,NO,0,NO,0,2013-07-09 10:46:43 -0700,few more changes to RenamingKeysUpdateStreamFactory and test,812,52265
+1278,2df74633,FAIL,3,NO,0,NO,0,2013-07-09 14:44:03 -0700,"Removed dupe numThreads value from configs, fiddling with run_ec2.sh/env.sh",801,51812
+1279,2403056a,FAIL,3,NO,0,NO,0,2013-07-09 14:47:43 -0700,Merge pull request #183 from rjurney/test-harness,805,52014
+1280,6568728e,FAIL,3,NO,0,NO,0,2013-07-09 14:48:06 -0700,Merge branch 'master' of github.com:rjurney/druid into test-harness,802,51864
+1281,b2cb9bea,FAIL,4,NO,0,NO,0,2013-07-09 14:48:17 -0700,Merge branch 'master' of github.com:metamx/druid into test-harness,805,52014
+1282,fa0d37f1,FAIL,4,NO,0,NO,0,2013-07-09 15:10:44 -0700,"Upload script for services tarball, relies on s3cmd",805,52014
+1283,e50bcf43,FAIL,4,NO,0,NO,0,2013-07-09 15:18:46 -0700,Merge pull request #184 from rjurney/test-harness,805,52014
+1284,6d000fc4,FAIL,4,NO,0,NO,0,2013-07-09 15:31:03 -0700,interfaces added and tests simplified,814,52301
+1285,e892d14f,FAIL,4,NO,0,NO,0,2013-07-09 16:16:56 -0700,"1) Configuration fixes, slowly gonna make the MasterMain actually start up!",835,52739
+1286,3250c698,FAIL,4,NO,0,NO,0,2013-07-09 16:34:55 -0700,fixed thread stuff and made tests cleaner,815,52295
+1287,b3157c27,FAIL,4,NO,0,NO,0,2013-07-09 16:42:35 -0700,made thread final,815,52295
+1288,9f7284c8,FAIL,4,NO,0,NO,0,2013-07-09 16:59:49 -0700,fixed thread stuff,814,52290
+1289,dd203f96,FAIL,4,NO,0,NO,0,2013-07-09 17:16:45 -0700,announcer thread fixes,811,52506
+1290,ba484fca,FAIL,4,NO,0,NO,0,2013-07-09 17:17:21 -0700,catch error,814,52289
+1291,093953c0,FAIL,3,NO,0,NO,0,2013-07-09 17:23:47 -0700,Merge pull request #170 from metamx/batch-zk,811,52506
+1292,bd6dcd39,FAIL,4,NO,0,NO,0,2013-07-09 17:39:19 -0700,interruption!,814,52299
+1293,b83bc147,FAIL,4,NO,0,NO,0,2013-07-09 17:39:51 -0700,Merge pull request #173 from metamx/dhruv,824,52994
+1294,a39148a0,FAIL,4,NO,0,NO,0,2013-07-09 18:41:06 -0700,Fixed hanging ssh bug FINALLY,805,52014
+1295,ad087a7a,FAIL,4,NO,0,NO,0,2013-07-10 09:21:45 +0200,correct segment path for hadoop indexer,806,52104
+1296,aad11a69,FAIL,4,NO,0,NO,0,2013-07-10 09:48:53 -0700,Merge branch 'master' into worker-resource,826,53031
+1297,37784252,FAIL,3,NO,0,NO,0,2013-07-10 14:12:13 -0700,"1) Fix new WebStreamFirehose stuff to have tests in the tests directory 2) Change the webStream package to the web package, because capital letters in packages suck",824,52990
+1298,9d9d49f9,FAIL,4,NO,0,NO,0,2013-07-10 14:17:40 -0700,Make upload script executable,824,52994
+1299,c519be5b,FAIL,4,NO,0,NO,0,2013-07-10 14:19:04 -0700,1) Fix stray imports from libraries that aren't depended on and fix annotations/methods accordingly.,824,52993
+1300,921bee33,FAIL,3,NO,0,NO,0,2013-07-10 14:19:35 -0700,Merge branch 'master' of github.com:metamx/druid,824,52993
+1301,a33aa57c,FAIL,3,NO,0,NO,0,2013-07-10 17:04:51 -0700,Made webstream example work.,824,52993
+1302,0961d8f1,FAIL,3,NO,0,NO,0,2013-07-11 16:02:11 +0200,Merge branch 'master' of github.com:metamx/druid,825,53083
+1303,a1905277,FAIL,4,NO,0,NO,0,2013-07-11 12:40:48 -0700,Merge branch 'master' into worker-resource,826,53030
+1304,33ac931b,FAIL,3,NO,0,NO,0,2013-07-11 13:06:02 -0700,Merge pull request #185 from rjurney/test-harness,824,52993
+1305,09b11308,FAIL,3,NO,0,NO,0,2013-07-11 13:06:58 -0700,Merge pull request #186 from rjurney/master,824,52993
+1306,89b0c84f,FAIL,3,NO,0,NO,0,2013-07-12 13:34:57 +0200,initial implementation of an protocol buffers firehose,828,53267
+1307,a8039107,FAIL,3,NO,0,NO,0,2013-07-12 16:02:15 +0200,no bytebuffer in the middle,828,53261
+1308,b9578a1a,FAIL,4,NO,0,NO,0,2013-07-12 12:51:12 -0700,1) remove retry logic from RTR 2) simplify configs 3) introduce task resource 4) make worker versions match coordinator version by default,827,53065
+1309,5cc74743,FAIL,3,NO,0,NO,0,2013-07-12 13:00:26 -0700,Merge branch 'master' into worker-resource,827,53065
+1310,01b7507a,FAIL,3,NO,0,NO,0,2013-07-13 16:03:46 +0000,First version of a RabbitMQ Firehose implementation.,806,52098
+1311,fc74333a,FAIL,4,NO,0,NO,0,2013-07-13 16:1

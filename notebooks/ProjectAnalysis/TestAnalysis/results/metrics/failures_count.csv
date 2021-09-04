@@ -1,0 +1,7 @@
+exception,count
+java.lang.AssertionError,199
+org.mockito.exceptions.verification.junit.ArgumentsAreDifferent,11
+org.junit.ComparisonFailure,37
+org.mockito.exceptions.verification.TooLittleActualInvocations,15
+org.mockito.exceptions.verification.WantedButNotInvoked,17
+org.mockito.exceptions.verification.TooManyActualInvocations,6

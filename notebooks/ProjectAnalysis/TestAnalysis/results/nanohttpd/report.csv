@@ -1,0 +1,600 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,03b577b,FAIL,0,NO,0,NO,0,2012-08-10 14:52:42 -0700,Initial commit,0,0
+1,91696c9,FAIL,0,NO,0,NO,0,2003-04-03 15:34:03 +0000,First import. Version 1.01.,1,335
+2,ac80878,FAIL,0,NO,0,NO,0,2005-07-08 19:49:50 +0000,Bugfix for buffering. Version 1.02.,1,336
+3,3bdf03a,FAIL,0,NO,0,NO,0,2006-03-30 12:18:01 +0000,Better support for large POSTs. Version 1.05.,1,349
+4,164e060,FAIL,0,NO,0,NO,0,2007-02-09 09:03:57 +0000,Lowercase parameters for better browsers support. Version 1.1.,1,349
+5,f84ac3c,FAIL,0,NO,0,NO,0,2008-04-21 20:17:45 +0000,URI decode fix. Version 1.11,1,350
+6,854c661,FAIL,0,NO,0,NO,0,2010-12-30 23:36:22 +0000,"Stop support, fix for broken requests, explicit imports. Version 1.14",1,376
+7,6e946e0,FAIL,0,NO,0,NO,0,2010-12-31 00:38:58 +0000,File upload support by ktogias. Version 1.2,1,554
+8,f771225,FAIL,0,NO,0,NO,0,2010-12-31 00:42:51 +0000,Renamed file-upload-test.html to .htm,1,554
+9,3aded75,FAIL,0,NO,0,NO,0,2011-01-02 22:06:13 +0000,Accumulation of small bugfixes. Version 1.21,1,537
+10,303b50f,FAIL,0,NO,0,NO,0,2011-07-21 21:03:45 +0000,Configurable file server root. Version 1.22.,1,540
+11,53a4de2,FAIL,0,NO,0,NO,0,2011-08-02 14:05:26 +0000,Better content-range support. Version 1.23.,1,562
+12,0f5d07d,FAIL,0,NO,0,NO,0,2011-08-04 20:12:24 +0000,"Etag support, more A/V mime types for streaming. Version 1.24.",1,572
+13,0f1f9ec,FAIL,0,NO,0,NO,0,2012-02-12 18:39:02 +0000,"Configurable log streams and buffer size, crude PUT support, better etag support. Version 1.25.",1,582
+14,bbde9b2,FAIL,0,NO,0,NO,0,2012-08-11 02:04:28 +0300,"Fixed HelloServer, updated github readme",2,606
+15,0587be1,FAIL,0,NO,0,NO,0,2012-08-11 02:07:17 +0300,"Fixed HelloServer, updated github readme",2,606
+16,8230f66,FAIL,0,NO,0,NO,0,2012-11-28 01:43:50 +0200,Fix for requests sent in parts: read until we find a full header or stream is closed.,2,613
+17,269baff,FAIL,0,NO,0,NO,0,2013-01-04 16:29:59 -0600,First cut of some cleanup and move to newer Java,2,617
+18,d79e15a,FAIL,0,NO,0,NO,0,2013-01-04 16:33:15 -0600,Update README.md,2,617
+19,fc9fcfc,FAIL,0,NO,0,NO,0,2013-01-04 16:33:34 -0600,Update README.md,2,617
+20,3f2aa2e,FAIL,0,NO,0,NO,0,2013-01-04 16:38:19 -0600,Update fi/iki/elonen/NanoHTTPD.java,2,618
+21,b5e00c4,FAIL,0,NO,0,NO,0,2013-01-05 10:40:21 -0600,Project meta-data,2,618
+22,d22b56d,FAIL,0,NO,0,NO,0,2013-01-05 10:40:49 -0600,Updates - runs nicely now.,2,613
+23,7b88819,FAIL,0,NO,0,NO,0,2013-01-05 11:20:57 -0600,Static code inspection - cleanup.,2,618
+24,a6619fe,FAIL,0,NO,0,NO,0,2013-01-05 11:24:54 -0600,Added missing Javadoc,2,618
+25,fc243fe,FAIL,0,NO,0,NO,0,2013-01-05 11:26:06 -0600,Added project,2,618
+26,239c97b,FAIL,0,NO,0,NO,0,2013-01-05 15:17:49 -0600,meta data files,2,618
+27,0277bbd,FAIL,0,NO,0,NO,0,2013-01-05 16:31:55 -0600,Fixed NPE and introduced some useful enums for method and http status values.,2,635
+28,0cb0846,FAIL,0,NO,0,NO,0,2013-01-05 16:46:23 -0600,Added cleanup and polish,2,635
+29,9f11fbe,FAIL,0,NO,0,NO,0,2013-01-07 07:38:17 -0600,Pulled out example code from main nanohttpd file for clarity.,3,650
+30,7fa1416,FAIL,0,NO,0,NO,0,2013-01-07 09:02:38 -0600,Cleanup,3,651
+31,9a5230b,SUCCESS,12,SUCCESS,2,SUCCESS,6,2013-01-07 09:27:16 -0600,Added maven build,3,651
+32,df674ca,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-01-12 14:21:03 -0600,Code cleanup,3,642
+33,01ecef8,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-01-12 14:26:47 -0600,Code cleanup,3,644
+34,8e74cc2,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-01-21 10:46:14 -0600,Updated classpath for eclipse,3,644
+35,a038998,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-02-22 22:22:54 -0600,Fixing and testing - Issue #4 (make content type parsing lenient),4,684
+36,bed8449,SUCCESS,2,SUCCESS,2,SUCCESS,5,2013-01-07 10:39:38 -0600,Snapshot version,4,684
+37,8d7af5a,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-01-07 10:40:09 -0600,[maven-release-plugin] prepare release nanohttpd-1.0.0,4,684
+38,3dc8918,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-02-25 09:20:18 -0600,Content type now supports comma separators,4,684
+39,1827716,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-02-25 07:26:04 -0800,Merge pull request #5 from psh/issue_4,4,684
+40,2b54eda,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-02-26 15:19:04 -0600,Fixed file-uploads from external sensor,4,692
+41,57e947a,SUCCESS,3,SUCCESS,1,SUCCESS,2,2013-03-06 12:51:39 -0800,Merge pull request #6 from psh/bug_4896,4,692
+42,d837e6f,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-08 21:13:47 -0600,Removed project meta-data,4,692
+43,8fa8e5a,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-03-08 21:14:40 -0600,Removed Eclipse meta-data,4,692
+44,c31b377,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-08 21:16:34 -0600,More meta-data cleanup,4,692
+45,48f1d0f,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-03-08 21:19:07 -0600,Cleanup - moved test data to a more maven-friendly location,4,692
+46,47b3e36,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-03-08 21:43:35 -0600,"Project cleanup - broke out ""samples"" and ""core"" maven modules to reduce the production JAR file footprint and remove clutter.",4,691
+47,9788c5b,SUCCESS,3,SUCCESS,2,SUCCESS,1,2013-03-08 22:02:46 -0600,Implemented fix for missing equals in get parameters.,6,687
+48,86b4db5,SUCCESS,2,SUCCESS,2,SUCCESS,2,2013-03-08 20:05:36 -0800,Merge pull request #8 from psh/optional-equals-in-query-parms,6,687
+49,2c48103,SUCCESS,3,SUCCESS,1,SUCCESS,2,2013-03-08 22:13:45 -0600,Fixes NPE when content-type header is missing,6,689
+50,19454b6,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-08 20:15:04 -0800,Merge pull request #9 from psh/fix-npe-for-missing-content-type,6,689
+51,fa460da,SUCCESS,3,SUCCESS,1,SUCCESS,2,2013-03-09 00:42:26 -0600,Cleanup,5,659
+52,4e1ae19,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-09 00:42:58 -0600,Created strategy for temp file and thread execution.,5,723
+53,43e6f0f,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-08 22:44:53 -0800,Merge pull request #11 from psh/temp-file-management-strategy,5,723
+54,1d08f5f,SUCCESS,3,SUCCESS,1,SUCCESS,2,2013-03-09 00:57:26 -0600,Example showing temp file management,6,757
+55,6200253,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-03-09 15:14:06 -0600,"Refactoring of HTTPSession to make it testable, prior to starting to write unit tests for everything.  TEST ALL THE THINGS!!!!!",6,765
+56,7f07277,SUCCESS,4,SUCCESS,1,SUCCESS,2,2013-03-09 18:20:52 -0600,Refactoring,6,778
+57,f29e141,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-03-10 20:38:06 -0500,"Create test suite for GET requests, and in the process fixed the issue of parameters having multiple values.",9,988
+58,bcb535e,SUCCESS,4,SUCCESS,2,SUCCESS,2,2013-03-10 21:03:31 -0500,Slowly increasing test coverage,10,1002
+59,342152f,SUCCESS,4,SUCCESS,2,SUCCESS,2,2013-03-11 07:47:28 -0500,Test for parsing,10,1005
+60,afd3338,SUCCESS,2,SUCCESS,3,SUCCESS,2,2013-03-11 09:03:11 -0500,Update README.md,10,1005
+61,f639f20,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-03-26 22:31:22 -0500,"Manual merge of pull request submitted by @gitgrimbo, allowing hostname to be bound for NanoHttpd server.",10,1014
+62,dfea30a,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-03-27 22:58:50 -0500,Manual merge of random-access-storage pull request from @nonexpectation,10,1019
+63,ff649d0,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-03-28 00:49:58 -0500,Merge branch 'RandomAccessFile_for_incoming_requests',10,1019
+64,1ca7710,SUCCESS,3,SUCCESS,2,SUCCESS,2,2013-04-14 17:24:21 -0500,Named the threads created by the server to reflect their use - to aid in profiling performance/memory usage.,10,1023
+65,2dc83f9,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-04-15 14:28:52 +0300,Fixing Server does not close properly,10,1023
+66,e71d027,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-04-15 05:11:05 -0700,Merge pull request #16 from BjoernAkAManf/patch-1,10,1023
+67,5bcb85e,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-04-15 07:19:15 -0500,Create LICENSE.md,10,1023
+68,50b70cd,SUCCESS,2,SUCCESS,3,SUCCESS,2,2013-04-15 07:28:07 -0500,Update NanoHTTPD.java,10,1023
+69,be09227,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-04-21 14:12:18 -0500,Update README.md,10,1023
+70,606f46e,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-04-27 05:23:33 -0700,Merge pull request #17 from NanoHttpd/documentation_updates,10,1023
+71,ea902c0,SUCCESS,3,SUCCESS,2,SUCCESS,3,2013-04-27 12:51:40 -0500,Update README.md,10,1023
+72,e55ac2d,SUCCESS,4,SUCCESS,2,SUCCESS,2,2013-05-05 16:27:19 -0500,"Extracted and promoted the NanoHttpd Webserver to a top-level project (instead of being a ""sample"").",10,1025
+73,dd4a404,SUCCESS,4,SUCCESS,2,SUCCESS,2,2013-05-05 22:34:51 -0500,Polish and small refactoring,10,1027
+74,b814145,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 18:40:06 -0500,Added HEAD request handling per HTTP spec - basically GET without returning a response body.,11,1141
+75,4670a91,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 16:45:10 -0700,Merge pull request #21 from NanoHttpd/http_head_support,11,1141
+76,1e602b9,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 19:48:02 -0400,Update README.md,11,1141
+77,9d9bd98,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 22:59:55 -0500,Fixed a couple of static code analysis suggestions.,11,1140
+78,176ef22,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 21:00:57 -0700,Merge pull request #22 from NanoHttpd/static_code_analysis,11,1140
+79,5b4919a,SUCCESS,3,SUCCESS,3,SUCCESS,2,2013-05-11 23:53:53 -0500,"Moved code around a little, and improved the Javadoc",11,1139
+80,d4b1267,SUCCESS,4,SUCCESS,3,SUCCESS,2,2013-05-11 23:55:52 -0500,Resolved merge conflict (I hope!),11,1138
+81,7162954,SUCCESS,4,SUCCESS,3,SUCCESS,2,2013-05-13 20:48:22 -0500,Added tests for DELETE requests,12,1175
+82,7d7cd1f,SUCCESS,4,SUCCESS,2,FAIL,3,2013-05-14 07:31:32 -0500,"Increasing test coverage, into the final push for all HTTP verbs!",14,1250
+83,41c44fe,SUCCESS,3,SUCCESS,3,FAIL,3,2013-05-15 16:08:42 +0300,Added missing copyright acknowledgements from source files.,14,1250
+84,c6f3f15,SUCCESS,4,SUCCESS,2,FAIL,3,2013-05-15 21:08:49 -0500,Added getter/setter for Response fields per emailed request.,14,1264
+85,3d12c43,SUCCESS,3,SUCCESS,2,FAIL,3,2013-05-17 09:30:54 -0700,Merge pull request #24 from elonen/master,14,1264
+86,6964c6f,SUCCESS,4,SUCCESS,3,FAIL,3,2013-05-20 18:53:20 -0500,Improved testing - integration style!  Woop Woop!,15,1407
+87,cd6091a,SUCCESS,4,SUCCESS,2,FAIL,3,2013-05-20 18:53:59 -0500,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd,15,1407
+88,84dcf74,SUCCESS,4,SUCCESS,3,FAIL,3,2013-05-21 23:00:57 -0500,"Tidied up copyright statements, making them consistent, and updated version numbers to 2.0.0 throughout.",15,1405
+89,9be4e37,SUCCESS,3,SUCCESS,3,FAIL,2,2013-05-21 23:03:30 -0500,2.0.0 Release,15,1405
+90,a1e2a12,SUCCESS,4,SUCCESS,3,FAIL,2,2013-05-22 09:50:14 -0400,Minor readme polish for 2.0.0,15,1405
+91,49f777c,SUCCESS,4,SUCCESS,2,FAIL,3,2013-05-27 13:34:59 -0500,Issue 30: submitted fix for UTF-8 non-English filenames.,15,1403
+92,623e788,SUCCESS,4,SUCCESS,3,FAIL,3,2013-05-27 11:36:58 -0700,Merge pull request #31 from NanoHttpd/Issue-30-multibyte-url-decoding,15,1403
+93,a6c7dc6,SUCCESS,4,SUCCESS,2,FAIL,3,2013-05-27 13:48:13 -0500,Update README.md,15,1403
+94,967c508,SUCCESS,4,SUCCESS,3,FAIL,3,2013-05-27 13:48:37 -0500,Update pom.xml,15,1403
+95,876451e,FAIL,4,NO,0,NO,0,2013-05-27 13:49:09 -0500,Update pom.xml,15,1403
+96,ae5c8ed,FAIL,3,NO,0,NO,0,2013-05-27 13:49:42 -0500,Update pom.xml,15,1403
+97,d4a5ed1,SUCCESS,4,SUCCESS,3,FAIL,3,2013-05-27 13:50:02 -0500,Update pom.xml,15,1403
+98,412e2e1,SUCCESS,4,SUCCESS,3,FAIL,3,2013-06-06 14:44:28 -0500,Fixing issue #26 - RandomAccessFile renamed and closed appropriately.,15,1410
+99,43da539,SUCCESS,3,SUCCESS,2,FAIL,3,2013-06-06 19:59:28 -0500,Polishing the webserver,15,1431
+100,da9f57e,SUCCESS,3,SUCCESS,3,FAIL,2,2013-06-06 18:06:13 -0700,Merge pull request #33 from NanoHttpd/add-quiet-option,15,1431
+101,9d23138,SUCCESS,3,SUCCESS,3,FAIL,3,2013-06-06 20:13:17 -0500,2.0.2 Release,15,1431
+102,cad6aa4,SUCCESS,3,SUCCESS,3,FAIL,3,2013-06-07 07:27:47 -0500,Updated readme regarding testing,15,1431
+103,7e423dd,SUCCESS,4,SUCCESS,2,FAIL,3,2013-06-10 14:26:09 -0600,Adding methods to check server availability,15,1437
+104,9cd5d3b,SUCCESS,4,SUCCESS,2,FAIL,3,2013-06-10 14:34:24 -0600,Adding safeClose() methods to cleanup stream/socket closing,15,1445
+105,6e41965,SUCCESS,4,FAIL,3,NO,0,2013-06-10 14:45:41 -0600,Skipping creating/executing an HTTPSession when there is no InputStream,15,1450
+106,964393f,SUCCESS,3,FAIL,3,NO,0,2013-06-10 15:11:07 -0600,Replacing InterruptedException with ResponseException so Response.send() is not used in multiple locations.,15,1448
+107,8af508e,SUCCESS,4,FAIL,3,NO,0,2013-06-10 15:15:28 -0600,Pluralizing the header argument,15,1448
+108,062b50e,SUCCESS,3,FAIL,3,NO,0,2013-06-10 15:19:50 -0600,Closing tempFile OutputStream,15,1452
+109,93441a0,SUCCESS,4,FAIL,3,NO,0,2013-06-10 16:45:09 -0600,Adding a serve() override method to handle requests without forcing the body to be written into a temp file,15,1484
+110,8cdc631,SUCCESS,4,FAIL,2,NO,0,2013-06-10 16:48:13 -0600,Adding getter to access the raw body from the request,15,1486
+111,c36a1c5,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-06-10 17:01:10 -0600,Fixing broken tests because of temp files being cleared before used in assertions,15,1497
+112,ac42f7c,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-06-10 17:02:24 -0600,Moving temp file clearing back to HTTPSession.execute(),15,1498
+113,745614b,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-06-12 12:05:15 -0700,Adding integration test for serve(HTTPSession) reading directly from InputStream,16,1548
+114,6f89f6a,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-06-13 19:37:51 -0700,Merge pull request #36 from MartinMReed/master,16,1548
+115,6b018ce,SUCCESS,3,SUCCESS,3,FAIL,2,2013-06-17 22:34:21 -0500,Added keep-alive support.,16,1554
+116,2cbbb4d,SUCCESS,4,SUCCESS,2,SUCCESS,4,2013-06-17 22:46:51 -0500,"Updated tests for new HTTP 1.1 header, shifted test server to a port that doesnt automatically fail on a machine running Jetty/Tomcat and rolled the version number.",16,1553
+117,fd6fd65,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-06-17 20:49:00 -0700,Merge pull request #39 from NanoHttpd/keep-alive-support,16,1553
+118,d8cc726,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-06-18 17:20:36 -0400,Update README.md,16,1553
+119,67708a7,SUCCESS,4,FAIL,2,NO,0,2013-06-20 22:22:52 +0800,fix infinity loop when client close the socket,16,1558
+120,28705dd,SUCCESS,4,FAIL,3,NO,0,2013-06-20 10:50:13 -0700,Merge pull request #40 from douzifly/master,16,1558
+121,06a09d7,SUCCESS,4,FAIL,3,NO,0,2013-07-01 21:00:46 -0500,"http://nanohttpd.com - went live July 1st, 2013.",16,1558
+122,41b4b6d,SUCCESS,3,FAIL,3,NO,0,2013-07-02 15:29:06 -0500,Update README.md,16,1558
+123,8195cac,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-07-12 06:21:15 -0500,"Cleaning up broken test code, and making the NanoHttpd shutdown a little quieter by swalling a PrintStackTrace of an expected exception",15,1552
+124,6a28d48,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-07-21 21:53:55 +0100,Added rudimentary support for cookies.,15,1590
+125,a7a9272,SUCCESS,4,SUCCESS,2,FAIL,3,2013-08-20 11:33:10 +0200,"Add a Content-Length header even if the response has no content data. Without that, the browser's request stays pending as the socket is not closed and it doesn't know how much data should be read",15,1551
+126,da4518b,SUCCESS,4,SUCCESS,2,SUCCESS,4,2013-08-29 23:46:14 -0500,"Added comment about ""ssl-support"" branch.",15,1552
+127,00e0b05,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-08-30 21:40:15 -0700,Merge pull request #47 from LordFokas/master,15,1590
+128,8dd1835,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-09-02 17:23:13 -0500,"Deprecated the serve() method taking multiple parameters, as the one taking a session now offers more functionality.  Updated the readme to reflect basic cookie support now added. @psh",15,1588
+129,5820f30,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-02 22:57:14 -0500,Added basic test to verify cookies are sent and received. @psh,17,1655
+130,1792cf9,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-03 18:55:33 +0700,Moved httpclient and httpmime to test scope,17,1655
+131,868d807,SUCCESS,4,SUCCESS,2,SUCCESS,4,2013-09-03 19:01:30 +0700,Expanded tabs to spaces,17,1655
+132,79f7c96,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-03 19:13:28 +0700,Ignore Vim/Vi backup & swap files,17,1655
+133,a347cdc,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-09-04 16:38:12 +0200,add jar-with-dependency assembly so that an fully executable jar becomes available.,17,1655
+134,e313a7d,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-04 21:01:44 -0700,Merge pull request #53 from digitalrounin/master,17,1655
+135,d06fedb,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-04 21:02:56 -0700,Merge pull request #55 from McFoggy/master,17,1655
+136,1404795,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-05 08:09:59 -0500,Manually merging pull request #49. @psh,17,1654
+137,399229d,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-08 05:59:02 -0500,Refactoring to serve files by mime type. @psh,17,1665
+138,e25c170,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-10 20:49:01 -0700,add waffle.io badge,17,1654
+139,70c7c01,SUCCESS,4,SUCCESS,3,SUCCESS,2,2013-09-10 20:50:16 -0700,Merge pull request #56 from waffleio/master,17,1654
+140,bf93f36,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-10 22:51:14 -0500,Update README.md,17,1654
+141,fe1961e,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-09-14 19:54:34 +0100,Add chunked support from PipeInputStreams,18,1695
+142,51deb63,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-09-14 22:39:46 -0500,"Serving files by mime type, with plugin support so external plugins can register to handle different file types.  Example plugin writted to support markdown (.md) files. @psh",21,1794
+143,ab9c6a7,SUCCESS,4,SUCCESS,3,SUCCESS,2,2013-09-14 20:42:12 -0700,Merge pull request #59 from NanoHttpd/serve-files-by-mime-type,21,1794
+144,220e1a2,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-09-14 22:46:01 -0500,Fixed code issue - repeating 'startsWith' when it meant to have a startsWith and an endsWith.  Closes issue #52.  @psh,21,1794
+145,6ac6c5a,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-09-15 15:20:32 -0500,Created capability for server-side URL rewriting and switched directory index file processing to use the new capability. @psh,22,1828
+146,900eecd,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-15 13:22:34 -0700,Merge pull request #60 from NanoHttpd/internal-rewrites,22,1828
+147,8359473,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-09-15 15:42:19 -0500,Update README.md,22,1828
+148,34bcf83,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-15 17:12:06 -0500,Updated build to 2.0.4 version.,22,1828
+149,517987f,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-09-16 00:12:57 +0100,Explicit chunk request replaces checking for pipeinputstream,18,1699
+150,12b4973,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-15 20:48:33 -0700,Merge pull request #58 from sleekweasel/chunking-support,23,1873
+151,bc0de3e,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-09-19 00:17:10 +0100,Add interface to allow fakes,23,1885
+152,249def0,SUCCESS,5,SUCCESS,3,SUCCESS,3,2013-09-19 20:51:46 +0100,"Restore class name, rename interface",23,1885
+153,66f2f34,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-09-21 04:27:43 -0700,Merge pull request #61 from sleekweasel/test-interfaces,23,1885
+154,293e046,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-10-07 11:47:29 +0200,Added constant socket read timeout. This makes idling client handler threads shutdown.,23,1887
+155,b8bcf01,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-10-11 11:16:28 -0700,Merge pull request #64 from hflicka/master,23,1887
+156,866241d,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-14 22:07:04 +0100,Issue #70 added 405 HTTP status code,23,1887
+157,c7de8ba,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-10-17 05:34:01 -0700,Merge pull request #71 from synapticloop/master,23,1887
+158,ef698c8,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-17 07:38:49 -0500,"Added ""OPTIONS"" to the Method enum",23,1887
+159,7e4e4ae,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-18 11:28:13 +0100,Issue 69 added remote ip to session headers,24,1921
+160,eb71c89,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-21 12:23:18 -0500,Use an explicit locale.,23,1887
+161,067912c,SUCCESS,5,SUCCESS,3,SUCCESS,3,2013-10-21 19:13:05 -0700,Merge pull request #73 from masover/master,23,1887
+162,12e45c1,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-21 19:14:26 -0700,Merge pull request #72 from synapticloop/master,24,1921
+163,0a35219,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-30 14:14:36 +0100,Closes all existing connections at shotdown.,25,1966
+164,13aa468,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-10-30 09:13:09 -0700,Merge pull request #76 from AlbinTheander/albin_theander,25,1966
+165,895b2e6,SUCCESS,4,SUCCESS,3,SUCCESS,4,2013-11-24 22:00:25 +0100,"Fix an issue with ERROR 503 after SOCKET_READ_TIMEOUT, and connection is not closed by Server",25,1968
+166,b01d2c9,SUCCESS,3,SUCCESS,3,SUCCESS,3,2013-11-25 11:55:28 -0500,removed stack trace caused by a closed socket from client side,25,1999
+167,d2c498e,SUCCESS,4,SUCCESS,2,SUCCESS,3,2013-12-10 07:04:24 -0800,Merge pull request #82 from sherifmoursi/removeStackTrace,25,1999
+168,f81ed13,FAIL,3,NO,0,NO,0,2013-12-10 07:05:06 -0800,Merge pull request #81 from Worxfr/master,25,2001
+169,13736e1,SUCCESS,5,SUCCESS,2,SUCCESS,3,2013-12-10 17:29:16 -0600,Fixed missing import statement.,25,2002
+170,fbe92e0,SUCCESS,5,SUCCESS,3,FAIL,2,2013-12-10 18:17:41 -0600,Dont add the (workaround) query string to the parameters map when using the non-deprecated serve() method.,25,2008
+171,939e8d5,SUCCESS,3,SUCCESS,3,FAIL,3,2013-12-10 18:18:43 -0600,Updated samples to use the non-deprecated serve() API.,25,2033
+172,68394ef,SUCCESS,4,SUCCESS,3,FAIL,4,2013-12-12 05:51:49 -0600,Little bit of resource cleanup.,25,2037
+173,ef3be58,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-12-12 06:06:25 -0600,Tests and documentation cleanup.,25,2052
+174,0bf521d,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-12-12 19:43:25 -0600,Release version 2.0.5,25,2052
+175,07c7eba,SUCCESS,4,SUCCESS,3,SUCCESS,3,2013-12-22 22:26:21 +0100,Remove redundant methods,25,2042
+176,864df37,FAIL,3,NO,0,NO,0,2013-12-25 23:31:20 +0100,Code Cleanup,25,2048
+177,0ad8e8a,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-18 11:43:27 +0100,Fixed typo,25,2048
+178,35b077b,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-22 14:38:02 +0000,more efficient decoding of post parameters,25,2054
+179,0214b83,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-01-29 01:18:55 +0100,Adds test for long-living keep-alive connections.,26,2092
+180,da2a813,SUCCESS,4,SUCCESS,2,SUCCESS,8,2014-01-29 01:20:43 +0100,Avoid stack overflow on long-living connections.,26,2090
+181,a61c636,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-28 20:27:59 -0800,Merge pull request #90 from BjoernAkAManf/patch-3,25,2048
+182,82a5f5c,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-28 20:29:22 -0800,Merge pull request #89 from BjoernAkAManf/patch-1,25,2038
+183,c7fd739,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-28 22:36:21 -0600,At JDK 1.6 Socket+ServerSocket need a distinct close method - not implementors of Closeable,25,2048
+184,d48c437,SUCCESS,4,SUCCESS,3,SUCCESS,3,2014-01-28 20:38:30 -0800,Merge pull request #93 from timwr/master,25,2050
+185,8523184,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-01-28 20:41:26 -0800,Merge pull request #96 from steventebrinke/master,26,2088
+186,6d3737c,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-01-30 12:58:54 +0100,Initial commit of NanoWSD,31,2624
+187,6bed463,SUCCESS,4,SUCCESS,3,SUCCESS,8,2014-03-17 02:27:16 -0700,Fixed issue with spaces in filenames and added tests,26,2100
+188,a42baa1,SUCCESS,4,SUCCESS,3,SUCCESS,7,2014-03-17 02:33:59 -0700,Merge branch 'filename_fix',26,2100
+189,ad3ccf0,SUCCESS,4,SUCCESS,2,SUCCESS,7,2014-04-18 19:01:16 +0200,Prefer to throw an Error rather than returning a null value which _will_ eventually lead to a NullPointerException,26,2087
+190,67e24e4,SUCCESS,4,SUCCESS,3,SUCCESS,7,2014-04-20 22:21:34 +0200,"Extracted interface from Status enum, so that people can use custom status codes",26,2093
+191,e9a1b53,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-22 15:13:56 +0200,Improve POST method management in case of no parameter entry in the post data (no 'form-data' or 'x-www-form-urlencoded' contentType) but raw data like this kind of request:,26,2105
+192,c6c080a,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-23 23:08:57 -0500,"websockets: final polish before release.  Tested on IE, Chrome and Firefox",33,2648
+193,ad505ef,SUCCESS,5,SUCCESS,4,SUCCESS,7,2014-04-23 23:09:51 -0500,Merge branch 'websockets',33,2648
+194,b891f27,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-23 23:16:23 -0500,Release 2.1.0,33,2648
+195,3c24d71,SUCCESS,4,SUCCESS,4,SUCCESS,7,2014-04-23 23:48:40 -0500,Slimmed down the Readme & added wiki docs,33,2648
+196,fe2c4a9,SUCCESS,5,SUCCESS,4,SUCCESS,7,2014-04-23 23:52:54 -0500,Merge pull request #104 from yankee42/master,33,2647
+197,9168877,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-23 23:59:25 -0500,Merge pull request,33,2652
+198,79cd900,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-24 00:01:36 -0500,Merge pull request #100 from gazazello/master,33,2664
+199,b436055,SUCCESS,5,SUCCESS,4,SUCCESS,7,2014-04-24 00:02:28 -0500,Merge pull request #106 from fabecc/master,33,2681
+200,42ff2a9,SUCCESS,5,FAIL,3,NO,0,2014-04-24 18:34:27 +0200,Added WebSocketFactory as alternative to deriving from NanoWebSocketServer,34,2697
+201,6aa9777,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-24 18:46:49 +0200,"moved code from NanoWebSocketServer to WebSocketResponseHandler, so that requests can be handled without the presence of NanoHTTPD",35,2705
+202,44f52c7,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-04-24 23:32:38 +0200,Added basic test for websockets,37,2807
+203,84a1ab4,SUCCESS,7,SUCCESS,3,SUCCESS,8,2014-04-24 23:21:55 -0500,"Simplified the test using Mockito, and expanded what was being tested along with some other minor cleanup",37,2831
+204,f6c4cd0,FAIL,4,NO,0,NO,0,2014-04-24 09:14:08 -0400,"expanded plugins to also recieve IHTTPSession so it has more access to the request's state. Gives plugins access to Method, HTTP Headers, Parameters, and the raw Input Stream",37,2845
+205,4c51937,SUCCESS,5,SUCCESS,4,SUCCESS,8,2014-04-24 23:32:19 -0500,Fixed plugin argument signature for markdown plugin,37,2846
+206,72a344b,SUCCESS,4,SUCCESS,3,SUCCESS,7,2014-04-25 13:50:28 -0400,modified class so it could be overriden with user speicifc changes,37,2855
+207,38888ee,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-04-25 18:10:07 -0500,Merge pull request #110 from rnveach/rv_expand_webserver,37,2855
+208,fe8be79,SUCCESS,5,SUCCESS,3,SUCCESS,7,2014-04-25 22:06:29 -0500,Fix to only send content-length header if not already sent,37,2839
+209,711762a,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-04-25 22:07:01 -0500,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd,37,2848
+210,ab6feae,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-05-12 16:53:13 -0500,initial start on a gradle build.,37,2848
+211,92e45dd,SUCCESS,6,SUCCESS,3,SUCCESS,8,2014-05-17 23:27:35 +0200,Fix typos in documentation,37,2848
+212,b45e528,SUCCESS,4,SUCCESS,4,SUCCESS,7,2014-05-18 00:05:14 +0200,Fix javadoc tag,37,2848
+213,04eb69b,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-05-18 00:09:19 +0200,Fix outdated javadoc comment,37,2848
+214,3ca61bf,SUCCESS,4,SUCCESS,3,SUCCESS,8,2014-05-18 00:10:42 +0200,Fix outdated javadoc comment,37,2848
+215,b1b1d99,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-05-18 00:21:26 +0200,Fix element nesting in javadoc comments,37,2848
+216,cf23061,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-05-18 00:30:13 +0200,Fix typos in javadoc comments,37,2848
+217,43b5bae,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-05-27 19:45:46 +0200,Ensure that temporary files are closed on HttpKeepAliveTest,37,2852
+218,31eb75d,SUCCESS,5,SUCCESS,4,SUCCESS,8,2014-06-20 00:57:55 +0300,make server socket reuse address,37,2849
+219,98d6d14,FAIL,2,NO,0,NO,0,2014-08-08 10:50:57 -0400,Send amount of data set in content-length,37,2854
+220,1cbb99f,SUCCESS,5,SUCCESS,3,SUCCESS,8,2014-10-31 22:40:42 +0100,"Support <input type=""file"" multiple>",37,2854
+221,3944efc,SUCCESS,5,SUCCESS,4,SUCCESS,7,2014-11-05 21:34:08 +0800,Fix typo in SimpleWebServer.java,37,2848
+222,4a7d566,SUCCESS,5,SUCCESS,2,SUCCESS,8,2015-02-06 10:01:24 +0100,Response.setStatus now accepts arbitrary IStatus-derived instances,37,2848
+223,8b3f33c,SUCCESS,17,SUCCESS,5,SUCCESS,8,2015-02-27 07:23:28 +0100,basic changes needed for central release,37,2848
+224,d46396e,SUCCESS,5,SUCCESS,4,SUCCESS,9,2015-02-27 07:25:42 +0100,temporaty change to ritchieGitHub fork,37,2848
+225,88e584b,FAIL,2,NO,0,NO,0,2015-02-27 07:27:52 +0100,make it a 2.1.1 release because changes where made,37,2848
+226,15bce05,FAIL,1,NO,0,NO,0,2015-02-27 07:34:25 +0100,corrected attribute,37,2848
+227,9e5c34f,SUCCESS,5,SUCCESS,5,SUCCESS,9,2015-02-27 07:34:43 +0100,[maven-release-plugin] prepare branch nanohttpd-project-2.1.1-SNAPSHOT,37,2848
+228,9f0fc2b,SUCCESS,5,SUCCESS,4,SUCCESS,9,2015-02-27 07:35:54 +0100,[maven-release-plugin] prepare for next development iteration,37,2848
+229,333e68e,SUCCESS,6,SUCCESS,4,SUCCESS,9,2015-02-27 07:39:53 +0100,retry,37,2848
+230,278c397,SUCCESS,5,SUCCESS,3,SUCCESS,9,2015-02-27 07:40:53 +0100,[maven-release-plugin] prepare branch nanohttpd-project-2.1.1,37,2848
+231,c3ca941,SUCCESS,5,SUCCESS,5,SUCCESS,9,2015-02-27 07:41:59 +0100,[maven-release-plugin] prepare for next development iteration,37,2848
+232,651d6ce,SUCCESS,4,SUCCESS,4,SUCCESS,8,2015-03-16 18:39:18 -0700,Update SimpleWebServer.java,37,2848
+233,3abbccc,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-04-04 15:46:35 +0200,All files merged in one single class. Kind like the NanoHTTPD.,30,2748
+234,9cee8e2,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-04-06 20:42:35 +0200,If payload string contained a control character the result binary payload ended with a 0 character. This caused me troubles because I parsed Json payload with chrom browser. Chrome doesn't accept an 0 character at the end.,30,2742
+235,acfbf75,SUCCESS,6,SUCCESS,2,SUCCESS,8,2015-04-06 21:01:54 +0200,If payload string contained a control character (newline) the result binary payload ended with a 0 character. This caused me troubles because I parsed Json payload with chrome browser. Chrome doesn't accept an 0 character at the end in JSON.parse(),37,2842
+236,6cfcb8e,SUCCESS,5,SUCCESS,4,SUCCESS,8,2015-04-22 21:45:46 +0200,Fixed a bunch of warnings (from Eclipse),37,2852
+237,3795483,SUCCESS,5,SUCCESS,2,SUCCESS,8,2015-05-02 23:02:52 +0300,Merge pull request #167 from BrunoEberhard/master,37,2842
+238,898fdc3,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-05-02 23:26:20 +0300,Merge pull request #123 from AlaaZayed/patch-1,37,2843
+239,8528b00,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-05-02 23:30:21 +0300,Merge pull request #119 from m-click/fix-too-many-open-files,37,2847
+240,dde627f,SUCCESS,5,SUCCESS,3,SUCCESS,9,2015-05-02 23:50:11 +0300,Merge pull request #116 from philippwiesemann/fix-javadoc,37,2847
+241,b519013,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-05-02 23:51:04 +0300,Merge pull request #115 from philippwiesemann/fix-typos,37,2847
+242,fcd31f2,SUCCESS,5,SUCCESS,4,SUCCESS,8,2015-05-03 00:02:15 +0300,Merge pull request #145 from imdreamrunner/master,37,2847
+243,5a6b61c,SUCCESS,5,SUCCESS,3,SUCCESS,8,2015-05-03 00:29:36 +0300,Merge pull request #144 from LukeOwncloud/patch-1,37,2853
+244,0a25aeb,SUCCESS,5,SUCCESS,3,FAIL,7,2015-05-03 01:02:02 +0300,"Merged rnentjes/nanohttpd, with added preservation of remote-ip between header clears",37,2857
+245,53e21b8,SUCCESS,5,SUCCESS,3,FAIL,7,2015-05-03 02:39:01 +0300,Merge pull request #156 from hdznrrd/master,37,2857
+246,852da97,SUCCESS,5,SUCCESS,3,FAIL,8,2015-05-03 02:40:49 +0300,Merge pull request #165 from eric-cho/patch-1,37,2857
+247,c4c41cc,FAIL,3,NO,0,NO,0,2015-05-03 09:34:40 +0300,Merge pull request #130 from yext/master,37,2863
+248,1bb6a4b,SUCCESS,4,SUCCESS,3,FAIL,8,2015-05-03 15:46:30 +0300,"Fixed missing paren, Issue #172",37,2863
+249,f24cd76,SUCCESS,5,SUCCESS,4,FAIL,9,2015-05-03 14:53:15 +0200,Merge pull request #163 from ritchieGitHub/master,37,2863
+250,eb7ba3b,SUCCESS,5,SUCCESS,4,SUCCESS,10,2015-05-03 15:01:45 +0200,temporary ignore,37,2865
+251,da69bf8,SUCCESS,6,SUCCESS,4,SUCCESS,9,2015-05-03 15:07:50 +0200,duplicate versions removed,37,2865
+252,59db699,SUCCESS,5,SUCCESS,5,SUCCESS,9,2015-05-03 15:19:43 +0200,update parent pom,37,2865
+253,f0842f4,SUCCESS,10,SUCCESS,4,SUCCESS,10,2015-05-08 07:39:56 +0200,site configuration added,37,2865
+254,0a750cb,SUCCESS,6,SUCCESS,4,SUCCESS,11,2015-05-08 07:52:38 +0200,moved to nanohttpd.org,37,2865
+255,24cea8b,SUCCESS,6,SUCCESS,5,SUCCESS,10,2015-05-08 08:07:31 +0200,travis-ci,37,2865
+256,c17b4e5,SUCCESS,6,SUCCESS,5,SUCCESS,10,2015-05-08 08:11:16 +0200,test travis,37,2865
+257,63fa9f3,SUCCESS,6,SUCCESS,5,SUCCESS,11,2015-05-08 08:19:39 +0200,build status,37,2865
+258,d47ed2a,SUCCESS,4,SUCCESS,4,SUCCESS,15,2015-05-08 15:09:35 +0200,temporary formatting deacivated becaus of merges,37,2865
+259,83e2055,SUCCESS,5,SUCCESS,4,SUCCESS,13,2015-05-08 16:12:54 +0300,Merge pull request #171 from vorburger/FixedSomeAllWarningsShownInEclipse,37,2869
+260,3526d93,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-08 16:04:23 +0200,checkstyle issues and imports reorganized,37,2886
+261,5ab6cd8,SUCCESS,5,SUCCESS,4,SUCCESS,14,2014-04-22 22:08:11 -0400,do not print stacktrace on SocketTimeoutException,37,2887
+262,f7eb2ae,SUCCESS,5,SUCCESS,5,SUCCESS,13,2013-07-11 12:03:13 -0600,Add support for HTTPS,37,2913
+263,f39ce1d,SUCCESS,6,SUCCESS,3,SUCCESS,13,2013-07-11 12:11:29 -0600,Allow hostname binding for SSL,37,2913
+264,b7154d5,SUCCESS,5,SUCCESS,4,SUCCESS,14,2013-11-18 21:46:37 -0500,Switch makeSSLSocketFactory() to use default system KeyStore type.,37,2913
+265,a0b8acc,SUCCESS,5,SUCCESS,4,SUCCESS,14,2013-11-18 21:48:27 -0500,makeSSLSocketFactory method that accepts preloaded KeyStore/KeyManagerFactory,37,2924
+266,58ff2b1,SUCCESS,5,SUCCESS,4,SUCCESS,14,2013-12-13 02:02:11 -0500,makeSSLServerSocketFactory method that accepts a KeyManager array,37,2935
+267,ea010c0,SUCCESS,4,SUCCESS,4,SUCCESS,14,2014-05-06 11:52:16 -0400,use older IOException() to support Android < 9 (i.e. 2.3),37,2935
+268,fb42a30,SUCCESS,5,SUCCESS,4,SUCCESS,13,2015-05-08 23:56:26 +0300,Merge pull request #107 from eighthave/master,37,2935
+269,b206779,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-09 09:38:28 +0200,try to activate test coverage over travis,37,2935
+270,8197dc1,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-10 00:15:46 +0300,"Replace spurious accessors and exposed rootDirs as protected. Closes #161, #162",37,2928
+271,6b640a9,SUCCESS,5,SUCCESS,5,SUCCESS,13,2015-05-10 01:29:40 +0300,Rebased NanoWebSocketServer class aggregation from #166,30,2827
+272,34109aa,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-10 07:48:04 +0200,#175 missinh header version fixed,38,2969
+273,c84df46,SUCCESS,5,SUCCESS,4,SUCCESS,13,2015-05-10 07:48:38 +0200,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd.git into local,38,2962
+274,4decd0f,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-10 08:23:17 +0200,cobertura also on the web page,38,2962
+275,82eff8c,SUCCESS,6,SUCCESS,4,SUCCESS,14,2015-05-10 08:59:04 +0200,websocket test,40,3053
+276,28ad0a8,SUCCESS,5,SUCCESS,4,SUCCESS,15,2015-05-10 09:18:19 +0200,scope added,40,3053
+277,c3e84a2,SUCCESS,5,SUCCESS,4,SUCCESS,14,2015-05-10 11:01:23 +0300,Merge pull request #176 from NanoHttpd/SingleClassWebsocketServer,33,2952
+278,a59803b,SUCCESS,6,SUCCESS,4,SUCCESS,13,2015-05-10 13:37:31 +0200,logging improved and all print stacktraces moved to logging,33,2965
+279,9058464,SUCCESS,7,SUCCESS,5,SUCCESS,14,2015-05-10 13:41:19 +0200,after the last pull request in this series the formatter is now active,33,2952
+280,30fb85f,SUCCESS,6,SUCCESS,5,SUCCESS,15,2015-05-10 13:47:37 +0200,letting eclipse cleanup the code,33,2958
+281,9c4e5f6,SUCCESS,11,SUCCESS,5,SUCCESS,28,2015-05-10 15:04:38 +0200,config and jacoco instead of cubertura,33,2958
+282,c88ba6d,SUCCESS,6,SUCCESS,5,SUCCESS,27,2015-05-10 15:09:48 +0200,#131 socket timeout configurable,33,2960
+283,9fbdbfa,SUCCESS,7,SUCCESS,4,SUCCESS,28,2015-05-10 20:42:18 +0300,Fix potential truncating of POST body. Closes #153,33,2960
+284,292a62a,SUCCESS,7,SUCCESS,5,FAIL,24,2015-05-12 13:42:20 +0300,Splitting Response() constructor into NewFixedLengthResponse() and NewChunkedResponse(),33,2975
+285,dec6993,SUCCESS,7,SUCCESS,5,FAIL,24,2015-05-12 14:25:02 +0300,Exposed new protected Response constructor to allow inheritance,33,2978
+286,abcf108,SUCCESS,7,SUCCESS,5,SUCCESS,28,2015-05-14 07:58:05 +0200,anonymous classes to named classes #57,33,2980
+287,0e84bd4,SUCCESS,6,SUCCESS,5,SUCCESS,28,2015-05-14 07:58:26 +0200,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd.git into local,33,2980
+288,6a77bee,SUCCESS,7,SUCCESS,5,FAIL,24,2015-05-14 08:06:20 +0200,Merge branch 'local' into response-constructor-fix,33,2998
+289,5e2e2f1,SUCCESS,7,SUCCESS,5,SUCCESS,28,2015-05-14 09:02:50 +0200,"reponces now created by factorymethods that can be overwritten, solves #94",33,3021
+290,901af18,SUCCESS,7,SUCCESS,5,SUCCESS,28,2015-05-14 09:11:21 +0200,timeout now optional,33,3022
+291,d685218,SUCCESS,7,SUCCESS,5,SUCCESS,27,2015-05-14 09:15:28 +0200,give access to the async runner #128,33,3024
+292,9e1ec7b,SUCCESS,6,SUCCESS,5,SUCCESS,28,2015-05-14 09:40:10 +0200,some cleanup and mergig for #122 also long as resquest size added,33,3036
+293,d4146a6,SUCCESS,7,SUCCESS,5,SUCCESS,27,2015-05-14 09:47:39 +0200,fixed  #117,33,3036
+294,f869fff,SUCCESS,8,SUCCESS,6,SUCCESS,28,2015-05-14 10:03:26 +0200,prepaire for webserver unit tests,34,3041
+295,8bb6bfb,SUCCESS,7,SUCCESS,5,FAIL,26,2015-05-14 16:53:11 +0200,first set of unit tests for the webserver,36,3164
+296,b1ab872,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-14 16:58:33 +0200,wait a little longer durring testing,36,3164
+297,a029fe8,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-05-14 17:13:40 +0200,try agrigaring jacoco results,36,3164
+298,6034f34,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-15 22:30:19 +0200,Fix no warning in log if temp file was not deleted,36,3165
+299,e37bd6d,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-16 10:30:33 +0300,Merge pull request #178 from philippwiesemann/fix-core-temp-delete,36,3165
+300,af7a20b,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-05-16 12:49:21 +0300,Windowed/buffered getBoundaryPositions() for faster uploads of big files,36,3170
+301,dd0a8cd,SUCCESS,7,SUCCESS,4,SUCCESS,31,2015-05-16 21:33:40 +0200,Fix webserver serving folder named like index file,36,3165
+302,ed47140,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-16 23:23:30 +0300,Merge branch 'philippwiesemann-fix-webserver-index-dirs',36,3165
+303,f5ba92b,SUCCESS,7,SUCCESS,4,SUCCESS,30,2015-05-16 23:51:32 +0300,Removed non-generic hard-coded path test,36,3165
+304,de2bb1b,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-17 01:16:35 +0300,"Require HTTP version 1.1, throw an exception otherwise. Closes #46",36,3169
+305,256ad3a,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-17 02:04:14 +0300,Rebase faster-boundary-find,36,3174
+306,2c298d9,SUCCESS,6,SUCCESS,5,SUCCESS,30,2015-05-18 09:26:20 +0300,Merge pull request #180 from NanoHttpd/faster-boundary-find,36,3174
+307,a45eb0e,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-05-19 14:41:53 +0200,Added support for gzip,37,3283
+308,29d1d19,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-05-23 14:54:07 +0200,fix jdk to 1.6,36,3180
+309,0e5b88a,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-23 14:57:15 +0200,use openjdk6 because eol of oracle jdk6,36,3180
+310,e285ef9,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-05-23 14:59:15 +0200,use explicit email adresses,36,3180
+311,0dbe916,SUCCESS,8,SUCCESS,5,SUCCESS,29,2015-05-23 15:11:34 +0200,next try to use a real jdk 1.6,36,3180
+312,b9edc33,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-05-23 15:15:00 +0200,use jdk7 for maven and tests but real 1.6 to compile,36,3180
+313,284d648,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-23 15:37:13 +0200,try for #159 to allow the start method be called in the android ui thread.,36,3194
+314,9628584,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-05-23 18:14:47 +0200,Merge pull request #184 from AlbinTheander/gzip,37,3303
+315,882f385,SUCCESS,6,SUCCESS,5,SUCCESS,31,2015-05-23 21:03:08 +0200,Fix working on Android < 4.4 and Java < 7,37,3303
+316,a348198,SUCCESS,8,SUCCESS,5,SUCCESS,32,2015-05-23 22:07:53 +0300,Merge pull request #186 from philippwiesemann/fix-core-gzip,37,3303
+317,dde976d,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-05-24 14:57:04 +0300,Make 'Connection: Close' handling HTTP 1.1 compliant. Closes #133,37,3325
+318,a390515,SUCCESS,8,SUCCESS,5,SUCCESS,30,2015-05-24 15:23:01 +0300,Change default binding from localhost to all interfaces. Closes #137,37,3325
+319,3cbc176,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-25 00:24:37 +0300,Improved security and simplicity for decodeMultipartFormData(). Closes #23.,37,3317
+320,f1409a7,SUCCESS,6,SUCCESS,6,SUCCESS,29,2015-05-25 02:29:14 +0300,Actually remove the extra inputstreams,37,3314
+321,5e6d76f,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-05-25 02:37:47 +0300,Better naming for multipart header buffer,37,3314
+322,731ecb0,SUCCESS,7,SUCCESS,6,SUCCESS,31,2015-05-25 08:38:15 +0200,use regex for content disposition,37,3316
+323,6625f70,SUCCESS,6,SUCCESS,6,SUCCESS,29,2015-05-25 14:38:32 +0300,Use memory buffer instead of file for small requests,37,3328
+324,770aaf0,SUCCESS,8,SUCCESS,5,SUCCESS,30,2015-05-25 15:01:01 +0300,Decouple mem vs. file decision from read buffer size,37,3329
+325,4752fb1,SUCCESS,8,SUCCESS,5,SUCCESS,29,2015-05-25 17:03:33 +0300,Merge pull request #188 from NanoHttpd/better-decode-multipart,37,3329
+326,8c1502d,SUCCESS,6,SUCCESS,5,SUCCESS,29,2015-06-04 07:06:57 +0200,gzip now configuarble and websocket servers turn it default off,37,3334
+327,f713632,SUCCESS,8,SUCCESS,6,SUCCESS,30,2015-06-05 22:33:10 +0900,set transfer encoding to chunked when response is gzip.,37,3335
+328,ec0932c,SUCCESS,6,SUCCESS,6,SUCCESS,28,2015-06-09 16:13:03 -0400,Added Mime type for HLS,37,3336
+329,a29211a,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-06-12 18:04:00 +0200,Merge pull request #193 from kira1928/set-chunked-when-gzip,37,3335
+330,367e302,SUCCESS,7,SUCCESS,6,FAIL,24,2015-06-14 06:37:11 +0200,"use ascii encoding to parse the headers, fixes #192",37,3336
+331,b62c42c,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-06-14 06:40:38 +0200,"default of gzip compression set to false, #196",37,3345
+332,6243d68,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-06-24 18:41:32 +0200,Adds SimpleWebServer MIME of `image/svg+xml`,37,3346
+333,ddb266b,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-06-26 01:09:03 +0300,Compress mime type text/* by default. Closes #196,37,3345
+334,9bf3b64,SUCCESS,7,SUCCESS,5,SUCCESS,30,2015-06-26 08:19:37 +0200,readme addapted to current state,37,3345
+335,bfcedb5,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-06-27 11:39:36 +0300,Close user provided Response data InputStream even in case of error,37,3351
+336,14aad74,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-06-27 12:05:29 +0300,Merge pull request #201 from Meteorite/master,37,3351
+337,12e6c0c,SUCCESS,7,SUCCESS,6,SUCCESS,30,2015-06-30 20:47:18 -0400,Added 408 Request Timeout to Status enum,37,3352
+338,29d077e,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-07-04 19:20:10 +0300,Merge pull request #202 from luctrudeau/patch-2,37,3352
+339,1175113,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-07-04 19:22:07 +0300,Merge pull request #203 from luctrudeau/patch-1,37,3354
+340,7cb7c97,SUCCESS,8,SUCCESS,6,SUCCESS,30,2015-07-04 20:42:34 +0300,Some work on README,37,3354
+341,5f71655,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-07-04 23:33:36 +0300,Merge pull request #200 from snostorm/adds-svg,37,3355
+342,0dbcfa4,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-07-05 07:37:18 +0200,auto deployment of the snapshot,37,3355
+343,b341645,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-07-05 08:09:20 +0200,getting started added,37,3355
+344,7c1f7f9,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-07-05 08:37:14 +0200,prevent pull request from deploying a version,37,3355
+345,5ba1a0e,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-07-05 09:26:14 +0200,fix for travis master branch condition,37,3355
+346,62d6807,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-07-05 14:44:34 +0300,Restructured readme and added a start-from-zero tutorial.,37,3355
+347,854f43a,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-07-05 14:46:44 +0300,Added syntax highlight to README,37,3355
+348,6b1b0e8,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-07-05 14:46:44 +0300,Removed spurious indent.,37,3355
+349,7745b75,SUCCESS,7,SUCCESS,5,SUCCESS,29,2015-07-05 14:48:07 +0300,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd,37,3355
+350,582a893,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-07-05 14:49:11 +0300,Removed spurious indent.,37,3355
+351,7247cca,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-07-05 14:52:34 +0300,Copied README to site docs,37,3355
+352,709bd63,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-07-08 14:02:12 +0200,fixes #25 add basic CORS support,39,3471
+353,5fa0219,SUCCESS,8,SUCCESS,6,SUCCESS,30,2015-07-10 08:24:16 +0200,lf as line separator #206,37,3355
+354,5fe20c6,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-07-15 23:35:30 +0300,Added some HTTP methods. Closes #208,37,3358
+355,e202df4,SUCCESS,6,SUCCESS,5,SUCCESS,30,2015-07-17 16:29:50 +0200,Update pom.xml,37,3358
+356,23529ea,SUCCESS,8,SUCCESS,5,SUCCESS,29,2015-07-19 07:31:50 +0200,extra jar with echo server #210,37,3358
+357,c5c77ab,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-07-20 08:29:48 +0200,open visibility of SimpleWebServer#addCORSHeaders() method as requested in #207 comments,39,3471
+358,42c25b8,SUCCESS,8,SUCCESS,5,SUCCESS,29,2015-07-22 14:02:02 +0300,Add simple router example. Issue #214 - NanoHTTPD uri router,48,3740
+359,9d3564a,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-08-08 11:40:09 +0300,Update README.md,37,3358
+360,0760946,SUCCESS,7,SUCCESS,5,SUCCESS,31,2015-08-08 12:35:21 +0300,Moved body length calculation to separate function. Related to issue #217.,37,3358
+361,38c1eb8,SUCCESS,7,SUCCESS,6,SUCCESS,28,2015-08-08 12:35:58 +0300,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd,37,3358
+362,1f2440c,FAIL,6,NO,0,NO,0,2015-08-08 14:00:21 +0300,Added filename_hint to temp file manager interaface. Closes #111,37,3358
+363,33cf28e,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-08-08 14:13:25 +0300,Fixed build for TempFilesServer.java,37,3358
+364,9e65919,SUCCESS,7,SUCCESS,6,SUCCESS,30,2015-08-08 21:48:01 +0300,Added option to start server in non-deamon thread. Closes #212,37,3360
+365,cbdd9d8,SUCCESS,7,SUCCESS,5,SUCCESS,33,2015-08-09 12:27:05 +0200,enhance CORS support to allow to define origin,40,3532
+366,ae91d0b,SUCCESS,6,SUCCESS,6,SUCCESS,30,2015-08-10 11:12:01 +0300,Merge branch 'master' of https://github.com/NanoHttpd/nanohttpd,48,3742
+367,f22e738,SUCCESS,9,SUCCESS,5,SUCCESS,30,2015-08-10 11:46:31 +0300,Issue #216 - Integration with apache.commons.fileupload enhancement,39,3412
+368,4d2c4ad,SUCCESS,7,SUCCESS,6,SUCCESS,30,2015-08-10 12:06:14 +0300,Issue #216 - Integration with apache.commons.fileupload enhancement - Condensing the classes into a single class,38,3411
+369,c8aca9c,SUCCESS,8,SUCCESS,5,SUCCESS,29,2015-08-14 23:00:29 +0300,Added some HTTP status codes. Closes #220,37,3363
+370,504cf71,SUCCESS,7,SUCCESS,6,FAIL,25,2015-08-21 19:13:27 +0300,Work towards static newXXResponse()s,37,3357
+371,f019744,FAIL,2,NO,0,NO,0,2015-08-22 21:01:24 +0300,"Fixed SimpleWebServer, bumped version",37,3355
+372,e97508b,FAIL,2,NO,0,NO,0,2015-08-24 12:23:52 +0300,Merge remote-tracking branch 'upstream/static-new-xx',48,3737
+373,eaf89cc,FAIL,1,NO,0,NO,0,2015-08-24 13:35:25 +0300,Issue #214 -  NanoHTTPD uri router. Single file,39,3433
+374,c94ba3a,FAIL,2,NO,0,NO,0,2015-08-24 13:36:24 +0300,Issue #214 -  NanoHTTPD uri router. Fix pom versions,39,3679
+375,4344efd,SUCCESS,7,SUCCESS,6,SUCCESS,30,2015-09-04 18:18:21 +0300,Fixed a potential CPU cache issue. Closes #229.,37,3363
+376,d06acf2,FAIL,2,NO,0,NO,0,2015-09-04 18:51:58 +0300,"Turned some more functions static, as per #226",37,3352
+377,9f38ca2,SUCCESS,7,SUCCESS,6,SUCCESS,29,2015-09-05 06:35:38 +0200,correct all poms to same version,37,3352
+378,6c4d9f5,SUCCESS,6,SUCCESS,6,SUCCESS,29,2015-09-11 07:52:45 +0200,first refactorings for own module nanolets #223,39,3690
+379,029d666,SUCCESS,7,SUCCESS,6,SUCCESS,30,2015-09-11 07:53:51 +0200,Merge branch 'vnnv-Nanolets_Condensed_in_a_single_file',39,3690
+380,d66d5b8,SUCCESS,8,SUCCESS,5,SUCCESS,32,2015-09-11 10:07:31 +0200,first test case for nanolets #214,40,3749
+381,350ed42,SUCCESS,8,SUCCESS,6,SUCCESS,34,2015-09-12 07:45:31 +0200,unit tests for nanolets #214,40,3896
+382,2ac451a,SUCCESS,8,SUCCESS,6,SUCCESS,32,2015-09-12 08:21:32 +0200,Merge branch 'originalMaster' of https://github.com/vnnv/nanohttpd into vnnv-originalMaster,41,3947
+383,afdc49f,SUCCESS,12,SUCCESS,14,SUCCESS,36,2015-09-12 08:22:09 +0200,Merge branch 'vnnv-originalMaster',41,3947
+384,cebdea5,SUCCESS,9,SUCCESS,6,SUCCESS,33,2015-09-12 09:13:26 +0200,apache file upload integration #216 #219 (unit test not acive yet),42,4041
+385,ffabe5f,SUCCESS,8,SUCCESS,6,SUCCESS,35,2015-09-13 06:22:54 +0200,file upload refactorings and set minimal coverage per module  #219 #216,42,4044
+386,52e133e,SUCCESS,9,SUCCESS,6,SUCCESS,37,2015-09-13 06:59:56 +0200,unit tests for all cases #219 #216,42,4100
+387,4a3649d,SUCCESS,8,SUCCESS,6,SUCCESS,40,2015-09-13 08:01:26 +0200,Merge pull request #207 from McFoggy/cors-support,45,4277
+388,b7c544c,SUCCESS,9,SUCCESS,6,SUCCESS,42,2015-09-13 08:06:09 +0200,increase minimal coverage,45,4277
+389,3ea79cf,SUCCESS,11,SUCCESS,7,SUCCESS,42,2015-09-13 09:18:09 +0200,unit tests for ssl support #197,46,4322
+390,4cfc55d,SUCCESS,9,SUCCESS,5,SUCCESS,42,2015-09-13 16:00:16 +0200,small code style correction,46,4322
+391,f3b51b6,SUCCESS,7,SUCCESS,6,SUCCESS,42,2015-09-13 20:21:56 +0300,Changed ServerRunner to daemon=false. Closes #224,46,4322
+392,60b7e92,FAIL,2,NO,0,NO,0,2015-09-13 20:49:59 +0300,Merge branch 'master' into static-new-xx,46,4319
+393,d54deb0,FAIL,2,NO,0,NO,0,2015-09-13 21:03:36 +0300,Fixed TestNanoFileUpLoad for static-xx,46,4316
+394,f53dafd,FAIL,3,NO,0,NO,0,2015-09-14 06:34:25 +0200,try re resolve travis buid error,46,4316
+395,aba41f0,FAIL,2,NO,0,NO,0,2015-09-14 06:48:20 +0200,next try,46,4316
+396,f42d2d8,FAIL,2,NO,0,NO,0,2015-09-14 06:51:47 +0200,Update .travis.yml,46,4316
+397,4a13799,FAIL,2,NO,0,NO,0,2015-09-14 07:14:20 +0200,Update .travis.yml,46,4316
+398,ece85f5,SUCCESS,9,SUCCESS,6,SUCCESS,42,2015-09-14 07:16:06 +0200,parent version corrected,46,4316
+399,eb15b33,SUCCESS,8,SUCCESS,7,SUCCESS,42,2015-09-15 22:31:07 -0400,Remove PushBackInputStream.,46,4318
+400,1ad5215,SUCCESS,12,SUCCESS,9,SUCCESS,43,2015-09-25 06:24:52 +0200,Merge pull request #230 from ravenchild/bufferChanges,46,4318
+401,34ea556,SUCCESS,8,SUCCESS,6,SUCCESS,42,2015-09-26 06:13:05 +0200,readme adapted for old TLD #233,46,4318
+402,6a95983,SUCCESS,8,SUCCESS,7,SUCCESS,41,2015-09-26 09:35:51 +0200,integrates the nice features of #218 in #214,46,4428
+403,2681f5f,SUCCESS,8,SUCCESS,7,SUCCESS,42,2015-09-27 06:54:54 +0200,more unit tests also for the special cases #214 #216,46,4446
+404,ed02162,SUCCESS,9,SUCCESS,6,SUCCESS,41,2015-09-27 07:11:40 +0200,nanolets in the readme #214,46,4446
+405,db16e41,SUCCESS,8,SUCCESS,6,FAIL,31,2015-09-27 07:12:16 +0200,add requested options to the ssl connection #209,46,4450
+406,8f5edfe,SUCCESS,8,SUCCESS,6,SUCCESS,40,2015-09-27 07:39:35 +0200,enable all available protocols as a default #209,46,4456
+407,14d6e72,SUCCESS,6,SUCCESS,6,SUCCESS,40,2015-10-03 07:31:10 +0200,easy way to add mime types fix #204,47,4438
+408,1aacdb2,SUCCESS,8,SUCCESS,6,SUCCESS,41,2015-10-03 07:35:55 +0200,adapt minimal test coverage after implementing #204,47,4438
+409,529d17d,SUCCESS,7,SUCCESS,6,SUCCESS,43,2015-10-11 03:51:43 +0200,Added ServerSocketFactory to allow custom ServerSockets; Added recognition of (non-standard) \n\n-headers for more tolerance,47,4465
+410,e6b3d8f,SUCCESS,9,SUCCESS,7,SUCCESS,46,2015-10-12 20:22:15 +0200,Fix content-length not being parsed as long,47,4438
+411,450ef8e,SUCCESS,11,SUCCESS,5,SUCCESS,42,2015-10-13 00:06:47 +0300,Merge pull request #239 from philippwiesemann/fix-core-length-parse,47,4438
+412,2080278,SUCCESS,7,SUCCESS,7,SUCCESS,41,2015-10-14 01:28:37 +0100,Allows WebSocket servers to easily override default HTTP behavior.,47,4440
+413,a44f729,SUCCESS,7,SUCCESS,6,SUCCESS,43,2015-10-14 16:40:18 +0200,Merge remote-tracking branch 'origin/master',47,4465
+414,fbcdb13,FAIL,6,NO,0,NO,0,2015-10-16 11:03:47 +0300,Fix: Issue #243 : NanoHttpd throws an exception if temp directory doesn't exist #243,47,4441
+415,4a8a74a,FAIL,6,NO,0,NO,0,2015-10-16 13:01:20 +0300,Unit test - NanoHttpd throws an exception if temp directory doesn't exist #243,48,4468
+416,3993552,SUCCESS,9,SUCCESS,6,SUCCESS,44,2015-10-16 13:12:37 +0300,Fix: strange compilation error,48,4468
+417,cd2779c,SUCCESS,8,SUCCESS,6,SUCCESS,49,2015-10-16 16:09:16 +0200,little imp correction and more test coverage #243,48,4477
+418,9f4ed0d,SUCCESS,11,SUCCESS,7,SUCCESS,46,2015-10-16 16:09:47 +0200,Merge branch 'vnnv-issue_243',48,4477
+419,61b7e36,SUCCESS,8,SUCCESS,7,SUCCESS,46,2015-10-18 08:43:25 +0200,Merge pull request #241 from LordFokas/master,48,4479
+420,a86bc4b,SUCCESS,9,SUCCESS,6,SUCCESS,44,2015-10-18 10:06:17 +0200,encoded multipart requests #240,47,4402
+421,e316510,SUCCESS,8,SUCCESS,7,SUCCESS,45,2015-10-18 13:12:50 +0200,Added ServerSocketFactory JUnit test,48,4490
+422,b1397a1,SUCCESS,9,SUCCESS,6,SUCCESS,48,2015-10-18 13:14:03 +0200,Merge remote-tracking branch 'origin/master',48,4454
+423,6b302d1,SUCCESS,11,SUCCESS,6,SUCCESS,44,2015-10-18 16:07:53 +0200,read the encode request header exact fix #240,47,4411
+424,61b0528,SUCCESS,8,SUCCESS,7,SUCCESS,46,2015-10-19 13:24:19 +0100,Merge pull request #1 from NanoHttpd/master,47,4411
+425,b5f9221,SUCCESS,9,SUCCESS,7,SUCCESS,46,2015-10-19 13:31:28 +0100,Merge pull request #3 from LordFokas/master,47,4411
+426,1ea2389,SUCCESS,9,SUCCESS,6,SUCCESS,48,2015-10-21 16:49:17 +0200,Added SSLServerSocketFactoryTest; Fixed non-static classes and wrong return.,49,4497
+427,4c3db14,SUCCESS,10,SUCCESS,6,SUCCESS,51,2015-10-21 18:56:48 +0200,Added more tests; all coverage checks are met now.,49,4506
+428,bb83b42,FAIL,9,NO,0,NO,0,2015-10-22 19:59:22 +0100,Updated WebSocket class to handle itself in an overridable manner.,47,4428
+429,dbb8383,SUCCESS,8,SUCCESS,6,FAIL,40,2015-10-22 22:35:18 +0100,Detached the WebSocket from the Server: It makes more sense if each socket knows how to handle itself.,47,4425
+430,e032d6b,SUCCESS,8,SUCCESS,6,SUCCESS,43,2015-10-23 01:29:03 +0100,attempt to fix the test,47,4441
+431,fba310e,SUCCESS,8,SUCCESS,7,SUCCESS,48,2015-10-23 01:43:29 +0100,Rename NanoWebSocketServer to NanoWSD.,47,4441
+432,fbc38a4,SUCCESS,8,SUCCESS,7,SUCCESS,45,2015-10-23 06:52:24 +0200,Merge pull request #246 from LordFokas/development,47,4441
+433,6bb307d,SUCCESS,9,SUCCESS,8,SUCCESS,50,2015-10-23 06:57:48 +0200,Merge pull request #238 from Hoeze/master,49,4545
+434,fe70b4c,SUCCESS,10,SUCCESS,6,SUCCESS,47,2015-10-23 10:32:38 +0100,Merge pull request #7 from NanoHttpd/master,49,4545
+435,cd7de66,SUCCESS,9,SUCCESS,6,SUCCESS,50,2015-10-23 10:34:28 +0100,Merge pull request #8 from LordFokas/upstream,49,4545
+436,0f5ae07,SUCCESS,9,SUCCESS,6,SUCCESS,50,2015-11-03 19:23:13 +0800,Decode headers before write remote-addr,49,4545
+437,d26a73b,SUCCESS,8,SUCCESS,7,SUCCESS,50,2015-11-07 16:07:32 +0100,Merge pull request #248 from summershrimp/security-get-headers-first,49,4545
+438,2b3d434,SUCCESS,8,SUCCESS,6,SUCCESS,53,2015-11-13 07:20:33 +0100,add a gradle dependecy description #222,49,4545
+439,a79be22,SUCCESS,8,SUCCESS,6,SUCCESS,47,2015-11-13 21:09:03 +0700,Fix - Strings literals should be placed on the left side when checking for equality,49,4545
+440,1cad4b5,SUCCESS,8,SUCCESS,7,SUCCESS,51,2015-11-15 06:25:25 +0100,code formating #253,49,4550
+441,9cc376c,SUCCESS,9,SUCCESS,6,SUCCESS,49,2015-11-15 06:38:32 +0100,added some descriptions to the pom,49,4550
+442,a90fe20,SUCCESS,10,SUCCESS,7,SUCCESS,51,2015-11-15 06:48:09 +0100,[maven-release-plugin] prepare release nanohttpd-project-2.2.0,49,4550
+443,1db1b67,SUCCESS,8,SUCCESS,7,SUCCESS,54,2015-11-15 06:48:14 +0100,[maven-release-plugin] prepare for next development iteration,49,4550
+444,b60792a,SUCCESS,9,SUCCESS,7,SUCCESS,48,2015-11-15 07:12:01 +0100,now use the released version in the readme,49,4550
+445,5bf1869,SUCCESS,8,SUCCESS,6,SUCCESS,50,2015-11-15 07:14:34 +0100,eclipse launches to release nanohtppd,49,4550
+446,3b7892d,SUCCESS,10,SUCCESS,6,SUCCESS,49,2015-11-15 18:22:14 +0100,Update README.md,49,4550
+447,3432058,SUCCESS,9,SUCCESS,7,SUCCESS,51,2015-11-17 07:54:04 +0100,Merge pull request #255 from DevFactory/release/string-literal-fix-1,49,4550
+448,59b25b4,SUCCESS,8,SUCCESS,7,SUCCESS,54,2015-11-20 07:25:06 +0100,null check included fixes #259,49,4550
+449,1f4cf5b,SUCCESS,9,SUCCESS,7,SUCCESS,50,2015-11-20 07:26:22 +0100,code formatings,49,4550
+450,fb93d69,SUCCESS,8,SUCCESS,7,SUCCESS,49,2015-11-21 10:02:42 +0100,relocation poms #254,49,4550
+451,6adeb82,SUCCESS,10,SUCCESS,7,SUCCESS,49,2015-11-30 16:27:19 +0000,Merge pull request #11 from NanoHttpd/master,49,4550
+452,8b42375,SUCCESS,10,SUCCESS,6,SUCCESS,51,2015-11-30 16:30:58 +0000,Merge pull request #12 from LordFokas/upstream,49,4550
+453,86d7b6b,SUCCESS,11,SUCCESS,10,SUCCESS,50,2015-12-04 07:58:30 +0100,"code improvements, no nullchecks and less garbage",49,4548
+454,ca0cfc9,SUCCESS,9,SUCCESS,6,SUCCESS,50,2015-12-04 11:29:01 +0100,Added getter for remote ip address and remote hostname.,49,4558
+455,4c9511c,SUCCESS,9,SUCCESS,6,SUCCESS,50,2015-12-07 10:45:57 +0100,Added some HttpSession tests.,50,4589
+456,6629022,SUCCESS,9,SUCCESS,8,SUCCESS,51,2015-12-08 07:51:32 +0100,encoding and contenty type handling #261,49,4548
+457,f1d67be,SUCCESS,9,SUCCESS,7,SUCCESS,54,2015-12-06 02:21:39 +0000,"throw exception if keystore is not found in resources classpath when using ssl, prevents silently creating an empty keystore",49,4550
+458,2411041,SUCCESS,10,SUCCESS,7,SUCCESS,50,2015-12-08 20:53:25 +0000,add unit tests for loading keystore from resources path,50,4583
+459,6edd8d6,SUCCESS,7,SUCCESS,6,SUCCESS,49,2015-12-18 07:18:13 +0100,change log level of exception #249,49,4548
+460,6322ab3,SUCCESS,9,SUCCESS,8,FAIL,34,2015-12-18 07:38:43 +0100,be more explisit in handling ssl exceptions #264,49,4559
+461,c99717f,SUCCESS,9,SUCCESS,7,FAIL,35,2015-12-18 07:46:54 +0100,extend the try catch to cover also not found resources #265,49,4559
+462,7ef2c37,SUCCESS,9,SUCCESS,8,FAIL,35,2015-12-18 08:04:22 +0100,documentation updated #266,49,4559
+463,300067f,SUCCESS,8,SUCCESS,7,FAIL,42,2015-12-18 08:13:56 +0100,Merge pull request #262 from tagback/master,50,4600
+464,b4bd5b7,SUCCESS,9,SUCCESS,8,FAIL,38,2015-12-18 08:14:25 +0100,Merge pull request #263 from WilliamDo/master,51,4635
+465,147184f,SUCCESS,9,SUCCESS,5,FAIL,36,2015-12-18 08:23:10 +0100,"the non static changes of #226, the statics are not taken because of the upcomming redesign #253",51,4642
+466,8453df1,SUCCESS,9,SUCCESS,7,FAIL,38,2015-12-18 08:24:12 +0100,code formatting #262,51,4642
+467,aa6f839,SUCCESS,9,SUCCESS,7,FAIL,37,2015-12-18 08:24:47 +0100,code formatting #263,51,4642
+468,add9a1e,SUCCESS,9,SUCCESS,6,SUCCESS,65,2016-01-02 23:22:49 +0530,Adding unit tests,52,5168
+469,541ac5e,FAIL,10,NO,0,NO,0,2016-01-05 11:59:00 +0100,"Use valueOf() instead of looping through Enumeration' ""toString()"" (which is unsafe as is can be overridden, ""name()"" is preferred). Added a few warning suppression for Eclipse. Fixed super-minor typo.",51,4646
+470,c5e5ff8,FAIL,9,NO,0,NO,0,2016-01-05 12:22:05 +0100,"Removed static method (didn't see the ""protected"", thanks Travis!).",51,4647
+471,681f9d4,SUCCESS,9,SUCCESS,7,FAIL,38,2016-01-05 16:14:12 +0100,Missed another revert...,51,4648
+472,fbeaf9d,SUCCESS,9,SUCCESS,7,FAIL,35,2016-01-09 10:49:12 +0000,add HTTP verbs and status codes for WebDAV (RFC 4918),51,4650
+473,46ec758,SUCCESS,9,SUCCESS,7,FAIL,36,2016-01-22 15:15:48 -0800,"minor update in decodeMultipartFormData() to support <input type=""file"" name=""filename"" multiple>",51,4648
+474,1e8f228,SUCCESS,9,SUCCESS,7,SUCCESS,51,2016-01-28 11:49:29 +0100,Added a space character to the regex param pattern. Now encoded URLs will be recognized.,50,4597
+475,7b6ad7d,SUCCESS,9,SUCCESS,7,FAIL,36,2016-01-28 11:49:29 +0100,Added a space character to the regex param pattern. Now encoded URLs will be recognized.,51,4650
+476,41eda3b,SUCCESS,12,SUCCESS,9,FAIL,40,2016-01-28 14:29:00 +0100,Merge branch 'master' of https://github.com/tagback/nanohttpd,51,4650
+477,3834706,SUCCESS,9,SUCCESS,7,FAIL,37,2016-01-29 06:24:00 +0100,added responce code fixes #245,51,4643
+478,ca1cf4b,SUCCESS,9,SUCCESS,7,FAIL,48,2016-01-29 06:27:15 +0100,Merge pull request #271 from DevFactory/release/unit-tests,54,5261
+479,59d8744,SUCCESS,9,SUCCESS,7,FAIL,49,2016-01-29 06:32:02 +0100,Merge pull request #272 from matthieu-labas/master,54,5267
+480,05aa86e,SUCCESS,9,SUCCESS,7,FAIL,50,2016-01-29 06:35:11 +0100,Merge pull request #273 from kljh/master,54,5275
+481,117fdbb,SUCCESS,8,SUCCESS,7,FAIL,55,2016-01-29 06:36:20 +0100,Merge pull request #274 from mxie1563/master,54,5281
+482,4706f65,SUCCESS,8,SUCCESS,7,FAIL,47,2016-01-29 06:37:41 +0100,Merge pull request #275 from tagback/master,54,5289
+483,8373335,SUCCESS,9,SUCCESS,7,FAIL,50,2016-01-29 06:46:57 +0100,automatic code formattings,54,5284
+484,381e491,SUCCESS,9,SUCCESS,6,FAIL,47,2016-01-29 07:09:58 +0100,minor code refactorings and adapted tests for the multiple merged pull requests,54,5333
+485,445ba0a,SUCCESS,10,SUCCESS,8,FAIL,50,2016-01-29 07:31:37 +0100,repaired test fixes #173,54,5333
+486,3312c97,SUCCESS,9,SUCCESS,9,FAIL,53,2016-01-30 07:32:46 +0100,create a context type container and handle responce encodings #261,54,5367
+487,225eaf4,SUCCESS,9,SUCCESS,7,FAIL,48,2016-02-22 07:47:27 +0100,update version for next release,54,5367
+488,7b7b4dc,SUCCESS,8,SUCCESS,7,FAIL,48,2016-02-22 07:48:34 +0100,licence should not be checked in,54,5367
+489,2883abd,SUCCESS,9,SUCCESS,8,FAIL,48,2016-02-22 07:49:26 +0100,ignore for licence and settings,54,5367
+490,e7935c5,SUCCESS,9,SUCCESS,8,FAIL,50,2016-02-22 07:51:20 +0100,[maven-release-plugin] prepare release nanohttpd-project-2.3.0,54,5367
+491,2c16f09,SUCCESS,11,SUCCESS,9,FAIL,49,2016-02-22 07:51:26 +0100,[maven-release-plugin] prepare for next development iteration,54,5367
+492,cb43408,SUCCESS,9,SUCCESS,6,FAIL,50,2016-03-14 14:23:48 +0100,add constructor with hostname parameter to RouterNanoHTTPD,54,5370
+493,21a709f,SUCCESS,9,SUCCESS,6,FAIL,48,2016-03-14 20:21:31 +0000,Merge pull request #291 from eseidinger/master,54,5370
+494,06c0eff,SUCCESS,10,SUCCESS,6,FAIL,50,2016-04-16 03:01:11 +0600,"[+] the last frame also contains a payload, so we have to add it to the list ""continuousFrames""",54,5371
+495,3ff1bea,SUCCESS,9,SUCCESS,7,FAIL,54,2016-04-16 00:30:51 +0100,Merge pull request #301 from as1an/websocket,54,5371
+496,e93c04b,SUCCESS,12,SUCCESS,6,FAIL,47,2016-04-22 06:57:04 +0200,"reduced coverage, because of new constructor",54,5371
+497,b935d5e,SUCCESS,10,SUCCESS,6,FAIL,48,2016-04-27 08:35:29 -0400,Tom - Nanohttpd - adding lookup for status,54,5376
+498,6315c24,SUCCESS,8,FAIL,6,NO,0,2016-04-27 11:20:52 -0400,"Tom - Nanohttpd - changing the scope of the lookup for status, adding tests",55,5405
+499,64f1dd7,SUCCESS,9,SUCCESS,8,FAIL,49,2016-04-27 11:28:44 -0400,Tom - Nanohttpd - trying something different,55,5405
+500,00868fc,SUCCESS,10,SUCCESS,7,FAIL,54,2016-05-01 15:50:52 +0200,Merge pull request #303 from wildsmith/master,55,5405
+501,0d14299,SUCCESS,11,SUCCESS,6,FAIL,50,2016-05-06 12:01:54 -0700,Add ability to be able to set NotFound and NotImplemented handlers since there is currently no ability to overwrite the ones that are set by addMapping().,55,5434
+502,12a868e,SUCCESS,10,SUCCESS,7,FAIL,48,2016-05-08 09:07:26 +0200,Merge pull request #308 from brettlounsbury/master,55,5434
+503,785843e,SUCCESS,9,SUCCESS,7,FAIL,50,2016-05-10 10:12:21 -0700,"Add several missing HTTP Status codes, and add tests to ensure the Status code messages match the name of the enum.",55,5479
+504,e1994d7,SUCCESS,9,SUCCESS,7,FAIL,49,2016-05-13 10:27:24 -0700,Add 302 and 307 redirects.,55,5484
+505,a3bf2af,SUCCESS,11,SUCCESS,11,FAIL,51,2016-05-13 19:46:48 +0100,Merge pull request #310 from brettlounsbury/master,55,5484
+506,b577795,SUCCESS,9,SUCCESS,7,FAIL,48,2016-05-18 15:13:47 -0700,"Add a RoutePrioritizer interface and some implementations of that interface.  There is a Default implementation that mimics the existing code, an InsertionOrder implementation that uses the order that routes are inserted, and a ProvidedPriority implementation that uses the priority that was provided instead of the one that UriResource calculates for itself.  By default routing works the same, but this allows us to extend how routing works.",55,5629
+507,4928b78,SUCCESS,9,SUCCESS,7,FAIL,49,2016-05-21 12:08:58 +0200,Fix typo in example code,55,5484
+508,014d9f5,SUCCESS,9,SUCCESS,7,FAIL,51,2016-05-21 11:17:03 +0100,Merge pull request #315 from rherrmann/patch-1,55,5484
+509,8985d84,SUCCESS,11,SUCCESS,9,FAIL,53,2016-05-22 20:22:54 +0100,Merge pull request #313 from brettlounsbury/master,55,5629
+510,f9280bb,SUCCESS,9,SUCCESS,6,FAIL,51,2016-05-31 17:12:36 -0700,Typo,55,5629
+511,1866496,SUCCESS,8,SUCCESS,7,FAIL,50,2016-06-01 01:28:26 +0100,Merge pull request #320 from sgallese/patch-1,55,5629
+512,a47eefc,SUCCESS,10,SUCCESS,7,FAIL,52,2016-06-09 16:43:09 +0200,Enable extension of ClientHandler and ServerRunnable,55,5629
+513,2260799,SUCCESS,9,SUCCESS,9,FAIL,54,2016-06-11 23:00:07 +0200,Fix webserver directory listing being wrong HTML,55,5629
+514,9467101,SUCCESS,9,SUCCESS,7,FAIL,50,2016-06-12 20:51:29 +0100,Merge pull request #325 from philippwiesemann/fix-webserver-html,55,5629
+515,d595821,SUCCESS,8,SUCCESS,7,FAIL,50,2016-06-12 20:53:00 +0100,Merge pull request #324 from sebokmarton/master,55,5629
+516,abe46d5,SUCCESS,9,SUCCESS,7,FAIL,51,2016-06-14 23:05:09 +0200,Fix typos in README.md,55,5629
+517,b974b8d,SUCCESS,9,SUCCESS,7,FAIL,56,2016-06-15 11:15:40 +0100,Merge pull request #326 from philippwiesemann/fix-readme-typos,55,5629
+518,467524f,SUCCESS,9,SUCCESS,6,FAIL,49,2016-06-18 22:20:40 +0200,Fix opening mimetypes twice and only closing first,55,5629
+519,52af4d8,SUCCESS,10,SUCCESS,7,FAIL,50,2016-06-18 23:56:56 +0100,Merge pull request #327 from philippwiesemann/fix-core-mime-stream,55,5629
+520,1627958,SUCCESS,9,SUCCESS,6,FAIL,51,2016-06-24 11:06:51 -0500,"Closes #329, #286 IHTTPSesssion.parms is now a map to a list of values for a given key. The old getParms() interface still exists, but moving forward one should use getParameters()",55,5705
+521,73b093c,SUCCESS,9,SUCCESS,7,FAIL,55,2016-06-25 17:43:38 +0100,Merge pull request #330 from dwatling/master,55,5705
+522,d2c6a64,SUCCESS,9,SUCCESS,7,FAIL,50,2016-08-10 12:48:12 +0530,"If ContentType header has 'json' in it, then the response will be GZIPPED",55,5705
+523,a4d62f0,SUCCESS,9,SUCCESS,6,FAIL,49,2016-08-11 00:16:10 +0100,Merge pull request #351 from praserocking/master,55,5705
+524,ac0522b,SUCCESS,9,SUCCESS,8,FAIL,52,2016-08-12 19:50:19 +0200,lowerd coverage requirement and some file formattings,55,5704
+525,cbfa3cc,SUCCESS,8,SUCCESS,6,FAIL,55,2016-08-12 19:53:20 +0200,lauches adapted to better names,55,5704
+526,16ed41b,SUCCESS,8,SUCCESS,7,FAIL,46,2016-08-12 20:14:02 +0200,[maven-release-plugin] prepare release nanohttpd-project-2.3.1,55,5704
+527,da134bd,SUCCESS,8,SUCCESS,7,FAIL,46,2016-08-12 20:14:12 +0200,[maven-release-plugin] prepare for next development iteration,55,5704
+528,3ce326f,SUCCESS,9,SUCCESS,7,FAIL,46,2016-08-25 05:12:38 +0100,Merge pull request #15 from NanoHttpd/master,55,5704
+529,d72d29e,SUCCESS,8,SUCCESS,8,FAIL,56,2016-08-25 05:13:22 +0100,Merge pull request #16 from LordFokas/upstream,55,5704
+530,4e47a5f,FAIL,8,NO,0,NO,0,2016-08-25 07:13:07 +0100,Broke CORE into pieces. Updated CORE tests. Introduced 150 errors in all other modules.,78,5864
+531,c094b48,FAIL,8,NO,0,NO,0,2016-08-25 07:23:13 +0100,fixed FILEUPLOAD and WEBSOCKETS,78,5871
+532,a2205bf,FAIL,7,NO,0,NO,0,2016-08-25 07:29:09 +0100,"fixed WEBSERVER, 49 errors to go.",78,5878
+533,974616f,SUCCESS,9,FAIL,5,NO,0,2016-08-25 07:36:50 +0100,"Fixed NANOLETS, MARKDOWN and SAMPLES. No errors.",78,5890
+534,2a4b473,FAIL,8,NO,0,NO,0,2016-08-25 07:39:59 +0100,Moved WSD samples into the SAMPLES module.,78,5892
+535,5961be4,FAIL,7,NO,0,NO,0,2016-08-25 07:47:47 +0100,whoops,78,5900
+536,f4d5a58,FAIL,7,NO,0,NO,0,2016-08-25 08:00:58 +0100,Broke WEBSOCKETS module into pieces too.,85,5913
+537,1b9e7e0,FAIL,7,NO,0,NO,0,2016-08-25 08:13:07 +0100,"Moved everything to a org.nanohttpd.* base package, for consistency :)",85,5935
+538,7680d43,FAIL,8,NO,0,NO,0,2016-08-25 16:35:54 +0100,Added e-mail to travis.yml,85,5935
+539,02ace10,SUCCESS,10,SUCCESS,7,FAIL,51,2016-08-25 16:40:03 +0100,Added my data to pom.xml,55,5704
+540,3d31497,SUCCESS,9,SUCCESS,7,FAIL,54,2016-08-25 19:00:18 +0200,LordFocas added to the travis builds,55,5704
+541,0563f1f,SUCCESS,12,SUCCESS,6,FAIL,48,2016-08-31 18:22:45 +0100,"Moved the WebSockets samples back to the websocket module, see if that's what's breaking the tests on Travis.",85,5935
+542,f5c2ec1,SUCCESS,9,SUCCESS,6,FAIL,50,2016-09-09 15:53:02 +0200,get v3.0 build test clean #357,85,5933
+543,a49f9ae,SUCCESS,8,SUCCESS,7,FAIL,48,2016-09-09 19:38:30 +0100,Merge pull request #369 from NanoHttpd/LordFokas-development,85,5933
+544,a883722,SUCCESS,9,SUCCESS,7,FAIL,56,2016-09-09 19:53:26 +0100,Merge pull request #17 from NanoHttpd/master,85,5933
+545,94dd976,SUCCESS,9,SUCCESS,7,FAIL,50,2016-09-09 19:54:00 +0100,Merge pull request #18 from LordFokas/upstream,85,5933
+546,22fe0ab,SUCCESS,9,SUCCESS,7,FAIL,47,2016-09-09 22:45:38 +0100,Closes #316,85,5935
+547,29c5416,SUCCESS,9,SUCCESS,7,FAIL,50,2016-09-09 23:07:14 +0100,Merge pull request #370 from LordFokas/development,85,5935
+548,cac70b7,FAIL,13,NO,0,NO,0,2016-09-10 00:06:01 +0100,Closes #332,85,5937
+549,151cdb0,SUCCESS,13,SUCCESS,7,FAIL,49,2016-09-10 03:12:10 +0100,My bad :(,85,5937
+550,f4b9f30,SUCCESS,9,SUCCESS,6,FAIL,50,2016-09-10 03:20:55 +0100,Merge pull request #371 from LordFokas/development,85,5937
+551,bdf4550,SUCCESS,9,SUCCESS,7,FAIL,51,2016-09-12 00:41:50 +0100,First create a test that fails...,85,5973
+552,67513a3,FAIL,6,NO,0,NO,0,2016-09-12 00:51:10 +0100,... then fix it.,85,5981
+553,ed515e3,SUCCESS,9,SUCCESS,7,FAIL,55,2016-09-12 00:56:57 +0100,Whoopsie :p,85,5981
+554,cf18465,SUCCESS,9,SUCCESS,6,FAIL,50,2016-09-12 01:07:51 +0100,"I'm getting seriously pissed at you, Travis.",85,5982
+555,068a9bc,SUCCESS,10,SUCCESS,7,FAIL,49,2016-09-12 01:20:36 +0100,Fix broken cookie tests.,85,5984
+556,d757ade,SUCCESS,10,SUCCESS,7,FAIL,55,2016-09-12 01:26:02 +0100,Merge pull request #374 from LordFokas/development,85,5984
+557,0f6271c,SUCCESS,11,SUCCESS,6,FAIL,300,2016-09-12 05:43:16 +0100,Started work on the pluggable request-answering strategy.,86,5989
+558,c4474df,SUCCESS,9,SUCCESS,8,FAIL,49,2016-09-26 01:56:45 +0100,Started work on the pluggable request-answering strategy. (reverted from commit 0f6271c9bee064fbb269f845543da0d1dceb114c),85,5984
+559,1f31f55,SUCCESS,9,SUCCESS,7,FAIL,51,2016-09-29 00:47:36 +0100,"Remove deprecated NanoHTTPD.serve(uri, method, headers, parms, files)",85,5967
+560,f57064f,SUCCESS,12,SUCCESS,10,FAIL,49,2016-09-29 01:24:35 +0100,HTTP handling is now delegated to an IHandler,86,5980
+561,060d6d2,SUCCESS,8,SUCCESS,7,FAIL,51,2016-09-29 03:25:23 +0100,Child protocol interceptors. Also fuck Mockito!,86,6002
+562,27aacd9,SUCCESS,8,SUCCESS,7,FAIL,49,2016-09-29 21:41:35 +0900,Fix a broken link in README,85,5984
+563,79f9844,SUCCESS,10,SUCCESS,8,FAIL,55,2016-09-29 15:38:14 +0100,Merge pull request #385 from tatsuyafw/fix-broken-link,85,5984
+564,6a80705,SUCCESS,9,SUCCESS,6,FAIL,50,2016-11-11 19:43:52 +0300,"Added exception handling to the sendBody method. If the outputStream is closed by the client, all the loop gets broken pipe exception. Just closing the input stream if exception is caught.",85,5988
+565,cc8785e,SUCCESS,8,SUCCESS,7,FAIL,49,2016-11-11 22:26:05 +0000,Merge pull request #394 from evliya/master,85,5988
+566,35ba703,FAIL,5,NO,0,NO,0,2016-12-09 13:36:23 +0100,"Use constant for magic string ""postData""",85,5646
+567,fe4feb6,SUCCESS,10,SUCCESS,7,FAIL,52,2016-12-12 23:39:57 +0000,Change the way Gzip is handled. This enables interceptors to painlessly define new Gzip settings for their own responses.,86,6009
+568,f75268b,SUCCESS,12,SUCCESS,9,FAIL,49,2016-12-13 10:49:08 +0100,Add missing quote,85,5989
+569,b49e608,SUCCESS,9,SUCCESS,7,FAIL,49,2016-12-13 13:33:58 +0000,Merge pull request #401 from cypressious/patch-1,85,5989
+570,d2af067,SUCCESS,9,SUCCESS,7,FAIL,50,2016-12-13 13:35:44 +0000,Merge pull request #384 from LordFokas/development,86,6007
+571,9ba26a5,SUCCESS,10,SUCCESS,8,FAIL,56,2016-12-21 12:40:43 +0200,Search-replace fi.iki.elonen -> org.nanohttpd,86,6007
+572,63815b9,SUCCESS,8,SUCCESS,7,FAIL,49,2016-12-25 00:09:03 +0000,Merge pull request #405 from LordFokas/development,86,6014
+573,1de83fe,SUCCESS,10,SUCCESS,6,FAIL,50,2017-01-04 12:32:56 +0000,Fix GZip usage control being very poorly written.,86,6007
+574,9cd340f,SUCCESS,9,SUCCESS,7,FAIL,51,2017-01-04 12:39:46 +0000,Should fix #395,86,6008
+575,e175fd0,SUCCESS,10,SUCCESS,9,FAIL,53,2017-01-04 13:23:11 +0000,Merge pull request #410 from LordFokas/development,86,6013
+576,d0978f5,SUCCESS,9,SUCCESS,7,FAIL,50,2017-01-04 13:42:28 +0000,Bumped JDK versions to 1.7 in POM.xml,86,6008
+577,0c24a80,SUCCESS,8,SUCCESS,7,FAIL,50,2017-01-04 17:55:52 +0000,Merge pull request #411 from LordFokas/development,86,6013
+578,ab2d642,SUCCESS,10,SUCCESS,8,FAIL,57,2017-01-20 10:27:25 -0500,Fix minor typos in ServerRunner.java,86,6013
+579,4329816,SUCCESS,8,SUCCESS,7,FAIL,50,2017-01-20 23:40:54 +0000,Merge pull request #414 from twhitbeck/server-runner-typo,86,6013
+580,711b93a,SUCCESS,9,SUCCESS,7,FAIL,48,2017-01-20 23:43:22 +0000,Forgot to edit some fields to use JDK 7,86,6013
+581,ebb0325,SUCCESS,9,SUCCESS,7,FAIL,50,2017-01-21 11:46:02 -0500,added a note in README.md to alert newcommers to the namespace change,86,6013
+582,bf7525d,SUCCESS,9,SUCCESS,8,FAIL,54,2017-01-21 14:47:31 -0500,tweaked the language to reflect that it's a version difference as opposed to a hosting location difference,86,6013
+583,dc83d5b,SUCCESS,10,SUCCESS,7,FAIL,49,2017-01-21 20:07:36 +0000,Merge pull request #416 from dunmatt/master,86,6013
+584,6fd730a,SUCCESS,9,SUCCESS,6,FAIL,50,2017-03-25 00:03:32 -0400,fixed SimpleWebServer execution path,86,6013
+585,f1cb85c,SUCCESS,9,SUCCESS,8,FAIL,55,2017-03-25 16:51:28 +0000,Merge pull request #434 from MikeBruns/master,86,6013
+586,adb49fc,SUCCESS,11,SUCCESS,7,FAIL,48,2017-11-25 03:36:44 +0000,"""oraclejdk7"" -> ""openjdk7""",86,6013
+587,e33c73a,SUCCESS,9,SUCCESS,7,FAIL,48,2018-01-03 17:50:29 +0000,Merge pull request #469 from jh3141/master,86,6013
+588,952481e,SUCCESS,10,SUCCESS,6,FAIL,51,2018-01-21 12:56:40 -0600,Added gradle build support,86,6013
+589,f9cd157,SUCCESS,9,SUCCESS,7,FAIL,54,2018-01-21 13:07:50 -0600,Fixed test compile error,86,6013
+590,8118aec,SUCCESS,9,SUCCESS,8,FAIL,49,2018-01-24 14:39:55 +0000,Merge pull request #475 from Josh-Larson/feature/added-gradle,86,6013
+591,6af572b,SUCCESS,9,SUCCESS,6,FAIL,48,2018-01-31 18:46:23 +0530,Support more HTTP verbs,86,6015
+592,1b6450e,SUCCESS,10,SUCCESS,8,FAIL,53,2018-01-31 15:23:39 +0000,Merge pull request #479 from arjunmenon/patch-1,86,6015
+593,c28fa4c,SUCCESS,12,SUCCESS,8,FAIL,49,2018-04-04 10:41:02 -0500,Updated README.md example code to align with the example Maven dependency.,86,6015
+594,fd80618,SUCCESS,9,SUCCESS,7,FAIL,49,2018-04-06 15:30:44 +0100,Merge pull request #487 from gramstrong/master,86,6015
+595,0e74d03,SUCCESS,9,SUCCESS,7,FAIL,51,2018-11-22 07:29:04 -0500,Proper exception handling,86,6025
+596,b04a342,SUCCESS,9,SUCCESS,7,FAIL,54,2018-11-23 20:13:58 +0000,Merge pull request #525 from evgk/patch-1,86,6025
+597,cd37235,SUCCESS,9,SUCCESS,8,FAIL,50,2019-07-02 23:40:13 +0900,removed remoteHostName from HTTPSession: it can take too long time to figure out via DNS,86,6004
+598,efb2ebf,SUCCESS,8,SUCCESS,6,FAIL,48,2019-07-03 19:16:33 +0100,Merge pull request #546 from wing9405/master,86,6004

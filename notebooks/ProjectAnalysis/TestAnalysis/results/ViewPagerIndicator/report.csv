@@ -1,0 +1,242 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,38ef42e,FAIL,23,NO,0,NO,0,2011-08-04 13:17:21 -0400,Initial commit.,5,382
+1,b339037,FAIL,4,NO,0,NO,0,2011-08-04 13:23:16 -0400,Add warning about TitlePageIndicator's adapter requirements.,5,382
+2,aac2df0,FAIL,6,NO,0,NO,0,2011-08-04 13:26:42 -0400,Fix name in read me file. Stupid nano...,5,382
+3,b926614,FAIL,5,NO,0,NO,0,2011-08-04 13:29:04 -0400,Fix id reference.,5,382
+4,3e67601,FAIL,7,NO,0,NO,0,2011-08-04 13:34:48 -0400,Add section about including.,5,382
+5,4de8b92,FAIL,6,NO,0,NO,0,2011-08-04 15:26:35 -0400,Start adding more samples.,12,535
+6,17e8d54,FAIL,6,NO,0,NO,0,2011-08-04 15:36:33 -0400,Make sure bold is pulled from the correct attribute.,12,535
+7,64e95fe,FAIL,6,NO,0,NO,0,2011-08-04 15:47:42 -0400,Add themed samples.,14,563
+8,cdf94c2,FAIL,6,NO,0,NO,0,2011-08-04 16:37:18 -0400,Add screens.,14,563
+9,aef32c5,FAIL,7,NO,0,NO,0,2011-08-04 16:38:12 -0400,Extra '['.,14,563
+10,f4c2d85,FAIL,5,NO,0,NO,0,2011-08-05 00:10:03 -0400,Add proper centering so we can eliminate the wrapper layout.,14,569
+11,3938978,FAIL,6,NO,0,NO,0,2011-08-05 01:08:42 -0400,Styling overhaul. Allow styles to be specified as theme attributes.,16,595
+12,c7d443d,FAIL,6,NO,0,NO,0,2011-08-05 01:16:19 -0400,Reorganize samples.,16,595
+13,91ba7aa,FAIL,6,NO,0,NO,0,2011-08-05 01:21:24 -0400,Smaller default circle indicators.,16,595
+14,5e8ea2a,FAIL,6,NO,0,NO,0,2011-08-05 01:36:03 -0400,Move defaults into their own resource file so they can be reference in the code and in the default style.,16,599
+15,b1678ee,FAIL,6,NO,0,NO,0,2011-08-05 08:54:05 -0400,Error if ViewPager is assigned to a CirclePageIndicator without an adapter.,16,601
+16,3d573a1,FAIL,6,NO,0,NO,0,2011-08-05 09:30:59 -0400,Fix orientation bug with fragment re-instantiation.,16,610
+17,e056f4c,FAIL,6,NO,0,NO,0,2011-08-05 09:47:08 -0400,Add (currently non-working) state saving.,16,675
+18,8f3039e,FAIL,6,NO,0,NO,0,2011-08-05 10:32:45 -0400,Fix circle indicator state saving.,16,675
+19,85f44bd,FAIL,7,NO,0,NO,0,2011-08-05 10:34:24 -0400,Rename flow width to page width.,16,675
+20,8cb36f5,FAIL,6,NO,0,NO,0,2011-08-05 10:57:03 -0400,Fix title indicator state saving.,16,676
+21,840acb6,FAIL,6,NO,0,NO,0,2011-08-05 11:07:18 -0400,Style tweaks.,16,667
+22,4f72618,FAIL,6,NO,0,NO,0,2011-08-05 11:10:27 -0400,Add snap attribute to circle indicator which will force the indicator to always exist in the current page only.,16,670
+23,911a02c,FAIL,6,NO,0,NO,0,2011-08-05 11:23:13 -0400,Add getters and setters to all configurable attributes.,16,734
+24,b5753b8,FAIL,6,NO,0,NO,0,2011-08-05 11:46:41 -0400,Allow specifying the current page directly on the indicator. This allows for proper configuration of a default page. Samples included.,18,781
+25,a0fe8b2,FAIL,6,NO,0,NO,0,2011-08-05 12:23:59 -0400,Add snap sample.,19,796
+26,f5cba35,FAIL,6,NO,0,NO,0,2011-08-05 12:37:34 -0400,Snap page needs its own index because of how the index is reported in onPageScrolled.,19,801
+27,7831ca1,FAIL,6,NO,0,NO,0,2011-08-05 15:14:56 -0400,Add underline style which does not yet work.,20,860
+28,c4f9b36,FAIL,7,NO,0,NO,0,2011-08-05 15:17:33 -0400,Add shorthand for binding and setting initial page.,20,869
+29,d45dc8b,FAIL,6,NO,0,NO,0,2011-08-05 16:25:39 -0400,Fix underline drawing and calculation.,20,875
+30,1404c90,FAIL,7,NO,0,NO,0,2011-08-05 16:55:46 -0400,Support left/right clicking on the circle view to control paging. Closes #2.,20,893
+31,dd07976,FAIL,7,NO,0,NO,0,2011-08-05 17:00:15 -0400,Support left/right clicking on title views for paging. Closes #1.,20,913
+32,d561e23,FAIL,6,NO,0,NO,0,2011-08-06 00:13:04 -0400,Tweak to how click-paging is handled. We now only rely on the scrolled listener for positional updates. Closes #7.,20,911
+33,3c2ccad,FAIL,7,NO,0,NO,0,2011-08-06 02:27:17 -0400,Style tweaks and some minor method call caching.,20,915
+34,925770a,FAIL,7,NO,0,NO,0,2011-08-06 02:36:24 -0400,Only count indicator height if it is enabled.,20,916
+35,99b4f90,FAIL,6,NO,0,NO,0,2011-08-06 02:43:05 -0400,Add configurable padding between title text and indicator.,20,919
+36,9cff69f,FAIL,7,NO,0,NO,0,2011-08-06 20:21:41 -0400,Tiny optimization.,20,919
+37,124e9ab,FAIL,7,NO,0,NO,0,2011-08-06 20:44:33 -0400,Add getter and setter for footer indicator padding.,20,924
+38,7b0f370,FAIL,7,NO,0,NO,0,2011-08-06 21:38:02 -0400,Use floats for calculation since we are dealing with different densities.,20,923
+39,2ba98d5,FAIL,6,NO,0,NO,0,2011-08-07 00:14:19 -0400,FIX CLIPPING! Closes #4.,20,927
+40,7f24cef,FAIL,6,NO,0,NO,0,2011-08-07 01:03:41 -0400,Add descriptions to attributes.,20,927
+41,0eed3e5,FAIL,7,NO,0,NO,0,2011-08-07 01:29:19 -0400,Use internal touch event rather than being our own touch listener.,20,916
+42,d690e86,FAIL,6,NO,0,NO,0,2011-08-07 01:33:05 -0400,Inherit directly from View since we did nothing with TextView.,20,915
+43,0507cc0,FAIL,6,NO,0,NO,0,2011-08-07 01:38:50 -0400,Change footer indicator padding to just be footer padding.,20,915
+44,9f6976a,FAIL,6,NO,0,NO,0,2011-08-07 01:45:06 -0400,Fix checkstyle errors.,20,915
+45,08a759d,FAIL,6,NO,0,NO,0,2011-08-07 01:50:51 -0400,Add theming section to read me.,20,915
+46,8a1558e,FAIL,7,NO,0,NO,0,2011-08-07 02:07:49 -0400,Fix bug of not setting the paint when we change the footer line height.,20,916
+47,d1762f6,FAIL,7,NO,0,NO,0,2011-08-07 02:07:58 -0400,Add styled samples from methods.,22,958
+48,5e675dd,FAIL,6,NO,0,NO,0,2011-08-07 02:14:17 -0400,Add circle stroke width as an option.,22,966
+49,1c22170,FAIL,6,NO,0,NO,0,2011-08-07 02:17:20 -0400,Add change log.,22,966
+50,965055d,FAIL,7,NO,0,NO,0,2011-08-07 02:27:09 -0400,[maven-release-plugin] prepare release 1.0.0,22,966
+51,0dcd67e,FAIL,7,NO,0,NO,0,2011-08-07 02:27:37 -0400,[maven-release-plugin] prepare for next development iteration,22,966
+52,0453e6b,FAIL,7,NO,0,NO,0,2011-09-07 23:01:49 -0400,Update the footer indicator paint when footer color is set programmatically. Refs #12.,22,967
+53,3cd458c,FAIL,6,NO,0,NO,0,2011-09-08 00:35:18 -0400,Add support for fading the selected title text color.,22,973
+54,c0fbfdd,FAIL,6,NO,0,NO,0,2011-09-15 22:38:30 -0400,Update change log and bump version to 1.0.1.,22,973
+55,694eb7a,FAIL,7,NO,0,NO,0,2011-09-15 22:41:27 -0400,[maven-release-plugin] prepare release 1.0.1,22,973
+56,769fdd0,FAIL,7,NO,0,NO,0,2011-09-15 22:41:30 -0400,[maven-release-plugin] prepare for next development iteration,22,973
+57,2afe2ec,FAIL,6,NO,0,NO,0,2011-09-19 20:50:35 +0100,Allow padding between title and top of view to be specified for title page indicator.,22,981
+58,215bad5,FAIL,7,NO,0,NO,0,2011-09-22 13:03:04 +0100,Fix for issue where extra space would be drawn below footer line.,22,981
+59,75e4e0e,FAIL,6,NO,0,NO,0,2011-09-26 13:53:23 -0400,Merge branch 'master' of git://github.com/jdamcd/Android-ViewPagerIndicator into dev,22,981
+60,17d03ee,FAIL,6,NO,0,NO,0,2011-09-28 20:13:01 -0400,Add orientation support to the circle indicator.,23,1050
+61,0595ff2,FAIL,6,NO,0,NO,0,2011-09-28 21:48:08 -0400,Change package to just be 'view'.,23,1052
+62,00cb99e,FAIL,7,NO,0,NO,0,2011-09-28 21:48:39 -0400,Update change log for vertical circles.,23,1052
+63,758dc60,FAIL,6,NO,0,NO,0,2011-09-29 23:09:46 -0400,Add methods to trigger invalidation when the data set changes. Closes #11.,23,1059
+64,28fcd39,FAIL,7,NO,0,NO,0,2011-09-29 23:38:44 -0400,Update change log.,23,1059
+65,919f8a9,FAIL,7,NO,0,NO,0,2011-10-02 17:18:55 +0200,"Only act on onPageSelected when not scrolling or CirclePagerIndicator is set to snap to next page. This will make the PageIndicator react correctly when notifyDataSetChanged is called on the PagerAdapter, as well as stop it from reacting to onPageSelected during a scroll.",23,1060
+66,22690fb,FAIL,6,NO,0,NO,0,2011-10-02 21:25:49 -0400,Update change log for SimonVT's fixes.,23,1060
+67,d275b06,FAIL,7,NO,0,NO,0,2011-10-02 21:29:06 -0400,Bump version to 1.1.0.,23,1060
+68,2eae6e5,FAIL,6,NO,0,NO,0,2011-10-02 21:33:36 -0400,Checkstyle fixes.,23,1060
+69,95e384c,FAIL,7,NO,0,NO,0,2011-10-02 21:36:14 -0400,[maven-release-plugin] prepare release 1.1.0,23,1060
+70,8700d89,FAIL,7,NO,0,NO,0,2011-10-02 21:36:18 -0400,[maven-release-plugin] prepare for next development iteration,23,1060
+71,aac1411,FAIL,6,NO,0,NO,0,2011-10-04 00:48:14 -0400,Add base sample activity which allows for adding and removing pages on-the-fly as well as for selecting a random page out of the current set.,24,1096
+72,cbb0598,FAIL,6,NO,0,NO,0,2011-10-04 00:56:25 -0400,Center text in test fragment.,24,1097
+73,f10c85c,FAIL,7,NO,0,NO,0,2011-10-04 16:33:12 -0400,Add logo and icons.,24,1097
+74,a5fd9cc,FAIL,7,NO,0,NO,0,2011-10-04 16:34:30 -0400,Move package out of 'sample' to prepare for market deployment.,24,1097
+75,3309c53,FAIL,6,NO,0,NO,0,2011-10-04 16:43:22 -0400,Link to app on Android Market.,24,1097
+76,b6c391a,FAIL,6,NO,0,NO,0,2011-10-04 20:11:20 -0400,Change package and maven descriptor to use `com.viewpagerindicator`.,24,1095
+77,6c191c3,FAIL,6,NO,0,NO,0,2011-10-04 20:12:26 -0400,Update readme to new package and artifact.,24,1095
+78,38b2c31,FAIL,7,NO,0,NO,0,2011-10-04 20:59:13 -0400,Move layouts to new package and update vertical view pager.,24,1095
+79,597706f,FAIL,7,NO,0,NO,0,2011-10-04 22:04:26 -0400,Bump version to 1.2.0.,24,1095
+80,9c43477,FAIL,6,NO,0,NO,0,2011-10-04 22:06:57 -0400,[maven-release-plugin] prepare release 1.2.0,24,1095
+81,dca8e5d,FAIL,7,NO,0,NO,0,2011-10-04 22:07:11 -0400,[maven-release-plugin] prepare for next development iteration,24,1095
+82,98664f4,FAIL,7,NO,0,NO,0,2011-10-04 22:42:03 -0400,Package naming fail.,24,1111
+83,344f14a,FAIL,6,NO,0,NO,0,2011-10-04 23:06:08 -0400,Merge branch 'master' into dev,24,1111
+84,2c94736,FAIL,7,NO,0,NO,0,2011-10-05 07:14:32 -0400,Fix incorrect Activity declaration. Closes #19.,24,1111
+85,5e50c4b,FAIL,6,NO,0,NO,0,2011-10-05 07:16:13 -0400,Update market app link to point to new package.,24,1111
+86,862ba7b,FAIL,7,NO,0,NO,0,2011-10-05 07:16:25 -0400,Merge branch 'master' into dev,24,1111
+87,589a4b0,FAIL,12,NO,0,NO,0,2011-10-20 09:20:09 -0400,Update to support ADT 14.,24,1111
+88,38cd3fe,FAIL,9,NO,0,NO,0,2011-10-20 17:47:30 -0400,Use latest android-maven-plugin.,24,1111
+89,8c61078,FAIL,5,NO,0,NO,0,2011-10-20 17:48:16 -0400,Bump version to 1.2.1.,24,1111
+90,8cb0f99,FAIL,6,NO,0,NO,0,2011-10-20 17:50:02 -0400,[maven-release-plugin] prepare release 1.2.1,24,1111
+91,83d5bcb,FAIL,6,NO,0,NO,0,2011-10-20 17:50:08 -0400,[maven-release-plugin] prepare for next development iteration,24,1111
+92,0fc8302,FAIL,5,NO,0,NO,0,2011-10-25 17:55:14 +0200,Drag ViewPager when dragging TitleIndicator.,24,1160
+93,36df98e,FAIL,8,NO,0,NO,0,2011-11-18 12:20:13 +0000,Use r4 of the compatibility lib,24,1111
+94,ee23a3e,FAIL,6,NO,0,NO,0,2011-11-19 01:21:59 -0500,"I like these defaults better. If you don't, make your own style!",24,1111
+95,b5122ac,FAIL,6,NO,0,NO,0,2011-11-19 01:27:31 -0500,Update compat lib binaries to r4.,24,1111
+96,eacd459,FAIL,6,NO,0,NO,0,2011-11-19 01:30:00 -0500,Merge branch 'rtyley-use-compatibilty-lib-r4' into dev,24,1111
+97,ae8a194,FAIL,6,NO,0,NO,0,2011-11-19 01:33:03 -0500,Delete the DirectionalViewPager sample. That library is being left behind (for now) in development.,23,1093
+98,abf3287,FAIL,6,NO,0,NO,0,2011-11-19 01:33:42 -0500,Merge branch 'SimonVT-master' into dev,23,1142
+99,230eb3b,FAIL,5,NO,0,NO,0,2011-11-19 01:36:13 -0500,Start 2.0 change log.,23,1142
+100,fc6cb75,FAIL,6,NO,0,NO,0,2011-11-19 01:40:51 -0500,Port @SimonVT's title indicator drag patch to the circle indicator.,23,1190
+101,00032a2,FAIL,6,NO,0,NO,0,2011-11-19 04:18:46 -0500,Import ABS 4.x's scrollable tab implementation. Currently onMeasure and onLayout are broken though...,25,1367
+102,73454cf,FAIL,5,NO,0,NO,0,2011-11-20 19:52:18 -0500,Fix'd. Just need to remove dependency on explicit content height.,25,1346
+103,059445b,FAIL,5,NO,0,NO,0,2011-11-20 20:52:42 -0500,Well... that was easy.,25,1340
+104,1f2d2c1,FAIL,7,NO,0,NO,0,2011-11-20 21:29:31 -0500,Update change log for new tabbed indicator.,25,1340
+105,a4133b6,FAIL,6,NO,0,NO,0,2011-11-20 21:29:41 -0500,Tweaks.,25,1369
+106,c3de3a9,FAIL,5,NO,0,NO,0,2011-11-20 21:36:44 -0500,Bump version to 2.0.0.,25,1369
+107,d1fa5ab,FAIL,6,NO,0,NO,0,2011-11-20 21:41:28 -0500,Whoops. Stupid maven.,25,1369
+108,71f2f37,FAIL,7,NO,0,NO,0,2011-11-20 21:47:09 -0500,Checkstyle fixes.,25,1369
+109,45eaeec,FAIL,5,NO,0,NO,0,2011-11-20 21:51:24 -0500,[maven-release-plugin] prepare release 2.0.0,25,1369
+110,9c82b6a,FAIL,6,NO,0,NO,0,2011-11-20 21:51:28 -0500,[maven-release-plugin] prepare for next development iteration,25,1369
+111,5cda578,FAIL,6,NO,0,NO,0,2011-11-20 22:01:21 -0500,Bump version in readme.,25,1369
+112,f4a1e78,FAIL,6,NO,0,NO,0,2011-11-20 22:01:26 -0500,Merge branch 'master' into dev,25,1369
+113,0ae8dbd,FAIL,6,NO,0,NO,0,2011-11-30 17:24:33 -0500,Add notifyDataSetChanged() to indicators,25,1384
+114,7681732,FAIL,5,NO,0,NO,0,2011-11-30 17:25:15 -0500,Handle missing fragment crash,25,1386
+115,92bc2d2,FAIL,6,NO,0,NO,0,2011-11-30 17:25:53 -0500,Remove missing activity declaration,25,1386
+116,a57e3dc,FAIL,5,NO,0,NO,0,2011-11-30 20:08:28 -0500,Merge branch 'scottanderson-master' into dev,25,1386
+117,dc5ef88,FAIL,7,NO,0,NO,0,2011-11-30 20:57:19 -0500,Add sanity checks for unbound pagers and empty adapters. Closes #24.,25,1396
+118,e78a5d5,FAIL,6,NO,0,NO,0,2011-11-30 21:00:00 -0500,Update change log.,25,1396
+119,427b094,FAIL,7,NO,0,NO,0,2011-11-30 21:07:37 -0500,Pluralization.,25,1396
+120,cd9d553,FAIL,5,NO,0,NO,0,2011-11-30 21:26:32 -0500,Bump the version of ALL THE THINGS!,25,1396
+121,e34752b,FAIL,6,NO,0,NO,0,2011-11-30 21:32:46 -0500,[maven-release-plugin] prepare release 2.1.0,25,1396
+122,f12ac59,FAIL,6,NO,0,NO,0,2011-11-30 21:32:51 -0500,[maven-release-plugin] prepare for next development iteration,25,1396
+123,1129450,FAIL,6,NO,0,NO,0,2011-12-05 15:41:39 +0000,Correct the example maven dependency to include <type>apklib</type>,25,1396
+124,d6b78bf,FAIL,5,NO,0,NO,0,2011-12-05 07:44:22 -0800,Merge pull request #31 from rtyley/master,25,1396
+125,300f3ed,FAIL,6,NO,0,NO,0,2011-12-05 10:46:57 -0500,Merge branch 'master' into dev,25,1396
+126,e3a8127,FAIL,6,NO,0,NO,0,2011-12-05 21:05:35 -0500,Fix XML end tag.,25,1396
+127,da21c9e,FAIL,5,NO,0,NO,0,2011-12-05 21:05:38 -0500,Merge branch 'master' into dev,25,1396
+128,3b4b3a0,FAIL,6,NO,0,NO,0,2011-12-12 10:12:12 -0500,Add OnCenterItemClickListener for titles. Closes #28.,25,1409
+129,7a8d778,FAIL,5,NO,0,NO,0,2011-12-12 11:09:21 -0500,Change default title indicator style to 'underline' with some more sane defaults.,26,1433
+130,bbf9600,FAIL,6,NO,0,NO,0,2011-12-12 11:18:23 -0500,Less-ugly title style examples.,26,1434
+131,5a78e33,FAIL,5,NO,0,NO,0,2011-12-13 22:38:10 -0500,Bump version to 2.2.0.,26,1434
+132,3db7585,FAIL,5,NO,0,NO,0,2011-12-13 22:40:58 -0500,[maven-release-plugin] prepare release 2.2.0,26,1434
+133,a08127a,FAIL,6,NO,0,NO,0,2011-12-13 22:41:09 -0500,[maven-release-plugin] prepare for next development iteration,26,1434
+134,b477ed8,FAIL,5,NO,0,NO,0,2011-12-14 08:21:12 -0500,Optimize the title indicator measuring. Allow for all width modes. Refs #35.,26,1425
+135,a281c05,FAIL,6,NO,0,NO,0,2011-12-22 11:06:24 -0500,Add typeface methods to title indicator. Refs #39.,26,1431
+136,073395d,FAIL,6,NO,0,NO,0,2011-12-22 11:08:12 -0500,Save some lines of code.,26,1428
+137,b9ce167,FAIL,8,NO,0,NO,0,2011-12-22 11:10:11 -0500,Update dependency to use r6 compat lib. Refs #40.,26,1428
+138,52268af,FAIL,5,NO,0,NO,0,2011-12-22 13:12:09 -0500,Add styled tab indicator sample.,27,1459
+139,b8c493d,FAIL,5,NO,0,NO,0,2011-12-31 17:16:41 -0500,Update change log.,27,1459
+140,6f9ddf1,FAIL,6,NO,0,NO,0,2011-12-31 17:19:25 -0500,Bump version to 2.2.1.,27,1459
+141,606d099,FAIL,5,NO,0,NO,0,2011-12-31 17:20:05 -0500,[maven-release-plugin] prepare release 2.2.1,27,1459
+142,c573914,FAIL,6,NO,0,NO,0,2011-12-31 17:20:13 -0500,[maven-release-plugin] prepare for next development iteration,27,1459
+143,0cb864c,FAIL,5,NO,0,NO,0,2011-12-31 17:30:05 -0500,Fix sample imports. Bump version to 2.2.2.,27,1459
+144,7f57253,FAIL,5,NO,0,NO,0,2011-12-31 17:37:57 -0500,[maven-release-plugin] prepare release 2.2.2,27,1459
+145,9d7870c,FAIL,6,NO,0,NO,0,2011-12-31 17:38:01 -0500,[maven-release-plugin] prepare for next development iteration,27,1459
+146,cff902c,FAIL,6,NO,0,NO,0,2012-01-03 10:34:07 +0000,Give Superclass chance to handle Touch Events,27,1459
+147,10ea9cc,FAIL,6,NO,0,NO,0,2012-01-09 23:38:50 -0800,Page Circle Fill Color,27,1476
+148,6655c94,FAIL,5,NO,0,NO,0,2012-01-10 05:03:19 -0800,Merge pull request #47 from ohhorob/FilledCircles,27,1476
+149,6e3e659,FAIL,6,NO,0,NO,0,2012-01-10 19:23:02 +0100,Fix poor quality selected title (selected title has been drawn twice),27,1460
+150,904c47d,FAIL,6,NO,0,NO,0,2012-01-10 19:42:55 +0100,typofix,27,1460
+151,0789558,FAIL,6,NO,0,NO,0,2012-01-10 20:28:17 +0100,Avoid disappearence of selected title,27,1462
+152,8626a11,FAIL,6,NO,0,NO,0,2012-01-10 20:05:01 -0500,Merge branch 'colony-patch-1' into dev,27,1479
+153,4936e2f,FAIL,5,NO,0,NO,0,2012-01-10 20:07:55 -0500,Dat Holo.,27,1479
+154,658b46c,FAIL,6,NO,0,NO,0,2012-01-10 20:46:10 -0500,Update binaries to r6. Something wicket this way comes.,27,1479
+155,21fe543,FAIL,5,NO,0,NO,0,2012-01-13 13:50:41 -0500,Use dp since we cannot appropriately react to scaling yet. Refs #49.,27,1479
+156,b900ff6,FAIL,5,NO,0,NO,0,2012-01-13 13:56:18 -0500,Allow superclass to attempt to handle touch events. Refs #45.,27,1483
+157,35b3cc5,FAIL,6,NO,0,NO,0,2012-01-26 17:43:22 +0100,Removed the equal-sign which caused a FC when mCurrentPage was equal to bounds.size(),27,1459
+158,df1542e,FAIL,6,NO,0,NO,0,2012-01-26 11:47:15 -0500,Merge branch 'vdesmet93-master' into dev,27,1483
+159,9fe68ae,FAIL,5,NO,0,NO,0,2012-01-26 12:37:48 -0500,"Revert ""Removed the equal-sign which caused a FC when mCurrentPage was equal to bounds.size()""",27,1483
+160,8aab6c9,FAIL,6,NO,0,NO,0,2012-01-26 12:38:40 -0500,Fix underline draw attempt being made on pages that might not exist. Refs #50.,27,1484
+161,dca87e4,FAIL,5,NO,0,NO,0,2012-01-26 12:53:49 -0500,Update circle indicators when the last page was removed.,27,1487
+162,b888f07,FAIL,6,NO,0,NO,0,2012-01-26 12:55:08 -0500,Don't draw the current state if we are forcing another invalidation.,27,1488
+163,1fcd387,FAIL,8,NO,0,NO,0,2012-01-26 12:58:42 -0500,Fix dependencies to use android in central.,27,1488
+164,4bd0fc2,FAIL,9,NO,0,NO,0,2012-01-26 13:00:44 -0500,Fix maven build warnings.,27,1488
+165,ea8e86a,FAIL,5,NO,0,NO,0,2012-01-26 20:32:03 -0500,Bump version to 2.2.3.,27,1488
+166,f09acb0,FAIL,6,NO,0,NO,0,2012-01-26 20:36:56 -0500,[maven-release-plugin] prepare release 2.2.3,27,1488
+167,f54e4a0,FAIL,5,NO,0,NO,0,2012-01-26 20:37:22 -0500,[maven-release-plugin] prepare for next development iteration,27,1488
+168,c2716ca,FAIL,6,NO,0,NO,0,2012-01-27 19:20:50 +0100,Fixed the issue when currentPage was set to 0 after device rotation. Works on all API versions,27,1489
+169,ded66d1,FAIL,9,NO,0,NO,0,2012-02-01 21:05:27 -0500,Use support library from Maven Central.,27,1489
+170,7a07986,FAIL,9,NO,0,NO,0,2012-02-15 15:27:40 +0100,Added eclipse plugin configuration to parent POM,24,1111
+171,81065a6,FAIL,6,NO,0,NO,0,2012-03-05 14:57:28 +0100,removed TitleProvider and use getPageTitle() from support library,26,1486
+172,f7b793c,FAIL,5,NO,0,NO,0,2012-03-05 14:57:53 +0100,applied changes to samples,26,1483
+173,ecea97e,FAIL,7,NO,0,NO,0,2012-03-05 15:11:36 +0100,replaced tabs with spaces,26,1483
+174,bf14803,FAIL,6,NO,0,NO,0,2012-03-17 18:52:30 -0700,Use built-in Android styles for textSize and textColor.,27,1489
+175,f0ea9a2,FAIL,6,NO,0,NO,0,2012-03-17 19:09:15 -0700,Merge branch 'gabrielittner-dev-getPageTitle' into dev,26,1489
+176,27eee5c,FAIL,6,NO,0,NO,0,2012-03-17 19:15:15 -0700,Update sample for new android namespaced attributes.,26,1489
+177,711e388,FAIL,5,NO,0,NO,0,2012-03-22 23:07:30 +0100,Do not repeatidly create new Path objects in onDraw().,27,1488
+178,5006563,FAIL,5,NO,0,NO,0,2012-03-22 20:10:22 -0700,Merge branch 'samueltardieu-do-not-create-path-in-loop' into dev,26,1489
+179,9c02436,FAIL,6,NO,0,NO,0,2012-03-28 10:33:27 +0700,Fixed a bug where the setCurrentItem doesn't change the viewpager's current item,27,1489
+180,ce03c8d,FAIL,5,NO,0,NO,0,2012-04-27 11:28:01 -0700,Reuse single RectF across all onMeasure calls,26,1490
+181,7e8d800,FAIL,5,NO,0,NO,0,2012-04-27 11:29:39 -0700,Merge pull request #86 from kevinsawicki/reuse-rectf,26,1490
+182,cab2b7f,FAIL,5,NO,0,NO,0,2012-05-01 07:14:12 -0500,Fix for lost content in sample app,27,1491
+183,4ff6747,FAIL,12,NO,0,NO,0,2012-05-07 22:42:23 -0700,`pom.xml` updates for central. New support lib.,26,1489
+184,6fe4a57,FAIL,6,NO,0,NO,0,2012-05-07 22:42:34 -0700,Merge branch 'dev' of github.com:JakeWharton/Android-ViewPagerIndicator into dev,26,1490
+185,4ad38a9,FAIL,7,NO,0,NO,0,2012-05-17 23:06:18 -0700,A bunch of tweaks.,26,1494
+186,1f72c1a,FAIL,6,NO,0,NO,0,2012-05-18 01:09:34 -0700,Add line indicator.,31,1818
+187,554d755,FAIL,6,NO,0,NO,0,2012-05-18 01:16:47 -0700,Checkstyle entire project.,31,1800
+188,015d2b5,FAIL,5,NO,0,NO,0,2012-05-18 01:27:54 -0700,Convert TitlePageIndicator to use CharSequence. Closes #79.,31,1801
+189,4acdc43,FAIL,5,NO,0,NO,0,2012-05-18 01:31:09 -0700,Use Android's orientation property. Closes #88.,31,1802
+190,9e76ea5,FAIL,5,NO,0,NO,0,2012-05-18 01:36:23 -0700,Don't load anything if we are in ADT's editor. Closes #57.,31,1805
+191,89c5f40,FAIL,6,NO,0,NO,0,2012-05-18 01:39:29 -0700,Merge branch 'meisteg-lost_content' into dev,31,1808
+192,08389b6,FAIL,5,NO,0,NO,0,2012-05-18 01:50:51 -0700,Merge branch 'akurni-master' into dev,31,1809
+193,c46603f,FAIL,6,NO,0,NO,0,2012-05-18 01:52:11 -0700,Checkstyle fixes.,31,1808
+194,06af2ca,FAIL,5,NO,0,NO,0,2012-05-18 01:56:00 -0700,Merge branch 'maven-eclipse-plugin' of https://github.com/stefanodacchille/Android-ViewPagerIndicator into stefanodacchille-maven-eclipse-plugin,27,1488
+195,eb20785,FAIL,6,NO,0,NO,0,2012-05-18 01:56:04 -0700,Merge branch 'stefanodacchille-maven-eclipse-plugin' into dev,31,1808
+196,7447085,FAIL,6,NO,0,NO,0,2012-05-18 01:58:13 -0700,Reformat pom.xml. Add version to that Eclipse thing.,31,1808
+197,32fd71e,FAIL,6,NO,0,NO,0,2012-05-18 02:08:20 -0700,Properly check if fake drag is allowed before dragging. Closes #80.,31,1805
+198,5c19756,FAIL,7,NO,0,NO,0,2012-05-19 00:23:13 -0700,Add 'Underline' indicator which mimcs the ICS Launcher.,37,2128
+199,9bb973a,FAIL,6,NO,0,NO,0,2012-05-19 00:28:14 -0700,Do not restrict alpha on selected color for underline.,37,2128
+200,21d5b1a,FAIL,6,NO,0,NO,0,2012-05-19 00:34:10 -0700,Add tab reselected callback. Closes #89.,37,2137
+201,7fbd457,FAIL,7,NO,0,NO,0,2012-05-19 18:20:26 -0700,Use position offset for page change calculations. Closes #58.,37,2130
+202,ec65632,FAIL,6,NO,0,NO,0,2012-05-19 18:41:08 -0700,Bump version to 2.3.0.,37,2130
+203,5a7cdd3,FAIL,6,NO,0,NO,0,2012-05-19 18:43:15 -0700,[maven-release-plugin] prepare release 2.3.0,37,2130
+204,ffc658c,FAIL,6,NO,0,NO,0,2012-05-19 18:43:30 -0700,[maven-release-plugin] prepare for next development iteration,37,2130
+205,dd79bb1,FAIL,6,NO,0,NO,0,2012-05-19 18:48:42 -0700,I have no idea how this happened...,37,2130
+206,3b1ff29,FAIL,7,NO,0,NO,0,2012-05-19 18:50:00 -0700,Bump version to 2.3.1.,37,2130
+207,0439759,FAIL,6,NO,0,NO,0,2012-05-19 18:51:07 -0700,[maven-release-plugin] prepare release 2.3.1,37,2130
+208,7be442b,FAIL,6,NO,0,NO,0,2012-05-19 18:51:16 -0700,[maven-release-plugin] prepare for next development iteration,37,2130
+209,ed6954a,FAIL,6,NO,0,NO,0,2012-06-03 03:23:31 -0700,Ensure we never fade the line if fading is disabled. Closes #99.,37,2131
+210,d94643b,FAIL,6,NO,0,NO,0,2012-06-04 19:40:07 -0700,Remove obsolete dependency on DirectionalViewPager.,37,2131
+211,41b4b53,FAIL,6,NO,0,NO,0,2012-07-11 11:21:20 -0700,title.toString() drops the spans in a abstract CharSequence,37,2130
+212,90a6dbe,FAIL,6,NO,0,NO,0,2012-07-24 11:20:58 +0200,Added ignore for command line build files,37,2130
+213,422167d,FAIL,6,NO,0,NO,0,2012-07-27 14:17:53 +0200,Left title overlaps current title with long text during right dragging. Fixes #101,37,2137
+214,e865850,FAIL,6,NO,0,NO,0,2012-07-29 17:46:11 +0200,remove mPagerAdapter variable and use mViewPager.getAdapter() instead,37,2128
+215,0cef4d6,FAIL,6,NO,0,NO,0,2012-07-30 18:16:59 -0700,Merge pull request #113 from gabrielittner/dev-changeAdapter,37,2128
+216,c2fc46c,FAIL,5,NO,0,NO,0,2012-08-17 14:13:04 -0700,Do not tell people to implement TitleProvider. Closes #119.,37,2128
+217,6738af8,FAIL,5,NO,0,NO,0,2012-08-17 14:42:14 -0700,Merge branch 'matto1990-patch-1' into dev,37,2128
+218,11c0f9e,FAIL,7,NO,0,NO,0,2012-08-17 14:50:58 -0700,Merge branch 'imminent-patch-1' into dev,37,2128
+219,63fee36,FAIL,6,NO,0,NO,0,2012-08-17 14:58:23 -0700,Merge pull request #112 from scompt/overlapping_left_title,37,2134
+220,779932b,FAIL,6,NO,0,NO,0,2012-08-17 15:21:40 -0700,Support setting background in styles. Closes #117.,37,2144
+221,b48195c,FAIL,6,NO,0,NO,0,2012-08-17 15:22:09 -0700,Merge branch 'dev' of github.com:JakeWharton/Android-ViewPagerIndicator into dev,37,2150
+222,4b23872,FAIL,6,NO,0,NO,0,2012-08-17 15:37:25 -0700,Remove provided scope of support lib dependency in pom.xml.,37,2150
+223,3392124,FAIL,6,NO,0,NO,0,2012-08-24 14:15:19 -0700,groupId in child modules is optional. Mind = blown.,37,2150
+224,f8d595f,FAIL,6,NO,0,NO,0,2012-08-28 17:31:57 -0700,Allow drawing title underline on top. Closes #126.,38,2193
+225,e9ad47e,FAIL,7,NO,0,NO,0,2012-08-28 20:56:41 -0700,Do not perform any ViewPager operations on ACTION_CANCEL.,38,2201
+226,a531924,FAIL,6,NO,0,NO,0,2012-08-28 21:30:56 -0700,Bump next version to 2.4.0. Start change log.,38,2201
+227,92b6869,FAIL,10,NO,0,NO,0,2012-08-28 23:40:35 -0700,Add support for LinearLayout ICS-style dividers. Closes #125.,39,2319
+228,3b8ea14,FAIL,6,NO,0,NO,0,2012-08-28 23:47:39 -0700,Show how to style tab text appropriately. Closes #71.,39,2319
+229,16e2b5a,FAIL,6,NO,0,NO,0,2012-08-29 13:41:59 -0700,Consolidate adapters since TitleProvider is no longer around.,38,2314
+230,0643658,FAIL,6,NO,0,NO,0,2012-08-29 14:58:40 -0700,Add IconPageIndicator.,41,2443
+231,4573560,FAIL,10,NO,0,NO,0,2012-09-06 15:24:44 -0700,Support icons on tab indicator.,42,2494
+232,e910e0f,FAIL,5,NO,0,NO,0,2012-09-06 17:19:51 -0700,Bump version to 2.4.0. New screens showcase.,42,2494
+233,c544291,FAIL,6,NO,0,NO,0,2012-09-06 17:22:50 -0700,[maven-release-plugin] prepare release 2.4.0,42,2494
+234,a7e989a,FAIL,6,NO,0,NO,0,2012-09-06 17:23:01 -0700,[maven-release-plugin] prepare for next development iteration,42,2494
+235,980fb11,FAIL,6,NO,0,NO,0,2012-09-07 18:10:12 -0700,Version bump because I'm an idiot...,42,2494
+236,77d3bee,FAIL,8,NO,0,NO,0,2012-09-08 12:49:52 -0700,Correct 'background' style loading. Closes #135.,42,2494
+237,c4f96b7,FAIL,6,NO,0,NO,0,2012-09-09 01:18:57 -0700,Use MATCH_PARENT over FILL_PARENT.,42,2494
+238,98a5218,FAIL,6,NO,0,NO,0,2012-09-09 01:19:22 -0700,Show example of fading edges in TabPageIndicator.,42,2494
+239,65457ea,FAIL,6,NO,0,NO,0,2012-09-12 09:05:24 -0700,Bump version to 2.4.1.,42,2494
+240,8cd549f,FAIL,6,NO,0,NO,0,2012-09-12 09:08:57 -0700,[maven-release-plugin] prepare release 2.4.1,42,2494

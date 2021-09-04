@@ -1,0 +1,1538 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,38860226,FAIL,0,NO,0,NO,0,2013-08-27 11:47:51 -0700,Initial commit,0,0
+1,98ce10b1,FAIL,0,NO,0,NO,0,2013-08-27 21:54:21 +0300,Copying license from http://glassfish.java.net/public/CDDL+GPL.html,0,0
+2,d561316d,FAIL,0,NO,0,NO,0,2013-08-27 22:01:24 +0300,Adding some basic details,0,0
+3,4c442a9d,FAIL,59,NO,0,NO,0,2013-08-27 22:05:47 +0300,Moving the source code from http://svn.java.net/svn/glassfish~svn/branches/arun/javaee7-samples/samples/,524,13478
+4,a55525d6,FAIL,42,NO,0,NO,0,2013-08-27 21:19:50 +0200,Fixing the path and method implementation,524,13485
+5,1859e14f,FAIL,42,NO,0,NO,0,2013-08-27 21:20:03 +0200,Iterating over both the targets,524,13502
+6,8e8d6334,FAIL,43,NO,0,NO,0,2013-08-27 21:23:17 +0200,Moving Jersey Logging Filter dependency to JAX-RS project. This allows all other samples to use it.,524,13502
+7,5555ecd2,FAIL,46,NO,0,NO,0,2013-08-27 21:26:14 +0200,Adding qs attributes,524,13502
+8,7040ac6b,FAIL,48,NO,0,NO,0,2013-08-27 21:26:26 +0200,Fixing a log statement,524,13505
+9,da1aa630,FAIL,54,NO,0,NO,0,2013-08-27 21:48:06 +0200,Removing a redundant import,524,13504
+10,8f084cc4,FAIL,49,NO,0,NO,0,2013-08-27 23:06:10 +0200,"Added different types of validation with JAX-RS (field, property, @Valid)",528,13611
+11,cacdda11,FAIL,52,NO,0,NO,0,2013-08-27 23:10:31 +0200,"Adding copyright, fixing the URL to be context root sensitive",528,13611
+12,1c059030,FAIL,50,NO,0,NO,0,2013-08-27 23:22:33 +0200,Fixing the titles,528,13611
+13,c6567b2f,FAIL,54,NO,0,NO,0,2013-08-27 23:32:30 +0200,"Adding @Named and ""all"" beans.xml",528,13613
+14,d5ffe67a,FAIL,55,NO,0,NO,0,2013-08-27 23:34:32 +0200,Adding a statement to check server.log,528,13614
+15,17cb7f73,FAIL,55,NO,0,NO,0,2013-08-27 23:35:20 +0200,"- Adding @Named and ""all"" beans.xml - Removing batch.xml - Adding a statement to check server.log",528,13619
+16,32317070,FAIL,55,NO,0,NO,0,2013-08-27 23:36:06 +0200,Fixing headers,528,13619
+17,f7525424,FAIL,55,NO,0,NO,0,2013-08-27 23:39:35 +0200,Adding copyright,528,13619
+18,cac8f3f1,FAIL,53,NO,0,NO,0,2013-08-27 23:39:51 +0200,Overriding appropriate method,528,13621
+19,8d33ea6a,FAIL,60,NO,0,NO,0,2013-08-27 23:40:09 +0200,Adding copyright and prompts to check server.log,528,13622
+20,3e78ce32,FAIL,59,NO,0,NO,0,2013-08-27 23:40:19 +0200,"Adding ""all"" beans.xml",528,13622
+21,0799f2e9,FAIL,58,NO,0,NO,0,2013-08-27 23:40:29 +0200,Adding NetBeans configuration file,528,13622
+22,ef54aec6,FAIL,57,NO,0,NO,0,2013-08-27 23:43:24 +0200,"- Adding NetBeans configuration file - Adding ""all"" beans.xml - Adding prompts",528,13623
+23,3fa9b4aa,FAIL,54,NO,0,NO,0,2013-08-27 23:45:48 +0200,Adding prompts to check server.log,528,13624
+24,a5b7cf74,FAIL,53,NO,0,NO,0,2013-08-27 23:45:58 +0200,"Add ""all"" beans.xml for CDI",528,13624
+25,fe78387c,FAIL,54,NO,0,NO,0,2013-08-27 23:47:11 +0200,Adding better titles,528,13624
+26,390565a9,FAIL,53,NO,0,NO,0,2013-08-27 23:48:04 +0200,"Adding ""all"" beans.xml and prompts in Servlet to check server.log",528,13625
+27,9c13a67c,FAIL,53,NO,0,NO,0,2013-08-27 23:51:42 +0200,Adding prompt to check server.log,528,13626
+28,64854b07,FAIL,57,NO,0,NO,0,2013-08-27 23:51:51 +0200,Adding @Named,528,13634
+29,e619ee84,FAIL,60,NO,0,NO,0,2013-08-27 23:51:59 +0200,"Adding ""all"" style beans.xml",528,13634
+30,e6dd3d14,FAIL,62,NO,0,NO,0,2013-08-27 23:52:05 +0200,Fixing the schema,528,13634
+31,6854d9db,FAIL,62,NO,0,NO,0,2013-08-27 23:52:13 +0200,Adding NetBeans configuration file,528,13634
+32,63ae3824,FAIL,61,NO,0,NO,0,2013-08-27 23:53:01 +0200,Fixing the titles,528,13634
+33,7579e46e,FAIL,57,NO,0,NO,0,2013-08-27 23:53:58 +0200,Adding copyright and prompts to check server.log,528,13635
+34,da6fa20d,FAIL,56,NO,0,NO,0,2013-08-27 23:54:23 +0200,Fixing the title,528,13635
+35,25fbba6b,FAIL,62,NO,0,NO,0,2013-08-27 23:54:44 +0200,"Adding ""all"" style beans.xml",528,13635
+36,dd30b98e,FAIL,63,NO,0,NO,0,2013-08-27 23:56:57 +0200,"Adding ""all"" style beans.xml Adding prompt to check server.log Adding NetBeans configuration file",528,13636
+37,4a22d928,FAIL,54,NO,0,NO,0,2013-08-27 23:59:37 +0200,"Adding ""all"" style beans.xml Adding prompt to check server.log Adding NetBeans configuration file",528,13637
+38,a6f9cd2c,FAIL,55,NO,0,NO,0,2013-08-28 00:01:38 +0200,Adding prompt to check server.log,528,13638
+39,70c66307,FAIL,59,NO,0,NO,0,2013-08-28 00:01:44 +0200,Removing beans.xml,528,13638
+40,e47fe57f,FAIL,57,NO,0,NO,0,2013-08-28 00:01:56 +0200,Adding NetBeans configuration file,528,13638
+41,0eae4c1a,FAIL,63,NO,0,NO,0,2013-08-28 01:03:11 +0300,Adding NetBeans configuration file,528,13638
+42,85e9f205,FAIL,66,NO,0,NO,0,2013-08-28 07:02:27 +0200,"Got the sample working again, using a separate writer",528,13646
+43,eb53a431,FAIL,58,NO,0,NO,0,2013-08-28 07:02:35 +0200,Improved the title,528,13646
+44,3c8c180a,FAIL,57,NO,0,NO,0,2013-08-28 07:05:17 +0200,Cleaned up output,528,13644
+45,bb8b2394,FAIL,60,NO,0,NO,0,2013-08-28 07:05:22 +0200,Fixed title,528,13644
+46,ae9c39c5,FAIL,56,NO,0,NO,0,2013-08-28 07:06:46 +0200,Fixed titles,528,13644
+47,c5da7780,FAIL,55,NO,0,NO,0,2013-08-28 07:07:54 +0200,Slightly more indicative title,528,13644
+48,62075af4,FAIL,58,NO,0,NO,0,2013-08-28 07:08:21 +0200,Slightly more indicative title,528,13644
+49,382b8308,FAIL,60,NO,0,NO,0,2013-08-28 07:10:52 +0200,Slightly more indicative titles,528,13644
+50,bcb23b6a,FAIL,62,NO,0,NO,0,2013-08-28 07:12:21 +0200,Removed <name>,528,13644
+51,2926b4c9,FAIL,60,NO,0,NO,0,2013-08-28 07:26:19 +0200,Cleaned up title,528,13644
+52,ecbcfc8a,FAIL,61,NO,0,NO,0,2013-08-28 07:26:58 +0200,Fixing title,528,13644
+53,fa301882,FAIL,63,NO,0,NO,0,2013-08-28 07:27:05 +0200,Adding binaryType attribute,528,13644
+54,541b5388,FAIL,60,NO,0,NO,0,2013-08-28 07:28:28 +0200,Slightly more intuitive titles,528,13644
+55,6b333edb,FAIL,66,NO,0,NO,0,2013-08-28 07:30:13 +0200,Slightly more indicative titles and better display of results,528,13644
+56,9a20fb6c,FAIL,62,NO,0,NO,0,2013-08-28 10:51:19 +0300,Making set final,528,13644
+57,89a9f49a,FAIL,59,NO,0,NO,0,2013-08-28 12:19:01 +0300,Slightly more indicative titles,528,13644
+58,26ac4561,FAIL,58,NO,0,NO,0,2013-08-28 12:20:30 +0300,Slightly more indicative titles Adding NetBeans configuration files,528,13644
+59,9473526b,FAIL,64,NO,0,NO,0,2013-08-28 12:25:22 +0300,Made the decorator slightly more meaningful,528,13643
+60,1ecb1721,FAIL,66,NO,0,NO,0,2013-08-28 12:25:29 +0300,Slightly more indicative titles Adding NetBeans configuration files,528,13643
+61,b8c7f281,FAIL,67,NO,0,NO,0,2013-08-28 12:27:21 +0300,Slightly more indicative headers Adding NetBeans configuration files,528,13643
+62,ea6a2fcf,FAIL,63,NO,0,NO,0,2013-08-28 12:30:01 +0300,More explanatory headers Adding NetBeans configuration files,528,13643
+63,77e3ea19,FAIL,58,NO,0,NO,0,2013-08-28 12:30:09 +0300,More explanatory headers,528,13643
+64,11e407ed,FAIL,61,NO,0,NO,0,2013-08-28 12:32:37 +0300,More explanatory headers Adding NetBeans configuration files,528,13643
+65,12549613,FAIL,60,NO,0,NO,0,2013-08-28 12:49:05 +0300,Better explanatory headers Adding NetBeans configuration files,528,13643
+66,e84ff410,FAIL,60,NO,0,NO,0,2013-08-28 12:49:50 +0300,Better explanatory headers,528,13643
+67,f8807bc0,FAIL,61,NO,0,NO,0,2013-08-28 12:50:58 +0300,Better explanatory headers,528,13643
+68,286280bb,FAIL,58,NO,0,NO,0,2013-08-28 12:52:12 +0300,Better explanatory headers,528,13643
+69,0f7d399c,FAIL,60,NO,0,NO,0,2013-08-28 12:59:00 +0300,Splitting the sample in three different ways to acquire BeanManager,530,13735
+70,77d18c88,FAIL,65,NO,0,NO,0,2013-08-28 14:53:35 +0300,Using more meaningful titles,530,13733
+71,3060ceba,FAIL,63,NO,0,NO,0,2013-08-28 15:00:05 +0300,- Using more meaningful titles - Adding NetBeans configuration file,530,13737
+72,1f1119c0,FAIL,64,NO,0,NO,0,2013-08-28 15:00:49 +0300,Using more meaningful titles,530,13737
+73,559b5e72,FAIL,64,NO,0,NO,0,2013-08-28 15:05:29 +0300,Fixed some output statements,530,13740
+74,042d5442,FAIL,57,NO,0,NO,0,2013-08-28 15:06:03 +0300,Cleaned up imports and made titles more appropriate,530,13738
+75,15281f77,FAIL,59,NO,0,NO,0,2013-08-28 15:06:13 +0300,Using more meaningful titles,530,13739
+76,eb38e72f,FAIL,58,NO,0,NO,0,2013-08-28 15:07:11 +0300,Using more meaningful titles,530,13739
+77,fb88f589,FAIL,54,NO,0,NO,0,2013-08-28 15:10:21 +0300,Aligning the title with other projects,530,13739
+78,68d583bf,FAIL,61,NO,0,NO,0,2013-08-28 15:11:51 +0300,Aligning the title with other projects and adding meaningful prompts,530,13739
+79,1fdc3ba2,FAIL,62,NO,0,NO,0,2013-08-28 15:13:03 +0300,Simplifying @ServerEndpoint,530,13739
+80,87a1d587,FAIL,55,NO,0,NO,0,2013-08-28 15:14:29 +0300,Adding more meaningful titles,530,13739
+81,8732accc,FAIL,58,NO,0,NO,0,2013-08-28 15:16:35 +0300,Improving the title,530,13739
+82,6b5ad043,FAIL,61,NO,0,NO,0,2013-08-28 15:17:06 +0300,Improving the title,530,13739
+83,4a9617e7,FAIL,59,NO,0,NO,0,2013-08-28 15:18:24 +0300,Improving the title,530,13739
+84,b9f83165,FAIL,59,NO,0,NO,0,2013-08-28 22:33:22 +0300,"Changing the module name from ""endpoint"" to ""jaxrs-endpoint""",534,13853
+85,d5400968,FAIL,5,NO,0,NO,0,2013-08-28 22:36:18 +0300,Reorder the modules alphabetically,534,13853
+86,68cc50b2,FAIL,4,NO,0,NO,0,2013-08-28 22:37:30 +0300,Reorder the modules alphabetically,534,13853
+87,c4388dc7,FAIL,4,NO,0,NO,0,2013-08-28 22:42:30 +0300,"Fixed the attribute from ""id"" to ""validatorId""",534,13853
+88,f72c24fe,FAIL,5,NO,0,NO,0,2013-08-28 22:55:40 +0300,Adding better prompts,534,13853
+89,b6d35ecc,FAIL,4,NO,0,NO,0,2013-08-28 22:55:52 +0300,Throwing appropriate ValidatorException,534,13857
+90,1c011aee,FAIL,5,NO,0,NO,0,2013-08-28 22:56:05 +0300,Throwing appropriate ConverterException,534,13862
+91,4e962088,FAIL,5,NO,0,NO,0,2013-08-29 00:21:15 +0300,Added support for different primitive types,537,13889
+92,f33862f1,FAIL,5,NO,0,NO,0,2013-08-29 00:23:21 +0300,Meaningful titles,537,13889
+93,7867c5f8,FAIL,6,NO,0,NO,0,2013-08-29 00:24:40 +0300,Fixed the package name,537,13889
+94,71ae4933,FAIL,6,NO,0,NO,0,2013-08-29 00:25:16 +0300,Meaningful titles and NetBeans configuration files,537,13889
+95,f9f4cb6d,FAIL,6,NO,0,NO,0,2013-08-29 00:29:15 +0300,Using more meaningful titles,537,13889
+96,7be387c5,FAIL,6,NO,0,NO,0,2013-08-29 00:30:29 +0300,Using more meaningful titles,537,13889
+97,e74a28d0,FAIL,5,NO,0,NO,0,2013-08-29 00:32:07 +0300,Fixed the artifactId,537,13889
+98,f7ffda92,FAIL,6,NO,0,NO,0,2013-08-29 00:33:49 +0300,"Using more meaningful titles, making method names more intuitive",537,13889
+99,e089e658,FAIL,5,NO,0,NO,0,2013-08-29 00:35:05 +0300,"Using more meaningful titles, making method names more intuitive",537,13889
+100,9c933c5d,FAIL,5,NO,0,NO,0,2013-08-29 00:37:04 +0300,"Using more meaningful titles, making method names more intuitive",537,13889
+101,9f8b47df,FAIL,6,NO,0,NO,0,2013-08-29 00:39:17 +0300,Better messages,537,13889
+102,3c4be8fc,FAIL,5,NO,0,NO,0,2013-08-29 00:39:48 +0300,Aligned package names,537,13889
+103,93ad0fd3,FAIL,6,NO,0,NO,0,2013-08-29 00:41:11 +0300,Using more meaningful messages,537,13889
+104,d7d31dcb,FAIL,4,NO,0,NO,0,2013-08-29 00:47:39 +0300,Removing fields that cannot be injected here,537,13886
+105,e5c749a0,FAIL,4,NO,0,NO,0,2013-08-29 00:47:48 +0300,Simplifying annotation,537,13886
+106,f392bd0a,FAIL,5,NO,0,NO,0,2013-08-29 00:47:57 +0300,"Changing to ""all"" style",537,13886
+107,44d97eaa,FAIL,5,NO,0,NO,0,2013-08-29 00:48:08 +0300,Better messages,537,13886
+108,e5a06ae4,FAIL,5,NO,0,NO,0,2013-08-29 01:00:05 +0300,Adding ; to keep JavaScript valid,537,13886
+109,69d7372d,FAIL,4,NO,0,NO,0,2013-08-29 08:02:57 +0300,Adding ; to keep JavaScript valid,537,13886
+110,a810ad72,FAIL,4,NO,0,NO,0,2013-08-29 08:03:07 +0300,Better messages,537,13886
+111,e5823571,FAIL,5,NO,0,NO,0,2013-08-29 08:04:39 +0300,Better messages,537,13886
+112,67ba8a11,FAIL,5,NO,0,NO,0,2013-08-29 08:06:47 +0300,Removing redundant imports,537,13884
+113,32a3e583,FAIL,5,NO,0,NO,0,2013-08-29 08:06:57 +0300,Removing redundant code,537,13876
+114,d875d52d,FAIL,4,NO,0,NO,0,2013-08-29 08:07:09 +0300,Cleaning up code,537,13876
+115,970307bf,FAIL,5,NO,0,NO,0,2013-08-29 08:08:36 +0300,Removing accidentally added Jersey dependencies,537,13876
+116,3b63355c,FAIL,6,NO,0,NO,0,2013-08-29 08:08:48 +0300,Adding NetBeans configuration file,537,13876
+117,01574f0f,FAIL,5,NO,0,NO,0,2013-08-29 08:10:33 +0300,Fixing the package name,537,13876
+118,a279df2d,FAIL,5,NO,0,NO,0,2013-08-29 08:10:45 +0300,Better messages and NetBeans configuration file,537,13876
+119,a751b420,FAIL,4,NO,0,NO,0,2013-08-29 08:12:27 +0300,Fixing the package name,537,13873
+120,26e630bc,FAIL,5,NO,0,NO,0,2013-08-29 08:12:43 +0300,Better messages and NetBeans configuration file,537,13873
+121,e2f4ec19,FAIL,5,NO,0,NO,0,2013-08-29 08:14:31 +0300,Fixing package name Better messages Added NetBeans configuration file,537,13873
+122,bf879dde,FAIL,5,NO,0,NO,0,2013-08-29 08:15:49 +0300,Fixing package name Better messages Added NetBeans configuration file,537,13873
+123,b82100fb,FAIL,5,NO,0,NO,0,2013-08-29 08:17:17 +0300,Fixing package name Better messages Added NetBeans configuration file,537,13873
+124,bfc88b4e,FAIL,4,NO,0,NO,0,2013-08-29 08:19:31 +0300,Fixing package name Better messages Added NetBeans configuration file,537,13876
+125,07b284f0,FAIL,6,NO,0,NO,0,2013-08-29 08:22:13 +0300,"Deleting the redundant projects, already migrated to jaxrs-endpoint jaxrs-client",528,13594
+126,98ac162b,FAIL,300,NO,0,NO,0,2013-08-29 08:23:22 +0300,Removing the redundant element,528,13594
+127,24f10b85,FAIL,60,NO,0,NO,0,2013-08-29 08:24:02 +0300,"Moving from ""client"" to ""jaxrs-client""",533,13754
+128,92811aff,FAIL,55,NO,0,NO,0,2013-08-29 10:35:32 +0300,Renaming the package,533,13755
+129,7c907a9d,FAIL,59,NO,0,NO,0,2013-08-29 10:46:34 +0300,Adding NetBeans configuration file,533,13755
+130,7dffcaec,FAIL,58,NO,0,NO,0,2013-08-29 10:57:59 +0300,Added a comment about method signatures,533,13755
+131,b5c46993,FAIL,57,NO,0,NO,0,2013-08-29 10:58:43 +0300,Reordered some elements for a logical order,533,13755
+132,fbd9b573,FAIL,60,NO,0,NO,0,2013-08-29 11:38:06 +0300,Better messages,533,13755
+133,5aea1695,FAIL,60,NO,0,NO,0,2013-08-29 11:39:24 +0300,New sample to show stateful EJB,535,13825
+134,657b1341,FAIL,61,NO,0,NO,0,2013-08-29 11:49:09 +0300,Qualified the page title,535,13825
+135,68118b0a,FAIL,60,NO,0,NO,0,2013-08-29 11:54:42 +0300,Using only one database,535,13825
+136,ce71855b,FAIL,63,NO,0,NO,0,2013-08-29 11:55:17 +0300,"Using only one PU, no need to show two to demonstrate this feature",535,13816
+137,0b861440,FAIL,60,NO,0,NO,0,2013-08-29 11:55:29 +0300,"Using only one PU, better titles",535,13816
+138,27092c68,FAIL,58,NO,0,NO,0,2013-08-29 12:15:21 +0300,Added the with-interface sample (not working yet),538,13899
+139,29200a05,FAIL,63,NO,0,NO,0,2013-08-29 12:16:38 +0300,Adding stateful sample,538,13899
+140,cf561975,FAIL,61,NO,0,NO,0,2013-08-29 12:19:25 +0300,Better output messages,538,13900
+141,aeec16b3,FAIL,58,NO,0,NO,0,2013-08-29 12:29:43 +0300,Reordered some elements for a logical order,538,13900
+142,977a097f,FAIL,60,NO,0,NO,0,2013-08-29 12:30:58 +0300,Better output messages,538,13900
+143,23ec2d78,FAIL,55,NO,0,NO,0,2013-08-29 12:32:34 +0300,Better output messages,538,13897
+144,7f6d1722,FAIL,60,NO,0,NO,0,2013-08-29 12:34:51 +0300,Better output messages,538,13897
+145,3ac95449,FAIL,65,NO,0,NO,0,2013-08-29 17:41:08 +0300,Adding remote stateful beans,541,13980
+146,98ca1543,FAIL,65,NO,0,NO,0,2013-08-29 18:37:34 +0300,Adding copyright,541,13980
+147,31d4b600,FAIL,59,NO,0,NO,0,2013-08-29 18:43:26 +0300,Added a new stateless EJB sample,546,14084
+148,ca1ed4cb,FAIL,61,NO,0,NO,0,2013-08-29 19:11:24 +0300,Aligned title/header,546,14084
+149,377f5676,FAIL,61,NO,0,NO,0,2013-08-29 19:26:27 +0300,Fixed the schema-generation.database.action property value,546,14084
+150,f2afd5f9,FAIL,59,NO,0,NO,0,2013-08-29 19:26:54 +0300,Better output messages,546,14084
+151,863e466d,FAIL,60,NO,0,NO,0,2013-08-29 19:51:28 +0300,Shows transaction commit for checked exception and rollback for runtime exception,546,14115
+152,f30eab44,FAIL,58,NO,0,NO,0,2013-08-29 19:54:14 +0300,Better output messages,546,14114
+153,89381e17,FAIL,60,NO,0,NO,0,2013-08-29 21:06:51 +0300,New sample to show Singleton session bean - both container-managed and application-managed concurrency,549,14198
+154,55ad99ce,FAIL,64,NO,0,NO,0,2013-08-29 22:47:02 +0300,Better output messages,549,14198
+155,e9ff4f37,FAIL,65,NO,0,NO,0,2013-08-29 22:48:13 +0300,"Added stateless, stateful, and singleton modules",549,14198
+156,0bba8610,FAIL,64,NO,0,NO,0,2013-08-29 22:49:35 +0300,Better output messages,549,14198
+157,7b4340e2,FAIL,64,NO,0,NO,0,2013-08-29 22:51:41 +0300,Better output messages,549,14197
+158,1adaa204,FAIL,63,NO,0,NO,0,2013-08-29 22:53:03 +0300,Adding a message that this sample is not working right now,549,14197
+159,8a1fc6b7,FAIL,67,NO,0,NO,0,2013-08-29 22:53:20 +0300,Cleaner output messages,549,14199
+160,0d2bea2f,FAIL,64,NO,0,NO,0,2013-08-29 22:54:39 +0300,Better output messages,549,14198
+161,5d769e7f,FAIL,63,NO,0,NO,0,2013-08-29 22:56:35 +0300,Better output messages,549,14198
+162,2b68edcb,FAIL,64,NO,0,NO,0,2013-08-29 23:08:59 +0300,Better output messages,549,14203
+163,2567179c,FAIL,68,NO,0,NO,0,2013-08-29 23:11:46 +0300,Better output messages,549,14203
+164,f9612afb,FAIL,69,NO,0,NO,0,2013-08-29 23:14:41 +0300,Better output messages,549,14203
+165,cf839c58,FAIL,74,NO,0,NO,0,2013-08-30 20:07:20 +0300,Better output messages,549,14203
+166,430b67f2,FAIL,67,NO,0,NO,0,2013-08-30 20:29:06 +0300,Resources are now correctly packaged in WEB-INF/lib and read from the Servlet. index.jsp is rendered differently based upon the styles.css from the JAR file.,549,14203
+167,38706fef,FAIL,69,NO,0,NO,0,2013-08-30 20:31:28 +0300,Better output messages,549,14203
+168,37e85db5,FAIL,66,NO,0,NO,0,2013-08-30 20:33:08 +0300,Better output messages,549,14201
+169,a0835e8e,FAIL,62,NO,0,NO,0,2013-08-30 20:36:44 +0300,Better output messages,549,14202
+170,8df909a2,FAIL,65,NO,0,NO,0,2013-08-30 20:39:09 +0300,Added NetBeans configuration file,549,14202
+171,6693a9cb,FAIL,65,NO,0,NO,0,2013-09-03 11:32:18 -0700,Adding a new sample to show client-side content negotiation,553,14302
+172,4faaca1f,FAIL,68,NO,0,NO,0,2013-09-04 13:49:22 -0700,Adding a logging statement,553,14303
+173,7a150b3c,FAIL,69,NO,0,NO,0,2013-09-04 17:37:21 -0700,Adding some formatting and link to Java EE 7 Essentials book,553,14303
+174,5fb9f1ec,FAIL,66,NO,0,NO,0,2013-09-04 17:39:40 -0700,Redundant file,552,14290
+175,690aabbf,FAIL,66,NO,0,NO,0,2013-09-04 17:40:26 -0700,Removing redundant files,549,14207
+176,88cc1559,FAIL,69,NO,0,NO,0,2013-09-10 13:25:13 -0700,New client to invoke REST endpoint using HttpURLConnection - simple GET and POST requests,551,14303
+177,23bfd943,FAIL,71,NO,0,NO,0,2013-09-10 13:54:14 -0700,New sample to show PU injection in JAX-RS 2 Entity Provider - throwing NPE at this time,558,14499
+178,944e5865,FAIL,68,NO,0,NO,0,2013-09-10 14:02:23 -0700,Fixed the table name,558,14499
+179,06a88bfc,FAIL,66,NO,0,NO,0,2013-09-10 14:05:05 -0700,Moving readerwriter-pu to readerwriter-injection,558,14499
+180,b2acbbb6,FAIL,65,NO,0,NO,0,2013-09-10 14:06:31 -0700,Adding the new module (readerwriter-injection),558,14499
+181,cff68daf,FAIL,65,NO,0,NO,0,2013-09-10 15:05:45 -0700,Removing redundant dependencies,558,14499
+182,da4b97a3,FAIL,72,NO,0,NO,0,2013-09-10 15:16:52 -0700,New sample to show singleton instance of WebSocket endpoint,560,14519
+183,d5b6f38e,FAIL,65,NO,0,NO,0,2013-09-10 15:17:20 -0700,Adding the singleton module,560,14519
+184,4f7b55d1,FAIL,68,NO,0,NO,0,2013-09-10 15:48:57 -0700,Updating the list of recepients and title,560,14519
+185,5df3d3b4,FAIL,70,NO,0,NO,0,2013-09-11 09:58:59 -0700,New sample to show @Transactional and @TransactionScope together,563,14594
+186,a7a6a69f,FAIL,68,NO,0,NO,0,2013-09-11 14:50:59 -0700,CDI extension impl project,564,14607
+187,5e0d1fa3,FAIL,71,NO,0,NO,0,2013-09-11 14:51:20 -0700,Starting work on CDI extension sample,567,14653
+188,e5d5031a,FAIL,64,NO,0,NO,0,2013-09-11 14:53:29 -0700,Improving the message,567,14653
+189,3aef228e,FAIL,64,NO,0,NO,0,2013-09-11 14:56:34 -0700,Improving the message,567,14653
+190,0121268c,FAIL,64,NO,0,NO,0,2013-09-11 14:56:47 -0700,Updating the extension implementation to show better message,567,14653
+191,4a546f6a,FAIL,68,NO,0,NO,0,2013-09-11 14:57:05 -0700,Adding extension sample,567,14653
+192,daa9f744,FAIL,71,NO,0,NO,0,2013-09-11 14:57:43 -0700,Adding NetBeans configuration file,567,14653
+193,1c6de5d7,FAIL,75,NO,0,NO,0,2013-09-12 11:03:44 -0700,Fixing the namespace from java.sun.com -> xmlns.jcp.org,567,14653
+194,d661a5bf,FAIL,65,NO,0,NO,0,2013-09-12 11:06:41 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14653
+195,69929a69,FAIL,67,NO,0,NO,0,2013-09-12 11:07:57 -0700,Better headings,567,14653
+196,5a8434b6,FAIL,66,NO,0,NO,0,2013-09-12 11:08:11 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14653
+197,56e2f76a,FAIL,64,NO,0,NO,0,2013-09-12 11:08:19 -0700,Adding NetBeans configuration file,567,14653
+198,5efdd6da,FAIL,70,NO,0,NO,0,2013-09-12 11:10:02 -0700,Better headings,567,14653
+199,39ca3a5c,FAIL,68,NO,0,NO,0,2013-09-12 11:10:11 -0700,Better output message,567,14654
+200,1e59bfcf,FAIL,69,NO,0,NO,0,2013-09-12 11:10:19 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14654
+201,b00c9265,FAIL,66,NO,0,NO,0,2013-09-12 11:10:26 -0700,Adding NetBeans configuration file,567,14654
+202,e297903e,FAIL,69,NO,0,NO,0,2013-09-12 11:11:55 -0700,Better headings,567,14654
+203,fe4cdb0e,FAIL,71,NO,0,NO,0,2013-09-12 11:12:01 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14654
+204,c868dd21,FAIL,68,NO,0,NO,0,2013-09-12 11:12:47 -0700,Better headings,567,14654
+205,4ed23d82,FAIL,64,NO,0,NO,0,2013-09-12 11:13:01 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14654
+206,ac172441,FAIL,64,NO,0,NO,0,2013-09-12 11:13:34 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14654
+207,9901101a,FAIL,60,NO,0,NO,0,2013-09-12 11:14:10 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14654
+208,dcea8f21,FAIL,68,NO,0,NO,0,2013-09-12 11:15:42 -0700,Better output message,567,14651
+209,9531ff68,FAIL,67,NO,0,NO,0,2013-09-12 11:16:46 -0700,Better output message,567,14651
+210,62959dac,FAIL,70,NO,0,NO,0,2013-09-12 11:16:52 -0700,"Using CDI 1.1 ""all"" style beans.xml",567,14651
+211,3bf71fb3,FAIL,66,NO,0,NO,0,2013-09-12 11:17:56 -0700,Removing a redundant copy of the sample,562,14474
+212,943dad62,FAIL,6,NO,0,NO,0,2013-09-12 11:31:25 -0700,Merging with transaction-scope sample,559,14399
+213,09ec936e,FAIL,6,NO,0,NO,0,2013-09-12 11:32:19 -0700,"Using CDI 1.1 ""all"" style beans.xml Splitting into user-managed and container-managed transactions use case Better titles/output message",561,14467
+214,65c8b7d7,FAIL,64,NO,0,NO,0,2013-09-12 11:32:38 -0700,Removing transactional-scope,561,14467
+215,304fb952,FAIL,68,NO,0,NO,0,2013-09-12 11:33:02 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+216,ebbe4d5d,FAIL,69,NO,0,NO,0,2013-09-12 11:34:21 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+217,22d011ce,FAIL,66,NO,0,NO,0,2013-09-12 11:35:00 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+218,dafc93e3,FAIL,69,NO,0,NO,0,2013-09-12 11:35:48 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+219,ad7bc61c,FAIL,66,NO,0,NO,0,2013-09-12 11:37:35 -0700,Fixing the package name,561,14467
+220,6e943cc1,FAIL,67,NO,0,NO,0,2013-09-12 11:38:10 -0700,Fixing the parent,561,14467
+221,fc637f43,FAIL,75,NO,0,NO,0,2013-09-12 11:38:19 -0700,Adding twitter-search,561,14467
+222,d9407164,FAIL,73,NO,0,NO,0,2013-09-12 11:40:12 -0700,Fixed the package name,561,14467
+223,ca246588,FAIL,68,NO,0,NO,0,2013-09-12 11:40:32 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+224,97dae6c5,FAIL,69,NO,0,NO,0,2013-09-12 11:42:35 -0700,"Using CDI 1.1 ""all"" style beans.xml and fixing namespace from java.sun.com -> xmlns.jcp.org",561,14467
+225,39496e71,FAIL,67,NO,0,NO,0,2013-09-12 11:44:15 -0700,"Using CDI 1.1 ""all"" style beans.xml and fixing namespace from java.sun.com -> xmlns.jcp.org",561,14467
+226,af5c7d1a,FAIL,66,NO,0,NO,0,2013-09-12 11:45:01 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+227,07ef05cc,FAIL,66,NO,0,NO,0,2013-09-12 11:45:16 -0700,"Using CDI 1.1 ""all"" style beans.xml",561,14467
+228,9f68468c,FAIL,68,NO,0,NO,0,2013-09-12 12:12:32 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org,561,14467
+229,130f5e35,FAIL,69,NO,0,NO,0,2013-09-12 12:16:49 -0700,"Fixing namespace from java.sun.com -> xmlns.jcp.org, also adding property drop-source",561,14467
+230,6c9f605d,FAIL,66,NO,0,NO,0,2013-09-12 12:17:04 -0700,Using the names from Big Bang Theory,561,14468
+231,e699e2c8,FAIL,69,NO,0,NO,0,2013-09-12 12:18:22 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org,561,14468
+232,56645cf2,FAIL,70,NO,0,NO,0,2013-09-12 12:20:28 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org,561,14468
+233,e4c2177e,FAIL,69,NO,0,NO,0,2013-09-12 12:20:47 -0700,"Adding a boilerplate TestServlet, TBD: how to invoke StoredProcedure",562,14502
+234,068c9306,FAIL,68,NO,0,NO,0,2013-09-12 12:22:39 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema,562,14502
+235,d6fba814,FAIL,64,NO,0,NO,0,2013-09-12 12:22:48 -0700,Fixing a typo,562,14502
+236,d556e28b,FAIL,64,NO,0,NO,0,2013-09-12 12:23:37 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema,562,14502
+237,91ef4287,FAIL,66,NO,0,NO,0,2013-09-12 12:25:18 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+238,f78445ed,FAIL,67,NO,0,NO,0,2013-09-12 12:25:54 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema,562,14502
+239,ce6bf8f5,FAIL,73,NO,0,NO,0,2013-09-12 12:27:00 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema,562,14502
+240,b234851c,FAIL,70,NO,0,NO,0,2013-09-12 12:28:28 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+241,7cad696a,FAIL,70,NO,0,NO,0,2013-09-12 12:30:05 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+242,82f35906,FAIL,67,NO,0,NO,0,2013-09-12 12:30:31 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+243,091c9438,FAIL,66,NO,0,NO,0,2013-09-12 12:36:04 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+244,80cec53f,FAIL,72,NO,0,NO,0,2013-09-12 12:36:38 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+245,2808646f,FAIL,69,NO,0,NO,0,2013-09-12 12:37:08 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+246,799a99d7,FAIL,74,NO,0,NO,0,2013-09-12 12:41:04 -0700,slight formatting,562,14502
+247,24710073,FAIL,66,NO,0,NO,0,2013-09-12 12:42:14 -0700,Removing metadata-complete,562,14502
+248,a7b3f5d3,FAIL,66,NO,0,NO,0,2013-09-12 12:43:14 -0700,Removing metadata-complete and slight formatting,562,14502
+249,044188b1,FAIL,71,NO,0,NO,0,2013-09-12 12:43:30 -0700,Removing metadata-complete and slight formatting,562,14502
+250,3c6bd00d,FAIL,69,NO,0,NO,0,2013-09-12 12:43:53 -0700,Removing metadata-complete and slight formatting,562,14502
+251,8130c95b,FAIL,68,NO,0,NO,0,2013-09-12 12:44:10 -0700,Removing metadata-complete,562,14502
+252,30af309c,FAIL,69,NO,0,NO,0,2013-09-12 12:45:02 -0700,Fixing namespace from java.sun.com -> xmlns.jcp.org and using Servlet 3.1 schema. Also added copyright,562,14502
+253,4f4d9856,FAIL,64,NO,0,NO,0,2013-09-12 13:43:15 -0700,Naming the servlets appropriately,562,14504
+254,b113bbc0,FAIL,68,NO,0,NO,0,2013-09-12 14:06:11 -0700,"Using a Credentials class to read the username, password, and To field. Also adding timestamp in email subject.",563,14539
+255,7db42188,FAIL,65,NO,0,NO,0,2013-09-12 14:25:35 -0700,Intermittent commit for debugging purpose,563,14541
+256,8a1238f0,FAIL,66,NO,0,NO,0,2013-09-12 15:47:13 -0700,Changing the format of .javamail,563,14541
+257,a76a1928,FAIL,54,NO,0,NO,0,2013-09-12 16:01:58 -0700,Cleaning up the code and reading correct attributes from .javamail,563,14541
+258,1d1d08c9,FAIL,71,NO,0,NO,0,2013-09-12 16:02:30 -0700,Cleaning up the code and putting on backburner until the issues are fixed,563,14546
+259,a7fff8fd,FAIL,70,NO,0,NO,0,2013-09-12 16:19:52 -0700,Fixing the <name>,563,14546
+260,c070ec1c,FAIL,6,NO,0,NO,0,2013-09-12 17:23:59 -0700,Adding extra module - first sample is Quartz scheduler,567,14642
+261,43f34d7f,FAIL,6,NO,0,NO,0,2013-09-13 09:21:13 -0700,Adding/Updating <name>,567,14642
+262,bf0198ba,FAIL,6,NO,0,NO,0,2013-09-13 09:48:55 -0700,Moving json/twitter-search to extra/twitter-search,567,14642
+263,ef28aaed,FAIL,6,NO,0,NO,0,2013-09-13 10:20:26 -0700,Naming the Servlets appropriately,567,14631
+264,4d6b6baa,FAIL,6,NO,0,NO,0,2013-09-13 10:59:08 -0700,Getting the ManagedExecutor from web.xml,567,14631
+265,beb845ff,FAIL,5,NO,0,NO,0,2013-09-13 13:11:31 -0700,Using transport.sendMessage instead of transport.send did the trick. Thanks Bill!,567,14629
+266,6acf2e3b,FAIL,6,NO,0,NO,0,2013-09-13 13:11:54 -0700,"Fixing the property names, although commented",567,14629
+267,c3c402a2,FAIL,7,NO,0,NO,0,2013-09-13 15:27:21 -0700,Default ManagedExecutor can be accessed using @Resource without specifying any name,568,14677
+268,e84bd452,FAIL,5,NO,0,NO,0,2013-09-13 15:36:31 -0700,Renaming the directory and artifactId,568,14677
+269,ca795591,FAIL,6,NO,0,NO,0,2013-09-13 15:42:25 -0700,"Changing schedule to managedscheduledexecutor, also changed the servlet names to be more intuitive",576,14910
+270,49c11429,FAIL,4,NO,0,NO,0,2013-09-13 16:00:34 -0700,"Changing thread to manageablethreas, also added a new sample to show how default ManagedThreadFactory can be obtained using @Resource without specifying the name",580,15055
+271,58f1848c,FAIL,5,NO,0,NO,0,2013-09-14 20:46:49 -0700,Changing to scheduleAtFixedRate,580,15056
+272,7534080a,FAIL,5,NO,0,NO,0,2013-09-14 20:46:57 -0700,FIxing the module names,580,15056
+273,91214142,FAIL,67,NO,0,NO,0,2013-09-15 08:51:10 -0700,Fixed the module name,580,15056
+274,e6ca20be,FAIL,65,NO,0,NO,0,2013-09-15 08:51:49 -0700,Removing stale module,569,14721
+275,f9276a6f,FAIL,70,NO,0,NO,0,2013-09-15 08:53:16 -0700,Changing to all style beans.xml,569,14721
+276,4529f40b,FAIL,66,NO,0,NO,0,2013-09-15 08:54:36 -0700,Adding NetBeans confgiguration file,569,14721
+277,21ecf7db,FAIL,66,NO,0,NO,0,2013-09-15 08:55:18 -0700,Adding NetBeans configuration file,569,14721
+278,6d9bbf9f,FAIL,65,NO,0,NO,0,2013-09-15 08:55:51 -0700,Adding .gitignore,569,14721
+279,a03b017d,FAIL,72,NO,0,NO,0,2013-09-15 09:15:36 -0700,Added some more explanation on how to run the samples,569,14721
+280,add59992,FAIL,70,NO,0,NO,0,2013-09-15 09:17:42 -0700,Formatting updated,569,14721
+281,6c7d1f16,FAIL,67,NO,0,NO,0,2013-09-16 15:30:48 -0700,Added Cargo instructions,569,14721
+282,e1c339b3,FAIL,67,NO,0,NO,0,2013-09-16 15:31:24 -0700,Added Cargo plugin,569,14721
+283,a9c3ede2,FAIL,66,NO,0,NO,0,2013-09-16 15:32:35 -0700,Added a statement about glassfish.home,569,14721
+284,9444acfb,FAIL,72,NO,0,NO,0,2013-09-16 16:15:58 -0700,Adding profiles to run on GlassFish and Wildfly,569,14721
+285,c59e267a,FAIL,63,NO,0,NO,0,2013-09-16 16:16:16 -0700,Adding instructions on how to run on GlassFish and Wildfly,569,14721
+286,f08fc4e2,FAIL,64,NO,0,NO,0,2013-09-16 16:21:55 -0700,Cleaned up some instructions,569,14721
+287,cf801e67,FAIL,63,NO,0,NO,0,2013-09-16 16:24:24 -0700,Adding more clarifications,569,14721
+288,d29f9d11,FAIL,66,NO,0,NO,0,2013-09-16 16:25:58 -0700,"Removed sample lists, it can be dynamically generated",569,14721
+289,42cd4184,FAIL,71,NO,0,NO,0,2013-09-16 16:33:16 -0700,Formatting,569,14721
+290,a7211266,FAIL,69,NO,0,NO,0,2013-09-16 16:41:19 -0700,"Improving output messages, adding copyrights and @author",569,14722
+291,400200c5,FAIL,66,NO,0,NO,0,2013-09-16 16:46:57 -0700,"Forgot to include some files - Improving output messages, adding copyrights and @author",569,14722
+292,ff950e62,FAIL,64,NO,0,NO,0,2013-09-17 12:53:18 -0700,Cleaning up titles,569,14722
+293,c77ae337,FAIL,67,NO,0,NO,0,2013-09-17 12:54:02 -0700,Cleaning up output messages,569,14722
+294,959b8060,FAIL,65,NO,0,NO,0,2013-09-17 12:58:39 -0700,Cleaning up titles,569,14722
+295,013eb637,FAIL,66,NO,0,NO,0,2013-09-17 12:59:28 -0700,Removing NetBeans configuration files,569,14722
+296,09f0d4b5,FAIL,62,NO,0,NO,0,2013-09-17 13:00:03 -0700,Adding NetBeans deployment hints,569,14722
+297,9f6c7a54,FAIL,71,NO,0,NO,0,2013-09-17 13:01:16 -0700,Removing NetBeans configuration file,569,14722
+298,199fb310,FAIL,70,NO,0,NO,0,2013-09-17 13:03:00 -0700,Cleaning up output messages,569,14722
+299,c811ff93,FAIL,67,NO,0,NO,0,2013-09-17 13:05:19 -0700,Removing NetBeans configuration file,569,14722
+300,e9956689,FAIL,69,NO,0,NO,0,2013-09-17 14:55:38 -0700,Adding links to NetBeans nightly,569,14722
+301,fbba4ef1,FAIL,60,NO,0,NO,0,2013-09-17 15:00:09 -0700,slight typo,569,14722
+302,1f5abf4b,FAIL,67,NO,0,NO,0,2013-09-18 17:24:49 -0700,Adding Tomcat configuration,569,14722
+303,9c3df5c0,FAIL,69,NO,0,NO,0,2013-09-20 08:53:29 -0700,Removing redundant imports,569,14720
+304,fcc596b2,FAIL,63,NO,0,NO,0,2013-09-20 08:54:13 -0700,Removing redundant attributes from @WebServlet,569,14720
+305,48c9a3ca,FAIL,66,NO,0,NO,0,2013-09-20 09:12:51 -0700,Adding @Produces,569,14722
+306,e17ac323,FAIL,64,NO,0,NO,0,2013-09-20 09:58:53 -0700,Starting work on a new sample to show CDI scopes,575,14825
+307,acd761a7,FAIL,69,NO,0,NO,0,2013-09-20 09:59:22 -0700,Added the new sample,575,14825
+308,bb3d42fe,FAIL,70,NO,0,NO,0,2013-09-20 14:55:13 -0700,Adding a final qualifier,575,14825
+309,679c6e89,FAIL,68,NO,0,NO,0,2013-09-20 14:56:56 -0700,Removing redundant attributes from @WebServlet,575,14825
+310,da779601,FAIL,69,NO,0,NO,0,2013-09-20 14:58:45 -0700,Adding better output messages,575,14827
+311,d31a0b11,FAIL,66,NO,0,NO,0,2013-09-20 14:59:57 -0700,Better formatting of output messages,575,14827
+312,4ba03ea9,FAIL,67,NO,0,NO,0,2013-09-27 14:52:58 -0700,Interim capability to start the database server as well (still not working),575,14827
+313,15abba87,FAIL,63,NO,0,NO,0,2013-09-27 15:31:17 -0700,Adding snapshot repositories for Cargo (now working),575,14827
+314,5159b158,FAIL,67,NO,0,NO,0,2013-09-29 07:54:53 -0700,Cleaned by S. Ali Tomken to be Cargo-compatible,575,14827
+315,dbfcc73f,FAIL,70,NO,0,NO,0,2013-09-30 13:09:16 -0700,Adding <finalName> to <build> - this will ensure a clean archive name is generated,575,14827
+316,963f38f2,FAIL,72,NO,0,NO,0,2013-09-30 14:54:30 -0700,"Added pre-installed versions of GlassFish and Wildfly. Also added WebLogic profile, although none of the samples would run on it right now as the DD are Java EE 7 compliant.",575,14827
+317,800b82e6,FAIL,69,NO,0,NO,0,2013-09-30 16:33:58 -0700,New sample to show basic usage of Mongo in a Java EE application,578,14964
+318,8575f612,FAIL,66,NO,0,NO,0,2013-09-30 16:34:11 -0700,Adding mongo module,578,14964
+319,b90ae0b1,FAIL,67,NO,0,NO,0,2013-10-02 11:11:40 -0700,Removing a redundant parentheses,578,14964
+320,77b6dc95,FAIL,71,NO,0,NO,0,2013-10-02 11:12:35 -0700,Adding better output messages,578,14964
+321,6d0a1b4a,FAIL,69,NO,0,NO,0,2013-10-02 11:12:51 -0700,Removing redundant imports,578,14963
+322,e75eef0a,FAIL,64,NO,0,NO,0,2013-10-02 14:59:40 -0700,Explicitly specifying application/* media type,578,14963
+323,44ecab6d,FAIL,63,NO,0,NO,0,2013-10-02 15:00:43 -0700,"""mvn embedded-glassfish run"" to run the samples in embedded GlassFish. TBD: how to connect with database.",578,14963
+324,0d8444d4,FAIL,63,NO,0,NO,0,2013-10-02 16:31:14 -0700,Fixing a variable name,578,14963
+325,05e77c3e,FAIL,69,NO,0,NO,0,2013-10-02 17:22:05 -0700,"New Couchbase sample - getBulk does not seem to be returning correct values, needs further investigation",580,15035
+326,52b4b7c4,FAIL,80,NO,0,NO,0,2013-10-02 17:22:15 -0700,Adding couchbase module,580,15035
+327,0ba5d04c,FAIL,68,NO,0,NO,0,2013-10-03 09:50:32 -0700,Making the object serializable so that it can be persisted in Couchbase,580,15036
+328,6a0def18,FAIL,67,NO,0,NO,0,2013-10-03 09:50:51 -0700,Persisting object instance instead of proxy,580,15036
+329,31392a6b,FAIL,65,NO,0,NO,0,2013-10-03 09:51:16 -0700,Adding Back button and some formatting,580,15036
+330,12a236eb,FAIL,66,NO,0,NO,0,2013-10-03 14:05:31 -0700,New sample that shows Redis and Java EE integration,582,15097
+331,c73b4055,FAIL,67,NO,0,NO,0,2013-10-03 14:05:45 -0700,Adding redis module,582,15097
+332,d87cc280,FAIL,65,NO,0,NO,0,2013-10-03 14:11:11 -0700,Moving NoSQL samples to a separate module,581,15059
+333,e7ad02df,FAIL,66,NO,0,NO,0,2013-10-03 14:13:54 -0700,Fixing the package name,581,15059
+334,b6c5a686,FAIL,71,NO,0,NO,0,2013-10-03 14:14:11 -0700,Fixing the package name,581,15059
+335,40e21237,FAIL,67,NO,0,NO,0,2013-10-03 14:14:22 -0700,Fixing the package name,581,15059
+336,772dfcec,FAIL,69,NO,0,NO,0,2013-10-03 16:26:45 -0700,Added a new profile to download <dependency>s source and javadoc bundles from Maven repository,581,15059
+337,0689f22d,FAIL,68,NO,0,NO,0,2013-10-03 17:32:29 -0700,New sample to show Cassandra usage,583,15151
+338,3ca5d063,FAIL,64,NO,0,NO,0,2013-10-03 19:01:53 -0700,"Uses PreparedStatements instead of contatenated strings. Replaces AlreadyExistsException with ""IF NOT EXISTS"" DDL statements added in Cassandra 2.0.",583,15145
+339,368b9561,FAIL,67,NO,0,NO,0,2013-10-03 21:35:15 -0700,Merge pull request #35 from mfiguiere/master,583,15145
+340,12cffb36,FAIL,66,NO,0,NO,0,2013-10-03 22:06:07 -0700,Removing some redundant code,583,15142
+341,bfc51422,FAIL,70,NO,0,NO,0,2013-10-03 22:19:04 -0700,Adding navigation to the previous page,583,15142
+342,ee5b4c4d,FAIL,70,NO,0,NO,0,2013-10-03 22:19:21 -0700,"Adding instructions to download, configure and start Mongo",583,15142
+343,e9714584,FAIL,70,NO,0,NO,0,2013-10-03 22:20:35 -0700,"Removing the usage of embedded Mongo, asking the users to explicitly start Mongo",583,15120
+344,a488d82c,FAIL,68,NO,0,NO,0,2013-10-03 22:20:51 -0700,Removing the redundant dependency,583,15120
+345,cbd39b89,FAIL,69,NO,0,NO,0,2013-10-03 22:30:19 -0700,"Samples can run using Embedded GlassFish using ""embedded-glassfish"" profile",583,15120
+346,fa5c1791,FAIL,69,NO,0,NO,0,2013-10-04 17:40:58 -0700,Starting work on Neo4j sample,586,15266
+347,cacbe635,FAIL,66,NO,0,NO,0,2013-10-04 23:12:18 -0700,Marking transactions for committing during close,586,15266
+348,24b94b6b,FAIL,70,NO,0,NO,0,2013-10-04 23:12:40 -0700,Adding neo4j sample,586,15266
+349,5131a1d9,FAIL,66,NO,0,NO,0,2013-10-04 23:20:55 -0700,Adding a break to avoid redundant evaluation,586,15269
+350,21179a3d,FAIL,65,NO,0,NO,0,2013-10-06 21:50:44 -0700,Starting work on HBase sample,588,15379
+351,743c0196,FAIL,66,NO,0,NO,0,2013-10-07 09:15:39 +0200,Fixed javadocs and sources download,588,15379
+352,7297ded7,FAIL,69,NO,0,NO,0,2013-10-07 00:21:32 -0700,Merge pull request #1 from openwms/fix-javadocs-download,588,15379
+353,54508836,FAIL,75,NO,0,NO,0,2013-10-07 10:24:50 -0700,Merge pull request #44 from openwms/master,588,15379
+354,d85165f9,FAIL,81,NO,0,NO,0,2013-10-07 19:49:17 +0200,"Added maven-enforcer-plugin to take care of Maven in version 3.x and Java 1.7, to avoid clashes on developer environment",588,15379
+355,9106ed32,FAIL,67,NO,0,NO,0,2013-10-07 11:10:37 -0700,Merge pull request #45 from openwms/master,588,15379
+356,9437dd61,FAIL,72,NO,0,NO,0,2013-10-07 14:10:58 -0700,Interim commit to share the source code,588,15368
+357,d7374cf1,FAIL,6,NO,0,NO,0,2013-10-07 16:22:43 -0700,Adding voldemort module,588,15368
+358,7c1fd0c9,FAIL,68,NO,0,NO,0,2013-10-07 16:31:18 -0700,Adding sample code for Voldemort module,590,15437
+359,3a36540c,FAIL,66,NO,0,NO,0,2013-10-07 17:32:55 -0700,Starting work on Alternatives sample,595,15506
+360,8be988cf,FAIL,74,NO,0,NO,0,2013-10-08 14:41:19 -0700,Adding alternatives module,595,15506
+361,b327f697,FAIL,5,NO,0,NO,0,2013-10-08 16:57:25 -0700,Adding riak module,595,15506
+362,aa2b1a46,FAIL,67,NO,0,NO,0,2013-10-08 16:57:34 -0700,Adding Riak module,597,15586
+363,2d3edb86,FAIL,75,NO,0,NO,0,2013-10-10 14:04:06 -0700,Adding new sample for Oracle NoSQL,599,15652
+364,3214cca7,FAIL,70,NO,0,NO,0,2013-10-10 15:41:05 -0700,Adding a line break,599,15652
+365,4a8fda76,FAIL,63,NO,0,NO,0,2013-10-10 15:41:18 -0700,Adding oracle module,599,15652
+366,6e54801d,FAIL,72,NO,0,NO,0,2013-10-17 15:43:53 -0700,"Returning correct records, fixing https://github.com/arun-gupta/javaee7-samples/issues/47",599,15653
+367,fb1fe473,FAIL,71,NO,0,NO,0,2013-10-17 15:44:50 -0700,"Returning correct records, fixing https://github.com/arun-gupta/javaee7-samples/issues/47",599,15654
+368,273fc626,FAIL,73,NO,0,NO,0,2013-10-18 00:22:38 -0700,Removing @Fancy qualifier and fixing the sample. Thanks JJ for helping me debug.,598,15640
+369,018e326c,FAIL,69,NO,0,NO,0,2013-10-18 00:50:22 -0700,Improved the output message,598,15640
+370,de360585,FAIL,67,NO,0,NO,0,2013-10-23 16:26:23 +0800,make it compiled in Glassfish 4 and Wildfly 8 Beta1,598,15639
+371,3d886188,FAIL,77,NO,0,NO,0,2013-10-23 11:33:50 -0700,Merge pull request #51 from jeffzhang/wf_compile,598,15639
+372,18c17954,FAIL,70,NO,0,NO,0,2013-10-24 17:06:25 -0400,Fixing the namespace,598,15639
+373,19c7e040,FAIL,75,NO,0,NO,0,2013-10-24 17:55:35 -0400,Fixing the namespace,598,15639
+374,05814243,FAIL,68,NO,0,NO,0,2013-10-24 18:07:52 -0400,Fixing Cargo from SNAPSHOT to RELEASE,598,15639
+375,8bb7f6c1,FAIL,69,NO,0,NO,0,2013-10-26 17:30:45 -0700,Changing the greeting part from decorator to be bold,598,15639
+376,b0ecc848,FAIL,71,NO,0,NO,0,2013-10-26 17:31:10 -0700,Adding more descriptive output statement,598,15639
+377,cab8f2e3,FAIL,67,NO,0,NO,0,2013-10-26 17:36:49 -0700,Adding more descriptive output statement,598,15639
+378,0fc82e90,FAIL,70,NO,0,NO,0,2013-10-26 17:43:21 -0700,Adding more descriptive output statement,598,15639
+379,62a7b419,FAIL,68,NO,0,NO,0,2013-10-26 17:46:16 -0700,Adding more descriptive output statement,598,15639
+380,c63186f0,FAIL,69,NO,0,NO,0,2013-10-26 17:52:32 -0700,Removing redundant dependencies,598,15639
+381,fd3e1560,FAIL,74,NO,0,NO,0,2013-10-26 17:58:13 -0700,Adding more descriptive output statement,598,15639
+382,a936ccd8,FAIL,69,NO,0,NO,0,2013-10-26 17:59:22 -0700,Removing redundant dependencies,598,15639
+383,0946d871,FAIL,68,NO,0,NO,0,2013-10-26 18:08:17 -0700,Adding more descriptive output statement,598,15641
+384,2030b53d,FAIL,66,NO,0,NO,0,2013-10-26 18:09:17 -0700,RemoRemoving redundant dependencies,598,15641
+385,21ad115e,FAIL,64,NO,0,NO,0,2013-10-26 18:10:22 -0700,Removing redundant dependencies,598,15641
+386,faf8abec,FAIL,68,NO,0,NO,0,2013-10-26 18:13:55 -0700,Adding more descriptive output statement,598,15641
+387,8c403489,FAIL,71,NO,0,NO,0,2013-10-26 18:14:30 -0700,Making the output statement consistent with server filter,598,15641
+388,94825706,FAIL,68,NO,0,NO,0,2013-10-26 18:16:29 -0700,Removing redundant dependencies,598,15641
+389,6ed2469f,FAIL,66,NO,0,NO,0,2013-10-26 18:17:30 -0700,Making the output statement consistent with server filter,598,15641
+390,a4a16c3b,FAIL,68,NO,0,NO,0,2013-10-26 18:18:21 -0700,Adding more descriptive output statement,598,15641
+391,5edf7ea2,FAIL,74,NO,0,NO,0,2013-10-26 18:19:54 -0700,Adding nb-configuration to the ignore list,598,15641
+392,97a12765,FAIL,73,NO,0,NO,0,2013-10-26 18:23:18 -0700,Adding more descriptive output statement,598,15643
+393,5d45be77,FAIL,70,NO,0,NO,0,2013-10-26 18:24:37 -0700,Removing redundant dependencies,598,15643
+394,a62316b6,FAIL,66,NO,0,NO,0,2013-10-26 18:26:01 -0700,Removing redundant dependencies,598,15643
+395,13cc0df1,FAIL,67,NO,0,NO,0,2013-10-27 04:31:18 -0700,Fixing the location of GlassFish 4.0 and WildFly Beta1,598,15643
+396,094833c6,FAIL,71,NO,0,NO,0,2013-10-27 04:37:41 -0700,Adding more descriptive output statement,598,15644
+397,8a32abb4,FAIL,69,NO,0,NO,0,2013-10-27 04:41:55 -0700,Adding more descriptive output statement,598,15644
+398,26c87b63,FAIL,77,NO,0,NO,0,2013-10-27 04:43:08 -0700,Adding more descriptive output statement,598,15644
+399,2fabcc6a,FAIL,72,NO,0,NO,0,2013-10-27 04:47:47 -0700,Removing redundant statements,598,15643
+400,c019546f,FAIL,70,NO,0,NO,0,2013-10-27 04:54:36 -0700,Adding more descriptive output statement,598,15643
+401,6609f088,FAIL,73,NO,0,NO,0,2013-10-27 04:59:08 -0700,Adding client-negotiation module,598,15643
+402,5c30d317,FAIL,67,NO,0,NO,0,2013-10-27 05:03:32 -0700,Adding more descriptive output statement,598,15643
+403,f9300610,FAIL,75,NO,0,NO,0,2013-10-27 05:14:15 -0700,Fixing a typo for better formatting,598,15643
+404,5332522e,FAIL,69,NO,0,NO,0,2013-10-27 05:16:18 -0700,Adding more descriptive output statement,598,15643
+405,d7f8cafb,FAIL,66,NO,0,NO,0,2013-10-27 05:34:11 -0700,Adding prompts on what needs to be entered,598,15643
+406,751c6610,FAIL,75,NO,0,NO,0,2013-10-27 05:38:10 -0700,Adding prompts on what needs to be entered,598,15643
+407,9ad1621e,FAIL,74,NO,0,NO,0,2013-10-27 05:42:16 -0700,Fixed a composite component parameter name,598,15643
+408,ff2fef7c,FAIL,72,NO,0,NO,0,2013-10-27 05:42:56 -0700,Added better titles,598,15643
+409,63c5346f,FAIL,71,NO,0,NO,0,2013-10-27 05:48:41 -0700,Fixing the action of a button,598,15643
+410,d35bede3,FAIL,66,NO,0,NO,0,2013-10-27 05:52:33 -0700,Added more debugging statements,598,15650
+411,d08d2c73,FAIL,74,NO,0,NO,0,2013-10-27 06:30:06 -0700,Adding more descriptive output statement,598,15650
+412,c96996b4,FAIL,73,NO,0,NO,0,2013-10-27 06:32:58 -0700,Adding more descriptive output statement,598,15650
+413,ec7f95fc,FAIL,67,NO,0,NO,0,2013-10-27 06:33:47 -0700,Adding more descriptive output statement,598,15650
+414,e17c70d7,FAIL,67,NO,0,NO,0,2013-10-27 06:40:06 -0700,Replacing glassfish logo with wildfly,598,15650
+415,0f41861b,FAIL,72,NO,0,NO,0,2013-10-27 06:42:37 -0700,Changed the text from GlassFish to WildFly,598,15650
+416,74e0ab9b,FAIL,76,NO,0,NO,0,2013-10-27 06:53:29 -0700,Changing GlassFish to WildFly,598,15650
+417,41a6e1b9,FAIL,75,NO,0,NO,0,2013-10-27 06:53:44 -0700,Adding some debugging statements,598,15651
+418,f81cb9b1,FAIL,71,NO,0,NO,0,2013-10-27 06:56:32 -0700,Fixing next and refresh actions,598,15651
+419,96fa3d8a,FAIL,68,NO,0,NO,0,2013-10-27 06:59:59 -0700,Made the bean serializable,598,15652
+420,d18fd216,FAIL,68,NO,0,NO,0,2013-10-27 07:01:34 -0700,Adding more descriptive output statement,598,15652
+421,262eca1c,FAIL,72,NO,0,NO,0,2013-10-27 14:59:17 -0700,Fixing a typo,598,15652
+422,d897e7b3,FAIL,72,NO,0,NO,0,2013-10-30 03:27:03 -0700,Removing redundant application,595,15536
+423,20c062d5,FAIL,69,NO,0,NO,0,2013-10-30 03:36:13 -0700,"Sample now works on WildFly, updating output messages accordingly",595,15536
+424,6d7619fd,FAIL,75,NO,0,NO,0,2013-10-30 03:37:32 -0700,Making output messages more consistent,595,15536
+425,b5beeee9,FAIL,72,NO,0,NO,0,2013-10-30 03:41:23 -0700,Removing redundant imports,595,15534
+426,64c0129e,FAIL,68,NO,0,NO,0,2013-10-30 05:23:46 -0700,Using the typical Employee class and other *.sql scripts to generate/load database tables. EntityManager is still not getting resolved correctly and needs further debugging.,595,15506
+427,3bef075c,FAIL,75,NO,0,NO,0,2013-10-30 05:32:15 -0700,Fixing the namespace and version,595,15506
+428,460d922e,FAIL,72,NO,0,NO,0,2013-10-30 06:06:43 -0700,Removing load.sql as data needs to be persisted using EntityManager.persist instead of INSERT INTO. This allows the version column to be updated for optimistic locking to work. EclipseLink was lenient about it but Hibernate caught it.,595,15515
+429,d2d22772,FAIL,71,NO,0,NO,0,2013-10-30 06:31:59 -0700,Fixed persistence.xml by adding <properties>,595,15515
+430,62fda26b,FAIL,69,NO,0,NO,0,2013-10-30 06:33:54 -0700,Adding more descriptive output statement,595,15515
+431,3c6cc3f3,FAIL,67,NO,0,NO,0,2013-10-30 06:34:02 -0700,Adding more descriptive output statement,595,15515
+432,3db6ea63,FAIL,73,NO,0,NO,0,2013-10-30 06:41:35 -0700,Renaming schema-gen to schema-gen-metadata to be more meaningful,595,15515
+433,d7c66a2c,FAIL,74,NO,0,NO,0,2013-10-30 06:56:59 -0700,Changing the location to match local machine,595,15515
+434,2d45453f,FAIL,74,NO,0,NO,0,2013-10-30 06:57:08 -0700,Adding more descriptive output statement,595,15515
+435,758c9e9c,FAIL,69,NO,0,NO,0,2013-10-30 13:37:52 -0700,"Using a portable behavior to lookup bean using well-defined property name instead of non-portable ""mappedName"" - this sample now work on both WildFly and GlassFish",595,15518
+436,fe9e363f,FAIL,72,NO,0,NO,0,2013-10-30 21:04:29 -0700,Removing redundant parentheses,595,15518
+437,d0159954,FAIL,73,NO,0,NO,0,2013-10-30 21:08:40 -0700,Adding better debug statements,595,15519
+438,dec18900,FAIL,69,NO,0,NO,0,2013-10-30 22:24:04 -0700,Adding debug statements,595,15522
+439,c7979eea,FAIL,70,NO,0,NO,0,2013-10-30 22:29:50 -0700,Adding better debug statements,595,15522
+440,765b734f,FAIL,70,NO,0,NO,0,2013-10-30 23:11:49 -0700,Adding basic instructions for WildFly,595,15522
+441,76823581,FAIL,72,NO,0,NO,0,2013-10-30 23:12:10 -0700,"Disabling tight security, otherwise index.jsp is not accessible for WildFly",595,15522
+442,e465fe32,FAIL,77,NO,0,NO,0,2013-10-31 06:06:37 -0700,Enabled the test,595,15523
+443,bffb8e63,FAIL,70,NO,0,NO,0,2013-10-31 06:07:50 -0700,Fixing the package name to match the project name,595,15523
+444,36d40561,FAIL,71,NO,0,NO,0,2013-11-01 06:13:46 -0700,Adding more descriptive output statement,595,15523
+445,17f0cfd0,FAIL,74,NO,0,NO,0,2013-11-01 06:13:57 -0700,Removing @WebListener,595,15519
+446,4cedd2cf,FAIL,73,NO,0,NO,0,2013-11-01 13:44:12 -0700,Removing try/resources so that the stream is not closed and error handling is reported correctly,595,15519
+447,fb56b3de,FAIL,72,NO,0,NO,0,2013-11-01 13:45:44 -0700,Fixing the WildFly command such that the user is created in ApplicationRealm,595,15519
+448,0e29e1b5,FAIL,73,NO,0,NO,0,2013-11-01 15:13:59 -0700,"Refactoring the sample such that byte[], ByteBuffer, and InputStream are tested",597,15540
+449,7a3db864,FAIL,101,NO,0,NO,0,2013-11-02 00:11:28 +0100,Adding support for Arquillian and configuration of the Arquillian container support in order to run the tests in Wildfly.,599,15685
+450,c0ac3a45,FAIL,78,NO,0,NO,0,2013-11-02 00:31:35 +0100,Adding the extra Endpoint Client and necessary configuration at the test.,600,15698
+451,422a7268,FAIL,78,NO,0,NO,0,2013-11-02 08:51:31 +0100,Merge remote-tracking branch 'upstream/master' into branch-arquillian,599,15586
+452,3db2bb2b,FAIL,77,NO,0,NO,0,2013-11-03 09:19:10 +0100,Changing the name and merging with the changes.,599,15590
+453,14f3215e,FAIL,73,NO,0,NO,0,2013-11-04 03:50:36 -0800,Merge pull request #53 from cirix/branch-arquillian,599,15590
+454,a436d24b,FAIL,73,NO,0,NO,0,2013-11-04 04:03:55 -0800,"Fixed formatting, also changed wildfly.home property name",599,15590
+455,95ba84f2,FAIL,74,NO,0,NO,0,2013-11-04 06:10:30 -0800,Changing the indentation to 4 spaces,599,15591
+456,2bf8eb0a,FAIL,79,NO,0,NO,0,2013-11-04 09:39:02 -0800,Removing try/resources so that the stream is not closed and error handling is reported correctly,599,15591
+457,a32e5ebd,FAIL,77,NO,0,NO,0,2013-11-04 09:59:03 -0800,Changing the indentation to 4 spaces,599,15591
+458,f8932f76,FAIL,76,NO,0,NO,0,2013-11-04 09:59:20 -0800,Fixed the endpoint address,599,15591
+459,e4d7a169,FAIL,76,NO,0,NO,0,2013-11-04 10:21:59 -0800,Removing try/resources so that the stream is not closed and error handling is reported correctly,599,15591
+460,439841a8,FAIL,76,NO,0,NO,0,2013-11-04 10:23:52 -0800,Removing GlassFish specific classes,599,15588
+461,7e2873ef,FAIL,74,NO,0,NO,0,2013-11-04 10:34:22 -0800,"Started work on a simple test case - still throwing ""java.lang.ClassNotFoundException: org.glassfish.jersey.client.JerseyClientBuilder"" and needs further investigation",600,15645
+462,65354bc2,FAIL,75,NO,0,NO,0,2013-11-04 10:43:56 -0800,Started work on a simple test case,601,15677
+463,ed9365fd,FAIL,64,NO,0,NO,0,2013-11-04 13:49:00 -0800,Removing GlassFish specific dependencies,601,15677
+464,6a8bd7a9,FAIL,69,NO,0,NO,0,2013-11-04 23:23:13 +0100,Adding new methods in test to cover all three test cases.I have serious doubts though if  undertow implements JSR 356 to full extend.,599,15604
+465,6db3fcf5,FAIL,62,NO,0,NO,0,2013-11-04 17:47:45 -0800,Adding better debug statements,601,15677
+466,a67d44fa,FAIL,65,NO,0,NO,0,2013-11-04 17:54:26 -0800,Adding better debug statements,601,15677
+467,6a663503,FAIL,65,NO,0,NO,0,2013-11-04 17:59:29 -0800,Adding better debug statements,601,15677
+468,ad2fc34f,FAIL,65,NO,0,NO,0,2013-11-05 02:16:17 -0800,Adding a new test,602,15715
+469,b18342a9,FAIL,64,NO,0,NO,0,2013-11-05 02:58:17 -0800,Removing try/resources so that the stream is not closed and error handling is reported correctly,602,15716
+470,0c9d84b6,FAIL,65,NO,0,NO,0,2013-11-05 03:02:35 -0800,Changed the bean name to be more meaningful. Also added some simple tests but still getting NPE and needs further investigation.,604,15775
+471,46b8e1ea,FAIL,66,NO,0,NO,0,2013-11-05 03:38:49 -0800,Adding RESTEasy <dependency>,604,15775
+472,398680d7,FAIL,65,NO,0,NO,0,2013-11-05 03:39:37 -0800,Commenting Arquillian annotations for interim debugging,604,15774
+473,22cfbe25,FAIL,65,NO,0,NO,0,2013-11-05 06:40:49 -0800,Updating junit version to 4.11 - using FixMethodOrder for method ordering,604,15774
+474,1a67be78,FAIL,63,NO,0,NO,0,2013-11-05 06:41:30 -0800,"Changing the artifactId to resteasy-client, may be changed to resteasy-jaxrs after Bill has changed the dependencies",604,15774
+475,8e82c51b,FAIL,65,NO,0,NO,0,2013-11-05 06:50:51 -0800,"Running the tests in a specified order, also added more debugging statements",604,15782
+476,1bd833f5,FAIL,66,NO,0,NO,0,2013-11-05 06:55:04 -0800,Removing groupId and version - inherited from the parent,604,15782
+477,be42d24d,FAIL,72,NO,0,NO,0,2013-11-05 09:43:21 -0800,Adding RESTEasy test-scoped dependencies for WildFly profile and Tyrus Client and Jersey Client for GlassFish profile,604,15782
+478,dbb83400,FAIL,68,NO,0,NO,0,2013-11-05 09:48:19 -0800,Removing appserver-specific dependencies and moving them to appropriate profiles in parent pom.xml,604,15782
+479,cff6c967,FAIL,39,NO,0,NO,0,2013-11-06 01:18:38 +0100,Did more retries on websockets. Created PUT + GET test and deployable on jaxrs-endpoint.,600,15648
+480,6e8180b9,FAIL,61,NO,0,NO,0,2013-11-06 01:33:24 +0100,Adding changes in the pom.xml,604,15782
+481,0b789ca7,FAIL,8,NO,0,NO,0,2013-11-06 01:58:19 +0100,Merge changes in pom.xml file and in MyEndpointClient.java,605,15839
+482,92814077,FAIL,65,NO,0,NO,0,2013-11-06 15:33:28 +0100,Update EmployeeBean.java,604,15782
+483,6261ee5d,FAIL,61,NO,0,NO,0,2013-11-06 07:05:26 -0800,Merge pull request #55 from fotofinder/patch-1,604,15782
+484,23947522,FAIL,61,NO,0,NO,0,2013-11-06 13:07:11 -0800,Adding new test cases for different HTTP verbs,605,15867
+485,e2ba5615,FAIL,64,NO,0,NO,0,2013-11-06 13:07:19 -0800,Cleaning up the implementation,605,15864
+486,dccceb58,FAIL,64,NO,0,NO,0,2013-11-06 13:12:18 -0800,Cleaned up tests so that they can run repeatedly,605,15857
+487,aa5ed6f2,FAIL,66,NO,0,NO,0,2013-11-06 20:28:13 -0800,Converting Servlet into tests,606,15895
+488,484b50c8,FAIL,71,NO,0,NO,0,2013-11-07 06:41:25 +0100,Adding tests,607,15931
+489,61b402eb,FAIL,63,NO,0,NO,0,2013-11-07 06:43:07 +0100,Removing redundant attributes on @WebServlet,607,15931
+490,a2cb5d00,FAIL,64,NO,0,NO,0,2013-11-07 06:45:36 +0100,Changed manageablethread to managedthreadfactory - better/intuitive name for the module,607,15931
+491,06c83642,FAIL,69,NO,0,NO,0,2013-11-07 06:46:59 +0100,Refactored the package name to match the project name,607,15930
+492,4c21a39d,FAIL,63,NO,0,NO,0,2013-11-07 06:54:45 +0100,Using JNDI lookup for managed thread factory,607,15932
+493,4386c91e,FAIL,62,NO,0,NO,0,2013-11-07 06:54:58 +0100,Fixed servlet title,607,15932
+494,cc5e2ab5,FAIL,62,NO,0,NO,0,2013-11-07 06:55:53 +0100,Adding tests,608,15950
+495,96ed03a7,FAIL,61,NO,0,NO,0,2013-11-07 06:57:10 +0100,Removing redundant attributes on @WebServlet,608,15950
+496,ec41bffe,FAIL,64,NO,0,NO,0,2013-11-07 08:16:20 +0100,Adding tests,609,15980
+497,5708270a,FAIL,70,NO,0,NO,0,2013-11-07 08:20:09 +0100,Fixing a name,609,15980
+498,bd675b2a,FAIL,76,NO,0,NO,0,2013-11-07 08:23:29 +0100,Removed GlassFish-specific dependencies,609,15978
+499,ae09dc7f,FAIL,77,NO,0,NO,0,2013-11-07 08:23:39 +0100,Adding tests,610,16003
+500,5511f190,FAIL,10,NO,0,NO,0,2013-11-07 00:56:00 -0800,Merge pull request #54 from cirix/branch-arquillian,607,15952
+501,c8c85dbe,FAIL,8,NO,0,NO,0,2013-11-07 09:59:52 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,611,16060
+502,23a7d57f,FAIL,10,NO,0,NO,0,2013-11-07 10:04:41 +0100,Going back to 4 space indentation and removing Undertow-specific APIs (keep the code clean and appserver-agnostic),611,16060
+503,5256d041,FAIL,8,NO,0,NO,0,2013-11-07 10:31:57 +0100,Adding Tyrus/Grizzly dependencies back for running WebSocket tests with GlassFish,611,16060
+504,6ed60ac4,FAIL,8,NO,0,NO,0,2013-11-07 10:37:47 +0100,Changing the indentation to 4 spaces,611,16060
+505,3ef5d3f8,FAIL,9,NO,0,NO,0,2013-11-07 10:55:30 +0100,Fixing junit version number to 4.11 again,611,16060
+506,eea70182,FAIL,10,NO,0,NO,0,2013-11-07 11:39:55 +0100,"Tests are working again, WAR can be deployed on WildFly and GlassFish. Clients are working with Tyrys/Grizzly dependencies but need to be clearly resolved for WildFly. Waiting for Undertow bug (number??) to be fixed.",611,16069
+507,db5c2d91,FAIL,9,NO,0,NO,0,2013-11-07 11:44:17 +0100,Moving the groupId along with other elements,611,16069
+508,3e848beb,FAIL,10,NO,0,NO,0,2013-11-07 11:49:09 +0100,RESTEasy dependency moved to parent pom in a specific profile,611,16069
+509,bc5d6e02,FAIL,10,NO,0,NO,0,2013-11-07 11:49:30 +0100,Jersey and RESTEasy dependencies are added in specific profile,611,16069
+510,ede3878d,FAIL,11,NO,0,NO,0,2013-11-07 13:10:45 +0100,commenting Arquillian dependencies till it is sorted out,611,16059
+511,33b86ba9,FAIL,9,NO,0,NO,0,2013-11-07 22:52:08 +0200,Cleaning up test,611,16058
+512,ddad3da8,FAIL,13,NO,0,NO,0,2013-11-07 23:24:00 +0200,Adding XMLAssert and JSONAssert for comparing XML and JSON,611,16059
+513,ad5873d6,FAIL,11,NO,0,NO,0,2013-11-07 23:41:48 +0200,Adding test,612,16094
+514,796d585d,FAIL,9,NO,0,NO,0,2013-11-07 23:55:43 +0200,"Removing JSP/Servlet, adding tests",612,16085
+515,88f46b44,FAIL,9,NO,0,NO,0,2013-11-08 01:48:50 +0200,Added detailed instructions on how to run the samples/tests in different modes (needs more testing of the instructions),612,16085
+516,48e0e7e1,FAIL,9,NO,0,NO,0,2013-11-08 01:52:17 +0200,Clarified some instructions and added more placeholders,612,16085
+517,dedb3728,FAIL,11,NO,0,NO,0,2013-11-08 01:57:52 +0200,Added dependencies for unit testing,612,16085
+518,4286009e,FAIL,9,NO,0,NO,0,2013-11-08 01:58:08 +0200,Starting work on unit test,612,16077
+519,99136911,FAIL,9,NO,0,NO,0,2013-11-08 01:58:39 +0200,Starting work on unit test,613,16099
+520,fb2a6704,FAIL,9,NO,0,NO,0,2013-11-08 01:59:28 +0200,Removing GlassFish-specific dependencies,613,16099
+521,ae8c867f,FAIL,9,NO,0,NO,0,2013-11-08 02:00:14 +0200,Removing redundant plugins,613,16099
+522,b28819f9,FAIL,9,NO,0,NO,0,2013-11-08 02:00:28 +0200,Removing redundant test,612,16056
+523,94b211a2,FAIL,9,NO,0,NO,0,2013-11-08 02:00:58 +0200,Fixing typo,612,16056
+524,afe98cb3,FAIL,11,NO,0,NO,0,2013-11-08 02:22:58 +0200,Added support for running the samples/tests using GlassFish maven plugin,612,16056
+525,c4135b1e,FAIL,11,NO,0,NO,0,2013-11-08 02:25:09 +0200,Added instructions for running in GlassFish,612,16056
+526,b34c31ff,FAIL,10,NO,0,NO,0,2013-11-08 07:34:59 +0100,test failure fix,612,16055
+527,6470b8ab,FAIL,10,NO,0,NO,0,2013-11-08 07:56:18 +0100,test resources cleanup,612,16060
+528,ddb8a557,FAIL,10,NO,0,NO,0,2013-11-08 08:11:22 +0100,test code cleanup,612,16056
+529,9f6a575d,FAIL,9,NO,0,NO,0,2013-11-08 08:12:44 +0100,minor code change,612,16056
+530,7fd2384f,FAIL,10,NO,0,NO,0,2013-11-07 23:13:06 -0800,Merge pull request #58 from psakar/master,612,16056
+531,4ec28521,FAIL,8,NO,0,NO,0,2013-11-08 09:56:19 +0100,"added WEB-INF/beans.xml to enable CDI - possibly bug, should not be needed in JEE7",612,16056
+532,49975aec,FAIL,10,NO,0,NO,0,2013-11-08 09:57:42 +0100,bugfix - ConcurrentModificationException in PersonSessionBean deletePerson,612,16061
+533,320b7cba,FAIL,10,NO,0,NO,0,2013-11-08 01:17:49 -0800,Merge pull request #59 from psakar/master,612,16061
+534,bfac7f0a,FAIL,8,NO,0,NO,0,2013-11-08 10:38:08 +0100,remove compile warnings,612,16063
+535,f790d590,FAIL,9,NO,0,NO,0,2013-11-08 10:42:48 +0100,fix test failures,612,16063
+536,36a34619,FAIL,9,NO,0,NO,0,2013-11-08 01:48:22 -0800,Merge pull request #60 from psakar/master,612,16063
+537,316b7182,FAIL,9,NO,0,NO,0,2013-11-08 15:16:59 +0200,Commenting Arquillian dependencies for now,612,16060
+538,b96d864a,FAIL,9,NO,0,NO,0,2013-11-08 16:12:39 +0200,Adding RESTEasy jaxb-provider dependency in test scope,612,16060
+539,a26ad1bc,FAIL,8,NO,0,NO,0,2013-11-08 16:27:30 +0200,Cleaning up the test and commented as support for this API is optional,612,16047
+540,f78ef6bd,FAIL,8,NO,0,NO,0,2013-11-08 16:28:13 +0200,Moved RESTEasy JAXB module to parent pom.xml,612,16047
+541,e934ff3e,FAIL,8,NO,0,NO,0,2013-11-08 16:28:50 +0200,Commenting the test for now until JNDI lookup is figured out correctly,612,16044
+542,8a62f848,FAIL,8,NO,0,NO,0,2013-11-08 16:42:14 +0200,CoCommenting the test for now until EJB injection is identified,612,16039
+543,7e3b4ae7,FAIL,8,NO,0,NO,0,2013-11-08 16:42:20 +0200,CoCommenting the test for now until EJB injection is identified,612,16033
+544,b76dd35c,FAIL,9,NO,0,NO,0,2013-11-08 16:48:35 +0200,Initializing the client before each test,612,16034
+545,7a1e4fb8,FAIL,10,NO,0,NO,0,2013-11-08 17:42:41 +0200,Removing GlassFish specific dependency,612,16032
+546,dfa353c3,FAIL,9,NO,0,NO,0,2013-11-08 17:45:44 +0200,Commenting GlassFish specific modules,612,16032
+547,f88ef7be,FAIL,10,NO,0,NO,0,2013-11-08 17:51:30 +0200,Returning just the order id,612,16032
+548,bbb6fe95,FAIL,11,NO,0,NO,0,2013-11-08 17:52:57 +0200,Removing web pages and converting to unit tests,612,16004
+549,b538a289,FAIL,10,NO,0,NO,0,2013-11-08 18:10:38 +0200,Fixing a name,612,16004
+550,7acd1f1f,FAIL,9,NO,0,NO,0,2013-11-08 18:20:06 +0200,Removing web pages/Servlet and converting to unit tests,612,15992
+551,49952be7,FAIL,9,NO,0,NO,0,2013-11-08 18:50:06 +0200,Removing web pages/Servlet and converting to unit tests,611,15926
+552,fa5c95c6,FAIL,10,NO,0,NO,0,2013-11-09 10:14:23 +0200,Cleaning up instructions,611,15926
+553,e73854e3,FAIL,10,NO,0,NO,0,2013-11-09 13:39:37 +0200,Fixed a typo,611,15926
+554,64103006,FAIL,11,NO,0,NO,0,2013-11-09 13:41:29 +0200,Removing try-with-resources to allow any errors to show up on ServletOutputStream,611,15927
+555,ef3b243f,FAIL,10,NO,0,NO,0,2013-11-09 13:59:42 +0200,Removing a redundant method,611,15925
+556,f70f5a97,FAIL,11,NO,0,NO,0,2013-11-09 14:12:50 +0200,Adding a new sample to demonstrate unsynchronized PC,614,16019
+557,3c495ea2,FAIL,9,NO,0,NO,0,2013-11-09 14:15:40 +0200,Removing try-with-resources to allow any errors to show up on ServletOutputStream,614,16020
+558,ab3ff87e,FAIL,10,NO,0,NO,0,2013-11-09 14:42:25 +0200,Better output statements,614,16021
+559,5f2e0e41,FAIL,9,NO,0,NO,0,2013-11-09 14:47:06 +0200,"Adding extended persistence context sample, need further investigation",617,16119
+560,09898c72,FAIL,10,NO,0,NO,0,2013-11-09 14:51:44 +0200,Added extended-pc,617,16119
+561,5561bfc5,FAIL,10,NO,0,NO,0,2013-11-09 14:54:02 +0200,Fixing the table name,617,16119
+562,9b5e3e72,FAIL,10,NO,0,NO,0,2013-11-09 14:55:12 +0200,Removing redundant attributes,617,16119
+563,6b614f97,FAIL,9,NO,0,NO,0,2013-11-09 15:12:30 +0200,New sample to show @Index usage,619,16166
+564,42b9f67b,FAIL,10,NO,0,NO,0,2013-11-09 17:13:13 +0200,Starting a new sample for @Converter and @Convert,624,16298
+565,49a7d9af,FAIL,10,NO,0,NO,0,2013-11-09 17:31:29 +0200,Temporal attributes cannot be used with @Convert and so changing to CreditCard based upon Antonio's slide deck,624,16293
+566,7185c9dd,FAIL,9,NO,0,NO,0,2013-11-09 17:31:45 +0200,Adding the jpa-converter module,624,16293
+567,b8d4b766,FAIL,9,NO,0,NO,0,2013-11-09 17:55:03 +0200,Sample is now working,624,16294
+568,1c0aaedf,FAIL,9,NO,0,NO,0,2013-11-09 23:22:12 +0200,New sample for asynchronous EJB - need to add different use cases,627,16380
+569,74a18b85,FAIL,9,NO,0,NO,0,2013-11-09 23:25:13 +0200,Adding @Asynchronous on method - works on both WildFly and GlassFish,627,16380
+570,0f1cb049,FAIL,10,NO,0,NO,0,2013-11-09 23:33:23 +0200,Adding class-level and method-level annotations,628,16418
+571,ee3af546,FAIL,70,NO,0,NO,0,2013-11-10 12:36:05 +0100,"On Chrome/WildFly, REST client doesn't work. Seems that XMLHttpRequest need to be reopen before each POST request",586,15269
+572,9339e6e0,FAIL,6,NO,0,NO,0,2013-11-10 15:34:46 +0200,"Giving a more appropriate name to the module, also cleaning up Servlet try/resources",628,16421
+573,f7a4391e,FAIL,6,NO,0,NO,0,2013-11-10 15:37:55 +0200,Removing redundant <groupId> and <version>,628,16421
+574,13640783,FAIL,6,NO,0,NO,0,2013-11-10 15:43:56 +0200,Fixing titles,628,16421
+575,00b76456,FAIL,6,NO,0,NO,0,2013-11-10 15:55:08 +0200,"Starting a new sample - application-managed JMSContext, still need figure out why injection is failing in GlassFish",631,16497
+576,4335eef0,FAIL,5,NO,0,NO,0,2013-11-10 16:25:24 +0200,Sample works on WildFly beta2 snapshot and GlassFish 4,631,16497
+577,8d596a99,FAIL,9,NO,0,NO,0,2013-11-10 16:26:01 +0200,Adding container-managed and app-managed JMSContext modules,631,16497
+578,efdf84cd,FAIL,8,NO,0,NO,0,2013-11-10 16:28:01 +0200,Removing try-with-resources to allow any errors to show up on ServletOutputStream,631,16497
+579,31a482e5,FAIL,9,NO,0,NO,0,2013-11-10 16:33:02 +0200,Fixing the title,631,16497
+580,a3e7b030,FAIL,8,NO,0,NO,0,2013-11-10 16:35:41 +0200,Changed the module name to be more intuitive,631,16497
+581,4e35f53b,FAIL,9,NO,0,NO,0,2013-11-10 16:36:34 +0200,Adding async-ejb module,631,16497
+582,15170493,FAIL,9,NO,0,NO,0,2013-11-10 17:21:57 +0200,Removing deny-uncovered-http-methods,631,16497
+583,defd52a6,FAIL,68,NO,0,NO,0,2013-11-10 21:20:21 +0100,clean for pull request,586,15269
+584,00f6bcfa,FAIL,9,NO,0,NO,0,2013-11-10 12:30:21 -0800,Merge pull request #97 from mgreau/master,631,16497
+585,5e7721b8,FAIL,10,NO,0,NO,0,2013-11-11 11:05:27 +0100,"Adding JBoss Nexus repository and Hibernate OGM dependencies, and commenting them for now",631,16497
+586,19880488,FAIL,8,NO,0,NO,0,2013-11-11 12:18:42 +0100,Fixing https://github.com/arun-gupta/javaee7-samples/pull/32,631,16505
+587,fe38b1a8,FAIL,9,NO,0,NO,0,2013-11-12 10:07:39 +0100,Removed previously commented repositories,631,16505
+588,4ff23ded,FAIL,14,NO,0,NO,0,2013-11-12 10:48:47 +0100,Add Wildfly Managed/Remote and Glassfish Embedded Arquillian profiles,631,16510
+589,b6c18550,FAIL,12,NO,0,NO,0,2013-11-12 02:04:40 -0800,Merge pull request #99 from aslakknutsen/arquillian,631,16510
+590,cd75298b,FAIL,11,NO,0,NO,0,2013-11-12 11:16:27 +0100,Added test for send-receive-simple project,632,16546
+591,1ef22423,FAIL,11,NO,0,NO,0,2013-11-12 11:32:17 +0100,Add Arquillian section to README,631,16510
+592,3f8fd0b6,FAIL,12,NO,0,NO,0,2013-11-12 11:40:21 +0100,Added Arquillian test for the el/standalone example. And it's cool !!!,632,16538
+593,e6b8473f,FAIL,11,NO,0,NO,0,2013-11-12 02:46:59 -0800,Merge pull request #100 from aslakknutsen/readme,631,16510
+594,eb9c052b,FAIL,10,NO,0,NO,0,2013-11-12 11:49:32 +0100,Merge branch 'master' of https://github.com/arun-gupta/javaee7-samples,632,16538
+595,bc5452b8,FAIL,11,NO,0,NO,0,2013-11-12 11:55:28 +0100,Commenting the test - need to be fixed,631,16509
+596,43117e4d,FAIL,11,NO,0,NO,0,2013-11-12 12:40:09 +0100,Moved glassfish-embedded dependency up to fix classpath issues,632,16546
+597,71007a02,FAIL,12,NO,0,NO,0,2013-11-12 12:55:01 +0100,Dropped servlet and jsp,631,16496
+598,9ef34ca7,FAIL,12,NO,0,NO,0,2013-11-12 04:15:15 -0800,Merge pull request #101 from hasalex/master,631,16495
+599,1059dca0,FAIL,12,NO,0,NO,0,2013-11-12 13:21:18 +0100,Added Arquillian test for the jta/user-transaction example,630,16410
+600,3941088e,FAIL,12,NO,0,NO,0,2013-11-12 13:30:25 +0100,Arquillian setup for managed WildFly,632,16546
+601,91fc340a,FAIL,13,NO,0,NO,0,2013-11-12 13:31:05 +0100,Removed the test servlet,631,16499
+602,62a627c5,FAIL,11,NO,0,NO,0,2013-11-12 13:56:18 +0100,Remove copyright  notice,631,16499
+603,165781f9,FAIL,12,NO,0,NO,0,2013-11-12 13:56:40 +0100,Remove index.jsp,631,16499
+604,172972a1,FAIL,12,NO,0,NO,0,2013-11-12 05:10:36 -0800,Merge pull request #102 from hasalex/jta,630,16409
+605,1ddb1431,FAIL,13,NO,0,NO,0,2013-11-12 05:11:51 -0800,Merge pull request #103 from pdudits/master,630,16398
+606,a3d2e79d,FAIL,13,NO,0,NO,0,2013-11-12 14:14:19 +0100,Add RestEasy-JAXB-Provider to Wildfly profiles,631,16510
+607,35879539,FAIL,14,NO,0,NO,0,2013-11-12 14:37:39 +0100,Adding more dependencies for Arquillian,630,16398
+608,a842b4b8,FAIL,13,NO,0,NO,0,2013-11-12 14:38:26 +0100,Removing redundant <groupId> and <version>,630,16398
+609,acc4efa5,FAIL,13,NO,0,NO,0,2013-11-12 05:40:44 -0800,Merge pull request #104 from aslakknutsen/resteasy-jaxb,630,16398
+610,9ce74a8c,FAIL,13,NO,0,NO,0,2013-11-12 14:40:58 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,630,16398
+611,76d5c5ca,FAIL,14,NO,0,NO,0,2013-11-12 14:52:14 +0100,Converting to unit tests,629,16319
+612,91bf94d6,FAIL,14,NO,0,NO,0,2013-11-12 14:53:24 +0100,Adding unit tests,630,16386
+613,b9b91496,FAIL,11,NO,0,NO,0,2013-11-12 15:17:02 +0100,Added Arquillian test for the jta/tx-exception example,630,16389
+614,90369ceb,FAIL,12,NO,0,NO,0,2013-11-12 15:35:23 +0100,Delete webapp/* files,630,16389
+615,47b5be51,FAIL,11,NO,0,NO,0,2013-11-12 15:52:02 +0100,Removing redundant properties,630,16386
+616,2477b255,FAIL,13,NO,0,NO,0,2013-11-12 16:08:24 +0100,Fix beans.xml issue,630,16389
+617,9930a469,FAIL,12,NO,0,NO,0,2013-11-12 07:09:00 -0800,Merge pull request #105 from hasalex/jta,630,16365
+618,1d9fdadb,FAIL,11,NO,0,NO,0,2013-11-12 16:10:54 +0100,Added support for Remote Glassfish as ARQ Container,631,16499
+619,59f501cc,FAIL,10,NO,0,NO,0,2013-11-12 07:18:15 -0800,Merge pull request #106 from pdudits/master,630,16365
+620,f132ef93,FAIL,10,NO,0,NO,0,2013-11-12 16:18:28 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,630,16365
+621,ac4ac475,FAIL,11,NO,0,NO,0,2013-11-12 15:18:33 +0000,Added test for batchlet-simple project. Only working for Wildfly for now.,631,16426
+622,5f86c5d1,FAIL,10,NO,0,NO,0,2013-11-12 16:18:34 +0100,#42 Integrate Hibernate OGM - Ehcache Sample,633,16466
+623,d00f3c46,FAIL,12,NO,0,NO,0,2013-11-12 15:32:08 +0000,Added skip to maven dependency plugin,631,16426
+624,b493c3ac,FAIL,10,NO,0,NO,0,2013-11-12 14:16:26 +0100,Convert JAX-RS samples to Arquillian: JAX-RS Client,628,16228
+625,cc180fda,FAIL,11,NO,0,NO,0,2013-11-12 14:20:26 +0100,Convert JAX-RS samples to Arquillian: Async Client,627,16171
+626,d5a9aef4,FAIL,11,NO,0,NO,0,2013-11-12 14:52:33 +0100,Convert JAX-RS samples to Arquillian: Async Server,626,16139
+627,218a41e9,FAIL,12,NO,0,NO,0,2013-11-12 15:00:16 +0100,Convert JAX-RS samples to Arquillian: JAX-RS Endpoint,625,16076
+628,45a50094,FAIL,12,NO,0,NO,0,2013-11-12 15:16:08 +0100,Convert JAX-RS samples to Arquillian: Beanvalidation,624,16037
+629,36750847,FAIL,13,NO,0,NO,0,2013-11-12 15:50:58 +0100,Convert JAX-RS samples to Arquillian: Client Negotiation,624,16012
+630,34f1e0d4,FAIL,11,NO,0,NO,0,2013-11-12 16:12:44 +0100,Convert JAX-RS samples to Arquillian: Dynamic Filter,623,15974
+631,bf2f3b89,FAIL,11,NO,0,NO,0,2013-11-12 16:28:41 +0100,Convert JAX-RS samples to Arquillian: Filter,623,15989
+632,84c3aa53,FAIL,13,NO,0,NO,0,2013-11-12 07:56:07 -0800,Merge pull request #109 from radcortez/master,631,16405
+633,57afa0d5,FAIL,13,NO,0,NO,0,2013-11-12 16:56:14 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,631,16405
+634,bb96d5f9,FAIL,12,NO,0,NO,0,2013-11-12 07:57:20 -0800,Merge pull request #107 from aslakknutsen/jaxrs-samples,624,16029
+635,e28c8d7e,FAIL,13,NO,0,NO,0,2013-11-12 16:57:27 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,624,16029
+636,56031d8e,FAIL,11,NO,0,NO,0,2013-11-12 07:58:28 -0800,Merge pull request #108 from gscheibel/ogm,627,16130
+637,c433e195,FAIL,12,NO,0,NO,0,2013-11-12 17:00:18 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,627,16130
+638,af9326d3,FAIL,12,NO,0,NO,0,2013-11-12 17:09:33 +0100,Converting to unit tests,627,16176
+639,5eecbe5d,FAIL,11,NO,0,NO,0,2013-11-12 17:11:36 +0100,Convert JAX-RS samples to Arquillian: Mapping Exception,627,16148
+640,e2f69c5b,FAIL,12,NO,0,NO,0,2013-11-12 17:20:47 +0100,Convert JAX-RS samples to Arquillian: Server Negotiation,628,16170
+641,c75f92c1,FAIL,11,NO,0,NO,0,2013-11-12 08:33:28 -0800,Merge pull request #110 from aslakknutsen/jaxrs-samples2,628,16170
+642,43e23de2,FAIL,12,NO,0,NO,0,2013-11-12 18:22:48 +0100,Converting to unit tests,627,16178
+643,cbb14995,FAIL,12,NO,0,NO,0,2013-11-12 18:23:50 +0100,Enabling one more test,627,16179
+644,1b184a77,FAIL,11,NO,0,NO,0,2013-11-12 12:57:17 -0500,Add Atmosphere Sample,632,16243
+645,7fcad3fd,FAIL,14,NO,0,NO,0,2013-11-12 12:39:33 -0800,Merge pull request #111 from jfarcand/master,632,16243
+646,a9899644,FAIL,13,NO,0,NO,0,2013-11-12 22:35:23 +0100,Adding JSON streaming parser tests,628,16262
+647,36dc1250,FAIL,10,NO,0,NO,0,2013-11-12 22:35:30 +0100,Adding JSON streaming parser tests - from reader,629,16335
+648,7d6e3124,FAIL,12,NO,0,NO,0,2013-11-12 22:35:58 +0100,Converting into tests,627,16124
+649,fbd7e373,FAIL,11,NO,0,NO,0,2013-11-12 22:37:06 +0100,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,632,16237
+650,4aa9d053,FAIL,10,NO,0,NO,0,2013-11-13 00:50:02 +0100,Added Arquillian test for the jta/transactional example,631,16424
+651,220098d5,FAIL,9,NO,0,NO,0,2013-11-13 09:43:33 +0100,Added Arquillian test for the jta/transaction-scope example,629,16293
+652,3ee919a7,FAIL,11,NO,0,NO,0,2013-11-13 10:40:28 +0100,Added Arquillian test for the cdi/nobeans-xml example,632,16222
+653,f6534b46,FAIL,11,NO,0,NO,0,2013-11-13 10:57:33 +0100,Added Arquillian test for the cdi/bean-discovery-all example,632,16211
+654,8c37365b,FAIL,11,NO,0,NO,0,2013-11-13 06:26:36 -0800,Merge pull request #114 from hasalex/jta,631,16141
+655,caea0eb6,FAIL,14,NO,0,NO,0,2013-11-13 15:50:24 +0100,Issue #80: Arquillian tests for send-receive module,633,16521
+656,00936189,FAIL,11,NO,0,NO,0,2013-11-13 08:05:49 -0800,Merge pull request #115 from hasalex/cdi,631,16115
+657,d5736d5a,FAIL,13,NO,0,NO,0,2013-11-13 08:07:21 -0800,Merge pull request #116 from pdudits/master,633,16137
+658,47609bd4,FAIL,13,NO,0,NO,0,2013-11-13 21:59:28 +0100,Method validation tests for arun-gupta/javaee7-samples#85,632,16084
+659,df50bf69,FAIL,12,NO,0,NO,0,2013-11-13 22:46:02 +0100,Custom constraint validators for arun-gupta/javaee7-samples#85,632,16073
+660,4c5f004e,FAIL,12,NO,0,NO,0,2013-11-14 09:26:03 +0100,Constructor validation tests for arun-gupta/javaee7-samples#85,633,16122
+661,21c4a664,FAIL,13,NO,0,NO,0,2013-11-14 13:33:18 +0100,Merge samples for simple sending and receiving into single module,628,16435
+662,7dc3ee13,FAIL,13,NO,0,NO,0,2013-11-14 14:12:14 +0100,Documented JMS samples,628,16435
+663,d5a2d1c7,FAIL,15,NO,0,NO,0,2013-11-14 22:10:50 +0100,Constructor validation check with Instance<T> injection,634,16150
+664,6d84dd08,FAIL,12,NO,0,NO,0,2013-11-14 17:49:01 -0800,Merge pull request #117 from kubamarchwicki/master,634,16150
+665,479aca89,FAIL,13,NO,0,NO,0,2013-11-15 08:19:29 +0100,Removing redundant throws clause,634,16150
+666,b1594f75,FAIL,7,NO,0,NO,0,2013-11-15 08:24:27 +0100,Renaming to be more appropriate,634,16150
+667,3b76464b,FAIL,8,NO,0,NO,0,2013-11-15 08:25:06 +0100,cleaning up pom.xml,634,16150
+668,b6c0a585,FAIL,12,NO,0,NO,0,2013-11-15 10:45:03 +0100,Removed copyright,628,16435
+669,a1c3551f,FAIL,12,NO,0,NO,0,2013-11-16 15:32:37 +0100,Resource packaging  arun-gupta/javaee7-samples#84 test,634,16144
+670,1861ee29,FAIL,6,NO,0,NO,0,2013-11-18 06:31:39 -0800,Merge pull request #121 from pdudits/jms-restructure,629,16064
+671,5bd40054,FAIL,5,NO,0,NO,0,2013-11-18 15:27:11 -0800,Cleaning up instructions,629,16064
+672,2e1161f5,FAIL,6,NO,0,NO,0,2013-11-18 15:41:51 -0800,Fixing the test to work with Arquillian,629,16073
+673,3fb66ca8,FAIL,11,NO,0,NO,0,2013-11-19 13:26:37 +0100,Update Aggregator pom to include correct child (batch-listener),629,16064
+674,da1a46e1,FAIL,12,NO,0,NO,0,2013-11-19 05:41:04 -0800,Merge pull request #125 from aslakknutsen/batch_pom_fix,629,16064
+675,0a8d28de,FAIL,11,NO,0,NO,0,2013-11-19 05:41:51 -0800,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,629,16073
+676,726108c9,FAIL,12,NO,0,NO,0,2013-11-19 18:05:45 +0400,Minor changes to get rid out of red code in IntelliJ IDEA,629,16064
+677,1a830bb5,FAIL,13,NO,0,NO,0,2013-11-19 16:22:28 +0100,Batch XML files should be located in WEB-INF/classes/META-INF according to spec,629,16064
+678,4d40f0e7,FAIL,12,NO,0,NO,0,2013-11-19 09:39:13 -0800,Merge pull request #127 from aslakknutsen/batch_fix,629,16064
+679,d6030d9c,FAIL,14,NO,0,NO,0,2013-11-19 09:39:32 -0800,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,629,16073
+680,3ebb1ea0,FAIL,12,NO,0,NO,0,2013-11-19 09:48:37 -0800,Merge pull request #126 from cheptsov/master,629,16064
+681,1444dd4f,FAIL,13,NO,0,NO,0,2013-11-19 09:48:50 -0800,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,629,16073
+682,48a5c901,FAIL,7,NO,0,NO,0,2013-11-18 09:58:59 +0000,Refactored common methods used by batch tests to project batch-test. Added test for chuck-simple project.,631,16131
+683,8ec39a7c,FAIL,11,NO,0,NO,0,2013-11-19 14:37:05 +0000,Renamed batch-test project to batch-util. Fixed pom files.,631,16131
+684,5b12d720,FAIL,12,NO,0,NO,0,2013-11-19 22:22:48 +0000,Fixed batch resource location.,631,16131
+685,a1c8471b,FAIL,12,NO,0,NO,0,2013-11-19 14:30:59 -0800,Merge pull request #124 from radcortez/master,631,16131
+686,39a4a898,FAIL,11,NO,0,NO,0,2013-11-19 14:31:38 -0800,Merge branch 'master' of ssh://github.com/arun-gupta/javaee7-samples,631,16140
+687,a615f45b,FAIL,11,NO,0,NO,0,2013-11-20 13:33:35 -0800,Temporary commit to get the tests running,631,16140
+688,7e633e45,FAIL,11,NO,0,NO,0,2013-11-20 23:52:11 +0000,Moved batch-utils project one level up and renamed it to utils.,631,16140
+689,03c7ecc7,FAIL,10,NO,0,NO,0,2013-11-20 16:06:31 -0800,Merge pull request #128 from radcortez/master,631,16140
+690,a48a13c8,FAIL,12,NO,0,NO,0,2013-11-20 16:29:04 -0800,"Cleaning up the test - still failing with WildFly beta2 snapshot, needs further investigation",631,16137
+691,049008b1,FAIL,11,NO,0,NO,0,2013-11-20 17:12:26 -0800,"Removing redundant sample, merging into send-receive",629,16078
+692,ce032380,FAIL,11,NO,0,NO,0,2013-11-20 17:36:13 -0800,Refactoring some code to be more intuitive - all 5 tests work on WildFly beta2 snapshot and GlassFish 4,630,16103
+693,f30193d0,FAIL,11,NO,0,NO,0,2013-11-20 18:23:14 -0800,Removing @ServerLogged so that ServerLoggingFilter is picked up automatically,629,16091
+694,340db637,FAIL,10,NO,0,NO,0,2013-11-20 18:30:40 -0800,"Removed redundant file, cleaned up test implementation",629,16102
+695,a969cbf6,FAIL,70,NO,0,NO,0,2013-11-20 20:17:37 -0800,Removing the default profile,629,16102
+696,5a682dae,FAIL,7,NO,0,NO,0,2013-11-20 21:09:32 -0800,Removing some redundant elements,629,16102
+697,e961d9e0,FAIL,72,NO,0,NO,0,2013-11-20 21:09:55 -0800,Moving util-samples dependency at a higher level,629,16102
+698,a85cef5d,FAIL,74,NO,0,NO,0,2013-11-20 21:10:13 -0800,Removing some redundant elements,629,16102
+699,762128b2,FAIL,74,NO,0,NO,0,2013-11-20 21:16:31 -0800,Adding version for surefire-plugin to get rid of a warning,629,16102
+700,5a5d3416,FAIL,73,NO,0,NO,0,2013-11-20 21:31:10 -0800,Adding tests,630,16145
+701,3abc4fc6,FAIL,68,NO,0,NO,0,2013-11-20 21:41:32 -0800,Formatting changes,630,16145
+702,ce532ec2,FAIL,71,NO,0,NO,0,2013-11-20 21:43:25 -0800,Arquillian enabling the test,630,16166
+703,ab647abe,FAIL,74,NO,0,NO,0,2013-11-20 21:46:24 -0800,Arquillian enabling the test and removing redundant files,630,16165
+704,f4c3882e,FAIL,69,NO,0,NO,0,2013-11-21 05:56:06 -0800,Removing @Provider as the filter is dynamically registered,630,16163
+705,48fcdabb,FAIL,68,NO,0,NO,0,2013-11-21 15:17:46 +0100,Update README.md,630,16165
+706,7811fe99,FAIL,30,NO,0,NO,0,2013-11-21 07:47:50 -0800,Changing maven-compiler-plugin to 3.1,630,16163
+707,86962ebc,FAIL,24,NO,0,NO,0,2013-11-21 07:52:10 -0800,Merge pull request #129 from CedricLevasseur/patch-1,630,16163
+708,995175ad,FAIL,23,NO,0,NO,0,2013-11-21 15:26:41 -0800,Adding an interim version of meged singleton tests - annotated and application,635,16380
+709,f2aa2e6d,FAIL,24,NO,0,NO,0,2013-11-21 15:27:28 -0800,Fixing the singleton module names,635,16380
+710,6bcabb55,FAIL,25,NO,0,NO,0,2013-11-21 15:35:48 -0800,Fixing compilation errors,635,16378
+711,ceb77d37,FAIL,28,NO,0,NO,0,2013-11-21 16:11:26 -0800,Adding properties file and some interim debug statements,635,16383
+712,3bd4f256,FAIL,26,NO,0,NO,0,2013-11-21 16:17:16 -0800,Removing redundant beans.xml from archive,635,16382
+713,650196fa,FAIL,26,NO,0,NO,0,2013-11-21 16:27:35 -0800,Explicitly specifying encoding to get rid of warning,635,16382
+714,5f3c0d49,FAIL,24,NO,0,NO,0,2013-11-21 16:58:26 -0800,Removing older redundant projects,629,16157
+715,126c8c4d,FAIL,24,NO,0,NO,0,2013-11-21 17:06:58 -0800,Fixing the application packaging for annotated and application case,630,16168
+716,370ef479,FAIL,25,NO,0,NO,0,2013-11-21 21:07:22 -0800,Fixing the package name to match artifactId,630,16168
+717,2816c6cb,FAIL,23,NO,0,NO,0,2013-11-21 21:45:51 -0800,Adding new Arquillian tests,631,16226
+718,cf0cf30a,FAIL,25,NO,0,NO,0,2013-11-21 21:46:12 -0800,And removing redundant files,630,16167
+719,6b64994f,FAIL,24,NO,0,NO,0,2013-11-21 22:15:25 -0800,Adding Arquillian tests and dropping redundant files,630,16150
+720,6e8541bf,FAIL,26,NO,0,NO,0,2013-11-22 11:11:53 -0800,Disabling GlassFish specific sample,630,16150
+721,48aa9d8f,SUCCESS,45,SUCCESS,28,FAIL,18,2013-11-22 13:06:27 -0800,"Adding a new Arquillian-ready test, still failing with org.glassfish.json.JsonProviderImpl not found",631,16197
+722,420e958c,FAIL,11,NO,0,NO,0,2013-11-17 15:58:15 +0100,File upload test for arun-gupta/javaee7-samples#84,635,16187
+723,a6f39fd6,SUCCESS,44,SUCCESS,26,FAIL,10,2013-11-23 11:59:44 -0800,Merge pull request #130 from kubamarchwicki/master,632,16234
+724,a36dd6a6,SUCCESS,35,SUCCESS,22,FAIL,12,2013-11-24 19:42:15 +0000,Added tests to batch-listeners project,636,16361
+725,813a9cc6,SUCCESS,36,SUCCESS,25,FAIL,11,2013-11-25 22:05:29 -0800,Updating license to MIT,632,16234
+726,3bd773fc,SUCCESS,37,SUCCESS,24,FAIL,12,2013-11-26 12:08:45 +0000,Simplified listener tests. Removed interceptor. Save listener state on static variables.,634,16333
+727,db93d1c3,SUCCESS,40,SUCCESS,24,FAIL,12,2013-11-26 14:18:50 +0100,Add Bean Validation validator and annotation to deployment,632,16232
+728,d3831acb,SUCCESS,47,SUCCESS,25,FAIL,12,2013-11-26 06:10:34 -0800,Merge pull request #132 from aslakknutsen/bv_custom,632,16232
+729,5b4eab5a,SUCCESS,36,SUCCESS,23,FAIL,13,2013-11-26 06:11:59 -0800,Merge pull request #131 from radcortez/master,634,16331
+730,bd80e032,SUCCESS,37,SUCCESS,22,FAIL,13,2013-11-26 22:02:33 +0100,Constructor validation injection,635,16353
+731,0cafea2d,SUCCESS,36,SUCCESS,24,FAIL,13,2013-11-26 22:03:38 +0100,Typo,635,16353
+732,f8ddf565,SUCCESS,40,SUCCESS,26,FAIL,14,2013-11-26 13:10:22 -0800,Merge pull request #133 from kubamarchwicki/master,635,16353
+733,d41c552f,FAIL,21,NO,0,NO,0,2013-11-26 15:07:16 -0800,"Adding new unit tests, Arquillian-enabling them",629,16131
+734,710744dc,SUCCESS,38,SUCCESS,22,FAIL,11,2013-11-26 15:17:32 -0800,Missed a file,630,16136
+735,a28ad832,SUCCESS,35,SUCCESS,24,FAIL,12,2013-11-27 14:16:42 +0100,Use Servlet 3.0 Protocol for Concurrent tests,630,16140
+736,a0360fd5,SUCCESS,36,SUCCESS,24,FAIL,12,2013-11-27 09:01:18 -0800,Merge pull request #134 from aslakknutsen/concurrent,630,16140
+737,b9994227,SUCCESS,35,SUCCESS,21,FAIL,12,2013-11-27 10:28:13 -0800,Adding CI jobs and some other details,630,16140
+738,08cc7651,SUCCESS,43,SUCCESS,28,FAIL,14,2013-11-27 12:22:10 -0800,Removing cargo properties,630,16140
+739,022099b5,SUCCESS,39,SUCCESS,22,FAIL,12,2013-11-27 12:25:19 -0800,Fixed the test,630,16141
+740,d0172379,SUCCESS,36,SUCCESS,22,FAIL,12,2013-11-27 17:26:49 -0800,Using CountDownLatch for more accurate test result calculation and adding some more tests,630,16123
+741,f20effb2,SUCCESS,39,SUCCESS,24,FAIL,12,2013-11-28 13:58:56 +0100,Add RESTEasy JSON-P Provider to Client,630,16123
+742,848580bc,SUCCESS,35,SUCCESS,23,FAIL,12,2013-11-28 14:34:24 +0100,Inject MyTaskWithTransaction to use Managed TX,630,16133
+743,116ec53f,SUCCESS,36,SUCCESS,23,FAIL,11,2013-11-28 15:28:58 +0100,Fix Binary WebSocket Tests for WildFly,630,16129
+744,6a7d20d0,SUCCESS,37,SUCCESS,26,FAIL,12,2013-11-28 06:48:48 -0800,Merge pull request #137 from aslakknutsen/websocket_binary,630,16129
+745,f314f291,SUCCESS,35,SUCCESS,23,FAIL,13,2013-11-28 06:51:03 -0800,Merge pull request #136 from aslakknutsen/concurrent_fix,630,16139
+746,66618efa,SUCCESS,39,SUCCESS,24,FAIL,13,2013-11-28 06:52:51 -0800,Merge pull request #135 from aslakknutsen/jsonp,630,16139
+747,29fae955,SUCCESS,38,SUCCESS,27,FAIL,13,2013-11-28 17:57:47 +0100,Add GlassFish Client libs to Remote profile,630,16139
+748,bd037e6c,SUCCESS,37,SUCCESS,21,FAIL,13,2013-11-28 12:11:40 -0800,Merge pull request #138 from aslakknutsen/gf_remote_deps,630,16139
+749,d79b44ff,SUCCESS,34,SUCCESS,22,FAIL,11,2013-11-29 15:26:13 -0800,Adding new Arquillian tests for encoder/decoder,633,16245
+750,e806c3fc,SUCCESS,39,SUCCESS,25,FAIL,11,2013-11-29 15:26:31 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,633,16245
+751,cd7d6cd3,SUCCESS,37,SUCCESS,24,FAIL,12,2013-11-30 09:01:58 -0800,Removing an empty line,633,16245
+752,f2848f66,SUCCESS,38,SUCCESS,25,FAIL,12,2013-11-30 09:10:01 -0800,Adding a new test and removing redundant files,633,16248
+753,558ac5c8,SUCCESS,36,SUCCESS,24,FAIL,11,2013-11-30 09:15:24 -0800,Naming the method more appropriately,633,16248
+754,f9a1da3c,SUCCESS,35,SUCCESS,26,FAIL,13,2013-11-30 09:46:39 -0800,"Adding a new test, still failing with handshake",636,16348
+755,da72c22d,SUCCESS,38,SUCCESS,25,FAIL,11,2013-11-30 09:47:12 -0800,"Adding a new test, still failing with handshake",638,16434
+756,3f23d693,SUCCESS,39,SUCCESS,27,FAIL,13,2013-12-01 01:35:40 +0100,Merging jta/transaction-scope and jta/transactional modules,638,16433
+757,aa04c43f,SUCCESS,42,SUCCESS,26,FAIL,13,2013-11-30 17:24:34 -0800,Merge pull request #140 from hasalex/jta,638,16433
+758,918c6f21,SUCCESS,33,SUCCESS,24,FAIL,11,2013-11-30 20:45:56 -0800,Removing an empty line,638,16434
+759,7e4b2108,SUCCESS,34,SUCCESS,24,FAIL,14,2013-11-30 21:25:25 -0800,Converting to Arquillian-enabled tests,641,16530
+760,6d537ceb,SUCCESS,37,SUCCESS,24,FAIL,11,2013-11-30 21:29:22 -0800,Cleaning up some redundant outputs,641,16528
+761,0451e66c,SUCCESS,34,SUCCESS,24,FAIL,13,2013-11-30 21:31:43 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,641,16527
+762,eb8ad05e,SUCCESS,38,SUCCESS,26,FAIL,12,2013-11-30 21:33:22 -0800,Simplifying the file name and cleaning up code,641,16525
+763,e8bd4d78,SUCCESS,37,SUCCESS,25,FAIL,13,2013-11-30 22:05:49 -0800,Moving binary tests to endpoint,646,16620
+764,f61f0650,SUCCESS,37,SUCCESS,27,FAIL,13,2013-11-30 23:40:59 -0800,Fixing the tests,646,16623
+765,f22f9029,SUCCESS,38,SUCCESS,25,FAIL,12,2013-12-01 11:50:34 +0000,Added test for chunk-checkpoint project.,647,16671
+766,cbf04ce9,SUCCESS,38,SUCCESS,24,FAIL,12,2013-12-01 20:10:50 +0100,Adding Arquillian tests to cdi/alternatives example,646,16612
+767,db53e739,SUCCESS,33,SUCCESS,28,FAIL,13,2013-12-01 20:23:21 +0100,Adding Arquillian tests to cdi/bean-discovery-annotated example,646,16602
+768,f58ae20a,SUCCESS,40,FAIL,20,NO,0,2013-12-02 20:07:12 +0100,Trying to ShrinkWrap the used MessageBodyWriter,647,16661
+769,7d689a2e,SUCCESS,36,FAIL,20,NO,0,2013-12-02 20:31:53 +0100,"Test case for successful Name valdiation. Test case for failed Name validation, because of empty firstName.",647,16681
+770,318aff5d,SUCCESS,36,FAIL,17,NO,0,2013-12-02 20:38:18 +0100,Reduced duplication in test code.,647,16685
+771,4305efd4,SUCCESS,34,FAIL,17,NO,0,2013-12-02 12:17:37 -0800,Merge pull request #142 from dagguh/master,647,16685
+772,5c23c500,SUCCESS,40,FAIL,18,NO,0,2013-12-02 12:18:47 -0800,Merge pull request #141 from radcortez/master,648,16733
+773,b875ef19,SUCCESS,39,SUCCESS,25,FAIL,12,2013-12-02 21:35:35 +0100,Adding Arquillian tests to cdi/bean-discovery-none example,646,16588
+774,66fcd010,SUCCESS,40,FAIL,20,NO,0,2013-12-02 12:47:02 -0800,Merge pull request #143 from hasalex/cdi,648,16698
+775,e8ce2a9d,SUCCESS,42,FAIL,20,NO,0,2013-12-02 23:49:08 +0100,Tests for ejb/stateless & ejb/stateful,650,16822
+776,21c1f64d,SUCCESS,39,FAIL,19,NO,0,2013-12-02 15:33:04 -0800,Added a new Arquillian test,649,16742
+777,ad637ed6,SUCCESS,35,FAIL,22,NO,0,2013-12-02 16:06:40 -0800,Merge pull request #144 from rafos/master,651,16866
+778,90785e0f,SUCCESS,42,FAIL,19,NO,0,2013-12-02 16:27:19 -0800,Updating the test output message,649,16747
+779,d1c25574,SUCCESS,37,FAIL,20,NO,0,2013-12-02 16:27:35 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,651,16871
+780,0a4aa6cc,SUCCESS,38,SUCCESS,24,FAIL,13,2013-12-03 01:47:31 +0100,Removed RESTEasy vendor lock. Restored tab indentation coding style. Added test cases for failed last name size validation and at symbol email validation. Reduced duplication in test code. Made Name class immutable.,647,16698
+781,95e2b897,SUCCESS,38,SUCCESS,24,FAIL,13,2013-12-03 02:01:52 +0100,"Added test cases for null lastName, null firstName, email domain name",647,16719
+782,36a89571,SUCCESS,38,SUCCESS,23,FAIL,13,2013-12-02 17:51:09 -0800,Merge pull request #145 from dagguh/master,651,16905
+783,9a378671,SUCCESS,39,SUCCESS,28,FAIL,13,2013-12-03 10:49:22 +0100,Clean up WebSocket tests,651,16880
+784,28ff98bc,SUCCESS,43,SUCCESS,28,FAIL,15,2013-12-03 04:55:10 -0800,Merge pull request #146 from aslakknutsen/gf_ws,651,16880
+785,19cccbb1,SUCCESS,38,SUCCESS,28,FAIL,14,2013-12-03 14:30:53 +0100,Change to use Client.target(String) to avoid JAX-RS 1 vs 2 conflict,651,16881
+786,88b91e32,SUCCESS,37,SUCCESS,27,FAIL,12,2013-12-03 14:38:21 +0100,Remove MessageBodyReader from Client,651,16878
+787,fe137cb4,SUCCESS,40,SUCCESS,26,FAIL,13,2013-12-03 14:47:02 +0100,Remove MessageBodyReader from the Client,651,16879
+788,41695bf6,SUCCESS,37,SUCCESS,28,FAIL,12,2013-12-03 05:52:44 -0800,Merge pull request #151 from aslakknutsen/gf_jaxrs_rw,651,16879
+789,9cb2d544,SUCCESS,37,SUCCESS,28,FAIL,13,2013-12-03 05:53:04 -0800,Merge pull request #149 from aslakknutsen/gf_jaxrs_as,651,16880
+790,2303ac0b,SUCCESS,40,SUCCESS,22,FAIL,12,2013-12-03 14:59:08 +0100,Change to use Client.target(URI) to be compatible with JAX-RS 1.0,651,16881
+791,d61d2290,SUCCESS,38,SUCCESS,25,FAIL,13,2013-12-03 05:59:50 -0800,Merge pull request #150 from aslakknutsen/gf_jaxrs_rw_inject,651,16878
+792,ff33bb1f,SUCCESS,38,SUCCESS,28,FAIL,13,2013-12-03 07:43:36 -0800,Merge pull request #152 from aslakknutsen/gf_jaxrs_neo,651,16879
+793,11b4fefc,SUCCESS,39,SUCCESS,28,FAIL,13,2013-12-03 17:03:54 +0100,Change to use Client.target(URI) to be compatible with JAX-RS 1.0,651,16889
+794,bc9905da,SUCCESS,39,SUCCESS,29,FAIL,13,2013-12-03 08:12:36 -0800,Merge pull request #153 from aslakknutsen/gf_jaxrs_more,651,16889
+795,ed4cb656,SUCCESS,41,SUCCESS,25,FAIL,13,2013-12-03 17:17:26 +0100,Arquillian test for cdi/decorators,646,16611
+796,b77bf394,SUCCESS,40,SUCCESS,26,FAIL,13,2013-12-03 17:17:26 +0100,Arquillian test for cdi/decorators,651,16877
+797,c9739bac,SUCCESS,39,SUCCESS,25,FAIL,11,2013-12-03 17:25:42 +0100,Merge remote-tracking branch 'origin/master',651,16877
+798,8f5eecf4,SUCCESS,37,SUCCESS,24,FAIL,15,2013-12-03 08:38:58 -0800,Merge pull request #154 from nikom1337/master,651,16877
+799,26edc0aa,SUCCESS,39,SUCCESS,27,FAIL,13,2013-12-03 22:26:30 +0100,Adding Arquillian tests to cdi/beansxml-noversion example,652,16869
+800,427d69f7,SUCCESS,42,SUCCESS,28,FAIL,13,2013-12-03 13:59:33 -0800,Merge pull request #155 from hasalex/cdi,652,16869
+801,b8325fcc,SUCCESS,41,SUCCESS,25,FAIL,11,2013-12-04 09:33:58 +0100,Change to use Client.target(URI) to be compatible with JAX-RS 1.0,652,16870
+802,5e72d99c,SUCCESS,36,SUCCESS,25,FAIL,14,2013-12-04 15:07:20 +0000,Refactored batch tests to use CountDownLatch instead of boolean static variables to monitor execution.,652,16826
+803,8a34a1fa,SUCCESS,41,SUCCESS,31,FAIL,14,2013-12-04 15:45:19 +0000,Changed asserts for CountDownLatch.,652,16830
+804,22cbf65e,SUCCESS,42,SUCCESS,23,FAIL,14,2013-12-04 07:56:19 -0800,Merge pull request #157 from radcortez/master,652,16830
+805,285475aa,SUCCESS,38,SUCCESS,27,FAIL,13,2013-12-04 21:19:12 +0100,#139 Arquillian test for JMS XA,662,17157
+806,141a65fb,SUCCESS,36,SUCCESS,26,FAIL,12,2013-12-04 21:19:06 +0100,Extended README with some contribution guidelines. Missing parts: * test methods naming convetions (as it is still part of ongoing discussion) * preferred libraries,651,16905
+807,ee84bd0a,SUCCESS,36,SUCCESS,24,FAIL,13,2013-12-04 21:37:02 +0100,Enhanced .gitignore Changes mainly for netbeans and intellij. Plus some small cleanups.,651,16905
+808,7dedc14a,SUCCESS,38,SUCCESS,27,FAIL,13,2013-12-04 13:33:38 -0800,Merge pull request #160 from bartoszmajsak/gitignore,652,16830
+809,8b9e0ee7,SUCCESS,40,SUCCESS,24,FAIL,12,2013-12-04 13:36:57 -0800,Merge pull request #159 from bartoszmajsak/contribution_guide,652,16830
+810,ad3d9b15,SUCCESS,43,SUCCESS,30,FAIL,11,2013-12-04 23:18:25 +0100,Arquillian tests for async websocket endpoint. Part of #86,656,16920
+811,8d4ac8bc,SUCCESS,39,SUCCESS,28,FAIL,14,2013-12-04 15:45:15 -0800,Merge pull request #161 from airborn/websocket-endpoint-async,656,16920
+812,c74e9969,SUCCESS,40,SUCCESS,28,FAIL,13,2013-12-04 20:13:59 -0800,Adding Arquillian test,653,16870
+813,b4c4d194,SUCCESS,39,SUCCESS,25,FAIL,14,2013-12-04 20:14:38 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,657,16960
+814,4594ad67,SUCCESS,37,SUCCESS,28,FAIL,11,2013-12-05 13:02:54 -0800,Adding a convenient method to receive all messages (not used any where for now),657,16973
+815,e64b747a,SUCCESS,35,SUCCESS,26,FAIL,13,2013-12-05 13:03:15 -0800,Adding a new test to send/receive multiple messages,657,16987
+816,aa58fea8,SUCCESS,38,SUCCESS,26,FAIL,14,2013-12-05 17:31:38 -0800,Cleaning up JavaScript,657,16987
+817,ddbaa465,SUCCESS,40,SUCCESS,27,FAIL,13,2013-12-05 17:31:53 -0800,Sample is now working on WildFly,657,16987
+818,f8acc00a,SUCCESS,36,SUCCESS,25,FAIL,11,2013-12-07 06:47:10 -0800,Adding a test for table generation using JPA metadata,657,16984
+819,1c0ac53f,SUCCESS,44,SUCCESS,29,FAIL,14,2013-12-07 16:11:01 +0100,#75 asynchronous EJB test,657,16980
+820,468d9641,SUCCESS,37,SUCCESS,27,FAIL,14,2013-12-07 18:03:26 +0100,#75 wildfly EJB timer tests,660,17063
+821,d3a613f3,SUCCESS,40,SUCCESS,30,FAIL,13,2013-12-07 22:16:29 +0100,Wrong class name,657,16980
+822,80730d37,SUCCESS,41,SUCCESS,27,FAIL,12,2013-12-07 15:27:33 -0800,Merge pull request #164 from kubamarchwicki/ejb_timers,660,17063
+823,3e6e33ed,SUCCESS,40,SUCCESS,25,FAIL,13,2013-12-07 15:31:05 -0800,Merge pull request #163 from kubamarchwicki/ejb_asynchronous,660,17059
+824,065a5e75,SUCCESS,38,SUCCESS,27,FAIL,14,2013-12-08 14:14:02 +0100,Removing obsolete servlets and index.jsp files,658,16970
+825,a7426603,SUCCESS,40,SUCCESS,26,FAIL,11,2013-12-08 14:33:45 +0100,Test new stateful bean on every ctx lookup,659,17014
+826,2d74f537,SUCCESS,35,SUCCESS,27,FAIL,14,2013-12-08 15:08:58 +0100,Test same stateless bean on every ctx lookup,660,17065
+827,21558bcc,SUCCESS,40,SUCCESS,26,FAIL,13,2013-12-08 14:27:53 -0800,Merge pull request #158 from blabno/jms-xa,671,17339
+828,7d6225da,SUCCESS,44,SUCCESS,28,FAIL,13,2013-12-09 21:08:50 +0100,Favouring injection over InitialContext for #75 EJB stateless and statefull tests,660,17053
+829,b243e104,SUCCESS,40,SUCCESS,31,FAIL,12,2013-12-09 12:20:47 -0800,Merge pull request #166 from kubamarchwicki/ejb_stateless_stateful,671,17333
+830,ad0a268c,FAIL,16,NO,0,NO,0,2013-12-10 13:18:11 -0800,Enabling WildFly managed profile as default,657,16984
+831,ec708eef,FAIL,10,NO,0,NO,0,2013-12-10 13:20:46 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,671,17333
+832,d4206bb6,SUCCESS,42,SUCCESS,33,FAIL,13,2013-12-10 13:58:38 -0800,Changing the default profile to wildfly-remote-arquillian,671,17333
+833,14082e5a,FAIL,10,NO,0,NO,0,2013-12-10 23:09:29 +0100,Port of JASPIC tests from https://github.com/arjantijms/jaspic-capabilities-test,704,18211
+834,307610c2,SUCCESS,40,SUCCESS,36,FAIL,14,2013-12-10 14:31:30 -0800,Merge pull request #167 from arjantijms/master,704,18211
+835,caeb6fea,SUCCESS,39,SUCCESS,31,FAIL,16,2013-12-10 23:08:28 +0000,Added test for chunk-exception project.,706,18274
+836,e91d3a41,SUCCESS,40,SUCCESS,31,FAIL,14,2013-12-10 16:17:49 -0800,Merge pull request #168 from radcortez/master,706,18274
+837,9e286639,SUCCESS,38,SUCCESS,30,FAIL,12,2013-12-10 17:47:38 -0800,Form-based security sample is now working,703,18177
+838,2672388e,SUCCESS,39,FAIL,32,NO,0,2013-12-10 17:47:54 -0800,Adding form-based security sample and also cleaning up dependencies,703,18177
+839,8ab8a655,SUCCESS,48,SUCCESS,41,FAIL,16,2013-12-03 23:15:04 +0100,#10 Angular JS consuming REST services,713,18534
+840,63c5ca9d,SUCCESS,42,FAIL,27,NO,0,2013-12-11 10:36:18 -0800,Adding a new sample/test for programmatic login/logout,705,18256
+841,7be2ecf2,SUCCESS,40,SUCCESS,28,FAIL,15,2013-12-11 10:39:38 -0800,Merge pull request #156 from blabno/jaxrs-angularjs,713,18534
+842,8cc7c7f1,SUCCESS,39,FAIL,31,NO,0,2013-12-11 11:10:33 -0800,Adding a new test for WebSocket Chat,708,18353
+843,20136863,SUCCESS,45,FAIL,30,NO,0,2013-12-11 11:11:00 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,717,18676
+844,d50f9ea5,SUCCESS,39,FAIL,29,NO,0,2013-12-11 22:17:36 +0100,httpclient local dependency removed; is now a dependency in the global pom.xml,717,18676
+845,fc606873,SUCCESS,40,SUCCESS,32,FAIL,16,2013-12-11 13:29:19 -0800,Changing the project names to be more intuitive,717,18663
+846,6914c061,SUCCESS,39,SUCCESS,31,FAIL,15,2013-12-11 13:38:54 -0800,Merge pull request #169 from arjantijms/master,717,18663
+847,1fd1d69c,SUCCESS,41,SUCCESS,41,FAIL,17,2013-12-11 14:50:53 -0800,Adding a new sample/test to check for EL injection without beans.xml,719,18700
+848,ffc7980d,SUCCESS,43,SUCCESS,33,FAIL,15,2013-12-11 14:51:08 -0800,Adding a new sample/test to check for EL injection without beans.xml,719,18700
+849,7a42d6b3,SUCCESS,38,SUCCESS,31,FAIL,15,2013-12-11 14:52:54 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,719,18700
+850,36130bb4,SUCCESS,40,SUCCESS,32,FAIL,17,2013-12-11 17:06:00 -0800,Adding a new sample/test to check for deny-uncovered-http element in web.xml,721,18801
+851,5f837b99,SUCCESS,42,SUCCESS,37,FAIL,16,2013-12-11 17:06:36 -0800,Adding security-deny-uncovered test,721,18801
+852,976d2922,SUCCESS,41,SUCCESS,25,FAIL,12,2013-12-12 14:33:02 +0100,"Issue #148 :  Creating a new DataSourceDefinition example, with an Arquillian test",653,16915
+853,9b2b4fb9,SUCCESS,41,SUCCESS,34,FAIL,15,2013-12-12 05:54:25 -0800,Merge pull request #170 from hasalex/jpa,723,18839
+854,d0f84667,SUCCESS,40,SUCCESS,31,FAIL,16,2013-12-12 10:04:49 -0800,Added a new test for @FlowScoped bean and EL injection,723,18840
+855,cb48c210,SUCCESS,44,SUCCESS,40,FAIL,17,2013-12-12 10:05:00 -0800,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,725,18878
+856,a1605b55,SUCCESS,46,SUCCESS,32,FAIL,15,2013-12-12 11:29:22 -0800,Cleaning up imports,725,18877
+857,48fed430,SUCCESS,43,SUCCESS,32,FAIL,14,2013-12-12 11:49:02 -0800,Adding a new sample/test for JAX-RS basic authentication security,728,19016
+858,2a39cb8e,SUCCESS,37,SUCCESS,31,FAIL,16,2013-12-12 11:56:45 -0800,Cleaned up imports,728,19015
+859,0ea98510,SUCCESS,44,SUCCESS,33,FAIL,14,2013-12-12 12:09:51 -0800,Adding a new sample/test for http-omission,730,19135
+860,5c6714e2,SUCCESS,42,SUCCESS,33,FAIL,13,2013-12-12 14:20:54 -0800,Improved the test,730,19136
+861,546c82c6,SUCCESS,41,SUCCESS,35,FAIL,14,2013-12-12 14:23:40 -0800,Adding a new sample/test for @ServletSecurity - still failing and needs further investigation on how security needs to be specified completely using annotations,732,19248
+862,a898beaf,SUCCESS,45,SUCCESS,32,FAIL,16,2013-12-12 15:54:57 -0800,Removing <artifactId> and <version>,732,19248
+863,7fc2627f,SUCCESS,45,FAIL,20,NO,0,2013-12-13 05:39:08 -0800,Using HtmlUnit instead of HttpUnit,732,19249
+864,7974d43e,SUCCESS,43,FAIL,18,NO,0,2013-12-13 05:39:19 -0800,Using HtmlUnit instead of HttpUnit,732,19247
+865,ff9c1115,SUCCESS,40,FAIL,15,NO,0,2013-12-13 06:34:24 -0800,Using HtmlUnit instead of HttpUnit,732,19247
+866,fda59bcd,SUCCESS,39,FAIL,16,NO,0,2013-12-13 06:35:31 -0800,Removing a redundant variable,732,19247
+867,a842dd02,SUCCESS,45,SUCCESS,38,FAIL,16,2013-12-13 15:36:41 -0800,Adding HtmlUnit dependency - still experimenting,732,19247
+868,0ba3d653,SUCCESS,43,SUCCESS,31,FAIL,13,2013-12-13 15:45:08 -0800,Naming the method appropriately,732,19247
+869,17f92b38,SUCCESS,39,SUCCESS,38,FAIL,15,2013-12-13 16:11:45 -0800,Simplifying the Servlet and adding a test for POST,732,19241
+870,9b877750,SUCCESS,40,SUCCESS,39,FAIL,14,2013-12-13 16:41:54 -0800,"Cleaned up tests, added POST with correct/incorrect credentials",732,19244
+871,ea983c34,SUCCESS,43,SUCCESS,39,FAIL,16,2013-12-13 17:03:02 -0800,Fixed the test,733,19295
+872,98e4059f,SUCCESS,48,SUCCESS,33,FAIL,15,2013-12-14 23:13:04 +0100,Added test for the javax.servlet.http.registerSession feature and started using HtmlUnit for this new test.,738,19466
+873,14ba58f4,SUCCESS,44,SUCCESS,35,FAIL,16,2013-12-14 23:16:32 +0100,Re-enabled test,738,19467
+874,1f6d60d4,SUCCESS,42,SUCCESS,35,FAIL,14,2013-12-16 09:52:42 -0800,Merge pull request #171 from arjantijms/master,738,19467
+875,0e0a0165,SUCCESS,40,SUCCESS,36,FAIL,14,2013-12-19 16:20:03 -0800,Cleaning up the code,738,19467
+876,928b65f4,SUCCESS,40,SUCCESS,32,FAIL,15,2013-12-20 10:58:46 -0800,Removing <groupId> and <version>,738,19467
+877,64c512f1,SUCCESS,40,SUCCESS,36,FAIL,16,2013-12-20 13:08:36 -0800,Added new tests,739,19533
+878,630cb0f8,SUCCESS,46,SUCCESS,38,FAIL,18,2013-12-20 13:53:42 -0800,Added new tests,740,19663
+879,6783c4a3,SUCCESS,44,SUCCESS,35,FAIL,15,2013-12-22 15:23:16 +0100,Added JPA test for the new 2.1 feature of dynamically adding named queries.,746,19806
+880,5b1bd9ab,SUCCESS,41,SUCCESS,36,FAIL,15,2013-12-22 17:18:02 +0100,Standalone servlet and index.jsp no longer needed for new tests. Forgot to add new module in pom.xml,745,19784
+881,93516fdd,SUCCESS,45,SUCCESS,37,FAIL,13,2013-12-22 08:33:17 -0800,Merge pull request #174 from arjantijms/master,745,19784
+882,dd3b379a,SUCCESS,40,SUCCESS,32,FAIL,13,2013-12-24 00:26:03 +0000,Updated to wildfly 8.0.0.CR1.,745,19784
+883,6c724a5d,SUCCESS,40,SUCCESS,30,FAIL,13,2013-12-24 00:27:48 +0000,"Added test for chunk-csv-database project. Needs wildfly 8.0.0.CR1, because of https://issues.jboss.org/browse/WFLY-2027.",746,19839
+884,cd6f8565,SUCCESS,39,SUCCESS,29,FAIL,14,2013-12-24 10:46:03 +0000,Changed Person entity id generation to be manually assigned. Removed hibernate sequence.,746,19832
+885,459846bb,SUCCESS,44,SUCCESS,36,FAIL,17,2013-12-24 07:22:42 -0800,Merge pull request #175 from radcortez/master,746,19832
+886,f583b5dc,SUCCESS,45,SUCCESS,34,FAIL,15,2013-12-28 21:25:34 +0000,Added test for chunk-mapper project.,747,19876
+887,fecc8f45,SUCCESS,45,SUCCESS,32,FAIL,12,2013-12-28 20:54:28 -0800,Merge pull request #177 from radcortez/master,747,19876
+888,712d5c16,SUCCESS,53,SUCCESS,57,SUCCESS,62,2013-12-29 16:50:26 +0100,Adding Spock support for some consistency #147,747,19876
+889,70b7b65d,SUCCESS,46,SUCCESS,59,SUCCESS,61,2013-12-29 16:53:17 +0100,Servlet Filter test #84,748,19795
+890,6d924d0a,SUCCESS,47,SUCCESS,55,FAIL,61,2013-12-29 21:01:36 +0100,Standard junit test - exatly the same as Spock Specification,749,19836
+891,a69201bf,SUCCESS,53,SUCCESS,57,FAIL,21,2013-12-29 21:25:18 +0100,Configuring junit and Spock in same project - separate executions in same phase #147,749,19836
+892,5e5ce4a0,SUCCESS,50,SUCCESS,55,FAIL,17,2013-12-29 22:00:47 +0100,README information for spock tests,749,19836
+893,069af04c,SUCCESS,48,SUCCESS,64,FAIL,18,2013-12-29 22:33:58 +0100,Arquillian containers (junit / spock) exclusion on different surefire executions),749,19836
+894,1efc18b9,SUCCESS,47,SUCCESS,60,FAIL,19,2013-12-29 16:24:40 -0800,Merge pull request #178 from kubamarchwicki/spock,749,19836
+895,44cae22a,SUCCESS,46,SUCCESS,55,FAIL,18,2013-12-29 23:30:49 +0000,Added test for chunk-optional-processor project.,750,19878
+896,a3f0b657,SUCCESS,52,SUCCESS,67,FAIL,18,2013-12-30 00:17:34 +0000,Added test for chunk-optional-processor project.,750,19877
+897,719fee2a,SUCCESS,49,SUCCESS,57,FAIL,17,2013-12-30 00:18:07 +0000,Added test for chunk-partition project.,751,19923
+898,df6904bf,SUCCESS,48,SUCCESS,60,FAIL,18,2013-12-30 01:20:05 -0800,Merge pull request #179 from radcortez/master,751,19923
+899,bb04247e,FAIL,7,NO,0,NO,0,2013-12-30 18:03:14 +0100,"added cdi/alternatives-priority, 3 tests available",759,20039
+900,0c2791bb,SUCCESS,49,SUCCESS,54,FAIL,18,2013-12-30 18:04:04 +0100,"added cdi/alternatives-priority, 3 tests available",759,20039
+901,6b1ada26,SUCCESS,50,SUCCESS,56,FAIL,17,2013-12-30 10:46:52 -0800,Merge pull request #181 from rhanus/master,759,20039
+902,ad0fe615,SUCCESS,48,SUCCESS,58,FAIL,18,2013-12-30 15:10:19 +0000,Added test for chunk-simple-nobeans project.,760,20077
+903,3869b8ab,SUCCESS,47,SUCCESS,56,FAIL,18,2013-12-30 15:10:33 +0000,Added test for decision project.,761,20121
+904,95b74484,SUCCESS,53,SUCCESS,58,FAIL,17,2013-12-30 23:42:55 +0000,Removed Servlets and jsp's.,750,19548
+905,d7b03c58,SUCCESS,47,SUCCESS,54,FAIL,15,2013-12-30 20:37:23 -0800,Merge pull request #180 from radcortez/master,750,19548
+906,be717e20,SUCCESS,47,SUCCESS,58,FAIL,20,2013-12-31 11:40:10 +0000,Added test for flow project.,750,19547
+907,41ba99f9,SUCCESS,53,SUCCESS,59,FAIL,16,2013-12-31 11:40:27 +0000,Added test for multiple-steps project.,750,19546
+908,f8806ebe,SUCCESS,46,SUCCESS,65,FAIL,17,2013-12-31 11:40:39 +0000,Added test for split project.,750,19543
+909,45d0a8bb,SUCCESS,47,SUCCESS,55,FAIL,20,2013-12-31 12:03:32 +0000,Code style issues.,750,19535
+910,02e47c01,SUCCESS,45,SUCCESS,58,FAIL,16,2013-12-31 16:24:14 +0000,Fixed test. Assert steps order.,750,19538
+911,88fa35af,SUCCESS,47,SUCCESS,57,FAIL,20,2013-12-31 19:02:04 +0100,added top-level directory interceptor and its first module around-construct to demonstrate using @AroundConstruct,757,19664
+912,5023f7cf,SUCCESS,45,SUCCESS,59,FAIL,19,2013-12-31 19:14:43 +0100,fixed class header,757,19664
+913,d84778e2,SUCCESS,52,SUCCESS,61,FAIL,19,2013-12-31 11:13:19 -0800,Merge pull request #183 from rhanus/master,757,19664
+914,bde1f977,SUCCESS,50,SUCCESS,62,FAIL,17,2013-12-31 11:15:17 -0800,Merge pull request #182 from radcortez/master,757,19654
+915,eb749ec9,SUCCESS,48,SUCCESS,57,FAIL,19,2014-01-02 18:21:51 +0100,converted cdi/interceptors sample to junit&arquillian style,757,19647
+916,4881b603,SUCCESS,50,SUCCESS,53,FAIL,16,2014-01-02 09:26:40 -0800,Merge pull request #184 from rhanus/master,757,19647
+917,b6ec9890,SUCCESS,43,SUCCESS,59,FAIL,20,2014-01-03 11:00:23 +0100,added cdi/interceptors-prioriry,763,19734
+918,76d5c240,SUCCESS,58,SUCCESS,65,FAIL,21,2014-01-03 11:13:16 +0100,fixed package name of cdi/interceptors-prioriry,763,19733
+919,f80087a5,FAIL,7,NO,0,NO,0,2014-01-03 15:33:54 +0100,"fixed module name to interceptors-priority, removed Oracle copyright",763,19733
+920,624d2f91,FAIL,7,NO,0,NO,0,2014-01-03 07:53:21 -0800,Merge pull request #185 from rhanus/master,763,19733
+921,9637ddef,SUCCESS,50,SUCCESS,58,FAIL,17,2014-01-04 15:19:45 +0100,fixed pom references to interceptors-priority,763,19733
+922,62751650,SUCCESS,45,SUCCESS,65,FAIL,18,2014-01-04 06:24:26 -0800,Merge pull request #186 from rhanus/master,763,19733
+923,5557fb5b,SUCCESS,49,SUCCESS,57,FAIL,16,2014-01-05 00:17:12 +0100,added simple event/observer test,768,19794
+924,8eba3db9,SUCCESS,46,SUCCESS,55,FAIL,17,2014-01-04 18:41:50 -0800,Merge pull request #187 from rhanus/master,768,19794
+925,e5172f7f,SUCCESS,39,SUCCESS,37,FAIL,17,2014-01-08 18:29:25 +0100,Added tests for using an @DataSourceDefinition data source with JPA,752,19939
+926,1c30f50d,SUCCESS,46,SUCCESS,58,FAIL,17,2014-01-08 10:31:24 -0800,Merge pull request #188 from arjantijms/master,775,19949
+927,e99b69cf,SUCCESS,47,SUCCESS,63,FAIL,19,2014-01-06 22:47:54 -0200,Add jboss-web.xml to web deployments,775,19950
+928,dba0a2ec,SUCCESS,45,SUCCESS,64,FAIL,17,2014-01-08 13:22:15 -0800,Merge pull request #189 from sguilhen/master,775,19950
+929,4dc1bce2,SUCCESS,47,SUCCESS,59,FAIL,16,2014-01-10 14:43:24 +0100,Add description to JAX-RS:Async-Client sample,775,19950
+930,a5255703,SUCCESS,48,SUCCESS,59,FAIL,16,2014-01-11 01:34:10 +0100,"Replaced httpunit by htmlunit, added convenience method for getting raw content from server and disabled throwing exception upon 403.",775,19911
+931,0af95eed,SUCCESS,49,SUCCESS,62,FAIL,20,2014-01-11 01:22:53 -0800,Merge pull request #190 from arjantijms/master,775,19911
+932,84cc9538,SUCCESS,50,SUCCESS,60,FAIL,19,2014-01-11 13:22:53 +0100,Make JMS tests pass in managed WildFly,775,19950
+933,8b8fd75c,SUCCESS,48,SUCCESS,58,FAIL,17,2014-01-11 13:54:57 +0000,Added test for jpa criteria project.,775,19914
+934,aa9b25f0,SUCCESS,46,SUCCESS,59,FAIL,18,2014-01-11 15:30:40 +0100,Issue #80: Test for temporary queue,778,20023
+935,8cf11351,SUCCESS,47,SUCCESS,59,FAIL,16,2014-01-11 09:51:49 -0800,Merge pull request #192 from pdudits/temp-queue,778,19984
+936,abf15495,SUCCESS,47,SUCCESS,64,FAIL,20,2014-01-11 09:53:05 -0800,Merge pull request #191 from radcortez/master,778,19987
+937,1e873ca5,SUCCESS,49,SUCCESS,59,FAIL,19,2014-01-11 23:29:29 +0100,Transaction-aware ReceptionSynchronizer,778,20003
+938,f8aa98a4,SUCCESS,49,SUCCESS,56,FAIL,18,2014-01-12 00:11:21 +0100,Improving documentation for TempQueueTest,778,19987
+939,1effa91f,SUCCESS,48,SUCCESS,64,FAIL,15,2014-01-12 01:15:37 +0100,Fix TempQueueTest for Glassfish - lookup or mappedName must be used for injecting @JMSDestination with global name - otherwise deployment or JmsClient instantiation fails with NullPointerException,778,19987
+940,0bdb3825,SUCCESS,46,SUCCESS,57,FAIL,18,2014-01-11 23:25:43 -0800,Merge pull request #193 from pdudits/temp-queue-docs,778,19987
+941,bf282a4c,SUCCESS,46,SUCCESS,61,FAIL,17,2014-01-13 17:52:42 +0000,Added javadoc for jpa criteria project.,778,19987
+942,96af24a7,SUCCESS,51,SUCCESS,60,FAIL,16,2014-01-13 10:16:46 -0800,Merge pull request #195 from radcortez/master,778,19987
+943,60c6f102,SUCCESS,44,SUCCESS,58,FAIL,19,2014-01-13 20:47:51 +0100,Fix typo in JAX-RS::Async-Client description,778,19987
+944,6e94985d,SUCCESS,50,SUCCESS,61,FAIL,15,2014-01-16 21:11:31 +0000,Added test for jpa listeners project.,777,19981
+945,018b39e4,SUCCESS,49,SUCCESS,58,FAIL,18,2014-01-16 13:35:08 -0800,Merge pull request #196 from radcortez/master,777,19981
+946,54dcb80d,SUCCESS,50,SUCCESS,61,FAIL,22,2014-01-17 23:46:50 +0100,JMS Batch sample,784,20172
+947,5c6c1b46,SUCCESS,55,SUCCESS,68,FAIL,18,2014-01-22 08:38:32 -0800,Merge pull request #197 from pdudits/jms-batch,783,20166
+948,966c5f24,SUCCESS,48,SUCCESS,62,FAIL,16,2014-01-22 08:40:00 -0800,Merge pull request #194 from pdudits/transactional-synchronizer,783,20182
+949,26a64479,SUCCESS,46,SUCCESS,57,FAIL,16,2014-01-21 20:33:06 +0000,Updated javadoc.,783,20182
+950,9b282445,SUCCESS,43,SUCCESS,67,FAIL,16,2014-01-28 11:58:33 +0000,Added test for native-sql-resultset-mapping project.,783,20168
+951,60cc9f34,SUCCESS,47,SUCCESS,61,FAIL,17,2014-01-28 12:03:31 +0000,Added test for native-sql project.,783,20160
+952,5442de13,SUCCESS,48,SUCCESS,64,FAIL,19,2014-01-28 12:14:58 +0000,Added name and description to pom files. Renamed test.,783,20160
+953,714cfe80,SUCCESS,54,SUCCESS,67,FAIL,16,2014-01-28 20:26:35 +0100,Somewhat nasty hack/workaround to get DS work with JPA on WildFly 8,783,20182
+954,e5877491,SUCCESS,45,SUCCESS,62,FAIL,18,2014-01-31 00:52:26 +0100,A few JACC related; getting the Request and Subject from the policy context.,791,20423
+955,579c35ec,SUCCESS,48,SUCCESS,56,FAIL,17,2014-01-31 11:24:29 +0100,Some minor JSF fixes,783,20182
+956,1ae3dc0a,SUCCESS,50,SUCCESS,58,FAIL,15,2014-01-31 21:06:22 -0800,Merge pull request #200 from tremes/some-jsf-fixes,783,20182
+957,22722f7d,SUCCESS,45,SUCCESS,66,FAIL,20,2014-01-31 21:06:44 -0800,Merge pull request #198 from radcortez/master,783,20160
+958,b4c080fc,SUCCESS,50,SUCCESS,66,FAIL,18,2014-01-31 21:07:09 -0800,Merge pull request #199 from arjantijms/master,791,20401
+959,8b774197,SUCCESS,48,SUCCESS,57,FAIL,16,2014-02-01 16:17:23 +0100,JPA listener injection test,796,20551
+960,42df0b61,SUCCESS,47,SUCCESS,66,FAIL,18,2014-02-02 04:19:39 +0100,Fix include expression in test case,791,20401
+961,36d26abc,SUCCESS,47,SUCCESS,60,FAIL,19,2014-02-02 04:30:06 +0100,Fix include expression in test case,791,20401
+962,7868a8c4,SUCCESS,48,SUCCESS,60,FAIL,17,2014-02-02 16:32:41 +0100,JPA Extended persistence context test,791,20374
+963,a8bd7992,SUCCESS,49,SUCCESS,68,FAIL,20,2014-02-02 16:50:30 +0100,Simplification. No need for @SesssionScope bean. Inject @Stateful to arq test,790,20356
+964,9085aad5,SUCCESS,54,SUCCESS,59,FAIL,19,2014-02-03 21:45:45 +0100,Removing licence information,796,20551
+965,87654aad,SUCCESS,53,SUCCESS,57,FAIL,16,2014-02-03 21:47:02 +0100,Removing licence information,790,20356
+966,5cbb2044,SUCCESS,43,SUCCESS,65,FAIL,20,2014-02-03 13:04:16 -0800,Merge pull request #201 from kubamarchwicki/jpa-listeners-injection,796,20551
+967,3e4cfec9,SUCCESS,45,FAIL,49,NO,0,2014-02-06 22:58:09 +0100,JAX-WS endpoint example,810,20861
+968,d1fcad2a,SUCCESS,57,FAIL,42,NO,0,2014-02-07 22:34:10 +0100,Added JAX-WS client example,826,21244
+969,382225a6,SUCCESS,49,SUCCESS,63,FAIL,19,2014-02-08 16:46:58 +0100,Fix package name :),796,20551
+970,29b3bb3c,SUCCESS,53,SUCCESS,59,FAIL,16,2014-02-10 06:34:42 -0800,Merge pull request #204 from OndraZizka/master,796,20551
+971,2cc4981d,SUCCESS,51,FAIL,42,NO,0,2014-02-10 22:42:33 +0100,Removed unnecessary files in jax-ws projects,801,20758
+972,fe41ecfc,SUCCESS,57,FAIL,39,NO,0,2014-02-10 22:54:48 +0100,Merge remote-tracking branch 'upstream/master' into jaxws_first_example,801,20758
+973,44df212e,SUCCESS,56,FAIL,44,NO,0,2014-02-20 07:52:59 -0700,Merge pull request #203 from fegalo/jaxws_first_example,801,20758
+974,5a8e87bf,SUCCESS,53,FAIL,41,NO,0,2014-02-20 07:53:22 -0700,Merge pull request #202 from kubamarchwicki/jpa-exetended-context,800,20713
+975,6e2c428b,SUCCESS,55,FAIL,47,NO,0,2014-02-21 14:06:26 -0800,Adding a simple sample to compare REST and WebSocket payloads,803,20737
+976,a43f6cba,SUCCESS,53,FAIL,45,NO,0,2014-03-19 20:50:23 +0100,Add WildFly 8 Embedded Profile,803,20737
+977,6a77801b,SUCCESS,56,FAIL,42,NO,0,2014-03-19 20:51:23 +0100,Upgrade to WildFly 8.0.0.Final,803,20737
+978,efb9ee51,SUCCESS,53,FAIL,40,NO,0,2014-03-20 10:46:04 +0100,Update arquillian.xml CR1 references to Final,803,20737
+979,91364291,SUCCESS,53,FAIL,42,NO,0,2014-03-25 10:52:35 +0100,Updating CI URL,803,20737
+980,820d0ea9,SUCCESS,55,FAIL,45,NO,0,2014-03-25 11:40:09 +0100,Simple implementation of MyTrigger,803,20743
+981,155f7d5b,SUCCESS,57,FAIL,46,NO,0,2014-03-25 11:40:52 +0100,Suggestion howto fix #205,803,20744
+982,b0236e8a,SUCCESS,58,FAIL,43,NO,0,2014-03-25 11:53:41 +0100,Merge pull request #208 from aheusingfeld/master,803,20744
+983,30cbdd67,SUCCESS,51,FAIL,41,NO,0,2014-03-26 23:22:31 +0100,Fixing #205. Removing spec not compliant assertions,803,20729
+984,15ed0fa2,SUCCESS,58,FAIL,42,NO,0,2014-03-27 22:07:12 +0100,Clean up Whiteboard Sample,803,20753
+985,f107ad2a,SUCCESS,55,FAIL,46,NO,0,2014-03-27 23:11:10 +0100,Merge pull request #210 from marschall/ConcurrentModificationException,803,20753
+986,939c56f2,SUCCESS,50,FAIL,40,NO,0,2014-03-28 22:50:19 +0100,Moving WildFly profiles before GlassFish ones,803,20737
+987,f3f7fd16,SUCCESS,56,FAIL,48,NO,0,2014-03-28 22:51:36 +0100,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,803,20753
+988,9f2a67fc,SUCCESS,60,FAIL,46,NO,0,2014-03-28 23:09:09 +0100,Add JBoss EAP Remote Profile based on 7.2.0.Final adapter,803,20753
+989,fcb607ac,SUCCESS,63,FAIL,49,NO,0,2014-03-28 20:49:19 +0100,Arquillian Graphene dependency added,803,20753
+990,ec9d5f27,SUCCESS,52,FAIL,43,NO,0,2014-03-28 20:49:50 +0100,Tests for jsf/simple-facelet added,805,20806
+991,89d2eb1e,SUCCESS,56,FAIL,39,NO,0,2014-03-31 10:29:17 +0200,Graphene dependency moved higher to jsf/pom.xml,805,20806
+992,58cde039,SUCCESS,56,FAIL,38,NO,0,2014-03-31 12:30:44 +0200,Profiles for major browsers added,805,20806
+993,a7eb79e7,SUCCESS,60,FAIL,41,NO,0,2014-03-31 12:31:22 +0200,jsf/simple-facelet - redundant licence header removed,805,20806
+994,1b8e6f41,SUCCESS,56,FAIL,48,NO,0,2014-03-31 12:37:09 +0200,Profile for opera browser added,805,20806
+995,ffd3c89d,SUCCESS,59,FAIL,41,NO,0,2014-03-31 16:28:13 +0200,README updated with browser profiles info,805,20806
+996,159c547d,SUCCESS,54,FAIL,43,NO,0,2014-03-31 16:34:02 +0200,README: formatting of Arquillian profiles list,805,20806
+997,cc234aa7,SUCCESS,54,FAIL,42,NO,0,2014-03-31 08:16:39 -0700,Merge pull request #211 from jhuska/addingGraphene,805,20806
+998,5a1918b7,SUCCESS,52,FAIL,43,NO,0,2014-03-31 09:15:24 -0700,Merge pull request #209 from kubamarchwicki/statless-correction,805,20791
+999,092e6851,SUCCESS,55,FAIL,37,NO,0,2014-04-03 16:17:55 -0700,Removing redundant copyright,803,20753
+1000,f6e9368e,SUCCESS,52,FAIL,40,NO,0,2014-04-03 17:35:38 -0700,Adding a new test to show databse access from a JAX-RS resource.,807,20875
+1001,10da618d,SUCCESS,54,FAIL,48,NO,0,2014-04-03 17:36:17 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,809,20913
+1002,5a2cb46d,SUCCESS,61,FAIL,41,NO,0,2014-04-04 20:31:51 +0100,Fixed Chunk Exception Test. Added documentation.,812,20961
+1003,b050b378,SUCCESS,54,FAIL,43,NO,0,2014-04-04 17:37:39 -0400,Merge pull request #212 from radcortez/master,812,20961
+1004,5ebd872c,SUCCESS,52,FAIL,40,NO,0,2014-04-06 15:20:56 +0530,added correct scope annotation included one line description,812,20961
+1005,6082a92d,SUCCESS,56,FAIL,41,NO,0,2014-04-06 15:22:33 +0530,added correct scope annotation included one line description,812,20962
+1006,a23fc912,SUCCESS,53,FAIL,40,NO,0,2014-04-07 16:22:16 +0530,Merge pull request #213 from abhirockzz/cdi_scope_branch,812,20962
+1007,f9e4a0aa,SUCCESS,54,FAIL,42,NO,0,2014-05-01 15:00:02 -0700,Adding a new sample to show Camel + Java EE integration (starting to work on issue #36),810,20947
+1008,df6d6500,SUCCESS,55,FAIL,49,NO,0,2014-05-01 15:00:44 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,813,20996
+1009,ae7fa019,SUCCESS,58,FAIL,40,NO,0,2014-05-03 22:09:45 +0200,Introduced Arquillian-based example for JPA 2.1 custom converter feature.,813,21027
+1010,41106b7c,SUCCESS,51,FAIL,40,NO,0,2014-05-05 09:11:39 -0700,Merge pull request #218 from bartoszmajsak/jpa-custom-converter,813,21027
+1011,339c030c,SUCCESS,60,FAIL,38,NO,0,2014-05-08 12:07:06 +0100,Fixed Chunk Exception Wildfly Test.,813,21029
+1012,db05f226,SUCCESS,59,FAIL,42,NO,0,2014-05-08 13:45:11 +0100,Merge pull request #217 from radcortez/master,813,21029
+1013,4ac23a3b,FAIL,25,NO,0,NO,0,2014-05-19 15:30:55 -0700,Changing the default profile to wildfly-remote-arquillian,813,21027
+1014,4bd5a2ef,FAIL,9,NO,0,NO,0,2014-05-19 15:34:20 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,813,21029
+1015,659e0359,FAIL,10,NO,0,NO,0,2014-05-27 22:55:05 +0100,Added documentation to batch-listeners project.,813,21029
+1016,2b287cf7,FAIL,10,NO,0,NO,0,2014-05-27 22:55:29 +0100,Fixed a few javadocs typos.,813,21029
+1017,2993c8f5,FAIL,9,NO,0,NO,0,2014-05-29 00:55:05 +0100,Added documentation to batchlet-simple project.,813,21030
+1018,34233c34,FAIL,10,NO,0,NO,0,2014-05-29 00:59:46 +0100,Merge pull request #222 from radcortez/master,813,21030
+1019,2a41f17d,FAIL,10,NO,0,NO,0,2014-05-28 21:24:18 +0200,JAX-RS FileUpload Sample Project,816,21146
+1020,2545e94b,FAIL,9,NO,0,NO,0,2014-05-26 14:46:12 +0200,Adding JAX-RS @BeanParam example,818,21112
+1021,0ec19817,FAIL,10,NO,0,NO,0,2014-05-28 12:00:03 +0200,JAX-RS ParamConverterProvider sample project,819,21150
+1022,489a5ae9,FAIL,10,NO,0,NO,0,2014-05-30 14:44:00 -0700,Merge pull request #225 from xcoulon/jaxrs-fileupload,816,21147
+1023,36ec58ac,FAIL,10,NO,0,NO,0,2014-05-30 14:47:14 -0700,Merge pull request #224 from xcoulon/jaxrs-paramconverter,822,21268
+1024,c2d4ae27,FAIL,9,NO,0,NO,0,2014-05-30 14:47:23 -0700,Merge pull request #223 from xcoulon/jaxrs-beanparam,827,21351
+1025,784631ee,FAIL,9,NO,0,NO,0,2014-05-30 17:40:11 +0100,Added documentation to split project.,827,21351
+1026,d91770d1,FAIL,12,NO,0,NO,0,2014-05-30 17:40:32 +0100,Added documentation to multiple-steps project.,827,21350
+1027,27812397,FAIL,11,NO,0,NO,0,2014-06-05 09:58:33 +0100,Merge pull request #226 from radcortez/master,827,21350
+1028,f2d74e8f,FAIL,11,NO,0,NO,0,2014-06-05 15:46:21 +0200,Add include of myJbos.xml file in doc,827,21350
+1029,939236f7,FAIL,11,NO,0,NO,0,2014-06-06 14:50:30 -0400,Cleaning up the loggers and using container-managed client sessions instead of user-managed,813,21030
+1030,e9210a39,FAIL,11,NO,0,NO,0,2014-06-10 09:01:43 +0200,Test that data-source can be defined in application.xml and used in persistence.xml.,831,21465
+1031,efa82a63,FAIL,10,NO,0,NO,0,2014-06-10 16:54:14 +0200,Workaround for Arquillian creating an illegal application.xml,831,21469
+1032,e546d6c0,FAIL,12,NO,0,NO,0,2014-06-12 11:12:47 +0100,Merge pull request #227 from arjantijms/master,831,21468
+1033,2d82c991,FAIL,12,NO,0,NO,0,2014-06-12 17:21:25 +0100,Added documentation to decision project.,831,21468
+1034,c78023d4,FAIL,12,NO,0,NO,0,2014-06-12 17:21:33 +0100,Added documentation to flow project.,831,21468
+1035,bb39a59c,FAIL,12,NO,0,NO,0,2014-06-12 17:26:22 +0100,Merge pull request #229 from radcortez/master,831,21468
+1036,910fb776,FAIL,12,NO,0,NO,0,2014-06-12 18:38:50 +0200,Fix callout numbering in BatchDecisionTest,831,21468
+1037,82bc4b6f,FAIL,12,NO,0,NO,0,2014-06-18 11:45:56 +0100,Added documentation to chunk-checkpoint project.,831,21468
+1038,0548dba0,FAIL,12,NO,0,NO,0,2014-06-18 13:20:20 +0100,Fixed documentation of chunk-checkpoint project.,831,21468
+1039,b2bca78e,FAIL,12,NO,0,NO,0,2014-06-18 13:20:34 +0100,Added documentation to chunk-simple project.,831,21469
+1040,40cc5b6d,FAIL,9,NO,0,NO,0,2014-06-18 15:41:16 +0100,Added documentation to chunk-simple-nobeans project.,831,21470
+1041,197ebb25,FAIL,11,NO,0,NO,0,2014-06-18 15:52:36 +0100,Fixed documentation of chunk-simple project.,831,21470
+1042,1e95bced,FAIL,11,NO,0,NO,0,2014-06-18 15:53:07 +0100,Added documentation to chunk-optional-processor project.,831,21471
+1043,72c15021,FAIL,9,NO,0,NO,0,2014-06-18 16:29:12 +0100,Fixed documentation of chunk-optional-processor project.,831,21471
+1044,1994ee6f,FAIL,11,NO,0,NO,0,2014-06-18 16:32:45 +0100,Added documentation to chunk-csv-database project.,831,21471
+1045,3b97a3e6,FAIL,10,NO,0,NO,0,2014-06-18 17:34:37 +0100,Added documentation to chunk-partition project.,831,21471
+1046,119b49aa,FAIL,10,NO,0,NO,0,2014-06-18 17:54:41 +0100,Added documentation to chunk-mapper project.,831,21471
+1047,07f8b5a4,FAIL,9,NO,0,NO,0,2014-06-19 16:17:22 +0100,Documentation clarifications and typos.,831,21471
+1048,4ede2113,FAIL,9,NO,0,NO,0,2014-06-19 20:33:55 +0100,Merge pull request #232 from radcortez/master,831,21471
+1049,45b7a15c,FAIL,9,NO,0,NO,0,2014-06-20 11:31:42 +0100,Added FQN to Java EE API references to generate direct links to javadocs.,831,21471
+1050,35d65e0f,FAIL,9,NO,0,NO,0,2014-06-20 11:34:03 +0100,Merge pull request #233 from radcortez/master,831,21471
+1051,cc7573a1,FAIL,10,NO,0,NO,0,2014-06-22 12:16:34 +0100,Added Oracle license and list of files that are under that license.,831,21471
+1052,90583e10,FAIL,9,NO,0,NO,0,2014-06-22 12:17:26 +0100,Removed header license. The licensing is now referenced in the LICENSE file in the root of the project.,831,21471
+1053,55542ad4,FAIL,11,NO,0,NO,0,2014-06-23 08:49:16 -0700,Merge pull request #234 from radcortez/licensing,831,21471
+1054,10eb6260,FAIL,9,NO,0,NO,0,2014-06-23 08:50:10 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,831,21471
+1055,b6bebf52,FAIL,10,NO,0,NO,0,2014-07-03 17:03:34 +0200,Fixed scope of MySingletonScopedBean to really be @Singelton,831,21471
+1056,a3201a70,FAIL,10,NO,0,NO,0,2014-07-03 09:17:50 -0700,Merge pull request #235 from arend-von-reinersdorff/master,831,21471
+1057,d33aee19,FAIL,11,NO,0,NO,0,2014-07-05 04:51:06 +0100,Removed header license for batch xml files. The licensing is now referenced in the LICENSE file in the root of the project.,831,21471
+1058,dca8de39,FAIL,10,NO,0,NO,0,2014-07-08 08:59:59 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,831,21471
+1059,95447257,FAIL,10,NO,0,NO,0,2014-07-08 09:01:18 -0700,adding a new sample to schedule Batch Jobs,834,21515
+1060,a1a296df,FAIL,9,NO,0,NO,0,2014-07-09 18:05:03 -0700,adding a new test for default datasource,837,21597
+1061,97317987,FAIL,11,NO,0,NO,0,2014-07-10 14:57:15 -0700,adding new tests for JAXRS/Bean Validation,837,21643
+1062,8d9baed4,FAIL,10,NO,0,NO,0,2014-07-10 17:46:33 -0700,Cleaning up some source code,836,21590
+1063,81833c05,FAIL,10,NO,0,NO,0,2014-07-09 02:14:13 +0100,Added tests to Scheduling project.,844,21748
+1064,59b65eed,FAIL,11,NO,0,NO,0,2014-07-11 12:05:22 -0700,Convert to tests for JSON-P usage with JAX-RS,836,21580
+1065,6f5ac01f,FAIL,9,NO,0,NO,0,2014-07-11 12:07:21 -0700,Merge branch 'master' of github.com:javaee-samples/javaee7-samples,844,21738
+1066,1bfb9a2f,FAIL,10,NO,0,NO,0,2014-07-12 13:57:53 -0700,new test for programmatic registration of Servlets,847,21810
+1067,6ac97db8,FAIL,11,NO,0,NO,0,2014-07-12 14:00:01 -0700,cleaned up imports,847,21805
+1068,ddbaecef,FAIL,10,NO,0,NO,0,2014-07-15 00:36:28 +0100,Removed header license. The licensing is now referenced in the LICENSE file in the root of the project.,847,21782
+1069,98941854,FAIL,12,NO,0,NO,0,2014-07-15 01:29:38 +0100,Removed default header.,847,21782
+1070,193cc406,FAIL,11,NO,0,NO,0,2014-07-17 10:30:00 +0200,Update README.md,847,21782
+1071,ea534ab8,FAIL,11,NO,0,NO,0,2014-07-17 05:38:01 -0700,Merge pull request #241 from suxxa/patch-1,847,21782
+1072,8cf60e35,FAIL,11,NO,0,NO,0,2014-07-25 16:32:28 +0200,Basic test for async requests and JASPIC,852,21901
+1073,14d08824,FAIL,9,NO,0,NO,0,2014-06-13 13:21:55 +0200,Add aggregated Surefire report configuration,847,21782
+1074,3592a73b,FAIL,23,NO,0,NO,0,2014-08-11 15:53:37 +0200,Adding Groovy build plugin in parent pom.xml to allow for importng projects in Eclipse,847,21782
+1075,401fe821,FAIL,15,NO,0,NO,0,2014-08-12 14:41:47 +0200,Enforcing Weld to scan only those archives which have beans.xml in it. Otherwise any other 3rd party library which is using JSR-330 annotations will cause the deployment in CDI 1.1 environment (Java EE 7) to fail. For example Guava used in AngularJS tests. Related issue: #245,847,21785
+1076,c2f9195a,FAIL,14,NO,0,NO,0,2014-05-04 22:52:15 +0200,Initial implementation of JCA-based File Watcher,857,22081
+1077,76589b5a,FAIL,14,NO,0,NO,0,2014-09-30 14:01:12 -0700,#254 Added examples w/ new JMS APIs,847,21766
+1078,6f76eb53,FAIL,14,NO,0,NO,0,2014-07-25 16:32:28 +0200,Basic test for async requests and JASPIC,852,21904
+1079,5bb2f776,FAIL,14,NO,0,NO,0,2014-09-30 14:01:12 -0700,#254 Added examples w/ new JMS APIs,852,21885
+1080,a4b91fda,FAIL,13,NO,0,NO,0,2014-09-10 16:50:40 +0200,fix typo and remove not very helpful ' ;),852,21885
+1081,bd9e098e,FAIL,10,NO,0,NO,0,2014-10-05 00:52:22 +0200,Tests for the @OrderColumn annotation,864,22277
+1082,a4bcb645,FAIL,13,NO,0,NO,0,2014-10-05 01:03:12 +0200,Merge remote-tracking branch 'upstream/master',864,22261
+1083,eaa3455c,FAIL,15,NO,0,NO,0,2014-10-04 23:53:06 -0400,Merge branch 'master' of https://github.com/javaee-samples/javaee7-samples,852,21885
+1084,5818b1fb,FAIL,13,NO,0,NO,0,2014-10-04 23:52:25 -0400,#252 Fixed arquillian configuration for the jobs.,852,21885
+1085,8f8cd568,FAIL,13,NO,0,NO,0,2014-10-05 08:58:59 -0400,#259 Allow version to be overridden for the glass fish build.,852,21885
+1086,02b59746,FAIL,14,NO,0,NO,0,2014-10-05 09:02:17 -0400,#252 Updated some javadocs.,852,21885
+1087,76b3e08d,FAIL,14,NO,0,NO,0,2014-10-05 11:43:26 -0400,Merge pull request #260 from johnament/feature/252,852,21885
+1088,e87a1d7c,FAIL,12,NO,0,NO,0,2014-10-05 11:43:47 -0400,Merge pull request #257 from arjantijms/master,864,22261
+1089,cd8f9788,FAIL,12,NO,0,NO,0,2014-10-06 00:02:01 +0200,Test that stateful session bean is capable of calling a method on itself via a proxy.,866,22292
+1090,3d30dd7d,FAIL,14,NO,0,NO,0,2014-10-06 00:05:59 +0200,Fixed formatting,866,22292
+1091,35db1039,FAIL,13,NO,0,NO,0,2014-10-15 16:33:58 -0700,adding WildFly maven plugin so that samples can be deployed to a running server,864,22261
+1092,728d3df6,FAIL,15,NO,0,NO,0,2014-10-16 10:47:05 -0700,"Google Docs on desktop using WebSocket, need further debugging",867,22344
+1093,bb886aeb,FAIL,16,NO,0,NO,0,2014-10-17 15:56:29 -0700,removing copyright and splitting host into hostname/port,867,22344
+1094,bbcdc7c9,FAIL,17,NO,0,NO,0,2014-10-17 15:57:31 -0700,removing copyright and splitting host into hostname/port,867,22344
+1095,c47c4e6c,FAIL,15,NO,0,NO,0,2014-10-18 21:30:05 +0200,Allow to refresh TextArea with WebSocket received messages,867,22358
+1096,b2bc5388,FAIL,16,NO,0,NO,0,2014-10-18 15:06:13 -0700,Merge pull request #266 from lucasponce/master,867,22358
+1097,7b7515fb,FAIL,15,NO,0,NO,0,2014-10-18 16:05:38 -0700,Removing redundant file,866,22341
+1098,0035f77d,FAIL,17,NO,0,NO,0,2014-10-19 08:09:25 -0700,positioning caret at end of the text,866,22342
+1099,1f358aa2,FAIL,13,NO,0,NO,0,2014-10-20 07:46:40 -0700,fixing #267,866,22365
+1100,575ed0d3,FAIL,13,NO,0,NO,0,2014-10-20 20:37:24 -0400,adding new sample to demonstrate wss://,867,22373
+1101,d619c681,FAIL,12,NO,0,NO,0,2014-10-21 13:12:05 -0400,adding a unsecure uri,867,22373
+1102,2ae0c287,FAIL,14,NO,0,NO,0,2014-10-21 14:02:24 -0400,fixing the URLs,867,22373
+1103,ae877113,FAIL,13,NO,0,NO,0,2014-10-23 11:54:39 -0400,Removing redundant file,866,22339
+1104,c6593cc4,FAIL,12,NO,0,NO,0,2014-10-27 13:51:41 -0700,removing app server specific file,866,22339
+1105,478d0254,FAIL,12,NO,0,NO,0,2014-10-27 13:54:19 -0700,cleaning up source,866,22339
+1106,195f4d58,FAIL,12,NO,0,NO,0,2014-10-27 13:54:57 -0700,fixing the URL back,866,22339
+1107,f8bce7f2,FAIL,13,NO,0,NO,0,2014-10-27 16:05:03 -0700,Fixing the app's name,866,22339
+1108,dd6c3f83,FAIL,13,NO,0,NO,0,2014-10-29 10:07:34 +0000,Fixed #269. NPE loading the CSV file from the Glassfish embedded regular classloader. Changed to use the Thread context classloader.,866,22336
+1109,74ea497b,FAIL,13,NO,0,NO,0,2014-10-30 17:03:02 -0500,Remove extra lifecycle callback param,866,22336
+1110,1cd36aa9,FAIL,15,NO,0,NO,0,2014-11-02 14:14:37 +0200,Issue #253 - Fix to make jaxws-endpoint compile against JDK 8 Change to use org.jvnet.jax-ws-commons:jaxws-maven-plugin:2.3 instead of org.codehaus.mojo:jaxws-maven-plugin:1.11,866,22336
+1111,76e110d9,FAIL,14,NO,0,NO,0,2014-11-02 09:50:50 -0500,Merge pull request #273 from SlashITServices/issue253,866,22336
+1112,f0258d05,FAIL,14,NO,0,NO,0,2014-11-02 09:51:07 -0500,Merge pull request #262 from arjantijms/master,868,22367
+1113,73177b06,FAIL,13,NO,0,NO,0,2014-11-02 19:52:52 +0000,Fixes #261. Added TomEE build profile.,868,22367
+1114,c9e43e70,FAIL,14,NO,0,NO,0,2014-11-02 17:02:04 -0500,#206 Add Travis config.,868,22367
+1115,4bfc50a9,FAIL,11,NO,0,NO,0,2014-11-02 17:05:01 -0500,#206 Add Travis config.,868,22367
+1116,8d80dbdd,FAIL,14,NO,0,NO,0,2014-11-05 22:07:27 +0000,Added dependencies for TomEE embedded: Batch.,868,22367
+1117,080a3461,FAIL,15,NO,0,NO,0,2014-11-10 22:16:56 +0100,Optimized Async Servlet sample,868,22358
+1118,c3a66877,FAIL,14,NO,0,NO,0,2014-11-12 14:46:14 +0000,Added sample for Entity Graph.,871,22425
+1119,f4b0a78a,FAIL,15,NO,0,NO,0,2014-11-15 18:18:12 +0100,Update README.md,868,22367
+1120,9f0b5192,FAIL,14,NO,0,NO,0,2014-11-18 14:20:30 +0000,Added programmatic example. Refactored MovieBean to accept hint and entitygraph as parameters.,872,22445
+1121,73acd513,FAIL,15,NO,0,NO,0,2014-11-23 22:11:30 -0500,Merge pull request #277 from danielsoro/patch-1,872,22445
+1122,923a9591,FAIL,14,NO,0,NO,0,2014-11-23 22:12:13 -0500,Merge pull request #276 from aheusingfeld/master,872,22436
+1123,27aabba3,FAIL,12,NO,0,NO,0,2014-11-25 12:25:49 +0000,Commented google-docs projects because of CI.,872,22436
+1124,77c1c17e,FAIL,14,NO,0,NO,0,2014-12-02 15:39:40 -0800,adding Dockerfile to run samples in centos/wildfly image,872,22436
+1125,96b68ef8,FAIL,15,NO,0,NO,0,2014-12-02 15:46:41 -0800,removing an empty line,872,22436
+1126,18782763,FAIL,13,NO,0,NO,0,2014-12-02 15:47:09 -0800,adding instructions on how to run the samples in Docker,872,22436
+1127,f2811e8a,FAIL,12,NO,0,NO,0,2014-12-02 15:47:44 -0800,formatting,872,22436
+1128,a0e84e7a,FAIL,12,NO,0,NO,0,2014-12-02 15:50:29 -0800,some formatting,872,22436
+1129,38678038,FAIL,10,NO,0,NO,0,2014-12-02 19:59:29 -0800,adding simple-servlet module,872,22436
+1130,06e2a6e0,FAIL,12,NO,0,NO,0,2014-12-02 19:59:43 -0800,adding simple-servlet module,874,22494
+1131,cae4ec22,FAIL,13,NO,0,NO,0,2014-12-01 20:39:04 +0000,Added tests for jndi-context project.,874,22491
+1132,fa297bc3,FAIL,12,NO,0,NO,0,2014-12-04 16:34:39 +0000,Added tests for multiple-pu project.,874,22454
+1133,a9d8a71c,FAIL,11,NO,0,NO,0,2014-12-04 16:54:24 +0000,Added tests for pu-typesafe project.,873,22373
+1134,85ff6a28,FAIL,14,NO,0,NO,0,2014-12-04 22:10:13 +0000,Added tests for schema-gen-index project.,873,22400
+1135,a90854dd,FAIL,14,NO,0,NO,0,2014-12-05 00:03:10 +0000,Added tests for schema-gen-scripts-external project.,873,22399
+1136,a4df3ab2,FAIL,14,NO,0,NO,0,2014-12-05 11:07:31 +0000,Added tests for schema-gen-scripts-generate project.,874,22439
+1137,4ad88e96,FAIL,16,NO,0,NO,0,2014-12-05 19:10:28 +0000,Added tests for locking-optimistic project.,875,22523
+1138,0a25ef40,FAIL,15,NO,0,NO,0,2014-12-08 11:47:03 +0000,Added tests for entitygraph project. Mixing a list parameter with entity graph fails in hibernate.,875,22568
+1139,79500db3,FAIL,15,NO,0,NO,0,2014-12-08 11:52:48 +0000,Added tests for storedprocedure project.,876,22560
+1140,6c2f73a4,FAIL,13,NO,0,NO,0,2014-12-09 18:54:57 -0500,Fix for #279 - add relativePath to test utils pom so that everything builds together.,876,22560
+1141,3195a28b,FAIL,14,NO,0,NO,0,2014-12-09 19:18:28 -0500,Merge pull request #280 from johnament/master,876,22560
+1142,54a27198,FAIL,15,NO,0,NO,0,2014-12-10 23:10:53 +0000,Fixed and improved tests for jaxrs client and singleton due to TomEE failures.,876,22568
+1143,ef36f95f,FAIL,14,NO,0,NO,0,2014-12-14 13:59:25 -0500,Switch from polling on JobExecution (for job completion) to polling with JobOperator and executionId.,876,22571
+1144,d7f2ac10,FAIL,20,NO,0,NO,0,2014-12-17 23:44:04 +0000,Fixed #284. Updated to Wildfly 8.2.0.Final.,876,22571
+1145,ebfa5231,FAIL,13,NO,0,NO,0,2015-01-04 03:25:52 +0600,Add a JSF example featuring WebJars,876,22571
+1146,4f6e1d88,FAIL,15,NO,0,NO,0,2015-02-10 12:07:28 +0200,Update BatchDecisionTest.java,876,22571
+1147,54d9036b,FAIL,14,NO,0,NO,0,2015-02-13 10:13:04 -0800,Merge pull request #249 from bartoszmajsak/file-watcher-mdb,886,22867
+1148,4712de05,FAIL,15,NO,0,NO,0,2015-02-13 10:13:35 -0800,Merge pull request #287 from tsabirgaliev/webjars,886,22867
+1149,688c6c03,FAIL,14,NO,0,NO,0,2015-02-13 10:13:56 -0800,Merge pull request #288 from nicoschl/patch-1,886,22867
+1150,43d71f86,FAIL,10,NO,0,NO,0,2015-02-09 19:29:18 -0500,Adjusted artifactId,886,22867
+1151,d60d4527,FAIL,9,NO,0,NO,0,2015-02-09 19:31:32 -0500,Make all groupIds equal,886,22867
+1152,69c240cd,FAIL,11,NO,0,NO,0,2015-02-09 19:54:50 -0500,Java source identation,886,22966
+1153,6b17c71a,FAIL,10,NO,0,NO,0,2015-02-09 19:57:50 -0500,Update element order,901,23282
+1154,afbed3e9,FAIL,8,NO,0,NO,0,2015-02-09 20:07:54 -0500,Update Sample Pom names,901,23282
+1155,3109fbe2,FAIL,8,NO,0,NO,0,2015-02-10 12:15:14 -0500,Changed parent artifactId,901,23282
+1156,2614510b,FAIL,9,NO,0,NO,0,2015-02-10 16:17:46 -0500,Added top level READMEs for each spec group,901,23282
+1157,034513f9,FAIL,11,NO,0,NO,0,2015-02-13 13:32:06 -0500,Update pom.xml name based on folder structure,901,23278
+1158,9692eb74,FAIL,13,NO,0,NO,0,2015-02-13 10:34:51 -0800,Merge pull request #289 from rafabene/JDF-802,901,23278
+1159,4cfb36a8,FAIL,13,NO,0,NO,0,2015-02-23 14:20:38 +0100,Merge pull request #1 from javaee-samples/master,901,23278
+1160,4cc2cccd,FAIL,11,NO,0,NO,0,2015-02-23 18:02:03 +0100,Added test to see if a logout from the web propagates to EJB,903,23335
+1161,038b3a89,FAIL,12,NO,0,NO,0,2015-02-23 09:06:36 -0800,Merge pull request #290 from arjantijms/master,903,23335
+1162,53bd58c1,FAIL,15,NO,0,NO,0,2015-02-23 22:22:32 +0100,Merge pull request #2 from javaee-samples/master,903,23335
+1163,9a6f1195,FAIL,14,NO,0,NO,0,2015-02-25 12:33:26 +0100,Update to Groovy 2.3.0,903,23335
+1164,25f81c09,FAIL,14,NO,0,NO,0,2015-03-10 19:19:07 +0100,Adding @radcortez video for issues #279 #264,903,23335
+1165,69afae8a,FAIL,13,NO,0,NO,0,2015-03-10 11:29:36 -0700,Merge pull request #294 from kubamarchwicki/documentation,903,23335
+1166,b3ae40f9,FAIL,15,NO,0,NO,0,2015-03-27 23:13:03 +0100,Renaming oryginal samples,903,23335
+1167,fa235833,FAIL,14,NO,0,NO,0,2015-03-27 23:13:29 +0100,Adding programmatic timer sample,905,23408
+1168,e32c3317,FAIL,13,NO,0,NO,0,2015-03-28 00:08:54 +0100,Adding multiple timers sample,909,23546
+1169,e24189d4,FAIL,12,NO,0,NO,0,2015-03-28 00:21:10 +0100,Removing code duplications,910,23534
+1170,9ea4cd57,FAIL,14,NO,0,NO,0,2015-03-28 10:21:03 +0100,Switching to builder pattern when creating ScheduleExpression,910,23534
+1171,9def070b,FAIL,14,NO,0,NO,0,2015-03-28 10:21:34 +0100,Renaming methods in MultipleScheduleTimerBean,910,23534
+1172,b89f18fc,FAIL,12,NO,0,NO,0,2015-03-30 09:15:11 -0400,Merge pull request #296 from airborn/ejb-timers,910,23534
+1173,7018631b,FAIL,13,NO,0,NO,0,2015-04-16 23:16:16 +0200,Merge pull request #3 from javaee-samples/master,910,23534
+1174,eb748371,FAIL,13,NO,0,NO,0,2015-04-20 01:04:22 +0200,Added profile for Liberty and adjusted JASPIC tests to be explicitly compatible with a limitation in Liberty that group to role mapping files are required and can only appear in an EAR.,910,23546
+1175,66075151,FAIL,14,NO,0,NO,0,2015-04-20 01:41:05 +0200,"Oops, forgot to adjust the JACC tests for the change from WebArchive to Archive.",910,23548
+1176,41c735ee,FAIL,18,NO,0,NO,0,2015-04-21 08:42:20 -0700,Merge pull request #299 from arjantijms/master,910,23548
+1177,969f1c97,FAIL,14,NO,0,NO,0,2015-04-21 08:43:06 -0700,Merge pull request #292 from aslakknutsen/groovy,910,23548
+1178,30bcf186,FAIL,14,NO,0,NO,0,2015-04-24 12:36:12 -0700,Added jobXML_1_0.xsd location,910,23548
+1179,309d1e85,FAIL,12,NO,0,NO,0,2015-04-24 13:05:05 -0700,Merge pull request #300 from alexeykazakov/batchSchemaLocation,910,23548
+1180,f9fdd135,FAIL,12,NO,0,NO,0,2015-04-26 18:50:20 +0200, #298 Added WebLogic profile and documentation on how to use it,910,23548
+1181,6a227090,FAIL,13,NO,0,NO,0,2015-05-20 00:53:56 +0200,Added JASPIC tests that test whether a SAM can forward and include several kinds of resources,931,24018
+1182,f845342e,FAIL,13,NO,0,NO,0,2015-05-22 00:53:20 +0200,Added tests for a custom principal and HttpServletRequest.getUserPrincipal,939,24249
+1183,557de805,FAIL,13,NO,0,NO,0,2015-05-22 08:41:18 +0200,Merge pull request #303 from arjantijms/jaspic,939,24249
+1184,0dae7759,FAIL,13,NO,0,NO,0,2015-05-25 16:13:41 +0200,"added cdi/events-conditional-reception, clarified cdi/events test",944,24307
+1185,5dc61439,FAIL,13,NO,0,NO,0,2015-05-25 08:00:40 -0700,Merge pull request #304 from rhanus/master,944,24307
+1186,a983cadc,FAIL,12,NO,0,NO,0,2015-05-26 16:33:08 +0200,added cdi/instance,948,24350
+1187,70bf0f84,FAIL,13,NO,0,NO,0,2015-05-26 16:46:15 +0200,added cdi/instance-qualifiers,954,24423
+1188,0b69631f,FAIL,15,NO,0,NO,0,2015-05-26 07:47:39 -0700,Merge pull request #305 from rhanus/master,954,24423
+1189,f3938d78,FAIL,16,NO,0,NO,0,2015-05-26 18:05:47 +0200,changed travis build,954,24423
+1190,96afe6e2,FAIL,15,NO,0,NO,0,2015-05-26 18:22:19 +0200,"added ""install"" command to override travis defaults",954,24423
+1191,ddc23e05,FAIL,16,NO,0,NO,0,2015-05-26 19:20:42 +0200,"removed the ""quiet"" flag so that travis doesn't time out",954,24423
+1192,70a30ccb,FAIL,14,NO,0,NO,0,2015-05-27 13:24:08 +0200,"Removed ""travis_wait""",954,24423
+1193,fa597db5,FAIL,14,NO,0,NO,0,2015-05-27 15:39:54 +0200,Use new travis CI infrastructure,954,24423
+1194,6f97ceb2,FAIL,14,NO,0,NO,0,2015-05-27 16:57:57 +0200,fixed test of both cdi/instance and cdi/instance-qualifiers in accordance with bartoszmajsak and johnament suggestions,956,24474
+1195,8c511db1,FAIL,13,NO,0,NO,0,2015-05-28 00:17:26 +0200,try to combine quiet and travis_wait,954,24423
+1196,f67cb672,FAIL,14,NO,0,NO,0,2015-05-28 00:42:12 +0200,Update .travis.yml,954,24423
+1197,c15550e2,FAIL,12,NO,0,NO,0,2015-05-28 00:43:49 +0200,send STDERR to STDOUT,954,24423
+1198,0ef4d6eb,FAIL,14,NO,0,NO,0,2015-05-28 01:36:31 +0200,set log level to info,954,24423
+1199,e6679a9d,FAIL,15,NO,0,NO,0,2015-05-28 02:13:11 +0200,filter out log lines starting with DEBUG or INFO,954,24423
+1200,78a7eee6,FAIL,15,NO,0,NO,0,2015-05-28 08:51:19 +0200,Switch to wildfly-embedded-arquillian for the moment,954,24423
+1201,c523396a,FAIL,14,NO,0,NO,0,2015-05-28 10:02:21 +0200,Update .travis.yml,954,24423
+1202,f514f55d,FAIL,14,NO,0,NO,0,2015-05-29 23:16:12 +0200,introduced separate builds per subfolder,954,24423
+1203,c929944f,FAIL,13,NO,0,NO,0,2015-06-05 21:35:45 +0200,Extract folder housekeeping,954,24425
+1204,e15ffd5b,FAIL,13,NO,0,NO,0,2015-06-05 23:18:04 +0200,ParameterRule for Arquillian junit tests,956,24496
+1205,98022871,FAIL,14,NO,0,NO,0,2015-06-05 23:21:03 +0200,Moving all Spock tests into a separate project in extras,958,24595
+1206,fc30c0ed,FAIL,10,NO,0,NO,0,2015-06-05 23:34:48 +0200,Moving groovy / Spock dependencies to an extra/spock-tests/pom.xml,958,24595
+1207,cfe64e3d,FAIL,10,NO,0,NO,0,2015-06-05 23:51:46 +0200,Clarifing the README.md on Spock tests and Groovy dependency,958,24595
+1208,227c82f9,FAIL,15,NO,0,NO,0,2015-06-06 12:48:30 +0200,Switched to glassfish-embedded-arquillian,954,24423
+1209,c7e69f5b,FAIL,14,NO,0,NO,0,2015-06-07 15:11:38 +0200,Merge branch 'master' of https://github.com/javaee-samples/javaee7-samples,956,24474
+1210,acf7790b,FAIL,12,NO,0,NO,0,2015-06-11 16:39:19 -0500,Remove hard coded port from websockets samples,954,24423
+1211,983ce756,FAIL,12,NO,0,NO,0,2015-06-11 16:55:02 -0500,Remove extra / from URL,954,24423
+1212,2f4e7919,FAIL,13,NO,0,NO,0,2015-06-18 12:25:57 +0100,Updated TomEE version to 7.0.0-M1,954,24423
+1213,5140ac17,FAIL,12,NO,0,NO,0,2015-06-19 13:32:24 -0500,Merge branch 'master' of https://github.com/javaee-samples/javaee7-samples,954,24423
+1214,29aeea05,FAIL,13,NO,0,NO,0,2015-06-19 16:18:20 -0500,Fix jaxrs-moxy pom,954,24423
+1215,5135f038,FAIL,13,NO,0,NO,0,2015-06-19 16:23:31 -0500,"Revert ""Fix jaxrs-moxy pom""",954,24423
+1216,4ec30e2b,FAIL,12,NO,0,NO,0,2015-06-19 17:30:12 -0500,Update Liberty Container with reference clients,954,24423
+1217,b3dd29be,FAIL,12,NO,0,NO,0,2015-06-23 22:38:24 -0400,Merge pull request #307 from rhanus/master,956,24474
+1218,6d194bcd,FAIL,10,NO,0,NO,0,2015-06-23 22:41:04 -0400,Merge pull request #310 from kubamarchwicki/spock-tests,960,24646
+1219,a63598d3,FAIL,11,NO,0,NO,0,2015-06-23 22:43:20 -0400,Merge pull request #311 from alexsm82/master,960,24646
+1220,06dbcfb7,FAIL,9,NO,0,NO,0,2015-06-27 22:32:11 +0200,fixed project's naming conventions,960,24646
+1221,4c3d5a62,FAIL,12,NO,0,NO,0,2015-07-02 10:04:24 -0500,Update Liberty Pom with json processing client,954,24423
+1222,b4ccfd36,FAIL,13,NO,0,NO,0,2015-07-02 12:33:55 -0500,Fix formatting,954,24423
+1223,a05d7eb4,FAIL,9,NO,0,NO,0,2015-07-02 13:09:28 -0700,Merge pull request #314 from alexsm82/master,960,24646
+1224,b376ada5,FAIL,9,NO,0,NO,0,2015-07-04 18:02:24 +0200,Merge branch 'master' of https://github.com/javaee-samples/javaee7-samples,960,24646
+1225,bf4482d3,FAIL,10,NO,0,NO,0,2015-07-07 18:27:23 +0200,refactored cdi-beanmanager sample to use Arquillian exclusively instead of WebServlet,958,24556
+1226,6b84efd4,FAIL,12,NO,0,NO,0,2015-07-08 10:44:20 +0200,refactored cdi-beanmanager sample to use Arquillian exclusively instead of WebServlet,958,24556
+1227,5669bb36,FAIL,11,NO,0,NO,0,2015-07-08 10:41:24 -0700,Merge pull request #315 from rhanus/master,958,24556
+1228,7f602974,FAIL,11,NO,0,NO,0,2015-07-09 14:19:08 +0200,refactored cdi-vetoed sample to use Arquillian exclusively instead of WebServlet,958,24544
+1229,970cade3,FAIL,10,NO,0,NO,0,2015-07-15 15:20:47 +0200,Use paths relative to project directory - Fixes #316,958,24559
+1230,e86d98f6,FAIL,10,NO,0,NO,0,2015-07-16 09:31:20 -0700,Merge pull request #317 from AndreaGencova/master,958,24559
+1231,2b478e84,FAIL,9,NO,0,NO,0,2015-08-19 13:20:33 +0100,#319. Add the CDDL license back to the original list of files.,958,24563
+1232,90efe3f8,FAIL,10,NO,0,NO,0,2015-09-15 18:31:45 +0300,programmatic servlet registration fix,958,24513
+1233,74a13b2e,FAIL,10,NO,0,NO,0,2015-09-15 21:18:57 +0100,Merge pull request #321 from orelgenya/master,958,24513
+1234,3d63ed03,FAIL,10,NO,0,NO,0,2015-09-16 00:13:33 +0300,url mapping fix,958,24513
+1235,71a68f44,FAIL,10,NO,0,NO,0,2015-09-15 22:34:50 +0100,Merge pull request #322 from orelgenya/master,958,24513
+1236,5a9b9d97,FAIL,11,NO,0,NO,0,2015-11-05 19:16:27 +0100,Added extra comments and failure explanations,958,24541
+1237,c617bc24,FAIL,9,NO,0,NO,0,2015-11-07 23:06:16 +0100,Formatting for Liberty profile,958,24541
+1238,c366a6ef,FAIL,10,NO,0,NO,0,2015-11-08 22:34:06 +0100,"Naming, formatting and moved one test method",958,24541
+1239,a68b415a,FAIL,10,NO,0,NO,0,2015-11-09 09:11:07 +0100,Merge pull request #328 from arjantijms/master,958,24541
+1240,b616a52a,FAIL,10,NO,0,NO,0,2015-11-09 09:49:49 +0100,Start with adding invoker test. WIP,965,24685
+1241,72702963,FAIL,10,NO,0,NO,0,2015-11-09 18:06:08 +0100,Added test for obtaining and invoking EJB and CDI beans from a SAM,968,24788
+1242,5f53c523,FAIL,11,NO,0,NO,0,2015-11-10 09:05:59 +0100,Merge pull request #329 from arjantijms/master,968,24788
+1243,fad4e9b8,FAIL,10,NO,0,NO,0,2015-11-12 18:09:21 +0100,Changed login to doLogin=true for Liberty compatibility,968,24788
+1244,065bb599,FAIL,11,NO,0,NO,0,2015-11-12 18:32:42 +0100,Renamed incorrectly named test method,968,24788
+1245,dae0efe9,FAIL,10,NO,0,NO,0,2015-11-12 18:35:21 +0100,Updated instructions for Liberty,968,24788
+1246,3f52c359,FAIL,11,NO,0,NO,0,2015-11-13 01:29:44 +0100,Merge pull request #330 from arjantijms/master,968,24788
+1247,771b724b,FAIL,11,NO,0,NO,0,2015-11-13 22:42:32 +0100,More complete failure messages and try/catch around protected EJB calls,968,24843
+1248,0b303a05,FAIL,11,NO,0,NO,0,2015-11-14 11:52:43 +0100,Added query parameter values for Liberty in default configuration,968,24843
+1249,78b56682,FAIL,10,NO,0,NO,0,2015-11-15 00:33:52 +0100,Merge pull request #331 from arjantijms/master,968,24843
+1250,64e9774f,FAIL,11,NO,0,NO,0,2015-11-15 23:43:08 +0100,Added test to see if SAM can set a status code into the response,974,24956
+1251,b925063e,FAIL,9,NO,0,NO,0,2015-11-16 08:46:29 +0100,Merge pull request #332 from arjantijms/master,974,24956
+1252,4391bdeb,FAIL,10,NO,0,NO,0,2015-11-25 00:45:21 +0100,JPA test for aggregate functions in select clause,978,25054
+1253,f503dc7c,FAIL,10,NO,0,NO,0,2015-11-25 01:01:29 +0100,Formatting,978,25054
+1254,07cad232,FAIL,9,NO,0,NO,0,2015-11-25 16:21:07 +0100,Merge pull request #333 from arjantijms/master,978,25054
+1255,24b94df9,FAIL,9,NO,0,NO,0,2015-12-01 01:10:47 +0100,Added test to see if authentication propagates from JASPIC to JACC,985,25239
+1256,6deca13a,FAIL,10,NO,0,NO,0,2015-12-01 18:56:24 +0100,Merge pull request #335 from arjantijms/master,985,25239
+1257,b4bfc05b,FAIL,9,NO,0,NO,0,2016-04-08 15:33:10 +0200,Added tests for JASPIC register session with custom principal,987,25323
+1258,345b8a71,FAIL,9,NO,0,NO,0,2016-04-08 23:57:05 +0200,Merge pull request #344 from arjantijms/master,987,25323
+1259,e7a3b436,FAIL,9,NO,0,NO,0,2016-04-29 18:59:03 +0200,Added JASPIC tests for EJB propagation after register session,993,25532
+1260,3568d3a8,FAIL,11,NO,0,NO,0,2016-05-01 22:08:05 +0200,Added assertion messages for JASPIC register session test,993,25540
+1261,fd8bb4d6,FAIL,11,NO,0,NO,0,2016-05-01 22:09:30 +0200,Added printing of last response for JASPIC tests and updated .gitignore,993,25567
+1262,8fa3d676,FAIL,10,NO,0,NO,0,2016-05-01 23:08:03 +0200,Merge pull request #347 from arjantijms/master,993,25567
+1263,71635cbe,FAIL,10,NO,0,NO,0,2016-05-01 20:21:33 -0400,#348 Upgraded to 7 M3 for TomEE,993,25567
+1264,40db02ad,FAIL,10,NO,0,NO,0,2016-05-09 00:49:31 +0200,Applied @rmannibucau changes for TomEE profile and added comments,993,25570
+1265,fff02d35,FAIL,10,NO,0,NO,0,2016-05-12 23:25:23 +0200,Merge pull request #350 from arjantijms/master,993,25570
+1266,8f0ad364,FAIL,10,NO,0,NO,0,2016-05-19 18:53:59 +0200,Use the correct instances to destroy CDI beans obtained from Instances.,993,25573
+1267,ae578b3f,FAIL,10,NO,0,NO,0,2016-05-31 16:59:29 +0200,Updated TomEE version to 7.0.0,993,25570
+1268,a96abcae,FAIL,9,NO,0,NO,0,2016-05-31 18:10:35 +0200,Merge pull request #352 from arjantijms/master,993,25570
+1269,654dcb70,FAIL,9,NO,0,NO,0,2016-07-07 17:27:05 +0200,Added initial JASPIC test for request.authenticate,997,25704
+1270,93b0df11,FAIL,11,NO,0,NO,0,2016-07-07 19:04:38 +0200,Merge pull request #353 from arjantijms/master,997,25704
+1271,8b10dcdb,FAIL,8,NO,0,NO,0,2016-07-07 20:17:34 +0200,Updated TomEE and GlassFish versions,997,25704
+1272,170c9e07,FAIL,8,NO,0,NO,0,2016-07-08 11:54:55 +0200,"Added profile for ""managed-embedded"" Liberty server",997,25704
+1273,5380ed44,FAIL,9,NO,0,NO,0,2016-07-08 12:07:45 +0200,Corrected wrongly removed modules,997,25704
+1274,9efdf0e4,FAIL,10,NO,0,NO,0,2016-07-08 13:45:23 +0200,Updated readme with Liberty embedded profile and how to run single tests,997,25704
+1275,e6200f83,FAIL,10,NO,0,NO,0,2016-07-08 16:34:17 +0200,Merge pull request #354 from arjantijms/master,997,25704
+1276,d25a239c,FAIL,10,NO,0,NO,0,2016-07-13 01:27:02 +0200,Added JASPIC test for CDI bean called from SAM using injected request,997,25727
+1277,67c5d9c0,FAIL,10,NO,0,NO,0,2016-07-13 01:33:35 +0200,Merge pull request #355 from arjantijms/master,997,25727
+1278,b8569195,FAIL,10,NO,0,NO,0,2016-07-14 21:52:22 +0200,Extended JASPIC CDI forward test with check for servlet path,997,25771
+1279,58cf7e99,FAIL,9,NO,0,NO,0,2016-07-14 22:15:06 +0200,Merge pull request #356 from arjantijms/master,997,25771
+1280,adb11ac0,FAIL,10,NO,0,NO,0,2016-07-24 12:57:03 +0200,Documented the existence of the wildfly embedded profile,997,25771
+1281,a99b7935,FAIL,10,NO,0,NO,0,2016-07-24 13:04:58 +0200,Merge pull request #358 from arjantijms/master,997,25771
+1282,1718e664,FAIL,9,NO,0,NO,0,2016-09-22 17:17:17 +0200,merge,998,25797
+1283,9755fe71,FAIL,9,NO,0,NO,0,2016-09-22 17:45:50 +0200,cdi/vetoed completed,997,25759
+1284,959b10de,FAIL,8,NO,0,NO,0,2016-09-23 17:52:41 +0200,added license header,997,25759
+1285,cca87f54,FAIL,11,NO,0,NO,0,2016-10-03 11:52:27 +0200,Added JASPIC test for isMandatory,999,25818
+1286,c37cd05a,FAIL,10,NO,0,NO,0,2016-10-03 18:34:24 +0200,Merge pull request #363 from arjantijms/master,999,25818
+1287,ba0fdffa,SUCCESS,71,FAIL,26,NO,0,2016-10-05 00:19:43 +0200,"#364 Updated many versions of dependencies and plug-ins, added comments",999,25818
+1288,886096e8,SUCCESS,53,FAIL,60,NO,0,2016-10-05 11:07:30 +0200,Fixed compile error because of removed method in newer shrinkwrap,999,25818
+1289,83b016ec,SUCCESS,50,SUCCESS,63,FAIL,17,2016-10-05 19:32:51 +0200,Fixed another compilation error,999,25818
+1290,be0ca0fe,SUCCESS,53,SUCCESS,57,FAIL,16,2016-10-06 00:13:36 +0200,Merge pull request #365 from arjantijms/master,999,25818
+1291,94bbb872,SUCCESS,49,SUCCESS,55,FAIL,15,2016-10-06 00:18:57 +0200,Merge pull request #362 from rhanus/master,999,25806
+1292,afe04052,SUCCESS,49,SUCCESS,55,FAIL,17,2016-10-06 00:25:11 +0200,Merge pull request #351 from robertpanzer/cdi_tests_tomee,999,25809
+1293,47af6d9d,SUCCESS,48,SUCCESS,63,FAIL,17,2016-10-08 18:27:22 +0200,Added Tomcat remote profile and added condition to JASPIC tests for it.,1004,25935
+1294,93569a3a,SUCCESS,62,SUCCESS,61,FAIL,16,2016-10-08 18:30:07 +0200,Fixed typo,1004,25935
+1295,83c711d6,SUCCESS,46,SUCCESS,55,FAIL,15,2016-10-08 22:23:07 +0200,Defaults for skipEJB etc to work together with global skipTests,1004,25935
+1296,11cd5449,SUCCESS,48,SUCCESS,56,FAIL,18,2016-10-09 14:23:31 +0200,Merge pull request #366 from arjantijms/master,1004,25935
+1297,ef99f0a0,SUCCESS,57,SUCCESS,56,FAIL,13,2016-10-09 23:08:55 +0200,Added Tomcat ci-managed profile,1004,25935
+1298,a386e8b1,SUCCESS,47,SUCCESS,58,FAIL,16,2016-10-10 00:25:19 +0200,Merge pull request #367 from arjantijms/master,1004,25935
+1299,dd025f36,SUCCESS,54,SUCCESS,62,FAIL,18,2016-10-10 10:29:46 +0200,Added snapshot repo for TomEE to test nightlies like 7.0.2-SNAPSHOT,1004,25935
+1300,fe85e711,SUCCESS,57,SUCCESS,55,FAIL,16,2016-10-18 23:14:42 +0200,Added JASPIC test for request/response wrapping in filters,1006,26003
+1301,d5e11fa0,SUCCESS,51,SUCCESS,60,FAIL,15,2016-10-18 23:18:37 +0200,Merge pull request #368 from arjantijms/master,1006,26003
+1302,e563f92a,SUCCESS,50,SUCCESS,59,FAIL,17,2017-01-17 22:00:02 +0100,Add support for Payara,1006,26003
+1303,7df796a1,SUCCESS,53,SUCCESS,53,FAIL,14,2017-04-12 18:40:36 +0200,Reduced amount of tests that depend on (external) server specifics.,1007,26089
+1304,ff27adfc,SUCCESS,50,SUCCESS,58,FAIL,16,2017-04-12 18:48:39 +0200,Merge pull request #377 from arjantijms/master,1007,26089
+1305,9b2d5477,SUCCESS,51,SUCCESS,58,FAIL,18,2017-04-12 18:48:56 +0200,Merge pull request #376 from pdudits/payara-support,1007,26089
+1306,d48ac359,SUCCESS,52,SUCCESS,51,FAIL,300,2017-04-13 00:46:21 +0200,"Added Payara ci managed target, simplified pom.xml, moved JSF sample",1007,26089
+1307,b87203ad,SUCCESS,44,SUCCESS,52,FAIL,301,2017-04-13 00:52:45 +0200,Merge pull request #378 from arjantijms/master,1007,26089
+1308,db434d00,SUCCESS,46,SUCCESS,48,FAIL,301,2017-04-13 01:07:31 +0200,Update README.md,1007,26089
+1309,3f7cf4bc,SUCCESS,52,SUCCESS,47,FAIL,300,2017-04-13 01:10:29 +0200,Update README.md,1007,26089
+1310,d7371b69,SUCCESS,47,SUCCESS,48,FAIL,301,2017-04-13 01:22:10 +0200,Update README.md,1007,26089
+1311,ad5f9fff,SUCCESS,46,SUCCESS,55,FAIL,301,2017-04-13 14:38:37 +0200,Unpacking of Payara to root to save diskspace in travis,1007,26089
+1312,c4f2a95e,SUCCESS,51,SUCCESS,54,FAIL,301,2017-04-13 14:48:03 +0200,Merge pull request #379 from arjantijms/master,1007,26089
+1313,7efde05c,SUCCESS,48,SUCCESS,49,FAIL,301,2017-04-14 01:38:05 +0200,"Use ""-projects"" instead of CD'ing into test folders",1007,26089
+1314,9df2b8a7,SUCCESS,46,SUCCESS,45,FAIL,301,2017-04-14 01:38:05 +0200,"Use ""-projects"" instead of CD'ing into test folders",1007,26089
+1315,d6271c5f,SUCCESS,47,SUCCESS,51,FAIL,300,2017-04-14 01:40:41 +0200,Merge pull request #380 from arjantijms/master,1007,26089
+1316,4926880b,SUCCESS,49,SUCCESS,50,FAIL,300,2017-04-13 10:51:02 +0200,add a profile for WildFly Swarm,1007,26089
+1317,7bae35fb,SUCCESS,49,SUCCESS,53,FAIL,301,2016-12-08 14:44:49 +0100,add explicit H2 DB dependency to tests that require a database,1007,26089
+1318,eb714b98,SUCCESS,46,SUCCESS,52,FAIL,301,2017-04-13 10:58:28 +0200,"add Swarm-specific resources-* directory to jpa/jpa-converter, similarly to other containers",1007,26089
+1319,8e288ab3,SUCCESS,46,SUCCESS,46,FAIL,302,2017-04-28 15:55:44 +0200,Merge pull request #381 from Ladicek/wildfly-swarm-2,1007,26089
+1320,57ac7015,SUCCESS,48,SUCCESS,49,FAIL,301,2017-05-04 01:03:54 +0200,Several fixes in tests for Payara,1007,26106
+1321,5dac9b9c,SUCCESS,44,SUCCESS,50,FAIL,301,2017-05-04 01:05:06 +0200,Merge pull request #382 from arjantijms/master,1007,26106
+1322,9aad1217,SUCCESS,51,SUCCESS,57,FAIL,301,2017-05-04 12:52:04 +0200,Fixed JpaListenerInjectionTest,1007,26107
+1323,513dc558,SUCCESS,46,SUCCESS,52,FAIL,301,2017-05-04 12:53:52 +0200,Merge pull request #383 from arjantijms/master,1007,26107
+1324,763005e4,SUCCESS,49,SUCCESS,46,FAIL,301,2017-05-04 14:35:18 +0200,Fixed EntityManagerJndiContextTest,1007,26111
+1325,7c64966b,SUCCESS,48,SUCCESS,54,FAIL,301,2017-05-04 14:36:12 +0200,Merge pull request #384 from arjantijms/master,1007,26111
+1326,93f47119,SUCCESS,52,SUCCESS,47,FAIL,301,2017-05-05 13:01:08 +0200,Fixed LockingOptimisticTest,1007,26159
+1327,6e27fa2f,SUCCESS,48,SUCCESS,51,FAIL,301,2017-05-05 13:01:43 +0200,Merge pull request #385 from arjantijms/master,1007,26159
+1328,7fae17e7,SUCCESS,48,SUCCESS,47,FAIL,301,2017-05-05 22:15:22 +0200,Added dummy column for entity for EclipseLink.,1007,26169
+1329,4f5f8fd8,SUCCESS,42,SUCCESS,45,FAIL,301,2017-05-05 22:16:09 +0200,Merge pull request #386 from arjantijms/master,1007,26169
+1330,50dc59d8,SUCCESS,51,SUCCESS,50,FAIL,300,2017-05-06 07:22:08 +0200,Added empty beans.xml to PuTypesafeTest so it runs everywhere,1007,26180
+1331,3f50e1d8,SUCCESS,47,SUCCESS,46,FAIL,301,2017-05-06 07:23:39 +0200,Merge pull request #387 from arjantijms/master,1007,26180
+1332,a570b3af,SUCCESS,50,SUCCESS,52,FAIL,301,2017-05-06 12:44:38 +0200,SchemaGenScriptsTest updated to take lazy init providers into account,1008,26182
+1333,42abffb3,SUCCESS,50,SUCCESS,50,FAIL,301,2017-05-06 12:45:41 +0200,Merge pull request #388 from arjantijms/master,1008,26182
+1334,1fb8e0d3,SUCCESS,44,SUCCESS,45,FAIL,302,2017-05-06 13:26:01 +0200,SchemaGenIndexTest updated to take lazy init providers into account,1009,26195
+1335,cfc529c3,SUCCESS,47,SUCCESS,51,FAIL,301,2017-05-06 13:26:30 +0200,Merge pull request #389 from arjantijms/master,1009,26195
+1336,6daa7447,SUCCESS,49,SUCCESS,51,FAIL,301,2017-05-06 16:53:03 +0200,Simplified JPA converter test,1009,26184
+1337,edaa0d36,SUCCESS,52,SUCCESS,49,FAIL,301,2017-05-06 16:53:36 +0200,Merge pull request #390 from arjantijms/master,1009,26184
+1338,ec5a56c1,SUCCESS,45,SUCCESS,50,FAIL,300,2017-05-07 22:37:55 +0200,Fixed many issues in the Servlet security tests,1010,26221
+1339,7b8b87b9,SUCCESS,48,SUCCESS,54,FAIL,301,2017-05-07 22:41:49 +0200,Merge pull request #391 from arjantijms/master,1010,26221
+1340,aef822d8,SUCCESS,50,SUCCESS,52,FAIL,301,2017-05-17 18:06:17 +0200,define the Surefire Maven plugin version to avoid warnings,1010,26221
+1341,1a27cb5e,SUCCESS,44,SUCCESS,44,FAIL,301,2017-05-17 18:18:32 +0200,Merge pull request #392 from Ladicek/define-surefire-version,1010,26221
+1342,faae0737,SUCCESS,44,SUCCESS,45,FAIL,301,2017-05-24 01:31:08 +0200,Excluded JSF include tests as their current failure is not due to JASPIC,1010,26217
+1343,4d64337a,SUCCESS,45,SUCCESS,50,FAIL,301,2017-05-24 01:31:45 +0200,Merge pull request #395 from arjantijms/master,1010,26217
+1344,a3b254bd,SUCCESS,46,SUCCESS,49,FAIL,301,2017-05-25 10:41:10 +0200,Added session printing to register session test,1010,26229
+1345,cf865487,SUCCESS,48,SUCCESS,55,FAIL,301,2017-05-25 10:41:40 +0200,Merge pull request #396 from arjantijms/master,1010,26229
+1346,2204c37c,FAIL,31,NO,0,NO,0,2017-05-29 16:16:20 +0200,Improved and cleaned-up JMS-XA test,1010,26229
+1347,add7c1f9,SUCCESS,46,SUCCESS,51,FAIL,301,2017-05-29 16:21:08 +0200,Replaced JB specific connection factories and DS with spec compliant one,1010,26238
+1348,855ee7a2,SUCCESS,53,SUCCESS,49,FAIL,301,2017-05-29 16:21:54 +0200,Merge pull request #397 from arjantijms/master,1010,26238
+1349,4b8f09d4,SUCCESS,48,SUCCESS,48,FAIL,300,2017-05-29 16:52:27 +0200,Small formatting change,1010,26238
+1350,21678347,SUCCESS,47,SUCCESS,50,FAIL,301,2017-05-29 16:54:38 +0200,Removed unnecessary server specific files,1010,26238
+1351,c871e33e,SUCCESS,53,SUCCESS,44,FAIL,301,2017-05-29 16:57:29 +0200,Imports and formatting,1010,26236
+1352,c0e24837,SUCCESS,47,SUCCESS,46,FAIL,301,2017-05-29 17:07:36 +0200,Merge pull request #398 from arjantijms/master,1010,26236
+1353,e459cc91,SUCCESS,45,SUCCESS,48,FAIL,301,2017-05-29 18:57:15 +0200,Made batch tests more robust against timeout and races,1011,26407
+1354,f964125f,SUCCESS,48,SUCCESS,54,FAIL,301,2017-05-29 19:15:46 +0200,Merge pull request #399 from arjantijms/master,1011,26407
+1355,c715338c,SUCCESS,50,SUCCESS,46,FAIL,301,2017-05-30 13:54:15 +0200,Cleaned up jaxrs decl security test and updated to html unit,1011,26389
+1356,289e8428,SUCCESS,44,SUCCESS,48,FAIL,300,2017-05-30 13:55:38 +0200,Merge pull request #400 from arjantijms/master,1011,26389
+1357,94f35d29,SUCCESS,41,SUCCESS,48,FAIL,301,2017-06-07 17:45:30 +0200,Updated JAX-RS client validation sample to be more compatible,1011,26383
+1358,40302155,SUCCESS,46,SUCCESS,48,FAIL,301,2017-06-07 17:49:07 +0200,Merge pull request #401 from arjantijms/master,1011,26383
+1359,b25a8d28,SUCCESS,47,SUCCESS,53,FAIL,301,2017-06-07 20:02:58 +0200,Improved compatibility with provider injection,1011,26392
+1360,28e22b30,SUCCESS,50,SUCCESS,48,FAIL,301,2017-06-07 20:03:54 +0200,Merge pull request #402 from arjantijms/master,1011,26392
+1361,4924191c,SUCCESS,49,SUCCESS,49,FAIL,301,2017-06-07 22:34:41 +0200,Moved unreferenced Jersey specific modules to extras,1011,26392
+1362,d8af87f0,SUCCESS,48,SUCCESS,63,FAIL,301,2017-06-07 22:45:50 +0200,Merge pull request #403 from arjantijms/master,1011,26392
+1363,9f1d449e,SUCCESS,47,SUCCESS,45,FAIL,301,2017-06-09 22:43:48 +0200,Re-organized JCA test and improved compatibility,1011,26449
+1364,d2989877,SUCCESS,47,SUCCESS,48,FAIL,301,2017-06-09 22:47:55 +0200,Merge pull request #404 from arjantijms/master,1011,26449
+1365,457c4b22,SUCCESS,45,SUCCESS,48,FAIL,300,2017-06-10 17:28:37 +0200,Increased robustness of scheduled batch tests,1012,26488
+1366,66fae6e5,SUCCESS,46,SUCCESS,45,FAIL,301,2017-06-10 17:31:13 +0200,Merge pull request #405 from arjantijms/master,1012,26488
+1367,63182cef,SUCCESS,49,SUCCESS,46,FAIL,301,2017-06-11 02:48:50 +0200,Made EJB timer test more robust - guard against missed ping,1012,26481
+1368,41efc091,SUCCESS,45,SUCCESS,50,FAIL,301,2017-06-11 02:49:48 +0200,Merge pull request #406 from arjantijms/master,1012,26481
+1369,98c1e402,SUCCESS,51,SUCCESS,49,FAIL,301,2017-06-11 02:52:18 +0200,Tuned batch tests some more for robustness,1012,26483
+1370,31596567,SUCCESS,48,SUCCESS,47,FAIL,301,2017-06-11 02:52:56 +0200,Merge pull request #407 from arjantijms/master,1012,26483
+1371,8ac88b0c,SUCCESS,46,SUCCESS,50,FAIL,301,2017-06-11 15:16:31 +0200,Reverted loop and added extra timeout attempts,1012,26409
+1372,dce1cd3e,SUCCESS,47,SUCCESS,55,FAIL,301,2017-06-11 15:19:18 +0200,Merge pull request #408 from arjantijms/master,1012,26409
+1373,9e6f8d30,SUCCESS,54,SUCCESS,61,FAIL,12,2017-06-12 02:13:20 +0200,Update Payara Arquillian Container,1012,26409
+1374,63d66758,SUCCESS,47,SUCCESS,54,FAIL,12,2017-06-12 02:14:16 +0200,Merge pull request #409 from arjantijms/master,1012,26409
+1375,a41067ef,SUCCESS,53,SUCCESS,55,FAIL,12,2017-06-12 14:05:12 +0200,Moved password.txt to right folder for security-annotated,1012,26409
+1376,e84e63e5,SUCCESS,56,SUCCESS,59,FAIL,12,2017-06-12 14:07:46 +0200,Maven builds don't have to be quiet,1012,26409
+1377,b78caf7f,SUCCESS,47,SUCCESS,54,FAIL,12,2017-06-12 14:36:19 +0200,Increased JMS temp destination sample timeout and small cleanups,1012,26409
+1378,f74e38e0,SUCCESS,51,SUCCESS,54,FAIL,11,2017-06-12 14:37:48 +0200,Merge pull request #410 from arjantijms/master,1012,26409
+1379,a12ee742,SUCCESS,51,SUCCESS,53,FAIL,12,2017-06-13 02:32:51 +0200,Simplified JMS-XA test somewhat and increased timeout,1011,26353
+1380,6698b294,SUCCESS,53,SUCCESS,57,FAIL,12,2017-06-13 02:37:12 +0200,Merge pull request #411 from arjantijms/master,1011,26353
+1381,69d0436b,SUCCESS,52,SUCCESS,58,FAIL,12,2017-06-13 14:14:05 +0200,Increased tolerance/timeout for EJB timer test,1011,26353
+1382,463e4df6,SUCCESS,52,SUCCESS,56,FAIL,12,2017-06-13 14:15:10 +0200,Merge pull request #412 from arjantijms/master,1011,26353
+1383,d509c9c0,SUCCESS,51,SUCCESS,52,FAIL,12,2017-07-17 17:04:32 -0400,"JBIDE-18578 fix pom and add build.properties file to extra/angularjs/ project, org.javaee7.jaxrs:jaxrs-angularjs",1011,26353
+1384,c29b1ded,SUCCESS,51,SUCCESS,54,FAIL,13,2017-07-17 17:05:38 -0400,not sure which groupId to use here so ... here's another option,1011,26353
+1385,25e01f08,SUCCESS,50,SUCCESS,55,FAIL,11,2017-07-18 00:23:55 +0200,Merge pull request #413 from nickboldt/JBIDE-18578,1011,26353
+1386,1f82b70f,SUCCESS,53,SUCCESS,53,FAIL,12,2017-08-04 18:39:46 +0200,"Unify CDI JarArchive to WebArchive. Arquillian does some transformation if using JavaArchive (transform to WAR and adding some beans.xml automatically, etc). In order to make the archive structure more explicit, unify to use WAR file for CDI cases, adding beans.xml in needed cases",1011,26370
+1387,e665949d,SUCCESS,53,SUCCESS,56,FAIL,11,2017-08-08 00:37:56 +0200,Moved to separate project,965,24826
+1388,d0424cfa,SUCCESS,53,SUCCESS,58,FAIL,12,2017-08-08 00:46:07 +0200,Merge remote-tracking branch 'upstream/master',965,24826
+1389,7496981f,SUCCESS,53,SUCCESS,52,FAIL,13,2017-08-08 00:46:48 +0200,Updated extras project with this accidentally forgotten rev,965,24826
+1390,96808231,SUCCESS,49,SUCCESS,52,FAIL,12,2017-08-07 23:48:18 +0100,Merge pull request #415 from arjantijms/master,965,24826
+1391,3b494367,SUCCESS,52,SUCCESS,59,FAIL,301,2017-08-08 17:22:56 +0200,Updated Payara CI version,965,24826
+1392,bb8ec7c5,SUCCESS,53,SUCCESS,59,FAIL,301,2017-08-08 21:38:30 +0100,Merge pull request #416 from arjantijms/master,965,24826
+1393,6117c6ca,SUCCESS,57,SUCCESS,57,FAIL,301,2017-08-14 16:50:27 +0200,Fix JSF bean validation tests when using non US locale. Using other locale will make test to fail as message will be localized,965,24826
+1394,35e397f4,SUCCESS,51,SUCCESS,53,FAIL,301,2017-08-14 16:44:42 +0100,Merge pull request #417 from juangon/JSF_BEAN_VALIDATION,965,24826
+1395,8f207e2f,SUCCESS,49,SUCCESS,56,FAIL,301,2017-09-07 00:31:44 +0200,Small amount of formatting in poms,965,24826
+1396,50fe33af,SUCCESS,57,SUCCESS,56,FAIL,301,2017-09-07 00:32:36 +0200,Merge pull request #418 from arjantijms/master,965,24826
+1397,4b9738dd,SUCCESS,61,SUCCESS,60,FAIL,301,2017-10-13 16:39:36 -0400,fixed some dependency problems,965,24826
+1398,b635b763,SUCCESS,55,SUCCESS,52,FAIL,300,2017-10-26 11:07:19 +0100,Updated JMS message receive timeouts to 10 seconds,965,24822
+1399,18c7efee,SUCCESS,50,SUCCESS,54,FAIL,301,2017-10-26 12:09:02 +0100,"Made sure errors were correctly thrown, so that receivers don't wait the full duration if sending fails",965,24818
+1400,d551d2dd,SUCCESS,48,SUCCESS,51,FAIL,301,2017-10-26 12:11:58 +0100,"Made resources application scoped, so that they're correctly cleared after undeploy",965,24818
+1401,865c9d4b,SUCCESS,52,SUCCESS,54,FAIL,301,2017-10-26 12:17:25 +0100,Removed netbeans specific file,965,24818
+1402,94d253e7,FAIL,36,NO,0,NO,0,2017-11-07 22:11:19 +0100,Remove generated files,950,24510
+1403,d44e4ded,FAIL,34,NO,0,NO,0,2017-11-07 22:23:37 +0100,Ignoring additional generated files folder,950,24510
+1404,182debd0,FAIL,33,NO,0,NO,0,2017-11-08 15:02:10 +0100,Added sample for adding dynamic interceptor via extension,957,24655
+1405,2400065b,FAIL,42,NO,0,NO,0,2017-11-08 14:06:10 +0000,Merge pull request #421 from arjantijms/master,957,24655
+1406,ad269e0c,FAIL,41,NO,0,NO,0,2017-11-08 14:06:48 +0000,Merge pull request #420 from MattGill98/jms-send-receive-time-dependency-fix,957,24647
+1407,643d2101,FAIL,39,NO,0,NO,0,2017-11-08 14:09:46 +0000,Merge pull request #414 from juangon/CDI_unify_to_WAR,957,24664
+1408,39f0b461,FAIL,43,NO,0,NO,0,2017-11-08 14:10:59 +0000,Merge pull request #419 from gbuckholtz/master,957,24664
+1409,e163a60d,FAIL,39,NO,0,NO,0,2017-11-10 11:15:36 +0100,"Partial revert of 39f0b461b62d459f42179156047ca1082bdb22a4 . Setting version for these artifacts aren't needed (already defined in arquillian bom). Additionally, it causes all tests failing when using Wildfly Swarm",957,24664
+1410,7f87cb83,FAIL,36,NO,0,NO,0,2017-11-11 11:55:25 +0000,Merge pull request #422 from juangon/SWARM-1658,957,24664
+1411,361f55a4,FAIL,43,NO,0,NO,0,2017-11-17 16:27:53 +0100,"Fix some failures using wildfly-swarm profile by upgrading upgrading arquillian and wildfly swarm version. Additionally, cut the dependency from test-utils to parent to avoid unwanted added dependencies",957,24664
+1412,e8c9ed77,FAIL,35,NO,0,NO,0,2017-11-20 17:45:46 +0100,Merge pull request #424 from juangon/SWARM-1675_2,957,24664
+1413,2257940f,FAIL,33,NO,0,NO,0,2018-01-17 10:00:08 +0000,Added Payara Micro container (#425),957,24664
+1414,f61c3217,FAIL,38,NO,0,NO,0,2018-01-27 21:53:49 -0600,"fixed a race condition when the method is invoked too quickly and is never registered as being run, thus making the test wait forever",957,24662
+1415,bc3176d3,FAIL,37,NO,0,NO,0,2018-01-29 19:08:32 +0000,Merge pull request #427 from flowlogix/JMS-Fix,957,24662
+1416,82f56bda,FAIL,46,NO,0,NO,0,2018-02-03 22:18:47 +0100,"Updated Arquillian connector for Payara, fixing classpath bugs",957,24662
+1417,6ef3cb1b,FAIL,36,NO,0,NO,0,2018-02-06 17:08:05 +0000,"PAYARA-2399 Add Tyrus client dependencies to Micro profile, and use @RunAsClient",957,24686
+1418,1bd16d03,FAIL,34,NO,0,NO,0,2018-02-06 17:09:42 +0000,Change @Remote interface to @Local,957,24662
+1419,922abc25,FAIL,35,NO,0,NO,0,2018-02-01 14:13:34 +0000,Skip JAXWS for Micro,957,24662
+1420,fcca5f3f,FAIL,35,NO,0,NO,0,2018-02-06 18:18:21 +0100,Merge pull request #430 from Pandrex247/PAYARA-2399-JaxWs,957,24662
+1421,5f6d6138,FAIL,33,NO,0,NO,0,2018-02-06 18:20:40 +0100,Merge pull request #431 from Pandrex247/PAYARA-2399-Websockets-EE7-Samples,957,24686
+1422,26fa5212,FAIL,35,NO,0,NO,0,2018-02-06 18:25:59 +0100, Fix tabs/spaces in pom.xml and resolve unnoticed merge conflict (#432),957,24685
+1423,70364e5b,FAIL,35,NO,0,NO,0,2018-02-09 18:00:52 +0100,Updated several versions of application servers,957,24685
+1424,d5ba540d,FAIL,37,NO,0,NO,0,2018-02-23 16:58:38 +0100,Skipping JAX-WS tests for Micro and updating versions,957,24685
+1425,2b54f0fe,FAIL,35,NO,0,NO,0,2018-02-26 17:59:44 +0100,Added files to add security test users to Payara Micro,957,24685
+1426,dd55a70e,FAIL,39,NO,0,NO,0,2018-02-26 20:22:27 +0100,Update Arquillian connectors for Payara to m3,957,24685
+1427,e200bd86,FAIL,38,NO,0,NO,0,2018-02-27 16:46:49 +0100,Cleaning up several tests,957,24681
+1428,66eff5f4,FAIL,36,NO,0,NO,0,2018-04-10 14:23:51 +0100,Update README.md,957,24681
+1429,32f8b545,FAIL,36,NO,0,NO,0,2018-05-15 17:08:50 +0200," Initial JAX-RPC sample, for historical purposes only (#434)",960,24713
+1430,16a73824,FAIL,34,NO,0,NO,0,2018-05-15 22:08:42 +0200,Created actual test archive in test for JAX-RPC,960,24724
+1431,a291e9ff,FAIL,33,NO,0,NO,0,2018-05-15 22:09:15 +0200,Resource ordering for JAX-RPC test,960,24724
+1432,f11ff2de,FAIL,34,NO,0,NO,0,2018-05-16 20:29:47 +0200,Added actual test methods for JAX-RPC,960,24759
+1433,fb0cc91e,FAIL,34,NO,0,NO,0,2018-05-16 20:31:32 +0200,Survey has ended,960,24759
+1434,a737e859,FAIL,38,NO,0,NO,0,2018-05-29 00:56:52 +0200,Added test for JAX-RPC security,965,24865
+1435,7a3202bb,FAIL,35,NO,0,NO,0,2018-05-29 01:11:40 +0200,Updated readme,965,24865
+1436,65fc6a73,FAIL,35,NO,0,NO,0,2018-05-29 01:12:35 +0200,Update README.md,965,24865
+1437,3d707372,FAIL,35,NO,0,NO,0,2018-05-29 11:42:06 +0200,Some cleanups,960,24779
+1438,cbd30dc2,FAIL,37,NO,0,NO,0,2018-05-29 11:42:22 +0200,Merge branch 'master' of git@github.com:javaee-samples/javaee7-samples.git,965,24885
+1439,c20bf736,FAIL,41,NO,0,NO,0,2018-06-21 22:53:56 +0200,Added test for Servlet client-cert authentication,967,25168
+1440,18700e89,FAIL,42,NO,0,NO,0,2018-06-22 09:16:38 +0200,Removed usage of closeAllWindows() method,967,25168
+1441,9b8de717,FAIL,37,NO,0,NO,0,2018-07-05 17:05:30 +0200,Added tests for CDI decorators,971,24977
+1442,c9027f87,FAIL,37,NO,0,NO,0,2018-07-05 17:05:48 +0200,Merge branch 'master' of git@github.com:javaee-samples/javaee7-samples.git,973,25260
+1443,04783f8a,FAIL,40,NO,0,NO,0,2018-08-02 15:09:46 +0200,Update to new wildfly-swarm name and artifacts,973,25260
+1444,531a6c3e,FAIL,34,NO,0,NO,0,2018-08-02 15:45:30 +0200,Merge pull request #436 from juangon/thorntail_migration,973,25260
+1445,4ecf3685,FAIL,36,NO,0,NO,0,2018-08-09 21:58:20 +0200,Added a very simple example for a JAX-RS GET request,976,25323
+1446,b33396c3,FAIL,36,NO,0,NO,0,2018-08-09 21:58:36 +0200,Merge branch 'master' of git@github.com:javaee-samples/javaee7-samples.git,976,25323
+1447,f1a8fb6f,FAIL,31,NO,0,NO,0,2018-08-15 23:01:35 +0100,Added sample for Servlet DIGEST authentication,979,25497
+1448,e6e86c98,FAIL,33,NO,0,NO,0,2018-08-15 23:01:57 +0100,Updated readme.md for new samples,979,25497
+1449,a70e3ba2,FAIL,36,NO,0,NO,0,2018-08-16 00:10:44 +0100,Restored default server profile,979,25497
+1450,24dd78da,FAIL,38,NO,0,NO,0,2018-08-16 15:00:02 +0100,Used SQL that's more universal for several DBs in DBSetup,979,25503
+1451,c47bf215,FAIL,35,NO,0,NO,0,2018-08-17 16:08:16 +0100,Fixed typo and somewhat take Payara domain into account,979,25505
+1452,578560a7,FAIL,33,NO,0,NO,0,2018-08-18 22:25:31 +0200,Fixed ordering of trust store creation and added logging for client-cert,979,25522
+1453,97e615ea,FAIL,37,NO,0,NO,0,2018-08-19 21:42:42 +0200,Moved only class in second util module to first util module,979,25522
+1454,383a070a,FAIL,6,NO,0,NO,0,2018-08-26 20:35:10 +0200,Added remote EJB sample with Payara/GlassFish concrete impl,985,25617
+1455,39b70518,FAIL,34,NO,0,NO,0,2018-08-27 00:20:05 +0200,Adjusted ejb/remote maven sub-module coordinates,985,25617
+1456,5d2fbe1b,FAIL,34,NO,0,NO,0,2018-08-31 10:52:07 +0200,"Revert to JDK 7, as EE 7 samples should have that as minimum",979,25525
+1457,ab6caa0f,FAIL,34,NO,0,NO,0,2018-08-31 10:52:18 +0200,Merge branch 'master' of git@github.com:javaee-samples/javaee7-samples.git,985,25620
+1458,daf9f876,FAIL,37,NO,0,NO,0,2018-10-18 16:00:48 +0200,Principal name to comply with Payara 5.184 string version of X500 name,985,25620
+1459,98389106,FAIL,38,NO,0,NO,0,2018-10-23 13:51:50 +0200,GlassFish client (for remote EJB) now a setting,985,25620
+1460,390fd75e,FAIL,38,NO,0,NO,0,2018-10-23 13:54:15 +0200,Put TLS handshake logging for client/cert behind a switch,985,25636
+1461,60ca1e0d,FAIL,83,NO,0,NO,0,2018-10-25 22:51:36 +0200,Added test for permissions.xml based on GF QuickLook test,993,25976
+1462,240cdf3a,FAIL,38,NO,0,NO,0,2018-10-30 13:57:48 +0100,Fixed wrong parent in pom,993,25976
+1463,a2cd0370,FAIL,37,NO,0,NO,0,2018-10-30 14:07:49 +0100,Set timeout back to reasonable value,993,25976
+1464,b8cbb0c2,FAIL,34,NO,0,NO,0,2018-10-31 22:19:09 +0100,Added domain support to payara remote connector,993,25976
+1465,c724aa4e,FAIL,36,NO,0,NO,0,2018-11-01 12:15:25 +0100,Added option for client-cert to use host from obtained cert,993,25999
+1466,a8d68c3d,FAIL,39,NO,0,NO,0,2018-11-03 01:22:18 +0100,Cleaned-up logging for client-cert test,993,26008
+1467,d86c786c,FAIL,38,NO,0,NO,0,2018-11-03 12:50:50 +0100,Added server side SSL debug for client-cert test,993,26025
+1468,e768eff6,FAIL,40,NO,0,NO,0,2018-11-05 22:18:57 +0100,Initial commit for remote EJB SSL test,996,26085
+1469,3d1fc6d9,FAIL,38,NO,0,NO,0,2018-11-06 14:16:41 +0100,"Using EAR to deploy EJB, since Arquillian can't/won't deploy ejb jars.",996,26101
+1470,3ec05515,FAIL,33,NO,0,NO,0,2018-11-06 14:17:10 +0100,application.xml for the remote ejb ssl test,996,26101
+1471,1d23c9c6,FAIL,39,NO,0,NO,0,2018-11-19 17:08:36 +0100,Added trust store handling for remote EJB with SSL sample,996,26041
+1472,0dd07dd8,FAIL,35,NO,0,NO,0,2018-11-29 16:10:43 +0100,Added sample of client-cert using JCE,1001,26360
+1473,072c2ee4,FAIL,35,NO,0,NO,0,2018-12-11 12:14:45 +0000,Use the maven specified payara domain.,1001,26360
+1474,61883528,FAIL,34,NO,0,NO,0,2018-12-12 09:59:16 +0000,Property already at top level,1001,26360
+1475,6a994fe2,FAIL,36,NO,0,NO,0,2018-12-12 09:55:09 +0000,Formatting & Cleanup,1001,26360
+1476,a6c24e9d,FAIL,35,NO,0,NO,0,2018-12-12 11:26:59 +0000,Add parent,1001,26360
+1477,a0f63284,FAIL,39,NO,0,NO,0,2018-12-14 12:29:44 +0100,Merge pull request #441 from MattGill98/payara-domain-fix,1001,26360
+1478,f9ed3f27,FAIL,41,NO,0,NO,0,2018-12-14 12:30:38 +0100,Merge branch 'master' into Cleanup-And-Formatting,1001,26360
+1479,29c1a533,FAIL,37,NO,0,NO,0,2018-12-18 20:41:50 +0100,Removed parent from test utility lib and set scope to test,1001,26360
+1480,51f6f62a,FAIL,41,NO,0,NO,0,2019-02-22 13:48:05 +0530,QA-183 Remove BouncyCastle provider from javaee7-samples/security-clientcert-jce after execution,1001,26368
+1481,ba7f1ef8,FAIL,51,NO,0,NO,0,2019-02-28 12:29:44 +0530,QA-187 Upgrade Java EE 7 Samples dependencies,1001,26360
+1482,446a893b,FAIL,35,NO,0,NO,0,2019-03-01 08:39:07 +0000,Merge pull request #445 from jGauravGupta/QA-187,1001,26360
+1483,66864e08,FAIL,36,NO,0,NO,0,2019-03-01 08:41:35 +0000,Merge branch 'master' into QA-183,1001,26368
+1484,dd047170,FAIL,33,NO,0,NO,0,2019-03-01 08:41:43 +0000,Merge pull request #444 from jGauravGupta/QA-183,1001,26368
+1485,75a1e5b4,FAIL,35,NO,0,NO,0,2019-03-01 14:26:18 +0100,Set minimal Java version for vendor EJB plug-ins,1001,26368
+1486,74f5146f,FAIL,35,NO,0,NO,0,2019-03-01 15:08:30 +0100,Updated JAX-WS Maven plug-in,1001,26368
+1487,53e7772e,FAIL,39,NO,0,NO,0,2019-03-04 01:02:47 -0800,Set TLS to v1.2 for the EE 7 tests for now.,1001,26400
+1488,b938c99a,FAIL,37,NO,0,NO,0,2019-03-25 15:44:23 +0100,"Add converter to jpa-listeners-injection, as that breaks older versions of eclipselink",1003,26430
+1489,e30f3524,FAIL,38,NO,0,NO,0,2019-03-28 10:38:58 +0100,Merge pull request #447 from pdudits/converter-bug,1003,26430
+1490,05d44065,FAIL,48,NO,0,NO,0,2019-04-01 22:51:22 +0530,PAYARA-3484 Add JAX-WS components,1003,26430
+1491,ef22b284,FAIL,38,NO,0,NO,0,2019-04-01 23:00:31 +0530,PAYARA-3484 Polish EJB Remote - Vendor pom,1003,26430
+1492,a49bc3be,FAIL,32,NO,0,NO,0,2019-04-03 09:18:52 +0100,Merge branch 'master' into Cleanup-And-Formatting,1003,26430
+1493,93b0e5ec,FAIL,32,NO,0,NO,0,2019-04-03 15:26:01 +0200,Merge pull request #442 from Pandrex247/Cleanup-And-Formatting,1003,26430
+1494,1855d377,FAIL,34,NO,0,NO,0,2019-04-03 23:24:53 +0530,Merge branch 'master' into PAYARA-3484,1003,26430
+1495,8c678511,FAIL,37,NO,0,NO,0,2019-04-17 18:42:08 +0530,PAYARA-3484 jaxws-client testcase fix,1003,26430
+1496,126e410d,SUCCESS,63,SUCCESS,66,FAIL,300,2019-04-24 16:40:02 +0530,PAYARA-3484 fix ci failure,1003,26430
+1497,127aaba0,FAIL,35,NO,0,NO,0,2019-04-25 12:48:32 +0200,Upgrade Thorntail with JDK 11 support,1003,26438
+1498,8416acbe,SUCCESS,57,SUCCESS,57,FAIL,300,2019-04-25 13:08:13 +0200,Merge pull request #449 from jGauravGupta/PAYARA-3484,1003,26430
+1499,24a20b6d,SUCCESS,52,SUCCESS,57,FAIL,301,2019-04-25 14:03:59 +0200,Merge branch 'master' into thorntail_jdk11,1003,26438
+1500,ba56f5a9,SUCCESS,56,SUCCESS,59,FAIL,301,2019-04-26 18:07:03 +0200,Merge pull request #451 from juangon/thorntail_jdk11,1003,26438
+1501,26f4a258,SUCCESS,53,SUCCESS,54,FAIL,302,2019-04-29 11:54:31 +0100,Removed payara.micro.version,1003,26438
+1502,ad7dd945,SUCCESS,55,SUCCESS,53,FAIL,301,2019-04-30 12:17:00 +0200,Suppport both RFC 2253 and 1779 as EE doesn't describe one.,1003,26440
+1503,17484fe4,SUCCESS,61,SUCCESS,66,FAIL,301,2019-05-03 22:31:07 +0200,Updates and comments for running on JDK 11,1003,26446
+1504,80ece35c,SUCCESS,54,SUCCESS,54,FAIL,301,2019-05-04 20:06:21 +0200,Merge pull request #452 from AlanRoth/master,1003,26446
+1505,bd916055,SUCCESS,61,SUCCESS,54,FAIL,301,2019-05-16 15:45:30 +0200,Clarified and updated JAX-WS samples and added EJB variant,1007,26507
+1506,526118a5,SUCCESS,56,SUCCESS,53,FAIL,301,2019-05-16 23:26:43 +0200,Adjusted package name references for JAX-WS EJB sample,1006,26494
+1507,e443e15b,SUCCESS,55,SUCCESS,47,FAIL,301,2019-06-14 00:42:26 +0200,Moved to Google Docs/JavaFx sample to Javaee-extra project,1004,26413
+1508,e4737e68,SUCCESS,57,SUCCESS,55,FAIL,301,2019-10-15 20:03:36 +0200,Update Travis file to use OpenJDK,1004,26413
+1509,2c1ccfb9,SUCCESS,56,SUCCESS,50,FAIL,301,2019-11-05 17:08:52 +0100,Some cleanup of the Servlet samples,1006,26479
+1510,85769676,SUCCESS,51,SUCCESS,49,FAIL,301,2019-11-05 21:08:23 +0100,Cleanup for Servlet error mapping and adding test,1009,26535
+1511,a013bfc4,SUCCESS,57,SUCCESS,52,FAIL,301,2019-11-06 02:34:21 +0100,Cleaning servlet events sample plus added test,1010,26590
+1512,de82de64,SUCCESS,53,SUCCESS,53,FAIL,301,2019-11-07 14:15:24 +0100,Cleaned up servlet protocol sample and added test,1011,26614
+1513,b70076f8,SUCCESS,55,SUCCESS,54,FAIL,301,2019-11-07 14:21:37 +0100,Small cleanup for Servlet programmatic sample,1011,26611
+1514,8bdef708,SUCCESS,56,SUCCESS,57,FAIL,301,2019-11-20 00:57:22 +0100,FORM auth more consistent with BASIC test,1014,26692
+1515,207fe5b9,SUCCESS,53,SUCCESS,48,FAIL,301,2019-11-20 13:06:34 +0100,Clearer messages for when denied test fails,1014,26696
+1516,2073b815,SUCCESS,54,SUCCESS,51,FAIL,301,2019-11-20 21:39:26 +0100,Added sample to test uncovered methods are accessible,1016,26791
+1517,391cc5c3,SUCCESS,54,SUCCESS,52,FAIL,301,2019-11-22 00:16:32 +0100,Cleaned up programmatic login example,1016,26793
+1518,ff745e51,SUCCESS,55,SUCCESS,51,FAIL,301,2019-11-24 13:35:54 +0100,Making implicit assumption BASIC is used explicit,1016,26796
+1519,0af93709,SUCCESS,57,SUCCESS,56,FAIL,301,2019-12-16 23:00:37 +0100,Initial support for Piranha,1016,26799
+1520,13c622e7,SUCCESS,57,SUCCESS,54,FAIL,300,2020-01-02 00:16:38 +0100,Removed parent to prevent multiple arquillian inclusions on CP,1016,26799
+1521,dc48fdd7,SUCCESS,56,SUCCESS,54,FAIL,301,2020-01-02 00:17:45 +0100,Remove redundant maven info,1016,26799
+1522,346ec06e,SUCCESS,59,SUCCESS,54,FAIL,301,2020-01-02 00:18:14 +0100,Don't deploy test classes,1016,26808
+1523,9a961270,SUCCESS,59,SUCCESS,53,FAIL,301,2020-01-08 21:43:07 +0100,Update Piranha profile,1016,26808
+1524,092ffee9,SUCCESS,61,SUCCESS,54,FAIL,301,2020-01-08 21:44:08 +0100,Add EJB switch and more explicitly define archive,1016,26832
+1525,278bf760,SUCCESS,57,SUCCESS,57,FAIL,302,2020-01-14 15:41:32 +0100,Updated for Piranha 20.1.2,1016,26832
+1526,b0e8b576,SUCCESS,59,SUCCESS,49,FAIL,301,2020-05-07 10:35:25 +0200,fix the test for HTTP protocol upgrade,1016,26839
+1527,7471ec9b,SUCCESS,59,SUCCESS,54,FAIL,300,2020-05-07 11:00:31 +0200,Merge pull request #461 from Ladicek/protocol-upgrade-fix,1016,26839
+1528,07797bf5,SUCCESS,61,SUCCESS,57,FAIL,301,2020-05-21 21:14:46 +0000,Bump htmlunit from 2.35.0 to 2.37.0,1016,26839
+1529,be7d1b20,SUCCESS,59,SUCCESS,52,FAIL,301,2020-06-05 19:37:55 +0200,Added sample that shows a servlet present in a WEB-INF/lib jar.,1018,26892
+1530,ba04eb37,SUCCESS,57,SUCCESS,54,FAIL,301,2020-06-05 17:38:47 +0000,Bump htmlunit from 2.31 to 2.37.0 in /jaspic/common,1018,26892
+1531,77f02434,SUCCESS,54,SUCCESS,46,FAIL,301,2020-06-05 19:39:05 +0200,Merge pull request #463 from javaee-samples/dependabot/maven/net.sourceforge.htmlunit-htmlunit-2.37.0,1018,26892
+1532,7e0d376d,SUCCESS,51,SUCCESS,49,FAIL,301,2020-06-05 19:39:19 +0200,Merge pull request #462 from javaee-samples/dependabot/maven/jaspic/common/net.sourceforge.htmlunit-htmlunit-2.37.0,1018,26892
+1533,5f7e6b83,SUCCESS,125,SUCCESS,63,FAIL,301,2020-06-05 19:49:06 +0200,Updated several dependency versions,1018,26892
+1534,c980615f,SUCCESS,68,SUCCESS,60,FAIL,301,2020-06-05 19:49:35 +0200,Small cleaning and removing deprecated lines,1018,26893
+1535,bf5f5df1,SUCCESS,64,SUCCESS,55,FAIL,301,2020-09-14 18:29:11 +0000,Bump ant from 1.7.0 to 1.9.15 in /jaxrpc/jaxrpc-security,1018,26893
+1536,4ff16a8d,SUCCESS,70,SUCCESS,61,FAIL,301,2020-09-14 20:37:54 +0200,Merge pull request #465 from javaee-samples/dependabot/maven/jaxrpc/jaxrpc-security/org.apache.ant-ant-1.9.15,1018,26893

@@ -1,0 +1,116 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,f58aaba,FAIL,22,NO,0,NO,0,2011-12-08 14:47:47 -0500,Initial commit.,23,2566
+1,7bbe8a4,FAIL,7,NO,0,NO,0,2011-12-08 15:03:06 -0500,Update read me.,23,2566
+2,0553329,FAIL,9,NO,0,NO,0,2011-12-08 18:39:49 -0500,More sane defaults.,23,2566
+3,fa42221,FAIL,10,NO,0,NO,0,2011-12-08 20:31:15 -0500,Add missing extension to the repo connection string.,23,2566
+4,473e51c,FAIL,11,NO,0,NO,0,2011-12-08 20:45:51 -0500,targetSdkVersion didn't exist in 1.5.,23,2566
+5,e1bf2a0,FAIL,9,NO,0,NO,0,2011-12-08 20:57:02 -0500,Update readme to include info on how to include in your project.,23,2566
+6,d3491b7,FAIL,10,NO,0,NO,0,2011-12-08 21:02:13 -0500,Bump version to 1.0.0.,23,2566
+7,3c43b62,FAIL,10,NO,0,NO,0,2011-12-08 21:03:43 -0500,[maven-release-plugin] prepare release 1.0.0,23,2566
+8,0ef153b,FAIL,10,NO,0,NO,0,2011-12-08 21:03:49 -0500,[maven-release-plugin] prepare for next development iteration,23,2566
+9,ea64e68,FAIL,9,NO,0,NO,0,2011-12-12 01:28:13 -0500,Add animator inflater and sample.,26,2888
+10,49035a0,FAIL,11,NO,0,NO,0,2011-12-12 01:32:16 -0500,Add 'Animator Events' sample.,27,3045
+11,972dca3,FAIL,10,NO,0,NO,0,2011-12-12 01:58:11 -0500,Rename RR to FakeR.,27,3045
+12,bc2c8f3,FAIL,10,NO,0,NO,0,2011-12-12 02:01:36 -0500,Update docs.,27,3045
+13,34f275f,FAIL,8,NO,0,NO,0,2011-12-12 07:15:14 -0500,Internalize FakeR into AnimatorInflater and use actual constants from the platform R class.,26,3031
+14,b6f1030,FAIL,5,NO,0,NO,0,2011-12-12 11:35:49 -0500,Fix imports on event sample. Use text color rather than alpha so it works on all devices.,26,3033
+15,0b5e3f1,FAIL,5,NO,0,NO,0,2011-12-13 12:09:37 -0500,Move api demos into their own package. Add droid flakes demo.,29,3225
+16,ec3a222,FAIL,6,NO,0,NO,0,2011-12-13 12:51:06 -0500,Add 'droid flakes' to change log.,29,3225
+17,ebaf0b7,FAIL,5,NO,0,NO,0,2011-12-13 21:55:06 -0500,Fix stupid ADT renaming crap incorrectly.,29,3225
+18,759523b,FAIL,6,NO,0,NO,0,2011-12-13 22:07:00 -0500,Abstract GPU part of droid flakes sample to be honeycomb+ only.,29,3230
+19,f01be4f,FAIL,6,NO,0,NO,0,2011-12-13 22:07:17 -0500,Remove unused imports from a refactor.,29,3213
+20,23eeeba,FAIL,5,NO,0,NO,0,2011-12-13 22:09:13 -0500,Bump version to 1.1.0.,29,3213
+21,51bea33,FAIL,6,NO,0,NO,0,2011-12-13 22:13:32 -0500,[maven-release-plugin] prepare release 1.1.0,29,3213
+22,8217389,FAIL,5,NO,0,NO,0,2011-12-13 22:13:50 -0500,[maven-release-plugin] prepare for next development iteration,29,3213
+23,62c770a,FAIL,6,NO,0,NO,0,2011-12-16 19:02:55 -0500,Change package to `com.nineoldandroids`. Refs #4.,29,3213
+24,0b230d6,FAIL,15,NO,0,NO,0,2012-01-02 04:24:13 -0500,Update dependencies to link against maven central artifacts.,29,3213
+25,1361b29,FAIL,10,NO,0,NO,0,2012-01-04 13:20:35 -0500,Add 'Path Animation' demo to samples.,33,3305
+26,abd8e70,FAIL,10,NO,0,NO,0,2012-01-06 00:40:35 -0500,Move existing stuff into `animation` subpackage.,33,3305
+27,6cccb1b,FAIL,10,NO,0,NO,0,2012-01-06 00:58:15 -0500,"Enable properties. The internal variety, however.",38,3561
+28,5475e45,FAIL,12,NO,0,NO,0,2012-01-06 11:07:53 -0500,Update samples to new package.,38,3562
+29,986e7b4,FAIL,11,NO,0,NO,0,2012-01-09 16:28:02 -0500,"Add `Nine`-prefixed view and widget classes which enable the animation of alpha, translation, scale, and rotation on pre-API11 devices.",46,4187
+30,89f65ac,FAIL,11,NO,0,NO,0,2012-01-09 16:39:26 -0500,Update change log.,46,4187
+31,6b5a288,FAIL,11,NO,0,NO,0,2012-01-17 22:40:10 -0500,Properly set scroll x/y.,46,4187
+32,4ba7569,FAIL,11,NO,0,NO,0,2012-01-18 00:25:01 -0500,Enable wrapper-less animation of post-3.0 properties on pre-3.0.,40,3845
+33,c2d1ab1,FAIL,11,NO,0,NO,0,2012-01-18 00:42:09 -0500,Fix checkstyle problems with new path sample.,40,3845
+34,976088c,FAIL,10,NO,0,NO,0,2012-01-18 00:44:26 -0500,Fix android-maven-plugin config in poms.,40,3845
+35,994eb8c,FAIL,11,NO,0,NO,0,2012-01-18 00:48:12 -0500,Update change log for the new hotness.,40,3845
+36,b0e4392,FAIL,11,NO,0,NO,0,2012-01-18 02:09:07 -0500,Optimize proxy transformation and fix x/y rotation.,40,3841
+37,531607f,FAIL,10,NO,0,NO,0,2012-01-18 02:15:10 -0500,Better name.,40,3841
+38,e5981c8,FAIL,11,NO,0,NO,0,2012-01-18 02:18:35 -0500,Skip double redraw.,40,3840
+39,77a84b4,FAIL,10,NO,0,NO,0,2012-01-18 02:38:32 -0500,Lazily create proxy properties to ensure we know the target type.,40,3840
+40,7e6fd72,FAIL,10,NO,0,NO,0,2012-01-18 13:07:42 -0500,Bump version to 2.0.0.,40,3840
+41,60a6d74,FAIL,11,NO,0,NO,0,2012-01-18 13:09:23 -0500,[maven-release-plugin] prepare release 2.0.0,40,3840
+42,21a5200,FAIL,10,NO,0,NO,0,2012-01-18 13:09:37 -0500,[maven-release-plugin] prepare for next development iteration,40,3840
+43,4b82322,FAIL,11,NO,0,NO,0,2012-01-18 20:10:55 -0500,Transformation fixes because I'm an idiot.,40,3848
+44,bd586ac,FAIL,10,NO,0,NO,0,2012-01-18 20:13:21 -0500,Add toggle sample.,41,3894
+45,050b58e,FAIL,11,NO,0,NO,0,2012-01-18 20:19:08 -0500,Bump version to 2.0.1 and update change log.,41,3894
+46,eeb575e,FAIL,11,NO,0,NO,0,2012-01-18 20:25:31 -0500,[maven-release-plugin] prepare release 2.0.1,41,3894
+47,6552302,FAIL,10,NO,0,NO,0,2012-01-18 20:25:38 -0500,[maven-release-plugin] prepare for next development iteration,41,3894
+48,8a0117a,FAIL,11,NO,0,NO,0,2012-01-19 00:49:49 -0500,First go at ViewPropertyAnimator.,42,4403
+49,2e3722f,FAIL,9,NO,0,NO,0,2012-01-19 00:56:30 -0500,Not that this will ever change...,42,4403
+50,78406fc,FAIL,11,NO,0,NO,0,2012-01-19 01:06:12 -0500,Forward listener events with a null animation for now.,42,4416
+51,3bc7296,FAIL,11,NO,0,NO,0,2012-01-19 13:24:26 -0500,Add Chet Haase's VPA demo. This shows some shortcomings in our implementation...,43,4458
+52,d34f85a,FAIL,10,NO,0,NO,0,2012-01-19 16:28:18 -0500,Use a weak map to associate a single animator to a view.,43,4465
+53,44bde9d,FAIL,10,NO,0,NO,0,2012-01-19 16:33:13 -0500,Try a weak hash map with the post-3.0 compat impl too.,43,4459
+54,1dfe12b,FAIL,10,NO,0,NO,0,2012-01-19 16:37:01 -0500,Translate back and forth in toggles.,43,4459
+55,b57f395,FAIL,10,NO,0,NO,0,2012-01-19 16:40:16 -0500,Static import trickery for cleaner look that is closer to original impl.,43,4459
+56,d8942b3,FAIL,11,NO,0,NO,0,2012-01-19 18:03:24 -0500,Try put the caching in AnimatorProxy itself so that the end-users are afforded it as well.,43,4457
+57,76d8fc5,FAIL,11,NO,0,NO,0,2012-01-19 20:59:18 -0500,Start change log for 2.1.0,43,4457
+58,6abdc2c,FAIL,10,NO,0,NO,0,2012-01-19 20:59:24 -0500,Link to website from README.,43,4457
+59,e7d8c3b,FAIL,10,NO,0,NO,0,2012-01-19 21:00:50 -0500,Backtickerize. Technical term.,43,4457
+60,aa3eb16,FAIL,10,NO,0,NO,0,2012-01-19 21:02:18 -0500,Point to the newest version in README.,43,4457
+61,501d4ce,FAIL,10,NO,0,NO,0,2012-01-26 21:40:12 -0500,Bump version to 2.1.0.,43,4457
+62,9b16263,FAIL,10,NO,0,NO,0,2012-01-26 21:42:31 -0500,[maven-release-plugin] prepare release 2.1.0,43,4457
+63,05e3f8a,FAIL,10,NO,0,NO,0,2012-01-26 21:42:46 -0500,[maven-release-plugin] prepare for next development iteration,43,4457
+64,fd051dc,FAIL,11,NO,0,NO,0,2012-01-27 08:17:09 -0500,Fix StackOverflowException. Refs #7.,43,4457
+65,c6a79ce,FAIL,10,NO,0,NO,0,2012-01-27 08:26:19 -0500,Bump version to 2.1.1.,43,4457
+66,2e75050,FAIL,10,NO,0,NO,0,2012-01-27 08:31:50 -0500,[maven-release-plugin] prepare release 2.1.1,43,4457
+67,c2e4e1c,FAIL,10,NO,0,NO,0,2012-01-27 08:31:52 -0500,[maven-release-plugin] prepare for next development iteration,43,4457
+68,e0de3df,FAIL,11,NO,0,NO,0,2012-01-29 16:08:38 -0500,Provide Honeycomb-specific compat impl of ViewPropertyAnimator.,46,4759
+69,92cd5dc,FAIL,11,NO,0,NO,0,2012-01-30 01:08:24 -0500,Bump version to 2.2.0.,46,4759
+70,4c65517,FAIL,11,NO,0,NO,0,2012-01-30 01:09:00 -0500,[maven-release-plugin] prepare release 2.2.0,46,4759
+71,c718d90,FAIL,10,NO,0,NO,0,2012-01-30 01:09:12 -0500,[maven-release-plugin] prepare for next development iteration,46,4759
+72,bf0b945,FAIL,11,NO,0,NO,0,2012-01-30 01:11:06 -0500,Forgot to make these package-scoped. Hopefully no-one notices...,46,4759
+73,5e4bd54,FAIL,11,NO,0,NO,0,2012-02-06 17:04:41 +0100,Fixed bug where scaleX is tested twice instead of scaleX || scaleY,46,4759
+74,f4c34b9,FAIL,11,NO,0,NO,0,2012-02-06 17:22:27 +0100,Added proper shielding against unneeded updates on setAlpha(). Added proper test for mHasPivot in case setting pivotX or pivotY to 0 (wouldn't have triggered an update in this case),46,4760
+75,a861533,FAIL,11,NO,0,NO,0,2012-02-06 19:21:43 +0100,"Scale testing is more useful when testing against 1.0, not 0.0",46,4760
+76,f215830,FAIL,11,NO,0,NO,0,2012-02-06 19:18:16 -0500,Merge branch 'fpillet-master' into dev,46,4760
+77,53a285d,FAIL,12,NO,0,NO,0,2012-02-09 17:08:16 +0100,Optimized invalidation,46,4812
+78,20fa4a2,FAIL,10,NO,0,NO,0,2012-02-09 10:45:38 -0800,Merge pull request #12 from fpillet/dev,46,4812
+79,e4b16ba,FAIL,11,NO,0,NO,0,2012-02-09 14:01:08 -0500,Style tweaks to appease the checkstyle plugin.,46,4810
+80,6e497ea,FAIL,16,NO,0,NO,0,2012-02-23 16:43:31 -0500,Prepare for deployment to central.,46,4810
+81,970493d,FAIL,11,NO,0,NO,0,2012-02-23 16:45:53 -0500,Hold target view in a weak reference.,46,4835
+82,b093201,FAIL,11,NO,0,NO,0,2012-02-23 16:53:47 -0500,Next release will be 2.3.0.,46,4835
+83,cc0fcce,FAIL,10,NO,0,NO,0,2012-02-23 16:55:22 -0500,Prepare change log for next version.,46,4835
+84,fd52933,FAIL,11,NO,0,NO,0,2012-02-23 16:56:06 -0500,"Give some credit, bro.",46,4835
+85,d11e804,FAIL,10,NO,0,NO,0,2012-03-09 14:52:20 +0100,bugfix : AnimatorProxy setScrollY was updating scrollX with Y value,46,4759
+86,b588b2d,FAIL,12,NO,0,NO,0,2012-03-25 15:59:04 -0300,Fixes memory leaks in ViewPropertyAnimator implementations. Hard references and listeners were causing the leak to happen.,46,4923
+87,51b270c,FAIL,11,NO,0,NO,0,2012-03-25 17:06:54 -0300,Removed method used for debugging purpouses,46,4921
+88,3d46b36,FAIL,10,NO,0,NO,0,2012-04-15 22:10:12 +0100,Fix for AnimatorProxy's cache mechanism; before reusing a proxy checks whether it still is the animation of the given view.,46,4759
+89,50a6034,FAIL,11,NO,0,NO,0,2012-04-21 23:44:07 +0200,Allow usage of private setters/getters.,46,4840
+90,800dd9d,FAIL,11,NO,0,NO,0,2012-04-21 20:21:24 -0700,Merge pull request #17 from SimonVT/dev,46,4840
+91,71d145c,FAIL,11,NO,0,NO,0,2012-04-23 22:45:46 -0700,Merge branch 'jfmichel-master' into dev,46,4840
+92,172cada,FAIL,11,NO,0,NO,0,2012-04-24 23:07:55 -0700,Merge branch 'dev' of https://github.com/BeowulfBjornson/NineOldAndroids into BeowulfBjornson-dev,46,4926
+93,b5b556d,FAIL,11,NO,0,NO,0,2012-04-24 23:24:10 -0700,Style tweaks.,46,4926
+94,24ddc01,FAIL,11,NO,0,NO,0,2012-04-25 00:14:19 -0700,Use TypedValue load to avoid private attribute ID conflict.,46,4927
+95,4cb22cf,FAIL,11,NO,0,NO,0,2012-04-25 00:46:00 -0700,Fix property ordering so attribute values are ascending.,46,4927
+96,9616177,FAIL,11,NO,0,NO,0,2012-04-25 19:47:10 +0200,"Only use getDeclaredMethod as a fallback, since it doesn't find superclass methods.",46,4941
+97,923aaf0,FAIL,11,NO,0,NO,0,2012-04-25 11:04:14 -0700,Merge pull request #19 from SimonVT/dev,46,4941
+98,ed8ec7f,FAIL,11,NO,0,NO,0,2012-04-25 20:15:27 -0700,Merge branch 'heavyplayer-animatorproxy_cache_fix' into dev,46,4941
+99,6320a28,FAIL,13,NO,0,NO,0,2012-04-25 20:39:49 -0700,Bump android maven plugin version.,46,4941
+100,4304c10,FAIL,12,NO,0,NO,0,2012-04-25 20:47:52 -0700,Do not skip javadoc creation.,46,4941
+101,c4b9d68,FAIL,11,NO,0,NO,0,2012-04-25 20:54:08 -0700,Bump version to 2.3.0.,46,4941
+102,0e0037b,FAIL,10,NO,0,NO,0,2012-04-25 21:02:19 -0700,[maven-release-plugin] prepare release 2.3.0,46,4941
+103,399abe8,FAIL,11,NO,0,NO,0,2012-04-25 21:02:24 -0700,[maven-release-plugin] prepare for next development iteration,46,4941
+104,3cb6d1d,FAIL,11,NO,0,NO,0,2012-05-27 00:00:06 -0700,Properly honor pivot for scale operation.,47,4971
+105,c9f3ff9,FAIL,10,NO,0,NO,0,2012-06-24 01:53:56 -0700,Do not invalidate parent if view is not attached to anything.,47,4971
+106,cfcee0b,FAIL,11,NO,0,NO,0,2012-06-24 11:15:36 -0700,Complete helper class for delegating to native when available.,47,5079
+107,85c0394,FAIL,11,NO,0,NO,0,2012-06-24 11:16:37 -0700,Start adding change log.,47,5079
+108,04629aa,FAIL,11,NO,0,NO,0,2012-06-24 19:18:55 -0700,Next version will be 2.4.0.,47,5079
+109,da9dd5c,FAIL,11,NO,0,NO,0,2012-06-24 21:41:11 -0700,Clean up pivot math for scaling.,47,5086
+110,cc9a6bc,FAIL,10,NO,0,NO,0,2012-06-24 21:46:18 -0700,Bump version to 2.4.0. Update manifest a bit.,47,5086
+111,deb42c8,FAIL,14,NO,0,NO,0,2012-06-24 21:48:44 -0700,Update android maven plugin version.,47,5086
+112,c846792,FAIL,11,NO,0,NO,0,2012-06-24 22:11:07 -0700,Ensure ViewHelper has all methods. Consolidate helpers into single class.,47,5109
+113,9f20fd7,FAIL,12,NO,0,NO,0,2012-06-24 22:16:21 -0700,[maven-release-plugin] prepare release 2.4.0,47,5109
+114,d582f0e,FAIL,10,NO,0,NO,0,2014-12-19 18:24:56 -0800,Deprecate.,47,5109

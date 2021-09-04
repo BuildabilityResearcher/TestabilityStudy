@@ -1,0 +1,6 @@
+exception,count
+junit.framework.AssertionFailedError,1505
+java.lang.AssertionError,16425
+java.lang.AssertionError:,3292
+org.junit.ComparisonFailure,115178
+org.junit.experimental.theories.internal.ParameterizedAssertionError,1906

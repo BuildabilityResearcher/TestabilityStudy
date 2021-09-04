@@ -1,0 +1,949 @@
+id,commit,build,build_exec_time,test_build,test_build_exec_time,test,test_exec_time,date,comment,files,loc
+0,b5f0ec07,FAIL,48,NO,0,NO,0,2019-06-06 15:21:15 +0300,Eclipse Migration Initial Commit,5063,434895
+1,32e5cc19,FAIL,17,NO,0,NO,0,2019-06-13 20:40:40 +1000,First round of runtime test improvements (#7875),5071,435552
+2,68ea5f36,FAIL,19,NO,0,NO,0,2019-06-15 21:34:34 +1000,Dev branch merge: dev_20190606 (#7904),5074,437269
+3,2a1ea247,FAIL,18,NO,0,NO,0,2019-06-18 20:22:07 -0700,Add thousand-separator commas to TotalParams (#7915),5074,437269
+4,d3a9e5b4,FAIL,18,NO,0,NO,0,2019-06-22 16:21:27 +1000,Update contributing and issue/PR templates (#7934),5074,437269
+5,e2db3856,FAIL,18,NO,0,NO,0,2019-06-24 17:50:17 -0700,Fix link to AdaDelta paper (#7942),5074,437269
+6,cae4fc97,FAIL,19,NO,0,NO,0,2019-06-25 12:07:28 +1000,"Fixes, and ignores for known/logged failing issues (#7943)",5074,437289
+7,1170827c,FAIL,18,NO,0,NO,0,2019-06-28 01:37:04 +1000,Merge master to upstream (#7945),5087,439484
+8,c8c98e1a,FAIL,17,NO,0,NO,0,2019-07-01 05:17:55 +0200,SameDiff variables documentation (#7949),5087,439484
+9,66b7c3d6,FAIL,17,NO,0,NO,0,2019-07-02 12:43:07 +0900,Quick start ND4J (#7916),5087,439484
+10,595656d0,FAIL,17,NO,0,NO,0,2019-07-08 15:35:21 +0900,fix #7947 (#7985),5087,439484
+11,0c48e55f,FAIL,18,NO,0,NO,0,2019-07-09 12:58:50 +0900,Remove duplicate code for append() and prepend() Fix #7983 (#7987),5087,439479
+12,85e212fe,FAIL,19,NO,0,NO,0,2019-07-11 18:28:19 +0300,exclude memory tracker for android/ios/macos platforms (#8005),5087,439479
+13,deba1e0d,FAIL,23,NO,0,NO,0,2019-07-15 03:07:33 +0900,Update dependencies to just released JavaCPP and JavaCV 1.5.1 (#8004),5087,439479
+14,5a0904cb,FAIL,10,NO,0,NO,0,2019-07-16 19:23:37 -0700,Fix getMemoryReport ArrayIndexOutOfBoundsException (#8015),5087,439479
+15,9bb11d5b,FAIL,12,NO,0,NO,0,2019-07-18 20:13:56 +0900,Fix OpenMP by replacing pragmas with macros (#8026),5087,439479
+16,ee6aae26,FAIL,11,NO,0,NO,0,2019-07-19 20:28:20 -0400,RL4J refac: Added some observation transform classes (#7958),5105,440263
+17,0ef373fe,FAIL,10,NO,0,NO,0,2019-07-20 11:05:46 +0900,Nd4j.java javadoc  (#7997),5105,440192
+18,cc606340,FAIL,10,NO,0,NO,0,2019-06-27 17:39:07 -0700,added keepDims to INDArray methods (#33),5105,440287
+19,c28372cb,FAIL,10,NO,0,NO,0,2019-06-28 21:53:05 +1000,BERT tokenization fixes (#35),5106,440342
+20,366d850f,FAIL,11,NO,0,NO,0,2019-06-28 18:50:01 -0700,Add placeholder value for keras learning phase if required (#30),5106,440347
+21,ef8cb55b,FAIL,11,NO,0,NO,0,2019-07-01 19:50:33 -0700,Nd4j: Change array args to vararg and add toString options (#36),5107,440489
+22,79d1f02e,FAIL,11,NO,0,NO,0,2019-07-02 18:23:35 +1000,DL4J BERT iterator: Add option to prepend token (#39),5107,440497
+23,e67e25ba,FAIL,12,NO,0,NO,0,2019-07-02 19:23:22 +1000,libnd4j: use buildnativeoperations.sh parallel build by default in maven (#38),5107,440497
+24,d854e28b,FAIL,9,NO,0,NO,0,2019-07-02 12:19:07 -0700,System info export for debugging and bug reporting (#34),5112,440806
+25,8b4b8977,FAIL,9,NO,0,NO,0,2019-07-03 12:37:14 +1000,Batch Mmul v2 import fix (#41),5112,440806
+26,dde50ee5,FAIL,10,NO,0,NO,0,2019-07-03 14:24:50 +0300,Small fixes (#43),5112,440804
+27,c1358831,FAIL,11,NO,0,NO,0,2019-07-03 21:26:29 -0700,[WIP] Ignored TF OP Import test updates (#37),5112,440845
+28,15e79843,FAIL,11,NO,0,NO,0,2019-07-05 15:15:09 +0300,Small fixes (#46),5112,440921
+29,9f401dc0,FAIL,11,NO,0,NO,0,2019-07-05 17:24:11 +0300,ND4S build fixed (#47),5112,440921
+30,4b23dc01,FAIL,9,NO,0,NO,0,2019-07-05 19:09:47 -0700,"fix for #7976, update test comment (to OOM) (#45)",5112,440932
+31,88ea9a49,FAIL,10,NO,0,NO,0,2019-07-06 14:33:14 +1000,TF optional properties resolution fix (#48),5112,440932
+32,cc65c011,FAIL,10,NO,0,NO,0,2019-07-08 17:58:48 +1000,Op validation improvements + encoding fix (#49),5112,441024
+33,5708fc08,FAIL,10,NO,0,NO,0,2019-07-10 14:32:12 +0300,[WIP] INDArray hashCode() impl (#50),5113,441055
+34,d7c261ec,FAIL,10,NO,0,NO,0,2019-07-10 14:40:17 -0700,"added ability to run as test, and comments (#44)",5113,441061
+35,027d4d2a,FAIL,10,NO,0,NO,0,2019-07-10 15:31:49 -0700,Add XLNet to zoo model ignores (#54),5113,441061
+36,2d991f54,FAIL,10,NO,0,NO,0,2019-07-10 18:36:47 -0700,LeakyReLU fix (#55),5113,441064
+37,daf3950d,FAIL,10,NO,0,NO,0,2019-07-11 21:08:15 -0700,"SameDiff If, While, and Misc changes (#52)",5117,441854
+38,62c6a73f,FAIL,10,NO,0,NO,0,2019-07-11 21:15:17 -0700,Include TF Import tests as forward pass tests in OpValidation (#53),5117,441859
+39,cb6654be,FAIL,10,NO,0,NO,0,2019-07-12 15:21:15 +1000,Add libnd4j benchmarks (#3),5117,442123
+40,c969b724,FAIL,10,NO,0,NO,0,2019-07-12 11:51:51 +0300,[WIP] more CUDA stuff (#57),5117,442210
+41,68b82f38,FAIL,10,NO,0,NO,0,2019-07-12 18:18:39 +0300,[WIP] nd4s - data types (#51),5117,442210
+42,6ce458e9,FAIL,11,NO,0,NO,0,2019-07-12 20:39:54 +0300,[WIP] CUDA Java side (#58),5117,442157
+43,9cf28ea6,FAIL,11,NO,0,NO,0,2019-07-15 16:36:35 +0300,[WIP] CUDA tweaks (#60),5115,442037
+44,5cf6859f,FAIL,13,NO,0,NO,0,2019-07-16 12:36:12 +1000,Add SequenceTrimToLengthTransform (#61),5116,442183
+45,fd6c0df0,FAIL,12,NO,0,NO,0,2019-07-16 18:48:40 +0300,[WIP] More CUDA fixes/updates (#62),5115,441927
+46,cf231185,FAIL,13,NO,0,NO,0,2019-07-17 07:47:53 +0300,cpp tests fixes,5115,441927
+47,91a8fb0d,FAIL,13,NO,0,NO,0,2019-07-17 14:02:01 +0300,[WIP] More of CUDA (#63),5115,441927
+48,c9e867b2,FAIL,12,NO,0,NO,0,2019-07-17 14:53:24 +0300,File existence validation for Nd4j.createFromNpyFile(),5115,441933
+49,c499dc96,FAIL,12,NO,0,NO,0,2019-07-17 15:19:38 +0300,- numpy import fix for CUDA (#64),5115,441927
+50,d94bc725,FAIL,12,NO,0,NO,0,2019-07-18 18:54:07 +1000,Various fixes (#65),5115,441921
+51,7939cf38,FAIL,12,NO,0,NO,0,2019-07-19 13:23:37 +1000,Misc fixes (#66),5115,441921
+52,c3e684d6,FAIL,12,NO,0,NO,0,2019-07-19 13:56:05 +1000,DL4J: Switch subsampling layer to custom ops; DL4J samediff mask fix (#67),5115,441889
+53,2fb4a52a,FAIL,12,NO,0,NO,0,2019-07-19 13:57:13 +0300,[WIP] nd4s tests coverage (#59),5115,441889
+54,f29f19e9,FAIL,11,NO,0,NO,0,2019-07-19 18:41:05 +0300,[WIP] Some nd4s tweaks (#68),5115,441889
+55,06e4f5f9,FAIL,11,NO,0,NO,0,2019-07-20 12:37:34 +1000,Small DL4J/SameDiff fixes (#70),5115,441892
+56,763a225c,FAIL,11,NO,0,NO,0,2019-07-20 08:58:44 +0300,[WIP] More of CUDA operations (#69),5115,441892
+57,0d6bb657,FAIL,12,NO,0,NO,0,2019-07-20 21:33:47 +1000,FlatBuffers dtype conversion fix (missing bfloat16) (#71),5115,441896
+58,57efc2bf,FAIL,11,NO,0,NO,0,2019-07-21 00:03:30 +1000,Fix bad merge,5115,441896
+59,22993f85,FAIL,11,NO,0,NO,0,2019-07-24 21:51:57 -0700,Disallow creating bad classification iterator (#8042),5115,441899
+60,87d2b2cd,FAIL,11,NO,0,NO,0,2019-07-25 07:34:54 -0400,Added interface IDataManager (#8034),5121,442335
+61,0527ab8d,FAIL,11,NO,0,NO,0,2019-07-29 15:26:18 +1000,Fix validation (#8059),5121,442335
+62,b2145ca7,FAIL,11,NO,0,NO,0,2019-08-01 22:43:45 -0400,RL4J Added listener pattern to SyncLearning (#8050),5130,442644
+63,b083c22d,FAIL,11,NO,0,NO,0,2019-08-01 22:50:28 -0400,RL4J - Added a unit test to help refac QLearningDiscrete.trainStep() (#8065),5136,442848
+64,ce9c3729,FAIL,11,NO,0,NO,0,2019-07-22 19:59:47 +0900,fix pad javadoc and @see links. (#72),5136,442848
+65,59a006ce,FAIL,12,NO,0,NO,0,2019-07-22 14:00:24 +0300,[WIP] More fixes (#73),5136,442853
+66,b9708be5,FAIL,12,NO,0,NO,0,2019-07-22 15:55:28 +0300,delete temporary TadPack C++/Java side (#74),5136,442856
+67,00e62961,FAIL,11,NO,0,NO,0,2019-07-22 12:58:25 -0700,Zoo model TF import test updates (#75),5136,442856
+68,4f2dae23,FAIL,11,NO,0,NO,0,2019-07-23 08:38:00 +0300,- new NDArray methods like()/ulike() (#77),5136,442856
+69,2cd95dc5,FAIL,11,NO,0,NO,0,2019-07-24 14:45:09 +0300,upsampling2d fix CUDA,5136,442856
+70,ac1fc1a2,FAIL,10,NO,0,NO,0,2019-07-24 22:04:08 +1000,DL4J trace logging (#79),5136,442886
+71,ce0743da,FAIL,11,NO,0,NO,0,2019-07-24 17:11:29 +0300,strided_slice_bp shape fn leak fix,5136,442886
+72,ac321265,FAIL,12,NO,0,NO,0,2019-07-25 00:25:30 -0700,SameDiff fixes and naming (#78),5136,442862
+73,70dbe705,FAIL,12,NO,0,NO,0,2019-07-25 18:20:26 +0900,fix javadoc. (#76),5136,442862
+74,7c5c84be,FAIL,13,NO,0,NO,0,2019-07-25 13:50:36 +0300,4 additional tests,5136,442862
+75,fad8da87,FAIL,12,NO,0,NO,0,2019-07-26 00:05:24 +1000,Various DL4J/ND4J fixes (#81),5136,442916
+76,dcc72e23,FAIL,11,NO,0,NO,0,2019-07-22 20:34:08 +0900,Refactor NativeOps.h to export C functions,5136,442916
+77,780ae628,FAIL,12,NO,0,NO,0,2019-07-23 14:36:48 +0900,Actually export functions from NativeOps.h,5136,442916
+78,8881bfe7,FAIL,12,NO,0,NO,0,2019-07-23 14:49:45 +0900,Adapt the Java wrappers in ND4J generated with JavaCPP,5138,442918
+79,526b782e,FAIL,9,NO,0,NO,0,2019-07-24 21:14:54 +0900,Create C wrappers for some of the C++ classes currently used by ND4J,5146,443056
+80,fa98b832,FAIL,9,NO,0,NO,0,2019-07-26 11:28:51 +0900,remove duplicate code in createBufferDetached. (#83),5146,443025
+81,b57f1d52,FAIL,10,NO,0,NO,0,2019-07-25 20:37:52 -0700,Keras model import - updater lr fix (#84),5146,443025
+82,8d1fe8b1,FAIL,9,NO,0,NO,0,2019-07-26 07:22:44 +0000,Fix functions of OpaqueVariablesSet,5146,443025
+83,d4e79971,FAIL,10,NO,0,NO,0,2019-07-26 20:05:16 -0700,"SameDiff Convolution Config validation, better output methods (#82)",5146,443396
+84,aa4af2c3,FAIL,11,NO,0,NO,0,2019-07-29 21:20:16 +0900,refactor duplicate code from pad methods. (#86),5146,443379
+85,b95417f7,FAIL,10,NO,0,NO,0,2019-07-30 00:27:38 +1000,Various ND4J/DL4J fixes and improvements (#87),5146,443580
+86,065b34c7,FAIL,11,NO,0,NO,0,2019-07-30 09:59:22 +0300,[WIP] Numpy boolean import (#91),5146,443597
+87,386a9f05,FAIL,10,NO,0,NO,0,2019-07-30 16:05:14 +0900,remove create method with unused parameter. (#89),5146,443445
+88,fbe12003,FAIL,9,NO,0,NO,0,2019-07-30 19:59:21 +0900,remove createSparse methods. (#92),5146,443079
+89,e18e2dc0,FAIL,10,NO,0,NO,0,2019-08-01 19:30:58 +1000,Various ND4J/DL4J fixes (#90),5146,443081
+90,cd41c354,FAIL,10,NO,0,NO,0,2019-08-02 00:02:31 +1000,#8038 Fix Op profiler NaN/Inf triggering + add tests (#93),5147,443136
+91,dfec5424,FAIL,10,NO,0,NO,0,2019-08-02 14:13:00 +0900,createUninitializedDetached refactoring. (#94),5147,443121
+92,e5657883,FAIL,10,NO,0,NO,0,2019-08-02 11:50:54 +0300,cuda build fix for issues introduced by recent refactoring,5147,443107
+93,3c4e959e,FAIL,10,NO,0,NO,0,2019-08-02 20:01:03 +0300,[WIP] More of CUDA (#95),5147,443107
+94,e2b7675e,FAIL,11,NO,0,NO,0,2019-08-03 09:15:12 +0300,build fix,5147,443107
+95,aefdbc17,FAIL,10,NO,0,NO,0,2019-08-03 13:23:12 +0300,exclude two methods for JNI,5147,443107
+96,2447af09,FAIL,12,NO,0,NO,0,2019-08-03 13:27:34 +0300,exclude two methods for JNI,5147,443107
+97,b75bac75,FAIL,12,NO,0,NO,0,2019-08-03 14:27:26 +0300,exclude two methods for JNI (#97),5147,443107
+98,b597fb94,FAIL,11,NO,0,NO,0,2019-08-03 15:29:21 +0300,temporary stack fix,5147,443107
+99,923ab155,FAIL,11,NO,0,NO,0,2019-08-05 10:57:01 +1000,Small number of fixes (#98),5146,443021
+100,b8846113,FAIL,11,NO,0,NO,0,2019-08-05 22:31:46 +1000,Small number of fixes + cleanup + some missing op methods + constructors (#100),5146,443091
+101,a438434b,FAIL,11,NO,0,NO,0,2019-08-06 16:40:08 +0900,Nd4j refactoring (#101),5146,443043
+102,ba1d1b16,FAIL,12,NO,0,NO,0,2019-08-06 19:14:45 +0900,remove method with unused parameter. (#102),5146,443033
+103,edb71bf4,FAIL,11,NO,0,NO,0,2019-08-07 17:18:29 +1000,Add SameDiff exec debugging listener + few fixes (#104),5148,443209
+104,f8615e0e,FAIL,12,NO,0,NO,0,2019-08-07 19:31:48 +0900,nd4j refactoring. (#103),5146,443033
+105,c78f5a82,FAIL,11,NO,0,NO,0,2019-08-07 15:29:17 +0300,Shugeo cuda cuda (#105),5146,443033
+106,24e43e98,FAIL,11,NO,0,NO,0,2019-08-07 17:49:13 +0300,[WIP] build time improvements (#106),5146,443033
+107,fb139fca,FAIL,9,NO,0,NO,0,2019-08-07 18:18:38 +0300,clip by global norm msvc fix,5146,443033
+108,55066d9c,FAIL,10,NO,0,NO,0,2019-08-07 19:34:25 +0300,bad fatbin option removed,5146,443033
+109,62a02543,FAIL,10,NO,0,NO,0,2019-08-07 21:36:27 +0300,java cuda compilation fix,5146,443033
+110,7fa01288,FAIL,10,NO,0,NO,0,2019-08-08 18:05:21 +0300,[WIP] cuda concat (#107),5146,443033
+111,1a0a8b14,FAIL,11,NO,0,NO,0,2019-08-08 20:28:14 +0300,duplicate pad impl,5146,443033
+112,6ed03217,FAIL,12,NO,0,NO,0,2019-08-09 13:01:51 +0300,concat cuda helper,5146,443033
+113,11bddb38,FAIL,11,NO,0,NO,0,2019-08-09 22:30:31 -0700,SameDiff: Listener changes and training api update (#99),5167,444855
+114,f49c4ea9,FAIL,10,NO,0,NO,0,2019-08-10 09:14:18 +0300,int -> long (#108),5167,444855
+115,c29c011d,FAIL,11,NO,0,NO,0,2019-08-13 10:30:45 +0900,Nd4j refactoring (#109),5167,444842
+116,b10ab239,FAIL,11,NO,0,NO,0,2019-08-13 20:44:40 +0900,Nd4j refactoring (#111),5167,444840
+117,ec847e03,FAIL,8,NO,0,NO,0,2019-08-14 12:11:09 +0300,[WIP] Remote inference (#96),5197,446631
+118,53ca9a76,FAIL,8,NO,0,NO,0,2019-08-14 16:52:34 +0300,[WIP] multi-device support (#80),5190,446026
+119,e0f8d86e,FAIL,8,NO,0,NO,0,2019-08-14 18:28:25 +0300,bunch of shape functions fixed,5190,446026
+120,c7277729,FAIL,7,NO,0,NO,0,2019-08-14 21:51:42 +0300,few fixes for bfloat16 in java and cpp (#114),5190,446032
+121,110d14e5,FAIL,11,NO,0,NO,0,2019-08-15 03:05:14 +0200,SameDiff ops documentation (#8043),5167,444855
+122,37e053ad,FAIL,8,NO,0,NO,0,2019-08-15 12:02:42 +1000,Merge remote-tracking branch 'fork/master',5190,446032
+123,59cba587,FAIL,7,NO,0,NO,0,2019-08-15 13:50:52 +0900,Nd4j refactoring (#112),5190,445965
+124,6264530d,FAIL,8,NO,0,NO,0,2019-08-15 11:49:50 +0300,[WIP] bitwise ops (#115),5190,445965
+125,f083b96c,FAIL,8,NO,0,NO,0,2019-08-15 13:54:47 +0300,Shugeo cuda tests (#116),5190,445965
+126,3c7cd239,FAIL,8,NO,0,NO,0,2019-08-15 15:28:19 +0300,Eliminated memory leaks and dropped waste prints with tests. (#117),5190,445965
+127,935cbf5d,FAIL,7,NO,0,NO,0,2019-08-15 18:19:24 +0300,fix test,5190,445965
+128,72cb5936,FAIL,7,NO,0,NO,0,2019-08-15 18:24:29 +0300,no openmp for ClipByGlobalNorm,5190,445965
+129,987bb80c,FAIL,7,NO,0,NO,0,2019-08-15 20:35:15 +0300,[WIP] right shift ops (#118),5190,445965
+130,0a3e78b5,FAIL,7,NO,0,NO,0,2019-08-16 10:19:55 +0900,fix: IOException no longer thrown by read(). (#120),5190,445962
+131,b370544b,FAIL,9,NO,0,NO,0,2019-08-16 11:32:02 +1000,Small fix in TensorflowConversion class (#121),5190,445962
+132,9f2ba6a8,FAIL,7,NO,0,NO,0,2019-08-16 06:57:20 +0300,Shyrma concat2 (#119),5190,445962
+133,65ff1838,FAIL,8,NO,0,NO,0,2019-08-16 14:19:06 +1000,InferenceSession additional validation for shape calc (#122),5190,445964
+134,2f3d7330,FAIL,7,NO,0,NO,0,2019-08-16 08:14:18 +0300,[WIP] build fix (#124),5190,445980
+135,5c908886,FAIL,7,NO,0,NO,0,2019-08-16 08:53:30 +0300,OP/CONFIGURABLE_OP shapefn fix (#125),5190,445980
+136,7fbc4b09,FAIL,8,NO,0,NO,0,2019-08-16 15:39:11 +0900,Nd4j refactoring (last one!) (#123),5190,445984
+137,3ba616a1,FAIL,8,NO,0,NO,0,2019-08-16 13:14:26 +0300,[WIP] Java wrappers (#126),5196,446146
+138,e9b72e78,FAIL,9,NO,0,NO,0,2019-08-16 15:02:47 +0300,one more build fix,5196,446154
+139,95100ffd,FAIL,9,NO,0,NO,0,2019-08-17 14:13:31 +1000,Small build fixes (#127),5196,446166
+140,62495dd7,FAIL,13,NO,0,NO,0,2019-08-17 13:48:14 +0300,parent module name fix,5196,446166
+141,21f19003,FAIL,12,NO,0,NO,0,2019-08-17 13:48:23 +0300,parent module name fix,5190,446032
+142,e22880fd,FAIL,12,NO,0,NO,0,2019-08-17 14:15:08 +0300,[WIP] Roll rewritten (#128),5196,446166
+143,56910dde,FAIL,13,NO,0,NO,0,2019-08-17 14:51:39 +0300,no thread_local for cpu,5190,446032
+144,8944e5f6,FAIL,12,NO,0,NO,0,2019-08-17 14:51:54 +0300,no thread_local for cpu,5196,446166
+145,bb80fe4f,FAIL,13,NO,0,NO,0,2019-08-17 14:52:13 +0300,Merge remote-tracking branch 'origin/master',5196,446166
+146,000334ea,FAIL,11,NO,0,NO,0,2019-08-17 17:59:14 +0300,affinity fix for tensorflow conversion,5190,446032
+147,13529a71,FAIL,12,NO,0,NO,0,2019-08-19 08:55:15 +0300,removed IOException catch,5190,446029
+148,aceb9155,FAIL,11,NO,0,NO,0,2019-08-19 11:33:15 +0300,[WIP] tests fixes (#130),5198,446134
+149,01cb5704,FAIL,12,NO,0,NO,0,2019-08-19 18:46:47 +1000,Merge,5198,446134
+150,b8ab1a00,FAIL,11,NO,0,NO,0,2019-08-19 12:57:24 +0300,- 2 mod tests - ModOp mapping added,5198,446151
+151,36db7619,FAIL,10,NO,0,NO,0,2019-08-19 20:36:03 +1000,Build fix (IsMax) (#132),5198,446151
+152,30b51f80,FAIL,11,NO,0,NO,0,2019-08-19 22:35:49 +1000,Fixes (#133),5198,446150
+153,10d676e0,FAIL,10,NO,0,NO,0,2019-08-19 16:25:13 +0300,[WIP] nd4s - Scala operators for SameDiff  (#113),5198,446154
+154,38310777,FAIL,11,NO,0,NO,0,2019-08-20 15:20:40 +0900, fix for eclipse#8087 (#129),5198,446119
+155,23c8738d,FAIL,12,NO,0,NO,0,2019-08-20 18:28:43 +0300,syncthreads (#136),5198,446119
+156,269d508b,FAIL,12,NO,0,NO,0,2019-08-20 18:52:41 +0300,[WIP] cross-device migrations (#134),5198,446138
+157,4310e878,FAIL,11,NO,0,NO,0,2019-08-21 07:32:21 +0300,include path fix for java,5198,446138
+158,3f437992,FAIL,10,NO,0,NO,0,2019-08-21 08:50:59 +0300,scalar constructor fix,5198,446144
+159,4211f3b4,FAIL,12,NO,0,NO,0,2019-08-21 08:53:36 +0300,one more scalar constructor fix,5198,446136
+160,77805cb7,FAIL,11,NO,0,NO,0,2019-08-21 10:12:11 +0300,[WIP] cpu ismax fix (#137),5198,446176
+161,a5867bb5,FAIL,12,NO,0,NO,0,2019-08-21 18:34:49 +1000,Upgrade Jersey to 2.29 (#139),5198,446176
+162,d9ab2997,FAIL,12,NO,0,NO,0,2019-08-21 15:05:47 +0300,[WIP] Minor fixes (#140),5198,446160
+163,0adce9a4,FAIL,11,NO,0,NO,0,2019-08-21 16:34:07 +0300,minor fix for msvc,5198,446160
+164,348d9c59,FAIL,11,NO,0,NO,0,2019-08-21 23:47:24 +1000,Various fixes (#141),5198,446285
+165,3cf72e5e,FAIL,9,NO,0,NO,0,2019-08-21 20:18:29 +0300,[WIP] More fixes (#142),5198,446285
+166,e604ffe0,FAIL,10,NO,0,NO,0,2019-08-21 21:10:29 +0300,[WIP] repeat op (#143),5198,446285
+167,eea3062c,FAIL,11,NO,0,NO,0,2019-08-21 21:11:46 +0300,[WIP] stb/bts nd (#144),5198,446285
+168,2b0d7b3b,FAIL,11,NO,0,NO,0,2019-08-21 16:40:32 -0700,"[WIP] Various fixes, mostly SameDiff/Nd4j (#110)",5179,445496
+169,ca7e5593,FAIL,11,NO,0,NO,0,2019-08-22 10:49:30 +0900,ND4J: Remove Nd4j.trueScalar/trueVector (#145),5179,445472
+170,9c2bfc98,FAIL,12,NO,0,NO,0,2019-08-22 16:16:03 +1000,"Various fixes (DL4J, ND4J) (#147)",5179,445482
+171,e855e47f,FAIL,12,NO,0,NO,0,2019-08-22 19:55:27 +1000,More fixes (#148),5179,445482
+172,c523aa79,FAIL,12,NO,0,NO,0,2019-08-22 19:27:43 +0900,removr trueVector. (#146),5179,445454
+173,930b49e8,FAIL,11,NO,0,NO,0,2019-08-22 20:01:29 +0300,[WIP] DeviceLocalNDArray updates (#149),5179,445586
+174,80d35377,FAIL,12,NO,0,NO,0,2019-08-23 15:09:53 +1000,SameDiff cleanup and fixes (#150),5177,445552
+175,243bf866,FAIL,11,NO,0,NO,0,2019-08-23 09:00:10 +0300,[WIP] Few fixes (#153),5177,445582
+176,dbea6879,FAIL,11,NO,0,NO,0,2019-08-23 10:24:56 +0300,better handling of INDArray.close() (#154),5177,445659
+177,c4e7d032,FAIL,10,NO,0,NO,0,2019-08-23 12:20:05 +0900,ND4J: Fix incorrectly bundled libraries on Linux ARM,5177,445662
+178,e22a2c93,FAIL,12,NO,0,NO,0,2019-08-23 17:21:38 +0900,Update docs for Android and CUDA/cuDNN,5177,445662
+179,729dc5e8,FAIL,12,NO,0,NO,0,2019-08-23 12:31:12 +0300,[WIP] size etc (#155),5177,445683
+180,fb8de500,FAIL,11,NO,0,NO,0,2019-08-23 13:16:50 +0300,- concat empty scalar fix - couple of tests for empty scalar concat,5177,445683
+181,70ee8ba9,FAIL,11,NO,0,NO,0,2019-08-23 20:54:24 +1000,Optimization / fix for DL4J SameDiff layers (#156),5177,445702
+182,614c687e,FAIL,11,NO,0,NO,0,2019-08-23 15:43:22 +0300,Added scala version (#157),5177,445702
+183,8e3d569f,FAIL,11,NO,0,NO,0,2019-08-23 22:50:07 +1000,Small fixes to subsampling layer (#158),5177,445710
+184,2e99bc2d,FAIL,12,NO,0,NO,0,2019-08-23 17:00:55 +0300,[WIP] Handling binary data in DL4J servlet (#135),5181,446133
+185,99cdf6d4,FAIL,12,NO,0,NO,0,2019-08-23 18:44:37 +0300,- cpu isMax fix for multidim case + test - INDArray.wasClosed() fix for empty array edge case,5181,446142
+186,f03b0ee7,FAIL,12,NO,0,NO,0,2019-08-23 19:20:50 +0300,[WIP] more fixes (#159),5181,446174
+187,95b2686c,FAIL,13,NO,0,NO,0,2019-08-24 14:01:56 +1000,Small ND4S fix (#8143),5181,446174
+188,f8364997,FAIL,12,NO,0,NO,0,2019-08-24 09:20:57 +0300,[WIP] maxpool2d_bp fix (#160),5181,446186
+189,b85238a6,FAIL,13,NO,0,NO,0,2019-08-24 17:33:11 +1000,MLN/CG: Don't swallow exceptions if a second exception occurs during workspace closing (#161),5181,446234
+190,a9b08cc1,FAIL,14,NO,0,NO,0,2019-08-24 19:22:36 +1000,Upgrade protobuf version (#162),5181,446234
+191,b091e972,FAIL,13,NO,0,NO,0,2019-08-24 14:16:34 +0300,- string NDArray flat serde impl + tests (#163),5181,446234
+192,841eeb56,FAIL,13,NO,0,NO,0,2019-08-24 16:18:38 +0300,get rid of context variable,5181,446234
+193,ece6a17b,FAIL,12,NO,0,NO,0,2019-08-24 16:57:48 +0300,lup context fix (#164),5181,446234
+194,d871eab2,FAIL,13,NO,0,NO,0,2019-08-24 16:59:30 +0300,[WIP] latest update (#8145),5181,446234
+195,d607bec6,FAIL,13,NO,0,NO,0,2019-08-26 11:45:33 +1000,Small test fixes (#165),5181,446230
+196,daf5420f,FAIL,12,NO,0,NO,0,2019-08-26 08:13:22 +0300,cmake fix for windows debug build,5181,446230
+197,9a513a9a,FAIL,12,NO,0,NO,0,2019-08-26 16:01:20 +0900, INDArray javadocs (#166),5181,446228
+198,b417ca21,FAIL,12,NO,0,NO,0,2019-08-26 23:10:28 +1000,Fix for concat op shape function (empty shapes) (#167),5181,446253
+199,bb5fc36e,FAIL,12,NO,0,NO,0,2019-08-26 19:37:05 +0300,[WIP] ops fixes (#168),5181,446252
+200,25e5c23e,FAIL,11,NO,0,NO,0,2019-08-26 19:57:51 +0300,[WIP] Error handling (#169),5181,446434
+201,e92f7218,FAIL,12,NO,0,NO,0,2019-08-27 12:15:56 +1000,Add new tests (#171),5181,446527
+202,df84bc72,FAIL,11,NO,0,NO,0,2019-08-27 10:37:10 +0300,[WIP] More tweaks (#173),5181,446591
+203,05d45ec0,FAIL,12,NO,0,NO,0,2019-08-27 11:31:59 +0300,IndexReduce along dim CUDA fix,5181,446591
+204,dce4751f,FAIL,11,NO,0,NO,0,2019-08-27 18:34:53 +1000,Layer norm 4d case fixes (#174),5181,446630
+205,5cfbeb64,FAIL,12,NO,0,NO,0,2019-08-27 19:10:31 +1000,Another small fix (#175),5181,446631
+206,efbfafe3,FAIL,11,NO,0,NO,0,2019-08-27 12:35:14 +0300,[WIP] gatherND fix (#176),5181,446631
+207,fd22a8ec,FAIL,12,NO,0,NO,0,2019-08-27 19:46:26 +1000,"Small build fix, after last PR (#177)",5181,446629
+208,a49f7c90,FAIL,11,NO,0,NO,0,2019-08-27 13:21:01 +0300,[WIP] More fixes (#178),5181,446629
+209,dff599aa,FAIL,11,NO,0,NO,0,2019-08-27 20:43:36 +1000,Test fix (#179),5181,446629
+210,0e523490,FAIL,11,NO,0,NO,0,2019-08-27 14:30:37 +0300,[WIP] confusion (#180),5181,446629
+211,7f0c660d,FAIL,11,NO,0,NO,0,2019-08-27 15:05:43 +0300,[WIP] HGemm (#181),5181,446629
+212,9d325ad0,FAIL,11,NO,0,NO,0,2019-08-27 23:27:41 +1000,Small optimization to Nd4j.readNumpy (#183),5181,446628
+213,0849b3c1,FAIL,12,NO,0,NO,0,2019-08-27 18:25:39 +0300,Shugeo segment fix2 (#185),5181,446628
+214,65053952,FAIL,10,NO,0,NO,0,2019-08-27 19:56:04 +0300,[WIP] Updating failed tests to reflect code changes (#184),5181,446626
+215,21449413,FAIL,10,NO,0,NO,0,2019-08-27 19:57:59 +0300,Shyrma fix2 (#186),5181,446626
+216,b472d7d8,FAIL,11,NO,0,NO,0,2019-08-27 21:00:38 +0300,[WIP] few more fixes (#182),5181,446638
+217,d31197db,FAIL,10,NO,0,NO,0,2019-08-27 18:02:41 -0700,Remove resolvePropertiesFromSameDiffBeforeExecution() (#172),5181,446564
+218,59a6e4e3,FAIL,11,NO,0,NO,0,2019-08-28 12:03:23 +0900,INDArray refactoring (#170),5181,446554
+219,b46f9827,FAIL,11,NO,0,NO,0,2019-08-28 13:27:00 +1000,Layer norm test updates (#187),5181,446561
+220,2a143126,FAIL,11,NO,0,NO,0,2019-08-27 20:39:32 -0700,Remove calculate output shape from java side (#151),5177,446179
+221,3157ec11,FAIL,10,NO,0,NO,0,2019-08-28 11:14:22 +0300,[WIP] reverse_sequence (#188),5177,446179
+222,f4860574,FAIL,10,NO,0,NO,0,2019-08-28 15:38:57 +0300,[WIP] More fixes (#190),5177,446194
+223,dec296da,FAIL,12,NO,0,NO,0,2019-08-28 18:20:44 +0300,[WIP] bits_hamming_distance (#192),5177,446194
+224,70af8c2a,FAIL,11,NO,0,NO,0,2019-08-28 18:27:08 +0300,Shyrma svd (#191),5177,446197
+225,f40bdcf8,FAIL,10,NO,0,NO,0,2019-08-28 20:05:01 -0700,Dl4j LSTM and Dropout CuDNN fallback and options (#152),5177,446308
+226,0463ee4e,FAIL,12,NO,0,NO,0,2019-08-29 06:54:48 +0300,Fix backend dependencies for tests (#189),5177,446308
+227,5395d4fb,FAIL,11,NO,0,NO,0,2019-08-29 20:38:02 +0300,- rewrite broadcast_dynamic_shape and delete corresponding helpers (#194),5177,446308
+228,70c916c5,FAIL,12,NO,0,NO,0,2019-08-29 17:31:57 -0700,Beta4 Regression tests (#196),5178,446596
+229,4d331f09,FAIL,8,NO,0,NO,0,2019-08-30 11:33:31 +1000,Fix test profiles (#197),5178,446596
+230,5cb6bebe,FAIL,13,NO,0,NO,0,2019-08-30 11:40:39 +1000,Fix (#198),5178,446596
+231,378669cc,FAIL,12,NO,0,NO,0,2019-08-29 21:28:34 -0700,Fix MNIST Fetcher to not re-allocate each batch (#200),5178,446596
+232,dcc2baa6,FAIL,12,NO,0,NO,0,2019-08-30 14:35:27 +1000,Version upgrades (#199),5149,445808
+233,130c9aa5,FAIL,12,NO,0,NO,0,2019-08-30 16:36:14 +1000,Fixes (#202),5149,445806
+234,1003428a,FAIL,13,NO,0,NO,0,2019-08-30 10:12:40 +0300,[WIP] Int broadcastables (#195),5149,445798
+235,62e96c97,FAIL,12,NO,0,NO,0,2019-08-30 20:39:43 +1000,Guava Function -> nd4j-common Function (#203),5149,445793
+236,54e320a2,FAIL,12,NO,0,NO,0,2019-08-30 21:40:27 +0900,javadoc (#201),5149,445757
+237,3f3b676c,FAIL,12,NO,0,NO,0,2019-08-30 23:00:53 +1000,DL4J Fixes (#204),5149,445798
+238,f414239e,FAIL,12,NO,0,NO,0,2019-08-30 16:18:41 +0300,Types fixed (#205),5149,445799
+239,70a9ae50,FAIL,12,NO,0,NO,0,2019-08-30 16:32:01 +0300,[WIP] few tweaks (#206),5149,445801
+240,a7dca9fc,FAIL,12,NO,0,NO,0,2019-08-30 23:36:00 +1000,"Add java op class for relu derivative, and use in Activation ReLU (#207)",5150,445821
+241,6efffb72,FAIL,11,NO,0,NO,0,2019-08-30 23:40:52 +1000,Import fix (#208),5150,445819
+242,bdc3eaca,FAIL,11,NO,0,NO,0,2019-08-30 20:13:01 +0300,one small playground test,5150,445819
+243,00fd50ce,FAIL,11,NO,0,NO,0,2019-08-30 20:31:05 +0300,Shyrma softmax (#209),5150,445819
+244,12d14efc,FAIL,11,NO,0,NO,0,2019-08-31 12:27:09 +1000,ND4S test fix (#210),5150,445819
+245,b393d3fd,FAIL,11,NO,0,NO,0,2019-08-31 12:33:22 +1000,Merge,5150,445819
+246,f00a7bb3,FAIL,11,NO,0,NO,0,2019-09-01 00:16:38 +1000,Small fix for clashing dependency (test scope only) (#214),5150,445819
+247,b71c993d,FAIL,11,NO,0,NO,0,2019-08-31 20:57:05 +0300,[WIP] maxpool_bp cuda fix (#212),5150,445830
+248,a35926c6,FAIL,10,NO,0,NO,0,2019-08-31 20:57:39 +0300,- add parameter alpha to elu and lrelu_bp (#213),5150,445830
+249,ef1de6a4,FAIL,11,NO,0,NO,0,2019-09-01 13:17:36 +0900,rcorbish #8617 (#8188),5150,445821
+250,3679e55c,FAIL,12,NO,0,NO,0,2019-09-01 19:33:23 +0300,fix bits_hamming_distance for ppc,5150,445821
+251,00cf28f4,FAIL,11,NO,0,NO,0,2019-09-01 19:57:39 +0300,get rid of builtin_popcount to please ppc,5150,445821
+252,c34826da,FAIL,12,NO,0,NO,0,2019-09-01 22:06:01 +0300,fixed args,5150,445821
+253,6d04d30c,FAIL,11,NO,0,NO,0,2019-09-02 15:06:20 +0900,INDArray.java javadoc  (#215),5150,445828
+254,b3a134b6,FAIL,11,NO,0,NO,0,2019-09-01 23:15:23 -0700,New Nd4j backprop ops for activations (#211),5162,446275
+255,acf55942,FAIL,11,NO,0,NO,0,2019-09-02 16:44:57 +1000,Small test fix (#216),5162,446274
+256,65c9f2a8,FAIL,11,NO,0,NO,0,2019-09-02 17:42:12 +1000,ELU fix (#217),5162,446282
+257,e42c34ca,FAIL,11,NO,0,NO,0,2019-09-02 11:25:48 +0300,[WIP] minor  (#218),5162,446282
+258,82c9dc57,FAIL,12,NO,0,NO,0,2019-09-02 18:37:05 +1000,ELU fix (#219),5161,446198
+259,5b8ea3e8,FAIL,12,NO,0,NO,0,2019-09-02 11:49:13 +0300,one more tiny cuda fux,5161,446198
+260,7ded4416,FAIL,11,NO,0,NO,0,2019-09-02 18:52:12 +1000,Merge remote-tracking branch 'fork/master',5161,446200
+261,0e05cba2,FAIL,12,NO,0,NO,0,2019-09-02 12:40:32 +0300,change pointer reference for cudnn (#220),5161,446200
+262,10652466,FAIL,12,NO,0,NO,0,2019-09-02 15:24:51 +0300,fix double consumption of rng on cpu,5161,446200
+263,cb4c9377,FAIL,11,NO,0,NO,0,2019-09-02 16:25:58 +0300,Shyrma docs (#222),5161,446200
+264,18828f97,FAIL,11,NO,0,NO,0,2019-09-02 16:52:10 +0300,cublasHandle sharing + lock,5161,446209
+265,2129d5bc,FAIL,11,NO,0,NO,0,2019-09-02 16:52:28 +0300,cublasHandle sharing + lock,5161,446209
+266,90b62c45,FAIL,11,NO,0,NO,0,2019-09-02 17:17:55 +0300,Documentation from serialization/deserialization in NLP (#221),5161,446173
+267,d3253aff,FAIL,9,NO,0,NO,0,2019-09-02 20:01:13 +0300,dedicated lock for getCudaCublasHandle,5161,446214
+268,6ce62070,FAIL,10,NO,0,NO,0,2019-09-02 20:01:27 +0300,Merge remote-tracking branch 'origin/master',5161,446178
+269,ba269a26,FAIL,10,NO,0,NO,0,2019-09-03 10:48:59 +1000,Small fixes (#223),5161,446170
+270,364a6e1a,FAIL,12,NO,0,NO,0,2019-09-03 13:35:02 +1000,ELU DL4J fixes (#224),5161,446167
+271,c64b3409,FAIL,11,NO,0,NO,0,2019-09-03 13:06:42 +0900,javadoc (#225),5161,446167
+272,f076a8b2,FAIL,10,NO,0,NO,0,2019-09-03 14:17:53 +1000,Small test compilation fix (#226),5161,446167
+273,f6f9437a,FAIL,12,NO,0,NO,0,2019-09-03 09:26:35 +0300,get back cc 7.0 support for cuda 9.2,5161,446200
+274,5be43e72,FAIL,11,NO,0,NO,0,2019-09-03 18:54:19 +1000,#8182 remove spark version suffix (#227),5161,446167
+275,9d03bb94,FAIL,11,NO,0,NO,0,2019-09-03 13:30:16 +0300,allow atomicAdd for CUDA 10 only,5161,446200
+276,dddc8a11,FAIL,12,NO,0,NO,0,2019-09-03 22:00:38 +0300,[WIP] Thread safety (#229),5162,446232
+277,7abc574e,FAIL,11,NO,0,NO,0,2019-09-03 22:02:02 +0300,Snapshot update (#8194),5162,446232
+278,25b01f78,FAIL,11,NO,0,NO,0,2019-09-04 12:29:02 +0900,javadoc and remove deprecated methods. (#231),5162,446153
+279,64eaafb4,FAIL,13,NO,0,NO,0,2019-09-04 08:38:22 +0300,remove unwanted noexcept,5162,446232
+280,6cc887be,FAIL,12,NO,0,NO,0,2019-09-04 16:36:11 +1000,Rename flatbuffers DataType to DType (#228),5162,446153
+281,e9454b88,FAIL,13,NO,0,NO,0,2019-09-04 00:44:01 -0700,SDCNN cleanup pass (#230),5162,446205
+282,d4101875,FAIL,14,NO,0,NO,0,2019-09-04 19:11:17 +1000,Small fix (#233),5162,446201
+283,a90c7dd9,FAIL,13,NO,0,NO,0,2019-09-04 14:41:08 +0300,[WIP] Last set of changes (#234),5165,446308
+284,548044a1,FAIL,12,NO,0,NO,0,2019-09-04 14:57:59 +0300,Shugeo doc (#235),5165,446308
+285,03c52ef9,FAIL,12,NO,0,NO,0,2019-09-04 22:34:31 +1000,Add SameDiff.bitwise namespace (#232),5167,446408
+286,b7226bdd,FAIL,12,NO,0,NO,0,2019-09-05 00:53:49 +1000,Merge,5167,446409
+287,f25e3e71,FAIL,12,NO,0,NO,0,2019-09-05 10:19:39 +0900,remove lengthLong (#236),5167,446399
+288,7d857759,FAIL,11,NO,0,NO,0,2019-09-05 11:51:11 +1000,Arbiter generic JSON ser/de fixes (#237),5167,446447
+289,79867f5c,FAIL,12,NO,0,NO,0,2019-09-04 19:25:03 -0700,cleanup SDRNN and rnn ops (#238),5173,446737
+290,bb41546e,FAIL,11,NO,0,NO,0,2019-09-05 12:26:54 +1000,Small DataVec test fix (#239),5173,446737
+291,87d87392,FAIL,12,NO,0,NO,0,2019-09-05 14:25:20 +1000,Small LapackTest fix (#240),5173,446737
+292,d1e9b349,FAIL,11,NO,0,NO,0,2019-09-05 15:04:36 +0900,libnd4j: Remove some unused declarations in unit tests (#8202),5167,446409
+293,52d27951,FAIL,11,NO,0,NO,0,2019-09-05 17:01:47 +1000,Another round of small fixes (#241),5173,446781
+294,45017ec9,FAIL,11,NO,0,NO,0,2019-09-05 17:55:52 +1000,Fixes for remote UI (#242),5173,446779
+295,04596327,FAIL,12,NO,0,NO,0,2019-09-05 18:30:51 +1000,Ensure UI overview page is refreshed when loading saved net data (#243),5173,446779
+296,a6de3b5d,FAIL,11,NO,0,NO,0,2019-09-05 19:05:40 +1000,Small Arbiter UI fix (#244),5173,446779
+297,fc222d33,FAIL,12,NO,0,NO,0,2019-09-05 14:45:46 +0300,logging off,5173,446779
+298,a76a44e1,FAIL,13,NO,0,NO,0,2019-09-05 22:04:25 +1000,Merge remote-tracking branch 'fork/master',5173,446780
+299,fbedd1e7,FAIL,14,NO,0,NO,0,2019-09-05 22:10:39 +0900,Update dependency on JavaCPP to just released version 1.5.1-1,5173,446780
+300,e2fb0df9,FAIL,10,NO,0,NO,0,2019-09-06 12:06:17 +1000,Version fix (#245),5173,446779
+301,4fbd9b7d,FAIL,13,NO,0,NO,0,2019-09-06 12:20:22 +1000,Merge remote-tracking branch 'fork/master',5173,446780
+302,46f8c585,FAIL,11,NO,0,NO,0,2019-09-06 08:57:53 +0300,- bits_hamming_distance dtype fix - DataTypeUtils::asString fixe + new dtypes added,5173,446779
+303,1de9fb21,FAIL,12,NO,0,NO,0,2019-09-06 08:59:05 +0300,- bits_hamming_distance dtype fix (#8208),5173,446780
+304,5de00682,FAIL,12,NO,0,NO,0,2019-09-07 11:45:01 +0300,Release version 1.0.0 beta5 (#8215),5173,446780
+305,c99f9805,FAIL,11,NO,0,NO,0,2019-09-09 12:09:31 +0900,INDArray javadoc (#246),5173,446779
+306,b582e69e,FAIL,11,NO,0,NO,0,2019-09-09 22:54:07 +1000,Small ND4J/SameDiff fixes (#248),5173,446814
+307,c9f8a904,FAIL,10,NO,0,NO,0,2019-09-09 16:27:45 +0300,Shugeo cuda docs1 (#249),5173,446814
+308,3fb9aecb,FAIL,11,NO,0,NO,0,2019-09-10 12:22:10 +1000,Fix for null shape in SameDiff.var validation (#250),5173,446815
+309,f9197073,FAIL,11,NO,0,NO,0,2019-09-10 13:14:29 +1000,Another small fix (#251),5173,446830
+310,ffae024c,FAIL,14,NO,0,NO,0,2019-09-10 07:46:35 +0300,disable threadlocal for apple,5173,446780
+311,4f7b35ac,FAIL,10,NO,0,NO,0,2019-09-10 19:09:46 +1000,Update links to eclipse repos (#252),5173,446830
+312,8a05ec2a,FAIL,11,NO,0,NO,0,2019-09-10 20:38:23 -0700,Fix a couple SameDiff training issues (#253),5173,446966
+313,3e73e9b5,FAIL,10,NO,0,NO,0,2019-09-11 23:37:24 +1000,"Fixes, cleanup, enable now fixed tests, etc (#254)",5173,447000
+314,58940147,FAIL,12,NO,0,NO,0,2019-09-11 20:12:09 +0300,[WIP] bunch of improvements (#257),5173,447000
+315,e1a7460f,FAIL,12,NO,0,NO,0,2019-09-11 21:04:43 +0300,Shugeo cuda doc2 (#255),5173,447000
+316,98e28148,FAIL,13,NO,0,NO,0,2019-09-11 21:50:28 +0300,Platform helpers (#8216),5173,446817
+317,07901ceb,FAIL,14,NO,0,NO,0,2019-09-12 04:55:59 +0300,few more mkldnn dependencies removed,5173,446817
+318,a66e0335,FAIL,14,NO,0,NO,0,2019-09-12 12:20:57 +1000,Merge remote-tracking branch 'fork/master',5173,447038
+319,78bca543,FAIL,13,NO,0,NO,0,2019-09-12 10:49:01 +0300,missed include for MklDnnTests run without mkldnn,5173,447038
+320,bdfeedb1,FAIL,13,NO,0,NO,0,2019-09-12 23:43:01 +1000,Remove old datavec.spark.version tag (#8232),5173,447038
+321,bc2a7dd7,FAIL,14,NO,0,NO,0,2019-09-12 19:23:44 +0300,[WIP] Fixed signatures. SameDiff tests (#258),5173,447055
+322,2bd69c00,FAIL,14,NO,0,NO,0,2019-09-12 19:25:03 +0300,[WIP] Fixed signatures. SameDiff tests (#258) (#8233),5173,447055
+323,c1bcbdda,FAIL,13,NO,0,NO,0,2019-09-13 13:40:46 +1000,Build fix - tsne random method signature (#259),5173,447055
+324,6b557f24,FAIL,14,NO,0,NO,0,2019-09-13 15:19:08 +1000,Merge remote-tracking branch 'fork/master',5173,447055
+325,979ef13c,FAIL,14,NO,0,NO,0,2019-09-13 11:55:13 +0300,fix build issues,5173,447052
+326,83d958d5,FAIL,14,NO,0,NO,0,2019-09-18 04:56:29 +0900,Sparse matrix refactoring. (#8238),5131,442677
+327,d58a4b45,FAIL,14,NO,0,NO,0,2019-09-17 21:56:49 +0200,Fix Nadam updater clone missing schedule (#8243),5131,442677
+328,59f1cbf0,FAIL,13,NO,0,NO,0,2019-09-18 21:28:13 -0400,RL4J - AsyncTrainingListener (#8072),5139,443024
+329,f98f8be7,FAIL,13,NO,0,NO,0,2019-09-19 11:52:20 +1000,SameDiff ops (#8247),5141,443163
+330,d5e98afc,FAIL,14,NO,0,NO,0,2019-09-30 00:40:32 -0400,RL4J: Add VideoRecorder (#8106),5142,443278
+331,e06dfb5d,FAIL,12,NO,0,NO,0,2019-09-30 18:24:12 +0300,Implementation of adjust_contrast op.,5141,443163
+332,5959ff47,FAIL,13,NO,0,NO,0,2019-09-30 20:27:51 -0400,RL4J: Fix QLearningDiscrete.setTarget() and add CartpoleNative (#8250),5143,443369
+333,44a8d19a,FAIL,13,NO,0,NO,0,2019-10-01 09:10:19 +0300,[WIP] Broadcast changes (#8257),5143,443369
+334,1575c704,FAIL,12,NO,0,NO,0,2019-10-01 11:44:27 +0300,Added implementation for adjust_contrast_v2 op and tests.,5141,443163
+335,afeb5242,FAIL,12,NO,0,NO,0,2019-10-01 14:13:09 +0300,Refactored implementation for adjust_contrast ops.,5141,443163
+336,62326542,FAIL,12,NO,0,NO,0,2019-10-01 14:15:54 +0300,Merge pull request #1 from KonduitAI/shugeo_adjust,5141,443163
+337,863ff768,FAIL,12,NO,0,NO,0,2019-10-02 12:17:00 +0300,Added declaration for bincast op.,5141,443163
+338,a27e6155,FAIL,12,NO,0,NO,0,2019-10-02 15:04:28 +0300,Added tests and fixed op name.,5141,443163
+339,1c6173d2,FAIL,13,NO,0,NO,0,2019-10-02 15:04:59 +0300,Added implementation of bitcast op.,5141,443163
+340,f3e42173,FAIL,12,NO,0,NO,0,2019-10-02 16:51:09 +0300,Refactored buffer copying to avoid wrong usage of buffers.,5141,443163
+341,75ad3c81,FAIL,14,NO,0,NO,0,2019-10-02 19:05:26 +0300,Fixed test names.,5141,443163
+342,130ee256,FAIL,14,NO,0,NO,0,2019-10-03 10:57:48 +0300,Implemented compare_and_bitpack op.,5141,443163
+343,1f4ad083,FAIL,12,NO,0,NO,0,2019-10-03 19:35:27 +0900,refactoring activations. (#8261),5143,443330
+344,d2e98564,FAIL,12,NO,0,NO,0,2019-10-03 14:27:24 +0300,Merge pull request #2 from KonduitAI/shugeo_bincast,5141,443163
+345,6eaca179,FAIL,14,NO,0,NO,0,2019-10-03 18:22:17 +0300,Implement divide_no_nan op.,5141,443163
+346,bbfa41cb,FAIL,12,NO,0,NO,0,2019-10-03 18:27:12 +0300,Merge pull request #3 from KonduitAI/shugeo_div_no_nan,5141,443163
+347,cff26f13,FAIL,11,NO,0,NO,0,2019-10-03 20:25:52 +0300,"Revert ""Implement divide_no_nan op.""",5141,443163
+348,2381c514,FAIL,13,NO,0,NO,0,2019-10-03 20:26:15 +0300,Merge pull request #4 from KonduitAI/revert-3-shugeo_div_no_nan,5141,443163
+349,908e4c49,FAIL,13,NO,0,NO,0,2019-10-04 10:29:15 +0300,Added implementation for divide_no_nan op and tests.,5141,443163
+350,b8f2a83a,FAIL,13,NO,0,NO,0,2019-10-04 10:33:04 +0300,Merge pull request #5 from KonduitAI/shugeo_divnonan_full,5141,443163
+351,8f70b444,FAIL,12,NO,0,NO,0,2019-10-04 18:32:21 +0300,draw_bounding_boxes op implementation. Inital revision.,5141,443163
+352,53a2ebdd,FAIL,12,NO,0,NO,0,2019-10-04 20:46:26 +0300,Added test and helpers for draw_bounding_boxes op both cpu and cuda related.,5141,443163
+353,16a66a65,FAIL,12,NO,0,NO,0,2019-10-04 21:16:34 +0300,Added helper declaration for draw_bounding_boxes op.,5141,443163
+354,78443ffe,FAIL,13,NO,0,NO,0,2019-10-07 15:04:44 +0300,Working implementation of draw_bounding_boxes op for cpu.,5141,443163
+355,7a1e3275,FAIL,13,NO,0,NO,0,2019-10-07 16:59:47 +0300,Indexing demo,5141,443163
+356,6cf3a8fa,FAIL,14,NO,0,NO,0,2019-10-07 17:51:07 +0300,Refactored cpu implementatio and added cuda aproach.,5141,443163
+357,ae09cfee,FAIL,14,NO,0,NO,0,2019-10-08 00:09:46 +0300,Next approach of cuda imlementation for draw_bounding_boxes op helper.,5141,443163
+358,30a8af56,FAIL,14,NO,0,NO,0,2019-10-08 13:45:18 +0300,The first working implementation of cuda kernel for draw_bounding_boxes op helper.,5141,443163
+359,50b13fad,FAIL,13,NO,0,NO,0,2019-10-08 19:48:22 +0900,nd4j-api cleanup. (#8273),5143,443279
+360,8fe5a1fa,FAIL,14,NO,0,NO,0,2019-10-08 15:42:27 +0300,The working implementation of draw_bounding_boxes op.,5141,443163
+361,dbabd11f,FAIL,15,NO,0,NO,0,2019-10-08 15:47:37 +0300,Merge pull request #7 from KonduitAI/shugeo_image_bordering,5141,443163
+362,b36b3fa1,FAIL,14,NO,0,NO,0,2019-10-08 16:41:12 +0300,Some sugar,5141,443163
+363,4956048a,FAIL,14,NO,0,NO,0,2019-10-08 17:38:43 +0300,Tests added,5141,443163
+364,cb56b0b0,FAIL,13,NO,0,NO,0,2019-10-08 19:00:41 +0300,The first approach for fake_quant_with_min_max_vars_per_channel op implementation.,5141,443163
+365,8472782d,FAIL,14,NO,0,NO,0,2019-10-08 19:08:43 +0300,More tests,5141,443163
+366,3aa51e21,FAIL,14,NO,0,NO,0,2019-10-08 20:14:47 -0400,RL4J: Extract TD Target calculations (StandardDQN and DoubleDQN) (#8267),5153,443511
+367,f515151f,FAIL,14,NO,0,NO,0,2019-10-09 11:39:51 +0300,Merge pull request #8 from KonduitAI/asto_nd4s,5141,443163
+368,3a89e518,FAIL,15,NO,0,NO,0,2019-10-09 13:38:18 +0300,Added tests for fake_quant_with_min_max_vars_per_channel op.,5141,443163
+369,d0cbd33b,FAIL,12,NO,0,NO,0,2019-10-09 15:52:13 +0300,Added input checks for op.,5141,443163
+370,0de8523e,FAIL,13,NO,0,NO,0,2019-10-09 16:07:20 +0300,Indexing syntax changed,5141,443163
+371,352f1eee,FAIL,14,NO,0,NO,0,2019-10-09 21:39:59 +0300,Implemented fake_quant_with_min_max_per_channel helper for cpu platform. The first approach.,5141,443163
+372,3c0c59ab,FAIL,15,NO,0,NO,0,2019-10-09 22:09:33 +0300,Refactored fake_quant_with_min_max_vars op.,5141,443163
+373,be70bea3,FAIL,13,NO,0,NO,0,2019-10-10 10:43:32 +0300,Operator :: for INDArray,5141,443163
+374,156fba4f,FAIL,12,NO,0,NO,0,2019-10-10 10:49:07 +0300,Minor fix,5141,443163
+375,fa8105bf,FAIL,14,NO,0,NO,0,2019-10-10 11:03:06 +0300,Merge pull request #9 from KonduitAI/asto_nd4s_indexing,5141,443163
+376,c13e945a,FAIL,13,NO,0,NO,0,2019-10-10 13:23:11 +0300,Fixed fake_quant_with_min_max_vars op and tests.,5141,443163
+377,75356514,FAIL,13,NO,0,NO,0,2019-10-10 14:00:49 +0300,Refactored fake_quant_with_min_max_vars op cuda implementation.,5141,443163
+378,3504b0cd,FAIL,13,NO,0,NO,0,2019-10-10 15:44:50 +0300,Implemented fake_quant_with_min_max_vars_per_channel fop cuda helper. The first working revision.,5141,443163
+379,02d86166,FAIL,13,NO,0,NO,0,2019-10-10 16:40:56 +0300,Implementation of cuda kernel for fake_quant_with_min_max_vars_per_channels op.,5141,443163
+380,d5b35227,FAIL,12,NO,0,NO,0,2019-10-10 16:51:29 +0300,Implementation of cuda kernel for fake_quant_with_min_max_vars_per_channels op. Final revision.,5141,443163
+381,92636b0b,FAIL,12,NO,0,NO,0,2019-10-10 17:08:59 +0300,Eliminated waste operator.,5141,443163
+382,a09cb5e2,FAIL,12,NO,0,NO,0,2019-10-10 17:13:33 +0300,Added doc for fake_quant_with_min_max_per_channel op declaration.,5141,443163
+383,c3f755d9,FAIL,12,NO,0,NO,0,2019-10-10 18:02:49 +0300,Refactored helpers both for cuda and cpu platforms.,5141,443163
+384,c890de5a,FAIL,12,NO,0,NO,0,2019-10-10 18:31:17 +0300,Added doc for fake_quant_with_min_max* op helpers implementations.,5141,443163
+385,ace65355,FAIL,13,NO,0,NO,0,2019-10-10 18:35:28 +0300,Added doc for fake_quant_with_min_max* op helpers cuda implementations.,5141,443163
+386,d5568df7,FAIL,13,NO,0,NO,0,2019-10-10 18:40:02 +0300,Merge pull request #10 from KonduitAI/shugeo_fake_quant2,5141,443163
+387,2d750b69,FAIL,14,NO,0,NO,0,2019-10-14 17:21:23 +1100,Merge remote-tracking branch 'konduit/master',5153,443511
+388,df244861,FAIL,13,NO,0,NO,0,2019-10-15 20:00:07 +0300,Added gamma distribution functions.,5141,443163
+389,171ce51f,FAIL,13,NO,0,NO,0,2019-10-15 21:56:24 -0400,RL4J: Use Nd4j Random instead of java.util.Random (#8282),5155,443752
+390,b9a4b0f2,FAIL,13,NO,0,NO,0,2019-10-16 12:59:52 +1100,Update links (#8292),5155,443752
+391,d5002b14,FAIL,13,NO,0,NO,0,2019-10-16 12:59:08 +0300,New ops wrappers,5161,443698
+392,c4307384,FAIL,14,NO,0,NO,0,2019-10-16 12:59:25 +0300,Fixed shape for muli,5161,443727
+393,f90e6da9,FAIL,13,NO,0,NO,0,2019-10-16 13:53:31 +0300,"Added nd4j_gamma, nd4j_igamma and nd4j_igammac functions.",5141,443163
+394,7103aca8,FAIL,14,NO,0,NO,0,2019-10-16 13:58:32 +0300,Added broadcastable IGamma and IGammac ops.,5141,443163
+395,478a0c1f,FAIL,13,NO,0,NO,0,2019-10-16 14:02:53 +0300,Added igamma and igammac broadcastable ops implementations and tests.,5141,443163
+396,7617682a,FAIL,13,NO,0,NO,0,2019-10-16 14:45:10 +0300,Added declarations for igamma and igammac ops.,5141,443163
+397,96a9a1a7,FAIL,14,NO,0,NO,0,2019-10-16 18:07:52 +0300,Fixed output from operation.,5161,443727
+398,24a2b293,FAIL,14,NO,0,NO,0,2019-10-16 18:22:18 +0300,Added gamma and lgamma functions.,5141,443163
+399,3662657d,FAIL,13,NO,0,NO,0,2019-10-16 18:49:33 +0300,Merge pull request #1 from KonduitAI/shugeo_gamma,5153,443511
+400,99d77e13,FAIL,13,NO,0,NO,0,2019-10-16 19:16:47 +0300,Ops exported for sameDiff,5161,443776
+401,ec722b20,FAIL,15,NO,0,NO,0,2019-10-16 19:29:19 +0300,TF names added,5161,443797
+402,502bedf5,FAIL,14,NO,0,NO,0,2019-10-16 19:39:04 +0300,Register ops for TF import.,5161,443802
+403,9e579984,FAIL,14,NO,0,NO,0,2019-10-16 19:50:18 +0300,TF names fixed.,5161,443802
+404,630bb3c9,FAIL,13,NO,0,NO,0,2019-10-16 20:21:50 +0300,Merge pull request #2 from KonduitAI/asto_ops_wrapper,5161,443802
+405,70bd925a,FAIL,12,NO,0,NO,0,2019-10-17 20:44:52 +0300,"- write 2 versions of new lstmLayer: one is based on own code, second uses mkl dnn api",5161,443802
+406,99be467f,FAIL,14,NO,0,NO,0,2019-10-17 20:46:51 +0300,- minor change in recurrent.h,5161,443802
+407,a4984d52,FAIL,14,NO,0,NO,0,2019-10-17 20:58:06 +0300,Merge pull request #4 from KonduitAI/shyrma_lstm,5161,443802
+408,7f06df58,FAIL,13,NO,0,NO,0,2019-10-18 11:25:58 +1100,Small URL fix (#8297),5155,443752
+409,b556519e,FAIL,13,NO,0,NO,0,2019-10-19 21:48:43 +0300,Fix compilation.,5161,443802
+410,775402c9,FAIL,13,NO,0,NO,0,2019-10-19 21:57:02 +0300,Merge pull request #5 from KonduitAI/asto_nd4s_build_10192019,5161,443802
+411,8f3eaebd,FAIL,12,NO,0,NO,0,2019-10-21 16:25:13 +0300,- replace condition isScalar() by condition length ==1 in some NDArray methodds,5161,443802
+412,35e6ffed,FAIL,13,NO,0,NO,0,2019-10-22 07:56:04 +0300,Merge pull request #6 from KonduitAI/shyrma_broadcast,5161,443802
+413,f31661e1,FAIL,14,NO,0,NO,0,2019-10-23 12:11:25 +0300,Merge pull request #7 from KonduitAI/asto_nd4s_10172019,5162,443834
+414,3f0b4a2d,FAIL,13,NO,0,NO,0,2019-10-23 21:19:50 +1100,"SameDiff execution, TF and memory management overhaul (#10)",5164,442776
+415,730442ae,FAIL,14,NO,0,NO,0,2019-10-24 20:51:15 +1100,Remove bad import (#13),5164,442775
+416,d9878419,FAIL,15,NO,0,NO,0,2019-10-24 14:15:50 +0300,[WIP] Some optimizations in dl4j (#11),5165,442894
+417,d333d290,FAIL,14,NO,0,NO,0,2019-10-26 12:38:08 +1100,SameDiff cleanup and fixes (#12),5165,442612
+418,029a69a8,FAIL,14,NO,0,NO,0,2019-10-26 14:14:21 +0300,Shyrma bn mkl bp (#14),5165,442612
+419,5a4d2e8b,FAIL,15,NO,0,NO,0,2019-10-28 12:31:01 +0300,[WIP] SVD (#16),5165,442632
+420,cea72582,FAIL,13,NO,0,NO,0,2019-10-30 09:03:27 +0100,pydatavec examples link was recognized as relative (#8321),5155,443752
+421,95f7ad7b,FAIL,13,NO,0,NO,0,2019-10-30 13:43:45 +0200,Shugeo suppression overlaps (#9),5165,442632
+422,ca881a98,FAIL,14,NO,0,NO,0,2019-10-30 15:59:54 +0100,non-inplace pydatavec transform processes (#8326),5155,443752
+423,a2b973d4,FAIL,13,NO,0,NO,0,2019-10-31 00:41:52 -0400,RL4J: Make a few fixes (#8303),5156,443961
+424,850dfa1c,FAIL,12,NO,0,NO,0,2019-10-31 11:12:50 +0500,Squashed and signed (#8330),5156,443962
+425,45a40c8a,FAIL,11,NO,0,NO,0,2019-10-31 11:23:09 +0200,DL4J/ND4J: Do pass on integer casts (#15),5159,442199
+426,879a06c9,FAIL,12,NO,0,NO,0,2019-11-01 09:13:15 +0300,few typos fixed,5159,442199
+427,b8168457,FAIL,14,NO,0,NO,0,2019-11-01 15:59:29 +0200,Fixing nd4j-cuda build (#20),5159,442199
+428,d82877b1,FAIL,12,NO,0,NO,0,2019-11-02 11:25:53 +1100,Various SameDiff fixes (#21),5162,442679
+429,e9a7a13c,FAIL,12,NO,0,NO,0,2019-11-02 15:20:19 +1100,More int/long compilation fixes (#22),5163,442688
+430,9efd8115,FAIL,12,NO,0,NO,0,2019-11-02 17:42:01 +1100,Use DL4J workspaces for SameDiff layers in MLN/CG (#23),5164,442824
+431,2844f8b6,FAIL,12,NO,0,NO,0,2019-11-02 19:00:47 +1100,Merge remote-tracking branch 'konduit/master',5167,443275
+432,5e312374,FAIL,13,NO,0,NO,0,2019-11-02 22:57:24 +1100,TF deconv3d import (#8341),5167,443272
+433,c94013f0,FAIL,13,NO,0,NO,0,2019-11-03 09:54:35 +0300,cc 52 -> 50,5167,443272
+434,0cdb5750,FAIL,14,NO,0,NO,0,2019-11-03 12:37:19 +0200,Shyrma concat (#24),5167,443275
+435,4763547c,FAIL,13,NO,0,NO,0,2019-11-04 12:42:11 +1100,Add Deconv3DTF (#25),5168,443370
+436,948ebef4,FAIL,13,NO,0,NO,0,2019-11-05 00:05:04 +1100,Op Fixes (#28),5168,443362
+437,7b14a9f6,FAIL,15,NO,0,NO,0,2019-11-04 15:42:28 +0200,Gamma and Poisson distributions (#27),5168,443362
+438,7bf0d433,FAIL,14,NO,0,NO,0,2019-11-04 19:12:08 -0500,fix link to scalnet examples (#8354),5167,443272
+439,9124974e,FAIL,14,NO,0,NO,0,2019-11-05 12:49:15 +0200,Fixed crash with strided_slice_bp op and tests. (#29),5168,443362
+440,871f3bb3,FAIL,13,NO,0,NO,0,2019-11-05 17:16:17 +0200,- add additional condition in svd helper to take into account rounding errors (#31),5168,443362
+441,7583ccfa,FAIL,14,NO,0,NO,0,2019-11-06 13:28:03 +1100,Merge,5168,443362
+442,df8b4e60,FAIL,13,NO,0,NO,0,2019-11-06 18:52:41 +1100,SameDiff: make use of DeviceLocal configurable (#32),5171,443442
+443,08853c78,FAIL,14,NO,0,NO,0,2019-11-06 12:49:27 +0200,Shugeo random uniform int (#30),5171,443442
+444,52c9918c,FAIL,14,NO,0,NO,0,2019-11-07 11:47:37 +0800,Testing slice and concat (#8362),5168,443395
+445,4276e630,FAIL,13,NO,0,NO,0,2019-11-07 08:49:27 +0300,one more test,5171,443442
+446,73b5a508,FAIL,20,NO,0,NO,0,2019-11-07 17:57:34 +0900,Update dependencies to just released JavaCPP and JavaCV 1.5.2,5171,443442
+447,679e4219,FAIL,14,NO,0,NO,0,2019-11-07 12:44:02 +0200,Shugeo strided slice bp fix2 (#33),5171,443442
+448,24980efd,FAIL,14,NO,0,NO,0,2019-11-07 23:36:15 +1100,Fix LogSumExp along dimension (#35),5171,443457
+449,51f3a137,FAIL,12,NO,0,NO,0,2019-11-07 17:09:47 +0300,[WIP] Random Uniform (#36),5171,443457
+450,929c1dc5,FAIL,14,NO,0,NO,0,2019-11-08 08:49:41 +0300,- new NDArrayFactory scalar constructor - minor tweak in randomuniform - one more test,5171,443457
+451,2f84ea66,FAIL,12,NO,0,NO,0,2019-11-08 18:08:25 +1100,Uniform distribution op tweaks + 'specified output dtype' constructor (#38),5171,443493
+452,0107fb10,FAIL,12,NO,0,NO,0,2019-11-08 18:11:45 +1100,Merge remote-tracking branch 'konduit/master',5171,443526
+453,6958f2ba,FAIL,11,NO,0,NO,0,2019-11-08 10:25:44 +0200,[WIP] Fix compilation after nd4j changes (#37),5171,443526
+454,4cb281c0,FAIL,12,NO,0,NO,0,2019-11-11 13:34:12 +0900,Samediff import doc (#8301),5171,443526
+455,cd961727,FAIL,12,NO,0,NO,0,2019-11-11 17:45:59 +0300,[WIP] perf tests (#40),5171,443526
+456,c0f91e5c,FAIL,12,NO,0,NO,0,2019-11-12 11:56:57 +0900,removing obsolete nd4j docs. (#8380),5171,443526
+457,0eda1e73,FAIL,12,NO,0,NO,0,2019-11-12 10:58:48 +0200,Shyrma bnorm bp (#41),5171,443526
+458,18c01f5b,FAIL,12,NO,0,NO,0,2019-11-12 21:15:44 +1100,Add SameDiff memory reuse memory manager (array cache) (#39),5173,443760
+459,1d96bb9e,FAIL,11,NO,0,NO,0,2019-11-12 22:51:09 +1100,SameDiff op runtime benchmarking listener (#42),5174,443883
+460,f05c6ee1,FAIL,12,NO,0,NO,0,2019-11-12 15:12:31 +0300,INLINE_LOOPS for windows,5174,443883
+461,48df1acd,FAIL,13,NO,0,NO,0,2019-11-13 17:04:59 +0300,[WIP] ThreadPool (#8),5174,443877
+462,6de00bf7,FAIL,12,NO,0,NO,0,2019-11-13 17:15:18 +0300,[WIP] Weekly update of repo (#8390),5174,443877
+463,47d19908,FAIL,13,NO,0,NO,0,2019-11-14 19:38:20 +1100,Various fixes (#43),5174,443924
+464,1eb3de90,FAIL,14,NO,0,NO,0,2019-11-14 14:35:02 +0300,[WIP] Platform helpers switches (#44),5174,443938
+465,c5b912bd,FAIL,13,NO,0,NO,0,2019-11-14 19:50:24 +0300,few changes for openblas and jcpp preloads (on macos) (#46),5174,443930
+466,cab90d3d,FAIL,13,NO,0,NO,0,2019-11-14 20:00:24 +0300,fix preload,5174,443869
+467,62d8e0d4,FAIL,14,NO,0,NO,0,2019-11-14 19:21:22 +0200,- make agreement between our and mkl api dilation/padding formulas (#47),5174,443930
+468,d7718c28,FAIL,13,NO,0,NO,0,2019-11-15 09:56:28 +0200,Drop unused profiles for artifacts distribution i8388 (#48),5174,443930
+469,1780dcc8,FAIL,13,NO,0,NO,0,2019-11-15 17:04:29 +0300,[WIP] Small fixes here and there (#50),5174,443972
+470,09a827fb,FAIL,12,NO,0,NO,0,2019-11-16 17:04:29 +1100,Fixes and pre-release QA (#51),5173,443796
+471,a856922f,FAIL,13,NO,0,NO,0,2019-11-16 23:09:41 +1100,#8409 Fix compgraph backprop issue with dual embedding layers from single input (#52),5173,443814
+472,da4bf020,FAIL,12,NO,0,NO,0,2019-11-16 23:21:45 +1100,Merge,5173,443814
+473,9101a0ee,FAIL,14,NO,0,NO,0,2019-11-16 22:18:50 +0300,build fix for clang,5173,443814
+474,c5cbdcd8,FAIL,13,NO,0,NO,0,2019-11-17 09:45:30 +0300,[WIP] clang for jcpp (#53),5173,443814
+475,29990b12,FAIL,13,NO,0,NO,0,2019-11-17 13:45:58 +0300,[WIP] Clang/macOS fixes (#8412),5173,443814
+476,db7ca956,FAIL,12,NO,0,NO,0,2019-11-18 13:21:26 +0300,[WIP] Mish (#55),5176,443879
+477,8f96f71f,FAIL,14,NO,0,NO,0,2019-11-19 00:12:59 +1100,Mist gradient check (#57),5176,443879
+478,bbd59a35,FAIL,13,NO,0,NO,0,2019-11-19 12:53:52 +0300,fake quant dtype validation fix (#60),5176,443879
+479,ce2ef20f,FAIL,14,NO,0,NO,0,2019-11-19 13:54:07 +0300,additional reverse signatures,5176,443887
+480,da1944e8,FAIL,14,NO,0,NO,0,2019-11-19 22:44:29 +1100,SameDiff TF import (#49),5176,443859
+481,66b84b38,FAIL,15,NO,0,NO,0,2019-11-19 15:39:36 +0200,Shyrma mmul (#58),5176,443859
+482,630409cd,FAIL,13,NO,0,NO,0,2019-11-20 07:49:04 +0530,Fixes Keras import issue (8373) (#54),5176,443882
+483,3f38900c,FAIL,12,NO,0,NO,0,2019-11-20 07:43:17 +0300,J9+ -> J8 ByteBuffer fix (#59),5176,443888
+484,d9e97333,FAIL,12,NO,0,NO,0,2019-11-20 08:20:04 +0100,fix pydatavec for python 3... and python2 install problems (#8422),5173,443814
+485,7898f3c0,FAIL,14,NO,0,NO,0,2019-11-20 11:12:15 +0300,fix for is_increasing/non_decreasing ops for empty input case (#63),5176,443888
+486,59e955ce,FAIL,13,NO,0,NO,0,2019-11-20 13:23:08 +0300,- MKL-DNN version upgrade to 1.1.x (#62),5176,443888
+487,13e5c0a2,FAIL,13,NO,0,NO,0,2019-11-20 13:37:48 +0200,Shugeo release fix1 (#61),5176,443888
+488,dc0036f2,FAIL,12,NO,0,NO,0,2019-11-20 21:11:04 +0200,Shugeo image resize bicubic (#56),5176,443888
+489,83cb0d93,FAIL,12,NO,0,NO,0,2019-11-21 13:31:20 +0300,[WIP] Create and small fix (#67),5177,443945
+490,064a56cc,FAIL,12,NO,0,NO,0,2019-11-21 15:43:03 +0300,Few fixes (#66),5177,443991
+491,ff73e6da,FAIL,11,NO,0,NO,0,2019-11-21 21:54:41 +0900,ND4J: Fix OpenBLAS loading for nd4j-native (#64),5177,443993
+492,7a90a31c,FAIL,13,NO,0,NO,0,2019-11-21 21:17:30 +0200,Shyrma deconv3 (#69),5177,443993
+493,823bd0ff,FAIL,13,NO,0,NO,0,2019-11-21 18:19:28 -0800,"Fixes #8415, BERT iterator inference (#71)",5177,444040
+494,4a2fedf3,FAIL,13,NO,0,NO,0,2019-11-22 18:54:31 +1100,DL4J: Add Sparse multi-class cross entropy loss function (#72),5179,444155
+495,6f514e94,FAIL,14,NO,0,NO,0,2019-11-22 23:50:34 +1100,DL4J UI: Migrate from Play to Vertx (#68),5170,444051
+496,962575dd,FAIL,15,NO,0,NO,0,2019-11-23 00:16:13 +1100,Keras import: Add support for sparse cross entropy loss function (#73),5170,444059
+497,289d9dc1,FAIL,14,NO,0,NO,0,2019-11-23 00:22:27 +1100,Merge remote-tracking branch 'konduit/master',5170,444059
+498,41871906,FAIL,14,NO,0,NO,0,2019-11-22 21:42:44 +0200,Shugeo release fix2 (#70),5170,444057
+499,8d87b078,FAIL,13,NO,0,NO,0,2019-11-23 12:09:37 +1100,Fix master (#74),5170,444053
+500,e910ce75,FAIL,12,NO,0,NO,0,2019-11-23 20:06:12 +1100,Various Fixes (#75),5170,444122
+501,5b2ee726,FAIL,11,NO,0,NO,0,2019-11-25 16:00:21 +1100,DL4J Time Distributed + fixes + Vertx module profiles fix (#78),5173,444306
+502,aa44fd68,FAIL,12,NO,0,NO,0,2019-11-25 08:52:11 +0300,one more BitCast test,5173,444312
+503,7f90930e,FAIL,11,NO,0,NO,0,2019-11-25 09:17:35 +0300,bring back cuda cc 30,5173,444312
+504,0e3fcdc2,FAIL,12,NO,0,NO,0,2019-11-25 18:46:34 +1100,[WIP] DL4J nearestneighbors-sever: Play ->Vertx (#79),5173,444339
+505,4b50b920,FAIL,13,NO,0,NO,0,2019-11-25 22:52:02 +1100,Re-add UI auto-attach functionality with test; also fixes (#80),5173,444400
+506,8843c737,FAIL,12,NO,0,NO,0,2019-11-26 19:24:38 +1100,Update shaded Jackson version to 2.10.1 (#82),5173,444467
+507,47c58cf6,FAIL,11,NO,0,NO,0,2019-11-26 09:05:11 -0500,RL4J: Add Observation and LegacyMDPWrapper (#8368),5173,444369
+508,a8dd6713,FAIL,14,NO,0,NO,0,2019-11-26 19:29:09 +0200,Shyrma scatter (#84),5173,444467
+509,abd2017a,FAIL,12,NO,0,NO,0,2019-11-27 16:35:05 +1100,Add ignore for known issue with non_max_suppression_v2/float16 test (#85),5173,444467
+510,c01496ce,FAIL,11,NO,0,NO,0,2019-11-27 22:35:55 +0800,Fix#8383，getMostPopulatedClusters should sort by cluster's points size desc.,5174,444388
+511,00900712,FAIL,13,NO,0,NO,0,2019-11-28 20:08:51 +0200,Shugeo_release_fixes3 (#81),5174,444504
+512,5e07998e,FAIL,13,NO,0,NO,0,2019-11-29 14:31:03 +0900,Add support for CUDA 10.2 (#89),5174,444533
+513,d19eeaec,FAIL,12,NO,0,NO,0,2019-11-29 13:14:30 +0200,Shyrma casual conv1d (#90),5176,444673
+514,dc66a52b,FAIL,14,NO,0,NO,0,2019-11-29 15:05:08 +0200,[WIP] Shugeo release fixes4 (#91),5176,444673
+515,4fb9fa77,FAIL,14,NO,0,NO,0,2019-11-30 18:39:32 +1100,Add ND4J namespaces (#83),5182,445577
+516,35ab4a72,FAIL,14,NO,0,NO,0,2019-11-30 18:58:37 +1100,TF import test resources loading precision fixes (#92),5182,445661
+517,2be47082,FAIL,13,NO,0,NO,0,2019-11-30 20:08:30 +1100,#8470 TrainingConfig json fix for Evaluation instances (#93),5182,445671
+518,4ada65b3,FAIL,15,NO,0,NO,0,2019-11-30 16:02:07 +0300,[WIP] MSVC-related tests fixes (#88),5182,445671
+519,8123d9fa,FAIL,14,NO,0,NO,0,2019-12-02 18:07:54 +1100,SameDiff: Add Java-level assertion check/exception (#96),5182,445686
+520,1adc2591,FAIL,14,NO,0,NO,0,2019-12-02 13:50:23 +0530,Python updates (#86),5186,446351
+521,5e152c0d,FAIL,13,NO,0,NO,0,2019-12-02 12:23:06 +0200,TF import tests - adding missing operations (#65),5196,447129
+522,25b3cd9b,FAIL,15,NO,0,NO,0,2019-12-02 21:37:21 +0300,[WIP] CUDA tests (#95),5196,447146
+523,1e9ff114,FAIL,14,NO,0,NO,0,2019-12-02 20:40:54 +0200,Shugeo atomic tests (#97),5196,447146
+524,1f5e15b5,FAIL,13,NO,0,NO,0,2019-12-03 08:40:45 +0200,Shyrma adjust (#98),5196,447146
+525,d8339246,FAIL,14,NO,0,NO,0,2019-12-03 10:23:19 +0300,fix typo in test,5196,447146
+526,19057519,FAIL,14,NO,0,NO,0,2019-12-03 14:06:38 +0200,Refactored pad and mirror_pad ops to conform with TF. (#100),5196,447146
+527,0d14032d,FAIL,14,NO,0,NO,0,2019-12-04 11:41:03 +0530,TF Updates (#87),5196,447312
+528,cb18d3d9,FAIL,12,NO,0,NO,0,2019-12-04 09:11:37 +0300,allow MKL-DNN on non-AVX machines (#104),5196,447312
+529,578a5abb,FAIL,13,NO,0,NO,0,2019-12-04 22:50:17 +1100,DNNL/MKLDNN dilated causal conv1d + betainc (#103),5196,447312
+530,9cc8803b,FAIL,12,NO,0,NO,0,2019-12-04 22:52:06 +1100,DL4J + Keras import: Causal Conv1D support (#107),5196,447638
+531,91de9658,FAIL,13,NO,0,NO,0,2019-12-04 23:35:38 +1100,BertIterator sentence pair support for supervised training (#108),5198,448070
+532,3275fe35,FAIL,11,NO,0,NO,0,2019-12-05 11:05:44 +1100,Merge pull request #8495 from KonduitAI/master,5201,448386
+533,9592072c,FAIL,12,NO,0,NO,0,2019-12-05 12:09:38 +1100,Merge pull request #8457 from chentao106/Fix#8383,5202,448405
+534,63ed2020,FAIL,12,NO,0,NO,0,2019-12-04 18:24:37 -0800,cleaned up bert iterator tests (#110),5202,448418
+535,2052ce70,FAIL,12,NO,0,NO,0,2019-12-05 14:20:03 +1100,Various pre-release fixes (#111),5202,448413
+536,ca207636,FAIL,13,NO,0,NO,0,2019-12-05 04:47:53 +0100,Mention the new % unit for maxBytes and maxPhysicalBytes in Memory management documentation (#8435) (#8461),5202,448405
+537,ef4d3ffe,FAIL,13,NO,0,NO,0,2019-12-05 20:59:46 +1100,Small pre-release tweak (#112),5202,448415
+538,e51e6ebf,FAIL,12,NO,0,NO,0,2019-12-05 19:46:01 +0900,Update CMake toolchains for more recent versions of Android NDK (#8502),5202,448405
+539,0e8a4f77,FAIL,13,NO,0,NO,0,2019-12-05 17:57:32 +0530,datavec python ensure host (#113),5202,448420
+540,355c6b60,FAIL,12,NO,0,NO,0,2019-12-05 20:03:10 +0300,[WIP] reverse improvements (#115),5202,448420
+541,6a3c046f,FAIL,13,NO,0,NO,0,2019-12-05 20:44:11 +0300,2 micro fixes,5202,448420
+542,e09a7852,FAIL,13,NO,0,NO,0,2019-12-05 21:05:33 +0200,Shugeo resize fix5 (#102),5202,448430
+543,e7730ede,FAIL,12,NO,0,NO,0,2019-12-06 12:25:41 +0900,delete unused and refactor. (#8262),5196,448268
+544,a6223d30,FAIL,14,NO,0,NO,0,2019-12-06 15:10:38 +0800,Minor edits to README for pydatavec and pydl4j (#8336),5196,448268
+545,972fae60,FAIL,14,NO,0,NO,0,2019-12-06 11:10:44 +0300,Update master (#8511),5196,448293
+546,b32dd1bf,FAIL,13,NO,0,NO,0,2019-12-06 18:58:37 +0300,[WIP] resize_bicubic types (#116),5202,448430
+547,70e08c3a,FAIL,13,NO,0,NO,0,2019-12-06 21:19:33 +0300,reshape validation fix,5202,448430
+548,b66154a9,FAIL,13,NO,0,NO,0,2019-12-09 14:16:11 +1100,Add ArraySavingListener for debugging (#114),5203,448505
+549,ae7933a4,FAIL,13,NO,0,NO,0,2019-12-09 08:01:12 +0300,cpu truebroadcast fix,5203,448505
+550,cea68c18,FAIL,14,NO,0,NO,0,2019-12-09 09:27:50 +0300,cuda broadcast fix,5203,448505
+551,927d5914,FAIL,13,NO,0,NO,0,2019-12-09 09:25:39 +0200,ResizeBicubic added (#117),5204,448587
+552,ee5d25ca,FAIL,14,NO,0,NO,0,2019-12-09 11:17:16 +0300,cuda broadcast exec fix,5203,448505
+553,fc334ff4,FAIL,13,NO,0,NO,0,2019-12-09 11:17:31 +0300,Merge remote-tracking branch 'origin/master',5204,448587
+554,0175ace4,FAIL,14,NO,0,NO,0,2019-12-09 23:08:00 +1100,Small tweaks (#119),5204,448597
+555,425c7473,FAIL,13,NO,0,NO,0,2019-12-09 19:08:36 +0200,- permute threadsPerBlock and blocksPerGrid in signature of launching of cuda kernel for trueBroadcast op (#120),5204,448597
+556,a5f5ac72,FAIL,14,NO,0,NO,0,2019-12-09 20:08:59 +0300,reduce bool changes (#118),5204,448641
+557,4920f22f,FAIL,14,NO,0,NO,0,2019-12-10 12:11:05 +1100,Check for empty streams for NativeImageLoader + test (#121),5204,448677
+558,0df1b46c,FAIL,13,NO,0,NO,0,2019-12-10 15:08:50 +1100,Merge,5198,448540
+559,c0163f6e,FAIL,13,NO,0,NO,0,2019-12-10 15:28:21 +1100,Merge pull request #8518 from KonduitAI/master,5198,448540
+560,70929528,FAIL,14,NO,0,NO,0,2019-12-12 12:10:29 +0530,suppress err (#123),5198,448540
+561,228d06fb,FAIL,13,NO,0,NO,0,2019-12-12 18:20:40 +1100,Merge pull request #8526 from KonduitAI/master,5198,448540
+562,0ab39a22,FAIL,14,NO,0,NO,0,2019-12-13 21:41:28 +1100,nd4j-jackson: exclude java.xml.stream.XML*Factory from service loader to avoid clashes with other non-shaded jackson etc on classpath,5198,448540
+563,4bcc1eee,FAIL,13,NO,0,NO,0,2019-12-13 22:13:47 +1100,Merge pull request #8529 from KonduitAI/ab_jackson,5198,448540
+564,9cf197c2,FAIL,14,NO,0,NO,0,2019-12-13 17:26:18 +0200,Update to version 1.0.0-beta6,5198,448540
+565,c98390a2,FAIL,13,NO,0,NO,0,2019-12-13 17:26:41 +0200,Update to version 1.0.0-SNAPSHOT,5198,448540
+566,f78a638c,FAIL,13,NO,0,NO,0,2019-12-14 10:58:08 +0300,Merge pull request #8532 from eclipse/release/1.0.0-beta6,5198,448540
+567,fdda0221,FAIL,13,NO,0,NO,0,2019-12-14 14:38:17 +0300,[WIP] CUDA build (#109),5198,448540
+568,bd4f77c6,FAIL,13,NO,0,NO,0,2019-12-14 22:59:37 +0300,Compilation units (#124),5198,448540
+569,bfd9e369,FAIL,14,NO,0,NO,0,2019-12-17 10:23:37 +1100,Add op counting to TensorFlowImportValidator (#128),5198,448554
+570,65ef0622,FAIL,14,NO,0,NO,0,2019-12-17 12:37:07 +0900,Update Japanese translation for Deeplearning4J UI (#8525),5198,448540
+571,e0a9cb6c,FAIL,12,NO,0,NO,0,2019-12-17 10:42:09 +0400,"[WIP] HSV,RGB color model conversions (#125)",5198,448554
+572,de3975f0,FAIL,14,NO,0,NO,0,2019-12-18 02:27:05 -0500,RL4J: Remove processing done on observations in Policy & Async (#8471),5201,448857
+573,e718cc65,FAIL,14,NO,0,NO,0,2019-12-18 15:56:03 +0100,python version bump,5176,443859
+574,4ffef95a,FAIL,13,NO,0,NO,0,2019-12-18 16:00:30 +0100,increase,5176,443859
+575,49955eaa,FAIL,14,NO,0,NO,0,2019-12-19 10:25:19 +1100,Merge pull request #8548 from KonduitAI/mp_update_python_packages,5201,448857
+576,f5068f39,FAIL,13,NO,0,NO,0,2019-12-19 11:15:48 +0200,Added missing Java ops wrappers (#122),5206,449000
+577,fc7c6d4e,FAIL,14,NO,0,NO,0,2019-12-19 12:10:06 +0200,Shugeo roll fix3 (#127),5206,449000
+578,de3c0afd,FAIL,12,NO,0,NO,0,2019-12-19 12:12:35 +0200,Shugeo bicubic fix3 (#130),5206,449000
+579,e303c060,FAIL,14,NO,0,NO,0,2019-12-19 12:14:02 +0200,Shugeo pad fix3 (#132),5206,449000
+580,3d8f6d50,FAIL,14,NO,0,NO,0,2019-12-19 23:43:58 +1100,SameDiff profiler / tracing and profile analysis/comparison (#133),5213,449543
+581,8b877a8d,FAIL,12,NO,0,NO,0,2019-12-19 16:50:08 +0300,- 3d loops parallelism fix (#135),5213,449543
+582,43e118de,FAIL,12,NO,0,NO,0,2019-12-19 18:41:27 +0300,maxThreads -> maxMasterThreads,5213,449543
+583,3c9a2a5c,FAIL,13,NO,0,NO,0,2019-12-20 09:48:30 +0400,Fix for hsv and rgb ranges (#136),5213,449543
+584,6d8a063c,FAIL,12,NO,0,NO,0,2019-12-20 15:38:33 +0200,nd4j-tests cleanup (#137),5213,449553
+585,67d81991,FAIL,13,NO,0,NO,0,2019-12-20 16:56:28 +0200,[WIP] Shugeo lup (#126),5213,449553
+586,211c0df7,FAIL,12,NO,0,NO,0,2019-12-20 19:59:29 +0200,Oleh rgb to gray scale (#138),5213,449553
+587,3e0afade,FAIL,13,NO,0,NO,0,2019-12-20 21:11:18 +0300,minor build fix,5213,449553
+588,5d9b2a16,FAIL,12,NO,0,NO,0,2019-12-20 21:35:39 +0200,Shyrma temp (#131),5213,449553
+589,495256c8,FAIL,13,NO,0,NO,0,2019-12-21 08:07:13 +0300,minor build fix (#139),5213,449553
+590,ce02b6fa,FAIL,12,NO,0,NO,0,2019-12-21 17:00:46 +1100,Small fixes (#140),5213,449580
+591,1f9e1b60,FAIL,13,NO,0,NO,0,2019-12-23 15:24:20 +1100,SameDiff profiler analysis improvements (#141),5215,449696
+592,62f93ac2,FAIL,12,NO,0,NO,0,2019-12-24 13:23:25 +0300,negative handling for empty arrays (#146),5215,449696
+593,39d43ca1,FAIL,14,NO,0,NO,0,2019-12-24 16:20:35 +0400,RgbToYiq and YiqToRgb operations (#142),5215,449696
+594,d1e5e79c,FAIL,14,NO,0,NO,0,2019-12-24 17:01:03 +0300,[WIP] CUDA concat tweak (#148),5215,449696
+595,75123b0a,FAIL,15,NO,0,NO,0,2019-12-24 17:30:54 +0200,[WIP] Oleh rgb yuv (#147),5215,449696
+596,fc760de3,FAIL,15,NO,0,NO,0,2019-12-24 18:45:54 +0300,RgbToYuv & YuvToRgb skip empty arrays,5215,449696
+597,9b329d26,FAIL,16,NO,0,NO,0,2019-12-24 20:56:49 +0300,[WIP] bias_add NHWC loop (#149),5215,449696
+598,010744ef,FAIL,15,NO,0,NO,0,2019-12-30 14:06:12 +0200,Lu wrapper and tests fixes (#144),5221,450055
+599,c32acb2e,FAIL,14,NO,0,NO,0,2019-12-30 16:48:57 -0800,fix if dir does not exist (#129),5222,450094
+600,fbf7c9d3,FAIL,13,NO,0,NO,0,2020-01-02 22:25:41 +0200,Fixed lu for cuda platform and tests. (#158),5222,450094
+601,ac0d249f,FAIL,16,NO,0,NO,0,2020-01-03 15:17:06 +0300,build fix for clang (#159),5222,450094
+602,29104083,FAIL,15,NO,0,NO,0,2020-01-04 13:45:07 +1100,Various fixes (#143),5216,449006
+603,53d3bd12,FAIL,14,NO,0,NO,0,2020-01-04 13:26:39 +0900,shallow delete of assign from SDBase. (#164),5216,448992
+604,451d9d57,FAIL,13,NO,0,NO,0,2020-01-04 09:06:44 +0300,shape function override (#161),5216,449008
+605,29e8e09d,FAIL,12,NO,0,NO,0,2020-01-04 13:27:50 +0300,String changes (#3),5222,448363
+606,d9ef5e24,FAIL,12,NO,0,NO,0,2020-01-04 15:27:16 +0300,Minor fixes (#165),5222,448363
+607,bb86bbc2,FAIL,13,NO,0,NO,0,2020-01-06 15:55:16 +0300,few tests tweaked,5222,448363
+608,2404be5f,FAIL,13,NO,0,NO,0,2020-01-06 21:35:05 +0200,Oleh multinomial (#163),5222,448363
+609,c84307a6,FAIL,12,NO,0,NO,0,2020-01-08 23:57:23 +1100,Small SameDiff execution fix (#168),5222,448366
+610,bbf88b53,FAIL,11,NO,0,NO,0,2020-01-10 23:14:20 +0200,- fix wrong calculation of elements offsets in batchnorm op when input arrays have unusual (#169),5222,448366
+611,cae5ef41,FAIL,13,NO,0,NO,0,2020-01-11 06:36:40 +0200,Shyrma depthconv (#156),5222,448366
+612,9edbefdc,FAIL,14,NO,0,NO,0,2020-01-20 17:13:57 +0900,RL4J: Replace gym-java-client with JavaCPP (#8595),5196,448718
+613,6943a5f5,FAIL,14,NO,0,NO,0,2020-01-20 11:29:36 +0200,Shugeo lgamma (#170),5223,448409
+614,8fc0e63c,FAIL,13,NO,0,NO,0,2020-01-20 11:59:12 +0200,Oleh powderev (#171),5224,448472
+615,7783012f,FAIL,12,NO,0,NO,0,2020-01-20 21:32:46 +0300,cuDNN integration (#150),5224,448472
+616,e50b285c,FAIL,12,NO,0,NO,0,2020-01-22 09:46:33 +0200,Shugeo resize area (#162),5225,448566
+617,815a2908,FAIL,13,NO,0,NO,0,2020-01-22 09:48:03 +0200,Shugeo solve triangular (#173),5226,448613
+618,2717b259,FAIL,11,NO,0,NO,0,2020-01-22 12:59:36 +0200,Shugeo qr (#153),5226,448613
+619,a25bb6a1,FAIL,12,NO,0,NO,0,2020-01-22 22:27:01 +1100,Unit/integration test split + test speedup (#166),5226,448719
+620,25db3a44,FAIL,13,NO,0,NO,0,2020-01-22 16:12:30 +0300,[WIP] few fixes for tests (#177),5226,448722
+621,256c9d20,FAIL,12,NO,0,NO,0,2020-01-23 09:51:02 +0300,alloc check for RNG (#179),5226,448724
+622,0caf50f8,FAIL,13,NO,0,NO,0,2020-01-23 20:22:06 +0900,SDLoss cleanup. (#180),5226,448688
+623,5d690691,FAIL,12,NO,0,NO,0,2020-01-24 10:11:09 +0300,[WIP] Memory limits (#167),5226,448750
+624,99cfb889,FAIL,12,NO,0,NO,0,2020-01-24 15:26:46 +0300,two tests fixes,5226,448750
+625,f14e4bee,FAIL,12,NO,0,NO,0,2020-01-24 15:37:24 +0300,missing countOut for GPU,5226,448750
+626,99a54829,FAIL,13,NO,0,NO,0,2020-01-24 19:55:25 +0200,Shugeo resize area fix2 (#181),5226,448750
+627,4db28a93,FAIL,13,NO,0,NO,0,2020-01-24 21:35:00 +0200,Cleanup of multiple projects (#175),5184,446715
+628,458d141d,FAIL,12,NO,0,NO,0,2020-01-25 20:13:23 +1100,Fix SDLoss null weights array issue (#185),5184,446716
+629,97c7dd2c,FAIL,12,NO,0,NO,0,2020-01-27 16:01:20 +1100,Merge pull request #8641 from KonduitAI/master,5182,446894
+630,95db34e3,FAIL,11,NO,0,NO,0,2020-01-27 16:03:00 +1100,Eclipse -> Konduit update (#188),5182,446894
+631,03a1859d,FAIL,12,NO,0,NO,0,2020-01-27 16:05:58 +1100,Merge remote-tracking branch 'eclipse/master',5182,446894
+632,531a72fa,FAIL,11,NO,0,NO,0,2020-01-27 10:00:07 +0300,execution mode (#183),5183,446917
+633,bfe1d961,FAIL,11,NO,0,NO,0,2020-01-27 20:37:06 +0900,Update versions of JavaCPP Presets for MKL and NumPy (#190),5183,446917
+634,a97c10a0,FAIL,13,NO,0,NO,0,2020-01-27 23:01:29 +1100,Merge pull request #8642 from KonduitAI/master,5183,446917
+635,7ef0ef90,FAIL,11,NO,0,NO,0,2020-01-27 23:04:21 +0300,Packages fix (#193),5183,446064
+636,7a203241,FAIL,11,NO,0,NO,0,2020-01-28 15:44:27 +1100,Merge pull request #8647 from KonduitAI/master,5183,446064
+637,9f719488,FAIL,12,NO,0,NO,0,2020-01-28 10:55:06 +0300,CUDA sync tweaks (#194),5183,446069
+638,2f08af31,FAIL,12,NO,0,NO,0,2020-01-28 12:30:39 +0400,Update GpuGraphRunnerTest.java (#195),5183,446069
+639,7a7ee4b0,FAIL,11,NO,0,NO,0,2020-01-28 17:23:07 +0200,Shyrma cudnn (#192),5183,446069
+640,f2505636,FAIL,11,NO,0,NO,0,2020-01-28 20:00:12 +0400,auto-vectorization check for gcc (#172),5183,446069
+641,5039fb22,FAIL,13,NO,0,NO,0,2020-01-29 21:16:56 +1100,Fix datatype issue with GpuGraphRunnerTest (#198),5183,446073
+642,ba961c76,FAIL,13,NO,0,NO,0,2020-01-30 10:07:24 +0300,DataTypes & FlatBuffers (#197),5183,446125
+643,5d98cfcf,FAIL,12,NO,0,NO,0,2020-01-30 18:46:12 +0300,Configurable DataType for ops (#201),5183,446250
+644,d39ca6d4,FAIL,11,NO,0,NO,0,2020-01-31 09:57:31 +0400,ElementWiseStride==1 cases for legacy random ops (#202),5183,446250
+645,1ab86d13,FAIL,11,NO,0,NO,0,2020-01-31 10:45:41 +0300,Range op data type (#204),5183,446269
+646,00cd61f3,FAIL,12,NO,0,NO,0,2020-01-31 15:57:55 +0300,roll back flatbuffers version,5183,446269
+647,d52e6720,FAIL,12,NO,0,NO,0,2020-01-31 15:30:49 +0200,Oleh convert (#200),5183,446269
+648,0756e3fe,FAIL,13,NO,0,NO,0,2020-02-01 18:19:36 +1100,Small fixes. (#206),5183,446267
+649,81efa5c3,FAIL,12,NO,0,NO,0,2020-02-02 19:17:26 +0300,[WIP] one small fix (#207),5183,446279
+650,9bb5798c,FAIL,13,NO,0,NO,0,2020-02-02 23:14:00 +0300,Null arrays fix (#208),5183,446280
+651,ddf70ac4,FAIL,11,NO,0,NO,0,2020-02-03 22:18:01 +1100,Avoid double printing of start/stop test in a few cases (#210),5183,446272
+652,20e3039f,FAIL,10,NO,0,NO,0,2020-02-03 22:23:39 -0500,RL4J: Change frame skipping logic (#8596),5183,446047
+653,57d5eb47,FAIL,12,NO,0,NO,0,2020-02-04 15:38:06 +1100,Fixes for global pooling + masking with different mask datatypes (#212),5183,446295
+654,41ff907b,FAIL,12,NO,0,NO,0,2020-02-04 07:59:11 +0200,Shugeo solve linear (#191),5184,446372
+655,7ea07de7,FAIL,12,NO,0,NO,0,2020-02-04 18:00:56 +1100,Merge remote-tracking branch 'eclipse/master',5184,446355
+656,dcc1187e,FAIL,11,NO,0,NO,0,2020-02-04 18:19:26 +1100,Merge pull request #8668 from KonduitAI/master,5184,446355
+657,f6b3032d,FAIL,13,NO,0,NO,0,2020-02-04 13:23:59 +0400,Python executioner 2.0 (#134),5193,447241
+658,5d28e614,FAIL,12,NO,0,NO,0,2020-02-05 07:27:24 +0300,OpContext handling  (#214),5195,447313
+659,569a46f8,FAIL,11,NO,0,NO,0,2020-02-05 17:07:36 +1100,Fixes (#213),5195,447324
+660,5ae40f6e,FAIL,11,NO,0,NO,0,2020-02-06 20:06:50 +0200,Shugeo sequence mask fix2 (#216),5195,447324
+661,948646b3,FAIL,11,NO,0,NO,0,2020-02-06 20:12:54 +0200,Shyrma mkl test (#211),5195,447324
+662,ce6848c9,FAIL,11,NO,0,NO,0,2020-02-07 16:25:02 +1100,Test fixes (#218),5195,447385
+663,937a27ae,FAIL,11,NO,0,NO,0,2020-02-07 18:38:50 +1100,Small number of test fixes (#220),5195,447390
+664,a0da5a9e,FAIL,11,NO,0,NO,0,2020-02-07 12:34:55 +0300,Events removed from Java (#219),5195,447374
+665,1dfac9a7,FAIL,11,NO,0,NO,0,2020-02-07 18:16:11 +0300,DataBuffer.write() tweak (#221),5195,447407
+666,77401c7d,FAIL,11,NO,0,NO,0,2020-02-08 21:44:18 +1100,Merge pull request #8689 from KonduitAI/master,5195,447407
+667,bead656f,FAIL,12,NO,0,NO,0,2020-02-08 16:31:30 +0400,Initial  performance improvement for Bias Add and etc #8556 (#217),5195,447407
+668,8a0d5e3b,FAIL,11,NO,0,NO,0,2020-02-09 19:48:32 +0300,Compilation units (#224),5195,447407
+669,ebeeb8bc,FAIL,10,NO,0,NO,0,2020-02-10 12:33:04 +0900,Fix BERT word piece tokenizer stack overflow error (#205),5195,447420
+670,237c1371,FAIL,11,NO,0,NO,0,2020-02-10 10:57:18 +0300,few more smaller compilation units (#226),5195,447420
+671,c9ffb6cb,FAIL,11,NO,0,NO,0,2020-02-10 14:54:44 +0400,Python: Use memoryview instead of bytearray (#225),5195,447451
+672,f3fa4fd6,FAIL,11,NO,0,NO,0,2020-02-12 12:38:10 +0300,C++ NPY (#233),5195,447451
+673,b9411863,FAIL,10,NO,0,NO,0,2020-02-12 15:17:30 +0500,Making TypeName enum public (#235),5195,447451
+674,17e77f4c,FAIL,11,NO,0,NO,0,2020-02-12 21:20:45 +1100,Merge pull request #8700 from KonduitAI/master,5195,447451
+675,11cb5610,FAIL,11,NO,0,NO,0,2020-02-12 13:12:17 +0200,Oleh true broadcast opt (#234),5195,447451
+676,f0c68402,FAIL,11,NO,0,NO,0,2020-02-12 18:02:42 +0200,Shugeo resize area fix4 (#229),5195,447451
+677,5c9e0bc2,FAIL,13,NO,0,NO,0,2020-02-13 03:58:39 +0500,Ignore none type for pythonexception (#237),5195,447461
+678,8c0e378e,FAIL,14,NO,0,NO,0,2020-02-13 01:29:08 +0200,Improving SameDiff tests coverage (#227),5194,448020
+679,4b46aaed,FAIL,14,NO,0,NO,0,2020-02-13 16:14:24 +1100,Merge pull request #8703 from KonduitAI/master,5194,448020
+680,fe47f528,FAIL,13,NO,0,NO,0,2020-02-13 19:33:54 +0200,Oleh tenzor mmul (#231),5194,448020
+681,3de3cd82,FAIL,12,NO,0,NO,0,2020-02-13 20:59:35 +0300,R119 tests (#238),5194,448020
+682,c34790f9,FAIL,13,NO,0,NO,0,2020-02-14 02:53:35 +0200,Copied and pasted RegressionTest100b4.java to RegressionTest100b6.jav… (#215),5195,448294
+683,f165160e,FAIL,12,NO,0,NO,0,2020-02-14 06:06:00 +0500,MultiLayerConfiguration should be ComputationGraphConfiguration for validating a cg model conf (#240),5195,448295
+684,4206171b,FAIL,12,NO,0,NO,0,2020-02-14 08:27:46 +0200,Ignored tests (#243),5195,448295
+685,6e6289b6,FAIL,14,NO,0,NO,0,2020-02-14 11:04:38 +0200,Oleh bert multiply true broad cast (#239),5195,448295
+686,9e3c1b02,FAIL,12,NO,0,NO,0,2020-02-14 16:20:31 +0300,Perf improvements (#242),5195,448295
+687,011c272f,FAIL,11,NO,0,NO,0,2020-02-17 07:04:28 +0200,Shyrma transpose (#244),5195,448295
+688,f9d51b72,FAIL,11,NO,0,NO,0,2020-02-17 10:23:05 +0300,More compilation units (#246),5195,448295
+689,2698fbf5,FAIL,12,NO,0,NO,0,2020-02-17 16:25:10 +0300,Broadcast perf improvements (#248),5195,448295
+690,c8882cbf,FAIL,11,NO,0,NO,0,2020-02-18 10:29:06 +1100,Test fixes + cleanup (#245),5194,448210
+691,22c7aa9a,FAIL,11,NO,0,NO,0,2020-02-18 07:58:01 +0200,Shyrma mkl matmul (#250),5194,448210
+692,da39a63c,FAIL,10,NO,0,NO,0,2020-02-18 11:20:38 +0300,one more bert-like test,5194,448210
+693,72f9cda0,FAIL,11,NO,0,NO,0,2020-02-18 18:01:43 +0400,Added missing bfloat16 (#252),5194,448210
+694,1efe2dc8,FAIL,12,NO,0,NO,0,2020-02-19 00:31:12 +0900,RL4J: Use Py_AddPath() instead of Py_SetPath() in GymEnv (issue #8688),5194,448020
+695,c5193ecb,FAIL,10,NO,0,NO,0,2020-02-19 08:35:52 +0200,Shyrma gather (#254),5194,448210
+696,d9058b46,FAIL,11,NO,0,NO,0,2020-02-19 15:31:21 +0200,Add classifier property for dl4j-test-resources (#249),5194,448210
+697,b119631e,FAIL,11,NO,0,NO,0,2020-02-20 15:48:37 +0900,Update version of the JavaCPP Presets for Gym,5194,448020
+698,215641ea,FAIL,11,NO,0,NO,0,2020-02-20 11:43:26 +0300,Minor improvements (#255),5194,448210
+699,f7a91904,FAIL,12,NO,0,NO,0,2020-02-20 20:19:01 +0200,profiling of concat op (both cuda and cpu) (#151),5194,448215
+700,0748c7e7,FAIL,10,NO,0,NO,0,2020-02-21 06:46:05 +0200,Oleh broadcast4d (#257),5194,448215
+701,d19dbb95,FAIL,11,NO,0,NO,0,2020-02-21 19:57:07 +1100,Merge remote-tracking branch 'eclipse/master',5194,448215
+702,e4ddf109,FAIL,11,NO,0,NO,0,2020-02-21 20:00:35 +1100,Merge pull request #8723 from KonduitAI/master,5194,448215
+703,e78be14c,FAIL,11,NO,0,NO,0,2020-02-21 14:31:00 +0300,arm fix (#260),5194,448215
+704,a0ed5487,FAIL,11,NO,0,NO,0,2020-02-22 23:42:52 +1100,Upgrade openblas version to 0.3.8 (#264),5194,448215
+705,1bb3ae4b,FAIL,10,NO,0,NO,0,2020-02-24 06:51:01 +0200,Shugeo unordered map (#256),5194,448215
+706,f0706b21,FAIL,11,NO,0,NO,0,2020-02-24 07:22:41 +0200,Split operation improvement (#262),5194,448215
+707,241ed05c,FAIL,12,NO,0,NO,0,2020-02-24 21:58:23 +0300,VariableSpace uses unordered maps as well (#270),5194,448215
+708,f6442b67,FAIL,12,NO,0,NO,0,2020-02-25 11:13:23 +0300,few minor tweaks (#272),5194,448215
+709,cf67c716,FAIL,11,NO,0,NO,0,2020-02-25 15:20:51 +0300,nano fix,5194,448215
+710,b686368b,FAIL,10,NO,0,NO,0,2020-02-26 09:20:39 +0200,Refactoring split operation (#266),5194,448215
+711,5c806d2f,FAIL,10,NO,0,NO,0,2020-02-26 14:05:32 +0300,reshape tweak (#275),5194,448215
+712,1df8899f,FAIL,11,NO,0,NO,0,2020-02-26 16:24:32 +0100,restoreMultiLayerNetwork() needlessly writes temp-file #8735,5194,448186
+713,b4575d11,FAIL,12,NO,0,NO,0,2020-02-26 20:12:19 +0200,Loops auto-vectorization problem fix (#274),5194,448215
+714,353f901c,FAIL,12,NO,0,NO,0,2020-02-27 03:00:15 +0200,[WIP] Handle missing functionality for binary models (#269),5194,448224
+715,31e3a2f7,FAIL,11,NO,0,NO,0,2020-02-27 16:10:38 +0300,transparent conversion to FastPath execution within Graph (#278),5194,448224
+716,358c650b,FAIL,11,NO,0,NO,0,2020-02-27 19:28:26 +0300,one micro fix,5194,448224
+717,330a69d4,FAIL,11,NO,0,NO,0,2020-02-28 10:37:26 +0200,Shugeo solve ls (#203),5195,448257
+718,5332ace3,FAIL,13,NO,0,NO,0,2020-02-28 12:06:30 +0300,better inplace exec with FastPath (#280),5195,448257
+719,f116f53d,FAIL,11,NO,0,NO,0,2020-02-28 16:04:45 +0200,Loops auto-vectorization problem fix (#277),5195,448257
+720,483c3d7b,FAIL,11,NO,0,NO,0,2020-03-02 16:15:49 +1100,Assorted SameDiff/DL4J fixes (#279),5196,448535
+721,63fa3c2e,FAIL,10,NO,0,NO,0,2020-03-02 12:49:41 +0300,libnd4j polishing (#273),5196,448535
+722,c54cdaab,FAIL,12,NO,0,NO,0,2020-03-02 18:14:32 +0300,full bert graph (#282),5196,448535
+723,0f581e74,FAIL,12,NO,0,NO,0,2020-03-02 19:52:11 +0300,one small test rearrangement,5196,448536
+724,78934c17,FAIL,10,NO,0,NO,0,2020-03-03 06:32:37 +0200,profiling of stack and unstack ops (#261),5196,448536
+725,ebee7687,FAIL,12,NO,0,NO,0,2020-03-03 08:57:02 +0300,mkldnn version upgrade,5196,448536
+726,d9cfa807,FAIL,13,NO,0,NO,0,2020-03-03 14:19:55 +0300,bigger reads,5196,448536
+727,fec620fa,FAIL,12,NO,0,NO,0,2020-03-04 04:46:32 +0400,TensorflowConversion Data Types (#284),5196,448585
+728,11d148a5,FAIL,11,NO,0,NO,0,2020-03-04 08:14:39 +0300,get back to single-byte reads,5196,448585
+729,f990b248,FAIL,13,NO,0,NO,0,2020-03-04 09:50:55 +0300,simplified addBias2D for CUDA (#285),5196,448585
+730,1c89512e,FAIL,11,NO,0,NO,0,2020-03-04 17:11:01 +0900,Add Maven profiles for ARM builds to pom.xml files (#265),5196,448585
+731,4d81af9f,FAIL,13,NO,0,NO,0,2020-03-04 18:36:42 +0200,Softmax operation implementation for mkldnn  (#286),5196,448585
+732,58aa5a3a,FAIL,12,NO,0,NO,0,2020-03-05 14:43:13 +0900,"RL4J: Add TransformProcess, part 1 (#8711)",5200,448246
+733,ca96a13e,FAIL,11,NO,0,NO,0,2020-03-05 08:45:10 +0300,softmax as standalone compilation unit,5196,448585
+734,3bb22a6f,FAIL,11,NO,0,NO,0,2020-03-05 09:56:52 +0300,strided_slice without view (#288),5196,448585
+735,784a2d13,FAIL,12,NO,0,NO,0,2020-03-05 11:14:22 +0300,separate omp impl for softmax (#289),5196,448585
+736,2911da06,FAIL,12,NO,0,NO,0,2020-03-05 14:11:13 +0300,blas fallback (#291),5196,448585
+737,19d5a8d4,FAIL,12,NO,0,NO,0,2020-03-06 00:02:32 +1100,Various fixes (#290),5198,448739
+738,7494117e,FAIL,13,NO,0,NO,0,2020-03-06 12:01:21 +1100,#8751 Arbiter grid search candidate generator fix [WIP] (#292),5198,448782
+739,e6a7b94f,FAIL,11,NO,0,NO,0,2020-03-06 16:07:22 +1100,Loss namespace (#294),5200,449287
+740,ead5162c,FAIL,10,NO,0,NO,0,2020-03-06 16:11:22 +0200,Tanh mkldnn implementation  (#296),5200,449287
+741,a80fb99a,FAIL,10,NO,0,NO,0,2020-03-07 22:44:41 +1100,DL4J integrations tests updates + add SameDiff support (#298),5200,449621
+742,a2ec3dbc,FAIL,11,NO,0,NO,0,2020-03-09 04:35:17 +0200,Image namespace (#176),5204,450046
+743,dd2043ef,FAIL,11,NO,0,NO,0,2020-03-09 08:21:44 +0300,OpenMP Threads execution (#297),5204,450046
+744,57210b93,FAIL,11,NO,0,NO,0,2020-03-09 08:22:49 +0300,"Revert ""OpenMP Threads execution (#297)"" (#299)",5204,450046
+745,c3223dbc,FAIL,11,NO,0,NO,0,2020-03-10 06:42:50 +0200,Improve ResultSet usage in libnd4j (#281),5204,450046
+746,0459cf95,FAIL,11,NO,0,NO,0,2020-03-10 10:05:56 +0000,Remove the two files that get generated by javacpp to avoid conflicts. Also add them to .gitignore,5200,448246
+747,0faf83b1,FAIL,12,NO,0,NO,0,2020-03-10 13:09:37 +0300,Merge pull request #8772 from Bam4d/ignore_javacpp_generated,5200,448246
+748,6aaca585,FAIL,10,NO,0,NO,0,2020-03-10 15:29:09 +0200,Shyrma broadcast (#302),5204,450046
+749,8b10f0b8,FAIL,10,NO,0,NO,0,2020-03-10 22:56:41 -0400,"RL4J: Add TransformProcess, part 2 (#8766)",5205,448659
+750,a7a97d82,FAIL,11,NO,0,NO,0,2020-03-11 10:57:55 +0300,rl4j: update host pointers content before reading them,5204,450049
+751,50b7d82b,FAIL,12,NO,0,NO,0,2020-03-11 11:43:18 +0300,more compilation units,5204,450049
+752,58550b7c,FAIL,10,NO,0,NO,0,2020-03-11 15:21:59 +0200,[WIP] Shyrma coords (#305),5204,450049
+753,ebab6b64,FAIL,10,NO,0,NO,0,2020-03-11 16:58:53 +0200,Shyrma broadcast2 (#309),5204,450049
+754,9a5e21d6,FAIL,11,NO,0,NO,0,2020-03-12 07:11:58 +0900,"Uupdate versions of JavaCPP Presets for HDF5, OpenBLAS, and Gym",5194,448020
+755,3d7adcf2,FAIL,11,NO,0,NO,0,2020-03-12 13:17:22 +1100,Merge pull request #8717 from eclipse/sa_gym,5205,448659
+756,88f39fad,FAIL,11,NO,0,NO,0,2020-03-12 12:50:09 +0300,pairwise compilation units updated,5204,450049
+757,41bde8f8,FAIL,10,NO,0,NO,0,2020-03-12 17:25:29 +0200,Softmax BP mkldnn implementation (#301),5204,450049
+758,e42b4e96,FAIL,11,NO,0,NO,0,2020-03-12 17:25:54 +0200,correct output empty shapes deducing in split op (#311),5204,450052
+759,e7a995e9,FAIL,10,NO,0,NO,0,2020-03-13 18:01:00 +0200,Tanh backpropagation mkldnn implementation (#308),5204,450052
+760,4cf2afad,FAIL,11,NO,0,NO,0,2020-03-16 10:31:06 +0300,benchmarks fixes (#321),5204,450052
+761,2cd4522f,FAIL,10,NO,0,NO,0,2020-03-16 18:35:15 +1100,Add updater tests/validation (#319),5206,450301
+762,bac130bd,FAIL,12,NO,0,NO,0,2020-03-16 12:07:34 +0300,CUDA host pointer fix (#322),5206,450296
+763,77244f54,FAIL,11,NO,0,NO,0,2020-03-16 18:17:42 +0300,avg/max pooling3d bp fixed (#323),5206,450296
+764,5cd14361,FAIL,11,NO,0,NO,0,2020-03-18 16:17:14 +0900,Merge remote-tracking branch 'eclipse/master',5217,450740
+765,9f523d68,FAIL,13,NO,0,NO,0,2020-03-18 18:53:20 +1100,Merge pull request #8788 from KonduitAI/master,5217,450740
+766,9c77bfa8,FAIL,13,NO,0,NO,0,2020-03-18 18:48:37 +0500,Support for more numpy datatypes  (#241),5217,450896
+767,7c059281,FAIL,12,NO,0,NO,0,2020-03-19 00:51:22 +1100,Merge pull request #8790 from KonduitAI/master,5217,450896
+768,0cf4a455,FAIL,12,NO,0,NO,0,2020-03-19 14:53:21 +0900,Fixes #8763 (#310),5217,450896
+769,30a28fae,FAIL,13,NO,0,NO,0,2020-03-20 12:14:03 +0900,Windows fix (#333),5217,450896
+770,7a2ac800,FAIL,13,NO,0,NO,0,2020-03-20 08:49:28 +0300,Nullify (#304),5217,450898
+771,2497290c,FAIL,13,NO,0,NO,0,2020-03-20 17:25:46 +1100,AdaGrad validation test (#334),5217,450916
+772,5dae4069,FAIL,11,NO,0,NO,0,2020-03-20 10:33:20 +0200,Shugeo random expo fix2 (#295),5217,450916
+773,e700b59f,FAIL,13,NO,0,NO,0,2020-03-20 11:11:27 +0200,Shyrma weights format (#329),5217,450916
+774,b23ebee4,FAIL,11,NO,0,NO,0,2020-03-20 12:42:29 +0300,- MKL-DNN version upgrade - deviceMutex replaced for CPU,5217,450916
+775,f7920703,FAIL,11,NO,0,NO,0,2020-03-20 21:24:39 +1100,SameDiff multi-threaded inference (#263),5218,451400
+776,5a34ccf3,FAIL,12,NO,0,NO,0,2020-03-20 23:50:17 +1100,Remove printf in ones_as c++ op (#336),5218,451400
+777,015147b7,FAIL,13,NO,0,NO,0,2020-03-21 17:30:26 +0900,Fix openblas linking issues (#340),5218,451400
+778,69c92ca5,FAIL,12,NO,0,NO,0,2020-03-23 06:28:31 +0200,Learning updaters for gradient (#335),5227,451605
+779,1f3e4c18,FAIL,11,NO,0,NO,0,2020-03-23 07:28:54 +0300,some structure for ops (#337),5227,451605
+780,55ec207e,FAIL,12,NO,0,NO,0,2020-03-23 06:30:26 +0200,Split convolutions implementations for compilation speed up (#339),5227,451605
+781,226f0672,FAIL,11,NO,0,NO,0,2020-03-23 17:02:03 +0300,size op fixed,5227,451605
+782,ebe41326,FAIL,12,NO,0,NO,0,2020-03-24 12:56:53 +1300,Added swish activation function in mapToActivation,5217,450899
+783,838c3ddb,FAIL,11,NO,0,NO,0,2020-03-24 12:05:17 +1100,Timeouts and temp ignore for logged issue - #8802 (#342),5227,451613
+784,3cbba495,FAIL,11,NO,0,NO,0,2020-03-24 03:55:47 +0200,Bugfix failing builds (#341),5227,451613
+785,4e8f3a02,FAIL,11,NO,0,NO,0,2020-03-24 13:11:57 +0500,Fixing python object for obtaining scalars (#330),5228,451634
+786,44394da4,FAIL,11,NO,0,NO,0,2020-03-24 19:14:07 +1100,Merge pull request #8803 from KonduitAI/master,5228,451634
+787,cd0e62ff,FAIL,10,NO,0,NO,0,2020-03-24 20:02:58 +1100,Merge pull request #8801 from basedrhys/master,5228,451637
+788,ec6abacd,FAIL,11,NO,0,NO,0,2020-03-24 20:33:43 +1100,Fix limits on flaky test to avoid spurious failure (#344),5228,451634
+789,b1bc7df1,FAIL,12,NO,0,NO,0,2020-03-24 13:37:27 +0400,tf.keras model import (#258),5234,451907
+790,e8cbf525,FAIL,12,NO,0,NO,0,2020-03-25 07:40:30 +0200,"Backpropagation implementation of  mergemax, mergeadd and mergeavg ops (#343)",5234,451907
+791,9970aadc,FAIL,11,NO,0,NO,0,2020-03-25 19:42:08 +1100,Upgrade python version to 3.7.7 from 3.7.6 (#346),5234,451907
+792,364f9a66,FAIL,10,NO,0,NO,0,2020-03-26 01:33:56 +0100,Set source and target version of nd4j-native to java 7 (#8808),5228,451637
+793,63c9223b,FAIL,10,NO,0,NO,0,2020-03-27 00:33:13 +1100,Assorted fixes (#318),5234,452012
+794,3900d9ff,FAIL,10,NO,0,NO,0,2020-03-30 03:07:47 -0700,Simple fix in bidirectional lstm import  (#293),5234,452012
+795,9b3576bc,FAIL,12,NO,0,NO,0,2020-03-30 22:18:25 +1100,Merge remote-tracking branch 'eclipse/master',5234,452015
+796,7f89fbba,FAIL,11,NO,0,NO,0,2020-03-30 22:29:09 +1100,Merge pull request #8814 from KonduitAI/master,5234,452015
+797,bf0ddbc0,FAIL,12,NO,0,NO,0,2020-03-30 16:33:51 +0300,libnd4j fixes for context sync in operation execution (#350),5234,452015
+798,2e52f021,FAIL,10,NO,0,NO,0,2020-03-31 10:20:31 +1100,Merge branch 'master' of https://github.com/horschi/deeplearning4j into horschi-master,5234,451986
+799,3f49d646,FAIL,12,NO,0,NO,0,2020-03-31 11:34:43 +1100,API fix + try with resources (close file stream + buffered),5234,451990
+800,e3a86292,FAIL,14,NO,0,NO,0,2020-03-31 11:38:12 +1100,2 more try-with-resources (buffered + close),5234,451991
+801,55a3d9bb,FAIL,11,NO,0,NO,0,2020-03-31 11:56:56 +1100,Fix loading both model and serializer at once from stream + re-add checks,5234,452011
+802,29e61579,FAIL,13,NO,0,NO,0,2020-03-31 07:41:16 +0300,Shyrma reshape empty (#338),5234,452015
+803,1d004b54,FAIL,11,NO,0,NO,0,2020-03-31 13:03:10 +0300,xw_plus_b mkldnn implementation (#247),5234,452015
+804,0a27e9f4,FAIL,11,NO,0,NO,0,2020-04-01 04:00:38 +0300,Fix incompatibilities with generated code (#303),5240,454322
+805,2dadbed8,FAIL,11,NO,0,NO,0,2020-04-01 12:54:20 +1100,Merge pull request #8815 from eclipse/ab_horschi_modelserializer,5234,452011
+806,81ebfeea,FAIL,11,NO,0,NO,0,2020-04-01 15:11:39 +1100,Small fixes (#355),5240,454365
+807,48102c61,FAIL,9,NO,0,NO,0,2020-04-01 07:13:34 +0300,- correct reshape op for empty shapes (#354),5240,454368
+808,8ac89aeb,FAIL,11,NO,0,NO,0,2020-04-01 06:28:01 +0100,RL4J: Force shape fix (#352),5240,454375
+809,fb1c41c5,FAIL,11,NO,0,NO,0,2020-04-01 11:09:48 +0300,Build fix (#357),5240,454373
+810,1a35ebec,FAIL,11,NO,0,NO,0,2020-04-06 04:36:12 +0100,RL4J: Add Backwardly Compatible Builder patterns (#326),5249,454719
+811,986ec4b5,FAIL,12,NO,0,NO,0,2020-04-06 15:02:09 +1000,Add test from reported issue (confirmed fixed) (#359),5249,454738
+812,04b2b4f9,FAIL,13,NO,0,NO,0,2020-04-06 21:01:59 +0300,Few fixes (#361),5249,454790
+813,e57f35c2,FAIL,11,NO,0,NO,0,2020-04-07 13:14:43 +0300,mkldnn version bump,5249,454790
+814,ab083b91,FAIL,13,NO,0,NO,0,2020-04-08 21:09:45 +0900,Update versions of JavaCPP Presets for OpenCV and MKL (#363),5249,454790
+815,d86dd5b1,FAIL,11,NO,0,NO,0,2020-04-08 17:20:48 +0300,DL4J and SameDiff integration tests + LSTMLayer java op class (#353),5263,456324
+816,99c727f1,FAIL,12,NO,0,NO,0,2020-04-09 10:00:27 +1000,Add javacpp classifier dependency to nd4j-native and nd4j-cuda (#366),5263,456324
+817,3e2dbc65,FAIL,12,NO,0,NO,0,2020-04-10 17:57:02 +0300,MatMul for gemm/gemv calls (#365),5263,456310
+818,f1debe8c,FAIL,11,NO,0,NO,0,2020-04-10 19:50:40 -0400,RL4J: Add ExperienceHandler (#369),5272,456576
+819,23e4aa99,FAIL,11,NO,0,NO,0,2020-04-13 13:21:51 +0300,Shyrma lstm layer bp (#370),5272,456576
+820,6fcd078c,FAIL,20,NO,0,NO,0,2020-04-14 18:36:14 +0900,Update dependencies to just released JavaCPP and JavaCV 1.5.3 (#374),5272,456576
+821,133223e8,FAIL,13,NO,0,NO,0,2020-04-14 22:24:17 +1000,Merge remote-tracking branch 'eclipse/master',5272,456572
+822,09f4c210,FAIL,14,NO,0,NO,0,2020-04-14 22:35:49 +1000,Merge pull request #8835 from KonduitAI/master,5272,456572
+823,75af3926,FAIL,14,NO,0,NO,0,2020-04-14 18:47:46 +0300,- memcpy fix + validation for CUDA: skip memcpu if length < 1 (#375),5272,456582
+824,217fa433,FAIL,14,NO,0,NO,0,2020-04-16 07:39:45 +0300,mkldnn repo url updated,5272,456582
+825,4247718f,FAIL,12,NO,0,NO,0,2020-04-16 08:09:04 +0300,Shyrma gru bp (#377),5272,456582
+826,12ba1fa4,FAIL,13,NO,0,NO,0,2020-04-16 13:25:13 +0300,Few minor fixes (#381),5272,456612
+827,3d15706f,FAIL,14,NO,0,NO,0,2020-04-16 14:53:56 +0300,Lin_space operation improve (#373),5272,456631
+828,bb9cdb25,FAIL,12,NO,0,NO,0,2020-04-17 02:19:21 +0200,Small ConvolutionalIterationListener improvements (#382),5272,456631
+829,3967e039,FAIL,13,NO,0,NO,0,2020-04-17 14:41:49 +1000,Switch Java-based updater implementations to C++ ops (#384),5272,456586
+830,5fbb0453,FAIL,13,NO,0,NO,0,2020-04-17 08:16:14 +0300,At cpp ops (#378),5285,457339
+831,18d4eaa6,FAIL,12,NO,0,NO,0,2020-04-17 19:47:57 +1000,DL4J SameDiff loss function (#251),5288,457445
+832,0eca33ad,FAIL,13,NO,0,NO,0,2020-04-17 16:52:08 +0300,Shugeo cuda solver fix (#383),5288,457445
+833,163222e8,FAIL,13,NO,0,NO,0,2020-04-19 13:34:26 +0300,tick device write in RandomLauncher,5288,457445
+834,73aa760c,FAIL,14,NO,0,NO,0,2020-04-20 10:26:00 +1000,Timeouts and scala 2.12 for deeplearning4j-nlp-korean workaround (#380),5288,457552
+835,455a5d11,FAIL,14,NO,0,NO,0,2020-04-20 03:27:13 +0300,Fixes for codegen generated classes and build improvements (#367),5317,457265
+836,74420bca,FAIL,12,NO,0,NO,0,2020-04-20 03:21:01 +0100,RL4J: Sanitize async learner (#327),5310,456967
+837,1bec9a4f,FAIL,12,NO,0,NO,0,2020-04-20 08:19:03 +0300,mkldnn version upgrade: v1.4,5310,456967
+838,a5db0e33,FAIL,11,NO,0,NO,0,2020-04-20 09:04:35 +0300,Shugeo segment fix4 (#385),5310,456967
+839,191bda32,FAIL,11,NO,0,NO,0,2020-04-20 16:57:00 +1000,Base namespace (#287),5311,457766
+840,fe516ae6,FAIL,12,NO,0,NO,0,2020-04-20 22:33:11 +1000,nd4j-jackson dependency fix (#398),5310,457730
+841,8eccc170,FAIL,12,NO,0,NO,0,2020-04-20 22:36:36 +1000,Merge pull request #8854 from KonduitAI/master,5310,457730
+842,b2f86ab8,FAIL,11,NO,0,NO,0,2020-04-20 23:59:30 +1000,#8849 Add ignore for randomly failing test (#399),5310,457730
+843,76aab751,FAIL,13,NO,0,NO,0,2020-04-21 10:51:26 +1000,Fix uberjar dependencies (#401),5308,457624
+844,5ee37a22,FAIL,12,NO,0,NO,0,2020-04-21 07:31:57 +0300,Workspace ID fix (#400),5308,457623
+845,a10fd452,FAIL,13,NO,0,NO,0,2020-04-21 12:41:30 +0300,Fix for certain non-ews cases (#402),5308,457678
+846,550e84ef,FAIL,11,NO,0,NO,0,2020-04-21 20:13:08 -0400,RL4J: Add Agent and Environment (#358),5317,458257
+847,fc3f5d4f,FAIL,11,NO,0,NO,0,2020-04-22 12:12:00 +0300,Shugeo exponential distribution infinities fix (#403),5317,458257
+848,78260efe,FAIL,11,NO,0,NO,0,2020-04-22 12:38:22 +0300,fix overallocation for memory-mapped workspaces,5317,458270
+849,1b8077f6,FAIL,13,NO,0,NO,0,2020-04-22 12:38:37 +0300,Merge remote-tracking branch 'origin/master',5317,458270
+850,2c80b18f,FAIL,12,NO,0,NO,0,2020-04-22 12:57:26 +0300,disable mmap test for cuda,5317,458272
+851,2a488efb,FAIL,14,NO,0,NO,0,2020-04-22 22:54:29 +1000,DL4J CNN2D layers NHWC support (#376),5320,460334
+852,ccb216a3,FAIL,14,NO,0,NO,0,2020-04-23 01:36:49 +0300,Fixing issues from Sonar report (#391),5320,460320
+853,3c6cb6d1,FAIL,15,NO,0,NO,0,2020-04-23 08:39:13 +1000,"#8503 Add timeouts for downloads (test resources, Downloader utility) (#406)",5320,460341
+854,722d5a05,FAIL,12,NO,0,NO,0,2020-04-23 02:26:51 +0200,"Fix UIServer features in multi-session mode, synchronous start and stop (#8856)",5311,457971
+855,0a1f75a5,FAIL,13,NO,0,NO,0,2020-04-23 10:31:15 +1000,Merge & fix small test conflict,5321,460580
+856,75cc6e2e,FAIL,15,NO,0,NO,0,2020-04-23 10:46:42 +1000,Increase default timeouts [WIP] (#407),5321,460582
+857,032b9791,FAIL,13,NO,0,NO,0,2020-04-23 02:47:26 +0100,RL4J: Sanitize Observation (#404),5321,460570
+858,2ecabde5,FAIL,14,NO,0,NO,0,2020-04-23 06:16:44 +0400,DL4J NWC support for RNNs (#379),5323,461278
+859,8f765c80,FAIL,13,NO,0,NO,0,2020-04-23 08:24:49 +0300,- do not use GetShortName approach for mmap on windows (#408),5323,461293
+860,f5f77df8,FAIL,11,NO,0,NO,0,2020-04-23 15:38:42 +1000,Dependency version upgrades + small SameDiff fix (#405),5323,461319
+861,5e779574,FAIL,14,NO,0,NO,0,2020-04-23 15:50:30 +0300,Few Workspace tweaks (#409),5323,461367
+862,bd376ca9,FAIL,13,NO,0,NO,0,2020-04-24 18:12:46 +0300,GRU and GRUBp (#410),5325,461475
+863,58b11bfe,FAIL,14,NO,0,NO,0,2020-04-25 16:56:02 +0300,Map C++ ops to Java (#392),5332,461856
+864,9e739566,FAIL,12,NO,0,NO,0,2020-04-26 01:04:31 +1000,MKLDNNConvHelper: don't permute; pass in weight format arg (#412),5332,461854
+865,83f88a1b,FAIL,13,NO,0,NO,0,2020-04-26 12:27:11 +1000,"[WIP] Add test: ""all ops in namespace"" scanner/check (#413)",5332,462016
+866,3c28caa5,FAIL,12,NO,0,NO,0,2020-04-26 18:32:49 +1000,Add ResourceUtils.listClassPathFiles (#416),5333,462083
+867,dbebaa9c,FAIL,12,NO,0,NO,0,2020-04-27 16:12:01 +1000,Exclude spring framework test dependency from deeplearning4j-nlp-uima (#417),5333,462083
+868,c9d14547,FAIL,12,NO,0,NO,0,2020-04-27 17:37:53 +0300,MKLDNN tweaks (#415),5333,462083
+869,bc02d9f0,FAIL,12,NO,0,NO,0,2020-04-26 09:38:32 -0700,fix: TfidfVectorizer.vectorize() NPE when fitted from LabelAwareIterator issue #8886,5312,458039
+870,b9d5f164,FAIL,11,NO,0,NO,0,2020-04-28 02:38:31 +0200,Optimize LineRecordReader (#419),5333,462085
+871,ff60b96c,FAIL,12,NO,0,NO,0,2020-04-28 07:40:01 +0300,Merge pull request #8887 from bpossolo/8886-fix-tfidfvectorizer-npe,5312,458039
+872,4cb87a94,FAIL,12,NO,0,NO,0,2020-04-28 14:31:09 +0400,tf.keras import test and fixes (#347),5338,462660
+873,dad6bc5e,FAIL,13,NO,0,NO,0,2020-04-28 20:34:53 +1000,Merge remote-tracking branch 'eclipse/master',5339,462728
+874,1930d999,FAIL,13,NO,0,NO,0,2020-04-28 20:38:56 +1000,Merge pull request #8892 from KonduitAI/master,5339,462728
+875,bc8a9d19,FAIL,14,NO,0,NO,0,2020-04-28 20:38:16 +0300,allocation of buffers backed by workspaces with 1 method call instead of 3 now (#420),5339,462722
+876,88d3c486,FAIL,14,NO,0,NO,0,2020-04-29 11:19:26 +1000,Refactor packages to fix split package issues (#411),5338,462207
+877,ffab4eec,FAIL,12,NO,0,NO,0,2020-04-30 10:47:32 +1000,Fix SameDiff session termination condition when listener requests array after final requested output (#423),5338,462264
+878,cdea8be6,FAIL,12,NO,0,NO,0,2020-04-30 14:09:13 +1000,Import fixes (#424),5338,462264
+879,a6ca87dc,FAIL,13,NO,0,NO,0,2020-04-30 11:22:25 +0300,one deprecated method,5338,462270
+880,668d7739,FAIL,13,NO,0,NO,0,2020-04-30 18:13:09 +0300,windows build instructions minor update,5338,462270
+881,e64fbbdc,FAIL,13,NO,0,NO,0,2020-05-01 17:32:29 +1000,Re-enable datavec-geo and datavec-hadoop as module in pom.xml; update imports (#425),5338,462269
+882,88ef784b,FAIL,14,NO,0,NO,0,2020-05-01 18:48:52 +1000,Merge pull request #8899 from KonduitAI/master,5338,462269
+883,c1e4613d,FAIL,13,NO,0,NO,0,2020-05-01 22:11:56 +0300,rootDir null validation in ExistingMiniBatchDataSetIterator,5338,462270
+884,6c9a14d8,FAIL,14,NO,0,NO,0,2020-05-01 22:22:34 +0300,added missing copyright :),5338,462270
+885,4dbdaca9,FAIL,12,NO,0,NO,0,2020-05-02 08:08:04 +0200,Add support for registering custom loss functions for Keras import (#427),5339,462322
+886,dab75fa5,FAIL,13,NO,0,NO,0,2020-01-31 16:05:45 +0100,FEATURE: change API of WordVectorSerializer. Add posibility to read models from InputStreams and not only from files,5338,462354
+887,092e6b98,FAIL,11,NO,0,NO,0,2020-05-04 14:25:19 +1000,ImageRecordReader - NHWC support (#431),5339,462388
+888,b70e02a9,FAIL,13,NO,0,NO,0,2020-05-04 15:54:03 +1000,Fix deeplearning4j-util dependency + update remnants still using it (#428),5339,462367
+889,7651a486,FAIL,12,NO,0,NO,0,2020-05-04 17:17:57 +1000,#8201 ImageLoader/NativeImageLoader NHWC support (#432),5339,462500
+890,615a48f0,FAIL,13,NO,0,NO,0,2020-05-05 12:24:03 +1000,Fixes (#434),5339,462558
+891,37d880a2,FAIL,13,NO,0,NO,0,2020-05-06 16:53:46 +1000,Merge pull request #8923 from KonduitAI/master,5339,462558
+892,965d45e3,FAIL,13,NO,0,NO,0,2020-05-06 07:59:53 +0000,Fix doc. (#8905),5339,462558
+893,53920a07,FAIL,21,NO,0,NO,0,2020-05-08 14:33:28 +0900,Update dependencies for OpenBLAS 0.3.9-1 (#440),5339,462558
+894,f1232f82,FAIL,13,NO,0,NO,0,2020-05-08 07:39:41 +0200,Drop stale documentation (#438),5339,462558
+895,c7ea7e17,FAIL,13,NO,0,NO,0,2020-05-07 23:15:53 +0200,FIX: tests,5338,462360
+896,ef7c21c2,FAIL,12,NO,0,NO,0,2020-04-23 13:56:32 +0200,"fix logging of UI server auto-stop, fix indentation in test",5338,462270
+897,f1ebced7,FAIL,13,NO,0,NO,0,2020-04-23 15:05:29 +0200,"simplify TrainModule to use getters of VertxUIServer instance for multi-session mode, session loader and server address",5338,462254
+898,d3c759e0,FAIL,13,NO,0,NO,0,2020-04-23 15:26:57 +0200,"[WIP] basic handling of multi-session in ArbiterModule (routes: arbiter, arbiter/multisession)",5338,462357
+899,64c9008e,FAIL,13,NO,0,NO,0,2020-04-30 11:39:52 +0200,"multi-session routes in ArbiterModule, optimize getLastUpdateTime",5338,462395
+900,8f55214d,FAIL,14,NO,0,NO,0,2020-05-05 18:54:42 +0200,JavaScript side of multi-session support in Arbiter UI,5338,462395
+901,cf11c239,FAIL,14,NO,0,NO,0,2020-05-06 11:27:45 +0200,fix session list relative links in TrainModule and ArbiterModule; fix auto-attach in ArbiterModule at arbiter/sid,5338,462399
+902,55be6690,FAIL,13,NO,0,NO,0,2020-05-06 13:39:36 +0200,use last completed task for Total Runtime instead of currentTimeMillis in ArbiterModule Summary Status,5338,462402
+903,cf24728f,FAIL,12,NO,0,NO,0,2020-05-06 14:56:22 +0200,tests for auto-attach and manual attach; improve JavaDoc,5338,462439
+904,9f47c8ac,FAIL,12,NO,0,NO,0,2020-05-08 12:51:01 +0200,narrow down UIServer.stop() to declare throwing InterruptedException; fix typo in test,5338,462439
+905,06134856,FAIL,13,NO,0,NO,0,2020-05-08 20:59:39 +0300,compression ops (#436),5341,462341
+906,32092427,FAIL,13,NO,0,NO,0,2020-05-09 08:06:14 +0300,Legacy API changes (#441),5341,462341
+907,2849299b,FAIL,14,NO,0,NO,0,2020-05-09 08:09:26 +0300,Fix for https://github.com/eclipse/deeplearning4j/issues/8909 (#430),5341,462351
+908,10d6c3b0,FAIL,12,NO,0,NO,0,2020-05-09 12:56:45 +0300,do not relocate stuff on java side (#444),5341,462349
+909,e8832564,FAIL,12,NO,0,NO,0,2020-05-09 19:58:07 +1000,Merge remote-tracking branch 'eclipse/master',5341,462349
+910,6844cfe1,FAIL,13,NO,0,NO,0,2020-05-09 20:00:02 +1000,Merge pull request #8929 from KonduitAI/master,5341,462349
+911,58fe365c,FAIL,14,NO,0,NO,0,2020-05-11 11:45:48 +1000,Merge pull request #8908 from hosuaby/feature/loadModelFromStream,5341,462440
+912,20f451e8,FAIL,11,NO,0,NO,0,2020-05-11 11:49:50 +1000,Merge remote-tracking branch 'eclipse/master' into ui_multisession_arbiter,5341,462610
+913,ea56ce74,FAIL,13,NO,0,NO,0,2020-05-11 12:25:31 +1000,Import fix given recent refactoring,5341,462610
+914,2cdb2b34,FAIL,13,NO,0,NO,0,2020-05-11 04:31:28 +0200,Remove GloVe (#437),5316,460314
+915,57d16653,FAIL,12,NO,0,NO,0,2020-05-11 12:55:36 +1000,Merge remote-tracking branch 'eclipse/master',5316,460405
+916,91a2004d,FAIL,11,NO,0,NO,0,2020-05-11 15:57:00 +1000,Assorted fixes (#445),5316,460410
+917,a76f957b,FAIL,13,NO,0,NO,0,2020-05-11 19:24:17 +1000,Merge pull request #8872 from printomi/ui_multisession_arbiter,5341,462610
+918,b786418c,FAIL,11,NO,0,NO,0,2020-05-11 21:29:52 +1000,Fix an issue when creating DataBuffer/INDArray from ByteBuffer for multiple datatypes (#446),5316,460460
+919,f0adb6f7,FAIL,12,NO,0,NO,0,2020-05-11 15:41:43 +0300,[WIP] minor fixes (#447),5316,460460
+920,0d8b2d65,FAIL,10,NO,0,NO,0,2020-05-11 22:53:22 +1000,Merge remote-tracking branch 'eclipse/master',5316,460630
+921,9db86cec,FAIL,12,NO,0,NO,0,2020-05-11 22:57:02 +1000,Merge pull request #8930 from KonduitAI/master,5316,460630
+922,05c0f12c,FAIL,12,NO,0,NO,0,2020-05-11 16:55:23 +0300,bump up shared memory (#449),5316,460630
+923,ed5a2e56,FAIL,12,NO,0,NO,0,2020-05-11 23:58:36 +1000,Merge pull request #8931 from KonduitAI/master,5316,460630
+924,e2cd4615,FAIL,13,NO,0,NO,0,2020-05-12 12:31:52 +1000,Remove iOS from nd4j-native-platform until fixed (#451),5316,460630
+925,872a5110,FAIL,12,NO,0,NO,0,2020-05-12 13:02:19 +1000,Update docs links to new website URLs [WIP] (#452),5316,460630
+926,76f35536,FAIL,12,NO,0,NO,0,2020-05-12 07:47:09 +0300,Shyrma merge max ind (#443),5316,460630
+927,7d6f628b,FAIL,12,NO,0,NO,0,2020-05-12 07:48:29 +0300,stop using static library for tests (#450),5316,460630
+928,5e9ee8b9,FAIL,12,NO,0,NO,0,2020-05-12 14:52:48 +1000,ND4J no backend URL (#453),5316,460630
+929,bf017b45,FAIL,13,NO,0,NO,0,2020-05-12 14:53:58 +1000,Merge remote-tracking branch 'eclipse/master',5316,460630
+930,bfaa20e4,FAIL,13,NO,0,NO,0,2020-05-12 14:56:08 +1000,Merge pull request #8935 from KonduitAI/master,5316,460630
+931,5e55e920,FAIL,14,NO,0,NO,0,2020-05-13 01:37:11 +1000,Empty array casting fix (#457),5316,460642
+932,f547f783,FAIL,12,NO,0,NO,0,2020-05-13 14:50:23 +1000,Keras import - remove debug lines (println/log) [WIP] (#459),5316,460638
+933,c396fcb9,FAIL,14,NO,0,NO,0,2020-05-13 08:12:07 +0300,More pre-release fixes (#456),5317,460737
+934,a4d74ec4,FAIL,13,NO,0,NO,0,2020-05-13 19:47:51 +1000,Fix wrong indexer for some DataBuffer constructors for UINT32 datatype (#458),5317,460781
+935,3714214b,FAIL,14,NO,0,NO,0,2020-05-13 14:02:57 +0300,temporary ignored section added (#462),5317,460781
+936,1ce65fce,FAIL,12,NO,0,NO,0,2020-05-13 21:05:39 +1000,Fix missing comma (#463),5317,460781
+937,60f103fb,FAIL,11,NO,0,NO,0,2020-05-13 16:00:54 +0300,[WIP] Few more pre-release fixes (#461),5319,460945
+938,1c15d0f3,FAIL,12,NO,0,NO,0,2020-05-13 18:36:38 +0400,casting fixes (#464),5319,460949
+939,1a6ada0c,FAIL,12,NO,0,NO,0,2020-05-14 00:39:50 +1000,Merge pull request #8949 from KonduitAI/master,5319,460949
+940,81be92a5,FAIL,10,NO,0,NO,0,2020-05-13 18:13:51 +0300,Update to version 1.0.0-beta7,5319,460949
+941,da4256b8,FAIL,11,NO,0,NO,0,2020-05-13 18:16:08 +0300,Update to version 1.0.0-SNAPSHOT,5319,460949
+942,62e9dc83,FAIL,13,NO,0,NO,0,2020-05-14 16:56:15 +1000,Merge pull request #8950 from eclipse/release/1.0.0-beta7,5319,460949
+943,8c5af5e5,FAIL,12,NO,0,NO,0,2020-06-01 10:39:04 -0700,Update README.md,5319,460949
+944,c22de70a,FAIL,12,NO,0,NO,0,2020-06-01 10:39:59 -0700,Update README.md,5319,460949
+945,81e96694,FAIL,12,NO,0,NO,0,2020-06-01 10:41:13 -0700,Update README.md,5319,460949
+946,73f00cba,FAIL,11,NO,0,NO,0,2020-06-01 11:28:47 -0700,Update README.md,5319,460949
+947,57514dc1,FAIL,11,NO,0,NO,0,2020-06-01 11:29:07 -0700,Update README.md,5319,460949

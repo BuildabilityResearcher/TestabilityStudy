@@ -1,0 +1,5 @@
+exception,count
+java.lang.AssertionError,1115
+org.junit.ComparisonFailure,1059
+org.opentest4j.AssertionFailedError,873
+org.mockito.exceptions.verification.TooFewActualInvocations,2

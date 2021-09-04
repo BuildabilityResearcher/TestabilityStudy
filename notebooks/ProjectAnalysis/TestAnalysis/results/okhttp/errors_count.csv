@@ -1,0 +1,15 @@
+error,count
+chNetworkProducer,542
+Could not initialize class sun.security.ssl.SSLExtension,32729
+PKIX path validation failed: sun.security.validator.ValidatorException: TrustAnchor with subject &quot;CN=eb859e92cd63&quot; is not a CA certificate,12406
+No appropriate protocol (protocol is disabled or cipher suites are inappropriate),163
+stream was reset: CANCEL,309
+Connection reset,26
+Read timed out,7
+shutdown,1
+Expected &#x27;:version&#x27; header not present,2
+,2998
+Broken pipe (Write failed),4
+Socket closed,1
+PKIX path validation failed: sun.security.validator.ValidatorException: TrustAnchor with subject &quot;CN=localhost&quot; is not a CA certificate,4268
+clientBuilder.sslSocketFactory(SSLSocketFactory) not supported on JDK 9+,24

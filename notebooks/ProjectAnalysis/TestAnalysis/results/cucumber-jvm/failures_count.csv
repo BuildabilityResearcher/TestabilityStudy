@@ -1,0 +1,6 @@
+exception,count
+java.lang.AssertionError,181
+org.junit.ComparisonFailure,113
+java.lang.NullPointerException,1
+org.mockito.exceptions.verification.VerificationInOrderFailure,27
+org.mockito.exceptions.verification.WantedButNotInvoked,10

@@ -1,0 +1,64 @@
+error,count
+,921
+8,2
+"Index: 1, Size: 1",195
+Could not initialize class com.hankcs.hanlp.model.CRFSegmentModel,58
+D:\JavaProjects\TireSpeed\data\WordList.txt (No such file or directory),350
+Could not initialize class com.hankcs.hanlp.seg.common.Vertex,96
+Could not initialize class com.hankcs.hanlp.dictionary.CoreDictionary,10
+键值个数为0！,2
+Could not initialize class com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary,6
+data/test/out.bin (No such file or directory),48
+Could not initialize class com.hankcs.hanlp.dictionary.BiGramDictionary,6
+"Index: 0, Size: 0",2
+D:\Doc\语料库\company.dic (No such file or directory),2
+data/test/nt/company.txt (No such file or directory),2
+data/test/out.dat (No such file or directory),4
+data/dictionary/CustomDictionary.txt (No such file or directory),4
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 3 ms,105
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 2 ms,145
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 7 ms,27
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 4 ms,40
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 1 ms,165
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 14 ms,4
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 13 ms,2
+16,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 5 ms,24
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 19 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 6 ms,36
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 115 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 90 ms,2
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 119 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 84 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 109 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 106 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 94 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 96 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 100 ms,2
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 91 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 98 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 105 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 103 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 10 ms,2
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 8 ms,10
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 0 ms,3
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 11 ms,1
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 9 ms,7
+CRF分词模型加载 data/model/segment/CRFSegmentModel.txt 失败，耗时 12 ms,1
+data/model/perceptron/pku199801/ner.bin 加载失败,288
+data/model/perceptron/pku199801/pos.bin 加载失败,432
+data/model/perceptron/pku199801/cws.bin 加载失败,1973
+data/test/pku98/199801.txt (No such file or directory),777
+java.io.IOException: data/model/perceptron/pku199801/cws.bin 加载失败,127
+data/test/crf/cws.bin 加载失败,3
+data/test/crf/pos.bin 加载失败,2
+data/test/crf/pos-template.txt (No such file or directory),115
+data/test/crf/pos-corpus.tsv (No such file or directory),115
+data/model/crf/pku199801/cws.bin 加载失败,226
+data/test/crf/cws-corpus.tsv (No such file or directory),113
+data/model/crf/pku199801/pos.bin 加载失败,113
+data/model/crf/pku199801/ner.bin 加载失败,113
+data/test/crf/ner-template.txt (No such file or directory),113
+data/test/crf/ner-corpus.tsv (No such file or directory),113
+data/test/my_cws_corpus.txt (No such file or directory),12
+data/test/cnname.bin 加载失败,18
