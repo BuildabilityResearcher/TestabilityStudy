@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5425240.svg)](https://doi.org/10.5281/zenodo.5425240)
 
-Reproduction package for the paper "Testing the past: can we still run tests in past snapshots?", presented to ICSE 2022 (still under review). This package contains:
+Reproduction package for the paper "Testing the past: can we still run tests in past snapshots?", presented to MSR 2022 (still under review). This package contains:
 
 ```bash
 .
